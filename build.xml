@@ -10,10 +10,34 @@
         <delete>
             <fileset dir="output/">
                 <include name="**/*.html"/>
+                <include name="**/*.xml"/>
             </fileset>
         </delete>
     </target>
     
+     <target name="stats" >
+     <style 
+        in="dictionaries/engcat/list.xml"
+        out="output/engcat/stats/counts.xml" 
+        style="input/engcat/counts.xsl">
+    </style>
+     <style 
+        in="output/engcat/stats/counts.xml"
+        out="output/engcat/stats/stats.html" 
+        style="input/engcat/stats.xsl">
+    </style>
+    
+     <style 
+        in="dictionaries/cateng/list.xml"
+        out="output/cateng/stats/counts.xml" 
+        style="input/cateng/counts.xsl">
+    </style>
+     <style 
+        in="output/cateng/stats/counts.xml"
+        out="output/cateng/stats/stats.html" 
+        style="input/cateng/stats.xsl">
+    </style>
+     </target>
     <target name="publish" >
        
     
