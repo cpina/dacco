@@ -197,7 +197,7 @@ window.onunload=saveswitchstate
 						<xsl:value-of select="../text()"/>
 					</xsl:if>
 				</xsl:variable>
-				<xsl:attribute name="href"><xsl:text disable-output-escaping="yes">	http://www.verbix.com/webverbix/go.asp?T1=</xsl:text><xsl:value-of select="$lookup"/><xsl:text disable-output-escaping="yes">&amp;D1=20&amp;H1=120</xsl:text></xsl:attribute>
+				<xsl:attribute name="href"><xsl:text disable-output-escaping="yes">http://www.verbix.com/webverbix/go.asp?T1=</xsl:text><xsl:value-of select="$lookup"/><xsl:text disable-output-escaping="yes">&amp;D1=20&amp;H1=120</xsl:text></xsl:attribute>
 				<xsl:attribute name="target">	verbix</xsl:attribute>
 				<span class="conj">conj</span>
 			</xsl:element>
