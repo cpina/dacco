@@ -16,6 +16,12 @@
     </target>
     
      <target name="stats" >
+     <delete>
+            <fileset dir="output/">
+                <include name="**/stats.html"/>
+                <include name="**/counts.xml"/>
+            </fileset>
+        </delete>
      <style 
         in="dictionaries/engcat/list.xml"
         out="output/engcat/stats/counts.xml" 
