@@ -572,6 +572,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="2720000">omit<verbs double="true">
+			<translations>
+				<translation>ometre</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="23300000">on<prepositions>
 			<translations>
 				<translation>a / en</translation>
@@ -789,7 +795,7 @@
 	</Entry>
 	<Entry frequency="79900000">opinion<nouns>
 			<translations>
-				<translation gender="f">opinió</translation>
+				<translation gender="f">opinió<engexamp>In my opinion...</engexamp><catexamp>Al meu parer...</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -804,6 +810,22 @@
 				<translation gender="m">opi</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="5400000">opponent<nouns>
+			<translations>
+				<translation gender="m / f">oponent</translation>
+                                <translation gender="m / f">opositor</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="13900000">opposition<nouns>
+			<translations>
+				<translation gender="f">oposició</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation catagory="politics">opositor<catexamp>Candidat opositor</catexamp><engexamp>Opposition candidate</engexamp></translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="16700000">optimize<verbs>
 			<translations>
@@ -1113,6 +1135,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="1610000">osprey<nouns>
+			<translations>
+				<translation catagory="animal-bird" gender="m">àguila pescadora</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="95900">ostentatious<adjectives>
 			<translations>
 				<translation>ostentós</translation>
@@ -1349,9 +1377,30 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="2650000">overbooking<nouns>
+			<translations>
+				<translation termcat="true" gender="f">sobrereserva</translation>
+                                <translation gender="m">overbooking</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="698000">overcast<adjectives>
 			<translations>
 				<translation catagory="weather">ennuvolat</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="7450000">overcome<verbs>
+        <past>overcame</past>
+        <participle>overcome</participle>
+			<translations>
+				<translation>superar<example>Schwartz &lt;b&gt;overcame&lt;/b&gt; many obstacles to make the team.</example></translation>
+                                </translations>
+                                </verbs>
+                                <adjectives>
+                                <translations>
+                                <translation>intoxicat<engnote>'Intoxicat' can be used to mean 'overcome' in the sense 'overcome by smoke' ('intoxicat pel fum').</engnote><example>The woman could not escape from the burning building as she was &lt;b&gt;overcome&lt;/b&gt; by smoke.</example></translation>
+                                <translation>endut / emportat / dominat / (deixar-se) dur / (deixar-se) portar<engnote>These are a few possibilities for expressing 'overcome' in the sense 'overcome with emotion' (e.g. 'Endut per l'emoció', 'Emportat per l'emoció', 'Dominat per l'emoció', 'M'he deixat dur per l'emoció', 'Em vaig dexiar portar per l'emoció'.</engnote><example>When her daughter got married, Mary was &lt;b&gt;overcome&lt;/b&gt; with emotion.</example></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1496,6 +1545,12 @@
 	<Entry frequency="5240000">oxygen<nouns>
 			<translations>
 				<translation catagory="chemistry" gender="m">oxigen</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="364000">oxymoron<nouns>
+			<translations>
+				<translation catagory="linguistics" gender="m">oxímoron<catnote>Procediment que consisteix a unir dues paraules aparentment contradictòries, per tal de donar un caràcter inesperat a l'expressió d'una idea.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>

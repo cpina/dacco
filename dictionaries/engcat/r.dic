@@ -326,6 +326,22 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="7220000">rally<nouns>
+			<translations>
+				<translation catagory="sports-event" gender="m">ral·li</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1080000">ramble<verbs>
+			<translations>
+				<translation>fer excursió / fer de rodamón</translation>
+                                <translation>ramblejar</translation>
+			</translations>
+		</verbs>
+                <nouns>
+                <translations>
+                <translation gender="f">caminada</translation></translations></nouns>
+	</Entry>
 	<Entry frequency="32200">Rams<nouns>
 			<translations>
 				<translation catagory="sports-event-football-teams" register="colloquial" noteng="TRUE" local="gb">-<catnote>The Rams és el sobrenom de l'equip de futbol anglès Derby County FC</catnote>
@@ -447,6 +463,12 @@
 				<translation>rarament</translation>
 			</translations>
 		</adverbs>
+	</Entry>
+        <Entry frequency="814000">rarity<nouns>
+			<translations>
+				<translation gender="f">raresa<plural>rarities</plural></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="1700000">rash<nouns>
 			<translations>
@@ -606,7 +628,7 @@
 		</verbs>
 		<nouns>
 			<translations>
-				<translation approval="true" topic="11">llegidor<engnote>This entry is provisional and pending approval</engnote>
+				<translation approval="true" topic="11">llegidor / lectura<engnote>This entry is provisional and pending approval</engnote>
 					<catnote>Si es diu que un llibre és un 'good / interesting read', vol dir que és un bon llibre o un llibre interessant (aquesta entrada és provisional i espera l'aprovació dels usuaris de Dacco)</catnote>
 				</translation>
 			</translations>
@@ -1060,11 +1082,18 @@
 					<engexamp>To beat the world record</engexamp>
 					<catexamp>Batre el rècord mundial</catexamp>
 				</translation>
+                                <translation gender="m">registre</translation>
 			</translations>
 		</nouns>
 		<adjectives>
 			<translations>
 				<translation>rècord</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="783000">recordable<adjectives>
+			<translations>
+				<translation>gravable</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1074,6 +1103,18 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="32600000">recording<nouns>
+			<translations>
+				<translation gender="m">enregistrament</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="11300000">recover<verbs>
+			<translations>
+				<translation>recuperar</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="3020000">recruit<verbs>
 			<translations>
@@ -1153,6 +1194,12 @@
 				<translation catagory="food-fruit" gender="f">grosella</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="560000">redden<verbs>
+			<translations>
+				<translation>enrogir-se / posar-se vermell</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="63500">Red Devils<nouns>
 			<translations>
@@ -1258,6 +1305,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="8210000">refine<verbs>
+			<translations>
+				<translation>refinar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="4670000">refined<adjectives>
+			<translations>
+				<translation>refinat</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="36100000">reflect<verbs>
 			<translations>
 				<translation>reflectir<synonyms>mirror</synonyms>
@@ -1347,6 +1406,16 @@
 				</translation>
 			</translations>
 		</verbs>
+	</Entry>
+         <Entry frequency="16100000">regard<nouns>
+			<translations>
+                        <translation gender="m">respecte<example>He has little &lt;b&gt;regard&lt;/b&gt; for the truth.</example></translation>
+				<translation gender="m">record<engexamp>Best regards</engexamp><catexamp>Amb els millors desitjos</catexamp></translation>
+			</translations>
+		</nouns>
+                <verbs>
+                <translations>
+                <translation>considerar<example>I don't &lt;b&gt;regard&lt;/b&gt; that as being significant.</example></translation></translations></verbs>
 	</Entry>
 	<Entry frequency="33400000">regarding<prepositions>
 			<translations>
@@ -1679,6 +1748,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="9570000">remark<nouns>
+			<translations>
+				<translation gender="m">comentari</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                <translations>
+                <translation>comentar</translation></translations></verbs>
+	</Entry>
 	<Entry frequency="3190000">remedy<nouns>
 			<translations>
 				<translation catagory="medical" gender="m">remei / guariment<plural>remedies</plural>
@@ -1704,7 +1782,13 @@
 			</translations>
 		</verbs>
 	</Entry>
-        <Entry frequency="567000">remorse<nouns>
+        <Entry frequency="6720000">reminder<nouns>
+			<translations>
+				<translation gender="m">recordatori</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="567000">remorse<nouns>
 			<translations>
 				<translation gender="m">remordiment</translation>
 			</translations>
@@ -2436,6 +2520,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="358000">rewritable<adjectives>
+			<translations>
+				<translation>regravable</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="796000">rheumatoid arthritis<nouns>
 			<translations>
 				<translation catagory="medical-illness" gender="f">artritis reumatoide</translation>
@@ -2719,6 +2809,8 @@
 				<translation catagory="transport" gender="f">carretera</translation>
 			</translations>
 		</nouns>
+                <adjectives>
+                <translations><translation>viari<engexamp>Road safety</engexamp><catexamp>Seguretat viària</catexamp></translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="227000">road rage<nouns>
 			<translations>
@@ -3082,6 +3174,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="15600000">routine<nouns>
+			<translations><date>0205</date>
+				<translation gender="f">rutina</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>routine</translation></translations></adjectives>
+	</Entry>
 	<Entry frequency="16200000">row<nouns>
 			<translations>
 				<translation gender="f">fila</translation>
@@ -3181,7 +3282,7 @@
 	</Entry>
 	<Entry frequency="2220000">rude<adjectives>
 			<translations>
-				<translation>mal educat / descortès</translation>
+				<translation>mal educat / descortès / impertinent</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3345,6 +3446,13 @@
 	<Entry frequency="1750000">runway<nouns>
 			<translations>
 				<translation catagory="transport" gender="f">pista</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1620000">rupture<nouns>
+			<translations>
+				<translation gender="m">trencament</translation>
+                                <translation gender="f">ruptura</translation>
 			</translations>
 		</nouns>
 	</Entry>
