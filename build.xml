@@ -44,6 +44,12 @@
         style="input/cateng/stats.xsl">
     </style>
      </target>
+     
+    <target name="site" depends="publish">
+      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/cateng4eng">
+        <fileset dir="output/engcat/engSpeakers/full"/>
+      </copy>
+    </target> 
     <target name="publish" >
        
     
