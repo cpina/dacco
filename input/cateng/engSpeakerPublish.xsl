@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <xsl:param name="minFrequency"/>
 <xsl:param name="speaker"/>
-	<xsl:output method="html" version="1.0" encoding="ISO-8859-1" omit-xml-declaration="yes" indent="no" media-type="text/html"/>
+	<xsl:output method="html" version="1.0" encoding="UTF-8" omit-xml-declaration="yes" indent="no" media-type="text/html"/>
 	<!--XSL Stylesheet for generating Datasheet-->
 	<xsl:template match="dictionary">
 		<html>
@@ -14,7 +14,7 @@
 				<script type="text/javascript"><![CDATA[
 
 /***********************************************
-* Switch Content script- © Dynamic Drive (www.dynamicdrive.com)
+* Switch Content script- (c) Dynamic Drive (www.dynamicdrive.com)
 * This notice must stay intact for use
 * Visit http://www.dynamicdrive.com/ for full source code
 ***********************************************/
@@ -374,6 +374,7 @@ window.onunload=saveswitchstate
 <br/>
 </xsl:if>
 <xsl:if test="count(plural) > 0">
+<xsl:comment> plural <xsl:value-of select="plural"/> </xsl:comment>
 				<span class="plural"><i>pl. </i></span><i><b><xsl:value-of select="plural"/></b></i>
 					<xsl:if test="count(fems) > 0">
 <xsl:text> </xsl:text>
@@ -382,6 +383,7 @@ window.onunload=saveswitchstate
 			</xsl:if>
 			
 	<xsl:if test="count(fems) > 0">
+        <xsl:comment> fems <xsl:value-of select="fems"/> </xsl:comment>
 				<span class="fems"><i>f.s. </i></span><i><b><xsl:value-of select="fems"/></b></i>
 				<xsl:if test="count(femplural) > 0">
 <xsl:text> </xsl:text>
@@ -391,6 +393,7 @@ window.onunload=saveswitchstate
 </xsl:if>
 
 <xsl:if test="count(femplural) > 0">
+<xsl:comment> femplural <xsl:value-of select="femplural"/> </xsl:comment>
 				<span class="femplural"><i>f.pl. </i></span><i><b><xsl:value-of select="femplural"/></b></i>
 </xsl:if>
 

@@ -21,7 +21,7 @@
 				<script type="text/javascript"><![CDATA[
 
 /***********************************************
-* Switch Content script- © Dynamic Drive (www.dynamicdrive.com)
+* Switch Content script- (c) Dynamic Drive (www.dynamicdrive.com)
 * This notice must stay intact for use
 * Visit http://www.dynamicdrive.com/ for full source code
 ***********************************************/

@@ -6,7 +6,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <xsl:param name="minFrequency"/>
 <xsl:param name="speaker"/>
-	<xsl:output method="html" version="1.0" encoding="ISO-8859-1" omit-xml-declaration="yes" indent="no" media-type="text/html"/>
+	<xsl:output method="html" version="1.0" encoding="UTF-8" omit-xml-declaration="yes" indent="no" media-type="text/html"/>
 	<!--XSL Stylesheet for generating Datasheet-->
 	<xsl:template match="dictionary">
 		<html>
