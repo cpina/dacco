@@ -1816,9 +1816,14 @@
 	</Entry>
         <Entry frequency="10800000">charm<nouns>
 			<translations>
+                        <translation>
+                        <translation gender="m">encant</translation>
 				<translation gender="f">gràcia</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                <translations>
+                <translation>encantar / captivar</translation></translations></verbs>
 	</Entry>
          <Entry frequency="29300000">chart<nouns>
 			<translations>
@@ -2656,7 +2661,7 @@
 	</Entry>
 	<Entry frequency="12100000">cite<verbs>
 			<translations>
-				<translation register="formal">citar<synonyms>quote</synonyms>
+				<translation register="formal">citar / esmentar<synonyms>quote</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -2984,6 +2989,14 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="842000">cling<verbs>
+        <past>clung</past>
+        <participle>clung</participle>
+			<translations>
+				<translation>adherir-se / aferrar-se / agafar-se</translation>
+			</translations>
+		</verbs>
+	</Entry>
         <Entry frequency="28600000">clip<nouns>
 			<translations>
 				<translation gender="m">clip</translation>
@@ -3036,9 +3049,18 @@
 			</translations>
 		</adverbs>
 	</Entry>
+        <Entry frequency="9570000">clone<verbs>
+        <translations>
+        <translation>clonar</translation></translations></verbs>
+        <nouns>
+			<translations>
+				<translation gender="m">clon</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="4590000">cloning<nouns>
 			<translations>
-				<translation catagory="biology" gender="f">clonació</translation>
+				<translation catagory="biology" gender="f">clonació<engexamp>Human cloning</engexamp><catexamp>Clonació humana</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4780,7 +4802,7 @@
 	</Entry>
         <Entry frequency="438000">contentment<nouns>
 			<translations>
-				<translation gender="f">felicitat</translation>
+				<translation gender="f">satisfacció / felicitat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5380,6 +5402,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1270000">corset<nouns>
+			<translations>
+				<translation catagory="clothes" gender="f">cotilla</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="742000">Corsica<nouns>
 			<translations>
 				<translation catagory="geography" gender="f">Còrsega</translation>
@@ -5773,11 +5801,27 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="19700000">craft<nouns>
+			<translations>
+                        <translation>
+				<translation gender="f">artesania</translation>
+                                <translation gender="m">treball manual</translation></translation>
+                                <translation catagory="transport" gender="f">nau / embarcació</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="203000">craft fair<nouns>
 			<translations>
 				<translation gender="f">fira d'artesania</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="1070000">cram<verbs double="true">
+			<translations>
+				<translation>omplir fins a dalt / atapeir</translation>
+                                <translation catagory="education">clavar colzes<engnote>'Clavar colzes' means 'to cram' in the sense 'to cram for an exam'.</engnote></translation>
+			</translations>
+		</verbs>
 	</Entry>
 <Entry frequency="378000">cramp<nouns>
 			<translations>
@@ -5855,6 +5899,12 @@
 		<nouns>
 			<translations>
 				<translation catagory="sports-event-swimming" gender="m">crol</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="471000">crayfish<nouns>
+			<translations>
+				<translation catagory="animal, food-seafood" gender="m">cranc de riu<plural>crayfish / crayfishes</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
