@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE ThisDoc [ <!ELEMENT AnyEntity (#PCDATA)>
+
+<!-- Define entities for symbols -->
+    <!ENTITY % HTMLlat1 PUBLIC
+       "-//W3C//ENTITIES Latin 1 for XHTML//EN"
+       "http://www.w3.org/TR/xhtml1/DTD/xhtml-lat1.ent">
+    %HTMLlat1;
+    ]>
+
 <dictionary>
 	<Entry frequency="589">rabí<nouns>
 			<translations>
@@ -130,7 +140,7 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="3580">radiografïa<nouns>
+	<Entry frequency="3580">radiografia<nouns>
 			<translations>
 				<translation catagory="medical-diagnostic" gender="f">x-ray</translation>
 			</translations>
@@ -270,7 +280,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="">ratolí<nouns>
+	<Entry frequency="1">ratol&iacute;<nouns>
 			<translations>
 				<translation catagory="animal-animal-wild, animal-animal-domestic" gender="m">mouse<plural>ratolins</plural>
 				</translation>
@@ -283,6 +293,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+           <Entry frequency="69900">reacció<nouns>
+			<translations>
+				<translation gender="f">reaction<plural>reaccions</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="9410">reaccionar<verbs conj="regular">
 			<translations>
 				<translation>to react<catexamp>Reaccionar a alguna cosa</catexamp>
@@ -290,6 +306,12 @@
 				</translation>
 			</translations>
 		</verbs>
+	</Entry>
+           <Entry frequency="6360">reaccionari<adjectives>
+			<translations>
+				<translation>reactionary<fems>reaccionària</fems></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="92100">realitat<nouns>
 			<translations>
@@ -306,6 +328,12 @@
 	<Entry frequency="723">rebombori<nouns>
 			<translations>
 				<translation>hullabaloo / fuss</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="9620">rebost<nouns>
+			<translations>
+				<translation catagory="household" gender="m">pantry</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -722,6 +750,20 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="60000">rehabilitació<nouns>
+			<translations>
+				<translation gender="f">renovation<plural>rehabilitacions</plural></translation>
+                                <translation gender="f">rehabilitation</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="9500">rehabilitar<verbs conj="regular">
+			<translations>
+				<translation>to renovate / to do up (Br.)</translation>
+                                <translation>to rehabilitate</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="58900">rei<nouns>
 			<translations>
@@ -1578,6 +1620,12 @@
 				<translation>robust / solid</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="110">rocafort<nouns>
+			<translations>
+				<translation catagory="food-dairy-cheese" gender="m">roquefort</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="43400">roda<nouns>
 			<translations>
