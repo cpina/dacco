@@ -274,6 +274,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="1370000">calligraphy<nouns>
+			<translations>
+				<translation gender="f">cal·ligrafia</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="169000">calling<nouns>
 			<translations>
 				<translation gender="f">vocació<synonyms>vocation</synonyms>
@@ -875,6 +881,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="137000">car pooling<nouns>
+			<translations>
+				<translation catagory="transport" termcat="true" gender="m">cotxe compartit</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="17800000">car rental<nouns>
 			<translations>
 				<translation catagory="transport" gender="m">lloguer de vehícles</translation>
@@ -939,6 +951,12 @@
 			</translations>
 		</phrasalverbs>
 	</Entry>
+         <Entry frequency="163000">car sharing<nouns>
+			<translations>
+				<translation catagory="transport" termcat="true" gender="m">cotxe multiusuari</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="84500000">cart<nouns>
 			<translations>
 				<translation local="us" gender="m">carret<otherlocal>trolley</otherlocal>
@@ -975,6 +993,13 @@
 				<translation gender="mpl">dibuixos animats</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="286000">carve<verbs>
+			<translations>
+				<translation>tallar</translation>
+                                <translation>esculpir / cisellar</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="616000">cascading style sheet<nouns>
 			<translations>
@@ -2552,7 +2577,7 @@
 	</Entry>
         <Entry frequency="2090000">chubby<adjectives>
 			<translations>
-				<translation>rodanxó / galtaplè</translation>
+				<translation>grassó / grassonet<engexamp>Chubby cheeks</engexamp><catexamp>Galtones</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2931,9 +2956,12 @@
 	</Entry>
                   <Entry frequency="6770000">clearing<nouns>
 			<translations>
-				<translation gender="f">clariana</translation>
+				<translation gender="f">clariana / clapa</translation>
 			</translations>
 		</nouns>
+                <adjectives>
+                <translations>
+                <translation catagory="financial">de compensació<engexamp>Clearing house</engexamp><catexamp>Cambra de compensació</catexamp></translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="34300000">clearly<adverbs>
 			<translations>
@@ -3641,6 +3669,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                        <Entry frequency="2370000">coma<nouns>
+			<translations>
+				<translation catagory="medical" gender="f">coma</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1450000">comb<nouns>
 			<translations>
 				<translation gender="f">pinta</translation>
@@ -3946,6 +3980,12 @@
 				<translation gender="f">compassió</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="1710000">compassionate<adjectives>
+			<translations>
+				<translation>compassiu</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="15600000">compatible<adjectives>
 			<translations>
@@ -4426,6 +4466,18 @@
 			<translations>
 				<translation catagory="work" gender="m">congrès<plural>congresses</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="664000">congruent<adjectives>
+			<translations>
+				<translation catagory="maths">congruent</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="1890000">conjecture<nouns>
+			<translations>
+				<translation gender="f">conjectura</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5188,6 +5240,10 @@
 	<Entry frequency="72200000">cool<adjectives>
 			<translations>
 				<translation>fresc</translation>
+                                <translation>calmat / tranquil / serè</translation>
+                                <translation>fred<engnote>'Fred' means 'cool' psychologically speaking</engnote></translation>
+                                <translation register="slang">de moda / a l'últim</translation>
+                                <translation register="slang">xulo / bufó / guai<engnote>'Xulo' is a borrowing from the Spanish (chulo). We have included it here as it is very widely used in Catalan. However, be aware.</engnote></translation>
 			</translations>
 		</adjectives>
 	</Entry>
