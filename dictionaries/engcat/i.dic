@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSPY v5 rel. 3 U (http://www.xmlspy.com) by Robert Hibbert (Penn State Univ) -->
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Documents and Settings\James\My Documents\dacco projects\dacco\dictionary\dic.xsd">
 	<Entry frequency="250000000">I<pronouns>
@@ -532,6 +532,21 @@
 				<translation>inversemblant / poc creïble</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="25100000">implement<verbs>
+			<translations>
+				<translation>implementar / engegar / posar en pràctica</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="32200000">implementation<nouns>
+			<translations>
+                        <translation>
+				<translation gender="ffullform">implementació</translation>
+                                <translation gender="f">engegada / posada en pràctica</translation>
+                                </translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="20300000">importance<nouns>
 			<translations>
@@ -1260,13 +1275,13 @@
         <Entry frequency="35300000">input<nouns>
 			<translations>
                         <translation>
-				<translation catagory="computers" gender="f">entrada de dades</translation>
+				<translation catagory="computers" gender="f">entrada (de dades)</translation>
                                 <translation gender="f">aportació / participació / contribució</translation></translation>
 			</translations>
 		</nouns>
                 <verbs double="true">
                 <translations>
-                <translation>introduir</translation></translations></verbs>
+                <translation catagory="computers">entrar / introduir</translation></translations></verbs>
 	</Entry>
 	<Entry frequency="2220000">inquire<verbs>
 			<translations>
@@ -1681,6 +1696,12 @@
 				<translation gender="mf">intermediari<synonyms>middleman, go-between</synonyms>
 					<plural>intermediaries</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="12100000">intern<nouns>
+			<translations>
+				<translation gender="f">persona en pràctiques</translation>
 			</translations>
 		</nouns>
 	</Entry>
