@@ -46,9 +46,46 @@
      </target>
      
     <target name="site" depends="publish">
-      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/cateng4eng">
+      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/engcat4eng">
         <fileset dir="output/engcat/engSpeakers/full"/>
       </copy>
+      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/engcat">
+        <fileset dir="output/engcat/catSpeakers/full"/>
+      </copy>
+      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/engcat4eng/cateng">
+        <fileset dir="output/cateng/engSpeakers/full"/>
+      </copy>
+      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/cateng">
+        <fileset dir="output/cateng/catSpeakers/full"/>
+      </copy>
+      
+      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/engcat4engbasic">
+        <fileset dir="output/engcat/engSpeakers/basic"/>
+      </copy>
+      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/engcatbasic">
+        <fileset dir="output/engcat/catSpeakers/basic"/>
+      </copy>
+      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/cateng4engbasic">
+        <fileset dir="output/cateng/engSpeakers/basic"/>
+      </copy>
+      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/catengbasic">
+        <fileset dir="output/cateng/catSpeakers/basic"/>
+      </copy>
+      
+      
+      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/engcat4engintermed">
+        <fileset dir="output/engcat/engSpeakers/intermed"/>
+      </copy>
+      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/engcatintermed">
+        <fileset dir="output/engcat/catSpeakers/intermed"/>
+      </copy>
+      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/cateng4engintermed">
+        <fileset dir="output/cateng/engSpeakers/intermed"/>
+      </copy>
+      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/catengintermed">
+        <fileset dir="output/cateng/catSpeakers/intermed"/>
+      </copy>
+      
     </target> 
     <target name="publish" >
        
