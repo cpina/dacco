@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE xsl:stylesheet [
-<!ENTITY middot "&#183;">
-<!ENTITY iacute "&#237;">
-]>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <xsl:param name="minFrequency"/>
 <xsl:param name="speaker"/>
-<xsl:if test="$speaker='eng'">
-<xsl:include href="eng.xsl"/>
-</xsl:if>
+
 	<xsl:output method="html" version="1.0" encoding="ISO-8859-1" omit-xml-declaration="yes" indent="yes" media-type="text/html"/>
 	<!--XSL Stylesheet for generating Datasheet-->
 	<xsl:template match="dictionary">
 		<html>
 			<head>
 				<title>
-					Catalan/English Dictionary $middot &middot; $verb;
+					Catalan/English Dictionary
 				</title>
 				<LINK REL="stylesheet" TYPE="text/css" HREF="sample.css"/>
 				<script type="text/javascript"><![CDATA[
@@ -367,7 +361,7 @@ window.onunload=saveswitchstate
 			<span class="register"> (argot) </span>
 		</xsl:if>
 		<xsl:if test="@register='colloquial'">
-			<span class="register"> (col&middot;loq) </span>
+			<span class="register"> (col.loq) </span>
 		</xsl:if>
 		<xsl:if test="@register='offensive'">
 			<span class="register"> (ofensiu) </span>
@@ -382,7 +376,7 @@ window.onunload=saveswitchstate
 			<span class="register"> (dialecte) </span>
 		</xsl:if>
 		<xsl:if test="@register='humorous'">
-			<span class="register"> (humor&iacute;stic) </span>
+			<span class="register"> (hum.) </span>
 		</xsl:if>
 		<xsl:if test="@register='formal'">
 			<span class="register"> (formal) </span>
