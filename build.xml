@@ -46,43 +46,43 @@
      </target>
      
     <target name="site" depends="publish">
-      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/engcat4eng">
+      <copy todir="/home/groups/d/da/dacco/htdocs/engcat4eng">
         <fileset dir="output/engcat/engSpeakers/full"/>
       </copy>
-      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/engcat">
+      <copy todir="/home/groups/d/da/dacco/htdocs/engcat">
         <fileset dir="output/engcat/catSpeakers/full"/>
       </copy>
-      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/engcat4eng/cateng">
+      <copy todir="/home/groups/d/da/dacco/htdocs/engcat4eng/cateng">
         <fileset dir="output/cateng/engSpeakers/full"/>
       </copy>
-      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/cateng">
+      <copy todir="/home/groups/d/da/dacco/htdocs/cateng">
         <fileset dir="output/cateng/catSpeakers/full"/>
       </copy>
       
-      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/engcat4engbasic">
+      <copy todir="/home/groups/d/da/dacco/htdocs/engcat4engbasic">
         <fileset dir="output/engcat/engSpeakers/basic"/>
       </copy>
-      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/engcatbasic">
+      <copy todir="/home/groups/d/da/dacco/htdocs/engcatbasic">
         <fileset dir="output/engcat/catSpeakers/basic"/>
       </copy>
-      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/cateng4engbasic">
+      <copy todir="/home/groups/d/da/dacco/htdocs/cateng4engbasic">
         <fileset dir="output/cateng/engSpeakers/basic"/>
       </copy>
-      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/catengbasic">
+      <copy todir="/home/groups/d/da/dacco/htdocs/catengbasic">
         <fileset dir="output/cateng/catSpeakers/basic"/>
       </copy>
       
       
-      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/engcat4engintermed">
+      <copy todir="/home/groups/d/da/dacco/htdocs/engcat4engintermed">
         <fileset dir="output/engcat/engSpeakers/intermed"/>
       </copy>
-      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/engcatintermed">
+      <copy todir="/home/groups/d/da/dacco/htdocs/engcatintermed">
         <fileset dir="output/engcat/catSpeakers/intermed"/>
       </copy>
-      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/cateng4engintermed">
+      <copy todir="/home/groups/d/da/dacco/htdocs/cateng4engintermed">
         <fileset dir="output/cateng/engSpeakers/intermed"/>
       </copy>
-      <copy todir="/home/groups/d/da/dacco/htdocs/testPublish/catengintermed">
+      <copy todir="/home/groups/d/da/dacco/htdocs/catengintermed">
         <fileset dir="output/cateng/catSpeakers/intermed"/>
       </copy>
       
