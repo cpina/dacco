@@ -282,6 +282,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1320000">pajamas<nouns>
+			<translations>
+				<translation catagory="clothes" local="us" gender="f">pijama</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="11300000">Pakistan<nouns>
 			<translations>
 				<translation catagory="country-asia" gender="m">Pakistan</translation>
@@ -1548,9 +1554,12 @@
 	</Entry>
 	<Entry frequency="3980000">Persian<nouns>
 			<translations>
-				<translation catagory="language" gender="m">farsi</translation>
+				<translation catagory="language" gender="f">persa<synonyms>Farsi, Iranian</synonyms></translation>
 			</translations>
 		</nouns>
+                <adjectives>
+                <translations>
+                <translation>persa</translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="15200">persistent offender<nouns>
 			<translations>
@@ -1637,6 +1646,21 @@
 				<translation catagory="country-southamerica" gender="m">Perú</translation>
 			</translations>
 		</nouns>
+	</Entry>
+                <Entry frequency="7430000">pest<nouns>
+			<translations>
+				<translation gender="f">plaga</translation>
+                                <translation>
+                                <translation gender="f">molèstia</translation>
+                                <translation gender="m">incordi</translation></translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="449000">pester<verbs>
+			<translations>
+				<translation>molestar</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="21900000">pet<nouns>
 			<translations>
@@ -2054,6 +2078,15 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="292000">pigeonhole<nouns>
+			<translations>
+				<translation gender="f">casella</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                <translations>
+                <translation>encasellar / etiquetar</translation></translations></verbs>
 	</Entry>
         <Entry frequency="541000">piggyback<nouns>
 			<translations>
@@ -2788,6 +2821,14 @@
 				</translation>
 				<translation catagory="nationality-europe-poland" gender="mf">polonès<engnote>'Polonès' means 'Pole' as in 'someone from Poland'</engnote>
 				</translation>
+                                <translation catagory="sports-event-motorraccing" gender="f">pole</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="468000">pole position<nouns>
+			<translations>
+				<translation catagory="sports-event-motorracing" gender="f">pole position</translation>
+                                <translation catagory="sports-event-motorracing" termcat="TRUE" gender="f">posició preferent<engnote>'Posició preferent' is the official Catalan term provided by Termcat but it does not seem at all widely used.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3043,6 +3084,12 @@
 	<Entry frequency="1690000">pornography<nouns>
 			<translations>
 				<translation gender="f">pornografia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="423000">porpoise<nouns>
+			<translations>
+				<translation catagory="animal-sea" gender="f">marsopa</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4346,7 +4393,10 @@
 	</Entry>
                 <Entry frequency="4470000">propagation<nouns>
 			<translations>
-				<translation gender="f">propagació</translation>
+                        <translation>
+				<translation gender="f">propagació / difusió</translation>
+                                <translation gender="m">foment</translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4890,6 +4940,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="2800000">pundit<nouns>
+			<translations>
+				<translation gender="mf">expert / entès</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="3330000">punish<verbs>
 			<translations>
 				<translation>castigar</translation>
@@ -4907,6 +4963,21 @@
 				<translation>punitiu</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+                <Entry frequency="1930000">Punjab<nouns>
+			<translations>
+				<translation catagory="geography-region" gender="m">Panjab</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="1200000">Punjabi<nouns>
+			<translations>
+				<translation catagory="language" gender="m">panjabi</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>panjabi</translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="196000">puny<adjectives>
 			<translations>
@@ -5158,6 +5229,12 @@
 				</translation>
 				<translation gender="m">misteri<engnote>'Misteri' means 'puzzle' in the sense of 'mystery' (e.g. 'Where John disappeared to after the party is still a puzzle')</engnote>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="555000">pyjamas<nouns>
+			<translations>
+				<translation catagory="clothes" local="gb" gender="f">pijama<otherlocal>pajamas</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
