@@ -15,7 +15,7 @@
 	</Entry>
 	<Entry frequency="4130" hasSound="true">bacteri<nouns>
 			<translations>
-				<translation gender="m">bacteria</translation>
+				<translation catagory="biology" gender="m">bacteria</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -63,7 +63,7 @@
 	</Entry>
 	<Entry frequency="213" hasSound="true">baioneta<nouns>
 			<translations>
-				<translation catagory="topicalissues-war" gender="f">bayonet</translation>
+				<translation gender="f">bayonet</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -87,13 +87,13 @@
 	</Entry>
 	<Entry frequency="1070" hasSound="true">baixista<nouns>
 			<translations>
-				<translation catagory="work-job, entertainment-music" gender="m / f">bass player</translation>
+				<translation catagory="entertainment-music" gender="m / f">bass player</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="3460" hasSound="true">bala<nouns>
 			<translations>
-				<translation catagory="topicalissues-war, crime" gender="f">bullet</translation>
+				<translation gender="f">bullet</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -146,6 +146,9 @@
 				<translation>Balearic</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation catagory="geography-region-europe" gender="fpl">Balearic Islands<engnote>The Balearic Islands are referred to either as 'les Illes Balears' or simply 'les Balears'.</engnote></translation></translations></nouns>
 	</Entry>
 	<Entry frequency="1730" hasSound="true">balena<nouns>
 			<translations>
@@ -175,7 +178,7 @@
 	</Entry>
 	<Entry frequency="430">bambes<nouns>
 			<translations>
-				<translation catagory="clothes-shoes" gender="fpl">trainers (Br.) / sneakers (Am.)</translation>
+				<translation catagory="clothes" gender="fpl">trainers (Br.) / sneakers (Am.)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -221,7 +224,7 @@
 	</Entry>
 	<Entry frequency="4610">banda ampla<nouns>
 			<translations>
-				<translation catagory="computers-internet" gender="f">broadband</translation>
+				<translation catagory="computers-internet" termcat="TRUE" gender="f">broadband</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -239,7 +242,7 @@
 	</Entry>
 	<Entry frequency="2600" hasSound="true">banqueta<nouns>
 			<translations>
-				<translation catagory="sports-event-football" gender="f">bench</translation>
+				<translation catagory="sports" gender="f">bench</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -251,7 +254,7 @@
 	</Entry>
 	<Entry frequency="1220" hasSound="true">banyador<nouns>
 			<translations>
-				<translation catagory="clothes-item, sports-event-swimming" gender="m">swimming / bathing costume</translation>
+				<translation catagory="clothes, sports-event-swimming" gender="m">swimming costume / bathing costume</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -269,7 +272,7 @@
 	</Entry>
 	<Entry frequency="206">banyera d'hidromassatge<nouns>
 			<translations>
-				<translation gender="f">jacuzzi<synonyms>jacuzzi</synonyms>
+				<translation catagory="household-room-bathroom" gender="f">jacuzzi<synonyms>jacuzzi</synonyms>
 				</translation>
 			</translations>
 		</nouns>
@@ -360,7 +363,7 @@
 	</Entry>
 	<Entry frequency="736">baríton<nouns>
 			<translations>
-				<translation gender="m">baritone</translation>
+				<translation catagory="entertainment-music" gender="m">baritone</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -427,8 +430,8 @@
 	</Entry>
 	<Entry frequency="26600" hasSound="true">basc<nouns>
 			<translations>
-				<translation catagory="language" gender="m">Basque<femplural>basques</femplural>
-				</translation>
+				<translation catagory="language" gender="m">Basque<femplural>basques</femplural></translation>
+                                <translation catagory="nationality-europe" gender="m / f">Basque</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -504,13 +507,13 @@
 	</Entry>
 	<Entry frequency="18300" hasSound="true">batalla<nouns>
 			<translations>
-				<translation catagory="topicalissues-war" gender="f">battle</translation>
+				<translation gender="f">battle</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="499">batedora<nouns>
 			<translations>
-				<translation catagory="household-room-kitchen-appliance" gender="f">mixer</translation>
+				<translation catagory="household-room-kitchen" gender="f">mixer</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -561,7 +564,7 @@
 	</Entry>
 	<Entry frequency="42300" hasSound="true">beca<nouns>
 			<translations>
-				<translation catagory="education" gender="f">grant<plural>beques</plural>
+				<translation catagory="education, financial" gender="f">grant<plural>beques</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -611,7 +614,7 @@
 	</Entry>
 	<Entry frequency="1400" hasSound="true">bel·licista<adjectives>
 			<translations>
-				<translation catagory="topicalissues-war">war-like</translation>
+				<translation>war-like</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -686,7 +689,7 @@
 	</Entry>
 	<Entry frequency="9140" hasSound="true">Berlín<nouns>
 			<translations>
-				<translation catagory="city-europe-germany" gender="m">Berlin</translation>
+				<translation catagory="geography-city-europe-germany" gender="m">Berlin</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -707,7 +710,7 @@
 	</Entry>
 	<Entry frequency="2500">Berna<nouns>
 			<translations>
-				<translation catagory="city-europe-switzerland" gender="f">Bern</translation>
+				<translation catagory="geography-city-europe-switzerland" gender="f">Bern</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -725,20 +728,20 @@
 	</Entry>
 	<Entry frequency="771" hasSound="true">besavi<nouns>
 			<translations>
-				<translation catagory="family-blood" gender="m">great grandfather<fems>besàvia</fems>
+				<translation catagory="family" gender="m">great grandfather<fems>besàvia</fems>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="246" hasSound="true">besàvia<nouns>
 			<translations>
-				<translation catagory="family-blood" gender="f">great grandmother</translation>
+				<translation catagory="family" gender="f">great grandmother</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="383" hasSound="true">besavis<nouns>
 			<translations>
-				<translation catagory="family-blood" gender="m">great grandparents</translation>
+				<translation catagory="family" gender="mpl">great grandparents</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -750,13 +753,13 @@
 	</Entry>
 	<Entry frequency="5980" hasSound="true">bessons<nouns>
 			<translations>
-				<translation catagory="family-blood" gender="m">twins</translation>
+				<translation catagory="family" gender="m">twins</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="400" hasSound="true">Bessons<nouns>
 			<translations>
-				<translation catagory="zodiac" gender="f">Gemini</translation>
+				<translation catagory="zodiac" gender="mpl">Gemini</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -822,13 +825,19 @@
 	</Entry>
 	<Entry frequency="19900" hasSound="true">bicicleta<nouns>
 			<translations>
-				<translation gender="f">bicycle</translation>
+				<translation catagory="transport-mode" gender="f">bicycle</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="545">bidet<nouns>
 			<translations>
 				<translation catagory="household-room-bathroom" gender="m">bidet</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="867">bidó<nouns>
+			<translations><date>0305</date>
+				<translation gender="m">can<plural>bidons</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -846,7 +855,7 @@
 	</Entry>
 	<Entry frequency="6490" hasSound="true">bilingüe<adjectives>
 			<translations>
-				<translation>bilingual</translation>
+				<translation catagory="linguistics">bilingual</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -923,7 +932,7 @@
 	</Entry>
 	<Entry frequency="16700" hasSound="true">bisbe<nouns>
 			<translations>
-				<translation catagory="work-job, religious" gender="m">bishop</translation>
+				<translation catagory="religious" gender="m">bishop</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1013,7 +1022,7 @@
 	</Entry>
 	<Entry frequency="1560" hasSound="true">boc<nouns>
 			<translations>
-				<translation catagory="animal-animal-farm" gender="m">billy goat</translation>
+				<translation catagory="animal-animal" gender="m">billy goat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1077,7 +1086,7 @@
 	</Entry>
 	<Entry frequency="2960" hasSound="true">bol<nouns>
 			<translations>
-				<translation catagory="household-room-kitchen-crockery" gender="m">bowl</translation>
+				<translation catagory="household-room-kitchen" gender="m">bowl</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1143,7 +1152,7 @@
 	</Entry>
 	<Entry frequency="15200" hasSound="true">bombers<nouns>
 			<translations>
-				<translation catagory="work" gender="m">fire brigade</translation>
+				<translation gender="m">fire brigade</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1257,7 +1266,7 @@
 	</Entry>
 	<Entry frequency="3690" hasSound="true">botes<nouns>
 			<translations>
-				<translation catagory="clothes-item">boots</translation>
+				<translation catagory="clothes">boots</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1297,13 +1306,13 @@
 	</Entry>
 	<Entry frequency="306000">bot salvavides<nouns>
 			<translations>
-				<translation catagory="transport" gender="m">lifeboat</translation>
+				<translation catagory="transport-mode" gender="m">lifeboat</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="15900" hasSound="true">bou<nouns>
 			<translations>
-				<translation catagory="animal-animal-farm" gender="m">ox</translation>
+				<translation catagory="animal-animal" gender="m">ox</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1330,7 +1339,7 @@
 	</Entry>
 	<Entry frequency="132">bragues<nouns>
 			<translations>
-				<translation catagory="clothes-item" gender="f">pants (Br.)</translation>
+				<translation catagory="clothes" gender="f">pants (Br.)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1360,7 +1369,7 @@
 	</Entry>
 	<Entry frequency="2910">brau<nouns>
 			<translations>
-				<translation catagory="animal-animal-farm" gender="m">bull</translation>
+				<translation catagory="animal-animal" gender="m">bull</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1421,7 +1430,7 @@
 	</Entry>
 	<Entry frequency="17500" hasSound="true">britànic<adjectives>
 			<translations>
-				<translation>British<femplural>britàniques</femplural>
+				<translation>British<catexamp>Anglès britànic</catexamp><engexamp>British English</engexamp><femplural>britàniques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
@@ -1447,14 +1456,14 @@
 	<Entry frequency="9410" hasSound="true">brossa<nouns>
 			<translations>
 				<translation gender="f">rubbish</translation>
-				<translation catagory="computers" gender="f">bug</translation>
+				<translation catagory="computers-programming" gender="f">bug</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="4800" hasSound="true">brot<nouns>
 			<translations>
 				<translation catagory="medical" gender="m">outbreak</translation>
-				<translation catagory="plant-tree" gender="m">shoot / bud</translation>
+				<translation catagory="plant" gender="m">shoot / bud</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1490,7 +1499,7 @@
 	</Entry>
 	<Entry frequency="693" hasSound="true">brusa<nouns>
 			<translations>
-				<translation catagory="clothes-item" gender="f">blouse</translation>
+				<translation catagory="clothes" gender="f">blouse</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1520,7 +1529,7 @@
 	</Entry>
 	<Entry frequency="499" hasSound="true">budells<nouns>
 			<translations>
-				<translation catagory="body-internal" gender="m">guts</translation>
+				<translation catagory="body" gender="m">guts</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1543,7 +1552,7 @@
 	</Entry>
 	<Entry frequency="4670">bufanda<nouns>
 			<translations><date>0305</date>
-				<translation catagory="clothes-item" gender="f">scarf</translation>
+				<translation catagory="clothes" gender="f">scarf</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1588,7 +1597,7 @@
 	</Entry>
 	<Entry frequency="645">bulb<nouns>
 			<translations>
-				<translation catagory="plants" gender="m">bulb</translation>
+				<translation catagory="plant" gender="m">bulb</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1683,7 +1692,7 @@
 	</Entry>
 	<Entry frequency="1780">burro<nouns>
 			<translations>
-				<translation catagory="animal-animal-farm" gender="m">donkey</translation>
+				<translation catagory="animal-animal" gender="m">donkey</translation>
 			</translations>
 		</nouns>
 	</Entry>

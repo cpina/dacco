@@ -28,7 +28,7 @@
 	</Entry>
 	<Entry frequency="9600" hasSound="true">cabra<nouns>
 			<translations>
-				<translation catagory="animal-animal-farm" gender="f">goat</translation>
+				<translation catagory="animal-animal" gender="f">goat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -40,7 +40,7 @@
 	</Entry>
 	<Entry frequency="1090" hasSound="true">cabrit<nouns>
 			<translations>
-				<translation catagory="animal-animal-farm" gender="m">kid<engnote>'Cabrit' means 'kid' as in 'young goat'</engnote>
+				<translation catagory="animal-animal" gender="m">kid<engnote>'Cabrit' means 'kid' as in 'young goat'</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -67,7 +67,7 @@
 	</Entry>
 	<Entry frequency="6520">caçador<nouns>
 			<translations>
-				<translation catagory="sports-sportsman" gender="m / f">hunter</translation>
+				<translation catagory="sports" gender="m / f">hunter</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -79,7 +79,7 @@
 	</Entry>
 	<Entry frequency="1830">cacau<nouns>
 			<translations>
-				<translation gender="m">cocoa</translation>
+				<translation catagory="food-drink" gender="m">cocoa</translation>
 				<translation gender="m">cacao</translation>
 			</translations>
 		</nouns>
@@ -117,7 +117,7 @@
 	</Entry>
 	<Entry frequency="1670">cadell<nouns>
 			<translations>
-				<translation catagory="animal-animal-domestic" gender="m">puppy</translation>
+				<translation catagory="animal-animal" gender="m">puppy</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -160,7 +160,7 @@
 	</Entry>
 	<Entry frequency="693">cafetera<nouns>
 			<translations>
-				<translation catagory="household-room-kitchen-appliance" gender="f">coffee maker</translation>
+				<translation catagory="household-room-kitchen" gender="f">coffee maker</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -197,7 +197,7 @@
 	</Entry>
 	<Entry frequency="1790">calamars<nouns>
 			<translations>
-				<translation catagory="food-seafood" gender="m">squid</translation>
+				<translation catagory="food-sea" gender="m">squid</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -221,7 +221,7 @@
 	</Entry>
 	<Entry frequency="855">calces<nouns>
 			<translations>
-				<translation catagory="clothes-item" gender="f">pants (Br.)</translation>
+				<translation catagory="clothes" gender="f">pants (Br.)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -233,7 +233,7 @@
 	</Entry>
 	<Entry frequency="788">calçotets<nouns>
 			<translations>
-				<translation catagory="clothes-item" gender="m">boxer shorts / boxers</translation>
+				<translation catagory="clothes" gender="m">boxer shorts / boxers</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -371,7 +371,7 @@
 	</Entry>
 	<Entry frequency="1030">camell<nouns>
 			<translations>
-				<translation catagory="animal-animal-zoo" gender="m">camel</translation>
+				<translation catagory="animal-animal" gender="m">camel</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -415,7 +415,7 @@
 	</Entry>
 	<Entry frequency="4810">camisa<nouns>
 			<translations>
-				<translation catagory="clothes-item" gender="f">shirt</translation>
+				<translation catagory="clothes" gender="f">shirt</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -516,7 +516,7 @@
 	</Entry>
 	<Entry frequency="1270">canceller<nouns>
 			<translations>
-				<translation catagory="politics, work-job" gender="m / f">chancellor</translation>
+				<translation catagory="politics" gender="m / f">chancellor</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -557,7 +557,7 @@
 	</Entry>
 	<Entry frequency="3080">cangur<nouns>
 			<translations>
-				<translation catagory="animal-animal-zoo" gender="m">kangaroo</translation>
+				<translation catagory="animal-animal" gender="m">kangaroo</translation>
 				<translation catagory="work-job" gender="m / f">babysitter</translation>
 			</translations>
 		</nouns>
@@ -583,7 +583,7 @@
 	</Entry>
 	<Entry frequency="18000">cantant<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">singer</translation>
+				<translation catagory="entertainment-music, work-job" gender="m / f">singer</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -848,7 +848,7 @@
 	</Entry>
 	<Entry frequency="7370">cardenal<nouns>
 			<translations>
-				<translation catagory="religious, work-job" gender="m">cardinal</translation>
+				<translation catagory="religious" gender="m">cardinal</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -866,7 +866,7 @@
 	</Entry>
 	<Entry frequency="1530">carismàtic<adjectives>
 			<translations>
-				<translation>charismatic</translation>
+				<translation>charismatic<femplural>carismàtiques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3054,9 +3054,27 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="188">contrició<nouns>
+			<translations><date>0305</date>
+				<translation catagory="religious" gender="f">contrition</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="62">contrit<adjectives>
+			<translations><date>0305</date>
+				<translation catagory="religious">contrite</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="116000">control<nouns>
 			<translations>
 				<translation gender="m">control</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="11900">controvèrsia<nouns>
+			<translations><date>0305</date>
+				<translation gender="f">controversy</translation>
 			</translations>
 		</nouns>
 	</Entry>
