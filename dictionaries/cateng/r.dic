@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!DOCTYPE ThisDoc [ <!ELEMENT AnyEntity (#PCDATA)>
-
-<!-- Define entities for symbols -->
-    <!ENTITY % HTMLlat1 PUBLIC
+<!-- edited with XMLSPY v5 rel. 3 U (http://www.xmlspy.com) by Robert Hibbert (Penn State Univ) -->
+<!DOCTYPE ThisDoc [
+	<!ELEMENT AnyEntity (#PCDATA)>
+	<!-- Define entities for symbols -->
+	<!ENTITY % HTMLlat1 PUBLIC
        "-//W3C//ENTITIES Latin 1 for XHTML//EN"
-       "http://www.w3.org/TR/xhtml1/DTD/xhtml-lat1.ent">
-    %HTMLlat1;
-    ]>
-
+       "xhtml-lat1.ent">
+	%HTMLlat1;
+]>
 <dictionary>
 	<Entry frequency="589">rabí<nouns>
 			<translations>
@@ -183,7 +182,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="4610">rajola<nouns>
+	<Entry frequency="4610">rajola<nouns>
 			<translations>
 				<translation gender="f">tile</translation>
 			</translations>
@@ -293,9 +292,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-           <Entry frequency="69900">reacció<nouns>
+	<Entry frequency="69900">reacció<nouns>
 			<translations>
-				<translation gender="f">reaction<plural>reaccions</plural></translation>
+				<translation gender="f">reaction<plural>reaccions</plural>
+				</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -307,9 +307,10 @@
 			</translations>
 		</verbs>
 	</Entry>
-           <Entry frequency="6360">reaccionari<adjectives>
+	<Entry frequency="6360">reaccionari<adjectives>
 			<translations>
-				<translation>reactionary<fems>reaccionària</fems></translation>
+				<translation>reactionary<fems>reaccionària</fems>
+				</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -331,7 +332,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-         <Entry frequency="9620">rebost<nouns>
+	<Entry frequency="9620">rebost<nouns>
 			<translations>
 				<translation catagory="household" gender="m">pantry</translation>
 			</translations>
@@ -636,15 +637,18 @@
 			</translations>
 		</verbs>
 	</Entry>
-        <Entry frequency="348">reflexologia<nouns>
+	<Entry frequency="348">reflexologia<nouns>
 			<translations>
-				<translation gender="f">reflexology<catexamp>Reflexologia podal</catexamp><engexamp>Foot reflexology</engexamp></translation>
+				<translation gender="f">reflexology<catexamp>Reflexologia podal</catexamp>
+					<engexamp>Foot reflexology</engexamp>
+				</translation>
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="11800">reforç<nouns>
+	<Entry frequency="11800">reforç<nouns>
 			<translations>
-				<translation gender="m">reinforcement<plural>reforços</plural></translation>
+				<translation gender="m">reinforcement<plural>reforços</plural>
+				</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -751,17 +755,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="60000">rehabilitació<nouns>
+	<Entry frequency="60000">rehabilitació<nouns>
 			<translations>
-				<translation gender="f">renovation<plural>rehabilitacions</plural></translation>
-                                <translation gender="f">rehabilitation</translation>
+				<translation gender="f">renovation<plural>rehabilitacions</plural>
+				</translation>
+				<translation gender="f">rehabilitation</translation>
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="9500">rehabilitar<verbs conj="regular">
+	<Entry frequency="9500">rehabilitar<verbs conj="regular">
 			<translations>
 				<translation>to renovate / to do up (Br.)</translation>
-                                <translation>to rehabilitate</translation>
+				<translation>to rehabilitate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -771,7 +776,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="476">reiki<nouns>
+	<Entry frequency="476">reiki<nouns>
 			<translations>
 				<translation gender="m">reiki</translation>
 			</translations>
@@ -848,7 +853,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="12500">rellevància<nouns>
+	<Entry frequency="12500">rellevància<nouns>
 			<translations>
 				<translation gender="f">relevance</translation>
 			</translations>
@@ -885,7 +890,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="804">renda per càpita<nouns>
+	<Entry frequency="804">renda per càpita<nouns>
 			<translations>
 				<translation catagory="financial" gender="f">per capita income</translation>
 			</translations>
@@ -1169,7 +1174,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="81700">representant<nouns>
+	<Entry frequency="81700">representant<nouns>
 			<translations>
 				<translation gender="mf">representative</translation>
 			</translations>
@@ -1403,13 +1408,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="87500">resum<nouns>
+	<Entry frequency="87500">resum<nouns>
 			<translations>
 				<translation>summary</translation>
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="9300">en resum<adverbs>
+	<Entry frequency="9300">en resum<adverbs>
 			<translations>
 				<translation>in short</translation>
 			</translations>
@@ -1421,17 +1426,21 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="3040">retina<nouns>
+	<Entry frequency="3040">retina<nouns>
 			<translations>
 				<translation catagory="body" gender="f">retina</translation>
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="18500">retirada<nouns>
+	<Entry frequency="18500">retirada<nouns>
 			<translations>
-				<translation gender="f">withdrawal<example>El Parlament israelià debat el pla de &lt;b&gt;retirada&lt;/b&gt; dels assentaments jueus de Gaza.</example><example>El primer ministre japonès rebutja la &lt;b&gt;retirada&lt;/b&gt; de les tropes.</example></translation>
-                                <translation gender="f">retirement<example>Carlos Sainz anuncia la seva &lt;b&gt;retirada&lt;/b&gt; del Mundial de ral·lis.</example></translation>
-                                <translation gender="f">removal<example>Taxa per la &lt;b&gt;retirada&lt;/b&gt; de vehicles abandonats a la via pública.</example></translation>
+				<translation gender="f">withdrawal<example>El Parlament israelià debat el pla de &lt;b&gt;retirada&lt;/b&gt; dels assentaments jueus de Gaza.</example>
+					<example>El primer ministre japonès rebutja la &lt;b&gt;retirada&lt;/b&gt; de les tropes.</example>
+				</translation>
+				<translation gender="f">retirement<example>Carlos Sainz anuncia la seva &lt;b&gt;retirada&lt;/b&gt; del Mundial de ral·lis.</example>
+				</translation>
+				<translation gender="f">removal<example>Taxa per la &lt;b&gt;retirada&lt;/b&gt; de vehicles abandonats a la via pública.</example>
+				</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1460,7 +1469,7 @@
 			</translations>
 		</verbs>
 	</Entry>
-          <Entry frequency="621">revifalla<nouns>
+	<Entry frequency="621">revifalla<nouns>
 			<translations>
 				<translation gender="f">revival</translation>
 			</translations>
@@ -1621,7 +1630,7 @@
 			</translations>
 		</adjectives>
 	</Entry>
-        <Entry frequency="110">rocafort<nouns>
+	<Entry frequency="110">rocafort<nouns>
 			<translations>
 				<translation catagory="food-dairy-cheese" gender="m">roquefort</translation>
 			</translations>
@@ -1712,7 +1721,8 @@
 	</Entry>
 	<Entry frequency="2950">ronyó<nouns>
 			<translations>
-				<translation catagory="body" gender="m">kidney<plural>ronyons</plural></translation>
+				<translation catagory="body" gender="m">kidney<plural>ronyons</plural>
+				</translation>
 			</translations>
 		</nouns>
 	</Entry>
