@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- You may freely edit this file. See commented blocks below for -->
+<!-- some examples of how to customize the build. -->
+<!-- (If you delete it and reopen the project it will be recreated.) -->
+<project name="Publisher" default="default" basedir=".">
+<description>Builds, tests, and runs the project Publisher.</description>
+
+    
+    <target name="clean" >
+        <delete>
+            <fileset dir="output/">
+                <include name="**/*.html"/>
+            </fileset>
+        </delete>
+    </target>
+    
+    <target name="publish" >
+       
+    
+        <pubcatengdic speaker="eng" minFreq="0" name="full"/>
+        <pubcatengdic speaker="eng" minFreq="100000" name="intermed"/>
+        <pubcatengdic speaker="eng" minFreq="173000" name="basic"/>
+        
+        <pubcatengdic speaker="cat" minFreq="0" name="full"/>
+        <pubcatengdic speaker="cat" minFreq="100000" name="intermed"/>
+        <pubcatengdic speaker="cat" minFreq="173000" name="basic"/>
+    
+        <pubengcatdic speaker="eng" minFreq="0" name="full"/>
+        <pubengcatdic speaker="eng" minFreq="73400000" name="intermed"/>
+        <pubengcatdic speaker="eng" minFreq="164000000" name="basic"/>
+        
+        <pubengcatdic speaker="cat" minFreq="0" name="full"/>
+        <pubengcatdic speaker="cat" minFreq="73400000" name="intermed"/>
+        <pubengcatdic speaker="cat" minFreq="164000000" name="basic"/>
+        
+        
+    </target>
+    
+    <macrodef name="pubengcatdic">
+        <attribute name="speaker"/>
+        <attribute name="minFreq"/>
+        <attribute name="name"/>
+        <sequential>
+            <copy todir="output/engcat/@{speaker}Speakers/@{name}">
+               <fileset dir="input/engcat/template"/>
+            </copy>
+            <copy file="input/navigation/@{speaker}Nav.htm" tofile="output/engcat/@{speaker}Speakers/@{name}/nav.htm"/>
+               <style 
+                    basedir="dictionaries/engcat" 
+                    destdir="output/engcat/@{speaker}Speakers/@{name}"
+                    extension=".html" style="input/engcat/@{speaker}SpeakerPublish.xsl">
+                    <param name="minFrequency" expression="@{minFreq}"/>
+                    <param name="speaker" expression="@{speaker}"/>
+                </style>
+            </sequential>
+    </macrodef>
+    
+    <macrodef name="pubcatengdic">
+        <attribute name="speaker"/>
+        <attribute name="minFreq"/>
+        <attribute name="name"/>
+        <sequential>
+             <copy todir="output/cateng/@{speaker}Speakers/@{name}">
+               <fileset dir="input/cateng/template"/>
+            </copy>
+            <copy file="input/navigation/@{speaker}Nav.htm"  tofile="output/engcat/@{speaker}Speakers/@{name}/nav.htm"/>
+               <style 
+                    basedir="dictionaries/cateng" 
+                    destdir="output/cateng/@{speaker}Speakers/@{name}"
+                    extension=".html" style="input/cateng/@{speaker}SpeakerPublish.xsl">
+                    <param name="minFrequency" expression="@{minFreq}"/>
+                    <param name="speaker" expression="@{speaker}"/>
+                </style>
+            </sequential>
+    </macrodef>
+</project>
