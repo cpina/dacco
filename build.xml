@@ -76,7 +76,8 @@
             </copy>
             <copy file="input/navigation/@{speaker}Nav.htm" tofile="output/engcat/@{speaker}Speakers/@{name}/nav.htm"/>
                <style 
-                    basedir="dictionaries/engcat" 
+                    basedir="dictionaries/engcat"
+                    includes="*.dic" 
                     destdir="output/engcat/@{speaker}Speakers/@{name}"
                     extension=".html" style="input/engcat/@{speaker}SpeakerPublish.xsl">
                     <param name="minFrequency" expression="@{minFreq}"/>
@@ -95,7 +96,8 @@
             </copy>
             <copy file="input/navigation/@{speaker}Nav.htm"  tofile="output/engcat/@{speaker}Speakers/@{name}/nav.htm"/>
                <style 
-                    basedir="dictionaries/cateng" 
+                    basedir="dictionaries/cateng"
+                    includes="*.dic" 
                     destdir="output/cateng/@{speaker}Speakers/@{name}"
                     extension=".html" style="input/cateng/@{speaker}SpeakerPublish.xsl">
                     <param name="minFrequency" expression="@{minFreq}"/>
