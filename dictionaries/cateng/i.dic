@@ -615,11 +615,30 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="90000">indicar<verbs conj="CtoQU">
+        <Entry frequency="59300">indicació<nouns>
 			<translations>
-				<translation>to indicate</translation>
+				<translation gender="ffullform">indication / sign</translation>
+			</translations>
+		</nouns>
+	</Entry>
+	<Entry frequency="223000">indicar<verbs conj="CtoQU">
+			<translations>
+				<translation>to indicate / to show / to display / to state</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="14300">indicatiu<adjectives>
+			<translations>
+                        <translation>indicative</translation>
+				<translation catagory="linguistics">indicative<fems>indicativa</fems></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="18200">indici<nouns>
+			<translations>
+				<translation gender="m">sign</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="3780">indiferència<nouns>
 			<translations>
@@ -627,9 +646,35 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="15700">indiferent<adjectives>
+			<translations>
+				<translation>indifferent</translation>
+			</translations>
+		</adjectives>
+	</Entry>
         <Entry frequency="7850">indiferent<adjectives>
 			<translations>
 				<translation>indifferent / uninterested</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="13100">indígena<adjectives>
+			<translations>
+				<translation>indigenous</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="1050">indigent<nouns>
+			<translations>
+				<translation gender="m / f">(very) poor person</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations><translation>indigent</translation></translations></adjectives>
+	</Entry>
+        <Entry frequency="98">indigerible<adjectives>
+			<translations>
+				<translation>indigestible</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -645,9 +690,45 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="687">indisciplina<nouns>
+			<translations>
+				<translation gender="ffullform">lack of discipline</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="158">indiscreció<nouns>
+			<translations>
+				<translation gender="ffullform">indiscretion<plural>indiscrecions</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="602">indiscret<adjectives>
+			<translations>
+				<translation>indiscreet</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="14000">indiscutible<adjectives>
+			<translations>
+				<translation>indisputable</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+<Entry frequency="853">indiscutiblement<adverbs>
+			<translations>
+				<translation>indisputably / without (a) doubt</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 	<Entry frequency="21500">indispensable<adjectives>
 			<translations>
 				<translation>indispensable</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="236">indistingible<adjectives>
+			<translations>
+				<translation>indistinguishable</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -656,6 +737,7 @@
 				<translation gender="m">individual</translation>
 			</translations>
 		</nouns>
+                <adjectives><translations><translation>individual<fems>indivídua</fems></translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="71000">individual<adjectives>
 			<translations>
@@ -669,16 +751,133 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="3690">indivisible<adjectives>
+			<translations>
+				<translation>indivisible</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="614">indocumentat<adjectives>
+			<translations>
+				<translation>undocumented / without (the necessary) paperwork</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="m / f">illegal (immigrant)<fems>indocumentada</fems></translation></translations></nouns>
+	</Entry>
+        <Entry frequency="1090">indoeuropeu<adjectives>
+			<translations>
+				<translation catagory="linguistics">Indo-European<fems>indoeuropea</fems></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="9090">índole<nouns>
+			<translations>
+				<translation catagory="f">nature<engnote>'índole' means 'nature' in the sense 'he has a nice nature' or 'things of a completely different nature'.</engnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="246">indolència<nouns>
+			<translations>
+				<translation gender="ffullform">laziness / apathy / passivity</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="317">indolent<adjectives>
+			<translations>
+				<translation catagory="medical">indolent<engnote>'Indolent' in a medical sense means 'painless / harmless / non-malignant / benign'.</engnote></translation>
+                                <translation>lazy</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="509">indomable<adjectives>
+			<translations>
+				<translation>indomitable</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="479">indòmit<adjectives>
+			<translations>
+				<translation>indomitable<fems>indòmita</fems></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="2740">indonesi<nouns>
 			<translations>
-				<translation catagory="nationality-asia" gender="m / f">Indonesian</translation>
+				<translation catagory="nationality-asia" gender="m / f">Indonesian<fems>indonèsia</fems></translation>
 				<translation catagory="language" gender="m">Indonesian</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="7480">Indonèsia<nouns>
+			<translations>
+				<translation catagory="country-asia" gender="ffullform">Indonesia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="73400">indret<nouns>
+			<translations>
+				<translation gender="m">place / location / spot</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="7460">indubtable<adjectives>
+			<translations>
+				<translation>unquestionable / indubitable (form.)</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="6630">inducció<nouns>
+			<translations>
+				<translation catagory="physics" gender="ffullform">induction<catexamp>Inducció electromagnètica</catexamp><engexamp>Electromagnetic induction</engexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="512">indulgència<nouns>
+			<translations>
+				<translation gender="ffullform">indulgence</translation>
+                                <translation catagory="religious" gender="ffullform">indulgence</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="304">indulgent<adjectives>
+			<translations>
+				<translation>indulgent</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="983">indult<nouns>
+			<translations>
+				<translation gender="m">pardon / reprieve</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="6290">indumentària<nouns>
+			<translations>
+				<translation gender="ffullform">study of period clothing / study of national dress</translation>
+                                <translation gender="ffullform">clothing / dress / attire / apparel</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="82400">indústria<nouns>
 			<translations>
-				<translation gender="f">industry</translation>
+				<translation gender="ffullform">industry</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="323000">industrial<adjectives>
+			<translations>
+				<translation>industrial</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="m / f">industrialist</translation></translations></nouns>
+	</Entry>
+        <Entry frequency="10800">industrialització<nouns>
+			<translations>
+				<translation gender="ffullform">industrialization / industrialisation (Br.)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -689,12 +888,54 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="767">inepte<adjectives>
+			<translations>
+				<translation>inept<fems>inepta</fems></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="625">ineptitud<nouns>
+			<translations>
+				<translation gender="ffullform">ineptitude</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="7060">inequívoc<adjectives>
+			<translations>
+				<translation>unequivocal / unambiguous / clear-cut<fems>inequívoques</fems></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="5870">inesperat<adjectives>
 			<translations>
 				<translation>unexpected<fems>inesperada</fems>
 				</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="22200">inevitable<adjectives>
+			<translations>
+				<translation>inevitable</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="23800">inexistent<adjectives>
+			<translations>
+				<translation>non-existent</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="4100">inexplicable<adjectives>
+			<translations>
+				<translation>inexplicable</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="3110">infermera<nouns>
+			<translations>
+				<translation gender="f">nurse</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="857">infal�lible<adjectives>
 			<translations>
@@ -708,11 +949,29 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="2250">infart<nouns>
+        <Entry frequency="164000">infant<nouns>
 			<translations>
-				<translation catagory="medical" gender="m">heart attack<catexamp>Infart cerebral</catexamp>
-					<engexamp>Stroke</engexamp>
-				</translation>
+				<translation gender="m / f">infant / child<catnote>En anglès britànic 'infant' vol dir 'bebè' o 'nen petit'. En anglès americà només vol dir 'bebè'.</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="113">infanticidi<nouns>
+			<translations>
+				<translation gender="m">infanticide</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="352000">infantil<adjectives>
+			<translations>
+				<translation>(young) childrens'<catexamp>Literatura infantil</catexamp><engexamp>Childrens' literature</engexamp></translation>
+                                <translation register="formal">infantile</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+	<Entry frequency="4230">infart<nouns>
+			<translations>
+                        <translation catagory="medical" gender="m">heart attack</translation>
+				<translation catagory="medical" gender="m">infarction<catexamp>Infart cerebral</catexamp><engexamp>Stroke</engexamp><catexamp>Infart (de miocardi)</catexamp><engexamp>Myocardial infarction / heart attack</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -723,15 +982,58 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="14200">infecciós<adjectives>
+			<translations>
+				<translation catagory="medical">infectious<plural>infecciosos</plural><fems>infecciosa</fems><catexamp>Malalties infeccioses</catexamp><engexamp>Infectious diseases</engexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="2120">infectar<verbs conj="regular">
 			<translations>
 				<translation>to infect</translation>
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="640">infeliç<adjectives>
+			<translations>
+				<translation>unhappy<synonyms>trist</synonyms><plural>infeliços</plural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="399">infelicitat<nouns>
+			<translations>
+				<translation gender="ffullform">unhappiness<synonyms>tristesa</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="136000">inferior<adjectives>
+			<translations>
+				<translation>lower</translation>
+                                <translation>inferior</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="4450">inferioritat<nouns>
+			<translations>
+				<translation gender="ffullform">inferiority<catexamp>Complex d'inferioritat</catexamp><engexamp>Inferiority complex</engexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="3110">infermera<nouns>
 			<translations>
 				<translation gender="f">nurse</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="38600">infermeria<nouns>
+			<translations>
+				<translation gender="ffullform">infirmary</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="14200">infern<nouns>
+			<translations>
+				<translation catagory="religious" gender="m">hell</translation>
 			</translations>
 		</nouns>
 	</Entry>
