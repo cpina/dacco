@@ -87,6 +87,15 @@
       </copy>
       
     </target> 
+    <target name="update">
+        <cvs cvsRoot=":ext:jmacgill@cvs.sourceforge.net:/cvsroot/dacco"
+         package="." cvsRsh="plink"
+    >
+    <commandline>
+        <argument line="-p n0thing"/>
+    </commandline>
+    </cvs>
+    </target>
     <target name="publish" >
        
     
@@ -148,4 +157,18 @@
                 </style>
             </sequential>
     </macrodef>
+    
+    <target name="verbs" >
+     <delete>
+            <fileset dir="output/">
+                <include name="**/verbs.xml"/>
+            </fileset>
+        </delete>
+     <style 
+        in="dictionaries/engcat/list.xml"
+        out="output/engcat/stats/verbs.xml" 
+        style="input/engcat/verbs.xsl">
+    </style>
+     </target>
+     
 </project>
