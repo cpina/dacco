@@ -2551,12 +2551,12 @@
 	</Entry>
 	<Entry frequency="18000000">format<nouns>
 			<translations>
-				<translation catagory="computers" gender="m">format</translation>
+				<translation catagory="computers" termcat="true" gender="m">format</translation>
 			</translations>
 		</nouns>
 		<verbs double="true">
 			<translations>
-				<translation catagory="computers">formatar</translation>
+				<translation catagory="computers" termcat="true">formatar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3416,6 +3416,12 @@
 			<translations>
 				<translation catagory="household-room-kitchen" local="gb" gender="f">paella<otherlocal>skillet</otherlocal>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="62500000">FTP<engacro>File Transfer Protocol</engacro><nouns>
+			<translations>
+				<translation catagory="computers-internet" gender="m">FTP<catacro>Protocol de transferència de fitxers</catacro><engexamp>Anonymous FTP</engexamp><catexamp>FTP anònim</catexamp><engexamp>FTP server</engexamp><catexamp>Servidor FTP</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
