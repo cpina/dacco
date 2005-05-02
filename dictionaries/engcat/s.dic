@@ -1198,6 +1198,12 @@
                 <translations>
                 <translation>sedant</translation></translations></adjectives>
 	</Entry>
+        <Entry frequency="7010000">sediment<nouns>
+			<translations>
+				<translation gender="m">sediment</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="691000">seduce<verbs>
 			<translations>
 				<translation>seduir</translation>
@@ -5582,7 +5588,10 @@
 	</Entry>
            <Entry frequency="4950000">spyware<nouns>
 			<translations>
-				<translation catagory="computers" termcat="true" gender="mpl">programes espia</translation>
+                        <translation>
+				<translation catagory="computers" gender="mpl">programes espia</translation>
+                                <translation catagory="computers" termcat="true" gender="m">programari espia</translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
