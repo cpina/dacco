@@ -105,7 +105,8 @@
 	</Entry>
         <Entry frequency="3560000">backdrop<nouns>
 			<translations>
-				<translation gender="m">rerafons</translation>
+                        <translation gender="m">teló de fons<engnote>'Teló de fons' means 'backdrop' in the theatrical sense.</engnote></translation>
+			<translation gender="m">rerefons<engnote>'Rerefons' means 'backdrop' in the sense 'background' (i.e. 'International festival sadly set against backdrop of war').</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -730,6 +731,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="232000">barmaid<nouns>
+			<translations>
+				<translation catagory="work-job" local="gb" gender="f">cambrera<otherlocal>bartender</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1120000">barman<nouns>
+			<translations>
+				<translation catagory="work-job" local="gb">cambrer<otherlocal>bartender</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="49600">barmy<adjectives>
 			<translations>
 				<translation register="colloquial" local="gb">boig<synonyms>mad, crazy</synonyms>
@@ -794,7 +807,7 @@
 	</Entry>
         <Entry frequency="11800000">basement<nouns>
 			<translations>
-				<translation catagory="household-room" gender="m">sotterani</translation>
+				<translation catagory="household-room" gender="m">soterrani</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1558,6 +1571,7 @@
 	</Entry>
 	<Entry frequency="5380000">bent<adjectives>
 			<translations>
+                        <translation>doblegat</translation>
 				<translation register="colloquial">deshonest</translation>
 				<translation register="offensive">homosexual</translation>
 			</translations>
@@ -1762,6 +1776,7 @@
 			<translations>
 				<translation>gran<catnote>Els adjectius 'big' i 'large' equivalen més o menys a la paraula catalana 'gran'. Però, no sempre són sinònims. A més del fet que 'large' és més formal que 'big', i que 'big' s'utilitza habitualment per referir a les persones (per ex.: 'She's a big girl', 'His friend is very big'), hi ha moltes altres diferències súbtils.  Senyalar totes aquestes diferències ultrapassa l'abast d'aquest diccionari però us donem alguns sustantius que sempre van acompanyats de 'big' (big boss, big breath, big brother, big decision, big favour, big grin, big hit, big problem, big sigh, big sister, big smile, big yawn).</catnote>
 				</translation>
+                                <translation>gros</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1888,6 +1903,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="67700">bin liner<nouns>
+			<translations>
+				<translation local="gb" gender="f">bossa d'escombraries<otherlocal>garbage bag / trash bag</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="970">bin lorry<nouns>
 			<translations>
 				<translation catagory="transport" local="gb" gender="m">camió d'escombraries<otherlocal>refuse truck / garbage truck</otherlocal>
@@ -1984,7 +2005,7 @@
 	</Entry>
 	<Entry frequency="38400000">birth<nouns>
 			<translations>
-				<translation gender="m">naixement</translation>
+				<translation gender="m">naixement<engexamp>To give birth</engexamp><catexamp>Donar a llum / parir</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2261,7 +2282,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="35500000">blank<verbs>
+	<Entry frequency="35500000">blank<adjectives>
+        <translations>
+        <translation>en blanc</translation></translations></adjectives><verbs>
 			<translations>
 				<translation register="colloquial" local="gb">no fer cas a algú<example>I saw Lucy at the bus stop this morning and she completely &lt;b&gt;blanked&lt;/b&gt; me. I guess she still hasn't forgiven me for stealing her boyfriend!</example>
 					<example>I tried to make it up with him, but every time I tried to apologise he just &lt;b&gt;blanked&lt;/b&gt; me.</example>
@@ -2448,9 +2471,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="9170000">blonde<adjectives>
+        <Entry frequency="2340000">blond<adjectives>
 			<translations>
 				<translation>ros</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="m">ros</translation></translations></nouns>
+	</Entry>
+	<Entry frequency="9170000">blonde<adjectives>
+			<translations>
+				<translation>rossa</translation>
 			</translations>
 		</adjectives>
 		<nouns>
@@ -2792,7 +2824,7 @@
 	</Entry>
 	<Entry frequency="320000">bollocks<nouns>
 			<translations>
-				<translation catagory="body" register="vulgar" local="gb" gender="mpl">collons<synonyms>nuts (vulg.), balls (vulg.), testicles</synonyms>
+				<translation catagory="body" register="vulgar" local="gb" gender="mpl">collons<engexamp>The dog's bollocks</engexamp><catexamp>Molt bo / excel·lent</catexamp><synonyms>nuts (vulg.), balls (vulg.), testicles</synonyms>
 				</translation>
 				<translation register="vulgar" local="gb">equivocat, incorrecte<synonyms>rubbish, crap, wrong</synonyms>
 				</translation>
@@ -3729,9 +3761,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="7320">breathalyser test<nouns>
+			<translations>
+				<translation catagory="transport" local="gb" gender="m">control d'alcoholèmia<otherlocal>breathalyzer test</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="52400">breathalyzer test<nouns>
 			<translations>
-				<translation catagory="transport" gender="m">control d'alcoholèmia</translation>
+				<translation catagory="transport" local="us" gender="m">control d'alcoholèmia<otherlocal>breathalyser test</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3822,7 +3860,7 @@
 	</Entry>
 	<Entry frequency="114000">bricklayer<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m">paleta</translation>
+				<translation catagory="work-job" gender="mf">paleta</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3901,7 +3939,7 @@
 	</Entry>
 	<Entry frequency="1540000">Brit<nouns>
 			<translations>
-				<translation catagory="nationality-europe-unitedkingdom" gender="mf">britànic</translation>
+				<translation catagory="nationality-europe-unitedkingdom" register="colloquial" gender="mf">britànic</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4608,6 +4646,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="39500">bus conductor<nouns>
+			<translations>
+				<translation catagory="transport" gender="mf">cobrador (d'autobús)</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="971000">bus driver<nouns>
 			<translations>
 				<translation catagory="work-job, transport" gender="mf">conductor d'autobús</translation>
@@ -4722,7 +4766,7 @@
 	</Entry>
 	<Entry frequency="2220000">butcher<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m">carnisser</translation>
+				<translation catagory="work-job" gender="mf">carnisser</translation>
 			</translations>
 		</nouns>
 	</Entry>
