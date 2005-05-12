@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE dictionary []><!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Robert Hibbert (Penn State Univ) -->
-<dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Documents and Settings\James\My Documents\dacco projects\dacco\dictionary\dic.xsd">
+<dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dic.xsd">
 <Entry frequency="1380000">abacus<nouns>
 			<translations>
 				<translation catagory="maths" gender="m">àbac<plural>abacuses / abaci</plural></translation>
@@ -1032,7 +1032,7 @@
 	</Entry>
 	<Entry frequency="4120">Adam and Eve<verbs>
 			<translations>
-				<translation register="dialectal-Cockney" noteng="TRUE" local="gb">creure<example>Would you &lt;b&gt;Adam and Eve&lt;/b&gt; it!</example>
+				<translation register="dialectal" noteng="TRUE" local="gb">creure<example>Would you &lt;b&gt;Adam and Eve&lt;/b&gt; it!</example>
 					<synonyms>believe</synonyms>
 					<catnote>Believe &gt; Adam and Eve</catnote>
 				</translation>
@@ -1436,7 +1436,7 @@
 	</Entry>
         <Entry frequency="798000">Advil<nouns>
 			<translations>
-				<translation catagory="medical" gender="m">ibuprofèn<syonyms>ibuprofen / Motrin (Am.)</syonyms><catnote>'Advil' (i 'Motrin') són noms comercials.</catnote></translation>
+				<translation catagory="medical" gender="m">ibuprofèn<synonyms>ibuprofen / Motrin (Am.)</synonyms><catnote>'Advil' (i 'Motrin') són noms comercials.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2477,7 +2477,6 @@
 	</Entry>
         <Entry frequency="399000">Amharic<nouns>
 			<translations>
-				<date>0305</date>
 				<translation catagory="language" gender="m">amhàric</translation>
 			</translations>
 		</nouns>
@@ -2927,14 +2926,6 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="505">ANP<catacro>Autoritat Nacional Palestina</catacro>
-		<nouns>
-			<translations>
-				<translation catagory="politics" gender="f">PNA<engacro>Palestinian National Authority</engacro>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
         <Entry frequency="35300000">answer<nouns>
 			<translations>
 				<translation gender="f">resposta</translation>
@@ -3106,9 +3097,9 @@
 	</Entry>
 	<Entry frequency="16100000">anywhere<adverbs>
 			<translations>
-				<translation>a qualsevol lloc<engnote>'A qualsevol lloc' is used in affirmative sentences (i.e. 'anywhere in the world' > 'a qualsevol lloc del món')</engnote>
+				<translation>a qualsevol lloc<engnote>'A qualsevol lloc' is used in affirmative sentences (i.e. 'anywhere in the world' &gt; 'a qualsevol lloc del món')</engnote>
 				</translation>
-				<translation>enlloc<engnote>'Enlloc' is used in the negative (i.e. 'I couldn't find him anywhere' > 'No el vaig trobar enlloc')</engnote>
+				<translation>enlloc<engnote>'Enlloc' is used in the negative (i.e. 'I couldn't find him anywhere' &gt; 'No el vaig trobar enlloc')</engnote>
 				</translation>
 			</translations>
 		</adverbs>
@@ -3271,7 +3262,7 @@
 	</Entry>
 	<Entry>apples and pears<nouns>
 			<translations>
-				<translation register="dialectal-Cockney" local="gb" gender="f">escala<synonyms>stairs</synonyms>
+				<translation register="dialectal" local="gb" gender="f">escala<synonyms>stairs</synonyms>
 					<catnote>Apples and pears &gt; stairs</catnote>
 				</translation>
 			</translations>

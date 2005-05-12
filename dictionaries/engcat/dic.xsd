@@ -5,19 +5,19 @@
 	<xs:element name="Entry">
 		<xs:complexType mixed="true">
 			<xs:choice minOccurs="0" maxOccurs="unbounded">
-				<xs:element ref="nouns"/>
-				<xs:element ref="verbs"/>
-				<xs:element ref="adjectives"/>
-				<xs:element ref="exclamations"/>
-				<xs:element ref="engacro"/>
-				<xs:element ref="acronyms"/>
-				<xs:element ref="adverbs"/>
-				<xs:element ref="prepositions"/>
-				<xs:element ref="abbreviations"/>
-				<xs:element ref="conjunctions"/>
-				<xs:element ref="pronouns"/>
-				<xs:element ref="phrasalverbs"/>
-				<xs:element ref="expressions"/>
+				<xs:element ref="nouns" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="verbs" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="adjectives" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="exclamations" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="engacro" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="acronyms" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="adverbs" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="prepositions" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="abbreviations" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="conjunctions" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="pronouns" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="phrasalverbs" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="expressions" minOccurs="0" maxOccurs="1"/>
 			</xs:choice>
 			<xs:attribute name="frequency" type="xs:string"/>
 		</xs:complexType>
@@ -25,63 +25,63 @@
 	<xs:element name="acronyms">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="translations"/>
+				<xs:element ref="translations" minOccurs="1"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="adjectives">
 		<xs:complexType mixed="true">
 			<xs:sequence>
-				<xs:element ref="translations"/>
+				<xs:element ref="translations" minOccurs="1"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="adverbs">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="translations"/>
+				<xs:element ref="translations" minOccurs="1"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="prepositions">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="translations"/>
+				<xs:element ref="translations" minOccurs="1"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="conjunctions">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="translations"/>
+				<xs:element ref="translations" minOccurs="1"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="pronouns">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="translations"/>
+				<xs:element ref="translations" minOccurs="1"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="abbreviations">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="translations"/>
+				<xs:element ref="translations" minOccurs="1"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="phrasalverbs">
 		<xs:complexType mixed="true">
 			<xs:sequence>
-				<xs:element ref="translations"/>
+				<xs:element ref="translations" minOccurs="1"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="expressions">
 		<xs:complexType mixed="true">
 			<xs:sequence>
-				<xs:element ref="translations"/>
+				<xs:element ref="translations" minOccurs="1"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -102,14 +102,14 @@
 	<xs:element name="exclamations">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="translations"/>
+				<xs:element ref="translations" minOccurs="1"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="nouns">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="translations"/>
+				<xs:element ref="translations" minOccurs="1"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -131,9 +131,13 @@
 				<xs:element ref="translation"/>
 			</xs:choice>
 			<xs:attribute name="catagory" type="xs:string"/>
-			<xs:attribute name="termcat" type="xs:string"/>
-			<xs:attribute name="approval" type="xs:string"/>
-			<xs:attribute name="topic" type="xs:string"/>
+			<xs:attribute name="termcat">
+				<xs:simpleType>
+					<xs:restriction base="xs:NMTOKEN">
+						<xs:enumeration value="true"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
 			<xs:attribute name="local">
 				<xs:simpleType>
 					<xs:restriction base="xs:NMTOKEN">
@@ -151,8 +155,6 @@
 						<xs:enumeration value="slang"/>
 						<xs:enumeration value="vulgar"/>
 						<xs:enumeration value="formal"/>
-						<xs:enumeration value="dialectal-Cockney"/>
-						<xs:enumeration value="dialectal-cockney"/>
 						<xs:enumeration value="dialectal"/>
 						<xs:enumeration value="offensive"/>
 						<xs:enumeration value="derogatory"/>
@@ -173,13 +175,19 @@
 					</xs:restriction>
 				</xs:simpleType>
 			</xs:attribute>
-			<xs:attribute name="noteng" type="xs:string"/>
+			<xs:attribute name="noteng">
+			<xs:simpleType>
+					<xs:restriction base="xs:NMTOKEN">
+						<xs:enumeration value="TRUE"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="translations">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="translation" maxOccurs="unbounded"/>
+				<xs:element ref="translation" minOccurs="1" maxOccurs="unbounded"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -198,7 +206,6 @@
 				<xs:simpleType>
 					<xs:restriction base="xs:NMTOKEN">
 						<xs:enumeration value="true"/>
-						<xs:enumeration value="false"/>
 					</xs:restriction>
 				</xs:simpleType>
 			</xs:attribute>
@@ -206,7 +213,6 @@
 				<xs:simpleType>
 					<xs:restriction base="xs:NMTOKEN">
 						<xs:enumeration value="true"/>
-						<xs:enumeration value="false"/>
 					</xs:restriction>
 				</xs:simpleType>
 			</xs:attribute>
