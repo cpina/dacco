@@ -67,7 +67,7 @@
 	</Entry>
 	<Entry frequency="6520">caçador<nouns>
 			<translations>
-				<translation catagory="sports" gender="m / f">hunter</translation>
+				<translation catagory="sports" gender="m / f">hunter<fems>caçadora</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -246,7 +246,7 @@
 	</Entry>
 	<Entry frequency="2190">calb<adjectives>
 			<translations>
-				<translation>bald</translation>
+				<translation>bald<fems>calba</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -302,13 +302,13 @@
 	</Entry>
 	<Entry frequency="17300">calent<adjectives>
 			<translations>
-				<translation>hot</translation>
+				<translation>hot<fems>calenta</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
 	<Entry frequency="3870">càlid<adjectives>
 			<translations>
-				<translation>warm</translation>
+				<translation>warm<fems>càlida</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -369,9 +369,7 @@
 	</Entry>
 	<Entry frequency="">cambotjà<nouns>
 			<translations>
-				<translation catagory="nationality-asia" gender="m / f">Cambodian<fems>cambotjana</fems>
-					<plural>cambotjans</plural>
-				</translation>
+				<translation catagory="nationality-asia" gender="m / f">Cambodian</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -516,10 +514,11 @@
 	</Entry>
 	<Entry frequency="3690">canadenc<adjectives>
 			<translations>
-				<translation>Canadian<femplural>canadenques</femplural>
-				</translation>
+				<translation>Canadian</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations catagory="nationality-northamerica-canada" gender="m / f">Canadian<fems>canadenca</fems><femplural>canadenques</femplural></translations></nouns>
 	</Entry>
 	<Entry frequency="1890">canari<nouns>
 			<translations>
@@ -553,7 +552,7 @@
 	</Entry>
 	<Entry frequency="1270">canceller<nouns>
 			<translations>
-				<translation catagory="politics" gender="m / f">chancellor</translation>
+				<translation catagory="politics" gender="m / f">chancellor<fems>cancellera</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -569,7 +568,7 @@
 	</Entry>
 	<Entry frequency="312">cancerós<adjectives>
 			<translations>
-				<translation catagory="medical">cancerous</translation>
+				<translation catagory="medical">cancerous<fems>cancerosa</fems><plural>cancerosos</plural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -668,7 +667,7 @@
 	</Entry>
 	<Entry frequency="2670">caòtic<adjectives>
 			<translations>
-				<translation>chaotic<femplural>caòtiques</femplural>
+				<translation>chaotic<fems>caòtica</fems><femplural>caòtiques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
@@ -711,7 +710,7 @@
 	</Entry>
 	<Entry frequency="8130">capdavanter<nouns>
 			<translations>
-				<translation gender="m / f">leader</translation>
+				<translation gender="m / f">leader<fems>capdavantera</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -827,7 +826,7 @@
 	</Entry>
 	<Entry frequency="20000">car<adjectives>
 			<translations>
-				<translation>expensive</translation>
+				<translation>expensive<fems>cara</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -848,7 +847,7 @@
 	</Entry>
 	<Entry frequency="50000">característic<adjectives>
 			<translations>
-				<translation>characteristic<femplural>característiques</femplural>
+				<translation>characteristic<fems>característica</fems><femplural>característiques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
@@ -903,7 +902,7 @@
 	</Entry>
          <Entry frequency="102000">cardíac<adjectives>
 			<translations>
-				<translation catagory="medical">heart / cardiac<catexamp>Cirurgia cardíaca</catexamp><engexamp>Heart surgery</engexamp><femplural>cardíaques</femplural></translation>
+				<translation catagory="medical">heart / cardiac<catexamp>Cirurgia cardíaca</catexamp><engexamp>Heart surgery</engexamp><fems>cardíaca</fems><femplural>cardíaques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -915,7 +914,7 @@
 	</Entry>
 	<Entry frequency="1530">carismàtic<adjectives>
 			<translations>
-				<translation>charismatic<femplural>carismàtiques</femplural></translation>
+				<translation>charismatic<fems>carismàtica</fems><femplural>carismàtiques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -951,7 +950,7 @@
 	</Entry>
 	<Entry frequency="1160">carnisser<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">butcher</translation>
+				<translation catagory="work-job" gender="m / f">butcher<fems>carnissera</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1037,7 +1036,7 @@
 	</Entry>
 	<Entry frequency="2090">carter<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">postman (Br.), mailman (Am.), mail carrier (Am.)</translation>
+				<translation catagory="work-job" gender="m / f">postman (Br.) / postwoman (Br.) / mailman (Am.) / mail lady (Am.) / mail carrier (Am.)<fems>cartera</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1077,7 +1076,7 @@
 	</Entry>
 	<Entry frequency="416">cartògraf<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">cartographer</translation>
+				<translation catagory="work-job" gender="m / f">cartographer<fems>cartògrafa</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1152,7 +1151,7 @@
 	</Entry>
 	<Entry frequency="4000">castany<adjectives>
 			<translations>
-				<translation>chestnut / chestnut-coloured (Br.) / chestnut-colored (Am.)</translation>
+				<translation>chestnut / chestnut-coloured (Br.) / chestnut-colored (Am.)<fems>castanya</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1287,7 +1286,7 @@
 	<Entry frequency="22900">catedràtic<nouns>
 			<translations>
 				<translation catagory="work-job, education" gender="m / f">professor (Br.)<engnote>Catedràtic means professor in the British sense of the word (somebody who occupies a chair in their field)</engnote>
-					<femplural>catedràtiques</femplural>
+<fems>catedràtica</fems><femplural>catedràtiques</femplural>
 				</translation>
 			</translations>
 		</nouns>
@@ -1300,7 +1299,7 @@
 	</Entry>
 	<Entry frequency="1230">categòric<adjectives>
 			<translations>
-				<translation>categorical<femplural>categòriques</femplural>
+				<translation>categorical<fems>categòrica</fems><femplural>categòriques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
@@ -1313,7 +1312,7 @@
 	</Entry>
 	<Entry frequency="16700">catòlic<adjectives>
 			<translations>
-				<translation catagory="religious">catholic<femplural>catòliques</femplural>
+				<translation catagory="religious">catholic<fems>catòlica</fems><femplural>catòliques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
@@ -1332,7 +1331,7 @@
 	</Entry>
 	<Entry frequency="1700">catorzè<adjectives>
 			<translations>
-				<translation catagory="number-ordinal">fourteenth</translation>
+				<translation catagory="number-ordinal">fourteenth<fems>catorzena</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1516,7 +1515,7 @@
 	</Entry>
         <Entry frequency="489">centígrad<adjectives>
 			<translations><date>0305</date>
-				<translation catagory="weather" gender="m">centigrade<catexamp>25 graus centígrads</catexamp><engexamp>25 degrees centigrade</engexamp></translation>
+				<translation catagory="weather">centigrade<catexamp>25 graus centígrads</catexamp><engexamp>25 degrees centigrade</engexamp><fems>centígrada</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1558,7 +1557,7 @@
 	</Entry>
 	<Entry frequency="7500">cèntric<adjectives>
 			<translations>
-				<translation>central<femplural>cèntriques</femplural>
+				<translation>central<fems>cèntrica</fems><femplural>cèntriques</femplural>
 					<example>Es busca noia per compartir pis <b>cèntric</b> a Girona.</example>
 				</translation>
 			</translations>
@@ -1603,7 +1602,7 @@
 	</Entry>
 	<Entry frequency="121000">cert<adjectives>
 			<translations>
-				<translation>certain</translation>
+				<translation>certain<fems>certa</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1679,13 +1678,13 @@
 	</Entry>
 	<Entry frequency="329000">científic<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">scientist<femplural>científiques</femplural>
+				<translation catagory="work-job" gender="m / f">scientist<fems>científica</fems><femplural>científiques</femplural>
 				</translation>
 			</translations>
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>scientific<femplural>científiques</femplural>
+				<translation>scientific<fems>científica</fems><femplural>científiques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
@@ -1752,7 +1751,7 @@
 	</Entry>
 	<Entry frequency="40100">cinquè<adjectives>
 			<translations>
-				<translation>fifth</translation>
+				<translation catagory="number-ordinal">fifth<fems>cinquena</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1835,7 +1834,7 @@
 	</Entry>
 	<Entry frequency="4530">cirurgià<nouns>
 			<translations>
-				<translation catagory="work-job, medical" gender="m / f">surgeon</translation>
+				<translation catagory="work-job, medical" gender="m / f">surgeon<fems>cirurgiana</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1877,7 +1876,7 @@
 	</Entry>
         <Entry frequency="99300">cívic<adjectives>
 			<translations><date>0405</date>
-				<translation>civic<femplural>cíviques</femplural></translation>
+				<translation>civic<fems>cívica</fems><femplural>cíviques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1894,7 +1893,7 @@
 	</Entry>
 	<Entry frequency="106000">clar<adjectives>
 			<translations>
-				<translation>clear</translation>
+				<translation>clear<fems>clara</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1963,7 +1962,7 @@
 	</Entry>
 	<Entry frequency="265">claustrofòbic<adjectives>
 			<translations>
-				<translation>claustrophobic<femplural>claustrofòbiques</femplural>
+				<translation>claustrophobic<fems>claustrofòbica</fems><femplural>claustrofòbiques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
@@ -2202,7 +2201,7 @@
 	</Entry>
 	<Entry frequency="53400">col·laborador<nouns>
 			<translations>
-				<translation gender="m / f">collaborator</translation>
+				<translation gender="m / f">collaborator<fems>col·laboradora</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2280,11 +2279,12 @@
 	</Entry>
 	<Entry frequency="2370">colombià<adjectives>
 			<translations>
-				<translation>Colombian<fems>colombiana</fems>
-					<plural>colombians</plural>
-				</translation>
+				<translation>Colombian</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation catagory="nationality-southamerica-colombia" gender="m / f">Colombian<fems>colombiana</fems><plural>colombians</plural></translation></translations></nouns>
 	</Entry>
 	<Entry frequency="6000">Colòmbia<nouns>
 			<translations>
@@ -2466,19 +2466,19 @@
 	</Entry>
 	<Entry frequency="8180">còmode<adjectives>
 			<translations>
-				<translation>comfortable</translation>
+				<translation>comfortable<fems>còmoda</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
 	<Entry frequency="69000">company<nouns>
 			<translations>
-				<translation gender="m / f">friend / mate</translation>
+				<translation gender="m / f">friend / mate<fems>companya</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="4020">company de feina<nouns>
 			<translations><date>0305</date>
-				<translation gender="m / f">work mate / colleague</translation>
+				<translation gender="m / f">work mate / colleague<fems>companya de feina</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2538,7 +2538,7 @@
 	</Entry>
 	<Entry frequency="104000">complet<adjectives>
 			<translations>
-				<translation>complete</translation>
+				<translation>complete<fems>completa</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2576,7 +2576,7 @@
 	</Entry>
 	<Entry frequency="11300">compositor<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">composer</translation>
+				<translation catagory="work-job" gender="m / f">composer<fems>compositora</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2735,7 +2735,7 @@
 	</Entry>
 	<Entry frequency="839">conciliador<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">conciliator</translation>
+				<translation catagory="work-job" gender="m / f">conciliator<fems>conciliadora</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2749,7 +2749,7 @@
 	<Entry frequency="93400">concret<adjectives>
 			<translations>
 				<translation>particular / specific / concrete<catexamp>En concret</catexamp>
-					<engexamp>Specifically</engexamp>
+					<engexamp>Specifically</engexamp><fems>concreta</fems>
 				</translation>
 			</translations>
 		</adjectives>
@@ -2804,13 +2804,13 @@
 	</Entry>
 	<Entry frequency="21400">conductor<nouns>
 			<translations>
-				<translation catagory="transport" gender="m">driver</translation>
+				<translation catagory="transport" gender="m / f">driver<fems>conductora</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="184">conductor d'autobús<nouns>
 			<translations><date>0405</date>
-				<translation catagory="work-job, transport" gender="m / f">bus driver</translation>
+				<translation catagory="work-job, transport" gender="m / f">bus driver<fems>conductora d'autobús</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2907,7 +2907,7 @@
 	</Entry>
 	<Entry frequency="2850">congènit<adjectives>
 			<translations>
-				<translation catagory="medical">congenital</translation>
+				<translation catagory="medical">congenital<fems>congènita</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2947,9 +2947,12 @@
 	</Entry>
 	<Entry frequency="122000">conjunt<adjectives>
 			<translations>
-				<translation>joint</translation>
+				<translation>joint<fems>conjunta</fems></translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="m">whole / group</translation></translations></nouns>
 	</Entry>
 	<Entry frequency="50500">connexió<nouns>
 			<translations>
@@ -3055,7 +3058,7 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation catagory="work-job">curator</translation>
+				<translation catagory="work-job" gender="m / f">curator<fems>conservadora</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3146,7 +3149,7 @@
 	</Entry>
 	<Entry frequency="13500">constructiu<adjectives>
 			<translations>
-				<translation>constructive</translation>
+				<translation>constructive<fems>constructiva</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3182,7 +3185,7 @@
 	</Entry>
 	<Entry frequency="36200">consumidor<nouns>
 			<translations>
-				<translation gender="m / f">consumer</translation>
+				<translation gender="m / f">consumer<fems>consumidora</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3241,13 +3244,13 @@
 	</Entry>
 	<Entry frequency="34900">content<adjectives>
 			<translations>
-				<translation>happy</translation>
+				<translation>happy<fems>contenta</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
         <Entry frequency="1030">contigu<adjectives>
 			<translations><date>0305</date>
-				<translation>adjacent / neighbouring (Br.) / neighboring (Am.) / next-door</translation>
+				<translation>adjacent / neighbouring (Br.) / neighboring (Am.) / next-door<fems>contigua</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3364,7 +3367,7 @@
 	</Entry>
         <Entry frequency="62">contrit<adjectives>
 			<translations><date>0305</date>
-				<translation catagory="religious">contrite</translation>
+				<translation catagory="religious">contrite<fems>contrita</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3400,7 +3403,7 @@
 	</Entry>
 	<Entry frequency="16800">convençut<adjectives>
 			<translations>
-				<translation>convinced</translation>
+				<translation>convinced<fems>convençuda</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3581,7 +3584,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="4160">Coreà<adjectives>
+	<Entry frequency="4160">Coreà<nouns>
+        <translations>
+        <translation catagory="nationality-asia-korea" gender="m / f">Korean</translation></translations></nouns>
+        <adjectives>
 			<translations>
 				<translation>Korean<fems>coreana</fems>
 					<plural>coreans</plural>
@@ -3619,7 +3625,7 @@
 				<translation>correct / right<catexamp>Políticament correcte</catexamp>
 					<engexamp>Politically correct</engexamp>
 					<catexamp>Ambientalment correcte(s)</catexamp>
-					<engexamp>Environmentally friendly</engexamp>
+					<engexamp>Environmentally friendly</engexamp><fems>correcta</fems>
 				</translation>
 				<translation>polite<fems>correcta</fems>
 				</translation>
@@ -3648,7 +3654,6 @@
 				<translation>usual / normal</translation>
 				<translation>running (water)</translation>
 				<translation>current, present</translation>
-
 			</translations>
 		</adjectives>
 		<nouns>
@@ -3751,7 +3756,7 @@
 	</Entry>
 	<Entry frequency="2240">corrupte<adjectives>
 			<translations>
-				<translation>corrupt</translation>
+				<translation>corrupt<fems>corrupta</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3806,7 +3811,7 @@
 	</Entry>
 	<Entry frequency="2200">cosmètic<adjectives>
 			<translations>
-				<translation>cosmetic</translation>
+				<translation>cosmetic<fems>cosmètica</fems><femplural>cosmètiques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3818,7 +3823,7 @@
 	</Entry>
 	<Entry frequency="2050">còsmic<adjectives>
 			<translations>
-				<translation catagory="astronomy">cosmic</translation>
+				<translation catagory="astronomy">cosmic<fems>còsmica</fems><femplural>còsmiques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3984,6 +3989,9 @@
 				<translation>cowardly</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="m / f">coward<fems>covarda</fems></translation></translations></nouns>
 	</Entry>
 	<Entry frequency="793">covardia<nouns>
 			<translations>
@@ -4030,7 +4038,7 @@
 	</Entry>
 	<Entry frequency="22200">creador<nouns>
 			<translations>
-				<translation gender="m / f">creator</translation>
+				<translation gender="m / f">creator<fems>creadora</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4042,7 +4050,7 @@
 	</Entry>
 	<Entry frequency="20500">creatiu<adjectives>
 			<translations>
-				<translation>creative</translation>
+				<translation>creative<fems>creativa</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -4144,7 +4152,7 @@
 	</Entry>
 	<Entry frequency="434">cremós<adjectives>
 			<translations>
-				<translation>creamy</translation>
+				<translation>creamy<fems>cremosa</fems><plural>cremosos</plural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -4191,14 +4199,12 @@
 	</Entry>
 	<Entry frequency="288">cretí<nouns>
 			<translations>
-				<translation gender="m / f">cretin<plural>cretins</plural>
-					<fems>cretina</fems>
-				</translation>
+				<translation gender="m / f">cretin</translation>
 			</translations>
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>cretinous</translation>
+				<translation>cretinous<plural>cretins</plural><fems>cretina</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -4267,7 +4273,7 @@
                 <translations>
                 <translation>loud / gaudy</translation>
                 <translation>screaming / shrill</translation>
-                <translation>loud-mouthed</translation></translations></adjectives>
+                <translation>loud-mouthed<fems>cridanera</fems></translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="26500">cridar<verbs conj="regular">
 			<translations>
@@ -4341,7 +4347,7 @@
 	</Entry>
 	<Entry frequency="527">criptogràfic<adjectives>
 			<translations>
-				<translation>cryptographic</translation>
+				<translation>cryptographic<fems>criptogràfica</fems><femplural>criptogràfiques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -4382,7 +4388,7 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>Christian</translation>
+				<translation>Christian<fems>cristiana</fems><plural>cristians</plural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -4413,7 +4419,7 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation gender="m / f">critic</translation>
+				<translation gender="m / f">critic<fems>crítica</fems><femplural>crítiques</femplural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4438,7 +4444,7 @@
 	</Entry>
 	<Entry frequency="1900">croada<nouns>
 			<translations>
-				<translation gender="f">crusade</translation>
+				<translation catagory="religious" gender="f">crusade</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4450,7 +4456,7 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>Croatian</translation>
+				<translation>Croatian<fems>croata</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -4468,7 +4474,7 @@
 	</Entry>
 	<Entry frequency="7500">crònic<adjectives>
 			<translations>
-				<translation catagory="medical">chronic<femplural>cròniques</femplural>
+				<translation catagory="medical">chronic<fems>crònica</fems><femplural>cròniques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
@@ -4488,7 +4494,7 @@
 	</Entry>
 	<Entry frequency="7950">cronològic<adjectives>
 			<translations>
-				<translation>chronological<femplural>cronològiques</femplural>
+				<translation>chronological<fems>cronològica</fems><femplural>cronològiques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
@@ -4529,7 +4535,7 @@
 	<Entry frequency="7570">cru<adjectives>
 			<translations>
 				<translation>raw</translation>
-				<translation>stark / harsh / bleak<example>La pel·lícula ofereix una visió <b>crua</b> però necessària de la Guerra Civil.</example>
+				<translation>stark / harsh / bleak<example>La pel·lícula ofereix una visió <b>crua</b> però necessària de la Guerra Civil.<fems>crua</fems></example>
 				</translation>
 			</translations>
 		</adjectives>
@@ -4631,7 +4637,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="4720">cubà<adjectives>
+	<Entry frequency="4720">cubà<nouns>
+        <translations>
+        <translation catagory="nationality-northamerica-cuba" gender="m / f">Cuban</translation></translations></nouns><adjectives>
 			<translations>
 				<translation>Cuban<plural>cubans</plural>
 					<fems>cubana</fems>
@@ -4642,7 +4650,7 @@
 	<Entry frequency="3160">cúbic<adjectives>
 			<translations>
 				<translation>cubic<catexamp>Metre cúbic</catexamp>
-					<engexamp>Cubic metre</engexamp>
+					<engexamp>Cubic metre</engexamp><fems>cúbica</fems><femplural>cúbiques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
@@ -4704,7 +4712,7 @@
 	</Entry>
 	<Entry frequency="5830">cuiner<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">cook</translation>
+				<translation catagory="work-job" gender="m / f">cook<fems>cuinera</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5000,7 +5008,7 @@
 	</Entry>
 	<Entry frequency="54300">curt<adjectives>
 			<translations>
-				<translation>short</translation>
+				<translation>short<fems>curta</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
