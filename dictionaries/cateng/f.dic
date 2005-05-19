@@ -122,7 +122,7 @@
 	</Entry>
 	<Entry frequency="22500">fals<adjectives>
 			<translations>
-				<translation>false</translation>
+				<translation>false<fems>falsa</fems><plural>falsos</plural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -202,13 +202,12 @@
 	</Entry>
 	<Entry frequency="1280">fanàtic<nouns>
 			<translations>
-				<translation gender="m / f">fanatic<femplural>fanàtiques</femplural>
-				</translation>
+				<translation gender="m / f">fanatic</translation>
 			</translations>
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>fanatical<femplural>fanàtiques</femplural>
+				<translation>fanatical<fems>fanàtica</fems><femplural>fanàtiques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
@@ -239,9 +238,8 @@
 	</Entry>
 	<Entry frequency="13800">fantàstic<adjectives>
 			<translations>
-				<translation>fantastic<femplural>fantàstiques</femplural>
-				</translation>
-				<translation>fantastical<femplural>fantàstiques</femplural>
+				<translation>fantastic</translation>
+				<translation>fantastical<fems>fantàstica</fems><femplural>fantàstiques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
@@ -277,7 +275,7 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>pharmaceutical</translation>
+				<translation>pharmaceutical<fems>farmacèutica</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -290,7 +288,7 @@
 	<Entry frequency="3950">fart<adjectives>
 			<translations>
 				<translation>fed up<catexamp>Estar fart (d'alguna cosa)</catexamp>
-					<engexamp>To be fed up (with / of something)</engexamp>
+					<engexamp>To be fed up (with / of something)</engexamp><fems>farta</fems>
 				</translation>
 			</translations>
 		</adjectives>
@@ -357,7 +355,7 @@
 	</Entry>
 	<Entry frequency="2100">fecund<adjectives>
 			<translations>
-				<translation>fertile</translation>
+				<translation>fertile<fems>fecunda</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -686,7 +684,7 @@
 	</Entry>
 	<Entry frequency="96">filantrop<nouns>
 			<translations>
-				<translation gender="m / f">philanthropist</translation>
+				<translation gender="m / f">philanthropist<fems>filantropa</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -698,14 +696,14 @@
 	</Entry>
 	<Entry frequency="149">filantròpic<adjectives>
 			<translations>
-				<translation>philanthropic<femplural>filantròpiques</femplural>
+				<translation>philanthropic<fems>filantròpica</fems><femplural>filantròpiques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
 	</Entry>
 	<Entry frequency="898">filatèlic<adjectives>
 			<translations>
-				<translation>philatelic / stamp-collecting</translation>
+				<translation>philatelic / stamp-collecting<fems>filatèlica</fems><femplural>filatèliques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -761,7 +759,7 @@
 	</Entry>
 	<Entry frequency="3160">filòleg<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">philologist</translation>
+				<translation catagory="work-job" gender="m / f">philologist<fems>filòloga</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -773,7 +771,7 @@
 	</Entry>
 	<Entry frequency="7210">filòsof<nouns>
 			<translations>
-				<translation gender="m / f">philosopher</translation>
+				<translation gender="m / f">philosopher<fems>filòsofa</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -850,7 +848,7 @@
 	</Entry>
 	<Entry frequency="62800">financer<adjectives>
 			<translations>
-				<translation catagory="financial">financial</translation>
+				<translation catagory="financial">financial<fems>financera</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -937,7 +935,7 @@
 	</Entry>
 	<Entry frequency="136000">físic<adjectives>
 			<translations>
-				<translation>physical<femplural>físiques</femplural>
+				<translation>physical<fems>física</fems><femplural>físiques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
@@ -980,9 +978,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="42200">fixe<adjectives>
-			<translations>
-				<translation>fixed</translation>
+	<Entry frequency="129000">fix<adjectives>
+			<translations><date>0505</date>
+				<translation>fixed<fems>fixa</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1208,7 +1206,7 @@
 	</Entry>
 	<Entry frequency="2300">fonètic<adjectives>
 			<translations>
-				<translation>phonetic</translation>
+				<translation catagory="linguistics">phonetic<fems>fonètica</fems><femplural>fonètiques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1428,7 +1426,7 @@
 	</Entry>
 	<Entry frequency="2380">forner<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">baker</translation>
+				<translation catagory="work-job" gender="m / f">baker<fems>fornera</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1468,7 +1466,7 @@
 				</translation>
 				<translation>severe<engnote>'Fort' can mean 'severe' in the sense 'a severe crisis' (una forta crisi).</engnote>
 				</translation>
-				<translation>steep<engnote>'Fort' can mean 'steep' in the sense 'a steep slope' (un fort pendent).</engnote>
+				<translation>steep<engnote>'Fort' can mean 'steep' in the sense 'a steep slope' (un fort pendent).</engnote><fems>forta</fems>
 				</translation>
 			</translations>
 		</adjectives>
@@ -1513,6 +1511,7 @@
 			<translations>
 				<translation>dark<catexamp>A les fosques</catexamp>
 					<engexamp>In the dark</engexamp>
+                                        <fems>fosca</fems>
 					<femplural>fosques</femplural>
 				</translation>
 			</translations>
@@ -1582,7 +1581,7 @@
 	</Entry>
 	<Entry frequency="8270">fotògraf<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">photographer</translation>
+				<translation catagory="work-job" gender="m / f">photographer<fems>fotògrafa</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1606,7 +1605,7 @@
 	</Entry>
         <Entry frequency="97100">fotogràfic<adjectives>
 			<translations><date>0405</date>
-				<translation>photographic<femplural>fotogràfiques</femplural></translation>
+				<translation>photographic<fems>fotogràfica</fems><femplural>fotogràfiques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1684,7 +1683,7 @@
 	</Entry>
 	<Entry frequency="350">franctirador<nouns>
 			<translations>
-				<translation gender="m / f">sniper</translation>
+				<translation gender="m / f">sniper<fems>franctiradora</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1730,7 +1729,7 @@
 	</Entry>
 	<Entry frequency="34400">fred<adjectives>
 			<translations>
-				<translation>cold</translation>
+				<translation>cold<fems>freda</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1755,7 +1754,7 @@
 	</Entry>
 	<Entry frequency="2130">frenètic<adjectives>
 			<translations>
-				<translation>frantic / frenetic / wild<femplural>frenètiques</femplural>
+				<translation>frantic / frenetic / wild<fems>frenètica</fems><femplural>frenètiques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
@@ -1780,7 +1779,7 @@
 	</Entry>
 	<Entry frequency="21400">fresc<adjectives>
 			<translations>
-				<translation>fresh / cool</translation>
+				<translation>fresh / cool<fems>fresca</fems><femplural>fresques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1808,7 +1807,7 @@
 	</Entry>
 	<Entry frequency="1190">frívol<adjectives>
 			<translations>
-				<translation>frivolous</translation>
+				<translation>frivolous<fems>frívola</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1850,7 +1849,7 @@
 	</Entry>
         <Entry frequency="5110">fruiter<adjectives>
 			<translations><date>0505</date>
-				<translation catagory="food-fruit">fruit<catexamp>Arbres fruiters</catexamp><engexamp>Fruit trees</engexamp></translation>
+				<translation catagory="food-fruit">fruit<catexamp>Arbres fruiters</catexamp><engexamp>Fruit trees</engexamp><fems>fruitera</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1924,7 +1923,7 @@
 	</Entry>
 	<Entry frequency="2580">fumador<nouns>
 			<translations>
-				<translation gender="m / f">smoker</translation>
+				<translation gender="m / f">smoker<fems>fumadora</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1936,7 +1935,7 @@
 	</Entry>
 	<Entry frequency="101">funàmbul<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">tightrope walker</translation>
+				<translation catagory="work-job" gender="m / f">tightrope walker<fems>funàmbula</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1954,13 +1953,13 @@
 	</Entry>
 	<Entry frequency="29100">funcionari<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">civil servant</translation>
+				<translation catagory="work-job" gender="m / f">civil servant<fems>funcionària</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="18200">fundador<nouns>
 			<translations>
-				<translation gender="m / f">founder</translation>
+				<translation gender="m / f">founder<fems>fundadora</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2008,7 +2007,7 @@
 	</Entry>
 	<Entry frequency="986">furiós<adjectives>
 			<translations>
-				<translation>furious</translation>
+				<translation>furious<fems>furiosa</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2039,7 +2038,7 @@
 	</Entry>
 	<Entry frequency="2500">fuster<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">carpenter</translation>
+				<translation catagory="work-job" gender="m / f">carpenter<fems>fustera</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2069,7 +2068,7 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>future</translation>
+				<translation>future<fems>futura</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
