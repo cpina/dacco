@@ -199,8 +199,8 @@
 					<span class="sourceplural"><xsl:value-of select="@sourceplural"/></span>
 				</xsl:if>
                                 <xsl:if test="@capitalized">
-			<span class="capitalized"><xsl:value-of select="@capitalized"/></span>
-		</xsl:if>
+			             <span class="capitalized"><xsl:value-of select="@capitalized"/></span>
+		                </xsl:if>
 				<xsl:if test="@local='us'">
 					<span class="local"> (US) </span>
 				</xsl:if>
