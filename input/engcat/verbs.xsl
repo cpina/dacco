@@ -25,8 +25,9 @@
 
         <xsl:attribute name="file">
         <xsl:value-of select="$dic"/></xsl:attribute>
-      
-        <xsl:value-of select="document($dic)//verbs"/>
+        <xsl:apply-templates select="document($dic)//verbs"/>
+<!--
+        <xsl:value-of select="document($dic)//verbs"/> -->
 
                <!-- <xsl:for-each select="document($dic)">
         Entries: <xsl:value-of select="count(//Entry)"/><br/>
@@ -36,8 +37,11 @@
             </xsl:for-each> -->
     </xsl:template>
    
-   <xsl:template match="verbs">
-   	<xsl:value-of select="."></xsl:value-of><xsl:value-of select="@conj"/>
+    <xsl:template match="verbs" >
+
+   
+   	<xsl:value-of select="../text()"></xsl:value-of><xsl:text> </xsl:text><xsl:value-of select="@conj"/><xsl:text>
+</xsl:text>
    </xsl:template>
         
     <!-- TODO customize transformation rules 

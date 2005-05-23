@@ -335,7 +335,8 @@ window.onunload=saveswitchstate
 	</xsl:template>
 	<xsl:template match="participle"/>
 	<xsl:template match="past"/>
-	<xsl:template match="translation" name="translation">
+	
+        <xsl:template match="translation" name="translation">
 		<xsl:param name="hideCount"/>
 		<xsl:text>    </xsl:text>
 		<xsl:if test="last()>1 and $hideCount!='true'">
@@ -344,6 +345,15 @@ window.onunload=saveswitchstate
 				<xsl:value-of select="position()"/>
 				<xsl:text>. </xsl:text>
 			</b>
+		</xsl:if>
+                <xsl:if test="@beforenoun='true'">
+			<span class="beforenoun"><xsl:text>(before noun) </xsl:text></span>
+		</xsl:if>  
+                <xsl:if test="@sourceplural">
+			<span class="sourceplural"><xsl:value-of select="@sourceplural"/></span>
+		</xsl:if>
+                <xsl:if test="@capitalized">
+			<span class="capitalized"><xsl:value-of select="@capitalized"/></span>
 		</xsl:if>
 		<xsl:if test="@local='us'">
 			<span class="local"> (Am) </span>
@@ -431,6 +441,15 @@ window.onunload=saveswitchstate
 		</xsl:if>
 		<xsl:if test="contains(@catagory,'Weather') or contains(@catagory,'weather') ">
 			<span class="category">[METEOR] </span>
+		</xsl:if>
+                <xsl:if test="contains(@catagory,'insect') or contains(@catagory,'insect') ">
+			<span class="category">[INSECTE] </span>
+		</xsl:if>
+                    <xsl:if test="contains(@catagory,'agriculture') or contains(@catagory,'agriculture') ">
+			<span class="category">[AGRIC] </span>
+		</xsl:if>
+                 <xsl:if test="contains(@catagory,'music') or contains(@catagory,'music') ">
+			<span class="category">[MÚSICA] </span>
 		</xsl:if>
 		<xsl:for-each select="translation">
 			<xsl:call-template name="translation">

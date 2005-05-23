@@ -192,6 +192,15 @@
 						<xsl:text>. </xsl:text>
 					</b>
 				</xsl:if>
+                                 <xsl:if test="@beforenoun='true'">
+			<span class="beforenoun"><xsl:text>(before noun) </xsl:text></span>
+		</xsl:if>  
+                                <xsl:if test="@sourceplural">
+					<span class="sourceplural"><xsl:value-of select="@sourceplural"/></span>
+				</xsl:if>
+                                <xsl:if test="@capitalized">
+			<span class="capitalized"><xsl:value-of select="@capitalized"/></span>
+		</xsl:if>
 				<xsl:if test="@local='us'">
 					<span class="local"> (US) </span>
 				</xsl:if>
@@ -273,6 +282,18 @@
 				<xsl:if test="contains(@catagory,'Weather') or contains(@catagory,'weather') ">
 					<span class="category">[WEATHER] </span>
 				</xsl:if>
+                                    <xsl:if test="contains(@catagory,'insect') or contains(@catagory,'insect') ">
+			<span class="category">[INSECT] </span>
+		</xsl:if>
+                    <xsl:if test="contains(@catagory,'material') or contains(@catagory,'material') ">
+			<span class="category">[MATERIAL] </span>
+		</xsl:if>
+                    <xsl:if test="contains(@catagory,'agriculture') or contains(@catagory,'agriculture') ">
+			<span class="category">[AGRICULT] </span>
+		</xsl:if>
+                 <xsl:if test="contains(@catagory,'music') or contains(@catagory,'music') ">
+			<span class="category">[MUSIC] </span>
+		</xsl:if>
 				<xsl:for-each select="translation">
 					<xsl:call-template name="translation">
 						<xsl:with-param name="hideCount" select="'true'"/>

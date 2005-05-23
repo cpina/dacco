@@ -26,7 +26,14 @@
         <xsl:attribute name="file">
         <xsl:value-of select="$dic"/></xsl:attribute>
       
-        <xsl:apply-templates select="document($dic)//verbs"/>
+        <xsl:apply-templates select="document($dic)//verbs">
+        <xsl:sort
+  
+  order="ascending"
+  select="@conj"
+/>
+
+        </xsl:apply-templates>
 
                <!-- <xsl:for-each select="document($dic)">
         Entries: <xsl:value-of select="count(//Entry)"/><br/>
@@ -36,9 +43,10 @@
             </xsl:for-each> -->
     </xsl:template>
    
-   <xsl:template match="verbs">
-   	<xsl:value-of select="../text()"></xsl:value-of><xsl:text> </xsl:text><xsl:value-of select="@conj"/>
-   	<xsl:element name="p"/>
+   <xsl:template match="verbs" >
+   	<xsl:value-of select="../text()"></xsl:value-of><xsl:text> </xsl:text><xsl:value-of select="@conj"/><xsl:text>
+        </xsl:text>
+   
    </xsl:template>
         
     <!-- TODO customize transformation rules 
