@@ -192,6 +192,10 @@
 						<xsl:text>. </xsl:text>
 					</b>
 				</xsl:if>
+                                <xsl:choose>
+                <xsl:when test="@transitive='true'">
+			<span class="transitive"><xsl:text>t </xsl:text></span>
+		</xsl:when><xsl:otherwise><span class="transitive"><xsl:text>i </xsl:text></span></xsl:otherwise></xsl:choose>
                                  <xsl:if test="@beforenoun='true'">
 			<span class="beforenoun"><xsl:text>(before noun) </xsl:text></span>
 		</xsl:if>  
