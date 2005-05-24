@@ -201,6 +201,10 @@ window.onunload=saveswitchstate
 				<xsl:attribute name="target">	verbix</xsl:attribute>
 				<span class="conj">conj</span>
 			</xsl:element>
+                         <xsl:choose>
+                <xsl:when test="@transitive='true'">
+			<span class="transitive"><xsl:text>t </xsl:text></span>
+		</xsl:when><xsl:otherwise><xsl:if test="../../verbs"><span class="transitive"><xsl:text>i </xsl:text></span></xsl:if></xsl:otherwise></xsl:choose>
 			<xsl:if test="count(past) >0 or count(participle) >0 or count(gerund) >0"> (</xsl:if>
 			<xsl:if test="count(past) > 0">
 				<span class="past"/>
@@ -346,10 +350,6 @@ window.onunload=saveswitchstate
 				<xsl:text>. </xsl:text>
 			</b>
 		</xsl:if>
-                <xsl:choose>
-                <xsl:when test="@transitive='true'">
-			<span class="transitive"><xsl:text>t </xsl:text></span>
-		</xsl:when><xsl:otherwise><xsl:if test="../../verbs"><span class="transitive"><xsl:text>i </xsl:text></span></xsl:if></xsl:otherwise></xsl:choose>
                 <xsl:if test="@beforenoun='true'">
 			<span class="beforenoun"><xsl:text>(before noun) </xsl:text></span>
 		</xsl:if>  
