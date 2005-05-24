@@ -184,10 +184,6 @@ window.onunload=saveswitchstate
 			<xsl:value-of select="."/>
 		</span>
 	</xsl:template>
-        <xsl:choose>
-                <xsl:when test="@transitive='true'">
-			<span class="transitive"><xsl:text>t </xsl:text></span>
-		</xsl:when><xsl:otherwise><xsl:if test="../../verbs"><span class="transitive"><xsl:text>i </xsl:text></span></xsl:if></xsl:otherwise></xsl:choose>
 	<xsl:template match="verbs">
 		<xsl:if test="count(translations/translation)>0">
 			<br/>
@@ -350,6 +346,10 @@ window.onunload=saveswitchstate
 				<xsl:text>. </xsl:text>
 			</b>
 		</xsl:if>
+                   <xsl:choose>
+                <xsl:when test="@transitive='true'">
+			<span class="transitive"><xsl:text>t </xsl:text></span>
+		</xsl:when><xsl:otherwise><xsl:if test="../../verbs"><span class="transitive"><xsl:text>i </xsl:text></span></xsl:if></xsl:otherwise></xsl:choose>
                 <xsl:if test="@beforenoun='true'">
 			<span class="beforenoun"><xsl:text>(before noun) </xsl:text></span>
 		</xsl:if>  
