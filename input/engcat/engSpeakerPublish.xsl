@@ -194,7 +194,7 @@
 				</xsl:if>
                              <xsl:if test="@transitive='true'">
 			<span class="transitive"><xsl:text>t </xsl:text></span>
-		</xsl:if><xsl:if test="@transitive='false'">"<span class="transitive"><xsl:text>i </xsl:text></span></xsl:if>
+		</xsl:if><xsl:if test="@intransitive='true'">"<span class="intransitive"><xsl:text>i </xsl:text></span></xsl:if>
                                  <xsl:if test="@beforenoun='true'">
 			<span class="beforenoun"><xsl:text>(before noun) </xsl:text></span>
 		</xsl:if>  
