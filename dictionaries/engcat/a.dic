@@ -64,7 +64,7 @@
 	</Entry>
 	<Entry frequency="2390000">abbreviate<verbs>
 			<translations>
-				<translation>abreujar<synonyms>shorten</synonyms>
+				<translation transitive="true">abreujar<synonyms>shorten</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -77,7 +77,7 @@
 	</Entry>
 	<Entry frequency="190000">abdicate<verbs>
 			<translations>
-				<translation>abdicar</translation>
+				<translation transitive="true">abdicar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -108,7 +108,7 @@
 	</Entry>
 	<Entry frequency="760000">abduct<verbs>
 			<translations>
-				<translation>segrestar<synonyms>kidnap</synonyms>
+				<translation transitive="true">segrestar<synonyms>kidnap</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -145,13 +145,13 @@
 	</Entry>
 	<Entry frequency="300000">abet<verbs double="true">
 			<translations>
-				<translation register="formal">induir / instigar / incitar</translation>
+				<translation transitive="true" register="formal">induir / instigar / incitar</translation>
 			</translations>
 		</verbs>
 	</Entry>
 	<Entry frequency="279000">abhor<verbs double="true">
 			<translations>
-				<translation register="formal">odiar<synonyms>hate, detest</synonyms>
+				<translation transitive="true" register="formal">odiar<synonyms>hate, detest</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -164,7 +164,7 @@
 	</Entry>
 	<Entry frequency="50000">abide<verbs>
 			<translations>
-				<translation>tolerar / suportar<example>I can't &lt;b&gt;abide&lt;/b&gt; stupidity </example>
+				<translation transitive="true">tolerar / suportar<example>I can't &lt;b&gt;abide&lt;/b&gt; stupidity </example>
 					<example>My father simply can't &lt;b&gt;abide&lt;/b&gt; coffee. Even the smell of it makes him feel nauseous.</example>
 					<synonyms>tolerate, stand</synonyms>
 					<catnote>Quan significa 'tolerar', el verb 'abide' s'utilitza gairebé sempre en sentit negatiu (és a dir 'I / he / she can't abide')</catnote>
@@ -243,7 +243,7 @@
 	</Entry>
 	<Entry frequency="2660000">abolish<verbs>
 			<translations>
-				<translation>abolir<example>A lot of Europeans think that the United States should &lt;b&gt;abolish&lt;/b&gt; the death penalty</example>
+				<translation transitive="true">abolir<example>A lot of Europeans think that the United States should &lt;b&gt;abolish&lt;/b&gt; the death penalty</example>
 					<example>Most students would like to see tuition fees &lt;b&gt;abolished&lt;/b&gt;</example>
 					<example>The Russian government is planning to &lt;b&gt;abolish&lt;/b&gt; export taxes on silver</example>
 					<synonyms>get rid of</synonyms>
@@ -301,13 +301,13 @@
 	</Entry>
 	<Entry frequency="1770000">abort<verbs>
 			<translations>
-				<translation>avortar<example>The shuttle launch was &lt;b&gt;aborted&lt;/b&gt; due to a short circuit in the main engine</example>
+				<translation transitive="true">avortar<example>The shuttle launch was &lt;b&gt;aborted&lt;/b&gt; due to a short circuit in the main engine</example>
 					<example>If the timeout interval expires before the connection is established the connection attempt will be &lt;b&gt;aborted&lt;/b&gt;</example>
 					<example>The weather deteriorated badly and the expedition had to be &lt;b&gt;aborted&lt;/b&gt;</example>
 					<example>Our attempt to reach the summit of Mount Everest was &lt;b&gt;aborted&lt;/b&gt; due to high winds</example>
 					<synonyms>cut short</synonyms>
 				</translation>
-                                <translation catagory="medical">avortar<catnote>En anglès, l'expressió 'to have an abortion' és més freqüent que el verb 'to abort', almenys en el parlar quotidià.</catnote></translation>
+                                <translation transitive="true" catagory="medical">avortar<catnote>En anglès, l'expressió 'to have an abortion' és més freqüent que el verb 'to abort', almenys en el parlar quotidià.</catnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -320,7 +320,7 @@
 	</Entry>
           <Entry frequency="5030000">abound<verbs>
 			<translations>
-				<translation>abundar</translation>
+				<translation intransitive="true">abundar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -483,13 +483,13 @@
 	</Entry>
               <Entry frequency="656000">absolve<verbs>
 			<translations>
-				<translation>absoldre</translation>
+				<translation transitive="true">absoldre</translation>
 			</translations>
 		</verbs>
 	</Entry>
 	<Entry frequency="6140000">absorb<verbs>
 			<translations>
-				<translation>absorbir</translation>
+				<translation transitive="true">absorbir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -507,7 +507,7 @@
 	</Entry>
 	<Entry frequency="696000">abstain<verbs>
 			<translations>
-				<translation>abstenir</translation>
+				<translation intransitive="true">abstenir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -583,7 +583,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>abusar / maltractar</translation>
+				<translation transitive="true">abusar / maltractar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -613,7 +613,8 @@
 	</Entry>
 	<Entry frequency="10800000">accelerate<verbs>
 			<translations>
-				<translation>accelerar</translation>
+				<translation catagory="transport" intransitive="true">accelerar<example>When the officer tried to stop the vehicle, the suspects &lt;b&gt;accelerated&lt;/b&gt; and sped off.</example></translation>
+                                <translation transitive="true">accelerar<example>The new system helps the job seeker to &lt;b&gt;accelerate&lt;/b&gt; the process of finding a job.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -631,7 +632,7 @@
 	</Entry>
 	<Entry frequency="69500000">accept<verbs>
 			<translations>
-				<translation>acceptar<example>Do you &lt;b&gt;accept&lt;/b&gt; credit cards?</example>
+				<translation transitive="true">acceptar<example>Do you &lt;b&gt;accept&lt;/b&gt; credit cards?</example>
 					<example>Manchester United have &lt;b&gt;accepted&lt;/b&gt; Real Madrid's offer of £25 million for David Beckham</example>
 					<example>She challenged me to a rematch and I &lt;b&gt;accepted&lt;/b&gt;</example>
 					<example>You must &lt;b&gt;accept&lt;/b&gt; our terms and conditions before you proceed.</example>
@@ -649,7 +650,7 @@
 	</Entry>
 	<Entry frequency="254000000">access<verbs>
 			<translations>
-				<translation>accedir a</translation>
+				<translation transitive="true">accedir a</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -712,13 +713,13 @@
 	</Entry>
 	<Entry frequency="23400000">accompany<verbs ie="true">
 			<translations>
-				<translation>acompanyar</translation>
+				<translation transitive="true">acompanyar</translation>
 			</translations>
 		</verbs>
 	</Entry>
 	<Entry frequency="9220000">accomplish<verbs>
 			<translations>
-				<translation>acomplir<synonyms>achieve</synonyms>
+				<translation transitive="true">acomplir<synonyms>achieve</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -767,7 +768,8 @@
 	</Entry>
 	<Entry frequency="6140000">accumulate<verbs>
 			<translations>
-				<translation>acumular</translation>
+				<translation transitive="true">acumular</translation>
+                                <translation intransitive="true">acumular-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -785,7 +787,7 @@
 	</Entry>
 	<Entry frequency="18700000">accuse<verbs>
 			<translations>
-				<translation>acusar</translation>
+				<translation transitive="true">acusar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -816,7 +818,7 @@
 	</Entry>
 	<Entry frequency="62800000">achieve<verbs>
 			<translations>
-				<translation>aconseguir / assolir<example>Many people wonder if it isn't impossible to &lt;b&gt;achieve&lt;/b&gt; peace in the Middle East now</example>
+				<translation transitive="true">aconseguir / assolir<example>Many people wonder if it isn't impossible to &lt;b&gt;achieve&lt;/b&gt; peace in the Middle East now</example>
 					<example>What on earth do the voters in California hope to &lt;b&gt;achieve&lt;/b&gt; by calling another election?</example>
 					<example>Your donation could help thousands of disadvantaged children to &lt;b&gt;achieve&lt;/b&gt; their true potential.</example>
 					<example>Our scholarships help students to &lt;b&gt;achieve&lt;/b&gt; their dreams</example>
@@ -848,7 +850,7 @@
 	</Entry>
 	<Entry frequency="24900000">acknowledge<verbs>
 			<translations>
-				<translation>reconèixer<synonyms>recognize</synonyms>
+				<translation transitive="true">reconèixer<synonyms>recognize</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -897,7 +899,7 @@
 	</Entry>
 	<Entry frequency="30900000">acquire<verbs>
 			<translations>
-				<translation>adquirir<synonyms>obtain</synonyms>
+				<translation transitive="true">adquirir<synonyms>obtain</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -934,7 +936,9 @@
 	</Entry>
 	<Entry frequency="86900000">act<verbs>
 			<translations>
-				<translation>actuar</translation>
+				<translation intransitive="true">actuar</translation>
+                                <translation intransitive="true">actuar / comportar-se</translation>
+                                <translation transitive="true">interpretar<example>Simon Swanson &lt;b&gt;acted&lt;/b&gt; the role of Macduff in Macbeth.</example></translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -954,7 +958,7 @@
 	</Entry>
 	<Entry frequency="14500000">activate<verbs>
 			<translations>
-				<translation>activar</translation>
+				<translation transitive="true">activar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1041,7 +1045,8 @@
 	</Entry>
 	<Entry frequency="13700000">adapt<verbs>
 			<translations>
-				<translation>adaptar</translation>
+				<translation transitive="true">adaptar<example>They &lt;b&gt;adapted&lt;/b&gt; the book for the big screen.</example></translation>
+                                <translation intransitive="true">adaptar-se (a)<example>It's amazing how quickly kids &lt;b&gt;adapt&lt;/b&gt;.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
