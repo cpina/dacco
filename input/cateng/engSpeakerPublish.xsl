@@ -274,6 +274,18 @@ window.onunload=saveswitchstate
 			<xsl:if test="@gender='m / f'">
 				<span class="gender"> (m / f) </span>
 			</xsl:if>
+                        <xsl:if test="@gender='ffullform'">
+				<span class="gender"> (f) </span>
+			</xsl:if>
+                        <xsl:if test="@gender='mfullform'">
+				<span class="gender"> (m) </span>
+			</xsl:if>
+                        <xsl:if test="@gender='mpl'">
+				<span class="gender"> (mpl) </span>
+			</xsl:if>
+                        <xsl:if test="@gender='fpl'">
+				<span class="gender"> (fpl) </span>
+			</xsl:if>
 
 			<xsl:if test="@register='vulgar'">
 				<span class="register"> (vulg) </span>
