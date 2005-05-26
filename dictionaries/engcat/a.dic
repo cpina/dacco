@@ -302,14 +302,14 @@
 	</Entry>
 	<Entry frequency="1770000">abort<verbs>
 			<translations>
-				<translation transitive="true">avortar<example>The shuttle launch was &lt;b&gt;aborted&lt;/b&gt; due to a short circuit in the main engine</example>
+				<translation transitive="true">(fer) avortar<example>The shuttle launch was &lt;b&gt;aborted&lt;/b&gt; due to a short circuit in the main engine</example>
 					<example>If the timeout interval expires before the connection is established the connection attempt will be &lt;b&gt;aborted&lt;/b&gt;</example>
 					<example>The weather deteriorated badly and the expedition had to be &lt;b&gt;aborted&lt;/b&gt;</example>
 					<example>They &lt;b&gt;aborted&lt;/b&gt; their attempts to reach the summit of Mount Everest when the weather took a turn for the worse.</example>
 					<synonyms>cut short</synonyms>
 				</translation>
-                                <translation transitive="true" catagory="medical">avortar<catnote>En anglès, l'expressió 'to have an abortion' és més freqüent que el verb 'to abort', almenys en el parlar quotidià.</catnote></translation>
-                                <translation transitive="true" catagory="computers">avortar</translation>
+                                <translation transitive="true" catagory="medical, computers">(fer) avortar<example>The mental anguish suffered by women who &lt;b&gt;abort&lt;/b&gt; their babies is well documented.</example><example>If you encounter an error, you may wish to &lt;b&gt;abort&lt;/b&gt; the program.</example><catnote>En anglès, l'expressió 'to have an abortion' és més freqüent que el verb 'to abort', almenys en el parlar quotidià.</catnote></translation>
+                                <translation intransitive="true" catagory="medical, computers">avortar<example>The program &lt;b&gt;aborts&lt;/b&gt; if a function throws an exception that is not listed.</example><example>Women &lt;b&gt;abort&lt;/b&gt; for a variety of reasons.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1062,7 +1062,7 @@
 	</Entry>
 	<Entry frequency="356000000">add<verbs>
 			<translations>
-				<translation>afegir<example>If you want to &lt;b&gt;add&lt;/b&gt; your website to our webring, please follow the instructions below</example>
+				<translation transitive="true">afegir<example>If you want to &lt;b&gt;add&lt;/b&gt; your website to our webring, please follow the instructions below</example>
 					<example>I would like to &lt;b&gt;add&lt;/b&gt; that I was not the only one to suggest this</example>
 					<example>If you &lt;b&gt;add&lt;/b&gt; two and two together you should end up with four!</example>
 				</translation>
@@ -1144,8 +1144,8 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>adreçar-se a / dirigir-se a</translation>
-				<translation>abordar<engexamp>To address a problem</engexamp>
+				<translation transitive="true">adreçar-se a / dirigir-se a</translation>
+				<translation transitive="true">abordar<engexamp>To address a problem</engexamp>
 					<catexamp>Abordar un problema</catexamp>
 					<synonyms>tackle</synonyms>
 				</translation>
@@ -1193,7 +1193,8 @@
 	</Entry>
 	<Entry frequency="14700000">adjust<verbs>
 			<translations>
-				<translation>ajustar</translation>
+				<translation transitive="true">ajustar</translation>
+                                <translation intransitive="true">adaptar-se a<example>Some kids &lt;b&gt;adjust&lt;/b&gt; to change really easily.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1205,7 +1206,8 @@
 	</Entry>
         <Entry frequency="50500000">administer<verbs>
 			<translations>
-				<translation>administrar</translation>
+				<translation transitive="true">administrar<engexamp>To administer a mailing list</engexamp><catexamp>Administrar una llista de correu</catexamp></translation>
+                                <translation transitive="true" register="formal">administrar<engexamp>To administer a medicine / medicine</engexamp><catexamp>Administrar un medicament / medicaments</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1235,7 +1237,7 @@
 	</Entry>
 	<Entry frequency="707000">admire<verbs>
 			<translations>
-				<translation>admirar</translation>
+				<translation transitive="true">admirar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1247,17 +1249,17 @@
 	</Entry>
 	<Entry frequency="15100000">admit<verbs double="true">
 			<translations>
-				<translation>admetre<example>He &lt;b&gt;admitted&lt;/b&gt; that it was his idea to blow up the embassy</example>
+				<translation transitive="true">admetre<example>He &lt;b&gt;admitted&lt;/b&gt; that it was his idea to blow up the embassy</example>
 					<example>We all knew that he was guilty, the real question was whether or not he would &lt;b&gt;admit&lt;/b&gt; it</example>
 					<synonyms>concede</synonyms>
 					<engnote>Admetre means to admit in the general sense (i.e. he admitted that he had lied)</engnote>
 				</translation>
-				<translation>deixar entrar<example>Can a nightclub refuse to &lt;b&gt;admit&lt;/b&gt; someone if they have had far too much to drink already?</example>
+				<translation transitive="true">deixar entrar<example>Can a nightclub refuse to &lt;b&gt;admit&lt;/b&gt; someone if they have had far too much to drink already?</example>
 					<example>Pubs will be fined heavily for &lt;b&gt;admitting&lt;/b&gt; underage drinkers</example>
 					<synonyms>let in</synonyms>
 					<engnote>Deixar entrar means to admit in the sense of to let somebody into a club or pub etc.</engnote>
 				</translation>
-				<translation catagory="medical">ingressar<example>Peter was &lt;b&gt;admitted&lt;/b&gt; to hospital overnight complaining of pains in his chest</example>
+				<translation catagory="medical" transitive="true">ingressar<example>Peter was &lt;b&gt;admitted&lt;/b&gt; to hospital overnight complaining of pains in his chest</example>
 					<example>Janet was &lt;b&gt;admitted&lt;/b&gt; to hospital with pneumonia</example>
 					<example>The doctors took a number of x-rays and scans and then &lt;b&gt;admitted&lt;/b&gt; her</example>
 					<engnote>Ingressar means to admit in the sense of to admit someone to hospital</engnote>
@@ -1284,11 +1286,12 @@
 	</Entry>
 	<Entry frequency="28400000">adopt<verbs>
 			<translations>
-				<translation>adoptar<example>Joshua and Sarah chose to &lt;b&gt;adopt&lt;/b&gt; a baby rather than start IVF treatment</example>
+				<translation transitive="true">adoptar<engexamp>To adopt a child</engexamp><catexamp>Adoptar un nen</catexamp><engexamp>To adopt a common position</engexamp><catexamp>Adoptar una posició comuna</catexamp><example>Joshua and Sarah chose to &lt;b&gt;adopt&lt;/b&gt; a baby rather than start IVF treatment</example>
 					<example>Chris &lt;b&gt;adopted&lt;/b&gt; a dog from his local animal shelter</example>
 					<example>Up until now, the authorities have &lt;b&gt;adopted&lt;/b&gt; a largely tolerant attitude towards prostitution</example>
 					<example>The European Union and the United States are expected to &lt;b&gt;adopt&lt;/b&gt; a common position on the need to ban nuclear weapons</example>
 				</translation>
+                                <translation intransitive="true">adoptar<example>We offer support groups for families thinking of &lt;b&gt;adopting&lt;/b&gt;.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1324,7 +1327,7 @@
 	</Entry>
 	<Entry frequency="1280000">adore<verbs>
 			<translations>
-				<translation>encantar<synonyms>love</synonyms>
+				<translation transitive="true">encantar<synonyms>love</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -1357,11 +1360,11 @@
 	</Entry>
 	<Entry frequency="249000000">advance<verbs>
 			<translations>
-				<translation>avançar<example>Liberian rebel troops continued to &lt;b&gt;advance&lt;/b&gt; on Monrovia this morning</example>
+				<translation intransitive="true">avançar<engexamp>To advance on</engexamp><catexamp>Avançar cap a</catexamp><engexamp>To advance to (the second round)</engexamp><catexamp>Passar a (la segona ronda)</catexamp><example>Liberian rebel troops continued to &lt;b&gt;advance&lt;/b&gt; on Monrovia this morning</example>
 					<example>The team &lt;b&gt;advanced&lt;/b&gt; to the semi-finals with a 3-0 win over Newcastle</example>
-					<example>Manufacturers are &lt;b&gt;advancing&lt;/b&gt; automation as a solution that will result in fewer jobs</example>
 					<example>Jonathan &lt;b&gt;advanced&lt;/b&gt; to the post of Vice President in just 4 years</example>
 				</translation>
+                                <translation transitive="true">proposar / suggerir / avançar<example>Manufacturers are &lt;b&gt;advancing&lt;/b&gt; automation as a solution that will result in fewer jobs</example></translation>
 			</translations>
 		</verbs>
 		<nouns>
