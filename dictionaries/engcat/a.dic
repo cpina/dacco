@@ -40,7 +40,7 @@
         <Entry frequency="1460000">abate<verbs>
 			<translations>
 				<translation intransitive="true" register="formal">disminuir</translation>
-                                <translation register="formal">minvar</translation>
+                                <translation intransitive="true" register="formal">minvar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -77,7 +77,8 @@
 	</Entry>
 	<Entry frequency="190000">abdicate<verbs>
 			<translations>
-				<translation transitive="true">abdicar</translation>
+				<translation intransitive="true">abdicar<example>If Queen Elizabeth &lt;b&gt;abdicates&lt;/b&gt; then Prince Charles will become King.</example></translation>
+                                <translation transitive="true">renunciar a<example>Even if you find a great paediatrician, you cannot &lt;b&gt;abdicate&lt;/b&gt; responsibility for your childrens' health.</example><example>Edward VIII became the first English monarch to &lt;b&gt;abdicate&lt;/b&gt; the throne voluntarily.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -108,7 +109,7 @@
 	</Entry>
 	<Entry frequency="760000">abduct<verbs>
 			<translations>
-				<translation transitive="true">segrestar<synonyms>kidnap</synonyms>
+				<translation transitive="true">segrestar<example>Peter swore blind that he was &lt;b&gt;abducted&lt;/b&gt; by aliens.</example><synonyms>kidnap</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -145,13 +146,13 @@
 	</Entry>
 	<Entry frequency="300000">abet<verbs double="true">
 			<translations>
-				<translation transitive="true" register="formal">induir / instigar / incitar</translation>
+				<translation transitive="true" register="formal">induir / instigar / incitar<example>The government has claimed that Syria is &lt;b&gt;abetting&lt;/b&gt; the insurgency in Iraq.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
 	<Entry frequency="279000">abhor<verbs double="true">
 			<translations>
-				<translation transitive="true" register="formal">odiar<synonyms>hate, detest</synonyms>
+				<translation transitive="true" register="formal">odiar<example>He &lt;b&gt;abhors&lt;/b&gt; discrimination and greed.</example><synonyms>hate, detest, loathe</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -304,10 +305,11 @@
 				<translation transitive="true">avortar<example>The shuttle launch was &lt;b&gt;aborted&lt;/b&gt; due to a short circuit in the main engine</example>
 					<example>If the timeout interval expires before the connection is established the connection attempt will be &lt;b&gt;aborted&lt;/b&gt;</example>
 					<example>The weather deteriorated badly and the expedition had to be &lt;b&gt;aborted&lt;/b&gt;</example>
-					<example>Our attempt to reach the summit of Mount Everest was &lt;b&gt;aborted&lt;/b&gt; due to high winds</example>
+					<example>They &lt;b&gt;aborted&lt;/b&gt; their attempts to reach the summit of Mount Everest when the weather took a turn for the worse.</example>
 					<synonyms>cut short</synonyms>
 				</translation>
                                 <translation transitive="true" catagory="medical">avortar<catnote>En anglès, l'expressió 'to have an abortion' és més freqüent que el verb 'to abort', almenys en el parlar quotidià.</catnote></translation>
+                                <translation transitive="true" catagory="computers">avortar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -320,7 +322,7 @@
 	</Entry>
           <Entry frequency="5030000">abound<verbs>
 			<translations>
-				<translation intransitive="true">abundar</translation>
+				<translation intransitive="true">abundar<example>Executive aspirations &lt;b&gt;abound&lt;/b&gt; among women professionals.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -483,7 +485,7 @@
 	</Entry>
               <Entry frequency="656000">absolve<verbs>
 			<translations>
-				<translation transitive="true">absoldre</translation>
+				<translation transitive="true">absoldre<example>The man was &lt;b&gt;absolved&lt;/b&gt; of murder as his wife reappeared.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -507,7 +509,8 @@
 	</Entry>
 	<Entry frequency="696000">abstain<verbs>
 			<translations>
-				<translation intransitive="true">abstenir</translation>
+				<translation intransitive="true">abstenir<example>Three councillors voted 'no', four voted 'yes' and two &lt;b&gt;abstained&lt;/b&gt;.</example></translation>
+                                <translation intransitive="true">abstenir-se<engexamp>To abstain from (doing) something</engexamp><catexamp>Abstenir-se de (fer) alguna cosa</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -583,7 +586,8 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation transitive="true">abusar / maltractar</translation>
+				<translation transitive="true">abusar<engexamp>To abuse alcohol</engexamp><catexamp>Abusar de l'alcohol</catexamp><engexamp>To abuse someone's trust</engexamp><catexamp>Abusar de la confiança d'algú</catexamp><engexamp>To (sexually) abuse someone</engexamp><catexamp>Abusar d'algú</catexamp></translation>
+                                <translation transitive="true">maltractar<engexamp>To abuse animals</engexamp><catexamp>Maltractar els animals</catexamp><engnote>'Maltractar' means 'to abuse' in the sense 'to maltreat'.</engnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -650,7 +654,7 @@
 	</Entry>
 	<Entry frequency="254000000">access<verbs>
 			<translations>
-				<translation transitive="true">accedir a</translation>
+				<translation transitive="true">accedir a<engexamp>To access a database</engexamp><catexamp>Accedir a una base de dades</catexamp></translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -719,7 +723,7 @@
 	</Entry>
 	<Entry frequency="9220000">accomplish<verbs>
 			<translations>
-				<translation transitive="true">acomplir<synonyms>achieve</synonyms>
+				<translation transitive="true">aconseguir / assolir<engexamp>To accomplish objectives</engexamp><catexamp>Assolir / aconseguir uns objectius</catexamp><synonyms>achieve</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -768,8 +772,8 @@
 	</Entry>
 	<Entry frequency="6140000">accumulate<verbs>
 			<translations>
-				<translation transitive="true">acumular</translation>
-                                <translation intransitive="true">acumular-se</translation>
+				<translation transitive="true">acumular<example>My mother has &lt;b&gt;accumulated&lt;/b&gt; a lot of junk over the years.</example></translation>
+                                <translation intransitive="true">acumular-se<example>It's amazing how many junk emails have &lt;b&gt;accumulated&lt;/b&gt; in my mail box over time.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -787,7 +791,7 @@
 	</Entry>
 	<Entry frequency="18700000">accuse<verbs>
 			<translations>
-				<translation transitive="true">acusar</translation>
+				<translation transitive="true">acusar<engexamp>To accuse someone of (doing) something</engexamp><catexamp>Acusar algú de (fer) alguna cosa</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -850,7 +854,7 @@
 	</Entry>
 	<Entry frequency="24900000">acknowledge<verbs>
 			<translations>
-				<translation transitive="true">reconèixer<synonyms>recognize</synonyms>
+				<translation transitive="true">reconèixer / admetre / acceptar<example>The president &lt;b&gt;acknowledged&lt;/b&gt; that he had misled family and staff regarding his relationship with Lewinsky.</example><synonyms>to recognize, to admit, to accept</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -947,7 +951,7 @@
 				<translation gender="m">acte teatral</translation>
 				<translation gender="m">decret</translation>
 			</translations>
-		</nouns>
+		</nouns>                
 	</Entry>
 	<Entry frequency="116000000">action<nouns>
 			<translations>

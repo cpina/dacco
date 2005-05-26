@@ -184,11 +184,8 @@ window.onunload=saveswitchstate
 			<xsl:value-of select="."/>
 		</span>
 	</xsl:template>
-	<xsl:template match="verbs">
-		<xsl:if test="count(translations/translation)>0">
-			<br/>
-			<span class="pos"> v </span>
-			<xsl:element name="a">
+        <xsl:template name="verbInfo">
+        		<xsl:element name="a">
 				<xsl:variable name="lookup">
 					<xsl:if test="contains(../text(),' ')">
 						<xsl:value-of select="substring-before(../text(),' ')"/>
@@ -234,7 +231,40 @@ window.onunload=saveswitchstate
 			</xsl:if>
 			<xsl:if test="count(past) >0 or count(participle) >0 or count(gerund) >0">)
 </xsl:if>
-			<xsl:apply-templates select="translations"/>
+</xsl:template>
+	<xsl:template match="verbs">
+		<xsl:if test="count(translations/translation)>0">
+			<br/>
+                        
+                        <xsl:if test="count(translations/translation[@intransitive]) >0 and count(translations/translation[@transitive]) =0">
+                        <span class="pos"> vi </span>
+                        <xsl:call-template name="verbInfo"/>
+                        <xsl:apply-templates select="translations/translation[@intransitive]"/>
+                        </xsl:if>
+                        
+                        <xsl:if test="count(translations/translation[@intransitive]) =0 and count(translations/translation[@transitive]) >0">
+			<span class="pos"> vt </span>
+                        <xsl:call-template name="verbInfo"/>
+                        <xsl:apply-templates select="translations/translation[@transitive]"/>
+                        </xsl:if>
+                        
+                        <xsl:if test="count(translations/translation[@intransitive]) >0 and count(translations/translation[@transitive]) >0">
+                        <span class="pos"> vt </span>
+                        <xsl:call-template name="verbInfo"/>
+                        <xsl:apply-templates select="translations/translation[@transitive]"/>
+                        <br/>
+                        <span class="pos"> vi </span>
+                        <xsl:apply-templates select="translations/translation[@intransitive]"/>
+                        </xsl:if>
+                        
+                        <xsl:if test="count(translations/translation[@intransitive]) =0 and count(translations/translation[@transitive]) =0">
+                        <span class="pos"> v </span>
+                        <xsl:call-template name="verbInfo"/>
+                        <xsl:apply-templates select="translations"/>
+                        </xsl:if>
+                       
+	
+			
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="adverbs">
@@ -346,9 +376,9 @@ window.onunload=saveswitchstate
 				<xsl:text>. </xsl:text>
 			</b>
 		</xsl:if>
-                <xsl:if test="@transitive='true'">
+                <!-- <xsl:if test="@transitive='true'">
 			<span class="transitive"><xsl:text>t </xsl:text></span>
-		</xsl:if><xsl:if test="@intransitive='true'"><span class="intransitive"><xsl:text>i </xsl:text></span></xsl:if>
+		</xsl:if><xsl:if test="@intransitive='true'"><span class="intransitive"><xsl:text>i </xsl:text></span></xsl:if> -->
                 <xsl:if test="@beforenoun='true'">
 			<span class="beforenoun"><xsl:text>(before noun) </xsl:text></span>
 		</xsl:if>  
