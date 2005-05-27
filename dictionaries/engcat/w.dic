@@ -243,6 +243,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+	<Entry frequency="8990000">wanna<verbs>
+			<translations>
+				<translation register="colloquial" local="us">voler (want to)</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="159000000">want<verbs>
 			<translations>
 				<translation>voler</translation>
@@ -259,7 +265,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="3980000">wardrobe<nouns>
+	<Entry frequency="3980000">wardrobe<nouns>
 			<translations>
 				<translation catagory="household-room-bedroom" gender="m">guarda-roba / vestuari</translation>
 			</translations>
@@ -299,7 +305,23 @@
 			</translations>
 		</nouns>
 	</Entry>
-     <Entry frequency="32000000">warranty<nouns>
+	<Entry frequency="31900000">warrant<nouns>
+			<translations>
+				<translation gender="f">autorització / ordre
+					<engexamp>they had a warrant for his arrest</engexamp><catexamp>portaven una ordre per detenir-lo</catexamp>
+					<engexamp>arrest warrant</engexamp><catexamp>ordre de recerca i captura</catexamp>
+					<engexamp>search warrant</engexamp><catexamp>ordre de registre</catexamp>
+				</translation>
+			</translations>
+		</nouns>
+		<verbs>
+			<translations>
+				<translation transitive="true">garantir</translation>
+			</translations>
+		</verbs>
+
+	</Entry>
+	<Entry frequency="32000000">warranty<nouns>
 			<translations>
 				<translation gender="f">garantia<plural>warranties</plural></translation>
 			</translations>
@@ -343,6 +365,18 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
+	</Entry>
+	<Entry frequency="290000">washbasin<nouns>
+			<translations>
+				<translation gender="f">lavabo / rentamans</translation>
+			</translations>
+		</nouns>
+	</Entry>
+	<Entry frequency="26500">washbowl<nouns>
+			<translations>
+				<translation gender="f">gibrell, gibrella</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="150000">washing<nouns>
 			<translations>
@@ -792,13 +826,14 @@
 			<translations>
 				<translation>bé / ben<example>He plays really &lt;b&gt;well&lt;/b&gt;</example>
 					<example>I hope everything goes &lt;b&gt;well&lt;/b&gt;</example>
+					<engexamp>it's just as well (that)</engexamp><catexamp>encara sort que</catexamp>
 					<engexamp>as well</engexamp><catexamp>també</catexamp>
 					<engexamp>as well as</engexamp><catexamp>a més de</catexamp>
 				</translation>
 				<translation register="colloquial">molt<example>I was &lt;b&gt;well&lt;/b&gt; annoyed when I found out</example>
 					<example>By midnight he was &lt;b&gt;well&lt;/b&gt; tired</example>
 					<example>I was &lt;b&gt;well&lt;/b&gt; pleased with my exam results</example>
-					<catnote>En anglès col·loquial la paraula 'well' s'utilitza sovint com a adverbi.  És, més o menys, sinònim de 'really', és a dir 'molt'</catnote>
+					<engexamp>you might as well go home</engexamp><catexamp>més val que tornis a casa</catexamp>
 				</translation>
 			</translations>
 		</adverbs>
