@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE dictionary []><!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Robert Hibbert (Penn State Univ) -->
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE dictionary []><!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Robert Hibbert (Penn State Univ) -->
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dic.xsd">
 <Entry frequency="1380000">abacus<nouns>
 			<translations>
@@ -1418,7 +1418,8 @@
 	</Entry>
 	<Entry frequency="32000000">advertise<verbs>
 			<translations>
-				<translation>posar un anunci</translation>
+                        <translation transitive="true">anunciar<example>&lt;b&gt;Advertise&lt;/b&gt; your property for free on our web site!</example></translation>
+				<translation intransitive="true">publicar un anunci / posar un anunci<example>The company &lt;b&gt;advertised&lt;/b&gt; in this week's Observer.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1462,8 +1463,9 @@
 	</Entry>
 	<Entry frequency="19900000">advise<verbs>
 			<translations>
-				<translation>aconsellar<synonyms>suggest, recommend</synonyms>
+				<translation transitive="true">aconsellar<example>I would &lt;b&gt;advise&lt;/b&gt; you to keep your mouth shut.</example><synonyms>suggest, recommend</synonyms>
 				</translation>
+                                <translation intransitive="true">aconsellar<engexamp>To advise on something</engexamp><catexamp>Aconsellar sobre alguna cosa</catexamp><engexamp>To advise doing / not doing something</engexamp><catexamp>Aconsellar fer / no fer alguna cosa</catexamp></translation>
 			</translations>
 		</verbs>
 		<phrasalverbs>advise against
@@ -1540,7 +1542,7 @@
 	</Entry>
 	<Entry frequency="45200000">affect<verbs>
 			<translations>
-				<translation>afectar</translation>
+				<translation transitive="true">afectar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1753,12 +1755,22 @@
 	</Entry>
 	<Entry frequency="140000000">agree<verbs>
 			<translations>
-				<translation>acordar<example>Workers&lt;b&gt;agreed&lt;/b&gt; to a series of pay cuts in an attempt to save their jobs</example>
-					<example>Do you &lt;b&gt;agree&lt;/b&gt; with smacking children?</example>
-					<example>In general I &lt;b&gt;agree&lt;/b&gt; with you, but I have one or two further questions</example>
-					<engexamp>To agree (to do something)</engexamp>
-					<catexamp>Acordar (fer alguna cosa)</catexamp>
+				<translation transitive="true">acordar / convenir<engexamp>To agree to (do) something</engexamp>
+					<catexamp>Acordar (fer) alguna cosa)</catexamp><example>Workers&lt;b&gt;agreed&lt;/b&gt; to a series of pay cuts in an attempt to save their jobs</example>
 				</translation>
+                                <translation intransitive="true">estar d'acord<engexamp>Do you agree?</engexamp><catexamp>Estàs d'acord?</catexamp></translation>
+                                <translation intransitive="true">posar-se d'acord<engexamp>To agree (reach an agreement)</engexamp><catexamp>Posar-se d'acord</catexamp></translation>
+                                <translation intransitive="true">concordar<engexamp>Adjectives agree with the nouns that they modify</engexamp><catexamp>Els adjectius concorden amb els substantius que modifiquen</catexamp></translation>
+                                <phrasalverbs>agree with (something)<translations>
+                                <translation>aprovar<example>Do you &lt;b&gt;agree&lt;/b&gt; with smacking children?</example></translation>
+                                </translations>
+                                </phrasalverbs>
+                                <phrasalverbs>agree with (someone)
+                                <translations>
+                                <translation>estar d'acord amb algú<example>In general I &lt;b&gt;agree&lt;/b&gt; with you, but I have one or two further questions</example></translation>
+                                <translation>provar a algú<engnote>'Provar a algú' means 'to agree with someone' in the sense 'to suit' (i.e. 'the hot weather agrees with me').</engnote><example>Hot weather &lt;b&gt;agrees with&lt;/b&gt; me more than cold weather.</example></translation>
+                                </translations>
+                                </phrasalverbs>
 			</translations>
 		</verbs>
 	</Entry>
