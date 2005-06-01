@@ -395,21 +395,27 @@
 	</Entry>
 	<Entry frequency="600">gelar<verbs conj="regular">
 			<translations>
-				<translation>to freeze</translation>
+				<translation>to freeze<synonyms>glaçar</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="5850">gelat<nouns>
-			<translations>
+	<Entry frequency="21100">gelat<nouns>
+			<translations><date>0605</date>
 				<translation catagory="food-dairy" gender="m">ice-cream</translation>
 			</translations>
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>frozen<fems>gelada</fems>
+				<translation>frozen<fems>gelada</fems><synonyms>glaçat</synonyms>
 				</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+	<Entry frequency="7500">gelada<nouns>
+			<translations><date>0605</date>
+				<translation catagory="weather" gender="f">frost</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="925">gelatina<nouns>
 			<translations>
@@ -1029,9 +1035,34 @@
 			</translations>
 		</nouns>
 	</Entry>
+	<Entry frequency="828">glaçar<verbs conj="çtoC">
+			<translations>
+				<translation>to freeze<synonyms>gelar</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
+	<Entry frequency="21100">glaçat<adjectives>
+			<translations><date>0605</date>
+				<translation>frozen<fems>glaçada</fems><synonyms>gelat</synonyms>
+				</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+	<Entry frequency="7500">glaçada<nouns>
+			<translations><date>0605</date>
+				<translation catagory="weather" gender="f">frost</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="543">glacera<nouns>
 			<translations>
 				<translation catagory="geography" gender="f">glacier</translation>
+			</translations>
+		</nouns>
+	</Entry>
+	<Entry frequency="544">glaçó<nouns>
+			<translations><date>0605</date>
+				<translation gender="m">ice cube<plural>glaçons</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
