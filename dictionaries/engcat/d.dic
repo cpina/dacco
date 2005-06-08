@@ -600,6 +600,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="6510000">deceased<adjectives>
+			<translations>
+				<translation register="formal">difunt / mort<synonyms>dead</synonyms></translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation register="formal" gender="mf">difunt / mort</translation></translations></nouns>
+	</Entry>
 	<Entry frequency="1880000">deceive<verbs>
 			<translations>
 				<translation>enganyar / estafar<synonyms>con</synonyms>
@@ -1285,12 +1294,33 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="1300000">depress<verbs>
+			<translations>
+				<translation>deprimir</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="2550000">depressed<adjectives>
 			<translations>
 				<translation>deprimit<synonyms>down</synonyms>
 				</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="26700000">depression<nouns>
+			<translations>
+                        <translation>
+				<translation gender="m">abatiment / desànim</translation>
+                                <translation gender="f">depressió</translation>
+                                </translation>
+                                <translation catagory="financial" gender="f">depressió</translation>
+                                <translation>
+                                <translation gender="f">depressió</translation>
+                                <translation gender="m">clot / sot</translation>
+                                </translation>
+                                <translation catagory="weather" gender="f">depressió atmosfèrica</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="3650000">deprivation<nouns>
 			<translations>
