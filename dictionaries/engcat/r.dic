@@ -463,7 +463,7 @@
 	</Entry>
 	<Entry frequency="4830000">rapidly<adverbs>
 			<translations>
-				<translation>ràpidament</translation>
+				<translation>ràpidament / acceleradament</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -681,11 +681,12 @@
 	<Entry frequency="20200000">reach<verbs>
 			<translations>
 				<translation>arribar</translation>
+                                <translation>abastar</translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
-				<translation gender="m">abast</translation>
+				<translation gender="m">abast<engexamp>Within reach</engexamp><catexamp>A l'abast</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -760,6 +761,18 @@
 				<translation gender="mpl">béns immobles</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="2520000">realisation<nouns>
+			<translations>
+				<translation local="gb" gender="f">comprensió / realització<otherlocal>realization</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="11300000">realise<verbs>
+			<translations>
+				<translation local="gb">adonar-se<otherlocal>realize</otherlocal></translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="1860000">realism<nouns>
 			<translations>
@@ -1348,10 +1361,16 @@
 			<translations>
 				<translation>reduir<engnote>'Reduir' means 'to reduce' in the sense 'to make something smaller'</engnote>
 				</translation>
-				<translation>rebaixar<engnote>'Rebaixar' means 'to reduce' as in 'to lower a price'</engnote>
+				<translation>reduir / rebaixar / abaixar / abaratir<engnote>'Reduir', 'rebaixar', 'abaixar' and 'abaratir' mean 'to reduce' as in 'to lower a price / costs etc.'</engnote>
 				</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="62800000">reduction<nouns>
+			<translations>
+				<translation gender="f">reducció<engexamp>Reduction of costs</engexamp><catexamp>Reducció / abaratiment de costos</catexamp></translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="4320000">redundant<adjectives>
 			<translations>
@@ -2597,6 +2616,7 @@
 	<Entry frequency="8530000">retirement<nouns>
 			<translations>
 				<translation gender="f">jubilació</translation>
+                                <translation catagory="sports" gender="m">abandó</translation>
 			</translations>
 		</nouns>
 	</Entry>
