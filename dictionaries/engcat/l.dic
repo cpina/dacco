@@ -342,14 +342,14 @@
 	</Entry>
 	<Entry frequency="124000">landlady<nouns>
 			<translations>
-				<translation gender="f">propietària<plural>landladies</plural>
+				<translation gender="f">propietària / arrendadora<plural>landladies</plural>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="2770000">landlord<nouns>
 			<translations>
-				<translation gender="m">propietari</translation>
+				<translation gender="m">propietari / arrendador</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -862,6 +862,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="271000">leaseholder<nouns>
+			<translations>
+				<translation gender="mf">arrendatari</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="716000">leash<nouns>
 			<translations>
 				<translation gender="f">corretja<synonyms>lead</synonyms>
@@ -1162,12 +1168,24 @@
 			</translations>
 		</adverbs>
 	</Entry>
+        <Entry frequency="915000">lessee<nouns>
+			<translations>
+				<translation catagory="legal" gender="mf">arrendatari<synonyms>leaseholder / tenant</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="29100000">lesson<nouns>
 			<translations>
 				<translation>
 					<translation gender="f">lliçó</translation>
 					<translation gender="f">classe</translation>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="745000">lessor<nouns>
+			<translations>
+				<translation catagory="legal" gender="mf">arrendador<synonyms>landlord / landlady</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1242,6 +1260,9 @@
 				<translation>anivellar / aplanar</translation>
 			</translations>
 		</verbs>
+                <adjectives>
+                <translations>
+                <translation>anivellat<engexamp>Level with</engexamp><catexamp>Arran de</catexamp></translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="74500">level crossing<nouns>
 			<translations>
@@ -1949,6 +1970,9 @@
 				<translation gender="m">pany</translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>lock (someone) up
+                <translations>
+                <translation>empresonar / arrestar</translation></translations></phrasalverbs>
 	</Entry>
 	<Entry frequency="157000">lockdown<nouns>
 			<translations>
