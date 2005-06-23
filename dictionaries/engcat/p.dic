@@ -1210,7 +1210,9 @@
 	</Entry>
 	<Entry frequency="2860000">peach<nouns>
 			<translations>
-				<translation catagory="food-fruit" gender="m">préssec<plural>peaches</plural>
+                        <translation>
+				<translation catagory="food-fruit" gender="m">préssec<plural>peaches</plural></translation>
+                                <translation gender="f">bresquilla</translation>
 				</translation>
 			</translations>
 		</nouns>
@@ -2882,6 +2884,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="4690000">playing field<nouns>
+			<translations>
+				<translation gender="m">camp de joc</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="3440000">play-off<nouns>
 			<translations>
 				<translation catagory="sports" gender="m">partit de desempat</translation>
@@ -3336,6 +3344,18 @@
 				<translation catagory="religious" gender="m">Pontífex</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="1380000">poo<nouns>
+			<translations>
+				<translation gender="f">caca</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                <translations>
+                <translation>defecar</translation></translations></verbs>
+                <exclamations>
+                <translations>
+                <translation>merda!</translation></translations></exclamations>
 	</Entry>
 	<Entry frequency="50000">pooh pooh<verbs>
 			<translations>
@@ -4949,6 +4969,12 @@
 			<translations>
 				<translation gender="f">propietat<plural>properties</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="86200">property register<nouns>
+			<translations>
+				<translation gender="m">cadastre<synonyms>cadastre / land register</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
