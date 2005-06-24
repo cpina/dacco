@@ -1447,7 +1447,7 @@
 	</Entry>
 	<Entry frequency="458000">cauliflower<nouns>
 			<translations>
-				<translation gender="f">coliflor</translation>
+				<translation gender="f">coliflor<engnote>'Coliflor' is often hyphenated 'col-i-flor'.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3062,7 +3062,7 @@
 	</Entry>
         <Entry frequency="34800000">civic<adjectives>
 			<translations>
-				<translation>civic</translation>
+				<translation>cívic</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3153,6 +3153,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="2530000">clarinet<nouns>
+			<translations>
+				<translation thematic="entertainment-music" gender="m">clarinet</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="9970000">clarity<nouns>
 			<translations>
 				<translation gender="f">claredat</translation>
@@ -3165,6 +3171,9 @@
 				</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                <translations>
+                <translation>xocar</translation></translations></verbs>
 	</Entry>
 	<Entry frequency="121000000">class<nouns>
 			<translations>
@@ -3406,7 +3415,7 @@
 	</Entry>
         <Entry frequency="28600000">clip<nouns>
 			<translations>
-				<translation gender="m">clip</translation>
+				<translation gender="m">clip<engexamp>Clip round the ear (Br.)</engexamp><catexamp>Clatellot</catexamp></translation>
 			</translations>
 		</nouns>
                 <verbs double="true">
@@ -3473,6 +3482,12 @@
                 </translations>
                 </nouns>
 	</Entry>
+        <Entry frequency="839000">cloister<nouns>
+			<translations>
+				<translation thematic="religious" gender="m">claustre</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="9570000">clone<verbs>
         <translations>
         <translation>clonar</translation></translations></verbs>
@@ -3503,6 +3518,7 @@
 	<Entry frequency="26900000">closed<adjectives>
 			<translations>
 				<translation>tancat</translation>
+                                <translation>cluc<engnote>'Cluc' means 'shut' when referring to eyes (amb els ulls clucs - with his eyes closed).</engnote></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3692,7 +3708,7 @@
 	</Entry>
 	<Entry frequency="1240000">cockpit<nouns>
 			<translations>
-				<translation catagory="transport" gender="f">cabina (d'un avió)</translation>
+				<translation thematic="transport" gender="f">cabina (d'un avió)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3831,9 +3847,21 @@
                 <translation>crear / encunyar</translation>
                 <translation>encunyar</translation></translations></verbs>
 	</Entry>
+        <Entry frequency="10200000">coincide<verbs>
+			<translations>
+				<translation>coincidir</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="2780000">coincidence<nouns>
 			<translations>
 				<translation gender="f">coincidència</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="224000">coitus<nouns>
+			<translations>
+				<translation register="formal" gender="m">coit<synonyms>(sexual) intercourse</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3865,7 +3893,7 @@
 	</Entry>
         <Entry frequency="1810000">cold front<nouns>
 			<translations>
-				<translation catagory="weather" gender="m">front fred</translation>
+				<translation thematic="weather" gender="m">front fred</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3955,6 +3983,18 @@
 	<Entry frequency="12800000">collector<nouns>
 			<translations>
 				<translation gender="mf">col·leccionista</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="4010000">collide<verbs>
+			<translations>
+				<translation>col·lidir / xocar / topar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="12500000">collision<nouns>
+			<translations>
+				<translation gender="f">col·lisió</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4099,10 +4139,10 @@
 		</verbs>
 	</Entry>
 	<Entry frequency="141000000">combine<verbs>
-		</verbs>
 			<translations>
 				<translation>combinar</translation>
 			</translations>
+                        </verbs>
 	</Entry>
 	<Entry frequency="153000">combo box<nouns>
 			<translations>
@@ -4110,6 +4150,12 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="1340000">combustible<adjectives>
+			<translations>
+				<translation>combustible</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="132000000">come<verbs>
 			<past>came</past>
@@ -4255,6 +4301,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="569000">commercialise<verbs>
+			<translations>
+				<translation local="gb">comercialitzar<otherlocal>commercialize</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="2140000">commercialize<verbs>
+			<translations>
+				<translation local="us">comercialitzar<otherlocal>commercialise</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="1030000">commercially<adverbs>
 			<translations>
 				<translation>comercialment</translation>
@@ -4348,7 +4406,7 @@
 	</Entry>
         <Entry frequency="3170000">communion<nouns>
 			<translations>
-				<translation gender="f">comunió<engexamp>First communion</engexamp><catexamp>Primera comunió</catexamp></translation>
+				<translation gender="f">comunió<engexamp>First communion</engexamp><catexamp>Primera comunió</catexamp><engexamp>To receive communion</engexamp><catexamp>(Anar a) combregar</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4830,6 +4888,12 @@
 				<translation gender="f">formigonera<synonyms>cement mixer</synonyms></translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="14600000">concurrent<adjectives>
+			<translations>
+				<translation>coincident</translation>
+			</translations>
+		</adjectives>
 	</Entry>
         	<Entry frequency="8970000">condemn<verbs>
 			<translations>
