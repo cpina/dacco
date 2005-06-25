@@ -158,6 +158,13 @@
             </sequential>
     </macrodef>
     
+    <target name="forPrint">
+    <style 
+        in="dictionaries/engcat/list.xml"
+        out="output/engcat/engSpeakers/ec4e.xml" 
+        style="input/engcat/mergeAndRestructureECForCSS.xslt">
+    </style>
+    </target>
     <target name="verbs" >
      <delete>
             <fileset dir="output/">
@@ -165,9 +172,42 @@
             </fileset>
         </delete>
      <style 
+        in="dictionaries/cateng/list.xml"
+        out="output/cateng/stats/verbs.xml" 
+        style="input/cateng/verbs.xsl">
+    </style>
+     </target>
+
+         <target name="missing" >
+     <delete>
+            <fileset dir="output/">
+                <include name="**/missing.xml"/>
+            </fileset>
+        </delete>
+     <style 
+        in="dictionaries/cateng/list.xml"
+        out="output/cateng/stats/missing.xml" 
+        style="input/cateng/missing.xsl">
+    </style>
+     </target>
+
+          
+     <target name="catagories" >
+     <delete>
+            <fileset dir="output/">
+                <include name="**/catagories.xml"/>
+            </fileset>
+        </delete>
+     <style 
         in="dictionaries/engcat/list.xml"
-        out="output/engcat/stats/verbs.xml" 
-        style="input/engcat/verbs.xsl">
+        out="output/engcat/stats/catagories.xml" 
+        style="input/engcat/catagoryList.xsl">
+    </style>
+    
+     <style 
+        in="dictionaries/cateng/list.xml"
+        out="output/cateng/stats/catagories.xml" 
+        style="input/cateng/catagoryList.xsl">
     </style>
      </target>
      
