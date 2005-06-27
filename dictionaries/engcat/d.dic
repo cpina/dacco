@@ -1403,8 +1403,8 @@
 	</Entry>
 	<Entry frequency="9470000">deposit<verbs>
 			<translations>
-				<translation disambiguate="financial" local="us">ingressar<otherlocal>pay in</otherlocal>
-				</translation>
+				<translation disambiguate="financial" local="us">ingressar<otherlocal>pay in</otherlocal></translation>
+                                <translation>dipositar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1610,6 +1610,12 @@
 	<Entry frequency="46500000">desktop<nouns>
 			<translations>
 				<translation disambiguate="computers" gender="m" termcat="true">escriptori</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="3650000">desktop publishing<nouns>
+			<translations>
+				<translation catagory="computers" termcat="true" gender="f">autoedició</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2334,6 +2340,12 @@
 			</translations>
 		</adverbs>
 	</Entry>
+         <Entry frequency="132000">diptych<nouns>
+			<translations>
+				<translation gender="m">díptic</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="9220000">dire<adjectives>
 			<translations>
 				<translation>horrorós / terrible</translation>
@@ -2388,11 +2400,12 @@
 	</Entry>
 	<Entry frequency="10800000">disabled<adjectives>
 			<translations>
-				<translation>minusvàlid<engexamp>The disabled / Disabled people</engexamp>
-					<catexamp>Els minusvàlids</catexamp>
-				</translation>
+				<translation>minusvàlid</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation sourceplural="the disabled" gender="mpl">minusvàlids / disminuïts<engexamp>A (physically / mentally) disabled person</engexamp><catexamp>Un minusvàlid / disminuït (físic / psíquic)</catexamp></translation></translations></nouns>
 	</Entry>
 	<Entry frequency="11300000">disadvantage<nouns>
 			<translations>
@@ -2782,6 +2795,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="710000">displease<verbs>
+			<translations>
+				<translation>disgustar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="863000">displeasure<nouns>
+			<translations>
+				<translation gender="m">disgust</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="306000">disposable income<nouns>
 			<translations>
 				<translation gender="mpl">ingressos disponibles</translation>
@@ -2868,6 +2893,9 @@
 				<translation gender="f">distància</translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>distance (yourself) from
+                <translations>
+                <translation>distanciar-se de</translation></translations></phrasalverbs>
 	</Entry>
 	<Entry frequency="3440000">distant<adjectives>
 			<translations>
@@ -3008,6 +3036,18 @@
 				<translation>divers</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="4090000">diversification<nouns>
+			<translations>
+				<translation gender="f">diversificació</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="9930000">diversify<verbs ie="true">
+			<translations>
+				<translation>diversificar</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="26300000">diversity<nouns>
 			<translations>
@@ -3657,6 +3697,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="156000">dramatise<verbs>
+			<translations>
+				<translation local="gb">dramatitzar<otherlocal>dramatize</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="699000">dramatize<verbs>
+			<translations>
+				<translation local="us">dramatitzar<otherlocal>dramatise</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="334000">drapes<nouns>
 			<translations>
 				<translation gender="fpl" local="us">cortines<otherlocal>curtains</otherlocal>
@@ -3776,6 +3828,9 @@
 				</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>dress up
+                <translations>
+                <translation>disfressar-se<engnote>'Disfressar-se' means 'to dress up' in the sense 'to dress up as someone / something'.</engnote></translation></translations></phrasalverbs>
 	</Entry>
 	<Entry frequency="155">dressage<nouns>
 			<translations>
@@ -4078,7 +4133,7 @@
 	</Entry>
 	<Entry frequency="4000000">drunk<adjectives>
 			<translations>
-				<translation>borratxo<catnote>També són bastant freqüents les expressions &apos;drunk as a skunk&apos; i &apos;drunk as a lord&apos;</catnote>
+				<translation>borratxo / ebri<catnote>També es pot dir &apos;drunk as a skunk&apos; i &apos;drunk as a lord&apos;</catnote>
 				</translation>
 			</translations>
 		</adjectives>
@@ -4447,6 +4502,12 @@
 	<Entry frequency="9420000">dynamics<nouns>
 			<translations>
 				<translation gender="f">dinàmica</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="3380000">dynamite<nouns>
+			<translations>
+				<translation gender="f">dinamita</translation>
 			</translations>
 		</nouns>
 	</Entry>
