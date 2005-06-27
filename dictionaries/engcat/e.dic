@@ -67,7 +67,7 @@
 	</Entry>
 	<Entry frequency="31900000">ear<nouns>
 			<translations>
-				<translation catagory="body">
+				<translation disambiguate="body">
 					<translation gender="f">orella</translation>
 					<translation gender="f">oïda</translation>
 					<engnote>'Orella' is the actual physical protuberance that sticks out of the side of your head, 'oïda' is your inner ear.</engnote>
@@ -367,7 +367,7 @@
 	</Entry>
 	<Entry frequency="3270000">economical<adjectives>
 			<translations>
-				<translation catagory="financial">barat</translation>
+				<translation disambiguate="financial">barat</translation>
 				<translation>frugal<catnote>L'expressió 'to be economical with the truth' és un eufemisme que vol dir 'mentir'</catnote>
 				</translation>
 			</translations>
@@ -639,9 +639,9 @@
 	</Entry>
 	<Entry frequency="8650000">egg<nouns>
 			<translations>
-				<translation catagory="food" gender="m">ou<engnote>'Ou' means the 'egg' you eat</engnote>
+				<translation disambiguate="food" gender="m">ou<engnote>'Ou' means the 'egg' you eat</engnote>
 				</translation>
-				<translation catagory="medical" gender="m">òvul<engnote>'òvul' means 'egg' in the biological sense (i.e. 'to donate eggs to infertile couples')</engnote>
+				<translation disambiguate="medical" gender="m">òvul<engnote>'òvul' means 'egg' in the biological sense (i.e. 'to donate eggs to infertile couples')</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -1052,20 +1052,20 @@ comicis</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="1500000">embarrass<verbs>
+	<Entry frequency="1500000">embarrass<verbs><mistakes>embarass</mistakes>
 			<translations>
 				<translation>fer vergonya a algú</translation>
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="3650000">embarrassed<adjectives>
+	<Entry frequency="3650000">embarrassed<adjectives><mistakes>embarassed</mistakes>
 			<translations>
-				<translation>avergonyit<engnote>False Friend: the Catalan for 'embarrassed' is 'avergonyit'.  'Embarrassada' means 'pregnant'!</engnote>
+				<translation>desconcertat / avergonyit<engnote>False Friend: the Catalan for 'embarrassed' is 'desconcertat' or 'avergonyit'.  'Embarrassada' means 'pregnant'!</engnote>
 				</translation>
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="4500000">embarrassing<adjectives>
+	<Entry frequency="4500000">embarrassing<adjectives><mistakes>embarassing</mistakes>
 			<translations>
 				<translation>vergonyós</translation>
 			</translations>
@@ -1351,9 +1351,10 @@ comicis</translation>
 	</Entry>
 	<Entry frequency="335000000">end<nouns>
 			<translations>
-				<translation gender="f">fi</translation>
+				<translation gender="f">fi<engexamp>To come to an end</engexamp><catexamp>Acabar / culminar</catexamp></translation>
                                 <translation gender="fpl">acaballes</translation>
                                 <translation gender="m">acabament</translation>
+                                <translation gender="f">darreria</translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -2020,8 +2021,8 @@ a processar-li per aquest delit.</catnote></translation>
 	</Entry>
 	<Entry frequency="2840000">Estonian<nouns>
 			<translations>
-				<translation catagory="language" gender="m">estonià</translation>
-				<translation catagory="nationality" gender="mf">estonià</translation>
+				<translation disambiguate="language" gender="m">estonià</translation>
+				<translation disambiguate="nationality" gender="mf">estonià</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -2163,7 +2164,7 @@ a processar-li per aquest delit.</catnote></translation>
 	</Entry>
 	<Entry frequency="1640000">evacuate<verbs>
 			<translations>
-				<translation>evacuar / desallotjar<engnote>Evacuar' is the more general word for 'evacuate'. 'Desallotjar' specifically means moving people from their homes.</engnote>
+				<translation>evacuar / desallotjar<engnote>'Evacuar' is the more general word for 'evacuate'. 'Desallotjar' specifically means moving people from their homes.</engnote>
 				</translation>
 			</translations>
 		</verbs>
@@ -2197,7 +2198,7 @@ a processar-li per aquest delit.</catnote></translation>
 				</translation>
 				<translation>igual<engnote>'Igual' means 'even' in the sense 'equal'</engnote>
 				</translation>
-				<translation catagory="maths">parell<engnote>'Parell' means 'even' in the mathematical sense 'divisible by 2'</engnote>
+				<translation disambiguate="maths">parell<engnote>'Parell' means 'even' in the mathematical sense 'divisible by 2'</engnote>
 				</translation>
 			</translations>
 		</adjectives>
@@ -2385,6 +2386,12 @@ a processar-li per aquest delit.</catnote></translation>
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="28600000">excess<nouns>
+			<translations>
+				<translation>excés<plural>excesses</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="76400000">exchange<verbs>
 			<translations>
 				<translation>bescanviar / intercanviar</translation>
@@ -2567,7 +2574,7 @@ a processar-li per aquest delit.</catnote></translation>
 	</Entry>
 	<Entry frequency="59900000">expand<verbs>
 			<translations>
-				<translation catagory="computers">descomprir<engnote>Descomprimir means to expand in the sense of to uncompress (zip files etc.)</engnote>
+				<translation disambiguate="computers">descomprir<engnote>Descomprimir means to expand in the sense of to uncompress (zip files etc.)</engnote>
 				</translation>
 				<translation>ampliar / expandir<engnote>Ampliar and expandir mean to expand in a general sense</engnote>
 				</translation>
@@ -2663,6 +2670,18 @@ a processar-li per aquest delit.</catnote></translation>
         <Entry frequency="5990000">expiration<nouns>
 			<translations>
 				<translation gender="f">caducitat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="9210000">expiration date<nouns>
+			<translations>
+				<translation gender="f">data de caducitat<synonyms>expiry date / use-by date (Br.)</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="1810000">expiry date<nouns>
+			<translations>
+				<translation gender="f">data de caducitat<synonyms>expiration date / use-by date (Br.)</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>

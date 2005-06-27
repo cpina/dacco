@@ -3,7 +3,7 @@
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Documents and Settings\James\My Documents\dacco projects\dacco\dictionary\dic.xsd">
 	<Entry frequency="50000">mac<nouns>
 			<translations>
-				<translation catagory="clothes" local="gb" register="colloquial" gender="m">impermeable<otherlocal>raincoat</otherlocal>
+				<translation disambiguate="clothes" local="gb" register="colloquial" gender="m">impermeable<otherlocal>raincoat</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
@@ -282,7 +282,7 @@
 	<Entry frequency="366000">magpie<nouns>
 			<translations>
 				<translation gender="f">garsa</translation>
-                                <translation sourceplural="Magpies" noteng="TRUE" register="colloquial" catagory="sports, encyclopaedic" local="gb">-<synonyms>Toon Army</synonyms>
+                                <translation sourceplural="Magpies" noteng="TRUE" register="colloquial" disambiguate="sports, encyclopaedic" local="gb">-<synonyms>Toon Army</synonyms>
 					<catnote>The Magpies és un dels sobrenoms de l'equip de futbol anglès Newcastle United FC.  L'altre sobrenom d'aquest equip és 'The Toon Army'</catnote>
 				</translation>
 			</translations>
@@ -331,7 +331,7 @@
 	</Entry>
 	<Entry frequency="5440000">mailbox<nouns>
 			<translations>
-				<translation catagory="computers" termcat="true" gender="f">bústia (electrònica)</translation>
+				<translation disambiguate="computers" termcat="true" gender="f">bústia (electrònica)</translation>
 				<translation local="us" gender="f">bústia<otherlocal>letterbox</otherlocal>
 					<plural>mailboxes</plural>
 				</translation>
@@ -675,8 +675,8 @@
 	</Entry>
 	<Entry frequency="260000">mandarin<nouns>
 			<translations>
-				<translation catagory="food" gender="f">mandarina</translation>
-				<translation catagory="language" gender="m">(xinès) mandarí</translation>
+				<translation disambiguate="food" gender="f">mandarina</translation>
+				<translation disambiguate="language" gender="m">(xinès) mandarí</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -868,7 +868,7 @@
 	<Entry frequency="42800000">manual<nouns>
 			<translations>
 				<translation gender="m">manual</translation>
-				<translation catagory="transport" local="gb" gender="m">(cotxe) amb marxes / canvi manual<example>Is your car a &lt;b&gt;manual&lt;/b&gt; or an automatic?</example>
+				<translation disambiguate="transport" local="gb" gender="m">(cotxe) amb marxes / canvi manual<example>Is your car a &lt;b&gt;manual&lt;/b&gt; or an automatic?</example>
 					<otherlocal>stick shift</otherlocal>
 				</translation>
 			</translations>
@@ -908,8 +908,8 @@
 	</Entry>
                 <Entry frequency="530">Maori<nouns>
 			<translations><date>0305</date>
-				<translation catagory="language" gender="m">maori</translation>
-                                <translation catagory="nationality" gender="mf">Maori</translation>
+				<translation disambiguate="language" gender="m">maori</translation>
+                                <translation disambiguate="nationality" gender="mf">Maori</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -947,7 +947,7 @@
 	</Entry>
 	<Entry frequency="3850000">marble<nouns>
 			<translations>
-				<translation catagory="material" gender="m">marbre</translation>
+				<translation disambiguate="material" gender="m">marbre</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1274,7 +1274,7 @@
                 <translation gender="fpl">farinetes</translation>
                 <translation gender="f">guixa</translation>
                 </translation>
-                <translation catagory="food" local="gb" gender="m">puré de patates<otherlocal>mashed potatoes</otherlocal></translation>
+                <translation disambiguate="food" local="gb" gender="m">puré de patates<otherlocal>mashed potatoes</otherlocal></translation>
                 </translations>
                 </nouns>
 	</Entry>
@@ -1298,7 +1298,7 @@
 	</Entry>
 	<Entry frequency="13000000">mass<nouns>
 			<translations>
-				<translation catagory="religious" gender="f">missa</translation>
+				<translation disambiguate="religious" gender="f">missa</translation>
 				<translation gender="f">massa<plural>masses</plural>
 				</translation>
 			</translations>
@@ -1401,7 +1401,7 @@
 		</verbs>
 		<nouns>
 			<translations>
-				<translation catagory="sports" gender="m">partit</translation>
+				<translation disambiguate="sports" gender="m">partit</translation>
 				<translation gender="m">llumí<plural>matches</plural>
 				</translation>
 			</translations>
@@ -1739,7 +1739,7 @@
         <nouns>
 			<translations>
 				<translation register="slang" gender="f">mediterrània<example>The website offers deals with over 1500 discount hotels in the &lt;b&gt;Med&lt;/b&gt;.</example></translation>
-                                <translation catagory="education" gender="m">Màster en educació<example>For her &lt;b&gt;MEd&lt;/b&gt; dissertation, Jennifer studied the use of computers in primary schools.</example></translation>
+                                <translation disambiguate="education" gender="m">Màster en educació<example>For her &lt;b&gt;MEd&lt;/b&gt; dissertation, Jennifer studied the use of computers in primary schools.</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1922,7 +1922,7 @@
 					<translation gender="m">membre</translation>
 					<translation gender="mf">soci</translation>
 				</translation>
-				<translation register="slang" catagory="body">
+				<translation register="slang" disambiguate="body">
 					<translation gender="m">membre</translation>
 					<translation gender="m">penis</translation>
 				</translation>
@@ -2035,7 +2035,7 @@
 					<translation gender="f">carta</translation>
 					<translation gender="m">menú</translation>
 				</translation>
-				<translation termcat="true" catagory="computers" gender="m">menú</translation>
+				<translation termcat="true" disambiguate="computers" gender="m">menú</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2331,7 +2331,7 @@
 	</Entry>
 	<Entry frequency="10000">mick<nouns>
 			<translations>
-				<translation register="offensive" catagory="nationality" gender="m">irlandès</translation>
+				<translation register="offensive" disambiguate="nationality" gender="m">irlandès</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2465,7 +2465,7 @@
 	<Entry frequency="1460000">migrate<verbs>
 			<translations>
 				<translation>migrar</translation>
-				<translation catagory="computers" termcat="true">migrar</translation>
+				<translation disambiguate="computers" termcat="true">migrar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2728,8 +2728,8 @@
 	</Entry>
 	<Entry frequency="41800000">minister<nouns>
 			<translations>
-				<translation catagory="politics" gender="mf">ministre</translation>
-				<translation catagory="religious" gender="mf">sacerdot</translation>
+				<translation disambiguate="politics" gender="mf">ministre</translation>
+				<translation disambiguate="religious" gender="mf">sacerdot</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2754,7 +2754,7 @@
 	<Entry frequency="3880000">mint<nouns>
 			<translations>
 				<translation gender="f">menta</translation>
-                                <translation catagory="financial" register="colloquial" gender="f">fortuna<example>Organic fruit and veg might be good for you, but they cost &lt;b&gt;a mint&lt;/b&gt;.</example></translation>
+                                <translation disambiguate="financial" register="colloquial" gender="f">fortuna<example>Organic fruit and veg might be good for you, but they cost &lt;b&gt;a mint&lt;/b&gt;.</example></translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -2771,7 +2771,7 @@
                 <nouns>
                 <translations>
                 <translation gender="m">desavantatge<engexamp>Pluses and minuses</engexamp><catexamp>Avantatges i desavantatges</catexamp><plural>minuses</plural></translation>
-                <translation catagory="maths" gender="m">signe menys<synonyms>minus sign</synonyms></translation></translations></nouns>
+                <translation disambiguate="maths" gender="m">signe menys<synonyms>minus sign</synonyms></translation></translations></nouns>
 	</Entry>
 	<Entry frequency="59900000">minute<nouns>
 			<translations>
@@ -3101,7 +3101,7 @@
         <Entry frequency="16600000">model<nouns>
 			<translations>
 				<translation gender="m">model</translation>
-                                <translation catagory="work" gender="mf">model</translation>
+                                <translation disambiguate="work" gender="mf">model</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3273,8 +3273,8 @@
 	</Entry>
 	<Entry frequency="6400000">mole<nouns>
 			<translations>
-				<translation catagory="animal" gender="m">talp</translation>
-				<translation catagory="body" gender="f">piga</translation>
+				<translation disambiguate="animal" gender="m">talp</translation>
+				<translation disambiguate="body" gender="f">piga</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3397,7 +3397,7 @@
 	</Entry>
          <Entry frequency="34100000">monitor<nouns>
 			<translations>
-				<translation catagory="computers" gender="m">monitor</translation>
+				<translation disambiguate="computers" gender="m">monitor</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -3754,7 +3754,7 @@
         <Entry frequency="4410000">mortar<nouns>
 			<translations>
                         <translation gender="m">morter<engnote>'Morter' means 'mortar' both in the sense 'mortar and pestle' and in the sense 'mortar fire'.</engnote></translation>
-				<translation catagory="material" gender="f">argamassa</translation>
+				<translation disambiguate="material" gender="f">argamassa</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3867,7 +3867,7 @@
         <Entry frequency="53200000">motor<nouns>
 			<translations>
 				<translation gender="m">motor</translation>
-                                <translation local="gb" register="dated" catagory="transport" gender="m">cotxe</translation>
+                                <translation local="gb" register="dated" disambiguate="transport" gender="m">cotxe</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3947,8 +3947,8 @@
 	</Entry>
 	<Entry frequency="43100000">mouse<nouns>
 			<translations>
-				<translation catagory="animal" gender="m">ratolí</translation>
-				<translation catagory="computers" termcat="true" gender="m">ratolí<plural>mice</plural>
+				<translation disambiguate="animal" gender="m">ratolí</translation>
+				<translation disambiguate="computers" termcat="true" gender="m">ratolí<plural>mice</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -3962,8 +3962,9 @@
 	</Entry>
 	<Entry frequency="23900000">mouth<nouns>
 			<translations>
-				<translation gender="f">boca<catnote>Per fer callar algú, el més normal és dir 'shut up!', però, també es pot dir (de forma més col·loquial) 'shut your mouth!' o bé més senzillament 'shut it!' (aquí el pronom 'it' refereix a la boca)</catnote>
+				<translation disambiguate="body" gender="f">boca<catnote>Per fer callar algú, el més normal és dir 'shut up!', però, també es pot dir (de forma més col·loquial) 'shut your mouth!' o bé més senzillament 'shut it!' (aquí el pronom 'it' refereix a la boca)</catnote>
 				</translation>
+                                <translation gender="f">desembocadura<engnote>'Desembocadura' means 'mouth' as in 'the mouth of a river'.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4095,8 +4096,8 @@
 	</Entry>
          <Entry frequency="1370000">muffler<nouns>
 			<translations>
-				<translation catagory="transport" local="us" gender="m">silenciador<otherlocal>silencer</otherlocal></translation>
-                                <translation catagory="clothes" register="dated" gender="f">bufanda</translation>
+				<translation disambiguate="transport" local="us" gender="m">silenciador<otherlocal>silencer</otherlocal></translation>
+                                <translation disambiguate="clothes" register="dated" gender="f">bufanda</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4111,7 +4112,7 @@
 		<nouns>
 			<translations>
 				<translation gender="f">tassa gran</translation>
-				<translation catagory="body" register="slang" gender="f">cara<example>I left the room because I couldn't bear to look at his ugly &lt;b&gt;mug&lt;/b&gt; any longer</example>
+				<translation disambiguate="body" register="slang" gender="f">cara<example>I left the room because I couldn't bear to look at his ugly &lt;b&gt;mug&lt;/b&gt; any longer</example>
 				</translation>
 			</translations>
 		</nouns>
@@ -4294,7 +4295,7 @@
 	<Entry frequency="54000">Muscovite<nouns>
 			<translations>
 				<translation gender="mf">moscovita</translation>
-				<translation catagory="chemistry" gender="f">moscovita</translation>
+				<translation disambiguate="chemistry" gender="f">moscovita</translation>
 			</translations>
 		</nouns>
 	</Entry>

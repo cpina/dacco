@@ -308,8 +308,8 @@
 					<example>They &lt;b&gt;aborted&lt;/b&gt; their attempts to reach the summit of Mount Everest when the weather took a turn for the worse.</example>
 					<synonyms>cut short</synonyms>
 				</translation>
-                                <translation transitive="true" catagory="medical, computers">(fer) avortar<example>The mental anguish suffered by women who &lt;b&gt;abort&lt;/b&gt; their babies is well documented.</example><example>If you encounter an error, you may wish to &lt;b&gt;abort&lt;/b&gt; the program.</example><catnote>En anglès, l'expressió 'to have an abortion' és més freqüent que el verb 'to abort', almenys en el parlar quotidià.</catnote></translation>
-                                <translation intransitive="true" catagory="medical, computers">avortar<example>The program &lt;b&gt;aborts&lt;/b&gt; if a function throws an exception that is not listed.</example><example>Women &lt;b&gt;abort&lt;/b&gt; for a variety of reasons.</example></translation>
+                                <translation transitive="true" disambiguate="medical, computers">(fer) avortar<example>The mental anguish suffered by women who &lt;b&gt;abort&lt;/b&gt; their babies is well documented.</example><example>If you encounter an error, you may wish to &lt;b&gt;abort&lt;/b&gt; the program.</example><catnote>En anglès, l'expressió 'to have an abortion' és més freqüent que el verb 'to abort', almenys en el parlar quotidià.</catnote></translation>
+                                <translation intransitive="true" disambiguate="medical, computers">avortar<example>The program &lt;b&gt;aborts&lt;/b&gt; if a function throws an exception that is not listed.</example><example>Women &lt;b&gt;abort&lt;/b&gt; for a variety of reasons.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -641,7 +641,7 @@
 	</Entry>
 	<Entry frequency="10800000">accelerate<verbs>
 			<translations>
-				<translation catagory="transport" intransitive="true">accelerar<example>When the officer tried to stop the vehicle, the suspects &lt;b&gt;accelerated&lt;/b&gt; and sped off.</example></translation>
+				<translation disambiguate="transport" intransitive="true">accelerar<example>When the officer tried to stop the vehicle, the suspects &lt;b&gt;accelerated&lt;/b&gt; and sped off.</example></translation>
                                 <translation transitive="true">accelerar<example>The new system helps the job seeker to &lt;b&gt;accelerate&lt;/b&gt; the process of finding a job.</example></translation>
 			</translations>
 		</verbs>
@@ -1247,7 +1247,7 @@
 	</Entry>
 	<Entry frequency="4450000">addiction<nouns>
 			<translations>
-				<translation gender="f">addicció</translation>
+				<translation gender="f">addicció / dependència</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1300,7 +1300,7 @@
 	</Entry>
 	<Entry frequency="4750000">address book<nouns>
 			<translations>
-				<translation catagory="computers" gender="f">llibreta d'adreces</translation>
+				<translation disambiguate="computers" gender="f">llibreta d'adreces</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1411,7 +1411,7 @@
 					<synonyms>let in</synonyms>
 					<engnote>Deixar entrar means to admit in the sense of to let somebody into a club or pub etc.</engnote>
 				</translation>
-				<translation catagory="medical" transitive="true">ingressar<example>Peter was &lt;b&gt;admitted&lt;/b&gt; to hospital overnight complaining of pains in his chest</example>
+				<translation disambiguate="medical" transitive="true">ingressar<example>Peter was &lt;b&gt;admitted&lt;/b&gt; to hospital overnight complaining of pains in his chest</example>
 					<example>Janet was &lt;b&gt;admitted&lt;/b&gt; to hospital with pneumonia</example>
 					<example>The doctors took a number of x-rays and scans and then &lt;b&gt;admitted&lt;/b&gt; her</example>
 					<engnote>Ingressar means to admit in the sense of to admit someone to hospital</engnote>
@@ -1737,7 +1737,9 @@
 	</Entry>
         <Entry frequency="507000">affectation<nouns>
 			<translations>
-				<translation gender="f">afectació / amanerament</translation>
+				<translation gender="f">afectació</translation>
+                                <translation gender="f">cursileria</translation>
+                                <translation gender="m">amanerament</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2228,8 +2230,8 @@
 	</Entry>
 	<Entry frequency="3590000">Albanian<nouns>
 			<translations>
-				<translation catagory="language" gender="m">albanès</translation>
-                                <translation catagory="nationality" gender="mf">albanès</translation>
+				<translation disambiguate="language" gender="m">albanès</translation>
+                                <translation disambiguate="nationality" gender="mf">albanès</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -2359,7 +2361,7 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation catagory="nationality" gender="mf">algerià</translation>
+				<translation disambiguate="nationality" gender="mf">algerià</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2589,7 +2591,7 @@
 	</Entry>
           <Entry frequency="254000">Alsatian<nouns>
 			<translations>
-				<translation catagory="language" gender="m">alsacià</translation>
+				<translation disambiguate="language" gender="m">alsacià</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -2823,7 +2825,7 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation catagory="nationality" gender="mf">(nord-)americà</translation>
+				<translation disambiguate="nationality" gender="mf">(nord-)americà</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3172,7 +3174,7 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation catagory="nationality" gender="mf">andorrà</translation>
+				<translation disambiguate="nationality" gender="mf">andorrà</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3382,7 +3384,7 @@
 	</Entry>
 	<Entry frequency="87300">anorak<nouns>
 			<translations>
-				<translation catagory="clothes" gender="m">anorak</translation>
+				<translation disambiguate="clothes" gender="m">anorak</translation>
 				<translation register="slang" gender="mf">geek<synonyms>geek</synonyms>
 					<catnote>Amb el sentit de 'geek', 'anorak' va precedit molt sovint de l'adjectiu 'sad' (que, en aquest cas, vol dir patètic i no trist) - és a dir 'sad anorak'</catnote>
 				</translation>
@@ -3752,7 +3754,7 @@
 	</Entry>
 	<Entry frequency="11000000">appeal<verbs>
 			<translations>
-				<translation catagory="law">apel·lar</translation>
+				<translation disambiguate="law">apel·lar</translation>
 				<translation>cridar<engexamp>To appeal for participation / calm</engexamp>
 					<catexamp>Cridar a la participació / calma</catexamp>
 				</translation>
@@ -3795,7 +3797,7 @@
 	</Entry>
 	<Entry frequency="16200000">appendix<nouns>
 			<translations>
-				<translation catagory="body" gender="m">apèndix<plural>appendices</plural>
+				<translation disambiguate="body" gender="m">apèndix<plural>appendices</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -3900,7 +3902,7 @@
 	<Entry frequency="21700000">appointment<nouns>
 			<translations>
 				<translation gender="f">cita</translation>
-				<translation catagory="medical" gender="f">consulta</translation>
+				<translation disambiguate="medical" gender="f">consulta</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4220,7 +4222,7 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation catagory="nationality" gender="mf">argentí</translation>
+				<translation disambiguate="nationality" gender="mf">argentí</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4240,7 +4242,7 @@
 				<translation gender="f">disputa<synonyms>fight, row, quarrel</synonyms>
 				</translation>
 				<translation gender="m">argument</translation>
-				<translation catagory="computers" gender="m">argument</translation>
+				<translation disambiguate="computers" gender="m">argument</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4310,7 +4312,7 @@
 	</Entry>
 	<Entry frequency="24100000">arm<nouns>
 			<translations>
-				<translation catagory="body" gender="m">braç<engexamp>To cost an arm and a leg</engexamp>
+				<translation disambiguate="body" gender="m">braç<engexamp>To cost an arm and a leg</engexamp>
 					<catexamp>Costar un ronyó / un ull de la cara</catexamp>
 				</translation>
                                 <translation>
@@ -4345,8 +4347,8 @@
 	</Entry>
 	<Entry frequency="1480000">Armenian<nouns>
 			<translations>
-				<translation catagory="language" gender="m">armeni</translation>
-                                <translation catagory="nationality" gender="mf">armeni</translation>
+				<translation disambiguate="language" gender="m">armeni</translation>
+                                <translation disambiguate="nationality" gender="mf">armeni</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4472,7 +4474,7 @@
 	</Entry>
         <Entry frequency="27600000">array<nouns>
 			<translations>
-				<translation catagory="computers" gender="f">matriu / taula</translation>
+				<translation disambiguate="computers" gender="f">matriu / taula</translation>
                                 <translation gender="f">gamma (impressionant)</translation>
 			</translations>
 		</nouns>
@@ -4739,8 +4741,8 @@
 	</Entry>
 	<Entry frequency="8200000">ass<nouns>
 			<translations>
-				<translation catagory="animal" gender="m">ase</translation>
-				<translation catagory="body" register="slang" local="us" gender="m">cul<synonyms>bottom (Br.), fanny (Am.), bum (Br.)</synonyms>
+				<translation disambiguate="animal" gender="m">ase</translation>
+				<translation disambiguate="body" register="slang" local="us" gender="m">cul<synonyms>bottom (Br.), fanny (Am.), bum (Br.)</synonyms>
 					<otherlocal>arse</otherlocal>
 				</translation>
 			</translations>
@@ -4849,7 +4851,7 @@
 				</translation>
 				<translation gender="f">confiança<example>'The Eminem Show' has the &lt;b&gt;self-assurance&lt;/b&gt; of an artist at the top of their career.</example>
 				</translation>
-				<translation catagory="financial" gender="f">assegurança</translation>
+				<translation disambiguate="financial" gender="f">assegurança</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4983,7 +4985,7 @@
         <Entry frequency="615000">Asturian<nouns>
 			<translations>
 				<translation gender="mf">asturià</translation>
-                                <translation catagory="language" gender="m">asturià / bable</translation>
+                                <translation disambiguate="language" gender="m">asturià / bable</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -5127,6 +5129,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+          <Entry frequency="611000">atopic<adjectives>
+			<translations>
+				<translation catagory="medical">atòpic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+          <Entry frequency="395000">atopic dermatitis<nouns>
+			<translations>
+				<translation catagory="medical-illness" gender="f">dermatitis atòpica</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="21700000">attach<verbs>
 			<translations>
 				<translation>adjuntar / afegir</translation>
@@ -5135,7 +5149,7 @@
 	</Entry>
 	<Entry frequency="21500000">attachment<nouns>
 			<translations>
-				<translation catagory="computers" termcat="true" gender="m">fitxer / arxiu / document adjunt</translation>
+				<translation disambiguate="computers" termcat="true" gender="m">fitxer / arxiu / document adjunt</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5282,7 +5296,7 @@
 		<nouns>
 			<translations>
 				<translation gender="m">atribut</translation>
-				<translation catagory="computers" gender="m">atribut</translation>
+				<translation disambiguate="computers" gender="m">atribut</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5511,7 +5525,7 @@
 	</Entry>
 	<Entry frequency="32300000">automatic<nouns>
 			<translations>
-				<translation catagory="transport" gender="m">cotxe automàtic<example>Is your car an &lt;b&gt;automatic&lt;/b&gt;?</example>
+				<translation disambiguate="transport" gender="m">cotxe automàtic<example>Is your car an &lt;b&gt;automatic&lt;/b&gt;?</example>
 				</translation>
 			</translations>
 		</nouns>
@@ -5756,8 +5770,8 @@
 	</Entry>
         <Entry frequency="730000">Azerbaijani<nouns>
 			<translations>
-				<translation catagory="language" gender="m">àzeri<synonyms>Azeri</synonyms></translation>
-                                <translation catagory="nationality" gender="mf">àzeri<synonyms>Azeri</synonyms></translation>
+				<translation disambiguate="language" gender="m">àzeri<synonyms>Azeri</synonyms></translation>
+                                <translation disambiguate="nationality" gender="mf">àzeri<synonyms>Azeri</synonyms></translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -5766,8 +5780,8 @@
 	</Entry>
         <Entry frequency="399000">Azeri<nouns>
 			<translations>
-				<translation catagory="language" gender="m">àzeri<synonyms>Azerbaijani</synonyms></translation>
-                                <translation catagory="nationality" gender="mf">àzeri<synonyms>Azerbaijani</synonyms></translation>
+				<translation disambiguate="language" gender="m">àzeri<synonyms>Azerbaijani</synonyms></translation>
+                                <translation disambiguate="nationality" gender="mf">àzeri<synonyms>Azerbaijani</synonyms></translation>
 			</translations>
 		</nouns>
                 <adjectives>

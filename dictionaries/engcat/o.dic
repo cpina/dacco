@@ -251,7 +251,7 @@
 	</Entry>
 	<Entry frequency="10900000">occupation<nouns>
 			<translations>
-				<translation catagory="work">
+				<translation disambiguate="work">
 					<translation gender="f">professió</translation>
 					<translation gender="f">ocupació</translation>
 					<synonyms>profession</synonyms>
@@ -381,7 +381,7 @@
 	</Entry>
 	<Entry frequency="37000">off (his/her) rocker<adjectives>
 			<translations>
-				<translation catagory="colloquial">tocat de l'ala</translation>
+				<translation register="colloquial">tocat de l'ala</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -441,9 +441,9 @@
 	</Entry>
 	<Entry frequency="29500000">oil<nouns>
 			<translations>
-				<translation catagory="material" gender="m">petroli<engnote>'Petroli' means 'oil' as in the fuel</engnote>
+				<translation disambiguate="material" gender="m">petroli<engnote>'Petroli' means 'oil' as in the fuel</engnote>
 				</translation>
-				<translation catagory="food-condiment" gender="m">oli<engnote>'Oli' means the type of oil you cook with</engnote>
+				<translation disambiguate="food-condiment" gender="m">oli<engnote>'Oli' means the type of oil you cook with</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -611,19 +611,7 @@
 			</translations>
 		</prepositions>
 	</Entry>
-	<Entry frequency="25600000">one<adjectives>
-			<translations>
-				<translation catagory="number-cardinal">un / una</translation>
-			</translations>
-		</adjectives>
-		<pronouns>
-			<translations>
-				<translation register="dated">hom<catnote>El pronom 'one' no s'utilitza gaire avui dia.</catnote>
-				</translation>
-			</translations>
-		</pronouns>
-	</Entry>
-	<Entry frequency="16300000">once<adverbs>
+        <Entry frequency="16300000">once<adverbs>
 			<translations>
 				<translation>una vegada / un cop<engexamp>Once upon a time...</engexamp>
 					<catexamp>Hi havia una vegada...</catexamp>
@@ -637,6 +625,18 @@
 				</translation>
 			</translations>
 		</conjunctions>
+	</Entry>
+	<Entry frequency="25600000">one<adjectives>
+			<translations>
+				<translation catagory="number-cardinal">un / una</translation>
+			</translations>
+		</adjectives>
+		<pronouns>
+			<translations>
+				<translation register="dated">hom<catnote>El pronom 'one' no s'utilitza gaire avui dia.</catnote>
+				</translation>
+			</translations>
+		</pronouns>
 	</Entry>
 	<Entry frequency="4400000">onion<nouns>
 			<translations>
@@ -686,7 +686,7 @@
 	</Entry>
 	<Entry frequency="441000">on the rocks<adjectives>
 			<translations>
-				<translation catagory="food-drink">amb gel</translation>
+				<translation disambiguate="food-drink">amb gel</translation>
 				<translation>que passa un mal moment<example>Jane admitted to her friend that her marriage had been &lt;b&gt;on the rocks&lt;/b&gt; for years</example>
 					<example>Foo Limited announced yesterday that their joint venture with Bar &amp; Co. was &lt;b&gt;on the rocks&lt;/b&gt; and was in danger of being shelved altogether if the two companies could not resolve their differences</example>
 				</translation>
@@ -784,7 +784,7 @@
 	</Entry>
 	<Entry frequency="41300000">operate<verbs>
 			<translations>
-				<translation catagory="medical">operar<catnote>En anglès es diu 'to operate ON somebody'</catnote>
+				<translation disambiguate="medical">operar<catnote>En anglès es diu 'to operate ON somebody'</catnote>
 					<engnote>In Catalan there is no preposition meaning 'on' in the expression 'to operate on somebody', the Catalan is simply 'operar una persona'</engnote>
 				</translation>
 			</translations>
@@ -804,7 +804,7 @@
 	</Entry>
 	<Entry frequency="84100000">operation<nouns>
 			<translations>
-				<translation catagory="medical-treatment">
+				<translation disambiguate="medical-treatment">
 					<translation gender="f">operació</translation>
 					<translation gender="ffullform">intervenció quirúrgica</translation>
 					<engnote>In Catalan, instead of saying that somebody 'had an operation' it is possible to use the verb 'to operate' reflexively, thus saying 's'ha operat' instead.</engnote>
@@ -955,9 +955,9 @@
 	</Entry>
 	<Entry frequency="9020000">organ<nouns>
 			<translations>
-				<translation catagory="medical" gender="m">òrgan<engnote>'Orgà' means 'organ' as in liver, kidney, heart etc.</engnote>
+				<translation disambiguate="medical" gender="m">òrgan<engnote>'Orgà' means 'organ' as in liver, kidney, heart etc.</engnote>
 				</translation>
-				<translation gender="m">orgue<engnote>'Orgue' means 'organ' in the musical instrument sense</engnote>
+				<translation disambiguate="entertainment-music" gender="m">orgue<engnote>'Orgue' means 'organ' in the musical instrument sense</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -1256,7 +1256,7 @@
                                 <translation>inconscient</translation>
                                 <translation>acabat<example>School's &lt;b&gt;out&lt;/b&gt; for summer</example></translation>
                                 <translation>passat de moda<example>Susan was fed up of reading magazine articles telling her what music was &lt;b&gt;in&lt;/b&gt; and what was out. Just who the hell did magazine writers think they were telling her what to listen to??</example></translation>
-                                <translation catagory="sports">que està lesionat i (per tant) no pot jugar<example>Beckham has had surgery on his right knee and is likely to be &lt;b&gt;out&lt;/b&gt; for the rest of the season.</example></translation>
+                                <translation disambiguate="sports">que està lesionat i (per tant) no pot jugar<example>Beckham has had surgery on his right knee and is likely to be &lt;b&gt;out&lt;/b&gt; for the rest of the season.</example></translation>
 			</translations>
 		</adverbs>
        
@@ -1519,12 +1519,11 @@
 				<translation>per sobre</translation>
 			</translations>
 		</adverbs>
-	</Entry>
-	<Entry frequency="558000">overheads<nouns>
-			<translations>
-				<translation catagory="financial" gender="fpl">despeses generals</translation>
-			</translations>
-		</nouns>
+                <nouns>
+                <translations>
+                <translation catagory="financial" sourceplural="overheads" gender="fpl">depeses generals</translation>
+                </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="305000">overnight stay<nouns>
 			<translations>
@@ -1611,13 +1610,7 @@
 	<Entry frequency="2890000">owl<nouns>
 			<translations>
 				<translation catagory="animal-bird" gender="m">mussol</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="15200">Owls<nouns>
-			<translations>
-				<translation catagory="sports-event-football-teams, encyclopaedic" register="colloquial" local="gb" noteng="TRUE">-<catnote>The Owls és el sobrenom de l'equip de futbol anglès Sheffield Wednesday FC</catnote>
-				</translation>
+                                <translation sourceplural="Owls" catagory="sports-event-football-teams, encyclopaedic" register="colloquial" local="gb" noteng="TRUE">-<catnote>The Owls és el sobrenom de l'equip de futbol anglès Sheffield Wednesday FC</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>

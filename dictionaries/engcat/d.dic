@@ -224,7 +224,7 @@
 	</Entry>
 	<Entry frequency="8950000">Danish<nouns>
 			<translations>
-				<translation catagory="language" gender="m">danès</translation>
+				<translation disambiguate="language" gender="m">danès</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -290,10 +290,10 @@
 	</Entry>
 	<Entry frequency="3640000">dash<nouns>
 			<translations>
-				<translation catagory="linguistics" gender="m">guió<plural>dashes</plural>
+				<translation disambiguate="linguistics" gender="m">guió<plural>dashes</plural>
 				</translation>
 				<translation>una mica</translation>
-				<translation catagory="transport" gender="m" register="colloquial">davantal</translation>
+				<translation disambiguate="transport" gender="m" register="colloquial">davantal</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -344,6 +344,12 @@
 				</translation>
 				<translation gender="m" noteng="TRUE">dàtil<engnote>&apos;Dàtil&apos; means &apos;date&apos; as in the fruit</engnote>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="8090000">date of birth<nouns>
+			<translations>
+				<translation gender="f">data de naixement</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -411,6 +417,12 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="2160000">deactivate<verbs>
+			<translations>
+				<translation>desactivar</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="24400000">dead<adjectives>
 			<translations>
@@ -613,6 +625,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="59300">decalcify<verbs ie="true">
+			<translations>
+				<translation>descalcificar</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="124000">decathlon<nouns>
 			<translations>
 				<translation gender="m">decatló</translation>
@@ -733,6 +751,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="8040000">decor<nouns>
+			<translations>
+				<translation gender="f">decoració</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2510000">decorate<verbs>
 			<translations>
 				<translation>guarnir / decorar</translation>
@@ -800,14 +824,14 @@
 	<Entry frequency="5690000">deduction<nouns>
 			<translations>
 				<translation gender="f">deducció</translation>
-				<translation catagory="financial" gender="f">retenció</translation>
+				<translation disambiguate="financial" gender="f">retenció</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="3570000">deed<nouns>
 			<translations>
 				<translation gender="f">acció</translation>
-				<translation catagory="legal" gender="f">escriptura<engnote>&apos;Escriptura&apos; means &apos;deed&apos; in the legal sense (e.g. &apos;title deeds&apos;).</engnote>
+				<translation disambiguate="legal" gender="f">escriptura<engnote>&apos;Escriptura&apos; means &apos;deed&apos; in the legal sense (e.g. &apos;title deeds&apos;).</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -861,6 +885,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+          <Entry frequency="24300000">defect<nouns>
+			<translations>
+				<translation gender="m">defecte</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="7390000">defective<adjectives>
+			<translations>
+				<translation>defectiu</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="51900000">defend<verbs>
 			<translations>
 				<translation>defensar<engexamp>To defend yourself against (accusations)</engexamp>
@@ -871,7 +907,7 @@
 	</Entry>
 	<Entry frequency="9330000">defender<nouns>
 			<translations>
-				<translation catagory="sports" gender="m">defensa</translation>
+				<translation disambiguate="sports" gender="m">defensa</translation>
 				<translation gender="mf">defensor</translation>
 			</translations>
 		</nouns>
@@ -900,11 +936,29 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="162000000">define<verbs>
+			<translations>
+				<translation>definir</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="14300000">definitely<adverbs>
 			<translations>
 				<translation>sens dubte</translation>
 			</translations>
 		</adverbs>
+	</Entry>
+          <Entry frequency="121000000">definition<nouns>
+			<translations>
+				<translation gender="f">definició</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="20400000">definitive<adjectives>
+			<translations>
+				<translation>definitiu</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="545000">definitively<adverbs>
 			<translations>
@@ -920,17 +974,23 @@
 	</Entry>
         <Entry frequency="1080000">defrost<verbs>
 			<translations>
-				<translation>desgelar / desglaçar<synonyms>thaw</synonyms></translation>
+				<translation>desgelar / desglaçar / descongelar<synonyms>thaw</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="767000">defuse<verbs>
+			<translations>
+				<translation>desactivar</translation>
 			</translations>
 		</verbs>
 	</Entry>
 	<Entry frequency="93200000">degree<nouns>
 			<translations>
-				<translation catagory="weather" gender="m">grau<engnote>&apos;Grau&apos; means &apos;degree&apos; as in &apos;100 degrees fahrenheit&apos;</engnote>
+				<translation disambiguate="weather" gender="m">grau<engnote>&apos;Grau&apos; means &apos;degree&apos; as in &apos;100 degrees fahrenheit&apos;</engnote>
 					<engexamp>Degree of separation</engexamp>
 					<catexamp>Grau de separació</catexamp>
 				</translation>
-				<translation catagory="education" gender="f">llicència<engnote>&apos;Llicència&apos; means &apos;degree&apos; as in &apos;university degree&apos;</engnote>
+				<translation disambiguate="education" gender="f">llicència<engnote>&apos;Llicència&apos; means &apos;degree&apos; as in &apos;university degree&apos;</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -1029,7 +1089,7 @@
 	<Entry frequency="65000000">deliver<verbs>
 			<translations>
 				<translation>repartir / lliurar</translation>
-				<translation catagory="medical">atendre a una dona durant el part / donar a llum<engnote>We are not aware of any simple equivalent verb in Catalan that means &apos;to deliver a baby&apos;. The first of the two &apos;descriptions&apos; we give above (the role of the doctor or midwife) is mainly to help Catalan speakers understand this meaning of &apos;deliver&apos;. We would not recommend you use this as a translation of the English &apos;to deliver&apos;. If anybody knows of a good &apos;equivalent&apos; in Catalan, please let us know</engnote>
+				<translation disambiguate="medical">atendre a una dona durant el part / donar a llum<engnote>We are not aware of any simple equivalent verb in Catalan that means &apos;to deliver a baby&apos;. The first of the two &apos;descriptions&apos; we give above (the role of the doctor or midwife) is mainly to help Catalan speakers understand this meaning of &apos;deliver&apos;. We would not recommend you use this as a translation of the English &apos;to deliver&apos;. If anybody knows of a good &apos;equivalent&apos; in Catalan, please let us know</engnote>
 				</translation>
 			</translations>
 		</verbs>
@@ -1040,7 +1100,7 @@
 					<translation gender="m">lliurament</translation>
 					<translation gender="m">repartiment</translation>
 				</translation>
-				<translation catagory="medical" gender="m">part<engnote>&apos;Part&apos; means &apos;delivery&apos; in the &apos;giving birth&apos; sense.</engnote>
+				<translation disambiguate="medical" gender="m">part<engnote>&apos;Part&apos; means &apos;delivery&apos; in the &apos;giving birth&apos; sense.</engnote>
 					<plural>deliveries</plural>
 				</translation>
 			</translations>
@@ -1121,10 +1181,16 @@
 	</Entry>
 	<Entry frequency="2360000">demolish<verbs>
 			<translations>
-				<translation>enderrocar / destruir / destrossar<synonyms>knock down, destroy</synonyms>
+				<translation>enderrocar / destruir / destrossar / demolir<synonyms>knock down, destroy</synonyms>
 				</translation>
 			</translations>
 		</verbs>
+	</Entry>
+          <Entry frequency="4510000">demolition<nouns>
+			<translations>
+				<translation gender="f">demolició</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="53700000">demonstrate<verbs>
 			<translations>
@@ -1152,7 +1218,10 @@
 	</Entry>
 	<Entry frequency="2780000">denial<nouns>
 			<translations>
+                        <translation>
 				<translation gender="f">negació</translation>
+                                <translation gender="m">desmentiment</translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1235,7 +1304,7 @@
 	</Entry>
 	<Entry frequency="27700000">deny<verbs ie="true">
 			<translations>
-				<translation>negar / refutar / desmentir</translation>
+				<translation>(de)negar / refutar / desmentir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1282,6 +1351,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+          <Entry frequency="14100000">dependence<nouns>
+			<translations>
+				<translation gender="f">dependència</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="18300000">dependency<nouns>
+			<translations>
+				<translation gender="f">dependència<plural>dependencies</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="529000">depict<verbs>
 			<translations>
 				<translation>representar / mostrar</translation>
@@ -1322,7 +1403,7 @@
 	</Entry>
 	<Entry frequency="9470000">deposit<verbs>
 			<translations>
-				<translation catagory="financial" local="us">ingressar<otherlocal>pay in</otherlocal>
+				<translation disambiguate="financial" local="us">ingressar<otherlocal>pay in</otherlocal>
 				</translation>
 			</translations>
 		</verbs>
@@ -1333,7 +1414,7 @@
 					<translation gender="m">dipòsit</translation>
 					<translation gender="m">magatzem</translation>
 				</translation>
-				<translation catagory="transport" gender="f">estació</translation>
+				<translation disambiguate="transport" gender="f">estació</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1380,12 +1461,12 @@
 				<translation gender="m">abatiment / desànim</translation>
                                 <translation gender="f">depressió</translation>
                                 </translation>
-                                <translation catagory="financial" gender="f">depressió</translation>
+                                <translation disambiguate="financial" gender="f">depressió</translation>
                                 <translation>
                                 <translation gender="f">depressió</translation>
                                 <translation gender="m">clot / sot</translation>
                                 </translation>
-                                <translation catagory="weather" gender="f">depressió atmosfèrica</translation>
+                                <translation disambiguate="weather" gender="f">depressió atmosfèrica</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1428,6 +1509,12 @@
 	<Entry frequency="100000">derby<nouns>
 			<translations>
 				<translation catagory="sports" gender="m">derbi</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="1210000">dermatitis<nouns>
+			<translations>
+				<translation catagory="medical-illness" gender="f">dermatitis<engexamp>Atopic dermatitis</engexamp><catexamp>Dermatitis atòpica</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1522,7 +1609,7 @@
 	</Entry>
 	<Entry frequency="46500000">desktop<nouns>
 			<translations>
-				<translation catagory="computers" gender="m" termcat="true">escriptori</translation>
+				<translation disambiguate="computers" gender="m" termcat="true">escriptori</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1924,7 +2011,7 @@
 	</Entry>
 	<Entry frequency="4460000">dick<nouns>
 			<translations>
-				<translation catagory="body" gender="f" register="vulgar">polla</translation>
+				<translation disambiguate="body" gender="f" register="vulgar">polla</translation>
                                 <translation register="vulgar" gender="m">capoll</translation>
 			</translations>
 		</nouns>
@@ -2178,7 +2265,7 @@
 		</verbs>
 		<nouns>
 			<translations>
-				<translation catagory="food" gender="f">salsa</translation>
+				<translation disambiguate="food" gender="f">salsa</translation>
 				<translation gender="m">bany / cabussó / capbussó</translation>
 				<translation>
 					<translation gender="f">baixada</translation>
@@ -2303,7 +2390,7 @@
 			<translations>
 				<translation>refusar / rebutjar<synonyms>refuse</synonyms>
 				</translation>
-				<translation catagory="sports">anul·lar<engnote>&apos;Anul·lar&apos; means &apos;disallow&apos; in the sense &apos;to disallow a goal&apos;</engnote>
+				<translation disambiguate="sports">anul·lar<engnote>&apos;Anul·lar&apos; means &apos;disallow&apos; in the sense &apos;to disallow a goal&apos;</engnote>
 				</translation>
 			</translations>
 		</verbs>
@@ -2340,7 +2427,8 @@
 	</Entry>
 	<Entry frequency="816000">disarm<verbs>
 			<translations>
-				<translation>desarmar / desarmar-se</translation>
+				<translation transitive="true">desarmar</translation>
+                                <translation intransitive="true">desarmar-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2364,7 +2452,7 @@
 	</Entry>
 	<Entry frequency="3760000">disciple<nouns>
 			<translations>
-				<translation catagory="religious" gender="m">deixeble</translation>
+				<translation disambiguate="religious" gender="m">deixeble</translation>
 				<translation gender="mf">deixeble<engnote>The feminine of &apos;deixeble&apos; is &apos;deixebla&apos;.</engnote>
 				</translation>
 			</translations>
@@ -2453,6 +2541,12 @@
 				</translation>
 			</translations>
 		</verbs>
+	</Entry>
+         <Entry frequency="880000">discoverer<nouns>
+			<translations>
+				<translation gender="mf">descobridor</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="27600000">discovery<nouns>
 			<translations>
@@ -2565,6 +2659,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+         <Entry frequency="462000">disinterest<nouns>
+			<translations>
+				<translation gender="m">desinterès</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="893000">disinterested<adjectives>
+			<translations>
+				<translation>desinteressat</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="36900000">disk<nouns>
 			<translations>
 				<translation gender="m" termcat="true">disc</translation>
@@ -2626,16 +2732,22 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="8980000">disparity<nouns>
+			<translations>
+				<translation gender="m">desajustament<plural>disparities</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="16800000">display<verbs>
 			<translations>
 				<translation>exhibir / exposar</translation>
-				<translation catagory="computers">visualitzar</translation>
+				<translation disambiguate="computers">visualitzar</translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
-				<translation catagory="computers" gender="f">visualització</translation>
-				<translation catagory="computers" gender="f">pantalla</translation>
+				<translation disambiguate="computers" gender="f">visualització</translation>
+				<translation disambiguate="computers" gender="f">pantalla</translation>
 				<translation gender="f">exhibició</translation>
 			</translations>
 		</nouns>
@@ -2786,6 +2898,12 @@
 				<translation>distreure</translation>
 			</translations>
 		</verbs>
+	</Entry>
+         <Entry frequency="3010000">distressed<adjectives>
+			<translations>
+				<translation>desconsolat</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="4630000">distribute<verbs>
 			<translations>
@@ -2986,7 +3104,7 @@
 		<verbs>
 			<translations>
 				<translation>atracar</translation>
-                                <translation catagory="computers">acoblar</translation>
+                                <translation disambiguate="computers">acoblar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3115,6 +3233,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="10500000">dome<nouns>
+			<translations>
+				<translation gender="f">cúpula</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="34800000">domestic<adjectives>
 			<translations>
 				<translation>domèstic</translation>
@@ -3235,7 +3359,7 @@
 	</Entry>
         <Entry frequency="602000">double bass<nouns>
 			<translations>
-				<translation thematic="entertainment-music" gender="m">contrabaix<plural>double basses</plural></translation>
+				<translation catagory="entertainment-music" gender="m">contrabaix<plural>double basses</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3298,8 +3422,8 @@
 	</Entry>
 	<Entry frequency="2550000">dough<nouns>
 			<translations>
-				<translation catagory="food" gender="f">pasta</translation>
-				<translation catagory="financial" gender="f" register="slang">pasta</translation>
+				<translation disambiguate="food" gender="f">pasta</translation>
+				<translation disambiguate="financial" gender="f" register="slang">pasta</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3548,7 +3672,7 @@
 			<translations>
 				<translation gender="m">calaix</translation>
                                 <translation sourceplural="drawers">
-                                <translation catagory="clothes" register="dated" gender="mpl">calçotets</translation>
+                                <translation disambiguate="clothes" register="dated" gender="mpl">calçotets</translation>
                                 <translation gender="fpl">bragues</translation>
                                 </translation>
 			</translations>
@@ -3631,8 +3755,8 @@
 	</Entry>
 	<Entry frequency="1350000">dressing<nouns>
 			<translations>
-				<translation catagory="food" gender="m">amaniment</translation>
-				<translation catagory="medical" gender="m">embenat</translation>
+				<translation disambiguate="food" gender="m">amaniment</translation>
+				<translation disambiguate="medical" gender="m">embenat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3650,7 +3774,7 @@
 	</Entry>
 	<Entry frequency="304000">dribble<verbs>
 			<translations>
-				<translation catagory="sports">driblar</translation>
+				<translation disambiguate="sports">driblar</translation>
 				<translation>bavejar</translation>
 			</translations>
 		</verbs>
@@ -3730,8 +3854,8 @@
 		<nouns>
 			<translations>
                         <translation gender="f">energia / empenta</translation>
-                        <translation catagory="transport" gender="m">viatge (en cotxe)</translation>
-				<translation catagory="computers" gender="f" termcat="true">unitat</translation>
+                        <translation disambiguate="transport" gender="m">viatge (en cotxe)</translation>
+				<translation disambiguate="computers" gender="f" termcat="true">unitat</translation>
 				<translation noteng="TRUE">petit camí que va des del carrer fins al garatge d&apos;una casa<example>Many people don&apos;t park their cars in their garage but leave them on the &lt;b&gt;drive&lt;/b&gt; instead</example>
 					<example>We had to shovel the snow off the &lt;b&gt;drive&lt;/b&gt; so that we could get the car out of the garage</example>
 				</translation>
@@ -3774,14 +3898,14 @@
 	</Entry>
 	<Entry frequency="611000">drizzle<verbs>
 			<translations>
-				<translation catagory="weather">plovisquejar</translation>
-				<translation catagory="food">tirar unes gotes (d&apos;un líquid) sobre (la superfície d&apos;alguna cosa)<example>Place the salad leaves in a bowl. &lt;b&gt;Drizzle&lt;/b&gt; with oil and toss gently.</example>
+				<translation disambiguate="weather">plovisquejar</translation>
+				<translation disambiguate="food">tirar unes gotes (d&apos;un líquid) sobre (la superfície d&apos;alguna cosa)<example>Place the salad leaves in a bowl. &lt;b&gt;Drizzle&lt;/b&gt; with oil and toss gently.</example>
 				</translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
-				<translation catagory="weather" gender="m">plugim / plovisqueig</translation>
+				<translation disambiguate="weather" gender="m">plugim / plovisqueig</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3854,7 +3978,7 @@
 				<translation gender="f">droga<engexamp>To take drugs</engexamp>
 					<catexamp>Consumir drogues</catexamp>
 				</translation>
-				<translation catagory="medical" gender="m">fàrmac / medicament</translation>
+				<translation disambiguate="medical" gender="m">fàrmac / medicament</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4043,7 +4167,7 @@
 				</translation>
 				<translation>apagat<engnote>&apos;Apagat&apos; means &apos;dull&apos; as in &apos;dim&apos;</engnote>
 				</translation>
-				<translation catagory="weather">ennuvolat</translation>
+				<translation disambiguate="weather">ennuvolat</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -4074,7 +4198,10 @@
 		</verbs>
 		<nouns>
 			<translations>
+                        <translation>
 				<translation gender="m">abocador</translation>
+                                <translation gender="f">deixalleria</translation>
+                                </translation>
 				<translation>una habitació / casa molt desordenada i bruta (literalment, &apos;que s&apos;assembla a un abocador&apos;)<synonyms>pigsty</synonyms>
 				</translation>
 			</translations>

@@ -1096,7 +1096,7 @@
 	</Entry>
         <Entry frequency="2400000">thaw<verbs>
 			<translations>
-				<translation>desglaçar / desgelar / fondre</translation>
+				<translation>desglaçar / desgelar / fondre / descongelar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1912,8 +1912,9 @@
 				</translation>
 				<translation gender="m">consell<engnote>'Consell' means 'tip' as in 'piece of advice'</engnote>
 				</translation>
-				<translation register="colloquial" gender="m">abocador<catnote>La paraula 'tip' també s'utilitza en sentit figuratiu per significar que una habitació / casa és molt bruta i desordenada (ex: Your bedroom is a tip! Clean it up now!)</catnote>
-					<engnote>'Abocador' means 'tip' as in 'rubbish tip'</engnote>
+                                <translation>
+				<translation gender="m">abocador<catnote>La paraula 'tip' també s'utilitza en sentit figuratiu per significar que una habitació / casa és molt bruta i desordenada (ex: Your bedroom is a tip! Clean it up now!)</catnote></translation>
+                                <translation gender="f">deixalleria<engnote>'Abocador' and 'deixalleria' mean 'tip' as in 'rubbish tip'.</engnote></translation>
 				</translation>
 				<translation gender="f">punta<engnote>'Punta' means 'tip' as in the end of something (tip of a pencil)</engnote>
 				</translation>
@@ -3015,6 +3016,7 @@
 	<Entry frequency="36000000">treat<verbs>
 			<translations>
 				<translation>tractar</translation>
+                                <transation disambiguate="medical">curar</transation>
 			</translations>
 		</verbs>
 	</Entry>

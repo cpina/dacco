@@ -229,7 +229,7 @@
 	</Entry>
 	<Entry frequency="1040000">unaware<adjectives>
 			<translations>
-				<translation>inequívoc</translation>
+				<translation>-<engexamp>To be unaware of something</engexamp><catexamp>Desconèixer alguna cosa</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -503,7 +503,8 @@
 			<participle>undone</participle>
 			<gerund>undoing</gerund>
 			<translations>
-				<translation termcat="true">desfer</translation>
+				<translation transitive="true" disambiguate="computers" termcat="true">desfer</translation>
+                                <translation transitive="true">descordar<engnote>'Descordar' means 'to undo' in the sense 'to unfasten / to untie'.</engnote><synonyms>unfasten, untie</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -602,6 +603,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="232000">unfasten<verbs>
+			<translations>
+				<translation>descordar</translation>
+			</translations>
+		</verbs>
+	</Entry>
         	<Entry frequency="134000">unflappable<adjectives>
 			<translations>
 				<translation>impertorbable</translation>
@@ -645,6 +652,12 @@
         <Entry frequency="184000">unfriendly<adjectives>
 			<translations>
 				<translation>antipàtic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="215000">ungainly<adjectives>
+			<translations>
+				<translation>desmanyotat</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -979,6 +992,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="802000">untie<verbs>
+			<translations>
+				<translation>descordar<synonyms>to unfasten, to undo</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="75400000">until<prepositions>
 			<translations>
 				<translation>fins (a)</translation>
@@ -1110,7 +1129,7 @@
 	</Entry>
 	<Entry frequency="3770000">upset<adjectives>
 			<translations>
-				<translation>trasbalsat</translation>
+				<translation>desconsolat / trasbalsat</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1251,6 +1270,12 @@
 		<nouns>
 			<translations>
 				<translation gender="m">ús</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="79300">use-by date<nouns>
+			<translations>
+				<translation local="gb" gender="f">data de caducitat<otherlocal>expiry date / expiration date</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>

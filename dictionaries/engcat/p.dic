@@ -12,7 +12,7 @@
 	</Entry>
 	<Entry frequency="433000">pacemaker<nouns>
 			<translations>
-				<translation catagory="medical-treatment" gender="m">marcapàs</translation>
+				<translation disambiguate="medical-treatment" gender="m">marcapàs</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -131,13 +131,13 @@
 	</Entry>
 	<Entry frequency="1890000">paddle<verbs>
 			<translations>
-				<translation catagory="sports-event-rowing">remar</translation>
+				<translation disambiguate="sports-event-rowing">remar</translation>
 				<translation register="colloquial" local="gb">remullar els peus (a la platja)</translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
-				<translation catagory="sports-event-rowing" gender="m">rem</translation>
+				<translation disambiguate="sports-event-rowing" gender="m">rem</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -166,7 +166,7 @@
 	</Entry>
 	<Entry frequency="952000">paediatrician<nouns>
 			<translations>
-				<translation catagory="work-job, medical-job" local="gb" gender="mf">pediatre<otherlocal>pediatrician</otherlocal>
+				<translation catagory="work-job, medical" local="gb" gender="mf">pediatre<otherlocal>pediatrician</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
@@ -314,7 +314,7 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation catagory="nationality-asia-pakistan" gender="mf">pakistanès</translation>
+				<translation catagory="nationality" gender="mf">pakistanès</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -388,7 +388,7 @@
 	</Entry>
 	<Entry frequency="17800000">palm<nouns>
 			<translations>
-				<translation catagory="body" gender="m">palmell (de la mà)</translation>
+				<translation disambiguate="body" gender="m">palmell (de la mà)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -479,7 +479,7 @@
 	</Entry>
 	<Entry frequency="98900000">paper<nouns>
 			<translations>
-				<translation catagory="material" gender="m">paper<engnote>Paper means paper in the 'piece of paper' sense</engnote>
+				<translation disambiguate="material" gender="m">paper<engnote>Paper means paper in the 'piece of paper' sense</engnote>
 				</translation>
 				<translation gender="m">diari<synonyms>newspaper</synonyms>
 					<engnote>'Diari' means 'paper' as in 'newspaper'</engnote>
@@ -680,14 +680,9 @@
 	</Entry>
 	<Entry frequency="9130000">parent<nouns>
 			<translations>
-				<translation catagory="family-blood" gender="m">pare</translation>
-				<translation catagory="family-blood" gender="f">mare</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="46100000">parents<nouns>
-			<translations>
-				<translation catagory="family-blood" gender="mpl">pares</translation>
+				<translation catagory="family" gender="m">pare</translation>
+				<translation catagory="family" gender="f">mare</translation>
+                                <translation catagory="family" sourceplural="parents" gender="mpl">pares</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -890,7 +885,7 @@
 			<translations>
 				<translation gender="f">festa<engnote>'Festa' means 'party' in the sense 'birthday party' or 'housewarming party' etc.</engnote>
 				</translation>
-				<translation catagory="politics" gender="m">partit<engnote>'Partit' means 'party' in the sense 'political party'</engnote>
+				<translation disambiguate="politics" gender="m">partit<engnote>'Partit' means 'party' in the sense 'political party'</engnote>
 					<plural>parties</plural>
 				</translation>
 			</translations>
@@ -993,7 +988,7 @@
 	</Entry>
 	<Entry frequency="18900000">patch<nouns>
 			<translations>
-				<translation catagory="computers" termcat="true" gender="m">pedaç<plural>patches</plural>
+				<translation disambiguate="computers" termcat="true" gender="m">pedaç<plural>patches</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -1166,7 +1161,7 @@
 	</Entry>
 	<Entry frequency="711000">payphone<nouns>
 			<translations>
-				<translation catagory="telephones" gender="m">telèfon públic</translation>
+				<translation catagory="telephone" gender="m">telèfon públic</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1212,7 +1207,7 @@
 			<translations>
                         <translation>
 				<translation catagory="food-fruit" gender="m">préssec<plural>peaches</plural></translation>
-                                <translation gender="f">bresquilla</translation>
+                                <translation catagory="food-fruit" gender="f">bresquilla</translation>
 				</translation>
 			</translations>
 		</nouns>
@@ -1316,7 +1311,7 @@
 	</Entry>
 	<Entry frequency="952000">pediatrician<nouns>
 			<translations>
-				<translation catagory="work-job, medical-job" local="us" gender="mf">pediatre<otherlocal>paediatrician</otherlocal>
+				<translation catagory="work-job, medical" local="us" gender="mf">pediatre<otherlocal>paediatrician</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
@@ -1374,7 +1369,7 @@
 			<translations>
 				<translation gender="mf">contemporani<synonyms>contemporary</synonyms>
 				</translation>
-				<translation noteng="TRUE" catagory="politics">-<catnote>Un 'peer' és una persona d'alta posició social qui té el dret a seure a la Cambra dels Lords (la cambra alta britànica). Hi ha els 'hereditary peers' qui van heretar el dret (i els seus títols) dels pares i els 'life peers' qui van guanyar els seus títols i el dret de seure a la cambra pels seus propis mèrits</catnote>
+				<translation noteng="TRUE" disambiguate="politics">-<catnote>Un 'peer' és una persona d'alta posició social qui té el dret a seure a la Cambra dels Lords (la cambra alta britànica). Hi ha els 'hereditary peers' qui van heretar el dret (i els seus títols) dels pares i els 'life peers' qui van guanyar els seus títols i el dret de seure a la cambra pels seus propis mèrits</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -1515,12 +1510,7 @@
 					<translation gender="mf">jubilat</translation>
 					<translation gender="mf">ancià</translation>
 				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="7320">Pensioners<nouns>
-			<translations>
-				<translation catagory="sports-event-football-teams, encyclopaedic" register="colloquial" noteng="TRUE" local="gb">-<catnote>The Pensioners és el sobrenom de l'equip de futbol anglès Chelsea FC</catnote>
+                                <translation sourceplural="Pensioners" catagory="sports-event-football-teams, encyclopaedic" register="colloquial" noteng="TRUE" local="gb">-<catnote>The Pensioners és el sobrenom de l'equip de futbol anglès Chelsea FC</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -1666,8 +1656,8 @@
 					<translation gender="f">època</translation>
 					<synonyms>time, age</synonyms>
 				</translation>
-				<translation catagory="medical" gender="f">regla</translation>
-				<translation catagory="linguistics" local="us" gender="m">punt<otherlocal>full stop</otherlocal>
+				<translation disambiguate="medical" gender="f">regla</translation>
+				<translation disambiguate="linguistics" local="us" gender="m">punt<otherlocal>full stop</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
@@ -1880,7 +1870,7 @@
 	</Entry>
 	<Entry frequency="21900000">pet<nouns>
 			<translations>
-				<translation catagory="animal" gender="m">animal de companyia</translation>
+				<translation disambiguate="animal" gender="m">animal de companyia</translation>
                                 <translation gender="mf">favorit</translation>
                                 <translation register="dialect" gender="mf">estimat</translation>
 			</translations>
@@ -1894,8 +1884,8 @@
 	</Entry>
 	<Entry frequency="1380000">petrol<nouns>
 			<translations>
-				<translation catagory="material" local="gb" gender="f">gasolina<otherlocal>gas</otherlocal>
-                                <translation gender="f">benzina</translation>
+				<translation catagory="transport" local="gb" gender="f">gasolina<otherlocal>gas</otherlocal>
+                                <translation catagory="transport" gender="f">benzina</translation>
 				</translation>
 			</translations>
 		</nouns>
@@ -1909,7 +1899,7 @@
 	</Entry>
 	<Entry frequency="3100000">pharmacist<nouns>
 			<translations>
-				<translation catagory="work-job, medical-job" gender="mf">farmacèutic<synonyms>chemist (Br.)</synonyms>
+				<translation catagory="work-job, medical" gender="mf">farmacèutic<synonyms>chemist (Br.)</synonyms>
 				</translation>
 			</translations>
 		</nouns>
@@ -2157,7 +2147,7 @@
 	</Entry>
         <Entry frequency="127000">phrasal verb<nouns>
 			<translations>
-				<translation catagory="linguistics" gender="m">verb adverbial<engnote>Phrasal verbs don't exist in Catalan, therefore 'verb adverbial'is more a description of what a phrasal verb is rather than an equivalent term in Catalan.</engnote><catnote>Els 'phrasal verbs' són verbs que es formen amb l'estructura "verb + adverbi", produint així un nou verb que té sovint un significat distint del dels dos elements considerats aïlladament. Existeixen molts manuals i diccionaris en anglès que consideren "phrasal verbs" els verbs que es formen amb l"estructura "verb + preposició".</catnote>
+				<translation catagory="linguistics" gender="m">verb adverbial<engnote>Phrasal verbs don't exist in Catalan, therefore 'verb adverbial' is more a description of what a phrasal verb is rather than an equivalent term in Catalan.</engnote><catnote>Els 'phrasal verbs' són verbs que es formen amb l'estructura "verb + adverbi", produint així un nou verb que té sovint un significat distint del dels dos elements considerats aïlladament. Existeixen molts manuals i diccionaris en anglès que consideren "phrasal verbs" els verbs que es formen amb l"estructura "verb + preposició".</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -2215,20 +2205,20 @@
 	</Entry>
 	<Entry frequency="268000">physio<nouns>
 			<translations>
-				<translation catagory="work-job, medical-job" register="colloquial" local="gb" gender="mf">fisioterapeuta</translation>
-				<translation catagory="medical-treatment, medical-field" register="colloquial" local="gb" gender="f">fisioteràpia</translation>
+				<translation catagory="work-job, medical" register="colloquial" local="gb" gender="mf">fisioterapeuta</translation>
+				<translation catagory="medical" register="colloquial" local="gb" gender="f">fisioteràpia</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="301000">physiotherapist<nouns>
 			<translations>
-				<translation catagory="work-job, medical-job" gender="mf">fisioterapeuta</translation>
+				<translation catagory="work-job, medical" gender="mf">fisioterapeuta</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="688000">physiotherapy<nouns>
 			<translations>
-				<translation catagory="medical-treatment, medical-field" gender="f">fisioteràpia</translation>
+				<translation catagory="medical-treatment, medical" gender="f">fisioteràpia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2253,6 +2243,9 @@
 				</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>pick apart
+                <translations>
+                <translation>desgranar</translation></translations></phrasalverbs>
 		<phrasalverbs>pick up
 			<translations>
 				<translation>recollir<engexamp>To pick the kids up from school</engexamp>
@@ -2454,7 +2447,7 @@
 	<Entry frequency="1280000">PIN<engacro>Personal Identification Number</engacro>
 		<nouns>
 			<translations>
-				<translation catagory="financial" gender="m">número secret<catnote>Encara que l'acrònim 'PIN' vol dir 'Personal Identification Number' molts angloparlants diuen 'PIN number' (és a dir Personal Identification Number number).</catnote>
+				<translation disambiguate="financial" gender="m">número secret<catnote>Encara que l'acrònim 'PIN' vol dir 'Personal Identification Number' molts angloparlants diuen 'PIN number' (és a dir Personal Identification Number number).</catnote>
 					<synonyms>PIN number</synonyms>
 				</translation>
 			</translations>
@@ -2627,16 +2620,16 @@
         <Entry frequency="15500000">pit<nouns>
 			<translations>
 				<translation gender="f">mina</translation>
-                                <translation catagory="food-fruit" local="us" gender="m">pinyol<otherlocal>stone</otherlocal></translation>
-                                <translation sourceplural="pits" catagory="sports-event-formulaone" gender="m">box</translation>
+                                <translation disambiguate="food-fruit" local="us" gender="m">pinyol<otherlocal>stone</otherlocal></translation>
+                                <translation sourceplural="pits" disambiguate="sports-event-formulaone" gender="m">box</translation>
 			</translations>
 		</nouns>
 	</Entry>
         	<Entry frequency="10900000">pitch<nouns>
 			<translations>
-				<translation catagory="sports" gender="m">camp</translation>
-                                <translation catagory="sports-event-baseball" gender="m">llançament<engnote>'Llançament' means 'pitch' in the sense 'a throw of a baseball'.</engnote><plural>pitches</plural></translation>
-                                <translation catagory="entertainment-music" gender="m">to<plural>pitches</plural></translation>
+				<translation disambiguate="sports" gender="m">camp</translation>
+                                <translation disambiguate="sports-event-baseball" gender="m">llançament<engnote>'Llançament' means 'pitch' in the sense 'a throw of a baseball'.</engnote><plural>pitches</plural></translation>
+                                <translation disambiguate="entertainment-music" gender="m">to<plural>pitches</plural></translation>
                                 <translation gender="m">ritme / punt / nivell<engexamp>To work at a feverish pitch</engexamp><catexamp>Treballar febrilment</catexamp></translation>
                                 <translation local="gb" gender="f">parada / paradeta (colloq.)<engnote>'Parada' and 'paradeta' mean 'pitch' in the sense 'He has a permanent pitch in the market'.</engnote></translation>
                                 <translation gender="m">piol<engnote>'Piol' means 'pitch' in the sense 'sales pitch'.</engnote></translation>
@@ -2645,7 +2638,7 @@
 		</nouns>
                 <verbs>
                 <translations>
-                <translation catagory="sports-event-baseball">llançar</translation>
+                <translation disambiguate="sports-event-baseball">llançar</translation>
                 <translation>parar / plantar<engnote>'Parar' and 'plantar' mean 'to pitch' in the sense 'to erect (a tent)'.</engnote></translation>
                 <translation>dirigir<engnote>'Dirigir' means 'to pitch' in the sense 'to direct' (e.g. 'He pitched his speech at the young people in the audience').</engnote></translation>
                 <translation>empentar / espitjar<engnote>'Empentar' and 'espitjar' mean 'to pitch' in the sense 'to try to sell or promote'.</engnote></translation>
@@ -2758,7 +2751,7 @@
 	</Entry>
 	<Entry frequency="17200000">plane<nouns>
 			<translations>
-				<translation catagory="transport-mode" register="colloquial" gender="f">avió<synonyms>aeroplane, airplane</synonyms>
+				<translation disambiguate="transport-mode" register="colloquial" gender="f">avió<synonyms>aeroplane, airplane</synonyms>
 				</translation>
 			</translations>
 		</nouns>
@@ -2784,7 +2777,7 @@
 	</Entry>
         <Entry frequency="108000000">plant<nouns>
 			<translations>
-				<translation catagory="plants" gender="f">planta</translation>
+				<translation disambiguate="plants" gender="f">planta</translation>
                                 <translation gender="f">planta / fàbrica</translation>
 			</translations>
 		</nouns>
@@ -2794,15 +2787,15 @@
 	</Entry>
 	<Entry frequency="1670000">plaster<nouns>
 			<translations>
-				<translation catagory="medical-treatment" local="gb">
+				<translation disambiguate="medical-treatment" local="gb">
 					<translation gender="m">esparadrap</translation>
 					<translation gender="f">tireta</translation>
 					<engnote>'Esparadrap' and 'tireta' means 'plaster' as in 'BandAid'</engnote>
 					<otherlocal>Band Aid</otherlocal>
 				</translation>
-				<translation catagory="material" gender="m">guix<engnote>'Guix' means 'plaster' as in the material you make things out of.</engnote>
+				<translation disambiguate="material" gender="m">guix<engnote>'Guix' means 'plaster' as in the material you make things out of.</engnote>
 				</translation>
-				<translation catagory="medical" gender="m">guix<engnote>'Guix' also means 'plaster' as in the stuff doctors put on your legs or arms when you break them</engnote>
+				<translation disambiguate="medical" gender="m">guix<engnote>'Guix' also means 'plaster' as in the stuff doctors put on your legs or arms when you break them</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -2846,8 +2839,8 @@
 	</Entry>
 	<Entry frequency="52100000">platform<nouns>
 			<translations>
-				<translation catagory="transport" gender="f">andana</translation>
-				<translation catagory="computers" termcat="true" gender="f">plataforma</translation>
+				<translation disambiguate="transport" gender="f">andana</translation>
+				<translation disambiguate="computers" termcat="true" gender="f">plataforma</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2867,11 +2860,11 @@
 	</Entry>
 	<Entry frequency="134000000">play<verbs>
 			<translations>
-				<translation catagory="sports">jugar<engnote>Jugar means to play as in to play a sport</engnote>
+				<translation disambiguate="sports">jugar<engnote>Jugar means to play as in to play a sport</engnote>
 					<engexamp>To play football</engexamp>
 					<catexamp>Jugar a futbol</catexamp>
 				</translation>
-				<translation>tocar<engnote>Tocar means to play as in to play a musical instrument</engnote>
+				<translation disambiguate="entertainment-music">tocar<engnote>Tocar means to play as in to play a musical instrument</engnote>
 					<engexamp>To play the guitar</engexamp>
 					<catexamp>Tocar la guitarra</catexamp>
 				</translation>
@@ -3023,7 +3016,8 @@
 	</Entry>
 	<Entry frequency="1860000">plum<nouns>
 			<translations>
-				<translation catagory="food-fruit" gender="f">pruna<engnote>'Pruna' can mean both 'plum' and 'prune'</engnote>
+				<translation disambiguate="food-fruit" gender="f">pruna<engnote>'Pruna' can mean both 'plum' and 'prune'</engnote>
+                                <translation disambiguate="body" sourceplural="plums" register="slang" gender="mpl">collons</translation>
 				</translation>
 			</translations>
 		</nouns>
@@ -3139,8 +3133,10 @@
 	</Entry>
 	<Entry frequency="9890000">pointer<nouns>
 			<translations>
-				<translation catagory="computers" termcat="true" gender="f">busca</translation>
-				<translation catagory="computers" termcat="true" gender="m">punter</translation>
+                        <translation>
+				<translation disambiguate="computers" termcat="true" gender="f">busca</translation>
+				<translation termcat="true" gender="m">punter</translation>
+                                </translation>
 				<translation register="colloquial" gender="m">consell<example>Jeff had never done any mountaineering before, so I gave him a few &lt;b&gt;pointers&lt;/b&gt;</example>
 					<example>I am about to buy a second hand car for the first time. Has anybody got any &lt;b&gt;pointers&lt;/b&gt;?</example>
 					<synonyms>tip, advice</synonyms>
@@ -3194,16 +3190,18 @@
 			<translations>
 				<translation gender="m">pal<engnote>'Pal' means 'pole' as in 'a long round stick or rod'</engnote>
 				</translation>
-				<translation catagory="nationality-europe-poland" gender="mf">polonès<engnote>'Polonès' means 'Pole' as in 'someone from Poland'</engnote>
+				<translation disambiguate="nationality-europe-poland" gender="mf">polonès<engnote>'Polonès' means 'Pole' as in 'someone from Poland'</engnote>
 				</translation>
-                                <translation catagory="sports-event-motorraccing" gender="f">pole</translation>
+                                <translation disambiguate="sports-event-motorraccing" gender="f">pole</translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="468000">pole position<nouns>
 			<translations>
+                        <translation>
 				<translation catagory="sports-event-motorracing" gender="f">pole position</translation>
                                 <translation catagory="sports-event-motorracing" termcat="TRUE" gender="f">posició preferent<engnote>'Posició preferent' is the official Catalan term provided by Termcat but it does not seem at all widely used.</engnote></translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3386,9 +3384,9 @@
 	</Entry>
         <Entry frequency="39300000">pool<nouns>
 			<translations>
-				<translation catagory="sports-event-swimming" gender="f">piscina</translation>
+				<translation disambiguate="sports-event-swimming" gender="f">piscina</translation>
                                 <translation gender="m">estany</translation>
-                                <translation catagory="sports-event" gender="m">billar americà</translation>
+                                <translation disambiguate="sports-event" gender="m">billar americà</translation>
                                 <translation gender="m">bassal</translation>
 			</translations>
 		</nouns>
@@ -3420,12 +3418,12 @@
 	</Entry>
 	<Entry frequency="23500000">pop<nouns>
 			<translations>
-				<translation catagory="food-drink" local="gb" gender="f">beguda carbònica<otherlocal>soda</otherlocal>
+				<translation disambiguate="food-drink" local="gb" gender="f">beguda carbònica<otherlocal>soda</otherlocal>
 					<catnote>'Pop' vol dir una beguda carbònica dolça com per exemple Pepsi o Coca-Cola</catnote>
 				</translation>
-				<translation catagory="family-blood" local="us" gender="m">papa<otherlocal>dad</otherlocal>
+				<translation disambiguate="family" local="us" gender="m">papa<otherlocal>dad</otherlocal>
 				</translation>
-				<translation catagory="music" gender="m">pop</translation>
+				<translation disambiguate="entertainment-music" gender="m">pop</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3566,8 +3564,8 @@
 	</Entry>
 	<Entry frequency="8570000">Portuguese<nouns>
 			<translations>
-				<translation catagory="language" gender="m">portuguès</translation>
-				<translation catagory="nationality-europe-portugal" gender="mf">portuguès</translation>
+				<translation disambiguate="language" gender="m">portuguès</translation>
+				<translation disambiguate="nationality-europe-portugal" gender="mf">portuguès</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -3696,7 +3694,7 @@
 	</Entry>
 	<Entry frequency="7180000">postgraduate<adjectives>
 			<translations>
-				<translation catagory="education">postgrau</translation>
+				<translation catagory="education">de postgrau</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3781,7 +3779,7 @@
 	</Entry>
 	<Entry frequency="7890000">pound<nouns>
 			<translations>
-				<translation catagory="financial" gender="f">lliura</translation>
+				<translation disambiguate="financial" gender="f">lliura</translation>
 				<translation gender="f">lliura</translation>
 			</translations>
 		</nouns>
@@ -3795,7 +3793,7 @@
 			<translations>
 				<translation>servir<engnote>'Servir' means 'to pour' in the sense 'to pour a cup of tea / coffee'</engnote>
 				</translation>
-				<translation catagory="weather">ploure a bots i barrals</translation>
+				<translation disambiguate="weather">ploure a bots i barrals</translation>
 			</translations>
 		</verbs>
 		<phrasalverbs>pour down
@@ -4366,6 +4364,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+          <Entry frequency="115000">pretentiousness<nouns>
+			<translations>
+				<translation gender="f">cursileria</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="25000000">pretty<adjectives>
 			<translations>
 				<translation>bonic<catnote>Si utilitzes l'adjectiu 'pretty' per referir a una persona, cal tenir en compte que aquest adjectiu es dirigeix gairebé exclusivament a les dones. Si dius a un home 'you're very pretty' com a compliment és ben probable que et donarà un cop de puny ;-) Si vols fer un compliment a un home, el millor seria dir-li 'you're very good-looking / attractive'.</catnote>
@@ -4395,7 +4399,7 @@
 	</Entry>
 	<Entry frequency="11200000">preview<nouns>
 			<translations>
-				<translation catagory="computers" gender="f">vista prèvia<engnote>'Vista prèvia' means 'preview' in the computing sense 'print preview'</engnote>
+				<translation disambiguate="computers" gender="f">vista prèvia<engnote>'Vista prèvia' means 'preview' in the computing sense 'print preview'</engnote>
 				</translation>
 				<translation gender="f">preestrena<engnote>'Preestrena' means 'preview' as in 'Fans will be treated to a preview of Brad Pitt's new film'</engnote>
 				</translation>
@@ -4523,7 +4527,7 @@
 	</Entry>
 	<Entry frequency="14700000">printer<nouns>
 			<translations>
-				<translation catagory="computers-hardware" termcat="true" gender="f">impressora<engexamp>Laser printer</engexamp>
+				<translation disambiguate="computers-hardware" termcat="true" gender="f">impressora<engexamp>Laser printer</engexamp>
 					<catexamp>Impressora làser</catexamp>
 				</translation>
 			</translations>
@@ -4919,7 +4923,7 @@
 			<translations>
 				<translation>promoure / fomentar<engnote>'Promoure' and 'fomentar' mean 'to promote' in the sense 'to promote peace and harmony'</engnote>
 				</translation>
-				<translation catagory="work">ascendir<engnote>'Ascendir' means 'to promote' in the sense 'to give somebody at work a promotion'</engnote>
+				<translation disambiguate="work">ascendir<engnote>'Ascendir' means 'to promote' in the sense 'to give somebody at work a promotion'</engnote>
 				</translation>
 			</translations>
 		</verbs>
@@ -5069,8 +5073,10 @@
 	</Entry>
 	<Entry frequency="352000">proprietary software<nouns>
 			<translations>
+                        <translation>
 				<translation catagory="computers" termcat="true" gender="m">programari de propietat</translation>
 				<translation catagory="computers" gender="m">programari propietari</translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5255,7 +5261,7 @@
 	</Entry>
 	<Entry frequency="5530000">psychologist<nouns>
 			<translations>
-				<translation catagory="work-job" gender="mf">psicòleg</translation>
+				<translation catagory="work-job, medical-job" gender="mf">psicòleg</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5406,11 +5412,11 @@
 		</phrasalverbs>
 		<phrasalverbs>pull in
 			<translations>
-				<translation catagory="transport">aturar / parar<example>He was feeling tired, so he &lt;b&gt;pulled in&lt;/b&gt; at the nearest service station for a rest</example>
+				<translation disambiguate="transport">aturar / parar<example>He was feeling tired, so he &lt;b&gt;pulled in&lt;/b&gt; at the nearest service station for a rest</example>
 				</translation>
 				<translation>atreure<example>The show &lt;b&gt;pulled in&lt;/b&gt; 12 million viewers</example>
 				</translation>
-				<translation catagory="transport">arribar<example>The train &lt;b&gt;pulled in&lt;/b&gt; just as I reached the platform</example>
+				<translation disambiguate="transport">arribar<example>The train &lt;b&gt;pulled in&lt;/b&gt; just as I reached the platform</example>
 				</translation>
 				<translation>guanyar<example>The film &lt;b&gt;pulled in&lt;/b&gt; 5 million dollars at the box office</example>
 				</translation>
@@ -5431,7 +5437,7 @@
 					<example>Radcliffe &lt;b&gt;pulled out&lt;/b&gt; of the race with only two laps to go</example>
 					<engnote>Abandonar can mean to pull out of a sports event or to pull out of a country</engnote>
 				</translation>
-				<translation catagory="transport">sortir<example>The car &lt;b&gt;pulled out&lt;/b&gt; in front of me without warning</example>
+				<translation disambiguate="transport">sortir<example>The car &lt;b&gt;pulled out&lt;/b&gt; in front of me without warning</example>
 					<example>The train &lt;b&gt;pulled out&lt;/b&gt; of the station</example>
 					<catnote>Si es diu que un cotxe / camió / moto  'pulls out', pot significar que aquest ja està aparcat al carrer i comença a moure's o bé que ja s'està movent pel carrer / autopista i passa a una via més ràpida.</catnote>
 				</translation>
@@ -5470,7 +5476,7 @@
 		</phrasalverbs>
 		<phrasalverbs>pull up
 			<translations>
-				<translation catagory="transport">aturar / parar<example>He &lt;b&gt;pulled up&lt;/b&gt; outside the shop, switched the engine off and went to buy a pint of milk</example>
+				<translation disambiguate="transport">aturar / parar<example>He &lt;b&gt;pulled up&lt;/b&gt; outside the shop, switched the engine off and went to buy a pint of milk</example>
 				</translation>
 			</translations>
 		</phrasalverbs>
@@ -5612,10 +5618,10 @@
 	</Entry>
 	<Entry frequency="9390000">pupil<nouns>
 			<translations>
-				<translation gender="mf">alumne<engnote>'Alumne' means 'pupil' as in 'student'</engnote>
+				<translation disambiguate="education" gender="mf">alumne<engnote>'Alumne' means 'pupil' as in 'student'</engnote>
 					<synonyms>student</synonyms>
 				</translation>
-				<translation catagory="body" gender="f">pupil·la<engnote>'Pupil·la' means 'pupil' as in 'part of the eye'</engnote>
+				<translation disambiguate="body" gender="f">pupil·la<engnote>'Pupil·la' means 'pupil' as in 'part of the eye'</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -5707,6 +5713,12 @@
                                 <translation local="us" gender="f">bossa de mà<otherlocal>handbag</otherlocal></translation>
 			</translations>
 		</nouns>
+	</Entry>
+          <Entry frequency="13000000">pursue<verbs>
+			<translations>
+				<translation>perseguir<engexamp>To pursue (studies)</engexamp><catexamp>Cursar (els estudis)</catexamp></translation>
+			</translations>
+		</verbs>
 	</Entry>
         <Entry frequency="23700000">pursuit<nouns>
 			<translations>

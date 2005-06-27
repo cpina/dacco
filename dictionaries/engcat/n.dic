@@ -18,7 +18,7 @@
 			<translations>
 				<translation gender="m">clau<engnote>&apos;Clau&apos; means &apos;nail&apos; as in &apos;hammer and nails&apos;</engnote>
 				</translation>
-				<translation catagory="body" gender="f">ungla<engnote>&apos;Ungla&apos; means &apos;nail&apos; as in &apos;fingernail&apos;</engnote>
+				<translation disambiguate="body" gender="f">ungla<engnote>&apos;Ungla&apos; means &apos;nail&apos; as in &apos;fingernail&apos;</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -45,6 +45,7 @@
 	<Entry frequency="445000000">name<nouns>
 			<translations>
 				<translation gender="m">nom</translation>
+                                <translation disambiguate="linguistics" gender="f">denominació</translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -343,7 +344,7 @@
 	</Entry>
 	<Entry frequency="10900000">neck<nouns>
 			<translations>
-				<translation catagory="body" gender="m">coll</translation>
+				<translation disambiguate="body" gender="m">coll</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -572,7 +573,7 @@
 	</Entry>
 	<Entry frequency="8130000">nerve<nouns>
 			<translations>
-				<translation catagory="medical" gender="m">nervi</translation>
+				<translation disambiguate="medical" gender="m">nervi</translation>
 				<translation gender="f">audàcia<synonyms>courage, bravery</synonyms>
 				</translation>
 			</translations>
@@ -779,7 +780,7 @@
         	<Entry frequency="1310000">newsreader<nouns>
 			<translations>
 				<translation gender="mf">presentador (del telenotícies / del telediari) / locutor (ràdio)</translation>
-                                <translation catagory="computers" gender="m">lector de missatges</translation>
+                                <translation disambiguate="computers" gender="m">lector de missatges</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -927,8 +928,8 @@
 	</Entry>
 	<Entry frequency="3750000">nickel<nouns>
 			<translations>
-				<translation catagory="financial" gender="f" local="us">moneda de 5 centaus</translation>
-				<translation catagory="material, chemistry" gender="m">níquel</translation>
+				<translation disambiguate="financial" gender="f" local="us">moneda de 5 centaus</translation>
+				<translation disambiguate="material, chemistry" gender="m">níquel</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1319,8 +1320,8 @@
 	</Entry>
 	<Entry frequency="10900000">Norwegian<nouns>
 			<translations>
-				<translation catagory="language" gender="m">noruec</translation>
-				<translation catagory="nationality-europe-norway" gender="mf">noruec</translation>
+				<translation disambiguate="language" gender="m">noruec</translation>
+				<translation disambiguate="nationality" gender="mf">noruec</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -1331,7 +1332,7 @@
 	</Entry>
 	<Entry frequency="9260000">nose<nouns>
 			<translations>
-				<translation catagory="body" gender="m">nas</translation>
+				<translation disambiguate="body" gender="m">nas</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1395,7 +1396,7 @@
 	<Entry frequency="20000000">notebook<nouns>
 			<translations>
 				<translation gender="f">llibreta</translation>
-				<translation catagory="computers" gender="m" termcat="true">ordinador portàtil</translation>
+				<translation disambiguate="computers" gender="m" termcat="true">ordinador portàtil</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1673,13 +1674,13 @@
 	</Entry>
 	<Entry frequency="1520000">nun<nouns>
 			<translations>
-				<translation catagory="work-job, religious" gender="f">monja</translation>
+				<translation catagory="religious" gender="f">monja</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="10100000">nurse<nouns>
 			<translations>
-				<translation catagory="work-job, medical-job" gender="ffullform">infermera</translation>
+				<translation catagory="work-job, medical" gender="ffullform">infermera</translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -1698,7 +1699,7 @@
 	</Entry>
         <Entry frequency="11800000">nut<nouns>
 			<translations>
-				<translation catagory="food-nut" gender="f">nou</translation>
+				<translation disambiguate="food-nut" gender="f">nou</translation>
                                 <translation gender="f">femella<engnote>&apos;Femella&apos; means &apos;nut&apos; in the mechanical sense.</engnote></translation>
 			</translations>
 		</nouns>

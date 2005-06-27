@@ -74,7 +74,7 @@
 	</Entry>
 	<Entry frequency="11800000">icon<nouns>
 			<translations>
-				<translation catagory="computers" termcat="true" gender="ffullform">icona</translation>
+				<translation disambiguate="computers" termcat="true" gender="ffullform">icona</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -198,14 +198,14 @@
 	</Entry>
          <Entry frequency="4710000">idle<adjectives>
 			<translations>
-				<translation catagory="computers" termcat="true">inactiu</translation>
+				<translation disambiguate="computers" termcat="true">inactiu</translation>
                                 <translation>quiet</translation>
 			</translations>
 		</adjectives>
 	</Entry>
          <Entry frequency="425000">idle time<nouns>
 			<translations>
-				<translation catagory="computers" termcat="true" gender="m">temps mort</translation>
+				<translation disambiguate="computers" termcat="true" gender="m">temps mort</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -413,7 +413,7 @@
 	</Entry>
 	<Entry frequency="2730000">imbalance<nouns>
 			<translations>
-				<translation gender="m">desequilibri</translation>
+				<translation gender="m">desequilibri / desajustament</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1363,8 +1363,8 @@
 	</Entry>
 	<Entry frequency="30400000">Indian<nouns>
 			<translations>
-				<translation catagory="nationality" gender="mf">indi</translation>
-				<translation register="colloquial" local="gb" gender="m">menjar indi<example>Do you fancy an &lt;b&gt;Indian&lt;/b&gt;?</example>
+				<translation disambiguate="nationality" gender="mf">indi</translation>
+				<translation disambiguate="food" register="colloquial" local="gb" gender="m">menjar indi<example>Do you fancy an &lt;b&gt;Indian&lt;/b&gt;?</example>
 					<catnote>Els anglesos diuem 'an indian' per significar menjar indi.</catnote>
 				</translation>
 			</translations>
@@ -1898,7 +1898,7 @@
 	</Entry>
 	<Entry frequency="1120000">initialize<verbs>
 			<translations>
-				<translation termcat="true" catagory="computers-programming">inicialitzar</translation>
+				<translation termcat="true" disambiguate="computers-programming">inicialitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1918,7 +1918,7 @@
 	<Entry frequency="9180000">injured<adjectives>
 			<translations>
 				<translation>ferit</translation>
-				<translation catagory="sports">lesionat</translation>
+				<translation disambiguate="sports">lesionat</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2044,13 +2044,13 @@
         <Entry frequency="35300000">input<nouns>
 			<translations>
                         <translation>
-				<translation catagory="computers" gender="f">entrada (de dades)</translation>
+				<translation disambiguate="computers" gender="f">entrada (de dades)</translation>
                                 <translation gender="f">aportació / participació / contribució</translation></translation>
 			</translations>
 		</nouns>
                 <verbs double="true">
                 <translations>
-                <translation catagory="computers">entrar / introduir</translation></translations></verbs>
+                <translation disambiguate="computers">entrar / introduir</translation></translations></verbs>
 	</Entry>
 	<Entry frequency="2220000">inquire<verbs>
 			<translations>
@@ -2921,8 +2921,8 @@
 	</Entry>
 	<Entry frequency="2900000">iris<nouns>
 			<translations>
-                        <translation catagory="body" gender="m">iris</translation>
-				<translation catagory="plant" gender="m">iris<plural>irises</plural>
+                        <translation disambiguate="body" gender="m">iris</translation>
+				<translation disambiguate="plant" gender="m">iris<plural>irises</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -2945,7 +2945,7 @@
 		</verbs>
 		<nouns>
 			<translations>
-				<translation catagory="material" gender="m">ferro<engnote>'Ferro' means 'iron' as in the metal</engnote>
+				<translation disambiguate="material" gender="m">ferro<engnote>'Ferro' means 'iron' as in the metal</engnote>
 				</translation>
 				<translation gender="f">planxa<engnote>'Planxa' means 'iron' as in the appliance you use to press your clothes with</engnote>
 				</translation>
@@ -3096,8 +3096,8 @@
 	</Entry>
 	<Entry frequency="19000000">Italian<nouns>
 			<translations>
-				<translation catagory="language" gender="m">italià</translation>
-				<translation catagory="nationality" gender="mf">italià</translation>
+				<translation disambiguate="language" gender="m">italià</translation>
+				<translation disambiguate="nationality" gender="mf">italià</translation>
 			</translations>
 		</nouns>
 		<adjectives>
