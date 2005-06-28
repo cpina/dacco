@@ -1370,9 +1370,15 @@
 	</Entry>
 	<Entry frequency="1790000">seize<verbs>
 			<translations>
-				<translation>requisar</translation>
+				<translation>requisar / emparar</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="7770000">seizure<nouns>
+			<translations>
+                        <translation disambiguate="medical" gender="f">convulsió</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="914000">seldom<adverbs>
 			<translations>
@@ -2269,6 +2275,7 @@
 				<translation>
 					<translation gender="m">refugi</translation>
 					<translation gender="m">abric</translation>
+                                        <translation gender="f">empara</translation>
 				</translation>
 			</translations>
 		</nouns>
@@ -2835,8 +2842,8 @@
 		</nouns>
 	</Entry>
 	<Entry frequency="9120000">sick<adjectives>
-			<translations><translation catagory="medical">malalt<engexamp>I feel sick</engexamp><catexamp>Tinc nàusees / Estic marejat</catexamp><engexamp>To be sick</engexamp><catexamp>Estar malalt / vomitar</catexamp><synonyms>ill</synonyms>
-				<translation>es diu d'una persona a qui li agrada la crueltat i ver sofrir a la gent</translation>
+			<translations><translation catagory="medical">malalt<engexamp>I feel sick</engexamp><catexamp>Tinc nàusees / Estic marejat</catexamp><engexamp>To be sick</engexamp><catexamp>Estar malalt / vomitar</catexamp><engexamp>To get sick</engexamp><catexamp>Emmalaltir(-se)</catexamp><synonyms>ill</synonyms>
+				<translation>es diu d'una persona a qui li agrada la crueltat i veure sofrir a la gent</translation>
 				</translation>
 			</translations>
 		</adjectives>
@@ -3156,12 +3163,12 @@
 	</Entry>
 	<Entry frequency="20500000">since<prepositions>
 			<translations>
-				<translation>des de</translation>
+				<translation>des de / d'ençà de</translation>
 			</translations>
 		</prepositions>
 		<conjunctions>
 			<translations>
-				<translation>des que<engnote>'Des que' means 'since' in the time-related sense (i.e. 'Things haven't been the same since she arrived' or 'He's not spoken to anybody since he came out of hospital')</engnote>
+				<translation>des que / d'ençà que<engnote>'Des que' and 'd'ençà que' mean 'since' in the time-related sense (i.e. 'Things haven't been the same since she arrived' or 'He's not spoken to anybody since he came out of hospital')</engnote>
 				</translation>
 				<translation>ja que<engnote>'Ja que' means 'since' in the sense 'because' / 'as' (i.e. 'Since we had nothing better to do, we decided to accept her invitation to the party')</engnote>
 				</translation>
@@ -5400,7 +5407,8 @@
 			<past>spelt, spelled</past>
 			<participle>spelt, spelled</participle>
 			<translations>
-				<translation>lletrejar<engexamp>Could you spell that, please?</engexamp>
+			
+                       	<translation>lletrejar<engexamp>Could you spell that, please?</engexamp>
 					<catexamp>M'ho pots lletrejar, si us plau?</catexamp>
 				</translation>
 				<translation>escriure<engexamp>How do you spell ...?</engexamp>
@@ -5423,6 +5431,9 @@
 				<translation>
 					<translation gender="m">conjur</translation>
 					<translation gender="m">encantament</translation>
+                                        <translation gender="m">encanteri</translation>
+                                        <translation gender="m">embruix</translation>
+                                        <translation gender="m">sortilegi</translation>
 				</translation>
 			</translations>
 		</nouns>
@@ -6705,7 +6716,7 @@
 			<past>stuck</past>
 			<participle>stuck</participle>
 			<translations>
-				<translation>adherir</translation>
+				<translation>adherir / enganxar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -6734,6 +6745,25 @@
 				<translation register="colloquial" local="au" gender="m">tafaner</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="6710000">stiff<adjectives>
+			<translations>
+				<translation>dur / rígid</translation>
+                                <translation>fort<engexamp>A stiff drink</engexamp><catexamp>Una beguda (alcohòlica) forta</catexamp></translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation>
+                <translation gender="f">persona mort</translation>
+                <translation gender="m">cadàver</translation>
+                </translation></translations></nouns>
+	</Entry>
+        <Entry frequency="728000">stiffen<verbs>
+			<translations>
+				<translation>endurir(-se)</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="22800000">still<adverbs>
 			<translations>

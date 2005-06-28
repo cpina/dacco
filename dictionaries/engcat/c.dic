@@ -3484,9 +3484,13 @@
 	</Entry>
         <Entry frequency="2770000">clog<verbs double="true">
 			<translations>
-				<translation>embussar-se</translation>
+				<translation transitive="true">embussar</translation>
+                                <translation intransitive="true">embussar-se</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>clog up
+                <translations>
+                <translation>embussar(-se)</translation></translations></phrasalverbs>
                 <nouns>
                 <translations>
                 <translation gender="m">soc / esclop</translation>
@@ -4776,7 +4780,7 @@
 	</Entry>
 	<Entry frequency="33200000">con<verbs double="true">
 			<translations>
-				<translation>estafar</translation>
+				<translation>estafar / entabanar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -4789,8 +4793,9 @@
 					<catexamp>Avantatges i inconvenients</catexamp>
 					<synonyms>disadvantage</synonyms>
 				</translation>
-				<translation gender="f">estafa<engnote>Estafa means con as in 'it was all a big con'</engnote>
+				<translation gender="f">estafa<engnote>'Estafa' means 'con' as in 'it was all a big con'</engnote>
 				</translation>
+                                <translation register="colloquial" gender="mf">convicte</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5009,6 +5014,24 @@
 	<Entry frequency="16800000">confidence<nouns>
 			<translations>
 				<translation gender="f">confiança</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="38100">confidence game<nouns>
+			<translations>
+				<translation local="us" register="formal" gender="f">estafa<otherlocal>confidence trick</otherlocal><synonyms>con</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="26900">confidence trick<nouns>
+			<translations>
+				<translation register="formal" gender="f">estafa<synonyms>confidence game (Am.) / con</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="16100">confidence trickster<nouns>
+			<translations>
+				<translation register="formal" gender="mf">estafador<synonyms>conman</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
