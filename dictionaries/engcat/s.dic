@@ -681,7 +681,7 @@
 	</Entry>
         <Entry frequency="14800000">scatter<verbs>
 			<translations>
-				<translation>escampar</translation>
+				<translation>escampar / espargir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1173,6 +1173,12 @@
 				<translation>salpebrar / assaonar</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="659000">seasonality<nouns>
+			<translations>
+				<translation gender="f">estacionalitat</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="653000">season ticket<nouns>
 			<translations>
@@ -2439,6 +2445,15 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="2050000">shiver<verbs>
+        <translations>
+        <translation intransitive="true">tremolar</translation></translations></verbs>
+        <nouns>
+			<translations>
+				<translation gender="f">esgarrifança</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="33400000">shoe<nouns>
 			<translations>
 				<translation catagory="clothes" gender="f">sabata<engexamp>A pair of shoes</engexamp>
@@ -2600,6 +2615,12 @@
 				<translation catagory="computers" termcat="true" gender="m">accés directe</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="9010000">shorten<verbs>
+			<translations>
+				<translation transitive="true">escurçar</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="2660000">shortly<adverbs>
 			<translations>
@@ -2810,9 +2831,12 @@
 	</Entry>
         <Entry frequency="513000">shudder<verbs>
 			<translations>
-				<translation>estremir-se</translation>
+				<translation intransitive="true">estremir-se</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                <translations>
+                <translation gender="f">esgarrifança</translation></translations></nouns>
 	</Entry>
 	<Entry frequency="8520000">shut<verbs>
 			<past>shut</past>
@@ -3520,7 +3544,7 @@
 	</Entry>
 	<Entry frequency="6840000">sketch<nouns>
 			<translations>
-				<translation gender="m">esbós<plural>sketches</plural>
+				<translation gender="m">esbós / esquema<plural>sketches</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -5123,7 +5147,7 @@
 	</Entry>
 	<Entry frequency="1040000">spaghetti<nouns>
 			<translations>
-				<translation catagory="food" gender="m">espagueti</translation>
+				<translation catagory="food" gender="mpl">espaguetis</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5200,11 +5224,11 @@
 		</nouns>
                 <verbs>
                 <translations>
-                <translation>tirar espurnes</translation></translations></verbs>
+                <translation>tirar espurnes / espurnejar</translation></translations></verbs>
 	</Entry>
 	<Entry frequency="1090000">sparkle<verbs>
 			<translations>
-				<translation>brillar</translation>
+				<translation>brillar / espurnejar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -5258,6 +5282,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="5000000">specialise<verbs>
+			<translations>
+				<translation local="gb" intransitive="true">especialitzar-se (en)<otherlocal>specialize</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="14300000">specialist<nouns>
 			<translations>
 				<translation catagory="work-job" gender="mf">especialista</translation>
@@ -5270,6 +5300,12 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="21800000">specialize<verbs>
+			<translations>
+				<translation>especialitzar-se (en)</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="2230000">specially<adverbs>
 			<translations>
@@ -5854,6 +5890,12 @@
 				</translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>spread out
+                <translations>
+                <translation>espargir
+                </translation>
+                </translations>
+                </phrasalverbs>
 	</Entry>
 	<Entry frequency="6300000">spreadsheet<nouns>
 			<translations>
@@ -5873,7 +5915,7 @@
 	<Entry frequency="450000">sprinkle<verbs>
 			<translations>
 				<translation>esquitxar / ruixar<engnote>'Esquitxar' and 'ruixar' mean to sprinkle with a liquid.</engnote></translation>
-                                <translation>escampar</translation>
+                                <translation>escampar / espargir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6046,6 +6088,12 @@
 			<translations>
 				<translation catagory="food-seafood" gender="mpl">calamars<plural>squid / squids</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="867000">squint<nouns>
+			<translations>
+				<translation gender="m">estrabisme</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6707,6 +6755,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="382000">sterilisation<nouns>
+			<translations>
+				<translation local="gb" gender="f">esterilització<otherlocal>sterilization</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="75500">sterilise<verbs>
 			<translations>
 				<translation local="gb">esterilitzar<otherlocal>sterilize</otherlocal>
@@ -6714,11 +6768,29 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="99600">steriliser<nouns>
+			<translations>
+				<translation local="gb" gender="m">esterilitzador<otherlocal>sterilizer</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1330000">sterilization<nouns>
+			<translations>
+				<translation gender="f">esterilització</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="169000">sterilize<verbs>
 			<translations>
 				<translation>esterilitzar</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="955000">sterilizer<nouns>
+			<translations>
+				<translation gender="m">esterilitzador</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="11800000">stern<adjectives>
 			<translations>
@@ -7076,6 +7148,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="370000">strabismus<nouns>
+			<translations>
+				<translation gender="m">estrabisme</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="22500000">straight<adjectives>
 			<translations>
 				<translation>recte / dret</translation>
@@ -7274,6 +7352,18 @@
 				<translation>estirar / estirar-se</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="22800000">strict<adjectives>
+			<translations>
+				<translation>estricte</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="38200000">strictly<adverbs>
+			<translations>
+				<translation>estrictament</translation>
+			</translations>
+		</adverbs>
 	</Entry>
 	<Entry frequency="23400000">strike<nouns>
 			<translations>
@@ -7503,6 +7593,12 @@
 				<translation>estúpid / idiota / ximple</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="3260000">stupidity<nouns>
+			<translations>
+				<translation gender="f">estupidesa</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="136000">stupidly<adverbs>
 			<translations>
@@ -8544,6 +8640,8 @@
 	<Entry frequency="3370000">swan<nouns>
 			<translations>
 				<translation catagory="animal-bird" gender="m">cigne</translation>
+                                <translation sourceplural="Swans" catagory="sports-event-football-teams, encyclopaedic" register="colloquial" noteng="TRUE" local="gb">-<catnote>The Swans és el sobrenom de l'equip de futbol gal·lès Swansea City FC</catnote>
+				</translation>
 			</translations>
 		</nouns>
 		<phrasalverbs>swan around
@@ -8560,10 +8658,9 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="10700">Swans<nouns>
+        <Entry frequency="776000">swastika<nouns>
 			<translations>
-				<translation catagory="sports-event-football-teams, encyclopaedic" register="colloquial" noteng="TRUE" local="gb">-<catnote>The Swans és el sobrenom de l'equip de futbol gal·lès Swansea City FC</catnote>
-				</translation>
+				<translation gender="f">esvàstica</translation>
 			</translations>
 		</nouns>
 	</Entry>

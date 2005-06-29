@@ -2166,6 +2166,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="1560000">digger<nouns>
+			<translations>
+				<translation gender="f">excavadora<synonyms>bulldozer / excavator</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="112000000">digital<adjectives>
 			<translations>
 				<translation>digital</translation>
@@ -2441,7 +2447,8 @@
 	</Entry>
 	<Entry frequency="3630000">disappear<verbs>
 			<translations>
-				<translation>desaparèixer</translation>
+				<translation intransitive="true">desaparèixer</translation>
+                                <translation intransitive="true">esvair-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2781,6 +2788,12 @@
 				<translation gender="m">desajustament<plural>disparities</plural></translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="2380000">dispel<verbs double="true">
+			<translations>
+				<translation transitive="true">esvair</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="16800000">display<verbs>
 			<translations>
@@ -3984,7 +3997,7 @@
 	</Entry>
 	<Entry frequency="611000">drizzle<verbs>
 			<translations>
-				<translation disambiguate="weather">plovisquejar</translation>
+				<translation disambiguate="weather">plovisquejar / espurnejar</translation>
 				<translation disambiguate="food">tirar unes gotes (d&apos;un líquid) sobre (la superfície d&apos;alguna cosa)<example>Place the salad leaves in a bowl. &lt;b&gt;Drizzle&lt;/b&gt; with oil and toss gently.</example>
 				</translation>
 			</translations>

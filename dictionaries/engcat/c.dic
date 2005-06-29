@@ -1077,7 +1077,7 @@
 		</phrasalverbs>
 		<phrasalverbs>carry out
 			<translations>
-				<translation>realitzar / portar a terme / dur a terme</translation>
+				<translation>realitzar / portar a terme / dur a terme / executar</translation>
 			</translations>
 		</phrasalverbs>
 	</Entry>
@@ -1145,13 +1145,14 @@
 	</Entry>
 	<Entry frequency="253000000">case<nouns>
 			<translations>
-				<translation gender="m">cas<engnote>'Cas' means 'case' as in a general sense</engnote>
+				<translation gender="m">cas<engnote>'Cas' means 'case' as in a general sense.</engnote>
 					<engexamp>Just in case</engexamp>
 					<catexamp>Per si de cas</catexamp>
 				</translation>
-				<translation gender="f">maleta<engnote>'Maleta' means 'case' as in 'suitcase'</engnote>
+				<translation gender="f">maleta<engnote>'Maleta' means 'case' as in 'suitcase'.</engnote>
 					<synonyms>suitcase</synonyms>
 				</translation>
+                                <translation gender="m">estoig</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1435,6 +1436,12 @@
         <Entry frequency="10800000">cattle<nouns>
 			<translations>
 				<translation gender="m">bestiar (boví)</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="200000">cattle egret<nouns>
+			<translations>
+				<translation catagory="animal-bird" gender="m">esplugabous</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3253,7 +3260,8 @@
 	</Entry>
 	<Entry frequency="34700000">clean<verbs>
 			<translations>
-				<translation>netejar</translation>
+				<translation transitive="true">netejar</translation>
+                                <translation transitive="true">escurar</translation>
 			</translations>
 		</verbs>
 		<adjectives>
@@ -3261,6 +3269,9 @@
 				<translation>net</translation>
 			</translations>
 		</adjectives>
+                <phrasalverbs>clean out
+                <translations>
+                <translation>escurar</translation></translations></phrasalverbs>
 	</Entry>
 	<Entry frequency="5790000">cleaner<nouns>
 			<translations>
@@ -3320,7 +3331,7 @@
 	<Entry frequency="34300000">clearly<adverbs>
 			<translations>
 				<translation>clarament</translation>
-				<translation>és clar (que)<synonyms>obviously</synonyms>
+				<translation>és clar (que) / evidentment<synonyms>obviously</synonyms>
 				</translation>
 			</translations>
 		</adverbs>
@@ -5853,6 +5864,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="743000">control structure<nouns>
+			<translations>
+				<translation catagory="computers-programming" gender="f">estructura de control</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2900000">controversial<adjectives>
 			<translations>
 				<translation>polèmic / controvertit</translation>
@@ -6106,8 +6123,8 @@
 	</Entry>
 	<Entry frequency="16100000">copy<nouns>
 			<translations>
-				<translation gender="f">còpia<plural>copies</plural>
-				</translation>
+				<translation gender="f">còpia</translation>
+                                <translation gender="m">exemplar<plural>copies</plural></translation>
 			</translations>
 		</nouns>
 		<verbs ie="true">
@@ -6270,6 +6287,12 @@
 				</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="89100000">correction<nouns>
+			<translations>
+				<translation gender="f">correcció</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="20900000">correctly<adverbs>
 			<translations>
@@ -7790,6 +7813,7 @@
 	<Entry frequency="177000000">current<adjectives>
 			<translations>
 				<translation>actual</translation>
+                                <translation>en execució<engexamp>Current projects</engexamp><catexamp>Projectes en execució</catexamp></translation>
 			</translations>
 		</adjectives>
 		<nouns>
