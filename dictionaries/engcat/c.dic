@@ -50,7 +50,7 @@
 	</Entry>
 	<Entry frequency="35300000">cabinet<nouns>
 			<translations>
-				<translation disambiguate="politics" local="gb" gender="m">consell de ministres</translation>
+				<translation disambiguate="politics" local="gb" gender="m">consell de ministres / gabinet</translation>
 				<translation gender="m">armari<synonyms>cupboard</synonyms>
 				</translation>
 			</translations>
@@ -1958,6 +1958,7 @@
 					<engnote>'Casualitat' and 'atzar' mean 'chance' in the sense 'coincidence'</engnote>
 					<synonyms>coincidence</synonyms>
 				</translation>
+                                <translation beforenoun="true">fortuït</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2306,6 +2307,7 @@
 	</Entry>
 	<Entry frequency="486000">cheerful<adjectives>
 			<translations>
+                        <translation>festiu</translation>
 				<translation>alegre</translation>
 			</translations>
 		</adjectives>
@@ -5157,6 +5159,7 @@
 	</Entry>
          <Entry frequency="6090000">congregation<nouns>
 			<translations>
+                                <translation gender="mpl">feligresos</translation>
 				<translation gender="f">congregació</translation>
 			</translations>
 		</nouns>
@@ -6092,11 +6095,23 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="686000">coot<nouns>
+			<translations>
+				<translation catagory="animal-bird" gender="f">fotja</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="3870000">cop<nouns>
 			<translations>
 				<translation register="slang" gender="mf">policia</translation>
 			</translations>
 		</nouns>
+                <exclamations>cop a load of this
+                <translations>
+                <translation>mira / escolta això!</translation></translations></exclamations>
+                <phrasalverbs>cop off (with somebody)
+                <translations>
+                <translation register="slang" local="gb">lligar</translation></translations></phrasalverbs>
 	</Entry>
         <Entry frequency="16900000">cope<verbs>
 			<translations>
@@ -6118,6 +6133,12 @@
                                 <translation sourceplural="coppers">
                                 <translation disambiguate="financial" local="gb" gender="m">canvi</translation>
                                 <translation gender="fpl">monedes (de poc valor)</translation></translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="59300">cop shop<nouns>
+			<translations>
+				<translation local="gb" register="slang" gender="f">comissaria</translation>
 			</translations>
 		</nouns>
 	</Entry>

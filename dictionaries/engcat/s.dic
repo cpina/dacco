@@ -1374,11 +1374,23 @@
 			</translations>
 		</adjectives>
 	</Entry>
-        <Entry frequency="840000">see you<expressions>
+        <Entry frequency="840000">see you<exclamations>
 			<translations>
-				<translation>fins ara / adéu</translation>
+				<translation>fins ara!</translation>
 			</translations>
-		</expressions>
+		</exclamations>
+	</Entry>
+                <Entry frequency="647000">see you later<exclamations>
+			<translations>
+				<translation>fins ara!</translation>
+			</translations>
+		</exclamations>
+	</Entry>
+                <Entry frequency="820000">see you soon<exclamations>
+			<translations>
+				<translation>fins ara! / fins aviat!</translation>
+			</translations>
+		</exclamations>
 	</Entry>
 	<Entry frequency="2480000">seismic<adjectives>
 			<translations>
@@ -1859,6 +1871,9 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>set out
+                <translations>
+                <translation>exposar</translation></translations></phrasalverbs>
 		<phrasalverbs>set up
 			<translations>
 				<translation>engegar<engnote>'Engegar' means 'to set up' in the sense 'to set up a business'</engnote>
@@ -3737,7 +3752,7 @@
 	</Entry>
 	<Entry frequency="485000">slacker<nouns>
 			<translations>
-				<translation register="slang" noteng="TRUE">algú a qui li fa mandra treballar o fer alguna feina i, per tant, no ho fa<example>James is such a &lt;b&gt;slacker&lt;/b&gt;, he still hasn't started his homework and it's due in tomorrow!'</example>
+				<translation register="slang" gender="mf">gandul<example>James is such a &lt;b&gt;slacker&lt;/b&gt;, he still hasn't started his homework and it's due in tomorrow!'</example>
 					<example>You haven't even started washing those dishes yet, get on with it, you &lt;b&gt;slacker&lt;/b&gt;!</example>
 				</translation>
 			</translations>
@@ -5857,6 +5872,7 @@
          <Entry frequency="1470000">spout<nouns>
 			<translations>
 				<translation gender="m">broc</translation>
+                                <translation gender="m">galet</translation>
 			</translations>
 		</nouns>
                 <expressions>up the spout
@@ -6637,7 +6653,7 @@
 			<past>stole</past>
 			<participle>stolen</participle>
 			<translations>
-				<translation>robar<catnote>En anglès, l'expressió 'It's a steal!' significa que una cosa és molt barat (literalment significa, és tan barat que és com si el vaig robar)</catnote>
+				<translation>robar / furtar<catnote>En anglès, l'expressió 'It's a steal!' significa que una cosa és molt barat (literalment significa, és tan barat que és com si el vaig robar)</catnote>
 				</translation>
 			</translations>
 		</verbs>
@@ -7331,6 +7347,7 @@
 	<Entry frequency="14500000">strengthen<verbs>
 			<translations>
 				<translation>enfortir</translation>
+                                <translation>fortificar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -8796,6 +8813,9 @@
 				</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation catagory="animal-bird" gender="m">falciot</translation></translations></nouns>
 	</Entry>
 	<Entry frequency="336000">swiftly<adverbs>
 			<translations>
