@@ -317,6 +317,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="3320000">lancet<nouns>
+			<translations>
+				<translation catagory="medical" gender="f">llanceta</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="48200000">land<nouns>
 			<translations>
 				<translation gender="m">territori</translation>
@@ -423,6 +429,18 @@
 	<Entry frequency="10500000">laptop<nouns>
 			<translations>
 				<translation termcat="true" gender="m">(ordinador) portàtil</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="734000">lard<nouns>
+			<translations>
+				<translation catagory="food" gender="m">llard</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="15100">lardass<nouns>
+			<translations>
+				<translation register="slang">persona grassa<plural>lardasses</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -633,8 +651,8 @@
 		</verbs>
 		<nouns>
 			<translations>
-				<translation gender="m">llançament<plural>launches</plural>
-				</translation>
+				<translation gender="m">llançament</translation>
+                                <translation disambiguate="transport" gender="f">llanxa<plural>launches</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1150,8 +1168,7 @@
 	</Entry>
 	<Entry frequency="31700000">length<nouns>
 			<translations>
-				<translation gender="f">longitud<engnote>'Longitud' means 'length' as in 'size'</engnote>
-				</translation>
+				<translation gender="f">longitud / llargada / llargària</translation>
 				<translation>
 					<translation gender="f">durada</translation>
 					<translation gender="f">duració</translation>
@@ -2236,6 +2253,9 @@
                 <phrasalverbs>long for
                 <translations>
                 <translation>anhelar</translation></translations></phrasalverbs>
+                <expressions>in the long run
+                <translations>
+                <translation>a la llarga</translation></translations></expressions>
 	</Entry>
 	<Entry frequency="6280000">long-distance<adjectives>
 			<translations>
