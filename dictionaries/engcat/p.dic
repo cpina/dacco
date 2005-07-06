@@ -314,7 +314,7 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation catagory="nationality" gender="mf">pakistanès</translation>
+				<translation catagory="nationality-asia" gender="mf">pakistanès</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -418,7 +418,7 @@
 	</Entry>
 	<Entry frequency="730000">pancreas<nouns>
 			<translations>
-				<translation catagory="body-internal" gender="m">pàncrees</translation>
+				<translation catagory="body" gender="m">pàncrees</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -444,7 +444,7 @@
 	</Entry>
          <Entry frequency="1160000">pantry<nouns>
 			<translations>
-				<translation catagory="household" register="outdated" gender="m">rebost<plural>pantries</plural><synonyms>larder</synonyms></translation>
+				<translation catagory="household" register="dated" gender="m">rebost<plural>pantries</plural><synonyms>larder</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -573,20 +573,20 @@
 	</Entry>
 	<Entry frequency="144000">paralysed<adjectives>
 			<translations>
-				<translation catagory="medical-illness" local="gb">paralitzat<otherlocal>paralyzed</otherlocal>
+				<translation catagory="medical" local="gb">paralitzat<otherlocal>paralyzed</otherlocal>
 				</translation>
 			</translations>
 		</adjectives>
 	</Entry>
 	<Entry frequency="481000">paralysis<nouns>
 			<translations>
-				<translation catagory="medical" gender="f">paràlisi</translation>
+				<translation catagory="medical-illness" gender="f">paràlisi</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="460000">paralyzed<adjectives>
 			<translations>
-				<translation catagory="medical-illness" local="us">paralitzat<otherlocal>paralysed</otherlocal>
+				<translation catagory="medical" local="us">paralitzat<otherlocal>paralysed</otherlocal>
 				</translation>
 			</translations>
 		</adjectives>
@@ -1079,7 +1079,7 @@
 	</Entry>
 	<Entry frequency="127000">patrol car<nouns>
 			<translations>
-				<translation catagory="transport-mode" gender="m">cotxe patrulla</translation>
+				<translation catagory="transport" gender="m">cotxe patrulla</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1327,7 +1327,7 @@
 	</Entry>
 	<Entry frequency="952000">pediatrician<nouns>
 			<translations>
-				<translation catagory="work-job, medical" local="us" gender="mf">pediatre<otherlocal>paediatrician</otherlocal>
+				<translation catagory="work-job, medical-job" local="us" gender="mf">pediatre<otherlocal>paediatrician</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
@@ -2279,20 +2279,20 @@
 	</Entry>
 	<Entry frequency="268000">physio<nouns>
 			<translations>
-				<translation catagory="work-job, medical" register="colloquial" local="gb" gender="mf">fisioterapeuta</translation>
-				<translation catagory="medical" register="colloquial" local="gb" gender="f">fisioteràpia</translation>
+				<translation catagory="work-job, medical-job" register="colloquial" local="gb" gender="mf">fisioterapeuta</translation>
+				<translation catagory="medical-treatment" register="colloquial" local="gb" gender="f">fisioteràpia</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="301000">physiotherapist<nouns>
 			<translations>
-				<translation catagory="work-job, medical" gender="mf">fisioterapeuta</translation>
+				<translation catagory="work-job, medical-job" gender="mf">fisioterapeuta</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="688000">physiotherapy<nouns>
 			<translations>
-				<translation catagory="medical-treatment, medical" gender="f">fisioteràpia</translation>
+				<translation catagory="medical-treatment" gender="f">fisioteràpia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2488,9 +2488,9 @@
 	</Entry>
 	<Entry frequency="7880000">pill<nouns>
 			<translations>
-				<translation catagory="medical-drug" gender="f">pastilla<engnote>'Pastilla' is the general word for 'pill'</engnote>
+				<translation catagory="medical-treatment" gender="f">pastilla<engnote>'Pastilla' is the general word for 'pill'</engnote>
 				</translation>
-				<translation catagory="medical-drug" gender="f">píndola<catnote>Quan els angloparlants parlem de la píndola anticonceptiva, diuem senzillament 'The Pill'.  Si algú pren la píndola es diu 'She is on the pill'.</catnote>
+				<translation catagory="medical" gender="f">píndola<catnote>Quan els angloparlants parlem de la píndola anticonceptiva, diuem senzillament 'The Pill'.  Si algú pren la píndola es diu 'She is on the pill'.</catnote>
 					<engnote>'Píndola' is the word you need to refer to The Pill (as in the form of birth control). The 'morning-after pill' is known as either 'la píndola de l'endemà' or 'la píndola del dia després'.</engnote>
 				</translation>
 			</translations>
@@ -2779,11 +2779,9 @@
 	<Entry frequency="208000000">place<nouns>
 			<translations>
 				<translation>
-					<translation gender="m">lloc</translation>
+					<translation gender="m">lloc<engexamp>To take place</engexamp><catexamp>Tenir lloc</catexamp></translation>
 					<translation gender="m">indret</translation>
-					<engexamp>To take place</engexamp>
-					<catexamp>Tenir lloc</catexamp>
-				</translation>
+                                        <translation gender="f">localitat</translation></translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -2938,10 +2936,9 @@
 	</Entry>
 	<Entry frequency="11800000">plate<nouns>
 			<translations>
-				<translation catagory="household-room-kitchen-crockery" gender="m">plat<catnote>L'expressió col·loquial 'to have a lot on your plate' vol dir que actualment algú té molts problemes o molta feina a fer (per ex: 'I'm sorry I can't help you just at the moment but I've got a lot on my plate right now') </catnote>
+				<translation catagory="household-room-kitchen" gender="m">plat<catnote>L'expressió col·loquial 'to have a lot on your plate' vol dir que actualment algú té molts problemes o molta feina a fer (per ex: 'I'm sorry I can't help you just at the moment but I've got a lot on my plate right now')</catnote></translation>
 				<translation gender="f">placa / planxa / xapa</translation>
 				<translation gender="f">matrícula<synonyms>numberplate, license plate</synonyms></translation>
-				</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2954,7 +2951,7 @@
 	</Entry>
 	<Entry frequency="7110000">platinum<nouns>
 			<translations>
-				<translation catagory="material, chemistry" gender="m">platí<engexamp>Platinum disc</engexamp>
+				<translation catagory="material" gender="m">platí<engexamp>Platinum disc</engexamp>
 					<catexamp>Disc de platí</catexamp>
 				</translation>
 			</translations>
@@ -3487,6 +3484,12 @@
 			<translations>
 				<translation register="colloquial" local="au" gender="mf">anglès<catnote>El sustantiu 'pom' que vol dir 'anglès' molt sovint va precedit de l'adjectiu 'whingeing' - és a dir 'que es queixa contínuament sense motiu' o 'bloody' - és a dir 'maleït' ;-)</catnote>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="847000">pomegranate<nouns>
+			<translations>
+				<translation catagory="food-fruit" gender="f">magrana</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4108,7 +4111,7 @@
 	</Entry>
 	<Entry frequency="547000">prawn<nouns>
 			<translations>
-				<translation catagory="food-seafood" gender="f">gamba</translation>
+				<translation catagory="food-sea" gender="f">gamba</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4515,8 +4518,8 @@
 	</Entry>
 	<Entry frequency="25000000">pretty<adjectives>
 			<translations>
-				<translation>bonic<catnote>Si utilitzes l'adjectiu 'pretty' per referir a una persona, cal tenir en compte que aquest adjectiu es dirigeix gairebé exclusivament a les dones. Si dius a un home 'you're very pretty' com a compliment és ben probable que et donarà un cop de puny ;-) Si vols fer un compliment a un home, el millor seria dir-li 'you're very good-looking / attractive'.</catnote>
-					<synonyms>beautiful, good-looking, attractive</synonyms>
+				<translation>bonic / maco<catnote>Si utilitzes l'adjectiu 'pretty' per referir a una persona, cal tenir en compte que aquest adjectiu s'utilitza gairebé exclusivament per referir a les dones. Si dius a un home 'you're very pretty' com a compliment és ben probable que et donarà un cop de puny ;-) Si vols fer un compliment a un home, el millor seria dir-li 'you're very good-looking / attractive'.</catnote>
+					<comparative>prettier</comparative><superlative>prettiest</superlative><synonyms>beautiful, good-looking, attractive</synonyms>
 				</translation>
 			</translations>
 		</adjectives>
@@ -5438,6 +5441,12 @@
 	<Entry frequency="180000">psychopath<nouns>
 			<translations>
 				<translation gender="mf">psicòpata</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="64200000">pub<nouns>
+			<translations>
+				<translation gender="m">pub / bar</translation>
 			</translations>
 		</nouns>
 	</Entry>

@@ -2114,6 +2114,22 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="468000000">local<adjectives>
+			<translations>
+				<translation>local</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="m">habitant</translation>
+                <translation local="gb" gender="m">pub (més proper del teu veïnat)</translation></translations></nouns>
+	</Entry>
+        <Entry frequency="29400000">locally<adverbs>
+			<translations>
+				<translation>localment</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 	<Entry frequency="20000000">location<nouns>
 			<translations>
 				<translation>
@@ -2206,6 +2222,21 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="26800000">logistic<adjectives>
+			<translations>
+				<translation>logístic</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation sourceplural="logistics" gender="f">logística</translation></translations></nouns>
+	</Entry>
+        <Entry frequency="4310000">logistical<adjectives>
+			<translations>
+				<translation>logístic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="710000">log off<verbs double="true">
 			<translations>
 				<translation catagory="computers" termcat="true">finalitzar una sessiór</translation>
@@ -2245,13 +2276,15 @@
 	<Entry frequency="52700000">London<nouns>
 			<translations>
 				<translation>Londres</translation>
+                                <translation beforenoun="true">londinenc</translation>
 			</translations>
 		</nouns>
-		<adjectives>
+	</Entry>
+        <Entry frequency="827000">Londoner<nouns>
 			<translations>
-				<translation>londinenc</translation>
+				<translation gender="mf">londinenc</translation>
 			</translations>
-		</adjectives>
+		</nouns>
 	</Entry>
 	<Entry frequency="15700">London weighting<nouns>
 			<translations>
@@ -2497,6 +2530,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="509000">Lorraine<nouns>
+			<translations>
+				<translation disambiguate="geography" gender="f">Lorena</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="522000">lorry<nouns>
 			<translations>
 				<translation local="gb" gender="m">camió<otherlocal>truck</otherlocal><plural>lorries</plural>
@@ -2611,6 +2650,7 @@
 	<Entry frequency="55200000">love<nouns>
 			<translations>
 				<translation gender="m">amor<engexamp>To fall in love</engexamp><catexamp>Enamorar-se</catexamp><engexamp>In love</engexamp><catexamp>Enamorat</catexamp></translation>
+                                <translation local="gb" gender="mf">estimat / maco<otherlocal>hon</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
