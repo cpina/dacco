@@ -3161,7 +3161,7 @@
 	</Entry>
 	<Entry frequency="3970000">silly<adjectives>
 			<translations>
-				<translation>absurd / estúpid</translation>
+				<translation>estúpid / neci</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3900,6 +3900,19 @@
 	<Entry frequency="5990000">slave<nouns>
 			<translations>
 				<translation gender="mf">esclau</translation>
+                                <translation beforenoun="true">negrer<engexamp>Slave ship</engexamp><catexamp>Vaixell negrer</catexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="76900">slave driver<nouns>
+			<translations>
+				<translation gender="mf">negrer</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="138000">slave trader<nouns>
+			<translations>
+				<translation gender="mf">negrer</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5855,6 +5868,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="5100">sponge bag<nouns>
+			<translations>
+				<translation local="gb" gender="m">necesser</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="60200000">sponsor<verbs>
 			<translations>
 				<translation>patrocinar</translation>
@@ -5869,6 +5888,12 @@
 	<Entry frequency="10200000">sponsorship<nouns>
 			<translations>
 				<translation gender="m">patrocini</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="793000">spontaneity<nouns>
+			<translations>
+				<translation gender="f">espontaneïtat / naturalitat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7718,7 +7743,7 @@
 	</Entry>
 	<Entry frequency="5450000">stupid<adjectives>
 			<translations>
-				<translation>estúpid / idiota / ximple</translation>
+				<translation>estúpid / idiota / ximple / neci</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -8540,7 +8565,8 @@
 	</Entry>
          <Entry frequency="4350000">surfer<nouns>
 			<translations>
-				<translation catagory="sports-event-surfing" gender="mf">surfista</translation>
+				<translation disambiguate="sports" catagory="sports-event-surfing" gender="mf">surfista</translation>
+                                <translation disambiguate="computers" gender="mf">navegant</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -8944,7 +8970,7 @@
 			<participle>swum</participle>
 			<gerund>swimming</gerund>
 			<translations>
-				<translation catagory="sports-event-swimming">nedar</translation>
+				<translation catagory="sports-event-swimming">nedar / nadar</translation>
 			</translations>
 		</verbs>
 	</Entry>
