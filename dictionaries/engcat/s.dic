@@ -2098,6 +2098,15 @@
 				</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                <translations>
+                <translation>ombrejar</translation></translations></verbs>
+	</Entry>
+        <Entry frequency="2550000">shading<nouns>
+			<translations>
+				<translation gender="m">ombreig</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="24500000">shadow<nouns>
 			<translations>
@@ -3474,7 +3483,7 @@
 	<Entry frequency="243000">six-pack<nouns>
 			<translations>
 				<translation catagory="food-drink" register="colloquial" noteng="TRUE">sis botelles o llaunes de cervesa</translation>
-				<translation register="colloquial" noteng="TRUE">si algú té un 'six pack' vol dir que ha fet molts exercicis per enfortir els músculs abdominals i que aquests són molt 'notables'!</translation>
+				<translation register="colloquial" noteng="TRUE" picture="http://photos1.flickr.com/186345_aa2a888341.jpg" flickr="http://www.flickr.com/photos/49503203448@N01/186345/">si algú té un 'six pack' vol dir que ha fet molts exercicis per enfortir els músculs abdominals i que aquests són molt 'notables'!</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4218,7 +4227,8 @@
 			<past>smelt, smelled</past>
 			<participle>smelt, smelled</participle>
 			<translations>
-				<translation>fer olor</translation>
+				<translation intransitive="true">fer olor</translation>
+                                <translation transitive="true">olorar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -8094,6 +8104,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="755000">suffocate<verbs>
+			<translations>
+				<translation transitive="true">ofegar / sufocar</translation>
+                                <translation intransitive="true">ofegar-se / asfixiar-se</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="179000">suffocating<adjectives>
 			<translations>
 				<translation>sufocant</translation>
@@ -8184,7 +8201,7 @@
 	</Entry>
         <Entry frequency="25300000">suitable<adjectives>
 			<translations>
-				<translation>adient / apropriat / apte / convenient</translation>
+				<translation>adient / apropriat / apte / convenient / oportú</translation>
 			</translations>
 		</adjectives>
 	</Entry>
