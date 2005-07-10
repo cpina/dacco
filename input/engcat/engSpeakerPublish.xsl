@@ -240,61 +240,61 @@
 				<xsl:if test="@register='dated'">
 					<span class="register"> (dated) </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Computers') or contains(@catagory,'computers') ">
+				<xsl:if test="contains(@disambiguate,'Computers') or contains(@disambiguate,'computers') ">
 					<span class="category">[IT] </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Language') or contains(@catagory,'language') ">
+				<xsl:if test="contains(@disambiguate,'Language') or contains(@disambiguate,'language') ">
 					<span class="category">[LANG] </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Body') or contains(@catagory,'body') ">
+				<xsl:if test="contains(@disambiguate,'Body') or contains(@disambiguate,'body') ">
 					<span class="category">[ANAT] </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Sports') or contains(@catagory,'sports') ">
+				<xsl:if test="contains(@disambiguate,'Sports') or contains(@disambiguate,'sports') ">
 					<span class="category">[SPORT] </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Animal') or contains(@catagory,'animal') ">
+				<xsl:if test="contains(@disambiguate,'Animal') or contains(@disambiguate,'animal') ">
 					<span class="category">[ZOOL] </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Transport') or contains(@catagory,'transport') ">
+				<xsl:if test="contains(@disambiguate,'Transport') or contains(@disambiguate,'transport') ">
 					<span class="category">[TRANSP] </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Medical') or contains(@catagory,'medical') ">
+				<xsl:if test="contains(@disambiguate,'Medical') or contains(@disambiguate,'medical') ">
 					<span class="category">[MED] </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Financial') or contains(@catagory,'financial') ">
+				<xsl:if test="contains(@disambiguate,'Financial') or contains(@disambiguate,'financial') ">
 					<span class="category">[FIN] </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Religious') or contains(@catagory,'religious') ">
+				<xsl:if test="contains(@disambiguate,'Religious') or contains(@disambiguate,'religious') ">
 					<span class="category">[RELIG] </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Food') or contains(@catagory,'food') ">
+				<xsl:if test="contains(@disambiguate,'Food') or contains(@disambiguate,'food') ">
 					<span class="category">[FOOD] </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Clothes') or contains(@catagory,'clothes') ">
+				<xsl:if test="contains(@disambiguate,'Clothes') or contains(@disambiguate,'clothes') ">
 					<span class="category">[CLOTHES] </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Work') or contains(@catagory,'work') ">
+				<xsl:if test="contains(@disambiguate,'Work') or contains(@disambiguate,'work') ">
 					<span class="category">[WORK] </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Country') or contains(@catagory,'country') or contains(@catagory,'city') or contains(@catagory,'City') or contains(@catagory,'river') ">
+				<xsl:if test="contains(@disambiguate,'Country') or contains(@disambiguate,'country') or contains(@disambiguate,'city') or contains(@disambiguate,'City') or contains(@disambiguate,'river') ">
 					<span class="category">[GEOG] </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Politics') or contains(@catagory,'politics') ">
+				<xsl:if test="contains(@disambiguate,'Politics') or contains(@disambiguate,'politics') ">
 					<span class="category">[POLIT] </span>
 				</xsl:if>
-				<xsl:if test="contains(@catagory,'Weather') or contains(@catagory,'weather') ">
+				<xsl:if test="contains(@disambiguate,'Weather') or contains(@disambiguate,'weather') ">
 					<span class="category">[WEATHER] </span>
 				</xsl:if>
-                                    <xsl:if test="contains(@catagory,'insect') or contains(@catagory,'insect') ">
+                                    <xsl:if test="contains(@disambiguate,'insect') or contains(@disambiguate,'insect') ">
 			<span class="category">[INSECT] </span>
 		</xsl:if>
-                    <xsl:if test="contains(@catagory,'material') or contains(@catagory,'material') ">
+                    <xsl:if test="contains(@disambiguate,'material') or contains(@disambiguate,'material') ">
 			<span class="category">[MATERIAL] </span>
 		</xsl:if>
-                    <xsl:if test="contains(@catagory,'agriculture') or contains(@catagory,'agriculture') ">
+                    <xsl:if test="contains(@disambiguate,'agriculture') or contains(@disambiguate,'agriculture') ">
 			<span class="category">[AGRICULT] </span>
 		</xsl:if>
-                 <xsl:if test="contains(@catagory,'music') or contains(@catagory,'music') ">
+                 <xsl:if test="contains(@disambiguate,'music') or contains(@disambiguate,'music') ">
 			<span class="category">[MUSIC] </span>
 		</xsl:if>
 				<xsl:for-each select="translation">
@@ -340,9 +340,9 @@
 				<span class="translation">
 					<xsl:value-of select="text()"/>
 				</span>
-				<xsl:if test="@catagory">
+				<xsl:if test="@disambiguate">
 					<!-- <i>
-					[<xsl:value-of select="@catagory"/>]
+					[<xsl:value-of select="@disambiguate"/>]
 				</i> -->
 				</xsl:if>
 				<xsl:if test="catacro">

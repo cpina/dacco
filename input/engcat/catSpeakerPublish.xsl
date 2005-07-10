@@ -97,6 +97,29 @@ if (enablepersist=="on" && getselectedItem()!="")
 revivecontent()
 }
 
+function flickr(photo,srcWord,flickrPage){
+        var width = 600;
+        var height = 500;
+	if(window.innerWidth){
+	LeftPosition =(window.innerWidth-width)/2;
+	TopPosition =((window.innerHeight-height)/4)-50;
+			}
+	else{
+	LeftPosition =(parseInt(window.screen.width)-	width)/2;
+	TopPosition=((parseInt(window.screen.height)-height)/2)-50;
+			}
+	attr = 'resizable=no,scrollbars=yes,width=' + width + ',height=' +
+	height + ',screenX=300,screenY=200,left=' + LeftPosition + ',top=' +
+	TopPosition + '';
+	popWin=open('', 'photo'+(Date()), attr);
+        popWin.document.open("text/html","replace");
+	popWin.document.write('<head><title>'+srcWord+'</title></head>');
+	popWin.document.write('<body><div align=center>');
+	popWin.document.write('<b>'+srcWord+'</b><br><br>');
+  	popWin.document.write('<img src="'+photo+'"></br>');
+	popWin.document.write('<a href='+flickrPage+'>Photo from Flickr!</a>');
+  	popWin.document.write('</div></body></html>');
+	}
 
 if (window.addEventListener)
 window.addEventListener("load", do_onload, false)
@@ -430,60 +453,67 @@ window.onunload=saveswitchstate
 		<xsl:if test="@register='dated'">
 			<span class="register"> (passat de moda) </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Computers') or contains(@catagory,'computers') ">
+		<xsl:if test="contains(@disambiguate,'Computers') or contains(@disambiguate,'computers') ">
 			<span class="category">[INFORM] </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Language') or contains(@catagory,'language') ">
+		<xsl:if test="contains(@disambiguate,'Language') or contains(@disambiguate,'language') ">
 			<span class="category">[LING] </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Body') or contains(@catagory,'body') ">
+		<xsl:if test="contains(@disambiguate,'Body') or contains(@disambiguate,'body') ">
 			<span class="category">[ANAT] </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Sports') or contains(@catagory,'sports') ">
+		<xsl:if test="contains(@disambiguate,'Sports') or contains(@disambiguate,'sports') ">
 			<span class="category">[ESPORT] </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Animal') or contains(@catagory,'animal') ">
+		<xsl:if test="contains(@disambiguate,'Animal') or contains(@disambiguate,'animal') ">
 			<span class="category">[ZOOL] </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Transport') or contains(@catagory,'transport') ">
+		<xsl:if test="contains(@disambiguate,'Transport') or contains(@disambiguate,'transport') ">
 			<span class="category">[TRANSP] </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Medical') or contains(@catagory,'medical') ">
+		<xsl:if test="contains(@disambiguate,'Medical') or contains(@disambiguate,'medical') ">
 			<span class="category">[MED] </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Financial') or contains(@catagory,'financial') ">
+		<xsl:if test="contains(@disambiguate,'Financial') or contains(@disambiguate,'financial') ">
 			<span class="category">[FIN] </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Religious') or contains(@catagory,'religious') ">
+		<xsl:if test="contains(@disambiguate,'Religious') or contains(@disambiguate,'religious') ">
 			<span class="category">[RELIG] </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Food') or contains(@catagory,'food') ">
+		<xsl:if test="contains(@disambiguate,'Food') or contains(@disambiguate,'food') ">
 			<span class="category">[ALIM] </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Clothes') or contains(@catagory,'clothes') ">
+		<xsl:if test="contains(@disambiguate,'Clothes') or contains(@disambiguate,'clothes') ">
 			<span class="category">[ROBA] </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Work') or contains(@catagory,'work') ">
+		<xsl:if test="contains(@disambiguate,'Work') or contains(@disambiguate,'work') ">
 			<span class="category">[TREB] </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Country') or contains(@catagory,'country') or contains(@catagory,'city') or contains(@catagory,'City') or contains(@catagory,'river') ">
+		<xsl:if test="contains(@disambiguate,'Country') or contains(@disambiguate,'country') or contains(@disambiguate,'city') or contains(@disambiguate,'City') or contains(@disambiguate,'river') ">
 			<span class="category">[GEOG] </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Politics') or contains(@catagory,'politics') ">
+		<xsl:if test="contains(@disambiguate,'Politics') or contains(@disambiguate,'politics') ">
 			<span class="category">[POLIT] </span>
 		</xsl:if>
-		<xsl:if test="contains(@catagory,'Weather') or contains(@catagory,'weather') ">
+		<xsl:if test="contains(@disambiguate,'Weather') or contains(@disambiguate,'weather') ">
 			<span class="category">[METEOR] </span>
 		</xsl:if>
-                <xsl:if test="contains(@catagory,'insect') or contains(@catagory,'insect') ">
+                <xsl:if test="contains(@disambiguate,'insect') or contains(@disambiguate,'insect') ">
 			<span class="category">[INSECTE] </span>
 		</xsl:if>
-                    <xsl:if test="contains(@catagory,'agriculture') or contains(@catagory,'agriculture') ">
+                    <xsl:if test="contains(@disambiguate,'agriculture') or contains(@disambiguate,'agriculture') ">
 			<span class="category">[AGRIC] </span>
 		</xsl:if>
-                 <xsl:if test="contains(@catagory,'music') or contains(@catagory,'music') ">
+                 <xsl:if test="contains(@disambiguate,'music') or contains(@disambiguate,'music') ">
 			<span class="category">[MÚSICA] </span>
 		</xsl:if>
+                <xsl:if test="@picture">
+                    <xsl:element name="a">
+                <xsl:attribute name="href">javascript:flickr("<xsl:value-of select="@picture"/>","<xsl:value-of select="../../../text()"/>","<xsl:value-of select="@flickr"/>");</xsl:attribute>
+                <img src="images/photo.gif" alt="[Photo]" width="23" height="20" border="0"/>
+                
+                </xsl:element>
+                </xsl:if>    
 		<xsl:for-each select="translation">
 			<xsl:call-template name="translation">
 				<xsl:with-param name="hideCount" select="'true'"/>
