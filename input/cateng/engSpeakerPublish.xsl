@@ -96,6 +96,31 @@ if (enablepersist=="on" && getselectedItem()!="")
 revivecontent()
 }
 
+function flickr(photo,srcWord,flickrPage){
+        var width = 600;
+        var height = 500;
+	if(window.innerWidth){
+	LeftPosition =(window.innerWidth-width)/2;
+	TopPosition =((window.innerHeight-height)/4)-50;
+			}
+	else{
+	LeftPosition =(parseInt(window.screen.width)-	width)/2;
+	TopPosition=((parseInt(window.screen.height)-height)/2)-50;
+			}
+	attr = 'resizable=no,scrollbars=yes,width=' + width + ',height=' +
+	height + ',screenX=300,screenY=200,left=' + LeftPosition + ',top=' +
+	TopPosition + '';
+	popWin=open('', 'photo'+(Date()), attr);
+        popWin.document.open("text/html","replace");
+	popWin.document.write('<head><title>'+srcWord+'</title></head>');
+	popWin.document.write('<body><div align=center>');
+	popWin.document.write('<b>'+srcWord+'</b><br><br>');
+  	popWin.document.write('<img src="'+photo+'"></br>');
+	popWin.document.write('<a href='+flickrPage+'>Photo from Flickr!</a>');
+  	popWin.document.write('</div></body></html>');
+	}
+
+
 
 if (window.addEventListener)
 window.addEventListener("load", do_onload, false)
@@ -353,6 +378,13 @@ window.onunload=saveswitchstate
 			<xsl:if test="contains(@catagory,'Weather') or contains(@catagory,'weather') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/WeatherList.htm">[MET]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
+                         <xsl:if test="@picture">
+                    <xsl:element name="a">
+                <xsl:attribute name="href">javascript:flickr("<xsl:value-of select="@picture"/>","<xsl:value-of select="../../../text()"/>","<xsl:value-of select="@flickr"/>");</xsl:attribute>
+                <img src="images/photo.gif" alt="[Photo]" width="23" height="20" border="0"/>
+                
+                </xsl:element>
+                </xsl:if>    
 			<span class=" translation"><xsl:value-of select="text()"/></span>
 			<xsl:if test="@catagory">
 				<!-- <i>
