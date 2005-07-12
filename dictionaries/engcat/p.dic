@@ -2708,6 +2708,9 @@
 				</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                <translations>
+                <translation gender="m">polsim</translation></translations></nouns>
 	</Entry>
 	<Entry frequency="8880000">pine<nouns>
 			<translations>
@@ -3334,6 +3337,21 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="3450000">plural<adjectives>
+			<translations>
+				<translation>plural</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="m">plural</translation></translations></nouns>
+	</Entry>
+        <Entry frequency="1610000">plurality<nouns>
+			<translations>
+				<translation gender="f">pluralitat</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="142000000">plus<conjunctions>
 			<translations>
 				<translation>més</translation>
@@ -3510,6 +3528,21 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="746000">polemic<nouns>
+			<translations>
+				<translation gender="f">polèmica</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>polèmic</translation></translations></adjectives>
+	</Entry>
+            <Entry frequency="387000">polemical<adjectives>
+			<translations>
+				<translation>polèmic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
         <Entry frequency="468000">pole position<nouns>
 			<translations>
                         <translation>
@@ -3622,6 +3655,18 @@
 				<translation>políticament correcte</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="24700000">political science<nouns>
+			<translations>
+				<translation gender="f">politologia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="992000">political scientist<nouns>
+			<translations>
+				<translation catagory="work-job" gender="mf">politòleg</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="7120000">politician<nouns>
 			<translations>
@@ -3855,6 +3900,7 @@
 	<Entry frequency="36700000">port<nouns>
 			<translations>
 				<translation catagory="transport" gender="m">port</translation>
+                                <translation beforenoun="true">portuari</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3873,6 +3919,12 @@
          <Entry frequency="71400000">portfolio<nouns>
 			<translations>
 				<translation gender="f">cartera</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="912000">portico<nouns>
+			<translations>
+				<translation gender="m">pòrtic<plural>porticoes, porticos</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4040,9 +4092,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1320000">postnatal<adjectives>
+			<translations>
+				<translation catagory="medical" local="gb">postpart<engexamp>Postnatal depression</engexamp><catexamp>Depressió postpart</catexamp><otherlocal>postpartum</otherlocal></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="397000">postpartum<adjectives>
 			<translations>
-				<translation catagory="medical">post-part</translation>
+				<translation catagory="medical" local="us">postpart<engexamp>Postpartum depression</engexamp><catexamp>Depressió postpart</catexamp><otherlocal>postnatal</otherlocal></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -4056,6 +4114,18 @@
 	<Entry frequency="388000">postponement<nouns>
 			<translations>
 				<translation gender="m">ajornament</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1540000">post-traumatic<adjectives>
+			<translations>
+				<translation>posttraumàtic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="960000">post-traumatic stress disorder<nouns>
+			<translations>
+				<translation catagory="medical" gender="f">síndrome d'estrès posttraumàtic</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4334,7 +4404,7 @@
 	</Entry>
 	<Entry frequency="8770000">prayer<nouns>
 			<translations>
-				<translation catagory="religious" gender="f">oració</translation>
+				<translation catagory="religious" gender="f">oració / pregària</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4354,6 +4424,24 @@
 	<Entry frequency="1760000">preamble<nouns>
 			<translations>
 				<translation gender="m">preàmbul</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="10">precarious<adjectives>
+			<translations>
+				<translation>precari</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="529000">precariously<adverbs>
+			<translations>
+				<translation>precàriament</translation>
+			</translations>
+		</adverbs>
+	</Entry>
+        <Entry frequency="92300">precariousness<nouns>
+			<translations>
+				<translation gender="f">precarietat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4448,6 +4536,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="18800">pre-electoral<adjectives>
+			<translations>
+				<translation catagory="politics">preelectoral</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="33000000">prefer<verbs double="true">
 			<translations>
 				<translation>preferir</translation>
@@ -4538,10 +4632,17 @@
 	<Entry frequency="642000">premonition<nouns>
 			<translations>
 				<translation>
-					<translation gender="f">premonició / pressentiment</translation>
+                                <translation gender="m">presagi / pressentiment</translation>
+					<translation gender="f">premonició</translation>
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="4290000">prenatal<adjectives>
+			<translations>
+				<translation catagory="medical" local="us">prenatal<otherlocal>antenatal</otherlocal></translation>
+			</translations>
+		</adjectives>
 	</Entry>
         <Entry frequency="225000">prenuptial<adjectives>
 			<translations>
@@ -4742,7 +4843,7 @@
 	</Entry>
 	<Entry frequency="43200000">prevent<verbs>
 			<translations>
-				<translation>impedir / prevenir</translation>
+				<translation>prevenir / impedir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4753,6 +4854,12 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="14200000">preventive<adjectives>
+			<translations>
+				<translation>preventiu</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="11200000">preview<nouns>
 			<translations>
@@ -4765,7 +4872,7 @@
 	</Entry>
 	<Entry frequency="105000000">previous<adjectives>
 			<translations>
-				<translation>anterior</translation>
+				<translation>previ / anterior</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -4821,6 +4928,12 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="162000000">primary<adjectives>
+			<translations>
+				<translation>primari</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="1980000">primary school<nouns>
 			<translations>
@@ -4917,7 +5030,7 @@
 	</Entry>
 	<Entry frequency="4750000">prisoner<nouns>
 			<translations>
-				<translation gender="mf">presoner<synonyms>inmate</synonyms>
+				<translation gender="mf">pres / presoner<synonyms>inmate</synonyms>
 				</translation>
 			</translations>
 		</nouns>
@@ -4971,6 +5084,12 @@
 				<translation gender="m">privilegi</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="8860000">privileged<adjectives>
+			<translations>
+				<translation>privilegiat</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="23800000">prize<nouns>
 			<translations>
@@ -5192,6 +5311,21 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1190000000">program<nouns>
+			<translations>
+				<translation gender="m">programa</translation>
+			</translations>
+		</nouns>
+                <verbs double="true">
+                <translations>
+                <translation>programar</translation></translations></verbs>
+	</Entry>
+        <Entry frequency="124000000">programme<nouns>
+			<translations>
+				<translation local="gb" gender="m">programa<otherlocal>program</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="12600000">programmer<nouns>
 			<translations>
 				<translation catagory="computers-programming, work-job" termcat="true" gender="mf">programador</translation>
@@ -5297,7 +5431,7 @@
 	</Entry>
 	<Entry frequency="45900000">promote<verbs>
 			<translations>
-				<translation>promoure / fomentar<engnote>'Promoure' and 'fomentar' mean 'to promote' in the sense 'to promote peace and harmony'</engnote>
+				<translation>promoure / fomentar / potenciar<engnote>'Promoure', 'fomentar' and 'potenciar' mean 'to promote' in the sense 'to promote peace and harmony'</engnote>
 				</translation>
 				<translation disambiguate="work">ascendir<engnote>'Ascendir' means 'to promote' in the sense 'to give somebody at work a promotion'</engnote>
 				</translation>
@@ -5310,6 +5444,18 @@
 					<translation gender="m">foment</translation>
 					<translation gender="f">promoció</translation>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="12600000">pronounce<verbs>
+			<translations>
+				<translation>pronunciar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="1970000">pronouncement<nouns>
+			<translations>
+				<translation gender="m">pronunciament</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5446,7 +5592,7 @@
 	</Entry>
 	<Entry frequency="34300000">proposal<nouns>
 			<translations>
-				<translation gender="f">proposta<synonyms>suggestion</synonyms>
+				<translation gender="f">proposta / proposició<synonyms>suggestion</synonyms>
 				</translation>
 				<translation gender="f">proposta de matrimoni</translation>
 			</translations>
@@ -5473,6 +5619,12 @@
 				<translation gender="f">prosa</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="7240000">prosecute<verbs>
+			<translations>
+				<translation catagory="legal">processar</translation>
+			</translations>
+		</verbs>
 	</Entry>
         <Entry frequency="495000">prosperous<adjectives>
 			<translations>
@@ -5664,6 +5816,13 @@
 	<Entry frequency="180000">psychopath<nouns>
 			<translations>
 				<translation gender="mf">psicòpata</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="795000">PTSD<engacro>Post-Traumatic Stress Disorder</engacro>
+        <nouns>
+			<translations>
+				<translation catagory="medical" gender="f">síndrome d'estrès posttraumàtic</translation>
 			</translations>
 		</nouns>
 	</Entry>
