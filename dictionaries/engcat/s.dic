@@ -854,8 +854,9 @@
 		</verbs>
 		<nouns>
 			<translations>
-				<translation catagory="sports" gender="m">resultat<catnote>Score pot significar o bé el resultat final d'un partit ('What was the score?') o bé el resultat actual ('What's the score? = Qui guanya ara mateix i per quants gols?)</catnote>
+				<translation disambiguate="sports" gender="m">resultat<catnote>Score pot significar o bé el resultat final d'un partit ('What was the score?') o bé el resultat actual ('What's the score? = Qui guanya ara mateix i per quants gols?)</catnote>
 				</translation>
+                                <translation disambiguate="entertainment-music" gender="f">partitura</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1367,6 +1368,12 @@
 	<Entry frequency="7870000">seed<nouns>
 			<translations>
 				<translation catagory="food" gender="f">llavor</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="2480000">seedling<nouns>
+			<translations>
+				<translation gender="m">plançó</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7633,6 +7640,7 @@
 <Entry frequency="3650000">stroll<nouns>
 			<translations>
 				<translation gender="f">passejada (tranquil·la)</translation>
+                                <translation gender="m">passeig</translation>
 			</translations>
 		</nouns>
 <verbs>
@@ -8102,7 +8110,7 @@
 	</Entry>
 	<Entry frequency="9660000">suffering<nouns>
 			<translations>
-				<translation gender="m">sofriment</translation>
+				<translation gender="m">sofriment / patiment</translation>
 			</translations>
 		</nouns>
 	</Entry>
