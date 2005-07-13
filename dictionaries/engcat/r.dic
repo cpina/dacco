@@ -132,6 +132,7 @@
 	<Entry frequency="71400000">radio<nouns>
 			<translations>
 				<translation gender="f">ràdio</translation>
+                                <translation beforenoun="true">radiofònic<engexamp>Radio program</engexamp><catexamp>Programa radiofònic</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -144,6 +145,12 @@
 	<Entry frequency="758000">radioactivity<nouns>
 			<translations>
 				<translation gender="f">radioactivitat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1060000">radiography<nouns>
+			<translations>
+				<translation catagory="medical" gender="f">radiografia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -603,6 +610,12 @@
 			</translations>
 		</adverbs>
 	</Entry>
+        <Entry frequency="4330000">ratification<nouns>
+			<translations>
+				<translation gender="f">ratificació</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="460000">ratify<verbs ie="true">
 			<translations>
 				<translation>ratificar</translation>
@@ -726,6 +739,15 @@
 				<translation gender="f">reacció</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="1520000">reactionary<adjectives>
+			<translations>
+				<translation>reaccionari</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="mf">reaccionari<plural>reactionaries</plural></translation></translations></nouns>
 	</Entry>
 	<Entry frequency="204000000">read<verbs>
 			<past>read</past>
@@ -2362,7 +2384,7 @@
 		<nouns>
 			<translations>
 				<translation catagory="work-field">
-					<translation gender="f">investigació</translation>
+					<translation gender="ffullform">investigació</translation>
 					<translation gender="f">recerca</translation>
 				</translation>
 			</translations>
