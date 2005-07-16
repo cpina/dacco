@@ -47,7 +47,7 @@
      
     <target name="site" depends="publish">
       <copy todir="/home/groups/d/da/dacco/htdocs/shared/images">
-        <fileset dir="output/shared/images"/>
+        <fileset dir="input/shared/images"/>
       </copy>
       <copy todir="/home/groups/d/da/dacco/htdocs/engcat4eng">
         <fileset dir="output/engcat/engSpeakers/full"/>

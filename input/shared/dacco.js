@@ -15,7 +15,7 @@ document.write('</style>')
 function getElementbyClass(classname){
 ccollect=new Array()
 var inc=0
-var alltags=document.all? document.all : document.getElementsByTagName("*")
+var alltags = document.getElementsByTagName("span")
 for (i=0; i<alltags.length; i++){
 if (alltags[i].className==classname)
 ccollect[inc++]=alltags[i]
@@ -77,8 +77,8 @@ document.cookie=window.location.pathname+"="+selectedItem
 
 function do_onload(){
 getElementbyClass("switchcontent")
-if (enablepersist=="on" && getselectedItem()!="")
-revivecontent()
+//if (enablepersist=="on" && getselectedItem()!="")
+//revivecontent()
 }
 
 function flickr(photo,srcWord,flickrPage){
@@ -95,7 +95,8 @@ function flickr(photo,srcWord,flickrPage){
 	attr = 'resizable=no,scrollbars=yes,width=' + width + ',height=' +
 	height + ',screenX=300,screenY=200,left=' + LeftPosition + ',top=' +
 	TopPosition + '';
-	popWin=open('', 'photo'+(Date()), attr);
+	Date d = new Date();
+	popWin=open('', 'photo'+(d.getTime()), attr);
         popWin.document.open("text/html","replace");
 	popWin.document.write('<head><title>'+srcWord+'</title></head>');
 	popWin.document.write('<body><div align=center>');
