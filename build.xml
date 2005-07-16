@@ -46,6 +46,9 @@
      </target>
      
     <target name="site" depends="publish">
+      <copy todir="/home/groups/d/da/dacco/htdocs/shared/images">
+        <fileset dir="output/shared/images"/>
+      </copy>
       <copy todir="/home/groups/d/da/dacco/htdocs/engcat4eng">
         <fileset dir="output/engcat/engSpeakers/full"/>
       </copy>
@@ -98,6 +101,7 @@
     </target>
     <target name="publish" >
        
+        
     
         <pubcatengdic speaker="eng" minFreq="0" name="full"/>
         <pubcatengdic speaker="eng" minFreq="100000" name="intermed"/>
@@ -123,6 +127,9 @@
         <attribute name="minFreq"/>
         <attribute name="name"/>
         <sequential>
+          <copy todir="output/engcat/@{speaker}Speakers/@{name}">
+          <fileset dir="input/shared"/>
+        </copy>
             <copy todir="output/engcat/@{speaker}Speakers/@{name}">
                <fileset dir="input/engcat/template"/>
             </copy>
@@ -143,6 +150,9 @@
         <attribute name="minFreq"/>
         <attribute name="name"/>
         <sequential>
+        <copy todir="output/cateng/@{speaker}Speakers/@{name}">
+          <fileset dir="input/shared"/>
+        </copy>
              <copy todir="output/cateng/@{speaker}Speakers/@{name}">
                <fileset dir="input/cateng/template"/>
             </copy>
