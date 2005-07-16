@@ -95,7 +95,7 @@ function flickr(photo,srcWord,flickrPage){
 	attr = 'resizable=no,scrollbars=yes,width=' + width + ',height=' +
 	height + ',screenX=300,screenY=200,left=' + LeftPosition + ',top=' +
 	TopPosition + '';
-	Date d = new Date();
+	var d = new Date();
 	popWin=open('', 'photo'+(d.getTime()), attr);
         popWin.document.open("text/html","replace");
 	popWin.document.write('<head><title>'+srcWord+'</title></head>');
