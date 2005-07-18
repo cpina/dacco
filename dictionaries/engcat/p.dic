@@ -1222,7 +1222,7 @@
 		</phrasalverbs>
 		<nouns>
 			<translations>
-				<translation gender="m">salari<synonyms>salary, wages</synonyms>
+				<translation gender="m">salari / sou<synonyms>salary, wages</synonyms>
 				</translation>
 			</translations>
 		</nouns>
@@ -2482,7 +2482,7 @@
 				<translation>recollir<engexamp>To pick the kids up from school</engexamp>
 					<catexamp>Recollir als nens a l'escola</catexamp>
 				</translation>
-				<translation>millorar<example>I know the shop hasn't been very busy recently, but I'm sure things will &lt;b&gt;pick up&lt;/b&gt; soon.</example>
+				<translation>revifar / millorar<example>I know the shop hasn't been very busy recently, but I'm sure things will &lt;b&gt;pick up&lt;/b&gt; soon.</example>
 				</translation>
                                 <translation>captar<example>I can &lt;b&gt;pick up&lt;/b&gt; Voice of America really clearly with my short-wave radio.</example></translation>
 			</translations>
@@ -2576,6 +2576,7 @@
 			<translations>
 				<translation catagory="animal-animal" gender="m">porc<catnote>L'expressió idiomàtica 'pigs might fly' es diu quan una cosa és molt poc probable (per ex: 'Tony Blair might decide not to support George Bush next time he decides to go to war. Yes and &lt;b&gt;pigs might fly&lt;/b&gt;!').</catnote>
 				</translation>
+                                <translation sourceplural="pigs" local="gb" register="offensive" gender="f">policia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3217,7 +3218,7 @@
 	</Entry>
 	<Entry frequency="21400000">please<expressions>
 			<translations>
-				<translation>si us plau</translation>
+				<translation>si us plau / si et plau</translation>
 			</translations>
 		</expressions>
 		<verbs>
@@ -3310,8 +3311,9 @@
 	</Entry>
 	<Entry frequency="17400000">plug<nouns>
 			<translations>
-				<translation catagory="household" gender="m">endoll<engnote>'Endoll' can refer both to the plug and to the plug socket (example: Apagar el servidor (treure-li l'endoll del darrera de la màquina) - Switch off the server (pull the plug out of the back of the machine); No connecteu a un mateix endoll més d'un aparell - Don't plug more than one machine into the one  socket</engnote>
+				<translation gender="m">endoll<engnote>'Endoll' can refer both to the plug and to the plug socket (example: Apagar el servidor (treure-li l'endoll del darrera de la màquina) - Switch off the server (pull the plug out of the back of the machine); No connecteu a un mateix endoll més d'un aparell - Don't plug more than one machine into the one  socket</engnote>
 				</translation>
+                                <translation gender="m">tap<engnote>'Tap' means 'plug' in the sense 'stopper'</engnote></translation>
 			</translations>
 		</nouns>
 		<verbs double="true">
@@ -3407,6 +3409,12 @@
 				<translation>de butxaca</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+                <Entry frequency="823000">pocket money<nouns>
+			<translations>
+				<translation local="gb" gender="f">setmanada<otherlocal>allowance</otherlocal></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="874000">podium<nouns>
 			<translations>
@@ -3735,6 +3743,19 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="13500000">pond<nouns>
+			<translations>
+				<translation gender="m">estany</translation>
+                                <translation sourceplural="The Pond" register="slang" gender="m">Oceà Atlàntic</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="5770000">ponder<verbs>
+			<translations>
+				<translation>rumiar</translation>
+			</translations>
+		</verbs>
+	</Entry>
         <Entry frequency="1990000">pontiff<nouns>
 			<translations>
 				<translation catagory="religious" gender="m">Pontífex</translation>
@@ -4044,7 +4065,10 @@
 	</Entry>
 	<Entry frequency="9950000">postcard<nouns>
 			<translations>
+                        <translation>
 				<translation gender="m">postal</translation>
+                                <translation gender="f">targeta postal</translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5132,6 +5156,9 @@
 				</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                <translations>
+                <translation gender="f">sonda</translation></translations></nouns>
 	</Entry>
 	<Entry frequency="138000000">problem<nouns>
 			<translations>
@@ -5302,6 +5329,7 @@
 	<Entry frequency="71100000">profile<nouns>
 			<translations>
 				<translation gender="m">perfil</translation>
+                                <translation gender="f">silueta</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5723,7 +5751,7 @@
 	</Entry>
 	<Entry frequency="320000000">provide<verbs>
 			<translations>
-				<translation>proporcionar / facilitar</translation>
+				<translation>proporcionar / facilitar / subministrar</translation>
 			</translations>
 		</verbs>
 	</Entry>

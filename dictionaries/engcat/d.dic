@@ -898,7 +898,7 @@
 	</Entry>
           <Entry frequency="7390000">defective<adjectives>
 			<translations>
-				<translation>defectiu</translation>
+				<translation>defectiu / tarat</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2345,6 +2345,7 @@
 			<translations>
 				<translation>submergir / enfonsar</translation>
 				<translation>banyar</translation>
+                                <translation>sucar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -2407,6 +2408,16 @@
 			</translations>
 		</adjectives>
 	</Entry>
+                <Entry frequency="220000000">direction<nouns>
+			<translations>
+                        <translation>
+				<translation gender="f">direcció</translation>
+                                <translation gender="m">rumb</translation>
+                                </translation>
+                                <translation gender="f">instrucció</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="68000000">directly<adverbs>
 			<translations>
 				<translation>directament</translation>
@@ -2422,7 +2433,7 @@
 	</Entry>
 	<Entry frequency="16800000">dirt<nouns>
 			<translations>
-				<translation gender="f">brutícia</translation>
+				<translation gender="f">brutícia / ronya</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3644,7 +3655,7 @@
 	</Entry>
 	<Entry frequency="340000">downpour<nouns>
 			<translations>
-				<translation gender="m">aiguat</translation>
+				<translation gender="m">aiguat / ruixat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3847,6 +3858,9 @@
                 <phrasalverbs>draw up (plans)
                 <translations>
                 <translation>redactar</translation></translations></phrasalverbs>
+                <nouns>
+                <translations>
+                <translation gender="m">sorteig<engnote>'Sorteig' means 'draw' as in 'lottery draw'</engnote></translation></translations></nouns>
 	</Entry>
 	<Entry frequency="2380000">drawer<nouns>
 			<translations>
@@ -4368,9 +4382,16 @@
 			<translations>
 				<translation>mut<engnote>&apos;Mut&apos; means &apos;dumb&apos; as in &apos;unable to speak&apos;</engnote>
 				</translation>
-				<translation local="us" register="colloquial">estúpid</translation>
+				<translation local="us" register="colloquial">estúpid / ruc</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+                <Entry frequency="649000">dumbass<nouns>
+			<translations>
+				<translation register="slang" local="us" gender="mf">idiota<plural>dumbasses</plural></translation>
+                                <translation beforenoun="true" register="slang" local="us">estúpid<example>What kind of a &lt;b&gt;dumbass&lt;/b&gt; question is that?</example></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="4500000">dummy<nouns>
 			<translations>

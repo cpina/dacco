@@ -339,6 +339,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="5320000">sandal<nouns>
+			<translations>
+				<translation catagory="clothes" gender="f">sandàlia</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="4750000">sandwich<nouns>
 			<translations>
 				<translation catagory="food" gender="m">entrepà<plural>sandwiches</plural>
@@ -398,7 +404,7 @@
 	</Entry>
         <Entry frequency="694000">sardine<nouns>
 			<translations>
-				<translation catagory="food=fish" gender="f">arengada</translation>
+				<translation catagory="food=fish" gender="f">arengada / sardina</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -557,10 +563,9 @@
 	</Entry>
 	<Entry frequency="82800000">save<verbs>
 			<translations>
-				<translation catagory="computers" termcat="true">guardar<engexamp>To save a file</engexamp>
+				<translation catagory="computers" termcat="true">guardar / desar<engexamp>To save a file</engexamp>
 					<catexamp>Guardar un fitxer</catexamp>
 				</translation>
-				<translation catagory="computers" termcat="true">desar</translation>
 				<translation>estalviar<engexamp>To save water</engexamp>
 					<catexamp>Estalviar aigua</catexamp>
 					<engexamp>To save energy</engexamp>
@@ -593,6 +598,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="4810000">sax<nouns>
+			<translations>
+				<translation register="colloquial" catagory="entertainment-music-instrument" gender="m">saxofon<plural>saxes</plural><synonyms>saxophone</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="2440000">saxophone<nouns>
+			<translations>
+				<translation catagory="entertainment-music-instrument" gender="m">saxofon<synonyms>sax</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="20600000">say<verbs>
 			<past>said</past>
 			<participle>said</participle>
@@ -604,6 +621,13 @@
         <Entry frequency="666000">scab<nouns>
 			<translations>
 				<translation gender="f">crosta</translation>
+                                <translation gender="f">sarna / ronya<engnote>'Sarna' and 'ronya' mean 'scab' as in the disease that affects trees</engnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="455000">scabies<nouns>
+			<translations>
+				<translation gender="f">ronya / sarna</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1315,6 +1339,12 @@
 			</translations>
 		</adverbs>
 	</Entry>
+                <Entry frequency="1780000">secret service<nouns>
+			<translations>
+				<translation gender="mpl">serveis secrets</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1840000">sect<nouns>
 			<translations>
 				<translation catagory="religious" gender="f">secta</translation>
@@ -1362,6 +1392,12 @@
 				<translation>seduir</translation>
 			</translations>
 		</verbs>
+	</Entry>
+                <Entry frequency="2030000">seductive<adjectives>
+			<translations>
+				<translation>seductor</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="317000000">see<verbs>
 			<past>saw</past>
@@ -1590,6 +1626,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="29600000">semi<nouns>
+			<translations>
+				<translation register="colloquial" catagory="sports" gender="f">semifinal</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="275000">semiautomatic<nouns>
 			<translations>
 				<translation gender="f">pistola semiautomàtica</translation>
@@ -1599,6 +1641,12 @@
 	<Entry frequency="529000">semicolon<nouns>
 			<translations>
 				<translation catagory="linguistics" gender="m">punt i coma</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="724000">semi final<nouns>
+			<translations>
+				<translation catagory="sports" gender="f">semifinal</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1666,6 +1714,18 @@
 	<Entry frequency="2900000">sensation<nouns>
 			<translations>
 				<translation gender="f">sensació</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="2750000">sensational<adjectives>
+			<translations>
+				<translation>sensacional</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+                <Entry frequency="329000">sensationalism<nouns>
+			<translations>
+				<translation gender="m">sensacionalisme</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2185,6 +2245,7 @@
 	<Entry frequency="60800000">shape<nouns>
 			<translations>
 				<translation gender="f">forma</translation>
+                                <translation gender="f">silueta</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -2424,7 +2485,9 @@
 		<nouns>
 			<translations>
 				<translation gender="m">canvi</translation>
+                                <translation>
 				<translation catagory="work" gender="m">torn</translation>
+                                <translation gender="f">tanda</translation></translation>
 				<translation catagory="computers" termcat="true" gender="f">tecla de majúscules</translation>
 			</translations>
 		</nouns>
@@ -2644,7 +2707,7 @@
 	</Entry>
         <Entry frequency="8990000">shore<nouns>
 			<translations>
-				<translation gender="f">costa<engnote>'Costa' means 'shore' in the sense - land at the edge of the sea (coast).</engnote></translation>
+				<translation gender="f">costa / riba<engnote>'Costa' and 'riba' mean 'shore' in the sense - land at the edge of the sea (coast).</engnote></translation>
                                 <translation gender="f">vora<engexamp>On the shores of the River Llobregat</engexamp><catexamp>A la vora del Riu Llobregat</catexamp><engnote>'Vora' means 'shore' in the sense - land at the edge of a river or lake.</engnote></translation>
                                 <translation gender="f">ribera<engnote>'Ribera' means 'shore' in the sense - land at the edge of the sea or a river.</engnote></translation>
 			</translations>
@@ -3193,6 +3256,12 @@
 				<translation>silenciosament</translation>
 			</translations>
 		</adverbs>
+	</Entry>
+                <Entry frequency="3320000">silhouette<nouns>
+			<translations>
+				<translation gender="f">silueta</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="4990000">silicon<nouns>
 			<translations>
@@ -4403,9 +4472,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="3020000">snatch<verbs>
+			<translations>
+				<translation>sostreure</translation>
+			</translations>
+		</verbs>
+	</Entry>
         <Entry frequency="763000">sneaker<nouns>
 			<translations>
-				<translation catagory="clothes-shoes" local="us" gender="f">bamba<otherlocal>trainer</otherlocal></translation>
+				<translation catagory="clothes-shoes" local="us" gender="f">bamba / sabatilla<otherlocal>trainer</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4548,6 +4623,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="662000000">so<adverbs>
+			<translations>
+				<translation>tan</translation>
+                                <translation>així que</translation>
+			</translations>
+		</adverbs>
+	</Entry>
         <Entry frequency="3500000">soak<verbs>
 			<translations>
 				<translation transitive="true">mullar / xopar</translation>
@@ -4624,6 +4706,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="664000">Social Democrat<nouns>
+			<translations>
+				<translation catagory="politics" gender="mf">socialdemòcrata</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="625000">social-democratic<adjectives>
+			<translations>
+				<translation catagory="politics">social-democratic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="1680000">socialist<nouns>
 			<translations>
 				<translation gender="mf">socialista</translation>
@@ -4650,6 +4744,12 @@
         <Entry frequency="6610000">social security<nouns>
 			<translations>
 				<translation gender="f">seguretat social</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="13200000">social services<nouns>
+			<translations>
+				<translation gender="mpl">serveis socials</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6840,7 +6940,7 @@
 			<past>stole</past>
 			<participle>stolen</participle>
 			<translations>
-				<translation>robar / furtar<catnote>En anglès, l'expressió 'It's a steal!' significa que una cosa és molt barat (literalment significa, és tan barat que és com si el vaig robar)</catnote>
+				<translation>robar / furtar / sostreure<catnote>En anglès, l'expressió 'It's a steal!' significa que una cosa és molt barat (literalment significa, és tan barat que és com si el vaig robar)</catnote>
 				</translation>
 			</translations>
 		</verbs>
@@ -7288,6 +7388,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="2590000">stopper<nouns>
+			<translations>
+				<translation gender="m">tap</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="406000">stopwatch<nouns>
 			<translations>
 				<translation catagory="sports" gender="m">cronòmetre<plural>stopwatches</plural>
@@ -7509,6 +7615,7 @@
 	<Entry frequency="13200000">stream<nouns>
 			<translations>
 				<translation gender="m">petit riu</translation>
+                                <translation gender="f">riera<engnote>'Riera' means 'stream' in the sense 'torrent'</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7580,12 +7687,14 @@
         <Entry frequency="22800000">strict<adjectives>
 			<translations>
 				<translation>estricte</translation>
+                                <translation>rigorós</translation>
 			</translations>
 		</adjectives>
 	</Entry>
         <Entry frequency="38200000">strictly<adverbs>
 			<translations>
 				<translation>estrictament</translation>
+                                <translation>rigorosament</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -7898,6 +8007,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="3830000">sublime<adjectives>
+			<translations>
+				<translation>sublim</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="2250000">submarine<nouns>
 			<translations>
 				<translation catagory="transport-mode" gender="m">submarí</translation>
@@ -8037,6 +8152,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="5430000">subtract<verbs>
+			<translations>
+				<translation catagory="maths" transitive="true">restar / sostreure<synonyms>take away</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
+                <Entry frequency="13500000">suburban<adjectives>
+			<translations>
+				<translation>suburbà</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="2290000">suburbs<nouns>
 			<translations>
 				<translation gender="fpl">afores<engexamp>In the suburbs of New York</engexamp>
@@ -8146,7 +8273,7 @@
 	</Entry>
 	<Entry frequency="13200000">suddenly<adverbs>
 			<translations>
-				<translation>de cop (i volta)</translation>
+				<translation>de cop (i volta) / de sobte</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -8576,6 +8703,7 @@
 			<translations>
 				<translation>recolzar</translation>
 				<translation>suportar</translation>
+                                <translation>sostenir</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -8867,6 +8995,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+                <Entry frequency="38200000">sustain<verbs>
+			<translations>
+				<translation>sostenir</translation>
+			</translations>
+            </verbs>
+	</Entry>
 	<Entry frequency="16500000">sustainable<adjectives>
 			<translations>
 				<translation>sostenible<engexamp>Sustainable development</engexamp>
@@ -8886,7 +9020,7 @@
 	</Entry>
 	<Entry frequency="495000">Swahili<nouns>
 			<translations>
-				<translation catagory="language" gender="m">Suahili</translation>
+				<translation catagory="language" gender="m">suahili</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -9268,6 +9402,24 @@
 			</translations>
 		</adverbs>
 	</Entry>
+                <Entry frequency="5980000">symmetric<adjectives>
+			<translations>
+				<translation catagory="maths">simètric</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+                <Entry frequency="2260000">symmetrical<adjectives>
+			<translations>
+				<translation catagory="maths">simètric</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+                <Entry frequency="7110000">symmetry<nouns>
+			<translations>
+				<translation catagory="maths" gender="f">simetria</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="9030000">sympathy<nouns>
 			<translations>
 				<translation gender="f">compassió</translation>
@@ -9332,6 +9484,12 @@
 				<translation catagory="linguistics, computers-programming" gender="m">sintaxi</translation>
 			</translations>
 		</nouns>
+	</Entry>
+                <Entry frequency="14200000">synthetic<adjectives>
+			<translations>
+				<translation>sintètic</translation>
+			</translations>
+		</adjectives>
 	</Entry>
         <Entry frequency="1280000">syphilis<nouns>
 			<translations>

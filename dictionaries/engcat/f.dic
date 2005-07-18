@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Robert Hibbert (Penn State Univ) -->
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Documents and Settings\James\My Documents\dacco projects\dacco\dictionary\dic.xsd">
 	<Entry frequency="129000">FA<engacro>Fanny Adams / fuck all</engacro>
@@ -274,9 +274,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="135000">fairy story<nouns>
+			<translations>
+				<translation gender="m">conte de fades</translation>
+                                <translation gender="f">rondalla<plural>fairy stories</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1720000">fairy tale<nouns>
 			<translations>
 				<translation gender="m">conte de fades</translation>
+                                <translation gender="f">rondalla</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -343,6 +351,7 @@
 				<translation local="us" gender="f">tardor<otherlocal>autumn</otherlocal>
 					<engnote>'Tardor' means 'fall' as in the season (American = fall; British = autumn)</engnote>
 				</translation>
+                                <translation local="us" beforenoun="true">tardorenc</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -980,6 +989,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="4030000">fell<verbs>
+			<translations>
+				<translation>talar<synonyms>chop down</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
         <Entry frequency="188000">felt-tip<nouns>
 			<translations>
 				<translation gender="m">retolador<catnote>També es diu 'felt-tip pen'.</catnote></translation>
@@ -1366,6 +1381,13 @@
 				<translation>rodar (una pel·lícula)</translation>
 			</translations>
 		</verbs>
+	</Entry>
+                <Entry frequency="1840000">filth<nouns>
+			<translations>
+				<translation gender="f">ronya<synonyms>dirt</synonyms></translation>
+                                <translation register="offensive" local="gb" gender="f">policia</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="737000">filthy<adjectives>
 			<translations>
@@ -1944,14 +1966,14 @@
 	</Entry>
 	<Entry frequency="10200000">flavor<nouns>
 			<translations>
-				<translation local="us" gender="m">gust<otherlocal>flavour</otherlocal>
+				<translation local="us" gender="m">sabor / gust<otherlocal>flavour</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="10200000">flavour<nouns>
 			<translations>
-				<translation local="gb" gender="m">gust<otherlocal>flavor</otherlocal>
+				<translation local="gb" gender="m">sabor / gust<otherlocal>flavor</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
@@ -3776,6 +3798,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="">FTP server<nouns>
+			<translations>
+				<translation catagory="computers" termcat="true" gender="m">servidor FTP</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="9350000">fuck<verbs>
 			<translations>
 				<translation register="vulgar">fotre / follar</translation>
@@ -3891,6 +3919,9 @@
                 <expressions>make fun of
                 <translations>
                 <translation>mofar-se de</translation></translations></expressions>
+                <expressions>poke fun at
+                <translations>
+                <translation>ridiculitzar</translation></translations></expressions>
 	</Entry>
 	<Entry frequency="17900000">function<nouns>
 			<translations>

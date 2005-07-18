@@ -701,6 +701,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="756000">raze<verbs>
+			<translations>
+				<translation>talar</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="2380000">razor<nouns>
 			<translations>
 				<translation catagory="household-room-bathroom">
@@ -1300,7 +1306,8 @@
 	</Entry>
         <Entry frequency="11300000">recover<verbs>
 			<translations>
-				<translation>recuperar</translation>
+				<translation transitive="true">recuperar</translation>
+                                <translation intransitive="true">restablir-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1499,6 +1506,12 @@
                 	<Entry frequency="202000">reemerge<verbs>
 			<translations>
 				<translation>ressorgir</translation>
+			</translations>
+		</verbs>
+	</Entry>
+                	<Entry frequency="1250000">reestablish<verbs>
+			<translations>
+				<translation transitive="true">restablir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1701,6 +1714,12 @@
 				<translation>pel que fa a</translation>
 			</translations>
 		</expressions>
+	</Entry>
+                <Entry frequency="10300000">rigid<adjectives>
+			<translations>
+				<translation>rígid</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="9660000">regime<nouns>
 			<translations>
@@ -2071,6 +2090,7 @@
 	<Entry frequency="13900000">remain<verbs>
 			<translations>
 				<translation>quedar</translation>
+                                <translation>restar / romandre</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2896,7 +2916,7 @@
 	</Entry>
 	<Entry frequency="9440000">resume<verbs>
 			<translations>
-				<translation>reprendre</translation>
+				<translation>reprendre / restablir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2943,6 +2963,12 @@
 			<translations>
 				<translation gender="f">jubilació</translation>
                                 <translation catagory="sports" gender="m">abandó</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="885000">retraction<nouns>
+			<translations>
+				<translation gender="f">retracció</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3031,6 +3057,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="8480000">revival<nouns>
+			<translations>
+				<translation gender="f">revifalla</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="8130000">revive<verbs>
+			<translations>
+				<translation transitive="true">revifar</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="2560000">revoke<verbs>
 			<translations>
 				<translation>revocar</translation>
@@ -3045,7 +3083,7 @@
 		</verbs>
 		<nouns>
 			<translations>
-				<translation gender="f">sublevació</translation>
+				<translation gender="f">sublevació / revolta</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3055,6 +3093,12 @@
 				</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+                <Entry frequency="51000000">revolution<nouns>
+			<translations>
+				<translation gender="f">revolució</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="13000000">reward<nouns>
 			<translations>
@@ -3195,6 +3239,12 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+                <Entry frequency="3030000">ridicule<verbs>
+			<translations>
+				<translation>ridiculitzar</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="2860000">ridiculous<adjectives>
 			<translations>
@@ -3363,6 +3413,15 @@
 			</translations>
 		</adjectives>
 	</Entry>
+                <Entry frequency="11200000">ritual<nouns>
+			<translations>
+				<translation gender="m">ritual</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>ritual</translation></translations></adjectives>
+	</Entry>
 	<Entry frequency="3240000">rival<nouns>
 			<translations>
 				<translation gender="mf">rival</translation>
@@ -3373,6 +3432,12 @@
 				<translation>rival</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+                <Entry frequency="4080000">rivalry<nouns>
+			<translations>
+				<translation gender="f">rivalitat<plural>rivalries</plural></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="34100000">river<nouns>
 			<translations>
@@ -3701,6 +3766,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="212000">roquefort<nouns>
+			<translations>
+				<translation catagory="food-cheese" gender="m">rocafort</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="20400000">rose<nouns>
 			<translations>
 				<translation catagory="plant-flower" gender="f">rosa<catnote>La rosa és un símbol nacional de l'Anglaterra.</catnote>
@@ -3741,7 +3812,7 @@
 	</Entry>
         <Entry frequency="5800000">rough<adjectives>
 			<translations>
-				<translation>aspre / bast</translation>
+				<translation>aspre / bast / rugós</translation>
                                 <translation>violent<example>My child is very &lt;b&gt;rough&lt;/b&gt; with other children. He keeps hitting them and biting them.</example><engexamp>Rough seas</engexamp><catexamp>Maregassa</catexamp></translation>
                                 <translation>aproximat<example>I'm not entirely sure how many euros there are to the pound, but at a &lt;b&gt;rough&lt;/b&gt; guess I'd say about one and a half.</example></translation>
 			</translations>
@@ -3763,6 +3834,7 @@
 		<adjectives>
 			<translations>
 				<translation>circular</translation>
+                                <translation>rodó</translation>
 			</translations>
 		</adjectives>
                 <phrasalverbs>round (a number) down
@@ -3808,7 +3880,7 @@
 		</nouns>
                 <adjectives>
                 <translations>
-                <translation>routine</translation></translations></adjectives>
+                <translation>rutinari</translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="16200000">row<nouns>
 			<translations>
@@ -3905,6 +3977,7 @@
         <Entry frequency="1890000">rubble<nouns>
 			<translations>
 				<translation gender="m">enderroc</translation>
+                                <translation gender="f">runa</translation>
 			</translations>
 		</nouns>
 	</Entry>

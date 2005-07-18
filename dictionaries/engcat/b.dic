@@ -123,6 +123,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="602000">backhand<nouns>
+			<translations>
+				<translation catagory="sports-event-tennis" gender="m">revés</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="19100">back of beyond<nouns>
 			<translations>
 				<translation>
@@ -322,6 +328,7 @@
 	<Entry frequency="214000">bagpipes<nouns>
 			<translations>
 				<translation gender="f">gaita</translation>
+                                <translation gender="m">sac de gemecs</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -415,6 +422,7 @@
 	<Entry frequency="71600000">balance<nouns>
 			<translations>
 				<translation gender="m">equilibri</translation>
+                                <translation disambiguate="financial" gender="m">saldo</translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -641,7 +649,8 @@
 	</Entry>
 	<Entry frequency="86200000">bank<nouns>
 			<translations>
-				<translation catagory="financial" gender="m">banc</translation>
+				<translation disambiguate="financial" gender="m">banc</translation>
+                                <translation gender="f">riba<engnote>'Riba' means 'bank' in the sense 'river bank'.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1693,13 +1702,16 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="18500000">bend<verbs>
+	<Entry frequency="16600000">bend<verbs>
 			<past>bent</past>
 			<participle>bent</participle>
 			<translations>
 				<translation>doblegar / inclinar-se</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                <translations>
+                <translation gender="m">revolt</translation></translations></nouns>
 	</Entry>
 	<Entry frequency="5160000">beneath<prepositions>
 			<translations>
@@ -1716,6 +1728,7 @@
         <Entry frequency="31000000">benefit<nouns>
 			<translations>
 				<translation gender="m">benefici / avantatge</translation>
+                                <translation gender="m">subsidi<engnote>'Subsidi' means 'benefit' in the sense 'housing benefit', 'unemployment benefit'</engnote></translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -3799,7 +3812,7 @@
 	</Entry>
 	<Entry frequency="4790000">bra<nouns>
 			<translations>
-				<translation gender="m">sostenidor</translation>
+				<translation gender="mpl">sostenidors</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5316,6 +5329,7 @@
 	<Entry frequency="278000000">but<conjunctions>
 			<translations>
 				<translation>però</translation>
+                                <translation>sinó<engnote>'Sinó' is only used after a negative i.e. 'not x but y', 'we didn't go to Manchester but went to Birmingham instead'.</engnote></translation>
 			</translations>
 		</conjunctions>
 	</Entry>
