@@ -647,6 +647,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+	<Entry frequency="1220000">teapot<nouns>
+			<translations>
+				<translation catagory="household-room-kitchen" gender="f">tetera</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="10200000">tear<nouns>
 			<translations>
 				<translation gender="f">llàgrima<catnote>Amb el significat 'llàgrima' 'tear' rima amb 'ear' (orella)</catnote>
@@ -1216,12 +1222,36 @@
 			</translations>
 		</nouns>
 	</Entry>
+                	<Entry frequency="10200000">terrestrial<adjectives>
+			<translations>
+				<translation>terrestre</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+<Entry frequency="8160000">territorial<adjectives>
+			<translations>
+				<translation>territorial</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="19600000">territory<nouns>
 			<translations>
 				<translation gender="m">territori<plural>territories</plural>
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="37800000">terror<nouns>
+			<translations>
+				<translation gender="m">terror</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="412000">terrorise<verbs>
+			<translations>
+				<translation local="gb">terroritzar<otherlocal>terrorize</otherlocal></translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="10500000">terrorism<nouns>
 			<translations>
@@ -1232,13 +1262,15 @@
 	<Entry frequency="9140000">terrorist<nouns>
 			<translations>
 				<translation gender="mf">terrorista</translation>
+                                <translation beforenoun="true">terrorista</translation>
 			</translations>
 		</nouns>
-		<adjectives>
+	</Entry>
+        <Entry frequency="998000">terrorize<verbs>
 			<translations>
-				<translation>terrorista</translation>
+				<translation>terroritzar</translation>
 			</translations>
-		</adjectives>
+		</verbs>
 	</Entry>
 	<Entry frequency="91700000">test<nouns>
 			<translations>
@@ -1259,11 +1291,29 @@
 			</translations>
 		</expressions>
 	</Entry>
+        <Entry frequency="868000">testicle<nouns>
+			<translations>
+				<translation catagory="body" gender="m">testicle</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1550000">testicular<adjectives>
+			<translations>
+				<translation>testicular<engexamp>Testicular cancer</engexamp><catexamp>Càncer de testicle / càncer testicular</catexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="1220000">testify<verbs ie="true">
 			<translations>
 				<translation>testificar</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="27300000">testimony<nouns>
+			<translations>
+				<translation gender="m">testimoniatge<plural>testimonies</plural></translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="640000">tetanus<nouns>
 			<translations>
@@ -1286,6 +1336,30 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="41400">tetraplegia<nouns>
+			<translations>
+				<translation catagory="medical-illness" gender="f">tetraplegia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="27500">tetraplegic<adjectives>
+			<translations>
+				<translation catagory="medical">tetraplègic</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation catagory="mecical" gender="mf">tetraplègic</translation></translations></nouns>
+	</Entry>
+        	<Entry frequency="6130000">Texan<nouns>
+			<translations>
+				<translation gender="mf">texà</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>texà</translation></translations></adjectives>
+	</Entry>
 	<Entry frequency="140000000">text<verbs>
 			<translations>
 				<translation catagory="mobile phone">enviar un missatge de text / un missatge sms</translation>
@@ -1300,6 +1374,13 @@
 	<Entry frequency="3590000">text file<nouns>
 			<translations>
 				<translation catagory="computers" gender="m">fitxer de text</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="16800000">textile<nouns>
+			<translations>
+				<translation gender="m">tèxtil</translation>
+                                <translation beforenoun="true">tèxtil<engexamp>Textile industry</engexamp><catexamp>Indústria tèxtil</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1629,6 +1710,12 @@
 				<translation>termonuclear</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+                	<Entry frequency="1630000">thermostat<nouns>
+			<translations>
+				<translation gender="m">termòstat</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="24100000">these<adjectives>
 			<translations>
@@ -1993,7 +2080,7 @@
 			<past>threw</past>
 			<participle>thrown</participle>
 			<translations>
-				<translation>llençar</translation>
+				<translation>llençar / llançar / tirar</translation>
 			</translations>
 		</verbs>
 		<expressions>throw the book at someone
@@ -2124,6 +2211,7 @@
 	<Entry frequency="30000000">ticket<nouns>
 			<translations>
 				<translation gender="m">bitllet</translation>
+                                <translation gender="m">tiquet</translation>
 					<translation gender="f">entrada / localitat</translation>
 			</translations>
 		</nouns>
@@ -2187,7 +2275,7 @@
 	</Entry>
 	<Entry frequency="7790000">tiger<nouns>
 			<translations>
-				<translation catagory="animal-animal" gender="m">tigre</translation>
+				<translation catagory="animal-animal" gender="m">tigre<engexamp>Female tiger</engexamp><catexamp>Tigressa</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2238,6 +2326,12 @@
                 <Entry frequency="144000">tightwad<nouns>
 			<translations>
 				<translation local="us" gender="mf">garrepa<synonyms>scrooge / skinflint / miser</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="312000">tigress<nouns>
+			<translations>
+				<translation catagory="animal-animal" gender="f">tigressa</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4367,6 +4461,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="759000">typhoid<nouns>
+			<translations>
+				<translation catagory="medical-illness" gender="m">tifus</translation>
+                                <translation catagory="medical-illness" beforenoun="true">tifoide</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="33000000">typical<adjectives>
 			<translations>
 				<translation>típic</translation>
@@ -4385,6 +4486,30 @@
 				<translation catagory="work-job" gender="mf">mecanògraf</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        	<Entry frequency="703000">typographic<adjectives>
+			<translations>
+				<translation>tipogràfic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        	<Entry frequency="4060000">typographical<adjectives>
+			<translations>
+				<translation>tipogràfic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        	<Entry frequency="4330000">typography<nouns>
+			<translations>
+				<translation gender="f">tipografia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="791000">tyrannical<adjectives>
+			<translations>
+				<translation>tirànic</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="1140000">tyranny<nouns>
 			<translations>

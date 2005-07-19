@@ -2648,15 +2648,26 @@
                 <translations>
                 <translation>abatre</translation></translations></phrasalverbs>                
 	</Entry>
-	<Entry frequency="641000">shoot out<nouns>
+	<Entry frequency="15000000">shooting<nouns>
 			<translations>
-				<translation gender="m">tiroteig</translation>
+                        <translation gender="m">afusellament<engnote>'Afusellament' means 'shooting' as in 'Police are investigating a shooting in the town'</engnote></translation>
+				<translation gender="m">tir<engnote>'Tir' means 'shooting' as in the olympic event.</engnote></translation>
+                                <translation gender="m">rodatge<engnote>'Rodatge' means 'shooting' as in 'the shooting of a film'</engnote></translation>
 			</translations>
 		</nouns>
+                <adjectives>
+                <translations>
+                <translation>agut</translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="326000">shooting star<nouns>
 			<translations>
 				<translation gender="f">estrella fugaç</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="641000">shoot out<nouns>
+			<translations>
+				<translation gender="m">tiroteig</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2838,7 +2849,7 @@
 	</Entry>
 	<Entry frequency="37000000">shot<nouns>
 			<translations>
-				<translation gender="m">tret<engnote>'Tret' means 'shot' as in 'fire from a gun'</engnote>
+				<translation gender="m">tret / tir<engnote>'Tret' and 'tir' mean 'shot' as in 'fire from a gun / cannon etc.'</engnote>
 				</translation>
 				<translation register="colloquial" gender="m">intent<example>I wasn't sure that I would be able to do it, but I took a &lt;b&gt;shot&lt;/b&gt; at it regardless.</example>
 				</translation>
@@ -7043,6 +7054,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        	<Entry frequency="33000000">stem<nouns>
+			<translations>
+				<translation catagory="plants" gender="f">tija</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1970000">stem cell<nouns>
 			<translations>
 				<translation catagory="biology" gender="f">cèl·lula mare</translation>
@@ -7767,7 +7784,8 @@
 	<Entry frequency="20500000">string<nouns>
 			<translations>
 				<translation gender="f">corda</translation>
-				<translation catagory="computers-programming" termcat="true" gender="f">cadena</translation>
+				<translation disambiguate="computers" termcat="true" gender="f">cadena</translation>
+                                <translation gender="f">tirallonga<engnote>'Tirallonga' means 'string' as in 'a string of swearwords' or 'a string of robberies'</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
