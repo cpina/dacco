@@ -59,7 +59,7 @@
 				(<xsl:value-of select="engacro"/>)
 			</xsl:if>
 		</span>
-		<xsl:apply-templates select="nouns | verbs | adverbs | adjectives | conjunctions | prepositions | pronouns | abbreviations | exclamations | acronyms"/>
+		<xsl:apply-templates select="nouns | verbs | adverbs | adjectives | conjunctions | prepositions | pronouns | abbreviations | exclamations | acronyms | expressions"/>
 		<p/>
 		</xsl:if>
 	</xsl:template>
@@ -157,6 +157,17 @@
 			<br/>
 			<span class="pos"> exclam </span>
 			<xsl:apply-templates/>
+		</xsl:if>
+	</xsl:template>
+        <xsl:template match="expressions">
+		<xsl:if test="count(translations/translation)>0">
+			<br/>
+			<span class="pos"> expr </span>
+			<span class="phr">
+				<xsl:value-of select="text()"/>
+			</span>
+			<br/>
+			<xsl:apply-templates select="translations"/>
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="translations">
