@@ -2177,6 +2177,19 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="5720000">thyroid<nouns>
+			<translations>
+				<translation catagory="body" gender="f">tiroide</translation>
+                                <translation beforenoun="true">tiroide / tiroïdal</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="500000">thyroid gland<nouns>
+			<translations>
+				<translation catagory="body" gender="f">(glàndula) tiroide</translation>
+			</translations>
+		</nouns>
+	</Entry>
                 <Entry frequency="3280000">Tibet<nouns>
 			<translations>
 				<translation catagory="country-asia" gender="m">Tibet</translation>
@@ -2587,6 +2600,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1550000">tofu<nouns>
+			<translations>
+				<translation catagory="food" gender="m">tofu</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="830000">toga<nouns>
+			<translations>
+				<translation catagory="clothes" gender="f">toga</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="79400000">together<adverbs>
 			<translations>
 				<translation>junt / juntament<engexamp>Together with</engexamp>
@@ -2602,6 +2627,18 @@
 				</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="22000000">Togo<nouns>
+			<translations>
+				<translation catagory="country-africa" gender="m">Togo</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="99300">Togolese<adjectives>
+			<translations>
+				<translation>togolès</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="4600000">toilet<nouns>
 			<translations>
@@ -2632,11 +2669,29 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="869000">tolerability<nouns>
+			<translations>
+				<translation gender="f">tolerabilitat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1480000">tolerable<adjectives>
+			<translations>
+				<translation>tolerable</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="3740000">tolerance<nouns>
 			<translations>
 				<translation gender="f">tolerància</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="6690000">tolerant<adjectives>
+			<translations>
+				<translation>tolerant</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="685000">tolerate<verbs>
 			<translations>
@@ -2652,8 +2707,10 @@
 	</Entry>
 	<Entry frequency="6570000">tomato<nouns>
 			<translations>
-				<translation catagory="food-vegetable, food-fruit" gender="m">tomàquet<plural>tomatoes</plural>
-				</translation>
+                        <translation>
+				<translation catagory="food-vegetable, food-fruit" gender="m">tomàquet</translation>
+                                <translation catagory="food-vegetable, food-fruit" gender="f">tomaca<plural>tomatoes</plural></translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2703,11 +2760,30 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="2300000">tonic<nouns>
+			<translations>
+				<translation gender="m">tònic</translation>
+                                <translation disambiguate="food-drink" gender="f">(aigua) tònica</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="58500">tonic water<nouns>
+			<translations>
+				<translation catagory="food-drink" gender="f">(aigua) tònica</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="8250000">tonight<adverbs>
 			<translations>
 				<translation catagory="time">aquesta nit</translation>
 			</translations>
 		</adverbs>
+	</Entry>
+        <Entry frequency="852000">tonnage<nouns>
+			<translations>
+				<translation gender="m">tonatge</translation>
+			</translations>
+		</nouns>
 	</Entry>
           <Entry frequency="869000">tonsil<nouns>
 			<translations>
@@ -2955,7 +3031,8 @@
 		</verbs>
                 <nouns>
                 <translations>
-                <translation gender="m">tacte</translation></translations></nouns>
+                <translation gender="m">tacte</translation>
+                <translation gender="m">toc</translation></translations></nouns>
                 <expressions>to get in touch<translations><translation>posar-se en contacte</translation></translations></expressions>
                 <phrasalverbs>touch down
                 <translations>
@@ -4216,19 +4293,15 @@
 	<Entry frequency="84800000">turn<verbs>
 			<translations>
 				<translation>girar</translation>
+                                <translation>tombar</translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
 				<translation gender="m">torn / gir</translation>
-				<translation catagory="sports" gender="m">viratge</translation>
+                                <translation gender="m">tomb</translation>
 			</translations>
 		</nouns>
-		<expressions>turn brown
-			<translations>
-				<translation>daurar</translation>
-			</translations>
-		</expressions>
 		<phrasalverbs>turn off
 			<translations>
 				<translation>apagar<synonyms>switch off</synonyms>
@@ -4530,5 +4603,14 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="308000">Tyrolean<adjectives>
+			<translations>
+				<translation>tirolès</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="mf">tirolès</translation></translations></nouns>
 	</Entry>
 </dictionary>

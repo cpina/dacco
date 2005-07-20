@@ -611,6 +611,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="623000">Band Aid<nouns>
+			<translations>
+				<translation local="us" gender="f">tireta<otherlocal>plaster</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="25500000">bandwidth<nouns>
 			<translations>
 				<translation termcat="true" gender="f">amplada de banda<engnote>'Amplada de banda' is the term recommended by TermCat.  However, 'ample de banda' is also widely used.</engnote>
@@ -1230,11 +1236,16 @@
 				<translation>pegar<example>The man was sentenced to 18 months in jail for&lt;b&gt;beating&lt;/b&gt; his wife</example>
 					<example>The man confessed to &lt;b&gt;beating&lt;/b&gt; his friend to death over a silly argument</example>
 				</translation>
-				<translation catagory="medical">bategar<example>When I finished the race my heart was &lt;b&gt;beating&lt;/b&gt; so fast I thought I was going to die</example>
+				<translation disambiguate="medical">bategar<example>When I finished the race my heart was &lt;b&gt;beating&lt;/b&gt; so fast I thought I was going to die</example>
 					<example>Driving a fast car makes your adrenaline level rise and your heart &lt;b&gt;beat&lt;/b&gt; quicker</example>
 				</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                <translations>
+                <translation disambiguate="entertainment-music" gender="m">toc<engnote>'Toc' means 'beat' as in 'beat of a drum'</engnote></translation>
+                <translation disambiguate="medical" gender="m">batec<engnote>'Batec' means 'beat' as in 'heartbeat' (e.g. 'his heart skipped a beat')</engnote></translation>
+                <translation disambiguate="entertainment-music" gender="m">ritme<engnote>'Ritme' means 'beat' in the sense 'rhythm' (e.g. 'this song has a catchy beat')</engnote></translation></translations></nouns>
 		<adjectives>
 			<translations>
 				<translation register="colloquial">cansat<synonyms>tired, knackered (Br.) (argot)</synonyms>
@@ -3920,6 +3931,7 @@
 		<verbs>
 			<translations>
 				<translation disambiguate="animal">marcar</translation>
+                                <translation>titllar<engnote>'Titllar' means 'to brand' in the sense 'to brand someone a liar'</engnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4968,6 +4980,7 @@
 		<verbs>
 			<translations>
 				<translation>copejar</translation>
+                                <translation>topar (contra)</translation>
 			</translations>
 		</verbs>
 	</Entry>
