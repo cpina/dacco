@@ -1361,6 +1361,7 @@
 			<translations>
 				<translation>
 					<translation gender="f">secció</translation>
+                                        <translation gender="m">tram</translation>
 					<translation gender="m">apartat</translation>
 				</translation>
 			</translations>
@@ -1681,6 +1682,7 @@
 			<participle>sent</participle>
 			<translations>
 				<translation>enviar / mandar</translation>
+                                <translation>trametre</translation>
 			</translations>
 		</verbs>
 		<phrasalverbs>send off
@@ -2560,6 +2562,7 @@
         <Entry frequency="4790000">shipment<nouns>
 			<translations>
 				<translation gender="m">carregament</translation>
+                                <translation gender="f">tramesa</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3787,6 +3790,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="222000">ski jump<nouns>
+			<translations>
+				<translation catagory="sports-event-skiing" gender="m">trampolí</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="191000">ski lift<nouns>
 			<translations>
 				<translation catagory="sports-event-skiing" gender="f">telecadira</translation>
@@ -4156,6 +4165,12 @@
 	<Entry frequency="3680000">sleeve<nouns>
 			<translations>
 				<translation catagory="clothes" gender="f">màniga</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="517000">sleight of hand<nouns>
+			<translations>
+				<translation gender="f">trampa</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6258,6 +6273,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="1520000">springboard<nouns>
+			<translations>
+				<translation catagory="sports-event-diving" gender="m">trampolí</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="450000">sprinkle<verbs>
 			<translations>
 				<translation>esquitxar / ruixar<engnote>'Esquitxar' and 'ruixar' mean to sprinkle with a liquid.</engnote></translation>
@@ -7682,6 +7703,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="862000">streetcar<nouns>
+			<translations>
+				<translation catagory="transport-mode" local="us" gender="m">tramvia / tram<otherlocal>tram</otherlocal></translation>
+                                <translation catagory="transport" local="us" beforenoun="true">tramviari</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="539000">street corner<nouns>
 			<translations>
 				<translation gender="f">cantonada</translation>
@@ -7832,9 +7860,10 @@
 		</verbs>
                 <nouns>
                     <translations>
-                    <translation catagory="medical-illness" gender="m">infart cerebral</translation>
-                        <translation catagory="sports-event-swimming" gender="f">braçada</translation>
+                    <translation disambiguate="medical-illness" gender="m">infart cerebral</translation>
+                        <translation disambiguate="sports-event-swimming" gender="f">braçada</translation>
                         <translation gender="f">carícia</translation>
+                        <translation gender="m">traç<engnote>'Traç' means 'stroke' as in 'brush stroke'</engnote></translation>
                         </translations>
                         </nouns>
 	</Entry>

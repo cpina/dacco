@@ -296,6 +296,12 @@
                 <translation disambiguate="transport">envolar-se / enlairar</translation>
                 <translation register="slang">anar-se'n molt ràpidament<example>When he saw the policeman he &lt;b&gt;took off&lt;/b&gt; in the opposite direction.</example></translation></translations></verbs>
 	</Entry>
+         <Entry frequency="10400">take-off board<nouns>
+			<translations>
+				<translation catagory="sports-event-athletics" gender="m">trampolí</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1370000">takeover<nouns>
 			<translations>
 				<translation gender="f">absorció</translation>
@@ -3318,6 +3324,9 @@
 				<translation gender="f">rastre</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                <translations>
+                <translation>traçar</translation></translations></verbs>
 	</Entry>
         <Entry frequency="36600000">track<adjectives>
 			<translations>
@@ -3343,6 +3352,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="4020000">traction<nouns>
+			<translations>
+				<translation gender="f">tracció</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1800000">tractor<nouns>
 			<translations>
 				<translation catagory="transport" gender="m">tractor</translation>
@@ -3351,10 +3366,9 @@
 	</Entry>
 	<Entry frequency="11800000">trade<nouns>
 			<translations>
-				<translation>
 					<translation gender="m">comerç</translation>
 					<translation gender="ffullform">indústria</translation>
-				</translation>
+                                        <translation gender="m">tràfic</translation>
 				<translation>
 					<translation gender="f">professió</translation>
 					<translation gender="m">ofici</translation>
@@ -3429,7 +3443,8 @@
 	</Entry>
 	<Entry frequency="34700000">traffic<nouns>
 			<translations>
-				<translation catagory="transport" gender="m">trànsit<engexamp>Traffic chaos</engexamp><catexamp>Caos circulatori</catexamp></translation>
+				<translation disambiguate="transport" gender="m">trànsit<engexamp>Traffic chaos</engexamp><catexamp>Caos circulatori</catexamp></translation>
+                                <translation gender="m">tràfic</translation>
 			</translations>
 		</nouns>
         </Entry>
@@ -3442,6 +3457,12 @@
 	<Entry frequency="478000">traffic jam<nouns>
 			<translations>
 				<translation catagory="transport" gender="m">embús</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="7740000">trafficking<nouns>
+			<translations>
+				<translation gender="m">tràfic</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3469,6 +3490,18 @@
 				<translation>tràgicament</translation>
 			</translations>
 		</adverbs>
+	</Entry>
+         <Entry frequency="80800">tragicomedy<nouns>
+			<translations>
+				<translation gender="f">tragicomèdia<plural>tragicomedies</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="62600">tragicomic<adjectives>
+			<translations>
+				<translation>tragicòmic</translation>
+			</translations>
+		</adjectives>
 	</Entry>
          <Entry frequency="23400000">trail<nouns>
 			<translations>
@@ -3536,6 +3569,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="2380000">traitor<nouns>
+			<translations>
+				<translation gender="mf">traïdor</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="225000">traitorous<adjectives>
+			<translations>
+				<translation>traïdor</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="704000">trajectory<nouns>
 			<translations>
 				<translation gender="f">trajectòria<synonyms>path, course</synonyms>
@@ -3546,7 +3591,8 @@
 	</Entry>
 	<Entry frequency="865000">tram<nouns>
 			<translations>
-				<translation catagory="transport-mode" gender="m">tramvia</translation>
+				<translation catagory="transport-mode" local="gb" gender="m">tramvia / tram<otherlocal>streetcar</otherlocal></translation>
+                                <translation catagory="transport" local="gb" beforenoun="true">tramviari</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3556,11 +3602,35 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="25900">tranquiliser<nouns>
+			<translations>
+				<translation catagory="medical" local="gb" gender="m">tranquil·litzant<otherlocal>tranquilizer</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="649000">tranquilizer<nouns>
+			<translations>
+				<translation catagory="medical" gender="m">tranquil·litzant</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="12500000">transaction<nouns>
 			<translations>
 				<translation gender="f">transacció</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="69700">transalpine<adjectives>
+			<translations>
+				<translation catagory="geography">transalpí</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="2850000">transatlantic<adjectives>
+			<translations>
+				<translation catagory="geography">transatlàntic</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="3080000">transcript<nouns>
 			<translations>
@@ -3775,13 +3845,20 @@
 	<Entry frequency="36000000">treat<verbs>
 			<translations>
 				<translation>tractar</translation>
-                                <transation disambiguate="medical">curar</transation>
+                                <transation disambiguate="medical">tractar / curar</transation>
 			</translations>
 		</verbs>
 	</Entry>
+         <Entry frequency="781000">treatable<adjectives>
+			<translations>
+				<translation catagory="medical">tractable</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="41800000">treatment<nouns>
 			<translations>
-				<translation catagory="medical" gender="m">tractament</translation>
+				<translation disambiguate="medical" gender="m">tractament</translation>
+                                <translation gender="m">tracte</translation>
 			</translations>
 		</nouns>
 	</Entry>
