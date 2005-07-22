@@ -739,6 +739,7 @@
 	<Entry frequency="608000">ointment<nouns>
 			<translations>
 				<translation catagory="medical" gender="f">pomada</translation>
+                                <translation catagory="medical" gender="m">ungüent</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -992,6 +993,7 @@
 			<translations>
 				<translation register="dated">hom<catnote>El pronom 'one' no s'utilitza gaire avui dia.</catnote>
 				</translation>
+                                <translation disambiguate="number-cardinal">u</translation>
 			</translations>
 		</pronouns>
 	</Entry>
@@ -1997,7 +1999,10 @@
 	<Entry frequency="12400000">ounce<nouns>
 			<translations>
 				<translation gender="f">unça</translation>
-				<translation gender="f">mica</translation>
+                                <translation>
+                                <translation gender="m">gram</translation>
+				<translation gender="f">mica<engexamp>To have an ounce of common sense</engexamp><catexamp>Tenir un gram / una mica de sentit comú</catexamp></translation></translation>
+                                <translation gender="m">borrall<engexamp>To not have an ounce of common sense</engexamp><catexamp>No tenir ni un borrall de sentit comú</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2141,6 +2146,7 @@
 			<translations>
                         <translation gender="f">indignació</translation>
 				<translation gender="f">atrocitat</translation>
+                                <translation gender="m">ultratge</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -2336,7 +2342,7 @@
 	</Entry>
         <Entry frequency="10500000">overseas<adverbs>
 			<translations>
-				<translation>a l'estranger<example>Kerry claims that the Republicans are sending American jobs &lt;b&gt;overseas&lt;/b&gt;.</example></translation>
+				<translation>a l'estranger / ultramar<example>Kerry claims that the Republicans are sending American jobs &lt;b&gt;overseas&lt;/b&gt;.</example></translation>
 			</translations>
 		</adverbs>
                 <adjectives>
@@ -2430,7 +2436,10 @@
 	</Entry>
 	<Entry frequency="2890000">owl<nouns>
 			<translations>
+                        <translation>
+                        <translation catagory="animal-bird" gender="f">òliba</translation>
 				<translation catagory="animal-bird" gender="m">mussol</translation>
+                                </translation>
                                 <translation sourceplural="Owls" catagory="sports-event-football-teams, encyclopaedic" register="colloquial" local="gb" noteng="TRUE">-<catnote>The Owls és el sobrenom de l'equip de futbol anglès Sheffield Wednesday FC</catnote></translation>
 			</translations>
 		</nouns>
@@ -2495,6 +2504,15 @@
 				<translation catagory="animal-animal, food-sea" gender="f">ostra</translation>
 			</translations>
 		</nouns>
+	</Entry>
+                <Entry frequency="14600000">oz<abbreviations>
+			<translations>
+				<translation gender="f">unça</translation>
+			</translations>
+		</abbreviations>
+                <nouns>
+                <translations>
+                <translation capitalized="Oz" catagory="country-oceania" register="slang">Austràlia<example>We may soon be emigrating to &lt;b&gt;Oz&lt;/b&gt;</example></translation></translations></nouns>
 	</Entry>
 	<Entry frequency="3250000">ozone<nouns>
 			<translations>

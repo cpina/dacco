@@ -101,12 +101,22 @@
 	<Entry frequency="1790000">ultrasound<nouns>
 			<translations>
 				<translation catagory="medical" gender="f">ecografia</translation>
+                                <translation catagory="medical" gender="m">ultrasò</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="1290000">ultraviolet<adjectives>
 			<translations>
-				<translation>ultravioleta</translation>
+				<translation>ultraviolat<engexamp>Ultraviolet radiation</engexamp><catexamp>Radiació ultraviolada</catexamp><engexamp>Ultraviolet light</engexamp><catexamp>Llum ultraviolada</catexamp></translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="m">ultraviolat</translation></translations></nouns>
+	</Entry>
+                <Entry frequency="1150000">umbilical<adjectives>
+			<translations>
+				<translation catagory="body">umbilical</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -363,6 +373,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+                <Entry frequency="249000">unction<nouns>
+			<translations>
+				<translation gender="f">unció</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="154000000">under<prepositions>
 			<translations>
 				<translation>sota (de)</translation>
@@ -603,6 +619,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="1190000">unequivocal<adjectives>
+			<translations>
+				<translation>unequívoc</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="1590000">uneven<adjectives>
 			<translations>
 				<translation>desigual</translation>
@@ -745,6 +767,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="2860000">unicorn<nouns>
+			<translations>
+				<translation catagory="animal-animal" gender="m">unicorn</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="776000">unification<nouns>
 			<translations>
 				<translation gender="ffullform">unificació</translation>
@@ -807,8 +835,9 @@
 	</Entry>
                 <Entry frequency="157000000">union<nouns>
 			<translations>
-				<translation catagory="work" gender="m">sindicat</translation>
-                                <translation beforenoun="true">sindical</translation>
+				<translation disambiguate="work" gender="m">sindicat</translation>
+                                <translation disambiguate="work" beforenoun="true">sindical</translation>
+                                <translation gender="f">unió</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -835,6 +864,19 @@
 				<translation>unisex</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+                <Entry frequency="1860000">unison<nouns>
+			<translations>
+				<translation gender="m">uníson<engexamp>In unison</engexamp><catexamp>A l'uníson</catexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="193000000">unit<nouns>
+			<translations>
+				<translation gender="f">unitat</translation>
+                                <translation beforenoun="true">unitari<engexamp>Unit price</engexamp><catexamp>Preu unitari</catexamp></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="5500000">unite<verbs>
 			<translations>
@@ -1390,6 +1432,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="593000">urinal<nouns>
+			<translations>
+				<translation gender="m">orinador / urinari</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="4680000">urinary<adjectives>
+			<translations>
+				<translation>urinari<engexamp>Urinary tract infection</engexamp><catexamp>Infecció del tracte urinari</catexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>
         <Entry frequency="685000">urinate<verbs>
 			<translations>
 				<translation register="formal">orinar</translation>
@@ -1520,6 +1574,13 @@
 			<translations>
 				<translation catagory="body" gender="m">úter<plural>uteruses</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="257000">UTI<engacro>Urinary Tract Infection</engacro>
+                <nouns>
+			<translations>
+				<translation catagory="medical" gender="ffullform">ITU<catacro>Infecció del Tracte Urinari</catacro></translation>
 			</translations>
 		</nouns>
 	</Entry>

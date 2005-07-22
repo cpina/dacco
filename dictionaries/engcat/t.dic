@@ -238,6 +238,7 @@
 					<engnote>Portar means to take in the sense 'to take something somewhere'</engnote>
 				</translation>
 				<translation>prendre</translation>
+                                <translation>trigar<engnote>'Trigar' means 'to take' in the sense 'to take (time)' (e.g. The ambulance took half an hour to arrive)</engnote></translation>
 			</translations>
 		</verbs>
 		<expressions>take advantage of (something)
@@ -3200,6 +3201,7 @@
 	<Entry frequency="11500000">tourist<nouns>
 			<translations>
 				<translation gender="mf">turista</translation>
+                                <translation beforenoun="true">turístic</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3279,6 +3281,12 @@
 	<Entry frequency="1960000">town hall<nouns>
 			<translations>
 				<translation catagory="politics" gender="m">ajuntament</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="605000">town planning<nouns>
+			<translations>
+				<translation gender="m">urbanisme</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4181,6 +4189,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+                <Entry frequency="6650000">trilogy<nouns>
+			<translations>
+				<translation gender="f">trilogia<plural>trilogies</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="3570000">Trinidad and Tobago<nouns>
 			<translations>
 				<translation catagory="country-northamerica" gender="f">Trinitat i Tobago</translation>
@@ -4202,6 +4216,12 @@
 				<translation>entrebancar-se amb alguna cosa</translation>
 			</translations>
 		</verbs>
+	</Entry>
+                <Entry frequency="812000">tripartite<adjectives>
+			<translations>
+				<translation>tripartit</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="8700000">triple<verbs>
 			<translations>
@@ -4358,7 +4378,7 @@
 	</Entry>
 	<Entry frequency="2520000">trumpet<nouns>
 			<translations>
-				<translation catagory="entertainment-music-instrument" gender="f">trompa<catnote>L'expressió 'to blow your own trumpet' vol dir 'fer el fatxenda'</catnote>
+				<translation catagory="entertainment-music-instrument" gender="f">trompeta<catnote>L'expressió 'to blow your own trumpet' vol dir 'fer el fatxenda'</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -4456,8 +4476,9 @@
 	<Entry frequency="10400000">tube<nouns>
 			<translations>
 				<translation gender="m">tub</translation>
-				<translation catagory="transport-mode" local="gb" gender="m">metro<otherlocal>subway</otherlocal>
+				<translation disambiguate="transport-mode" local="gb" gender="m">metro<otherlocal>subway</otherlocal>
 				</translation>
+                                <translation sourceplural="tubes" register="slang" catagory="medical" gender="fpl">trompes de Fal·lopi<example>After giving birth to her 7th child, Jessica announced that she was having her &lt;b&gt;tubes&lt;/b&gt; tied</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
