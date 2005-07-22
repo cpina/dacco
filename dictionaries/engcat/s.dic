@@ -621,6 +621,7 @@
         <Entry frequency="666000">scab<nouns>
 			<translations>
 				<translation gender="f">crosta</translation>
+                                <translation gender="mf">esquirol<synonyms>strikebreaker, blackleg</synonyms><engnote>'Esquirol' means 'scab' in the sense 'strikebreaker'</engnote></translation>
                                 <translation gender="f">sarna / ronya<engnote>'Sarna' and 'ronya' mean 'scab' as in the disease that affects trees</engnote></translation>
 			</translations>
 		</nouns>
@@ -4118,6 +4119,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+                <Entry frequency="3080000">sleeper<nouns>
+			<translations>
+				<translation disambiguate="transport" local="gb" gender="f">travessa<otherlocal>railroad tie</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2600000">sleeping bag<nouns>
 			<translations>
 				<translation gender="m">sac de dormir</translation>
@@ -7105,6 +7112,9 @@
 				</translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>step on
+                <translations>
+                <translation>trepitjar</translation></translations></phrasalverbs>
                 <phrasalverbs>step up (efforts)
                 <translations>
                 <translation>redoblar (els esforços)</translation></translations></phrasalverbs>
@@ -7258,6 +7268,12 @@
 				<translation>endurir(-se)</translation>
 			</translations>
 		</verbs>
+	</Entry>
+                <Entry frequency="24600">stiffie<nouns>
+			<translations>
+				<translation register="vulgar" gender="f">erecció<engexamp>To get a stiffie</engexamp><catexamp>Trempar</catexamp></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="22800000">still<adverbs>
 			<translations>
@@ -7802,7 +7818,7 @@
 	</Entry>
 	<Entry frequency="34700">strikebreaker<nouns>
 			<translations>
-				<translation catagory="work" gender="f">esquirol<synonyms>blackleg</synonyms></translation>
+				<translation catagory="work" gender="f">esquirol<synonyms>scab, blackleg</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
