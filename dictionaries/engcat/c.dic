@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Robert Hibbert (Penn State Univ) -->
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Documents and Settings\James\My Documents\dacco projects\dacco\dictionary\dic.xsd">
 	<Entry frequency="10200000">cab<nouns>
@@ -1050,6 +1050,14 @@
 	<Entry frequency="17800000">car rental<nouns>
 			<translations>
 				<translation gender="m">lloguer de vehícles</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="7980000">carriage<nouns>
+			<translations>
+				<translation catagory="transport" gender="m">vagó<engnote>'Vagó' means 'carriage' as in 'train carriage'</engnote></translation>
+                                <translation catagory="transport-mode" gender="m">carruatge<engnote>'Carruatge' means 'carriage' as in 'horse-drawn carriage'</engnote></translation>
+                                <translation gender="m">carro<engexamp>Carriage return</engexamp><catexamp>Retorn de carro</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2278,7 +2286,7 @@
 	</Entry>
 	<Entry frequency="184000000">check<verbs>
 			<translations>
-				<translation>provar / comprovar</translation>
+				<translation>provar / comprovar / verificar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -4536,6 +4544,7 @@
 			<translations>
 				<translation>comú</translation>
                                 <translation>ordinari</translation>
+                                <translation>usual</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -5413,6 +5422,18 @@
 				<translation>conquerir / conquistar</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="200000">conquering<adjectives>
+			<translations>
+				<translation>conqueridor / vencedor</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="1590000">conqueror<nouns>
+			<translations>
+				<translation gender="mf">conqueridor</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="3680000">conscience<nouns>
 			<translations>
@@ -8187,7 +8208,10 @@
 	</Entry>
 	<Entry frequency="14400000">custom<nouns>
 			<translations>
+                        <translation>
 				<translation gender="m">costum</translation>
+                                <translation gender="ffullform">usança</translation>
+                                </translation>
 				<translation gender="f">clientela<engnote>'Clientela' means 'custom' in the sense of clientèle'</engnote>
 				</translation>
 			</translations>
