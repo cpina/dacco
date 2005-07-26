@@ -2119,6 +2119,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="749000">charade<nouns>
+			<translations>
+				<translation gender="f">xarada</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="70900000">charge<verbs>
 			<translations>
 				<translation>acusar<example>The police &lt;b&gt;charged&lt;/b&gt; him with disturbing the peace</example>
@@ -2187,6 +2193,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="48400000">charter<nouns>
+			<translations>
+				<translation catagory="transport" gender="m">xàrter</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation catagory="transport">xàrter</translation></translations></adjectives>
+	</Entry>
 	<Entry frequency="11800000">chase<verbs>
 			<translations>
 				<translation>perseguir<example>The dog &lt;b&gt;chased&lt;/b&gt; the cat up the tree</example>
@@ -2202,23 +2217,36 @@
 	</Entry>
 	<Entry frequency="56200000">chat<verbs double="true">
 			<translations>
-				<translation>conversar</translation>
+				<translation>conversar / xerrar</translation>
+                                <translation disambiguate="computers" termcat="true">fer un xat / fer (una) tertúlia / xatejar</translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
 				<translation gender="f">tertúlia</translation>
+                                <translation gender="f">xerrada</translation>
 				<translation disambiguate="computers" termcat="true" gender="f">tertúlia</translation>
 				<translation disambiguate="computers" gender="m">xat<engnote>Although TermCat approved 'tertúlia' for 'chat' and 'fer (una) tertúlia' for 'to chat' in the computer sense, 'xat' is also very common.</engnote>
 				</translation>
 			</translations>
 		</nouns>
-		<phrasalverbs>chat up
+		<phrasalverbs>chat (someone) up
 			<translations>
-				<translation register="colloquial">lligar amb algú<example>The last I saw of Keith he was &lt;b&gt;chatting up&lt;/b&gt; some blonde woman over by the jukebox</example>
+				<translation register="colloquial">lligar (amb algú)<example>The last I saw of Keith he was &lt;b&gt;chatting up&lt;/b&gt; some blonde woman over by the jukebox</example>
 				</translation>
 			</translations>
 		</phrasalverbs>
+	</Entry>
+          <Entry frequency="3030000">chatter<nouns>
+			<translations>
+				<translation gender="f">xerradissa</translation>
+                                <translation gender="m">petament<engnote>'Petament' means 'chatter' as in 'the chatter of his teeth'.</engnote></translation>
+			</translations>
+		</nouns>
+                <verbs>
+                <translations>
+                <translation>xerrar</translation>
+                <translation>petar<engnote>'Petar' means 'to chatter' as in 'his teeth were chattering'.</engnote></translation></translations></verbs>
 	</Entry>
 	<Entry frequency="434000">chauffeur<nouns>
 			<translations>
@@ -2399,7 +2427,7 @@
 	</Entry>
 	<Entry frequency="6510000">chef<nouns>
 			<translations>
-				<translation gender="m">cuiner</translation>
+				<translation gender="mf">cuiner (en cap) / xef</translation>
 			</translations>
 		</nouns>
 	</Entry>
