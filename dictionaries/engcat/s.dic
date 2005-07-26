@@ -2539,6 +2539,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1360000">shingles<nouns>
+			<translations>
+				<translation catagory="medical" gender="m">herpes zòster</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="131000">shinny<verbs ie="true">
 			<translations>
 				<translation>pujar<catnote>'Shinny' vol dir pujar (per ex. un arbre o un pal) aferrant-se i tibant-se alternativament amb les mans i les cames.</catnote></translation>
@@ -2634,6 +2640,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="6960000">shocking<adjectives>
+			<translations>
+				<translation>xocant</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="33400000">shoe<nouns>
 			<translations>
 				<translation catagory="clothes" gender="f">sabata<engexamp>A pair of shoes</engexamp>
@@ -2648,11 +2660,15 @@
 			<translations>
 				<translation>disparar<synonyms>fire</synonyms>
 				</translation>
+                                <translation disambiguate="sports-event-football">xutar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>shoot down
                 <translations>
-                <translation>abatre</translation></translations></phrasalverbs>                
+                <translation>abatre</translation></translations></phrasalverbs>
+                <phrasalverbs>shoot up
+                <translations>
+                <translation catagory="slang">xutar-se / injectar-se</translation></translations></phrasalverbs>                
 	</Entry>
 	<Entry frequency="15000000">shooting<nouns>
 			<translations>
@@ -2859,11 +2875,12 @@
 				</translation>
 				<translation register="colloquial" gender="m">intent<example>I wasn't sure that I would be able to do it, but I took a &lt;b&gt;shot&lt;/b&gt; at it regardless.</example>
 				</translation>
-				<translation catagory="sports-event-athletics" gender="m">pes<engnote>'Pes' means 'shot' as in the object you throw in track and field / athletics</engnote>
+				<translation disambiguate="sports-event-athletics" gender="m">pes<engnote>'Pes' means 'shot' as in the object you throw in track and field / athletics</engnote>
 				</translation>
-				<translation catagory="sports-event-athletics" gender="m">llançament de pes<engnote>'Llançament de pes' is the actual shot put event</engnote>
+				<translation disambiguate="sports-event-athletics" gender="m">llançament de pes<engnote>'Llançament de pes' is the actual shot put event</engnote>
 				</translation>
-				<translation catagory="food-drink" termcat="true" gender="m">xopet<catnote>Un 'shot' és una quantitat molt petita i concentrada d'una beguda alcohòlica forta (per exemple, vodka o whisky)</catnote>
+                                <translation disambiguate="sports-event-football" gender="m">xut<engnote>'Xut' means 'shot' as in 'Quinn's shot went wide'.</engnote></translation>
+				<translation disambiguate="food-drink" termcat="true" gender="m">xopet<catnote>Un 'shot' és una quantitat molt petita i concentrada d'una beguda alcohòlica forta (per exemple, vodka o whisky)</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -4337,7 +4354,7 @@
 	</Entry>
 	<Entry frequency="12800000">slowly<adverbs>
 			<translations>
-				<translation>lentament / a poc a poc / xano-xano</translation>
+				<translation>lentament / a poc a poc / xano-xano / xino-xano</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -4726,7 +4743,7 @@
 	</Entry>
         <Entry frequency="3160000">soaked<adjectives>
 			<translations>
-				<translation>mullat<synonyms>drenched</synonyms></translation>
+				<translation>mullat / xop<synonyms>drenched</synonyms></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -5209,7 +5226,7 @@
 	</Entry>
 	<Entry frequency="67900">sopping wet<adjectives>
 			<translations>
-				<translation>mullat</translation>
+				<translation>mullat / xop</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -6034,9 +6051,12 @@
 	</Entry>
                 <Entry frequency="2730000">splash<verbs>
 			<translations>
-				<translation>xipollejar / esquitxar</translation>
+				<translation>xipollejar / esquitxar / xipollar</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                <translations>
+                <translation gender="m">xipolleig / esquitx</translation></translations></nouns>
 	</Entry>
 	<Entry frequency="55800">spliff<nouns>
 			<translations>
