@@ -184,6 +184,9 @@
                  <xsl:if test="@feminine">
 			<span class="feminine"><xsl:value-of select="@feminine"/></span>
 		</xsl:if>
+                  <xsl:if test="@reflexive">
+			<span class="reflexive"><xsl:value-of select="@reflexive"/></span>
+		</xsl:if>
 			<xsl:if test="@gender='m'">
 				<span class="gender"> (m) </span>
 			</xsl:if>
