@@ -149,6 +149,9 @@
                         <xsl:if test="@sourceplural">
 			<span class="sourceplural"><xsl:value-of select="@sourceplural"/></span>
 		</xsl:if>
+                 <xsl:if test="@feminine">
+			<span class="feminine"><xsl:value-of select="@feminine"/></span>
+		</xsl:if>
 			<xsl:if test="@gender='m'">
 				<span class="gender"> (m) </span>
 			</xsl:if>

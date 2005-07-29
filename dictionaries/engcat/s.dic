@@ -63,9 +63,9 @@
 	</Entry>
 	<Entry frequency="2020000">saddle<nouns>
 			<translations>
-				<translation catagory="animal" gender="f">sella<engnote>'Sella' is the 'saddle' on a horse.</engnote>
+				<translation disambiguate="animal" gender="f">sella<engnote>'Sella' is the 'saddle' on a horse.</engnote>
 				</translation>
-				<translation gender="m">seient<engnote>'Seient' is the 'saddle' on a bicycle.</engnote>
+				<translation disambiguate="transport" gender="m">seient<engnote>'Seient' is the 'saddle' on a bicycle.</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -1168,7 +1168,7 @@
 	</Entry>
 	<Entry frequency="9000000">seal<nouns>
 			<translations>
-				<translation catagory="animal-animal" gender="f">foca</translation>
+				<translation disambiguate="animal-animal" gender="f">foca</translation>
 				<translation gender="m">segell</translation>
 			</translations>
 		</nouns>
@@ -9202,7 +9202,7 @@
 		</verbs>
 		<nouns>
 			<translations>
-				<translation gender="f">oreneta</translation>
+				<translation catagory="animal-bird" gender="f">oreneta</translation>
 			</translations>
 		</nouns>
 	</Entry>

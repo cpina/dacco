@@ -14,48 +14,52 @@
     <xsl:variable name="docs" select="/*/file"/>
     <xsl:variable name="values"/>
      <xsl:template match="/">
-         <xsl:element name="missin">
+         <xsl:element name="missing">
         <xsl:apply-templates/>
         </xsl:element>
     </xsl:template> 
     
     <xsl:template match="file">
         <xsl:variable name="dic" select="./text()"/>
-        <xsl:variable name="cat" select="document($dic)"/>
-        <xsl:variable name="eng" select="
-        document('../../dictionaries/engcat/a.dic') | 
-        document('../../dictionaries/engcat/b.dic') |
-        document('../../dictionaries/engcat/c.dic') |
-        document('../../dictionaries/engcat/d.dic') |
-        document('../../dictionaries/engcat/e.dic') |
-        document('../../dictionaries/engcat/f.dic') |
-        document('../../dictionaries/engcat/g.dic') |
-        document('../../dictionaries/engcat/h.dic') |
-        document('../../dictionaries/engcat/i.dic') |
-        document('../../dictionaries/engcat/j.dic') |
-        document('../../dictionaries/engcat/k.dic') |
-        document('../../dictionaries/engcat/l.dic') |
-        document('../../dictionaries/engcat/m.dic') |
-        document('../../dictionaries/engcat/n.dic') |
-        document('../../dictionaries/engcat/o.dic') |
-        document('../../dictionaries/engcat/p.dic') |
-        document('../../dictionaries/engcat/q.dic') |
-        document('../../dictionaries/engcat/r.dic') |
-        document('../../dictionaries/engcat/s.dic') |
-        document('../../dictionaries/engcat/t.dic') |
-        document('../../dictionaries/engcat/u.dic') |
-        document('../../dictionaries/engcat/v.dic') |
-        document('../../dictionaries/engcat/w.dic') |
-        document('../../dictionaries/engcat/x.dic') |
-        document('../../dictionaries/engcat/y.dic') |
-        document('../../dictionaries/engcat/z.dic')        
+        <xsl:variable name="engcat" select="document($dic)"/>
+        <xsl:variable name="cateng" select="
+        document('../../dictionaries/cateng/a.dic') | 
+        document('../../dictionaries/cateng/b.dic') |
+        document('../../dictionaries/cateng/c.dic') |
+        document('../../dictionaries/cateng/d.dic') |
+        document('../../dictionaries/cateng/e.dic') |
+        document('../../dictionaries/cateng/f.dic') |
+        document('../../dictionaries/cateng/g.dic') |
+        document('../../dictionaries/cateng/h.dic') |
+        document('../../dictionaries/cateng/i.dic') |
+        document('../../dictionaries/cateng/j.dic') |
+        document('../../dictionaries/cateng/k.dic') |
+        document('../../dictionaries/cateng/l.dic') |
+        document('../../dictionaries/cateng/m.dic') |
+        document('../../dictionaries/cateng/n.dic') |
+        document('../../dictionaries/cateng/o.dic') |
+        document('../../dictionaries/cateng/p.dic') |
+        document('../../dictionaries/cateng/q.dic') |
+        document('../../dictionaries/cateng/r.dic') |
+        document('../../dictionaries/cateng/s.dic') |
+        document('../../dictionaries/cateng/t.dic') |
+        document('../../dictionaries/cateng/u.dic') |
+        document('../../dictionaries/cateng/v.dic') |
+        document('../../dictionaries/cateng/w.dic') |
+        document('../../dictionaries/cateng/x.dic') |
+        document('../../dictionaries/cateng/y.dic') |
+        document('../../dictionaries/cateng/z.dic')        
         "/>
-        <xsl:for-each select="$cat//Entry">
-        	<xsl:variable name="foo" select="text()"/>        
-	<xsl:variable name="match" select="$eng/dictionary/Entry/*/translations/translation[text()=$foo]/text()"/>		
-		<xsl:if test="string-length($match)=0">
+        <xsl:for-each select="$engcat//Entry">
+        	<xsl:variable name="inEngCat" select="text()"/>     
+          
+	<xsl:variable name="match" select="$cateng/dictionary/Entry/*/translations/translation[text()=$inEngCat]/text()"/>			
+       
+              
+        <xsl:if test="string-length($match)=0">
+   
 			<xsl:for-each select="*/translations/translation">
-				<xsl:value-of select="$foo"/><xsl:text>,</xsl:text><xsl:value-of select="text()"/><xsl:text>,</xsl:text> 
+				<xsl:value-of select="$inEngCat"/><xsl:text>,</xsl:text><xsl:value-of select="text()"/><xsl:text>,</xsl:text> 
 			</xsl:for-each>
 			<xsl:text>
 </xsl:text>
