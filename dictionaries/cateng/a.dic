@@ -720,6 +720,7 @@
 	<Entry frequency="62300">acceptació<nouns>
 			<translations><date>0105</date>
 				<translation gender="f">acceptance</translation>
+                                <translation gender="f">admission</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1292,7 +1293,8 @@
 	</Entry>
 	<Entry frequency="130000" hasSound="true">adaptar<verbs conj="regular">
 			<translations><date>0105</date>
-				<translation>to adapt</translation>
+				<translation transitive="true">to adapt</translation>
+                                <translation reflexive="adaptar-se">to adjust / to adapt</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1312,7 +1314,7 @@
 	</Entry>
 	<Entry frequency="104000" hasSound="true">addicional<adjectives>
 			<translations><date>0105</date>
-				<translation>additional</translation>
+				<translation>additional / added</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1348,9 +1350,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="36400">adequadament<adverbs>
+			<translations><date>0705</date>
+				<translation>adequately</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 	<Entry frequency="191000" hasSound="true">adequat<adjectives>
 			<translations><date>0105</date>
-				<translation>adequate / sufficient<fems>adequada</fems>
+				<translation>adequate / sufficient<catexamp>De manera / forma adequada</catexamp><engexamp>Adequately</engexamp><fems>adequada</fems>
 				</translation>
 			</translations>
 		</adjectives>
@@ -1458,6 +1466,30 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="7260">admirable<adjectives>
+			<translations><date>0705</date>
+				<translation>admirable</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="4530">admirador<nouns>
+			<translations><date>0705</date>
+				<translation gender="m / f">admirer</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="13800">admirar<verbs conj="regular">
+			<translations><date>0705</date>
+				<translation>to admire</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="74800">admissió<nouns>
+			<translations><date>0705</date>
+				<translation gender="f">admission<example>Bush demana a la cloenda de la cimera de l'OTAN que s'acceleri l'&lt;b&gt;admissió&lt;/b&gt; de Turquia a la UE.</example></translation>
+			</translations>
+		</nouns>
+	</Entry>
           <Entry frequency="179">admonició<nouns>
 			<translations><date>0605</date>
 				<translation gender="f">admonition / admonishment<synonyms>amonestació</synonyms></translation>
@@ -1469,6 +1501,12 @@
 				<translation catagory="medical" gender="m">DNA<catexamp>Proves d'ADN</catexamp>
 					<engexamp>DNA tests</engexamp>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="22900">adolescència<nouns>
+			<translations><date>0705</date>
+				<translation gender="f">adolescence</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1513,9 +1551,27 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="933">adoració<nouns>
+			<translations><date>0705</date>
+				<translation gender="f">adoration</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="7970" hasSound="true">adormir<verbs conj="regular">
 			<translations><date>0105</date>
 				<translation>to drop off (to sleep) / to sleep</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="357">adornament<nouns>
+			<translations><date>0705</date>
+				<translation gender="m">adornment</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="940">adornar<verbs conj="regular">
+			<translations><date>0705</date>
+				<translation>to adorn<synonyms>ornamentar</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1554,6 +1610,22 @@
  			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="26300">ADSL<catacro>Línia d'abonat digital asimètrica</catacro>
+        <nouns>
+			<translations><date>0705</date>
+				<translation gender="f">ADSL<engacro>Asymmetric Digital Subscriber Line</engacro></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="104000">adult<nouns>
+			<translations><date>0705</date>
+				<translation gender="m">adult</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>adult</translation></translations></adjectives>
+	</Entry>
 	<Entry frequency="865" hasSound="true">adulteri<nouns>
 			<translations><date>0105</date>
 				<translation gender="m">adultery</translation>
@@ -1565,6 +1637,12 @@
 				<translation catagory="linguistics" gender="m">adverb</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="503">adverbial<adjectives>
+			<translations><date>0705</date>
+				<translation>adverbial</translation>
+			</translations>
+		</adjectives>
 	</Entry>
         <Entry frequency="8660">adversari<nouns>
 			<translations><date>0505</date>
@@ -1595,8 +1673,8 @@
 	</Entry>
 	<Entry frequency="47000" hasSound="true">aeri<adjectives>
 			<translations><date>0105</date>
-				<translation>air<fems>aèria</fems>
-				</translation>
+				<translation>air</translation>
+                                <translation>aerial<catexamp>Foto aèria</catexamp><engexamp>Aerial photo</engexamp><fems>aèria</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1675,6 +1753,13 @@
 			</translations>
 		</verbs>
 	</Entry>
+        	<Entry frequency="17500">afectació<nouns>
+			<translations>
+                        <translation gender="f">effect<synonyms>efecte</synonyms></translation>
+				<translation gender="f">affectation<plural>afectacions</plural><synonyms>amanerament</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="179000" hasSound="true">afectar<verbs conj="regular">
 			<translations><date>0105</date>
 				<translation>to affect</translation>
@@ -1713,6 +1798,21 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="3390">afganès<nouns>
+			<translations><date>0705</date>
+				<translation gender="m / f">Afghan<fems>afganesa</fems><plural>afganesos</plural></translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>Afghan</translation></translations></adjectives>
+	</Entry>
+        <Entry frequency="15900">Afganistan<nouns>
+			<translations><date>0705</date>
+				<translation catagory="country-asia" gender="m">Afghanistan</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="28800" hasSound="true">aficionat<nouns>
 			<translations><date>0105</date>
 				<translation gender="m / f">fan<fems>aficionada</fems></translation>
@@ -1734,7 +1834,7 @@
 	</Entry>
 	<Entry frequency="126000" hasSound="true">afirmar<verbs conj="regular">
 			<translations><date>0105</date>
-				<translation>to state</translation>
+				<translation>to state / to affirm</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1769,6 +1869,15 @@
 				<translation catagory="language" gender="m">Afrikaans</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="1320">afroamericà<nouns>
+			<translations><date>0705</date>
+				<translation gender="m / f">Afro-American</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>Afro-American<fems>afroamericana</fems><plural>afroamericans</plural></translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="57400">afrontar<verbs conj="regular">
 			<translations><date>0105</date>
@@ -2645,6 +2754,12 @@
 	<Entry frequency="3930">amagatall<nouns>
 			<translations><date>0105</date>
 				<translation gender="m">hiding place</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="130">amanerament<nouns>
+			<translations><date>0705</date>
+				<translation gender="m">affectation<synonyms>afectació</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3562,13 +3677,14 @@
 	</Entry>
 	<Entry frequency="268000">anunci<nouns>
 			<translations><date>0105</date>
-				<translation gender="m">announcement / advertisement / ad</translation>
+				<translation gender="m">announcement / advertisement / ad<catexamp>Publicar / posar un anunci</catexamp><engexamp>To advertise</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="136000">anunciar<verbs conj="irregular1">
 			<translations><date>0105</date>
 				<translation>to announce</translation>
+                                <translation>to advertise</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4981,6 +5097,13 @@
 			</translations>
 		</adjectives>
 	</Entry>
+	<Entry frequency="99600">assessor<nouns>
+			<translations>
+				<date>0705</date>
+				<translation gender="m / f">advisor / adviser<fems>assessora</fems></translation>
+			</translations>
+		</nouns>
+	</Entry>        
 	<Entry frequency="144000">assessorament<nouns>
 			<translations>
 				<date>0205</date>
@@ -5813,7 +5936,7 @@
 	<Entry frequency="38300">avió<nouns>
 			<translations>
 				<date>0205</date>
-				<translation catagory="transport-mode" gender="f">plane<plural>avions</plural>
+				<translation catagory="transport-mode" gender="f">plane / airplane (Am.) / aeroplane (Br.)<plural>avions</plural>
 				</translation>
 			</translations>
 		</nouns>
