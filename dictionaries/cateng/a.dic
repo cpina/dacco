@@ -2541,13 +2541,15 @@
 	</Entry>
 	<Entry frequency="140000">algú<pronouns>
 			<translations><date>0105</date>
-				<translation>someone</translation>
+				<translation>someone / somebody</translation>
+                                <translation>anybody / anyone</translation>
 			</translations>
 		</pronouns>
 	</Entry>
 	<Entry frequency="1080000">algun<adjectives>
 			<translations><date>0105</date>
-				<translation>some / any<fems>alguna</fems></translation>
+				<translation>some</translation>
+                                <translation>any<fems>alguna</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3979,7 +3981,8 @@
 	<Entry frequency="14600">anticipar<verbs conj="regular">
 			<translations><date>0505</date>
 				<translation>to bring forward</translation>
-				<translation>to pay in advance</translation>
+				<translation disambiguate="financial">to pay in advance</translation>
+                                <translation>to anticipate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3995,9 +3998,16 @@
 			</translations>
 		</nouns>
 	</Entry>
+                  <Entry frequency="634">antídot<nouns>
+			<translations><date>0805</date>
+				<translation catagory="medical" gender="m">antidote</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="40700">antiguitat<nouns>
 			<translations><date>0105</date>
 				<translation gender="f">antiquity</translation>
+                                <translation sourceplural="antiguitats" gender="mpl">antiques</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4014,9 +4024,81 @@
 			</translations>
 		</adjectives>
 	</Entry>
+                  <Entry frequency="716">antisèptic<adjectives>
+			<translations><date>0805</date>
+				<translation catagory="medical">antiseptic<fems>antisèptica</fems><femplural>antisèptiques</femplural></translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation catagory="medical" gender="m">antiseptic</translation></translations></nouns>
+	</Entry>
    	<Entry frequency="892">antiterrorista<adjectives>
 			<translations><date>0105</date>
 				<translation>anti-terrorist</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="836">àntrax<nouns>
+			<translations><date>0805</date>
+				<translation catagory="medical-illness" gender="m">anthrax</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="554">antre<nouns>
+			<translations><date>0805</date>
+				<translation gender="m">cavern / cave</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="943">antròpic<adjectives>
+			<translations><date>0805</date>
+				<translation>anthropic<fems>antròpica</fems><femplural>antròpiques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="301">antropocèntric<adjectives>
+			<translations><date>0805</date>
+				<translation>anthropocentric<fems>antropocèntrica</fems><femplural>antropocèntriques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="128">antropocentrisme<nouns>
+			<translations><date>0805</date>
+				<translation gender="m">anthropocentrism</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="726">antropòfag<nouns>
+			<translations><date>0805</date>
+				<translation gender="m / f">cannibal</translation>
+			</translations>
+		</nouns>
+         <adjectives>
+         <translations>
+         <translation>anthropophagous / cannibilistic</translation></translations></adjectives>
+	</Entry>
+        <Entry frequency="110">antropofàgia<nouns>
+			<translations><date>0805</date>
+				<translation gender="f">anthropophagy / cannibilism</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="12">antropofàgic<adjectives>
+			<translations><date>0805</date>
+				<translation>cannibilistic / anthropophagic / anthropophagous</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="669">antropogènic<adjectives>
+			<translations><date>0805</date>
+				<translation>anthropogenic<fems>antropogènica</fems><femplural>antropogèniques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="488">antropoide<adjectives>
+			<translations><date>0805</date>
+				<translation>anthropoid</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -4026,9 +4108,75 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="30400">antropologia<nouns>
+			<translations><date>0805</date>
+				<translation catagory="work-field" gender="f">anthropology<catexamp>Antropologia física</catexamp><engexamp>Physical anthropology</engexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="8850">antropològic<adjectives>
+			<translations><date>0805</date>
+				<translation>anthropological<fems>antropològica</fems><femplural>antropològiques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+          <Entry frequency="399">antropometria<nouns>
+			<translations><date>0805</date>
+				<translation gender="f">anthropometry</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="586">antropomètric<adjectives>
+			<translations><date>0805</date>
+				<translation>anthropometric / anthropometrical<fems>antropomètrica</fems><femplural>antropomètriques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+          <Entry frequency="492">antropomorf<adjectives>
+			<translations><date>0805</date>
+				<translation>anthropomorphous<fems>antropomorfa</fems></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+  <Entry frequency="440">antropomòrfic<adjectives>
+			<translations><date>0805</date>
+				<translation>anthropomorphic<fems>antropomòrfica</fems><femplural>antropomòrfiques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+          <Entry frequency="57">antropomorfisme<nouns>
+			<translations><date>0805</date>
+				<translation gender="m">anthropomorphism</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="224000">anual<adjectives>
 			<translations><date>0105</date>
 				<translation>annual</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+          <Entry frequency="43800">anualment<adverbs>
+			<translations><date>0805</date>
+				<translation>annually</translation>
+			</translations>
+		</adverbs>
+	</Entry>
+                  <Entry frequency="19800">anuari<nouns>
+			<translations><date>0805</date>
+				<translation gender="m">yearbook</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                  <Entry frequency="142">anuència<nouns>
+			<translations><date>0805</date>
+				<translation gender="f">consent<synonyms>consentiment</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+                  <Entry frequency="3580">anular<adjectives>
+			<translations><date>0805</date>
+				<translation>annular<catexamp>Eclipsi anular</catexamp><engexamp>Annular eclipse</engexamp><catexamp>Dit anular</catexamp><engexamp>Ring finger</engexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -4051,12 +4199,31 @@
 			</translations>
 		</nouns>
 	</Entry>
+                  <Entry frequency="932">anunciació<nouns>
+			<translations><date>0805</date>
+				<translation gender="f">announcement</translation>
+                                <translation capitalized="Anunciació" gender="f">Annunciation</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                  <Entry frequency="12000">anunciant<nouns>
+			<translations><date>0805</date>
+				<translation gender="m / f">advertiser</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="136000">anunciar<verbs conj="irregular1">
 			<translations><date>0105</date>
 				<translation>to announce</translation>
                                 <translation>to advertise</translation>
 			</translations>
 		</verbs>
+	</Entry>
+                  <Entry frequency="1130">anus<nouns>
+			<translations><date>0805</date>
+				<translation catagory="body" gender="m">anus</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="3480">anxova<nouns>
 			<translations><date>0605</date>
@@ -4088,6 +4255,30 @@
         <Entry frequency="937">any sabàtic<nouns>
 			<translations><date>0505</date>
 				<translation gender="m">sabbatical (year)</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                  <Entry frequency="471">aorta<nouns>
+			<translations><date>0805</date>
+				<translation catagory="body" gender="f">aorta</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                  <Entry frequency="603">aòrtic<adjectives>
+			<translations><date>0805</date>
+				<translation catagory="body">aortic<fems>aòrtica</fems><femplural>aòrtiques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+                  <Entry frequency="11">aortitis<nouns>
+			<translations><date>0805</date>
+				<translation catagory="medical-illness" gender="f">aortitis</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                  <Entry frequency="9">aortografia<nouns>
+			<translations><date>0805</date>
+				<translation catagory="medical" gender="f">aortography</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4349,7 +4540,8 @@
 	</Entry>
 	<Entry frequency="292000">aplicació<nouns>
 			<translations><date>0105</date>
-				<translation catagory="computers-programming" gender="f">application<plural>aplicacions</plural>
+                        <translation gender="f">application</translation>
+				<translation disambiguate="computers-programming" gender="f">application / app<plural>aplicacions</plural>
 				</translation>
 			</translations>
 		</nouns>
