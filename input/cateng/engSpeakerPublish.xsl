@@ -77,7 +77,7 @@
 		<span class="examp"><xsl:value-of select="."/></span>
 	</xsl:template>
 	<xsl:template match="verbs">
-		<xsl:if test="count(translations/translation)>0">
+		<xsl:if test="count(translations/translation)">
 		<br/>
 			<span class="pos"> v </span>
 			<xsl:element name="a">
@@ -170,23 +170,49 @@
 			<xsl:apply-templates select="translations"/>
 		</xsl:if>
 	</xsl:template>
-	<xsl:template match="translations">
-		<xsl:for-each select="translation">
+        
+       
+        
+        
+        
+        
+        <xsl:template match="translations">
+        
+	
+		<xsl:for-each select="translation[not(@reflexive)]">
 			<xsl:text>    </xsl:text>
 			<xsl:if test="last()>1"><b>
 				<xsl:value-of select="position()"/>
 				<xsl:text>. </xsl:text>
 				</b>
 			</xsl:if>
+                        <xsl:call-template name="doTranslation"/>
+                </xsl:for-each>
+               <xsl:if test="count(translation[@reflexive])>0">
+                    <span class="reflexive"><xsl:value-of select="translation[@reflexive]/@reflexive"/><br/></span>
+                </xsl:if>
+                <xsl:for-each select="translation[@reflexive]">
+			<xsl:text>    </xsl:text>
+			<xsl:if test="last()>1"><b>
+				<xsl:value-of select="position()"/>
+				<xsl:text>. </xsl:text>
+				</b>
+			</xsl:if> 
+                        <xsl:call-template name="doTranslation"/>
+                </xsl:for-each>
+                
+                </xsl:template>
+              
+            <xsl:template name="doTranslation">
                         <xsl:if test="@sourceplural">
 			<span class="sourceplural"><xsl:value-of select="@sourceplural"/></span>
 		</xsl:if>
                  <xsl:if test="@feminine">
 			<span class="feminine"><xsl:value-of select="@feminine"/></span>
 		</xsl:if>
-                  <xsl:if test="@reflexive">
+               <!--   <xsl:if test="@reflexive">
 			<span class="reflexive"><xsl:value-of select="@reflexive"/></span>
-		</xsl:if>
+		</xsl:if> -->
 			<xsl:if test="@gender='m'">
 				<span class="gender"> (m) </span>
 			</xsl:if>
@@ -344,6 +370,6 @@
 
 			<xsl:apply-templates select="catexamp | engexamp"/><br/>
 			<xsl:apply-templates select="catnote | engnote"/>
-		</xsl:for-each>
+		
 	</xsl:template>
 </xsl:stylesheet>
