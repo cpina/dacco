@@ -1680,7 +1680,7 @@
 	</Entry>
 	<Entry frequency="64000" hasSound="true">advocat<nouns>
 			<translations><date>0105</date>
-				<translation catagory="work-job, legal" gender="m / f">lawyer<fems>advocada</fems></translation>
+				<translation catagory="work-job, legal" gender="m / f">lawyer / attorney (Am.)<fems>advocada</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1801,7 +1801,7 @@
 	</Entry>
 	<Entry frequency="297000" hasSound="true">afegir<verbs conj="inceptive">
 			<translations><date>0105</date>
-				<translation>to add</translation>
+				<translation>to add / to attach</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2219,13 +2219,13 @@
 	</Entry>
 	<Entry frequency="185000">ajuda<nouns>
 			<translations><date>0105</date>
-				<translation gender="f">help</translation>
+				<translation gender="f">help / assistance</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="310000">ajudar<verbs conj="regular">
 			<translations><date>0105</date>
-				<translation collocation="true">to help</translation>
+				<translation collocation="true">to help / to assist</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2349,6 +2349,12 @@
         	<Entry frequency="25700">alberg<nouns>
 			<translations><date>0305</date>
 				<translation gender="m">inn / shelter / refuge<catexamp>Alberg de joventut</catexamp><engexamp>Youth hostel</engexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         	<Entry frequency="738">albergínia<nouns>
+			<translations><date>0805</date>
+				<translation catagory="food-vegetable" gender="f">aubergine (Br.) / eggplant (Am.)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5621,6 +5627,39 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         	<Entry frequency="5960">asma<nouns>
+			<translations><date>0805</date>
+				<translation catagory="medical-illness" gender="f">asthma</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         	<Entry frequency="695">asmàtic<nouns>
+			<translations><date>0805</date>
+				<translation catagory="medical" gender="m / f">asthmatic</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation catagory="medical">asthmatic<fems>asmàtica</fems><femplural>asmàtiques</femplural></translation></translations></adjectives>
+	</Entry>
+         	<Entry frequency="320">asocial<adjectives>
+			<translations><date>0805</date>
+				<translation>antisocial</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         	<Entry frequency="55">asparagina<nouns>
+			<translations><date>0805</date>
+				<translation catagory="chemistry" gender="f">asparagine</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         	<Entry frequency="132">aspàrtic<adjectives>
+			<translations><date>0805</date>
+				<translation catagory="chemistry">aspartic<catexamp>Ácid aspàrtic</catexamp><engexamp>Aspartic acid</engexamp><fems>aspàrtica</fems><femplural>aspàrtiques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="272000">aspecte<nouns>
 			<translations>
 				<date>0205</date>
@@ -5688,7 +5727,7 @@
 	<Entry frequency="103000">assegurança<nouns>
 			<translations>
 				<date>0205</date>
-				<translation gender="f">insurance<plural>assegurances</plural>
+				<translation gender="f">insurance / assurance (Br.)<catnote>La paraula 'assurance' s'utilitza molt més a Gran Bretanya que no pas als Estats Units.  Refereix només a l'assegurança de vida (life assurance) i les pòlisses d'assegurança que paguen diners després d'un cert període de temps.</catnote><plural>assegurances</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -5696,7 +5735,9 @@
 	<Entry frequency="187000">assegurar<verbs conj="regular">
 			<translations>
 				<date>0205</date>
-				<translation>to insure</translation>
+				<translation>to ensure</translation>
+                                <translation>to assure</translation>
+                                <translation>to secure</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5808,6 +5849,7 @@
 			<translations>
 				<date>0205</date>
 				<translation catagory="education" gender="f">attendance</translation>
+                                <translation gender="f">assistance / help</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5854,9 +5896,21 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="15500">asterisc<nouns>
+			<translations><date>0805</date>
+				<translation gender="m">asterisk</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="3640">asteroide<nouns>
 			<translations>
 				<translation catagory="astronomy" gender="m">asteroid</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         	<Entry frequency="275">astigmatisme<nouns>
+			<translations><date>0805</date>
+				<translation catagory="medical" gender="m">astigmatism</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5882,9 +5936,27 @@
 			</translations>
 		</nouns>
 	</Entry>
+         	<Entry frequency="939">astròleg<nouns>
+			<translations><date>0805</date>
+				<translation gender="m / f">astrologer<fems>astròloga</fems><femplural>astròlogues</femplural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         	<Entry frequency="4510">astrologia<nouns>
+			<translations><date>0805</date>
+				<translation gender="f">astrology</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="504">astronauta<nouns>
 			<translations><date>0405</date>
 				<translation gender="m / f">astronaut</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         	<Entry frequency="6270">astrònom<nouns>
+			<translations><date>0805</date>
+				<translation catagory="astronomy" gender="m / f">astronomer<fems>astrònoma</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5895,6 +5967,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+         	<Entry frequency="17600">astronòmic<adjectives>
+			<translations><date>0805</date>
+				<translation disambiguate="astronomy">astronomical</translation>
+                                <translation>astronomical<catexamp>Preus astronòmics</catexamp><engexamp>Astronomical prices</engexamp><fems>astronòmica</fems><femplural>astronòmiques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
         <Entry frequency="796">asturià<nouns>
 			<translations>
 				<date>0305</date>
@@ -5904,6 +5983,12 @@
                 <adjectives>
                 <translations>
                 <translation>Asturian<fems>asturiana</fems><plural>asturians</plural></translation></translations></adjectives>
+	</Entry>
+         	<Entry frequency="733">astut<adjectives>
+			<translations><date>0805</date>
+				<translation>astute<fems>astuta</fems></translation>
+			</translations>
+		</adjectives>
 	</Entry>
         <Entry frequency="1030">atabalar<verbs conj="regular">
 			<translations><date>0305</date>
@@ -5950,6 +6035,12 @@
 				<translation>atavistic<fems>atàvica</fems><femplural>atàviques</femplural></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         	<Entry frequency="3830">ateisme<nouns>
+			<translations><date>0805</date>
+				<translation catagory="religious" gender="m">astheism</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="1140">atemorir<verbs conj="inceptive">
 			<translations>
@@ -6039,6 +6130,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         	<Entry frequency="4430">ateu<nouns>
+			<translations><date>0805</date>
+				<translation gender="m / f">atheist<fems>atea</fems></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="15600">atles<nouns>
 			<translations>
 				<date>0205</date>
@@ -6060,12 +6157,30 @@
 			</translations>
 		</nouns>
 	</Entry>
+         	<Entry frequency="639">atmòsfera<nouns>
+			<translations><date>0805</date>
+				<translation catagory="weather" gender="f">atmosphere</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         	<Entry frequency="26700">atmosfèric<adjectives>
+			<translations><date>0805</date>
+				<translation catagory="weather">atmospheric<fems>atmosfèrica</fems><femplural>atmosfèriques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="10800">àtom<nouns>
 			<translations>
 				<date>0205</date>
 				<translation catagory="chemistry">atom</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         	<Entry frequency="14300">atòmic<adjectives>
+			<translations><date>0805</date>
+				<translation catagory="chemistry">atomic<fems>atòmica</fems><femplural>atòmiques</femplural></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="1038">atònit<adjectives>
 			<translations><date>0705</date>
@@ -6130,6 +6245,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+         	<Entry frequency="58700">atribuir<verbs conj="irregular2">
+			<translations><date>0805</date>
+				<translation>to attribute</translation>
+			</translations>
+		</verbs>
+	</Entry>
+         	<Entry frequency="14200">atribut<nouns>
+			<translations><date>0805</date>
+				<translation catagory="linguistics, computers-programming" gender="m">attribute</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="3370">atropellar<verbs conj="regular">
 			<translations>
 				<date>0205</date>
@@ -6185,7 +6312,7 @@
 	<Entry frequency="137000">audiovisual<adjectives>
 			<translations>
 				<date>0205</date>
-				<translation>audio visual</translation>
+				<translation>audiovisual</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -6194,6 +6321,12 @@
 				<date>0205</date>
 				<translation gender="m">audience</translation>
 				<translation gender="m">auditorium</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         	<Entry frequency="40100">auditoria<nouns>
+			<translations><date>0805</date>
+				<translation catagory="financial" gender="f">audit</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6218,6 +6351,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         	<Entry frequency="315">au pair<nouns>
+			<translations><date>0805</date>
+				<translation catagory="work-job" gender="m / f">au pair</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="1140">aurora<nouns>
 			<translations>
 				<date>0705</date>
@@ -6226,22 +6365,28 @@
 			</translations>
 		</nouns>
 	</Entry>
+         	<Entry frequency="884">auspici<nouns>
+			<translations><date>0805</date>
+				<translation gender="m">auspice</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="34100">Austràlia<nouns>
 			<translations>
 				<date>0205</date>
-				<translation catagory="country-oceania" gender="f">Australia</translation>
+				<translation catagory="country-oceania" gender="f">Australia / Oz (argot)</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="8590">australià<adjectives>
 			<translations>
 				<date>0205</date>
-				<translation>Australian</translation>
+				<translation>Australian / Aussie (colloq)</translation>
 			</translations>
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation catagory="nationality-oceania" gender="m / f">Australian<plural>australians</plural><fems>australiana</fems></translation></translations></nouns>
+                <translation catagory="nationality-oceania" gender="m / f">Australian / Aussie (colloq)<plural>australians</plural><fems>australiana</fems></translation></translations></nouns>
 	</Entry>
 	<Entry frequency="26100">Àustria<nouns>
 			<translations>
@@ -6373,6 +6518,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         	<Entry frequency="115000">autonomia<nouns>
+			<translations><date>0805</date>
+				<translation gender="f">autonomy</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         	<Entry frequency="694">autòpsia<nouns>
+			<translations><date>0805</date>
+				<translation gender="f">autopsy<synonyms>necròpsia</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2030000">autor<nouns>
 			<translations>
 				<date>0205</date>
@@ -6410,7 +6567,7 @@
 	<Entry frequency="83500">autoritzar<verbs conj="regular">
 			<translations>
 				<date>0205</date>
-				<translation>to authorize / to allow / to permit</translation>
+				<translation>to authorize / to authorise (Br.) / to allow / to permit</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6425,6 +6582,7 @@
 				<date>0205</date>
 				<translation>assistant</translation>
                                 <translation>ancillary</translation>
+                                <translation catagory="linguistics">auxiliary</translation>
 			</translations>
 		</adjectives>
 		<nouns>
@@ -6432,6 +6590,12 @@
 				<translation gender="m / f">assistant</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         	<Entry frequency="15500">auxiliari<adjectives>
+			<translations><date>0805</date>
+				<translation>auxiliary</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="51100">avall<adverbs>
 			<translations>
@@ -6568,6 +6732,12 @@
 				<translation>ashamed<fems>avergonyida</fems></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         	<Entry frequency="647">aversió<nouns>
+			<translations><date>0805</date>
+				<translation gender="f">aversion<plural>aversions</plural></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="4730000">avet<nouns>
 			<translations>
