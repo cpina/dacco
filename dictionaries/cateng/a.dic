@@ -1052,12 +1052,12 @@
 	</Entry>
 	<Entry frequency="63000" hasSound="true">acostar<verbs conj="regular">
 			<translations><date>0105</date>
-				<translation>to approach / to get closer / to get close to<example>Aquest llibre està adreçat a tot tipus de públic que vulgui &lt;b&gt;acostar-se&lt;/b&gt; al món de l'art.</example>
-					<example>La persona que &lt;b&gt;s'acosta&lt;/b&gt; a la ciència no mostra forçosament desitjos d'esdevenir un científic.</example>
-				</translation>
-				<translation>to bring something closer<example>Cal &lt;b&gt;acostar&lt;/b&gt; la música clàssica &lt;b&gt;a&lt;/b&gt; la gent.</example>
+				<translation transitive="true">to bring something closer<example>Cal &lt;b&gt;acostar&lt;/b&gt; la música clàssica &lt;b&gt;a&lt;/b&gt; la gent.</example>
 					<example/>
 					<example>Aquest camí &lt;b&gt;acosta&lt;/b&gt; el senderista &lt;b&gt;a&lt;/b&gt; la vila de Caldes de Montbui.</example>
+				</translation>
+                                <translation reflexive="acostar-se">to approach / to get closer / to get close to<example>Aquest llibre està adreçat a tot tipus de públic que vulgui &lt;b&gt;acostar-se&lt;/b&gt; al món de l'art.</example>
+					<example>La persona que &lt;b&gt;s'acosta&lt;/b&gt; a la ciència no mostra forçosament desitjos d'esdevenir un científic.</example>
 				</translation>
 			</translations>
 		</verbs>
@@ -1403,7 +1403,7 @@
 	</Entry>
 	<Entry frequency="78100">adient<adjectives>
 			<translations><date>0105</date>
-				<translation>appropriate / suitable</translation>
+				<translation>appropriate / suitable<synonyms>apropiat</synonyms></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1565,9 +1565,16 @@
 	</Entry>
 	<Entry frequency="7970" hasSound="true">adormir<verbs conj="regular">
 			<translations><date>0105</date>
-				<translation>to drop off (to sleep) / to sleep</translation>
+                        <translation transitive="true">to get (somebody) off to sleep</translation>
+				<translation reflexive="adormir-se">to drop off (to sleep)</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        	<Entry frequency="11000">arsenal<adverbs>
+			<translations><date>0105</date>
+				<translation gender="m">arsenal</translation>
+			</translations>
+		</adverbs>
 	</Entry>
         <Entry frequency="357">adornament<nouns>
 			<translations><date>0705</date>
@@ -2807,6 +2814,12 @@
 				<translation>to alter</translation>
 			</translations>
 		</verbs>
+	</Entry>
+                <Entry frequency="579">altercat<nouns>
+			<translations><date>0805</date>
+				<translation gender="m">altercation</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="13300">alternar<verbs conj="regular">
 			<translations><date>0705</date>
@@ -4634,11 +4647,23 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="6050">applet<nouns>
+			<translations><date>0805</date>
+				<translation catagory="computers-internet" gender="m">applet<engnote>The official term for 'applet', approved by TermCat, is 'miniaplicació'</engnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="6060">apreciable<adjectives>
 			<translations><date>0105</date>
 				<translation>considerable / sizeable</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="13400">apreciació<nouns>
+			<translations><date>0805</date>
+				<translation gender="f">appreciation</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="41200">apreciar<verbs conj="irregular1">
 			<translations><date>0105</date>
@@ -4699,7 +4724,7 @@
 	</Entry>
 	<Entry frequency="38000">apropiat<adjectives>
 			<translations><date>0105</date>
-				<translation>appropriate / suitable<fems>apropiada</fems>
+				<translation>appropriate / suitable<fems>apropiada</fems><synonyms>adient</synonyms>
 				</translation>
 			</translations>
 		</adjectives>
@@ -4726,13 +4751,14 @@
 	</Entry>
 	<Entry frequency="79200">aproximadament<adverbs>
 			<translations><date>0105</date>
-				<translation>approximately / about / roughly</translation>
+				<translation>approximately / about / roughly / around</translation>
 			</translations>
 		</adverbs>
 	</Entry>
 	<Entry frequency="23500">aproximar<verbs conj="regular">
 			<translations><date>0105</date>
-				<translation>to approach / to come closer / to get closer</translation>
+                        <translation transitive="true">to bring something closer</translation>
+				<translation reflexive="aproximar-se">to approach / to come closer / to get closer</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4867,6 +4893,15 @@
 				<translation catagory="country-asia" gender="f">Saudi Arabia</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="647">arameu<nouns>
+			<translations><date>0805</date>
+				<translation catagory="language" gender="m">Aramaic</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>Aramaic<fems>aramea</fems></translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="329">aranja<nouns>
 			<translations><date>0105</date>
@@ -5022,11 +5057,12 @@
 	</Entry>
 	<Entry frequency="19200">argentí<nouns>
 			<translations><date>0105</date>
-				<translation catagory="nationality-southamerica" gender="m / f">Argentinian<fems>argentina</fems>
-					<plural>argentins</plural>
-				</translation>
+				<translation catagory="nationality-southamerica" gender="m / f">Argentinian / Argentine</translation>
 			</translations>
 		</nouns>
+                <adjectives>
+                <translations>
+                <translation>Argentinian / Argentine<plural>argentins</plural><fems>argentina</fems></translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="59200">Argentina<nouns>
 			<translations><date>0105</date>
@@ -5121,12 +5157,24 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="1300">armar<verbs conj="regular">
+			<translations><date>0805</date>
+				<translation transitive="true">to arm</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="16800">armari<nouns>
 			<translations><date>0105</date>
 				<translation gender="m" catagory="household-room-bedroom">wardrobe</translation>
                                 <translation gender="m" catagory="household-room-kitchen">cupboard</translation>
 			</translations>
 		</nouns>
+	</Entry>
+                <Entry frequency="47500">armat<adjectives>
+			<translations><date>0805</date>
+				<translation>armed<catexamp>Forces armades</catexamp><engexamp>Armed forces</engexamp><fems>armada</fems></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="12500">armeni<nouns>
 			<translations><date>0305</date>
@@ -5425,6 +5473,12 @@
 			</translations>
 		</adverbs>
 	</Entry>
+	<Entry frequency="517">arsènic<nouns>
+			<translations><date>0805</date>
+				<translation gender="m">arsenic</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="705000">art<nouns>
 			<translations><date>0105</date>
 				<translation gender="m">art<catexamp>Arts marcials</catexamp>
@@ -5491,6 +5545,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="6420">arxipèlag<nouns>
+			<translations><date>0805</date>
+				<translation catagory="geography" gender="m">archipelago</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="502000">arxiu<nouns>
 			<translations>
 				<date>0205</date>
@@ -5538,6 +5598,15 @@
 				<translation catagory="geography-continent" gender="f">Asia</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        	<Entry frequency="33400">asiàtic<adjectives>
+			<translations><date>0805</date>
+				<translation>Asian</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="m / f">Asian<fems>asiàtica</fems><femplural>asiàtiques</femplural></translation></translations></nouns>
 	</Entry>
 	<Entry frequency="759">asimetria<nouns>
 			<translations>
@@ -5699,6 +5768,12 @@
 				<translation gender="m">sexual harassment</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        	<Entry frequency="4050">assetjar<verbs conj="JtoG">
+			<translations><date>0805</date>
+				<translation>to assault</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="18600">asseure<verbs conj="irregular11">
 			<translations>
@@ -6374,7 +6449,7 @@
 	<Entry frequency="213000">avaluació<nouns>
 			<translations>
 				<date>0205</date>
-				<translation gender="f">evaluation<plural>avaluacions</plural>
+				<translation gender="f">evaluation / assessment<plural>avaluacions</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -6382,7 +6457,7 @@
 	<Entry frequency="87200">avaluar<verbs conj="irregular1">
 			<translations>
 				<date>0605</date>
-				<translation transitive="true">to evaluate</translation>
+				<translation transitive="true">to evaluate / to assess</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6406,6 +6481,7 @@
 			<translations>
 				<date>0205</date>
 				<translation gender="m">advantage</translation>
+                                <translation gender="m">asset</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6487,6 +6563,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        	<Entry frequency="730">avergonyit<adjectives>
+			<translations><date>0805</date>
+				<translation>ashamed<fems>avergonyida</fems></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="4730000">avet<nouns>
 			<translations>
 				<translation catagory="plant-tree" gender="m">fir (tree)</translation>
@@ -6510,8 +6592,8 @@
 	<Entry frequency="147000">aviat<adverbs>
 			<translations>
 				<date>0205</date>
-				<translation catagory="time" collocation="true">soon<catexamp>Tan aviat com sigui possible</catexamp>
-					<engexamp>As soon as possible</engexamp>
+				<translation catagory="time" collocation="true">soon<catexamp>El més aviat possible / tan aviat com sigui possible</catexamp>
+					<engexamp>As soon as possible (ASAP)</engexamp>
 				</translation>
 			</translations>
 		</adverbs>

@@ -1498,8 +1498,9 @@
 	</Entry>
 	<Entry frequency="9460">matriu<nouns>
 			<translations>
-				<translation catagory="body" gender="f">womb</translation>
-				<translation catagory="computers, maths" gender="f">matrix</translation>
+				<translation disambiguate="body" gender="f">womb</translation>
+                                <translation disambiguate="computers-programming" gender="f">array</translation>
+				<translation disambiguate="maths" gender="f">matrix</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2221,7 +2222,7 @@
 	<Entry frequency="756000">més<adverbs>
 			<translations>
 				<translation>more / most<catexamp>Més o menys</catexamp>
-					<engexamp>More or less</engexamp>
+					<engexamp>More or less / around / about</engexamp>
 					<catexamp>A més a més</catexamp>
 					<engexamp>Furthermore / what is more</engexamp>
 				</translation>
@@ -2742,6 +2743,12 @@
 	<Entry frequency="10600">mineria<nouns>
 			<translations>
 				<translation gender="f">mining</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="862">miniaplicació<nouns>
+			<translations><date>0805</date>
+				<translation catagory="computers-internet" termcat="true" gender="m">applet<plural>miniaplicacions</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4020,7 +4027,11 @@
 	</Entry>
 	<Entry frequency="20300">muntar<verbs conj="regular">
 			<translations>
-				<translation>to get in / to get up on / to mount</translation>
+				<translation>to get (up) on</translation>
+                                <translation>to mount</translation>
+                                <translation catagory="animal">to ride</translation>
+                                <translation>to set up</translation>
+                                <translation>to assemble</translation>
 			</translations>
 		</verbs>
 	</Entry>

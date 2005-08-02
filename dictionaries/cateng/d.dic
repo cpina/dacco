@@ -1304,11 +1304,19 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="18300">despertar<nouns>
-			<translations>
-				<translation>to wake up</translation>
+                <Entry frequency="24">despertament<nouns>
+			<translations><date>0805</date>
+				<translation gender="m">awakening / arousal</translation>
 			</translations>
 		</nouns>
+	</Entry>
+	<Entry frequency="49300">despertar<verbs conj="regular">
+			<translations>
+                        <translation transitive="true">to wake (somebody) up / to wake (somebody)</translation>
+                        <translation transitive="true">to awaken<catexamp>Despertar la curiositat d'(algú)</catexamp><engexamp>To awaken (somebody's) curiosity</engexamp></translation>
+				<translation reflexive="despertar-se">to wake up</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="69400">despesa<nouns>
 			<translations>
@@ -1451,7 +1459,8 @@
 	</Entry>
 	<Entry frequency="4330">desvetllar<verbs conj="regular">
 			<translations>
-				<translation>to awaken</translation>
+                        <translation transitive="true">to wake (somebody) up / to wake (somebody)</translation>
+				<translation transitive="true">to awaken<catexamp>Desvetllar l'interès d'(algú)</catexamp><engexamp>To awaken (somebody's) interest</engexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1491,7 +1500,7 @@
 	</Entry>
 	<Entry frequency="12300">detenir<verbs conj="irregular5">
 			<translations>
-				<translation>to arrest</translation>
+				<translation>to arrest / to apprehend</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2441,6 +2450,12 @@
 	<Entry frequency="221">distròfia muscular<nouns>
 			<translations>
 				<translation catagory="medical-illness" gender="f">muscular dystrophy</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="599">disturbi<nouns>
+			<translations><date>0805</date>
+				<translation gender="m">riot</translation>
 			</translations>
 		</nouns>
 	</Entry>
