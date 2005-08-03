@@ -347,15 +347,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="1220" hasSound="true">banyador<nouns>
-			<translations>
+	<Entry frequency="751" hasSound="true">banyador<nouns>
+			<translations><date>0805</date>
 				<translation catagory="clothes, sports-event-swimming" gender="m">swimming costume / bathing costume</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="4000" hasSound="true">banyar<verbs conj="regular">
-			<translations>
-				<translation>to have a bath</translation>
+	<Entry frequency="12200" hasSound="true">banyar<verbs conj="regular">
+			<translations><date>0805</date>
+                        <translation transitive="true">to bath / to bathe / to give (someone) a bath</translation>
+                        <translation transitive="true">to bathe</translation>
+				<translation reflexive="banyar-se">to have a bath</translation>
+                                <translation reflexive="banyar-se">to go for a swim / to take a dip (in the sea / river / lake)<catnote>També es pot dir 'to bathe', però en aquest sentit és una paraula molt passada de moda.</catnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -474,6 +477,12 @@
 	<Entry frequency="736">baríton<nouns>
 			<translations>
 				<translation catagory="entertainment-music" gender="m">baritone</translation>
+			</translations>
+		</nouns>
+	</Entry>
+               <Entry frequency="1540">barnús<nouns>
+			<translations><date>0805</date>
+				<translation catagory="clothes" gender="m">bathrobe<plural>barnussos</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -700,6 +709,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+               <Entry frequency="5780">batec<nouns>
+			<translations><date>0805</date>
+				<translation gender="m">beat<catexamp>Batec del cor</catexamp><engexamp>Heartbeat</engexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="499">batedora<nouns>
 			<translations>
 				<translation catagory="household-room-kitchen" gender="f">mixer</translation>
@@ -834,6 +849,12 @@
 				<translation>beautiful<fems>bella</fems></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+               <Entry frequency="51600">bellesa<nouns>
+			<translations><date>0805</date>
+				<translation gender="f">beauty</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="1400" hasSound="true">bel·licista<adjectives>
 			<translations>
@@ -1915,6 +1936,7 @@
 	<Entry frequency="7030" hasSound="true">bruixa<nouns>
 			<translations>
 				<translation gender="f">witch</translation>
+                                <translation register="offensive" gender="f">witch / bat</translation>
 			</translations>
 		</nouns>
 	</Entry>
