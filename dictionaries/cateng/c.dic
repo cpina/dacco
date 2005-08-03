@@ -405,6 +405,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="643">calvície<nouns>
+			<translations>
+				<translation gender="f">baldness</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="13100">cama<nouns>
 			<translations>
 				<translation catagory="body" gender="f">leg</translation>
@@ -1951,6 +1957,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+               <Entry frequency="657">cibertira<nouns>
+			<translations><date>0805</date>
+				<translation catagory="computers-internet" termcat="true" gender="f">banner</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1380">cicatriu<nouns>
 			<translations>
 				<translation catagory="medical" gender="f">scar</translation>
@@ -2527,6 +2539,12 @@
 	<Entry frequency="123000">codi<nouns>
 			<translations>
 				<translation gender="m">code</translation>
+			</translations>
+		</nouns>
+	</Entry>
+               <Entry frequency="4000">codi de barres<nouns>
+			<translations><date>0805</date>
+				<translation gender="m">barcode / UPC (code) (Am.)<catnote>'Barcode' es pot escriure 'barcode' (una paraula) o 'bar code' (dues paraules).</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4325,33 +4343,25 @@
 					<catexamp>Tres cops al dia</catexamp>
 					<engexamp>Three times a day</engexamp>
 				</translation>
-				<translation gender="m">blow</translation>
+				<translation gender="m">blow / bang</translation>
 				<translation gender="m">knock</translation>
-				<translation gender="m">bruise</translation>
-				<translation gender="m">bump
-					<catexamp>A cop de</catexamp><engexamp>By means of, by force of</engexamp>
-					<catexamp>Cop de puny</catexamp><engexamp>Punch</engexamp>
+                                <translation disambiguate="sports" gender="m">stroke / shot / hit</translation>
+				<translation gender="m">bump<catexamp>Cop de puny</catexamp><engexamp>Punch</engexamp>
+                                        <catexamp>Cop de peu</catexamp><engexamp>Kick</engexamp>
 					<catexamp>Cop d'estat</catexamp><engexamp>Coup d'état</engexamp>
-					<catexamp>De cop (i volta)</catexamp><engexamp>Suddenly</engexamp>
 					<catexamp>Cop de cap</catexamp><engexamp>Impulse, sudden decision</engexamp>
-					<catexamp>Cop de mà</catexamp><engexamp>Hand (I need a hand, to give someone a hand)</engexamp>
+					<catexamp>Cop de mà</catexamp><engexamp>A hand (I need a hand, Give me a hand)</engexamp>
 					<catexamp>Cop de telèfon</catexamp><engexamp>Call / ring (Br.)</engexamp>
-					<catexamp>Un cop d'ull</catexamp><engexamp>A (quick) look</engexamp>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="9210">de cop<adverbs>
-			<translations>
-				<translation>suddenly</translation>
-			</translations>
-		</adverbs>
-	</Entry>
-	<Entry frequency="2580">de cop i volta<adverbs>
-			<translations>
-				<translation>suddenly</translation>
-			</translations>
-		</adverbs>
+					<catexamp>Un cop d'ull</catexamp><engexamp>A (quick) look</engexamp></translation></translations></nouns>
+                                <expressions>a cop de
+                                <translations>
+                                <translation>by means of / by force of / by dint of</translation></translations></expressions>
+                                <expressions>de cop
+                                <translations>
+                                <translation>suddenly</translation></translations></expressions>
+                                <expressions>de cop i volta
+                                <translations>
+                                <translation>suddenly</translation></translations></expressions>
 	</Entry>
 	<Entry frequency="26800">copa<nouns>
 			<translations>
@@ -4361,6 +4371,12 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+               <Entry frequency="538">copejar<verbs conj="JtoG">
+			<translations><date>0805</date>
+				<translation>to hit / to bang</translation>
+			</translations>
+		</verbs>
 	</Entry>
           <Entry frequency="675">copet<nouns>
 			<translations><date>0405</date>
