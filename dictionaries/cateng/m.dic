@@ -2221,13 +2221,18 @@
 	</Entry>
 	<Entry frequency="756000">més<adverbs>
 			<translations>
-				<translation>more / most<catexamp>Més o menys</catexamp>
-					<engexamp>More or less / around / about</engexamp>
-					<catexamp>A més a més</catexamp>
-					<engexamp>Furthermore / what is more</engexamp>
-				</translation>
+				<translation>more</translation>
+                                <translation>most</translation>
 			</translations>
 		</adverbs>
+                <expressions>a més a més
+                <translations>
+                <translation>furthermore / what is more / in addition / besides</translation></translations></expressions>
+                <expressions>a més a més de
+                <translations>
+                <translation>in addition to / as well as / besides</translation></translations></expressions>
+                <expressions>més o menys
+                <translations><translation>more or less / around / about</translation></translations></expressions>
 	</Entry>
 	<Entry frequency="7730">mescla<nouns>
 			<translations>
@@ -2663,7 +2668,8 @@
 	</Entry>
 	<Entry frequency="200000">millor<adjectives>
 			<translations>
-				<translation>better / best</translation>
+				<translation>better</translation>
+                                <translation>best</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2673,9 +2679,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="4660">millor amic<nouns>
+			<translations><date>0805</date>
+				<translation gender="m / f">best friend<fems>millor amiga</fems><femplural>millors amigues</femplural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="101000">millorar<verbs conj="regular">
 			<translations>
-				<translation>to improve</translation>
+				<translation>to improve / to better</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3445,6 +3457,12 @@
 				<translation>many / much / very<fems>molta</fems></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="5250">molta sort<exclamations>
+			<translations><date>0805</date>
+				<translation>good luck! / best of British! (Br.)</translation>
+			</translations>
+		</exclamations>
 	</Entry>
 	<Entry frequency="735">moltó<nouns>
 			<translations>
