@@ -2739,7 +2739,7 @@
          <Entry frequency="246000">blinker<nouns>
 			<translations>
 				<translation disambiguate="transport" register="colloquial" gender="m">intermitent</translation>
-                                <translation disambiguate="animal" gender="fpl">ulleres<synonyms>blinders (Am.)</synonyms></translation>
+                                <translation sourceplural="blinkers" disambiguate="animal" gender="fpl">ulleres<synonyms>blinders (Am.)</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2816,7 +2816,7 @@
 	</Entry>
 	<Entry frequency="325000">bloke<nouns>
 			<translations>
-				<translation register="colloquial" gender="m">home</translation>
+				<translation register="colloquial" local="gb" gender="m">home / tipus<otherlocal>guy</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2827,16 +2827,16 @@
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation gender="m">ros</translation></translations></nouns>
+                <translation gender="mf">ros<engnote>The feminine of 'ros' is 'rossa', the plural is 'rossos'.</engnote></translation></translations></nouns>
 	</Entry>
 	<Entry frequency="9170000">blonde<adjectives>
 			<translations>
-				<translation>rossa</translation>
+				<translation>ros</translation>
 			</translations>
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation gender="f">rossa</translation>
+				<translation gender="mf">ros<engnote>The feminine of 'ros' is 'rossa', the plural is 'rossos'.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2941,8 +2941,16 @@
 	<Entry frequency="67400000">blue<adjectives>
 			<translations>
 				<translation>blau</translation>
+                                <translation register="colloquial">trist</translation>
+                                <translation>verd<engexamp>Blue jokes</engexamp><catexamp>Acudits verds</catexamp></translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation sourceplural="blues" catagory="entertainment-music" gender="mpl">blues</translation></translations></nouns>
+                <expressions>out of the blue
+                <translations>
+                <translation>inesperadament</translation></translations></expressions>
 	</Entry>
            <Entry frequency="2790000">blueberry<nouns>
 			<translations>
