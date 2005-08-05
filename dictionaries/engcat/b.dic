@@ -3017,12 +3017,6 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="5980000">on board<adverbs>
-			<translations>
-				<translation>a bord</translation>
-			</translations>
-		</adverbs>
-	</Entry>
 	<Entry frequency="10900000">board<nouns>
 			<translations>
 				<translation gender="m">post<engexamp>Ironing board</engexamp>
@@ -3034,7 +3028,7 @@
 					<translation gender="m">consell de direcció</translation>
 					<translation gender="m">patronat</translation>
 				</translation>
-				<translation disambiguate="education" gender="f">pissarra<synonyms>blackboard</synonyms>
+				<translation disambiguate="education" gender="f">pissarra<synonyms>blackboard (Br.) / chalkboard (Am.)</synonyms>
 					<engnote>'Pissarra' means 'board' as in 'blackboard'</engnote>
 				</translation>
 				<translation gender="m">tauler d'anuncis<synonyms>noticeboard</synonyms>
@@ -3057,6 +3051,9 @@
 				</translation>
 			</translations>
 		</verbs>
+                <expressions>on board
+                <translations>
+                <translation>a bord</translation></translations></expressions>
 	</Entry>
 	<Entry frequency="8630">boarding card<nouns>
 			<translations>
@@ -3105,7 +3102,7 @@
 				<translation gender="m">cadàver<plural>bodies</plural>
 					<engnote>'Cadàver' means 'body' as in 'dead body' / 'corpse'</engnote>
 				</translation>
-                                <translation beforenoun="true">corporal</translation>
+                                <translation beforenoun="true">corporal<engexamp>Body image</engexamp><catexamp>Imatge corporal</catexamp><engexamp>Body temperature</engexamp><catexamp>Temperatura corporal</catexamp></translation>
                                 <translation gender="f">entitat<engnote>'Entitat' means 'body' in the sense 'entity' / 'institution' (e.g. 'funding body').</engnote></translation>
 			</translations>
 		</nouns>
@@ -3220,9 +3217,9 @@
 	</Entry>
 	<Entry frequency="320000">bollocks<nouns>
 			<translations>
-				<translation disambiguate="body" register="vulgar" local="gb" gender="mpl">collons<engexamp>The dog's bollocks</engexamp><catexamp>Molt bo / excel·lent</catexamp><synonyms>nuts (vulg.), balls (vulg.), testicles</synonyms>
+				<translation disambiguate="body" register="vulgar" local="gb" gender="mpl">collons<engexamp>The dog's bollocks</engexamp><catexamp>Molt bo / excel·lent</catexamp><synonyms>nuts (vulg.), balls (vulg.)</synonyms>
 				</translation>
-				<translation register="vulgar" local="gb">equivocat, incorrecte<synonyms>rubbish, crap, wrong</synonyms>
+				<translation register="vulgar" local="gb">equivocat / incorrecte<synonyms>rubbish, crap</synonyms>
 				</translation>
 			</translations>
 		</nouns>
@@ -3239,6 +3236,9 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>bolt from the blue / bolt out of the blue
+                <translations>
+                <translation>no esperat<example>The news that my uncle had cancer came like &lt;b&gt;a bolt from the blue&lt;/b&gt; and was a tremendous shock for the family.</example></translation></translations></expressions>
 	</Entry>
 	<Entry frequency="36800000">bomb<nouns>
 			<translations>
@@ -3310,7 +3310,7 @@
 	</Entry>
 	<Entry frequency="137000">bonk<verbs>
 			<translations>
-				<translation register="slang">cardar</translation>
+				<translation register="slang" local="gb">cardar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3345,8 +3345,7 @@
 	</Entry>
 	<Entry frequency="11500">bonzer<adjectives>
 			<translations>
-				<translation local="au">molt bé / excel·lent<synonyms>great</synonyms>
-				</translation>
+				<translation local="au">molt bo / excel·lent</translation>
 			</translations>
 		</adjectives>
 	</Entry>
