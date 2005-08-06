@@ -3754,7 +3754,7 @@
 			<translations>
 				<translation gender="m">llaç<engnote>'Llaç' means 'bow' in the sense 'he tied the ribbon into a bow'</engnote>
 				</translation>
-				<translation gender="m">arc<engnote>'Arc' means 'bow' as in 'bow and arrow'</engnote>
+				<translation gender="m">arc<engexamp>Bow and arrows</engexamp><catexamp>Arc i fletxes</catexamp><engnote>'Arc' means 'bow' as in 'bow and arrow'</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -3772,17 +3772,12 @@
 	<Entry frequency="8830000">bowl<nouns>
 			<translations>
 				<translation gender="m">bol</translation>
+                                <translation sourceplural="bowls" catagory="sports-event" gender="fpl">botxes</translation>
 			</translations>
 		</nouns>
                 <verbs>
                 <translations>
                 <translation>llançar</translation></translations></verbs>
-	</Entry>
-	<Entry frequency="2000000">bowls<nouns>
-			<translations>
-				<translation catagory="sports-event" gender="fpl">botxes</translation>
-			</translations>
-		</nouns>
 	</Entry>
                         <Entry frequency="461000">bow tie<nouns>
 			<translations>
@@ -3998,7 +3993,10 @@
 		</nouns>
                 <expressions>brass monkey weather
                 <translations>
-                <translation local="gb" register="slang">(fa) molta fred<catnote>L'expressió 'It's brass monkey weather' o 'It's cold enough to freeze the balls off a brass monkey' vol dir 'fa molta fred'.</catnote></translation></translations></expressions>
+                <translation local="gb" register="slang">(fa) molta fred<example>John came in and stood in front of the fire. "It's real &lt;b&gt;brass monkey weather&lt;/b&gt; out there today", he said rubbing his hands.</example></translation></translations></expressions>
+                <expressions>it's cold enough to freeze the balls off a brass monkey
+                <translations>
+                <translation local="gb" register="vulgar">fa molta fred</translation></translations></expressions>
 	</Entry>
         <Entry frequency="108000">brass knuckles<nouns>
 			<translations>
@@ -4228,7 +4226,7 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="1790000">breast feeding<nouns>
+	<Entry frequency="3320000">breastfeeding<nouns>
 			<translations>
 				<translation>
 					<translation gender="m">alletament (matern)</translation>
@@ -4287,6 +4285,7 @@
 		</nouns>
 		<verbs>
 			<past>bred</past>
+                        <participle>bred</participle>
 			<translations>
 				<translation>criar</translation>
 			</translations>
@@ -4397,6 +4396,12 @@
 				</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation local="gb" gender="fpl">instruccions</translation>
+                <translation catagory="work-job, legal" local="gb" register="colloquial" gender="mf">advocat<example>Jason wouldn't cooperate with the police. 'I'm not saying anything until I've seen my &lt;b&gt;brief&lt;/b&gt;' he said.</example></translation>
+                <translation sourceplural="briefs" catagory="clothes" gender="fpl">calces</translation>
+                <translation sourceplural="briefs" catagory="clothes" gender="mpl">calçotets</translation></translations></nouns>
 	</Entry>
          <Entry frequency="3220000">briefcase<nouns>
 			<translations>
@@ -4560,7 +4565,7 @@
 	</Entry>
 	<Entry frequency="7170000">broke<adjectives>
 			<translations>
-				<translation register="colloquial">que no té diners<synonyms>skint, penniless</synonyms>
+				<translation register="colloquial">que no té diners<example>I'd love to go out for a drink tonight but I can't, I'm &lt;b&gt;broke&lt;/b&gt;.</example><synonyms>skint, penniless</synonyms>
 				</translation>
 			</translations>
 		</adjectives>
@@ -4573,7 +4578,7 @@
 	</Entry>
 	<Entry frequency="103000">broken home<nouns>
 			<translations>
-				<translation noteng="TRUE">-<catnote>Una 'broken home és una casa on els pares estan separats o divorciats</catnote>
+				<translation noteng="TRUE">-<catnote>Una 'broken home és una família on els pares estan separats o divorciats</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -4753,6 +4758,12 @@
 			</translations>
 		</adverbs>
 	</Entry>
+        <Entry frequency="7640">bubble<nouns>
+			<translations>
+				<translation gender="f">bombolla</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="152000">bubble bath<nouns>
 			<translations>
 				<translation gender="m">gel de bany</translation>
@@ -4843,7 +4854,7 @@
 		</verbs>
 		<nouns>
 			<translations>
-				<translation register="vulgar" gender="m">pesat<catnote>Aquesta paraula no equival exactament a 'pesat' però és molt difícil pensar en un equivalent català.  Si algú pot pensar en un bon equivalent, fes-nos saber-ho.  Per ara, us donem alguns exemples: 'You little bugger! You did that on purpose!', 'The old bugger's making my life really difficult!', 'You lucky bugger!'</catnote>
+				<translation register="vulgar" gender="m">pesat<catnote>Aquesta paraula no equival exactament a 'pesat' però és molt difícil pensar en un equivalent català.  Si algú pot pensar en un bon equivalent, fes-nos-ho saber.  Per ara, us donem alguns exemples: 'You little bugger! You did that on purpose!', 'The old bugger's making my life really difficult!', 'You lucky bugger!'</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -5062,7 +5073,7 @@
 			<translations>
 				<translation disambiguate="food" gender="m">panet</translation>
                                 <translation gender="m">monyo<engnote>'Monyo' means 'bun' in the sense 'she wore her hair in a bun'.</engnote></translation>
-                                <translation disambiguate="body" register="slang" gender="f">natja<catnote>Igual que la paraula 'natja', 'bun' s'utilitza generalment en plural (per exemple: 'Blimey! Look at the buns on that one!').</catnote></translation>
+                                <translation sourceplural="buns" disambiguate="body" register="slang" gender="fpl">natges<example>Blimey! Look at the &lt;b&gt;buns&lt;/b&gt; on that one!.</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5196,7 +5207,7 @@
 			<translations>
 				<translation>robar<example>We came back from our holidays to find out that our house had been &lt;b&gt;burgled&lt;/b&gt; while we were away</example>
 					<example>The local village store has been &lt;b&gt;burgled&lt;/b&gt; five times in the last 6 months</example>
-					<catnote>Normalment el verbi 'to burgle' refereix al fet de robar coses de cases particulars però també pot referir al fet de robar coses de qualsevol edifici (sobretot als Estats Units).</catnote>
+					<catnote>Normalment el verb 'to burgle' refereix al fet de robar coses de cases particulars però també pot referir al fet de robar coses de qualsevol edifici (sobretot als Estats Units).</catnote>
 				</translation>
 			</translations>
 		</verbs>
@@ -5258,7 +5269,7 @@
 	<Entry frequency="1930000">burnout<nouns>
 			<translations>
 				<translation>desgast / esgotament / apatia
-					<engexamp>burnout syndrome</engexamp><catexamp>síndrome d'esgotament professional</catexamp>
+					<engexamp>Burnout syndrome</engexamp><catexamp>Síndrome d'esgotament professional</catexamp>
 				</translation>
 			</translations>
 		</nouns>
@@ -5386,17 +5397,19 @@
         <Entry frequency="4790000">bust<nouns>
 			<translations>
 				<translation gender="m">bust<engnote>'Bust' means 'bust' as in a head and shoulders sculpture.</engnote></translation>
-                                <translation disambiguate="body" gender="m">bust<engexamp>To go bust</engexamp><catexamp>Fer bancarrota</catexamp></translation>
-			</translations>
+                                <translation disambiguate="body" gender="m">bust</translation></translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="18300">bust a gut<verbs>
-			<past>bust, busted</past>
-			<participle>bust, busted</participle>
-			<translations>
-				<translation register="slang">fer un esforç intens</translation>
-			</translations>
-		</verbs>
+                <verbs>
+                <past>bust, busted</past>
+                <participle>bust, busted</participle>
+                <translations>
+                <translation register="slang">espatllar</translation>
+                <translation register="slang">detenir</translation>
+                </translations></verbs>
+                <expressions register="slang">to bust a gut<translations>
+                <translation>fer un esforç important</translation></translations></expressions>
+                <expressions>to go bust<translations>
+                <translation>fer bancarrota</translation></translations></expressions>
 	</Entry>
 	<Entry frequency="10200000">busy<adjectives>
 			<translations>
@@ -5423,15 +5436,10 @@
 	<Entry frequency="2220000">butcher<nouns>
 			<translations>
 				<translation gender="mf">carnisser</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="1490">butchers<nouns>
-			<translations>
-				<translation register="dialectal-cockney" noteng="TRUE" local="gb" gender="f">mirada<example>Give me a &lt;b&gt;butchers&lt;/b&gt;!</example>
+                                <translation sourceplural="butchers" register="dialectal-cockney" noteng="TRUE" local="gb" gender="f">mirada<example>Give me a &lt;b&gt;butchers&lt;/b&gt;!</example>
 					<catnote>Look &gt; butcher's hook &gt; butchers</catnote>
 				</translation>
-				<translation gender="f">carnisseria</translation>
+				<translation sourceplural="butcher's" gender="f">carnisseria</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5454,13 +5462,13 @@
 		</nouns>
 		<phrasalverbs>butt in
 		<translations>
-				<translation>interrompre una conversa (sense que ningú no ho demani)<synonyms>interrupt</synonyms>
+				<translation>interrompre una conversa<synonyms>interrupt</synonyms>
 				</translation>
 			</translations>
 		</phrasalverbs>
                 <phrasalverbs>butt out
                 <translations>
-                <translation>deixar (algú) en pau / callar<example>Will you &lt;b&gt;butt out&lt;/b&gt;? This has got nothing to do with you!</example></translation>
+                <translation>deixar (algú) en pau / callar-se<example>Will you &lt;b&gt;butt out&lt;/b&gt;? This has got nothing to do with you!</example></translation>
                 </translations>
                 </phrasalverbs>
 	</Entry>
