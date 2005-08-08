@@ -377,9 +377,15 @@
 	</Entry>
 	<Entry frequency="350000">deixar<verbs conj="regular">
 			<translations>
-				<translation>to leave / to lend</translation>
+				<translation>to leave</translation>
+                                <translation>to lend</translation>
+                                <translation>to put something (down)<example>Va &lt;b&gt;deixar&lt;/b&gt; els dossiers de feina sobre la taula.</example></translation>
+                                <translation reflexive="deixar-se">to let yourself go</translation>
 			</translations>
 		</verbs>
+                <expressions>deixar anar
+                <translations>
+                <translation>to let out / to release / to let go of<catexamp>Deixar anar un sospir / gemec</catexamp><engexamp>To let out a sigh / moan</engexamp></translation></translations></expressions>
 	</Entry>
         <Entry frequency="9180">deixeble<nouns>
 			<translations><date>0405</date>
@@ -2216,6 +2222,24 @@
 				<translation catagory="medical" gender="f">disability / handicap<catexamp>Persones amb discapacitat</catexamp>
 					<engexamp>Disabled / handicapped people</engexamp>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="349">disc d'arranc<nouns>
+			<translations><date>0805</date>
+				<translation catagory="computers" gender="m">boot disk</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="35">disc d'arrancada<nouns>
+			<translations><date>0805</date>
+				<translation catagory="computers" termcat="true" gender="m">boot disk<engnote>'Disc d'arrancada' is the official term provided by Termcat. Although not officially sanctioned terms, 'disc d'arranc' and 'disc d'inici' are also widely used.</engnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="397">disc d'inici<nouns>
+			<translations><date>0805</date>
+				<translation catagory="computers" gender="m">boot disk</translation>
 			</translations>
 		</nouns>
 	</Entry>
