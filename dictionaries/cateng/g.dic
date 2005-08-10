@@ -333,6 +333,9 @@
 				<translation gender="f">carob</translation>
 			</translations>
 		</nouns>
+                <expressions>el / la que es guanya les garrofes
+                <translations>
+                <translation>breadwinner</translation></translations></expressions>
 	</Entry>	
 	<Entry frequency="885">garsa<nouns>
 			<translations>
@@ -832,29 +835,18 @@
 	</Entry>
 	<Entry frequency="27700">germà<nouns>
 			<translations>
-				<translation catagory="family-blood" gender="m">brother<fems>germana</fems>
-					<plural>germans</plural>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="11400">germana<nouns>
-			<translations>
-				<translation catagory="family-blood" gender="f">sister</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="130">germanastra<nouns>
-			<translations><date>0505</date>
-				<translation catagory="family-blood" gender="f">half sister</translation>
-				<translation catagory="family-marriage" gender="f">stepsister</translation>
+				<translation catagory="family" gender="m">brother</translation>
+                                <translation catagory="family" feminine="germana" gender="f">sister</translation>
+                                <translation catagory="family" sourceplural="germans" gender="mpl">brothers / brother and sister / siblings</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="255">germanastre<nouns>
 			<translations>
-				<translation catagory="family-blood" gender="m">half brother</translation>
-				<translation catagory="family-marriage" gender="m">stepbrother</translation>
+				<translation catagory="family" gender="m">half brother</translation>
+				<translation catagory="family" gender="m">stepbrother</translation>
+                                <translation catagory="family" feminine="germanastra" gender="f">half sister</translation>
+                                <translation catagory="family" feminine="germanastra" gender="f">stepsister</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -870,12 +862,6 @@
 				</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-	<Entry frequency="29400">germans<nouns>
-			<translations>
-				<translation catagory="family-blood" gender="m">brother and sister / siblings</translation>
-			</translations>
-		</nouns>
 	</Entry>
          <Entry frequency="1120">germen<nouns>
 			<translations>
@@ -897,7 +883,7 @@
 	</Entry>
 	<Entry frequency="1570">gerra<nouns>
 			<translations>
-				<translation catagory="household-room-kitchen-crockery" gender="f">jug / pitcher</translation>
+				<translation catagory="household-room-kitchen" gender="f">jug / pitcher</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -964,7 +950,8 @@
 	</Entry>
         <Entry frequency="68600">gestor<nouns>
 			<translations>
-				<translation catagory="computers" gender="m">manager</translation>
+                        <translation disambiguate="work" gender="m / f">manager<fems>gestora</fems><catnote>Quan es parla d'una dona també es pot dir 'manageress' però aquesta paraula és una mica passada de moda.</catnote></translation>
+				<translation disambiguate="computers" gender="m">manager</translation>
 			</translations>
 		</nouns>
 	</Entry>

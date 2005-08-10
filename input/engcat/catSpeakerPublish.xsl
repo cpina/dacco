@@ -380,15 +380,21 @@
 		<xsl:if test="contains(@disambiguate,'Weather') or contains(@disambiguate,'weather') ">
 			<span class="category">[METEOR] </span>
 		</xsl:if>
-                <xsl:if test="contains(@disambiguate,'insect') or contains(@disambiguate,'insect') ">
+                <xsl:if test="contains(@disambiguate,'Insect') or contains(@disambiguate,'insect') ">
 			<span class="category">[INSECTE] </span>
 		</xsl:if>
-                    <xsl:if test="contains(@disambiguate,'agriculture') or contains(@disambiguate,'agriculture') ">
+                    <xsl:if test="contains(@disambiguate,'Agriculture') or contains(@disambiguate,'agriculture') ">
 			<span class="category">[AGRIC] </span>
 		</xsl:if>
-                 <xsl:if test="contains(@disambiguate,'music') or contains(@disambiguate,'music') ">
+                 <xsl:if test="contains(@disambiguate,'Music') or contains(@disambiguate,'music') ">
 			<span class="category">[MÚSICA] </span>
 		</xsl:if>
+                  <xsl:if test="contains(@disambiguate,'Maths') or contains(@disambiguate,'maths') ">
+			<span class="category">[MAT] </span>
+		</xsl:if>
+                <xsl:if test="contains(@disambiguate,'Plant') or contains(@disambiguate,'plant') ">
+				<span class="category">[BOT] </span>
+			</xsl:if>
                 <xsl:if test="@picture">
                     <xsl:element name="a">
                 <xsl:attribute name="href">javascript:flickr("<xsl:value-of select="@picture"/>","<xsl:value-of select="../../../text()"/>","<xsl:value-of select="@flickr"/>");</xsl:attribute>

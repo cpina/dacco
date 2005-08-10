@@ -287,7 +287,7 @@
 	</Entry>
 	<Entry frequency="2580">nata<nouns>
 			<translations>
-				<translation catagory="food-dairy" gender="f">cream</translation>
+				<translation catagory="food" gender="f">cream</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -390,14 +390,14 @@
 	</Entry>
 	<Entry frequency="2000">Natzaret<nouns>
 			<translations>
-				<translation catagory="country-asia-israel-city" gender="m">Nazareth</translation>
+				<translation catagory="city-asia-israel" gender="m">Nazareth</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="20800">nau<nouns>
 			<translations>
-				<translation catagory="transport-mode">ship</translation>
-				<translation catagory="religious" gender="f">nave</translation>
+				<translation disambiguate="transport-mode">ship</translation>
+				<translation disambiguate="religious" gender="f">nave</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -486,15 +486,15 @@
 	</Entry>
 	<Entry frequency="19300">navegant<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m / f">navigator</translation>
-				<translation catagory="computers" gender="m / f">surfer</translation>
+				<translation disambiguate="work-job" gender="m / f">navigator</translation>
+				<translation disambiguate="computers" gender="m / f">surfer</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="14800">navegar<verbs conj="GtoGU">
 			<translations>
-				<translation catagory="computers-internet">to browse</translation>
-				<translation catagory="transport">to sail</translation>
+				<translation disambiguate="computers-internet">to browse</translation>
+				<translation disambiguate="transport">to sail</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -517,13 +517,13 @@
 	</Entry>
 	<Entry frequency="1170">neboda<nouns>
 			<translations>
-				<translation catagory="family-blood, family-marriage" gender="f">niece</translation>
+				<translation catagory="family" gender="f">niece</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="4680">nebot<nouns>
 			<translations>
-				<translation catagory="family-blood, family-marriage" gender="m">nephew</translation>
+				<translation catagory="family" gender="m">nephew</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -639,8 +639,8 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation catagory="language" gender="m">Dutch</translation>
-				<translation catagory="nationality-europe-holland" gender="m / f">Dutchman / Dutch woman<fems>neerlandesa</fems><plural>neerlandesos</plural></translation>
+				<translation disambiguate="language" gender="m">Dutch</translation>
+				<translation disambiguate="nationality-europe-holland" gender="m / f">Dutchman / Dutch woman<fems>neerlandesa</fems><plural>neerlandesos</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -779,7 +779,7 @@
 	</Entry>
 	<Entry frequency="840">neguitós<adjectives>
 			<translations>
-				<translation catagory="emotion-negative">anxious<fems>neguitosa</fems>
+				<translation>anxious<fems>neguitosa</fems>
 					<plural>neguitosos</plural>
 				</translation>
 			</translations>
@@ -906,8 +906,8 @@
 	</Entry>
 	<Entry frequency="282">nepalès<nouns>
 			<translations>
-				<translation catagory="nationality-asia" gender="m / f">Nepali</translation>
-				<translation catagory="language" gender="m">Nepalese</translation>
+				<translation disambiguate="nationality-asia" gender="m / f">Nepali</translation>
+				<translation disambiguate="language" gender="m">Nepalese</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -956,13 +956,13 @@
 	</Entry>
 	<Entry frequency="2170">nét<nouns>
 			<translations>
-				<translation catagory="family-blood" gender="m">grandson</translation>
+				<translation catagory="family" gender="m">grandson</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="993">néta<nouns>
 			<translations>
-				<translation catagory="family-blood" gender="f">granddaughter</translation>
+				<translation catagory="family" gender="f">granddaughter</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -994,7 +994,7 @@
 	</Entry>
 	<Entry frequency="3180">néts<nouns>
 			<translations>
-				<translation catagory="family-blood" gender="m">grandchildren</translation>
+				<translation catagory="family" gender="m">grandchildren</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1046,7 +1046,7 @@
 	</Entry>
 	<Entry frequency="3160">neurologia<nouns>
 			<translations>
-				<translation catagory="work-field, medical-field" gender="f">neurologia</translation>
+				<translation catagory="work-field, medical" gender="f">neurologia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1545,7 +1545,7 @@
 	</Entry>
 	<Entry frequency="1410">nora<nouns>
 			<translations>
-				<translation catagory="family-marriage" gender="f">daughter-in-law</translation>
+				<translation catagory="family" gender="f">daughter-in-law</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1660,8 +1660,8 @@
 	</Entry>
 	<Entry frequency="11500">noruec<nouns>
 			<translations>
-				<translation catagory="nationality-europe" gender="m / f">Norwegian</translation>
-				<translation catagory="language" gender="m">Norwegian</translation>
+				<translation disambiguate="nationality-europe" gender="m / f">Norwegian</translation>
+				<translation disambiguate="language" gender="m">Norwegian</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -1766,55 +1766,54 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="613">notariat<adjectives>
-			<translations>
+	<Entry frequency="823">notariat<adjectives>
+			<translations><date>0805</date>
 				<translation>notarised (Br.) / notarized (Am.)<fems>notariada</fems>
 				</translation>
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="63600">notícia<nouns>
-			<translations>
+	<Entry frequency="555000">notícia<nouns>
+			<translations><date>0805</date>
 				<translation gender="f">(piece of) news</translation>
+                                <translation sourceplural="notícies" gender="fpl">news<catexamp>Agència de notícies</catexamp><engexamp>News agency</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="11500">noticiari<nouns>
-			<translations>
+        <Entry frequency="635">notícia d'última hora<nouns>
+			<translations><date>0805</date>
+				<translation>breaking news</translation>
+			</translations>
+		</nouns>
+	</Entry>
+	<Entry frequency="9820">noticiari<nouns>
+			<translations><date>0805</date>
 				<translation gender="m">news (section / column / bulletin)</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="189000">notícies<nouns>
-			<translations>
-				<translation gender="f">news<catexamp>Agència de notícies</catexamp>
-					<engexamp>News agency</engexamp>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="45500">notificació<nouns>
-			<translations>
+	<Entry frequency="92400">notificació<nouns>
+			<translations><date>0805</date>
 				<translation gender="f">notification<plural>notificacions</plural>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="45300">notificar<verbs conj="CtoQU">
-			<translations>
+	<Entry frequency="72000">notificar<verbs conj="CtoQU">
+			<translations><date>0805</date>
 				<translation>to notify</translation>
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="6270">notori<adjectives>
-			<translations>
+	<Entry frequency="14500">notori<adjectives>
+			<translations><date>0805</date>
 				<translation>notorious<fems>notòria</fems>
 				</translation>
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="1370">notorietat<nouns>
-			<translations>
+	<Entry frequency="909">notorietat<nouns>
+			<translations><date>0805</date>
 				<translation gender="f">notoriety</translation>
 			</translations>
 		</nouns>
@@ -2023,7 +2022,7 @@
 	<Entry frequency="692">novici<nouns>
 			<translations>
 				<translation gender="m / f">novice / beginner</translation>
-				<translation catagory="religious" gender="m / f">novice (nun / monk)<fems>novícia</fems></translation>
+				<translation disambiguate="religious" gender="m / f">novice (nun / monk)<fems>novícia</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2191,7 +2190,7 @@
 	</Entry>
         <Entry frequency="663">nupcial<adjectives>
 			<translations><date>0505</date>
-				<translation>wedding<catexamp>Cerimònia nupcial</catexamp><engexamp>Wedding ceremony</engexamp></translation>
+				<translation>wedding / bridal<catexamp>Cerimònia nupcial</catexamp><engexamp>Wedding ceremony</engexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>

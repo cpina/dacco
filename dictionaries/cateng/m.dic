@@ -854,6 +854,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="191000">marca<nouns>
+			<translations><date>0805</date>
+				<translation gender="f">brand</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="160">marca mínima<nouns>
 			<translations>
 				<translation catagory="sports-event-athletics" gender="f">qualifying standard</translation>
@@ -870,7 +876,13 @@
 	<Entry frequency="55000">marcar<verbs conj="CtoQU">
 			<translations>
 				<translation>to mark</translation>
-				<translation catagory="sports">to score</translation>
+				<translation disambiguate="sports">to score</translation>
+                                <translation disambiguate="sports">to mark</translation>
+                                <translation disambiguate="telephone">to dial</translation>
+                                <translation disambiguate="animal">to brand</translation>
+                                <translation>to price</translation>
+                                <translation>to keep a tally / to keep count</translation>
+                                <translation>to show</translation>
 			</translations>
 		</verbs>
 	</Entry>

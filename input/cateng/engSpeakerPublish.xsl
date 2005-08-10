@@ -256,50 +256,68 @@
                     <xsl:if test="@register='humorous'">
 				<span class="register"> (humor) </span>
 			</xsl:if>
-<xsl:if test="contains(@catagory,'Computers') or contains(@catagory,'computers') ">
+<xsl:if test="contains(@disambiguate,'Computers') or contains(@disambiguate,'computers') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/MainComputersPage.htm">[IT]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
-			<xsl:if test="contains(@catagory,'Language') or contains(@catagory,'language') ">
+			<xsl:if test="contains(@disambiguate,'Language') or contains(@disambiguate,'language') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/LanguagesList.htm">[LANG]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
-			<xsl:if test="contains(@catagory,'Body') or contains(@catagory,'body') ">
+			<xsl:if test="contains(@disambiguate,'Body') or contains(@disambiguate,'body') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/MainBodyPage.htm">[ANAT]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
-			<xsl:if test="contains(@catagory,'Sports') or contains(@catagory,'sports') ">
+			<xsl:if test="contains(@disambiguate,'Sports') or contains(@disambiguate,'sports') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/MainSportsPage.htm">[SPORT]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
-			<xsl:if test="contains(@catagory,'Animal') or contains(@catagory,'animal') ">
+			<xsl:if test="contains(@disambiguate,'Animal') or contains(@disambiguate,'animal') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/MainAnimalPage.htm">[ZOOL]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
-			<xsl:if test="contains(@catagory,'Transport') or contains(@catagory,'transport') ">
+			<xsl:if test="contains(@disambiguate,'Transport') or contains(@disambiguate,'transport') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/MainTransportPage.htm">[TRANSP]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
-			<xsl:if test="contains(@catagory,'Medical') or contains(@catagory,'medical') ">
+			<xsl:if test="contains(@disambiguate,'Medical') or contains(@disambiguate,'medical') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/MainMedicalPage.htm">[MED]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
-			<xsl:if test="contains(@catagory,'Financial') or contains(@catagory,'financial') ">
+			<xsl:if test="contains(@disambiguate,'Financial') or contains(@disambiguate,'financial') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/FinancialList.htm">[FIN]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
-			<xsl:if test="contains(@catagory,'Religious') or contains(@catagory,'religious') ">
+			<xsl:if test="contains(@disambiguate,'Religious') or contains(@disambiguate,'religious') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/ReligionList.htm">[RELIG]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
-			<xsl:if test="contains(@catagory,'Food') or contains(@catagory,'food') ">
+			<xsl:if test="contains(@disambiguate,'Food') or contains(@disambiguate,'food') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/MainFoodPage.htm">[FOOD]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
-			<xsl:if test="contains(@catagory,'Clothes') or contains(@catagory,'clothes') ">
+			<xsl:if test="contains(@disambiguate,'Clothes') or contains(@disambiguate,'clothes') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/fullClothesList.htm">[CLOTHES]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
-<xsl:if test="contains(@catagory,'Work') or contains(@catagory,'work') ">
+<xsl:if test="contains(@disambiguate,'Work') or contains(@disambiguate,'work') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/MainWorkPage.htm">[WORK]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
-			<xsl:if test="contains(@catagory,'Country') or contains(@catagory,'country') or contains(@catagory,'city') or contains(@catagory,'City') or contains(@catagory,'river') ">
+			<xsl:if test="contains(@disambiguate,'Country') or contains(@disambiguate,'country') or contains(@disambiguate,'city') or contains(@disambiguate,'City') or contains(@disambiguate,'river') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/ContinentsList.htm">[GEOG]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
-			<xsl:if test="contains(@catagory,'Politics') or contains(@catagory,'politics') ">
+			<xsl:if test="contains(@disambiguate,'Politics') or contains(@disambiguate,'politics') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/PoliticsList.htm">[POLIT]</a><xsl:text> </xsl:text></span>
 			</xsl:if>
-			<xsl:if test="contains(@catagory,'Weather') or contains(@catagory,'weather') ">
+			<xsl:if test="contains(@disambiguate,'Weather') or contains(@disambiguate,'weather') ">
 				<span class="category"><a href="http://dacco.sourceforge.net/cateng4eng/wordnets/WeatherList.htm">[MET]</a><xsl:text> </xsl:text></span>
+			</xsl:if>
+                          <xsl:if test="contains(@disambiguate,'Music') or contains(@disambiguate,'music') ">
+			<span class="category">[MUSIC] </span>
+		</xsl:if>
+                  <xsl:if test="contains(@disambiguate,'Insect') or contains(@disambiguate,'insect') ">
+			<span class="category">[INSECT] </span>
+		</xsl:if>
+                  <xsl:if test="contains(@disambiguate,'Material') or contains(@disambiguate,'material') ">
+			<span class="category">[MATERIAL] </span>
+		</xsl:if>
+                  <xsl:if test="contains(@disambiguate,'Agriculture') or contains(@disambiguate,'agriculture') ">
+			<span class="category">[AGRIC] </span>
+		</xsl:if>
+                  <xsl:if test="contains(@disambiguate,'Maths') or contains(@disambiguate,'maths') ">
+			<span class="category">[MATH] </span>
+		</xsl:if>
+                        <xsl:if test="contains(@disambiguate,'Plant') or contains(@disambiguate,'plant') ">
+				<span class="category">[BOT] </span>
 			</xsl:if>
                          <xsl:if test="@picture">
                     <xsl:element name="a">
