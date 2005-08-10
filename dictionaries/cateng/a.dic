@@ -98,18 +98,15 @@
 				<translation gender="m">reach / extent</translation>
 			</translations>
 		</nouns>
+                <expressions>a l'abast
+                <translations>
+                <translation>within reach</translation></translations></expressions>
 	</Entry>
 	<Entry frequency="28800">abastar<verbs conj="regular">
 			<translations>
 				<translation>to reach</translation>
 			</translations>
 		</verbs>
-	</Entry>
-	<Entry frequency="53000" hasSound="true">a l'abast<adjectives>
-			<translations>
-				<translation>within reach</translation>
-			</translations>
-		</adjectives>
 	</Entry>
 	<Entry frequency="31300">abat<nouns>
 			<translations>
@@ -153,7 +150,7 @@
 	</Entry>
         <Entry frequency="6530">abdominal<adjectives>
 			<translations><date>0705</date>
-				<translation catagory="body">abdominal</translation>
+				<translation catagory="body">abdominal<catexamp>Músculs abdominals</catexamp><engexamp>Abdominals / abs</engexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -490,7 +487,8 @@
 	</Entry>
 	<Entry frequency="295">abstret<adjectives>
 			<translations><date>0705</date>
-				<translation>absorbed / engrossed / absent minded</translation>
+				<translation>absorbed / engrossed</translation>
+                                <translation>absent minded</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -626,9 +624,9 @@
 	<Entry frequency="3450">acaparar<verbs conj="regular">
 			<translations><date>0105</date>
 				<translation>to monopolize (Am.) / to monopolise (Br.)</translation>
-				<translation>to hoad / to corner / to buy up
-					<catexamp>acaparar la atenció de</catexamp>
-					<engexamp>to take up, occupy</engexamp>
+				<translation>to hoard / to corner / to buy up
+					<catexamp>Acaparar la atenció d'(algú)</catexamp>
+					<engexamp>To hold (somebody's) attention</engexamp>
 				</translation>
 			</translations>
 		</verbs>
@@ -687,7 +685,7 @@
 	</Entry>
 	<Entry frequency="22900" hasSound="true">accelerar<verbs conj="regular">
 			<translations><date>0105</date>
-				<translation catagory="transport">to accelerate<example>En Toni va &lt;b&gt;accelerar&lt;/b&gt; per poder avançar a un camió.</example>
+				<translation catagory="transport">to accelerate / to speed up<example>En Toni va &lt;b&gt;accelerar&lt;/b&gt; per poder avançar a un camió.</example>
 				</translation>
 			</translations>
 		</verbs>
@@ -700,7 +698,7 @@
 	</Entry>
 	<Entry frequency="4600">accepció<nouns>
 			<translations><date>0105</date>
-				<translation gender="f">meaning<plural>accepcions</plural>
+				<translation gender="f">meaning<example>La primera &lt;b&gt;accepció&lt;/b&gt; de &lt;i&gt;localitzar&lt;/i&gt; del DIEC és 'fer local, circumscriure a un lloc determinat'.</example><plural>accepcions</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -883,7 +881,7 @@
 			<translations><date>0105</date>
 				<translation>to clear up / to clarify / to shed some light on / to explain<example>La comunitat exigeix una investigació per &lt;b&gt;aclarir&lt;/b&gt; la mort de la dona.</example>
 				</translation>
-				<translation catagory="weather">to clear up<example>Pronòstic: nuvolositat al matí, amb tendència a &lt;b&gt;aclarir-se&lt;/b&gt; a la tarda.</example>
+				<translation disambiguate="weather">to clear up<example>Pronòstic: nuvolositat al matí, amb tendència a &lt;b&gt;aclarir-se&lt;/b&gt; a la tarda.</example>
 				</translation>
 			</translations>
 		</verbs>
@@ -915,7 +913,7 @@
 	<Entry frequency="3410">acoblar<verbs conj="regular">
 			<translations><date>0105</date>
 				<translation>to connect / to join / to fit together</translation>
-				<translation catagory="computers">to dock</translation>
+				<translation disambiguate="computers">to dock</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -955,9 +953,9 @@
 	</Entry>
 	<Entry frequency="16100" hasSound="true">acomiadar<verbs conj="regular">
 			<translations><date>0105</date>
-				<translation catagory="work">to sack / to get rid of / to fire / to dismiss</translation>
-                                <translation>to say goodbye to someone / to wave someone off / to see someone off<example>Anirem a l'aeroport a &lt;b&gt;acomiadar-nos&lt;/b&gt; del meu germà.</example></translation>
-                                <translation>to lay off<catnote>'To lay someone off' vol dir acomiadar quan l'empresa no li té prou feina.</catnote></translation>
+				<translation disambiguate="work">to sack / to get rid of / to fire / to dismiss</translation>
+                                <translation disambiguate="work">to lay off<catnote>'To lay someone off' vol dir acomiadar quan l'empresa no li té prou feina.</catnote></translation>
+                                <translation reflexive="acomiadar-se">to say goodbye to someone / to wave someone off / to see someone off<example>Anirem a l'aeroport a &lt;b&gt;acomiadar-nos&lt;/b&gt; del meu germà.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1064,13 +1062,13 @@
 	</Entry>
 	<Entry frequency="45500">acostumar<verbs conj="regular">
 			<translations><date>0105</date>
-				<translation>to get used to<catexamp>Acostumar-se a una cosa</catexamp>
+				<translation>to usually (do something)<example>El reciclatge &lt;b&gt;s'acostuma a&lt;/b&gt; fer en fàbriques especialitzades.</example>
+					<example>A Espanya &lt;b&gt;s'acostuma a&lt;/b&gt; fer els àpats més tard que en d'altres països europeus.</example>
+				</translation>
+                                <translation reflexive="acostumar-se">to get used to<catexamp>Acostumar-se a una cosa</catexamp>
 					<engexamp>To get used to something</engexamp>
 					<example>Mai no podré &lt;b&gt;acostumar-me a&lt;/b&gt; dinar a les 12 del migdia.</example>
 					<example>El millor, tant per parlar com per cantar, és que &lt;b&gt;ens acostumem a&lt;/b&gt; inspirar pel nas i expirar per la boca.</example>
-				</translation>
-				<translation>to usually (do something)<example>El reciclatge &lt;b&gt;s'acostuma a&lt;/b&gt; fer en fàbriques especialitzades.</example>
-					<example>A Espanya &lt;b&gt;s'acostuma a&lt;/b&gt; fer els àpats més tard que en d'altres països europeus.</example>
 				</translation>
 			</translations>
 		</verbs>
@@ -1196,7 +1194,9 @@
 	</Entry>
 	<Entry frequency="120000" hasSound="true">actualitzar<verbs conj="regular">
 			<translations><date>0105</date>
-				<translation catagory="computers" termcat="TRUE">to update / to upgrade</translation>
+				<translation disambiguate="computers" termcat="TRUE">to update</translation>
+                                <translation disambiguate="computers" termcat="TRUE">to upgrade</translation>
+                                <translation disambiguate="computers" termcat="TRUE">to refresh</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1527,7 +1527,7 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="52000" hasSound="true">adonar<verbs conj="regular">
+	<Entry frequency="52000" hasSound="true">adonar-se<verbs conj="regular">
 			<translations><date>0105</date>
 				<translation>to realise (Br.) / to realize (Am.)</translation>
 			</translations>
@@ -2661,6 +2661,18 @@
 				<translation gender="f">allergy</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="432">alletament matern<nouns>
+			<translations><date>0805</date>
+				<translation gender="m">breastfeeding / nursing</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="584">alletar<verbs conj="regular">
+			<translations><date>0805</date>
+				<translation>to breastfeed / to nurse</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="47700">allí<adverbs>
 			<translations><date>0105</date>
