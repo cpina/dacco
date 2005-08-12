@@ -394,6 +394,16 @@
 
 			<xsl:apply-templates select="catexamp | engexamp"/><br/>
 			<xsl:apply-templates select="catnote | engnote"/>
-		
+		<xsl:if test="count(synonyms) > 0">
+			<br/>
+			<span class="synonyms">
+				<i>syn. </i>
+			</span>
+			<i>
+				<b>
+					<xsl:value-of select="synonyms"/>
+				</b>
+			</i>
+		</xsl:if>
 	</xsl:template>
 </xsl:stylesheet>
