@@ -303,6 +303,9 @@
                   <xsl:if test="contains(@disambiguate,'Plant') or contains(@disambiguate,'plant') ">
 			<span class="category">[BOT] </span>
 		</xsl:if>
+                   <xsl:if test="contains(@disambiguate,'Linguistics') or contains(@disambiguate,'linguistics') ">
+			<span class="category">[LING] </span>
+		</xsl:if>
 				<xsl:for-each select="translation">
 					<xsl:call-template name="translation">
 						<xsl:with-param name="hideCount" select="'true'"/>

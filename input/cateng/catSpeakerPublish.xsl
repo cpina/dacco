@@ -178,6 +178,9 @@
                  <xsl:if test="@feminine">
 			<span class="feminine"><xsl:value-of select="@feminine"/></span>
 		</xsl:if>
+                                <xsl:if test="@capitalized">
+			<span class="capitalized"><xsl:value-of select="@capitalized"/></span>
+		</xsl:if>
                  <xsl:if test="@reflexive">
 			<span class="reflexive"><xsl:value-of select="@reflexive"/></span>
 		</xsl:if>
@@ -283,6 +286,9 @@
 <xsl:if test="contains(@disambiguate,'Plant') or contains(@disambiguate,'plant') ">
 				<span class="category">[BOT] </span>
 			</xsl:if>
+                        <xsl:if test="contains(@disambiguate,'Linguistics') or contains(@disambiguate,'linguistics') ">
+			<span class="category">[LING] </span>
+		</xsl:if>
 			<span class="translation"><xsl:value-of select="text()"/></span>
 			<xsl:if test="@catagory">
 				<!-- <i>

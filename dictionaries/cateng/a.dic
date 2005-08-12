@@ -1744,7 +1744,7 @@
 	</Entry>
 	<Entry frequency="27400">afany<nouns>
 			<translations><date>0105</date>
-				<translation gender="m">desire</translation>
+				<translation gender="m">desire<catexamp>Entitat sense afany de lucre</catexamp><engexamp>Non-profit / not-for-profit organization</engexamp></translation>
 				<translation gender="m">effort</translation>
 			</translations>
 		</nouns>
@@ -1790,7 +1790,7 @@
 	</Entry>
 	<Entry frequency="416">afectuosament<adverbs>
 			<translations><date>0105</date>
-				<translation>affectionately / fondly</translation>
+				<translation>affectionately / fondly<catexamp>Afectuosament, [Josep]</catexamp><engexamp>Love, [Josep]</engexamp></translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -1808,12 +1808,12 @@
 	</Entry>
         <Entry frequency="3390">afganès<nouns>
 			<translations><date>0705</date>
-				<translation gender="m / f">Afghan<fems>afganesa</fems><plural>afganesos</plural></translation>
+				<translation gender="m / f">Afghan</translation>
 			</translations>
 		</nouns>
                 <adjectives>
                 <translations>
-                <translation>Afghan</translation></translations></adjectives>
+                <translation>Afghan<fems>afganesa</fems><plural>afganesos</plural></translation></translations></adjectives>
 	</Entry>
         <Entry frequency="15900">Afganistan<nouns>
 			<translations><date>0705</date>
@@ -2125,13 +2125,7 @@
 	</Entry>
         	<Entry frequency="782">aigua residual<nouns>
 			<translations><date>0305</date>
-				<translation gender="f">wastewater<plural>aigües residuals</plural></translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="17400">aigües residuals<nouns>
-			<translations><date>0405</date>
-				<translation gender="fpl">sewage</translation>
+				<translation gender="f">wastewater / sewage<plural>aigües residuals</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2153,7 +2147,7 @@
         <Entry frequency="15500">aire condicionat<nouns>
 			<translations>
 				<date>0705</date>
-				<translation gender="m">air conditioning<cateexamp>Aparell d'aire condicionat</cateexamp><engexamp>Air conditioning unit</engexamp></translation>
+				<translation gender="m">air conditioning<catexamp>Aparell d'aire condicionat</catexamp><engexamp>Air conditioning unit</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2171,7 +2165,7 @@
 	</Entry>
 	<Entry frequency="794">aixella<nouns>
 			<translations><date>0105</date>
-				<translation catagory="body" gender="f">armpit</translation>
+				<translation catagory="body" gender="f">armpit<synonyms>axil·la</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2183,15 +2177,43 @@
 	</Entry>
 	<Entry frequency="420000">així<adverbs>
 			<translations><date>0105</date>
-				<translation collocation="true">thus</translation>
+				<translation collocation="true">thus / (in) this way / (in) that way / thereby</translation>
 			</translations>
 		</adverbs>
+                <adjectives>
+                <translations>
+                <translation>such a (...) / a (...) like that<catexamp>Qui no podria ser feliç en un lloc així?</catexamp><engexamp>Who wouldn't be happy in such a place / in a place like that?</engexamp></translation></translations></adjectives>
+                <expressions>així de (+adjectiu)
+                <translations>
+                <translation>that (+adjective)<catexamp>És així de fàcil</catexamp><engexamp>It's that easy</engexamp></translation></translations></expressions>
+                <expressions>així que
+                <translations>
+                <translation>so / therefore<example>&lt;b&gt;Així que&lt;/b&gt; al teu amic li agrada el futbol?</example></translation></translations></expressions>
+                <expressions>així mateix
+                <translations>
+                <translation>also / additionally / in addition / equally</translation></translations></expressions>
+                <expressions>i així successivament
+                <translations>
+                <translation>and so on (and so forth)</translation></translations></expressions>
+                <expressions>la vida és així
+                <translations>
+                <translation>such is life</translation></translations></expressions>
+                <expressions>tot i així
+                <translations>
+                <translation>even so<example>Cada any es desarticulen un nombre elevat d'aquestes xarxes, però &lt;b&gt;tot i així&lt;/b&gt;, el problema sembla no tenir fi.</example></translation></translations></expressions>
 	</Entry>
 	<Entry frequency="385000">això<pronouns>
 			<translations><date>0105</date>
-				<translation collocation="true">that</translation>
+				<translation collocation="true">this / that</translation>
 			</translations>
 		</pronouns>
+                <expressions>això de (+sustantiu)...
+                <translations>
+                <translation>this (whole) (+noun) thing / malarkey<catexamp>Què és això del PHP?</catexamp><engexamp>What's this (whole) PHP thing about then?</engexamp></translation></translations></expressions>
+                <expressions>per això
+                <translations>
+                <translation>for that reason / that's why</translation></translations></expressions>
+                
 	</Entry>
 	<Entry frequency="3900">aixopluc<nouns>
 			<translations><date>0605</date>
@@ -2202,7 +2224,7 @@
 	<Entry frequency="532">aixoplugar<verbs conj="GtoGU">
 			<translations><date>0605</date>
 				<translation>to shelter</translation>
-				<translation>to take shelter / to take refuge</translation>
+				<translation reflexive="aixoplugar-se">to take shelter / to take refuge</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2431,17 +2453,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+               	<Entry frequency="8980">alè<nouns>
+			<translations><date>0505</date>
+				<translation gender="m">breath<plural>alens</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="45500">alegre<adjectives>
 			<translations><date>0505</date>
 				<translation>happy / glad</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-       	<Entry frequency="8980">alè<nouns>
-			<translations><date>0505</date>
-				<translation gender="m">breath<plural>alens</plural></translation>
-			</translations>
-		</nouns>
 	</Entry>
        	<Entry frequency="33700">alegria<nouns>
 			<translations><date>0305</date>
@@ -2512,7 +2534,7 @@
 	</Entry>
 	<Entry frequency="511">alfil<nouns>
 			<translations><date>0705</date>
-				<translation gender="m">bishop<engnote>chess</engnote></translation>
+				<translation gender="m">bishop<engnote>'Alfil' is a 'bishop' in the game of chess</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>	
@@ -2615,7 +2637,7 @@
 	</Entry>
 	<Entry frequency="113000">allà<adverbs>
 			<translations><date>0105</date>
-				<translation>there</translation>
+				<translation>there / over there</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -2645,17 +2667,17 @@
 			</translations>
 		</verbs>
 	</Entry>
+                <Entry frequency="3330">al·lèrgia<nouns>
+			<translations><date>0705</date>
+				<translation gender="f">allergy</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="1530">al·lèrgic<adjectives>
 			<translations><date>0705</date>
 				<translation>allergic<fems>al·lèrgica</fems><femplural>al·lèrgiques</femplural></translation>
 			</translations>
 		</adjectives>
-	</Entry>
-        <Entry frequency="3330">al·lèrgia<nouns>
-			<translations><date>0705</date>
-				<translation gender="f">allergy</translation>
-			</translations>
-		</nouns>
 	</Entry>
         <Entry frequency="432">alletament matern<nouns>
 			<translations><date>0805</date>
@@ -2671,7 +2693,7 @@
 	</Entry>
 	<Entry frequency="47700">allí<adverbs>
 			<translations><date>0105</date>
-				<translation>there</translation>
+				<translation>there / over there</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -2730,14 +2752,14 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>hallucinogenic<fems>al·lucinògena</fems></translation>
+				<translation>hallucinogenic<plural>al·lucinògens</plural><fems>al·lucinògena</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
 	<Entry frequency="38400">allunyar<verbs conj="regular">
 			<translations><date>0105</date>
-				<translation>to move away from</translation>
-				<translation>to zoom out</translation>
+				<translation>to move (something / someone) away from / to keep (something / someone) away from</translation>
+                                <translation>to zoom out</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2800,7 +2822,7 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation catagory="language" gender="m">Alsatian (German)</translation>
+				<translation disambiguate="language" gender="m">Alsatian (German)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2873,8 +2895,7 @@
 	</Entry>
 	<Entry frequency="2620000">altre<adjectives>
 			<translations><date>0105</date>
-				<translation>other<fems>altra</fems>
-				</translation>
+				<translation>other</translation>
 			</translations>
 		</adjectives>
 		<pronouns>
@@ -2997,13 +3018,12 @@
 	</Entry>
 	<Entry frequency="127000">ambdós<adjectives>
 			<translations><date>0105</date>
-				<translation>both<fems>ambdues</fems>
-				</translation>
+				<translation>both<example>&lt;b&gt;Ambdós&lt;/b&gt; governs s'acusen mútuament d'haver expulsat milers d'immigrants del país veí.</example><example>El conveni amb la Universitat Pompeu Fabra preveu, entre altres, projectes de recerca comuns, visites de professors i estudiants d'&lt;b&gt;ambdues&lt;/b&gt; universitats...</example></translation>
 			</translations>
 		</adjectives>
 		<pronouns>
 			<translations>
-				<translation>both</translation>
+				<translation>both<example>Quina llengua parles amb els teus companys a l'escola? Català? Castellà? &lt;b&gt;Ambdues&lt;/b&gt;?</example><example>De maig a setembre (&lt;b&gt;ambdós&lt;/b&gt; inclosos).</example><fems>ambdues</fems></translation>
 			</translations>
 		</pronouns>
 	</Entry>
@@ -3053,8 +3073,8 @@
 	<Entry frequency="7700">ambulant<adjectives>
 			<translations><date>0105</date>
 				<translation>mobile / walking / travelling (Br.) / traveling (Am.)
-					<catexamp>circ ambulant</catexamp><engexamp>travelling circus</engexamp>
-					<catexamp>venedor ambulant</catexamp><engexamp>travelling salesman</engexamp></translation>
+					<catexamp>Circ ambulant</catexamp><engexamp>Travelling circus</engexamp>
+					<catexamp>Venedor ambulant</catexamp><engexamp>Travelling salesman</engexamp></translation>
 				<translation>ambulatory</translation>
 			</translations>
 		</adjectives>
@@ -3272,7 +3292,7 @@
 	</Entry>
         <Entry frequency="390">amnèsic<adjectives>
 			<translations>
-				<translation catagory="medical">amnesiac<fems>amnèsica</fems><femplural>amnèsiques</femplural></translation>
+				<translation catagory="medical">amnesiac</translation>
 			</translations>
 		</adjectives>
                 <nouns>
@@ -3379,7 +3399,7 @@
 			<translations>
 				<date>0205</date>
 				<translation>love / loving<catexamp>Relació amorosa</catexamp>
-					<engexamp>Relationship</engexamp><fems>amorosa</fems>
+					<engexamp>Relationship</engexamp><plural>amorosos</plural><fems>amorosa</fems>
 				</translation>
 			</translations>
 		</adjectives>
@@ -3391,7 +3411,7 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>muffling / buffering</translation>
+				<translation>muffling / buffering<fems>amortidora</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>	
@@ -3549,6 +3569,9 @@
 				<translation>to go</translation>
 			</translations>
 		</verbs>
+                <expressions>com anar-hi
+                <translations>
+                <translation>how to find us / directions</translation></translations></expressions>
 	</Entry>
         <Entry frequency="3590">anarquia<nouns>
 			<translations><date>0605</date>
@@ -3578,8 +3601,8 @@
 	</Entry>
 	<Entry frequency="3720">àncora<nouns>
 			<translations><date>0105</date>
-				<translation catagory="transport" gender="f">anchor</translation>
-				<translation catagory="computers" gender="f">anchor</translation>
+				<translation disambiguate="transport" gender="f">anchor</translation>
+				<translation disambiguate="computers" gender="f">anchor</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3666,7 +3689,7 @@
 	</Entry>
 	<Entry frequency="118000">àngel<nouns>
 			<translations><date>0105</date>
-				<translation catagory="religious" gender="m">angel<catexamp>àngel de la guarda</catexamp>
+				<translation catagory="religious" gender="m">angel<catexamp>Àngel de la guarda</catexamp>
 					<engexamp>Guardian angel</engexamp>
 				</translation>
 			</translations>
@@ -3692,17 +3715,17 @@
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation catagory="language" gender="m">English</translation>
-                <translation catagory="nationality-europe" gender="m / f">Englishman / Englishwoman<fems>anglesa</fems><plural>anglesos</plural></translation></translations></nouns>
+                <translation disambiguate="language" gender="m">English</translation>
+                <translation disambiguate="nationality-europe" gender="m / f">Englishman / Englishwoman<fems>anglesa</fems><plural>anglesos</plural></translation></translations></nouns>
 	</Entry>
         <Entry frequency="460">anglicà<adjectives>
 			<translations><date>0305</date>
-				<translation catagory="religious">Anglican<catexamp>L'església anglicana</catexamp><engexamp>The Anglican Church</engexamp><fems>anglicana</fems></translation>
+				<translation catagory="religious">Anglican<catexamp>L'església anglicana</catexamp><engexamp>The Anglican Church</engexamp></translation>
 			</translations>
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation catagory="religious" gender="m / f">Anglican</translation></translations></nouns>
+                <translation catagory="religious" gender="m / f">Anglican<fems>anglicana</fems></translation></translations></nouns>
 	</Entry>
 	<Entry frequency="16400">angoixa<nouns>
 			<translations><date>0105</date>
@@ -3715,6 +3738,15 @@
 				<translation catagory="country-africa" gender="f">Angola</translation>
 			</translations>
 		</nouns>
+	</Entry>
+	<Entry frequency="166">angolès<nouns>
+			<translations><date>0805</date>
+				<translation catagory="nationality-africa" gender="m / f">Angolan</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>Angolan<plural>angolesos</plural><fems>angolesa</fems></translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="561">anguila<nouns>
 			<translations><date>0405</date>
@@ -3894,6 +3926,7 @@
 	<Entry frequency="8910">anormal<adjectives>
 			<translations><date>0105</date>
 				<translation>abnormal</translation>
+                                <translation>irregular</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3912,7 +3945,7 @@
 	</Entry>
         <Entry frequency="174">anorreador<adjectives>
 			<translations><date>0805</date>
-				<translation>(immensely) destructive<engnote>'Anorreador' is the adjective from 'anorrear' (to annihilate), therefore it means 'destructive' but in a particularly strong sense</engnote></translation>
+				<translation>(highly) destructive<engnote>'Anorreador' is the adjective from 'anorrear' (to annihilate), therefore it means 'destructive' but in a particularly strong sense</engnote></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -5448,8 +5481,8 @@
 	</Entry>
 	<Entry frequency="11300">arriscat<adjectives>
 			<translations><date>0105</date>
-				<translation>risky<fems>arriscada</fems>
-				</translation>
+				<translation>risky</translation>
+                                <translation>risk-taking<catexamp>Una persona arriscada</catexamp><engexamp>A risk taker</engexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>

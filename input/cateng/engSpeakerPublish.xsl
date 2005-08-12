@@ -210,6 +210,9 @@
                  <xsl:if test="@feminine">
 			<span class="feminine"><xsl:value-of select="@feminine"/></span>
 		</xsl:if>
+                                <xsl:if test="@capitalized">
+			<span class="capitalized"><xsl:value-of select="@capitalized"/></span>
+		</xsl:if>
                <!--   <xsl:if test="@reflexive">
 			<span class="reflexive"><xsl:value-of select="@reflexive"/></span>
 		</xsl:if> -->
@@ -319,6 +322,9 @@
                         <xsl:if test="contains(@disambiguate,'Plant') or contains(@disambiguate,'plant') ">
 				<span class="category">[BOT] </span>
 			</xsl:if>
+                           <xsl:if test="contains(@disambiguate,'Linguistics') or contains(@disambiguate,'linguistics') ">
+			<span class="category">[LING] </span>
+		</xsl:if>
                          <xsl:if test="@picture">
                     <xsl:element name="a">
                 <xsl:attribute name="href">javascript:flickr("<xsl:value-of select="@picture"/>","<xsl:value-of select="../../../text()"/>","<xsl:value-of select="@flickr"/>");</xsl:attribute>
