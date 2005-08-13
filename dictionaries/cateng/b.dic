@@ -15,7 +15,7 @@
 	<Entry frequency="8580">bable<nouns>
 			<translations>
 				<date>0305</date>
-				<translation catagory="language" gender="m">Asturian<synonyms>asturià</synonyms></translation>
+				<translation disambiguate="language" gender="m">Asturian<synonyms>asturià</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -118,7 +118,7 @@
 	</Entry>
 	<Entry frequency="80000" hasSound="true">baixar<verbs conj="regular">
 			<translations>
-				<translation catagory="computers-internet">to download</translation>
+				<translation disambiguate="computers-internet">to download</translation>
 				<translation>to go down / to lower</translation>
 			</translations>
 		</verbs>
@@ -157,12 +157,7 @@
 			<translations>
 				<translation gender="f">scales<plural>balances</plural>
 				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="400" hasSound="true">Balança<nouns>
-			<translations>
-				<translation catagory="zodiac" gender="f">Libra</translation>
+                                <translation capitalized="Balança" catagory="zodiac" gender="f">Libra</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -228,14 +223,14 @@
         <Entry frequency="860">ballesta<nouns>
 			<translations><date>0605</date>
 				<translation gender="f">crossbow</translation>
-                                <translation catagory="animal-fish" gender="f">triggerfish</translation>
+                                <translation disambiguate="animal-fish" gender="f">triggerfish</translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="250">ballester<nouns>
 			<translations><date>0605</date>
 				<translation gender="m">crossbowman</translation>
-                                <translation catagory="animal-bird" gender="m">alpine swift</translation>
+                                <translation disambiguate="animal-bird" gender="m">alpine swift</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -274,7 +269,7 @@
 	</Entry>
 	<Entry frequency="44600" hasSound="true">banc<nouns>
 			<translations>
-				<translation catagory="financial" gender="m">bank<catexamp>Banc Mundial</catexamp>
+				<translation disambiguate="financial" gender="m">bank<catexamp>Banc Mundial</catexamp>
 					<engexamp>World Bank</engexamp>
 				</translation>
 				<translation gender="m">bench</translation>
@@ -285,7 +280,7 @@
 			<translations>
 				<translation gender="f">bench<plural>banques</plural>
 				</translation>
-				<translation gender="f" catagory="financial">banking</translation>
+				<translation gender="f" disambiguate="financial">banking</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -662,12 +657,12 @@
 	<Entry frequency="500">bast<adjectives>
 			<translations><date>0505</date>
 				<translation>rough / coarse</translation>
-				<translation>supplied<fems>basta</fems></translation>
+				<translation register="dated">supplied<fems>basta</fems></translation>
 			</translations>
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation>packsaddle</translation>
+				<translation gender="m">packsaddle</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -803,7 +798,7 @@
 		</adverbs>
                 <nouns>
                 <translations>
-                <translation gender="m">good</translation>
+                <translation gender="m">good / sake<example>Pel teu &lt;b&gt;bé&lt;/b&gt;, pel meu &lt;b&gt;bé&lt;/b&gt;, pel &lt;b&gt;bé&lt;/b&gt; dels teus fills, pel &lt;b&gt;bé&lt;/b&gt; de Catalunya, no votis al PP.</example></translation>
                 <translation sourceplural="béns" gender="mpl">goods / assets</translation></translations></nouns>
 	</Entry>
 	<Entry frequency="697">bebè<nouns>
@@ -2144,6 +2139,12 @@
                         <translation catagory="plant">to sprout</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        	<Entry frequency="11000">brotxa<nouns>
+			<translations><date>0805</date>
+				<translation gender="f">brush</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="2360" hasSound="true">brou<nouns>
 			<translations>
