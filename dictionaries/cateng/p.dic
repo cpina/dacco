@@ -1068,8 +1068,8 @@
 	</Entry>
 	<Entry frequency="7070">pastís<nouns>
 			<translations>
-				<translation catagory="food" gender="m">pie<plural>pastissos</plural>
-				</translation>
+				<translation catagory="food" gender="m">pie</translation>
+                                <translation catagory="food" gender="m">cake<plural>pastissos</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3276,6 +3276,15 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="498">postpart<adjectives>
+			<translations><date>0805</date>
+				<translation catagory="medical">postnatal (Br.) / postpartum (Am.)<catexamp>Depressió postpart</catexamp><engexamp>Postnatal (Br.) / postpartum (Am.) depression</engexamp></translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation catagory="medical" gender="m">postnatal (Br.) / postpartum (Am.) period</translation></translations></nouns>
+	</Entry>
 	<Entry frequency="6280">pota<nouns>
 			<translations>
 				<translation catagory="animal" gender="f">paw</translation>
@@ -4612,11 +4621,12 @@
 	</Entry>
 	<Entry frequency="62200">propòsit<nouns>
 			<translations><date>0705</date>
-				<translation gender="m">intention / purpose<catexamp>A propòsit</catexamp>
-					<engexamp>On purpose</engexamp>
-				</translation>
+				<translation gender="m">intention / purpose</translation>
 			</translations>
 		</nouns>
+                <expressions>a propòsit de
+                <translations>
+                <translation>about / regarding / as regards</translation></translations></expressions>
 	</Entry>
 	<Entry frequency="1530000">proposta<nouns>
 			<translations><date>0705</date>
