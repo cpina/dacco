@@ -2857,6 +2857,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="5510">clor<nouns>
+			<translations><date>0805</date>
+				<translation catagory="chemistry" gender="m">chlorine</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="3650">closca<nouns>
 			<translations><date>0305</date>
 				<translation gender="f">shell<plural>closques</plural></translation>
@@ -4871,12 +4877,21 @@
 	</Entry>
 	<Entry frequency="56700">cor<nouns>
 			<translations>
-				<translation catagory="body-internal" gender="m">heart</translation>
-				<translation catagory="food" gender="m">core<engnote>'Cor' means 'core' as in '(apple) core'.</engnote>
-					<translation catagory="entertainment-music" gender="m">choir</translation>
+				<translation disambiguate="body-internal" gender="m">heart</translation>
+				<translation disambiguate="food" gender="m">core<engnote>'Cor' means 'core' as in '(apple) core'.</engnote>
+					<translation disambiguate="entertainment-music" gender="m">choir</translation>
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="43400">coral<adjectives>
+			<translations><date>0805</date>
+				<translation catagory="entertainment-music">choral</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="f">choir</translation></translations></nouns>
 	</Entry>
 	<Entry frequency="4920">coratge<nouns>
 			<translations>
@@ -5099,12 +5114,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="236000">correu<nouns>
-			<translations>
+	<Entry frequency="691000">correu<nouns>
+			<translations><date>0805</date>
 				<translation gender="m">post (UK) / mail (US) / email<catexamp>Correu electrònic</catexamp>
 					<engexamp>Email</engexamp>
 				</translation>
-			</translations>
+                                <translation sourceplural="Correus">Royal Mail (Br.) / USPS (Am.)</translation> 
+                               </translations>
 		</nouns>
 	</Entry>
         <Entry frequency="4250">correu certificat<nouns>
@@ -5119,46 +5135,46 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="102">corroboració<nouns>
-			<translations>
+	<Entry frequency="190">corroboració<nouns>
+			<translations><date>0805</date>
 				<translation gender="f">corroboration</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="3180">corroborar<verbs conj="regular">
-			<translations>
+	<Entry frequency="7820">corroborar<verbs conj="regular">
+			<translations><date>0805</date>
 				<translation>to corroborate</translation>
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="766">corrompre<verbs conj="regular">
-			<translations>
+	<Entry frequency="821">corrompre<verbs conj="regular">
+			<translations><date>0805</date>
 				<translation>to corrupt</translation>
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="1580">corrosió<nouns>
-			<translations>
+	<Entry frequency="4000">corrosió<nouns>
+			<translations><date>0805</date>
 				<translation gender="f">corrosion</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="999">corrosiu<adjectives>
-			<translations>
+	<Entry frequency="3540">corrosiu<adjectives>
+			<translations><date>0805</date>
 				<translation>corrosive<fems>corrosiva</fems>
 				</translation>
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="5340">corrupció<nouns>
-			<translations>
+	<Entry frequency="15600">corrupció<nouns>
+			<translations><date>0805</date>
 				<translation gender="f">corruption<plural>corrupcions</plural>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="2240">corrupte<adjectives>
-			<translations>
+	<Entry frequency="5810">corrupte<adjectives>
+			<translations><date>0805</date>
 				<translation>corrupt<fems>corrupta</fems></translation>
 			</translations>
 		</adjectives>
@@ -5169,45 +5185,45 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="5950">cortina<nouns>
-			<translations>
+	<Entry frequency="14600">cortina<nouns>
+			<translations><date>0805</date>
 				<translation catagory="household" gender="f">curtain (Br.) / drape (Am.)<catexamp>Cortina de fum</catexamp>
 					<engexamp>smoke screen</engexamp>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="180">corxera<nouns>
-			<translations>
+	<Entry frequency="258">corxera<nouns>
+			<translations><date>0805</date>
 				<translation catagory="entertainment-music" gender="f">quaver<catexamp>Semicorxera</catexamp>
 					<engexamp>Semiquaver</engexamp>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="118000">cos<nouns>
-			<translations>
+	<Entry frequency="228000">cos<nouns>
+			<translations><date>0805</date>
 				<translation catagory="body" gender="m">body<plural>cossos</plural>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="170000">cosa<nouns>
-			<translations>
+	<Entry frequency="1100000">cosa<nouns>
+			<translations><date>0805</date>
 				<translation gender="f">thing</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="5110">cosí<nouns>
-			<translations>
-				<translation catagory="family-blood" gender="m">cousin<fems>cosina</fems>
+	<Entry frequency="12100">cosí<nouns>
+			<translations><date>0805</date>
+				<translation catagory="family" gender="m / f">cousin<fems>cosina</fems>
 					<plural>cosins</plural>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="444">cosinus<nouns>
-			<translations>
+	<Entry frequency="514">cosinus<nouns>
+			<translations><date>0805</date>
 				<translation catagory="maths" gender="m">cosine</translation>
 			</translations>
 		</nouns>
@@ -5218,57 +5234,55 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="2200">cosmètic<adjectives>
-			<translations>
+	<Entry frequency="7430">cosmètic<adjectives>
+			<translations><date>0805</date>
 				<translation>cosmetic<fems>cosmètica</fems><femplural>cosmètiques</femplural></translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="m">cosmetic</translation>
+                <translation feminine="cosmètica" gender="f">cosmetics</translation></translations></nouns>
 	</Entry>
-	<Entry frequency="2750">cosmètica<nouns>
-			<translations>
-				<translation gender="f">cosmetics</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="2050">còsmic<adjectives>
-			<translations>
+	<Entry frequency="5290">còsmic<adjectives>
+			<translations><date>0805</date>
 				<translation catagory="astronomy">cosmic<fems>còsmica</fems><femplural>còsmiques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="762">cosmologia<nouns>
-			<translations>
+	<Entry frequency="983">cosmologia<nouns>
+			<translations><date>0805</date>
 				<translation catagory="astronomy" gender="f">cosmology</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="189">cosmonauta<nouns>
-			<translations>
+	<Entry frequency="417">cosmonauta<nouns>
+			<translations><date>0805</date>
 				<translation catagory="work-job" gender="m / f">cosmonaut</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="1970">cosmopolita<adjectives>
-			<translations>
+	<Entry frequency="4710">cosmopolita<adjectives>
+			<translations><date>0805</date>
 				<translation>cosmopolitan</translation>
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="2670">cosmos<nouns>
-			<translations>
+	<Entry frequency="6490">cosmos<nouns>
+			<translations><date>0805</date>
 				<translation catagory="astronomy" gender="m">cosmos</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="77700">cost<nouns>
+	<Entry frequency="145000">cost<nouns>
 			<translations>
 				<translation catagory="financial" gender="m">cost / price<plural>costos</plural>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="34500">costa<nouns>
-			<translations>
+	<Entry frequency="246000">costa<nouns>
+			<translations><date>0805</date>
 				<translation gender="f">coast / shore</translation>
 			</translations>
 		</nouns>
@@ -5279,14 +5293,14 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="18000">costar<verbs conj="regular">
-			<translations>
+	<Entry frequency="20000">costar<verbs conj="regular">
+			<translations><date>0805</date>
 				<translation>to cost</translation>
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="70100">costat<nouns>
-			<translations>
+	<Entry frequency="195000">costat<nouns>
+			<translations><date>0805</date>
 				<translation gender="m">side</translation>
 			</translations>
 		</nouns>
@@ -5294,9 +5308,10 @@
                 <translations>
                 <translation>beside</translation></translations></expressions>
 	</Entry>
-	<Entry frequency="1580">costella<nouns>
-			<translations>
-				<translation catagory="food-meat, body-internal" gender="f">rib</translation>
+	<Entry frequency="3800">costella<nouns>
+			<translations><date>0805</date>
+				<translation disambiguate="body" gender="f">rib</translation>
+                                <translation disambiguate="food-meat" gender="f">chop</translation>
 			</translations>
 		</nouns>
 	</Entry>
