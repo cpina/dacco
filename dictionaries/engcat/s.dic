@@ -2807,15 +2807,13 @@
 			<translations>
 				<translation gender="m">curtmetratge<engnote>'Curtmetratge' means 'short' as in 'a short film' (i.e. 'the film is preceded by two shorts')</engnote>
 				</translation>
-				<translation catagory="food-drink">una quantitat molt petita i concentrada d'una beguda alcohòlica forta (per exemple, vodka o whisky)</translation>
+				<translation disambiguate="food-drink">una quantitat molt petita i concentrada d'una beguda alcohòlica forta (per exemple, vodka o whisky)</translation>
+                                <translation sourceplural="shorts" disambiguate="clothes" gender="mpl">pantalons curts</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="6240000">in short<adverbs>
-			<translations>
-				<translation>en resum</translation>
-			</translations>
-		</adverbs>
+                <expressions>in short
+                <translations>
+                <translation>en resum</translation></translations></expressions>
 	</Entry>
         <Entry frequency="16800000">shortage<nouns>
 			<translations>
@@ -2852,17 +2850,19 @@
 			</translations>
 		</adverbs>
 	</Entry>
-	<Entry frequency="4900000">shorts<nouns>
+	<Entry frequency="550000">shortsighted<adjectives>
 			<translations>
-				<translation catagory="clothes" gender="mpl">pantalons curts</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="260000">short-sighted<adjectives>
-			<translations>
-				<translation catagory="medical">miop</translation>
+				<translation disambiguate="medical">miop<engexamp>To be shortsighted</engexamp><catexamp>Ser miop / ser curt(a) de vista</catexamp></translation>
+                                <translation>curt de mires<engexamp>To be shortsighted</engexamp><catexamp>Ser curt(a) de mires</catexamp><engnote>'Ser curt de mires' means 'to be shortsighted' in a figurative sense.</engnote></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        	<Entry frequency="93800">shortsightedness<nouns>
+			<translations>
+				<translation disambiguate="medical">miopia / vista curta</translation>
+                                <translation gender="f">curtesa de mires<engnote>'Curtesa de mires' means 'shortsightedness' in a figurative sense.</engnote></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="103000">short-sleeved<adjectives>
 			<translations>
