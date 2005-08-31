@@ -2163,9 +2163,12 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="60700">aixecar<verbs conj="CtoQU">
-			<translations><date>0105</date>
-				<translation>to rise / lift</translation>
+	<Entry frequency="59200">aixecar<verbs conj="CtoQU">
+			<translations><date>0805</date>
+                                <translation transitive="true">to lift</translation>
+                                <translation transitive="true">to raise</translation>
+                                <translation reflexive="aixecar-se">to get up</translation>
+                                <translation reflexive="aixecar-se">to rise up</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3576,6 +3579,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="9730">analògic<adjectives>
+			<translations><date>0805</date>
+				<translation>analog<fems>analògica</fems><femplural>analògiques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="3020000">anar<verbs conj="irregular16">
 			<translations><date>0105</date>
 				<translation>to go</translation>
@@ -3704,6 +3713,18 @@
 				<translation catagory="religious" gender="m">angel<catexamp>Àngel de la guarda</catexamp>
 					<engexamp>Guardian angel</engexamp>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+               <Entry frequency="417">angina de pit<nouns>
+			<translations><date>0805</date>
+				<translation catagory="medical-illness" gender="f">angina</translation>
+			</translations>
+		</nouns>
+	</Entry>
+               <Entry frequency="167">angiografia<nouns>
+			<translations><date>0805</date>
+				<translation catagory="medical" gender="f">angiography</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4385,7 +4406,13 @@
 	</Entry>
 	<Entry frequency="16200">apagar<verbs conj="GtoGU">
 			<translations><date>0105</date>
-				<translation>to put out</translation>
+				<translation transitive="true">to put out</translation>
+			</translations>
+		</verbs>
+	</Entry>
+               <Entry frequency="930">apallissar<verbs conj="regular">
+			<translations><date>0805</date>
+				<translation transitive="true">to beat</translation>
 			</translations>
 		</verbs>
 	</Entry>
