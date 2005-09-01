@@ -62,6 +62,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="699">sacada<nouns>
+			<translations><date>0905</date>
+				<translation disambiguate="sports-event-tennis" gender="f">serve<engnote>TermCat recommend the use of the noun 'servei' instead of 'sacada'</engnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="606">sac de dormir<nouns>
 			<translations><date>0705</date>
 				<translation gender="m">sleeping bag</translation>
@@ -348,6 +354,18 @@
 				<translation gender="f">health</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="334">saquejador<nouns>
+			<translations><date>0905</date>
+				<translation gender="m / f">looter<fems>saquejadora</fems></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="586">saquejar<verbs conj="JtoG">
+			<translations><date>0905</date>
+				<translation>to loot</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="1080">sarcasme<nouns>
 			<translations>
@@ -1054,6 +1072,7 @@
 	<Entry frequency="455000">servei<nouns>
 			<translations>
 				<translation gender="m">service</translation>
+                                <translation disambiguate="sports-event-tennis" gender="m">serve<catexamp>Nadal va trencar el servei d'Agassi</catexamp><engexamp>Nadal broke Agassi's serve</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1110,10 +1129,11 @@
 	</Entry>
 	<Entry frequency="69200">set<nouns>
 			<translations>
-				<translation catagory="number-cardinal" gender="m">seven</translation>
+				<translation disambiguate="number-cardinal" gender="m">seven</translation>
 				<translation gender="f">thirst<catexamp>Tenir set</catexamp>
 					<engexamp>To be thirsty</engexamp>
 				</translation>
+                                <translation disambiguate="sports-event-tennis" gender="m">set</translation>
 			</translations>
 		</nouns>
 	</Entry>
