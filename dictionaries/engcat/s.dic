@@ -298,12 +298,6 @@
 			</translations>
 		</adjectives>
 	</Entry>
-        <Entry frequency="285000">Salvadoran<adjectives>
-			<translations>
-				<translation>salvadorenc</translation>
-			</translations>
-		</adjectives>
-	</Entry>
 	<Entry frequency="5510000">salute<nouns>
 			<translations>
 				<translation gender="f">salutació / salva (Mil.)</translation>
@@ -314,6 +308,18 @@
                 		<translation transitive="true">saludar (Mil.)</translation>
 			</translations>
 		</verbs>
+	</Entry>
+                <Entry frequency="285000">Salvadoran<adjectives>
+			<translations>
+				<translation>salvadorenc</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        	<Entry frequency="308000">salver<nouns>
+			<translations>
+				<translation gender="f">safata</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="149000000">same<adjectives>
 			<translations>
@@ -410,7 +416,7 @@
 	</Entry>
         <Entry frequency="694000">sardine<nouns>
 			<translations>
-				<translation catagory="food=fish" gender="f">arengada / sardina</translation>
+				<translation catagory="food-fish" gender="f">arengada / sardina</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1083,7 +1089,7 @@
 	</Entry>
         <Entry frequency="818000">scrooge<nouns>
 			<translations>
-				<translation catagory="colloquial" gender="mf">garrepa</translation>
+				<translation register="colloquial" gender="mf">garrepa</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2680,7 +2686,7 @@
                 <translation>abatre</translation></translations></phrasalverbs>
                 <phrasalverbs>shoot up
                 <translations>
-                <translation catagory="slang">xutar-se / injectar-se</translation></translations></phrasalverbs>                
+                <translation register="slang">xutar-se / injectar-se</translation></translations></phrasalverbs>                
 	</Entry>
 	<Entry frequency="15000000">shooting<nouns>
 			<translations>
@@ -4841,7 +4847,7 @@
 	</Entry>
                 <Entry frequency="625000">social-democratic<adjectives>
 			<translations>
-				<translation catagory="politics">social-democratic</translation>
+				<translation catagory="politics">social-democràtic</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -6538,6 +6544,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="2500000">squeegee<nouns>
+			<translations>
+				<translation gender="m">(estri) netejavidres</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="5620000">squeeze<verbs>
 			<translations>
 				<translation>esprémer</translation>
@@ -7633,6 +7645,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="2560000">storyboard<nouns>
+			<translations>
+				<translation gender="m">guió il·lustrat</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1630000">stove<nouns>
 			<translations>
 				<translation catagory="household-room-kitchen" gender="f">cuina</translation>
@@ -8649,7 +8667,7 @@
 	</Entry>
 	<Entry frequency="11500000">sum<nouns>
 			<translations>
-				<translation catagory="mathematics" gender="f">suma</translation>
+				<translation catagory="maths" gender="f">suma</translation>
 				<translation catagory="financial" gender="m">import<engnote>'Import' means 'sum' as in 'a sum of money'</engnote>
 				</translation>
 			</translations>
@@ -8658,7 +8676,7 @@
 			<translations>
 				<translation>resumir<engnote>'Sumar' means 'to sum up' as in 'to sum up a situation'</engnote>
 				</translation>
-				<translation catagory="mathematics">sumar<engnote>'Sumar' means to sum up in the literal, mathematical sense</engnote>
+				<translation catagory="maths">sumar<engnote>'Sumar' means to sum up in the literal, mathematical sense</engnote>
 				</translation>
 			</translations>
 		</phrasalverbs>
