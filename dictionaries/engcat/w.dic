@@ -176,10 +176,11 @@
 	</Entry>
 	<Entry frequency="5000000">walker<nouns>
 			<translations>
-				<translation catagory="sports-event-hiking" gender="mf">senderista<engnote>'Senderista' means 'walker' in the sense of 'person who hikes'</engnote>
+				<translation disambiguate="sports-event-hiking" gender="mf">senderista<engnote>'Senderista' means 'walker' in the sense of 'person who hikes'</engnote>
 				</translation>
-				<translation catagory="sports-event-athletics" gender="mf">marxador<engnote>'Marxador' means 'walker' in the athletics / track and field sense</engnote>
+				<translation disambiguate="sports-event-athletics" gender="mf">marxador<engnote>'Marxador' means 'walker' in the athletics / track and field sense</engnote>
 				</translation>
+                                <translation gender="mpl">caminadors<engnote>'Caminadors' (also sometimes used in the singular) means 'baby walker (Br.) / walker (Am.)' or 'zimmer frame (Br.) / walker (Am.)'.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1620,13 +1621,15 @@
 	</Entry>
         <Entry frequency="358000">windsurfer<nouns>
 			<translations>
+                        <translation catagory="sports-event" termcat="true" gender="mf">surfista</translation>
 				<translation catagory="sports-event-windsurfing" gender="mf">windsurfista</translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="2210000">windsurfing<nouns>
 			<translations>
-				<translation catagory="sports-event" gender="m">windsurf / windsurfing</translation>
+                        <translation catagory="sports-event" termcat="true" gender="m">surf de vela</translation>
+				<translation catagory="sports-event" gender="m">windsurf</translation>
 			</translations>
 		</nouns>
 	</Entry>

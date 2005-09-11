@@ -784,6 +784,7 @@
 	<Entry frequency="5000" hasSound="true">batre<verbs conj="regular">
 			<translations>
 				<translation>to beat</translation>
+                                <translation disambiguate="sports">to bat</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1264,6 +1265,12 @@
 	<Entry frequency="52000" hasSound="true">bicicleta<nouns>
 			<translations><date>0805</date>
 				<translation catagory="transport-mode" gender="f">bicycle</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="289">bicitrial<nouns>
+			<translations>
+				<translation catagory="sports-event" gender="m">bike trials</translation>
 			</translations>
 		</nouns>
 	</Entry>
