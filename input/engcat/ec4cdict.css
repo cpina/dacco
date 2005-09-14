@@ -88,20 +88,30 @@
     @bottom { content: normal }
 }
 
-dictionary {
-   
-   padding-bottom: 3mm;  
-}
-
 cover {
     display: block;
+    page: cover
+}
+
+edition {
+    display: block;
+    text-align: center;
+    font: bold 14pt serif;
+    page-break-after: always;
     page: cover
 }
 
 title {
     display: block;
     text-align: center;
-    font: bold 24pt serif
+    font: bold 24pt serif;
+    page: cover
+}
+subtitle {
+    display: block;
+    text-align: center;
+    font: bold 8pt serif;
+    page: cover
 }
 
 Entry {
@@ -123,6 +133,11 @@ headword {
     font-family: sans-serif;
     string-set: termstr content()
 }
+
+subhead::before {
+    display: block;
+}
+
 subhead {
     display: inline;
     page-break-after: avoid;
@@ -131,6 +146,11 @@ subhead {
     font-weight: bold;
     font-family: sans-serif;
     string-set: termstr content()
+}
+
+phrasalverbs::before {
+	display: block;
+	counter-reset: trans 0
 }
 
 nouns::before {
@@ -178,14 +198,14 @@ adjectives::before {
 	
 	prepositions::before {
 	display: inline;
-	content: "preposició";
+	content: "prep";
 	font-size: 6pt;
 	  counter-reset: trans 0
 	}
 	
 	expressions::before {
 	display: inline;
-	content: "expressió";
+	content: "express";
 	font-size: 6pt;
 	  counter-reset: trans 0
 	}
@@ -216,6 +236,13 @@ translations {
   page-break-inside: avoid;
   }
 
+translations::after {
+	display: block;
+	content: "";
+	counter-reset: trans 0
+  }
+
+
 translation:not(:only-of-type)::before{
     text-underline-style: none;
     font-size:8pt;
@@ -233,8 +260,7 @@ translation{
 }
 
 gender{
-	content: inline;
-	font-size: 6pt;
+	font-size: 8pt;
 }
 
 equiv{
@@ -297,12 +323,19 @@ transexamp {
 	display: inline;
 }
 
+example::before {
+   display: block;
+}
+
 example {
     display: block; 
     font-size:8pt; font-style:italic;
     text-decoration: none;
     margin-left: 0.5cm;
 }
+
+
+
 
 
 engexamp::before {
@@ -375,154 +408,154 @@ synonyms{
 
 
 
-*[catagory^="work"]::before{
+*[disambiguate^="work"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[treb.]";
 	padding-right: 1
 }
 
-*[catagory^="sports"]::before{
+*[disambiguate^="sports"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[esport]";
 	padding-right: 1
 }
 
-*[catagory^="transport"]::before{
+*[disambiguate^="transport"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[trans.]";
 	padding-right: 1
 }
 
-*[catagory^="medical"]::before{
+*[disambiguate^="medical"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[med.]";
 	padding-right: 1
 }
 
-*[catagory^="religious"]::before{
+*[disambiguate^="religious"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[rel.]";
 	padding-right: 1
 }
 
-*[catagory^="body"]::before{
+*[disambiguate^="body"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[anat.]";
 	padding-right: 1
 }
 
-*[catagory^="animal"]::before{
+*[disambiguate^="animal"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[animal]";
 	padding-right: 1
 }
 
-*[catagory^="geography"]::before{
+*[disambiguate^="geography"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[geog.]";
 	padding-right: 1
 }
 
-*[catagory^="linguistics"]::before{
+*[disambiguate^="linguistics"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[ling.]";
 	padding-right: 1
 }
 
-*[catagory^="language"]::before{
+*[disambiguate^="language"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[llengua]";
 	padding-right: 1
 }
 
-*[catagory^="nationality"]::before{
+*[disambiguate^="nationality"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[nacion.]";
 	padding-right: 1
 }
 
-*[catagory^="country"]::before{
+*[disambiguate^="country"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[país]";
 	padding-right: 1
 }
 
-*[catagory^="food"]::before{
+*[disambiguate^="food"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[menj.]";
 	padding-right: 1
 }
 
-*[catagory^="politiics"]::before{
+*[disambiguate^="politiics"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[pol.]";
 	padding-right: 1
 }
 
-*[catagory^="plants"]::before{
+*[disambiguate^="plants"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[plantes]";
 	padding-right: 1
 }
 
-*[catagory^="financial"]::before{
+*[disambiguate^="financial"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[econ.]";
 	padding-right: 1
 }
 
-*[catagory^="weather"]::before{
+*[disambiguate^="weather"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[met.]";
 	padding-right: 1
 }
 
-*[catagory^="family"]::before{
+*[disambiguate^="family"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[fam.]";
 	padding-right: 1
 }
 
-*[catagory^="education"]::before{
+*[disambiguate^="education"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[enseny.]";
 	padding-right: 1
 }
 
-*[catagory^="computers"]::before{
+*[disambiguate^="computers"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[comp.]";
 	padding-right: 1
 }
 
-*[catagory^="colours"]::before{
+*[disambiguate^="colours"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[color]";
 	padding-right: 1
 }
 
-*[catagory^="zodiac"]::before{
+*[disambiguate^="zodiac"]::before{
 	text-decoration: none;
 	font-size: 6pt;
 	content: "[zodíac]";
@@ -536,7 +569,34 @@ synonyms{
 	padding-right: 1
 }
 
+*[register^="dialect"]::before{
+	text-decoration: none;
+	font-size: 6pt;
+	content: "[dialecte]";
+	padding-right: 1
+}
 
+*[register^="slang"]::before{
+	text-decoration: none;
+	font-size: 6pt;
+	content: "[argot]";
+	padding-right: 1
+}
+
+
+*[register^="dated"]::before{
+	text-decoration: none;
+	font-size: 6pt;
+	content: "[passat de moda]";
+	padding-right: 1
+}
+
+*[register^="colloquial"]::before{
+	text-decoration: none;
+	font-size: 6pt;
+	content: "[col·loquial]";
+	padding-right: 1
+}
 date {
 	display: none;
 }

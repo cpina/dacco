@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="antprettybuild.xsl"?>
 <!-- You may freely edit this file. See commented blocks below for -->
 <!-- some examples of how to customize the build. -->
 <!-- (If you delete it and reopen the project it will be recreated.) -->
@@ -6,7 +7,7 @@
 <description>Builds, tests, and runs the project Publisher.</description>
 
     
-    <target name="clean" >
+    <target name="clean" description="Remove old dictionary files from output directory">
         <delete>
             <fileset dir="output/">
                 <include name="**/*.html"/>
@@ -168,13 +169,34 @@
             </sequential>
     </macrodef>
     
-    <target name="forPrint">
+    <target name="forPrint" description="Compiles a set of xml files ready for conversion to PDF by Prince (a css based system)">
     <style 
-        in="dictionaries/engcat/list.xml"
+        in="dictionaries/engcat/englishPDFcontent.xml"
         out="output/engcat/engSpeakers/ec4e.xml" 
-        style="input/engcat/mergeAndRestructureECForCSS.xslt">
+        style="input/engcat/printEC4E.xslt">
     </style>
+     <style 
+        in="dictionaries/engcat/catalanPDFcontent.xml"
+        out="output/engcat/catSpeakers/ec4c.xml" 
+        style="input/engcat/printEC4C.xslt">
+    </style> 
+    <!-- cat to eng -->
+    <style 
+        in="dictionaries/cateng/englishPDFcontent.xml"
+        out="output/cateng/engSpeakers/ce4e.xml" 
+        style="input/cateng/printCE4E.xslt">
+    </style>
+    <style 
+        in="dictionaries/cateng/catalanPDFcontent.xml"
+        out="output/cateng/catSpeakers/ce4c.xml" 
+        style="input/cateng/printCE4C.xslt">
+    </style>
+    
     </target>
+    
+    
+    
+    
     <target name="verbs" >
      <delete>
             <fileset dir="output/">
