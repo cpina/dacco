@@ -2577,21 +2577,23 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="33400">circulació<nouns>
-			<translations>
-				<translation catagory="transport" gender="f">traffic<plural>circulacions</plural>
+	<Entry frequency="198000">circulació<nouns>
+			<translations><date>0905</date>
+				<translation disambiguate="transport" gender="f">traffic<plural>circulacions</plural>
+                                <translation disambiguate="body" gender="f">flow / circulation</translation>
+                                <translation disambiguate="financial" gender="f">circulation<plural>circulacions</plural></translation>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="32500">circular<verbs conj="regular">
 			<translations>
-				<translation catagory="transport">to drive</translation>
+				<translation disambiguate="transport">to drive</translation>
 				<translation>to walk<engnote>'Circular' applied to a pedestrian means 'to walk'</engnote>
 				</translation>
-				<translation>to travel / to run<engnote>'Circular' applied to a train means 'to travel' or 'to run'</engnote>
+				<translation disambiguate="transport">to travel / to run<engnote>'Circular' applied to a train means 'to travel' or 'to run'</engnote>
 				</translation>
-				<translation catagory="medical">to circulate<engnote>'Circular' applied to blood in the body means 'to circulate'</engnote>
+				<translation disambiguate="medical">to circulate<engnote>'Circular' applied to blood in the body means 'to circulate'</engnote>
 				</translation>
 				<translation>to flow<engnote>'Circular' applied to a liquid means 'to flow'.</engnote>
 				</translation>
@@ -2813,7 +2815,7 @@
 	</Entry>
 	<Entry frequency="29100">classificar<verbs conj="CtoQU">
 			<translations>
-				<translation>to classify</translation>
+				<translation transitive="true">to classify</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4177,6 +4179,13 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="39100">confidencial<adjectives>
+			<translations><date>0905</date>
+				<translation>confidential</translation>
+                                <translation>classified</translation>
+			</translations>
+		</adjectives>
+	</Entry>       
 	<Entry frequency="95100">configuració<nouns>
 			<translations>
 				<translation gender="f">configuration</translation>
