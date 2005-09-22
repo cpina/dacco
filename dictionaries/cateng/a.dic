@@ -1378,7 +1378,9 @@
 	</Entry>
 	<Entry frequency="37100" hasSound="true">adherir<verbs conj="inceptive">
 			<translations><date>0105</date>
-				<translation>to support / to join</translation>
+                        <translation transitive="true">to stick / to adhere (formal)</translation>
+				<translation reflexive="adherir-se">to join / to support<example>10 països &lt;b&gt;s'adheriran&lt;/b&gt; a la UE el 2004.</example><example>L'Ajuntament de Salou vol &lt;b&gt;adherir-se&lt;/b&gt; a la campanya anti-tabac.</example></translation>
+                                <translation reflexive="adherir-se">to cling / to stick</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1800,6 +1802,14 @@
 				<translation gender="m">affair</translation>
 			</translations>
 		</nouns>
+	</Entry>
+                 <Entry frequency="13500">aferrar<verbs conj="regular">
+			<translations><date>0905</date>
+				<translation transitive="true">to stick</translation>
+                                <translation reflexive="aferrar-se">to cling</translation>
+                                <translation reflexive="aferrar-se">to stand your ground / to hold your ground / to stand fast / to stand firm / to hold firm</translation>
+			</translations>
+		</verbs>
 	</Entry>
         <Entry frequency="3390">afganès<nouns>
 			<translations><date>0705</date>
@@ -4080,6 +4090,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                 <Entry frequency="44">ansietat per separació<nouns>
+			<translations><date>0905</date>
+				<translation catagory="medical-illness" gender="f">separation anxiety</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="6020">Antàrtida<nouns>
 			<translations><date>0105</date>
 				<translation catagory="geography-continent" gender="f">Antarctica</translation>
@@ -6333,10 +6349,16 @@
 	</Entry>
         <Entry frequency="1290">aterratge<nouns>
 			<translations><date>0405</date>
-				<translation catagory="transport" gender="m">landing<catexamp>Pista d'aterratge</catexamp><engexamp>Runway</engexamp><catexamp>Tren d'aterratge</catexamp><engexamp>Landing gear</engexamp></translation>
+				<translation catagory="transport" gender="m">landing<catexamp>Pista d'aterratge</catexamp><engexamp>Runway / airstrip / landing strip</engexamp><catexamp>Tren d'aterratge</catexamp><engexamp>Landing gear</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="191">aterratge forçós<nouns>
+			<translations><date>0905</date>
+				<translation catagory="transport" gender="m">crash landing</translation>
+			</translations>
+		</nouns>
+	</Entry> 
          	<Entry frequency="4430">ateu<nouns>
 			<translations><date>0805</date>
 				<translation gender="m / f">atheist<fems>atea</fems></translation>
