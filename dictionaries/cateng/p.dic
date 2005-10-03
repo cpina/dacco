@@ -2270,6 +2270,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                 <Entry frequency="933">pinta<nouns>
+      <translations><date>1005</date>
+        <translation gender="f">comb</translation>
+      </translations>
+    </nouns>
+  </Entry>
 	<Entry frequency="16700">pintar<verbs conj="regular">
 			<translations>
 				<translation>to paint</translation>
@@ -3185,6 +3191,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+                       <Entry frequency="20200">popularment<adverbs>
+      <translations><date>1005</date>
+        <translation>popularly / commonly</translation>
+      </translations>
+    </adverbs>
+  </Entry>
 	<Entry frequency="82900">por<nouns>
 			<translations>
 				<translation gender="f">fear</translation>
@@ -4530,12 +4542,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="717">programari propietari<nouns>
-			<translations>
-				<translation catagory="computers" gender="m">proprietary software</translation>
+	<Entry frequency="9120">programari propietari<nouns>
+			<translations><date>1005</date>
+				<translation catagory="computers" gender="m">proprietary / commercial software<engnote>'Programari de propietat' is the official term provided by TermCat. However, 'programa propietari' is very widely used.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
+                       <Entry frequency="247">programari de propietat<nouns>
+      <translations><date>1005</date>
+        <translation catagory="computers" termcat="true" gender="m">proprietary / commercial software</translation>
+      </translations>
+    </nouns>
+  </Entry>
 	<Entry frequency="31000">progrés<nouns>
 			<translations>
 				<translation>progress<plural>progressos</plural>
@@ -4767,7 +4785,7 @@
 	</Entry>
 	<Entry frequency="263000">propietat<nouns>
 			<translations><date>0705</date>
-				<translation gender="f">property<catexamp>Programari de propietat</catexamp><engexamp>Proprietary software</engexamp></translation>
+				<translation gender="f">property<catexamp>Programari de propietat</catexamp><engexamp>Proprietary / commercial software</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4942,7 +4960,7 @@
 	</Entry>
 	<Entry frequency="43500">provenir<verbs conj="irregular5">
 			<translations><date>0705</date>
-				<translation>to come from</translation>
+				<translation>to come from<engnote>'Provenir' is followed by the preposition 'de'</engnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
