@@ -140,7 +140,7 @@
             <copy todir="output/engcat/@{speaker}Speakers/@{name}">
                <fileset dir="input/engcat/template"/>
             </copy>
-            <copy overwrite="true" file="input/navigation/@{speaker}Nav.htm" tofile="output/engcat/@{speaker}Speakers/@{name}/nav.htm"/>
+            <copy overwrite="true" file="input/navigation/@{speaker}Nav.htm" tofile="output/engcat/@{speaker}Speakers/@{name}/nav.html"/>
                <style 
                     basedir="dictionaries/engcat"
                     includes="*.dic" 
