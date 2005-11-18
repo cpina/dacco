@@ -44,6 +44,12 @@
         out="output/cateng/stats/stats.html" 
         style="input/cateng/stats.xsl">
     </style>
+     <style 
+                    basedir="dictionaries/cateng"
+                    includes="*.dic" 
+                    destdir="output/cateng/computer/cateng"
+                    extension=".txt" style="input/cateng/compPublish.xsl">
+                    </style>
      </target>
      
     <target name="site" depends="publish">
@@ -134,7 +140,7 @@
             <copy todir="output/engcat/@{speaker}Speakers/@{name}">
                <fileset dir="input/engcat/template"/>
             </copy>
-            <copy file="input/navigation/@{speaker}Nav.htm" tofile="output/engcat/@{speaker}Speakers/@{name}/nav.htm"/>
+            <copy overwrite="true" file="input/navigation/@{speaker}Nav.htm" tofile="output/engcat/@{speaker}Speakers/@{name}/nav.htm"/>
                <style 
                     basedir="dictionaries/engcat"
                     includes="*.dic" 
