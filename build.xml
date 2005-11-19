@@ -163,7 +163,7 @@
              <copy todir="output/cateng/@{speaker}Speakers/@{name}">
                <fileset dir="input/cateng/template"/>
             </copy>
-            <copy file="input/navigation/@{speaker}Nav.htm"  tofile="output/engcat/@{speaker}Speakers/@{name}/nav.htm"/>
+            <copy overwrite="true" file="input/navigation/@{speaker}Nav.htm"  tofile="output/cateng/@{speaker}Speakers/@{name}/nav.htm"/>
                <style 
                     basedir="dictionaries/cateng"
                     includes="*.dic" 
