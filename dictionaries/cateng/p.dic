@@ -105,6 +105,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="10000">paga<nouns>
+			<translations><date>1105</date>
+				<translation catagory="work" gender="f">pay / wage / salary<synonyms>salari</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2460">pagà<nouns>
 			<translations>
 				<translation gender="m / f">pagan</translation>
@@ -2701,6 +2707,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="3490">pla d'estudis<nouns>
+			<translations><date>1105</date>
+				<translation catagory="education" gender="m">curriculum</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="14300">plaer<nouns>
 			<translations>
 				<translation gender="m">pleasure</translation>
@@ -2788,7 +2800,7 @@
 	</Entry>
 	<Entry frequency="48900">plantilla<nouns>
 			<translations>
-				<translation catagory="work" gender="f">staff / work force</translation>
+				<translation catagory="work" gender="f">staff / work force / workforce</translation>
 				<translation gender="f">insole</translation>
 				<translation gender="f">pattern / template / stencil</translation>
 				<translation disambiguate="sports" gender="f">team / squad (Br.)</translation>
@@ -3724,8 +3736,8 @@
 					<catexamp>En teoria ... a la pràctica</catexamp>
 					<engexamp>In theory ... in practice</engexamp>
 				</translation>
-			</translations>
-		</nouns>
+                                <translation sourceplural="pràctiques" termcat="true" gender="fpl">training period</translation>
+                                <translation sourceplural="pràctiques" termcat="true" gender="fpl">internship</translation></translations></nouns>
 	</Entry>
 	<Entry frequency="34500">practicar<verbs conj="CtoQU">
 			<translations>
@@ -4106,6 +4118,12 @@
 				<translation>to do without / to miss out / to cut out</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="816">preselecció<nouns>
+			<translations><date>1105</date>
+				<translation termcat="true" gender="f">screening</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="83800">presència<nouns>
 			<translations>
@@ -5137,7 +5155,7 @@
 	</Entry>
 	<Entry frequency="327000">prova<nouns>
 			<translations><date>0705</date>
-				<translation gender="f">test</translation>
+				<translation gender="f">test<catexamp>(Període) de proves</catexamp><engexamp>Probationary (period)</engexamp></translation>
 				<translation gender="f">proof / evidence</translation>
 			</translations>
 		</nouns>
