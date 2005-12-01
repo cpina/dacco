@@ -315,13 +315,13 @@
 	</Entry>
          <Entry frequency="10300000">call center<nouns>
 			<translations>
-				<translation local="us" gender="f">centraleta<otherlocal>call centre</otherlocal></translation>
+				<translation local="us" termcat="true" gender="f">centre d'atenció telefònica<otherlocal>call centre</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
          <Entry frequency="2030000">call centre<nouns>
 			<translations>
-				<translation local="gb" gender="f">centraleta<otherlocal>call center</otherlocal></translation>
+				<translation local="gb" termcat="true" gender="f">centre d'atenció telefònica<otherlocal>call center</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -489,15 +489,33 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="9500000">camper<nouns>
+			<translations>
+				<translation gender="mf">acampador / campista</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="703000">camper van<nouns>
 			<translations>
 				<translation local="gb" gender="f">autocaravana<otherlocal>motor home / RV (Recreational Vehicle)</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="13000000">campground<nouns>
+			<translations>
+				<translation local="us" gender="m">càmping<otherlocal>campsite (Br.) / camping ground (Aus.)</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="18300000">camping<nouns>
 			<translations>
 				<translation gender="f">acampada</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="768000">camping ground<nouns>
+			<translations>
+				<translation local="au" gender="m">càmping<otherlocal>campsite (Br.) / campground (Am.)</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1271,6 +1289,12 @@
         <Entry frequency="59800">cashpoint<nouns>
 			<translations>
 				<translation local="gb" gender="m">caixer automàtic<synonyms>ATM machine, hole-in-the-wall</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="4040000">cash register<nouns>
+			<translations>
+				<translation gender="f">caixa enregistradora</translation>
 			</translations>
 		</nouns>
 	</Entry>
