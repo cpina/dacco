@@ -981,7 +981,7 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="19700" hasSound="true">acomplir<verbs conj="irregular7">
+        	<Entry frequency="19700" hasSound="true">acomplir<verbs conj="irregular7">
 			<translations><date>0105</date>
 				<translation>to accomplish<example>Totes les llengües del món &lt;b&gt;acompleixen&lt;/b&gt; la mateixa missió: la comunicació entre els seus usuaris.</example>
 				</translation>
@@ -2111,6 +2111,7 @@
 	<Entry frequency="25600" hasSound="true">aguantar<verbs conj="regular">
 			<translations><date>0105</date>
 				<translation>to support</translation>
+                                <translation>to withstand</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2432,6 +2433,12 @@
                 <nouns>
                 <translations>
                 <translation gender="m / f">albino<plural>albins</plural><fems>albina</fems></translation></translations></nouns>
+	</Entry>
+        <Entry frequency="54000">alça<nouns>
+			<translations><date>1105</date>
+				<translation catagory="financial" gender="f">rise</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="84500" hasSound="true">alçada<nouns>
 			<translations><date>0105</date>
@@ -3537,6 +3544,18 @@
 			</translations>
 		</adjectives>
 	</Entry>	
+        <Entry frequency="42900">amortització<nouns>
+			<translations><date>1105</date>
+				<translation catagory="financial" gender="f">amortization / amortisation (Br.) / redemption</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="15400">amortitzar<verbs conj="regular">
+			<translations><date>1105</date>
+				<translation>to amortize / to amortise (Br.) / to pay back</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="241">amotinar<verbs conj="regular">
 			<translations>
 				<date>0205</date>
@@ -3573,7 +3592,7 @@
 	<Entry frequency="959">amplària<nouns>
 			<translations>
 				<date>0205</date>
-				<translation>width</translation>
+				<translation gender="f">width</translation>
 			</translations>
 		</nouns>
 	</Entry>
