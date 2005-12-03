@@ -4409,9 +4409,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="3320000">collusion<nouns>
+			<translations>
+				<translation gender="f">connivència</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="15100000">Colombia<nouns>
 			<translations>
-				<translation gender="f">Colòmbia</translation>
+				<translation catagory="geography-country-southamerica" gender="f">Colòmbia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5450,6 +5456,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="22200000">cone<nouns>
+			<translations>
+				<translation catagory="maths" gender="m">con</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="107000000">conference<nouns>
 			<translations>
 				<translation gender="f">conferència</translation>
@@ -5587,15 +5599,27 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="3800000">congestive<adjectives>
+			<translations>
+				<translation>congestiu<engexamp>Congestive heart failure</engexamp><catexamp>Insuficiència cardíaca congestiva</catexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="8590000">conglomerate<nouns>
+			<translations>
+                                <translation gender="m">conglomerat</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2080000">congratulate<verbs>
 			<translations>
-				<translation>felicitar</translation>
+				<translation>felicitar / congratular</translation>
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="14200000">congratulations<nouns>
+	<Entry frequency="14200000">congratulation<nouns>
 			<translations>
-				<translation gender="fpl">felicitacions</translation>
+				<translation gender="f">felicitació / congratulació</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5608,7 +5632,7 @@
          <Entry frequency="6090000">congregation<nouns>
 			<translations>
                                 <translation gender="mpl">feligresos</translation>
-				<translation gender="f">congregació</translation>
+				<translation gender="f">congregació<engexamp>Member of a congregation</engexamp><catexamp>Congregant</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5616,6 +5640,7 @@
 			<translations>
 				<translation gender="m">congrès<plural>congresses</plural>
 				</translation>
+                                <translation beforenoun="true">congressual</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5625,11 +5650,32 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="2610000">conical<adjectives>
+			<translations>
+				<translation catagory="maths">cònic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="590000">conjectural<adjectives>
+			<translations>
+				<translation>conjectural</translation>
+			</translations>
+		</adjectives>
+	</Entry>
         <Entry frequency="1890000">conjecture<nouns>
 			<translations>
 				<translation gender="f">conjectura</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                <translations>
+                <translation>conjecturar</translation></translations></verbs>
+	</Entry>
+        <Entry frequency="1230000">conjugal<adjectives>
+			<translations>
+				<translation>conjugal</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="1460000">conjugate<verbs>
 			<translations>
@@ -5640,6 +5686,12 @@
 	<Entry frequency="386000">conjugation<nouns>
 			<translations>
 				<translation gender="f">conjugació</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="119000000">conjunction<nouns>
+			<translations>
+				<translation catagory="linguistics" gender="f">conjunció</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5690,6 +5742,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="5560000">connotation<nouns>
+			<translations>
+				<translation catagory="linguistics" gender="f">connotació</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="4940000">conquer<verbs>
 			<translations>
 				<translation>conquerir / conquistar</translation>
@@ -5704,7 +5762,13 @@
 	</Entry>
         <Entry frequency="1590000">conqueror<nouns>
 			<translations>
-				<translation gender="mf">conqueridor<engexamp>William the Conqueror</engexamp><catexamp>Guillem el Conqueridor</catexamp></translation>
+				<translation gender="mf">conqueridor / conquistador<engexamp>William the Conqueror</engexamp><catexamp>Guillem el Conqueridor</catexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="16600000">conquest<nouns>
+			<translations>
+				<translation gender="f">conquista</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6422,6 +6486,7 @@
                                 <translation gender="f">convenció</translation>
                                 <translation gender="m">congrés</translation>
                                 </translation>
+                                <translation beforenoun="true">congressual<engexamp>Convention agreement</engexamp><catexamp>Acord congressual</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
