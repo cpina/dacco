@@ -1535,15 +1535,15 @@
 				<translation>que</translation>
 			</translations>
 		</conjunctions>
-		<adjectives>
+		<determiners>
 			<translations>
 				<translation>aquell</translation>
 			</translations>
-		</adjectives>
+		</determiners>
 		<pronouns>
 			<translations>
+                        	<translation>això / allò</translation>
 				<translation>que</translation>
-				<translation>això / allò</translation>
 			</translations>
 		</pronouns>
 	</Entry>
@@ -1552,6 +1552,12 @@
 				<translation>desglaçar / desgelar / fondre / descongelar</translation>
 			</translations>
 		</verbs>
+	</Entry>
+<Entry frequency="8550000000">the<determiners>
+			<translations>
+				<translation>el / la / l' / els / les<engnote>El = masculine singular / la = feminine singular / l' = masculine or feminine singular before a vowel / els = masculine plural / les = feminine plural</engnote></translation>
+			</translations>
+		</determiners>
 	</Entry>
 	<Entry frequency="16400000">theater<nouns>
 			<translations>
@@ -1599,11 +1605,11 @@
                                 <translation>els / les / los / 'ls</translation>
 			</translations>
 		</pronouns>
-                <adjectives>
+                <determiners>
                 <translations>
-                <translation>aquests / aquestes / aquell / aquelles<catnote>A vegades en el parlar quotidià, es diu 'them' en lloc de 'those' (per exemple: 'Where are you taking them books?'). L'aprenent de l'anglès no deu utilitzar la paraula 'them' amb aquest sentit però s'utilitza bastant, així que val la pena ser conscient del seu ús.</catnote></translation>
+                <translation register="slang">aquests / aquestes / aquell / aquelles<catnote>A vegades en el parlar quotidià, es diu 'them' en lloc de 'those' (per exemple: 'Where are you taking them books?'). L'aprenent de l'anglès no deu utilitzar la paraula 'them' amb aquest sentit però s'utilitza bastant, així que val la pena ser conscient del seu ús.</catnote></translation>
                 </translations>
-                </adjectives>
+                </determiners>
 	</Entry>
         <Entry frequency="71500000">theme<nouns>
 			<translations>
@@ -1781,11 +1787,11 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="24100000">these<adjectives>
+	<Entry frequency="24100000">these<determiners>
 			<translations>
 				<translation>aquests / aquestes</translation>
 			</translations>
-		</adjectives>
+		</determiners>
 		<pronouns>
 			<translations>
 				<translation>aquests / aquestes</translation>
@@ -1968,11 +1974,14 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="24500000">this<adjectives>
+	<Entry frequency="24500000">this<determiner>
 			<translations>
 				<translation>aquest / aquesta / aquests / aquestes</translation>
 			</translations>
-		</adjectives>
+		</determiner>
+                <expressions>this year
+                <translations>
+                <translation>enguany</translation></translations></expressions>                
 	</Entry>
 	<Entry frequency="1170000">thistle<nouns>
 			<translations>
@@ -1980,12 +1989,6 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="15200000">this year<adverbs>
-			<translations>
-				<translation>enguany</translation>
-			</translations>
-		</adverbs>
 	</Entry>
         <Entry frequency="2820000">thoracic<adjectives>
 			<translations>
@@ -2020,11 +2023,11 @@
 				<translation>aquells / aquelles</translation>
 			</translations>
 		</adjectives>
-		<pronouns>
+		<determiners>
 			<translations>
 				<translation>aquells / aquelles</translation>
 			</translations>
-		</pronouns>
+		</determiners>
 	</Entry>
 	<Entry frequency="14500000">though<conjunctions>
 			<translations>
@@ -4651,6 +4654,13 @@
         <Entry frequency="753000">tugboat<nouns>
 			<translations>
 				<translation catagory="transport" gender="m">remolcador<synonyms>tug, towboat</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="1710000">tug-of-war<nouns>
+			<translations>
+				<translation gender="m">joc d'estirar la corda</translation>
+                                <translation gender="m">estira-i-arronsa</translation>
 			</translations>
 		</nouns>
 	</Entry>

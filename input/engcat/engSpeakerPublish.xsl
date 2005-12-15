@@ -36,7 +36,7 @@
 				(<xsl:value-of select="engacro"/>)
 			</xsl:if>
 					</span>
-					<xsl:apply-templates select="nouns | verbs | adverbs | adjectives | conjunctions | prepositions | pronouns | abbreviations | exclamations | acronyms | expressions"/>
+					<xsl:apply-templates select="nouns | verbs | adverbs | adjectives | conjunctions | prepositions | pronouns | abbreviations | exclamations | acronyms | expressions | determiners"/>
 					<xsl:apply-templates select="phrasalverbs"/>
 					<p/>
 				</xsl:if>
@@ -137,6 +137,13 @@
 		<xsl:if test="count(translations/translation[@noteng='TRUE'])=0 or count(/translations/translation[@noteng='TRUE'])!=count(translations/translation)">
 			<br/>
 			<span class="pos"> abbrev </span>
+			<xsl:apply-templates/>
+		</xsl:if>
+	</xsl:template>
+        <xsl:template match="determiners">
+		<xsl:if test="count(translations/translation[@noteng='TRUE'])=0 or count(/translations/translation[@noteng='TRUE'])!=count(translations/translation)">
+			<br/>
+			<span class="pos"> det </span>
 			<xsl:apply-templates/>
 		</xsl:if>
 	</xsl:template>
