@@ -989,6 +989,12 @@
 				<translation gender="m">change</translation>
 			</translations>
 		</nouns>
+                <expressions>en canvi
+                <translations>
+                <translation>on the other hand</translation></translations></expressions>
+                <expressions>a canvi de
+                <translations>
+                <translation>in exchange for</translation></translations></expressions>
 	</Entry>
         <Entry frequency="155">canviador<nouns>
 			<translations><date>1105</date>
@@ -4465,7 +4471,8 @@
 	</Entry>
         	<Entry frequency="34800000">conca<nouns>
 			<translations><date>0305</date>
-				<translation gender="f">watershed</translation>
+                        <translation disambiguate="geography" gender="f">basin<catnote>(d'un riu / d'un mar)</catnote><catexamp>La conca mediterrània</catexamp><engexamp>The Mediterranean Basin</engexamp></translation>
+			<translation disambiguate="geography" gender="f">watershed<catnote>(d'un riu)</catnote><catexamp>La conca del riu Mississippi</catexamp><engexamp>The Mississippi River watershed</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4743,6 +4750,12 @@
                                 <translation reflexive="conformar-se">to resign yourself</translation>
 			</translations>
 		</verbs>
+                <expressions>conformar-se amb (alguna cosa)
+                <translations>
+                <translation>to make do with (something)<synonyms>passar amb (alguna cosa)</synonyms>
+                </translation>
+                </translations>
+                </expressions>
 	</Entry>
         	<Entry frequency="10700">confort<nouns>
 			<translations><date>0805</date>
@@ -6524,6 +6537,21 @@
                 <expressions>costi el que costi
                 <translations>
                 <translation>at all costs</translation></translations></expressions>
+	</Entry>
+        <Entry frequency="21600">Costa Rica<nouns>
+			<translations><date>1205</date>
+				<translation catagory="country-centralamerica" gender="f">Costa Rica</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="156">costa-riqueny<nouns>
+			<translations><date>1205</date>
+				<translation catagory="nationality-centralamerica" gender="m / f">Costa Rican</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>Costa Rican<fems>costa-riquenya</fems></translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="195000">costat<nouns>
 			<translations><date>0805</date>

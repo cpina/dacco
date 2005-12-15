@@ -434,7 +434,7 @@
 	<Entry frequency="14900" hasSound="true">absorció<nouns>
 			<translations>
 				<translation gender="f">absorption</translation>
-                                <translation gender="f">takeover<plural>absorcions</plural></translation>
+                                <translation disambiguate="financial" gender="f">takeover<plural>absorcions</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1146,6 +1146,9 @@
 				</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation catagory="financial" gender="m">assets</translation></translations></nouns>
 	</Entry>
         	<Entry frequency="37300" hasSound="true">activament<adverbs>
 			<translations><date>0705</date>
@@ -3810,6 +3813,12 @@
 	<Entry frequency="5070">andana<nouns>
 			<translations><date>0105</date>
 				<translation catagory="transport" gender="f">platform</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="429">andanada<nouns>
+			<translations><date>1205</date>
+				<translation catagory="transport" gender="f">broadside</translation>
 			</translations>
 		</nouns>
 	</Entry>
