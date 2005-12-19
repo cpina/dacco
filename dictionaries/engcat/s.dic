@@ -684,6 +684,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="1610000">scabbard<nouns>
+			<translations>
+				<translation gender="f">beina<synonyms>sheath</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
                 <Entry frequency="455000">scabies<nouns>
 			<translations>
 				<translation gender="f">ronya / sarna</translation>
@@ -1955,6 +1961,36 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="2090000">sepsis<nouns>
+			<translations>
+				<translation catagory="medical" gender="f">sèpsia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="6730000">septic<adjectives>
+			<translations>
+				<translation>sèptic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="1150000">septicemia<nouns>
+			<translations>
+				<translation catagory="medical" gender="f">septicèmia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="716000">septic shock<nouns>
+			<translations>
+				<translation catagory="medical" gender="m">xoc sèptic</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2190000">septic tank<nouns>
+        			<translations>
+				<translation gender="f">fossa sèptica</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2630000">Serbia<nouns>
 			<translations>
 				<translation catagory="country-europe" gender="f">Sèrbia</translation>
@@ -2492,6 +2528,13 @@
 				<translation catagory="animal">esquilar / tondre</translation>
 			</translations>
 		</verbs>
+	</Entry>
+         <Entry frequency="4140000">sheath<nouns>
+			<translations>
+				<translation gender="f">beina<synonyms>scabbard</synonyms></translation>
+                                <translation gender="m">condó / condom<synonyms>condom</synonyms></translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="3160000">shed<nouns>
 			<translations>
@@ -5104,6 +5147,16 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>sod it
+                <translations>
+                <translation>merda!</translation>
+                </translations>
+                </expressions>
+                <expressions>sod off
+                <translations>
+                <translation>fot el camp!</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="3530000">soda<nouns>
 			<translations>
@@ -5130,6 +5183,18 @@
 				<translation register="slang">fot el camp!</translation>
 			</translations>
 		</exclamations>
+	</Entry>
+        <Entry frequency="617000">sodomize<verbs>
+			<translations>
+				<translation>sodomitzar<synonyms>bugger</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="2080000">sodomy<nouns>
+			<translations>
+				<translation gender="f">sodomia</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="2360000">sofa<nouns>
 			<translations>
@@ -5492,6 +5557,7 @@
 	<Entry frequency="18000000">sound<nouns>
 			<translations>
 				<translation gender="m">so</translation>
+                                <translation beforenoun="true">sonar<engexamp>Sound effects</engexamp><catexamp>Efectes sonars</catexamp><engexamp>Soundtrack</engexamp><catexamp>Banda sonora</catexamp></translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -5502,10 +5568,10 @@
 		<adjectives>
 			<translations>
 				<translation>sòlid / ferm</translation>
-				<translation>encertat / sensat<example>a &lt;b&gt;sound&lt;/b&gt; argument</example></translation>
-				<translation>profundament<example>&lt;b&gt;sound&lt;/b&gt; asleep</example></translation>
-				<translation>contundent<example>a &lt;b&gt;sound&lt;/b&gt; defeat</example></translation>
-				<translation>sa<engexamp>safe and sound</engexamp><catexamp>sa i estalvi</catexamp></translation>
+				<translation>encertat / sensat<example>A &lt;b&gt;sound&lt;/b&gt; argument</example></translation>
+				<translation>profundament<engexamp>Sound asleep</engexamp><catexamp>Profundament adormit</catexamp></translation>
+				<translation>contundent<engexamp>A sound defeat</engexamp><catexamp>Una derrota contundent</catexamp></translation>
+				<translation>sa<engexamp>Safe and sound</engexamp><catexamp>Sa i estalvi</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -5530,6 +5596,12 @@
         <Entry frequency="229000">soundproofing<nouns>
 			<translations>
 				<translation gender="ffullform">insonorització</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="65600000">soundtrack<nouns>
+			<translations>
+				<translation gender="f">banda sonora</translation>
 			</translations>
 		</nouns>
 	</Entry>

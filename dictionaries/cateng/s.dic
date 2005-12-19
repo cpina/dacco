@@ -1127,6 +1127,24 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="153">sèpsia<nouns>
+			<translations><date>1205</date>
+				<translation catagory="medical" gender="f">sepsis</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="559">sèptic<adjectives>
+			<translations>
+				<translation>septic<catexamp>Xoc sèptic</catexamp><engexamp>Septic shock</engexamp><catexamp>Fossa sèptica</catexamp><engexamp>Septic tank</engexamp><fems>sèptica</fems><femplural>sèptiques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="346">septicèmia<nouns>
+			<translations><date>1205</date>
+				<translation catagory="medical" gender="f">septicemia</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2750">seqüela<nouns>
 			<translations>
 				<translation gender="f">sequel</translation>
@@ -1739,8 +1757,14 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="45">sistema gestor / de gestió de base de dades<nouns>
-			<translations>
+        <Entry frequency="65">sistema de gestió de base de dades<nouns>
+			<translations><date>1205</date>
+				<translation catagory="computers" gender="m">database management system</translation>
+			</translations>
+		</nouns>
+	</Entry>
+	<Entry frequency="72">sistema gestor de base de dades<nouns>
+			<translations><date>1205</date>
 				<translation catagory="computers" gender="m">database management system</translation>
 			</translations>
 		</nouns>
@@ -1940,6 +1964,18 @@
         <Entry frequency="4070">socorrista<nouns>
 			<translations><date>0505</date>
 				<translation gender="m / f">first aider<catexamp>Socorrista aquàtic</catexamp><engexamp>Lifeguard</engexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="15100">sodi<nouns>
+			<translations><date>1205</date>
+				<translation catagory="chemistry" gender="m">sodium</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2420">sodomia<nouns>
+			<translations><date>1205</date>
+				<translation gender="f">sodomy</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2150,6 +2186,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="129000">sonor<adjectives>
+			<translations><date>1205</date>
+                        <translation>sound<catexamp>Efectes sonors</catexamp><engexamp>Sound effects</engexamp><catexamp>Banda sonora</catexamp><engexamp>Soundtrack</engexamp></translation>
+				<translation disambiguate="linguistics">voiced<fems>sonora</fems></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="6500">sopa<nouns>
 			<translations>
 				<translation catagory="food" gender="f">soup</translation>
@@ -2176,7 +2219,9 @@
 	</Entry>
 	<Entry frequency="5600">sord<adjectives>
 			<translations>
-				<translation catagory="medical">deaf<fems>sorda</fems></translation>
+				<translation disambiguate="medical">deaf</translation>
+                                <translation disambiguate="linguistics">voiceless</translation>
+                                <translation>dull<engnote>'Sord' means 'dull' in the sense 'persistent but not sharp' (e.g. a dull ache)</engnote><fems>sorda</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
