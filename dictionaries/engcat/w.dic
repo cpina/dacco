@@ -824,13 +824,19 @@
 	</Entry>
 	<Entry frequency="48600000">web page<nouns>
 			<translations>
-				<translation catagory="computers" gender="f">pàgina web</translation>
+				<translation termcat="true" catagory="computers" gender="f">pàgina web</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="193000000">web site<nouns>
+        <Entry frequency="3040000000">website<nouns>
 			<translations>
-				<translation catagory="computers" gender="m">lloc web</translation>
+				<translation termcat="true" catagory="computers" gender="m">lloc web<synonyms>site</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2680000000">web site<nouns>
+			<translations>
+				<translation termcat="true" catagory="computers" gender="m">lloc web<synonyms>site</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>

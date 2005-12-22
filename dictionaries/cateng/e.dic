@@ -503,7 +503,7 @@
 	<Entry frequency="46200">eix<nouns>
 			<translations>
 				<translation catagory="transport" gender="m">axle</translation>
-				<translation gender="m">axis</translation>
+				<translation gender="m">axis<plural>eixos</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3460,10 +3460,16 @@ lliure per tal de no &lt;b&gt;encarir&lt;/b&gt; innecessàriament un projecte</e
 				<translation gender="m">fright / panic / shock</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="363">espantall<nouns>
+			<translations><date>1205</date>
+				<translation gender="m">scarecrow<synonyms>espantaocells</synonyms></translation>
+			</translations>
+		</nouns>
 	</Entry>	
         <Entry frequency="365">espantaocells<nouns>
 			<translations>
-				<translation gender="m">scarecrow</translation>
+				<translation gender="m">scarecrow<synonyms>espantall</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5032,6 +5038,24 @@ lliure per tal de no &lt;b&gt;encarir&lt;/b&gt; innecessàriament un projecte</e
 				<translation catagory="work" gender="m">army</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="162">exhaurible<adjectives>
+			<translations><date>1205</date>
+				<translation>exhaustible<catexamp>Recursos exhauribles</catexamp><engexamp>Exhaustible resources</engexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="98000">exhaurir<verbs conj="inceptive">
+			<translations><date>1205</date>
+				<translation>to exhaust</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="90800">exhaustiu<adjectives>
+			<translations><date>1205</date>
+				<translation>exhaustive<fems>exhaustiva</fems></translation>
+			</translations>
+		</adjectives>
 	</Entry>
         <Entry frequency="380">exhibidor<nouns>
 			<translations><date>0505</date>
