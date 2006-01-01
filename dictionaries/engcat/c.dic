@@ -852,6 +852,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="637000">carapace<nouns>
+			<translations>
+				<translation catagory="animal" gender="f">cuirassa</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="1100000">carat<nouns>
 			<translations>
 				<translation gender="m">quirat<engexamp>18 carat gold</engexamp><catexamp>Or de 18 quirats</catexamp></translation>
@@ -1359,6 +1365,7 @@
 	<Entry frequency="30400000">castle<nouns>
 			<translations>
 				<translation gender="m">castell</translation>
+                                <translation gender="f">torre<synonyms>rook</synonyms><engnote>'Torre' means the chess piece 'castle' (aka 'rook')</engnote><catnote>(Escacs)</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1651,6 +1658,12 @@
          <Entry frequency="539000">cavalcade<nouns>
 			<translations>
 				<translation gender="f">cavalcada</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="6220000">cavalry<nouns>
+			<translations>
+				<translation gender="f">cavalleria<plural>cavalries</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2468,6 +2481,7 @@
 			<translations>
 				<translation disambiguate="financial" local="us" gender="m">xec<otherlocal>cheque</otherlocal>
 				</translation>
+                                <translation gender="m">escac<engnote>'Escac' means 'check' in the chess sense</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2507,6 +2521,12 @@
 			<translations>
 				<translation local="us" gender="m">compte corrent<otherlocal>current account</otherlocal>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2100000">checkmate<nouns>
+			<translations>
+				<translation gender="m">escac i mat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2749,6 +2769,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="5530000">childish<adjectives>
+			<translations>
+				<translation>pueril</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="216000000">children<nouns>
 			<translations>
 				<translation gender="mpl">nens<engnote>'Nens' means children in a quite general sense, when you're not referring to their relationship to their parents at all (i.e. children are noisy and dirty, there are two children playing football in the street)</engnote>
@@ -2900,6 +2926,12 @@
 				<translation register="slang" local="gb" disambiguate="work" gender="m">fuster</translation>
 				<translation register="dialectal" local="gb">restaurant que ven 'fish and chips' (peix i patates fregides) per emportar<plural>chippies</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1860000">chivalry<nouns>
+			<translations>
+				<translation gender="f">cavalleria</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3615,6 +3647,11 @@
                 <phrasalverbs>clean out
                 <translations>
                 <translation>escurar</translation></translations></phrasalverbs>
+                <expressions>squeaky-clean
+                <translations>
+                <translation>impol·lut</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="5790000">cleaner<nouns>
 			<translations>
@@ -3772,10 +3809,15 @@
 	</Entry>
 	<Entry frequency="2330000">climb<verbs>
 			<translations>
-				<translation>pujar</translation>
+				<translation>pujar / ascendir</translation>
                                 <translation>escalar</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                <translations>
+                <translation gender="f">ascensió</translation>
+                </translations>
+                </nouns>
 	</Entry>
         <Entry frequency="4000000">clinch<verbs>
 			<translations>
@@ -4630,6 +4672,18 @@
 				<translation>pentinar(-se)</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="90400000">combat<nouns>
+			<translations>
+				<translation gender="m">combat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="8840000">combatant<nouns>
+			<translations>
+				<translation gender="mf">combatent<synonyms>fighter</synonyms></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="141000000">combine<verbs>
 			<translations>

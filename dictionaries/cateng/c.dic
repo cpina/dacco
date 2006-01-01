@@ -949,6 +949,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="26500">cansament<nouns>
+			<translations><date>1205</date>
+				<translation gender="m">tiredness</translation>
+			</translations>
+		</nouns>
+	</Entry>
          	<Entry frequency="10000">cansar<verbs conj="regular">
 			<translations><date>0805</date>
 				<translation transitive="true">to wear / tire (out)</translation>
@@ -2175,13 +2181,22 @@
 	<Entry frequency="58200">cavall<nouns>
 			<translations><date>0405</date>
 				<translation catagory="animal-animal" gender="m">horse</translation>
-                                <translation gender="m">knight<catnote>Escacs</catnote><engnote>'Cavall' means a knight in the game of chess.</engnote></translation>
+                                <translation gender="m">knight<catnote>(Escacs)</catnote><engnote>'Cavall' means a knight in the game of chess.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="26500">cavaller<nouns>
 			<translations>
 				<translation gender="m">knight</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="22900">cavalleria<nouns>
+			<translations><date>1205</date>
+				<translation gender="f">cavalry</translation>
+                                <translation gender="f">chivalry</translation>
+                                <translation gender="f">knighthood / chivalry</translation>
+                                <translation gender="f">deed / act of chivalry</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3878,6 +3893,21 @@
 			<translations>
 				<translation gender="f">district<plural>comarques</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="69700">combat<nouns>
+			<translations><date>1205</date>
+				<translation gender="m">combat</translation>
+                                <translation gender="m">battle</translation>
+                                <translation gender="m">action<catexamp>Soldats morts en combat</catexamp><engexamp>Soldiers killed in action</engexamp></translation>
+                                <translation disambiguate="sports" gender="m">match / fight</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="17300">combatent<nouns>
+			<translations><date>1205</date>
+				<translation gender="m / f">combatant / fighter</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7625,6 +7655,13 @@
 	<Entry frequency="3190">cuir<nouns>
 			<translations>
 				<translation catagory="material" gender="m">leather</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="1060">cuirassa<nouns>
+			<translations><date>1205</date>
+				<translation disambiguate="animal" gender="f">carapace</translation>
+                                <translation gender="f">armor (Am.) / armour (Br.)</translation>
 			</translations>
 		</nouns>
 	</Entry>

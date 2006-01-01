@@ -2202,6 +2202,11 @@
 				<translation>llençar / llançar / tirar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>throw up
+                <translations>
+                <translation register="colloquial">vomitar</translation>
+                </translations>
+                </phrasalverbs>
 		<expressions>to throw the book at someone
 			<translations>
 				<translation>imposar a un delinqüent la sentència més severa possible<example>He's shown no remorse at all for what he's done. I hope they &lt;b&gt;throw the book at him&lt;/b&gt;!</example>
@@ -2618,10 +2623,20 @@
 	</Entry>
 	<Entry frequency="9200000">tire<verbs>
 			<translations>
-				<translation>cansar-se</translation>
+				<translation>cansar / fatigar</translation>
 				<translation>avorrir-se</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>tire (someone) out
+                <translations>
+                <translation>cansar / fatigar</translation>
+                </translations>
+                </phrasalverbs>
+                <phrasalverbs>tire (yourself) out
+                <translations>
+                <translation>cansar-se / fatigar-se</translation>
+                </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
 				<translation catagory="transport" local="us" gender="m">pneumàtic<otherlocal>tyre</otherlocal>
@@ -2634,8 +2649,38 @@
 				<translation>cansat<engexamp>To be tired</engexamp>
 					<catexamp>Estar cansat / Tenir son</catexamp>
 				</translation>
+                                <translation>avorrit</translation>
 			</translations>
 		</adjectives>
+                <expressions>dog-tired
+                <translations>
+                <translation register="colloquial">esgotat<synonyms>exhausted / knackered (argot)</synonyms></translation>
+                </translations>
+                </expressions>
+                <expressions>sick and tired
+                <translations>
+                <translation>fart / fins als collons<engexamp>I'm sick and tired of always hearing the same complaints</engexamp><catexamp>Estic fart de / estic fins als collons de sentir sempre les mateixes queixes</catexamp></translation></translations></expressions>
+	</Entry>
+        <Entry frequency="12400">tiredness<nouns>
+			<translations>
+                        <translation>
+				<translation gender="f">fatiga</translation>
+                                <translation gender="m">cansament</translation>
+                                </translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="4930000">tireless<adjectives>
+			<translations>
+				<translation>incansable / infatigable</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="3270000">tirelessly<adverbs>
+			<translations>
+				<translation>incansablement / infatigablement</translation>
+			</translations>
+		</adverbs>
 	</Entry>
         <Entry frequency="320000">tiresome<adjectives>
 			<translations>
@@ -4317,7 +4362,7 @@
 	<Entry frequency="6440000">trick<nouns>
 			<translations>
 				<translation>
-					<translation gender="f">trampa</translation>
+					<translation gender="f">esganyifa / trampa</translation>
 					<translation gender="f">broma<catnote>L'expressió 'He / she doesn't miss a trick' vol dir 'És molt astut'.</catnote><engexamp>Dirty trick</engexamp><catexamp>Jugada</catexamp></translation>
                                         <translation gender="m">truc</translation>
 				</translation>

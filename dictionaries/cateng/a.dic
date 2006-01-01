@@ -45,15 +45,12 @@
 	</Entry>
 	<Entry frequency="74400" hasSound="true">abandonar<verbs conj="regular">
 			<translations>
-				<translation>to leave / to abandon / to walk out of / to pull out of / to drop out of / to retreat<example>Quan tenia 18 anys, Francois va haver d'&lt;b&gt;abandonar&lt;/b&gt; la seva França natal per motius laborals.</example>
-					<example>Es prohibeix &lt;b&gt;abandonar&lt;/b&gt; residus fora dels recipients destinats a escombraries.</example>
-					<example>A primera hora del matí vaig &lt;b&gt;abandonar&lt;/b&gt; la capital i vaig emprendre camí cap al nord.</example>
-					<example>Els reservistes decidien &lt;b&gt;abandonar&lt;/b&gt; les seves posicions i tornaven a casa.</example>
-					<example>Quan un estudiant hagi d'&lt;b&gt;abandonar&lt;/b&gt; els estudis en virtut de l'aplicació d'aquesta normativa, pot tornar a reiniciar-los al cap de dos anys.</example>
-					<example>Les campanyes de sensibilització per no &lt;b&gt;abandonar&lt;/b&gt; els animals domèstics no tenen el suficient èxit.</example>
-					<example>El pilot ha hagut d'&lt;b&gt;abandonar&lt;/b&gt; la cursa en la volta 31 del circuit després d'haver trencat el motor del seu Subaru.</example>
-				</translation>
-			</translations>
+				<translation>to leave<example>Es prohibeix &lt;b&gt;abandonar&lt;/b&gt; residus fora dels recipients destinats a escombraries.</example><example>Quan tenia 18 anys, Francois va haver d'&lt;b&gt;abandonar&lt;/b&gt; la seva França natal per motius laborals.</example><example>A primera hora del matí vaig &lt;b&gt;abandonar&lt;/b&gt; la capital i vaig emprendre camí cap al nord.</example>
+					</translation>
+					<translation>to abandon<example>Les campanyes de sensibilització per no &lt;b&gt;abandonar&lt;/b&gt; els animals domèstics no tenen el suficient èxit.</example><example>Els reservistes decidien &lt;b&gt;abandonar&lt;/b&gt; les seves posicions i tornaven a casa.</example></translation>
+					<translation>to give up<example>Un 45,5% dels fumadors volen &lt;b&gt;abandonar&lt;/b&gt; el tabac quan entri en vigor la llei.</example><example>Totes les unitats de l'IRA han rebut l'ordre d'&lt;b&gt;abandonar&lt;/b&gt; les armes.</example></translation>
+                                        <translation disambiguate="sports">to pull out<example>El pilot ha hagut d'&lt;b&gt;abandonar&lt;/b&gt; la cursa en la volta 31 del circuit després d'haver trencat el motor del seu Subaru.</example></translation>
+					</translations>
 		</verbs>
 	</Entry>
 	<Entry frequency="41900" hasSound="true">abandonat<adjectives>
@@ -2041,6 +2038,22 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="27200">agitació<nouns>
+			<translations><date>1205</date>
+				<translation gender="f">unrest / restlessness<plural>agitacions</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="9910">agitar<verbs conj="regular">
+			<translations><date>1205</date>
+				<translation>to shake</translation>
+                                <translation>to wave</translation>
+                                <translation>to agitate / to stir up / to rouse</translation>
+                                <translation reflexive="agitar-se">to become rough<catnote>(La mar)</catnote></translation>
+                                <translation reflexive="agitar-se">to become restless</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="6160" hasSound="true">aglomeració<nouns>
 			<translations><date>0105</date>
 				<translation gender="f">agglomeration</translation>
@@ -2361,6 +2374,8 @@
          <Entry frequency="53300">ajuntar<verbs conj="regular">
 			<translations><date>1205</date>
 				<translation>to put together / to join</translation>
+                                <translation reflexive="ajuntar-se">to make friends<engnote>'Ajuntar-se' means 'to make friends' but the verb is only used with this meaning by small children</engnote></translation>
+                                <translation reflexive="ajuntar-se">to live together</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3862,6 +3877,18 @@
 				<translation catagory="body">anatomy</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="16700">anatòmic<adjectives>
+			<translations><date>1205</date>
+				<translation catagory="body">anatomical / anatomic<fems>anatòmica</fems><femplural>anatòmiques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="163">anatòmicament<adverbs>
+			<translations><date>1205</date>
+				<translation>anatomically</translation>
+			</translations>
+		</adverbs>
 	</Entry>
 	<Entry frequency="12200">ancià<nouns>
 			<translations><date>0105</date>
@@ -5738,6 +5765,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="928">arquer<nouns>
+			<translations><date>1205</date>
+				<translation gender="m / f">archer<fems>arquera</fems></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="86900">arquitecte<nouns>
 			<translations><date>0105</date>
 				<translation catagory="work-job" gender="m / f">architect<fems>arquitecta</fems></translation>
@@ -6058,11 +6091,25 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="35300">ascendir<verbs conj="inceptive">
+			<translations><date>1205</date>
+				<translation>to rise / to climb / to ascend</translation>
+                                <translation>to promote</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="22900">ascens<nouns>
 			<translations>
 				<date>0205</date>
-				<translation gender="m">rise<plural>ascensos</plural>
-				</translation>
+				<translation gender="m">rise</translation>
+                                <translation gender="m">promotion</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="34500">ascensió<nouns>
+			<translations><date>1205</date>
+				<translation gender="f">ascent / rise / climb</translation>
+                                <translation disambiguate="religious" gender="f">ascension</translation>
 			</translations>
 		</nouns>
 	</Entry>

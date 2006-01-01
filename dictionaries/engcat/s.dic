@@ -730,6 +730,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="35000000">scam<nouns>
+			<translations>
+				<translation gender="f">enganyifa</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="16400000">scan<verbs double="true">
 			<translations>
 				<translation catagory="computers" termcat="true">escanejar</translation>
@@ -769,7 +775,7 @@
 	</Entry>
         <Entry frequency="747000">scarecrow<nouns>
 			<translations>
-				<translation gender="m">espantaocells</translation>
+				<translation gender="m">espantaocells / espantall</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2387,6 +2393,7 @@
 			<translations>
 				<translation>sacsejar</translation>
 				<translation>trontollar</translation>
+                                <translation>agitar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3074,7 +3081,7 @@
 				<translation disambiguate="sports-event-athletics" gender="m">llançament de pes<engnote>'Llançament de pes' is the actual shot put event</engnote>
 				</translation>
                                 <translation disambiguate="sports-event-football" gender="m">xut<engnote>'Xut' means 'shot' as in 'Quinn's shot went wide'.</engnote></translation>
-				<translation disambiguate="food-drink" termcat="true" gender="m">xopet</translation>
+				<translation disambiguate="food-drink" gender="m">glop</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3308,11 +3315,16 @@
 		</nouns>
 	</Entry>
 	<Entry frequency="9120000">sick<adjectives>
-			<translations><translation catagory="medical">malalt<engexamp>I feel sick</engexamp><catexamp>Tinc nàusees / Estic marejat</catexamp><engexamp>To be sick</engexamp><catexamp>Estar malalt / vomitar</catexamp><engexamp>To get sick</engexamp><catexamp>Emmalaltir(-se)</catexamp><synonyms>ill</synonyms>
+			<translations><translation catagory="medical">malalt<engexamp>I feel sick</engexamp><catexamp>Tinc nàusees / estic marejat</catexamp><engexamp>To be sick</engexamp><catexamp>Estar malalt (Am.) / vomitar (Br.)</catexamp><engexamp>To get sick (Am.)</engexamp><catexamp>Emmalaltir(-se)</catexamp><synonyms>ill</synonyms>
 				<translation>es diu d'una persona a qui li agrada la crueltat i veure sofrir a la gent</translation>
 				</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation local="gb" register="colloquial">vòmit<otherlocal>vomit</otherlocal></translation>
+                </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="15300">sickie<nouns>
 			<translations>
@@ -4002,6 +4014,11 @@
 				</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                <translations>
+                <translation>esbossar</translation>
+                </translations>
+                </verbs>
 	</Entry>
 	<Entry frequency="8230000">ski<verbs>
 			<thirdPresent>skis</thirdPresent>
@@ -4759,9 +4776,19 @@
                 <translations>
                 <translation>allisar / aplanar</translation></translations></verbs>
 	</Entry>
+        	<Entry frequency="4380000">smother<verbs>
+			<translations>
+				<translation transitive="true">cobrir<engexamp>To smother somebody with kisses</engexamp><catexamp>Cobrir algú de besos</catexamp><example>Fresh Alaska salmon &lt;b&gt;smothered&lt;/b&gt; in Alfredo lemon sauce</example></translation>
+                                <translation transitive="true">asfixiar / escanyar<example>The woman was accused of &lt;b&gt;smothering&lt;/b&gt; her day-old baby and hiding his body in bushes just yards away from their home.</example></translation>
+                                <translation transitive="true">reprimir / contenir<example>Karl buried his head in the duvet to &lt;b&gt;smother&lt;b&gt; his laughter.</example><example>Ginny covered her mouth to &lt;b&gt;smother&lt;/b&gt; her giggles.</example></translation>
+                                <translation transitive="true">sufocar / apagar / extingir<example>They &lt;b&gt;smothered&lt;/b&gt; the fire with sand.</example><example>He ran into the house, grabbed his fire pail and &lt;b&gt;smothered&lt;/b&gt; the fire.</example></translation>
+                                <translation transitive="true">reprimir / sufocar<example>The goal is to close the distance between yourself and your opponent and to &lt;b&gt;smother&lt;/b&gt; his attack with your own.</example></translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="979000">smuggler<nouns>
 			<translations>
-				<translation catagory="work-job" gender="mf">contrabandista</translation>
+				<translation gender="mf">contrabandista</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5300,7 +5327,7 @@
 			<translations>
 				<translation catagory="work-job">
 					<translation gender="mf">soldat</translation>
-					<translation gender="mf">militar</translation>
+					<translation gender="mf">militar<engexamp>Foot soldier</engexamp><catexamp>Peó</catexamp></translation>
 				</translation>
 			</translations>
 		</nouns>
@@ -5897,6 +5924,12 @@
 				<translation>dispers</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="4010000">spasm<nouns>
+			<translations>
+				<translation gender="m">espasme</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="2320000">spawn<verbs>
 			<translations>
@@ -7760,6 +7793,11 @@
 				<translation>remenar / agitar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>stir up
+                <translations>
+                <translation>agitar<synonyms>to rouse / to agitate</synonyms></translation>
+                </translations>
+                </phrasalverbs>
 	</Entry>
 	<Entry frequency="1910000">stitch<nouns>
 			<translations>
@@ -8801,6 +8839,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="27200000">successive<adjectives>
+			<translations>
+				<translation>successiu</translation>
+			</translations>
+		</adjectives>
+	</Entry>
         <Entry frequency="16000000">successor<nouns>
 			<translations>
 				<translation gender="mf">successor</translation>
@@ -9472,6 +9516,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="22300000">surpass<verbs>
+			<translations>
+				<translation>superar<engexamp>To surpass yourself</engexamp><catexamp>Superar-se</catexamp></translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="2870000">surprise<nouns>
 			<translations>
 				<translation gender="f">sorpresa</translation>
@@ -9848,6 +9898,12 @@
 				</translation>
 			</translations>
 		</adverbs>
+	</Entry>
+        <Entry frequency="2390000">swig<nouns>
+			<translations>
+				<translation gender="m">traguet</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="5600000">swim<verbs>
 			<past>swam</past>
