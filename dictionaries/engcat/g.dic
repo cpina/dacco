@@ -171,13 +171,15 @@
 	<Entry frequency="125000000">game<nouns>
 			<translations>
 				<translation gender="m">joc</translation>
+                                <translation beforenoun="true">lúdic</translation>
 			</translations>
 		</nouns>
-		<adjectives>
+	</Entry>
+        <Entry frequency="493000">gamekeeper<nouns>
 			<translations>
-				<translation>lúdic</translation>
+				<translation catagory="work-job" gender="m / f">guardabosc</translation>
 			</translations>
-		</adjectives>
+		</nouns>
 	</Entry>
         <Entry frequency="2510000">games room<nouns>
 			<translations>
@@ -1658,6 +1660,12 @@
 				<translation register="colloquial" noteng="TRUE">-<catnote>Si es diu que un text és 'gobbledygook', vol dir que està escrit en un llenguatge que és tan complex que no aconsegueixes d'entendre'l</catnote>
 					<example/>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="2410000">goblet<nouns>
+			<translations>
+				<translation register="dated" gender="f">copa</translation>
 			</translations>
 		</nouns>
 	</Entry>

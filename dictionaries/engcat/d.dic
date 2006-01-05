@@ -142,8 +142,14 @@
 			<translations>
 				<translation>maleït<example>I&apos;m sick of this &lt;b&gt;damn&lt;/b&gt; weather. All it&apos;s done for three weeks now is rain!</example>
 					<example>I installed a new DVD writer in my computer this morning, but the &lt;b&gt;damn&lt;/b&gt; thing isn&apos;t working!</example>
-					<synonyms>damned</synonyms>
+					<synonyms>damned / cursed / blasted (Br.)</synonyms>
 				</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="4800000">damned<adjectives>
+			<translations>
+				<translation>maleït<synonyms>blasted (Br.) / cursed</synonyms></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -274,9 +280,21 @@
 		</adjectives>
 		<nouns>
 			<translations>
-					<translation gender="f">fosca / foscor / obscuritat</translation>
+				<translation gender="f">fosca / foscor / obscuritat</translation>
 			</translations>
 		</nouns>
+                <expressions>to get dark
+                <translations>
+                <translation>enfosquir-se<example>It's starting to &lt;b&gt;get dark&lt;/b&gt; outside already and it's only 5 o'clock.</example></translation>
+                </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="7490000">darken<verbs>
+			<translations>
+				<translation transitive="true">enfosquir<example>The electronically operated window shade completely &lt;b&gt;darkened&lt;/b&gt; the room</example></translation>
+                                <translation intransitive="true">enfosquir-se<example>The sky slowly &lt;b&gt;darkened&lt;/b&gt; and its reflection disappeared on the water's surface.</example></translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="6210000">darkness<nouns>
 			<translations>
@@ -358,7 +376,7 @@
 	</Entry>
           <Entry frequency="8090000">date of birth<nouns>
 			<translations>
-				<translation gender="f">data de naixement</translation>
+				<translation gender="f">data de naixement<synonyms>birth date</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>

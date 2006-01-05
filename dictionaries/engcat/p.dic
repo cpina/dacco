@@ -3367,6 +3367,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="4990000">place of birth<nouns>
+			<translations>
+				<translation gender="m">lloc de naixement<synonyms>birthplace</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="304000">plagiarise<verbs>
 			<translations>
 				<translation local="gb">plagiar<otherlocal>plagiarize</otherlocal></translation>
@@ -3932,10 +3938,8 @@
 	</Entry>
 	<Entry frequency="19700000">point<nouns>
 			<translations>
-				<translation gender="m">punt<engnote>Bear in mind when using the word 'point' in a mathematical sense (i.e. when dealing with decimals such as 7.5) that Catalans use commas rather than points (i.e. 7.5 is 7,5 in Catalan and therefore set coma cinc not set punt cinc).</engnote>
-					<engexamp>Point of view</engexamp>
-					<catexamp>Punt de vista</catexamp>
-				</translation>
+				<translation gender="m">punt<engnote>Bear in mind when using the word 'point' in a mathematical sense (i.e. when dealing with decimals such as 7.5) that Catalans use commas rather than points (i.e. 7.5 is 7,5 in Catalan and therefore set coma cinc not set punt cinc).</engnote></translation>
+                                <translation sourceplural="points" local="gb" disambiguate="transport" gender="f">agulla<otherlocal>switch</otherlocal></translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -3948,6 +3952,11 @@
 				<translation>assenyalar / indicar</translation>
 			</translations>
 		</phrasalverbs>
+                <expressions>point of view
+                <translations>
+                <translation>punt de vista</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="9890000">pointer<nouns>
 			<translations>
@@ -3972,6 +3981,12 @@
 			<translations>
 				<translation gender="m">punt de vista<plural>points of view</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="39700">pointsman<nouns>
+			<translations>
+				<translation catagory="work-job, transport" local="gb" gender="m / f">guardaagulles<plural>pointsmen</plural><otherlocal>switchman</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
