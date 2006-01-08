@@ -614,7 +614,7 @@
 	</Entry>
         <Entry frequency="17300">fefaent<adjectives>
 			<translations><date>0106</date>
-				<translation>reliable</translation>
+				<translation>reliable<catexamp>Còpia fefaent</catexamp><engexamp>Certified copy</engexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1653,6 +1653,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="404">flux de caixa<nouns>
+			<translations><date>0106</date>
+				<translation catagory="financial" gender="m">cash flow<plural>fluxos de caixa</plural>
+				</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2410">FMI<catacro>Fons Monetari Internacional</catacro>
 		<nouns>
 			<translations>
@@ -1830,12 +1837,23 @@
                                 <translation catagory="sports">away</translation>
 			</translations>
 		</adverbs>
+                <expressions>fora de lloc
+                <translations>
+                <translation>out of place / inappropriate / off base<example>En Mena va fer una proclama tan &lt;b&gt;fora de lloc&lt;/b&gt; i buscant el màxim ressò.</example></translation>
+                </translations>
+                </expressions>
 	</Entry>
                 <Entry frequency="929">foradar<verbs conj="regular">
 			<translations><date>0805</date>
 				<translation>to drill a hole in / to bore a hole in / to make a hole in</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="11800">fora de lloc<expressions>
+			<translations><date>0106</date>
+				<translation>out of place / inappropriate / off base<example>En Mena va fer una proclama tan &lt;b&gt;fora de lloc&lt;/b&gt; i buscant el màxim ressò.</example></translation>
+			</translations>
+		</expressions>
 	</Entry>
 	<Entry frequency="6640">foraster<nouns>
 			<translations><date>0505</date>
@@ -2371,6 +2389,17 @@
 	<Entry frequency="33500">frase<nouns>
 			<translations>
 				<translation gender="f">sentence</translation>
+			</translations>
+		</nouns>
+                <expressions>frase feta
+                <translations>
+                <translation catagory="linguistics" gender="f">idiom</translation>
+                </translations>
+                </expressions> 
+	</Entry>
+        <Entry frequency="16800">frase feta<nouns>
+			<translations><date>0106</date>
+				<translation catagory="linguistics" gender="f">idiom</translation>
 			</translations>
 		</nouns>
 	</Entry>

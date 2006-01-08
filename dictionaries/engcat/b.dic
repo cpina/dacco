@@ -960,11 +960,17 @@
 	<Entry frequency="64500000">base<nouns>
 			<translations>
 				<translation gender="f">base</translation>
+                                <translation disambiguate="sports-event-baseball" termcat="true" gender="f">base</translation>
 			</translations>
 		</nouns>
                 <verbs>
                 <translations>
                 <translation>basar</translation></translations></verbs>
+                <expressions>off base
+                <translations>
+                <translation>fora de lloc</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="38700000">baseball<nouns>
 			<translations>
@@ -2219,6 +2225,12 @@
          <Entry frequency="3350000">billiards<nouns>
 			<translations>
 				<translation catagory="sports-event" gender="m">billar<engexamp>Billiards hall</engexamp><catexamp>Billar</catexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
+ <Entry frequency="248000000">billion<nouns>
+			<translations>
+				<translation catagory="number-cardinal">mil milions<plural>billion</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4866,6 +4878,7 @@
 			<translations>
 				<translation>brillant</translation>
                                 <translation>llampant</translation>
+                            <translation>lluent</translation>
 				<translation register="colloquial">intel·ligent<example>Joshua is very &lt;b&gt;bright&lt;/b&gt; for his age</example>
 					<synonyms>smart, clever, intelligent</synonyms>
 				</translation>
@@ -4984,7 +4997,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="1240000">broccoli<nouns>
+	<Entry frequency="1240000">broccoli<mistakes>brocoli</mistakes><nouns>
 			<translations>
 				<translation gender="m">bròquil</translation>
 			</translations>
@@ -5266,6 +5279,14 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="2720000">budge<verbs>
+			<translations>
+				<translation>moure<example>I tried to open the door but it was stuck and I couldn't &lt;b&gt;budge&lt;/b&gt; it.</example></translation>
+                                <translation>canviar d'opinió<example>Shearer won't &lt;b&gt;budge&lt;/b&gt; over retirement plans.</example></translation>
+			</translations>
+		</verbs>
+                
 	</Entry>
 	<Entry frequency="55500000">budget<nouns>
 			<translations>

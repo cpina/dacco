@@ -1280,6 +1280,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="5100000">field goal<nouns>
+			<translations>
+				<translation catagory="sports-event-americanfootball" gender="m">xut a pals</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="4320000">field hockey<nouns>
 			<translations>
 				<translation local="us" gender="m">hoquei<otherlocal>hockey</otherlocal></translation>
@@ -1667,8 +1673,6 @@
 	<Entry frequency="43100000">fire<nouns>
 			<translations>
 				<translation gender="m">foc<engnote>Incendi generally refers to a fire that is unintentional / out of control</engnote>
-					<engexamp>To fight fire with fire</engexamp>
-					<catexamp>Pagar amb la mateixa moneda</catexamp>
 				</translation>
 				<translation gender="m">incendi<engnote>Foc generally refers to a fire that is intentional / under control</engnote>
 					<engexamp>In case of fire</engexamp>
@@ -1681,6 +1685,11 @@
 				<translation>acomiadar</translation>
 			</translations>
 		</verbs>
+                <expressions>fight fire with fire
+                <translations>
+                <translation>pagar amb la mateixa moneda</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1370000">firearm<nouns>
 			<translations>
@@ -1706,9 +1715,22 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1800000">fire engine<nouns>
+			<translations>
+				<translation catagory="transport" local="gb" gender="f">camió de bombers<otherlocal>fire truck</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="20100000">firefighter<nouns>
+			<translations>
+				<translation catagory="work-job" local="us" gender="mf">bomber<otherlocal>fireman</otherlocal>
+				</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="943000">fireman<nouns>
 			<translations>
-				<translation gender="mf">bomber<plural>firemen</plural>
+				<translation catagory="work-job" local="gb" gender="mf">bomber<plural>firemen</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -1719,6 +1741,12 @@
 					<translation gender="f">llar de foc</translation>
 					<translation gender="f">xemeneia</translation>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="943000">fire truck<nouns>
+			<translations>
+				<translation catagory="transport" local="us" gender="f">camió de bombers<otherlocal>fire engine</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>

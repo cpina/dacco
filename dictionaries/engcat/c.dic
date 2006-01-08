@@ -594,6 +594,9 @@
 		</nouns>
 	</Entry>
 	<Entry frequency="31800000">cancel<verbs>
+        <past>canceled, cancelled</past>
+        <participle>canceled, cancelled</participle>
+        <gerund>canceling, cancelling</gerund>
 			<translations>
 				<translation>anul·lar / cancel·lar</translation>
                                 <translation>condonar<engexamp>To cancel foreign debt</engexamp><catexamp>Condonar el deute extern</catexamp></translation>
@@ -1286,9 +1289,23 @@
 	</Entry>
 	<Entry frequency="12500000">cash<nouns>
 			<translations>
-				<translation gender="m">efectiu<engexamp>In cash</engexamp>
-					<catexamp>En metàl·lic / en efectiu</catexamp>
-				</translation>
+				<translation gender="m">efectiu</translation>
+			</translations>
+		</nouns>
+                <expressions>in cash
+                <translations>
+                <translation>en metàl·lic / en efectiu</translation>
+                </translations>
+                </expressions>
+                <expressions>cash in hand
+                <translations>
+                <translation local="gb">en metàl·lic / en efectiu<example>If you are paid &lt;b&gt;cash in hand&lt;/b&gt;, your employer might not be paying tax on your behalf.</example></translation>
+                </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="22000000">cash flow<nouns>
+			<translations>
+				<translation catagory="financial" gender="m">flux de caixa</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5334,6 +5351,12 @@
 				<translation catagory="computers">comprimir</translation>
 			</translations>
 		</verbs>
+	</Entry>
+<Entry frequency="11000000">comptroller<nouns>
+			<translations>
+				<translation catagory="work-job" gender="mf">síndic de comptes<synonyms>controller</synonyms></translation>
+			</translations>
+		</nouns>
 	</Entry>
           <Entry frequency="1520000">compulsion<nouns>
 			<translations>
