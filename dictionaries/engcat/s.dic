@@ -252,6 +252,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="2730000">salamander<nouns>
+			<translations>
+				<translation catagory="animal-animal" gender="f">salamandra</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="7480000">salary<nouns>
 			<translations>
 				<translation catagory="work">
@@ -9154,9 +9160,8 @@
 	</Entry>
 	<Entry frequency="11500000">sum<nouns>
 			<translations>
-				<translation catagory="maths" gender="f">suma</translation>
-				<translation catagory="financial" gender="m">import<engnote>'Import' means 'sum' as in 'a sum of money'</engnote>
-				</translation>
+				<translation gender="f">suma</translation>
+				<translation disambiguate="financial" gender="m">import</translation>
 			</translations>
 		</nouns>
 		<phrasalverbs>sum up

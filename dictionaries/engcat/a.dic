@@ -1296,15 +1296,20 @@
 	</Entry>
 	<Entry frequency="91700000">addition<nouns>
 			<translations>
-				<translation gender="f">addició<engexamp>In addition</engexamp><catexamp>Addicionalment</catexamp></translation>
+				<translation gender="f">addició</translation>
+                                <translation disambiguate="maths" gender="f">addició / suma</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="42600000">in addition to<adverbs>
-			<translations>
-				<translation>a més (a més) de</translation>
-			</translations>
-		</adverbs>
+                <expressions>in addition
+                <translations>
+                <translation>addicionalment</translation>
+                </translations>
+                </expressions>
+                <expressions>in addition to
+                <translations>
+                <translation>a més (a més) de</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="154000000">additional<adjectives>
 			<translations>
@@ -3250,6 +3255,12 @@
 <Entry frequency="229000">anabolism<nouns>
 			<translations>
 				<translation catagory="biology" gender="m">anabolisme</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2140000">anaconda<nouns>
+			<translations>
+				<translation catagory="animal-animal" gender="f">anaconda</translation>
 			</translations>
 		</nouns>
 	</Entry>
