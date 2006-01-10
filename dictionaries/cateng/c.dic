@@ -1660,8 +1660,7 @@
 	</Entry>	
 	<Entry frequency="20500">carro<nouns>
 			<translations><date>0605</date>
-				<translation gender="m">cart / carriage / charriot
-					<catexamp>Carro de combat</catexamp><engexamp>Tank</engexamp>
+				<translation gender="m">cart / carriage / chariot<catexamp>Carro de combat</catexamp><engexamp>Tank</engexamp>
 					<catexamp>Para el carro!</catexamp><engexamp>Hold your horses!</engexamp>
 				</translation>
 			</translations>
@@ -4071,9 +4070,10 @@
                 <translations>
                 <translation sourceplural="comestibles" gender="mpl">food / provisions</translation></translations></nouns>
 	</Entry>
-	<Entry frequency="3630">cometes<nouns>
-			<translations><date>0505</date>
-				<translation gender="f">quotes / quotation marks(Am.) / inverted commas (Br.)</translation>
+            <Entry frequency="35100">cometa<nouns>
+			<translations><date>0106</date>
+				<translation catagory="astronomy" gender="m">comet</translation>
+                                <translation sourceplural="cometes" gender="fpl">quotes / quotation  marks / inverted commas (Br.) / speech marks</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7032,7 +7032,12 @@
 	</Entry>
 	<Entry frequency="12500">crema<nouns>
 			<translations>
-				<translation catagory="food-dairy" gender="f">cream</translation>
+				<translation catagory="food-dairy" gender="f">cream<catexamp>Crema anglesa</catexamp><engexamp>Custard</engexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
+            <Entry frequency="133">crema anglesa<nouns>
+			<translations><date>0106</date>
 				<translation catagory="food" gender="f">custard</translation>
 			</translations>
 		</nouns>
