@@ -6,6 +6,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="4880000">saber<nouns>
+			<translations>
+				<translation local="us" gender="m">sabre<otherlocal>sabre</otherlocal></translation>
+			</translations>
+		</nouns>
+                <expressions>saber rattling
+                <translations>
+                <translation local="us">soroll de sabres<otherlocal>sabre rattling</otherlocal></translation>
+                </translations>
+                </expressions>
+	</Entry>
 	<Entry frequency="1060000">sabotage<nouns>
 			<translations>
 				<translation gender="m">sabotatge</translation>
@@ -14,6 +25,17 @@
                 <verbs>
                 <translations>
                 <translation>sabotejar</translation></translations></verbs>
+	</Entry>
+        <Entry frequency="7540000">sabre<nouns>
+			<translations>
+				<translation local="gb" gender="m">sabre<otherlocal>saber</otherlocal></translation>
+			</translations>
+		</nouns>
+                <expressions>sabre rattling
+                <translations>
+                <translation local="gb">soroll de sabres<otherlocal>saber rattling</otherlocal></translation>
+                </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="3380000">sack<nouns>
 			<translations>
@@ -995,6 +1017,17 @@
 				<translation catagory="sports" gender="m">marcador</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="6800000">scorn<nouns>
+        <translations>
+        <translation gender="m">menyspreu<synonyms>disdain</synonyms></translation>
+        </translations>
+        </nouns>
+        <verbs>
+			<translations>
+				<translation>menystenir<synonyms>disdain</synonyms></translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="739000">Scorpio<nouns>
 			<translations>
@@ -4497,6 +4530,13 @@
 				<translation termcat="true" gender="f">projecció amb diapositives</translation>
 			</translations>
 		</nouns>
+	</Entry>
+            <Entry frequency="48800000">slight<adjectives>
+			<translations>
+				<translation>lleuger / petit<engexamp>A slight increase</engexamp><catexamp>Un lleuger increment</catexamp></translation>
+                                <translation>petit (i prim)</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="14700000">slightly<adverbs>
 			<translations>
@@ -8452,6 +8492,19 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="23800000">stud<nouns>
+			<translations>
+				<translation gender="m">tatxot</translation>
+                                <translation disambiguate="animal" gender="m">semental</translation>
+                                <translation register="slang" gender="m">home atractiu amb cos musculós</translation>
+			</translations>
+		</nouns>
+                <verbs double="true">
+                <translations>
+                <translation>tatxonar</translation>
+                </translations>
+                </verbs>
+	</Entry>
 	<Entry frequency="4810000">struggle<verbs>
 			<translations>
 				<translation>lluitar</translation>
@@ -9690,7 +9743,8 @@
 	</Entry>
 	<Entry frequency="2920000">suspicious<adjectives>
 			<translations>
-				<translation>sospitós</translation>
+                        <translation>que sospita / que té sospites / recelós / escèptic<engexamp>A suspicious look</engexamp><catexamp>Una mirada recelosa</catexamp><engexamp>You have a very suspicious mind</engexamp><catexamp>Penses malament de tot (o de tothom)</catexamp><engexamp>They have a right to be suspicious of just about everybody</engexamp><catexamp>Tenen dret a ser escèptics respecte a tothom / tenen dret a sospitar (o recelar) de tothom</catexamp></translation>
+				<translation>sospitós<engexamp>Suspicious behaviour</engexamp><catexamp>Un comportament sospitós</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>

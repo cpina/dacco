@@ -155,6 +155,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1650">magenta<nouns>
+			<translations><date>0106</date>
+				<translation catagory="colour" gender="m">magenta</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="9210">màgia<nouns>
 			<translations>
 				<translation gender="f">magic</translation>
@@ -763,9 +769,16 @@
 	</Entry>
 	<Entry frequency="1280">mànec<nouns>
 			<translations>
-				<translation gender="m">handle</translation>
+				<translation gender="m">handle<engnote>(of a pot, pan or tool)</engnote></translation>
+                                <translation disambiguate="entertainment-music" gender="m">neck<catnote>(d'un instrument de corda)</catnote><engnote>(of a string instrument)</engnote></translation>
 			</translations>
 		</nouns>
+                <expressions>tenir la paella pel mànec
+                <translations>
+                <translation>to be in charge / to be in control
+                </translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="2260">mànega<nouns>
 			<translations>
@@ -879,6 +892,18 @@
 	<Entry frequency="10100">manipular<verbs conj="regular">
 			<translations>
 				<translation>to manipulate</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="137000">manlleu<nouns>
+			<translations><date>0106</date>
+				<translation catagory="linguistics" gender="m">loan word</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="733">manllevar<verbs conj="regular">
+			<translations><date>0106</date>
+				<translation>to borrow<synonyms>amprar</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1710,6 +1735,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+            <Entry frequency="398">matriarcal<adjectives>
+			<translations><date>0106</date>
+				<translation>matriarchal</translation>
+			</translations>
+		</adjectives>
+	</Entry>
           <Entry frequency="62">matricidi<nouns>
 			<translations><date>1105</date>
 				<translation gender="m">matricide</translation>
@@ -2417,6 +2448,13 @@
 			<translations>
 				<translation>to look down on / to scorn /to look on with contempt</translation>
                                 <translation>to underestimate / to underrate</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="15800">menystenir<verbs conj="irregular5">
+			<translations><date>0106</date>
+				<translation>to underestimate / to undervalue<synonyms>tenir en menys / subestimar</synonyms></translation>
+                                <translation>to scorn / to disdain (formal)</translation>
 			</translations>
 		</verbs>
 	</Entry>

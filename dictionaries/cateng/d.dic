@@ -179,6 +179,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="20300000">dau<nouns>
+			<translations><date>0106</date>
+				<translation gender="m">die (formal) / dice<plural>dice</plural><catnote>En el llenguatge formal o literari, 'die' és el singular i 'dice' el plural. Però, en el llenguatge quotidià, 'dice' és el plural I el singular.</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="4070">daurar<verbs conj="regular">
 			<translations>
 				<translation>to turn brown / golden</translation>
@@ -2277,7 +2283,8 @@
 	</Entry>
 	<Entry frequency="14600">dieta<nouns>
 			<translations>
-				<translation gender="f">diet</translation>
+				<translation disambiguate="food" gender="f">diet</translation>
+                                <translation disambiguate="work" gender="f">expenses</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2405,6 +2412,13 @@
 				<translation gender="m">Easter Monday</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="15000">diluir<verbs conj="irregular2">
+			<translations><date>0106</date>
+				<translation>to dilute<synonyms>aigualir</synonyms></translation>
+                                <translation>to dissolve<synonyms>dissoldre</synonyms><catnote>Dilute (diluir / aigualir) i dissolve (dissoldre) no són sinònims en anglès</catnote></translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="42">diluviar<verbs conj="irregular1">
 			<translations><date>0605</date>
@@ -2952,7 +2966,7 @@
 	</Entry>
         <Entry frequency="15200">dissoldre<verbs conj="">
 			<translations><date>0705</date>
-				<translation>to dissolve<synonyms>desfer</synonyms></translation>
+				<translation>to dissolve<synonyms>diluir</synonyms><catnote>Dilute (diluir / aigualir) i dissolve (dissoldre) no són sinònims en anglès</catnote></translation>
                                 <translation>to break up<catexamp>La policia va dissoldre la manifestació</catexamp><engexamp>The police broke up the demonstration</engexamp></translation>
 			</translations>
 		</verbs>
@@ -3049,6 +3063,11 @@
 				<translation catagory="body" gender="m">finger</translation>
 			</translations>
 		</nouns>
+                <expressions>no moure un dit (per fer alguna cosa)
+                <translations>
+                <translation>to not lift a finger (to do something)</translation>
+                </translations>
+                </expressions>
                 <expressions>punta del dit
                 <translations>
                 <translation catagory="body" gender="f">fingertip</translation>
@@ -3178,6 +3197,7 @@
 			<translations><date>0505</date>
 				<translation>entertaining / fun<fems>divertida</fems>
 				</translation>
+                                <translation>funny</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3513,6 +3533,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+            <Entry frequency="300">dot<nouns>
+			<translations><date>0106</date>
+				<translation gender="m">dowry</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="62900">dotació<nouns>
 			<translations><date>0805</date>
 				<translation gender="f">team / unit / force / detachment<plural>dotacions</plural></translation>
@@ -3613,6 +3639,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="1540">drogoaddicte<nouns>
+			<translations><date>0106</date>
+				<translation gender="m / f">drug addict / junkie (col·loq)<fems>drogoaddicta</fems><synonyms>toxicòman</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1910">drogodependència<nouns>
 			<translations>
 				<translation catagory="medical-illness" gender="f">drug addiction</translation>
@@ -3707,6 +3739,17 @@
 				<translation>to last</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="28300">duro<nouns>
+			<translations><date>0106</date>
+				<translation catagory="financial" gender="m">five pesetas</translation>
+			</translations>
+		</nouns>
+                <expressions>el / la que faltava per al duro
+                <translations>
+                <translation>that's all I / he / we (etc.) needed!</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="9000">dutxa<nouns>
 			<translations>

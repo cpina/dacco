@@ -1705,7 +1705,8 @@
 	</Entry>
 	<Entry frequency="94900">endive<nouns>
 			<translations>
-				<translation gender="f">escarola</translation>
+				<translation catagory="food" local="gb" gender="f">escarola</translation>
+                                <translation catagory="food" local="us" gender="f">endívia<otherlocal>chicory</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2048,8 +2049,10 @@
 	</Entry>
          <Entry frequency="29500000">enterprise<nouns>
 			<translations>
-				<translation gender="f">empresa / casa</translation>
-			</translations>
+				<translation gender="f">empresa / casa<engnote>'Empresa' and 'casa' mean 'enterprise' in the sense 'company' or 'business'</engnote></translation>
+                                <translation gender="f">empresa<engnote>'Empresa' means 'enterprise' in the sense 'venture'</engnote><synonyms>venture, undertaking</synonyms></translation>
+                                <translation gender="ffullform">iniciativa</translation>
+                        </translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="6520000">entertain<verbs>
@@ -2546,6 +2549,12 @@ a processar-li per aquest delit.</catnote></translation>
 	<Entry frequency="18100000">establishment<nouns>
 			<translations>
 				<translation gender="m">establiment</translation>
+                                <translation>
+                                <translation sourceplural="the establishment" gender="m">ordre establert</translation>
+                                <translation gender="m">poder establert</translation>
+                                <translation gender="m">sistema</translation>
+                                <translation gender="f">classe social dominant</translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3453,11 +3462,21 @@ a processar-li per aquest delit.</catnote></translation>
 	</Entry>
 	<Entry frequency="69200000">expense<nouns>
 			<translations>
-				<translation gender="f">despesa<engexamp>To cover expenses</engexamp>
-					<catexamp>Cobrir les despeses</catexamp>
-				</translation>
+				<translation gender="f">despesa</translation>
+                                <translation sourceplural="expenses" disambiguate="work" gender="f">dieta<example>Can you claim this meal on &lt;b&gt;expenses&lt;/b&gt;?</example></translation>
 			</translations>
 		</nouns>
+                <expressions>all expenses paid
+                <translations>
+                <translation>amb totes les despeses pagades / tot inclòs</translation></translations></expressions>
+                <expressions>at the expense of somebody / something
+                <translations>
+                <translation>a costa de / a expenses de<engexamp>For 60 years the US pursued stability at the expense of democracy in the Middle East</engexamp><catexamp>Durant seixanta anys els Estats Units ha perseguit l'estabilitat a l'Orient Mitjà a costa de la democràcia</catexamp></translation>
+                </translations>
+                </expressions>
+                <expressions>at somebody's expense
+                <translations>
+                <translation>a compte de / a (l')esquena de / a costa de<example>Her mansion was refurnished at taxpayers' expense.</example><example>Louis kept making jokes at his wife's expense.</example></translation></translations></expressions>
 	</Entry>
 	<Entry frequency="18200000">expensive<adjectives>
 			<translations>
@@ -3737,7 +3756,7 @@ a processar-li per aquest delit.</catnote></translation>
 	</Entry>
 	<Entry frequency="894000">extra time<nouns>
 			<translations>
-				<translation catagory="sports" gender="f">pròrroga</translation>
+				<translation disambiguate="sports" gender="f">pròrroga</translation>
 			</translations>
 		</nouns>
 	</Entry>

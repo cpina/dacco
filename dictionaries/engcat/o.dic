@@ -783,6 +783,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="1710000">oink<verbs>
+			<translations>
+				<translation catagory="animal">grunyir</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="608000">ointment<nouns>
 			<translations>
 				<translation catagory="medical" gender="f">pomada</translation>
@@ -975,6 +981,12 @@
 				<translation>omnipotent / totpoderós</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="526000">omnipresence<nouns>
+			<translations>
+				<translation>omnipresència</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="734000">omnipresent<adjectives>
 			<translations>
@@ -2513,7 +2525,8 @@
 	</Entry>
 	<Entry frequency="2650000">overtime<nouns>
 			<translations>
-				<translation catagory="work" gender="fpl">hores extraordinàries</translation>
+				<translation disambiguate="work" gender="fpl">hores extraordinàries<example>Millions of families count on &lt;b&gt;overtime&lt;/b&gt; pay to make ends meet.</example></translation>
+                                <translation disambiguate="sports" gender="f">pròrroga<example>When Penn State missed a field goal in &lt;b&gt;overtime&lt;/b&gt;, Linda became convinced that God was a Florida State fan.</example></translation>
 			</translations>
 		</nouns>
 	</Entry>

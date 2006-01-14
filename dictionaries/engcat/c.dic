@@ -39,6 +39,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="288000">cabin boy<nouns>
+			<translations>
+				<translation catagory="work-job" gender="m">grumet</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="86800">cabin crew<nouns>
 			<translations>
 				<translation gender="fpl">hostesses (de vol)</translation>
@@ -692,6 +698,15 @@
 				<translation gender="m">canó</translation>
 			</translations>
 		</nouns>
+                <expressions>cannon fodder
+                <translations>
+                <translation gender="f">carn de canó</translation></translations></expressions>
+	</Entry>
+        <Entry frequency="918000">cannon fodder<nouns>
+			<translations>
+				<translation gender="f">carn de canó</translation>
+			</translations>
+		</nouns>
 	</Entry>
          <Entry frequency="6900000">canoe<nouns>
 			<translations>
@@ -907,7 +922,10 @@
 	<Entry frequency="280000000">card<nouns>
 			<translations>
 				<translation gender="f">targeta<engexamp>To give somebody their cards</engexamp><catexamp>Acomiadar algú</catexamp></translation>
-                                <translation gender="m">naip<engnote>'Naip' means 'card' in the sense 'playing card'.</engnote></translation>
+                                <translation>
+                                <translation gender="f">carta<engexamp>Game of cards / card game</engexamp><catexamp>Joc de cartes</catexamp><engexamp>A pack of cards</engexamp><catexamp>Una baralla de cartes</catexamp></translation>
+                                <translation gender="m">naip<engnote>'Carta' and 'naip' mean 'card' in the sense 'playing card'. 'Carta' is the most widely used of the two.</engnote></translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2384,6 +2402,7 @@
                         <translation>
                         <translation gender="m">encant</translation>
 				<translation gender="f">gràcia</translation>
+                                <translation gender="m">encís</translation>
                                 </translation>
 			</translations>
 		</nouns>
@@ -2619,7 +2638,7 @@
 	<Entry frequency="4170000">cheers<exclamations>
 			<translations>
 				<translation register="colloquial">gràcies!</translation>
-				<translation>salut!</translation>
+				<translation>salut!<synonyms>down the hatch (col·loq)</synonyms></translation>
 			</translations>
 		</exclamations>
 	</Entry>
@@ -2766,6 +2785,12 @@
 			<translations>
 				<translation register="derogatory" gender="f">literatura sentimental<catnote>'Chick lit.' és una expressió que refereix a la nova onada de novel·les sentimentals que s'han escrit en els últims 2-4 anys per les dones i que van destinades específicament a les joves de 18 a 29 anys ('El Diari de Bridget Jones', per exemple).  Moltes persones consideren que aquestes novel·les són 'de poc valor literari' i, per aquesta raó, les anomenen 'chick lit.' ('chick' és una paraula molt sexista utilitzada pels homes per referir a les dones joves i belles).</catnote>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+  <Entry frequency="1620000">chicory<nouns>
+			<translations>
+				<translation catagory="food" local="gb" gender="f">endívia<otherlocal>endive</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2930,11 +2955,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="35800000">China<nouns>
+            <Entry frequency="35800000">china<nouns>
 			<translations>
-				<translation gender="f">Xina</translation>
+				<translation catagory="country-asia" capitalize="China" gender="f">Xina</translation>
+                                <translation gender="f">porcellana</translation>
 			</translations>
 		</nouns>
+                <expressions>like a bull in a china shop
+                <translations>
+                <translation>com un elefant en una terrisseria / com un elefant en una cristalleria</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="147000">chinchilla<nouns>
 			<translations>
@@ -3993,6 +4024,7 @@
 			<translations>
 				<translation>pròxim / a prop<engexamp>Close to</engexamp><catexamp>Prop de / arran de</catexamp><synonyms>near</synonyms>
 				</translation>
+                                <translation>íntim<engexamp>Close friends</engexamp><catexamp>Amics íntims</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -4901,6 +4933,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="3220000">commendable<adjectives>
+			<translations>
+				<translation register="formal">encomiable / lloable / laudable<synonyms>praiseworthy, laudable</synonyms></translation>
+			</translations>
+		</adjectives>
+	</Entry>  
 	<Entry frequency="288000000">comment<verbs>
 			<translations>
 				<translation>comentar</translation>
@@ -5485,7 +5523,7 @@
 	</Entry>
         <Entry frequency="606000">conceited<adjectives>
 			<translations>
-				<translation>presumit</translation>
+				<translation>presumit / cregut</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -8379,6 +8417,7 @@
                 <Entry frequency="5000000">crossing<nouns>
 			<translations>
 				<translation gender="f">travessa / travessada / travessia</translation>
+                                <translation disambiguate="transport" gender="m">encreuament</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -8680,6 +8719,16 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="27700000">cue<nouns>
+			<translations>
+                        <translation>
+                        <translation gender="m">senyal</translation>
+				<translation gender="ffullform">indicació</translation>
+                                </translation>
+                                <translation disambiguate="sports-event-snooker" gender="m">tac de billar</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="8860000">culinary<adjectives>
 			<translations>
 				<translation>culinari</translation>
@@ -8700,13 +8749,13 @@
 	</Entry>
           <Entry frequency="9750000">cultivate<verbs>
 			<translations>
-				<translation>cultivar</translation>
+				<translation>cultivar / conrear</translation>
 			</translations>
 		</verbs>
 	</Entry>
           <Entry frequency="5170000">cultivation<nouns>
 			<translations>
-				<translation gender="m">cultiu</translation>
+				<translation gender="m">cultiu / conreu</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -8719,6 +8768,8 @@
 	<Entry frequency="74900000">culture<nouns>
 			<translations>
 				<translation gender="f">cultura</translation>
+                                <translation disambiguate="agriculture" gender="m">conreu / cultiu<engnote>'Conreu' and 'cultiu' mean 'culture' in the sense 'breeding' or 'growing'</engnote></translation>
+                                <translation disambiguate="biology" gender="m">cultiu</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -9042,6 +9093,12 @@
 				<translation register="slang">perquè<catnote>'Cuz' és una forma argòtica d'escriure 'because'. Una altra forma (més freqüent) és 'cos'.</catnote></translation>
 			</translations>
 		</conjunctions>
+	</Entry>
+        <Entry frequency="4110000">cyan<nouns>
+			<translations>
+				<translation catagory="colour" gender="m">cian</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="4890000">cyberspace<nouns>
 			<translations>

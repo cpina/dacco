@@ -2216,7 +2216,7 @@
 	</Entry>
 	<Entry frequency="5120000">dice<nouns>
 			<translations>
-				<translation gender="m">dau<plural>dice</plural>
+				<translation gender="m">dau<catnote>En el llenguatge formal o literari, 'die' és el singular i 'dice' el plural. Però, en el llenguatge quotidià, 'dice' és el plural I el singular</catnote><plural>dice</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -2259,6 +2259,11 @@
 				<translation>morir</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                <translations>
+                <translation register="formal" gender="m">dau<plural>dice</plural><catnote>En el llenguatge formal o literari, 'die' és el singular i 'dice' el plural. Però, en el llenguatge quotidià, 'dice' és el plural I el singular.</catnote></translation>
+                </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="13000000">diet<nouns>
 			<translations>
@@ -2437,7 +2442,8 @@
 	</Entry>
 <Entry frequency="17000000">dilute<verbs>
 			<translations>
-				<translation>aigualir<synonyms>water down</synonyms></translation>
+				<translation transitive="true">diluir / aigualir<synonyms>water down</synonyms></translation>
+                                <translation intransitive="true">diluir-se / aigualir-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2939,6 +2945,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="6280000">disdain<nouns>
+        <translations>
+        <translation register="formal" gender="m">menyspreu<synonyms>scorn</synonyms></translation>
+        </translations>
+        </nouns>
+        <verbs>
+			<translations>
+				<translation register="formal">menystenir<synonyms>scorn</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="39800000">disease<nouns>
 			<translations>
 				<translation>
@@ -3283,6 +3300,13 @@
                 <translation>dissident</translation>
                 </translations>
                 </adjectives>
+	</Entry>
+        <Entry frequency="452000">dissolve<verbs>
+			<translations>
+				<translation transitive="true">dissoldre / diluir<catnote>Dilute (diluir / aigualir) i dissolve (dissoldre) no són sinònims en anglès</catnote></translation>
+                                <translation intransitive="true">dissoldre's / diluir-se<engnote>If you mean 'dissolve' in the sense 'to dissolve a marriage' or 'to dissolve parliament' you need to use 'dissoldre' rather than 'diluir'</engnote></translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="452000">dissuade<verbs>
 			<translations>
@@ -4139,6 +4163,12 @@
 			</translations>
 		</adverbs>
 	</Entry>
+            <Entry frequency="1730000">dowry<nouns>
+			<translations>
+				<translation gender="m">dot<plural>dowries</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="26000000">dozen<nouns>
 			<translations>
 				<translation gender="f">dotzena</translation>
@@ -4857,6 +4887,7 @@
 				<translation>abocar</translation>
 				<translation register="slang">separar-se del xicot / xicota<example>She &lt;b&gt;dumped&lt;/b&gt; her boyfriend for a tall, dark, handsome stranger!</example>
 				</translation>
+                                <translation>endossar / encolomar<engexamp>To dump (something) on (somebody)</engexamp><catexamp>Endossar / encolomar (alguna cosa) a (algú)</catexamp></translation>
 			</translations>
 		</verbs>
 		<nouns>

@@ -673,7 +673,7 @@
 	</Entry>
  <Entry frequency="2130000">laudable<adjectives>
 			<translations>
-				<translation>lloable / laudable<synonyms>commendable, praiseworthy</synonyms></translation>
+				<translation>lloable / laudable / encomiable<synonyms>commendable, praiseworthy</synonyms></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1837,6 +1837,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="7960000">lighter<nouns>
+			<translations>
+				<translation gender="m">encenedor</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2400000">lighthouse<nouns>
 			<translations>
 				<translation gender="m">far</translation>
@@ -2282,7 +2288,10 @@
 	</Entry>
         <Entry frequency="1790000">lizard<nouns>
 			<translations>
-				<translation gender="m">llangardaix</translation>
+                        <translation>
+				<translation catagory="animal-animal" gender="m">llangardaix</translation>
+                                <translation catagory="animal-animal" gender="f">sargantana</translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2310,7 +2319,7 @@
 	</Entry>
 	<Entry frequency="27800000">loan<nouns>
 			<translations>
-				<translation gender="m">préstec</translation>
+				<translation gender="m">préstec<engexamp>Loan word</engexamp><catexamp>Manlleu</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2701,6 +2710,7 @@
         <Entry frequency="4200000">lookout<nouns>
 			<translations>
 				<translation gender="m">aguait</translation>
+                                <translation gender="f">talaia<synonyms>watchtower</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
