@@ -193,6 +193,7 @@
 					<example>Although he had studied very hard, Charlie &lt;b&gt;failed&lt;/b&gt; all of his exams</example>
 					<example>Mary was disappointed because her children &lt;b&gt;failed&lt;/b&gt; to live up to her expectations</example>
 				</translation>
+                                <translation disambiguate="education">suspendre</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -900,7 +901,8 @@
 	</Entry>
         <Entry frequency="3570000">fearful<adjectives>
 			<translations>
-				<translation>temorós / temorenc</translation>
+				<translation register="formal">temorós / temorenc / poruc</translation>
+                                <translation register="formal">temible</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1677,6 +1679,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="491000">fiord<nouns>
+			<translations>
+				<translation catagory="geography" gender="m">fiord<catnote>Aquesta paraula també s'escriu 'fjord'</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
          <Entry frequency="3590000">fir<nouns>
 			<translations>
 				<translation gender="m">avet<synonyms>fir tree</synonyms></translation>
@@ -1972,6 +1980,13 @@
 			</translations>
 		</verbs>
 	</Entry>
+          <Entry frequency="237000000">fitness<nouns>
+			<translations>
+                        <translation gender="m">bon estat físic / bon condicionament físic<catnote>'Fitness' vol dir 'la condició d'estar en forma'</catnote><engnote>'Fitness' is a difficult word to render in Catalan. If anyone has any better suggestions, please let us know.</engnote></translation>
+				<translation gender="ffullform">idoneïtat</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="1680000">fitting<adjectives>
 			<translations>
 				<translation>oportú</translation>
@@ -1995,6 +2010,12 @@
 				<translation>fix</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="2600000">fjord<nouns>
+			<translations>
+				<translation catagory="geography" gender="m">fiord<catnote>Aquesta paraula també s'escriu 'fiord'</catnote></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="18100000">flag<nouns>
 			<translations>
@@ -2112,6 +2133,12 @@
 	<Entry frequency="68400">flatmate<nouns>
 			<translations>
 				<translation noteng="TRUE">algú amb qui comparteixes pis</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1810000">flatness<nouns>
+			<translations>
+				<translation gender="f">planor</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3582,7 +3609,7 @@
 	</Entry>
 	<Entry frequency="356000">freaking<adjectives>
 			<translations>
-				<translation>maleït</translation>
+				<translation local="us">maleït</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3819,6 +3846,13 @@
 				<translation local="us" gender="mf">estudiant universitari de primer any<otherlocal>fresher</otherlocal>
 					<plural>freshmen</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="6020000">freshness<nouns>
+			<translations>
+				<translation gender="f">frescor</translation>
+                                <translation gender="m">vigor</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4211,6 +4245,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="4070000">fullness<nouns>
+			<translations>
+				<translation gender="f">plenitud</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="257000">full stop<nouns>
 			<translations>
 				<translation local="gb" gender="m">punt<otherlocal>period</otherlocal>
@@ -4375,7 +4415,7 @@
 	</Entry>
 	<Entry frequency="17700000">furthermore<adverbs>
 			<translations>
-				<translation>a més</translation>
+				<translation>a més / endemés</translation>
 			</translations>
 		</adverbs>
 	</Entry>

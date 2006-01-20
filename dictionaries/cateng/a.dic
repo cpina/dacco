@@ -1967,12 +1967,12 @@
 	</Entry>
         <Entry frequency="1320" hasSound="true">afroamericà<nouns>
 			<translations><date>0705</date>
-				<translation gender="m / f">Afro-American</translation>
+				<translation gender="m / f">African American / Afro-American</translation>
 			</translations>
 		</nouns>
                 <adjectives>
                 <translations>
-                <translation>Afro-American<fems>afroamericana</fems><plural>afroamericans</plural></translation></translations></adjectives>
+                <translation>African-American / Afro-American<fems>afroamericana</fems><plural>afroamericans</plural></translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="57400" hasSound="true">afrontar<verbs conj="regular">
 			<translations><date>0105</date>
@@ -2188,7 +2188,7 @@
 	</Entry>
         	<Entry frequency="916" hasSound="true">agudesa<nouns>
 			<translations><date>0705</date>
-				<translation gender="f">sharpness</translation>
+				<translation gender="f">sharpness / quickness</translation>
                                 <translation gender="f">acuity</translation>
                                 <translation gender="f">acumen</translation>
 			</translations>
@@ -5233,6 +5233,7 @@
 	<Entry frequency="271000">aprovar<verbs conj="regular">
 			<translations><date>0105</date>
 				<translation>to approve</translation>
+                                <translation disambiguate="education">to pass<catexamp>Aprovar un examen</catexamp><engexamp>To pass an exam</engexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6287,6 +6288,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="256">aspresa<nouns>
+			<translations><date>0106</date>
+				<translation gender="f">roughness<synonyms>aspror</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="487">aspror<nouns>
+			<translations><date>0106</date>
+				<translation gender="f">roughness<synonyms>aspresa</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="23600">assabentar<verbs conj="regular">
 			<translations>
 				<date>0205</date>
@@ -6863,6 +6876,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+          <Entry frequency="703">atreviment<nouns>
+			<translations><date>0106</date>
+				<translation gender="m">daring / boldness</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="17500">atrevir<verbs conj="inceptive">
 			<translations>
 				<date>0205</date>
@@ -7326,6 +7345,12 @@
 				<date>0205</date>
 				<translation catagory="body" gender="m">forearm<plural>avantbraços</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="53200">avantguarda<nouns>
+			<translations><date>0106</date>
+				<translation gender="f">vanguard</translation>
 			</translations>
 		</nouns>
 	</Entry>

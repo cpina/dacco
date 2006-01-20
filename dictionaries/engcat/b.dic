@@ -286,6 +286,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+         <Entry frequency="1260000">badness<nouns>
+			<translations>
+				<translation gender="f">maldat</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="830">bad taste party<nouns>
 			<translations>
 				<translation noteng="TRUE">festa de 'mal gust'<plural>bad taste parties</plural>
@@ -1637,7 +1643,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-        
+        <Entry frequency="2180000">beleaguered<adjectives>
+			<translations>
+				<translation>perseguit</translation>
+                                <translation>assetjat</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="2030000">Belgian<nouns>
 			<translations>
 				<translation catagory="nationality" gender="mf">belga</translation>
@@ -2532,6 +2544,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                     <Entry frequency="811000">birthmark<nouns>
+			<translations>
+				<translation gender="f">marca de naixement</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="19600">birth partner<nouns>
 			<translations>
 				<translation approval="true" topic="5" gender="mf">acompanyant del part / company(a) del part</translation>
@@ -2794,6 +2812,12 @@
         <Entry frequency="1080000">black market<nouns>
 			<translations>
 				<translation gender="m">mercat negre</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="2030000">blackness<nouns>
+			<translations>
+				<translation gender="f">negror</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3607,6 +3631,12 @@
                                 <translation>audaç</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="2070000">boldness<nouns>
+			<translations>
+				<translation gender="m">atreviment</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="5720000">Bolivia<nouns>
 			<translations>
@@ -4558,7 +4588,7 @@
 				<translation>tirar (una porta) a terra<engnote>'Tirar a terra' means 'to break down' in the sense 'to break a door down'</engnote>
 					<example>The police &lt;b&gt;broke down&lt;/b&gt; the door and stormed into the house</example>
 				</translation>
-				<translation>descompondre<engnote>'Descompondre' means 'to break down' in the sense 'to break something down into smaller bits'</engnote>
+				<translation>descompondre / desglossar<engnote>'Descompondre' and 'desglossar' mean 'to break down' in the sense 'to break something down into smaller bits'</engnote>
 					<example>When we &lt;b&gt;break down&lt;/b&gt; the figures by region, the effect is even more dramatic</example>
 					<example>To be truly biodegradable, a substance should &lt;b&gt;break down&lt;/b&gt; into carbon dioxide, water and naturally occurring minerals.</example>
 				</translation>
@@ -4635,6 +4665,7 @@
 					<engexamp>Nervous breakdown</engexamp>
 					<catexamp>Crisi nerviosa</catexamp>
 				</translation>
+                                <translation gender="m">desglossament<engnote>'Desglossament' means 'breakdown' in the sense 'the breakdown of the stages of the project'</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4656,7 +4687,7 @@
         <Entry frequency="7040000">breakthrough<nouns>
 			<translations>
                         <translation>
-                        <translation gender="m">avanç</translation>
+                        <translation gender="m">avanç / gran avenç</translation>
 				<translation gender="ffullform">innovació</translation>
                                 </translation>
 			</translations>
@@ -4895,6 +4926,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="8040000">brighten<verbs>
+			<translations>
+				<translation>il·luminar / fer brillar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="17500000">brightness<nouns>
+			<translations>
+				<translation gender="m">brillantor</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="16300000">bring<verbs>
 			<past>brought</past>
 			<participle>brought</participle>
@@ -4983,6 +5026,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+  <Entry frequency="42000000">broaden<verbs>
+			<translations>
+				<translation>eixamplar</translation>
+			</translations>
+		</verbs>
+	</Entry>
                   <Entry frequency="2670000">broadly<adverbs>
 			<translations>
 				<translation>en termes generals / en general / en sentit ampli</translation>
@@ -4992,6 +5041,7 @@
         <Entry frequency="466000">broadsheet<nouns>
 			<translations>
 				<translation gender="m">diari (de qualitat)</translation>
+                                <translation gender="m">plec solt<synonyms>broadside</synonyms><engnote>'Plec solt' means 'broadsheet' in the sense 'large piece of paper printed on one side'</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5003,7 +5053,8 @@
 	</Entry>
         <Entry frequency="2420000">broadside<nouns>
 			<translations>
-				<translation catagory="transport" gender="f">andanada</translation>
+				<translation disambiguate="transport" gender="f">andanada</translation>
+                                <translation gender="m">plec solt<synonyms>broadsheet</synonyms><engnote>'Plec solt' means 'broadside' in the sense 'large piece of paper printed on one side'</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>

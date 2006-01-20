@@ -353,6 +353,7 @@
 	<Entry frequency="2750000">landing<nouns>
 			<translations>
 				<translation disambiguate="transport" gender="m">aterratge</translation>
+                                <translation catagory="household" gender="m">replà</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -795,6 +796,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="158000">laxness<nouns>
+			<translations>
+				<translation gender="f">fluixesa</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="53500000">lay<adjectives>
 			<translations>
 				<translation>laic</translation>
@@ -901,7 +908,7 @@
 	</Entry>
         <Entry frequency="1030000">laziness<nouns>
 			<translations>
-                        <translation gender="f">peresa</translation>
+                        <translation gender="f">peresa / mandra</translation>
 				<translation gender="ffullform">indolència</translation>
 			</translations>
 		</nouns>
@@ -1849,6 +1856,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="8000000">lighting<nouns>
+			<translations>
+				<translation gender="ffullform">il·luminació</translation>
+                       </translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2000000">lightly<adverbs>
 			<translations>
 				<translation>lleugerament</translation>
@@ -2557,6 +2570,11 @@
                 <phrasalverbs>long for
                 <translations>
                 <translation>anhelar</translation></translations></phrasalverbs>
+                <expressions>long in the tooth
+                <translations>
+                <translation>vell<example>Jessie invited me to a nightclub at the weekend but at 58 I think I'm a bit &lt;b&gt;long in the tooth&lt;/b&gt; for all that.</example></translation>
+                </translations>
+                </expressions>
                 <expressions>in the long run
                 <translations>
                 <translation>a la llarga</translation></translations></expressions>
@@ -2585,12 +2603,6 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="103000">long in the tooth<adjectives>
-			<translations>
-				<translation>vell</translation>
-			</translations>
-		</adjectives>
-	</Entry>
 	<Entry frequency="2660000">longitude<nouns>
 			<translations>
 				<translation catagory="geography" gender="f">longitud</translation>
@@ -2600,6 +2612,12 @@
         <Entry frequency="205000">long jump<nouns>
 			<translations>
 				<translation gender="m">salt de llargada</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="586000">longshoreman<nouns>
+			<translations>
+				<translation catagory="work-job, transport" local="us" gender="mf">estibador<otherlocal>docker</otherlocal><synonyms>stevedore</synonyms><plural>longshoremen</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>

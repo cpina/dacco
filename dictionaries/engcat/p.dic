@@ -432,6 +432,11 @@
 				<translation catagory="household-room-kitchen" gender="f">cassola</translation>
 			</translations>
 		</nouns>
+                <verbs double="true">
+                <translations>
+                <translation register="colloquial">criticar</translation>
+                </translations>
+                </verbs>
 	</Entry>
 	<Entry frequency="8560000">Panama<nouns>
 			<translations>
@@ -471,6 +476,18 @@
         <Entry frequency="806000">Pandora's box<nouns>
 			<translations>
 				<translation gender="f">caixa / capsa de Pandora</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="4180000">panhandle<verbs>
+			<translations>
+				<translation local="us">mendicar / pidolar<synonyms>beg</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="430000">panhandler<nouns>
+			<translations>
+				<translation local="us" gender="mf">mendicant / captaire / pidolaire<synonyms>beggar</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1101,8 +1118,7 @@
 	</Entry>
 	<Entry frequency="12900000">pass<verbs>
 			<translations>
-				<translation disambiguate="education">aprovar<engnote>'Aprovar' means 'to pass' in the sense 'to pass an exam'</engnote>
-				</translation>
+				<translation disambiguate="education">aprovar<engexamp>To pass an exam</engexamp><catexamp>Aprovar un examen</catexamp></translation>
 				<translation>passar</translation>
                                 <translation>transcórrer</translation>
 			</translations>
@@ -4175,11 +4191,12 @@
         <Entry frequency="9000000">polish<verbs>
 			<translations>
 				<translation>polir</translation>
+                                <translation>enllustrar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>polish off
                 <translations>
-                <translation>acabar</translation></translations></phrasalverbs>
+                <translation>acabar<example>Lindsey &lt;b&gt;polished off&lt;/b&gt; the last of the Christmas cake.</example></translation></translations></phrasalverbs>
 	</Entry>
 	<Entry frequency="6870000">Polish<nouns>
 			<translations>
@@ -6579,6 +6596,12 @@
 			<translations>
 				<translation register="formal" gender="f">destresa</translation>
                                 <translation register="formal" gender="m">coratge</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                     <Entry frequency="33400000">proximity<nouns>
+			<translations><date>0106</date>
+				<translation register="formal" gender="f">proximitat<synonyms>nearness</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>

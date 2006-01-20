@@ -33,6 +33,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="9900">iceberg<nouns>
+			<translations><date>0106</date>
+				<translation catagory="geography" gender="m">iceberg</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="12800">icona<nouns>
 			<translations>
 				<translation catagory="computers" gender="ffullform">icon</translation>
@@ -185,6 +191,7 @@
 	<Entry frequency="43000">igualtat<nouns>
 			<translations>
 				<translation gender="ffullform">equality</translation>
+                                <translation gender="ffullform">sameness</translation>
 			</translations>
 		</nouns>
                 <expressions>igualtat d'oportunitats
@@ -313,6 +320,21 @@
 				</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="27400">il·luminació<nouns>
+			<translations><date>0106</date>
+				<translation gender="ffullform">lighting</translation>
+                                <translation gender="ffullform">illumination</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="922">il·luminar<verbs conj="regular">
+			<translations><date>0106</date>
+				<translation>to light</translation>
+                                <translation>to illuminate</translation>
+                                <translation reflexive="il·luminar-se">to light up</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="24600">il·lusió<nouns>
 			<translations>
@@ -1901,6 +1923,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+          <Entry frequency="37900">inquietud<nouns>
+			<translations><date>0106</date>
+				<translation gender="ffullform">uneasiness</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="912">inquilí<nouns>
 			<translations>
 				<translation gender="m / f">tenant<fems>inquilina</fems>
@@ -1989,9 +2017,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="1270">insensibilitat<nouns>
+			<translations><date>0106</date>
+				<translation gender="ffullform">insensitivity</translation>
+                                <translation disambiguate="medical" gender="ffullform">numbness</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="885">insensible<adjectives>
 			<translations>
 				<translation>insensitive</translation>
+                                <translation disambiguate="medical">numb</translation>
 				<translation>imperceptible</translation>
 			</translations>
 		</adjectives>
@@ -2280,6 +2316,24 @@
 	<Entry frequency="70200">instrument<nouns>
 			<translations>
 				<translation gender="m">instrument</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="510">instrument de corda<nouns>
+			<translations><date>0106</date>
+                                <translation catagory="entertainment-music" gender="m">stringed instrument / string instrument</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="359">instrument de metall<nouns>
+			<translations><date>0106</date>
+                                <translation catagory="entertainment-music" gender="m">brass instrument</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="596">instrument de vent<nouns>
+			<translations><date>0106</date>
+                                <translation catagory="entertainment-music" gender="m">wind instrument</translation>
 			</translations>
 		</nouns>
 	</Entry>

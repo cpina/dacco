@@ -645,6 +645,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="24100000">candid<adjectives>
+			<translations>
+				<translation>franc</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="1700000">candidly<adverbs>
+			<translations>
+				<translation>amb franquesa / francament</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 	<Entry frequency="57300000">candidate<nouns>
 			<translations>
 				<translation gender="m">candidat</translation>
@@ -2505,9 +2517,15 @@
 			<translations>
 				<translation>barat<catnote>cheap as chips' és una expressió col·loquial britànica que significa que una cosa és molt barata (literalment: és tan barat com les patates fregides)</catnote>
 				</translation>
-                                <translation>garrepa / avar</translation>
+                                <translation local="us">garrepa / avar<otherlocal>mean</otherlocal></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="1750000">cheapen<verbs>
+			<translations>
+				<translation>abaratir</translation>
+			</translations>
+		</verbs>
 	</Entry>
                 <Entry frequency="452000">cheapskate<nouns>
 			<translations>
@@ -2589,6 +2607,12 @@
         <Entry frequency="2100000">checkmate<nouns>
 			<translations>
 				<translation gender="m">escac i mat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+ <Entry frequency="5580000">check-up<nouns>
+			<translations>
+				<translation gender="f">revisió<example>I have a &lt;b&gt;check-up&lt;/b&gt; at the doctor's next week.</example><example>Can you remember when I have my next &lt;b&gt;check-up&lt;/b&gt; at the dentist's?</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2992,6 +3016,12 @@
 				<translation disambiguate="computers" termcat="true" gender="m">xip</translation>
                                 <translation disambiguate="food" local="gb" picture="http://photos17.flickr.com/19770290_4c04bd9f9f.jpg" flickr="http://www.flickr.com/photos/iwouldstay/19770290/" gender="f">patata fregida<otherlocal>(French) fry</otherlocal></translation>
                                 <translation disambiguate="food" local="us" picture="http://photos16.flickr.com/22620207_95c91845ae.jpg" flickr="http://www.flickr.com/photos/tienmao/22620207/" gender="f">patata fregida<otherlocal>crisp</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+                     <Entry frequency="171000">chippings<nouns>
+			<translations>
+				<translation gender="f">graveta</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3801,6 +3831,12 @@
 			</translations>
 		</adverbs>
 	</Entry>
+          <Entry frequency="1290000">clearness<nouns>
+			<translations>
+				<translation gender="f">claredat<synonyms>clarity</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="423000">clementine<nouns>
 			<translations>
 				<translation gender="f">clementina</translation>
@@ -3834,6 +3870,12 @@
 				</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+          <Entry frequency="2110000">cleverness<nouns>
+			<translations>
+				<translation gender="m">enginy<synonyms>ingenuity</synonyms></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="362000000">click<verbs>
 			<translations>
@@ -4080,13 +4122,19 @@
 	</Entry>
 	<Entry frequency="18300000">cloud<nouns>
 			<translations>
-				<translation gender="m">núvol</translation>
+				<translation catagory="weather" gender="m">núvol</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="636000">cloud cover<nouns>
 			<translations>
-				<translation gender="f">nuvolositat</translation>
+				<translation catagory="weather" gender="f">nuvolositat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="1570000">cloudiness<nouns>
+			<translations>
+				<translation catagory="weather" gender="f">nuvolositat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4177,6 +4225,13 @@
                                 <translation>groller<engnote>'Groller' means 'course' as in 'rude / vulgar'.</engnote></translation>
 			</translations>
 		</nouns>
+	</Entry>
+                     <Entry frequency="257000">coarsen<verbs>
+			<translations>
+				<translation>fer més tosc / fer més groller / fer més bast</translation>
+                                <translation>embrutir<engexamp>War hasn't coarsened him</engexamp><catexamp>La guerra no l'ha embrutit</catexamp></translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="37000000">coast<nouns>
 			<translations>
@@ -4464,9 +4519,7 @@
 	</Entry>
 	<Entry frequency="59100000">cold<nouns>
 			<translations>
-				<translation gender="m">refredat<engexamp>To catch cold</engexamp>
-					<catexamp>Refredar-se</catexamp>
-				</translation>
+				<translation gender="m">refredat</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -4474,6 +4527,11 @@
 				<translation>fred</translation>
 			</translations>
 		</adjectives>
+                <expressions>catch cold
+                <translations>
+                <translation>refredar-se</translation>
+                </translations>
+                </expressions>
                 <expressions>in cold blood
                 <translations>
                 <translation>a sang freda<engexamp>They shot him in cold blood</engexamp><catexamp>El van assassinar a sang freda</catexamp></translation>
@@ -4490,6 +4548,12 @@
         <Entry frequency="1810000">cold front<nouns>
 			<translations>
 				<translation catagory="weather" gender="m">front fred</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="1930000">coldness<nouns>
+			<translations>
+				<translation gender="f">fredor</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5510,7 +5574,7 @@
 	</Entry>
         <Entry frequency="6950000">conceal<verbs>
 			<translations>
-				<translation>ocultar</translation>
+				<translation>ocultar / encobrir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5677,6 +5741,12 @@
 				<translation gender="m">condó / condom / preservatiu</translation>
 			</translations>
 		</nouns>
+	</Entry>
+<Entry frequency="13400000">conducive<adjectives>
+			<translations>
+				<translation>favorable / conduent<example>These elements created a sterile environment which was not exactly &lt;b&gt;conducive&lt;/b&gt; to building customer relations.</example><example>The circumstances weren't &lt;b&gt;conducive&lt;/b&gt; to creating the 20 million new jobs promised by EU leaders.</example></translation>
+			</translations>
+		</adjectives>
 	</Entry>
                 <Entry frequency="64200000">conduct<nouns>
 			<translations>
@@ -6938,6 +7008,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+          <Entry frequency="2660000">coolness<nouns>
+			<translations>
+				<translation gender="f">frescor</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="4830000">cooperate<verbs>
 			<translations>
 				<translation>cooperar</translation>
@@ -7214,6 +7290,12 @@
 			</translations>
 		</adverbs>
 	</Entry>
+        <Entry frequency="17500000">correctness<nouns>
+			<translations>
+				<translation gender="f">correcció</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="12000000">correspond<verbs>
 			<translations>
 				<translation>correspondre</translation>
@@ -7428,7 +7510,7 @@
         <Entry frequency="1840000">cot<nouns>
 			<translations>
 				<translation local="us" gender="m">catre / jaç<otherlocal>camp bed</otherlocal><engnote>'Catre' and 'jaç' mean 'cot' in the American sense 'small, folding bed'.</engnote></translation>
-                                <translation local="gb" gender="m">bressol<otherlocal>crib</otherlocal><engnote>'Bressol' means 'cot' in the British sense 'baby's bed' (Am. 'crib').</engnote></translation>
+                                <translation local="gb" gender="m">llit de baranes<otherlocal>crib</otherlocal><engnote>'Bressol' means 'cot' in the British sense 'baby's bed' (Am. 'crib').</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7749,6 +7831,12 @@
 				<translation>covard</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+          <Entry frequency="139000">coyness<nouns>
+			<translations>
+				<translation gender="f">timidesa fingida</translation>
+			</translations>
+		</nouns>
 	</Entry>
         	<Entry frequency="1240000">CPI<engacro>Consumer Price Index</engacro>
                 <nouns>
@@ -8158,7 +8246,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="13000000">cricket<nouns>
+        <Entry frequency="11700000">crib<nouns>
+			<translations>
+				<translation>
+                                <translation gender="m">bressol</translation>
+					<translation local="us" gender="m">llit de baranes<otherlocal>cot</otherlocal></translation>
+                                        <translation gender="mpl">apunts<catnote>'Crib' (o 'crib sheet') vol dir els apunts que els estudiants porten als exàmens ('chuleta' en castellà)</catnote></translation>
+                                        <translation gender="m">pessebre</translation>
+				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+            <Entry frequency="13000000">cricket<nouns>
 			<translations>
 				<translation disambiguate="insect" gender="m">grill</translation>
 				<translation disambiguate="sports" gender="m">criquet</translation>
@@ -8734,6 +8833,17 @@
 				<translation>culinari</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+                <Entry frequency="1910000">cull<verbs>
+			<translations>
+				<translation>sacrificar<catnote>'To cull' vol dir 'sacrificar animals (sobretot els més febles d'un grup) per tal de limitar el seu número'.</catnote></translation>
+			</translations>
+		</verbs>
+                <nouns>
+                <translations>
+                <translation gender="m">sacrifici<engnote>'Sacrificar' and 'sacrifici' mean 'to slaughter' and don't really get the full meaning of 'to cull' over into Catalan.  They don't imply that animals are being killed to keep their numbers down.  We are unable to find a close equivalent in Catalan.  If you are aware of one, please let us know.</engnote></translation>
+                </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="1450000">culmination<nouns>
 			<translations>
