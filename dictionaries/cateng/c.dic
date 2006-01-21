@@ -239,7 +239,7 @@
 	<Entry frequency="22100">cafè<nouns>
 			<translations>
 				<translation catagory="food-drink" gender="m">coffee</translation>
-				<translation>café</translation>
+				<translation gender="m">coffee shop</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -252,6 +252,12 @@
 	<Entry frequency="693">cafetera<nouns>
 			<translations>
 				<translation catagory="household-room-kitchen" gender="f">coffee maker</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="73700">cafeteria<nouns>
+			<translations><date>0106</date>
+				<translation gender="f">café / cafe</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -599,6 +605,14 @@
 				</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+<Entry frequency="288000">cambra<nouns>
+			<translations><date>0106</date>
+				<translation gender="f">room</translation>
+                                <translation gender="f">bedroom</translation>
+                                <translation gender="f">chamber<catexamp>Cambra del Comerç</catexamp><engexamp>Chamber of Commerce</engexamp></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="1180">cambra de bany<nouns>
 			<translations>
@@ -1100,11 +1114,7 @@
 			<translations>
 				<translation catagory="body" gender="m">head</translation>
 				<translation gender="m">head / boss / chief</translation>
-				<translation gender="m">rope / cable
-					<catexamp>Cap de setmana</catexamp><engexamp>Weekend</engexamp>
-					<catexamp>Al cap i a la fi</catexamp><engexamp>After all</engexamp>
-					<catexamp>Al cap de</catexamp><engexamp>After</engexamp>
-				</translation>
+				<translation gender="m">rope / cable</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -1118,6 +1128,25 @@
 				<translation>at about / at around</translation>
 			</translations>
 		</prepositions>
+                <expressions>al cap de
+                <translations>
+                <translation>after<catexamp>Dos dels hostatges foren alliberats al cap de dues setmanes</catexamp><engexamp>Two of the hostages were freed after two weeks</engexamp></translation>
+                </translations>
+                </expressions>
+                <expressions>al cap i a la fi
+                <translations>
+                <translation>after all
+                </translation></translations></expressions>
+                <expressions>cap de setmana
+                <translations>
+                <translation gender="m">weekend<plural>caps de setmana</plural></translation>
+                </translations>
+                </expressions>
+                <expressions>de cap i de nou
+                <translations>
+                <translation>from the very start (or beginning) / completely / from top to bottom / from square one<catexamp>Això us pot estalviar la molèstia d'haver de reinstal.lar el sistema de cap i de nou</catexamp><engexamp>This can save you the trouble of having to completely reinstall the system</engexamp><catexamp>Seria més sensat i desitjable començar de cap i de nou</catexamp><engexamp>It would be more sensible and desirable to begin from square one</engexamp><catexamp>El desordre obliga a repensar de cap i de nou tot el model</catexamp><engexamp>The disorder makes it necessary to rethink the whole model from top to bottom</engexamp></translation> 
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="6950">cap d'any<nouns>
 			<translations>
@@ -1480,6 +1509,12 @@
 				<translation>Carribean<fems>caribenya</fems></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="15800">caricatura<nouns>
+			<translations><date>0106</date>
+				<translation gender="f">caricature</translation>
+			</translations>
+		</nouns>
 	</Entry>
         	<Entry frequency="4510">carícia<nouns>
 			<translations><date>0805</date>
@@ -3281,6 +3316,12 @@
 	<Entry frequency="63800">client<nouns>
 			<translations>
 				<translation gender="m / f">client</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1100">clientelisme<nouns>
+			<translations><date>0106</date>
+				<translation gender="m">patronage<engnote>'Clientelisme' means 'patronage' in the sense 'giving somebody a job or position of power in return for their support'</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>

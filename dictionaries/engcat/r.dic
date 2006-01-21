@@ -2340,7 +2340,7 @@
 	</Entry>
         <Entry frequency="13500000">renege<verbs>
 			<translations>
-				<translation register="formal">incumplir</translation>
+				<translation register="formal">incomplir / denunciar<catnote>(un acord o un tractat)</catnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3900,11 +3900,16 @@
 	<Entry frequency="38900000">rock<nouns>
 			<translations>
 				<translation gender="f">roca</translation>
+                                <translation disambiguate="entertainment-music" gender="m">rock</translation>
+                                <translation>
+                                <translation register="slang" gender="f">pedra preciosa</translation>
+                                <translation register="slang" gender="m">diamant<example>People started to suspect the star was getting married after she was spotted sporting a huge &lt;b&gt;rock&lt;/b&gt; on her finger that looked suspiciously like an engagement ring.</example></translation>
+                                </translation>
 			</translations>
 		</nouns>
                 <verbs>
                 <translations>
-                <translation>bressolar<engnote>'Bressolar' means to rock a baby gently in a crib or in your arms</engnote></translation>
+                <translation>gronxar</translation>
                 </translations>
                 </verbs>
 	</Entry>
@@ -4198,6 +4203,13 @@
 				<translation catagory="food-drink" gender="m">vi rosat</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="5350000">rosy<adjectives>
+			<translations>
+				<translation>rosat</translation>
+                                <translation>esperançador / prometedor<engexamp>A rosy future</engexamp><catexamp>Un futur esperançador / prometedor</catexamp></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="4710000">rot<verbs double="true">
 			<translations>
