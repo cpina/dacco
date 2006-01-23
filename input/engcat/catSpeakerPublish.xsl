@@ -65,6 +65,7 @@
 </xsl:text>
 		</xsl:if>
 	</xsl:template>
+                <xsl:template match="mistakes"/>
 	<xsl:template match="catnote">
          <xsl:if test="$speaker='cat'">
 		<div class="note">nota: <xsl:value-of select="." disable-output-escaping="yes"/>

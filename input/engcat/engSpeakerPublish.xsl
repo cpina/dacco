@@ -43,6 +43,7 @@
 			</xsl:if>
 		</xsl:if>
 	</xsl:template>
+                <xsl:template match="mistakes"/>
 	<xsl:template match="engnote">
 		<div class="note">n.b. <xsl:value-of select="."/>
 		</div>

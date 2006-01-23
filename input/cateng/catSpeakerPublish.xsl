@@ -34,6 +34,7 @@
 		<p/>
 			</xsl:if>
 	</xsl:template>
+        <xsl:template match="mistakes"/>
 	<xsl:template match="catnote">
 		<div class="note">nota: <xsl:value-of select="."/></div>
 	</xsl:template>

@@ -63,6 +63,7 @@
 		<p/>
 		</xsl:if>
 	</xsl:template>
+                <xsl:template match="mistakes"/>
 	<xsl:template match="catnote">
 	</xsl:template>
 	<xsl:template match="engnote">
