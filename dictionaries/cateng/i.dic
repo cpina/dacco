@@ -169,6 +169,11 @@
 				<translation>ignorant</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="m / f">ignoramus</translation>
+                </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="78600">igual<adjectives>
 			<translations>
@@ -338,6 +343,7 @@
 	</Entry>
 	<Entry frequency="24600">il·lusió<nouns>
 			<translations>
+                        <translation gender="ffullform">anticipation</translation>
 				<translation gender="ffullform">illusion<catexamp>Il·lusió òptica</catexamp>
 					<engexamp>Optical illusion</engexamp>
 					<plural>il·lusions</plural>
@@ -3050,9 +3056,8 @@
 	<Entry frequency="7260">intriga<nouns>
 			<translations>
 				<translation gender="ffullform">intrigue</translation>
-				<translation gender="ffullform">mystery<catexamp>Novel·la d'intriga</catexamp>
-					<engexamp>Mystery novel</engexamp>
-				</translation>
+                                <translation gender="ffullform">plot<catexamp>Novel·la d'intriga</catexamp>
+					<engexamp>Mystery novel</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3065,6 +3070,7 @@
 	<Entry frequency="2690">intrigar<verbs conj="GtoGU">
 			<translations>
 				<translation>to intrigue</translation>
+                                <translation>to plot / to conspire<synonyms>conspirar</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>

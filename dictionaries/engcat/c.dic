@@ -8,6 +8,14 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="58900">cabal<nouns>
+			<translations>
+				<translation gender="f">camarilla</translation>
+                                <translation gender="ffullform">intriga</translation>
+                                <translation gender="f">càbala / conspiració<synonyms>intrigue, plot</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1430000">cabbage<nouns>
 			<translations>
 				<translation gender="m">col</translation>
@@ -402,8 +410,10 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation gender="f">calma</translation>
-                                <translation gender="f">tranquil·litat</translation>
+                       <translation>
+				<translation gender="f">calma / tranquil·litat</translation>
+                                <translation gender="m">assossegament</translation>
+                                </translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -413,10 +423,10 @@
 		</verbs>
                 <phrasalverbs>calm (someone) down
                 <translations>
-                <translation>tranquilitzar / calmar algú</translation></translations></phrasalverbs>
+                <translation>tranquilitzar / calmar / assossegar algú</translation></translations></phrasalverbs>
                 <phrasalverbs>calm down
                 <translations>
-                <translation>calmar-se / tranquilitzar-se</translation></translations></phrasalverbs>
+                <translation>calmar-se / tranquilitzar-se / assossegar-se</translation></translations></phrasalverbs>
 	</Entry>
 	<Entry frequency="264000">calmly<adverbs>
 			<translations>
@@ -871,6 +881,12 @@
 				<translation gender="m">títol</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="7880000">captivate<verbs>
+			<translations>
+				<translation>fascinar / captivar</translation>
+			</translations>
+		</verbs>
 	</Entry>
         <Entry frequency="353000">captivity<nouns>
 			<translations>
@@ -6357,10 +6373,19 @@
 	</Entry>
 	<Entry frequency="2430000">conspiracy<nouns>
 			<translations>
-				<translation gender="f">conspiració<plural>conspiracies</plural>
+                        <translation>
+				<translation gender="f">conspiració</translation>
+                                <translation gender="ffullform">intriga<plural>conspiracies</plural>
 				</translation>
+                                </translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="5110000">conspire<verbs>
+			<translations>
+				<translation>conspirar / intrigar<synonyms>to plot</synonyms></translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="299000">constable<nouns>
 			<translations>
