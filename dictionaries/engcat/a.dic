@@ -640,6 +640,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="6250000">accede<verbs>
+			<translations>
+				<translation register="formal">accedir<engexamp>To accede to</engexamp><catexamp>Accedir a</catexamp></translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="10800000">accelerate<verbs>
 			<translations>
 				<translation disambiguate="transport" intransitive="true">accelerar<example>When the officer tried to stop the vehicle, the suspects &lt;b&gt;accelerated&lt;/b&gt; and sped off.</example></translation>
@@ -845,6 +851,11 @@
 				<translation gender="m">compte</translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>account for
+                <translations>
+                <translation>explicar</translation>
+                </translations>
+                </phrasalverbs>
 	</Entry>
 	<Entry frequency="1070000">accountancy<nouns>
 			<translations>
@@ -1116,7 +1127,13 @@
 				<translation gender="m">acte teatral</translation>
 				<translation gender="m">decret</translation>
 			</translations>
-		</nouns>                
+		</nouns>       
+                <phrasalverbs>act up
+                <translations>
+                <translation>fer entremaliadures<engnote>'Fer entremaliadures' means 'to act up' in the sense 'to misbehave'</engnote></translation>
+                <translation>funcionar irregularment<engnote>'Funcionar irregularment' means 'to act up' in the sense 'my watch is acting up' (not working properly)</engnote></translation>      
+                </translations>
+                </phrasalverbs>
 	</Entry>
 	<Entry frequency="116000000">action<nouns>
 			<translations>
@@ -1256,8 +1273,8 @@
 				<translation>sumar<engnote>'Sumar' means 'to add up' in the sense 'one plus one is two, two plus two is four...'.</engnote>
 					<synonyms>count, tally, tot up</synonyms>
 				</translation>
-				<translation>ser possible<engnote>'Ser possible' means 'to add up' in the sense 'that just doesn't add up'.</engnote>
-					<catnote>L'expressió 'that doesn't add up' significa 'això no és possible'</catnote>
+				<translation>tenir sentit<engnote>'Tenir sentit' means 'to add up' in the sense 'that just doesn't add up'.</engnote>
+					<catnote>L'expressió 'that doesn't add up' significa 'això no té sentit'</catnote>
 				</translation>
 			</translations>
 		</phrasalverbs>
@@ -1367,6 +1384,12 @@
 			</translations>
 		</acronyms>
 	</Entry>
+        <Entry frequency="49600000">adhere<verbs>
+			<translations>
+				<translation>adherir(-se) a</translation>
+			</translations>
+		</verbs>
+	</Entry>
          <Entry frequency="1330000">adipocyte<nouns>
 			<translations>
 				<translation catagory="biology" gender="m">adipòcit</translation>
@@ -1394,7 +1417,7 @@
 	<Entry frequency="14700000">adjust<verbs>
 			<translations>
 				<translation transitive="true">ajustar</translation>
-                                <translation intransitive="true">adaptar-se a<example>Some kids &lt;b&gt;adjust&lt;/b&gt; to change really easily.</example></translation>
+                                <translation intransitive="true">adaptar-se (a)<example>Some kids &lt;b&gt;adjust&lt;/b&gt; to change really easily.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1465,10 +1488,10 @@
 	</Entry>
 	<Entry frequency="15100000">admit<verbs double="true">
 			<translations>
-				<translation transitive="true">admetre<example>He &lt;b&gt;admitted&lt;/b&gt; that it was his idea to blow up the embassy</example>
+				<translation transitive="true">admetre / confessar<example>He &lt;b&gt;admitted&lt;/b&gt; that it was his idea to blow up the embassy</example>
 					<example>We all knew that he was guilty, the real question was whether or not he would &lt;b&gt;admit&lt;/b&gt; it</example>
-					<synonyms>concede</synonyms>
-					<engnote>Admetre means to admit in the general sense (i.e. he admitted that he had lied)</engnote>
+					<synonyms>concede, confess</synonyms>
+					<engnote>Admetre and 'confessar' mean 'to admit' in the general sense (i.e. he admitted that he had lied)</engnote><catnote>Es pot dir 'to admit to (something) o bé 'to admit (something)' (per exemple: 'He admitted to killing Josie' o 'He admitted killing Josie'</catnote>
 				</translation>
 				<translation transitive="true">deixar entrar<example>Can a nightclub refuse to &lt;b&gt;admit&lt;/b&gt; someone if they have had far too much to drink already?</example>
 					<example>Pubs will be fined heavily for &lt;b&gt;admitting&lt;/b&gt; underage drinkers</example>
@@ -4006,7 +4029,10 @@
 	</Entry>
          <Entry frequency="129">anticipation<nouns>
 			<translations>
-				<translation gender="ffullform">expectació / il·lusió</translation>
+                        <translation>
+                        <translation gender="f">expectació</translation>
+				<translation gender="ffullform">il·lusió</translation>
+                                </translation>
 			</translations>
 		</nouns>
                 <expressions>thanks in anticipation
