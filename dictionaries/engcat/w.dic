@@ -111,6 +111,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="2100000">wait staff<nouns>
+			<translations>
+				<translation catagory="work" local="us" gender="mpl">cambrers</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="5580000">waiver<nouns>
 			<translations>
 				<translation gender="f">exempció</translation>
@@ -1174,6 +1180,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="340000">wet nurse<nouns>
+			<translations>
+				<translation gender="f">dida</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="881000">wetsuit<nouns>
 			<translations>
 				<translation catagory="sports-event-waterskiing, sports-event-surfing" gender="m">neoprè</translation>
@@ -2209,16 +2221,14 @@
 				<translation catagory="work">
 					<translation gender="m">treball</translation>
 					<translation gender="f">feina</translation>
+                                        <translation beforenoun="true">laboral</translation>
+                                        <translation gender="f">obra<engexamp>The works of Shakespeare</engexamp><catexamp>Les obres de Shakespeare</catexamp><engexamp>The works of Picasso</engexamp><catexamp>Les obres de Picasso</catexamp></translation>
+                                        <translation sourceplural="the works" register="informal" gender="m">tot<example>What would you like on your burger? I'll have &lt;b&gt;the works&lt;/b&gt; please: gherkins, ketchup, cheese, mayonnaise...</example></translation>
 					<engexamp>Line of work</engexamp>
 					<catexamp>àmbit de treball</catexamp>
 				</translation>
 			</translations>
 		</nouns>
-		<adjectives>
-			<translations>
-				<translation catagory="work">laboral</translation>
-			</translations>
-		</adjectives>
 	</Entry>
 	<Entry frequency="29700000">worker<nouns>
 			<translations>

@@ -1475,6 +1475,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="207000000">textbook<nouns><mistakes>text book</mistakes>
+			<translations>
+				<translation catagory="education" gender="m">llibre de text</translation>
+                                <translation beforenoun="true">de manual / perfecte<engexamp>A textbook example</engexamp><catexamp>Un exemple de manual / un exemple perfecte</catexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="3590000">text file<nouns>
 			<translations>
 				<translation catagory="computers" gender="m">fitxer de text</translation>
@@ -1993,7 +2000,7 @@
 	</Entry>
 	<Entry frequency="766000">thirsty<adjectives>
 			<translations>
-				<translation>que té set</translation>
+				<translation>que té set / assedegat<engexamp>I'm thirsty</engexamp><catexamp>Tinc set</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2981,6 +2988,24 @@
 				</translation>
 			</translations>
 		</adverbs>
+	</Entry>
+        <Entry frequency="19900">ton<nouns>
+			<translations>
+				<translation gender="f">tona<engexamp>Metric ton</engexamp><catexamp>Tona mètrica (1.000 kg)</catexamp></translation>
+                                <translation local="gb" gender="f">tona anglesa / tona llarga<catnote>(1.016 kg)</catnote></translation>
+                                <translation local="us" gender="f">tona americana / tona curta<catnote>(907 kg)</catnote></translation>
+			</translations>
+		</nouns>
+                <expressions>a ton of
+                <translations>
+                <translation>un munt de<synonyms>tons of</synonyms></translation>
+                </translations>
+                </expressions>
+                <expressions>tons of
+                <translations>
+                <translation>un munt de<engexamp>There are tons of things to do</engexamp><catexamp>Hi ha un munt de coses a fer</catexamp><synonyms>a ton of</synonyms></translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="10300000">tone<nouns>
 			<translations>
@@ -4562,6 +4587,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="1800000">troglodyte<nouns>
+			<translations>
+				<translation gender="mf">troglodita</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="28000">troglodytic<adjectives>
+			<translations>
+				<translation>troglodític</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="1180000">trolley<nouns>
 			<translations>
 				<translation local="gb" gender="m">carret<catnote>L'expressió col·loquial 'to be off your trolley' vol dir 'ser boig'</catnote>
@@ -5023,6 +5060,16 @@
 	<Entry frequency="355000">turnip<nouns>
 			<translations>
 				<translation catagory="food-vegetable" gender="m">nap</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="26600000">turnover<nouns>
+			<translations>
+                        <translation>
+				<translation disambiguate="financial" gender="m">volum de negoci</translation>
+                                <translation gender="f">facturació / xifra de vendes</translation>
+                                </translation>
+                                <translation gender="f">rotació de personal<engnote>(turnover of staff)</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>

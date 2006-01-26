@@ -367,6 +367,21 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="9000000">fallout<nouns><mistakes>fall-out</mistakes>
+			<translations>
+				<translation gender="f">pluja radioactiva</translation>
+                                <translation>
+                                <translation gender="f">conseqüència / seqüela</translation>
+                                <translation gender="m">efecte<engnote>(Often used in the plural: conseqüències, seqüeles, efectes)</engnote></translation>
+                                </translation>
+			</translations>
+		</nouns>
+                <expressions>fallout shelter
+                <translations>
+                <translation gender="m">refugi antinuclear</translation>
+                </translations>
+                </expressions>
+	</Entry>
         <Entry frequency="16400000">false<adjectives>
 			<translations>
 				<translation>fals</translation>
@@ -1370,8 +1385,10 @@
 			<translations>
 				<translation gender="f">lluita<engnote>'Lluita' means 'fight' in the sense 'fight for freedom'</engnote>
 				</translation>
+                                <translation gender="m">combat</translation>
 				<translation gender="f">baralla<engnote>'Baralla' means 'fight' in the sense 'row' / 'argument'</engnote>
 				</translation>
+                                <translation gender="f">batalla<engnote>'Batalla' means 'fight' in the sense 'battle' (i.e. 'The Battle of Midway - the fight for the Pacific')</engnote></translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -1383,10 +1400,12 @@
 				<translation>combatre<engnote>'Combatre' means 'to fight' in the sense 'to fight against somebody or something'</engnote>
 				</translation>
 				<translation>barallar-se<engnote>Barallar-se means fight in the sense of argue</engnote>
-					<engexamp>to fight with someone</engexamp>
-					<catexamp>barallar-se amb algú</catexamp>
-					<engexamp>to fight for / over something</engexamp>
-					<catexamp>barallar-se per alguna cosa</catexamp>
+					<engexamp>To fight with someone</engexamp>
+					<catexamp>Barallar-se amb algú</catexamp>
+					<engexamp>To fight for something</engexamp>
+					<catexamp>Barallar-se per alguna cosa</catexamp>
+                                        <engexamp>To fight over something</engexamp>
+                                        <catexamp>Barallar-se per alguna cosa</catexamp>
 				</translation>
 			</translations>
 		</verbs>
@@ -3536,6 +3555,23 @@
 				<translation gender="f">França</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="4390000">Franciscan<nouns>
+			<translations>
+				<translation catagory="religious" gender="mf">franciscà</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation catagory="religious">franciscà</translation>
+                </translations>
+                </adjectives>
+	</Entry>
+        <Entry frequency="2500000">frank<adjectives>
+			<translations>
+				<translation>franc / sincer</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="24300">frankenfood<nouns>
 			<translations>
