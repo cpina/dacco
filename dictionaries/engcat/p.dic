@@ -481,6 +481,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="28800000">panda<nouns>
+			<translations>
+				<translation catagory="animal-animal" gender="m">panda<engexamp>Giant panda</engexamp><catexamp>Panda gegant</catexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="22700000">pandemic<nouns>
 			<translations>
 				<translation catagory="medical" gender="f">pandèmia</translation>
@@ -491,6 +497,13 @@
                 <translation>pandèmic</translation>
                 </translations>
                 </adjectives>
+	</Entry>
+        <Entry frequency="2820000">pander<verbs>
+			<translations>
+				<translation>satisfer / complaure<engexamp>We pandered to the public taste with all this advertising</engexamp><catexamp>Amb tota aquesta propaganda vam satisfer els gustos del públic</catexamp><catnote>Normalment 'pander to'. 'To pander to somebody (o somebody's wishes)' vol dir fer tot el possible per complaure una persona (o grup de persones) - sobretot si no és acceptable ni raonable fer-ho</catnote><example>Mr. Bush is &lt;b&gt;pandering to&lt;/b&gt; wealthy, reactionary Cuba "hard-liners" who fund his national campaigns.</example><example>Canadian Prime Minister Paul Martin
+is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.</example></translation>
+			</translations>
+		</verbs>
 	</Entry>
         <Entry frequency="806000">Pandora's box<nouns>
 			<translations>
@@ -2483,6 +2496,7 @@
 	<Entry frequency="940000">petal<nouns>
 			<translations>
 				<translation catagory="plant-flower" gender="m">pètal</translation>
+                                <translation register="dialect" gender="mf">estimat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2506,6 +2520,18 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="34400000">petty<adjectives>
+			<translations>
+				<translation>trivial / insignificant<example>&lt;b&gt;Petty&lt;/b&gt; rules undermine productivity and morale.</example></translation>
+                                <translation>patètic<example>Don't be so &lt;b&gt;petty&lt;/b&gt;!</example></translation>
+			</translations>
+		</adjectives>
+                <expressions>petty cash
+                <translations>
+                <translation catagory="financial" gender="f">caixa petita</translation>
+                </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="78300">petty thief<nouns>
 			<translations>
@@ -5897,7 +5923,7 @@
 				<translation disambiguate="computers-hardware" termcat="true" gender="f">impressora<engexamp>Laser printer</engexamp>
 					<catexamp>Impressora làser</catexamp>
 				</translation>
-                                <translation disambiguate="work-job" gender="mf">impressor<fems>impressora</fems></translation>
+                                <translation disambiguate="work-job" gender="mf">impressor</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6485,8 +6511,10 @@
 	</Entry>
 	<Entry frequency="16600000">property<nouns>
 			<translations>
-				<translation gender="f">propietat<plural>properties</plural>
+				<translation gender="f">propietat<engnote>'Propietat' means 'property' in the sense 'feature' (i.e. 'one property of a square is that all sides are equal')</engnote>
 				</translation>
+                                <translation gender="m">immoble<engnote>'Immoble' means 'property' as in 'building' (i.e. 'he left the property by the front door')</engnote></translation>
+                                <translation gender="mpl">béns immobles<plural>properties</plural><engnote>'Immoble' means 'property' as in 'real estate'</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
