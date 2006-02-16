@@ -3757,8 +3757,7 @@
 	</Entry>
 	<Entry frequency="2230000">freeway<nouns>
 			<translations>
-				<translation local="us" gender="f">autopista<synonyms>expressway (Am.)</synonyms>
-					<otherlocal>motorway</otherlocal>
+				<translation local="us" gender="f">autopista<otherlocal>motorway</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
@@ -4133,11 +4132,29 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="15400000">in front of<prepositions>
+         <Entry frequency="949000000">front<nouns>
 			<translations>
-				<translation>davant (de)</translation>
+				<translation gender="m">davant</translation>
+                                <translation gender="f">part davantera / part anterior</translation>
+                                <translation disambiguate="geography" gender="m">front<engexamp>Warm front</engexamp><catexamp>Front càlid</catexamp><engexamp>Cold front</engexamp><catexamp>Front fred</catexamp></translation>
 			</translations>
-		</prepositions>
+		</nouns>
+                <expressions>in front
+                <translations>
+                <translation>davant</translation>
+                </translations>
+                </expressions>
+                <expressions>in front of
+                <translations>
+                <translation>davant de</translation>
+                </translations>
+                </expressions>
+	</Entry>
+         <Entry frequency="161000000">frontier<nouns>
+			<translations>
+				<translation gender="f">frontera</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="58600000">front page<nouns>
 			<translations>

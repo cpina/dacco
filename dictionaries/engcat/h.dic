@@ -19,7 +19,7 @@
 	</Entry>
 	<Entry frequency="176000">habitable<adjectives>
 			<translations>
-				<translation>habitable</translation>
+				<translation>habitable<synonyms>inhabitable</synonyms><catnote>Falsos amics! Les paraules angleses 'inhabitable' i 'habitable' tenen el mateix significat ('habitable'). La paraula catalana 'inhabitable' correspon a la paraula anglesa 'uninhabitable'</catnote></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1002,6 +1002,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="3350000">hazel<adjectives>
+			<translations>
+				<translation>de color avellana</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="370000">hazelnut<nouns>
 			<translations>
 				<translation gender="f">avellana</translation>
@@ -1040,8 +1046,7 @@
 	</Entry>
 	<Entry frequency="279000000">head<nouns>
 			<translations>
-				<translation gender="m">cap<catnote>To be off your head' és una expressió col·loquial que significa 'ser boig' (ex: He's off his head)</catnote>
-				</translation>
+				<translation catagory="body" gender="m">cap</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -1057,6 +1062,16 @@
 				<translation>dirigir-se a</translation>
 			</translations>
 		</phrasalverbs>
+                <expressions>be off your head
+                <translations>
+                <translation register="colloquial">estar boig<example>Don't pay any attention to him. He's &lt;b&gt;off his head&lt;/b&gt;.</example></translation>
+                </translations>
+                </expressions>
+                <expressions>heads or tails
+                <translations>
+                <translation>cara o creu</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="19600000">headache<nouns>
 			<translations>
@@ -1744,9 +1759,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="8610000">hermit<nouns>
+			<translations>
+				<translation gender="mf">eremita / ermità<example>This community of Carmelite &lt;b&gt;hermits&lt;/b&gt; live a hidden life of silence and prayer and separation from the world.</example><example>He's a &lt;b&gt;hermit&lt;/b&gt; who hates the telephone and who often ignores his email.</example></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="666000">hermitage<nouns>
 			<translations>
+                        <translation>
 				<translation gender="f">ermita</translation>
+                                <translation gender="m">erm</translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>

@@ -3151,6 +3151,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="10100000">cholera<nouns>
+			<translations><date>0206</date>
+				<translation catagory="medical-illness" gender="f">còlera</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="3960000">cholesterol<nouns>
 			<translations>
 				<translation gender="m">colesterol</translation>
@@ -3389,7 +3395,7 @@
 	</Entry>
         <Entry frequency="2090000">chubby<adjectives>
 			<translations>
-				<translation>grassó / grassonet<engexamp>Chubby cheeks</engexamp><catexamp>Galtones</catexamp></translation>
+				<translation>grassó / grassonet<engexamp>Chubby cheeks</engexamp><catexamp>Galtones</catexamp><engexamp>Chubby-cheeked</engexamp><catexamp>Galtaplè</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -4497,6 +4503,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="5260000">cognate<adjectives>
+			<translations>
+				<translation disambiguate="linguistics">corresponent<engexamp>Cognate disciplines</engexamp><catexamp>Disciplines afins</catexamp></translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation disambiguate="linguistics" termcat="true" gender="m">cognat<example>The English "kiosk" and the Spanish quiosco are &lt;b&gt;cognates&lt;/b&gt; because they both come from the Turkish kosk.</example></translation>
+                </translations>
+                </nouns>
+	</Entry>
         <Entry frequency="175000">cogwheel<nouns>
 			<translations>
 				<translation gender="f">roda dentada</translation>
@@ -4582,7 +4599,7 @@
 	</Entry>
 	<Entry frequency="59100000">cold<nouns>
 			<translations>
-				<translation gender="m">refredat</translation>
+				<translation gender="m">constipat / refredat</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -5151,7 +5168,7 @@
 	</Entry>
 	<Entry frequency="8010000">commitment<nouns>
 			<translations>
-				<translation gender="m">compromís</translation>
+				<translation gender="m">compromís<engexamp>Our commitment to sustainable agriculture is well known</engexamp><catexamp>El nostre compromís amb l'agricultura sostenible és ben conegut</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5564,6 +5581,18 @@
 				<translation catagory="computers">comprimir</translation>
 			</translations>
 		</verbs>
+	</Entry>
+<Entry frequency="160000000">compromise<verbs>
+			<translations>
+				<translation>transigir<engexamp>The unions and the company refuse to compromise</engexamp><catexamp>Els sindicats i l'empresa es neguen a transigir (arribar a un acord basat en concessions mútues)</catexamp><engexamp>You want 40 euros and I want to pay 30, so let's compromise at/on 35</engexamp><catexamp>Tu vols 40 euros i jo en vull pagar 30, doncs dividim la diferència i diem 35</catexamp><engexamp>The government says it won't compromise with terrorists</engexamp><catexamp>El govern diu que no transigirà amb els terroristes</catexamp></translation>
+                                <translation>comprometre / posar en perill<example>Carod's opposition to the Statute has &lt;b&gt;compromised&lt;/b&gt; his position in the 'tripartit'.</example></translation>
+			</translations>
+		</verbs>
+                <nouns>
+                <translations>
+                <translation>acte transigent / acte de transigència</translation>
+                </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="11000000">comptroller<nouns>
 			<translations>
@@ -6424,6 +6453,18 @@
 				<translation catagory="astronomy" gender="f">constel·lació</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="1490000">constipate<verbs>
+			<translations>
+				<translation catagory="medical" transitive="true">restrènyer<engexamp>To be constipated</engexamp><catexamp>Anar restret</catexamp></translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="1330000">constipated<adjectives>
+			<translations>
+				<translation catagory="medical">restret</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="613000">constipation<nouns>
 			<translations>
@@ -7321,8 +7362,7 @@
 	</Entry>
 	<Entry frequency="423000">corny<adjectives>
 			<translations>
-				<translation noteng="TRUE">-<catnote>Si es diu que un acudit, una història, una pel·lícula o un llibre és 'corny' vol dir que ja s'ha contat moltes vegades i, per tal, ja no és interessant / divertit</catnote>
-				</translation>
+				<translation>gastat / suat<catnote>Si es diu que un acudit, una història, una pel·lícula o un llibre és 'corny' vol dir que ja s'ha contat moltes vegades i, per tant, ja no és interessant / divertit</catnote></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -7542,6 +7582,12 @@
         <Entry frequency="6040000">cosmos<nouns>
 			<translations>
 				<translation catagory="astronomy" gender="m">cosmos</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="143000">cossie<nouns>
+			<translations>
+				<translation catagory="sports-event-swimming, clothes" local="au" gender="m">banyador / vestit de bany<synonyms>swimsuit, (swimming) costume, bathing costume, swimmers (Aus.), bathers (Aus.)</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>

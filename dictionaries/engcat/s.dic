@@ -2505,6 +2505,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="29700000">shaft<nouns>
+			<translations>
+				<translation gender="m">feix<catnote>(de llum)</catnote><engnote>(of light)</engnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="12700000">shake<verbs>
 			<past>shook</past>
 			<participle>shaken</participle>
@@ -2672,6 +2678,12 @@
 				<translation>ella</translation>
 			</translations>
 		</pronouns>
+	</Entry>
+        <Entry frequency="3250000">sheaf<nouns>
+			<translations>
+				<translation gender="m">feix<plural>sheaves</plural><synonyms>bundle</synonyms></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="1650000">shear<verbs>
 			<participle>sheared, shorn</participle>
@@ -4463,7 +4475,14 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="987000">slate<verbs>
+	<Entry frequency="987000">slate
+        <nouns>
+        <translations>
+        <translation disambiguate="material" gender="f">pissarra / llicorella</translation>
+        <translation local="us" disambiguate="politics" gender="f">llista (electoral)<example>When the vice president cast his tie-breaking vote in favor of the Republican &lt;b&gt;slate&lt;/b&gt;, the chamber exploded in volleys of cheers and boos.</example><synonyms>ticket (Am.)</synonyms></translation>
+        </translations>
+        </nouns>
+        <verbs>
 			<translations>
 				<translation>criticar<example>I was thinking of going to see Mel Gibson's new film but the critics have &lt;b&gt;slated&lt;/b&gt; it so I think I'll save my money.</example>
 				</translation>
@@ -5828,6 +5847,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="3230000">sorrowful<adjectives>
+			<translations>
+				<translation>molt trist / afligit<synonyms>mournful</synonyms></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="18800000">sorry<exclamations>
 			<translations>
 				<translation>perdó!</translation>
@@ -6682,18 +6707,27 @@
 				<translation>escopir</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                <translations>
+                <translation gender="m">gargall</translation>
+                </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="3920000">spite<nouns>
 			<translations>
-				<translation>malícia</translation>
+				<translation gender="f">malícia</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="3520000">in spite of<expressions>
-			<translations>
-				<translation>malgrat / a despit de</translation>
-			</translations>
-		</expressions>
+                <expressions>in spite of
+                <translations>
+                <translation>malgrat / a despit de</translation>
+                </translations>
+                </expressions>
+                <expressions>out of spite
+                <translations>
+                <translation>per despit</translation>
+                </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="275000">spiteful<adjectives>
 			<translations>
@@ -7274,8 +7308,8 @@
 	</Entry>
 	<Entry frequency="792000">stab<verbs double="true">
 			<translations>
-				<translation>apunyalar / clavar ganivetades a<engexamp>To stab somebody to death</engexamp>
-					<catexamp>Matar algú a ganivetades</catexamp>
+				<translation>apunyalar / clavar una ganivetada (or ganivetades) a<engexamp>To stab somebody to death</engexamp>
+					<catexamp>Matar algú a ganivetades</catexamp><engexamp>Stab wound</engexamp><catexamp>Ganivetada</catexamp>
 				</translation>
 			</translations>
 		</verbs>
@@ -7303,6 +7337,12 @@
 				<translation>estable</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="790000">stab wound<nouns>
+			<translations>
+				<translation gender="f">ganivetada</translation>
+			</translations>
+		</nouns>
 	</Entry>
          <Entry frequency="28300000">stack<nouns>
 			<translations>
@@ -9203,6 +9243,11 @@
 				</translation>
 			</translations>
 		</adjectives>
+                <verbs>
+                <translations>
+                <translation>substituir<engexamp>To substitute B for A</engexamp><catexamp>Substituir A per B</catexamp><engexamp>To substitute A with B</engexamp><catexamp>Substituir A per B</catexamp><engexamp>Substitute for A</engexamp><catexamp>Substituir A</catexamp><engexamp>The coach substituted Joan for the injured player</engexamp><catexamp>L'entrenador va substituir el jugador lesionat per en Joan</catexamp><engexamp>Joan was substituted for the injured player</engexamp><catexamp>El jugador lesionat ha estat substituït per en Joan</catexamp><engexamp>Joan is going to substitute for the injured player</engexamp><catexamp>En Joan substituirà el jugador lesionat</catexamp></translation>
+                </translations>
+                </verbs>
 	</Entry>
 	<Entry frequency="309000">substitute teacher<nouns>
 			<translations>
@@ -10407,6 +10452,7 @@
 	<Entry frequency="921000">swimmer<nouns>
 			<translations>
 				<translation catagory="sports-event-swimming" gender="mf">nedador / nadador</translation>
+                                <translation catagory="sports-event-swimming, clothes" sourceplural="swimmers" local="au" gender="m">banyador / vestit de bany<synonyms>swimsuit, (swimming) costume, bathing suit, bathers (Aus.), cossie (Aus.)</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -10564,6 +10610,12 @@
 				<translation gender="f">espasa</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="497000">sycophantic<adjectives>
+			<translations>
+				<translation register="formal">servil</translation>
+			</translations>
+		</adjectives>
 	</Entry>
         <Entry frequency="58800">Sydneysider<nouns>
 			<translations>

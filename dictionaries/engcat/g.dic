@@ -117,9 +117,26 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="38100">gallicism<nouns>
+			<translations>
+				<translation catagory="linguistics" gender="m">gal·licisme</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2110000">gallon<nouns>
 			<translations>
 				<translation gender="m">galó</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="5710000">gallop<verbs>
+        <translations>
+        <translation>galopar</translation>
+        </translations>
+        </verbs>
+        <nouns>
+			<translations>
+				<translation catagory="animal" gender="m">galop</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -270,6 +287,17 @@
 				<translation gender="f">jardineria</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="1420000">gargle<verbs>
+			<translations>
+				<translation>fer gàrgares</translation>
+			</translations>
+		</verbs>
+                <nouns>
+                <translations>
+                <translation gender="f">gàrgara</translation>
+                </translations>
+                </nouns>
 	</Entry>
         <Entry frequency="2790000">gargoyle<nouns>
 			<translations>
@@ -1067,21 +1095,37 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
+                <expressions>from the get-go
+                <translations>
+                <translation>des del principi / des del començament</translation>
+                </translations>
+                </expressions>
+                <expressions>get-up-and-go
+                <translations>
+                <translation>energia, determinació i positivitat<example>Vince took early retirement in 1995 but he had too much &lt;b&gt;get-up-and-go&lt;/b&gt; about him to stay retired for long.</example></translation>
+                </translations>
+                </expressions>
 		<expressions>get used to
 			<translations>
 				<translation>acostumar-se a</translation>
 			</translations>
 		</expressions>
 	</Entry>
+        <Entry frequency="1350000">get-up-and-go<nouns><mistakes>get up and go</mistakes>
+			<translations>
+				<translation>energia, determinació i positivitat<example>Vince took early retirement in 1995 but he had too much &lt;b&gt;get-up-and-go&lt;/b&gt; about him to stay retired for long.</example></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="4800000">Ghana<nouns>
 			<translations>
-				<translation gender="f">Ghana</translation>
+				<translation catagory="country-africa" gender="f">Ghana</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="302000">Ghanaian<nouns>
 			<translations>
-				<translation gender="mf">ghanès</translation>
+				<translation catagory="nationality-africa" gender="mf">ghanès</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -1612,6 +1656,21 @@
 				<translation>sortir / eixir (Val.)</translation>
 			</translations>
 		</phrasalverbs>
+                <expressions>from the get-go
+                <translations>
+                <translation>des del principi / des del començament<example>That has been my position &lt;b&gt;from the get-go&lt;/b&gt; and I'm not changing it now.</example><synonyms>from the word go</synonyms></translation>
+                </translations>
+                </expressions>
+                <expressions>from the word go
+                <translations>
+                <translation>des del princip / des del començament<example>That has been my position &lt;b&gt;from the word go&lt;/b&gt; and I'm not changing it now.</example><synonyms>from the get-go</synonyms></translation>
+                </translations>
+                </expressions>
+                  <expressions>get-up-and-go
+			<translations>
+				<translation>energia, determinació i positivitat<example>Vince took early retirement in 1995 but he had too much &lt;b&gt;get-up-and-go&lt;/b&gt; about him to stay retired for long.</example></translation>
+			</translations>
+		</expressions>
 	</Entry>
         <Entry frequency="323000">goad<verbs>
 			<translations>
@@ -2070,7 +2129,8 @@
 	</Entry>
 	<Entry frequency="1750000">graft<verbs>
 			<translations>
-				<translation register="slang" local="gb">treballar dur</translation>
+                        <translation disambiguate="medical, agriculture">empeltar</translation>
+				<translation register="slang" local="gb">pencar fort / treballar fort</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -2078,6 +2138,9 @@
 				<translation disambiguate="medical" gender="m">empelt</translation>
 				<translation register="slang" local="gb" gender="m">treball dur<catnote>Encara que aquesta paraula vol dir 'treball dur', molt sovint es va precedit de l'adjectiu 'hard' (és a dir 'dur / difícil') - 'hard graft' </catnote>
 				</translation>
+                                <translation>
+                                <translation local="us" gender="m">suborn</translation>
+                                <translation local="us" gender="f">corrupció<example>Oil &lt;b&gt;Graft&lt;/b&gt; Fuels the Insurgency, Iraq and US say.</example></translation></translation>
 			</translations>
 		</nouns>
 	</Entry>

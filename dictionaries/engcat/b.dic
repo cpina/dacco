@@ -28,7 +28,7 @@
 	</Entry>
 <Entry frequency="12700">babe magnet<nouns>
 			<translations>
-				<translation noteng="TRUE" register="slang">-<catnote>Si es diu que un home o una cosa (per exemple un cotxe molt car) és un 'babe magnet' vol dir que atrau fàcilment a les dones</catnote>
+				<translation register="slang">(cosa) que atrau fàcilment a les dones<catnote>Si es diu que un home o una cosa (per exemple un cotxe molt car) és un 'babe magnet' vol dir que atrau fàcilment a les dones</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -277,8 +277,7 @@
 	</Entry>
 	<Entry frequency="93600">bad hair day<nouns>
 			<translations>
-				<translation noteng="TRUE" register="colloquial">-<catnote>Un 'bad hair day' és un d'aquells dies en què sembla com si vagis despentinat encara que és ben possible que hagis passat una bona hora i mitja pentinant-se els cabells aquell matí ;-)</catnote>
-				</translation>
+				<translation register="colloquial">un d'aquells dies en què sembla com si vagis despentinat encara que és ben possible que hagis passat una bona hora i mitja pentinant-se els cabells aquell matí ;-)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -312,7 +311,7 @@
 	</Entry>
 	<Entry frequency="830">bad taste party<nouns>
 			<translations>
-				<translation noteng="TRUE">festa de 'mal gust'<plural>bad taste parties</plural>
+				<translation>festa de 'mal gust'<plural>bad taste parties</plural>
 					<catnote>una festa 'de mal gust' és una mena de festa molt popular entre els estudiants britànics on tot el món acudeix vestint roba molt cridanera i de mal gust.  És clar, la diferència entre un 'bad taste party' i una festa normal a l'Anglaterra és, a vegades, molt subtil ;-)</catnote>
 				</translation>
 			</translations>
@@ -634,21 +633,13 @@
 	<Entry frequency="8660000">banana<nouns>
 			<translations>
 				<translation gender="m">plàtan</translation>
+                                <translation capitalized="true">(no construeixi absolutament res enlloc) - extensió de la filosofia NIMBY (Not In My Back Yard)<catnote>(Build Absolutely Nothing Anywhere Near Anyone</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="990">BANANA<engacro>Build Absolutely Nothing Anywhere Near Anything</engacro>
-		<acronyms>
-			<translations>
-				<translation noteng="TRUE">-<catnote>L'acrònim BANANA (no construeixi absolutament res enlloc) és una extensió de la filosofia NIMBY (Not In My Back Yard)</catnote>
-				</translation>
-			</translations>
-		</acronyms>
-	</Entry>
 	<Entry frequency="81900">banana split<nouns>
 			<translations>
-				<translation noteng="TRUE" picture="http://photos4.flickr.com/9274831_684ad07b69.jpg" flickr="http://www.flickr.com/photos/arboltsef/9274831/">-<catnote>Un 'banana split' és un postre que consta d'un plàtan tallat en dues parts de dalt a baix, amb una combinació de dos o més dels ingredients següents entre les dues parts: (nata i / o gelat i / o iogurt), pinya, maduixes, nous, xocolata.</catnote>
-				</translation>
+				<translation picture="http://photos4.flickr.com/9274831_684ad07b69.jpg" flickr="http://www.flickr.com/photos/arboltsef/9274831/">postre que consta d'un plàtan tallat en dues parts de dalt a baix, amb una combinació de dos o més dels ingredients següents entre les dues parts: (nata i / o gelat i / o iogurt), pinya, maduixes, nous, xocolata</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -940,10 +931,15 @@
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>Barmy Army
+                <translations>
+                <translation catagory="encyclopaedic" noteng="TRUE" local="gb">grup d'aficionats que segueix l'equip de criquet d'Anglaterra en els seus desplaçaments a l'estranger</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="30000">barnet<nouns>
 			<translations>
-				<translation register="dialectal-cockney" noteng="TRUE" local="gb" gender="mpl">cabells<catnote>hair &gt; Barnet Fair &gt; Barnet</catnote>
+				<translation register="dialectal-cockney" local="gb" gender="mpl">cabells<catnote>hair &gt; Barnet Fair &gt; Barnet</catnote>
 					<synonyms>hair</synonyms>
 				</translation>
 			</translations>
@@ -1170,6 +1166,13 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="1030000">bather<nouns>
+			<translations>
+				<translation gender="mf">banyista</translation>
+                                <translation local="au" sourceplural="bathers" gender="m">banyador / vestit de bany<synonyms>swimsuit, (swimming) costume, bathing costume, swimmers (Aus), cossie (Aus.)</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="293000">bathrobe<nouns>
 			<translations>
 				<translation gender="m">barnús</translation>
@@ -1237,8 +1240,7 @@
 	<Entry frequency="15300000">BBC<engacro>British Broadcasting Corporation</engacro>
 		<nouns>
 			<translations>
-				<translation catagory="encyclopaedic" noteng="TRUE" local="gb">-<catnote>La BBC és un canal de televisió públic de Gran Bretanya</catnote>
-				</translation>
+				<translation catagory="encyclopaedic" local="gb">canal de televisió públic de Gran Bretanya</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1284,8 +1286,8 @@
         <Entry frequency="5340000">beam<nouns>
 			<translations>
 				<translation gender="m">gran somriure</translation>
-                                <translation gender="f">biga<engnote>'Biga' means 'beam' in the sense 'the old house had lots of exposed beams'.</engnote></translation>
-                                <translation gender="m">raig<engnote>'Raig' means 'beam' in the sense 'beam (ray) of light'.</engnote></translation>
+                                <translation gender="f">biga<engnote>'Biga' means 'beam' in the sense 'the old house had lots of exposed beams'</engnote></translation>
+                                <translation gender="m">feix / raig<engnote>'Feix' and 'raig' mean 'beam' in the sense 'beam (ray) of light'</engnote></translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -2167,7 +2169,7 @@
 	</Entry>
    <Entry frequency="928000">Big Ben<nouns>
 			<translations>
-				<translation catagory="encyclopaedic" noteng="TRUE" picture="http://photos18.flickr.com/23902026_d588725986.jpg" flickr="http://www.flickr.com/photos/mlamothe/23902026/" gender="m">-<catnote>'Big Ben' és el nom de la campana més gran de la torre de rellotge del Parlament britànic a Londres. També s'utilitza col·loquialment per referir a la torre de rellotge mateixa</catnote></translation>
+				<translation catagory="encyclopaedic" noteng="TRUE" picture="http://photos18.flickr.com/23902026_d588725986.jpg" flickr="http://www.flickr.com/photos/mlamothe/23902026/" gender="m">nom de la campana més gran de la torre de rellotge del Parlament britànic a Londres. També s'utilitza col·loquialment per referir a la torre de rellotge mateixa</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3326,7 +3328,7 @@
 	</Entry>
 	<Entry frequency="257000">blood drive<nouns>
 			<translations>
-				<translation noteng="TRUE">-<catnote>Quan hi ha una manca de donacions de sang, els hospitals / centres mèdics fan un 'blood drive'.  Això significa que munten cubicles temporaris a un lloc de reunió comunitari (per exemple en una església o en un centre comercial) i fan una crida pública a tot el món perquè facin donacions de sang. </catnote>
+				<translation noteng="TRUE">-<catnote>Quan hi ha una manca de donacions de sang, els hospitals / centres mèdics fan un 'blood drive'.  Això significa que munten cubicles temporaris a un lloc de reunió comunitari (per exemple en una església o en un centre comercial) i fan una crida pública a tot el món perquè facin donacions de sang.</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -4106,8 +4108,7 @@
 	</Entry>
 	<Entry frequency="34800000">born<verbs>
 			<translations>
-				<translation>néixer<catnote>Hi ha una expressió en anglès col·loquial qui diu 'He doesn't know he's born / they don't know they're born' etc.  Això vol dir que algú ho té tot molt fàcil i no se n'adona del fet. Molt sovint aquesta expressió va precedida per 'Kids these days', és a dir 'Kids these days don't know they're born!' - Els joves d'avui dia ho tenen tot molt fàcil i ni tan sols se n'adonen!)</catnote>
-				</translation>
+				<translation>néixer<engexamp>You don't know you're born!</engexamp><catexamp>No saps la sort que tens!</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4431,7 +4432,7 @@
 	</Entry>
 	<Entry frequency="32600">boy racer<nouns>
 			<translations>
-				<translation noteng="TRUE" register="slang">-<catnote>Un 'boy racer' és un d'aquells joves a qui els agrada conduir molt ràpid (i que generalment tenen un equip de música molt poderós instal·lat al cotxe...)</catnote>
+				<translation register="slang">un d'aquells joves a qui els agrada conduir molt ràpid (i que generalment tenen un equip de música molt poderós instal·lat al cotxe...)
 				</translation>
 			</translations>
 		</nouns>
@@ -4703,7 +4704,7 @@
 				</translation>
 				<translation disambiguate="computers">entrar en un ordinador / sistema sense permissió<example>He &lt;b&gt;broke into&lt;/b&gt; the bank's computer system</example>
 				</translation>
-				<translation noteng="TRUE">començar a<catnote>Es pot utilitzar el verb 'to break into' amb un sustantiu, per significar 'començar a fer una cosa de sobte' (per exemple: 'He broke into song', 'He broke into a run', 'He broke into a cold sweat', 'He broke into a big grin')</catnote>
+				<translation>començar a<catnote>Es pot utilitzar el verb 'to break into' amb un sustantiu, per significar 'començar a fer una cosa de sobte' (per exemple: 'He broke into song', 'He broke into a run', 'He broke into a cold sweat', 'He broke into a big grin')</catnote>
 				</translation>
 			</translations>
 		</phrasalverbs>
@@ -5204,8 +5205,7 @@
 	</Entry>
 	<Entry frequency="103000">broken home<nouns>
 			<translations>
-				<translation noteng="TRUE">-<catnote>Una 'broken home és una família on els pares estan separats o divorciats</catnote>
-				</translation>
+				<translation>família on els pares estan separats o divorciats</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5504,8 +5504,7 @@
 				</translation>
 				<translation disambiguate="computers" termcat="true" gender="f">brossa</translation>
                                 <translation disambiguate="computers" gender="m">bug</translation>
-				<translation noteng="TRUE">-<catnote>petit micròfon o petita camareta que utilitzen els detectius / forces de seguretat per escoltar les converses privades</catnote>
-				</translation>
+				<translation>petit micròfon o petita camareta que utilitzen els detectius / forces de seguretat per escoltar les converses privades</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5529,7 +5528,7 @@
 	</Entry>
 	<Entry frequency="52800">buggered<adjectives>
 			<translations>
-				<translation register="slang" noteng="TRUE">no funciona<catnote>Si alguna cosa t'estranya molt, una exclamació bastant vulgar i col·loquial (però al mateix temps molt freqüent!) que pots utilitzar és 'Well, I'll be buggered!'. Unes alternatives menys vulgars serien 'Well, I'll be blown!' o 'Well, I'll be damned!'</catnote>
+				<translation register="slang">(que) no funciona<catnote>Si alguna cosa t'estranya molt, una exclamació bastant vulgar i col·loquial (però al mateix temps molt freqüent!) que pots utilitzar és 'Well, I'll be buggered!'. Unes alternatives menys vulgars serien 'Well, I'll be blown!' o 'Well, I'll be damned!'</catnote>
 					<engexamp>This pen's buggered</engexamp>
 					<catexamp>Aquest boli no funciona</catexamp>
 				</translation>
@@ -5791,6 +5790,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="144000000">bundle<nouns>
+			<translations>
+				<translation gender="m">feix</translation>
+			</translations>
+		</nouns>
+                <phrasalverbs>bundle up
+                <translations>
+                <translation>lligar</translation>
+                <translation>abrigar-se</translation>
+                </translations>
+                </phrasalverbs>
+	</Entry>
 	<Entry frequency="163000">bungee jumping<nouns>
 			<translations>
                         <translation>
@@ -5920,7 +5931,10 @@
 	</Entry>
 	<Entry frequency="2900000">burial<nouns>
 			<translations>
+                        <translation>
 				<translation gender="m">enterrament</translation>
+                                <translation gender="ffullform">inhumació</translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>

@@ -3,7 +3,9 @@
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Documents and Settings\James\My Documents\dacco projects\dacco\dictionary\dic.xsd">
 	<Entry frequency="50000">mac<nouns>
 			<translations>
-				<translation disambiguate="clothes" local="gb" register="colloquial" gender="m">impermeable<otherlocal>raincoat</otherlocal>
+                        <translation>
+				<translation disambiguate="clothes" local="gb" register="colloquial" gender="m">impermeable</translation>
+                                <translation disambiguate="clothes" local="gb" register="colloquial" gender="f">gavardina<otherlocal>raincoat</otherlocal></translation>
 				</translation>
 			</translations>
 		</nouns>
@@ -1681,16 +1683,27 @@
 	<Entry frequency="89000000">matter<nouns>
 			<translations>
                         <translation>
-				<translation gender="m">assumpte</translation>
-                                <translation gender="f">qüestió</translation>
+				<translation gender="m">assumpte<engexamp>This is an important matter</engexamp><catexamp>Aquest és un assumpte important</catexamp></translation>
+                                <translation gender="f">qüestió<engexamp>It's only a matter of time before (x does y)</engexamp><catexamp>Només és qüestió de temps que (x faci y)</catexamp><engexamp>Free software is a matter of principle</engexamp><catexamp>El programari lliure és qüestió de principis</catexamp></translation>
                                 </translation>
+                                <translation gender="m">material<engexamp>Printed matter</engexamp><catexamp>Material imprès</catexamp><engexamp>Reading matter</engexamp><catexamp>Material de lectura</catexamp></translation>
 			</translations>
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>importar</translation>
+				<translation>importar<engexamp>It doesn't matter</engexamp><catexamp>No importa</catexamp></translation>
 			</translations>
 		</verbs>
+                <expressions>as a matter of fact
+                <translations>
+                <translation>de fet / efectivament</translation>
+                </translations>
+                </expressions>
+                <expressions>be the matter
+                <translations>
+                <translation>-<engexamp>What's the matter with Joan?</engexamp><catexamp>Què li passa a en Joan?</catexamp></translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="7950000">mattress<nouns>
 			<translations>
@@ -2371,7 +2384,7 @@
 	</Entry>
 	<Entry frequency="38700000">mention<verbs>
 			<translations>
-				<translation>mencionar</translation>
+				<translation>mencionar / esmentar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -2603,6 +2616,12 @@
 	<Entry frequency="694000">metallurgy<nouns>
 			<translations>
 				<translation gender="f">metal·lúrgia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="10800000">metamorphosis<nouns>
+			<translations>
+				<translation gender="f">metamorfosi<plural>metamorphoses</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3887,6 +3906,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="13100000">mogul<nouns>
+			<translations>
+                        <translation gender="m">magnat</translation>
+				<translation catagory="sport-event-skiing" termcat="true" sourceplural="moguls" gender="m">(esquí de) bamps</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="2480000">Mohammed<nouns>
 			<translations>
 				<translation>Mahoma</translation>
@@ -3982,9 +4008,15 @@
 	</Entry>
 	<Entry frequency="12700000">molecule<nouns>
 			<translations>
-				<translation gender="f">molècula</translation>
+				<translation catagory="chemistry" gender="f">molècula</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="4710000">molest<verbs>
+			<translations>
+				<translation>assetjar sexualment</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="1860">Molinueux Stadium<nouns>
 			<translations>
@@ -4662,7 +4694,7 @@
 	</Entry>
 	<Entry frequency="3830000">motorway<nouns>
 			<translations>
-				<translation local="gb" gender="f">autopista<otherlocal>freeway, expressway</otherlocal>
+				<translation local="gb" gender="f">autopista<otherlocal>freeway / turnpike (amb peatge) / tollway (amb peatge)</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
@@ -4715,6 +4747,12 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="330000">mournful<adjectives>
+			<translations>
+				<translation>molt trist / afligit<synonyms>sorrowful</synonyms></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="2310000">mourning<nouns>
 			<translations>

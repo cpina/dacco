@@ -1792,8 +1792,7 @@
 	<Entry frequency="179000">aerie<nouns>
 			<translations>
 				<translation local="us" gender="m">niu (d'un ocell de rapinya construït en un lloc alt)<otherlocal>eyrie</otherlocal></translation>
-				<translation noteng="TRUE">-<catnote>Un 'aerie' és també, per extensió, una casa o fortalesa col·locada en una alçada.</catnote>
-				</translation>
+				<translation>casa o fortalesa col·locada en una alçada</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2082,15 +2081,13 @@
 	</Entry>
 	<Entry frequency="69200">ageism<nouns>
 			<translations>
-				<translation noteng="TRUE">-<catnote>Ageism és el fenòmen de patir discriminació per raons de l'edat o el fet de practicar aquet tipus de discriminació </catnote>
-				</translation>
+				<translation>fenòmen de patir discriminació per raons de l'edat (o el fet de practicar aquest tipus de discriminació)</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="16700">ageist<adjectives>
 			<translations>
-				<translation noteng="TRUE">-<catnote>L'adjectiu 'ageist' refereix a una política / un comentari etc. que discrimina a una persona per raons de l'edat</catnote>
-				</translation>
+				<translation>(refereix a) una política / un comentari etc. que discrimina a una persona per raons de l'edat</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2230,7 +2227,7 @@
 				<translation>
 					<translation gender="m">acord / conveni</translation>
 					<translation gender="f">entesa / concordança</translation>
-					<engexamp>To reach / come to an agreement</engexamp>
+					<engexamp>To reach an agreement / to come to an agreement</engexamp>
 					<catexamp>Arribar a un acord</catexamp>
 				</translation>
 			</translations>
@@ -2518,8 +2515,7 @@
 	</Entry>
 	<Entry frequency="20500">alcopop<nouns>
 			<translations>
-				<translation noteng="TRUE" local="gb">-<catnote>una beguda alcohòlica barrejada amb una beguda carbònica (naranja, llimona, préssec etc.) perquè el gust del segon sigui més fort que el gust del primer.  Són com els còctels però barrejats pel fabricant i no pel consumidor.</catnote>
-				</translation>
+				<translation local="gb">beguda alcohòlica barrejada amb una beguda carbònica (naranja, llimona, préssec etc.) perquè el gust del segon sigui més fort que el gust del primer.  Són com els còctels però barrejats pel fabricant i no pel consumidor o cambrer.</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3597,7 +3593,10 @@
 	</Entry>
 	<Entry frequency="7230000">anger<nouns>
 			<translations>
-				<translation gender="f">ràbia</translation>
+                        <translation>
+				<translation gender="f">ràbia / còlera</translation>
+                                <translation gender="ffullform">ira</translation>
+                                </translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -4983,9 +4982,7 @@
 	</Entry>
 	<Entry frequency="24100000">arm<nouns>
 			<translations>
-				<translation disambiguate="body" gender="m">braç<engexamp>To cost an arm and a leg</engexamp>
-					<catexamp>Costar un ronyó / un ull de la cara</catexamp>
-				</translation>
+				<translation disambiguate="body" gender="m">braç</translation>
                                 <translation>
                                 <translation sourceplural="arms" gender="m">armament</translation>
                                 <translation gender="fpl">armes</translation>
@@ -4997,6 +4994,11 @@
 				<translation>armar</translation>
 			</translations>
 		</verbs>
+                <expressions>cost an arm and a leg
+                <translations>
+                <translation>costar un ronyó / un ull de la cara</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1170000">armchair<nouns>
 			<translations>
@@ -6234,7 +6236,7 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="96800">Aussie Rules (Football)<nouns>
+	<Entry frequency="96800">Aussie Rules<nouns>
 			<translations>
 				<translation catagory="sports" register="colloquial" gender="m">futbol australià</translation>
 			</translations>
@@ -6478,6 +6480,7 @@
 	<Entry frequency="30500000">avenue<nouns>
 			<translations>
 				<translation gender="f">avinguda</translation>
+                                <translation gender="f">via / possibilitat<example>Musicians who explore other &lt;b&gt;avenues&lt;/b&gt; may find it hard to sell records, while musicians who are manufactured sell records but are scorned by critics.</example></translation>
 			</translations>
 		</nouns>
 	</Entry>

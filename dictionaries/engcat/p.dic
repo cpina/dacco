@@ -2763,7 +2763,7 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="51800">phone box<nouns>
+	<Entry frequency="51800">phone box<nouns><mistakes>phonebox</mistakes>
 			<translations>
 				<translation catagory="telephone" local="gb" gender="f">cabina telefònica<otherlocal>phone booth</otherlocal>
 					<plural>phone boxes</plural>
@@ -3451,6 +3451,15 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="39100000">pitfall<nouns>
+			<translations>
+                        <translation>
+				<translation gender="f">trampa</translation>
+                                <translation gender="m">escull</translation>
+                                </translation>
+			</translations>
+		</nouns>
+	</Entry>
                         <Entry frequency="1080000">pitiful<adjectives>
 			<translations>
 				<translation>llastimós</translation>
@@ -3835,6 +3844,14 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 				<translation local="gb" gender="f">societat anònima</translation>
 			</translations>
 		</acronyms>
+	</Entry>
+        <Entry frequency="39100000">plead<verbs>
+			<translations>
+				<translation>pregar / suplicar</translation>
+                                <translation disambiguate="legal">declarar-se<engexamp>To plead guilty</engexamp><catexamp>Declarar-se culpable</catexamp><engexamp>To plead innocent</engexamp><catexamp>Declarar-se innocent</catexamp></translation>
+                                <translation>al·legar / donar com a raó / donar com a excusa</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="10300000">pleasant<adjectives>
 			<translations>
@@ -4803,7 +4820,7 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 	</Entry>
 	<Entry frequency="9260000">possibly<adverbs>
 			<translations>
-				<translation>possiblement</translation>
+				<translation>possiblement / potser</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -5617,6 +5634,18 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 				<translation gender="f">presentació</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="11900000">preservative<nouns>
+			<translations>
+				<translation gender="m">conservant<engnote>False friend alert! The Catalan 'preservatiu' does NOT mean 'preservative'. It means 'condom'.</engnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="282000000">preserve<verbs>
+			<translations>
+				<translation>conservar</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="1580000">presidency<nouns>
 			<translations>

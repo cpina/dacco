@@ -1147,7 +1147,7 @@
                 </expressions>
                 <expressions>al cap i a la fi
                 <translations>
-                <translation>after all
+                <translation>after all / at the end of the day
                 </translation></translations></expressions>
                 <expressions>cap de setmana
                 <translations>
@@ -1421,6 +1421,11 @@
 				<translation catagory="body" gender="f">face</translation>
 			</translations>
 		</nouns>
+                <expressions>cara o creu
+                <translations>
+                <translation>heads or tails</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="259000">caràcter<nouns>
 			<translations>
@@ -2732,7 +2737,7 @@
 	</Entry>
 	<Entry frequency="1270">cérvol<nouns>
 			<translations>
-				<translation catagory="animal-animal" gender="m">deer / buck / doe<catnote>Buck = cérvol mascle, doe = cérvol femella</catnote></translation>
+				<translation catagory="animal-animal" gender="m">deer / buck / doe<catexamp>Carn de cérvol</catexamp><engexamp>Venison</engexamp><catnote>Buck = cérvol mascle, doe = cérvol femella</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3096,6 +3101,7 @@
         <Entry frequency="31400">citació<nouns>
 			<translations><date>0805</date>
 				<translation gender="f">quotation / citation<plural>citacions</plural></translation>
+                                <translation disambiguate="legal" gender="f">subpoena<catexamp>Citació judicial</catexamp><engexamp>Subpoena</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3744,6 +3750,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="21200">còlera<nouns>
+			<translations><date>0206</date>
+				<translation disambiguate="medical-illness" gender="f">cholera</translation>
+                                <translation gender="f">anger</translation>
+                                </translations>
+		</nouns>
+	</Entry>
         <Entry frequency="13600">colesterol<nouns>
 			<translations><date>0905</date>
 				<translation gender="m">cholesterol</translation>
@@ -4157,7 +4170,7 @@
   </Entry>
 	<Entry frequency="31200">començament<nouns>
 			<translations>
-				<translation gender="m">beginning / start</translation>
+				<translation gender="m">beginning / start<catexamp>Des del començament</catexamp><engexamp>From the start / from the beginning / from the word go / from the get-go</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4592,7 +4605,7 @@
 	</Entry>
 	<Entry frequency="59100">compromís<nouns>
 			<translations>
-				<translation gender="m">commitment / obligation<plural>compromisos</plural>
+				<translation gender="m">commitment / obligation / promise<plural>compromisos</plural><catexamp>El nostre compromís amb l'agricultura sostenible és ben conegut</catexamp><engexamp>Our commitment to sustainable agriculture is well known</engexamp><catexamp>Van assumir el compromís de mantenir contacte amb tots els grups</catexamp><engexamp>They made a commitment to stay in touch with all the groups</engexamp><catnote>En el sentit de "obligació contreta en virtut d'una promesa", el nom català "compromís" es tradueix en anglès per "commitment", no pas "compromise", que sol significar "un arranjament d'una disputa per concessions mútues" o "la trobada d'un terme mitjà entre requisits oposats".</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -5612,6 +5625,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="51900">conservant<nouns>
+			<translations><date>0206</date>
+				<translation gender="m">preservative</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="526000">conservar<verbs conj="regular">
+			<translations><date>0206</date>
+				<translation>to preserve</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="117000">considerar<verbs conj="regular">
 			<translations>
 				<translation>to consider</translation>
@@ -5741,6 +5766,12 @@
         <Entry frequency="4910">constel·lació<nouns>
 			<translations><date>0705</date>
 				<translation catagory="astronomy" gender="f">constellation<plural>constel·lacions</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="745">constipat<nouns>
+			<translations><date>0206</date>
+				<translation catagory="medical-illness" gender="m">cold<catexamp>Estar constipat</catexamp><engexamp>To have a cold / to be bunged up</engexamp><engnote>False friend alert! The Catalan 'constipat' means 'cold'. It does NOT mean 'constipated'.  'Constipated' is 'restret'.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6865,6 +6896,11 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>fer de cos
+                <translations>
+                <translation>to have a shit (vulgar) / to take a dump (vulgar)<synonyms>anar de ventre, fer de ventre</synonyms></translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1100000">cosa<nouns>
 			<translations><date>0805</date>
@@ -7378,6 +7414,11 @@
 				<translation catagory="religious" gender="f">cross</translation>
 			</translations>
 		</nouns>
+                <expressions>cara o creu
+                <translations>
+                <translation>heads or tails</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="55400">creuar<verbs conj="irregular1">
 			<translations><date>0605</date>

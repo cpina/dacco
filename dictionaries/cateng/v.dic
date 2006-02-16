@@ -589,7 +589,7 @@
 	</Entry>
 	<Entry frequency="9100">venedor<nouns>
 			<translations>
-				<translation gender="m / f">seller<fems>venedora</fems></translation>
+				<translation gender="m / f">seller / vendor<fems>venedora</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -677,6 +677,18 @@
 				<translation gender="m">belly</translation>
 			</translations>
 		</nouns>
+                <expressions>anar de ventre
+                <translations>
+                <translation>to have a shit (vulgar) / to take a dump (vulgar)<synonyms>fer de ventre, fer de cos</synonyms>
+                </translation>
+                </translations>
+                </expressions>
+                <expressions>fer de ventre
+                <translations>
+                <translation>to have a shit (vulgar) / to take a dump (vulgar)<synonyms>anar de ventre, fer de cos</synonyms>
+                </translation>
+                </translations>
+                </expressions>
 	</Entry>	
 	<Entry frequency="367">ventricle<nouns>
 			<translations><date>0705</date>
@@ -1054,7 +1066,8 @@
 	</Entry>
         <Entry frequency="12600">vetar<verbs conj="regular">
 			<translations><date>1205</date>
-				<translation catagory="politics">to veto</translation>
+				<translation catagory="politics">to veto / to reject<example>Com que França va &lt;b&gt;vetar&lt;/b&gt; el dictamen, no es va aprovar.</example></translation>
+                                <translation>to ban<example>Lluís de Val, propietari de Manga Films, empresa col·laboradora del Barça, va ser &lt;b&gt;vetat&lt;/b&gt; a la llotja sense cap motiu.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1131,11 +1144,21 @@
         <Entry frequency="908000">via<nouns>
 			<translations><date>0605</date>
 				<translation gender="f">lane</translation>
-                                <translation gender="f">way / path<catexamp>Per via de</catexamp><engexamp>Via / through</engexamp><catexamp>En via de</catexamp><engexamp>In the middle of / in the process of</engexamp><catexamp>Països en vies de desenvolupament</catexamp><engexamp>Developing countries</engexamp><catexamp>Via d'aigua</catexamp><engexamp>Leak</engexamp><catexamp>Via làctia</catexamp><engexamp>Milky Way</engexamp></translation>
+                                <translation gender="f">way / path through<catexamp>Països en vies de desenvolupament</catexamp><engexamp>Developing countries</engexamp><catexamp>Via d'aigua</catexamp><engexamp>Leak</engexamp><catexamp>Via làctia</catexamp><engexamp>Milky Way</engexamp></translation>
                                 <translation gender="f">channel<catexamp>Via de comunicació</catexamp><engexamp>Communications channel / means of communication</engexamp><catexamp>Via pública</catexamp><engexamp>Public thoroughfare</engexamp></translation>
-                                <translation gender="f">(railway) track</translation>
+                                <translation disambiguate="transport" gender="f">(railway) track</translation>
 			</translations>
 		</nouns>
+                <expressions>en via de
+                <translations>
+                <translation>in the middle of / in the process of</translation>
+                </translations>
+                </expressions>
+                <expressions>per via de
+                <translations>
+                <translation>via / through</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="37500">viabilitat<nouns>
 			<translations>

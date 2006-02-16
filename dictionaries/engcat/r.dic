@@ -342,7 +342,9 @@
 	</Entry>
 	<Entry frequency="195000">raincoat<nouns>
 			<translations>
-				<translation catagory="clothes" gender="m">impermeable<synonyms>mac</synonyms>
+                        <translation>
+				<translation catagory="clothes" gender="m">impermeable</translation>
+                                <translation catagory="clothes" gender="f">gavardina<synonyms>mac (Br.)</synonyms></translation>
 				</translation>
 			</translations>
 		</nouns>
@@ -2567,7 +2569,7 @@
 	</Entry>
 	<Entry frequency="42000000">replace<verbs>
 			<translations>
-				<translation>reemplaçar / substituir</translation>
+				<translation>reemplaçar / substituir<engexamp>To replace A with B</engexamp><catexamp>Substituir A per B / reemplaçar A per B</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2702,6 +2704,32 @@
 	<Entry frequency="3670000">republican<adjectives>
 			<translations>
 				<translation>republicà</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="600000">repugnance<nouns>
+			<translations>
+				<translation gender="f">repugnància<synonyms>repulsion, revulsion</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="4070000">repugnant<adjectives>
+			<translations>
+				<translation>repugnant<synonyms>repulsive</synonyms></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="3100000">repulsion<nouns>
+			<translations>
+				<translation gender="f">repulsió<synonyms>revulsion</synonyms></translation>
+                                <translation disambiguate="physics" gender="f">repulsió</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="3100000">repulsive<adjectives>
+			<translations>
+				<translation>repulsiu<synonyms>repugnant</synonyms></translation>
+                                <translation disambiguate="physics">repulsiu</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3370,6 +3398,12 @@
                 <Entry frequency="51000000">revolution<nouns>
 			<translations>
 				<translation gender="f">revolució</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2290000">revulsion<nouns>
+			<translations>
+				<translation gender="f">repulsió</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4484,6 +4518,12 @@
 				<translation gender="f">paraulota / grolleria</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="707000">rueful<adjectives>
+			<translations>
+				<translation>trist / penedit</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="5990000">rug<nouns>
 			<translations>
