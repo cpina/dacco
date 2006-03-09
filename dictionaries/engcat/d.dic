@@ -816,6 +816,7 @@
 				</translation>
 				<translation gender="f">coberta<engnote>&apos;Coberta&apos; refers to the &apos;deck&apos; on a ship</engnote>
 				</translation>
+                                <translation gender="f">baralla<synonyms>pack</synonyms><engnote>'Baralla' means 'deck of cards'</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2602,6 +2603,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="2000000">dingo<nouns>
+			<translations>
+				<translation catagory="animal-animal" picture="http://static.flickr.com/36/104009778_b35904d78f.jpg" flickr="http://www.flickr.com/photos/j-hob/104009778/" gender="m">dingo<plural>dingoes</plural><catnote>Raça de gos autòctona d'Austràlia</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="6820000">dining room<nouns>
 			<translations>
 				<translation gender="m">menjador</translation>
@@ -2656,7 +2663,10 @@
 		<nouns>
 			<translations>
 				<translation disambiguate="food" gender="f">salsa</translation>
+                                <translation>
 				<translation gender="m">bany / cabussó / capbussó</translation>
+                                <translation gender="f">capbussada / cabussada</translation>
+                                </translation>
 				<translation>
 					<translation gender="f">baixada</translation>
 					<translation gender="m">descens / pendent</translation>
@@ -3623,13 +3633,17 @@
 	<Entry frequency="5170000">dive<nouns>
 			<translations>
 				<translation gender="m">salt</translation>
-				<translation gender="m">capbussada / immersió</translation>
+                                <translation>
+				<translation gender="f">capbussada / cabussada</translation>
+                                <translation gender="m">capbussó /cabussó</translation>
+                                </translation>
 			</translations>
 		</nouns>
 		<verbs>
 			<translations>
 				<translation>saltar</translation>
-				<translation>capbussar-se / bussejar</translation>
+				<translation>capbussar-se / cabussar-se</translation>
+                                <translation>bussejar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4069,6 +4083,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="9620000">dosh<nouns>
+			<translations>
+				<translation register="slang" disambiguate="financial" local="gb" gender="f">pasta<synonyms>dough, bread, brass</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="154000">DOS prompt<nouns>
 			<translations>
 				<translation gender="m">intèrpret d&apos;ordres</translation>
@@ -4177,7 +4197,7 @@
 	<Entry frequency="2550000">dough<nouns>
 			<translations>
 				<translation disambiguate="food" gender="f">pasta</translation>
-				<translation disambiguate="financial" gender="f" register="slang">pasta</translation>
+				<translation disambiguate="financial" gender="f" register="slang">pasta<synonyms>dosh, moolah, bread, brass</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>

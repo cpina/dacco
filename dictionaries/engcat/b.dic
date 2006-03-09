@@ -2006,6 +2006,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="136000">best before date<nouns>
+			<translations>
+				<translation gender="f">data de caducitat<synonyms>use-by date (Br.) / expiration date (Am.) / expiry date (Br.)</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="8240000">best friend<nouns>
 			<translations>
 				<translation gender="mf">millor amic / millor amiga</translation>
@@ -3959,6 +3965,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+           <Entry frequency="31100000">bookseller<nouns>
+			<translations>
+				<translation catagory="work-job" gender="mf">llibreter</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="3280000">bookshop<nouns>
 			<translations>
 				<translation gender="f">llibreria</translation>
@@ -4493,6 +4505,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="753000">Brahman<nouns>
+			<translations>
+				<translation catagory="religious" gender="m">braman</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="1280000">braid<verbs><translations><translation>trenar</translation></translations></verbs><nouns>
 			<translations>
 				<translation gender="f">trena</translation>
@@ -4589,7 +4607,8 @@
 	</Entry>
         	<Entry frequency="9940000">brass<nouns>
 			<translations>
-				<translation catagory="material" gender="m">llautó</translation>
+				<translation disambiguate="material" gender="m">llautó</translation>
+                                <translation disambiguate="financial" gender="f">pasta<synonyms>dosh, dough, moolah, bread</synonyms></translation>
 			</translations>
 		</nouns>
                 <expressions>brass monkey weather
@@ -4662,7 +4681,7 @@
 	<Entry frequency="21700000">bread<nouns>
 			<translations>
 				<translation disambiguate="food" gender="m">pa</translation>
-                                <translation disambiguate="financial" register="slang" gender="f">pasta<synonyms>dough</synonyms></translation>
+                                <translation disambiguate="financial" register="slang" gender="f">pasta<synonyms>dosh, moolah, dough, brass</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6200,7 +6219,7 @@
 	<Entry frequency="2220000">butcher<nouns>
 			<translations>
 				<translation gender="mf">carnisser</translation>
-                                <translation sourceplural="butchers" register="dialectal-cockney" noteng="TRUE" local="gb" gender="f">mirada<example>Give me a &lt;b&gt;butchers&lt;/b&gt;!</example>
+                                <translation sourceplural="butchers" register="dialectal-cockney" local="gb" gender="f">mirada<example>Give me a &lt;b&gt;butchers&lt;/b&gt;!</example>
 					<catnote>Look &gt; butcher's hook &gt; butchers</catnote>
 				</translation>
 				<translation sourceplural="butcher's" gender="f">carnisseria</translation>

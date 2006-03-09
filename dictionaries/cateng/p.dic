@@ -13,6 +13,12 @@
                 <translation catagory="food" gender="m">bread smeared with fresh tomato and oil<engnote>'Pa amb tomàquet' is a traditional Catalan 'dish'.  Essentially it consists of slices of bread (cut from a good crusty loaf, not your average British sliced) and smeared with a nice juicy halved-tomato, drizzled with olive oil and sprinkled lightly with salt (yum!).</engnote></translation>
                 </translations>
                 </expressions>
+                <expressions>dir al pa pa i al vi vi
+                <translations>
+                <translation>to call a spade a spade<synonyms>dir les coses pel seu nom</synonyms>
+                </translation>
+                </translations>
+                </expressions>
                 <expressions>el / la que es guanya el pa
                 <translations>
                 <translation>breadwinner</translation></translations></expressions>
@@ -2685,7 +2691,7 @@
 			<translations><date>1005</date>
                         <translation gender="f">sink / basin</translation>
                         <translation gender="f">pike</translation>
-                        <translation gender="f">spade<engnote>'Pica' means 'spade' in the playing card sense.</engnote></translation>
+                        <translation sourceplural="piques" gender="fpl">spades<engnote>'Piques' means 'spades' in the playing card sense.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3591,6 +3597,19 @@
                 <expressions>a poc a poc
                 <translations>
                 <translation>slowly / gradually / little by little / bit by bit</translation></translations></expressions>
+	</Entry>
+        <Entry frequency="751">poca-solta<nouns>
+			<translations><date>0306</date>
+				<translation gender="m / f">crackpot / twit / idiot / numbskull / nitwit<example>José María Aznar ha dit que espera que l'opa es resolgui prioritzant criteris de competència sense caure en el "nacionalisme econòmic &lt;b&gt;poca-solta&lt;/b&gt;"</example></translation>
+                                <translation gender="f">ineptitude / stupidity<example>La política exterior del govern s’ha fet amb ben &lt;b&gt;poca solta&lt;/b&gt;.</example></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="411">poca-soltada<nouns>
+			<translations><date>0106</date>
+				<translation gender="f">nonsense / stupidity / foolishness<example>Quan s'acabarà la &lt;b&gt;poca-soltada&lt;/b&gt; aquesta del cava català?</example></translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="40000">poda<nouns>
 			<translations><date>0106</date>
@@ -5608,6 +5627,7 @@
 	<Entry frequency="12600">pronòstic<nouns>
 			<translations><date>0705</date>
 				<translation catagory="weather" gender="m">forecast</translation>
+                                <translation gender="m">prediction</translation>
 			</translations>
 		</nouns>
 	</Entry>

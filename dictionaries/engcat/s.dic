@@ -342,6 +342,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="13200000">salsa<nouns>
+			<translations>
+				<translation catagory="entertainment-music" gender="f">salsa</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="15300000">salt<nouns>
 			<translations>
 				<translation catagory="food-condiment" gender="f">sal</translation>
@@ -1292,6 +1298,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="72800">scrote<nouns>
+			<translations>
+				<translation register="vulgar" gender="m">fill de puta / cabró<example>If the little &lt;b&gt;scrotes&lt;/b&gt; who beat up the chap on the bus knew that being caught meant five years inside under the old regime - no TV, no playstation, no drugs...</example><example>Early immobilisers used the same code each time you set or released the immobiliser. Those thieving &lt;b&gt;scrotes&lt;/b&gt; who make a living stealing cars soon caught on to this and got themselves grabbers - a box to receive the code and then replay it on demand.</example></translation>
+			</translations>
+		</nouns>
+	</Entry> 
         <Entry frequency="805000">scrounge<verbs>
 			<translations>
 				<translation>gorrejar<engexamp>To scrounge (off someone)</engexamp><catexamp>Gorrejar (d'algú)</catexamp></translation>
@@ -3315,7 +3327,7 @@
 		</nouns>
                 <phrasalverbs>show off
                 <translations>
-                <translation>presumir</translation></translations></phrasalverbs>
+                <translation>presumir / faronejar / fer-s'hi veure / rumbejar / fer el tifa</translation></translations></phrasalverbs>
 	</Entry>
         <Entry frequency="24800000">showcase<nouns>
 			<translations>
@@ -5152,12 +5164,6 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="374000">snob<nouns>
-			<translations>
-				<translation gender="mf">esnob</translation>
-			</translations>
-		</nouns>
-	</Entry>
 	<Entry frequency="51700">snog<verbs double="true">
 			<translations>
 				<translation register="slang" noteng="TRUE">fer un petó (llarg) a<example>David was busy &lt;b&gt;snogging&lt;/b&gt; Gill in the corner of the room</example>
@@ -6184,6 +6190,23 @@
 			</translations>
 		</nouns>
 	</Entry>
+	<Entry frequency="11000000">spade<nouns>
+			<translations>
+				<translation catagory="household-room-garden" gender="f">pala</translation>
+                                <translation sourceplural="spades" gender="fpl">piques<catnote>(Baralla francesa)</catnote><engnote>(In an English / American pack of cards)</engnote></translation>
+			</translations>
+		</nouns>
+                <expressions>call a spade a spade
+                <translations>
+                <translation>dir les coses pel seu nom / dir al pa pa i al vi vi</translation>
+                </translations>
+                </expressions>
+                <expressions>in spades
+                <translations>
+                <translation>en gran quantitat / a cabassos</translation>
+                </translations>
+                </expressions>
+	</Entry>        
 	<Entry frequency="1040000">spaghetti<nouns>
 			<translations>
 				<translation catagory="food" gender="mpl">espaguetis</translation>
@@ -7835,6 +7858,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="1860000">statuette<nouns>
+			<translations>
+				<translation gender="f">estatueta</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="16700000">status<nouns>
 			<translations>
 				<translation gender="m">estatus</translation>
@@ -8919,7 +8948,7 @@
 	</Entry>
 	<Entry frequency="1590000">strut<verbs double="true">
 			<translations>
-				<translation>presumir / fer el tifa / faronejar / fer-s'hi veure / rumbejar</translation>
+				<translation>manera de caminar, orgullosament com un gall</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -9057,7 +9086,7 @@
 	</Entry>
         <Entry frequency="3260000">stupidity<nouns>
 			<translations>
-				<translation gender="f">estupidesa</translation>
+				<translation gender="f">estupidesa / poca-solta / poca-soltada</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -9599,10 +9628,10 @@
 	</Entry>
 	<Entry frequency="10400000">suit<nouns>
 			<translations>
-				<translation catagory="clothes" gender="m">vestit</translation>
-				<translation catagory="legal" gender="m">litigi<engnote>'Litigi' means 'suit' in the legal sense</engnote>
+				<translation disambiguate="clothes" gender="m">vestit</translation>
+				<translation disambiguate="legal" gender="m">litigi<engnote>'Litigi' means 'suit' in the legal sense</engnote>
 				</translation>
-				<translation gender="m">coll<engnote>'Coll' means 'suit' in the card playing sense (i.e. 'clubs, diamonds, spades, hearts')</engnote>
+				<translation gender="m">coll<engnote>'Coll' means a 'suit' in a deck of cards (i.e. 'clubs, diamonds, spades, hearts')</engnote>
 				</translation>
 			</translations>
 		</nouns>

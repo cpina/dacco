@@ -526,7 +526,7 @@
 	<Entry frequency="3310" hasSound="true">baralla<nouns>
 			<translations>
 				<translation gender="f">fight</translation>
-                                <translation gender="f">pack of cards</translation>
+                                <translation gender="f">pack of cards / deck of cards</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -827,10 +827,19 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="400">basto<nouns>
+			<translations><date>0306</date>
+				<translation gender="m">baton / club<engnote>A card from the suit 'bastos' (batons / clubs) in a Spanish deck of cards</engnote><catnote>Carta del coll 'bastos' d'una baralla espanyola</catnote><synonyms>bastó, garrot</synonyms></translation>
+                                <translation sourceplural="bastos" gender="mpl">batons / clubs<engnote>'Batons' (or 'clubs') is one of the four suits in a Spanish deck of cards</engnote><catnote>Al món angloparlant, s'utilitza la baralla francesa.</catnote><synonyms>bastons, garrots</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="4960" hasSound="true">bastó<nouns>
 			<translations>
 				<translation gender="m">stick<plural>bastons</plural>
 				</translation>
+                                <translation gender="m">baton / club<catnote>Una carta del coll (bastons) d'una baralla espanyola</catnote><engnote>A card from the suit 'bastons' (batons / clubs) in a Spanish deck of cards</engnote><synonyms>basto, garrot</synonyms></translation>
+                                <translation sourceplural="bastons" gender="mpl">batons / clubs<engnote>'Batons' (or 'clubs') is one of the four suits in a Spanish deck of cards</engnote><catnote>Al món angloparlant, s'utilitza la baralla francesa.</catnote><synonyms>bastos, garrots</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2405,6 +2414,12 @@
 	<Entry frequency="132">bragues<nouns>
 			<translations>
 				<translation catagory="clothes" gender="f">pants (Br.)</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="111">braman<nouns>
+			<translations><date>0306</date>
+				<translation catagory="religious" gender="m">Brahman</translation>
 			</translations>
 		</nouns>
 	</Entry>

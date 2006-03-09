@@ -19,6 +19,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="964">cabàs<nouns>
+			<translations><date>0306</date>
+				<translation gender="m">large basket with two handles<plural>cabassos</plural></translation>
+			</translations>
+		</nouns>
+                <expressions>a cabassos
+                <translations>
+                <translation>in abundance / lots of</translation>
+                </translations>
+                </expressions>
+	</Entry>
         	<Entry frequency="24200">cabdal<adjectives>
 			<translations><date>0805</date>
 				<translation>key</translation>
@@ -32,9 +43,22 @@
 			</translations>
 		</nouns>
 	</Entry>
+	<Entry frequency="849">cabdill<nouns>
+			<translations><date>0306</date>
+				<translation gender="m">leader</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="25800" hasSound="true">cabell<nouns>
 			<translations><date>0605</date>
 				<translation catagory="body" gender="m">hair</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="846">cabellera<nouns>
+			<translations><date>0306</date>
+				<translation disambiguate="body" gender="f">hair / head of hair</translation>
+                                <translation disambiguate="astronomy" gender="f">comet tail</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -47,9 +71,39 @@
 			</translations>
 		</nouns>
 	</Entry>
+           <Entry frequency="161">cablar<verbs conj="regular">
+			<translations><date>0306</date>
+				<translation>to wire up / to wire<synonyms>cablejar</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
+           <Entry frequency="572">cablatge<nouns>
+			<translations><date>0306</date>
+				<translation gender="m">wiring<synonyms>cablejat</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="39400" hasSound="true">cable<nouns>
 			<translations><date>0605</date>
 				<translation gender="m">cable</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="527">cablejar<verbs conj="JtoG">
+			<translations><date>0306</date>
+				<translation>to wire up / to wire<synonyms>cablar</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="10400">cablejat<nouns>
+			<translations><date>0306</date>
+				<translation gender="m">wiring</translation>
+			</translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="901">cabòria<nouns>
+			<translations><date>0306</date>
+				<translation gender="f">worry / concern<engnote>'Cabòria' especially means an unfounded worry or concern</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -64,6 +118,12 @@
 				<translation>to fit</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        	<Entry frequency="579">cabriola<nouns>
+			<translations><date>0306</date>
+				<translation gender="f">caper<engnote>'Cabriola' means 'caper' in the sense 'he danced a little caper'</engnote></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="639" hasSound="true">cabrit<nouns>
 			<translations><date>0605</date>
@@ -82,6 +142,24 @@
                 	<Entry frequency="20700">cabuda<nouns>
 			<translations><date>0805</date>
 				<translation gender="f">capacity</translation>
+			</translations>
+		</nouns>
+	</Entry>
+              	<Entry frequency="64">cabussada<nouns>
+			<translations><date>0306</date>
+				<translation gender="f">plunge / dive / dip<synonyms>capbussada, capbussó, cabussó</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="179">cabussar-se<verbs conj="regular">
+			<translations><date>0306</date>
+				<translation>to plunge / to dive<synonyms>capbussar-se</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
+        	<Entry frequency="283">cabussó<nouns>
+			<translations><date>0306</date>
+				<translation gender="f">plunge / dive / dip<plural>cabussons</plural><synonyms>capbussada, cabussada, capbussó</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -127,6 +205,12 @@
 	<Entry frequency="1010">cacauet<nouns>
 			<translations><date>0605</date>
 				<translation catagory="food-nut" gender="m">peanut</translation>
+			</translations>
+		</nouns>
+	</Entry>
+	<Entry frequency="567">cacic<nouns>
+			<translations><date>0306</date>
+				<translation gender="m">chief / chieftain</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -212,6 +296,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="894">cadència<nouns>
+			<translations><date>0306</date>
+				<translation gender="f">cadence</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="14900">cadira<nouns>
 			<translations>
 				<translation catagory="household" gender="f">chair</translation>
@@ -241,6 +331,12 @@
 				<translation catagory="plants">deciduous<fems>caduca</fems><plural>caduques</plural></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="46400">caducitat<nouns>
+			<translations><date>0306</date>
+				<translation gender="f">expiration / termination<catexamp>Data de caducitat</catexamp><engexamp>Best before date / expiry date (Br.) / expiration date (Am.)</engexamp></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="22100">cafè<nouns>
 			<translations>
@@ -970,8 +1066,8 @@
 	</Entry>
 	<Entry frequency="3080">cangur<nouns>
 			<translations>
-				<translation catagory="animal-animal" gender="m">kangaroo</translation>
-				<translation catagory="work-job" gender="m / f">babysitter</translation>
+				<translation disambiguate="animal-animal" gender="m">kangaroo</translation>
+				<translation disambiguate="work-job" gender="m / f">babysitter</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1191,6 +1287,24 @@
 	<Entry frequency="112000">capacitat<nouns>
 			<translations>
 				<translation gender="f">ability / capability / capacity</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="399">capbussada<nouns>
+			<translations><date>0306</date>
+				<translation gender="f">plunge / dive / dip<synonyms>cabussada, capbussó, cabussó</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="937">capbussar-se<verbs conj="regular">
+			<translations><date>0306</date>
+				<translation>to plunge / to dive<synonyms>cabussar-se</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="140">capbussó<nouns>
+			<translations><date>0306</date>
+				<translation gender="f">plunge / dive / dip<plural>capbussons</plural><synonyms>cabussada, capbussada, cabussó</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2105,6 +2219,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="35">casuari<nouns>
+			<translations><date>0306</date>
+				<translation catagory="animal-bird" picture="http://static.flickr.com/40/78842561_46a4d47952.jpg" flickr="http://www.flickr.com/photos/emollee/78842561/" gender="m">cassowary</translation>
+			</translations>
+		</nouns>
+	</Entry> 
         <Entry frequency="297">catabolisme<nouns>
 			<translations><date>1205</date>
 				<translation catagory="biology" gender="m">catabolism</translation>
@@ -2326,6 +2446,7 @@
 			<translations><date>0405</date>
 				<translation catagory="animal-animal" gender="m">horse</translation>
                                 <translation gender="m">knight<catnote>(Escacs)</catnote><engnote>'Cavall' means a knight in the game of chess.</engnote></translation>
+                                <translation gender="m">horse / horseman / knight / cavalier<catnote>(Cartes - baralla espanyola)</catnote><engnote>'Cavall' is the card in each suit of a pack of Spanish cards which shows the number 11 and a picture of a man on horseback</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3488,6 +3609,12 @@
                 <translations>
                 <translation>blindly / with your eyes shut</translation></translations></expressions>
 	</Entry>
+        <Entry frequency="398">coala<nouns>
+			<translations><date>0306</date>
+				<translation catagory="animal" gender="m">koala / koala bear</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="8910">coalició<nouns>
 			<translations>
 				<translation catagory="politics" gender="f">coalition<plural>coalicions</plural>
@@ -3779,7 +3906,8 @@
 	</Entry>
 	<Entry frequency="15000">coll<nouns>
 			<translations>
-				<translation catagory="body" gender="m">neck</translation>
+				<translation disambiguate="body" gender="m">neck</translation>
+                                <translation gender="m">suit<engnote>'Coll' means a 'suit' in a deck of cards</engnote><catnote>(En una baralla de cartes)</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6469,6 +6597,8 @@
 				<translation gender="f">(wine) glass<catexamp>Anar de copes</catexamp>
 					<engexamp>To go for a drink / To go (out) drinking</engexamp>
 				</translation>
+                                <translation gender="f">cup<engnote>A card from the suit 'copes' (cups) in a Spanish deck of cards</engnote></translation>
+                                <translation sourceplural="copes" gender="fpl">cups<engnote>'Copes' (cups) is one of four suits in a Spanish deck of cards</engnote><catnote>Al món angloparlant, s'utilitza la baralla francesa</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6559,12 +6689,18 @@
 	</Entry>
 	<Entry frequency="33900">corda<nouns>
 			<translations>
-				<translation gender="f">rope</translation>
+				<translation gender="f">rope<catexamp>Corda fluixa</catexamp><engexamp>Tightrope</engexamp></translation>
 				<translation gender="f">string<catexamp>Una corda</catexamp>
 					<engexamp>A piece of string</engexamp>
 					<catexamp>Instruments de corda</catexamp>
 					<engexamp>String instruments</engexamp>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="716">corda fluixa<nouns>
+			<translations><date>0306</date>
+				<translation gender="f">tightrope</translation>
 			</translations>
 		</nouns>
 	</Entry>
