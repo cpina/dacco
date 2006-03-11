@@ -91,7 +91,6 @@
 					</xsl:if>
 				</xsl:variable>
 				<xsl:attribute name="href"><xsl:text disable-output-escaping="yes">http://www.catalandictionary.org/eng/?q=conjugator/</xsl:text><xsl:value-of select="$lookup"/><xsl:text disable-output-escaping="yes">/</xsl:text><xsl:value-of select="@conj"/></xsl:attribute>
-				
 				<span class="conj">conj</span>
 			</xsl:element>
 			<xsl:apply-templates/>
