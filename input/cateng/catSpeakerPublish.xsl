@@ -62,6 +62,18 @@
 		<xsl:if test="count(translations/translation)>0">
 			<br/>
 			<span class="pos"> v </span>
+                        <xsl:element name="a">
+				<xsl:variable name="lookup">
+					<xsl:if test="contains(../text(),' ')">
+						<xsl:value-of select="substring-before(../text(),' ')"/>
+					</xsl:if>
+					<xsl:if test="not(contains(../text(),' '))">
+						<xsl:value-of select="../text()"/>
+					</xsl:if>
+				</xsl:variable>
+				<xsl:attribute name="href"><xsl:text disable-output-escaping="yes">http://www.catalandictionary.org/cat/?q=conjugator/</xsl:text><xsl:value-of select="$lookup"/><xsl:text disable-output-escaping="yes">/</xsl:text><xsl:value-of select="@conj"/></xsl:attribute>
+				<span class="conj">conj</span>
+			</xsl:element>
 			<xsl:apply-templates/>
 		</xsl:if>
 	</xsl:template>
