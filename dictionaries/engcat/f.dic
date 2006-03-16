@@ -1980,6 +1980,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="3120000">fissile<adjectives>
+			<translations>
+				<translation catagory="physics">físsil / fissible<engexamp>Fissile material</engexamp><catexamp>Material fissil</catexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="11300000">fission<nouns>
+			<translations>
+				<translation catagory="physics, chemistry, biology" gender="f">fissió</translation>
+			</translations>
+		</nouns>
+	</Entry>
          <Entry frequency="883000">fissure<nouns>
 			<translations>
 				<translation gender="f">fissura</translation>
@@ -2166,13 +2178,17 @@
 				<translation local="gb" gender="m">pis<otherlocal>apartment</otherlocal>
 				</translation>
                                 <translation register="colloquial" disambiguate="transport" gender="f">punxada<synonyms>puncture</synonyms></translation>
-			</translations>
+			<translation disambiguate="entertainment-music" gender="m">bemoll</translation>
+                                </translations>
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>llis<engexamp>400 metres flat</engexamp>
+                        <translation>
+				<translation>pla / llis<engexamp>400 metres flat</engexamp>
 					<catexamp>400m llisos</catexamp>
 				</translation>
+                                </translation>
+                                <translation disambiguate="entertainment-music">bemoll</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2468,6 +2484,12 @@
                 <Entry frequency="91000">florist's<nouns>
 			<translations>
 				<translation gender="f">floristeria</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="809000">flounce<nouns>
+			<translations>
+				<translation gender="m">volant</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4093,6 +4115,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="12100000">frill<nouns>
+			<translations>
+				<translation gender="m">volant</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2140000">fringe<nouns>
 			<translations>
 				<translation disambiguate="body" local="gb" gender="m">serrell<otherlocal>bangs</otherlocal>
@@ -4222,6 +4250,12 @@
 				<translation gender="f">escuma</translation>
 			</translations>
 		</nouns>
+	</Entry>
+<Entry frequency="3590000">frothy<adjectives>
+			<translations>
+				<translation>escumós / cremós / bromerós</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="7500000">frozen<adjectives>
 			<translations>
@@ -4556,7 +4590,9 @@
 	</Entry>
         <Entry frequency="24200000">fusion<nouns>
 			<translations>
-				<translation gender="f">fusió</translation>
+				<translation disambiguate="physics" gender="f">fusió</translation>
+                                <translation disambiguate="food" gender="f">fusió<engexamp>(Japanese) fusion cuisine</engexamp><catexamp>Cuina de fusió (japonesa)</catexamp></translation>
+                                <translation disambiguate="entertainment-music" gender="f">fusió<engexamp>Jazz fusion</engexamp><catexamp>Fusió-jazz</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>

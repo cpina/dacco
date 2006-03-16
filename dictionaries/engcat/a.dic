@@ -1176,12 +1176,13 @@
 	<Entry frequency="17200000">actor<nouns>
 			<translations>
 				<translation gender="m">actor</translation>
+                                <translation gender="f">actriu<synonyms>actress</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="5850000">actress<nouns>
 			<translations>
-				<translation gender="f">actriu<plural>actresses</plural>
+				<translation gender="f">actriu<synonyms>actor</synonyms><plural>actresses</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -4994,6 +4995,11 @@
 				<translation>armar</translation>
 			</translations>
 		</verbs>
+                <expressions>be up in arms
+                <translations>
+                <translation>posar el crit al cel</translation>
+                </translations>
+                </expressions>
                 <expressions>cost an arm and a leg
                 <translations>
                 <translation>costar un ronyó / un ull de la cara</translation>

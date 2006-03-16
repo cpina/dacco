@@ -116,6 +116,14 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="20600">falca<nouns>
+			<translations><date>0306</date>
+				<translation gender="f">wedge</translation>
+                                <translation disambiguate="linguistics" gender="f">phatic<synonyms>mot de vici</synonyms></translation>
+                                <translation disambiguate="linguistics" gender="f">filler<engnote>'Falca' means 'filler' in the sense 'word used to give a speaker time to think' (e.g. 'um', 'er', 'you know')</engnote><plural>falques</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
                 <Entry frequency="286">falciot<nouns>
 			<translations>
 				<translation catagory="animal-bird" gender="m">swift</translation>
@@ -1432,7 +1440,26 @@
 	</Entry>
 	<Entry frequency="14400">física<nouns>
 			<translations>
-				<translation catagory="work-field" gender="f">physics</translation>
+				<translation catagory="work-field, physics" gender="f">physics</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="46">fissible<adjectives>
+			<translations><date>0306</date>
+				<translation catagory="physics">fissile<synonyms>físsil</synonyms></translation>
+			</translations>
+		</adjectives>
+	</Entry> 
+  <Entry frequency="121">físsil<adjectives>
+			<translations><date>0306</date>
+				<translation catagory="physics">fissile<catexamp>Material físsil</catexamp><engexamp>Fissile material</engexamp><synonyms>fissible</synonyms></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="808">fissió<nouns>
+			<translations><date>0306</date>
+				<translation disambiguate="chemistry, biology" gender="f">fission</translation>
+                                <translation disambiguate="physics" gender="f">fissió<catexamp>Fissió nuclear</catexamp><engexamp>Nuclear fission</engexamp><plural>fissions</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2901,17 +2928,6 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="82200">liberal<adjectives>
-			<translations><date>0106</date>
-				<translation>liberal</translation>
-			</translations>
-		</adjectives>
-                <nouns>
-                <translations>
-                <translation catagory="politics" gender="m / f">liberal</translation>
-                </translations>
-                </nouns>
-	</Entry>
         <Entry frequency="579">furgar<verbs conj="GtoGU">
 			<translations><date>0106</date>
 				<translation>to poke<catexamp>Furgar en les coses d'altri</catexamp><engexamp>To poke your nose into somebody else's business</engexamp></translation>
@@ -2936,6 +2952,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="13400">furor<nouns>
+			<translations><date>0306</date>
+				<translation gender="m">anger</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="3380">furt<nouns>
 			<translations>
 				<translation gender="m">theft</translation>
@@ -2954,11 +2976,14 @@
 			</translations>
 		</nouns>
 	</Entry>	
-	<Entry frequency="14600">fusió<nouns>
-			<translations>
-				<translation catagory="work" gender="f">merger<plural>fusions</plural>
-				</translation>
-			</translations>
+	<Entry frequency="203000">fusió<nouns>
+			<translations><date>0306</date>
+                        <translation gender="f">melting<catexamp>Punt de fusió</catexamp><engexamp>Melting point</engexamp></translation>
+                        <translation disambiguate="physics" gender="f">fusion<catexamp>Fusió nuclear</catexamp><engexamp>Nuclear fusion</engexamp></translation>
+				<translation disambiguate="financial" gender="f">merger<catexamp>La fusió de Gaz de France i Suez</catexamp><engexamp>The merger between Gaz de France and Suez</engexamp><plural>fusions</plural></translation>
+                                <translation disambiguate="food" gender="f">fusion<catexamp>Cuina de fusió (japonesa)</catexamp><engexamp>(Japanese) fusion cuisine</engexamp></translation>
+			<translation disambiguate="entertainment-music" gender="f">fusion<catexamp>Fusió-jazz</catexamp><engexamp>Jazz fusion</engexamp></translation>
+                                </translations>
 		</nouns>
 	</Entry>
         <Entry frequency="22600">fusionar<verbs conj="regular">
