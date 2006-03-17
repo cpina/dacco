@@ -683,7 +683,7 @@
 	</Entry>
 	<Entry frequency="136000">sector<nouns>
 			<translations>
-				<translation gender="m">sector</translation>
+				<translation gender="m">sector<catexamp>Sector primari</catexamp><engexamp>Primary sector</engexamp><catexamp>Sector secundari</catexamp><engexamp>Secondary sector</engexamp><catexamp>Sector terciari</catexamp><engexamp>Tertiary sector / service sector</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2388,11 +2388,22 @@
 	</Entry>
 	<Entry frequency="30000">sopar<verbs conj="regular">
 			<translations>
-				<translation>to have dinner / supper</translation>
+				<translation catagory="food">to have dinner / supper</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                <translations>
+                <translation catagory="food" gender="m">dinner / supper</translation>
+                </translations>
+                </nouns>
 	</Entry>
-	<Entry frequency="8060">soprano<nouns>
+	<Entry frequency="501">sopor<nouns>
+			<translations><date>0306</date>
+				<translation gender="m">drowsiness</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="8060">soprano<nouns>
 			<translations>
 				<translation catagory="entertainment-music" gender="f">soprano</translation>
 			</translations>

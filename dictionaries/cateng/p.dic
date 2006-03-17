@@ -239,6 +239,7 @@
         <Entry frequency="9080">pala<nouns>
 			<translations><date>0805</date>
                         <translation gender="f">shovel / spade</translation>
+                        <translation gender="f">scoop</translation>
 				<translation gender="f">bat</translation>
 			</translations>
 		</nouns>
@@ -1026,6 +1027,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="669">pària<nouns>
+			<translations><date>0306</date>
+				<translation gender="m / f">pariah</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="19100">parir<verbs conj="inceptive">
 			<translations><date>1105</date>
 				<translation>to give birth</translation>
@@ -1583,7 +1590,13 @@
 	</Entry>
 	<Entry frequency="7080">pausa<nouns>
 			<translations>
-				<translation gender="f">pause</translation>
+				<translation gender="f">pause<catexamp>Pausa publicitària</catexamp><engexamp>Commercial break</engexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="206">pausa publicitària<nouns>
+			<translations><date>0306</date>
+				<translation gender="f">commercial break</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3922,9 +3935,43 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="19600">pompa<nouns>
+			<translations><date>0306</date>
+				<translation gender="f">pomp</translation>
+			</translations>
+		</nouns>
+                <expressions>pompes fúnebres
+                <translations>
+                <translation gender="fpl">funeral ceremony</translation>
+                </translations>
+                </expressions>
+                <expressions>(servei / empresa / negoci) de pompes fúnebres
+                <translations>
+                <translation>funeral parlour (Br.) / funeral parlor (Am.) / funeral home</translation>
+                </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="959">pompes fúnebres<nouns>
+			<translations><date>0306</date>
+				<translation gender="fpl">funeral ceremony</translation>
+			</translations>
+		</nouns>
+                <expressions>(servei / empresa / negoci) de pompes fúnebres
+                <translations>
+                <translation>funeral parlour (Br.) / funeral parlor (Am.) / funeral home</translation>
+                </translations>
+                </expressions>
+	</Entry> 
 	<Entry frequency="160">pòmul<nouns>
 			<translations>
 				<translation catagory="body" gender="m">cheekbone</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="963">poncella<nouns>
+			<translations><date>0306</date>
+				<translation disambiguate="plants" gender="f">bud</translation>
+                                <translation gender="f">maiden</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3981,6 +4028,12 @@
 			<translations>
 				<translation catagory="food-meat" gender="m">pork</translation>
 				<translation catagory="animal-animal" gender="m">pig</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="80100">porció<nouns>
+			<translations><date>0306</date>
+				<translation gender="f">portion / helping / serving<catnote>'Serving' refereix al menjar ('a serving of nachos')</catnote><plural>porcions</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6114,7 +6167,7 @@
 	</Entry>
 	<Entry frequency="21400">publicitari<adjectives>
 			<translations>
-				<translation>advertising<fems>publicitària</fems>
+				<translation>advertising<catexamp>Pausa publicitària</catexamp><engexamp>Commercial break</engexamp><fems>publicitària</fems>
 				</translation>
 			</translations>
 		</adjectives>
