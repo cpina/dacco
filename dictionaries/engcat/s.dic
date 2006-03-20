@@ -3833,13 +3833,19 @@
 	<Entry frequency="68500000">simple<adjectives>
 			<translations>
 				<translation>senzill / simple</translation>
-				<translation>ximple / babau</translation>
+				<translation>ximple / babau / enze / beneit / tòfol</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+<Entry frequency="2820000">simple-minded<adjectives>
+			<translations>
+				<translation>ximple / babau / enze / beneit / tòfol</translation>
 			</translations>
 		</adjectives>
 	</Entry>
         <Entry frequency="591000">simpleton<nouns>
 			<translations>
-				<translation register="dated" gender="mf">enze</translation>
+				<translation register="dated" gender="mf">enze / tòfol / beneit<synonyms>fool</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7683,6 +7689,37 @@
 			</translations>
 		</verbs>
 	</Entry>
+        	<Entry frequency="40700000">stand<verbs>
+			<past>stood</past>
+			<participle>stood</participle>
+			<translations>
+				<translation>tolerar / aguantar / suportar</translation>
+                                <translation>estar dret / estar de peu / estar dempeus</translation>
+				<translation>aixecar-se / posar-se en peu</translation>
+			</translations>
+		</verbs>
+		<nouns>
+			<translations>
+				<translation gender="f">parada</translation>
+				<translation disambiguate="sports" gender="f">graderia</translation>
+                                <translation gender="f">posició<engnote>'Posició' means 'stand' as in 'Bush shifts his stand on peacekeeping'</engnote></translation> 
+                                <translation gender="m">estand<engnote>'Estand' means a 'stand' at, for example, an exhibition</engnote></translation>
+			</translations>
+		</nouns>
+		<phrasalverbs>stand up
+			<translations>
+				<translation>aixecar-se / posar-se en peu</translation>
+			</translations>
+		</phrasalverbs>
+                <phrasalverbs>stand (someone) up<translations><translation>deixar plantat algú</translation></translations></phrasalverbs>
+		<phrasalverbs>stand up for (someone / something)
+			<translations>
+				<translation>defensar / defendre (algú / alguna cosa)</translation>
+			</translations>
+		</phrasalverbs>
+                <phrasalverbs>stand up for (yourself)<translations><translation>mantenir-se ferm</translation></translations></phrasalverbs>
+                <phrasalverbs>stand up to<translations><translation>resistir / aguantar / suportar</translation></translations></phrasalverbs>
+	</Entry>
 	<Entry frequency="16800000">standard<nouns>
 			<translations>
 				<translation gender="f">norma</translation>
@@ -7740,39 +7777,6 @@
 			<translations>
 				<translation catagory="sports-event-football-grounds, encyclopaedic" noteng="TRUE" local="gb">-<catnote>St Andrews és el nom de l'estadi de l'equip de futbol Birmingham City FC.  També és el nom d'una de les universitats més velles d'Escòcia i la ciutat en la què es troba aquesta universitat.</catnote>
 				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="40700000">stand<verbs>
-			<past>stood</past>
-			<participle>stood</participle>
-			<translations>
-				<translation>tolerar / suportar</translation>
-				<translation>posar-se de peu</translation>
-			</translations>
-		</verbs>
-		<nouns>
-			<translations>
-				<translation gender="f">parada</translation>
-			</translations>
-		</nouns>
-		<phrasalverbs>stand up
-			<translations>
-				<translation>aixecar-se / posar-se en peu</translation>
-			</translations>
-		</phrasalverbs>
-                <phrasalverbs>stand (someone) up<translations><translation>deixar plantat algú</translation></translations></phrasalverbs>
-		<phrasalverbs>stand up for (someone / something)
-			<translations>
-				<translation>defensar / defendre (algú / alguna cosa)</translation>
-			</translations>
-		</phrasalverbs>
-                <phrasalverbs>stand up for (yourself)<translations><translation>mantenir-se ferm</translation></translations></phrasalverbs>
-                <phrasalverbs>stand up to<translations><translation>resistir / aguantar / suportar</translation></translations></phrasalverbs>
-	</Entry>
-	<Entry frequency="423000">stands<nouns>
-			<translations>
-				<translation catagory="sports" gender="f">graderia</translation>
 			</translations>
 		</nouns>
 	</Entry>
