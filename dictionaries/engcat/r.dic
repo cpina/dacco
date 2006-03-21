@@ -410,9 +410,20 @@
 	</Entry>
         <Entry frequency="7220000">rally<nouns>
 			<translations>
-				<translation catagory="sports-event" gender="m">ral·li</translation>
+                        <translation>
+                        <translation gender="f">concentració / manifestació</translation>
+                        <translation gender="m">aplec</translation>
+                        </translation>
+				<translation disambiguate="sports-event" gender="m">ral·li<catnote>(esports de motor)</catnote></translation>
+                                <translation disambiguate="sports, financial" gender="f">recuperació<plural>rallies</plural></translation>
 			</translations>
 		</nouns>
+                <verbs ie="true">
+                <translations>
+                <translation>reunir(-se) / aplegar(-se) / ajuntar(-se)<catnote>(en suport d'algú)</catnote></translation>
+                <translation disambiguate="sports, financial">recuperar-se</translation>
+                </translations>
+                </verbs>
 	</Entry>
         <Entry frequency="1080000">ramble<verbs>
 			<translations>
