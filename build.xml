@@ -15,6 +15,14 @@
             </fileset>
         </delete>
     </target>
+
+    <target name="conjTypeTable">
+    <style 
+        in="dictionaries/cateng/list.xml"
+        out="output/engcat/stats/conjTable.csv" 
+        style="input/cateng/conjTypeExtractor.xsl">
+    </style>
+    </target>    
     
      <target name="stats" >
      <delete>

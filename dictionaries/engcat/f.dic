@@ -1734,9 +1734,9 @@
 	</Entry>
 	<Entry frequency="43100000">fire<nouns>
 			<translations>
-				<translation gender="m">foc<engnote>Incendi generally refers to a fire that is unintentional / out of control</engnote>
+				<translation gender="m">foc<engnote>Foc generally refers to a fire that is intentional / under control</engnote>
 				</translation>
-				<translation gender="m">incendi<engnote>Foc generally refers to a fire that is intentional / under control</engnote>
+				<translation gender="m">incendi<engnote>Incendi generally refers to a fire that is unintentional / out of control</engnote>
 					<engexamp>In case of fire</engexamp>
 					<catexamp>En cas d'incendi</catexamp>
 				</translation>
@@ -1747,6 +1747,11 @@
 				<translation>acomiadar</translation>
 			</translations>
 		</verbs>
+                <expressions>pull someone's chestnuts out of the fire
+                <translations>
+                <translation>treure les castanyes del foc a algú</translation>
+                </translations>
+                </expressions>
                 <expressions>fight fire with fire
                 <translations>
                 <translation>pagar amb la mateixa moneda</translation>
@@ -1780,6 +1785,12 @@
         <Entry frequency="1800000">fire engine<nouns>
 			<translations>
 				<translation catagory="transport" local="gb" gender="f">camió de bombers<otherlocal>fire truck</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="10200000">fire extinguisher<nouns>
+			<translations>
+				<translation gender="m">extintor</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2201,7 +2212,7 @@
 	</Entry>
 	<Entry frequency="68400">flatmate<nouns>
 			<translations>
-				<translation noteng="TRUE">algú amb qui comparteixes pis</translation>
+				<translation noteng="TRUE">persona amb qui comparteixes pis</translation>
 			</translations>
 		</nouns>
 	</Entry>
