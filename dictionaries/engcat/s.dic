@@ -2821,6 +2821,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="2860000">sheathe<verbs>
+			<translations>
+<translation>embeinar</translation>
+			</translations>
+		</verbs>
+	</Entry>
         <Entry frequency="3160000">shed<nouns>
 			<translations>
 				<translation catagory="household-room-garden" gender="m">cobert</translation>
@@ -2870,8 +2876,9 @@
 				<translation gender="f">closca / conquilla<engnote>'Closca' and 'conquilla' mean 'shell' as in 'sea shell'</engnote>
 				</translation>
                                 <translation gender="f">clofolla<engnote>'Clofolla' means 'shell' as in 'nut shell'.</engnote></translation>
-				<translation catagory="computers" termcat="true" gender="m">intèrpret d'ordres<engnote>'Intèrpret d'ordres' means 'shell' in the computer sense (i.e. command line)</engnote>
+				<translation disambiguate="computers" termcat="true" gender="m">intèrpret d'ordres<engnote>'Intèrpret d'ordres' means 'shell' in the computer sense (i.e. command line)</engnote>
 				</translation>
+                                <translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">carcassa</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -3228,6 +3235,11 @@
                                 <translation gender="f">ribera<engnote>'Ribera' means 'shore' in the sense - land at the edge of the sea or a river.</engnote></translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>shore up
+                <translations>
+                <translation>apuntalar<synonyms>underpin</synonyms></translation>
+                </translations>
+                </phrasalverbs>
 	</Entry>
         <Entry frequency="3910000">shoreline<nouns>
 			<translations>
@@ -4543,6 +4555,23 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="6440000">slalom<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding, sports-event-skiing" termcat="true" gender="m">eslàlom</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                <translations>
+                <translation disambiguate="sports-event-snowboarding, sports-event-skiing" termcat="true">fer eslàlom</translation>
+                </translations>
+                </verbs>
+	</Entry>
+      <Entry frequency="5590">slalom post<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">pal d'eslàlom</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="5720000">slam<verbs double="true">
 			<translations>
 				<translation>tancar / copejar (amb força / violència)<example>Peter &lt;b&gt;slammed&lt;/b&gt; his fist on the table and glowered at his son. "Get out before I throttle you!", he yelled.</example><example>Johnny stomped up to his bedroom and &lt;b&gt;slammed&lt;/b&gt; the door behind him.</example><example>Katie &lt;b&gt;slammed&lt;/b&gt; her foot on the accelerator and the car jerked forward.</example><example>Luke &lt;b&gt;slammed&lt;/b&gt; the recipe book down on the kitchen bench. "Oh make it yourself if you're so clever!" he shouted.</example></translation>
@@ -4558,7 +4587,7 @@
 	</Entry>
 	<Entry frequency="1060000">slang<nouns>
 			<translations>
-				<translation gender="m">argot</translation>
+				<translation catagory="linguistics" gender="m">argot</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5040,6 +5069,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="10800000">smallpox<nouns>
+			<translations>
+				<translation catagory="medical-illness" gender="f">verola / pigota</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="24200000">smart<adjectives>
 			<translations>
 				<translation>intel·ligent / astut<engexamp>Smart Alec / smart ass</engexamp><catexamp>Espavilat</catexamp></translation>
@@ -5355,12 +5390,24 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="248000">snowboard cross<nouns>
+			<translations>
+				<translation catagory="sports-event-snowboarding" termcat="true" gender="m">cros</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1490000">snowboarding<nouns>
 			<translations>
 				<translation catagory="sports-event">
 					<translation gender="m">snowboard</translation>
 					<translation gender="m">surf de neu</translation>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="224000">snowboard park<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">parc de surf<synonyms>snow park</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5376,9 +5423,21 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="301000">snow park<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">parc de surf<synonyms>snowboard park</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="56300">snow shoes<nouns>
 			<translations>
 				<translation gender="fpl">raquetes de neu</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="785000">snowsuit<nouns>
+			<translations>
+				<translation catagory="clothes" gender="m">anorac de bus</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5674,6 +5733,12 @@
 				<translation>tou / suau / moll</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+                <Entry frequency="35300">soft binding<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">fixació tova<synonyms>freestyle binding, strap binding</synonyms></translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="717000">soften<verbs>
 			<translations>
@@ -6047,6 +6112,12 @@
 				<translation gender="f">ànima</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="3760000">soulless<adjectives>
+			<translations>
+				<translation>desangelat</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="18000000">sound<nouns>
 			<translations>
@@ -7243,7 +7314,7 @@
 	</Entry>
          <Entry frequency="1520000">springboard<nouns>
 			<translations>
-				<translation catagory="sports-event-diving" gender="m">trampolí</translation>
+				<translation catagory="sports-event-diving" gender="m">trampolí<synonyms>diving board</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -8699,6 +8770,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1360000">strafe<verbs>
+			<translations>
+				<translation>metrallar / bombardejar (des d'un avió)<example>Ceasefire monitors &lt;b&gt;strafed&lt;/b&gt; in Jaffna - 14 killed.</example></translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="22500000">straight<adjectives>
 			<translations>
 				<translation>recte / dret</translation>
@@ -8799,6 +8876,12 @@
                 <verbs double="true">
                 <translations>
                 <translation>lligar amb corretja</translation></translations></verbs>
+	</Entry>
+           <Entry frequency="143000">strap binding<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">fixació tova<synonyms>freestyle binding, soft binding</synonyms></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="1250000">Strasbourg<nouns>
 			<translations>

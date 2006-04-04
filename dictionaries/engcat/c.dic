@@ -806,6 +806,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="573000">canting<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">decantador</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="7810000">canvas<nouns>
 			<translations>
 				<translation gender="f">lona<plural>canvases</plural></translation>
@@ -1389,8 +1395,15 @@
 			<translations>
 				<translation>tallar</translation>
                                 <translation>esculpir / cisellar</translation>
+                                <translation disambiguate="sports-event-snowboarding" termcat="true">fer càrving</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="26200000">carving<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">càrving / eslàlom gegant</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="616000">cascading style sheet<nouns>
 			<translations>
@@ -2146,7 +2159,7 @@
 		</adverbs>
 		<exclamations>
 			<translations>
-				<translation>és clar (que sí)!<engexamp>Certainly not!</engexamp>És clar que no!</translation>
+				<translation>és clar (que sí)!<engexamp>Certainly not!</engexamp><catexamp>És clar que no!</catexamp></translation>
 			</translations>
 		</exclamations>
 	</Entry>
@@ -2209,7 +2222,13 @@
 	</Entry>
 	<Entry frequency="4550000">Chad<nouns>
 			<translations>
-				<translation gender="m">Txad</translation>
+				<translation catagory="country-africa" gender="m">Txad</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="8280000">chagrin<nouns>
+			<translations>
+				<translation register="formal" gender="f">recança</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4512,6 +4531,12 @@
          <Entry frequency="272000">cocoa butter<nouns>
 			<translations>
 				<translation gender="f">mantega de cacau</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="14000000">cocoon<nouns>
+			<translations>
+				<translation catagory="animal" gender="m">capoll</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7188,6 +7213,11 @@
 				<translation gender="mf">cuiner</translation>
 			</translations>
 		</nouns>
+                 <expressions>what's cooking?
+                <translations>
+                <translation register="slang">què s'hi cou?<synonyms>what's up, what's happening, what gives</synonyms></translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="2540000">cooker<nouns>
 			<translations>
@@ -7303,7 +7333,13 @@
 	</Entry>
 	<Entry frequency="6650000">Copenhagen<nouns>
 			<translations>
-				<translation>Copenhague</translation>
+				<translation catagory="geography-city">Copenhague</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="117000">coping<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" gender="f">aresta<synonyms>lip</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>

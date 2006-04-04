@@ -147,6 +147,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+           <Entry frequency="889000">back foot<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">peu de darrere<synonyms>rear foot</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="66700000">background<nouns>
 			<translations>
 				<translation gender="m">rerefons</translation>
@@ -185,8 +191,27 @@
 	</Entry>
 	<Entry frequency="100000">backside<nouns>
 			<translations>
-				<translation gender="m" register="colloquial" local="gb">cul<otherlocal>ass, butt</otherlocal>
+				<translation disambiguate="body" gender="m" register="colloquial" local="gb">cul<otherlocal>ass, butt</otherlocal>
 				</translation>
+                                <translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">costat de talons<synonyms>heel side</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="26800">backside air<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">aeri de talons</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="699">backside edge<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">cantell de talons</translation>
+			</translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="545">backside wall<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">paret de talons</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -358,7 +383,7 @@
 	</Entry>
 	<Entry frequency="591000">baggy<adjectives>
 			<translations>
-				<translation>ample<catnote>L'adjectiu 'baggy' vol dir 'ample'.  La paraula es refereix exclusivament a la roba (per exemple: baggy jeans, baggy jumper, baggy trousers)</catnote>
+				<translation>ample / balder<engnote>'Texans amples' = 'baggy jeans'.  'Els texans li van molt balders' = 'Those jeans are very baggy on him / his jeans are very baggy'</engnote><catnote>L'adjectiu 'baggy' vol dir 'ample' (pantalons amples) o 'balder' (els texans li van molt balders).  La paraula es refereix exclusivament a la roba (per exemple: baggy jeans, baggy jumper, baggy trousers)</catnote>
 				</translation>
 			</translations>
 		</adjectives>
@@ -1826,6 +1851,7 @@
 				<translation>
 					<translation gender="fpl">pertinences</translation>
 					<translation gender="fpl">coses</translation>
+                                        <translation gender="m">cabal<synonyms>possessions, property</synonyms></translation>
 				</translation>
 			</translations>
 		</nouns>
@@ -2232,6 +2258,12 @@
 			<translations>
 				<translation register="slang" gender="f">presó<synonyms>the nick (Br.) (argot) / clink (argot) / the slammer (argot) / pokey (Am.) (argot)</synonyms>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="45000">big jump<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">rampa de salts</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3861,6 +3893,12 @@
 				<translation gender="m">os</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="35000">boned<adjectives>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" termcat="true">amb la cama estirada<example>For this trick, the rear leg must be &lt;b&gt;boned&lt;/b&gt;.</example></translation>
+			</translations>
+		</adjectives>
 	</Entry>
         <Entry frequency="4350000">bone marrow<nouns>
 			<translations>
