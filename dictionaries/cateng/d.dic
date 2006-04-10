@@ -253,6 +253,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="31600">debilitar<verbs conj="regular">
+			<translations><date>0406</date>
+				<translation>to weaken / to debilitate<synonyms>afeblir</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>  
 	<Entry frequency="31300">dècada<nouns>
 			<translations>
 				<translation catagory="time" gender="f">decade</translation>
@@ -1006,6 +1012,12 @@
 				<translation>to defuse / to deactivate</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="483">desafiador<adjectives>
+			<translations><date>0406</date>
+				<translation>defiant<fems>desafiadora</fems></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="4050">desafiament<nouns>
 			<translations>
@@ -1831,10 +1843,17 @@
 	</Entry>
 	<Entry frequency="12500">desocupat<adjectives>
 			<translations><date>0605</date>
-				<translation>unemployed<fems>desocupada</fems>
+                        <translation>vacant / unoccupied</translation>
+				<translation>unemployed / jobless<synonyms>aturat</synonyms><fems>desocupada</fems>
 				</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="m / f">unemployed (person)</translation>
+                <translation sourceplural="desocupats" gender="mpl">the unemployed / the jobless</translation>
+               </translations>
+               </nouns> 
 	</Entry>
         <Entry frequency="1220000">desolador<adjectives>
 			<translations><date>0106</date>
@@ -1916,6 +1935,7 @@
 	<Entry frequency="52800">desplaçar<verbs conj="çtoC">
 			<translations>
 				<translation>to move / to shift</translation>
+                                <translation reflexive="desplaçar-se">to travel</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2696,6 +2716,11 @@
 				<translation>to have lunch</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                <translations>
+                <translation gender="m">lunch</translation>
+                </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="2030">dinastia<nouns>
 			<translations>
@@ -2954,6 +2979,18 @@
       </translations>
     </nouns>
   </Entry>
+	<Entry frequency="75000">discogràfic<adjectives>
+			<translations><date>0406</date>
+				<translation>record<fems>discogràfica</fems><femplural>discogràfiques</femplural><catexamp>Segell (discogràfic)</catexamp><engexamp>(Record) label / record company</engexamp><catexamp>Treball discogràfic</catexamp><engexamp>Recording / disc</engexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="65000">discogràfica<nouns>
+			<translations><date>0406</date>
+				<translation gender="f">(record) label / record company<plural>discogràfiques</plural><synonyms>segell (discogràfic)</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="16800">discriminació<nouns>
 			<translations>
 				<translation gender="f">discrimination</translation>

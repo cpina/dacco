@@ -1482,7 +1482,7 @@
 	</Entry>
 	<Entry frequency="16800">empleat<nouns>
 			<translations>
-				<translation catagory="work" gender="m / f">employee<fems>empleada</fems>
+				<translation catagory="work" gender="m / f">employee<fems>empleada</fems><synonyms>assalariat</synonyms>
 				</translation>
 			</translations>
 		</nouns>
@@ -1625,7 +1625,7 @@
 	</Entry>
           <Entry frequency="318">enarborar<verbs conj="regular">
 			<translations><date>0406</date>
-				<translation>to raise / to hoist</translation>
+				<translation>to raise / to hoist<synonyms>hissar</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2982,6 +2982,13 @@ lliure per tal de no &lt;b&gt;encarir&lt;/b&gt; innecessàriament un projecte</e
 			</translations>
 		</verbs>
 	</Entry> 
+        <Entry frequency="838">erari<nouns>
+			<translations><date>0406</date>
+				<translation catagory="financial" gender="m">public funds</translation>
+                                <translation catagory="financial" gender="m">Treasury</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="513">erecció<nouns>
 			<translations><date>0605</date>
 				<translation gender="f">erection<plural>ereccions</plural></translation>
@@ -4423,6 +4430,11 @@ lliure per tal de no &lt;b&gt;encarir&lt;/b&gt; innecessàriament un projecte</e
                                 <translation disambiguate="sports-event-swimming" gender="f">backstroke</translation>
 			</translations>
 		</nouns>
+                <expressions>girar l'esquena a (algú / alguna cosa)
+                <translations>
+                <translation>to turn your back on (somebody / something)</translation>
+                </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="2350">esquer<nouns>
 			<translations><date>0305</date>
@@ -4830,6 +4842,14 @@ lliure per tal de no &lt;b&gt;encarir&lt;/b&gt; innecessàriament un projecte</e
 				<translation>to sneeze</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="314000">estès<adjectives>
+			<translations><date>0406</date>
+				<translation>spread (out)</translation>
+                                <translation>widespread</translation>
+                                <translation>hanging / on the line<engnote>'Estès' in this sense means literally 'hung out to dry' ('roba estesa' are clothes that are drying on the washing line)</engnote><plural>estesos</plural><fems>estesa</fems></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="69400">estètic<adjectives>
 			<translations><date>0705</date>

@@ -1022,10 +1022,16 @@
   </Entry>
   <Entry frequency="1120" >telefonada<nouns>
       <translations>
-        <translation catagory="telephone" gender="f" >telephone call</translation>
+        <translation catagory="telephone" gender="f" >telephone call<synonyms>trucada</synonyms></translation>
       </translations>
     </nouns>
   </Entry>
+  <Entry frequency="43500">telefonar<verbs conj="regular">
+			<translations><date>0406</date>
+				<translation catagory="telephone">to phone / to call / to ring<synonyms>trucar</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
   <Entry frequency="27500" >telefonia<nouns>
       <translations>
         <translation catagory="telephone" gender="f" >telephony</translation>
@@ -3127,6 +3133,11 @@
         <translation catagory="household-room-bathroom, household-room-kitchen" gender="f" >towel</translation>
       </translations>
     </nouns>
+    <expressions>tirar la tovallola
+    <translations>
+    <translation>to throw in the towel</translation>
+    </translations>
+    </expressions>
   </Entry>
   	<Entry frequency="36">tovor<nouns>
 			<translations><date>0106</date>
@@ -4287,6 +4298,17 @@
       </translations>
     </nouns>
   </Entry>
+  <Entry frequency="21200">triomfador<adjectives>
+			<translations><date>0406</date>
+				<translation>winning / triumphant / victorious</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="m / f">winner / victor (formal)<fems>triomfadora</fems></translation>
+                </translations>
+                </nouns>
+	</Entry>
   <Entry frequency="5430" >triomfar<verbs conj="regular" >
       <translations>
         <translation>to triumph / to win</translation>
@@ -4510,7 +4532,7 @@
   </Entry>
   <Entry frequency="11200" >trucada<nouns>
       <translations>
-	<translation catagory="telephone" gender="f" >(telephone) call</translation>
+	<translation catagory="telephone" gender="f" >(telephone) call<synonyms>telefonada</synonyms></translation>
       </translations>
     </nouns>
   </Entry>
@@ -4522,7 +4544,7 @@
 	</Entry>
   <Entry frequency="17400" >trucar<verbs conj="CtoQU" >
       <translations>
-        <translation catagory="telephone" >to call / to phone</translation>
+        <translation catagory="telephone" >to call / to phone / to ring<synonyms>telefonar</synonyms></translation>
       </translations>
     </verbs>
   </Entry>

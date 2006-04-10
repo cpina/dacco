@@ -3281,7 +3281,7 @@
 			<translations>
 				<translation>
 					<translation gender="f">deficiència</translation>
-					<translation gender="f">mancança</translation>
+					<translation gender="f">mancança / carència</translation>
 				</translation>
 			</translations>
 		</nouns>
@@ -3615,6 +3615,12 @@
 				<translation gender="m">falç</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="4080000">sickly<adjectives>
+			<translations>
+				<translation catagory="medical">malaltís</translation>
+			</translations>
+		</adjectives>
 	</Entry>
         <Entry frequency="3650000">sickness<nouns>
 			<translations>
@@ -5146,9 +5152,20 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="5560000">smirk<nouns>
+			<translations>
+				<translation gender="m">somriure de satisfacció</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                <translations>
+                <translation>somriure amb un sentiment d'autosatisfacció</translation>
+                </translations>
+                </verbs>
+	</Entry>  
         <Entry frequency="377000">smock<nouns>
 			<translations>
-				<translation gender="f">bata</translation>
+				<translation catagory="clothes" gender="f">bata</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6688,7 +6705,7 @@
 	</Entry>
 	<Entry frequency="59700000">speed<nouns>
 			<translations>
-				<translation gender="f">velocitat</translation>
+				<translation gender="f">velocitat / celeritat</translation>
 			</translations>
 		</nouns>
                 <phrasalverbs>speed up
@@ -10203,7 +10220,7 @@
 	</Entry>
 	<Entry frequency="1910000">supper<nouns>
 			<translations>
-				<translation catagory="food-meal" gender="m">sopar<engexamp>To have supper</engexamp>
+				<translation catagory="food-meal" register="dated" gender="m">sopar<engexamp>To have supper</engexamp>
 					<catexamp>Sopar</catexamp>
 				</translation>
 			</translations>

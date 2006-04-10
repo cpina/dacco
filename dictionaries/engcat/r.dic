@@ -1159,9 +1159,14 @@
 	</Entry>
 	<Entry frequency="1750000">rebound<verbs>
 			<translations>
-				<translation>rebotar</translation>
+				<translation>rebotar / rebotre</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                <translations>
+                <translation catagory="sports" gender="m">rebot</translation>
+                </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="3840000">rebuild<verbs>
 			<past>rebuilt</past>
@@ -1795,6 +1800,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="8470000">reform school<nouns>
+			<translations>
+				<translation gender="m">reformatori</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="330000">refrigerate<verbs>
 			<translations>
 				<translation>refrigerar</translation>
@@ -2349,6 +2360,24 @@
         <Entry frequency="6720000">reminder<nouns>
 			<translations>
 				<translation gender="m">recordatori</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="31200000">remodeling<nouns>
+			<translations>
+                        <translation>
+				<translation local="us" gender="f">remodelació</translation>
+                                <translation local="us" gender="m">remodelatge<otherlocal>remodelling</otherlocal></translation>
+                                </translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="2070000">remodelling<nouns>
+			<translations>
+                        <translation>
+				<translation local="gb" gender="f">remodelació</translation>
+                                <translation local="gb" gender="m">remodelatge<otherlocal>remodeling</otherlocal></translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2920,6 +2949,12 @@
 	<Entry frequency="5860000">reservoir<nouns>
 			<translations>
 				<translation gender="m">embassament</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2150000">reshuffle<nouns>
+			<translations>
+				<translation gender="f">remodelació<engexamp>Cabinet (or ministerial) reshuffle</engexamp><catexamp>Remodelació ministerial</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3759,7 +3794,7 @@
 			<past>rang</past>
 			<participle>rung</participle>
 			<translations>
-				<translation catagory="telephone">trucar</translation>
+				<translation catagory="telephone">trucar / telefonar<synonyms>call, phone</synonyms></translation>
 				<translation catagory="telephone">sonar</translation>
 			</translations>
 		</verbs>
@@ -3769,6 +3804,12 @@
 				<translation catagory="computers-internet" gender="f">anella</translation>
                                 <translation disambiguate="telephone" local="gb" register="colloquial" gender="f">trucada<otherlocal>call</otherlocal></translation>
                                 <translation disambiguate="sports" gender="m">quadrilàter<engnote>'Quadrilàter' means 'ring' in the sense 'boxing ring'.</engnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="2550000">ringleader<nouns>
+			<translations>
+				<translation gender="m">capitost<engnote>Unlike the word 'ringleader', 'capitost' is not always negative.  It can just mean 'leader'.</engnote><catnote>Un 'ringleader' és el dirigent d'un grup o d'una trepa que fan coses il·legals o conspiratorials</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4545,11 +4586,12 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="146000000">royalty<nouns>
+        <Entry frequency="108000000">royalty<nouns>
 			<translations>
 				<translation gender="f">reialesa</translation>
-			</translations>
-		</nouns>
+                                <translation sourceplural="royalties" disambiguate="financial" gender="mpl">royalties (pagament de drets d'autor)</translation>
+                                </translations>
+                                </nouns>
 	</Entry>
 	<Entry frequency="3530000">rub<verbs double="true">
 			<translations>

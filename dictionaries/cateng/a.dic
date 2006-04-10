@@ -96,6 +96,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="168">abarrotar<verbs conj="regular">
+			<translations><date>0406</date>
+				<translation>to pack / to fill / to cram</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="150000" hasSound="true">abast<nouns>
 			<translations>
 				<translation gender="m">reach / extent</translation>
@@ -2007,6 +2013,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="568">afix<nouns>
+			<translations><date>0406</date>
+				<translation catagory="linguistics" gender="m">affix<plural>afixos</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="162">afixar<verbs conj="regular">
+			<translations><date>0406</date>
+				<translation catagory="linguistics">to affix</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="3860" hasSound="true">afluent<nouns>
 			<translations><date>0105</date>
 				<translation catagory="geography" gender="m">tributary</translation>
@@ -2381,6 +2399,11 @@
                                 <translation reflexive="aixecar-se">to rise up</translation>
 			</translations>
 		</verbs>
+                <expressions>si (Pompeu Fabra / Companys / l'avi Paco etc.) aixequés el cap
+                <translations>
+                <translation>(Pompeu Fabra etc.) would roll over (or turn) in his / her grave<example>I, si us plau, una mica de cura a l'escriure, que &lt;b&gt;si en Pompeu Fabra aixeques el cap&lt;/b&gt;, s'espantaria al veure com alguns/es tracten el Català [sic].</example></translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="794" hasSound="true">aixella<nouns>
 			<translations><date>0105</date>
@@ -4215,6 +4238,21 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="16300">angoixant<adjectives>
+			<translations><date>0406</date>
+				<translation>worrying / alarming</translation>
+                                <translation>anxious</translation>
+                                <translation>tense / nail-biting<catexamp>Un partit angoixant</catexamp><engexamp>A tense / nail-biting match</engexamp><synonyms>angoixós</synonyms></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+<Entry frequency="16300">angoixós<adjectives>
+			<translations><date>0406</date>
+				<translation>worrying / alarming</translation>
+                                <translation>anxious<synonyms>angoixant</synonyms><plural>angoixosos</plural><fems>angoixosa</fems></translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 	<Entry frequency="4810">Angola<nouns>
 			<translations><date>0105</date>
 				<translation catagory="country-africa" gender="f">Angola</translation>
@@ -4524,8 +4562,8 @@
 	</Entry>
 	<Entry frequency="53200">antecedent<nouns>
 			<translations><date>0105</date>
-				<translation gender="m">antecedent<catexamp>Antecedents penals</catexamp>
-					<engexamp>Criminal record</engexamp>
+				<translation gender="m">antecedent<catexamp>Antecedents (penals)</catexamp>
+					<engexamp>(Criminal) record / (police) record</engexamp>
 				</translation>
 			</translations>
 		</nouns>
@@ -6550,6 +6588,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="151000">assalariat<nouns>
+			<translations><date>0406</date>
+				<translation catagory="work" gender="m / f">employee<fems>assalariada</fems><synonyms>empleat</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="320">assamès<nouns>
 			<translations>
 				<date>0305</date>
@@ -7222,7 +7266,7 @@
 	<Entry frequency="60200">atur<nouns>
 			<translations>
 				<date>0205</date>
-				<translation catagory="work" gender="m">unemployment</translation>
+				<translation catagory="work" gender="m">unemployment / joblessness</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7236,10 +7280,16 @@
 	<Entry frequency="54500">aturat<adjectives>
 			<translations>
 				<date>0205</date>
-				<translation catagory="work">unemployed<fems>aturada</fems>
+				<translation catagory="work">unemployed / jobless<synonyms>desocupat</synonyms><fems>aturada</fems>
 				</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation gender="m / f">unemployed (person)</translation>
+                <translation sourceplural="aturats" gender="mpl">the jobless</translation>
+                </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="68500">au<nouns>
 			<translations>
@@ -7567,6 +7617,12 @@
 			<translations><date>0305</date>
 				<translation>authorised (Br.) / authorized (Am.)<fems>autoritzada</fems></translation>
 			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="24200">autosuficient<adjectives>
+			<translations><date>0406</date>
+				<translation>self-sufficient</translation>
+                                </translations>
 		</adjectives>
 	</Entry>
         <Entry frequency="17000" hasSound="true">auxili<nouns>
