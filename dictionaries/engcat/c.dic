@@ -263,6 +263,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="16100000">Calcutta<nouns>
+			<translations>
+				<translation catagory="geography-city-asia-india">Calcuta</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="256000000">calendar<nouns>
 			<translations>
 				<translation gender="m">calendari</translation>
@@ -5705,6 +5711,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="121000">composite sketch<nouns>
+			<translations>
+				<translation local="us" gender="m">retrat robot<plural>composite sketches</plural><otherlocal>photofit, identikit, e-fit</otherlocal>
+				</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="9100000">composition<nouns>
 			<translations>
 				<translation gender="f">composició<engnote>'Composició' means 'composition' in the sense 'make-up' (i.e. 'composition of the earth / atmosphere').</engnote></translation>
@@ -6907,7 +6920,8 @@
 		</nouns>
                 <verbs>
                 <translations>
-                <translation>disputar</translation></translations></verbs>
+                <translation>disputar</translation>
+                <translation>impugnar</translation></translations></verbs>
 	</Entry>
 	<Entry frequency="623000">contestant<nouns>
 			<translations>
@@ -7915,11 +7929,13 @@
 	<Entry frequency="91100000">count<verbs>
 			<translations>
 				<translation>comptar / comptabilitzar</translation>
+                                <translation disambiguate="politics">escrutar<engnote>'Escrutar' means 'to count votes'</engnote></translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
 				<translation gender="m">comte</translation>
+                                <translation disambiguate="politics" gender="m">escrutini<engnote>'Escrutini' means 'count' as in 'vote count' (e.g. 'They're about to start the count in Sunderland North')</engnote></translation>
 			</translations>
 		</nouns>
 		<phrasalverbs>count on
