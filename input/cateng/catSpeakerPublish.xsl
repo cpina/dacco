@@ -188,11 +188,11 @@
               
             <xsl:template name="doTranslation">
 			<xsl:text>    </xsl:text>
-			<xsl:if test="last()>1"><b>
+			<!-- <xsl:if test="last()>1"><b>
 				<xsl:value-of select="position()"/>
 				<xsl:text>. </xsl:text>
 				</b>
-			</xsl:if>
+			</xsl:if> -->
                         <xsl:if test="@sourceplural">
 			<span class="sourceplural"><xsl:value-of select="@sourceplural"/></span>
 		</xsl:if>
@@ -299,7 +299,7 @@
 			<span class="category">[AGRIC] </span>
 		</xsl:if>
                  <xsl:if test="contains(@disambiguate,'Music') or contains(@disambiguate,'music') ">
-			<span class="category">[MÚSICA] </span>
+			<span class="category">[MÃSICA] </span>
 		</xsl:if>
                   <xsl:if test="contains(@disambiguate,'Maths') or contains(@disambiguate,'maths') ">
 			<span class="category">[MAT] </span>
