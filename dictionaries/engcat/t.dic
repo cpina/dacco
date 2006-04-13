@@ -3546,6 +3546,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="5000000">touching<adjectives>
+			<translations>
+				<translation>commovedor<synonyms>moving</synonyms></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="1360000">touch screen<nouns>
 			<translations>
 				<translation catagory="computers-hardware" gender="f">pantalla tàctil</translation>
@@ -3982,7 +3988,9 @@
 	</Entry>
 	<Entry frequency="32600000">train<verbs>
 			<translations>
-				<translation catagory="sports">entrenar</translation>
+				<translation disambiguate="sports" transitive="true">entrenar</translation>
+                                <translation disambiguate="sports" intransitive="true">entrenar-se</translation>
+                                <translation transitive="true">ensinistrar</translation>
 			</translations>
 		</verbs>
 		<nouns>
