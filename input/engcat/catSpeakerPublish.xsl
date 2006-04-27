@@ -301,15 +301,20 @@
                 <xsl:if test="@capitalized">
 			<span class="capitalized"><xsl:value-of select="@capitalized"/></span>
 		</xsl:if>
-		<xsl:if test="@local='us'">
+                 
+		  <xsl:if test="@local='us'">
 			<span class="local"> (Am) </span>
-		</xsl:if>
-		<xsl:if test="@local='gb'">
+		  </xsl:if>
+		  <xsl:if test="@local='gb'">
 			<span class="local"> (Br) </span>
-		</xsl:if>
-		<xsl:if test="@local='au'">
+		  </xsl:if>
+		  <xsl:if test="@local='au'">
 			<span class="local"> (Aus) </span>
-		</xsl:if>
+		  </xsl:if>
+                  <xsl:if test="@local='us,au'">
+			<span class="local"> (Am,Aus) </span>
+		  </xsl:if>                 
+                  
 		<xsl:if test="@register='vulgar'">
 			<span class="register"> (vulg) </span>
 		</xsl:if>

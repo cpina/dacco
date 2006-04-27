@@ -367,9 +367,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="1660000">rain gauge<nouns>
+			<translations>
+				<translation catagory="weather" gender="m">pluviòmetre<synonyms>pluviometer</synonyms></translation>
+                                </translations>
+		</nouns>
+	</Entry>
            <Entry frequency="319000">rainwater<nouns>
 			<translations>
-				<translation gender="f">aigua de pluja</translation>
+				<translation gender="f">aigua de pluja / aigua pluvial</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -572,6 +578,12 @@
 				<translation>rar</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="1460000">rarefy<verbs ie="true">
+			<translations>
+				<translation catagory="chemistry">enrarir</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="2560000">rarely<adverbs>
 			<translations>
@@ -2942,7 +2954,7 @@
                 <Entry frequency="65400000">reservation<nouns>
 			<translations>
 				<translation gender="f">reserva<engnote>'Reserva' means 'reservation' both in the sense 'Indian reservation' and 'booking' (i.e. I have a reservation for 7pm).</engnote><example>I explained to the waiter that we had a &lt;b&gt;reservation&lt;/b&gt; in the name of Walker.</example><example>Indians are subject to state taxation if they don't live on a &lt;b&gt;reservation&lt;/b&gt;.</example><synonyms>booking</synonyms></translation>
-                                <translation gender="m">dubte<example>Julian thinks that moving to Canada is a good idea, but I have my &lt;b&gt;reservations&lt;/b&gt;.</example></translation>
+                                <translation sourceplural="reservations" gender="fpl">reticències<engnote>'Reticències' means 'reservations' in the sense 'He agrees but I have my reservations'</engnote><example>Julian thinks that moving to Canada is a good idea, but I have my &lt;b&gt;reservations&lt;/b&gt;.</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3325,7 +3337,7 @@
 	</Entry>
 	<Entry frequency="129000">reticence<nouns>
 			<translations>
-				<translation gender="f">reticència<synonyms>unwillingness</synonyms>
+				<translation gender="f">reticència<synonyms>unwillingness, reservations</synonyms>
 				</translation>
 			</translations>
 		</nouns>
@@ -4649,6 +4661,7 @@
 					<translation gender="fpl">escombraries</translation>
 					<translation gender="fpl">deixalles</translation>
 				</translation>
+                                <translation gender="fpl">bestieses</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -4901,6 +4914,7 @@
 			<translations>
 				<translation gender="f">direcció<engnote>'Direcció' means 'running' in the sense 'He will take over the running of the factory when his father dies'</engnote>
 				</translation>
+                                <translation gender="m">funcionament<engnote>'Funcionament' means 'running' as in the working of a machine (i.e. 'Tips to ensure the smooth running of your vacuum cleaner')</engnote></translation>
 				<translation gender="m">atletisme</translation>
 			</translations>
 		</nouns>

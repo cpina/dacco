@@ -485,6 +485,14 @@
       </translations>
     </nouns>
   </Entry>
+  <Entry frequency="129000" >tapa<nouns>
+      <translations><date>0406</date>
+      <translation gender="f">lid</translation>
+        <translation gender="f" >cover</translation>
+        <translation sourceplural="tapes" catagory="food" gender="fpl">tapas</translation>
+      </translations>
+    </nouns>
+  </Entry> 
   <Entry frequency="39000" >tapar<verbs conj="regular" >
       <translations>
         <translation>to cover up / to hide</translation>
@@ -2274,7 +2282,7 @@
         <translation gender="f" >throw / toss</translation>
         <translation gender="f">tendency / inclination (towards)<example>La major part de les empreses tenen &lt;b&gt;tirada&lt;/b&gt; a no impulsar pràctiques de control ambiental.</example><example>L'autor, conegut sobretot per les seves novel·les juvenils, té certa &lt;b&gt;tirada&lt;/b&gt; als temes psicològics.</example></translation>
         <translation gender="f">distance / way<example>Brasil ha d'avançar una bona &lt;b&gt;tirada&lt;/b&gt; abans de poder treure's de sobre la broma que 'és el país del futur i sempre ho serà'.</example></translation>
-        <translation gender="f">circulation<example>Amb una &lt;b&gt;tirada&lt;/b&gt; de 40.565 exemplars, és llegit per més de 100.000 persones.</example></translation>
+        <translation gender="f">print run / printing / edition (llibres) / circulation (diaris i revistes)<example>Amb una &lt;b&gt;tirada&lt;/b&gt; de 40.565 exemplars, és llegit per més de 100.000 persones.</example><synonyms>tiratge</synonyms></translation>
         <translation gender="f">series</translation>
       </translations>
     </nouns>
@@ -2339,7 +2347,7 @@
   <Entry frequency="6160" >tiratge<nouns>
       <translations>
         <translation gender="m" >printing / print run</translation>
-        <translation gender="m" >edition</translation>
+        <translation gender="m" >edition (llibres) / circulation (diaris i revistes)<synonyms>tirada</synonyms></translation>
       </translations>
     </nouns>
   </Entry>
@@ -3481,7 +3489,7 @@
   </Entry>
   <Entry frequency="30000" >tranquil<adjectives>
       <translations>
-        <translation>quiet<fems>tranquil·la</fems>
+        <translation>calm / peaceful / quiet<fems>tranquil·la</fems>
         </translation>
       </translations>
     </adjectives>
@@ -3513,7 +3521,8 @@
   </Entry>
   <Entry frequency="1750" >tranquil·litzar<verbs conj="regular" >
       <translations>
-        <translation>to calm (down)</translation>
+        <translation transitive="true">to calm (down)</translation>
+        <translation reflexive="tranquil·litzar-se">to calm down</translation>
       </translations>
     </verbs>
   </Entry>
@@ -4774,6 +4783,12 @@
       </translations>
     </adjectives>
   </Entry>
+   <Entry frequency="14100" >Txernòbil<nouns>
+      <translations><date>0406</date>
+        <translation catagory="geography">Chernobyl</translation>
+      </translations>
+    </nouns>
+  </Entry> 
   <Entry frequency="730" >Txetxènia<nouns>
       <translations><date>0905</date>
         <translation catagory="country-europe" gender="f" >Chechnya</translation>
