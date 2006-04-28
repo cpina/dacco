@@ -1174,21 +1174,27 @@
 			</translations>
 		</adjectives>
 	</Entry>
-         <Entry frequency="136000000">electronics<nouns>
-			<translations>
-				<translation gender="f">electrònica</translation>
-			</translations>
-		</nouns>
-	</Entry>
 	<Entry frequency="1890000">electronically<adverbs>
 			<translations>
 				<translation>electrònicament</translation>
 			</translations>
 		</adverbs>
 	</Entry>
+         <Entry frequency="227000">electronic diary<nouns>
+			<translations>
+				<translation catagory="computers" termcat="true" gender="f">agenda electrònica<plural>electronic diaries</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="701000">electronic engineering<nouns>
 			<translations>
 				<translation gender="f">enginyeria electrònica</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="136000000">electronics<nouns>
+			<translations>
+				<translation gender="f">electrònica</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1395,19 +1401,20 @@
 	</Entry>
 	<Entry frequency="689000000">email<verbs>
 			<translations>
-				<translation>enviar un correu (electrònic)</translation>
+				<translation catagory="computers-internet">enviar un correu (electrònic)</translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
-				<translation termcat="true" gender="m">correu electrònic</translation>
+				<translation catagory="computers-internet" termcat="true" gender="m">correu electrònic</translation>
+                                <translation termcat="true" catagory="computers-internet" gender="f">adreça electrònica / a/e<engnote>'Adreça electrònica' means 'email' as in 'email address' (e.g. 'Which of your emails should I send this to?')</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="259000">email address<nouns>
 			<translations>
-				<translation termcat="true" gender="f">adreça electrònica</translation>
-				<translation gender="f">adreça de correu electrònic</translation>
+				<translation catagory="computers-internet" termcat="true" gender="f">adreça electrònica / a/e</translation>
+				<translation catagory="computers-internet" gender="f">adreça de correu electrònic</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1785,6 +1792,12 @@
 	<Entry frequency="9050000">encryption<nouns>
 			<translations>
 				<translation termcat="true" gender="m">xifratge</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2750000">encryption algorithm<nouns>
+			<translations>
+				<translation gender="m">algorisme de xifratge</translation>
 			</translations>
 		</nouns>
 	</Entry>

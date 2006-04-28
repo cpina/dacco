@@ -1261,6 +1261,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="115000000">adapter<nouns>
+			<translations>
+				<translation catagory="computers" termcat="true" gender="m">adaptador</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="22600000">adaptor<nouns>
+			<translations>
+				<translation catagory="computers" gender="m">adaptador</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="356000000">add<verbs>
 			<translations>
 				<translation transitive="true">afegir<example>If you want to &lt;b&gt;add&lt;/b&gt; your website to our webring, please follow the instructions below</example>
@@ -2131,6 +2143,7 @@
 	<Entry frequency="44400000">agent<nouns>
 			<translations>
 				<translation gender="m">agent</translation>
+                                <translation disambiguate="computers" termcat="true" gender="m">agent</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2675,6 +2688,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="241000000">algorithm<nouns>
+			<translations>
+				<translation catagory="maths" gender="m">algorisme</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="83200000">alias<nouns>
+			<translations>
+				<translation catagory="computers" termcat="true" gender="m">àlies<plural>aliases</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="2300000">alibi<nouns>
 			<translations>
 				<translation gender="f">coartada</translation>
@@ -2967,6 +2992,12 @@
 				<translation>alfabètic<engexamp>(In) alphabetical order</engexamp>
 					<catexamp>(Per) ordre alfabètic</catexamp>
 				</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="9070000">alphanumeric<adjectives>
+			<translations>
+				<translation>alfanumèric</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -6167,6 +6198,7 @@
 	<Entry frequency="21500000">attachment<nouns>
 			<translations>
 				<translation disambiguate="computers" termcat="true" gender="m">fitxer / arxiu / document adjunt</translation>
+                                <translation disambiguate="computers" termcat="true" gender="f">adjunció</translation>
 			</translations>
 		</nouns>
 	</Entry>

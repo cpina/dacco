@@ -924,6 +924,24 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="8360000">network adapter<nouns>
+			<translations>
+				<translation disambiguate="computers" termcat="true" gender="m">adaptador de xarxa</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="14100000">network administrator<nouns>
+			<translations>
+				<translation termcat="true" catagory="computers, work-job" gender="mf">administrador de xarxes / gestor de xarxes<systems>network manager</systems></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="4190000">network manager<nouns>
+			<translations>
+				<translation termcat="true" catagory="computers, work-job" gender="mf">administrador de xarxes / gestor de xarxes<synonyms>network administrator</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2730000">neural<adjectives>
 			<translations>
 				<translation>neural<engexamp>Neural networks</engexamp>
@@ -1363,7 +1381,7 @@
 					<catexamp>Està a la garjola / presó</catexamp>
 					<synonyms>the slammer (argot) / clink (argot) / pokey (Am.) (argot)</synonyms>
 				</translation>
-                                <translation disambiguate="computers" gender="m">sobrenom</translation>
+                                <translation disambiguate="computers" gender="m">àlies</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1383,7 +1401,8 @@
         <Entry frequency="30700000">nickname<nouns>
 			<translations>
 				<translation gender="m">sobrenom / malnom<engnote>'Malnom' has slightly negative connotations</engnote></translation>
-			</translations>
+			<translation disambiguate="computers" termcat="true" gender="m">àlies</translation>
+                                </translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="862000">nicotine<nouns>
