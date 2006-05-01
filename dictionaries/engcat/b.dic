@@ -438,7 +438,7 @@
 		</phrasalverbs>
 		<phrasalverbs>bail out
 			<translations>
-				<translation disambiguate="transport">abandonar un vehícle en cas d'emergència<example>The plane started to dive so the pilot grabbed a parachute and &lt;b&gt;bailed out&lt;/b&gt;</example>
+				<translation disambiguate="transport">abandonar un vehicle en cas d'emergència<example>The plane started to dive so the pilot grabbed a parachute and &lt;b&gt;bailed out&lt;/b&gt;</example>
 					<example>The cargo ship sank off the coast of New Zealand but, luckily, the entire crew managed to &lt;b&gt;bail out&lt;/b&gt; safely</example>
 				</translation>
 			</translations>
@@ -697,7 +697,8 @@
 	</Entry>
 	<Entry frequency="25500000">bandwidth<nouns>
 			<translations>
-				<translation termcat="true" gender="f">amplada de banda<engnote>'Amplada de banda' is the term recommended by TermCat.  However, 'ample de banda' is also widely used.</engnote>
+				<translation catagory="computers-internet" termcat="true" gender="f">amplada de banda</translation>
+                                <translation catagory="computers-internet" gender="m">ample de banda<engnote>'Amplada de banda' is the term recommended by TermCat.  However, 'ample de banda' is also widely used.</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -1052,6 +1053,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="2530000">baseband<nouns>
+			<translations>
+				<translation catagory="telephone" termcat="true" gender="f">banda de base</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="11800000">basement<nouns>
 			<translations>
 				<translation gender="m">soterrani</translation>
@@ -1242,8 +1249,8 @@
 	</Entry>
 	<Entry frequency="19700000">battery<nouns>
 			<translations>
-				<translation gender="f">pila<plural>batteries</plural>
-				</translation>
+				<translation gender="f">pila</translation>
+                                <translation termcat="true" gender="f">bateria<plural>batteries</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1266,6 +1273,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="4560000">baud<nouns>
+			<translations>
+				<translation termcat="true" gender="m">baud</translation>
+			</translations>
+		</nouns>
+	</Entry> 
         <Entry frequency="30300000">bawl<verbs>
 			<translations>
 				<translation>bramar / vociferar</translation>
@@ -1309,6 +1322,13 @@
 				<translation gender="f">barbacoa</translation>
 			</translations>
 		</abbreviations>
+	</Entry>
+         <Entry frequency="3500000">BBS<engacro>Bulletin Board System</engacro>
+         <nouns>
+			<translations>
+				<translation catagory="computers" termcat="true" gender="m">BBS</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="1000000000">be<verbs>
 			<firstPresent>am</firstPresent>
@@ -2319,6 +2339,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="303000">bidimensional<adjectives>
+			<translations>
+				<translation termcat="true">bidimensional / en 2D<synonyms>two-dimensional, 2D</synonyms></translation>
+			</translations>
+		</adjectives>
+	</Entry>
         <Entry frequency="13100000">biennial<adjectives>
 			<translations>
 				<translation>biennal</translation>
@@ -2574,6 +2600,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="79200000">bioinformatics<nouns>
+			<translations>
+				<translation catagory="work-field, computers" termcat="true" gender="f">biografia<plural>biographies</plural>
+				</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="39000000">biological<adjectives>
 			<translations>
 				<translation>biològic</translation>
@@ -2643,6 +2676,18 @@
         <Entry frequency="6930000">biosphere<nouns>
 			<translations>
 				<translation catagory="geography" gender="f">biosfera</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="186000000">biotechnology<nouns>
+			<translations>
+				<translation termcat="true" gender="f">biotecnologia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="104000">biotelemetry<nouns>
+			<translations>
+				<translation termcat="true" gender="f">biotelemetria</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4719,7 +4764,7 @@
 	</Entry>
 	<Entry frequency="4790000">bra<nouns>
 			<translations>
-				<translation gender="mpl">sostenidors</translation>
+				<translation catagory="clothes" gender="mpl">sostenidors</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4825,8 +4870,14 @@
 					<engnote>'Sucursal' and 'filial' mean 'branch' as in one of a chain of shops or offices</engnote>
 				</translation>
 				<translation disambiguate="plants" gender="f">branca<plural>branches</plural></translation>
-			</translations>
+			<translation disambiguate="computers-programming" termcat="true" gender="f">bifurcació</translation>
+                                </translations>
 		</nouns>
+                <verbs>
+                <translations>
+                <translation disambiguate="computers-programming" termcat="true">bifurcar</translation>
+                </translations>
+                </verbs>
 	</Entry>
         <Entry frequency="214000">branch and bound algorithm<nouns>
 			<translations>
@@ -5862,12 +5913,16 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="99000">bugger all<nouns>
-			<translations>
-				<translation local="gb" register="vulgar">res<example>What have you done this morning?  &lt;b&gt;Bugger all&lt;/b&gt;!</example><example>My mother knows &lt;b&gt;bugger all&lt;/b&gt; about computers.</example></translation>
-			</translations>
-		</nouns>
+                <expressions>bugger all
+                <translations>
+                    <translation local="gb" register="vulgar">res<example>What have you done this morning?  &lt;b&gt;Bugger all&lt;/b&gt;!</example><example>My mother knows &lt;b&gt;bugger all&lt;/b&gt; about computers.</example></translation>
+                </translations>
+                </expressions>
+                <expressions>play silly buggers
+                <translations>
+                <translation>merdejar / tocar els collons<example>I'm sorry I didn't receive your last email but my mail server has been &lt;b&gt;playing silly buggers&lt;/b&gt; over the last few days.</example><example>Stop &lt;b&gt;playing silly buggers&lt;/b&gt; on this forum. I won't tell you again. You're f*cking it up for everyone.</example></translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="52800">buggered<adjectives>
 			<translations>
@@ -6016,6 +6071,19 @@
 	<Entry frequency="8620000">bulletin<nouns>
 			<translations>
 				<translation gender="m">butlletí</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="88100000">bulletin board<nouns>
+			<translations>
+                        <translation gender="m">taulell d'anuncis</translation>
+				<translation disambiguate="computers" termcat="true" gender="m">BBS</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="1520000">bulletin board system<nouns>
+			<translations>
+				<translation catagory="computers" termcat="true" gender="m">BBS</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6399,6 +6467,7 @@
 			<translations>
 				<translation gender="m">autobús<plural>buses</plural>
 				</translation>
+                                <translation disambiguate="computers" termcat="true" gender="m">bus</translation>
 			</translations>
 		</nouns>
 	</Entry>

@@ -313,6 +313,11 @@
                                 <translation intransitive="true" disambiguate="medical, computers">avortar<example>The program &lt;b&gt;aborts&lt;/b&gt; if a function throws an exception that is not listed.</example><example>Women &lt;b&gt;abort&lt;/b&gt; for a variety of reasons.</example></translation>
 			</translations>
 		</verbs>
+                <nouns>
+                <translations>
+                <translation disambiguate="computers" termcat="true" gender="m">avortament</translation>
+                </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="4740000">abortion<nouns>
 			<translations>
@@ -1381,6 +1386,12 @@
 				</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="9650000">address bar<nouns>
+			<translations>
+				<translation disambiguate="computers" termcat="true" gender="f">barra d'adreces</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="4750000">address book<nouns>
 			<translations>
@@ -3458,6 +3469,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="20200000">amplification<nouns>
+			<translations>
+				<translation gender="f">amplificació</translation>
+			</translations>
+		</nouns>
+	</Entry>
           <Entry frequency="7570000">amplifier<nouns>
 			<translations>
 				<translation gender="m">amplificador</translation>
@@ -3556,6 +3573,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="92400000">analog<adjectives>
+			<translations>
+				<translation>analògic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="2810000">analogy<nouns>
 			<translations>
 				<translation gender="f">analogia<plural>analogies</plural>
@@ -3574,6 +3597,12 @@
 			<translations>
 				<translation gender="f">anàlisi<plural>analyses</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="372000000">analyst<nouns>
+			<translations>
+				<translation catagory="work-job" gender="mf">analista</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3843,6 +3872,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="261000000">animation<nouns>
+			<translations>
+				<translation gender="f">animació</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="782000">animatronics<nouns>
+			<translations>
+				<translation gender="f">animació electrònica</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="9580000">anime<nouns>
 			<translations>
 				<translation gender="m">anime</translation>
@@ -4105,7 +4146,7 @@
 	</Entry>
         <Entry frequency="8310000">antenna<nouns>
 			<translations>
-				<translation gender="f">antena</translation>
+				<translation gender="f">antena<engexamp>Master antenna / community antenna</engexamp><catexamp>Antena col·lectiva</catexamp><engexamp>Directional antenna</engexamp><catexamp>Antena direccional</catexamp><engexamp>Omnidirectional antenna</engexamp><catexamp>Antena omnidireccional</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4278,6 +4319,18 @@
 				<translation>antiterrorista</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="55200000">antivirus<adjectives>
+			<translations>
+				<translation>antivirus<engexamp>Antivirus software</engexamp><catexamp>Programari antivirus</catexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="2100000">antivirus program<nouns>
+			<translations>
+				<translation catagory="computers" termcat="true" gender="m">antivirus</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="671000">anus<nouns>
 			<translations>
@@ -4693,6 +4746,10 @@
 	<Entry frequency="225000000">application<nouns>
 			<translations>
 				<translation gender="f">aplicació</translation>
+                                <translation>
+                                <translation disambiguate="computers" termcat="true" gender="f">aplicació</translation>
+                                <translation disambiguate="computers" termcat="true" gender="m">aplicatiu</translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5591,6 +5648,13 @@
 			</translations>
 		</verbs>
 	</Entry>
+          <Entry frequency="95900000">ASCII<engacro>American Standard Code for Information Interchange</engacro>
+          <nouns>
+			<translations>
+				<translation catagory="computers" gender="m">ASCII</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="4700000">ash<nouns>
 			<translations>
 				<translation gender="f">cendra<plural>ashes</plural>
@@ -5768,13 +5832,21 @@
 			<translations>
 				<translation>muntar<engnote>'Muntar' means 'to assemble' in the sense 'to put together' ('We assembled our IKEA furniture').</engnote></translation>
                                 <translation>reunir / aplegar<engnote>'Reunir' and 'aplegar' mean 'to assemble' in the sense 'to come together / to meet' ('The group assembled in front of the cathedral').</engnote></translation>
-			</translations>
+                                <translation disambiguate="computers" termcat="true">assemblar</translation>
+                                </translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="13700000">assembler<nouns>
+			<translations>
+				<translation disambiguate="computers" termcat="true" gender="m">assemblador</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="23700000">assembly<nouns>
 			<translations>
 				<translation gender="f">assemblea</translation>
                                 <translation gender="m">aplec<plural>assemblies</plural></translation>
+                                <translation disambiguate="computers" termcat="true" gender="m">assemblatge</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6069,6 +6141,23 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="37700000">asynchronous<adjectives>
+			<translations>
+				<translation catagory="computers" termcat="true">asíncron</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+          <Entry frequency="10010000000">at<prepositions>
+          <translations>
+          <translation>a</translation>
+          </translations>
+          </prepositions>
+          <nouns>
+			<translations>
+				<translation disambiguate="computers" termcat="true" gender="f">arrova / rova / a encerclada / ad / can</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="285000">atavistic<adjectives>
 			<translations>
 				<translation>atàvic</translation>
@@ -6189,6 +6278,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="1660000">at sign<nouns>
+			<translations>
+				<translation catagory="computers" termcat="true" gender="f">arrova / rova / a encerclada / ad / can<synonyms>at</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="21700000">attach<verbs>
 			<translations>
 				<translation>adjuntar / afegir</translation>
@@ -6293,6 +6388,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="11200000">attenuation<nouns>
+			<translations>
+				<translation catagory="computers" termcat="true" gender="f">atenuació</translation>
+                                </translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="6240000">at the moment<adverbs>
 			<translations>
 				<translation>de moment / actualment<synonyms>currently, right now</synonyms>
@@ -6385,6 +6486,36 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1190000000">audio<nouns>
+			<translations>
+				<translation termcat="true" gender="m">àudio</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="310000">audioconference<nouns>
+			<translations>
+				<translation catagory="computers" termcat="true" gender="f">audioconferència</translation>
+			</translations>
+		</nouns>
+	</Entry> 
+        <Entry frequency="773000">audio frequency<nouns>
+			<translations>
+				<translation termcat="true" gender="f">audiofreqüència<plural>audio frequencies</plural></translation>
+			</translations>
+		</nouns>
+	</Entry> 
+        <Entry frequency="988000">audiometer<nouns>
+			<translations>
+				<translation termcat="true" gender="m">audiòmetre</translation>
+			</translations>
+		</nouns>
+	</Entry> 
+        <Entry frequency="805000">audiometry<nouns>
+			<translations>
+				<translation termcat="true" gender="f">audiometria</translation>
+			</translations>
+		</nouns>
+	</Entry> 
         <Entry frequency="5360000">audiovisual<adjectives>
 			<translations>
 				<translation>audiovisual<catnote>Aquesta paraula també s'escriu 'audio-visual'.</catnote></translation>
@@ -6511,6 +6642,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="65900000">authenticate<verbs>
+			<translations>
+				<translation catagory="computers" termcat="true">autenticar</translation>
+			</translations>
+		</verbs>
+	</Entry>  
+        <Entry frequency="242000000">authentication<nouns>
+			<translations>
+				<translation catagory="computers" termcat="true" gender="f">autenticació</translation>
+			</translations>
+		</nouns>
+	</Entry> 
         <Entry frequency="6570000">authenticity<nouns>
 			<translations>
 				<translation gender="f">autenticitat</translation>
@@ -6520,6 +6663,12 @@
 	<Entry frequency="128000000">author<nouns>
 			<translations>
 				<translation gender="mf">autor</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="14300000">authorisation<nouns>
+			<translations>
+				<translation local="gb" gender="f">autorització<otherlocal>authorization</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6553,6 +6702,12 @@
 			<translations>
 				<translation gender="f">autoritat<plural>authorities</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="195000000">authorization<nouns>
+			<translations>
+				<translation gender="f">autorització</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6594,6 +6749,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="85000000">automate<verbs>
+			<translations>
+				<translation termcat="true">automatitzar</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="32300000">automatic<nouns>
 			<translations>
 				<translation disambiguate="transport" gender="m">cotxe automàtic<example>Is your car an &lt;b&gt;automatic&lt;/b&gt;?</example>
@@ -6606,12 +6767,36 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="1750000">automatics<nouns>
+			<translations>
+				<translation termcat="true" gender="f">automàtica</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="3950">automatic translator<nouns>
 			<translations>
 				<translation catagory="computers" gender="m">traductor automàtic</translation>
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="186000000">automation<nouns>
+			<translations>
+				<translation termcat="true" gender="f">automatització</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="401000">automatism<nouns>
+			<translations>
+				<translation termcat="true" gender="m">automatisme</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="13600000">automaton<nouns>
+			<translations>
+				<translation catagory="computers" termcat="true" gender="m">autòmat<plural>automata</plural></translation>
+			</translations>
+		</nouns>
+	</Entry> 
         <Entry frequency="24700000">automobile<nouns>
 			<translations>
 				<translation gender="m">automòbil</translation>

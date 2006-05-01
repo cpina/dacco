@@ -1205,6 +1205,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="42600000">headset<nouns>
+			<translations>
+				<translation termcat="true" gender="m">auricular</translation>
+			</translations>
+		</nouns>
+	</Entry> 
 	<Entry frequency="155000">head wind<nouns>
 			<translations>
 				<translation gender="m">vent en contra</translation>
@@ -1596,6 +1602,12 @@
 					<translation gender="m">servei de suport</translation>
 					<translation gender="m">servei d'atenció a</translation>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="7050000">helper application<nouns>
+			<translations>
+				<translation disambiguate="computers" termcat="true" gender="f">aplicació d'ajuda</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2092,11 +2104,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="33200000">high tech<adjectives>
+        <Entry frequency="124000000">high-tech<adjectives><mistakes>high tech</mistakes>
 			<translations>
-				<translation>d'alta tecnologia</translation>
+				<translation>d'alta tecnologia<engexamp>High-tech companies</engexamp><catexamp>Empreses d'alta tecnologia</catexamp></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="23500000">high technology<nouns>
+			<translations>
+				<translation gender="f">alta tecnologia</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="10300000">highway<nouns>
 			<translations>
@@ -3068,6 +3086,7 @@
 	<Entry frequency="146000000">host<nouns>
 			<translations>
 				<translation gender="mf">amfitrió</translation>
+                                <translation disambiguate="computers" gender="m">amfitrió</translation>
                                 <translation gender="mf">hoste</translation>
                                 <translation disambiguate="religious" gender="f">Hòstia</translation>
 			</translations>
@@ -3081,7 +3100,8 @@
 	</Entry>
           <Entry frequency="1090000">host computer<nouns>
 			<translations>
-				<translation catagory="computers" termcat="true" gender="m">ordinador central / amfitrió<engexamp>Remote host computer</engexamp><catexamp>Amfitrió remot / ordinador central remot</catexamp></translation>
+				<translation catagory="computers" termcat="true" gender="m">amfitrió<engexamp>Remote host computer</engexamp><catexamp>Amfitrió remot / ordinador central remot</catexamp></translation>
+                                <translation catagory="computers" gender="m">ordinador central</translation>
 			</translations>
 		</nouns>
 	</Entry>
