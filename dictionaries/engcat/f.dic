@@ -36,6 +36,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="7740000">fabled<adjectives>
+			<translations>
+				<translation>fabulós<synonyms>fabulous (lit.)</synonyms></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="7600000">fabric<nouns>
 			<translations>
 				<translation gender="m">teixit</translation>
@@ -51,6 +57,7 @@
 	<Entry frequency="4050000">fabulous<adjectives>
 			<translations>
 				<translation>meravellós</translation>
+                                <translation register="literary">fabulós<engnote>'Fabulós' means 'fabulous' in the literary sense 'fabled' (e.g. 'the unicorn is a fabulous animal')</engnote></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -80,6 +87,18 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="63300000">facet<nouns>
+			<translations>
+				<translation gender="f">faceta</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="73300000">facial<adjectives>
+			<translations>
+				<translation>facial</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="21200000">facilitate<verbs>
 			<translations>
@@ -1002,7 +1021,10 @@
 	<Entry frequency="214000000">feature<nouns>
 			<translations>
 				<translation gender="f">característica</translation>
-				<translation disambiguate="body" gender="m">tret</translation>
+                                <translation>
+                                <translation disambiguate="body" sourceplural="features" gender="fpl">faccions</translation>
+                                <translation disambiguate="body" sourceplural="features" gender="mpl">trets</translation>
+                                </translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -1331,6 +1353,12 @@
 				</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="9040000">fibromyalgia<nouns>
+			<translations>
+				<translation catagory="medical-illness" gender="f">fibromiàlgia</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="951000">fictitious<adjectives>
 			<translations>
@@ -2216,6 +2244,17 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="22300000">flank<nouns>
+			<translations>
+				<translation gender="m">flanc</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                <translations>
+                <translation>flanquejar</translation>
+                </translations>
+                </verbs>
 	</Entry>
         <Entry frequency="4950000">flare<nouns>
 			<translations>

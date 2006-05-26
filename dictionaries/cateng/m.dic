@@ -34,7 +34,10 @@
 	</Entry>
         <Entry frequency="1500">maça<nouns>
 			<translations><date>0506</date>
-				<translation gender="f">mace<plural>maces</plural></translation>
+				<translation gender="f">mace</translation>
+                                <translation gender="f">mallet / sledgehammer</translation>
+                                <translation catagory="household-room-kitchen" gender="f">pestle<synonyms>mà de morter</synonyms></translation>
+                                <translation catagory="household-room-kitchen" gender="f">meat tenderizer<plural>maces</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -229,6 +232,12 @@
 				<translation gender="m">teacher training</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="88600">magistral<adjectives>
+			<translations><date>0506</date>
+				<translation>magisterial / authoritative / masterly</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="2150">magnànim<adjectives>
 			<translations>
@@ -2796,6 +2805,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="570">messiànic<adjectives>
+			<translations><date>0506</date>
+				<translation catagory="religious">messianic<fems>messiànica</fems><femplural>messiàniques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="548">messianisme<nouns>
+			<translations><date>0506</date>
+				<translation catagory="religious" gender="m">messianism</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="73200">mestre<nouns>
 			<translations>
 				<translation catagory="work-job" gender="m / f">teacher<fems>mestra</fems>
@@ -2809,6 +2830,16 @@
 				<translation gender="f">measurement<engnote>'Mesura' means 'measurement' in the sense 'size of the thing being measured'.</engnote></translation>
 			</translations>
 		</nouns>
+                <expressions>a mesura que
+                <translations>
+                <translation>while / as</translation>
+                </translations>
+                </expressions>
+                <expressions>en la mesura que
+                <translations>
+                <translation>in so far as / in as far as</translation>
+                </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="4700">mesurament<nouns>
 			<translations><date>0405</date>
@@ -3038,6 +3069,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        	<Entry frequency="71400">mica<nouns>
+			<translations>
+				<translation gender="f">(a) little</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="6050">mico<nouns>
+			<translations><date>0605</date>
+				<translation gender="m">monkey / ape</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="710">microbús<nouns>
 			<translations>
 				<translation catagory="transport-mode" gender="m">minibus<plural>microbusos</plural>
@@ -3051,31 +3094,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="2630">microones<nouns>
-			<translations>
-				<translation catagory="household-room-kitchen-appliance" gender="m">microwave</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="71400">mica<nouns>
-			<translations>
-				<translation gender="f">(a) little</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="6050">mico<nouns>
-			<translations><date>0605</date>
-				<translation gender="m">monkey / ape</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="2970">micròfon<nouns>
+        <Entry frequency="2970">micròfon<nouns>
 			<translations>
 				<translation gender="m">microphone</translation>
 			</translations>
 		</nouns>
 	</Entry>
-        	<Entry frequency="12">micronesi<adjectives>
+        <Entry frequency="12">micronesi<adjectives>
 			<translations><date>0705</date>
 				<translation>Micronesian</translation>
 			</translations>
@@ -3087,6 +3112,18 @@
 	<Entry frequency="1020">Micronèsia<nouns>
 			<translations>
 				<translation catagory="country-asia" gender="f">Micronesia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+	<Entry frequency="2630">microones<nouns>
+			<translations>
+				<translation catagory="household-room-kitchen-appliance" gender="m">microwave</translation>
+			</translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="42900">microorganisme<nouns>
+			<translations><date>0506</date>
+				<translation catagory="biology" gender="m">microorganism<catnote>Aquesta paraula també s'escriu 'micro-organism'</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4310,6 +4347,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="294">montenegrí<nouns>
+			<translations><date>0506</date>
+				<translation catagory="nationality-europe" gender="m / f">Montenegrin</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>Montenegrin<plural>montenegrins</plural><fems>montenegrina</fems></translation>
+                </translations>
+                </adjectives>
+	</Entry>
 	<Entry frequency="5210">Montenegro<nouns>
 			<translations>
 				<translation catagory="country-europe" gender="m">Montenegro</translation>
@@ -5037,6 +5085,24 @@
                 <nouns>
                 <translations>
                 <translation gender="m / f">mute<fems>muda</fems></translation></translations></nouns>
+	</Entry>
+        <Entry frequency="64800">mutació<nouns>
+			<translations><date>0506</date>
+				<translation catagory="biology" gender="f">mutation<plural>mutacions</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="899">mutar<verbs conj="regular">
+			<translations><date>0506</date>
+				<translation catagory="biology">to mutate</translation>
+			</translations>
+		</verbs>
+	</Entry>
+           <Entry frequency="17300">mutilació<nouns>
+			<translations><date>0506</date>
+				<translation gender="f">mutilation<plural>mutilacions</plural></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="735">mutilar<verbs conj="regular">
 			<translations>

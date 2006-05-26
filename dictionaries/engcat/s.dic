@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Documents and Settings\James\My Documents\dacco projects\dacco\dictionary\dic.xsd">
-<Entry frequency="2200000">sabbatical<nouns>
+ <Entry frequency="5450000">Sabbath<nouns>
 			<translations>
-				<translation gender="m">any sabàtic</translation>
+				<translation catagory="religious" gender="m">sàbat</translation>
 			</translations>
 		</nouns>
+	</Entry>
+<Entry frequency="2200000">sabbatical<nouns>
+			<translations>
+				<translation gender="m">(any / trimestre) sabàtic<example>Professor Smith isn't teaching this term. He's on &lt;b&gt;sabbatical&lt;/b&gt; in New Zealand.</example></translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>sabàtic</translation>
+                </translations>
+                </adjectives>
 	</Entry>
         <Entry frequency="4880000">saber<nouns>
 			<translations>
@@ -63,11 +74,23 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="2100000">sacrilege<nouns>
+			<translations>
+				<translation gender="m">sacrilegi</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="94300">sacrosanct<adjectives>
 			<translations>
 				<translation>sagrat</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="1090000">sacrum<nouns>
+			<translations>
+				<translation catagory="body" gender="m">sacre<plural>sacra, sacrums</plural></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="1480000">sad<adjectives>
 			<translations>
@@ -665,6 +688,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="51700000">savannah<nouns>
+			<translations>
+				<translation gender="f">sabana</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="82800000">save<verbs>
 			<translations>
 				<translation catagory="computers" termcat="true">guardar / desar<engexamp>To save a file</engexamp>
@@ -870,6 +899,18 @@
 	<Entry frequency="3210000">scar<nouns>
 			<translations>
 				<translation catagory="medical" gender="f">cicatriu</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="44300000">scarce<adjectives>
+			<translations>
+				<translation>escàs<engexamp>Anti-discrimination laws are scarce</engexamp><catexamp>Les lleis contra la discriminació escassegen</catexamp><engnote>The feminine of 'escàs' is 'escassa', the plural is 'escassos'</engnote></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="19200000">scarcity<nouns>
+			<translations>
+				<translation gender="f">escassetat<synonyms>lack, dearth</synonyms><plural>scarcities</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2162,6 +2203,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="214000000">sensor<nouns>
+			<translations>
+				<translation gender="m">sensor</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="3920000">sensual<adjectives>
 			<translations>
 				<translation>sensual</translation>
@@ -2232,6 +2279,18 @@
 				<translation catagory="medical-illness" gender="f">ansietat per separació</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="1450000">Sephardi<nouns>
+			<translations>
+				<translation catagory="religious" gender="mf">sefardita<plural>Sephardim</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="1760000">Sephardic<adjectives>
+			<translations>
+				<translation catagory="religious">sefardita</translation>
+			</translations>
+		</adjectives>
 	</Entry>
            <Entry frequency="20000">seppo<nouns>
 			<translations>
@@ -4158,6 +4217,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="15800000">singularity<nouns>
+			<translations>
+				<translation gender="f">singularitat<plural>singularities</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>  
                 <Entry frequency="312000">Sinhalese<nouns>
 			<translations>
 				<translation catagory="language" gender="m">singalès</translation>
@@ -6008,9 +6073,9 @@
 			<translations>
 				<translation gender="f">sola<engnote>'Sola' means 'the sole of a shoe'</engnote>
 				</translation>
-				<translation catagory="body" gender="f">planta<engnote>'Planta' means 'the sole of your foot'</engnote>
+				<translation disambiguate="body" gender="f">planta<engnote>'Planta' means 'the sole of your foot'</engnote>
 				</translation>
-				<translation catagory="food-fish" gender="m">llenguado</translation>
+				<translation disambiguate="food-fish" gender="m">llenguado</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -6087,8 +6152,8 @@
 	</Entry>
                 <Entry frequency="1400000">Somali<nouns>
 			<translations>
-				<translation catagory="language" gender="m">somalí</translation>
-                                <translation catagory="nationality-africa" gender="mf">somalí</translation>
+				<translation catagory="language" gender="m">somali</translation>
+                                <translation catagory="nationality-africa" gender="mf">somali</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -6940,8 +7005,7 @@
 			<past>spelt, spelled</past>
 			<participle>spelt, spelled</participle>
 			<translations>
-			
-                       	<translation>lletrejar<engexamp>Could you spell that, please?</engexamp>
+   	<translation>lletrejar<engexamp>Could you spell that, please?</engexamp>
 					<catexamp>M'ho pots lletrejar, si us plau?</catexamp>
 				</translation>
 				<translation>escriure<engexamp>How do you spell ...?</engexamp>
@@ -10498,9 +10562,14 @@
 	</Entry>   
 	<Entry frequency="65700000">supply<verbs ie="true">
 			<translations>
-				<translation>proporcionar</translation>
+				<translation>proporcionar / subministrar</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                <translations>
+                <translation gender="m">subministrament</translation>
+                </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="463000000">support<verbs>
 			<translations>
@@ -11333,9 +11402,52 @@
 			</translations>
 		</nouns>
 	</Entry>
+           <Entry frequency="5580000">synchronise<verbs>
+			<translations>
+				<translation local="gb">sincronitzar<otherlocal>synchronize</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
+           <Entry frequency="148000">synchronised swimming<nouns>
+			<translations>
+				<translation catagory="sports-event" local="gb" gender="f">natació sincronitzada<otherlocal>synchronized swimming</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="64800000">synchronize<verbs>
+			<translations>
+				<translation>sincronitzar</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="52800">synchronized swimming<nouns>
 			<translations>
 				<translation catagory="sports-event" gender="f">natació sincronitzada</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="30400000">synchronous<adjectives>
+			<translations>
+				<translation>síncron</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+   <Entry frequency="3070000">synchrony<nouns>
+			<translations>
+				<translation gender="f">sincronia<plural>synchronies</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1520000">syncope<nouns>
+			<translations>
+				<translation disambiguate="medical" gender="f">síncope</translation>
+                                <translation disambiguate="linguistics" gender="f">síncope</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="56300000">synergy<nouns>
+			<translations>
+				<translation gender="f">sinergia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -11358,11 +11470,41 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="7100000">synoptic<adjectives>
+			<translations>
+				<translation register="formal">sinòptic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="70800">synoptical<adjectives>
+			<translations>
+				<translation register="formal">sinòptic</translation>
+			</translations>
+		</adjectives>
+	</Entry> 
 	<Entry frequency="7580000">syntax<nouns>
 			<translations>
 				<translation catagory="linguistics, computers-programming" gender="m">sintaxi</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="150000000">synthesis<nouns>
+			<translations>
+				<translation gender="f">síntesi<plural>syntheses</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="4070000">synthesise<verbs>
+			<translations>
+				<translation local="gb">sintetitzar<otherlocal>synthesize</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="48100000">synthesize<verbs>
+			<translations>
+				<translation>sintetitzar</translation>
+			</translations>
+		</verbs>
 	</Entry>
                 <Entry frequency="14200000">synthetic<adjectives>
 			<translations>
@@ -11432,11 +11574,59 @@
 			</translations>
 		</adverbs>
 	</Entry>
+        <Entry frequency="130000">systematisation<nouns>
+			<translations>
+				<translation local="gb" gender="f">sistematització<otherlocal>systematization</otherlocal><synonyms>systemisation</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="300000">systematise<verbs>
+			<translations>
+				<translation local="gb">sistematitzar<otherlocal>systematize</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="460000">systematization<nouns>
+			<translations>
+				<translation gender="f">sistematització<synonyms>systemization</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2410000">systematize<verbs>
+			<translations>
+				<translation>sistematitzar</translation>
+			</translations>
+		</verbs>
+	</Entry>    
         <Entry frequency="24200000">systemic<adjectives>
 			<translations>
 				<translation>sistèmic</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+           <Entry frequency="92900">systemisation<nouns>
+			<translations>
+				<translation local="gb">sistematització<otherlocal>systemization</otherlocal><synonyms>systematisation</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+            <Entry frequency="96300">systemise<verbs>
+			<translations>
+				<translation local="gb">sistematitzar<otherlocal>systemize</otherlocal><synonyms>systematise</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="133000">systemization<nouns>
+			<translations>
+				<translation>sistematització<synonyms>systematization</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="343000">systemize<verbs>
+			<translations>
+				<translation>sistematitzar<synonyms>systematize</synonyms></translation>
+			</translations>
+		</verbs>
 	</Entry>
            <Entry frequency="2330000">systolic<adjectives>
 			<translations>

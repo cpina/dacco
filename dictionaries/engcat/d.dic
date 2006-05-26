@@ -678,6 +678,12 @@
 			</translations>
 		</adverbs>
 	</Entry>
+        <Entry frequency="9640000">dearth<nouns>
+			<translations>
+				<translation gender="f">manca / falta / escassetat<synonyms>lack, scarcity</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="66200000">death<nouns>
 			<translations>
 				<translation gender="f">mort</translation>
@@ -742,6 +748,18 @@
                 <translation>endeutar-se</translation>
                 </translations>
                 </expressions>
+	</Entry>
+         <Entry frequency="61100000">debug<verbs double="true">
+			<translations>
+				<translation catagory="computers-programming">depurar / desbrossar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="102000000">debugging<nouns>
+			<translations>
+				<translation catagory="computers-programming" gender="m">desbrossament</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="27700000">decade<nouns>
 			<translations>
@@ -1726,6 +1744,54 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="253000">depolarisation<nouns>
+			<translations>
+				<translation local="gb" gender="f">despolarització<otherlocal>depolarization</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+             <Entry frequency="75000">depolarise<verbs>
+			<translations>
+				<translation local="gb">despolaritzar<otherlocal>depolarize</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
+             <Entry frequency="2560000">depolarization<nouns>
+			<translations>
+				<translation gender="f">despolarització</translation>
+			</translations>
+		</nouns>
+	</Entry>
+             <Entry frequency="920000">depolarize<verbs>
+			<translations>
+				<translation>despolaritzar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="36100">depoliticisation<nouns>
+			<translations>
+				<translation local="gb" gender="f">despolitització<otherlocal>depoliticization</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="84300">depoliticise<verbs>
+			<translations>
+				<translation local="gb">despolititzar<otherlocal>depoliticize</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="74800">depoliticization<nouns>
+			<translations>
+				<translation gender="f">despolitització</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="214000">depoliticize<verbs>
+			<translations>
+				<translation>despolititzar</translation>
+			</translations>
+		</verbs>
+	</Entry> 
 	<Entry frequency="9470000">deposit<verbs>
 			<translations>
 				<translation disambiguate="financial" local="us">ingressar<otherlocal>pay in</otherlocal></translation>
@@ -1833,6 +1899,7 @@
 		<nouns>
 			<translations>
 				<translation gender="mf">suplent / substitut</translation>
+                                <translation gender="mf">lloctinent</translation>
 				<translation gender="mf" local="us">ajudant del sheriff</translation>
 				<translation gender="mf">diputat<plural>deputies</plural>
 				</translation>
@@ -1906,6 +1973,18 @@
 	<Entry frequency="17300000">description<nouns>
 			<translations>
 				<translation gender="f">descripció</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="2100000">desecrate<verbs>
+			<translations>
+				<translation>profanar</translation>
+			</translations>
+		</verbs>
+	</Entry>        
+<Entry frequency="3820000">desecration<nouns>
+			<translations>
+				<translation gender="f">profanació</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2047,6 +2126,24 @@
 			</translations>
 		</adverbs>
 	</Entry>
+          <Entry frequency="3630000">despot<nouns>
+			<translations>
+				<translation gender="mf">dèspota</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="2490000">despotic<adjectives>
+			<translations>
+				<translation>despòtic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="2880000">despotism<nouns>
+			<translations>
+				<translation catagory="politics" gender="m">despotisme</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="11000000">dessert<nouns>
 			<translations>
 				<translation gender="mpl">postres<synonyms>pudding / afters (colloq.)</synonyms>
@@ -2117,7 +2214,7 @@
 	</Entry>
 	<Entry frequency="4800000">detach<verbs>
 			<translations>
-				<translation>separar<synonyms>separate</synonyms>
+				<translation>desprendre / separar<synonyms>separate</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -2132,9 +2229,11 @@
 	<Entry frequency="2900000">detachment<nouns>
 			<translations>
 				<translation>
-					<translation gender="f">indiferència / separació / desconnexió</translation>
-					<translation gender="m">alliberament / distanciament / allunyament</translation>
+                                <translation gender="ffullform">indiferència</translation>
+					<translation gender="f">separació / desconnexió</translation>
+					<translation gender="m">alliberament / distanciament / allunyament<example>The Swiss are polite conversationalists who prefer to assume an air of &lt;b&gt;detachment&lt;/b&gt;.</example></translation>
 				</translation>
+                                <translation gender="m">despreniment</translation>
 				<translation gender="m">destacament militar</translation>
 			</translations>
 		</nouns>
@@ -3177,6 +3276,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="19700000">discredit<verbs>
+			<translations>
+				<translation>desprestigiar</translation>
+			</translations>
+		</verbs>
+                <nouns>
+                <translations>
+                <translation gender="m">desprestigi</translation>
+                </translations>
+                </nouns>
+	</Entry>
 	<Entry frequency="1380000">discriminate<verbs>
 			<translations>
 				<translation>discriminar</translation>
@@ -3530,6 +3640,24 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="350000">dispossess<verbs>
+			<translations>
+				<translation>desposseir</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="917000">dispossession<nouns>
+			<translations>
+				<translation gender="f">despossessió</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1410000">disproportion<nouns>
+			<translations>
+				<translation gender="f">desproporció</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1250000">disproportionate<adjectives>
 			<translations>
 				<translation>desproporcionat</translation>
@@ -3557,6 +3685,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+                <Entry frequency="7950000">disqualification<nouns>
+			<translations>
+				<translation gender="f">desqualificació</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="21600000">disqualify<verbs ie="true">
+			<translations>
+				<translation>desqualificar</translation>
+			</translations>
+		</verbs>
+	</Entry> 
 	<Entry frequency="1500000">disregard<verbs>
 			<translations>
 				<translation>desatendre</translation>
@@ -4077,6 +4217,11 @@
 				<translation gender="m">document</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                <translations>
+                <translation>documentar</translation>
+                </translations>
+                </verbs>
 	</Entry>
 	<Entry frequency="11200000">documentary<nouns>
 			<translations>

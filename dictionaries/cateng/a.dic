@@ -62,11 +62,15 @@
 	</Entry>
 	<Entry frequency="296000" hasSound="true">abans<adverbs>
 			<translations>
-				<translation collocation="true">before<catexamp>Abans que</catexamp>
-					<engexamp>Rather than</engexamp>
+				<translation collocation="true">before
 				</translation>
 			</translations>
 		</adverbs>
+                <expressions>abans que
+                <translations>
+                <translation>rather than</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="905" hasSound="true">abans-d'ahir<adverbs>
 			<translations>
@@ -1498,6 +1502,13 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="23500">adés<adverbs>
+			<translations><date>0506</date>
+				<translation>just now<catnote>(Passat)</catnote></translation>
+                                <translation>in a (little) bit<engnote>The tense of the verb used with 'adés' dictates whether it means 'just now' or 'in a little bit'</engnote><catnote>(Futur)</catnote></translation>
+			</translations>
+		</adverbs>
+	</Entry>
 	<Entry frequency="20600" hasSound="true">adéu<exclamations>
 			<translations><date>0105</date>
 				<translation>goodbye! / bye! / bye bye!</translation>
@@ -2278,6 +2289,12 @@
 				<translation>to assault</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="18000">agredolç<adjectives>
+			<translations><date>0506</date>
+				<translation>bittersweet<fems>agredolça</fems><plural>agredolços</plural><femplural>agredolces</femplural></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="38100" hasSound="true">agressió<nouns>
 			<translations><date>0105</date>
@@ -6573,6 +6590,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="21100">articulista<nouns>
+			<translations><date>0506</date>
+				<translation catagory="work-job" gender="m / f">columnist</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="58800">artificial<adjectives>
 			<translations><date>0105</date>
 				<translation>artificial</translation>
@@ -6819,6 +6842,24 @@
 				<translation catagory="work" gender="m / f">employee<fems>assalariada</fems><synonyms>empleat</synonyms></translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="60800">assalt<nouns>
+			<translations><date>0506</date>
+				<translation gender="m">attack / assault</translation>
+                                </translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="620">assaltant<nouns>
+			<translations><date>0506</date>
+				<translation gender="m / f">attacker / assailant</translation>
+                                </translations>
+		</nouns>
+	</Entry> 
+         <Entry frequency="24900">assaltar<verbs conj="regular">
+			<translations><date>0506</date>
+				<translation>to attack / to assault</translation>
+                                </translations>
+		</verbs>
 	</Entry>
 <Entry frequency="320">assamès<nouns>
 			<translations>
@@ -8088,7 +8129,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="58300" hasSound="true">avenç<nouns>
+	<Entry frequency="18500">avemaria<nouns>
+			<translations><date>0506</date>
+				<translation catagory="religious" gender="f">Hail Mary</translation>
+                                </translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="58300" hasSound="true">avenç<nouns>
 			<translations>
 				<date>0205</date>
 				<translation gender="m">advance / progress</translation>

@@ -930,7 +930,7 @@
 		</nouns>
                 <expressions>fer campana
                 <translations>
-                <translation>to play truant / to bunk off</translation></translations></expressions>
+                <translation register="colloquial">to play truant / to bunk off<synonyms>fer fugina</synonyms></translation></translations></expressions>
 	</Entry>
 	<Entry frequency="85700">campanya<nouns>
 			<translations>
@@ -2091,7 +2091,7 @@
 	</Entry>
         	<Entry frequency="541">càrtel<nouns>
 			<translations><date>0506</date>
-				<translation gender="m">cartel</translation>
+				<translation gender="m">cartel<engnote>This word is also written without an accent in Catalan</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3449,7 +3449,8 @@
 	</Entry>
 	<Entry frequency="9440">cita<nouns>
 			<translations>
-				<translation gender="f">date / appointment</translation>
+                        <translation gender="f">appointment</translation>
+				<translation gender="f">date<catexamp>Cita a cegues</catexamp><engexamp>Blind date</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4633,13 +4634,13 @@
   </Entry>
 	<Entry frequency="31200">començament<nouns>
 			<translations>
-				<translation gender="m">beginning / start<catexamp>Des del començament</catexamp><engexamp>From the start / from the beginning / from the word go / from the get-go</engexamp></translation>
+				<translation gender="m">beginning / start / commencement (formal)<catexamp>Des del començament</catexamp><engexamp>From the start / from the beginning / from the word go / from the get-go</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="153000">començar<verbs conj="çtoC">
 			<translations>
-				<translation>to start / to begin</translation>
+				<translation>to start / to begin / to commence (formal)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4914,6 +4915,24 @@
 			<translations>
                         <translation gender="f">competence</translation>
 				<translation gender="f">competition</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="257000">competitiu<adjectives>
+			<translations><date>0506</date>
+				<translation>competitive<fems>competitiva</fems></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="263">competitivament<adverbs>
+			<translations><date>0506</date>
+				<translation>competitively</translation>
+			</translations>
+		</adverbs>
+	</Entry>
+        <Entry frequency="212000">competitivitat<nouns>
+			<translations><date>0506</date>
+				<translation gender="f">competitiveness</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5535,7 +5554,14 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="74900">conferència<nouns>
+	<Entry frequency="467">confabulació<nouns>
+			<translations><date>0506</date>
+				<translation gender="f">confabulation</translation>
+                                <translation gender="f">plot<plural>confabulacions</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="74900">conferència<nouns>
 			<translations>
 				<translation catagory="education" gender="f">conference</translation>
 			</translations>
@@ -5624,9 +5650,21 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="69600">conflent<nouns>
+			<translations><date>0506</date>
+				<translation gender="m">confluence<synonyms>confluència</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="58600">conflicte<nouns>
 			<translations>
 				<translation gender="m">conflict / fight</translation>
+			</translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="88500">confluència<nouns>
+			<translations><date>0506</date>
+				<translation gender="f">confluence<synonyms>conflent</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5650,6 +5688,28 @@
                 <translations>
                 <translation>to make do with (something)<synonyms>passar amb (alguna cosa)</synonyms>
                 </translation>
+                </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="9510">conformista<nouns>
+			<translations><date>0506</date>
+				<translation gender="m / f">conformist</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>conformist</translation>
+                </translations>
+                </adjectives>
+	</Entry>
+         <Entry frequency="1090000">conformitat<nouns>
+			<translations><date>0506</date>
+				<translation gender="f">conformity</translation>
+			</translations>
+		</nouns>
+                <expressions>de conformitat amb
+                <translations>
+                <translation>in conformity with</translation>
                 </translations>
                 </expressions>
 	</Entry>
@@ -8605,6 +8665,12 @@
 				<translation catagory="body" gender="f">thigh</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="39">cuixític<adjectives>
+			<translations><date>0506</date>
+				<translation catagory="linguistics">Cushitic<fems>cuixítica</fems><femplural>cuixítiques</femplural></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="29900">cul<nouns>
 			<translations><date>0805</date>

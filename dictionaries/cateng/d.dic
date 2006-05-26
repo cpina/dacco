@@ -532,6 +532,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="20500">deixadesa<nouns>
+			<translations><date>0506</date>
+				<translation gender="f">laxity / carelessness</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="46700">deixalla<nouns>
 			<translations><date>0106</date>
 				<translation sourceplural="deixalles" gender="fpl">leftovers</translation>
@@ -566,7 +572,7 @@
 		</nouns>
                 <adjectives>
                 <translations>
-                <translation>careless / slack<fems>deixada</fems></translation>
+                <translation>careless / slack / lax<fems>deixada</fems></translation>
                 </translations>
                 </adjectives>
 	</Entry>
@@ -652,6 +658,21 @@
 				<translation catagory="time">tomorrow</translation>
 			</translations>
 		</adverbs>
+                <expressions>demà passat
+                <translations>
+                <translation>the day after tomorrow</translation>
+                </translations>
+                </expressions>
+                <expressions>passat demà
+                <translations>
+                <translation>the day after tomorrow (Val.)</translation>
+                </translations>
+                </expressions>
+                <expressions>despús demà
+                <translations>
+                <translation>the day after tomorrow (Bal.)</translation>
+                </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="34">demacració<nouns>
 			<translations><date>0106</date>
@@ -965,6 +986,13 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="2260000">depurar<verbs conj="regular">
+			<translations><date>0506</date>
+                        <translation>to purify</translation>
+				<translation disambiguate="computers-programming">to debug<synonyms>desbrossar</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="2660">derbi<nouns>
 			<translations>
 				<translation catagory="sports-event-football" gender="m">derby</translation>
@@ -1104,6 +1132,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="318">desagradablement<adverbs>
+			<translations><date>0506</date>
+				<translation>unpleasantly</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 	<Entry frequency="795">desajustament<nouns>
 			<translations>
 				<translation gender="m">disparity / imbalance</translation>
@@ -1191,6 +1225,19 @@
 				<translation gender="m">disadvantage / downside</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="759">desbrossament<nouns>
+			<translations><date>0506</date>
+				<translation disambiguate="computers-programming" gender="m">debugging</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="520">desbrossar<verbs conj="regular">
+			<translations><date>0506</date>
+                        <translation>to clean up / to clear</translation>
+				<translation disambiguate="computers-programming">to debug<synonyms>depurar</synonyms></translation>
+			</translations>
+		</verbs>
 	</Entry>
          <Entry frequency="45">desbudellar<verbs conj="regular">
 			<translations><date>0106</date>
@@ -1417,7 +1464,7 @@
 	</Entry>
 	<Entry frequency="292">descordar<verbs conj="regular">
 			<translations>
-				<translation catagory="clothes">to unfasten / to undo / to untie</translation>
+				<translation catagory="clothes">to unfasten / to undo / to untie / to unlace</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1479,11 +1526,42 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="53000">desembocar<verbs conj="CtoQU">
+			<translations><date>0506</date>
+				<translation>to flow (out) (into) / to spill (out) (into) / to empty out (into) / to let (out) (into)<catnote>(Un riu)</catnote></translation>
+                                <translation>to open out (onto)</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="403">desembors<nouns>
+			<translations><date>0506</date>
+				<translation catagory="financial" gender="m">payment<plural>desemborsos</plural><synonyms>desemborsament</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="15400">desemborsament<nouns>
+			<translations><date>0506</date>
+				<translation catagory="financial" gender="m">payment<synonyms>desembors</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="759">desemborsar<verbs conj="regular">
+			<translations><date>0506</date>
+				<translation catagory="financial">to pay (out)</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="206000">desembre<nouns>
 			<translations>
 				<translation catagory="time-month" gender="m">December</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="985">desempallegar-se<verbs conj="GtoGU">
+			<translations><date>0506</date>
+                        <translation>to shake off / to get rid of</translation>
+			</translations>
+		</verbs>
 	</Entry>
         <Entry frequency="24200">desengany<nouns>
 			<translations><date>0206</date>
@@ -1990,6 +2068,13 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="46400">desordre<nouns>
+			<translations><date>0506</date>
+				<translation gender="m">mess</translation>
+                                <translation gender="m">disorder</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="71300">despatx<nouns>
 			<translations><date>0605</date>
 				<translation gender="m">office<plural>despatxos</plural>
@@ -2068,6 +2153,31 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="292">desplaent<adjectives>
+			<translations><date>0506</date>
+				<translation>disappointing / displeasing / dissatisfying</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="235">desplaer<nouns>
+			<translations><date>0506</date>
+				<translation gender="m">displeasure / dissatisfaction</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="464">desplaure<verbs>
+			<translations><date>0506</date>
+				<translation>to bother / to annoy / to displease (formal)</translation>
+			</translations>
+		</verbs>
+	</Entry>
+<Entry frequency="127000">desplegable<adjectives>
+			<translations><date>0506</date>
+				<translation>fold-out</translation>
+                                <translation disambiguate="computers">drop-down<catexamp>Menú desplegable</catexamp><engexamp>Drop-down menu</engexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="19300">desplegament<nouns>
 			<translations>
 				<translation catagory="topicalissues-war" gender="m">deployment</translation>
@@ -2082,6 +2192,26 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="529">desplomar<verbs conj="regular">
+			<translations><date>0506</date>
+				<translation>to knock down / to pull down</translation>
+                                <translation reflexive="desplomar-se">to fall down</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="627">despoblació<nouns>
+			<translations><date>0506</date>
+				<translation gender="f">depopulation<plural>despoblacions</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="381">despoblar<verbs conj="regular">
+			<translations><date>0506</date>
+				<translation>to depopulate</translation>
+                                <translation reflexive="despoblar-se">to become depopulated</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="623">despoblat<adjectives>
 			<translations><date>0505</date>
 				<translation>unpopulated<fems>despoblada</fems>
@@ -2089,9 +2219,135 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="203">despolarització<nouns>
+			<translations><date>0506</date>
+				<translation gender="f">depolarization / depolarisation (Br.)</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="65">despolaritzar<verbs conj="regular">
+			<translations><date>0506</date>
+				<translation>to depolarize / to depolarise (Br.)</translation>
+			</translations>
+		</verbs>
+	</Entry>
+           <Entry frequency="461">despolitització<nouns>
+			<translations><date>0506</date>
+				<translation gender="f">depoliticization / depoliticisation (Br.)</translation>
+                                </translations>
+		</nouns>
+	</Entry>
+             <Entry frequency="1080">despolititzar<verbs conj="regular">
+			<translations><date>0506</date>
+				<translation>depoliticize / depoliticise (Br.)</translation>
+                                </translations>
+		</verbs>
+	</Entry>
+          <Entry frequency="36100">depoliticisation<nouns>
+			<translations>
+				<translation local="gb" gender="f">despolitització<otherlocal>depoliticization</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="878">desposseir<verbs conj="irregular2">
+			<translations><date>0506</date>
+				<translation>to dispossess</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="310">despossessió<nouns>
+			<translations><date>0506</date>
+				<translation gender="f">dispossession</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="581">dèspota<nouns>
+			<translations><date>0506</date>
+				<translation gender="m / f">despot</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="671">despòtic<adjectives>
+			<translations><date>0506</date>
+				<translation>despotic<fems>despòtica</fems><femplural>despòtiques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry> 
+        <Entry frequency="831">despotisme<nouns>
+			<translations><date>0506</date>
+				<translation catagory="politics" gender="m">despotism</translation>
+			</translations>
+		</nouns>
+	</Entry>  
+        <Entry frequency="83100">desprendre<verbs conj="irregular6">
+			<translations><date>0506</date>
+				<translation>to detach</translation>
+                                <translation>to give off</translation>
+                                <translation>to deduce</translation>
+                                <translation reflexive="desprendre's">to be inferred (from) / to be suggested (by)<catexamp>Quina concepció de la cultura es desprèn de la lectura d'aquest text?</catexamp><engexamp>What concept of culture can be inferred from (o is suggested by) the reading of this text?</engexamp></translation>
+                                <translation reflexive="desprendre's">to get rid of / to shake off</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="26800">despreniment<nouns>
+			<translations><date>0506</date>
+				<translation gender="m">detachment / separation</translation>
+                                <translation disambiguate="medical" gender="m">detachment<catexamp>Despreniment de retina</catexamp><engexamp>Retinal detachment</engexamp></translation>
+                                <translation gender="m">selflessness</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="831">despreocupació<nouns>
+			<translations><date>0506</date>
+				<translation gender="f">lack of concern</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="1490">despreocupar-se<verbs conj="regular">
+			<translations><date>0506</date>
+				<translation>to not care (about) / to not worry (about)</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="173000">després<adverbs>
 			<translations>
 				<translation>after / afterwards</translation>
+			</translations>
+		</adverbs>
+	</Entry>
+         <Entry frequency="22000">desprestigi<nouns>
+			<translations><date>0506</date>
+				<translation gender="m">discrediting<catnote>(Acció)</catnote></translation>
+                                <translation gender="m">discredit<catnote>(Efecte)</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="14000">desprestigiar<verbs conj="irregular1">
+			<translations><date>0506</date>
+                            <translation>to discredit</translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="1100">desprevingut<adjectives>
+			<translations><date>0506</date>
+                            <translation>unforeseen<fems>desprevinguda</fems></translation>
+			</translations>
+		</adjectives>
+                <expressions>agafar algú desprevingut
+                <translations>
+                <translation>to catch (o take) someone unawares / to catch someone off-guard / to take someone by surprise</translation>
+                </translations>
+                </expressions>
+	</Entry> 
+         <Entry frequency="18000">desproporció<nouns>
+			<translations><date>0506</date>
+				<translation gender="f">disproportion<plural>desproporcions</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="739">desproporcionadament<adverbs>
+			<translations><date>0506</date>
+				<translation>disproportionately</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -2101,12 +2357,54 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="32800">despropòsit<nouns>
+			<translations><date>0506</date>
+				<translation gender="m">rubbish / nonsense / drivel</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="21800">desprotegit<adjectives>
+			<translations><date>0506</date>
+				<translation>unprotected / undefended<fems>desprotegida</fems></translation>
+			</translations>
+		</adjectives>
+	</Entry> 
+        <Entry frequency="325">desproveir<verbs conj="irregular2">
+			<translations><date>0506</date>
+				<translation>to divest (somebody of something) / to take (something) away (from somebody)</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="2030">despullar<verbs conj="regular">
 			<translations>
 				<translation>to get undressed / to undress / to take your clothes off</translation>
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="893">despús-ahir<adverbs>
+			<translations><date>0506</date>
+				<translation register="dialectal">the day before yesterday<synonyms>abans-d'ahir</synonyms></translation>
+			</translations>
+		</adverbs>
+	</Entry>
+        <Entry frequency="189">despús-demà<adverbs>
+			<translations><date>0506</date>
+				<translation>the day after tomorrow (Bal.)<synonyms>demà passat</synonyms></translation>
+			</translations>
+		</adverbs>
+	</Entry>
+        <Entry frequency="32700">desqualificació<nouns>
+			<translations><date>0506</date>
+				<translation gender="f">disqualification<plural>desqualificacions</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="19000">desqualificar<verbs conj="CtoQU">
+			<translations><date>0506</date>
+				<translation>to disqualify</translation>
+			</translations>
+		</verbs>
+	</Entry>        
         <Entry frequency="2790">dessuadora<nouns>
 			<translations><date>0905</date>
 				<translation catagory="clothes, sports" gender="f">sweatshirt</translation>
@@ -3786,6 +4084,12 @@
 				<translation gender="m">documentary<example>Roig i Negre és un &lt;b&gt;documental&lt;/b&gt; que es podrà veure a TV3.</example></translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="95000">documentar<verbs conj="regular">
+			<translations><date>0506</date>
+                            <translation>to document</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="2180">dofí<nouns>
 			<translations>
