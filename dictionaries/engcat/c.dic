@@ -899,6 +899,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="1040000">Cape Horn<nouns>
+			<translations>
+				<translation catagory="geography">Cap d'Hornos</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1690000">Cape of Good Hope<nouns>
+			<translations>
+				<translation catagory="geography">Cap de Bona Esperança</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1860000">caper<nouns>
 			<translations>
 				<translation catagory="food" gender="f">tàpera</translation>
@@ -3362,6 +3374,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="769000">chiropodist<nouns>
+			<translations>
+				<translation local="gb" catagory="medical-job, work-job" gender="mf">podòleg<otherlocal>podiatrist</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1650000">chiropody<nouns>
+			<translations>
+				<translation local="gb" catagory="medical-field" gender="mf">podologia<otherlocal>podiatry</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="1860000">chivalry<nouns>
 			<translations>
 				<translation gender="f">cavalleria</translation>
@@ -4594,6 +4618,22 @@
                         <translation>agafar</translation>
                         </translations>
                         </verbs>
+	</Entry>
+        <Entry frequency="70700000">clutter<nouns>
+			<translations>
+				<translation gender="m">desgavell / desordre</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                <translations>
+                <translation>emplenar desordenadament / desendreçar</translation>
+                </translations>
+                </verbs>
+                <phrasalverbs>clutter up
+                <translations>
+                <translation>emplenar desordenadament / desendreçar<example>Temp files &lt;b&gt;clutter up&lt;/b&gt; your hard drive</example><example>I wish you wouldn't &lt;b&gt;clutter up&lt;/b&gt; the garage with your rubbish. I want to park the car.</example></translation>
+                </translations>
+                </phrasalverbs>
 	</Entry>
         <Entry frequency="2780000">c'mon<expressions>
 			<translations>
@@ -7107,6 +7147,7 @@
 	<Entry frequency="2240000">consume<verbs>
 			<translations>
 				<translation>consumir</translation>
+                                <translation>ingerir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -8157,10 +8198,18 @@
                 </translation>
                 </translations>
                 </verbs>
-                <expressions>to cost an arm and a leg / a fortune / a bomb
+                <expressions>to cost an arm and a leg
                 <translations>
-                <translation>costar un ull de la cara / costar un ronyó</translation></translations></expressions>
-                <expressions>at all costs
+                <translation register="colloquial">costar un ull de la cara / costar un ronyó</translation></translations></expressions>
+             <expressions>to cost a bomb
+             <translations>
+             <translation register="colloquial">costar un ull de la cara / costar un ronyó</translation></translations></expressions>
+                <expressions>to cost a fortune
+             <translations>
+             <translation register="colloquial">costar un ull de la cara / costar un ronyó</translation>
+             </translations>
+             </expressions>
+                   <expressions>at all costs
                 <translations>
                 <translation>costi el que costi</translation></translations></expressions>
 	</Entry>
@@ -9337,6 +9386,11 @@
 				<translation gender="f">corona</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                <translations>
+                <translation>coronar</translation>
+                </translations>
+                </verbs>
 	</Entry>
 	<Entry frequency="6300000">crucial<adjectives>
 			<translations>

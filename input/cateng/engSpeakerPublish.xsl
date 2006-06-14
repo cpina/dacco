@@ -267,6 +267,9 @@
                     <xsl:if test="@register='humorous'">
 				<span class="register"> (humor) </span>
 			</xsl:if>
+                        <xsl:if test="@register='literary'">
+			<span class="register"> (lit.) </span>
+		</xsl:if>
 <xsl:if test="contains(@disambiguate,'Computers') or contains(@disambiguate,'computers') ">
 				<span class="category"><a href="../../../wordnets/MainComputersPage.htm">[IT]</a><xsl:text> </xsl:text></span>
 			</xsl:if>

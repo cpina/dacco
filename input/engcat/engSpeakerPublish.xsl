@@ -248,6 +248,9 @@
 				<xsl:if test="@register='dated'">
 					<span class="register"> (dated) </span>
 				</xsl:if>
+                                <xsl:if test="@register='literary'">
+			<span class="register"> (lit) </span>
+		</xsl:if>
 				<xsl:if test="contains(@disambiguate,'Computers') or contains(@disambiguate,'computers') ">
 					<span class="category">[IT] </span>
 				</xsl:if>

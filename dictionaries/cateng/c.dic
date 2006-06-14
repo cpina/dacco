@@ -1220,6 +1220,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="105000">canonada<nouns>
+			<translations><date>0606</date>
+				<translation gender="f">pipeline</translation>
+			</translations>
+		</nouns>
+	</Entry>
          	<Entry frequency="831">cansalada<nouns>
 			<translations><date>0805</date>
 				<translation catagory="food-meat" gender="f">bacon</translation>
@@ -1344,9 +1350,10 @@
 	</Entry>
 	<Entry frequency="1690000">cap<nouns>
 			<translations>
-				<translation catagory="body" gender="m">head</translation>
+				<translation disambiguate="body" gender="m">head</translation>
 				<translation gender="m">head / boss / chief</translation>
 				<translation gender="m">rope / cable</translation>
+                                <translation disambiguate="geography" gender="m">cape<catexamp>Cap d'Hornos</catexamp><engexamp>Cape Horn</engexamp></translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -1395,13 +1402,6 @@
                 </translations>
                 </expressions>
 	</Entry>
-	<Entry frequency="6950">cap d'any<nouns>
-			<translations>
-				<translation gender="m">New Year's</translation>
-				<translation gender="m">anniversary</translation>
-			</translations>
-		</nouns>
-	</Entry>
 	<Entry frequency="21300">capa<nouns>
 			<translations>
 				<translation gender="f">layer<catexamp>Capa d'ozó</catexamp>
@@ -1449,9 +1449,22 @@
                         </translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="6950">cap d'any<nouns>
+			<translations>
+				<translation gender="m">New Year's</translation>
+				<translation gender="m">anniversary</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="8130">capdavanter<nouns>
 			<translations>
 				<translation gender="m / f">leader<fems>capdavantera</fems></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="82">Cap de Bona Esperança<nouns>
+			<translations><date>0606</date>
+				<translation catagory="geography">Cape of Good Hope</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1476,6 +1489,12 @@
         <Entry frequency="259">cap de vendes<nouns>
 			<translations><date>1205</date>
 				<translation catagory="work-job" gender="m / f">sales manager</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1040000">Cap d'Hornos<nouns>
+			<translations><date>0606</date>
+				<translation catagory="geography">Cape Horn</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1778,7 +1797,7 @@
 	</Entry>
                 <Entry frequency="771">cardar<verbs conj="regular">
 			<translations><date>0805</date>
-				<translation>to fuck / to screw / to bonk (Br.) / to hump</translation>
+				<translation register="vulgar">to fuck / to screw / to bonk (Br.) / to hump</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1793,6 +1812,12 @@
 				<translation catagory="medical">heart / cardiac<catexamp>Cirurgia cardíaca</catexamp><engexamp>Heart surgery</engexamp><fems>cardíaca</fems><femplural>cardíaques</femplural></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="663">carestia<nouns>
+			<translations><date>0606</date>
+				<translation gender="f">shortage / scarcity</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="6720">cargol<nouns>
 			<translations>
@@ -2675,6 +2700,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="42500">cavallet<nouns>
+			<translations><date>0606</date>
+                            <translation gender="m">easel</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="9740">caviar<nouns>
 			<translations><date>0406</date>
 				<translation catagory="food" gender="m">caviar</translation>
@@ -2988,6 +3019,12 @@
         <Entry frequency="35">cercatalents<nouns>
 			<translations><date>1105</date>
 				<translation catagory="work" termcat="true" gender="m / f">headhunter / recruiter</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="135000">cercavila<nouns>
+			<translations><date>0606</date>
+				<translation gender="f">parade or procession through the streets of a town before / on the way to a religious celebration or a fiesta</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7266,6 +7303,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="20000">coronar<verbs>
+			<translations><date>0606</date>
+				<translation>to crown</translation>
+			</translations>
+		</verbs>
+	</Entry>
                  <Entry frequency="17100">coronel<nouns>
       <translations><date>1005</date>
         <translation gender="m/ f">colonel</translation>
@@ -7638,6 +7681,11 @@
                 <expressions>costi el que costi
                 <translations>
                 <translation>at all costs</translation></translations></expressions>
+                <expressions>costar un ull de la cara
+                <translations>
+                <translation>to cost an arm and a leg / to cost a fortune / to cost a bomb</translation>
+                </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="21600">Costa Rica<nouns>
 			<translations><date>1205</date>
@@ -8542,10 +8590,16 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="339">cúbit<nouns>
+			<translations><date>0606</date>
+				<translation catagory="body" gender="m">ulna<catnote>(Plural = ulnae)</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="5590">cuc<nouns>
 			<translations>
-				<translation catagory="animal" gender="m">worm</translation>
-				<translation catagory="computers" gender="m" termcat="true">worm</translation>
+				<translation disambiguate="animal" gender="m">worm</translation>
+				<translation disambiguate="computers" gender="m" termcat="true">worm</translation>
 			</translations>
 		</nouns>
 	</Entry>

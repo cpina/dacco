@@ -1291,6 +1291,12 @@
 			</translations>
 		</nouns>
 	</Entry> 
+        <Entry frequency="8640000">Bavaria<nouns>
+			<translations>
+				<translation catagory="geography-region-europe-germany" gender="f">Baviera</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="30300000">bawl<verbs>
 			<translations>
 				<translation>bramar / vociferar</translation>
@@ -1578,13 +1584,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="136000">bedlam<adjectives>
+	<Entry frequency="136000">bedlam<nouns>
 			<translations>
-				<translation register="colloquial">caòtic / molt animat<example>Whatever you do, avoid shopping in London on Christmas Eve, it's always &lt;b&gt;bedlam&lt;/b&gt;</example>
+				<translation register="colloquial" gender="m">caos / rebombori / desordre<example>Whatever you do, avoid shopping in London on Christmas Eve, it's always &lt;b&gt;bedlam&lt;/b&gt;</example>
 					<synonyms>chaotic</synonyms>
 				</translation>
 			</translations>
-		</adjectives>
+		</nouns>
 	</Entry>
         <Entry frequency="131000">bedpan<nouns>
 			<translations>
@@ -1613,6 +1619,17 @@
 				<translation gender="f">tauleta de nit</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="4810000">Bedouin<nouns>
+			<translations>
+				<translation gender="mf">beduí</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                <translations>
+                <translation>beduí</translation>
+                </translations>
+                </adjectives>
 	</Entry>
 	<Entry frequency="7290000">bee<nouns>
 			<translations>
@@ -4108,7 +4125,7 @@
 		</nouns>
                 <expressions>cost a bomb
                 <translations>
-                <translation>costar un ull de la cara / costar un ronyó</translation></translations></expressions>
+                <translation>costar un ull de la cara / costar un ronyó<synonyms>cost an arm and a leg, cost a fortune</synonyms></translation></translations></expressions>
 	</Entry>
 	<Entry frequency="985000">bombard<verbs>
 			<translations>
@@ -5832,6 +5849,11 @@
                                 </translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>bucket down
+                <translations>
+                <translation register="colloquial">ploure a bots i barrals</translation>
+                </translations>
+                </phrasalverbs>
 	</Entry>
          <Entry frequency="317000">buckle<nouns>
 			<translations>
@@ -6777,9 +6799,15 @@
 	</Entry>
         <Entry frequency="3720000">bypass<nouns>
 			<translations>
-				<translation gender="f">carretera de circumval·lació<plural>bypasses</plural></translation>
+				<translation gender="f">desviació<plural>bypasses</plural></translation>
 			</translations>
 		</nouns>
+                <verbs>
+                <translations>
+                <translation>evitar (fer marrada per no passar per un indret)</translation>
+                <translation>desentendre's de / ignorar</translation>
+</translations>
+</verbs>
 	</Entry>
        <Entry frequency="37500000">by-product<nouns>
 			<translations>

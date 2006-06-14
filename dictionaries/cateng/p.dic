@@ -738,6 +738,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="78100">Papua Nova Guinea<nouns>
+			<translations><date>0606</date>
+				<translation catagory="country-oceania">Papua New Guinea</translation>
+			</translations>
+		</nouns>
+	</Entry>  
 <Entry frequency="199">pàpula<nouns>
 			<translations><date>1005</date>
 				<translation disambiguate="medical" gender="f">papule</translation>
@@ -1928,6 +1934,26 @@
 				<translation>by the / for the<engnote>'Pels' is a contraction of 'per els'</engnote></translation>
 			</translations>
 		</abbreviations>
+	</Entry>
+       <Entry frequency="478">pelvià<adjectives>
+			<translations><date>0606</date>
+				<translation catagory="body">pelvic<catexamp>(Músculs del) sòl pelvià</catexamp><engexamp>Pelvic floor (muscles)</engexamp><fems>pelviana</fems><plural>pelvians</plural><synonyms>pèlvic</synonyms>
+				</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="780">pèlvic<adjectives>
+			<translations><date>0606</date>
+				<translation catagory="body">pelvic<catexamp>(Músculs del) sòl pèlvic</catexamp><engexamp>Pelvic floor (muscles)</engexamp><fems>pèlvica</fems><femplural>pèlviques</femplural><synonyms>pelvià</synonyms>
+				</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="13100">pelvis<nouns>
+			<translations><date>0606</date>
+				<translation catagory="body" gender="f">pelvis</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="3730">pena<nouns>
 			<translations>
@@ -3945,6 +3971,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="900">poció<nouns>
+			<translations><date>0606</date>
+				<translation gender="f">potion<plural>pocions</plural></translation>
+                        </translations>
+		</nouns>
+	</Entry>
         <Entry frequency="40000">poda<nouns>
 			<translations><date>0106</date>
 				<translation gender="f">pruning</translation>
@@ -3988,6 +4020,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="684">podòleg<nouns>
+			<translations><date>0606</date>
+				<translation catagory="medical-job, work-job" gender="m / f">chiropodist (Br) / podiatrist (Am.)<fems>podòloga</fems><femplural>podòlogues</femplural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="849">podrir<verbs conj="inceptive">
 			<translations><date>0605</date>
 				<translation transitive="true">to rot</translation>
@@ -4025,6 +4063,11 @@
 				<translation>polar</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                <translations>
+                <translation disambiguate="clothes" gender="m">fleece<engnote>Also 'folre polar'</engnote></translation>
+                </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="2080">polarització<nouns>
 			<translations>
@@ -4033,12 +4076,24 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="75000">polèmic<adjectives>
+			<translations><date>0606</date>
+				<translation>controversial<fems>polèmica</fems><femplural>polèmiques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="15000">polèmica<nouns>
 			<translations>
 				<translation gender="f">controversy / polemic / dispute<plural>polèmiques</plural>
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="831">polemitzar<verbs conj="regular">
+			<translations><date>0606</date>
+				<translation>to argue</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="51800">policia<nouns>
 			<translations>
@@ -5471,7 +5526,7 @@
 	</Entry>
 	<Entry frequency="96700">preveure<verbs conj="irregular29">
 			<translations>
-				<translation>to predict / to anticipate</translation>
+				<translation>to predict / to anticipate / to foresee</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6705,7 +6760,7 @@
 	</Entry>
 	<Entry frequency="2860">punter<nouns>
 			<translations>
-				<translation catagory="computers" gender="m">pointer</translation>
+				<translation catagory="computers" termcat="true" gender="m">pointer<synonyms>busca</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>

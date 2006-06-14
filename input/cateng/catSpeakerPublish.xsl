@@ -247,6 +247,9 @@
                     <xsl:if test="@register='humorous'">
 				<span class="register"> (hum.) </span>
 			</xsl:if>
+                        <xsl:if test="@register='literary'">
+			<span class="register"> (lit.) </span>
+		</xsl:if>
 <xsl:if test="contains(@disambiguate,'Computers') or contains(@disambiguate,'computers') ">
 				<span class="category">[INFORM] </span>
 			</xsl:if>
