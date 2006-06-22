@@ -185,7 +185,7 @@
 	</Entry>
 <Entry frequency="227">abegot<nouns>
 			<translations><date>0206</date>
-				<translation catagory="animal-insect" gender="m">drone (male bee)<synonyms>abellot</synonyms></translation>
+				<translation catagory="animal-insect" gender="m">drone<engnote>'Abegot' means 'drone' in the sense 'male bee'</engnote><synonyms>abellot</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>        
@@ -197,7 +197,7 @@
 	</Entry>
 <Entry frequency="297">abellot<nouns>
 			<translations><date>0206</date>
-				<translation catagory="animal-insect" gender="m">drone (male bee)<synonyms>abegot</synonyms></translation>
+				<translation catagory="animal-insect" gender="m">drone<engnote>'Abellot' means 'drone' in the sense 'male bee'</engnote><synonyms>abegot</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2336,13 +2336,13 @@
 	</Entry>
         <Entry frequency="16600" hasSound="true">agricultor<nouns>
 			<translations><date>0805</date>
-				<translation gender="m / f">farmer<fems>agricultora</fems></translation>
+				<translation catagory="agriculture, work-job" gender="m / f">farmer<fems>agricultora</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="147000" hasSound="true">agricultura<nouns>
 			<translations><date>0105</date>
-				<translation gender="f">agriculture</translation>
+				<translation catagory="agriculture" gender="f">agriculture / farming</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2823,7 +2823,7 @@
         <Entry frequency="30400" hasSound="true">alcohol<nouns>
 			<translations>
 				<date>0705</date>
-				<translation catagory="food-drink" gender="m">alcohol / booze</translation>
+				<translation catagory="food-drink" gender="m">alcohol / booze (arg.)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2970,13 +2970,13 @@
 	</Entry>
           <Entry frequency="4090" hasSound="true">algebraic<adjectives>
 			<translations><date>0605</date>
-				<translation catagory="maths">algebraic<fems>algebraica</fems><femplural>algebraiques</femplural></translation>
+				<translation catagory="maths">algebraic<synonyms>algèbric</synonyms><fems>algebraica</fems><femplural>algebraiques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
           <Entry frequency="343" hasSound="true">algèbric<adjectives>
 			<translations><date>0605</date>
-				<translation catagory="maths">algebraic<fems>algèbrica</fems><femplural>algèbriques</femplural><synonyms>algebraic</synonyms></translation>
+				<translation catagory="maths">algebraic<synonyms>algebraic</synonyms><fems>algèbrica</fems><femplural>algèbriques</femplural><synonyms>algebraic</synonyms></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3638,6 +3638,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="785">ambivalència<nouns>
+			<translations><date>0606</date>
+				<translation gender="f">ambivalence</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="10500">ambivalent<adjectives>
+			<translations><date>0606</date>
+				<translation>ambivalent</translation>
+			</translations>
+		</adjectives>
+	</Entry> 
 	<Entry frequency="11100">ambulància<nouns>
 			<translations>
 				<date>0205</date>
@@ -4020,7 +4032,8 @@
 	<Entry frequency="241">amotinar<verbs conj="regular">
 			<translations>
 				<date>0205</date>
-				<translation>to mutiny</translation>
+				<translation>to raise / cause / provoke a mutiny</translation>
+                                <translation reflexive="amotinar-se">to mutiny</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4737,6 +4750,12 @@
                  <Entry frequency="44">ansietat per separació<nouns>
 			<translations><date>0905</date>
 				<translation catagory="medical-illness" gender="f">separation anxiety</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="750">ant<nouns>
+			<translations><date>0606</date>
+				<translation catagory="animal-animal" gender="m">moose / elk<catnote>Al Canadà i als Estats Units: 'ant' = 'moose'. En Europa: 'ant' = 'elk'</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5929,12 +5948,25 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="82300">arbitral<adjectives>
+			<translations><date>0606</date>
+				<translation>arbitral</translation>
+                                <translation disambiguate="sports">referee's ... / ref's ...<catexamp>Decisió arbitral</catexamp><engexamp>Referee's (o ref's) decision</engexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="13700">arbitrari<adjectives>
 			<translations><date>0105</date>
 				<translation>arbitrary<fems>arbitrària</fems>
 				</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="121000">arbitratge<nouns>
+			<translations><date>0606</date>
+				<translation gender="m">arbitration</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="23200">àrbitre<nouns>
 			<translations><date>0105</date>
