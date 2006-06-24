@@ -1858,6 +1858,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="13500000">informació<nouns>
+			<translations><date>0606</date>
+				<translation gender="ffullform">information<catexamp>Una informació</catexamp><engexamp>A piece of information</engexamp><plural>informacions</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="18000">informal<adjectives>
 			<translations><date>0805</date>
 				<translation>informal / casual</translation>
@@ -3736,8 +3742,9 @@
 	</Entry>
 	<Entry frequency="41500">invertir<verbs conj="inceptive">
 			<translations>
-				<translation catagory="financial">to invest</translation>
+				<translation disambiguate="financial">to invest</translation>
 				<translation>to invert</translation>
+                                <translation>to reverse</translation>
 			</translations>
 		</verbs>
 	</Entry>
