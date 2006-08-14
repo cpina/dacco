@@ -1086,6 +1086,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="12800000">feeble<adjectives>
+			<translations>
+				<translation>flac</translation>
+                                <translation>patètic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="11900000">feed<verbs>
 			<past>fed</past>
 			<participle>fed</participle>
@@ -2278,7 +2285,10 @@
 	</Entry>
          <Entry frequency="1780000">flashlight<nouns>
 			<translations>
-				<translation local="us" gender="f">llanterna<otherlocal>torch</otherlocal></translation>
+                        <translation>
+				<translation local="us" gender="f">llanterna</translation>
+                                <translation local="us" gender="m">lot<otherlocal>torch</otherlocal></translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3337,6 +3347,7 @@
 			<gerund>forgetting</gerund>
 			<translations>
 				<translation>oblidar</translation>
+                                <translation>descuidar-se<engexamp>I forgot to grab my keys</engexamp><catexamp>Me n'he descuidat d'agafar les claus</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>

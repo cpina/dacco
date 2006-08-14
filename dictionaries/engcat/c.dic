@@ -5249,6 +5249,18 @@
 			</translations>
 		</phrasalverbs>
 	</Entry>
+        <Entry frequency="1950000">color-blind<adjectives>
+			<translations>
+				<translation local="us">daltonià<otherlocal>colour-blind</otherlocal></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="2600000">color blindness<nouns>
+			<translations>
+				<translation local="us">daltonisme<otherlocal>colour-blindness</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="2370000">colored pencil<nouns>
 			<translations>
 				<translation local="us" gender="m">llapis de color<otherlocal>coloured pencil</otherlocal></translation>
@@ -5304,6 +5316,18 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
+	</Entry>
+        <Entry frequency="369000">colour-blind<adjectives>
+			<translations>
+				<translation local="gb">daltonià<otherlocal>color-blind</otherlocal></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="236000">colour blindness<nouns>
+			<translations>
+				<translation local="gb">daltonisme<otherlocal>color blindness</otherlocal></translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="457000">coloured pencil<nouns>
 			<translations>
@@ -8514,7 +8538,8 @@
 			<translations>
 			 	<translation gender="m">tribunal / jutjat</translation>
                                 <translation disambiguate="sports" gender="f">pista<engexamp>Tennis court</engexamp><catexamp>Pista de tennis</catexamp></translation>
-			</translations>
+                                <translation disambiguate="monarchy" gender="f">cort<engnote>'Cort' means 'court' in the sense 'royal court' (e.g. 'The court of King James')</engnote></translation>
+                                </translations>
 		</nouns>
 		<verbs>
 			<translations>
@@ -8533,6 +8558,18 @@
 				<translation>amb cortesia</translation>
 			</translations>
 		</adverbs>
+	</Entry>
+        <Entry frequency="2650000">courtesan<nouns>
+			<translations>
+				<translation gender="f">cortesana</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="3360000">courtier<nouns>
+			<translations>
+				<translation gender="mf">cortesà</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="990000">Court of Appeal<nouns>
 			<translations>
@@ -8749,7 +8786,7 @@
         <Entry frequency="1070000">cram<verbs double="true">
 			<translations>
 				<translation>omplir fins a dalt / atapeir</translation>
-                                <translation disambiguate="education">clavar colzes<engnote>'Clavar colzes' means 'to cram' in the sense 'to cram for an exam'.</engnote></translation>
+                                <translation disambiguate="education">empollar / clavar colzes<synonyms>swot</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -9487,8 +9524,8 @@
 	</Entry>
 	<Entry frequency="269000">crumble<verbs>
 			<translations>
-				<translation>esmicolar / engrunar</translation>
-                                <translation>ensorrar-se / esfondrar-se</translation>
+				<translation transitive="true">esmicolar / engrunar</translation>
+                                <translation intransitive="true">esmicolar-se / ensorrar-se / esfondrar-se</translation>
 			</translations>
 		</verbs>
 		<nouns>

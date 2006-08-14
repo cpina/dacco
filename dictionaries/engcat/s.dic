@@ -2589,6 +2589,7 @@
 			<translations>
 				<translation gender="m">assentament</translation>
                                 <translation gender="m">acord<engexamp>Out-of-court settlement</engexamp><catexamp>Acord extrajudicial</catexamp></translation>
+                                <translation disambiguate="legal" gender="f">quitança</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2830,6 +2831,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="20100000">shameless<adjectives>
+			<translations>
+				<translation>impúdic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="266000">shamelessness<nouns>
+			<translations>
+				<translation gender="ffullform">impudícia</translation>
+			</translations>
+		</nouns>
+	</Entry>        
         <Entry frequency="353000">shammy<nouns>
 			<translations>
 				<translation gender="f">camussa<plural>shammies</plural><catnote>També s'escriu 'chamois'. En anglès britànic s'escriu 'chamois', 'shammy', 'chamois leather' o 'shammy leather'</catnote></translation>
@@ -2935,7 +2948,8 @@
 	</Entry>
 	<Entry frequency="764000">shatter<verbs>
 			<translations>
-				<translation>esmicolar</translation>
+				<translation transitive="true">esmicolar</translation>
+                                <translation intransitive="true">esmicolar-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4232,6 +4246,12 @@
 	<Entry frequency="1650000">single room<nouns>
 			<translations>
 				<translation gender="f">habitació individual</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="6490000">singlet<nouns>
+			<translations>
+				<translation catagory="clothes" local="us, aus" gender="f">samarreta sense mànigues<catnote>En Gran Bretanya, 'singlet' és una paraula més bé tècnica o comercial. La paraula més usual és 'vest'</catnote><otherlocal>vest</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -11089,7 +11109,7 @@
 	</Entry>
         <Entry frequency="4870000">sweater<nouns>
 			<translations>
-				<translation catagory="clothes" gender="m">sùeter / jersei<synonyms>jumper</synonyms></translation>
+				<translation catagory="clothes" gender="m">suèter / jersei<synonyms>jumper</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -11392,6 +11412,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="2870000">swot<verbs double="true">
+			<translations>
+				<translation>empollar / clavar colzes<synonyms>cram</synonyms><engnote>Although widely used in Catalan, some consider 'empollar' to be a Castilianism.</engnote></translation>
+			</translations>
+		</verbs>
+	</Entry>
         <Entry frequency="497000">sycophantic<adjectives>
 			<translations>
 				<translation register="formal">servil</translation>
@@ -11519,6 +11545,12 @@
    <Entry frequency="3070000">synchrony<nouns>
 			<translations>
 				<translation gender="f">sincronia<plural>synchronies</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="978000">syncopation<nouns>
+			<translations>
+				<translation catagory="entertainment-music" gender="f">síncope</translation>
 			</translations>
 		</nouns>
 	</Entry>

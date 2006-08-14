@@ -109,10 +109,16 @@
 	</Entry>
 	<Entry frequency="7470000">tackle<nouns>
 			<translations>
-				<translation catagory="sports-event-football, sports-event-rugby" gender="f">entrada</translation>
+				<translation catagory="sports-event-hockey" gender="f">entrada</translation>
+                                <translation catagory="sports-event-rugby" gender="m">placatge</translation>
 				<translation register="slang" gender="mpl">genitals masculins</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                <translations>
+                <translation disambiguate="sports-event-rugby">placar</translation>
+                </translations>
+                </verbs>
 	</Entry>
 	<Entry frequency="310000">tacky<adjectives>
 			<translations>
@@ -349,7 +355,7 @@
 		</nouns>
                 <expressions>takeover bid
                 <translations>
-                <translation>OPA<catacro>oferta pública d'adquisició</catacro>
+                <translation>OPA<catacro>oferta pública d'adquisició</catacro><engexamp>To launch a takeover bid</engexamp><catexamp>Llançar una OPA</catexamp>
                 </translation>
                 </translations>
                 </expressions>
@@ -3433,8 +3439,11 @@
 	</Entry>
          <Entry frequency="2650000">torch<nouns>
 			<translations>
-				<translation local="gb" gender="f">llanterna<engnote>'Llanterna' means the battery-operated type of torch.</engnote><plural>torches</plural><otherlocal>flashlight</otherlocal></translation>
-                                <translation gender="f">torxa<engnote>'Torxa' means the 'set end on fire' type of torch (i.e. like the Olympic torch).</engnote></translation>
+                        <translation>
+				<translation local="gb" gender="f">llanterna<otherlocal>flashlight</otherlocal></translation>
+                                <translation local="gb" gender="m">lot<engnote>'Llanterna' and 'lot' mean the battery-operated type of torch. 'Lot' is a registered trademark but is widely used</engnote></translation>
+                        </translation>
+                                 <translation gender="f">torxa<plural>torches</plural><engnote>'Torxa' means the 'set end on fire' type of torch (i.e. like the Olympic torch).</engnote></translation>
 			</translations>
 		</nouns>
                 <verbs>
