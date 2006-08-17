@@ -973,6 +973,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="25000000">caps<nouns>
+			<translations>
+				<translation gender="fpl">majúscules</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2170000">capsicum<nouns>
+			<translations>
+				<translation catagory="food-vegetable" local="aus" gender="m">pebrot<otherlocal>pepper</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="18200000">captain<nouns>
 			<translations>
 				<translation gender="m">capità</translation>
@@ -1813,6 +1825,7 @@
 	<Entry frequency="444000">categorical<adjectives>
 			<translations>
 				<translation>categòric</translation>
+                                <translation>taxatiu</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2516,6 +2529,7 @@
 			<translations>
 				<translation gender="m">canvi<catnote>L'expressió 'to have a change of heart' vol dir 'canviar d'actitud' (Per exemple: 'Fortunately for Diane, although her father said she couldn't go out to the disco that night he had a change of heart at the last minute and said she could go after all')</catnote>
 				</translation>
+                                <translation capitalized="the change (of life)" gender="f">menopausa<example>The book 'Menopause for Dummies' is designed for women currently going through &lt;b&gt;the change&lt;/b&gt;.</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3011,9 +3025,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="6320000">chemo<nouns>
+			<translations>
+				<translation catagory="medical" gender="f">quimio</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1910000">chemotherapy<nouns>
 			<translations>
-				<translation gender="f">quimioteràpia</translation>
+				<translation catagory="medical" gender="f">quimioteràpia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3367,6 +3387,12 @@
 				<translation disambiguate="computers" termcat="true" gender="m">xip</translation>
                                 <translation disambiguate="food" local="gb" picture="http://photos17.flickr.com/19770290_4c04bd9f9f.jpg" flickr="http://www.flickr.com/photos/iwouldstay/19770290/" gender="f">patata fregida<otherlocal>(French) fry</otherlocal></translation>
                                 <translation disambiguate="food" local="us" picture="http://photos16.flickr.com/22620207_95c91845ae.jpg" flickr="http://www.flickr.com/photos/tienmao/22620207/" gender="f">patata fregida<otherlocal>crisp</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="6220000">chipmunk<nouns>
+			<translations>
+				<translation catagory="animal-animal" gender="m">esquirol llistat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5248,6 +5274,11 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
+                <expressions>show your true colors
+                               <translations>
+                                <translation>veure's el llautó<example>Part of the pleasure of this film is watching Hackman &lt;b&gt;show his true colors&lt;/b&gt; to his estranged son.</example><example>Chrissie knew that Tommy couldn't be trusted and so she set about seducing him, with the hope that he would respond and &lt;b&gt;show his true colors&lt;/b&gt;.</example></translation>
+                               </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="1950000">color-blind<adjectives>
 			<translations>
@@ -5312,10 +5343,14 @@
 		</verbs>
 		<phrasalverbs>colour in
 			<translations>
-				<translation local="gb">acolorir<otherlocal>color in</otherlocal>
-				</translation>
+				<translation>acolorir</translation>
 			</translations>
 		</phrasalverbs>
+                  <expressions>show your true colours
+                               <translations>
+                                <translation>veure's el llautó<example>Part of the pleasure of this film is watching Hackman &lt;b&gt;show his true colours&lt;/b&gt; to his estranged son.</example><example>Chrissie knew that Tommy couldn't be trusted and so she set about seducing him, with the hope that he would respond and &lt;b&gt;show his true colours&lt;/b&gt;.</example></translation>
+                               </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="369000">colour-blind<adjectives>
 			<translations>
@@ -5414,7 +5449,7 @@
 			<participle>come</participle>
 			<translations>
 				<translation>venir</translation>
-                                <translation register="slang">escórrer-se / ejacular</translation>
+                                <translation register="slang">escórrer-se / ejacular / arribar</translation>
 			</translations>
 		</verbs>
 		<phrasalverbs>come from
@@ -9291,6 +9326,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="7100000">Crohn's disease<nouns>
+			<translations>
+				<translation catagory="medical-illness" gender="f">malaltia de Crohn</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="660000">croissant<nouns>
 			<translations>
 				<translation catagory="food" gender="m">croissant</translation>
@@ -9951,12 +9992,12 @@
 	</Entry>
 	<Entry frequency="2400000">curse<nouns>
 			<translations>
-				<translation gender="f">maledicció</translation>
+				<translation gender="f">maledicció<synonyms>hex (Am.)</synonyms></translation>
 			</translations>
 		</nouns>
                 <verbs>
                 <translations>
-                <translation>maleir</translation></translations></verbs>
+                <translation>maleir<synonyms>hex (Am.)</synonyms></translation></translations></verbs>
 	</Entry>
 	<Entry frequency="16100000">cursor<nouns>
 			<translations>
@@ -10073,7 +10114,7 @@
 	</Entry>
 	<Entry frequency="5800000">customs<nouns>
 			<translations>
-				<translation gender="f">duana</translation>
+				<translation gender="f">duana<engexamp>Customs clearance</engexamp><catexamp>Tràmits duaners</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -10104,6 +10145,12 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
+	</Entry>
+        <Entry frequency="9540000">cutaneous<adjectives>
+			<translations>
+				<translation>cutani</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="7250000">cute<adjectives>
 			<translations>

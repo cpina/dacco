@@ -1391,7 +1391,7 @@
                 </phrasalverbs>
                 <phrasalverbs>be up to (something)
                 <translations>
-                <translation>fer<example>What &lt;b&gt;is&lt;/b&gt; he &lt;up to&lt;/b&gt; now?</example></translation>
+                <translation>fer<example>What &lt;b&gt;is&lt;/b&gt; he &lt;b&gt;up to&lt;/b&gt; now?</example></translation>
                 <translation>trobar-se capaç a / ser prou bo per a<example>I've put Jessica in charge of the office while I'm out. Do you think she&lt;b&gt;'s up to&lt;/b&gt; it?</example></translation>
                 </translations>
                 </phrasalverbs>
@@ -1819,7 +1819,7 @@
 	<Entry frequency="32100000">behavior<nouns>
 			<translations>
 				<translation>
-					<translation local="us" gender="m">comportament</translation>
+					<translation local="us" gender="m">comportament / capteniment</translation>
 					<translation gender="f">conducta</translation>
 					<otherlocal>behaviour</otherlocal>
 				</translation>
@@ -1829,7 +1829,7 @@
 	<Entry frequency="20000000">behaviour<nouns>
 			<translations>
 				<translation>
-					<translation local="gb" gender="m">comportament</translation>
+					<translation local="gb" gender="m">comportament / capteniment</translation>
 					<translation gender="f">conducta</translation>
 					<otherlocal>behavior</otherlocal>
 				</translation>
@@ -2242,12 +2242,13 @@
 			<participle>bet</participle>
 			<gerund>betting</gerund>
 			<translations>
-				<translation>apostar<example>I'll &lt;b&gt;bet&lt;/b&gt; you anything you like he won't show up</example>
+				<translation>apostar
 					<example>Simon &lt;b&gt;bet&lt;/b&gt; his friend £20 that he couldn't fit a whole Big Mac in his mouth in one go.</example>
 					<example>If you &lt;b&gt;bet&lt;/b&gt; £10 on a horse at 5-1 then you stand to win £50</example>
 					<engexamp>To bet on something</engexamp>
 					<catexamp>Apostar per alguna cosa</catexamp>
 				</translation>
+                                <translation>jugar-se<example>I'll &lt;b&gt;bet&lt;/b&gt; you anything you like he won't show up</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3260,6 +3261,13 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="5530000">blanch<verbs>
+			<translations>
+				<translation register="formal">empal·lidir<example>The defendant visibly &lt;b&gt;blanched&lt;/b&gt; when the judge read the verdict of guilty on all counts.</example></translation>
+                                <translation catagory="food">escaldar<example>&lt;b&gt;Blanch&lt;/b&gt; the tomatoes in boiling water for thirty seconds, then cool in a bowl of ice water and remove the skins with your fingers.</example></translation>
+			</translations>
+		</verbs>
+	</Entry>
         <Entry frequency="3830000">bland<adjectives>
 			<translations>
 				<translation>insípid</translation>
@@ -3842,9 +3850,7 @@
 				<translation disambiguate="education" gender="f">pissarra<synonyms>blackboard (Br.) / chalkboard (Am.)</synonyms>
 					<engnote>'Pissarra' means 'board' as in 'blackboard'</engnote>
 				</translation>
-				<translation gender="m">tauler d'anuncis<synonyms>noticeboard</synonyms>
-					<engnote>'Tauler d'anuncis' means 'board' as in 'noticeboard'</engnote>
-				</translation>
+				<translation gender="m">tauler</translation>
 				<translation gender="f">pensió<engexamp>Full board</engexamp>
 					<catexamp>Pensió completa</catexamp>
 					<engexamp>Half board</engexamp>
@@ -5230,6 +5236,12 @@
         <Entry frequency="338000">breastplate<nouns>
 			<translations>
 				<translation gender="m">plastró</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1740000">breast pump<nouns>
+			<translations>
+				<translation gender="m">tirallet</translation>
 			</translations>
 		</nouns>
 	</Entry>
