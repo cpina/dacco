@@ -387,14 +387,9 @@
 	</Entry>
 	<Entry frequency="232000000">date<nouns>
 			<translations>
-				<translation gender="f">data<engnote>&apos;Data&apos; means &apos;date&apos; as in &apos;March 2nd&apos;</engnote>
-					<engexamp>In date order</engexamp>
-					<catexamp>Per data</catexamp>
-				</translation>
-				<translation gender="f">cita<engnote>&apos;Cita&apos; means &apos;date&apos; as in &apos;I&apos;ve got a date with John&apos;</engnote>
-				</translation>
-				<translation gender="m">dàtil<engnote>&apos;Dàtil&apos; means &apos;date&apos; as in the fruit</engnote>
-				</translation>
+				<translation gender="f">data<engexamp>In date order</engexamp><catexamp>Per data</catexamp></translation>
+				<translation gender="f">cita<engexamp>Blind date</engexamp><catexamp>Cita a cegues</catexamp></translation>
+				<translation disambiguate="food-fruit" gender="m">dàtil</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1337,7 +1332,7 @@
 	</Entry>
 	<Entry frequency="972000">deliberately<adverbs>
 			<translations>
-				<translation>intencionadament</translation>
+				<translation>intencionadament<synonyms>on purpose, purposely</synonyms></translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -5176,7 +5171,10 @@
 	</Entry>
 	<Entry frequency="1190000">drip<nouns>
 			<translations>
+                            <translation>
 				<translation gender="f">gota</translation>
+                                <translation gender="m">regalim</translation>
+                            </translation>
 				<translation gender="mf" register="colloquial">idiota</translation>
 			</translations>
 		</nouns>
@@ -5910,6 +5908,12 @@
 			<translations>
 				<translation gender="f">dinastia<plural>dynasties</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1640000">dyspepsia<nouns>
+			<translations>
+				<translation catagory="medical" gender="f">dispèpsia</translation>
 			</translations>
 		</nouns>
 	</Entry>

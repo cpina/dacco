@@ -509,7 +509,7 @@
 	</Entry>
 	<Entry frequency="28500" hasSound="true">banyera<nouns>
 			<translations>
-				<translation catagory="household-room-bathroom" gender="f">bath / bathtub</translation>
+				<translation catagory="household-room-bathroom" gender="f">bath / bathtub / tub</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -963,6 +963,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="15000">batut<nouns>
+			<translations><date>0806</date>
+				<translation catagory="food-drink" termcat="true" gender="m">milkshake</translation>
+			</translations>
+		</nouns>
+	</Entry>
          <Entry frequency="22200">batuta<nouns>
 			<translations><date>0406</date>
 				<translation catagory="entertainment-music" gender="f">baton</translation>
@@ -1055,7 +1061,25 @@
 	</Entry>
 	<Entry frequency="16800" hasSound="true">beguda<nouns>
 			<translations>
-				<translation catagory="food-drink" gender="f">drink</translation>
+				<translation catagory="food-drink" gender="f">drink / beverage (formal)</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="350">beguda energètica<nouns>
+			<translations><date>0806</date>
+				<translation catagory="food-drink" termcat="true" gender="f">energy drink<plural>begudes energètiques</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="4150000">beguda isotònica<nouns>
+			<translations><date>0806</date>
+				<translation catagory="food-drink" termcat="true" gender="f">isotonic drink</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="10100">beguda refrescant<nouns>
+			<translations><date>0806</date>
+				<translation catagory="food-drink" termcat="true" gender="f">soft drink<synonyms>refresc, refrescant</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>

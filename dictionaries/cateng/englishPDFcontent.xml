@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Robert Hibbert (Penn State Univ) -->
-<files>
+<files xmlns:xi="http://www.w3.org/2003/XInclude">
 
         <cover>
         <title>DACCO</title>
         <subtitle>Catalan to English for English Speakers</subtitle>
-        <edition>0.3 August 2005</edition>
+        <edition>0.10 August 2006</edition>
+        <forward>
+             <credits>
+              <xi:include href="../../input/print/content/deed.htm"/>
+              <xi:include href="../../input/print/content/prince.svg"/>
+            </credits>
+        </forward>
         </cover>
 	<file>a.dic</file>
-	<file>b.dic</file>
+<!--	<file>b.dic</file>
 	<file>c.dic</file>
 	<file>d.dic</file>
 	<file>e.dic</file>
@@ -33,6 +39,6 @@
 	<file>x.dic</file>
 	<file>y.dic</file>
 
-	<file>z.dic</file>
+	<file>z.dic</file> -->
 
 </files>

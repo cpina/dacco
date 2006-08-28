@@ -366,6 +366,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="8830000">saliva<nouns>
+			<translations>
+				<translation gender="f">saliva<synonyms>spit</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="11800000">salmon<nouns>
 			<translations>
 				<translation catagory="food-fish, animal-fish" gender="m">salmó</translation>
@@ -775,6 +781,12 @@
                         <translation>serrar</translation>
                     </translations>
                 </verbs>
+	</Entry>
+        <Entry frequency="5830000">sawdust<nouns>
+			<translations>
+				<translation gender="fpl">serradures</translation>
+			</translations>
+		</nouns>
 	</Entry>
                 <Entry frequency="4810000">sax<nouns>
 			<translations>
@@ -1728,6 +1740,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="30600000">secrecy<nouns>
+			<translations>
+				<translation gender="m">secretisme</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="15400000">secret<nouns>
 			<translations>
 				<translation gender="m">secret</translation>
@@ -1845,6 +1863,12 @@
                 <adjectives>
                 <translations>
                 <translation>sedant</translation></translations></adjectives>
+	</Entry>
+         <Entry frequency="5510000">sedentary<adjectives>
+			<translations>
+				<translation>sedentari<engexamp>Sedentary lifestyle</engexamp><catexamp>Sedentarisme</catexamp></translation>
+			</translations>
+		</adjectives>
 	</Entry>
         <Entry frequency="7010000">sediment<nouns>
 			<translations>
@@ -2834,6 +2858,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+         <Entry frequency="4190000">Shakespearean<adjectives>
+			<translations>
+				<translation>shakespearià<catnote>També s'escriu 'Shakespearian', però 'Shakespearean' és més usual</catnote></translation>
+			</translations>
+         </adjectives>
+	</Entry>
+         <Entry frequency="559000">Shakespearian<adjectives>
+			<translations>
+				<translation>shakespearià<catnote>També s'escriu 'Shakespearean'.  De fet, 'Shakespearean' és més usual</catnote></translation>
+			</translations>
+         </adjectives>
+	</Entry> 
         <Entry frequency="2350000">shallow<adjectives>
 			<translations>
 				<translation>poc profund<engexamp>Shallow water</engexamp><catexamp>Aigua poc profunda</catexamp></translation>
@@ -2891,7 +2927,16 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="80900000">Shanghai<nouns>
+<Entry frequency="1750000">shandy<nouns>
+			<translations>
+                            <translation>
+				<translation disambiguate="food-drink" gender="f">clara</translation>
+                                <translation gender="m">xampú<plural>shandies</plural></translation>
+                            </translation>
+			</translations>
+		</nouns>
+	</Entry>        
+<Entry frequency="80900000">Shanghai<nouns>
 			<translations>
 				<translation catagory="geography-city-asia-china">Xangai</translation>
 			</translations>
@@ -3413,19 +3458,19 @@
 	</Entry>
 	<Entry frequency="43600">shoplift<verbs>
 			<translations>
-				<translation>emportar coses d'una botiga sense cap intenció de pagar</translation>
+				<translation>emportar-se coses d'una botiga sense cap intenció de pagar</translation>
 			</translations>
 		</verbs>
 	</Entry>
 	<Entry frequency="77600">shoplifter<nouns>
 			<translations>
-				<translation noteng="TRUE">un lladre – específicament una persona que emporta coses d'una botiga sense cap intenció de pagar</translation>
+				<translation noteng="TRUE">un lladre – específicament una persona que s'emporta coses d'una botiga sense cap intenció de pagar</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="187000">shoplifting<nouns>
 			<translations>
-				<translation>l'acció d'emportar coses d'una botiga sense cap intenció de pagar</translation>
+				<translation>l'acció d'emportar-se coses d'una botiga sense cap intenció de pagar</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4276,6 +4321,12 @@
 			<translations>
 				<translation catagory="household" local="us" gender="f">casa unifamiliar<otherlocal>detached house</otherlocal>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2000000">single file<nouns>
+			<translations>
+				<translation gender="f">fila índia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6446,6 +6497,23 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="40800000">sore<adjectives>
+                        <translations>
+                                <translation>adolorit</translation>
+                                <translation local="us">enfadat</translation>
+                        </translations>
+                </adjectives>
+                <expressions>sore loser
+                        <translations>
+                                <translation>mal perdedor</translation>
+                        </translations>
+                </expressions>
+                <nouns>
+			<translations>
+				<translation gender="f">nafra / úlcera</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="8200000">sorority<nouns>
 			<translations>
 				<translation local="us" catagory="education">organització social per a estudiants femenins a les universitats americanes<plural>sororities</plural></translation>
@@ -6879,7 +6947,10 @@
 <Entry frequency="22500000">sparkling<adjectives>
 			<translations>
                         <translation>espurnejant</translation>
-				<translation>escumós<engexamp>Sparkling water</engexamp><catexamp>Aigua amb gas</catexamp><engexamp>Sparkling wine</engexamp><catexamp>Vi escumós</catexamp><synonyms>fizzy</synonyms></translation>
+                        <translation>
+				<translation catagory="food-drink">escumós<engexamp>Sparkling wine</engexamp><catexamp>Vi escumós</catexamp></translation>
+                                <translation>amb gas<engexamp>Sparkling water</engexamp><catexamp>Aigua amb gas</catexamp><synonyms>fizzy</synonyms></translation>
+                        </translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -7311,6 +7382,14 @@
 				<translation>fer girar</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                    <translations>
+                        <translation>
+                            <translation gender="m">gir</translation>
+                            <translation gender="f">volta</translation>
+                        </translation>
+                    </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="194000">spina bifida<nouns>
 			<translations>
@@ -7372,7 +7451,10 @@
 		</verbs>
                 <nouns>
                 <translations>
-                <translation gender="m">gargall</translation>
+                    <translation>
+                        <translation gender="f">saliva</translation>
+                        <translation gender="m">gargall</translation>
+                    </translation>
                 </translations>
                 </nouns>
 	</Entry>
@@ -7397,6 +7479,15 @@
 				<translation>maliciós</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="1150000">spittle<nouns>
+			<translations>
+                            <translation>
+                            <translation register="dated" gender="f">saliva</translation>
+				<translation gender="m">gargall</translation>
+                            </translation>
+			</translations>
+		</nouns>
 	</Entry>
                 <Entry frequency="2730000">splash<verbs>
 			<translations>
@@ -7814,6 +7905,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="2420000">sputum<nouns>
+			<translations>
+				<translation disambiguate="medical" gender="m">esput</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="18700000">spy<nouns>
 			<translations>
 				<translation gender="mf">espia<plural>spies</plural></translation>
@@ -8076,10 +8173,11 @@
 	</Entry>
 	<Entry frequency="138000000">staff<nouns>
 			<translations>
-				<translation catagory="work">
+				<translation disambiguate="work">
 					<translation gender="f">plantilla</translation>
 					<translation gender="m">personal</translation>
 				</translation>
+                                <translation local="us" disambiguate="entertainment-music" gender="m">pentagrama<otherlocal>stave</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -8571,6 +8669,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+                <Entry frequency="7310000">stave<nouns>
+			<translations>
+				<translation catagory="entertainment-music" local="gb" gender="m">pentagrama<otherlocal>staff</otherlocal></translation>
+                                <translation gender="f">estaca</translation>
+			</translations>
+		</nouns>
+                <phrasalverbs>stave off
+                <translations>
+                <translation>retardar / endarrerir / ajornar</translation>
+                </translations>
+                </phrasalverbs>
+	</Entry>
 	<Entry frequency="164000000">stay<nouns>
 			<translations>
 				<translation gender="f">estada</translation>
@@ -8895,6 +9005,7 @@
 		<adjectives>
 			<translations>
 				<translation>quiet</translation>
+                                <translation catagory="food-drink">sense gas</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -9441,9 +9552,15 @@
                 <verbs>
                     <translations>
                         <translation>emfatitzar / emfasitzar</translation>
-                        <translation register="colloquial">angoixar-se<example>Don't &lt;b&gt;stress&lt;/b&gt;. I'll have it done by tomorrow.</example></translation>
+                        <translation register="colloquial">angoixar-se / estressar-se<example>Don't &lt;b&gt;stress&lt;/b&gt;. I'll have it done by tomorrow.</example></translation>
                     </translations>
                 </verbs>
+                <phrasalverbs>stress out
+                <translations>
+                <translation>estressar</translation>
+                <translation>estressar-se</translation>
+                </translations>
+                </phrasalverbs>
 	</Entry>
         <Entry frequency="581000">stressful<adjectives>
 			<translations>
@@ -9626,6 +9743,12 @@
 				<translation>fort</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="19200000">stronghold<nouns>
+			<translations>
+				<translation gender="m">feu</translation>
+			</translations>
+		</nouns>
 	</Entry>
         	<Entry frequency="456000">strop<nouns>
 			<translations>
@@ -10228,15 +10351,14 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="3310">sucker for punishment<nouns>
-			<translations>
-				<translation register="colloquial" noteng="TRUE">-<example>No matter how badly Sunderland perform, I keep supporting them season after season.  I must be a &lt;b&gt;sucker for punishment&lt;/b&gt;!</example>
+                <expressions>sucker for punishment
+                <translations>
+                <translation register="colloquial" noteng="TRUE">-<example>No matter how badly Sunderland perform, I keep supporting them season after season.  I must be a &lt;b&gt;sucker for punishment&lt;/b&gt;!</example>
 					<example>Her boyfriend used to treat her like dirt, yet she still took him back when he got out of prison. That girl's a &lt;b&gt;sucker for punishment&lt;/b&gt;</example>
 					<catnote>Si es diu que una persona és 'a sucker for punishment' vol dir que li agrada molt sofrir</catnote>
 				</translation>
 			</translations>
-		</nouns>
+                </expressions>
 	</Entry>
 	<Entry frequency="815000">suction<nouns>
 			<translations>
@@ -10817,6 +10939,11 @@
 				<translation>segur</translation>
 			</translations>
 		</adjectives>
+                <expressions>make sure
+                <translations>
+                <translation>assegurar</translation>
+                </translations>
+                </expressions>
 	</Entry>
         	<Entry frequency="6050000">surely<adverbs>
 			<translations>
