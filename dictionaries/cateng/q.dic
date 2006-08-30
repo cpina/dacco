@@ -175,6 +175,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="310000">quaranta<nouns>
+			<translations><date>0806</date>
+				<translation catagory="number-cardinal" gender="m">forty</translation>
+			</translations>
+		</nouns>
+	</Entry>	
 	<Entry frequency="994">quarantena<nouns>
 			<translations><date>0505</date>
 				<translation gender="f">quarantine</translation>
@@ -187,13 +193,19 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="34400">quarts<nouns>
-			<translations><date>34400</date>
-				<translation catagory="sports" gender="mpl">quarter finals<engnote>'Quarts' or 'quarts de final' both mean 'quarter finals'.</engnote>
-				</translation>
-                                <translation catagory="time" gender="mpl">-<catexamp>Tres quarts de deu</catexamp><engexamp>Quarter to ten (Br.) / quarter of ten (Am.)</engexamp><catexamp>Dos quarts de dotze</catexamp><engexamp>Half past eleven / half eleven (Br.)</engexamp></translation>
+        <Entry frequency="1720000">quart<adjectives>
+			<translations><date>0505</date>
+				<translation catagory="number-ordinal">fourth<fems>quarta</fems></translation>
 			</translations>
-		</nouns>
+        </adjectives>
+        <nouns>                 
+                        <translations>
+                            <translation catagory="maths" gender="m">quarter</translation>
+                                <translation catagory="time" gender="m">quarter hour<catexamp>Tres quarts de deu</catexamp><engexamp>Quarter to ten (Br.) / quarter of ten (Am.)</engexamp><catexamp>Dos quarts de dotze</catexamp><engexamp>Half past eleven / half eleven (Br.)</engexamp></translation>
+                                <translation sourceplural="quarts" catagory="sports" gender="mpl">quarter finals<engnote>'Quarts' or 'quarts de final' both mean 'quarter finals'.</engnote>
+				</translation>
+			</translations>
+        </nouns>
 	</Entry>
 	<Entry frequency="118000">quasi<adverbs>
 			<translations><date>0205</date>
@@ -203,7 +215,7 @@
 	</Entry>
 	<Entry frequency="1190000">quatre<nouns>
 			<translations><date>0505</date>
-        			<translation catagory="number" gender="m">four</translation>
+        			<translation catagory="number-cardinal" gender="m">four</translation>
 			</translations>
 		</nouns>
 	</Entry>
