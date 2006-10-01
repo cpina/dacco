@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE dictionary []><!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Robert Hibbert (Penn State Univ) -->
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dic.xsd">
+    <Entry frequency="9920000">Aachen<nouns>
+			<translations>
+				<translation catagory="city-europe-germany">Aquisgrà</translation>
+			</translations>
+		</nouns>
+	</Entry>	
+<Entry frequency="6490000">aardvark<nouns>
+			<translations>
+				<translation gender="m">porc formiguer</translation>
+			</translations>
+		</nouns>
+	</Entry>	
 <Entry frequency="1380000">abacus<nouns>
 			<translations>
 				<translation gender="m">àbac<plural>abacuses / abaci</plural></translation>
@@ -11,7 +23,7 @@
 				<translation transitive="true">abandonar<example>Developers are &lt;b&gt;abandoning&lt;/b&gt; C++ in favour of Java</example>
 					<example>The young mother was charged with &lt;b&gt;abandoning&lt;/b&gt; her baby</example>
 					<example>Australia is threatening to &lt;b&gt;abandon&lt;/b&gt; the trade talks</example>
-					<example>&lt;b&gt;Abandoning&lt;/b&gt; pets is both stupid and illegal</example>
+					<example>&lt;b&gt;Abandoning&lt;/b&gt; pets is both cruel and illegal</example>
 					<synonyms>leave</synonyms>
 				</translation>
 			</translations>
@@ -29,14 +41,26 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="674000">abase<verbs>
+			<translations>
+				<translation register="formal"><catexamp>Abase yourself</catexamp><engexamp>Humiliar-se</engexamp></translation>
+			</translations>
+		</verbs>
+	</Entry>	
         <Entry frequency="149000">abasement<nouns>
 			<translations><translation>
-				<translation gender="ffullform">humiliació</translation>
+				<translation register="formal" gender="ffullform">humiliació</translation>
                                 <translation gender="f">degradació</translation>
                                 </translation>
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="524000">abashed<adjectives>
+			<translations>
+				<translation>avergonyit</translation>
+			</translations>
+		</adjectives>
+	</Entry>	
         <Entry frequency="1460000">abate<verbs>
 			<translations>
 				<translation intransitive="true" register="formal">disminuir</translation>
@@ -50,6 +74,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="750000">abbess<nouns>
+			<translations>
+				<translation catagory="religious" gender="f">abadessa<plural>abbesses</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>	
 	<Entry frequency="1470000">abbey<nouns>
 			<translations>
 				<translation gender="f">abadia</translation>
@@ -117,6 +147,19 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1740000">abductor<nouns>
+			<translations>
+				<translation gender="mf">segrestador</translation>
+                                <translation disambiguate="body" gender="m">abductor<engexamp>Abductor muscle</engexamp><catexamp>Múscul abductor</catexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>	
+        <Entry frequency="56400">abductor muscle<nouns>
+			<translations>
+				<translation catagory="body" gender="m">múscul abductor</translation>
+			</translations>
+		</nouns>
+	</Entry>	
 	<Entry frequency="4980">Aberdonian<nouns>
 			<translations>
 				<translation>habitant de la ciutat escocesa d'Aberdeen</translation>
@@ -146,6 +189,17 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="1380000">abeyance<nouns>
+			<translations>
+				<translation register="formal"></translation>
+			</translations>
+		</nouns>
+                <expressions>in abeyance
+                <translations>
+                <translation>en suspens<example>He was a medical student though, inevitably, his studies were &lt;b&gt;in abeyance&lt;/b&gt; during the war.</example></translation>
+                </translations>
+                </expressions>
+	</Entry>	
 	<Entry frequency="279000">abhor<verbs double="true">
 			<translations>
 				<translation transitive="true" register="formal">odiar<example>He &lt;b&gt;abhors&lt;/b&gt; discrimination and greed.</example><synonyms>hate, detest, loathe</synonyms>
@@ -153,6 +207,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="1060000">abhorrence<nouns>
+			<translations>
+				<translation register="formal" gender="f">repugnància</translation>
+			</translations>
+		</nouns>
+	</Entry>	
 	<Entry frequency="152000">abhorrent<adjectives>
 			<translations>
 				<translation register="formal">repugnant</translation>
@@ -4212,7 +4272,7 @@
 	</Entry>
 	<Entry frequency="76600">anteater<nouns>
 			<translations>
-				<translation catagory="animal" gender="m">formiguer</translation>
+				<translation catagory="animal-animal" gender="m">formiguer</translation>
 			</translations>
 		</nouns>
 	</Entry>
