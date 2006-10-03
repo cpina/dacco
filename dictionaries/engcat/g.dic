@@ -2119,6 +2119,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="39700000">GOP<acronyms><engacro>Grand Old Party</engacro>
+			<translations>
+				<translation catagory="politics" gender="m">Partit Republicà dels Estats Units</translation>
+			</translations>
+		</acronyms>
+	</Entry>
         <Entry frequency="8560000">gopher<nouns>
 			<translations>
 				<translation disambiguate="animal" gender="m">gòfer</translation>
@@ -2168,26 +2174,38 @@
 	</Entry>
 	<Entry frequency="17300000">govern<verbs>
 			<translations>
-				<translation>governar / regir</translation>
+				<translation catagory="politics">governar / regir</translation>
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="137000">governability<nouns>
+			<translations>
+				<translation catagory="politics" gender="f">governabilitat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="96700">governable<adjectives>
+			<translations>
+				<translation catagory="politics">governable</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="166000000">government<nouns>
 			<translations>
-				<translation gender="m">govern</translation>
+				<translation catagory="politics" gender="m">govern</translation>
                                 <translation beforenoun="true">governamental<engexamp>According to government sources...</engexamp><catexamp>Segons fonts governamentals...</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="4690000">governmental<adjectives>
 			<translations>
-				<translation>governamental / governatiu<engexamp>Non-governmental organisation (Br.) / organization (Am.)</engexamp><catexamp>Organització no governamental</catexamp></translation>
+				<translation catagory="politics">governamental / governatiu<engexamp>Non-governmental organisation (Br.) / organization (Am.)</engexamp><catexamp>Organització no governamental</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
 	<Entry frequency="22800000">governor<nouns>
 			<translations>
-				<translation gender="mf">governador</translation>
+				<translation catagory="politics" gender="mf">governador</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3205,6 +3223,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="2510">gubernatorial<adjectives>
+			<translations>
+				<translation register="formal" catagory="politics">relatiu al treball d'un governador (d'estat) dels Estats Units</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="590000">guerrilla<nouns>
 			<translations>
 				<translation gender="mf">guerriller</translation>
@@ -3425,6 +3449,12 @@
 	<Entry frequency="254000">gunpowder<nouns>
 			<translations>
 				<translation gender="f">pólvora</translation>
+			</translations>
+		</nouns>
+	</Entry>
+              <Entry frequency="6280000">gunshot<nouns>
+			<translations>
+				<translation gender="m">tret (d'una arma de foc)</translation>
 			</translations>
 		</nouns>
 	</Entry>
