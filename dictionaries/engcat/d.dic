@@ -854,6 +854,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="1470000">decipher<verbs>
+			<translations>
+				<translation>desxifrar</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="107000000">decision<nouns>
 			<translations>
 				<translation gender="f">decisió</translation>
@@ -919,6 +925,18 @@
 				</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        	<Entry frequency="2190000">decode<verbs>
+			<translations>
+				<translation>descodificar / desxifrar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        	<Entry frequency="3250000">decoder<nouns>
+			<translations>
+				<translation gender="m">descodificador</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="526000">deconstruction<nouns>
 			<translations>
@@ -1488,6 +1506,18 @@
 				<translation catagory="medical-illness" gender="f">demència</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="239000">demob<verbs double="true">
+			<translations>
+				<translation register="colloquial" local="gb">desmobilitzar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="673000">demobilize<verbs>
+			<translations>
+				<translation>desmobilitzar</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="33200000">democracy<nouns>
 			<translations>
@@ -2797,12 +2827,19 @@
 		</verbs>
                 <phrasalverbs>dig over
                 <translations>
-                <translation>llaurar</translation></translations></phrasalverbs>
+                <translation>llaurar</translation>
+                </translations>
+                </phrasalverbs>
 		<phrasalverbs>dig up
 			<translations>
 				<translation>desenterrar</translation>
 			</translations>
 		</phrasalverbs>
+                <expressions>dig your own grave
+                <translations>
+                <translation>cavar la seva pròpia fossa</translation>
+                </translations>
+                </expressions>
                 <nouns>
 			<translations>
 				<translation gender="f">excavació</translation>
@@ -2830,6 +2867,12 @@
           <Entry frequency="1560000">digger<nouns>
 			<translations>
 				<translation gender="f">excavadora<synonyms>bulldozer / excavator</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="322000">digibox<nouns>
+			<translations>
+				<translation gender="m">receptor de televisió digital<synonyms>digital set-top box</synonyms><plural>digiboxes</plural><catnote>'Digibox' és la marca registrada del receptor de televisió digital de la companyia 'Sky'. Però, s'utilitza molt sovint al Regne Unit per referir a qualsevol receptor de televisió digital.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3490,6 +3533,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="361000">disdainfully<adverbs>
+			<translations>
+				<translation>amb menyspreu / olímpicament</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 	<Entry frequency="39800000">disease<nouns>
 			<translations>
 				<translation>
@@ -3572,6 +3621,7 @@
 				<translation gender="m">plat<engnote>'Plat' can mean 'dish' in the sense 'ovenproof dish' or in the sense 'that was a tasty dish'.</engnote><plural>dishes</plural>
 				</translation>
                                 <translation gender="f">antena parabòlica</translation>
+                                <translation register="colloquial" gender="mf">atractiu<example>Look at that man over there. What a &lt;b&gt;dish&lt;/b&gt;!</example></translation>
                                 <translation gender="f" sourceplural="dishes">vaixella (bruta)</translation>
 			</translations>
 		</nouns>
@@ -3581,6 +3631,18 @@
                 <translation>servir</translation>
                 </translations>
                 </phrasalverbs>
+	</Entry>
+        	<Entry frequency="1000000">disheveled<adjectives>
+			<translations>
+				<translation local="us">despentinat<otherlocal>dishevelled</otherlocal></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        	<Entry frequency="758000">dishevelled<adjectives>
+			<translations>
+				<translation local="gb">despentinat<otherlocal>disheveled</otherlocal></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="289000">dishonest<adjectives>
 			<translations>
@@ -3611,6 +3673,12 @@
 				<translation gender="m">rentaplats / rentavaixelles</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        	<Entry frequency="330000">dishy<adjectives>
+			<translations>
+				<translation register="dated">atractiu<example>She is nothing special to look at but her friend is really &lt;b&gt;dishy&lt;/b&gt;.</example></translation>
+			</translations>
+		</adjectives>
 	</Entry>
         <Entry frequency="3870000">disillusionment<nouns>
 			<translations>
@@ -5395,6 +5463,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="35600">droit de seigneur<nouns>
+			<translations>
+				<translation gender="m">dret de cuixa</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="150000">droll<adjectives>
 			<translations>
 				<translation register="dated">divertit</translation>
@@ -5403,7 +5477,7 @@
 	</Entry>
 	<Entry frequency="350000">dromedary<nouns>
 			<translations>
-				<translation gender="m">dromedari</translation>
+				<translation catagory="animal" gender="m">dromedari</translation>
 			</translations>
 		</nouns>
 	</Entry>

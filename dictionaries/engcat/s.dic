@@ -1108,22 +1108,45 @@
 				</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation catagory="education" register="formal">escolaritzar</translation>
+                    </translations>
+                </verbs>
 	</Entry>
         <Entry frequency="791000">schoolboy<nouns>
 			<translations>
-				<translation gender="m">escolar</translation>
+				<translation catagory="education" gender="m">escolar</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="1420000">schoolchild<nouns>
+			<translations>
+				<translation catagory="education" gender="mf">escolar<plural>schoolchildren</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="1470000">schoolgirl<nouns>
 			<translations>
-				<translation gender="f">escolar</translation>
+				<translation catagory="education" gender="f">escolar</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="55400">schooling<nouns>
+			<translations>
+				<translation catagory="education">escolarització</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="449000">schoolkid<nouns>
+			<translations>
+				<translation catagory="education" register="colloquial" gender="mf">escolar</translation>
 			</translations>
 		</nouns>
 	</Entry>
          <Entry frequency="333000">schoolmate<nouns>
 			<translations>
-				<translation gender="mf">amic d'escola</translation>
+				<translation catagory="education" gender="mf">amic d'escola</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1200,6 +1223,12 @@
         <Entry frequency="24200000">scope<nouns>
 			<translations>
 				<translation gender="m">abast</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="915000">scorcher<nouns>
+			<translations>
+				<translation catagory="weather" register="colloquial">un dia de molta calor<example>It's a &lt;b&gt;scorcher&lt;/b&gt; today (38 degrees in the shade)</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2498,6 +2527,7 @@
 	<Entry frequency="167000000">series<nouns>
 			<translations>
 				<translation gender="f">sèrie</translation>
+                                <translation gender="m">reguitzell</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3809,6 +3839,12 @@
 			</translations>
 		</nouns>
 	</Entry>     
+        	<Entry frequency="1940000">shrimp<nouns>
+			<translations>
+				<translation catagory="food-seafood" gender="f">gamba</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="1170000">shrine<nouns>
 			<translations>
 				<translation catagory="religious" gender="m">santuari</translation>
@@ -4316,6 +4352,12 @@
 				</translation>
 			</translations>
 		</adverbs>
+	</Entry>
+                 <Entry frequency="327000">sinecure<nouns>
+			<translations>
+				<translation register="formal" gender="f">prebenda</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="10800000">sing<verbs>
 			<past>sang</past>
@@ -7203,6 +7245,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="2230000">speculate<verbs>
+			<translations>
+				<translation>especular</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        	<Entry frequency="3810000">speculation<nouns>
+			<translations>
+				<translation gender="f">especulació</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1150000">speculative<adjectives>
 			<translations>
 				<translation>especulatiu</translation>
@@ -8124,7 +8178,7 @@
 		<verbs>
 			<translations>
 				<translation>esprémer</translation>
-                                <translation>aclaparar</translation>
+                                <translation>aixafar / aclaparar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -9314,8 +9368,8 @@
 	</Entry>
 	<Entry frequency="1180000">stool<nouns>
 			<translations>
-				<translation gender="m">tamboret</translation>
-				<translation catagory="medical" gender="fpl">femtes</translation>
+				<translation gender="m">tamboret / escambell</translation>
+				<translation disambiguate="medical" gender="fpl">femtes</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -9735,7 +9789,10 @@
 			<translations>
 				<translation gender="f">corda</translation>
 				<translation disambiguate="computers" termcat="true" gender="f">cadena</translation>
-                                <translation gender="f">tirallonga<engnote>'Tirallonga' means 'string' as in 'a string of swearwords' or 'a string of robberies'</engnote></translation>
+                                <translation>
+                                    <translation gender="m">reguitzell</translation>
+                                <translation gender="f">tirallonga<engnote>'Tirallonga' and 'reguitzell' mean 'string' as in 'a string of swearwords' or 'a string of robberies'</engnote></translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -11032,6 +11089,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="63800">suppurate<verbs>
+			<translations>
+				<translation register="formal">supurar</translation>
+			</translations>
+		</verbs>
+	</Entry>        
         <Entry frequency="6890000">supreme<adjectives>
 			<translations>
 				<translation>suprem</translation>
@@ -11821,6 +11884,30 @@
                 <Entry frequency="7110000">symmetry<nouns>
 			<translations>
 				<translation catagory="maths" gender="f">simetria</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="1130000">sympathise<verbs>
+			<translations>
+				<translation local="gb">simpatitzar<otherlocal>sympathize</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="691000">sympathiser<nouns>
+			<translations>
+				<translation local="gb" gender="mf">simpatitzant<otherlocal>sympathizer</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="1380000">sympathize<verbs>
+			<translations>
+				<translation>simpatitzar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="1350000">sympathizer<nouns>
+			<translations>
+				<translation gender="mf">simpatitzant</translation>
 			</translations>
 		</nouns>
 	</Entry>
