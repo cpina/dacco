@@ -12,7 +12,7 @@
 					Catalan/English Dictionary
 				</title>
 				<LINK REL="stylesheet" TYPE="text/css" HREF="sample.css"/>
-				<script src="dacco.js"></script>
+				<script src="images.js"></script>
 			</head>
 			<body>
 				<xsl:apply-templates/>
@@ -23,7 +23,7 @@
 				<a href="http://www.verbix.com/webverbix/index.asp">
 					<img src="http://www.verbix.com/imag/button_webverbix.gif" width="88" height="31" alt="Conjugations by Verbix" border="0"/>
 				</a>
-				<hr>(c) 2003 - 2004 dacco project - under the LGPL license</hr>
+				<hr>(c) 2003 - 2006 dacco project - under the LGPL license</hr>
 			</body>
 		</html>
 	</xsl:template>
@@ -67,9 +67,9 @@
 	</xsl:template>
                 <xsl:template match="mistakes"/>
 	<xsl:template match="catnote">
-         <xsl:if test="$speaker='cat'">
-		<div class="note">nota: <xsl:value-of select="." disable-output-escaping="yes"/>
-		</div>
+         <xsl:if test="$speaker='cat'"><div>
+		<span  class="note">nota: <xsl:value-of select="." disable-output-escaping="yes"/>
+		</span></div>
          </xsl:if>
 	</xsl:template>
 	<xsl:template match="engnote">
@@ -191,13 +191,15 @@
 		<xsl:if test="count(translations/translation)>0">
 			<br/>
 			<span class="pos"> adj </span>
-			<xsl:if test="text()">
+			<xsl:apply-templates/>
+
+<!--			<xsl:if test="text()">
 				<span class="phr">
 					<xsl:value-of select="text()"/>
 				</span>
 				<br/>
-			</xsl:if>
-			<xsl:apply-templates select="translations"/>
+			</xsl:if> 
+			<xsl:apply-templates select="translations"/>-->
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="conjunctions">
@@ -403,7 +405,7 @@
 			<span class="category">[AGRIC] </span>
 		</xsl:if>
                  <xsl:if test="contains(@disambiguate,'Music') or contains(@disambiguate,'music') ">
-			<span class="category">[MÚSICA] </span>
+			<span class="category">[MÃSICA] </span>
 		</xsl:if>
                   <xsl:if test="contains(@disambiguate,'Maths') or contains(@disambiguate,'maths') ">
 			<span class="category">[MAT] </span>
@@ -432,9 +434,9 @@
 		<xsl:if test="catacro">
 				(<xsl:value-of select="catacro"/>)
 			</xsl:if>
-		<xsl:if test="@termcat='true'">
+<!--		<xsl:if test="@termcat='true'">
 			<img src="images/tcat.gif" alt="[Termcat]" width="10" height="10"/>
-		</xsl:if>
+		</xsl:if> -->
 		<xsl:if test="@approval='true'">
 			<xsl:element name="a">
 				<xsl:attribute name="href"><xsl:text>http://dacco.sourceforge.net/forums/viewtopic.php?t=</xsl:text><xsl:value-of select="@topic"/></xsl:attribute>
@@ -443,18 +445,12 @@
 			</xsl:element>
 			<!-- </a> -->
 		</xsl:if>
-		<xsl:if test="example">
-			<xsl:variable name="id" select="generate-id()"/>
-			<span class="etoggle" style="cursor:hand; cursor:pointer">
-				<xsl:attribute name="onClick">expandcontent('<xsl:value-of select="$id"/>')</xsl:attribute> +</span>
-			<div class="switchcontent">
-				<xsl:attribute name="id"><xsl:value-of select="$id"/></xsl:attribute>
+		<xsl:if test="example"><div>
 				<xsl:for-each select="example">
 					<xsl:value-of select="." disable-output-escaping="yes"/>
 					<br/>
 				</xsl:for-each>
-				<br/>
-			</div>
+		</div>
 		</xsl:if>
 		<xsl:if test="count(plural) > 0">
 			<br/>
