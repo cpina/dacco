@@ -15,7 +15,7 @@
 <xsl:element name="dictionary">
   <xsl:element name="letter"><xsl:value-of select="substring(text(),1,1)"/></xsl:element>
 
- <xsl:apply-templates select="document(text())/dictionary/*"/>
+ <xsl:apply-templates select="document(concat('../../dictionaries/cateng/',text()))/dictionary/*"/>
 </xsl:element>
 </xsl:template>
 	

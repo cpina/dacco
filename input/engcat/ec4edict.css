@@ -3,8 +3,7 @@
     size: A4;
     margin: 15mm 10mm;
     padding: 5mm 0;
-    column-count: 2;
-    column-gap: 20;
+  
     
     @top-right {
 	content: string(termstr, first) " - " string(termstr, last);
@@ -44,8 +43,7 @@
     size: A4;
     margin: 15mm 10mm;
     padding: 5mm 0;
-    column-count: 3;
-    column-gap: 20;
+ 
     
     @top-right {
 	content: "DACCO : The Open Source English-Catalan Dictionary";
@@ -524,7 +522,7 @@ synonyms{
 *[disambiguate^="computers"]::before{
 	text-decoration: none;
 	font-size: 6pt;
-	content: "[comp.]";
+	content: "[IT]";
 	padding-right: 1
 }
 
@@ -559,7 +557,7 @@ letter {
 
 all {
  column-count: 2;
-    column-gap: 40;
+    column-gap: 15mm;
     column-rule: solid black thin;
 }	
 	

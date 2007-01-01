@@ -2,14 +2,13 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:param name="minFrequency"/>
     <xsl:param name="speaker"/>
-    <xsl:param name="name"/>
     <xsl:output method="html" version="1.0" encoding="UTF-8" omit-xml-declaration="yes" indent="no" media-type="text/html"/>
     <!--XSL Stylesheet for generating Datasheet-->
     <xsl:template match="dictionary">
         <html>
             <head>
                 <title>
-                    Catalan/English Dictionary - <xsl:value-of select="@name"/>
+                    Catalan/English Dictionary
                 </title>
                 <LINK REL="stylesheet" TYPE="text/css" HREF="sample.css"/>
                 <script src="dacco.js"></script>
@@ -24,7 +23,8 @@
     </xsl:template>
     <xsl:template match="Entry">
         <xsl:if test="@frequency > $minFrequency">
-            <xsl:if test="@name='dump'">STARTRECORD<xsl:value-of select="text()"/>STARTLINE</xsl:if>
+            ENTRY
+            <xsl:value-of select="text()"/>FIELD
             <xsl:element name="a">
                 <xsl:attribute name="name"><xsl:value-of select="text()"/></xsl:attribute>
             </xsl:element>
@@ -63,7 +63,6 @@
             </span>
             <xsl:apply-templates select="nouns | verbs | adverbs | adjectives | conjunctions | prepositions | pronouns | abbreviations | exclamations | acronyms | expressions | determiners"/>
             <p/>
-            <xsl:if test="@name='dump'">ENDLINE</xsl:if>
         </xsl:if>
     </xsl:template>
     <xsl:template match="mistakes"/>
@@ -404,8 +403,6 @@
             <xsl:comment> femplural <xsl:value-of select="femplural"/> </xsl:comment>
             <span class="femplural"><i>f.pl. </i></span><i><b><xsl:value-of select="femplural"/></b></i>
         </xsl:if>
-
-
         <xsl:apply-templates select="catexamp | engexamp"/><br/>
         <xsl:apply-templates select="catnote | engnote"/>
         <xsl:if test="count(synonyms) > 0">

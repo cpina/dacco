@@ -3,8 +3,9 @@
     size: A4;
     margin: 15mm 10mm;
     padding: 5mm 0;
+    column-count: 2;
+    column-gap: 20;
     
-
     @top-right {
 	content: string(termstr, first) " - " string(termstr, last);
 	font-size: 10pt;
@@ -43,7 +44,8 @@
     size: A4;
     margin: 15mm 10mm;
     padding: 5mm 0;
-
+    column-count: 3;
+    column-gap: 20;
     
     @top-right {
 	content: "DACCO : The Open Source English-Catalan Dictionary";
@@ -86,15 +88,21 @@
     @bottom { content: normal }
 }
 
-dictionary {  
+dictionary {
+   
+
    padding-bottom: 3mm;  
 }
+
 
 cover {
     display: block;
     page: cover
 }
 
+cover forward credits {
+     font: bold 6pt serif;
+}
 
 edition {
     display: block;
@@ -137,20 +145,6 @@ headword {
     string-set: termstr content()
 }
 
-subhead::before {
-    display: block;
-}
-
-subhead {
-    display: inline;
-    page-break-after: avoid;
-    margin-top: 2em;
-    margin-left: 2mm;
-    font-weight: bold;
-    font-family: sans-serif;
-    counter-reset: trans 0
-}
-
 nouns::before {
 	display: inline;
 	content: "nom";
@@ -166,13 +160,7 @@ adjectives::before {
 	  counter-reset: trans 0
 	}
 	
-	subhead::after {
-	display: inline;
-	content: "v. comp.";
-	font-weight: normal;
-	font-size: 6pt;
-	  counter-reset: trans 0
-	}
+	
 	adverbs::before {
 	display: inline;
 	content: "adverbi";
@@ -196,16 +184,17 @@ adjectives::before {
 	
 	prepositions::before {
 	display: inline;
-	content: "prep";
+	content: "preposicio";
 	font-size: 6pt;
 	  counter-reset: trans 0
 	}
 	
 	expressions::before {
 	display: inline;
-	content: "express";
+	content: "expressio";
 	font-size: 6pt;
-	  counter-reset: trans 0
+        padding-right: 3pt;
+	counter-reset: trans 0
 	}
 	
 	verbs::before {
@@ -217,74 +206,66 @@ adjectives::before {
 	
 	exclamations::before {
 	display: inline;
-	content: "interj.";
+	content: "exclamacio";
 	font-size: 6pt;
 	  counter-reset: trans 0
 	}
 	
-	conjunctions::before {
-	display: inline;
-	content: "conj.";
-	font-size: 6pt;
-	  counter-reset: trans 0
-	}
 translations {
 	display: inline;
 	    text-decoration:none;
   page-break-inside: avoid;
   }
 
-translations::after {
-	display: block;
-	content: "";
-	counter-reset: trans 0
-  }
-
-
 translation:not(:only-of-type)::before{
     text-underline-style: none;
-    font-size:8pt;
+    font-size: 8pt;
     font-family: serif; 
     display: inline;
-    text-decoration:none;
+    text-decoration: none;
     content: counter(trans)
 }
 
-
-
 translation{
-	display none;
-	  counter-increment: trans 1;
+  display none;
+  counter-increment: trans 1;
+}
+
+reflex {
+  display inline;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 10pt;
 }
 
 gender{
-	font-size: 8pt;
+  content: inline;
+  font-size: 6pt;
 }
 
 equiv{
-    text-underline-style: solid;
-    font-size:12pt;
-    font-family: serif; 
-    display: inline;
-  
+  text-underline-style: solid;
+  font-size:12pt;
+  font-family: serif; 
+  display: inline; 
 }
 
 catnote {
-    display: block;
-        font-size:10pt;
-    text-decoration:none;
-    background: lightgray;
-    margin-top: 0.1em;
-    margin-bottom: 0.2em;
-    margin-left: 0.5em;
-    border-bottom: solid black thin;
-    border-top: solid black thin;
-    border-right: solid black thin;
-     border-left: solid black thin;
+  display: block;
+  font-size: 10pt;
+  text-decoration: none;
+  background: lightgray;
+  margin-top: 0.1em;
+  margin-bottom: 0.2em;
+  margin-left: 0.5em;
+  border-bottom: solid black thin;
+  border-top: solid black thin;
+  border-right: solid black thin;
+  border-left: solid black thin;
 }
 
 engnote {
-	display: none;
+  display: none;
 }
 
 fems {
@@ -299,105 +280,53 @@ femplural {
   display: none;
 }
 
-
 catexamp {
-    display: inline;
-    font-style: italic;
-    text-decoration: none
+  display: inline;
+  font-weight: bold;
+  text-decoration: none
 }
 
 catexamp::before {
-    display: inline;
-    content: "-";
-    	padding-right: 1;
-    font-size:8pt;
-    text-decoration: none
+  display: inline;
+  content: "|";
+  padding-right: 3pt;
+  font-size: 8pt;
+  font-style: italic;
+  text-decoration: none
 }
 
 transexamp {
-	font-size: 10pt;
-	page-break-inside: avoid;
-	text-decoration: none;
-	display: inline;
-}
-
-example::before {
-   display: block;
+  font-size: 10pt;
+  page-break-inside: avoid;
+  text-decoration: none;
+  display: inline;
 }
 
 example {
-    display: block; 
-    font-size:8pt; font-style:italic;
-    text-decoration: none;
-    margin-left: 0.5cm;
+  display: none; 
+  font-size: 8pt;
+  font-style: italic;
+  text-decoration: none;
+  margin-left: 0.5cm;
 }
 
-
-
-
-
 engexamp::before {
-	display: inline;
-	text-decoration: none;
-	content: "|";
-	padding-right: 1;
+  display: inline;
+  text-decoration: none;
+  content: "-";
+  padding-right: 3pt;
 }
 
 engexamp {
-    display: inline;
-    font-weight: bold;
-    text-decoration: none;
+  display: inline;
+  font-style: italic;
+  text-decoration: none;
 }
 
 
 synonyms{
 	display: none;
 }
-
-*[register^="formal"]::before{
-	text-decoration: none;
-	font-size: 6pt;
-	content: "[formal]";
-	padding-right: 1
-}
-
-*[register^="dialect"]::before{
-	text-decoration: none;
-	font-size: 6pt;
-	content: "[dialecte]";
-	padding-right: 1
-}
-
-*[register^="slang"]::before{
-	text-decoration: none;
-	font-size: 6pt;
-	content: "[argot]";
-	padding-right: 1
-}
-
-*[register^="colloquial"]::before{
-	text-decoration: none;
-	font-size: 6pt;
-	content: "[colloquial]";
-	padding-right: 1
-}
-
-*[register^="dated"]::before{
-	text-decoration: none;
-	font-size: 6pt;
-	content: "[arcaic]";
-	padding-right: 1
-}
-
-
-*[register^="vulgar"]::before{
-	text-decoration: none;
-	font-size: 6pt;
-	content: "[vulg.]";
-	padding-right: 1
-}
-
-
 
 *[disambiguate^="work"]::before{
 	text-decoration: none;
@@ -479,7 +408,7 @@ synonyms{
 *[disambiguate^="country"]::before{
 	text-decoration: none;
 	font-size: 6pt;
-	content: "[país]";
+	content: "[pais]";
 	padding-right: 1
 }
 
@@ -549,10 +478,9 @@ synonyms{
 *[disambiguate^="zodiac"]::before{
 	text-decoration: none;
 	font-size: 6pt;
-	content: "[zodíac]";
+	content: "[zodiac]";
 	padding-right: 1
 }
-
 
 date {
 	display: none;
@@ -563,7 +491,7 @@ letter {
 	display: block;
 	text-align: center;
 	padding-top: 3;
-		border-top: solid black thin;
+        border-top: solid black thin;
 	text-transform: uppercase;
 }
 
@@ -571,5 +499,5 @@ all {
  column-count: 2;
     column-gap: 15mm;
     column-rule: solid black thin;
-}	
-	
+}
+
