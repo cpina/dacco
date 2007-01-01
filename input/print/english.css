@@ -1,0 +1,162 @@
+@page:right {    
+    @top-left {
+	content: "DACCO : The Open Source English-Catalan Dictionary";
+    }  
+}
+
+@page:left {
+    @top-right {
+	content: "DACCO : The Open Source English-Catalan Dictionary";
+    }
+}
+
+
+
+nouns::before {
+  content: "noun";
+}
+
+adjectives::before {
+  content: "adjective";
+}
+adverbs::before {
+  content: "adverb";
+}
+	
+pronouns::before {
+  content: "pronoun";
+}
+	
+conjunctions::before {
+  content: "conjunction";
+}
+	
+prepositions::before {
+  content: "preposition";
+}
+	
+expressions::before {
+  content: "expression";
+}
+	
+verbs::before {
+  content: "verb";
+}
+	
+exclamations::before {
+  content: "exclamation";
+}
+
+engnote {
+  display: block;
+}
+
+catnote {
+  display: none;
+}
+
+*[disambiguate^="work"]::before{
+  content: "[work]";
+}
+
+*[disambiguate^="sports"]::before{
+  content: "[sport]";
+}
+
+*[disambiguate^="transport"]::before{
+  content: "[transport]";
+}
+
+*[disambiguate^="medical"]::before{
+  content: "[medical]";
+}
+
+*[disambiguate^="religious"]::before{
+  content: "[religion]";
+}
+
+*[disambiguate^="body"]::before{
+  content: "[body]";
+}
+
+*[disambiguate^="animal"]::before{
+	content: "[animal]";
+}
+
+*[disambiguate^="geography"]::before{
+  content: "[geography]";
+}
+
+*[disambiguate^="linguistics"]::before{
+  content: "[linguistics]";
+}
+
+*[disambiguate^="language"]::before{
+  content: "[language]";
+}
+
+*[disambiguate^="nationality"]::before{
+  content: "[nationality]";
+}
+
+*[disambiguate^="country"]::before{
+  content: "[country]";
+}
+
+*[disambiguate^="food"]::before{
+  content: "[food]";
+}
+
+*[disambiguate^="politiics"]::before{
+  content: "[politics]";
+}
+
+*[disambiguate^="plants"]::before{
+  content: "[plant]";
+}
+
+*[disambiguate^="financial"]::before{
+  content: "[financial]";
+}
+
+*[disambiguate^="weather"]::before{
+  content: "[weather]";
+}
+
+*[disambiguate^="family"]::before{
+  content: "[family]";
+}
+
+*[disambiguate^="education"]::before{
+  content: "[education]";
+}
+
+*[disambiguate^="computers"]::before{
+  content: "[computers]";
+}
+
+*[disambiguate^="colours"]::before{
+	content: "[colour]";
+}
+
+*[disambiguate^="zodiac"]::before{
+	content: "[zodiac]";
+}
+
+
+*[register^="dialect"]::before{
+  content: "[dialect]";
+}
+
+*[register^="slang"]::before{
+  content: "[slang]";
+}
+
+*[register^="dated"]::before{
+  content: "[dated]";
+}
+
+*[register^="colloquial"]::before{
+  content: "[colloquial]";
+}
+

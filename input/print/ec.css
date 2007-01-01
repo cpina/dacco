@@ -1,0 +1,27 @@
+engexamp::before {
+  display: inline;
+  content: "|";
+  padding-right: 3pt;
+  font-size: 8pt;
+  font-style: italic;
+  text-decoration: none
+}
+
+catexamp::before {
+  display: inline;
+  text-decoration: none;
+  content: "-";
+  padding-right: 3pt;
+}
+
+engexamp {
+  display: inline;
+  font-weight: bold;
+  text-decoration: none
+}
+
+catexamp {
+  display: inline;
+  font-style: italic;
+  text-decoration: none;
+}

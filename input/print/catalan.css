@@ -1,0 +1,188 @@
+@page:right {   
+  @top-left {
+    content: "DACCO : The Open Source English-Catalan Dictionary";
+  }
+}
+
+@page:left {
+  @top-right {
+    content: "DACCO : The Open Source English-Catalan Dictionary";
+  }
+}
+
+/* Show usage notes for Catalans */
+
+catnote {
+  display: block;
+}
+
+/* Hide features aimed at english speakers */
+
+engnote {
+  display: none;
+}
+
+fems {
+  display: none;
+}
+  
+plural {
+  display: none;
+}
+  
+femplural {
+  display: none;
+}
+
+/* Catalan POS translations */
+
+nouns::before {
+  content: "nom";
+}
+
+adjectives::before {
+  content: "adjectiu";
+}
+	
+adverbs::before {
+  content: "adverbi";
+}
+	
+pronouns::before {
+  content: "pronom";
+}
+	
+conjunctions::before {
+  content: "conj";
+}
+	
+prepositions::before {
+  content: "preposicio";
+}
+	
+expressions::before {
+  content: "expressio";
+}
+	
+verbs::before {
+  content: "verb";
+}
+	
+exclamations::before {
+  content: "exclamacio";
+}
+
+*[disambiguate^="work"]::before {
+  content: "[treb.]";
+}
+
+*[disambiguate^="sports"]::before{
+  content: "[esport]";
+}
+
+*[disambiguate^="transport"]::before{
+  content: "[trans.]";
+}
+
+*[disambiguate^="medical"]::before{
+  content: "[med.]";
+}
+
+*[disambiguate^="religious"]::before{
+  content: "[rel.]";
+}
+
+*[disambiguate^="body"]::before{
+  content: "[anat.]";
+}
+
+*[disambiguate^="animal"]::before{
+  content: "[animal]";
+}
+
+*[disambiguate^="geography"]::before{
+  content: "[geog.]";
+}
+
+*[disambiguate^="linguistics"]::before{
+  content: "[ling.]";
+}
+
+*[disambiguate^="language"]::before{
+  content: "[llengua]";
+}
+
+*[disambiguate^="nationality"]::before{
+  content: "[nacion.]";
+}
+
+*[disambiguate^="country"]::before{
+  content: "[pais]";
+}
+
+*[disambiguate^="food"]::before{
+  content: "[menj.]";
+}
+
+*[disambiguate^="politiics"]::before{
+  content: "[pol.]";
+}
+
+*[disambiguate^="plants"]::before{
+  content: "[plantes]";
+}
+
+*[disambiguate^="financial"]::before{
+  content: "[econ.]";
+}
+
+*[disambiguate^="weather"]::before{
+  content: "[met.]";
+}
+
+*[disambiguate^="family"]::before{
+  content: "[fam.]";
+}
+
+*[disambiguate^="education"]::before{
+  content: "[enseny.]";
+}
+
+*[disambiguate^="computers"]::before{
+  content: "[comp.]";
+}
+
+*[disambiguate^="colours"]::before{
+  content: "[color]";
+}
+
+*[disambiguate^="zodiac"]::before{
+  content: "[zodiac]";
+}
+
+
+*[register^="formal"]::before{
+	content: "[formal]";
+}
+
+*[register^="dialect"]::before{
+	content: "[dialecte]";
+}
+
+*[register^="slang"]::before{
+	content: "[argot]";
+}
+
+*[register^="colloquial"]::before{
+	content: "[colloquial]";
+}
+
+*[register^="dated"]::before{
+	content: "[arcaic]";
+}
+
+
+*[register^="vulgar"]::before{
+	content: "[vulg.]";
+}
+
