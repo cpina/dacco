@@ -1549,7 +1549,7 @@
 	</Entry>
         <Entry frequency="4060000">glimpse<verbs>
 			<translations>
-				<translation>entreveure / albirar</translation>
+				<translation transitive="true">entreveure / albirar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1791,6 +1791,16 @@
                 <translation>excedir / ultrapassar<example>If you &lt;b&gt;go over&lt;/b&gt; your email quota you will be unable to send any messages until you remove some data.</example></translation>
                 </translations>
                 </phrasalverbs>
+                <phrasalverbs>go together
+                <translations>
+                    <translation>adir-se</translation>
+                </translations>
+                </phrasalverbs>   
+                <phrasalverbs>go (well) with (something)
+                <translations>
+                    <translation>adir-se amb (alguna cosa)</translation>
+                    </translations>
+                    </phrasalverbs>
                 <expressions>from the get-go
                 <translations>
                 <translation>des del principi / des del començament<example>That has been my position &lt;b&gt;from the get-go&lt;/b&gt; and I'm not changing it now.</example><synonyms>from the word go</synonyms></translation>
@@ -3153,6 +3163,12 @@
 					<translation gender="m">terreny</translation>
 				</translation>
 				<translation disambiguate="sports" gender="m">estadi</translation>
+			</translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="9140000">groundwork<nouns>
+			<translations>
+				<translation gender="mpl">treballs preparatoris</translation>
 			</translations>
 		</nouns>
 	</Entry>
