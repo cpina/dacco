@@ -37,6 +37,9 @@
          <xsl:element name="catexamp">
         <xsl:value-of select="count(document($dic)//catexamp)"/>
         </xsl:element>
+        <xsl:element name="total_eng_examp">
+                <xsl:value-of select="count(document($dic)//catexamp | document($dic)//example)"/>
+            </xsl:element>
         <xsl:element name="catnote">
         <xsl:value-of select="count(document($dic)//catnote)"/>
         </xsl:element>

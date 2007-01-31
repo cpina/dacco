@@ -4,7 +4,7 @@
  <xsl:output method="html" />
 <xsl:template match="/">
 <html>
- Stats for English-Catalan dictionary<br/>
+ Stats for Catalan-English dictionary<br/>
  entries count is: <xsl:value-of select="sum(/stats/subdictionary/entries)"/><p/>
  translations count is: <xsl:value-of select="sum(/stats/subdictionary/translations)"/><p/>
  examples count is: <xsl:value-of select="sum(/stats/subdictionary/examples)"/><p/>

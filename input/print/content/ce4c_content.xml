@@ -1,20 +1,20 @@
 <?xml version="1.0"  ?>
 <files xmlns:xi="http://www.w3.org/2003/XInclude">
-
+    
     <cover>
         <title>DACCO</title>
         <subtitle>Català - Anglès per als Catalanoparlants</subtitle>
-        <edition>0.11 decembre 2006</edition>
+        <edition>0.12 gener 2007</edition>
         <forward>
             
             <stats>
-                Aquesta versió del diccionari anglès-català conté: 12.353 entrades, 15.575 traduccions, 1.345 exemples i 144 notes d'ús 
+                <xi:include href="../../output/cateng/stats/ce4c_stats.txt"/>
             </stats>
             <credits>
-              <xi:include href="../../input/print/content/deed.ca.htm"/>
-              <xi:include href="../../input/print/content/prince.svg"/>
+                <xi:include href="../../input/print/content/deed.ca.htm"/>
+                <xi:include href="../../input/print/content/prince.svg"/>
             </credits>
-           
+            
         </forward>
     </cover>
     <main>
@@ -46,4 +46,4 @@
         <file>z.dic</file>
     </main>
 </files>
-       
+
