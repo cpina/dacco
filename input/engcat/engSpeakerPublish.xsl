@@ -17,7 +17,7 @@
 			<body>
 				<xsl:apply-templates/>
 				<p/>
-				<a href="http://sourceforge.net/projects/dacco">
+				<a name="-" href="http://sourceforge.net/projects/dacco">
 					<img border="0" src="http://sourceforge.net/sflogo.php?group_id=80666&amp;type=1" alt="SourceForge"/>
 				</a>
 			</body>

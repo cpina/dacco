@@ -16,14 +16,14 @@
 			</head>
 			<body>
 				<xsl:apply-templates/>
-				<a href="http://sourceforge.net/projects/dacco">
+				<a name="-" href="http://sourceforge.net/projects/dacco">
 					<img border="0" src="http://sourceforge.net/sflogo.php?group_id=80666&amp;type=1" alt="SourceForge"/>
 				</a>
 				<xsl:text disable-output-escaping="yes">&amp;nbsp;</xsl:text>
 				<a href="http://www.verbix.com/webverbix/index.asp">
 					<img src="http://www.verbix.com/imag/button_webverbix.gif" width="88" height="31" alt="Conjugations by Verbix" border="0"/>
 				</a>
-				<hr>(c) 2003 - 2006 dacco project - under the LGPL license</hr>
+				<hr>(c) 2003 - 2007 dacco project - under the LGPL license</hr>
 			</body>
 		</html>
 	</xsl:template>
