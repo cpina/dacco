@@ -1564,6 +1564,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="34000">pasturar<verbs conj="regular">
+                            <translations><date>0307</date>
+				<translation transitive="true">graze</translation>
+                                <translation intransitive="true">graze</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="8840">patata<nouns>
 			<translations>
 				<translation catagory="food-vegetable" gender="f">potato</translation>
@@ -2010,9 +2017,10 @@
                     </translations>
                 </expressions>
 	</Entry>
-	<Entry frequency="3740">pelar<verbs conj="regular">
-			<translations>
+	<Entry frequency="30000">pelar<verbs conj="regular">
+			<translations><date>0307</date>
 				<translation>to peel</translation>
+                                <translation>to graze<engnote>'Pelar' means 'graze' in the sense 'I fell and grazed my knee'</engnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3097,8 +3105,8 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="13200">picar<verbs conj="CtoQU">
-			<translations>
+	<Entry frequency="100000">picar<verbs conj="CtoQU">
+			<translations><date>0307</date>
 				<translation>to bite<engnote>'Picar' means for an insect to bite (i.e. 'I was bitten by mosquitos').  To bite as in an animal such as a dog biting would be 'mossegar'</engnote>
 				</translation>
 				<translation>to sting<engnote>'Picar' can mean sting as in 'The bee / scorpion stung me' or 'My eyes are stinging'</engnote>
@@ -3108,6 +3116,7 @@
 				<translation>to chop<engnote>'Picar' means to chop as in 'to chop something up' (e.g. 'Chop the garlic into small pieces')</engnote>
 				</translation>
                                 <translation>to type</translation>
+                                <translation>to nibble / to graze</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6111,7 +6120,7 @@
 	</Entry>
         <Entry frequency="103000">principalment<adverbs>
 			<translations><date>0805</date>
-				<translation>mainly / chiefly / principally</translation>
+				<translation>mainly / chiefly / principally / mostly</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -6363,6 +6372,12 @@
 	<Entry frequency="3780">profeta<nouns>
 			<translations>
 				<translation catagory="religious" gender="m / f">prophet</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="492000">professió<nouns>
+			<translations><date>0107</date>
+				<translation catagory="work" gender="f">profession</translation>
 			</translations>
 		</nouns>
 	</Entry>

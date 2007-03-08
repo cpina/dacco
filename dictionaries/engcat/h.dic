@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Robert Hibbert (Penn State Univ) -->
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Documents and Settings\James\My Documents\dacco projects\dacco\dictionary\dic.xsd">
-	<Entry frequency="3670000">habit<nouns>
+	<Entry frequency="201000">haberdasher<nouns>
+			<translations><date>0307</date>
+				<translation local="gb" register="dated" gender="mf">passamaner</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="652000">haberdashery<nouns>
+			<translations><date>0307</date>
+				<translation gender="f">passamaneria<plural>haberdasheries</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+    <Entry frequency="3670000">habit<nouns>
 			<translations>
 				<translation>
 					<translation gender="m">costum</translation>
@@ -839,8 +851,9 @@
 		</nouns>
 	</Entry>
 	<Entry frequency="116000000">hardware<nouns>
-			<translations>
-				<translation termcat="true" gender="m">maquinari</translation>
+			<translations><changed>0207</changed>
+				<translation termcat="true" disambiguate="computers" gender="m">maquinari</translation>
+                                <translation local="us" gender="f">quincalleria<otherlocal>ironmongery</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3081,13 +3094,15 @@
 	</Entry>
 	<Entry frequency="3320000">hoover<verbs>
 			<translations>
-				<translation local="gb">passar l'aspiradora<otherlocal>vacuum</otherlocal></translation>
+				<translation local="gb">passar l'aspiradora (or l'aspirador)<otherlocal>vacuum</otherlocal></translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
-				<translation local="gb" gender="f">aspiradora<otherlocal>vacuum cleaner</otherlocal>
-				</translation>
+                            <translation>
+				<translation local="gb" gender="f">aspiradora</translation>
+                                <translation local="gb" gender="m">aspirador<otherlocal>vacuum cleaner</otherlocal></translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
