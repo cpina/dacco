@@ -929,6 +929,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="1670">camió cisterna<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">tanker<plural>Camions cisterna</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="686">camió de bombers<nouns>
 			<translations><date>0106</date>
 				<translation catagory="transport" gender="f">fire engine (Br.) / fire truck (Am.)<plural>camions de bombers</plural>
@@ -1716,6 +1722,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="107">captador pla<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">flat-plate collector</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="642">captador solar<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">solar collector</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="529">captaire<nouns>
 			<translations><date>0605</date>
 				<translation gender="m / f">beggar / panhandler (Am.)<synonyms>mendicant / pidolaire</synonyms></translation>
@@ -1886,7 +1904,7 @@
 	</Entry>
 	<Entry frequency="940">carcassa<nouns>
 			<translations>
-				<translation gender="f">carcass / body / shell</translation>
+				<translation gender="f">carcass / body / shell / housing / casing / enclosure</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2073,9 +2091,15 @@
          <Entry frequency="255000">càrrega<nouns>
 			<translations><date>0106</date>
                         <translation gender="f">shipment</translation>
-                        <translation gender="f">load</translation>
+                        <translation gender="f">load / cargo</translation>
                         <translation gender="f">charge</translation>
 				<translation gender="f">burden<plural>càrregues</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="53">càrrega de ruptura<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">failure load</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2087,9 +2111,9 @@
 			</translations>
 		</nouns>
 	</Entry>	
-	<Entry frequency="85700">càrrega<nouns>
-			<translations><date>0605</date>
-				<translation gender="f">load / cargo</translation>
+          <Entry frequency="968">càrrega elèctrica<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">electric charge<plural>càrregues elèctriques</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2098,6 +2122,12 @@
 				<translation>to load</translation>
 			</translations>
 		</verbs>
+	</Entry>
+          <Entry frequency="409">càrrega tèrmica<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">thermal load<plural>càrregues elèctriques</plural></translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="144000">carrer<nouns>
 			<translations>
@@ -2979,7 +3009,7 @@
 	</Entry>
         <Entry frequency="5550">cèl·lula<nouns>
 			<translations><date>0805</date>
-				<translation catagory="biology" gender="f">cell<catexamp>Cèl·lula mare</catexamp><engexamp>Stem cell</engexamp></translation>
+				<translation catagory="biology" gender="f">cell</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2994,6 +3024,12 @@
 				<translation>cellular</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="228">cèl·lula solar<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">solar cell</translation>
+			</translations>
+		</nouns>
 	</Entry>
          <Entry frequency="1730">cel·lulosa<nouns>
 			<translations><date>1205</date>
@@ -3096,7 +3132,13 @@
 	</Entry>
         <Entry frequency="1390">central elèctrica<nouns>
 			<translations><date>0405</date>
-				<translation gender="f">power plant / station<plural>centrals elèctriques</plural></translation>
+				<translation gender="f">power plant / power station<plural>centrals elèctriques</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="721">central eòlica<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">wind power plant<plural>centrals eòliques</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3106,9 +3148,45 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="67">central geotèrmica<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">geothermal power plant<plural>centrals geotèrmiques</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="12300">central hidroelèctrica<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">hydroelectric power plant<plural>centrals hidroelèctriques</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="563">central nuclear<nouns>
 			<translations><date>0405</date>
-				<translation gender="f">nuclear power plant / station</translation>
+				<translation gender="f">nuclear power plant (o station)</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="1430">central solar<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">solar power plant</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="24900">central tèrmica<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">thermal power plant<plural>centrals tèrmiques</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="122">central tèrmica convencional<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">fossil fuel power plant<plural>centrals tèrmiques convencionals</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="466">central tèrmica de cicle combinat<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">combined cycle power plant<plural>centrals tèrmiques de cicle combinat</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3391,6 +3469,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="201">cicle termodinàmic<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">thermodynamic cycle</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="5520">ciclisme<nouns>
 			<translations>
 				<translation catagory="sports-event" gender="m">cycling</translation>
@@ -3556,6 +3640,24 @@
         <Entry frequency="82100">circuit<nouns>
 			<translations><date>0805</date>
 				<translation gender="m">circuit</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="239">circuit de refrigeració<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">coolant circuit</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="386">circuit primari<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">primary circuit</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="291">circuit secundari<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">secondary circuit</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4333,6 +4435,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="21900">cogeneració<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">cogeneration</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="296000">cognom<nouns>
 			<translations><date>0905</date>
 				<translation gender="m">surname / family name</translation>
@@ -4611,6 +4719,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+         <Entry frequency="59">col·limador<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">collimator</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2380">col·lisió<nouns>
 			<translations>
 				<translation gender="f">collision</translation>
@@ -4839,9 +4953,21 @@
                 </translations>
                 </adjectives>
 	</Entry>
-	<Entry frequency="78000">columna<nouns>
-			<translations><date>0605</date>
-				<translation>column<catexamp>Columna de direcció</catexamp><engexamp>Steering column</engexamp></translation>
+	<Entry frequency="598000">columna<nouns>
+			<translations><date>0307</date>
+				<translation>column</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="442">columna d'aigua<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">water column</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="14">columna de direcció<nouns>
+			<translations><date>0307</date>
+				<translation catagory="transport" gender="f">steering column</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4936,6 +5062,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+         <Entry frequency="1060">comburent<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">oxidizer / oxidant / oxidizing agent</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="27900">combustible<nouns>
 			<translations><date>0605</date>
 				<translation catagory="transport" gender="m">fuel</translation>
@@ -4948,6 +5080,12 @@
 	<Entry frequency="4430">combustible fòssil<nouns>
 			<translations><date>0605</date>
 				<translation gender="m">fossil fuel<plural>combustibles fòssils</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="687">combustible nuclear<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">nuclear fuel</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5138,6 +5276,12 @@
 				<translation>moving / touching<fems>commovedora</fems></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="13900">commutació<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">commutation / switching<plural>commutacions</plural></translation>
+			</translations>
+		</nouns>
 	</Entry>
                        <Entry frequency="599">commutar<verbs conj="regular">
       <translations><date>1005</date>
@@ -7705,6 +7849,12 @@
         <Entry frequency="251">coriandre<nouns>
 			<translations><date>0805</date>
 				<translation catagory="food-herb" gender="m">coriander (Br.) / cilantro (Am.)</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="166">coroide<nouns>
+			<translations><date>0307</date>
+				<translation catagory="body" gender="f">choroid</translation>
 			</translations>
 		</nouns>
 	</Entry>
