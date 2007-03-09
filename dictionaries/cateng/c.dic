@@ -626,7 +626,7 @@
 	</Entry>
                 <Entry frequency="9050">caldera<nouns>
 			<translations><date>0805</date>
-				<translation gender="f">boiler</translation>
+                            <translation gender="f">boiler<catexamp>Caldera de gas</catexamp><engexamp>Gas(-fired) boiler</engexamp><catexamp>Caldera de recuperació</catexamp><engexamp>Waste heat boiler</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -737,6 +737,24 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="401">calor latent<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">latent heat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="630">calor residual<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">waste heat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="194">calor sensible<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">sensible heat</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="643">calvície<nouns>
 			<translations>
 				<translation gender="f">baldness</translation>
@@ -811,17 +829,29 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="288000">cambra<nouns>
-			<translations><date>0106</date>
+<Entry frequency="595000">cambra<nouns>
+			<translations><date>0307</date>
 				<translation gender="f">room</translation>
                                 <translation gender="f">bedroom</translation>
-                                <translation gender="f">chamber<catexamp>Cambra del Comerç</catexamp><engexamp>Chamber of Commerce</engexamp></translation>
+                                <translation gender="f">chamber</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="1180">cambra de bany<nouns>
 			<translations>
 				<translation catagory="household-room" gender="f">bathroom</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="199">cambra de combustió<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">combustion chamber</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="161000">Cambra de Comerç<nouns>
+			<translations><date>0307</date>
+				<translation gender="m">Chamber of Commerce</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -896,6 +926,12 @@
 			<translations>
 				<translation catagory="transport-mode" gender="m">lorry<plural>camions</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="1670">camió cisterna<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">tanker<plural>Camions cisterna</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4918,6 +4954,12 @@
 	<Entry frequency="4430">combustible fòssil<nouns>
 			<translations><date>0605</date>
 				<translation gender="m">fossil fuel<plural>combustibles fòssils</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="55200">combustió<nouns>
+			<translations><date>0307</date>
+				<translation gender="f">combustion</translation>
 			</translations>
 		</nouns>
 	</Entry>
