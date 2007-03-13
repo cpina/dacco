@@ -506,6 +506,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="9250">gasificació<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">gasification</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="467">gas inert<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">inert gas<plural>gasos inerts</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
                      <Entry frequency="410">gasiu<adjectives>
 			<translations><date>0106</date>
 				<translation>mean / stingy / miserly / cheap (Am.)<fems>gasiva</fems></translation>
@@ -523,9 +535,51 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="295">gas liquat del petroli<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">liquified petroleum gas (LPG)</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="135000">gas natural<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">natural gas</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="162">gas natural comprimit<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">compressed natural gas (CNG)</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="11200">gas natural liquat<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">liquified natural gas (LNG)</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="451">gas noble<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">noble gas<plural>gasos nobles</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="219">gasodomèstic<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">gas appliance<synonyms>aparell a gas, aparell gasodomèstic</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
         	<Entry frequency="655">gasoducte<nouns>
 			<translations><date>0106</date>
 				<translation gender="m">gas pipeline</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="132">gasogen<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">gas generator<plural>gasògens</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -800,9 +854,21 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="493">generació distribuïda<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">distributed generation</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="9210">generador<nouns>
 			<translations>
 				<translation gender="m">generator</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="702">generador de vapor<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="m">steam generator</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1625,6 +1691,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="17600">GLP<catacro>Gas Liquat del Petroli</catacro>
+			<acronyms><translations><date>0307</date>
+				<translation termcat="energy" gender="m">LPG<engacro>Liquified Petroleum Gas</engacro></translation>
+			</translations>
+		</acronyms>
+	</Entry>
          <Entry frequency="278">glucagó<nouns>
 			<translations><date>1205</date>
 				<translation catagory="biology" gender="m">glucagon</translation>
@@ -1644,6 +1716,18 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="156">GNC<catacro>Gas Natural Comprimit</catacro>
+			<acronyms><translations><date>0307</date>
+				<translation termcat="energy" gender="m">CNG<engacro>Compressed Natural Gas</engacro></translation>
+			</translations>
+		</acronyms>
+	</Entry>
+        <Entry frequency="647">GNL<catacro>Gas Natural Liquat</catacro>
+			<acronyms><translations><date>0307</date>
+				<translation termcat="energy" gender="m">LNG<engacro>Liquified Natural Gas</engacro></translation>
+			</translations>
+		</acronyms>
 	</Entry>
 	<Entry frequency="209">gnom<nouns>
 			<translations>
@@ -1974,6 +2058,7 @@
 			<translations>
 				<translation gender="f">grid</translation>
 				<translation catagory="household-room-kitchen">grill (Br.) / broiler (Am.)</translation>
+                                <translation termcat="energy" gender="f">grate</translation>
 			</translations>
 		</nouns>
 	</Entry>
