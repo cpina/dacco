@@ -204,7 +204,10 @@
 	</Entry>
 	<Entry frequency="152000">safety pin<nouns>
 			<translations>
-				<translation gender="f">agulla imperdible / imperdible</translation>
+                            <translation>
+				<translation gender="m">imperdible</translation>
+                                <translation gender="f">agulla imperdible</translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1452,6 +1455,13 @@
 				<translation catagory="work-job" gender="mf">guionista cinematogràfic</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="1350000">screwball<nouns>
+			<translations><date>0407</date>
+				<translation local="us" register="slang" gender="mf">extravagant / boig<otherlocal>nutcase</otherlocal></translation>
+			</translations>
+		</nouns>
+                <adjectives><translations><translation local="us" register="slang">extravagant</translation></translations></adjectives>
 	</Entry>
 	<Entry frequency="663000">screwdriver<nouns>
 			<translations>
@@ -4749,6 +4759,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1470000">skater<nouns>
+			<translations><date>0407</date>
+				<translation gender="mf">patinador</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1150000">skates<nouns>
 			<translations>
 				<translation catagory="sports-event-skating, transport-mode" gender="mpl">patins<catnote>L'expressió anglesa 'get your skates on!' significa 'afanya't!'</catnote>
@@ -5106,6 +5122,23 @@
 				<translation register="slang" gender="m">presó<example>His dad's in the &lt;b&gt;slammer&lt;/b&gt;.</example></translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="1430000">slander<nouns>
+			<translations><date>0407</date>
+				<translation catagory="legal" gender="f">calúmnia</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation catagory="legal">calumniar</translation>
+                    </translations>
+                </verbs>
+	</Entry>
+         <Entry frequency="1200000">slanderous<adjectives>
+			<translations><date>0407</date>
+				<translation>calumniós</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="1060000">slang<nouns>
 			<translations>
@@ -5713,6 +5746,12 @@
                 </translations>
                 </verbs>
 	</Entry>  
+         <Entry frequency="41200">smirt<verbs>
+			<translations><date>0407</date>
+				<translation register="slang">lligar fora dels edificis en els quals està prohibit fumar (a l'espai on tots els fumadors es reuneixen per fumar)<catnote>Aquest verb és una combinació de les paraules 'smoke' (fumar) i 'flirt' (lligar)</catnote></translation>
+			</translations>
+		</verbs>
+	</Entry>
         <Entry frequency="377000">smock<nouns>
 			<translations>
 				<translation catagory="clothes" gender="f">bata</translation>
@@ -8508,8 +8547,11 @@
 		</nouns>
 	</Entry>
          <Entry frequency="28300000">stack<nouns>
-			<translations>
+			<translations><date>0407</date>
+                            <translation>
 				<translation gender="f">pila</translation>
+                                <translation gender="m">munt / cúmul</translation>
+                                </translation>
                                 <translation register="slang" local="gb" gender="m">munt</translation>
 			</translations>
 		</nouns>
@@ -9349,7 +9391,7 @@
 	</Entry>
         <Entry frequency="6710000">stiff<adjectives>
 			<translations>
-				<translation>dur / rígid</translation>
+				<translation>dur / rígid / encarcarat</translation>
                                 <translation>fort<engexamp>A stiff drink</engexamp><catexamp>Una beguda (alcohòlica) forta</catexamp></translation>
 			</translations>
 		</adjectives>
@@ -11701,6 +11743,12 @@
 			</translations>
             </verbs>
 	</Entry>
+         <Entry frequency="9020000">sustainability<nouns>
+			<translations><date>0307</date>
+				<translation gender="f">sostenibilitat</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="16500000">sustainable<adjectives>
 			<translations>
 				<translation>sostenible<engexamp>Sustainable development</engexamp>
@@ -11821,6 +11869,12 @@
  <Entry frequency="5180000">sweatshirt<nouns>
 			<translations>
 				<translation catagory="clothes" gender="f">dessuadora</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="1210000">sweatshop<nouns>
+			<translations><date>0407</date>
+				<translation>fàbrica on els treballadors reben salaris molt baixos i treballen en condicions d'explotació laboral<example>In the world's poorest countries, children are often sent to work in &lt;b&gt;sweatshops&lt;/b&gt; instead of going to school.</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
