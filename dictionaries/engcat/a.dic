@@ -1500,6 +1500,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="546000">Addison's disease<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="f">malaltia d'Addison</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="91700000">addition<nouns>
 			<translations>
 				<translation gender="f">addició</translation>
@@ -1904,6 +1910,18 @@
 				<translation gender="mf">aventurer</translation>
 			</translations>
 		</nouns>
+	</Entry>
+                <Entry frequency="631000">adventuresome<adjectives>
+			<translations><date>0507</date>
+				<translation local="us">aventurer<otherlocal>adventurous</otherlocal></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+                <Entry frequency="2040000">adventurous<adjectives>
+			<translations><date>0507</date>
+				<translation>aventurer</translation>
+			</translations>
+                    </adjectives>
 	</Entry>
 	<Entry frequency="227000">adverb<nouns>
 			<translations>
@@ -5881,10 +5899,15 @@
 			<translations>
                         <translation>
 				<translation local="us" gender="f">armadura</translation>
-                                <translation gender="m">arnès<otherlocal>armour</otherlocal></translation>
+                                <translation local="us" gender="m">arnès<otherlocal>armour</otherlocal></translation>
                                 </translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true" local="us">blindar</translation>
+                    </translations>
+                </verbs>
 	</Entry>
         <Entry frequency="2520000">armored<adjectives>
 			<translations>
@@ -5908,10 +5931,15 @@
 			<translations>
                         <translation>
 				<translation local="gb" gender="f">armadura</translation>
-                                <translation gender="m">arnès<otherlocal>armor</otherlocal></translation>
+                                <translation local="gb" gender="m">arnès<otherlocal>armor</otherlocal></translation>
                                 </translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation local="gb" transitive="true">blindar</translation>
+                        </translations>
+                        </verbs>
 	</Entry>
         <Entry frequency="684000">armoured<adjectives>
 			<translations>
@@ -6132,6 +6160,12 @@
 	<Entry frequency="123000000">art<nouns>
 			<translations>
 				<translation gender="mf">art</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="1040000">arterial hypertension<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="f">hipertensió arterial</translation>
 			</translations>
 		</nouns>
 	</Entry>

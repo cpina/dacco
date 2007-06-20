@@ -592,6 +592,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+            <Entry frequency="1250000">malabsorption<nouns>
+			<translations><date>0607</date>
+				<translation termcat="medical" gender="f">malabsorció</translation>
+			</translations>
+		</nouns>
+	</Entry>
                 <Entry frequency="807000">Malagasy<nouns>
 			<translations>
 				<translation gender="m">malgaix</translation>
@@ -1650,6 +1656,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="90200000">mat<nouns>
+			<translations><date>0507</date>
+				<translation gender="f">estora</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="109000000">match<verbs>
 			<translations>
 				<translation>coincidir / igualar</translation>
@@ -1671,6 +1683,7 @@
 					<translation gender="mf">amic</translation>
 					<synonyms>pal (Br.) / buddy (Am.)</synonyms>
 				</translation>
+                                <translation gender="m">mat<engnote>[chess]</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1782,6 +1795,12 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="9500000">matt<adjectives>
+			<translations><date>0507</date>
+				<translation>mat</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="89000000">matter<nouns>
 			<translations>
@@ -2295,6 +2314,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="1240000">melamine<nouns>
+                            <translations><date>0507</date>
+				<translation catagory="material" gender="f">melamina</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="764000">melancholic<adjectives>
 			<translations>
 				<translation>melancòlic</translation>
@@ -2450,6 +2475,12 @@
         	<Entry frequency="102000">menhir<nouns>
 			<translations>
 				<translation gender="m">menhir</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="54900">meningism<nouns>
+			<translations><date>0607</date>
+				<translation termcat="medical" gender="m">meningisme</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3664,6 +3695,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+           <Entry frequency="1400000">misadventure<nouns>
+			<translations><date>0507</date>
+				<translation gender="f">desventura</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="712000">misappropriation<nouns>
 			<translations>
 				<translation catagory="financial" gender="f">malversació</translation>
@@ -4299,9 +4336,21 @@
 	</Entry>
         <Entry frequency="4710000">molest<verbs>
 			<translations>
-				<translation>assetjar sexualment</translation>
+				<translation>assetjar (sexualment)</translation>
 			</translations>
 		</verbs>
+	</Entry>
+         <Entry frequency="2870000">molestation<nouns>
+			<translations><date>0507</date>
+				<translation gender="m">assetjament (sexual)<catnote>Aquesta paraula refereix generalment a l'assetjament sexual d'un nen</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="6920000">molester<nouns>
+			<translations><date>0507</date>
+				<translation gender="mf">assetjador (sexual)</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="1860">Molinueux Stadium<nouns>
 			<translations>
@@ -4420,7 +4469,7 @@
 	</Entry>
 	<Entry frequency="1780000">monk<nouns>
 			<translations>
-				<translation gender="m">monjo</translation>
+				<translation catagory="religious" gender="m">monjo</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4443,7 +4492,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="575000">monochrome<adjectives>
+        <Entry frequency="88800000">mono<adjectives>
+			<translations><date>0507</date>
+				<translation>mono</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="m">mono</translation>
+                            <translation local="us" register="colloquial" catagory="medical-illness" gender="f">mononucleosi<otherlocal>glandular fever</otherlocal></translation>
+                </nouns>
+	</Entry>
+            <Entry frequency="575000">monochrome<adjectives>
 			<translations>
 				<translation>monocrom</translation>
 			</translations>
@@ -4474,6 +4534,12 @@
 				<translation catagory="maths" gender="m">monomi</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="4170000">monophonic<adjectives>
+			<translations><date>0507</date>
+				<translation>monofònic</translation>
+			</translations>
+		</adjectives>
 	</Entry>
         <Entry frequency="186000">monopolise<verbs>
 			<translations>
@@ -4774,7 +4840,7 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>matinal</translation>
+				<translation>matinal / matutí</translation>
 			</translations>
 		</adjectives>
                 <expressions>in the morning
@@ -5016,7 +5082,7 @@
 	</Entry>
 	<Entry frequency="1800000">motivate<verbs>
 			<translations>
-				<translation>motivar</translation>
+				<translation>motivar / esperonar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5913,15 +5979,45 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="1340000">myasthenia<nouns>
+			<translations><date>0607</date>
+				<translation termcat="medical" gender="f">miastènia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="50100">mycotoxicosis<nouns>
+			<translations><date>0607</date>
+				<translation termcat="medical" gender="f">micotoxicosi</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="260000">mydriasis<nouns>
+			<translations><date>0607</date>
+				<translation termcat="medical" gender="f">midriasi</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="1480000">myelin<nouns>
 			<translations>
 				<translation catagory="biology" gender="f">mielina</translation>
 			</translations>
 		</nouns>
 	</Entry>
+            <Entry frequency="53700">myocardia<nouns>
+			<translations><date>0607</date>
+				<translation termcat="medical" gender="f">miocàrdia</translation>
+			</translations>
+		</nouns>
+	</Entry>
         	<Entry frequency="579000">myocardium<nouns>
 			<translations>
 				<translation catagory="medical" gender="m">miocardi<plural>myocardia</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+            <Entry frequency="710000">myoclonus<nouns>
+			<translations><date>0607</date>
+				<translation termcat="medical" gender="f">mioclònia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5941,6 +6037,18 @@
 			<translations>
 				<translation gender="f">miopia<synonyms>short-sightedness</synonyms>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="32800">myosis<nouns>
+			<translations><date>0607</date>
+				<translation termcat="medical" gender="f">miosi</translation>
+			</translations>
+		</nouns>
+	</Entry>
+            <Entry frequency="246000">myotonia<nouns>
+			<translations><date>0607</date>
+				<translation termcat="medical" gender="f">miotonia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6030,6 +6138,18 @@
         <Entry frequency="10300000">mythology<nouns>
 			<translations>
 				<translation gender="f">mitologia<plural>mythologies</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+            <Entry frequency="266000">myxedema<nouns>
+			<translations><date>0607</date>
+				<translation termcat="medical" gender="f">mixedema</translation>
+			</translations>
+		</nouns>
+	</Entry>
+            <Entry frequency="82000">myxoedema<nouns>
+			<translations><date>0607</date>
+				<translation termcat="medical" gender="f">mixedema</translation>
 			</translations>
 		</nouns>
 	</Entry>

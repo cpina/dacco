@@ -67,7 +67,7 @@
 					<translation gender="f">oïda</translation>
 					<engnote>'Orella' is the actual physical protuberance that sticks out of the side of your head, 'oïda' is your inner ear.</engnote>
 				</translation>
-                                <translation gender="f">espiga<engexamp>Ear of corn</engexamp><catexamp>Espiga de blat</catexamp></translation>
+                                <translation catagory="plants" gender="f">espiga<engexamp>Ear of corn</engexamp><catexamp>Espiga de blat</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -79,13 +79,16 @@
 	</Entry>
 	<Entry frequency="109000">eardrum<nouns>
 			<translations>
-				<translation gender="m">timpà</translation>
+                            <translation>
+				<translation catagory="body" gender="m">timpà</translation>
+                                <translation catagory="body" gender="f">campaneta</translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="772000">ear infection<nouns>
 			<translations>
-				<translation catagory="medical" gender="f">otitis</translation>
+				<translation catagory="medical-illness" gender="f">otitis</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -175,6 +178,12 @@
                 <translation catagory="agriculture">calçar<example>&lt;b&gt;Earth up&lt;/b&gt; celery to blanch the stems and make them more tender.</example><synonyms>hill up</synonyms></translation>
                 </translations>
                 </phrasalverbs>
+	</Entry>
+         <Entry frequency="1350000">earthenware<nouns>
+			<translations><date>0407</date>
+				<translation gender="f">terrissa</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="5750000">earthquake<nouns>
 			<translations>
@@ -402,6 +411,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="1180000">eclampsia<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="f">eclàmpsia</translation>
+			</translations>
+		</nouns>
+	</Entry>
          <Entry frequency="8200000">eclectic<adjectives>
 			<translations>
 				<translation>eclèctic</translation>
@@ -554,6 +569,12 @@
 	<Entry frequency="411000">eczema<nouns>
 			<translations>
 				<translation gender="m">èczema</translation>
+			</translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="500000">eddy<nouns>
+			<translations><date>0507</date>
+				<translation gender="m">remolí<plural>eddies</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1599,9 +1620,16 @@
 			</translations>
 		</adjectives>
 	</Entry>
-                <Entry frequency="34900000">embody<verbs ie="true">
+                    <Entry frequency="34900000">embody<verbs ie="true">
 			<translations>
 				<translation>encarnar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="1500000">emboss<verbs>
+			<translations><date>0507</date>
+				<translation>marcar (o estampar o gravar) en relleu</translation>
+                                <translation>repujar / repussar<engnote>'Repujar' and 'repussar' mean to emboss metal or leather</engnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1705,6 +1733,12 @@
 	<Entry frequency="197000">emirate<nouns>
 			<translations>
 				<translation gender="m">emirat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="78200000">emission<nouns>
+			<translations><date>0407</date>
+				<translation gender="f">emissió<engexamp>Carbon emissions</engexamp><catexamp>Emissions de carboni</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1911,10 +1945,10 @@
 	<Entry frequency="46100000">encourage<verbs>
 			<translations>
 				<translation>animar / encoratjar / engrescar</translation>
-                                <translation>incentivar / impulsar</translation>
+                                <translation>incentivar / impulsar / incitar / esperonar</translation>
 			</translations>
 		</verbs>
-	</Entry>
+	</Entry>e
 	<Entry frequency="15100000">encouraging<adjectives>
 			<translations>
 				<translation>esperançador / encoratjador / engrescador</translation>
@@ -1922,8 +1956,8 @@
 		</adjectives>
 	</Entry>
 	<Entry frequency="6970000">encrypt<verbs>
-			<translations>
-				<translation>xifrar</translation>
+			<translations><date>0507</date>
+				<translation>xifrar / encriptar<engnote>Until 2007 'encriptar' was considered an Anglicism and the only accepted translation of 'encrypt' was 'xifrar'</engnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2752,13 +2786,30 @@ a processar-li per aquest delit.</catnote></translation>
 	</Entry>
 	<Entry frequency="1310000">epilepsy<nouns>
 			<translations>
-				<translation gender="f">epilèpsia</translation>
+				<translation catagory="medical-illness" gender="f">epilèpsia</translation>
 			</translations>
 		</nouns>
+	</Entry>
+          <Entry frequency="1230000">epileptic<nouns>
+			<translations><date>0407</date>
+				<translation catagory="medical" gender="mf">epilèptic</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation catagory="medical">epilèptic<engexamp>Epileptic fit</engexamp><catexamp>Crisi epilèptica</catexamp></translation>
+                    </translations>
+                    </adjectives>
 	</Entry>
 	<Entry frequency="619000">epilogue<nouns>
 			<translations>
 				<translation gender="m">epíleg</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="1520">epiphora<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="f">epífora</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2965,6 +3016,13 @@ a processar-li per aquest delit.</catnote></translation>
 				</translation>
 				<translation gender="f">fe d'errates<engnote>'Fe d'errates' means '(list of) errata'.</engnote>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="1270000">eruption<nouns>
+			<translations><date>0407</date>
+                        <translation disambiguate="geography" gender="f">erupció<engexamp>Volcanic eruption</engexamp><catexamp>Erupció volcànica</catexamp></translation>
+				<translation termcat="medical" gender="f">erupció<synonyms>rash</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3721,6 +3779,12 @@ a processar-li per aquest delit.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="191000">exanthema<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="m">exantema</translation>
+			</translations>
+		</nouns>
+	</Entry>
          <Entry frequency="5280000">exasperate<verbs>
 			<translations>
 				<translation>exasperar / exacerbar<engexamp>To become exasperated / to get exasperated</engexamp><catexamp>Exasperar-se / exacerbar-se</catexamp></translation>
@@ -4017,7 +4081,10 @@ a processar-li per aquest delit.</catnote></translation>
 	</Entry>
             <Entry frequency="1300000">exhaustion<nouns>
 			<translations>
+                            <translation>
 				<translation gender="m">esgotament</translation>
+                                <translation gender="f">extenuació</translation>
+                                </translation>
                             </translations>
 		</nouns>
 	</Entry>
@@ -4108,6 +4175,12 @@ a processar-li per aquest delit.</catnote></translation>
 	<Entry frequency="1430000">exodus<nouns>
 			<translations>
 				<translation gender="m">èxode</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="240000">exophthalmos<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="f">exoftàlmia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4567,6 +4640,12 @@ a processar-li per aquest delit.</catnote></translation>
 				<translation>extraordinari</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+          <Entry frequency="82900">extrasystole<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="f">estrasístole</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="672000">extraterrestrial<nouns>
 			<translations>

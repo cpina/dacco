@@ -428,6 +428,23 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="2780000">salvage<verbs>
+                            <translations><date>0507</date>
+				<translation>recuperar</translation>
+			</translations>
+		</verbs>
+                <nouns>
+                    <translations>
+                        <translation gender="f">recuperació</translation>
+                    </translations>
+                </nouns>
+	</Entry>
+         <Entry frequency="594000">salvageable<adjectives>
+			<translations><date>0507</date>
+				<translation>recuperable</translation>
+			</translations>
+		</adjectives>
+	</Entry>
         	<Entry frequency="308000">salver<nouns>
 			<translations>
 				<translation gender="f">safata</translation>
@@ -701,9 +718,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+                <Entry frequency="1500000">saucepan<nouns>
+			<translations><date>0507</date>
+				<translation catagory="household-room-kitchen" gender="f">cassola</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="1190000">saucer<nouns>
 			<translations>
-				<translation catagory="household-room-kitchen-crockery" gender="m">platet<engexamp>Flying saucers</engexamp><catexamp>Platets voladors</catexamp></translation>
+				<translation catagory="household-room-kitchen" gender="m">platet<engexamp>Flying saucers</engexamp><catexamp>Platets voladors</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -755,8 +778,7 @@
 	<Entry frequency="82800000">save<verbs>
 			<translations>
 				<translation catagory="computers" termcat="true">guardar / desar<engexamp>To save a file</engexamp>
-					<catexamp>Guardar un fitxer</catexamp>
-				</translation>
+					<catexamp>Guardar un fitxer</catexamp></translation>
 				<translation>estalviar<engexamp>To save water</engexamp>
 					<catexamp>Estalviar aigua</catexamp>
 					<engexamp>To save energy</engexamp>
@@ -1119,6 +1141,12 @@
                 </translations>
                 </verbs>
 	</Entry>
+         <Entry frequency="40800000">schema<nouns>
+			<translations><date>0507</date>
+				<translation gender="m">esquema<plural>schemas, schemata</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1120000">schizophrenia<nouns>
 			<translations>
 				<translation catagory="medical-illness" gender="f">esquizofrènia</translation>
@@ -1212,6 +1240,12 @@
 	<Entry frequency="1410000">scissors<nouns>
 			<translations>
 				<translation gender="fpl">tisores</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="1190000">scleroderma<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="f">esclerodèrmia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1489,6 +1523,7 @@
 	<Entry frequency="28400000">script<nouns>
 			<translations>
 				<translation gender="f">guió</translation>
+                                <translation disambiguate="medical" gender="f">recepta<catnote>Aquesta és una paraula utilitzada sobretot pels metges</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1772,6 +1807,12 @@
 				<translation>seborreic<engexamp>Seborrheic dermatitis</engexamp><catexamp>Dermatitis seborreica</catexamp></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="3470000">secession<nouns>
+			<translations><date>0607</date>
+				<translation catagory="politics" gender="f">secessió</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="1070000">secluded<adjectives>
 			<translations>
@@ -4665,7 +4706,7 @@
 	<Entry frequency="415000">sitting room<nouns>
 			<translations>
 				<translation catagory="household-room" local="gb" gender="f">sala d'estar<otherlocal>living room</otherlocal>
-					<catnote>En l'anglès britànic les expressions 'sitting room' i 'living room' són més o menys intercanviables.  Als Estats Units, el 'living room' és més bé una habitació formal que s'utilitza sobretot quan hi ha convidats.  La habitació on la família mira la televisió i passa la majoria del temps lliure es diu 'family room' o 'den'. Les cases més grans poden tenir 'living room', 'family room' i 'den'</catnote>
+					<catnote>En anglès britànic les expressions 'sitting room' i 'living room' són més o menys intercanviables.  Als Estats Units, el 'living room' és més bé una habitació formal que s'utilitza sobretot quan hi ha convidats.  La habitació on la família mira la televisió i passa la majoria del temps lliure es diu 'family room' o 'den'. Les cases més grans poden tenir 'living room', 'family room' i 'den'</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -5984,6 +6025,17 @@
 				<translation catagory="sports-event" local="gb" gender="m">busseig amb tub / submarinisme a pulmó lliure<otherlocal>snorkeling</otherlocal></translation>
 			</translations>
 		</nouns>
+	</Entry>
+          <Entry frequency="1300000">snort<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="m">esbufec</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>esbufegar</translation>
+                        </translations>
+                        </verbs>
 	</Entry>
         <Entry frequency="837000">snot<nouns>
 			<translations>
@@ -7461,14 +7513,14 @@
 	</Entry>
 	<Entry frequency="542000">specter<nouns>
 			<translations>
-				<translation register="formal" local="us" gender="m">fantasma<otherlocal>spectre</otherlocal>
+				<translation register="formal" local="us" gender="m">espectre / fantasma<otherlocal>spectre</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="542000">spectre<nouns>
 			<translations>
-				<translation register="formal" local="gb" gender="m">fantasma<otherlocal>specter</otherlocal>
+				<translation register="formal" local="gb" gender="m">espectre / fantasma<otherlocal>specter</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
@@ -7991,6 +8043,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="450000">spondylolisthesis<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="f">espondilolistesi</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1350000">sponge<nouns>
 			<translations>
 				<translation catagory="household-room-bathroom" gender="f">esponja</translation>
@@ -8008,6 +8066,12 @@
 				<translation register="colloquial">gorrer / gorrista<synonyms>freeloader</synonyms></translation>
 			</translations>
 		</nouns>
+	</Entry>
+           <Entry frequency="1060000">spongiform<adjectives>
+			<translations><date>0507</date>
+				<translation>espongiforme</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="60200000">sponsor<verbs>
 			<translations>
@@ -8292,8 +8356,12 @@
 		</nouns>
                 <verbs double="true">
                 <translations>
-                <translation>esperonar / incitar / estimular</translation>
                 <translation>esperonar</translation></translations></verbs>
+                <phrasalverbs>spur on
+                <translations>
+                    <translation>esperonar / incitar / estimular</translation>
+                </translations>
+                </phrasalverbs>
 	</Entry>
 	<Entry frequency="128000">spur-of-the-moment<adjectives>
 			<translations>
@@ -9164,6 +9232,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="168000">steatorrhea<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="f">esteatorrea</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="13700000">steel<nouns>
 			<translations>
 				<translation catagory="material" gender="m">acer</translation>
@@ -9239,7 +9313,7 @@
 	</Entry>
 	<Entry frequency="76100000">step<nouns>
 			<translations>
-				<translation gender="m">pas<engnote>'Pa's means 'step' as in 'admitting you have a drinking problem is the first step to recovery'</engnote>
+				<translation gender="m">pas<engnote>'Pas' means 'step' as in 'admitting you have a drinking problem is the first step to recovery'</engnote>
 				</translation>
 				<translation gender="m">esglaó<engnote>'Esglaó' means 'step' as in a physical step up to a building etc.</engnote>
 				</translation>
@@ -9267,6 +9341,12 @@
 	<Entry frequency="261000">stepmother<nouns>
 			<translations>
 				<translation catagory="family-marriage" gender="f">madrastra</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="4060000">steppe<nouns>
+			<translations><date>0507</date>
+				<translation gender="f">estepa</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -9432,6 +9512,12 @@
 				<translation>sufocant<engexamp>Stifling heat</engexamp><catexamp>Calor sufocant</catexamp></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+          <Entry frequency="1360000">stigma<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="m">estigma</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="22800000">still<adverbs>
 			<translations>
@@ -9676,6 +9762,12 @@
 				<translation register="colloquial">col·locat</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="1380000">stoneware<nouns>
+			<translations><date>0407</date>
+				<translation gender="f">terrissa</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="117000">stoning<nouns>
 			<translations>
@@ -11613,6 +11705,18 @@
 				<translation>rendir</translation>
 			</translations>
 		</verbs>
+	</Entry>
+         <Entry frequency="9320000">surrogate<adjectives>
+			<translations><date>0507</date>
+                            <translation>substitutiu / de lloguer<engexamp>Surrogate mother</engexamp><catexamp>Mare de lloguer</catexamp></translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="mf">substitut</translation>
+                        <translation gender="f">mare de lloguer</translation>
+                    </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="9800000">surround<verbs>
 			<translations>

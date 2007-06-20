@@ -996,13 +996,19 @@
       </translations>
     </nouns>
   </Entry>
+          <Entry frequency="441">tefló<nouns>
+			<translations><date>0507</date>
+				<translation catagory="material" gender="m">teflon</translation>
+			</translations>
+		</nouns>
+	</Entry>
   <Entry frequency="24200" >teix<nouns>
       <translations><date>0306</date>
         <translation catagory="plants-tree" gender="m" >yew / yew tree<plural>teixos</plural></translation>
       </translations>
     </nouns>
   </Entry> 
-  <Entry frequency="47700" >teixir<verbs conj="inceptive" >
+  <Entry frequency="47700" >teixir<verbs conj="inceptive">
       <translations><date>0605</date>
         <translation transitive="true" catagory="clothes" >to weave</translation>
       </translations>
@@ -1849,10 +1855,28 @@
   </Entry>
   <Entry frequency="3610" >terrissa<nouns>
       <translations>
-        <translation gender="f" >pottery</translation>
+        <translation catagory="material" gender="f" >pottery / earthenware / stoneware / ceramics</translation>
+        <translation gender="f">clay</translation>
       </translations>
     </nouns>
   </Entry>
+   <Entry frequency="1750">terrissaire<nouns>
+			<translations><date>0407</date>
+				<translation catagory="work-job" gender="m / f">potter<synonyms>terrisser</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="1100">terrisser<nouns>
+			<translations><date>0407</date>
+				<translation catagory="work-job" gender="m / f">potter<synonyms>terrissaire</synonyms></translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>pottery<fems>terrissera</fems></translation>
+                        </translations>
+                        </adjectives>
+	</Entry>
   <Entry frequency="90200" >territori<nouns>
       <translations>
         <translation gender="m" >land / territory<catexamp>Territoris ocupats</catexamp>
@@ -3321,6 +3345,12 @@
       </translations>
     </nouns>
   </Entry>
+    <Entry frequency="14">toxicosi<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="f">toxicosis</translation>
+			</translations>
+		</nouns>
+	</Entry>
   <Entry frequency="1130" >toxina<nouns>
       <translations>
         <translation catagory="biology" gender="f" >toxin</translation>
@@ -4452,6 +4482,7 @@
       <translations>
         <translation catagory="education" gender="m" >term</translation>
         <translation gender="m" >quarter</translation>
+        <translation gender="m">trimester<engnote>(pregnancy: 1st, 2nd and 3rd trimesters)</engnote></translation>
       </translations>
     </nouns>
   </Entry>
@@ -4925,6 +4956,13 @@
   <Entry frequency="14400">turment<nouns>
 			<translations><date>0506</date>
 				<translation gender="m">torment / suffering / torture</translation>
+			</translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="319000">turó<nouns>
+			<translations><date>0507</date>
+				<translation gender="m">hill</translation>
+                                <translation disambiguate="animal-animal" gender="m">polecat<plural>turons</plural></translation>                                
 			</translations>
 		</nouns>
 	</Entry>

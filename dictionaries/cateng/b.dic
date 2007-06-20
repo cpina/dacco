@@ -1917,10 +1917,16 @@
 	</Entry>
 	<Entry frequency="101">birret<nouns>
 			<translations>
-				<translation gender="m">biretta</translation>
-				<translation gender="m">mortarboard</translation>
+				<translation disambiguate="religious" gender="m">biretta</translation>
+				<translation disambiguate="education" gender="m">mortarboard</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="700">bisbal<adjectives>
+			<translations><date>0607</date>
+				<translation catagory="religious">episcopal / bishop's / bishops'<synonyms>episcopal</synonyms></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="35500" hasSound="true">bisbe<nouns>
 			<translations><date>0805</date>
@@ -2119,6 +2125,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="13900">blindar<verbs>
+			<translations><date>0607</date>
+				<translation>to bulletproof / to make bulletproof / to armour / to make impenetrable</translation>
+                                <translation>to protect / to shore up / to seal up / to seal off<example>El ministre vol &lt;b&gt;blindar&lt;/b&gt; el creixement fins al 2011.</example><example>Es critica que amb el projecte de reforma de l'Estatut es pretén &lt;b&gt;blindar&lt;/b&gt; competències.</example></translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="1170" hasSound="true">blindat<adjectives>
 			<translations>
 				<translation>bulletproof / armoured (Br.) / armored (Am.)<fems>blindada</fems>
@@ -2128,7 +2141,7 @@
 	</Entry>
           <Entry frequency="9380">blindatge<nouns>
 			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">shielding<catexamp>Blindatge biològic</catexamp><engexamp>Biological shielding</engexamp><catexamp>Lead shielding</catexamp><engexamp>Blindatge de plom</engexamp><catexamp>Blindatge magnètic</catexamp><engexamp>Magnetic shielding</engexamp></translation>
+				<translation termcat="energy" gender="m">shielding<catexamp>Blindatge biològic</catexamp><engexamp>Biological shielding</engexamp><catexamp>Blindatge de plom</catexamp><engexamp>Lead shielding</engexamp><catexamp>Blindatge magnètic</catexamp><engexamp>Magnetic shielding</engexamp></translation>
                                 <translation gender="m">protection</translation>
 			</translations>
 		</nouns>
@@ -2138,6 +2151,7 @@
                                 <translation disambiguate="computers-internet" gender="m">blog</translation>
 				<translation gender="m">block</translation>
                                 <translation gender="m">pad</translation>
+                                <translation gender="m">section / part</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2243,6 +2257,17 @@
 				<translation gender="f">madness</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="37400">bohemi<nouns>
+			<translations><date>0507</date>
+				<translation  gender="m / f">bohemian</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>bohemian<fems>bohèmia</fems></translation>
+                    </translations>
+                </adjectives>
 	</Entry>
             <Entry frequency="13900">boia<nouns>
 			<translations><date>0207</date>
@@ -3161,6 +3186,12 @@
 				<translation>bucolic<fems>bucòlica</fems><femplural>bucòliques</femplural></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+           <Entry frequency="24100">Buda<nouns>
+			<translations><date>0507</date>
+				<translation catagory="religious" gender="m">Buddha</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="499" hasSound="true">budells<nouns>
 			<translations>

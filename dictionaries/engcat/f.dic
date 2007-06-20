@@ -100,6 +100,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+          <Entry frequency="1170000">facies<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="f">fàcies</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="21200000">facilitate<verbs>
 			<translations>
 				<translation register="formal">facilitar</translation>
@@ -1331,9 +1337,12 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="816000">ferret<nouns>
-			<translations>
-				<translation gender="f">fura</translation>
+<Entry frequency="1430000">ferret<nouns>
+			<translations><date>0507</date>
+                            <translation>
+				<translation catagory="animal-animal" gender="f">fura</translation>
+                                <translation catagory="animal-animal" gender="m">furó</translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1453,6 +1462,23 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="1220000">fib<nouns>
+			<translations><date>0407</date>
+				<translation register="colloquial" gender="f">mentida</translation>
+			</translations>
+		</nouns>
+                <verbs double="true">
+                    <translations>
+                        <translation>mentir</translation>
+                        </translations>
+                        </verbs>
+	</Entry>
+          <Entry frequency="75000">fibber<nouns>
+			<translations><date>0407</date>
+				<translation register="colloquial" gender="mf">mentider</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="7410000">fiber<nouns>
 			<translations>
 				<translation local="us" gender="f">fibra<otherlocal>fibre</otherlocal></translation>
@@ -1478,6 +1504,18 @@
 				</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+          <Entry frequency="1230000">fibrillation<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="f">fibril·lació</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="221000">fibromatosis<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="f">fibromatosi</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="9040000">fibromyalgia<nouns>
 			<translations>
@@ -2562,6 +2600,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+          <Entry frequency="302000">flatus<nouns>
+			<translations><date>0407</date>
+				<translation termcat="medical" gender="f">flatositat</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="4490000">flatware<nouns>
 			<translations>
 				<translation local="us" gender="f">coberteria<engexamp>Flatware set</engexamp><catexamp>Joc de coberts</catexamp><engexamp>Piece of flatware</engexamp><catexamp>Cobert</catexamp><otherlocal>cutlery</otherlocal></translation>
@@ -2990,6 +3034,7 @@
 			<participle>flown</participle>
 			<translations>
 				<translation>volar</translation>
+                                <translation>onejar<engexamp>La bandera espanyola torna a onejar a Igualada</engexamp><catexamp>The Spanish flag is flying again in Igualada</catexamp></translation>
 			</translations>
 		</verbs>
 		<nouns>

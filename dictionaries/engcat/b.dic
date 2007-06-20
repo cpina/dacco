@@ -2038,12 +2038,19 @@
 	<Entry frequency="19100000">bell<nouns>
 			<translations>
 				<translation gender="f">campana</translation>
+                                <translation gender="f">campaneta<engnote>A 'campaneta' is a small, ornamental bell</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="378000">bellboy<nouns>
 			<translations>
 				<translation catagory="work-job" gender="m">grum<synonyms>bellhop (Am.)</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+            <Entry frequency="175000">bellflower<nouns>
+			<translations><date>0507</date>
+				<translation catagory="plants-flower" picture="http://farm1.static.flickr.com/177/449639303_51a6ce2c42.jpg" flickr="http://www.flickr.com/photos/chrisser/449639303/" gender="f">campaneta</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4223,6 +4230,17 @@
 			</translations>
 		</exclamations>
 	</Entry>
+         <Entry frequency="9760000">bohemian<nouns>
+			<translations><date>0507</date>
+				<translation gender="mf">bohemi</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>bohemi</translation>
+                        </translations>
+                </adjectives>
+	</Entry>
 	<Entry frequency="1640000">boil<verbs>
 			<translations>
 				<translation>bullir</translation>
@@ -6168,20 +6186,27 @@
 		</adjectives>
 	</Entry>
         <Entry frequency="79900000">bud<nouns>
-			<translations>
+			<translations><date>0507</date>
 				<translation catagory="plants" gender="f">poncella</translation>
+                                <translation local="us" gender="mf">company / amic<otherlocal>mate / pal</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="2290000">Buddha<nouns>
+			<translations><date>0507</date>
+				<translation catagory="religious" gender="m">Buda</translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="2260000">Buddhism<nouns>
 			<translations>
-				<translation gender="m">budisme</translation>
+				<translation catagory="religious" gender="m">budisme</translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="2840000">Buddhist<nouns>
 			<translations>
-				<translation gender="mf">budista</translation>
+				<translation catagory="religious" gender="mf">budista</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -6189,7 +6214,7 @@
 	</Entry>
 	<Entry frequency="14700000">buddy<nouns>
 			<translations>
-				<translation register="colloquial" local="us" gender="m">amic<otherlocal>mate</otherlocal>
+				<translation register="colloquial" local="us" gender="m">company / amic<otherlocal>mate</otherlocal>
 					<plural>buddies</plural>
 				</translation>
 			</translations>
@@ -6458,10 +6483,15 @@
 		</nouns>
 	</Entry>
 	<Entry frequency="386000">bulletproof<adjectives>
-			<translations>
+			<translations><date>0607</date>
 				<translation>blindat</translation>
 			</translations>
 		</adjectives>
+                <verbs>
+                    <translations>
+                        <translation>blindar</translation>
+                    </translations>
+                    </verbs>
 	</Entry>
 	<Entry frequency="2950000">bullock<nouns>
 			<translations>
