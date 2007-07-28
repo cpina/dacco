@@ -1014,7 +1014,7 @@
 	</Entry>
 	<Entry frequency="4990000">scare<verbs>
 			<translations>
-				<translation>atemorir / espantar / esporuguir<synonyms>frighten</synonyms>
+				<translation>atemorir / espantar / esporuguir / espaordir<synonyms>frighten</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -1669,6 +1669,18 @@
 			<translations>
 				<translation gender="mf">mar</translation>
                                 <translation beforenoun="true">marí</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="1770000">sea bass<nouns>
+                    	<translations><date>0707</date>
+				<translation catagory="animal-fish" gender="m">llobarro</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="441000">sea bream<nouns>
+			<translations><date>0707</date>
+				<translation catagory="animal-fish" gender="m">besuc</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6433,6 +6445,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="1380000">sodium bicarbonate<nouns>
+			<translations><date>0707</date>
+				<translation catagory="chemistry" gender="m">hidrogencarbonat de sodi</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="27400">sod off<exclamations>
 			<translations>
 				<translation register="slang">fot el camp!</translation>
@@ -8114,6 +8132,18 @@
                                     <translation gender="f">paròdia</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="1640000so">spook<nouns>
+			<translations><date>0707</date>
+                                    <translation gender="m">espectre / fantasma</translation>
+                                <translation register="slang" gender="mf">agent secret / espia</translation>
+                                </translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>sobresaltar / espantar</translation>
+                        </translations>
+                        </verbs>
 	</Entry>
 	<Entry frequency="2100000">spoon<nouns>
 			<translations>
@@ -10907,6 +10937,11 @@
 				<translation local="us" register="slang">estar fatal</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>suck up
+                <translations>
+                    <translation register="colloquial">llepar el cul<example>My colleague is always &lt;b&gt;sucking up&lt;/b&gt; to the boss.  He'll do anything to please him.</example></translation>
+                    </translations>
+                    </phrasalverbs>
 	</Entry>
 	<Entry frequency="1450000">sucker<nouns>
 			<translations>
