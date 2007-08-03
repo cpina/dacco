@@ -6746,12 +6746,24 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 				<translation transitive="true">presentar</translation>
 			</translations>
 		</verbs>
+                <expressions>at present
+                <translations>
+                    <translation>actualment<synonyms>currently</synonyms></translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 	<Entry frequency="67600000">presentation<nouns>
 			<translations>
 				<translation gender="f">presentació</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="20100000">presently<adverbs>
+			<translations><date>0807</date>
+                        <translation>aviat</translation>
+				<translation local="us">actualment / ara<otherlocal>at present / currently</otherlocal></translation>
+			</translations>
+		</adverbs>
 	</Entry>
         <Entry frequency="11900000">preservative<nouns>
 			<translations>
@@ -8363,12 +8375,14 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 		</verbs>
 		<nouns>
 			<translations>
-				<translation register="slang" noteng="TRUE">-<example>We are &lt;b&gt;going out on the pull&lt;/b&gt; tonight</example>
-					<example>Watch out Sarah, he&lt;b&gt;'s on the pull!'&lt;/b&gt;</example>
-					<catnote>La paraula 'pull' s'utilitza com a sustantiu en la locució 'to be on the pull' o 'to go / be out on the pull', que signifiquen 'lligar'.</catnote>
-				</translation>
+				<translation gender="f">estirada</translation>
+                                </translations>
+                                </nouns>
+                                <expressions>be (o go) (out) on the pull
+                                <translations>
+                                    <translation register="slang">sortir a lligar<example>We are &lt;b&gt;going out on the pull&lt;/b&gt; tonight</example><example>Watch out Sarah, he&lt;b&gt;'s on the pull!'&lt;/b&gt;</example></translation>
 			</translations>
-		</nouns>
+		</expressions>
 		<phrasalverbs>pull apart
 			<translations>
 				<translation>separar<example>I tried to &lt;b&gt;pull&lt;/b&gt; the two pieces &lt;b&gt;apart&lt;/b&gt; but they must have been stuck together with superglue because they wouldn't move</example>
@@ -8378,6 +8392,11 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 				</translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>pull away
+                <translations>
+                    <translation disambiguate="transport">allunyar-se<example>As the car &lt;b&gt;pulled away&lt;/b&gt; from the curb she turned in the back seat and waved out the window.</example></translation>
+                    </translations>
+                    </phrasalverbs>
                 <phrasalverbs>pull back<translations><translation>retrocedir</translation></translations></phrasalverbs>
 		<phrasalverbs>pull down
 			<translations>
@@ -8395,19 +8414,25 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 				</translation>
 				<translation disambiguate="transport">arribar<example>The train &lt;b&gt;pulled in&lt;/b&gt; just as I reached the platform</example>
 				</translation>
-				<translation>guanyar<example>The film &lt;b&gt;pulled in&lt;/b&gt; 5 million dollars at the box office</example>
+				<translation>recaptar<example>The film &lt;b&gt;pulled in&lt;/b&gt; 5 million dollars at the box office</example>
 				</translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>pull off
 			<translations>
-				<translation>aconseguir / tenir èxit<example>It was a seemingly impossible task, but they &lt;b&gt;pulled it off&lt;/b&gt;through sheer guts and determination</example>
+				<translation>reeixir / aconseguir / tenir èxit<example>It was a seemingly impossible task, but they &lt;b&gt;pulled it off&lt;/b&gt;through sheer guts and determination</example>
 				</translation>
 				<translation>treure's<example>He &lt;b&gt;pulled&lt;/b&gt; his t-shirt &lt;b&gt;off&lt;/b&gt; and threw it in the laundry basket</example>
 					<example>She &lt;b&gt;pulled&lt;/b&gt; her shoes &lt;b&gt;off&lt;/b&gt; and put her poor, tired feet up on the settee</example>
 				</translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>pull on
+                <translations>
+                    <translation>posar-se<example>Sven was freezing so he &lt;b&gt;pulled on&lt;/b&gt; his sweater</example></translation>
+                    <translation>fer (or donar) una pipada<example>She &lt;b&gt;pulled on&lt;/b&gt; her cigarette, threw her head back and blew smoke in his face.</example></translation>
+                    </translations>
+                    </phrasalverbs>
 		<phrasalverbs>pull out
 			<translations>
 				<translation>abandonar<example>American troops could soon be &lt;b&gt;pulling out&lt;/b&gt; of Afghanistan</example>
@@ -8424,40 +8449,63 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 				</translation>
 			</translations>
 		</phrasalverbs>
-		<phrasalverbs>pull out (all the stops)
-			<translations>
-				<translation>fer el més gran esforç possible<example>We're going to &lt;b&gt;pull out all the stops&lt;/b&gt; to make this concert a success</example>
-					<example>The British team &lt;b&gt;pulled out all the stops&lt;/b&gt; to beat the Americans</example>
-				</translation>
-			</translations>
-		</phrasalverbs>
 		<phrasalverbs>pull over
 			<translations>
-				<translation catagory="transport">aturar / parar<example>The police car signalled for me to &lt;b&gt;pull over&lt;/b&gt;</example>
+				<translation disambiguate="transport">aturar / parar<example>The police car signalled for me to &lt;b&gt;pull over&lt;/b&gt;</example><example>As soon as she heard the siren she &lt;b&gt;pulled over&lt;/b&gt; to let the ambulance past.</example>
 				</translation>
 			</translations>
 		</phrasalverbs>
-		<phrasalverbs>pull (yourself) together
+                <phrasalverbs>pull somebody over
+                <translations>
+                    <translation disambiguate="transport">fer aturar / parar<example>The police regularly &lt;b&gt;pulled him over&lt;/b&gt; when he was driving his dad's car.</example></translation>
+                    </translations>
+                    </phrasalverbs>
+                    <phrasalverbs>pull through
+                    <translations>
+                        <translation>recuperar-se (un malalt)<example>He was badly injured in the blast and the doctors don't expect him to &lt;b&gt;pull through&lt;/b&gt;.</example></translation>
+                        </translations>
+                        </phrasalverbs>
+		<phrasalverbs>pull together
+			<translations>
+                            <translation>treballar junts / treballar en comú / unir forces / col·laborar<example>With limited resources, we all need to &lt;b&gt;pull together&lt;/b&gt; if we want this project to succeed.</example></translation>
+			</translations>
+		</phrasalverbs>
+                 <phrasalverbs>pull (yourself) together
 			<translations>
 				<translation>dominar-se<example>He was hysterical so she slapped him and told him to &lt;b&gt;pull himself together&lt;/b&gt;</example>
 				</translation>
 			</translations>
 		</phrasalverbs>
-		<phrasalverbs>pull (your) socks up
-			<translations>
-				<translation noteng="TRUE">-<example>He needs to &lt;b&gt;pull his socks up&lt;/b&gt; if he wants to pass his exams</example>
-					<example>The boss told them that if they didn't &lt;b&gt;pull their socks up&lt;/b&gt; they would all be fired</example>
-					<catnote>La locució 'to pull your socks up' vol dir 'fer un esforç més gran'.</catnote>
-				</translation>
-			</translations>
-		</phrasalverbs>
 		<phrasalverbs>pull up
 			<translations>
-				<translation disambiguate="transport">aturar / parar<example>He &lt;b&gt;pulled up&lt;/b&gt; outside the shop, switched the engine off and went to buy a pint of milk</example>
-				</translation>
+				<translation disambiguate="transport">aturar / parar<example>He &lt;b&gt;pulled up&lt;/b&gt; outside the shop, switched the engine off and went to buy a pint of milk</example></translation>
 			</translations>
 		</phrasalverbs>
-	</Entry>
+                <phrasalverbs>pull somebody up
+                <translations>
+                    <translation>reprendre / renyar<example>At school her teachers are always &lt;b&gt;pulling her up&lt;/b&gt; for not wearing the correct uniform.</example></translation>
+                    </translations>
+                        </phrasalverbs>
+                        <expressions>pull a fast one on somebody
+                        <translations>
+                            <translation>estafar / enganyar algú</translation>
+                            </translations>
+                            </expressions>
+                <expressions>pull out all the stops
+			<translations>
+				<translation>fer el més gran esforç possible<example>We're going to &lt;b&gt;pull out all the stops&lt;/b&gt; to make this concert a success</example>
+					<example>The British team &lt;b&gt;pulled out all the stops&lt;/b&gt; to beat the Americans</example>
+				</translation>
+			</translations>
+		</expressions>
+                <expressions>pull (your) socks up
+			<translations>
+				<translation>fer un esforç més gran<example>He needs to &lt;b&gt;pull his socks up&lt;/b&gt; if he wants to pass his exams</example>
+					<example>The boss told them that if they didn't &lt;b&gt;pull their socks up&lt;/b&gt; they would all be fired</example>
+				</translation>
+			</translations>
+		</expressions>
+               	</Entry>
         <Entry frequency="100000000">pull-down menu<mistakes>pulldown menu</mistakes><nouns>
 			<translations>
 				<translation catagory="computers" gender="m">menú desplegable</translation>
