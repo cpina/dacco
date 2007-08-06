@@ -537,6 +537,11 @@
                 <translation>atzucac</translation>
                 </translations>
                 </expressions>
+                <expressions>dead-end street
+                <translations>
+                    <translation local="us" gender="m">atzucac<otherlocal>cul-de-sac, no through road</otherlocal></translation>
+                    </translations>
+                    </expressions>
 	</Entry>
                      <Entry frequency="764000">deaden<verbs>
 			<translations>
@@ -547,6 +552,12 @@
          <Entry frequency="18800000">dead end<nouns>
 			<translations>
 				<translation gender="m">atzucac</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="318000">dead-end street<nouns><mistakes>dead end street</mistakes>
+			<translations><date>0807</date>
+				<translation local="us" gender="m">atzucac<otherlocal>cul-de-sac, no through road</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2808,10 +2819,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="4460000">dick<nouns>
-			<translations>
+	<Entry frequency="3000000">dick<nouns>
+			<translations><date>0807</date>
 				<translation disambiguate="body" gender="f" register="vulgar">polla</translation>
-                                <translation register="vulgar" gender="m">capoll</translation>
+                                <translation register="vulgar" gender="m">carallot</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2828,9 +2839,9 @@
                 <translation>molt ràpidament<example>Leo grabbed my hand and we ran &lt;b&gt;like the dickens&lt;/b&gt;, screaming at the top of our lungs.</example></translation>
                 </translations></expressions>
 	</Entry>
-	<Entry frequency="75600">dickhead<nouns>
-			<translations>
-				<translation gender="m" register="vulgar">capoll</translation>
+	<Entry frequency="1300000">dickhead<nouns>
+			<translations><date>0807</date>
+				<translation gender="m" register="vulgar">carallot</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2864,6 +2875,17 @@
                 <translation register="formal" gender="m">dau<plural>dice</plural><catnote>En el llenguatge formal o literari, 'die' és el singular i 'dice' el plural. Però, en el llenguatge quotidià, 'dice' és el plural I el singular.</catnote></translation>
                 </translations>
                 </nouns>
+	</Entry>
+        <Entry frequency="2120000">diehard<adjectives>
+			<translations><date>0807</date>
+				<translation>incondicional / intransigent</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                <translations>
+                    <translation gender="mf">intransigent / defensor de causes perdudes</translation>
+                    </translations>
+                    </nouns>
 	</Entry>
              <Entry frequency="17100000">diesel<nouns>
 			<translations><date>0307</date>
@@ -3118,6 +3140,11 @@
 				<translation gender="f" local="us">moneda de 10 centaus</translation>
 			</translations>
 		</nouns>
+                <expressions>a dime a dozen
+                    <translations>
+                        <translation local="us">(haver-hi) per donar i vendre / (haver-hi) per triar i remanar<engexamp>Even in Hollywood, where film stars are a dime a dozen, Winslet shone extra bright</engexamp><catexamp>Fins i tot a Hollywood, on d'estrelles n'hi ha per triar i remenar, Kate Winslet brillava</catexamp><otherlocal>ten a penny</otherlocal></translation>
+                        </translations>
+                        </expressions>
 	</Entry>
 	<Entry frequency="12100000">dimension<nouns>
 			<translations>
@@ -4617,6 +4644,16 @@
                                 <translation>(verb auxiliar sense traducció)</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>do away with (somebody)
+                <translations>
+                    <translation register="colloquial">matar algú</translation>
+                    </translations>
+                    </phrasalverbs>
+                <phrasalverbs>do away with (something)
+                <translations>
+                    <translation register="colloquial">suprimir / abolir</translation>
+                </translations>
+                </phrasalverbs>
 		<phrasalverbs>do (somebody) in<translations>
 				<translation>assassinar</translation>
 				<translation>arruïnar / destrossar</translation>
@@ -4716,9 +4753,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="21600000">dog<nouns>
-			<translations>
+	<Entry frequency="159000000">dog<nouns>
+			<translations><date>0807</date>
 				<translation gender="m">gos</translation>
+                                <translation register="slang" local="us" gender="f">salsitxa de Frankfurt<example>All sandwiches, burgers, chicken and &lt;b&gt;dogs&lt;/b&gt; are served with relish.</example><example>I ate 2 burgers and 2 &lt;b&gt;dogs&lt;/b&gt; at the post-match drink up.</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
