@@ -969,6 +969,17 @@
                 <translations>
                 <translation>negociar / regatejar</translation></translations></verbs>
 	</Entry>
+        	<Entry frequency="2980000">barge<nouns>
+			<translations><date>0807</date>
+				<translation catagory="transport-mode" gender="f">barcassa</translation>
+			</translations>
+		</nouns>
+                <phrasalverbs>barge in
+                <translations>
+                    <translation>entrar matusserament</translation>
+                    </translations>
+                    </phrasalverbs>
+                </Entry>
         <Entry frequency="1350000">baritone<nouns>
 			<translations>
 				<translation catagory="entertainment-music" gender="m">baríton</translation>
@@ -3503,10 +3514,11 @@
 		</verbs>
                 <phrasalverbs>blank out
                 <translations>
-                <translation>sofrir una fallada temporal de memòria</translation>
+                <translation>sofrir una fallada temporal de memòria<example>The man accused of killing his wife and children said he &lt;b&gt;blanked out&lt;/b&gt; and could not recall anything.</example></translation>
+                <translation>oblidar intencionadament un record trist o dolorós<example>No matter how much she tried to &lt;b&gt;blank out&lt;/b&gt; memories of the accident, she couldn't do it.</example></translation>
                 </translations>
                 </phrasalverbs>
-	</Entry>
+              	</Entry>
 	<Entry frequency="145000">blank check<nouns>
 			<translations>
 				<translation local="us" gender="m">xec en blanc<otherlocal>blank cheque</otherlocal>
@@ -4047,9 +4059,9 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="610000">blush<verbs>
-			<translations>
-				<translation>posar-se vermell</translation>
+	<Entry frequency="7630000">blush<verbs>
+                            <translations><date>0807</date>
+				<translation>posar-se vermell / ruboritzar-se / enrojolar-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4237,7 +4249,7 @@
 		</nouns>
                 <phrasalverbs>bog down
                 <translations>
-                <translation>empantanegar<engexamp>That debate will bog down the General Assembly for months</engexamp><catexamp>Aquest debat empantanegarà l'Assemblea General durant mesos</catexamp><engexamp>To become (or get) bogged down</engexamp><catexamp>Encallar-se</catexamp></translation></translations></phrasalverbs>
+                <translation>empantanegar / dificultar-li la feina (a algú)<engexamp>That debate will bog down the General Assembly for months</engexamp><catexamp>Aquest debat empantanegarà l'Assemblea General durant mesos</catexamp><engexamp>To become (or get) bogged down</engexamp><catexamp>Encallar-se</catexamp></translation></translations></phrasalverbs>
                 <exclamations>bog off
                 <translations>
                 <translation register="slang">fot el camp!<synonyms>sod off</synonyms></translation></translations></exclamations>
@@ -5676,14 +5688,19 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="3610000">brick<nouns>
-			<translations>
+	<Entry frequency="24700000">brick<nouns>
+			<translations><date>0807</date>
 				<translation>
 					<translation gender="m">maó</translation>
 					<translation gender="m">totxo</translation>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>be bricking it
+                <translations>
+                    <translation>cagar-se a les calces<examples>I start my new job on Monday and I'm &lt;b&gt;bricking it&lt;/b&gt;.</examples></translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 	<Entry frequency="114000">bricklayer<nouns>
 			<translations>
@@ -6328,13 +6345,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="48200000">bug<verbs double="true">
-			<translations>
+	<Entry frequency="175000000">bug<verbs double="true">
+			<translations><date>0807</date>
 				<translation register="colloquial" local="us">empipar<example>Quit &lt;b&gt;bugging&lt;/b&gt; me!</example>
 					<synonyms>pester</synonyms>
 				</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>bug out
+                <translations>
+                    <translation register="colloquial">anar-se'n / escapolir-se</translation>
+                    </translations>
+                    </phrasalverbs>
 		<nouns>
 			<translations>
 				<translation disambiguate="animal">
@@ -6697,7 +6719,7 @@
                 <phrasalverbs>bundle up
                 <translations>
                 <translation>lligar</translation>
-                <translation>abrigar-se</translation>
+                <translation>abrigar-se bé</translation>
                 </translations>
                 </phrasalverbs>
 	</Entry>
@@ -7176,6 +7198,7 @@
                 <phrasalverbs>buy into
                 <translations>
                 <translation>participar invertint diners a / invertir a / adquirir un interès en</translation>
+                <translation>creure<catnote>(Generalment negatiu)</catnote><example>I never really &lt;b&gt;bought into&lt;/b&gt; that whole 'God is on our side' way of thinking.</example></translation>
                 </translations>
                 </phrasalverbs>
                 <phrasalverbs>buy up

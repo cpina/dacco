@@ -234,11 +234,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="9740000">gang<nouns>
-			<translations>
+	<Entry frequency="64600000">gang<nouns>
+			<translations><date>0807</date>
 				<translation gender="f">colla / banda</translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>gang up
+                <translations>
+                    <translation>unir-se per atacar (un altre)</translation>
+                    <translation>unir-se i actuar conjuntament</translation>
+                    </translations>
+                    </phrasalverbs>
 	</Entry>
 	<Entry frequency="103000">gangrene<nouns>
 			<translations>
@@ -594,10 +600,24 @@
 			</translations>
 		</acronyms>
 	</Entry>
+<Entry frequency="121000000">gear<nouns>
+			<translations><date>0807</date>
+                            <translation gender="f">marxa</translation>
+                            <translation gender="m">equip</translation>
+                            <translation register="colloquial" gender="f">roba</translation>
+                            <translation register="slang" gender="fpl">drogues il·legals</translation>
+			</translations>
+		</nouns>
+                <phrasalverbs>gear up
+                <translations>
+                    <translation>preparar-se per una activitat o esdeveniment important</translation>
+                </translations>
+                </phrasalverbs>
+	</Entry>
 	<Entry frequency="28200000">geek<nouns>
 			<translations>
-				<translation>Una persona molt interessada en la tecnologia, especialment la informàtica.</translation>
-				<translation>Una persona amb una dedicació fora del normal, gairebé obsessiva, a qualsevol tema, per exemple : matemàtiques, història, esports, Star Trek geeks, Tolkien geeks</translation>
+				<translation>una persona molt interessada en la tecnologia, especialment la informàtica.</translation>
+				<translation>una persona amb una dedicació fora del normal, gairebé obsessiva, a qualsevol tema, per exemple : matemàtiques, història, esports, Star Trek geeks, Tolkien geeks</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1139,12 +1159,14 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="19400000">get<verbs>
+	<Entry frequency="1900000000">get<verbs>
 			<past>got</past>
 			<participle>got</participle>
 			<gerund>getting</gerund>
-			<translations>
+                            <translations><date>0807</date>
 				<translation>obtenir</translation>
+                                <translation>(porta) obrir<example>Was that a knock at the door? Will you &lt;b&gt;get&lt;/b&gt; it please?</example></translation>
+                                <translation>(telèfon) respondre<example>Will you &lt;b&gt;get&lt;/b&gt; the phone please? I've just put my feet up.</example></translation>
 			</translations>
 		</verbs>
 		<phrasalverbs>get along (with someone)
@@ -1159,18 +1181,53 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>get back at
+                <translations>
+                    <translation>venjar-se de</translation>
+                    </translations>
+                    </phrasalverbs>
                 <phrasalverbs>get by
                 <translations>
                 <translation>anar tirant</translation>
                 </translations>
                 </phrasalverbs>
+                <phrasalverbs>get in on
+                <translations>
+                    <translation>arribar a participar en (p.e. una oportunitat econòmica)</translation>
+                </translations>
+                </phrasalverbs>
+                <phrasalverbs>get in
+                    <translations>
+                        <translation>entrar</translation>
+                        <translation>ésser admès<example>She was trying for Oxford. Did she &lt;b&gt;get in&lt;/b&gt;?</example></translation>
+                        <translation>arribar<example>What time does her train &lt;b&gt;get in&lt;/b&gt;?</example></translation>
+                        <translation>(cotxe) pujar<example>&lt;b&gt;Get in&lt;/b&gt;, I'll give you a lift.</example></translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>get into
+                <translations>
+                    <translation>entrar a</translation>
+                    <translation>ésser admès a<example>She got straight As in her exams and &lt;b&gt;got into&lt;/b&gt; Cambridge.</example></translation>
+                    <translation>arribar a<example>We &lt;b&gt;got into&lt;/b&gt; Durham at about 9 o'clock.</example></translation>
+                    <translation>(cotxe) pujar a</translation>
+                    <translation>(llit) posar-se a</translation>
+                    <translation>començar a interessar-se en (alguna cosa)<example>I &lt;b&gt;got into&lt;/b&gt; jazz some years ago.</example></translation>
+                    <translation>començar a treballar en (el camp de)<engexamp>Get into journalism / politics</engexamp><catexamp>Començar a treballar en el periodisme / la política</catexamp></translation>
+                </translations>
+                    </phrasalverbs>
 		<phrasalverbs>get off
 			<translations>
 				<translation disambiguate="transport">baixar<engexamp>He got off the plane</engexamp>
 					<catexamp>Va baixar de l'avió</catexamp>
 				</translation>
+                                <translation register="colloquial">plegar<example>What time do you &lt;b&gt;get off&lt;/b&gt; today?</example><example>I normally &lt;b&gt;get off&lt;/b&gt; at 6 but today I finished at 7.</example></translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>get off on
+                <translations>
+                    <translation local="us">gaudir de</translation>
+                 </translations>
+                 </phrasalverbs>
 		<phrasalverbs>get on
 			<translations>
 				<translation disambiguate="transport">pujar<engexamp>I got on the bus</engexamp>
@@ -1178,7 +1235,12 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
-		<phrasalverbs>get on (with someone)
+                <phrasalverbs>get on to (somebody)
+                <translations>
+                    <translation>posar-se en contacte amb (algú)<example>I need to &lt;b&gt;get on to&lt;/b&gt; the landlord about fixing that fence.</example><example>He needs to &lt;b&gt;get on to&lt;/b&gt; the bank about his new credit card. It still hasn't arrived.</example></translation>
+                </translations>
+                </phrasalverbs>
+		<phrasalverbs>get on with (somebody)
 			<translations>
 				<translation>entendre's (amb algú) / portar-se (amb algú)<example>Paul tried to &lt;b&gt;get on with&lt;/b&gt; his mother-in-law, but it wasn't easy!</example><example>Those two just don't &lt;b&gt;get on&lt;/b&gt; at all.</example>
 				</translation>
@@ -1190,6 +1252,18 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>get out (of)
+                <translations>
+                    <translation>sortir<example>With two small children, I don't &lt;b&gt;get out&lt;/b&gt; as often as I used to.</example></translation>
+                    <translation>(cotxe) baixar<example>He &lt;b&gt;got out of&lt;/b&gt; the car and turned to wave goodbye.</example></translation>
+                    <translation>(llit) sortir (de) / aixecar-se (de)<example>He &lt;b&gt;got out&lt;/b&gt; of bed and stumbled to the bathroom.</example></translation>
+                </translations>
+                </phrasalverbs>
+                <phrasalverbs>get over (something)
+                <translations>
+                    <translation>recuperar-se d'(alguna cosa)<example>How to &lt;b&gt;get over&lt;/b&gt; the death of a loved one.</example><example>He is just &lt;b&gt;getting over&lt;/b&gt; a really bad dose of the flu.</example></translation>
+                </translations>
+                </phrasalverbs>
                 <expressions>from the get-go
                 <translations>
                 <translation>des del principi / des del començament</translation>
@@ -1428,20 +1502,60 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="226000000">give<verbs>
+	<Entry frequency="1390000000">give<verbs>
 			<past>gave</past>
 			<participle>given</participle>
-			<translations>
+                            <translations><date>0807</date>
 				<translation>donar</translation>
                                 <translation>impartir<engexamp>To give classes</engexamp><catexamp>Impartir classes</catexamp></translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>give (something) back
+                <translations>
+                    <translation>tornar</translation>
+                </translations>
+                </phrasalverbs>
+                <phrasalverbs>give in
+                    <translations>
+                        <translation>rendir-se / cedir<example>I &lt;b&gt;give in&lt;/b&gt;. What's the answer?</example></translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>give off
+                    <translations>
+                        <translation>emetre</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>give out
+                <translations>
+                    <translation>deixar de funcionar<example>I was 100m from the finishing line when my legs &lt;b&gt;gave out&lt;/b&gt;.</example></translation>
+                    <translation>exhaurir-se<example>The soldiers continued to resist until their ammunition &lt;b&gt;gave out&lt;/b&gt;.</example></translation>
+                </translations>
+                </phrasalverbs>
+                <phrasalverbs>give (something) out
+                <translations>
+                    <translation>repartir<synonyms>hand out</synonyms><example>At the party, they &lt;b&gt;gave out&lt;/b&gt; disposable cameras to all their guests.</example></translation>
+                </translations>
+                </phrasalverbs>
+                <phrasalverbs>give over
+                <translations>
+                    <translation>parar (de fer alguna cosa)<example>Rebecca! &lt;b&gt;Give over&lt;/b&gt; annoying your brother!</example></translation>
+                </translations>
+                </phrasalverbs>
                 <phrasalverbs>give up
                 <translations>
-                <translation>deixar de / desenganxar-se<engexamp>To give up smoking</engexamp><catexamp>Deixar de fumar</catexamp><engexamp>To give up drugs</engexamp><catexamp>Desenganxar-se de la droga</catexamp><examples>He wants you to &lt;b&gt;give up&lt;/b&gt; smoking.</examples></translation>
-                <translation>rendir-se<example>I &lt;b&gt;give up&lt;/b&gt;, you win!</example></translation>
+                <translation>cedir<example>I &lt;b&gt;give up&lt;/b&gt;, you win!</example></translation>
                 <translation>abandonar / renunciar / desistir / deixar</translation>
                 </translations>
+                </phrasalverbs>
+                <phrasalverbs>give (something) up
+                <translations>
+                    <translation>deixar de / desenganxar-se<engexamp>To give up smoking</engexamp><catexamp>Deixar de fumar</catexamp><engexamp>To give up drugs</engexamp><catexamp>Desenganxar-se de la droga</catexamp><example>He wants you to &lt;b&gt;give up&lt;/b&gt; smoking.</example></translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>give way
+                    <translations>
+                        <translation>cedir el pas</translation>
+                    </translations>
                 </phrasalverbs>
                 <expressions>what gives?
                 <translations>
@@ -1502,6 +1616,11 @@
                                 <translation gender="m">esguard</translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>glance through
+                    <translations>
+                        <translation>donar un cop d'ull a<example>Could you &lt;b&gt;glance through&lt;/b&gt; that and let me know what you think?</example></translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
 	<Entry frequency="1430000">gland<nouns>
 			<translations>
