@@ -2129,7 +2129,7 @@
     <Entry frequency="2400000">CDMA<engacro>Code Division Multiple Access</engacro>
         <acronyms>
             <translations>
-                <translation disambiguate="computers" termcat="true" gender="m">CDMA (accés múltiple per divisió de codi)</translation>
+                <translation disambiguate="computers" termcat="true" gender="m">CDMA<catacro>accés múltiple per divisió de codi</catacro></translation>
             </translations>
         </acronyms>
     </Entry>
@@ -5788,6 +5788,12 @@
         </translations>
     </adjectives>
     </Entry>
+    <Entry frequency="5570000">colorless<adjectives>
+			<translations><date>0907</date>
+				<translation local="us">incolor<otherlocal>colourless</otherlocal></translation>
+			</translations>
+		</adjectives>
+	</Entry>
     <Entry frequency="1110000">color photo<nouns>
         <translations>
             <translation local="us" gender="f">foto en color<otherlocal>colour photo</otherlocal>
@@ -5860,6 +5866,12 @@
         </translations>
     </adjectives>
     </Entry>
+    <Entry frequency="1830000">colourless<adjectives>
+			<translations><date>0907</date>
+				<translation local="gb">incolor<otherlocal>colorless</otherlocal></translation>
+			</translations>
+		</adjectives>
+	</Entry>
     <Entry frequency="1110000">colour photo<nouns>
         <translations>
             <translation local="gb" gender="f">foto en color<otherlocal>color photo</otherlocal>
@@ -8445,6 +8457,13 @@
         </translations>
     </adjectives>
     </Entry>
+    <Entry frequency="33300000">convey<verbs>
+			<translations><date>1007</date>
+				<translation>transportar</translation>
+                                <translation>comunicar</translation>
+			</translations>
+		</verbs>
+	</Entry>
     <Entry frequency="35700000">convict<nouns>
         <translations><date>1005</date>
             <translation gender="m / f">presidiari</translation>
@@ -9357,6 +9376,12 @@
             </translations>
         </verbs>
     </Entry>
+     <Entry frequency="2160000">coupler<nouns>
+        <translations><date>1007</date>
+            <translation termcat="telecom" gender="m">acoblador</translation>
+        </translations>
+    </nouns>
+    </Entry>
     <Entry frequency="7490000">coupon<nouns>
         <translations>
             <translation gender="m">cupó</translation>
@@ -9752,6 +9777,12 @@
         </translations>
         </phrasalverbs>
     </Entry>
+    <Entry frequency="2490000">crappy<adjectives>
+			<translations><date>1007</date>
+				<translation register="slang">de pacotilla / barroer</translation>
+			</translations>
+		</adjectives>
+	</Entry>
     <Entry frequency="13300000">crash<nouns>
         <translations>
             <translation>
@@ -10292,8 +10323,8 @@
         </translations>
     </adjectives>
     </Entry>
-    <Entry frequency="40900000">crop<nouns>
-        <translations><date>0807</date>
+    <Entry frequency="79900000">crop<nouns>
+        <translations><date>1007</date>
             <translation gender="f">collita</translation>
             <translation disambiguate="animal" gender="m">pedrer<engnote>'Pedrer' means 'crop' in the sense 'pouch in a bird's gullet where food is prepared for digestion</engnote></translation>
         </translations>
@@ -10301,6 +10332,7 @@
     <verbs double="true">
         <translations>
             <translation>editar una foto, retallant el que no es vol</translation>
+            <translation>rapar<engnote>'Rapar' means 'to crop' in the sense 'to cut hair really short'</engnote></translation>
         </translations>
     </verbs>
     <phrasalverbs>crop out
@@ -10645,14 +10677,21 @@
     <Entry frequency="436000">CSMA<engacro>Carrier Sense Multiple Access</engacro>
         <acronyms>
             <translations>
-                <translation disambiguate="computers" termcat="true" gender="m">CSMA (accés múltiple amb escolta de portadora)</translation>
+                <translation disambiguate="computers" termcat="true" gender="m">CSMA<catacro>accés múltiple amb escolta de portadora</catacro></translation>
+            </translations>
+        </acronyms>
+    </Entry>
+        <Entry frequency="281000">CSMA/CA<engacro>Carrier Sense Multiple Access with Collision Avoidance</engacro>
+        <acronyms><date>1007</date>
+            <translations>
+                <translation disambiguate="computers" termcat="true" gender="m">CSMA/CA<catacro>accés múltiple amb escolta de portadora i evitament de col·lisió</catacro></translation>
             </translations>
         </acronyms>
     </Entry>
     <Entry frequency="260000">CSMA/CD<engacro>Carrier Sense Multiple Access with Collision Detection</engacro>
         <acronyms>
             <translations>
-                <translation disambiguate="computers" termcat="true" gender="m">CSMA/CD (accés múltiple amb escolta de portadora i detecció de col·lisió)</translation>
+                <translation disambiguate="computers" termcat="true" gender="m">CSMA/CD<catacro>accés múltiple amb escolta de portadora i detecció de col·lisió</catacro></translation>
             </translations>
         </acronyms>
     </Entry>

@@ -3989,7 +3989,7 @@
   </Entry>
   <Entry frequency="9350" >transportar<verbs conj="regular" >
       <translations>
-        <translation catagory="transport" >to transport</translation>
+        <translation catagory="transport" >to transport / to convey</translation>
       </translations>
     </verbs>
   </Entry>
@@ -4826,12 +4826,18 @@
       </translations>
     </nouns>
   </Entry>
-  <Entry frequency="9510" >tub<nouns>
-      <translations>
-        <translation gender="m" >tube</translation>
+  <Entry frequency="275000" >tub<nouns>
+      <translations><date>1007</date>
+        <translation gender="m" >tube<catexamp>Tub d'assaig</catexamp><engexamp>Test tube</engexamp></translation>
       </translations>
     </nouns>
   </Entry>
+  <Entry frequency="868">tub d'assaig<nouns>
+                            <translations><date>1007</date>
+				<translation catagory="chemistry" gender="m">test tube</translation>
+			</translations>
+		</nouns>
+	</Entry>
   <Entry frequency="2450" >tuberculosi<nouns>
       <translations>
         <translation catagory="medical-illness" gender="m" >tuberculosis</translation>

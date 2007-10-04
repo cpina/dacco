@@ -1699,6 +1699,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+            <Entry frequency="115000">SDMA<engacro>Space Division Multiple Access</engacro>
+        <acronyms><date>1007</date>
+            <translations>
+                <translation termcat="telecom" gender="m">SDMA<catacro>accés múltiple per divisió d'espai</catacro></translation>
+            </translations>
+        </acronyms>
+    </Entry>
 	<Entry frequency="35000000">sea<nouns>
 			<translations>
 				<translation gender="mf">mar</translation>
@@ -3405,15 +3412,23 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="5500000">shelter<nouns>
-			<translations>
+	<Entry frequency="17000000">shelter<nouns>
+			<translations><date>1007</date>
 				<translation>
-					<translation gender="m">refugi</translation>
-					<translation gender="m">abric</translation>
+					<translation gender="m">refugi / abric / recer</translation>
                                         <translation gender="f">empara</translation>
 				</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                                <translation transitive="true">refugiar</translation>
+                                <translation intransitive="true">refugiar-se</translation>
+                                <translation transitive="true">protegir</translation>
+                                <translation transitive="true">aixoplugar<engnote>'Aixoplugar' means 'to shelter (from the rain)'</engnote></translation>
+                                <translation intransitive="true">aixoplugar-se</translation>
+                    </translations>
+                    </verbs>
 	</Entry>
 	<Entry frequency="6510000">shepherd<nouns>
 			<translations>
@@ -3992,6 +4007,12 @@
 					<catexamp>Dutxar-se</catexamp>
 				</translation>
                                 <translation disambiguate="weather" gender="m">ruixat / xàfec</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="4360000">shower curtain<nouns>
+			<translations><date>1007</date>
+				<translation catagory="household-room-bathroom" gender="f">cortina de la dutxa</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5501,6 +5522,11 @@
 				<translation gender="m">tall</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>tallar / llescar</translation>
+                        </translations>
+                </verbs>
 	</Entry>
 	<Entry frequency="21900000">slide<verbs>
 			<past>slid</past>
@@ -5515,6 +5541,15 @@
 				</translation>
 				<translation gender="m">tobogan<engnote>'Tobogan' means 'slide' as in the thing you find in a childrens' playground</engnote>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="2770000">slider<nouns>
+			<translations><date>1007</date>
+                        <translation>
+				<translation gender="m">colís</translation>
+                                <translation gender="f">colissa<example>A la taula d'equalització, les &lt;b&gt;colisses&lt;/b&gt; permeten ajustar els greus, gammes mitjanes i aguts al gust personal.</example></translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6737,6 +6772,18 @@
          <Entry frequency="200000">solar thermal power plant<nouns>
 			<translations><date>0307</date>
 				<translation termcat="energy" gender="f">central heliotèrmica</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="147000">solderer<nouns>
+			<translations><date>1007</date>
+				<translation catagory="work-job" gender="mf">soldador</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1910000">soldering iron<nouns>
+			<translations><date>1007</date>
+				<translation gender="m">soldador</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -10370,9 +10417,10 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="20500000">string<nouns>
-			<translations>
+	<Entry frequency="123000000">string<nouns>
+			<translations><date>1007</date>
 				<translation gender="f">corda</translation>
+                                <translation gender="m">cordill</translation>
 				<translation disambiguate="computers" termcat="true" gender="f">cadena</translation>
                                 <translation>
                                     <translation gender="m">reguitzell</translation>
@@ -10797,6 +10845,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="665000">submachine gun<nouns>
+        <translations><date>1007</date>
+            <translation gender="f">metralleta</translation>
+        </translations>
+    </nouns>
+    </Entry>
 	<Entry frequency="2250000">submarine<nouns>
 			<translations>
 				<translation catagory="transport-mode" gender="m">submarí</translation>
