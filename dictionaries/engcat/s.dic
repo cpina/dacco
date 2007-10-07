@@ -580,6 +580,12 @@
 			</translations>
 		</adverbs>
 	</Entry>
+        	<Entry frequency="546000">sarcophagus<nouns>
+			<translations><date>1007</date>
+				<translation gender="m">sarcòfag<plural>sarcophagi</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="694000">sardine<nouns>
 			<translations>
 				<translation catagory="food-fish" gender="f">arengada / sardina</translation>
@@ -1496,6 +1502,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="406000">screengrab<nouns>
+			<translations><date>1007</date>
+				<translation catagory="computers" gender="f">captura de pantalla<synonyms>screenshot</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="41400000">screening<nouns>
 			<translations>
 				<translation disambiguate="medical" gender="m">cribratge</translation>
@@ -1558,6 +1570,12 @@
 			<translations>
 				<translation gender="f">guió</translation>
                                 <translation disambiguate="medical" gender="f">recepta<catnote>Aquesta és una paraula utilitzada sobretot pels metges</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="12800000">scripting language<nouns>
+			<translations><date>1007</date>
+				<translation disambiguate="computers" termcat="true" gender="m">llenguatge script</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2049,6 +2067,12 @@
         <Entry frequency="7010000">sediment<nouns>
 			<translations>
 				<translation gender="m">sediment / pòsit</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="4040000">sedimentation<nouns>
+			<translations><date>1007</date>
+				<translation catagory="geography" gender="f">sedimentació</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4591,6 +4615,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="11400000">sinful<adjectives>
+			<translations><date>1007</date>
+				<translation>pecaminós</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="10800000">sing<verbs>
 			<past>sang</past>
 			<participle>sung</participle>
@@ -5531,8 +5561,9 @@
 	<Entry frequency="21900000">slide<verbs>
 			<past>slid</past>
 			<participle>slid</participle>
-			<translations>
-				<translation>relliscar</translation>
+			<translations><date>1007</date>
+				<translation>relliscar<engnote>'Relliscar' can mean unintentional sliding (e.g. he slid on the icy path)</engnote></translation>
+                                <translation>lliscar<engnote>'Lliscar' is deliberate sliding (e.g. skaters slide over the ice)</engnote></translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -5541,6 +5572,7 @@
 				</translation>
 				<translation gender="m">tobogan<engnote>'Tobogan' means 'slide' as in the thing you find in a childrens' playground</engnote>
 				</translation>
+                                <translation gender="m">lliscament</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5581,14 +5613,15 @@
 			</translations>
 		</adjectives>
 	</Entry>
-        <Entry frequency="18900000">slip<verbs double="true">
-			<translations>
+        <Entry frequency="150000000">slip<verbs double="true">
+			<translations><date>1007</date>
 				<translation>relliscar</translation>
 			</translations>
 		</verbs>
                 <nouns>
                 <translations>
                 <translation gender="f">relliscada</translation>
+                <translation gender="m">lliscament</translation>
                 <translation gender="m">error</translation>
                 <translation gender="m">tros<engexamp>A slip of paper</engexamp><catexamp>Un tros de paper</catexamp></translation></translations></nouns>
 	</Entry>
@@ -6082,11 +6115,16 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="329000">sneeze<verbs>
-			<translations>
+	<Entry frequency="5700000">sneeze<verbs>
+			<translations><date>1007</date>
 				<translation catagory="medical">esternudar</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                    <translations>
+                        <translation gender="m">esternut</translation>
+                        </translations>
+                </nouns>
 	</Entry>
          <Entry frequency="3000000">snicker<verbs>
 			<translations>
@@ -7798,6 +7836,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+                   <Entry frequency="400000">speed dialing<nouns>
+			<translations><date>1007</date>
+				<translation local="us" gender="m">marcatge abreujat<otherlocal>speed dialling</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+                   <Entry frequency="40400">speed dialling<nouns>
+			<translations><date>1007</date>
+				<translation local="gb" gender="m">marcatge abreujat<otherlocal>speed dialing</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="186000">speed gun<nouns>
 			<translations>
 				<translation gender="m">cinemòmetre</translation>
@@ -8787,6 +8837,13 @@
 			</translations>
 		</phrasalverbs>
 	</Entry>
+                 <Entry frequency="11800000">SRAM<engacro>Static RAM</engacro>
+                   <acronyms>
+			<translations><date>1007</date>
+				<translation termcat="telecom" gender="f">SRAM<catacro>memòria RAM estàtica</catacro></translation>
+			</translations>
+		</acronyms>
+	</Entry>
 	<Entry frequency="7110000">Sri Lanka<nouns>
 			<translations>
 				<translation catagory="country-asia" gender="f">Sri Lanka</translation>
@@ -9688,7 +9745,7 @@
 	</Entry>
 	<Entry>sticky beak<nouns>
 			<translations>
-				<translation register="colloquial" local="au" gender="m">tafaner</translation>
+				<translation register="colloquial" local="au" gender="mf">tafaner<synonyms>nos(e)y parker</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -9830,6 +9887,12 @@
 				<translation>escatimar<catnote>(To stint &lt;b&gt;on&lt;/b&gt; something)</catnote><synonyms>skimp, scrimp</synonyms></translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="266000">stipule<nouns>
+			<translations><date>1007</date>
+				<translation catagory="biology" gender="f">estípula</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="3160000">stir<verbs double="true">
 			<translations>
@@ -11361,6 +11424,12 @@
                                 <translation gender="m">paquet / conjunt / joc (de)</translation>
                                 <translation gender="f">sèrie</translation>
                                 </translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="523000">sulcus<nouns>
+			<translations><date>1007</date>
+				<translation catagory="biology" gender="m">solc<plural>sulci</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
