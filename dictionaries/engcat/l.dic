@@ -933,8 +933,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="53500000">lay<adjectives>
-			<translations>
+	<Entry frequency="270000000">lay<adjectives>
+			<translations><date>1007</date>
 				<translation>laic / seglar</translation>
 			</translations>
 		</adjectives>
@@ -958,9 +958,9 @@
 				<translation>establir / fixar / determinar</translation>
 			</translations>
 		</phrasalverbs>
-		<phrasalverbs>lay in (supplies / food)
+		<phrasalverbs>lay in
 			<translations>
-				<translation>proveir-se</translation>
+				<translation>(supplies / food) proveir-se</translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>lay into
@@ -984,6 +984,12 @@
 				<translation>presentar / disposar / distribuir / col·locar</translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>lay up
+                <translations>
+                    <translation>emmagatzemar (p.e. proveïments)</translation>
+                    <translation>causar d'haver de fer llit</translation>
+                    </translations>
+                    </phrasalverbs>
 	</Entry>
 	<Entry frequency="96200">layabout<nouns>
 			<translations>
@@ -1269,12 +1275,17 @@
 	<Entry frequency="130000000">leave<verbs>
 			<past>left</past>
 			<participle>left</participle>
-			<translations>
+			<translations><date>1007</date>
 				<translation>deixar</translation>
                                 <translation>sortir / eixir (Val.)<engnote>'Sortir' and 'eixir' mean 'to leave' in the sense 'to go out' (e.g. 'he left the room').</engnote></translation>
                                 <translation>descuidar-se<engexamp>I left the keys in the car</engexamp><catexamp>M'he descuidat les claus al cotxe</catexamp></translation>
                                 </translations>
 		</verbs>
+                <phrasalverbs>leave off
+                <translations>
+                    <translation>deixar de</translation>
+                </translations>
+                </phrasalverbs>
                 <nouns>
                 <translations>
                 <translation disambiguate="work" gender="f">excedència</translation>
@@ -1655,11 +1666,11 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="86600000">let<verbs>
+	<Entry frequency="1410000000">let<verbs>
 			<past>let</past>
 			<participle>let</participle>
 			<gerund>letting</gerund>
-			<translations>
+			<translations><date>1007</date>
 				<translation>permetre<engnote>'Permetre' means 'let' as in 'to allow'</engnote>
 					<synonyms>allow</synonyms>
 				</translation>
@@ -1668,6 +1679,11 @@
 				</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>let on
+                <translations>
+                    <translation>revelar (una cosa desconeguda)</translation>
+                    </translations>
+                    </phrasalverbs>
 	</Entry>
         <Entry frequency="443000">letdown<nouns>
 			<translations>
@@ -2087,13 +2103,23 @@
                 </translations>
                 </expressions>
 	</Entry>
-	<Entry frequency="73400000">light<verbs>
+	<Entry frequency="1340000000">light<verbs>
 			<past>lit</past>
 			<participle>lit</participle>
-			<translations>
+			<translations><date>1007</date>
 				<translation>encendre</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>light into
+                <translations>
+                    <translation local="us">atacar</translation>
+                    </translations>
+                    </phrasalverbs>
+                    <phrasalverbs>light out
+                    <translations>
+                        <translation local="us">marxar</translation>
+                    </translations>
+                    </phrasalverbs>
 		<nouns>
 			<translations>
                             <translation gender="f">claror</translation>
@@ -2121,6 +2147,19 @@
 				<translation gender="f">bombeta</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="13100000">lighten<verbs>
+			<translations><date>1007</date>
+				<translation>alleugerir<engnote>'Alleugerir' means 'to lighten' in the sense 'to make less heavy'</engnote></translation>
+                                <translation>il·luminar<engnote>'Il·luminar' means 'to lighten' in the sense 'to let more light in'</engnote></translation>
+                                <translation>
+			</translations>
+		</verbs>
+                <phrasalverbs>lighten up
+                <translations>
+                    <translation>posar-se menys seriós / prendre coses amb més calma</translation>
+                </translations>
+                </phrasalverbs>
 	</Entry>
                 <Entry frequency="7960000">lighter<nouns>
 			<translations>
@@ -2579,8 +2618,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="123000000">live<verbs>
-			<translations>
+	<Entry frequency="2220000000">live<verbs>
+                            <translations><date>1007</date>
 				<translation>viure / residir</translation>
 			</translations>
 		</verbs>
@@ -2589,6 +2628,13 @@
 				<translation>en viu / en directe</translation>
 			</translations>
 		</adverbs>
+                <phrasalverbs>live out
+                <translations>
+                    <translation>viure (els últims anys de la vida</translation>
+                    <translation>fer realitat (un somni o una fantasia)</translation>
+                    <translation>no viure on hom estudia o treballa</translation>
+                    </translations>
+                    </phrasalverbs>
                 <expressions>live together
                 <translations>
                 <translation>conviure / cohabitar</translation></translations></expressions>
@@ -2834,12 +2880,40 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="16700000">log<nouns>
-			<translations>
+	<Entry frequency="2180000000">log<nouns>
+                            <translations><date>1007</date>
 				<translation gender="m">tronc</translation>
 				<translation gender="m">quadern de bitàcola</translation>
 			</translations>
 		</nouns>
+               <phrasalverbs>log in
+                   <translations>
+				<translation catagory="computers" termcat="true">iniciar una sessió</translation>
+				<translation catagory="computers">entrar (en un sistema informàtic)<synonyms>log on</synonyms>
+				</translation>
+			</translations>
+		</phrasalverbs>
+                <phrasalverbs>log off
+			<translations>
+				<translation catagory="computers" termcat="true">finalitzar una sessiór</translation>
+				<translation catagory="computers">sortir (d'un sistema informàtic)<synonyms>log out</synonyms>
+				</translation>
+			</translations>
+		</phrasalverbs>
+                <phrasalverbs>log on
+                        <translations>
+				<translation catagory="computers" termcat="true">iniciar una sessió</translation>
+				<translation catagory="computers">entrar (en un sistema informàtic)<synonyms>log in</synonyms>
+				</translation>
+			</translations>
+		</phrasalverbs>
+                <phrasalverbs>log out
+			<translations>
+				<translation catagory="computers" termcat="true">finalitzar una sessió</translation>
+				<translation catagory="computers">sortir (d'un sistema informàtic)<synonyms>log off</synonyms>
+				</translation>
+			</translations>
+		</phrasalverbs>
 	</Entry>
 	<Entry frequency="15400000">logic<nouns>
 			<translations>
@@ -2862,7 +2936,7 @@
 	<Entry frequency="54200000">log in<verbs double="true">
 			<translations>
 				<translation catagory="computers" termcat="true">iniciar una sessió</translation>
-				<translation catagory="computers">entrar<synonyms>log on</synonyms>
+				<translation catagory="computers">entrar (en un sistema informàtic)<synonyms>log on</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -3201,11 +3275,19 @@
 			</translations>
 		</adjectives>
 	</Entry>
-         <Entry frequency="1770000">loosen<verbs>
+         <Entry frequency="12200000">loosen<verbs>
 			<translations><date>0707</date>
 				<translation transitive="true">afluixar<synonyms>slacken</synonyms></translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>loosen up
+                    <translations>
+                        <translation>afluixar</translation>
+                        <translation>deslligar</translation>
+                        <translation>fer escalfaments</translation>
+                        <translation>posar-se més còmode, agafant confiança</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
         <Entry frequency="2930000">loot<verbs>
 			<translations>
@@ -3264,7 +3346,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="84400000">lose<verbs>
+	<Entry frequency="1100000000">lose<verbs>
 			<past>lost</past>
 			<participle>lost</participle>
 			<translations>
@@ -3272,6 +3354,16 @@
 				</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>lose out
+                    <translations>
+                        <translation>no aconseguir un fi desitjat</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>lose out on
+                    <translations>
+                        <translation>perdre (una oportunitat / una cosa avantatjosa)</translation>
+                    </translations>
+                </phrasalverbs>
 		<expressions>lose (your) temper
 			<translations>
 				<translation>perdre els estreps</translation>
@@ -3526,11 +3618,16 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="9450000">luck<nouns>
-			<translations>
+	<Entry frequency="230000000">luck<nouns>
+                            <translations><date>1007</date>
 				<translation gender="f">sort</translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>luck out
+                    <translations>
+                        <translation local="us">tenir molta sort (sobretot inesperadament)</translation>                    
+                    </translations>
+                </phrasalverbs>
 	</Entry>
 	<Entry frequency="1600000">luckily<adverbs>
 			<translations>
