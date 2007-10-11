@@ -427,8 +427,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="17900000">hammer<nouns>
-			<translations>
+	<Entry frequency="125000000">hammer<nouns>
+                    <translations><date>1007</date>
                         <translation gender="m">martell</translation>
 				<translation disambiguate="sports" gender="m">martell<engnote>Martell means hammer in the general sense (i.e. to hit a nail with a hammer) and also in the track and field / athletics sense (i.e. the implement you throw)</engnote>
 				</translation>
@@ -439,6 +439,11 @@
 				</translation>
 			</translations>
 		</nouns>
+                  <phrasalverbs>hammer out
+                    <translations>
+                        <translation>negociar i arribar a (un acord, un tracte, etc.)</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
           <Entry frequency="2010000">hammock<nouns>
 			<translations>
@@ -452,8 +457,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="327000000">hand<nouns>
-			<translations>
+	<Entry frequency="1240000000">hand<nouns>
+                            <translations><date>1007</date>
 				<translation gender="f">mà</translation>
                                 <translation gender="f">busca / maneta<engnote>'Busca' and 'maneta' mean 'hand' as in 'the hand of a watch or clock'</engnote></translation>
 			</translations>
@@ -465,6 +470,12 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
+                  <phrasalverbs>hand off
+                    <translations>
+                        <translation>donar (a un altre) la responsabilitat per un afer</translation>
+                        <translation local="us">traspassar (una cosa) d'un a l'altre</translation>
+                    </translations>
+                </phrasalverbs>
 		<phrasalverbs>hand over
 			<translations>
 				<translation>entregar / lliurar</translation>
@@ -1019,14 +1030,26 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="2380000">hash<nouns>
-			<translations>
-				<translation register="colloquial" gender="m">embolic<example>The goalkeeper tried to clear the ball but ended up making a right &lt;b&gt;hash&lt;/b&gt; of it.</example>
-					<example>Believe it or not I was trying to make a cake...though I seem to have made a bit of a &lt;b&gt;hash&lt;/b&gt; of it!</example>
-				</translation>
+	<Entry frequency="55500000">hash<nouns>
+                            <translations><date>1007</date>
+				<translation register="colloquial" gender="m">embolic<example>The goalkeeper tried to clear the ball but ended up making a right &lt;b&gt;hash&lt;/b&gt; of it.</example><example>Believe it or not I was trying to make a cake...though I seem to have made a bit of a &lt;b&gt;hash&lt;/b&gt; of it!</example></translation>
 				<translation register="colloquial" gender="m">haixix</translation>
+                                <translation>
+                                    <translation gender="f">diesi</translation>
+                                    <translation gender="m">sostingut<plural>hashes</plural></translation>
+                                </translation>
 			</translations>
 		</nouns>
+                  <phrasalverbs>hash out
+                    <translations>
+                        <translation local="us">parlar (extensament) d'un afer per resoldre'l</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>make a hash of something
+                    <translations>
+                        <translation register="colloquial">fer (una cosa) malament</translation>
+                    </translations>
+                </expressions>
 	</Entry>
           <Entry frequency="6000000">haste<nouns>
 			<translations>
@@ -1253,14 +1276,16 @@
 			</translations>
 		</pronouns>
 	</Entry>
-	<Entry frequency="279000000">head<nouns>
-			<translations>
+	<Entry frequency="1110000000">head<nouns>
+                            <translations><date>1007</date>
 				<translation catagory="body" gender="m">cap</translation>
 			</translations>
 		</nouns>
                 <verbs>
-                <translations>
-                <translation>encapçalar</translation></translations></verbs>
+                    <translations>
+                        <translation>encapçalar / dirigir</translation>
+                    </translations>
+                </verbs>
 		<phrasalverbs>head for
 			<translations>
 				<translation>dirigir-se a</translation>
@@ -1271,6 +1296,11 @@
 				<translation>dirigir-se a</translation>
 			</translations>
 		</phrasalverbs>
+                  <phrasalverbs>head up
+                    <translations>
+                        <translation>dirigir</translation>
+                    </translations>
+                </phrasalverbs>
                 <expressions>be off your head
                 <translations>
                 <translation register="colloquial">estar boig<example>Don't pay any attention to him. He's &lt;b&gt;off his head&lt;/b&gt;.</example></translation>
@@ -1562,12 +1592,22 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="124000000">heat<verbs>
-			<translations>
+	<Entry frequency="316000000">heat<verbs>
+                            <translations><date>1007</date>
 				<translation>escalfar<synonyms>warm</synonyms>
 				</translation>
 			</translations>
 		</verbs>
+                  <phrasalverbs>heat (something) up
+                    <translations>
+                        <translation>escalfar</translation>
+                    </translations>
+                </phrasalverbs>
+                  <phrasalverbs>heat up
+                    <translations>
+                        <translation>escalfar-se</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
 				<translation gender="m">calor<synonyms>warmth</synonyms></translation>
@@ -2298,14 +2338,20 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="149000000">hide<verbs>
+	<Entry frequency="42300000">hide<verbs>
 			<past>hid</past>
 			<participle>hidden</participle>
-			<translations>
-				<translation>amagar / ocultar</translation>
+                            <translations><date>1007</date>
+				<translation transitive="true">amagar / ocultar</translation>
+                                <translation intransitive="true">amagar-se</translation>
                                 <translation>dissimular</translation>
 			</translations>
 		</verbs>
+                  <phrasalverbs>hide out
+                    <translations>
+                        <translation>amagar-se (sobretot de la policia)</translation>
+                    </translations>
+                </phrasalverbs>
                 <nouns>
                 <translations>
                 <translation gender="f">pell<engexamp>To tan someone's hide</engexamp><catexamp>Pegar algú</catexamp></translation></translations></nouns>
@@ -2699,16 +2745,26 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="276000000">hit<verbs>
+	<Entry frequency="848000000">hit<verbs>
 			<past>hit</past>
 			<participle>hit</participle>
 			<gerund>hitting</gerund>
-			<translations>
+                            <translations><date>1007</date>
 				<translation>pegar / colpejar</translation>
 				<translation>encertar</translation>
 				<translation>xocar / topar contra</translation>
 			</translations>
 		</verbs>
+                  <phrasalverbs>hit on
+                    <translations>
+                        <translation local="us">mostrar (a algú) atenció sexual (sovint importuna)</translation>
+                    </translations>
+                </phrasalverbs>
+                  <phrasalverbs>hit up
+                    <translations>
+                        <translation local="us" register="colloquial">demanar préstec (a algú)<catnote>Sintaxi: to hit somebody up for a loan</catnote></translation>
+                    </translations>
+                </phrasalverbs>
                 <nouns>
                 <translations>
                 <translation gender="m">èxit</translation>
@@ -2717,10 +2773,16 @@
                 <translation disambiguate="computers" gender="f">visita</translation>
                 </translations>
                 </nouns>
-                <expressions>hit the roof<translations>
-                <translation>perdre els estreps</translation></translations></expressions>
-                <expressions>hit the headlines<translations>
-                <translation>ésser notícia</translation></translations></expressions>
+                <expressions>hit the roof
+                    <translations>
+                        <translation>perdre els estreps</translation>
+                    </translations>
+                </expressions>
+                <expressions>hit the headlines
+                    <translations>
+                        <translation>ésser notícia</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="1870000">hitch<verbs>
 			<translations>
@@ -2899,12 +2961,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="92200000">hole<nouns>
-			<translations>
+	<Entry frequency="217000000">hole<nouns>
+                            <translations><date>1007</date>
 				<translation gender="m">forat / esvoranc</translation>
                                 <translation gender="m">clot<engnote>'Clot' is a hole in the ground.</engnote></translation>
 			</translations>
 		</nouns>
+                  <phrasalverbs>hole up
+                    <translations>
+                        <translation>no sortir / quedar-se a casa sense veure ningú</translation>
+                        <translation>refugiar-se<example>Most people believe that Bin Laden is &lt;b&gt;holed up&lt;/b&gt; somewhere in Pakistan.</example></translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
 	<Entry frequency="250000">hole-in-the-wall<nouns>
 			<translations>
@@ -3257,14 +3325,24 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="6520000">hook<nouns>
-			<translations>
+	<Entry frequency="121000000">hook<nouns>
+                            <translations><date>1007</date>
 				<translation>
 					<translation gender="m">ganxo</translation>
 					<translation gender="m">garfi</translation>
 				</translation>
 			</translations>
 		</nouns>
+                  <phrasalverbs>hook up
+                    <translations>
+                        <translation>enganxar</translation>
+                    </translations>
+                </phrasalverbs>
+                  <phrasalverbs>hook up with
+                    <translations>
+                        <translation register="colloquial">trobar-se amb</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
         <Entry frequency="26600000">hoop<nouns>
 			<translations>
@@ -3387,13 +3465,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="5500000">horn<nouns>
-			<translations>
+	<Entry frequency="103000000">horn<nouns>
+                            <translations><date>1007</date>
 				<translation disambiguate="transport" gender="f">botzina</translation>
 				<translation disambiguate="music" gender="m">corn</translation>
 				<translation disambiguate="animal" gender="f">banya</translation>
 			</translations>
 		</nouns>
+                  <phrasalverbs>horn in on
+                    <translations>
+                        <translation local="us">ficar-se inoportunament en (una conversa, un afer)</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
 	<Entry frequency="23200000">horoscope<nouns>
 			<translations>

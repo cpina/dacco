@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Robert Hibbert (Penn State Univ) -->
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Documents and Settings\James\My Documents\dacco projects\dacco\dictionary\dic.xsd">
-<Entry frequency="4200000">jack<nouns>
-			<translations>
-				<translation gender="m">cric<engnote>'Cric' means 'jack' in the sense 'car jack'</engnote></translation>
-			</translations>
-		</nouns>
-                <nouns>
-                <translations>
-                <translation register="slang">res<example>He doesn't know &lt;b&gt;jack&lt;/b&gt; about computers.</example></translation>
-                </translations></nouns>
+        <Entry frequency="4200000">jack<nouns>
+                <translations><date>1007</date>
+                    <translation gender="m">cric<engnote>'Cric' means 'jack' in the sense 'car jack'</engnote></translation>
+                    <translation register="slang">res<example>He doesn't know &lt;b&gt;jack&lt;/b&gt; about computers.</example></translation>
+                </translations>
+            </nouns>
+              <phrasalverbs>jack off
+                    <translations>
+                        <translation local="us" register="vulgar">masturbar-se</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
         <Entry frequency="705000">jackal<nouns>
 			<translations>
@@ -72,12 +74,23 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="6410000">jam<nouns>
-			<translations>
+	<Entry frequency="6010000">jam<nouns>
+                            <translations><date>1007</date>
 				<translation disambiguate="food" gender="f">melmelada</translation>
 				<translation disambiguate="transport" gender="m">embús</translation>
 			</translations>
 		</nouns>
+                <verbs double="true">
+                    <translations>
+                        <translation>embussar</translation>
+                    </translations>
+                </verbs>
+                  <phrasalverbs>jam up
+                    <translations>
+                        <translation>embussar / encallar</translation>
+                        <translation>embussar-se / encallar-se</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
 	<Entry frequency="9490000">Jamaica<nouns>
 			<translations>
@@ -197,6 +210,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="293000000">jazz<nouns>
+                <translations><date>1007</date>
+                    <translation catagory="entertainment-music" gender="m">jazz</translation>
+                </translations>
+            </nouns>
+            <phrasalverbs>jazz up
+                <translations>
+                    <translation>animar / fer més elaborat o treballat</translation>
+                </translations>
+            </phrasalverbs>
+        </Entry>
 	<Entry frequency="945000">JCB<nouns>
 			<translations>
 				<translation local="gb" gender="f">màquina excavadora<catnote>'JCB' és una marca registrada, però al Regne Unit s'utilitza molt sovint com a terme genèric que engloba totes les màquines excavadores (i no només les fabricades per la companyia JCB).  De manera semblant els anglesos utilitzem la paraula 'hoover' per referir a totes les aspiradores i no només les fabricades per la companyia 'Hoover'.</catnote>
@@ -282,8 +306,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="796000">jerk<nouns>
-			<translations>
+	<Entry frequency="37700000">jerk<nouns>
+                            <translations><date>1007</date>
 				<translation>
 					<translation gender="f">sacsejada</translation>
 					<translation gender="m">sotrac</translation>
@@ -298,7 +322,7 @@
                 </verbs>
 		<phrasalverbs>jerk off
 			<translations>
-				<translation register="vulgar" local="us">masturbar-se</translation>
+				<translation register="vulgar" local="us">pelar-se-la</translation>
 			</translations>
 		</phrasalverbs>
 	</Entry>
@@ -776,11 +800,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="33700000">jump<verbs>
-			<translations>
+	<Entry frequency="987000000">jump<verbs>
+                            <translations><date>1007</date>
 				<translation>saltar</translation>
 			</translations>
 		</verbs>
+                  <phrasalverbs>jump out
+                    <translations>
+                        <translation>saltar cap a fora</translation>
+                        <translation>destacar-se</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
 				<translation gender="m">salt</translation>

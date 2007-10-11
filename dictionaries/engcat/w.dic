@@ -72,8 +72,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="24000000">wait<verbs>
-			<translations>
+	<Entry frequency="505000000">wait<verbs>
+                            <translations><date>1007</date>
 				<translation>esperar</translation>
 			</translations>
 		</verbs>
@@ -82,16 +82,21 @@
 				<translation local="us">treballar de cambrer</translation>
 			</translations>
 		</expressions>
-		<phrasalverbs>wait for (somebody / something)
+		<phrasalverbs>wait for
 			<translations>
-				<translation>esperar (algú / alguna cosa)</translation>
+				<translation>esperar</translation>
 			</translations>
 		</phrasalverbs>
-		<phrasalverbs>wait on (somebody)
+		<phrasalverbs>wait on
 			<translations>
-				<translation>servir algú</translation>
+				<translation>atendre</translation>
 			</translations>
 		</phrasalverbs>
+                  <phrasalverbs>wait out
+                    <translations>
+                        <translation>esperar fins que acabés (una cosa)</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
 	<Entry frequency="928000">waiter<nouns>
 			<translations>
@@ -192,13 +197,24 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="28200000">walk<verbs>
-			<translations>
+	<Entry frequency="448000000">walk<verbs>
+                            <translations><date>1007</date>
 				<translation intransitive="true">caminar / passejar<engexamp>To go for a walk</engexamp><catexamp>Passejar-se</catexamp></translation>
                                 <translation intransitive="true">fer senderisme<synonyms>to go walking</synonyms></translation>
                                 <translation transitive="true">passejar<engexamp>To walk the dog</engexamp><catexamp>Passejar el gos</catexamp></translation>
 			</translations>
 		</verbs>
+                  <phrasalverbs>walk over
+                    <translations>
+                        <translation>maltractar (algú)</translation>
+                        <translation>guanyar (algú) amb facilitat</translation>
+                    </translations>
+                </phrasalverbs>
+                  <phrasalverbs>walk through
+                    <translations>
+                        <translation>representar (una obra) mecànicament</translation>
+                    </translations>
+                </phrasalverbs>
                 <nouns>
                 <translations>
                 <translation gender="m">passeig / tomb</translation></translations></nouns>
@@ -322,7 +338,7 @@
 	</Entry>
 	<Entry frequency="99500">wank<verbs>
 			<translations>
-				<translation register="vulgar">masturbar-se<synonyms>masturbate</synonyms>
+				<translation register="vulgar">pelar-se-la<synonyms>masturbate</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -359,6 +375,19 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="122000000">ward<nouns>
+                            <translations><date>1007</date>
+				<translation disambiguate="medical" gender="f">sala</translation>
+                                <translation disambiguate="politics" local="gb" gender="m">districte electoral</translation>
+			</translations>
+		</nouns>
+                  <phrasalverbs>ward off
+                    <translations>
+                        <translation>prevenir / desviar / evitar</translation>
+                        <translation>repel·lir</translation>
+                    </translations>
+                </phrasalverbs>
+	</Entry>
 	<Entry frequency="3980000">wardrobe<nouns>
 			<translations>
 				<translation catagory="household-room-bedroom" gender="m">guarda-roba</translation>
@@ -390,15 +419,27 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="15500000">warm<adjectives>
-			<translations>
+	<Entry frequency="241000000">warm<adjectives>
+                            <translations><date>1007</date>
 				<translation>calent / càlid<catnote>Les dues paraules angleses 'warm' i 'hot' signifiquen 'calent'.  És una qüestió d'escala.  'Warm' significa 'calent però no massa calent'.  'Warm' gairebé sempre significa 'un calor agradable' mentre que 'hot' pot significar 'molt o massa calent'.  Per exemple, es pot dir 'Be careful of that x, it's hot', però no 'Be careful of that x, it's warm'.</catnote>
 				</translation>
 			</translations>
 		</adjectives>
                 <phrasalverbs>warm up
-                <translations>
-                <translation disambiguate="sports">escalfar-se</translation></translations></phrasalverbs>
+                    <translations>
+                        <translation disambiguate="sports">escalfar-se</translation>
+                    </translations>
+               </phrasalverbs>
+                 <phrasalverbs>warm to
+                    <translations>
+                        <translation>començar a tenir afecte per</translation>
+                    </translations>
+                </phrasalverbs>
+                 <phrasalverbs>warm up to
+                    <translations>
+                        <translation>començar a tenir afecte per</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
         <Entry frequency="2270000">warmth<nouns>
 			<translations>
@@ -779,8 +820,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="20900000">wave<nouns>
-			<translations>
+	<Entry frequency="247000000">wave<nouns>
+                            <translations><date>1007</date>
 				<translation gender="f">onada<engexamp>A wave of refugees</engexamp><catexamp>Una onada de refugiats</catexamp></translation>
 				<translation gender="f">ona<engexamp>Sound wave</engexamp><catexamp>Ona sonora</catexamp></translation>
                                 <translation gender="f">ondulació</translation>
@@ -792,6 +833,11 @@
                                 <translation>agitar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>wave off
+                    <translations>
+                        <translation>acomiadar (algú) fent signes amb la mà</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
            <Entry frequency="19000000">wavelength<nouns>
 			<translations><date>1007</date>
@@ -910,13 +956,24 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="20700000">wear<verbs>
+	<Entry frequency="247000000">wear<verbs>
 			<past>wore</past>
 			<participle>worn</participle>
-			<translations>
+                            <translations><date>1007</date>
 				<translation>portar</translation>
 			</translations>
 		</verbs>
+                  <phrasalverbs>wear down
+                    <translations>
+                        <translation>desgastar</translation>
+                        <translation>fer més feble</translation>
+                    </translations>
+                </phrasalverbs>
+                  <phrasalverbs>wear in
+                    <translations>
+                        <translation>dur (una peça de vestir) durant períodes breus fins que s'adapti al cos</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
         <Entry frequency="453000">wearily<adverbs>
 			<translations>
@@ -1138,11 +1195,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-          <Entry frequency="20900000">weigh<verbs>
-			<translations>
+          <Entry frequency="50800000">weigh<verbs>
+                            <translations><date>1007</date>
 				<translation>pesar</translation>
 			</translations>
 		</verbs>
+                  <phrasalverbs>weigh in
+                    <translations>
+                        <translation>registrar el pes (d'algú)</translation>
+                        <translation>entrar enèrgicament una discussió</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
 	<Entry frequency="37400000">weight<nouns>
 			<translations>
@@ -1199,8 +1262,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="204000000">well<adverbs>
-			<translations>
+	<Entry frequency="3010000000">well<adverbs>
+                            <translations><date>1007</date>
 				<translation>bé / ben<example>He plays really &lt;b&gt;well&lt;/b&gt;</example>
 					<example>I hope everything goes &lt;b&gt;well&lt;/b&gt;</example>
 					<engexamp>it's just as well (that)</engexamp><catexamp>encara sort que</catexamp>
@@ -1224,6 +1287,11 @@
 				<translation intransitive="true">rajar</translation>
 			</translations>
 		</verbs>
+                  <phrasalverbs>well up
+                    <translations>
+                        <translation>sorgir</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
 	<Entry frequency="617000">wellbeing<nouns>
 			<translations>
@@ -1523,25 +1591,29 @@
 			</translations>
 		</verbs>
 	</Entry>
-        <Entry frequency="8390000">whip<nouns>
-			<translations>
+        <Entry frequency="49400000">whip<nouns>
+                            <translations><date>1007</date>
 				<translation gender="m">fuet</translation>
 			</translations>
 		</nouns>
                 <verbs double="true">
-                <translations>
-                <translation>fuetejar</translation>
-                <translation catagory="food">batre</translation>
-                <translation register="colloquial">derrotar</translation>
-                </translations>
+                    <translations>
+                        <translation>fuetejar</translation>
+                        <translation catagory="food">batre</translation>
+                        <translation register="colloquial">derrotar</translation>
+                    </translations>
                 </verbs>
                 <phrasalverbs>whip off
-                <translations>
-                <translation register="colloquial">treure (ràpidament)</translation></translations></phrasalverbs>
+                    <translations>
+                        <translation register="colloquial">treure (ràpidament)</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>whip up
-                <translations>
-                <translation>excitar / animar / suscitar</translation>
-                <translation>preparar / crear (ràpidament)<example>If you're hungry and can't wait 'til dinner time I can always &lt;b&gt;whip up&lt;/b&gt; an omelette.</example><example>Johnny remembered to tell his mum he needed a fancy-dress costume the night before the party. Luckily she was able to &lt;b&gt;whip him up&lt;/b&gt; a costume with a few odds and ends she had lying around the house.</example></translation></translations></phrasalverbs>
+                    <translations>
+                        <translation>instigar / incitar (sobretot animositat contra algú)</translation>
+                        <translation>preparar ràpidament menjar<example>If you're hungry and can't wait 'til dinner time I can always &lt;b&gt;whip up&lt;/b&gt; an omelette.</example><example>Johnny remembered to tell his mum he needed a fancy-dress costume the night before the party. Luckily she was able to &lt;b&gt;whip him up&lt;/b&gt; a costume with a few odds and ends she had lying around the house.</example></translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
            <Entry frequency="1540000">whirl<verbs>
                <translations><date>0507</date>
@@ -1606,11 +1678,16 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="85000000">white<adjectives>
-			<translations>
+	<Entry frequency="1730000000">white<adjectives>
+                            <translations><date>1007</date>
 				<translation catagory="colour">blanc</translation>
 			</translations>
 		</adjectives>
+                  <phrasalverbs>white out
+                    <translations>
+                        <translation>esborrar (fent servir un líquid blanc)</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
 	<Entry frequency="7810000">white-collar<nouns>
 			<translations>
@@ -1935,20 +2012,25 @@
 				<translation gender="mf">poruc / cagat / nyicris<catnote>Un(a) 'wimp' pot ser una persona a qui li falta coratge o una persona (físicament) feble</catnote><example>Patrick couldn't even lift Jessica's suitcase down the stairs. He said it was too heavy. What a &lt;b&gt;wimp&lt;/b&gt;!</example><example>Don't be such a &lt;b&gt;wimp&lt;/b&gt;. Stand up to him. Tell him you're not going to take things lying down any more.</example></translation>
 			</translations>
 		</nouns>
-                <phrasalverbs>wimp out of (doing) something
+                <phrasalverbs>wimp out (of)
                 <translations>
                 <translation>arronsar-se (davant de / a l'hora de) / arronsar-se el melic (a algú)</translation>
                 </translations>
                 </phrasalverbs>
 	</Entry>
-	<Entry frequency="46100000">win<verbs>
+	<Entry frequency="785000000">win<verbs>
 			<past>won</past>
 			<participle>won</participle>
 			<gerund>winning</gerund>
-			<translations>
+                            <translations><date>1007</date>
 				<translation>guanyar / vèncer</translation>
 			</translations>
 		</verbs>
+                  <phrasalverbs>win over
+                    <translations>
+                        <translation>persuadir (algú) / guanyar el suport (d'algú)</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
 				<translation gender="f">victòria<synonyms>victory</synonyms>
@@ -1956,8 +2038,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="183000000">wind<nouns>
-			<translations>
+	<Entry frequency="377000000">wind<nouns>
+                            <translations><date>1007</date>
 				<translation catagory="weather" gender="m">vent</translation>
 			</translations>
 		</nouns>
@@ -1973,6 +2055,12 @@
                         <translation>entortolligar</translation>
                     </translations>
                 </verbs>
+                  <phrasalverbs>wind down
+                    <translations>
+                        <translation>terminar (una activitat) per etapes</translation>
+                        <translation>descansar</translation>
+                    </translations>
+                </phrasalverbs>
 		<phrasalverbs>wind up
 			<translations>
 				<translation>donar corda a<engnote>Donar corda a means to wind up a watch or clock</engnote>
@@ -2403,15 +2491,15 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="7000000">wolf<nouns>
-			<translations>
+	<Entry frequency="161000000">wolf<nouns>
+                            <translations><date>1007</date>
 				<translation catagory="animal-animal" gender="m">llop<plural>wolves</plural>
 				</translation>
 			</translations>
 		</nouns>
 		<phrasalverbs>wolf down
 			<translations>
-				<translation register="colloquial">menjar alguna cosa molt ràpidament</translation>
+				<translation register="colloquial">embocar (menjhttp://visca.com/gramatica_anglesa/new.txtar àvidament)</translation>
 			</translations>
 		</phrasalverbs>
 	</Entry>
@@ -2576,8 +2664,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="270000000">work<verbs>
-			<translations>
+	<Entry frequency="579000000">work<verbs>
+                            <translations><date>1007</date>
 				<translation catagory="work">treballar<engexamp>To work hard</engexamp><catexamp>Treballar fort</catexamp><engexamp>To work together</engexamp><catexamp>Col·laborar / cooperar</catexamp><engnote>'Treballar' is the general verb for work (i.e. I work in a factory, she is working hard..)</engnote>
 				</translation>
                                 <translation>feinejar</translation>
@@ -2585,6 +2673,33 @@
 				</translation>
 			</translations>
 		</verbs>
+                  <phrasalverbs>work off
+                    <translations>
+                        <translation>fer exercici (per eliminar l'estrès o la ràbia)</translation>
+                        <translation>guanyar diners per pagar un deute</translation>
+                    </translations>
+                </phrasalverbs>
+                  <phrasalverbs>work on (somebody)
+                    <translations>
+                        <translation>intentar persuadir (algú)<example>He hasn't agreed yet but I'm still &lt;b&gt;working on&lt;/b&gt; him.</example></translation>
+                    </translations>
+                </phrasalverbs>
+                  <phrasalverbs>work (something) out
+                    <translations>
+                        <translation>arribar a entendre / resoldre</translation>
+                        <translation>calcular</translation>
+                    </translations>
+                </phrasalverbs>
+                  <phrasalverbs>work over
+                    <translations>
+                        <translation>donar una pallissa (a algú)</translation>
+                    </translations>
+                </phrasalverbs>
+                  <phrasalverbs>work towards (something)
+                    <translations>
+                        <translation>intentar assolir un objectiu</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
 				<translation catagory="work">
