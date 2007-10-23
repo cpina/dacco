@@ -815,6 +815,19 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="40100000">decay<nouns>
+			<translations><date>1007</date>
+                                <translation gender="f">descomposició / putrefacció</translation>
+                                <translation gender="f">decadència</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>descompondre's / podrir-se</translation>
+                        <translation>caure en decadència</translation>
+                        </translations>
+                        </verbs>
+	</Entry>
         <Entry frequency="6510000">deceased<adjectives>
 			<translations>
 				<translation register="formal">difunt / mort<synonyms>dead</synonyms></translation>
@@ -1972,15 +1985,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="9470000">deposit<verbs>
-			<translations>
+	<Entry frequency="143000000">deposit<verbs>
+                            <translations><date>1007</date>
 				<translation disambiguate="financial" local="us">ingressar<otherlocal>pay in</otherlocal></translation>
                                 <translation>dipositar</translation>
 			</translations>
 		</verbs>
                 <nouns>
-                <translations>
-                <translation catagory="financial" gender="m">ingrés</translation></translations></nouns>
+                    <translations>
+                        <translation catagory="financial" gender="f">bestreta<engnote>'Bestreta' means 'deposit' in the sense 'advance fee' (e.g. 'The landlord wants a deposit of three months' rent')</engnote></translation>
+                        <translation catagory="financial" gender="m">ingrés<engnote>'Ingrés' means 'deposit' in the sense 'a deposit was credited to my account by mistake'</engnote></translation>
+                    </translations>
+                </nouns>    
 	</Entry>
 	<Entry frequency="2710000">depot<nouns>
 			<translations>
@@ -3424,7 +3440,7 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
+            </Entry>
 	<Entry frequency="5530000">disagree<verbs>
 			<translations>
 				<translation>discrepar / estar en desacord / dissentir / desacordar</translation>
@@ -6335,6 +6351,12 @@
 					<translation gender="f">durada</translation>
 					<translation gender="f">duració</translation>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2420000">duress<nouns>
+                            <translations><date>1007</date>
+				<translation gender="f">coacció<engexamp>Under duress</engexamp><catexamp>Sota coacció</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>

@@ -415,6 +415,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="22300000">halter<nouns>
+                            <translations><date>1007</date>
+				<translation catagory="animal" gender="m">cabestre</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="13800000">ham<nouns>
 			<translations>
 				<translation disambiguate="food-meat" gender="m">pernil</translation>
@@ -1766,9 +1772,11 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="44400000">heel<nouns>
-			<translations>
-				<translation gender="m">taló</translation>
+	<Entry frequency="75300000">heel<nouns>
+                            <translations><date>1007</date>
+				<translation disambiguate="body" gender="m">taló</translation>
+                                <translation catagory="clothes" gender="m">tacó</translation>
+                                <translation catagory="clothes" sourceplural="heels" gender="mpl">tacons alts<catnote>'Tacons alts' són 'high heels' o simplement 'heels'</catnote><example>Claire was very tall and found that when she wore &lt;b&gt;heels&lt;/b&gt; for work she towered over her male colleagues.</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2665,6 +2673,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="2970000">hippocampus<nouns>
+			<translations><date>1007</date>
+				<translation catagory="body" gender="m">hipocamp</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="177000">hippopotamus<nouns>
 			<translations>
 				<translation gender="m">hipopòtam<plural>hippopotamuses / hippopotami</plural>
@@ -2839,10 +2853,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-  <Entry frequency="2760000">hive<nouns>
-			<translations>
-				<translation gender="m">rusc</translation>
-                                <translation sourceplural="hives" gender="f">uticària</translation>
+  <Entry frequency="28900000">hive<nouns>
+                        <translations><date>1007</date>
+                            <translation>
+				<translation catagory="animal" gender="m">rusc</translation>
+                                <translation catagory="animal" gender="f">arna</translation>
+                                </translation>
+                                <translation sourceplural="hives" catagory="medical-illness" gender="f">uticària</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2864,6 +2881,12 @@
 				</translation>
 			</translations>
 		</exclamations>
+	</Entry>
+        	<Entry frequency="1080000">HMM<acronyms><engacro>Hidden Markov Model</engacro>
+			<translations><date>1007</date>
+				<translation termcat="telecom" gender="m">model ocult de Markov<catacro>HMM</catacro></translation>
+			</translations>
+		</acronyms>
 	</Entry>
         <Entry frequency="474000">hoard<verbs>
 			<translations>
@@ -4653,6 +4676,12 @@
         <Entry frequency="2840000">hypotension<nouns>
 			<translations><date>1007</date>
 				<translation catagory="medical-illness" gender="f">hipotensió</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="329000">hypotenuse<nouns>
+			<translations><date>1007</date>
+				<translation catagory="maths" gender="f">hipotenusa</translation>
 			</translations>
 		</nouns>
 	</Entry>

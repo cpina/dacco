@@ -60,6 +60,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="88200">eco<nouns>
+                            <translations><date>1007</date>
+				<translation gender="m">echo</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="129">ecocardiografia<nouns>
 			<translations>
 				<translation catagory="medical" gender="f">echocardiography</translation>
@@ -159,6 +165,12 @@
 	<Entry frequency="13800">edat mitjana<nouns>
 			<translations>
 				<translation gender="f">Middle Ages</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="4000">edema<nouns>
+                            <translations><date>1007</date>
+				<translation catagory="medical" gender="m">edema</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3689,9 +3701,14 @@ lliure per tal de no &lt;b&gt;encarir&lt;/b&gt; innecessàriament un projecte</e
 	</Entry>
         <Entry frequency="2500">errar<verbs conj="regular">
 			<translations><date>1007</date>
-				<translation>to make a mistake / to get (something) wrong / to be wrong<catexamp>Errar és humà</catexamp><engexamp>To err is human</engexamp></translation>
+				<translation>to make a mistake / to get (something) wrong / to be wrong</translation>
 			</translations>
 		</verbs>
+                <expressions>errar és humà
+                <translations>
+                    <translation>to err is human</translation>
+                </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="1450">erràtic<adjectives>
 			<translations><date>1005</date>
@@ -4773,6 +4790,12 @@ lliure per tal de no &lt;b&gt;encarir&lt;/b&gt; innecessàriament un projecte</e
                 <translations>
                 <translation>by instinct</translation></translations></expressions>
 	</Entry>
+        <Entry frequency="3370">esmaperdut<adjectives>
+                            <translations><date>1007</date>
+				<translation>at a loss / (all) at sea / baffled<example>Estic &lt;b&gt;esmaperduda&lt;/b&gt; a causa de la seqüela que ha deixat el jutge Del Olmo.</example><fems>esmaperduda</fems></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="42800">esmena<nouns>
 			<translations><date>0505</date>
 				<translation gender="f">correction</translation>
@@ -5388,13 +5411,13 @@ lliure per tal de no &lt;b&gt;encarir&lt;/b&gt; innecessàriament un projecte</e
 	</Entry>
         <Entry frequency="1480">espòs<nouns>
 			<translations><date>0505</date>
-				<translation gender="m">husband</translation>
+				<translation catagory="family" gender="m">husband<synonyms>marit</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="13600">esposa<nouns>
 			<translations><date>0505</date>
-				<translation gender="f">wife</translation>
+				<translation catagory="family" gender="f">wife<synonyms>dona, muller</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
