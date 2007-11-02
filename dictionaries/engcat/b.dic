@@ -1511,7 +1511,13 @@
 	</Entry>     
 	<Entry frequency="468000">beak<nouns>
 			<translations>
-				<translation gender="m">bec</translation>
+				<translation catagory="animal" gender="m">bec</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="3350000">beaker<nouns>
+                            <translations><date>1007</date>
+				<translation disambiguate="chemistry" gender="m">vas</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2786,9 +2792,26 @@
         <past>bound</past>
         <participle>bound</participle>
 			<translations>
-				<translation>lligar / vincular<engexamp>To be in a bind</engexamp><catexamp>Tenir problemes / Estar en una situació incòmoda</catexamp></translation>
+				<translation>lligar / vincular</translation>
 			</translations>
 		</verbs>
+                <expressions>be in a bind
+                <translations>
+                    <translation>estar en una situació incòmoda / tenir problemes</translation>
+                    </translations>
+                    </expressions>
+	</Entry>
+           <Entry frequency="60700000">binding<nouns>
+			<translations><date>1007</date>
+				<translation gender="f">enquadernació</translation>
+                                <translation disambiguate="sports" gender="f">fixació</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>vinculant</translation>
+                    </translations>
+                        </adjectives>
 	</Entry>
                   <Entry frequency="1070000">binding energy<nouns>
 			<translations><date>0307</date>
@@ -3638,9 +3661,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="2780000">blatant<adjectives>
-			<translations>
-				<translation>descarat</translation>
+        <Entry frequency="13300000">blatant<adjectives>
+			<translations><date>1007</date>
+				<translation>flagrant / descarat<synonyms>flagrant</synonyms></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3846,12 +3869,11 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="11700000">blog<nouns>
-			<translations>
-				<translation termcat="true" gender="m">diari interactiu personal<engnote>The official TermCat word for 'blog' is 'diari interactiu personal'. However, this term does not appear to be very widely used yet, with most Catalans using the term 'bitàcola (personal)' or 'bloc'.</engnote>
-				</translation>
-				<translation gender="f">bitàcola (personal) / bloc</translation>
-			</translations>
+	<Entry frequency="4130000000">blog<nouns>
+			<translations><date>1107</date>
+                        <translation termcat="true" gender="m">bloc</translation>
+                        <translation gender="m">blog<engnote>The official TermCat word for 'blog' is 'bloc' (it used to be 'diari interactiu personal'). The term is widely used but a number of Catalan Internet users do not agree with this term and continue to use 'blog'. To read more about their arguments, click &lt;a href="http://bibiloni.cat/blog/?m=200612"&gt;here&lt;/a&gt;.</engnote></translation>
+                    </translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="325000">bloke<nouns>
@@ -4584,8 +4606,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="259000000">book<nouns>
-			<translations>
+	<Entry frequency="2620000000">book<nouns>
+                            <translations><date>1007</date>
 				<translation gender="m">llibre</translation>
 			</translations>
 		</nouns>
@@ -4600,7 +4622,7 @@
                 <translation>ser una sorpresa<example>Uzbekistan's qualification for the World Youth Championship &lt;b&gt;was a turn-up for the books&lt;/b&gt;</example></translation></translations></expressions>
                 <expressions>to throw the book at someone
 			<translations>
-				<translation>imposar a un delinqüent la sentència més severa possible<example>He's shown no remorse at all for what he's done. I hope they &lt;b&gt;throw the book at him&lt;/b&gt;!</example>
+				<translation>caure el pèl a algú<example>He's shown no remorse at all for what he's done. I hope they &lt;b&gt;throw the book at him&lt;/b&gt;!</example>
 				</translation>
 			</translations>
 		</expressions>
@@ -5689,9 +5711,12 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="2820000">breeze<nouns>
-			<translations>
+	<Entry frequency="62700000">breeze<nouns>
+                        <translations><date>1007</date>
+                            <translation>
 				<translation disambiguate="weather" gender="f">brisa</translation>
+                                <translation disambiguate="weather" gender="m">oratge</translation>
+                                </translation>
                                 <translation register="colloquial" gender="f">cosa fàcil<engexamp>It was a breeze to install</engexamp><catexamp>Era molt fàcil d'instal·lar</catexamp></translation>
 			</translations>
 		</nouns>
@@ -6200,15 +6225,11 @@
 	</Entry>
 	<Entry frequency="5050000">brush<nouns>
 			<translations>
-				<translation gender="m">raspall<engnote>'Raspall' is the 'brush' you clean your teeth with or brush your hair with</engnote>
-				</translation>
-				<translation gender="m">pinzell<engnote>'Pinzell' is a 'brush' you paint pictures with</engnote>
-				</translation>
-				<translation gender="f">escombra<engnote>'Escombra' is a 'brush' you sweep the floor with</engnote>
-				</translation>
-				<translation gender="f">brotxa<engnote>'Brotxa' can mean either 'paintbrush' (for painting walls) or 'shaving brush'</engnote>
-					<plural>brushes</plural>
-				</translation>
+				<translation gender="m">raspall<engnote>'Raspall' is the 'brush' you clean your teeth with or brush your hair with</engnote></translation>
+				<translation gender="m">pinzell<engnote>'Pinzell' is a 'brush' you paint pictures with</engnote></translation>
+				<translation gender="f">escombra<engnote>'Escombra' is a 'brush' you sweep the floor with</engnote></translation>
+				<translation gender="f">brotxa<engnote>'Brotxa' can mean either 'paintbrush' (for painting walls) or 'shaving brush'</engnote><plural>brushes</plural></translation>
+                                <translation gender="f">bardissa<engnote>'Bardissa' means 'brush' in the sense 'land covered in low-lying trees and bushes'</engnote></translation>
 			</translations>
 		</nouns>
 		<verbs>

@@ -1953,6 +1953,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="256000">peatge<nouns>
+                            <translations><date>1007</date>
+				<translation catagory="transport" gender="m">toll</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="4160">pebre<nouns>
 			<translations>
 				<translation catagory="food-spice" gender="m">pepper</translation>
@@ -2159,12 +2165,17 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="25900">peix<nouns>
-			<translations>
+	<Entry frequency="184000">peix<nouns>
+                            <translations><date>1007</date>
 				<translation catagory="animal-fish, food-fish" gender="m">fish<plural>peixos</plural>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>el peix al cove
+                <translations>
+                    <translation>a bird in the hand</translation>
+                </translations>
+                </expressions>
                 <expressions>no hi ha més peix per vendre
                 <translations>
                 <translation>there's nothing more (or left) to say / the discussion is closed<example>Les posicions són conegudes i &lt;b&gt;no hi ha més peix per vendre&lt;/b&gt;.</example></translation>
@@ -2190,12 +2201,22 @@
 			</translations>
 		</abbreviations>
 	</Entry>
-        <Entry frequency="20000">pèl<nouns>
-			<translations><date>0305</date>
+        <Entry frequency="109000">pèl<nouns>
+			<translations><date>1007</date>
 				<translation gender="m">(body) hair / (facial) hair</translation>
                                 <translation gender="m">fur</translation>
 			</translations>
 		</nouns>
+                <expressions>caure el pèl (a algú)
+                <translations>
+                    <translation>to throw the book at someone</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>no tenir pèls a la llengua
+                    <translations>
+                        <translation>to not mince words</translation>
+                        </translations>
+                        </expressions>
 	</Entry>
           <Entry frequency="56800">pela<nouns>
 			<translations><date>0906</date>
@@ -3866,6 +3887,22 @@
 				<translation catagory="computers" gender="m">pixel</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="796">pixera<nouns>
+                            <translations><date>1007</date>
+				<translation register="vulgar" gender="f"></translation>
+			</translations>
+		</nouns>
+                <expressions>aguantar-se la pixera
+                <translations>
+                    <translation>to hold it in<engnote>(i.e. to ignore the need to urinate)</engnote></translation>
+                    </translations>
+                    </expressions>
+                    <expressions>tenir pixera
+                    <translations>
+                        <translation>to need to wee</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 	<Entry frequency="797000">pla<nouns>
 			<translations><date>0505</date>
@@ -6312,7 +6349,7 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation>show off<fems>presumida</fems>
+				<translation gender="m / f">show off<fems>presumida</fems>
 				</translation>
 			</translations>
 		</nouns>

@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary indentification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/dic.dtd
+
+--><!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE dictionary SYSTEM "dic.dtd">
+
+    <dictionary>
+    ...
+    </dictionary>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT dictionary (#PCDATA|Entry)*>
+<!ATTLIST dictionary
+    xmlns:xsi CDATA #IMPLIED
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Entry (#PCDATA|determiners|acronyms|prepositions|conjunctions|pronouns|catacro|exclamations|expressions|adverbs|adjectives|verbs|nouns)*>
+<!ATTLIST Entry
+    hasSound CDATA #IMPLIED
+    frequency CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT nouns (mistakes|translations)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT translations (translation|date)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT date (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT translation (#PCDATA|engacro|catnote|femplural|plural|fems|example|engexamp|catexamp|engnote|synonyms)*>
+<!ATTLIST translation
+    catagory CDATA #IMPLIED
+    gender CDATA #IMPLIED
+    disambiguate CDATA #IMPLIED
+    collocation CDATA #IMPLIED
+    termcat CDATA #IMPLIED
+    reflexive CDATA #IMPLIED
+    register CDATA #IMPLIED
+    transitive CDATA #IMPLIED
+    sourceplural CDATA #IMPLIED
+    falseFriend CDATA #IMPLIED
+    intransitive CDATA #IMPLIED
+    feminine CDATA #IMPLIED
+    capitalized CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT synonyms (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT engnote (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT verbs (translations)*>
+<!ATTLIST verbs
+    conj CDATA #IMPLIED
+  >
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT catexamp (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT engexamp (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT example (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT adjectives (translations)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT fems (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT adverbs (translations)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT expressions (#PCDATA|translations)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT plural (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT femplural (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT catnote (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT exclamations (translations)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT catacro (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT engacro (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT pronouns (translations)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT conjunctions (translations)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT prepositions (translations)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT acronyms (translations)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT mistakes (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT determiners (translations)*>
