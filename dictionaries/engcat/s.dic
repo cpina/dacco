@@ -505,6 +505,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1840000">sandstone<nouns>
+                            <translations><date>1107</date>
+				<translation catagory="geography" gender="m">gres</translation>
+			</translations>
+		</nouns>
+	</Entry>
                 <Entry frequency="699000">sand trap<nouns>
 			<translations><date>0307</date>
 				<translation termcat="energy" gender="m">desarenador</translation>
@@ -1519,9 +1525,10 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="68900000">screen<nouns>
-			<translations>
-				<translation catagory="computers" termcat="true" gender="f">pantalla</translation>
+	<Entry frequency="193000000">screen<nouns>
+                            <translations><date>1107</date>
+				<translation disambiguate="computers" termcat="true" gender="f">pantalla</translation>
+                                <translation disambiguate="sports-event-basketball" termcat="true" gender="f">pantalla</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2961,6 +2968,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+             <Entry frequency="96200">set shot<nouns>
+                            <translations><date>1107</date>
+				<translation catagory="sports-event-basketball" termcat="true" gender="m">tir estàtic</translation>
+			</translations>
+		</nouns>
+	</Entry>
           <Entry frequency="197000">set square<nouns>
 			<translations><date>0707</date>
                                 <translation local="gb" gender="m">escaire<otherlocal>triangle</otherlocal></translation>
@@ -3237,6 +3250,12 @@
 			</translations>
          </adjectives>
 	</Entry> 
+              <Entry frequency="1320000">shale<nouns>
+                            <translations><date>1107</date>
+				<translation catagory="geography" gender="f">licorella / pissarra</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="2350000">shallow<adjectives>
 			<translations>
 				<translation>poc profund<engexamp>Shallow water</engexamp><catexamp>Aigua poc profunda</catexamp></translation>
@@ -4664,6 +4683,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="510000">siltstone<nouns>
+                            <translations><date>1107</date>
+				<translation catagory="geography" gender="f">limolita</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="21300000">silver<nouns>
 			<translations>
 				<translation>
@@ -5537,6 +5562,12 @@
                                 <translation register="colloquial">criticar<example>The coach &lt;b&gt;slammed&lt;/b&gt; his players as 'tactically inept' after they lost their third consecutive match.</example></translation> 
 			</translations>
 		</verbs>
+	</Entry>
+             <Entry frequency="1330000">slam dunk<nouns>
+                            <translations><date>1107</date>
+				<translation catagory="sports-event-basketball" termcat="true" gender="f">esmaixada</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="25000">slammer<nouns>
 			<translations>
@@ -11425,6 +11456,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="619000">subduction<nouns>
+                            <translations><date>1107</date>
+				<translation catagory="geography" gender="f">subducció</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="153000000">subject<nouns>
 			<translations>
 				<translation catagory="work" gender="f">assignatura<engnote>'Assignatura' means 'subject' as in 'school subject / lesson'</engnote>
@@ -12256,6 +12293,12 @@
 			</translations>
 		</adverbs>
 	</Entry>
+        <Entry frequency="143000">supercontinent<nouns>
+                            <translations><date>1107</date>
+				<translation gender="m">supercontinent</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="694000">superhero<nouns>
 			<translations>
 				<translation gender="m">superheroi<plural>superheroes</plural>
@@ -12269,6 +12312,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+           <Entry frequency="254000000">superior<adjectives>
+                  <translations><date>1107</date>
+            <translation>superior<engexamp>Superior quality ~</engexamp><catexamp>~ de qualitat superior</catexamp></translation>
+        </translations>
+    </adjectives>
+    <nouns>
+        <translations>
+            <translation gender="mf">superior</translation>
+            <translation disambiguate="religious" gender="mf">superior<engexamp>Mother superior</engexamp><catexamp>Mare superiora</catexamp><example>Prior Patrick McConville is the new &lt;b&gt;superior&lt;/b&gt; at St Benedict's Abbey.</example></translation>
+        </translations>
+    </nouns>
+    </Entry>
         <Entry frequency="1100000">superlative<nouns>
 			<translations>
 				<translation catagory="linguistics" gender="m">superlatiu</translation>

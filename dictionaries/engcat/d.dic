@@ -2700,6 +2700,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+              <Entry frequency="734000">diagenesis<nouns>
+                            <translations><date>1107</date>
+				<translation catagory="geography" gender="f">diagènesi</translation>
+			</translations>
+		</nouns>
+	</Entry>
          <Entry frequency="23600000">diagnose<verbs>
 			<translations>
 				<translation catagory="medical">diagnosticar</translation>
@@ -5693,12 +5699,21 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="304000">dribble<verbs>
-			<translations>
-				<translation disambiguate="sports">regatejar / driblar</translation>
+	<Entry frequency="1470000">dribble<verbs>
+                            <translations><date>1107</date>
+				<translation disambiguate="sports" termcat="true">regatejar / driblar</translation>
+                                <translation disambiguate="sports" termcat="true">(futbol) retallar</translation>
 				<translation>bavejar</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                    <translations>
+                        <translation>
+                        <translation disambiguate="sports" termcat="true" gender="m">driblatge / regateig</translation>
+                        <translation disambiguate="sports" termcat="true" gender="f">(futbol) retallada</translation>
+                        </translation>
+                    </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="6390000">drift<verbs>
 			<translations>
