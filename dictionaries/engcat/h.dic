@@ -2747,6 +2747,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="13300000">historic<adjectives>
+			<translations><date>0108</date>
+				<translation>històric</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="60800000">historical<adjectives>
 			<translations>
 				<translation>històric</translation>
@@ -2758,6 +2764,12 @@
 				<translation>històricament</translation>
 			</translations>
 		</adverbs>
+	</Entry>
+        	<Entry frequency="4300000">historiography<nouns>
+			<translations><date>0108</date>
+				<translation gender="ffullform">historiografia</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="349000000">history<nouns>
 			<translations>
@@ -3107,11 +3119,20 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="19300000">homeless (person)<nouns>
-			<translations>
-				<translation gender="mf">sense sostre<engnote>A homeless person is 'un sense sostre'.  The homeless are 'els sense sostre'</engnote>
-					<plural>homeless (people)</plural>
-				</translation>
+	<Entry frequency="1860000">homeless<adjectives>
+			<translations><date>0108</date>
+				<translation>sense llar<example>Lots of people were left &lt;b&gt;homeless&lt;/b&gt; when the levees collapsed in New Orleans.</example></translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation sourceplural="the homeless">els sense sostre / les persones sense sostre / les persones sense llar</translation>
+                    </translations>
+                </nouns>
+	</Entry>
+        <Entry frequency="7230000">homelessness<nouns>
+			<translations><date>0108</date>
+				<translation gender="f">situació dels sense sostre<example>A plan has been drawn up to help combat &lt;b&gt;homelessness&lt;/b&gt;.</example><example>&lt;b&gt;Homelessness&lt;/b&gt; is a problem in every major city.</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3252,10 +3273,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="19600000">honey<nouns>
-			<translations>
+	<Entry frequency="7470000">honey<nouns>
+			<translations><date>0108</date>
 				<translation disambiguate="food" gender="m">mel</translation>
-                                <translation gender="mf">estimat</translation>
+                                <translation local="us" gender="mf">estimat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3268,6 +3289,12 @@
 	<Entry frequency="7260000">honeymoon<nouns>
 			<translations>
 				<translation gender="f">lluna de mel</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="5270000">honeysuckle<nouns>
+			<translations><date>0108</date>
+                                <translation gender="m">lligabosc<catnote>llatí - lonicera</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
