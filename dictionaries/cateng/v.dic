@@ -167,8 +167,8 @@
 	</Entry>
         <Entry frequency="3400000">valència<nouns>
 			<translations><date>0406</date>
-				<translation catagory="chemistry" gender="f">valency</translation>
-                                <translation capitalized="València" catagory="geography">Valencia</translation>
+				<translation disambiguate="chemistry" gender="f">valency</translation>
+                                <translation capitalized="València" disambiguate="geography">Valencia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -211,8 +211,16 @@
 				<translation gender="f">valley</translation>
 			</translations>
 		</nouns>
-	</Entry>	
-	<Entry frequency="1220000">valor<nouns>
+	</Entry>
+<Entry frequency="0">valladí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vallada</translation></translations></nouns><adjectives><translations><translation>relating to Vallada or its people<plural>valladins</plural><fems>valladina</fems></translation></translations></adjectives></Entry>	
+<Entry frequency="0">vallanquer<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vallanca</translation></translations></nouns><adjectives><translations><translation>relating to Vallanca or its people<fems>vallanquera</fems></translation></translations></adjectives></Entry>
+<Entry frequency="0">vallatí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vallat</translation></translations></nouns><adjectives><translations><translation>relating to Vallat or its people<plural>vallatins</plural><fems>vallatina</fems></translation></translations></adjectives></Entry>
+<Entry frequency="0">valldalbenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from la Vall d’Alba</translation></translations></nouns><adjectives><translations><translation>relating to la Vall d’Alba or its people<fems>valldalbenca</fems><femplural>valldalbenques</femplural></translation></translations></adjectives></Entry>
+<Entry frequency="0">valldemossí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Valldemossa</translation></translations></nouns><adjectives><translations><translation>relating to Valldemossa or its people<fems>valldemossina</fems></translation></translations></adjectives></Entry>
+<Entry frequency="0">valler<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Tavernes de la Valldigna (or la Vall d'Almonesir or la Vall d' Uixó or la Vall de Gallinera)</translation></translations></nouns><adjectives><translations><translation>relating to Tavernes de la Valldigna (or la Vall d'Almonesir or la Vall d' Uixó or la Vall de Gallinera ) or its people<fems>vallera</fems></translation></translations></adjectives></Entry>	
+<Entry frequency="0">vallesí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vallés</translation></translations></nouns><adjectives><translations><translation>relating to Vallés or its people<plural>vallesins</plural><fems>vallesina</fems></translation></translations></adjectives></Entry>
+<Entry frequency="0">vallibonenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vallibona </translation></translations></nouns><adjectives><translations><translation>relating to Vallibona  or its people<fems>vallibonenca</fems><femplural>vallibonenques</femplural></translation></translations></adjectives></Entry>
+<Entry frequency="1220000">valor<nouns>
 			<translations><date>0605</date>
 				<translation catagory="financial" gender="m">value</translation>
 			</translations>
@@ -718,6 +726,7 @@
 			</translations>
 		</nouns>
 	</Entry>	
+<Entry frequency="0">ventamorí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Venta del Moro </translation></translations></nouns><adjectives><translations><translation>relating to Venta del Moro  or its people<plural>ventamorins</plural><fems>ventamorina</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="27600">ventar<verbs conj="regular">
 			<translations><date>0605</date>
 				<translation>to fan</translation>
@@ -726,6 +735,7 @@
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="0">venter<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Emperador</translation></translations></nouns><adjectives><translations><translation>relating to Emperador or its people<fems>ventera</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="4830">ventilador<nouns>
 			<translations><date>0605</date>
 				<translation gender="m">ventilator / fan</translation>
@@ -895,18 +905,19 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="22800">verge<nouns>
-			<translations>
-				<translation>virgin</translation>
+	<Entry frequency="268000">verge<nouns>
+			<translations><date>0208</date>
+				<translation gender="f">virgin</translation>
+                                <translation capitalized="Verge" catagory="zodiac" gender="f">Virgo</translation>
 			</translations>
 		</nouns>
+<adjectives>
+<translations>
+<translation>virgin</translation>
+</translations>
+</adjectives>
 	</Entry>
-	<Entry frequency="400">Verge<nouns>
-			<translations>
-				<translation catagory="zodiac">Virgo</translation>
-			</translations>
-		</nouns>
-	</Entry>
+<Entry frequency="0">vergerí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from el Verger</translation></translations></nouns><adjectives><translations><translation>relating to el Verger or its people<plural>vergerins</plural><fems>vergerina</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="9120">vergonya<nouns>
 			<translations>
 				<translation gender="f">shame / disgrace</translation>
@@ -1725,7 +1736,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-        	<Entry frequency="1730">vilafranquí<adjectives>
+<Entry frequency="0">vilafamesí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vilafamés</translation></translations></nouns><adjectives><translations><translation>relating to Vilafamés or its people<plural>vilafamesins</plural><fems>vilafamesina</fems></translation></translations></adjectives></Entry>
+<Entry frequency="0">vilafermoser<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vilafermosa</translation></translations></nouns><adjectives><translations><translation>relating to Vilafermosa or its people<fems>vilafermosera</fems></translation></translations></adjectives></Entry>
+<Entry frequency="0">vilafranquer<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vilafranca de Bonany</translation></translations></nouns><adjectives><translations><translation>relating to Vilafranca de Bonany or its people<fems>vilafranquera</fems></translation></translations></adjectives></Entry>
+	<Entry frequency="1730">vilafranquí<adjectives>
 			<translations><date>0905</date>
 				<translation>of / from Vilafranca del Penedès</translation>
 			</translations>
@@ -1734,6 +1748,7 @@
                 <translations>
                 <translation gender="m / f">(person) from Vilafranca del Penedès<plural>vilafranquins</plural><fems>vilafranquina</fems></translation></translations></nouns>
 	</Entry>
+<Entry frequency="0">vilallonguer<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vilallonga</translation></translations></nouns><adjectives><translations><translation>relating to Vilallonga or its people<fems>vilallonguera</fems></translation></translations></adjectives></Entry>
         	<Entry frequency="10200">vilanoví<adjectives>
 			<translations><date>0905</date>
 				<translation>of / from Vilanova</translation>
@@ -1743,12 +1758,23 @@
                 <translations>
                 <translation gender="m / f">(person) from Vilanova<plural>vilanovins</plural><fems>vilanovina</fems></translation></translations></nouns>
 	</Entry>
-	<Entry frequency="3440">vilatà<nouns>
+<Entry frequency="0">vilamalurenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vilamalur</translation></translations></nouns><adjectives><translations><translation>relating to Vilamalur or its people<fems>vilamalurenca</fems><femplural>vilamalurenques</femplural></translation></translations></adjectives></Entry>
+<Entry frequency="0">vilamarxanter<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vilamarxant</translation></translations></nouns><adjectives><translations><translation>relating to Vilamarxant or its people<fems>vilamarxantera</fems></translation></translations></adjectives></Entry>
+<Entry frequency="0">vilanovenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vilanova de la Reina</translation></translations></nouns><adjectives><translations><translation>relating to Vilanova de la Reina or its people<fems>vilanovenca</fems><femplural>vilanovenques</femplural></translation></translations></adjectives></Entry>
+<Entry frequency="0">vilanoví<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vilanova d’Alcolea</translation></translations></nouns><adjectives><translations><translation>relating to Vilanova d’Alcolea or its people<plural>vilanovins</plural><fems>vilanovina</fems></translation></translations></adjectives></Entry>
+<Entry frequency="0">vila-realenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vila-real</translation></translations></nouns><adjectives><translations><translation>relating to Vila-real or its people<fems>vila-realenca</fems><femplural>vila-realenques</femplural></translation></translations></adjectives></Entry>
+<Entry frequency="0">vilarenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vilar de Canes (or el Villar)</translation></translations></nouns><adjectives><translations><translation>relating to Vilar de Canes (or el Villar) or its people<fems>vilarenca</fems><femplural>vilarenques</femplural></translation></translations></adjectives></Entry>
+<Entry frequency="3440">vilatà<nouns>
 			<translations><date>0705</date>
 				<translation gender="m / f">villager</translation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="0">vilaveller<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from la Vilavella</translation></translations></nouns><adjectives><translations><translation>relating to la Vilavella or its people<fems>vilavellera</fems></translation></translations></adjectives></Entry>
+<Entry frequency="0">viler<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from la Vila Joiosa</translation></translations></nouns><adjectives><translations><translation>relating to la Vila Joiosa or its people<fems>vilera</fems></translation></translations></adjectives></Entry>
+<Entry frequency="0">villagordenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from la Villargordo del Cabriel</translation></translations></nouns><adjectives><translations><translation>relating to la Villargordo del Cabriel or its people<fems>villagordenca</fems><femplural>villagordenques</femplural></translation></translations></adjectives></Entry>
+<Entry frequency="0">villener<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Villena</translation></translations></nouns><adjectives><translations><translation>relating to Villena or its people<fems>villenera</fems></translation></translations></adjectives></Entry>
+<Entry frequency="0">villorí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Villores</translation></translations></nouns><adjectives><translations><translation>relating to Villores or its people<fems>villorina</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="557">vimet<nouns>
 			<translations><date>0705</date>
 				<translation gender="m">wicker</translation>
@@ -1773,6 +1799,8 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="0">vinalesí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vinalesa</translation></translations></nouns><adjectives><translations><translation>relating to Vinalesa or its people<plural>vinalesins</plural><fems>vinalesina</fems></translation></translations></adjectives></Entry>
+<Entry frequency="0">vinarossenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vinaròs</translation></translations></nouns><adjectives><translations><translation>relating to Vinaròs or its people<fems>vinarossenca</fems><femplural>vinarossenques</femplural></translation></translations></adjectives></Entry>
           <Entry frequency="130000">vinculant<adjectives>
 			<translations><date>0707</date>
                                 <translation>binding</translation>
@@ -2091,6 +2119,7 @@
                 </translations>
                 </expressions>
 	</Entry>
+<Entry frequency="0">vistabellà<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vistabella del Maestrat</translation></translations></nouns><adjectives><translations><translation>relating to Vistabella del Maestrat or its people<plural>vistabellans</plural><fems>vistabellana</fems></translation></translations></adjectives></Entry>
         <Entry frequency="1500">vista d'ocell<nouns>
 			<translations><date>0206</date>
 				<translation gender="f">bird's eye view<catexamp>Barcelona a vista d'ocell</catexamp><engexamp>A bird's eye view of Barcelona</engexamp></translation>
@@ -2211,6 +2240,7 @@
 			</translations>
 		</nouns>
 	</Entry>	
+<Entry frequency="0">viverenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Viver</translation></translations></nouns><adjectives><translations><translation>relating to Viver or its people<fems>viverenca</fems><femplural>viverenques</femplural></translation></translations></adjectives></Entry>
 	<Entry frequency="15200">vocabulari<nouns>
 			<translations>
 				<translation gender="m">vocabulary</translation>
