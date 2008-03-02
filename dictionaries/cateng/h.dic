@@ -86,6 +86,7 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="">haitià<nouns><translations><translation catagory="geography" gender="m / f">Haitian</translation></translations></nouns><adjectives><translations><translation>Haitian<plural>haitians</plural><fems>haitiana</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="1660">haixix<nouns>
 			<translations><date>0505</date>
 				<translation gender="m">hashish</translation>
@@ -147,6 +148,7 @@
 			</translations>
 		</nouns>
 	</Entry>	
+        <Entry frequency="">hamburguès<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Hamburg</translation></translations></nouns><adjectives><translations><translation>relating to Hamburg or its people<plural>hamburguesos</plural><fems>hamburguesa</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="1700">hamburguesa<nouns>
 			<translations><date>0505</date>
 				<translation gender="f">hamburger / burger</translation>
@@ -209,12 +211,12 @@
 	</Entry>
         <Entry frequency="800">havà<adjectives>
 			<translations><date>0106</date>
-				<translation>of / from Havana</translation>
+				<translation>relating to Havana</translation>
 			</translations>
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation gender="m / f">(person) from Havana<fems>havana</fems><plural>havans</plural></translation>
+                <translation disambiguate="geography" gender="m / f">(person / people) from Havana<fems>havana</fems><plural>havans</plural></translation>
                 <translation gender="m">Havana cigar</translation>
                 </translations>
                 </nouns>
@@ -324,6 +326,7 @@
 			</translations>
 		</nouns>
 	</Entry>	
+        <Entry frequency="">helveci<nouns><translations><translation catagory="geography" gender="m / f">Helvetian</translation></translations></nouns><adjectives><translations><translation>Helvetian<fems>helvècia</fems></translation></translations></adjectives></Entry>
         	<Entry frequency="22">hematèmesi<nouns>
 			<translations><date>0407</date>
 				<translation termcat="medical" gender="f">hematemesis</translation>
@@ -725,6 +728,7 @@
                 <translations>
                 <translation catagory="religious">Hindu<synonyms>hindú</synonyms></translation></translations></adjectives>
 	</Entry>
+        <Entry frequency="">hindustànic<nouns><translations><translation catagory="geography" gender="m / f">Hindustani</translation></translations></nouns><adjectives><translations><translation>Hindustani<fems>hindustànica</fems><femplural>hindustàniques</femplural></translation></translations></adjectives></Entry>
         <Entry frequency="532">hiperactiu<adjectives>
 			<translations>
 				<translation>hyperactive<fems>hiperactiva</fems></translation>
@@ -1050,7 +1054,9 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="788">hissar<verbs conj="regular">
+        <Entry frequency="">hispanoamericà<nouns><translations><translation catagory="geography" gender="m / f">Latin American</translation></translations></nouns><adjectives><translations><translation>Latin American<plural>hispanoamericans</plural><fems>hispanoamericana</fems></translation></translations></adjectives></Entry>
+	<Entry frequency="">hispanoromà<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Roman Hispania</translation></translations></nouns><adjectives><translations><translation>relating to Hispania or its people<plural>hispanoromans</plural><fems>hispanoromana</fems></translation></translations></adjectives></Entry>
+        <Entry frequency="788">hissar<verbs conj="regular">
 			<translations><date>0505</date>
 				<translation transitive="true">to hoist / to haul up / to raise</translation>
 			</translations>
@@ -1270,7 +1276,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="8990">honest<adjectives>
+        <Entry frequency="">hondurenc<nouns><translations><translation catagory="geography" gender="m / f">Honduran</translation></translations></nouns><adjectives><translations><translation>Honduran<fems>hondurenca</fems><femplural>hondurenques</femplural><synonyms>hondureny</synonyms></translation></translations></adjectives></Entry>
+<Entry frequency="">hondureny<nouns><translations><translation catagory="geography" gender="m / f">Honduran</translation></translations></nouns><adjectives><translations><translation>Honduran<fems>hondurenya</fems><synonyms>hondurenc</synonyms></translation></translations></adjectives></Entry>
+        <Entry frequency="8990">honest<adjectives>
 			<translations><date>0505</date>
 				<translation>honest / upright<fems>honesta</fems></translation>
 			</translations>
@@ -1278,8 +1286,8 @@
 	</Entry>
 	<Entry frequency="4470">hongarès<nouns>
 			<translations>
-				<translation catagory="language" gender="m">Hungarian</translation>
-				<translation catagory="nationality-europe" gender="m / f">Hungarian<fems>hongaresa</fems>
+				<translation disambiguate="language" gender="m">Hungarian</translation>
+				<translation disambiguate="nationality-europe" gender="m / f">Hungarian<fems>hongaresa</fems>
 					<plural>hongaresos</plural>
 				</translation>
 			</translations>
