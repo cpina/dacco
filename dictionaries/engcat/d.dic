@@ -4376,6 +4376,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="2010000">distillery<nouns>
+			<translations><date>0308</date>
+				<translation gender="f">destil·leria<plural>distilleries</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="5280000">distinct<adjectives>
 			<translations>
 				<translation>distint<example>Taiwan and Hong Kong are culturally &lt;b&gt;distinct&lt;/b&gt; from China.</example>
@@ -5763,18 +5769,19 @@
 			</translations>
 		</nouns>
 	</Entry>
-            <Entry frequency="135000000">drink<verbs>
+            <Entry frequency="223000000">drink<verbs>
                     <past>drank</past>
                     <participle>drunk</participle>
-                    <translations><date>0807</date>
+                    <translations><date>0308</date>
                         <translation>beure</translation>
+                        <translation>beure alcohol<example>Are you coming out drinking tonight?</example><example>He'd been drinking since lunchtime and by 5 o'clock he was completely pissed</example></translation>
                     </translations>
                 </verbs>
 		<nouns>
 			<translations>
 				<translation gender="f">beguda<catnote>A vegades els anglesos diuem col·loquialment &apos;drink drink&apos; per referir específicament a una beguda alcohòlica (Per exemple: &apos;Do you want a cup of tea or would you rather have a drink drink?&apos;)</catnote>
 				</translation>
-                                <translation gender="f">copa<engexamp>To go (out) for a drink</engexamp><catexamp>Anar de copes</catexamp></translation>
+                                <translation gender="m">alcohol<engexamp>To go (out) for a drink</engexamp><catexamp>Anar de copes</catexamp><example>By the time the group of lads got on the plane, they were already the worse for &lt;b&gt;drink&lt;/b&gt;.</example><example>I need a &lt;b&gt;drink&lt;/b&gt;!</example></translation>
 			</translations>
 		</nouns>
                 <phrasalverbs>drink in
@@ -6033,12 +6040,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="65400000">drum<nouns>
-                            <translations><date>0807</date>
+	<Entry frequency="15100000">drum<nouns>
+                            <translations><date>0308</date>
 				<translation gender="m">tambor</translation>
+                                <translation gender="m">bidó<example>A full 55 gallon &lt;b&gt;drum&lt;/b&gt; of water weighs over 300 lbs</example></translation>
                                 <translation sourceplural="drums" gender="f">bateria<engexamp>Dave Grohl plays (the) drums</engexamp><catexamp>Dave Grohl toca la bateria</catexamp></translation>
 			</translations>
 		</nouns>
+                <verbs double="true">
+                    <translations>
+                        <translation catagory="entertainment-music">tocar la bateria</translation>
+                    </translations>
+                </verbs>
                 <phrasalverbs>drum out
                     <translations>
                         <translation>expulsar (d'una organització)</translation>
