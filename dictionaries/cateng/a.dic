@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE dictionary SYSTEM "dic.dtd">
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///C:/Documents%20and%20Settings/James/My%20Documents/My%20Projects/dacco%20projects/Publisher/input/cateng/dic.xsd">
-<Entry frequency="545" hasSound="true">àbac<nouns>
+  <Entry frequency="2910">ababol<nouns>
+			<translations><date>0408</date>
+				<translation catagory="plant-flower" register="valencian" gender="m">(red) poppy</translation>
+			</translations>
+		</nouns>
+	</Entry>
+    <Entry frequency="545" hasSound="true">àbac<nouns>
 			<translations><date>0405</date>
 				<translation catagory="maths" gender="m">abacus</translation>
 			</translations>
@@ -12,6 +18,12 @@
 			</translations>
                         
 		</nouns>
+	</Entry>
+           <Entry frequency="4190">abacial<adjectives>
+			<translations><date>0408</date>
+				<translation catagory="religious">abbatial / abbey<catexamp>Església abacial</catexamp><engexamp>Abbey church</engexamp></translation>
+			</translations>
+		</adjectives>
 	</Entry>
          <Entry frequency="13200">abadejo<nouns>
 			<translations><date>0208</date>
@@ -46,6 +58,13 @@
 					<example>La nota final de l'examen pot &lt;b&gt;abaixar-se&lt;/b&gt; de mig punt quan els problemes ortogràfics siguin especialment greus.</example>
 					<example>La promesa electoral del partit d'&lt;b&gt;abaixar&lt;/b&gt; els impostos era totalment falsa.</example>
 				</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="3690">abalançar-se<verbs conj="çtoC">
+			<translations><date>0408</date>
+				<translation>to rush towards (someone) / to hurl yourself at (someone) / to hurtle towards (someone) / to charge (a group of people) / to rush (a group of people) / to jump on (someone)</translation>
+                                <translation>to lean on</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3901,9 +3920,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="14700" hasSound="true">altaveu<nouns>
-			<translations><date>0105</date>
-				<translation gender="m">loudspeaker</translation>
+	<Entry frequency="68600" hasSound="true">altaveu<nouns>
+			<translations><date>0408</date>
+				<translation gender="m">loudspeaker<catexamp>Altaveu de greus</catexamp><engexamp>Woofer</engexamp><catexamp>Altaveu d'aguts</catexamp><engexamp>Tweeter</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5530,6 +5549,26 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="17400">antagònic<adjectives>
+			<translations><date>0408</date>
+				<translation>antagonistic<fems>antagònica</fems><femplural>antagòniques</femplural></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="16100">antagonisme<nouns>
+			<translations><date>0408</date>
+				<translation gender="m">antagonism</translation>
+                            </translations>
+		</nouns>
+	</Entry>  
+              <Entry frequency="7010">antagonista<nouns>
+			<translations><date>0408</date>
+				<translation gender="m / f">antagonist</translation>
+                                <translation disambiguate="body" gender="m">antagonist<catexamp>Múscul antagonista</catexamp><engexamp>Antagonist muscle</engexamp></translation>
+                                <translation disambiguate="chemistry" gender="m">antagonist</translation>
+                            </translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="6020">Antàrtida<nouns>
 			<translations><date>0105</date>
 				<translation catagory="geography-continent" gender="f">Antarctica</translation>
@@ -5598,11 +5637,27 @@
                 </translations>
                 </nouns>
 	</Entry>
-	<Entry frequency="6930">antibiòtic<nouns>
+        <Entry frequency="1040">antibacterià<adjectives>
+			<translations><date>0408</date>
+				<translation catagory="medical">antibacterial<plural>antibacterians</plural><fems>antibacteriana</fems></translation>
+			</translations>
+		</adjectives>
+                <nouns>
+			<translations>
+				<translation gender="m">antibacterial</translation>
+                            </translations>
+		</nouns>
+	</Entry>
+	<Entry frequency="18400">antibiòtic<nouns>
 			<translations><date>0105</date>
 				<translation catagory="medical-treatment" gender="m">antibiotic</translation>
 			</translations>
 		</nouns>
+                <adjectives>
+			<translations>
+				<translation>antibiotic<fems>antibiòtica</fems><femplural>antibiòtiques</femplural></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="389000">antic<adjectives>
 			<translations><date>0105</date>
@@ -6759,11 +6814,11 @@
 			</translations>
 		</pronouns>
 	</Entry>
-	<Entry frequency="1210000">aquest<determiners>
+	<Entry frequency="1210000">aquest<adjectives>
 			<translations><date>0105</date>
 				<translation>this<fems>aquesta</fems></translation>
 			</translations>
-		</determiners>
+		</adjectives>
 		<pronouns>
 			<translations>
 				<translation>this one</translation>

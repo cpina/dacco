@@ -2922,12 +2922,24 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 			</translations>
 		</adverbs>
 	</Entry>
+ <Entry frequency="2000000">perplex<verbs>
+			<translations><date>0408</date>
+				<translation>deixar perplex</translation>
+			</translations>
+		</verbs>
+	</Entry>
         <Entry frequency="10500000">perplexed<adjectives>
 			<translations>
 				<translation>perplex</translation>
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="4400000">perplexing<adjectives>
+			<translations><date>0408</date>
+				<translation>que deixa perplex</translation>
+			</translations>
+		</adjectives>
+	</Entry>        
         <Entry frequency="3150000">perplexity<nouns>
 			<translations>
 				<translation gender="f">perplexitat<plural>perplexities</plural></translation>
@@ -4147,18 +4159,21 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="1280000">PIN<engacro>Personal Identification Number</engacro>
-		<nouns>
-			<translations>
-				<translation disambiguate="financial" gender="m">número secret<catnote>Encara que l'acrònim 'PIN' vol dir 'Personal Identification Number' molts angloparlants diuen 'PIN number' (és a dir Personal Identification Number number).</catnote>
-					<synonyms>PIN number</synonyms>
-				</translation>
+	<Entry frequency="14900000">pin<nouns>
+			<translations><date>0408</date>
+                            <translation gender="f">agulla<engexamp>Drawing pin</engexamp><catexamp>Xinxeta</catexamp></translation>
+				<translation disambiguate="financial" capitalized="PIN" gender="m">número secret<catnote>Encara que l'acrònim 'PIN' vol dir 'Personal Identification Number' molts angloparlants diuen 'PIN number' (és a dir Personal Identification Number number)</catnote></translation>
 			</translations>
 		</nouns>
+                <expressions>pins and needles
+                <translations>
+                    <translation>formigueig</translation>
+                </translations>
+            </expressions>
 	</Entry>
-	<Entry frequency="1660000">pinch<verbs>
-			<translations>
-				<translation register="slang" local="gb">robar<synonyms>steal</synonyms>
+	<Entry frequency="1550000">pinch<verbs>
+			<translations><date>0408</date>
+				<translation register="slang" local="gb">robar<synonyms>steal, nick (Br. / col.loq)</synonyms>
 				</translation>
                                 <translation>pessigar<synonyms>nip</synonyms></translation>
 			</translations>
@@ -4166,7 +4181,9 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
                 <nouns>
                 <translations>
                 <translation gender="m">polsim<engexamp>A pinch of pepper</engexamp><catexamp>Un polsim de pebre</catexamp></translation>
-                <translation gender="m">pessic</translation></translations></nouns>
+                <translation gender="m">pessic</translation>
+            </translations>
+        </nouns>
 	</Entry>
 	<Entry frequency="8880000">pine<nouns>
 			<translations>
@@ -6601,6 +6618,12 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
                 <adjectives>
                 <translations>
                 <translation register="dated">boig</translation></translations></adjectives>
+	</Entry>
+<Entry frequency="1190000">poultice<nouns>
+			<translations><date>0408</date>
+				<translation catagory="medical" gender="m">cataplasma</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="2450000">poultry<nouns>
 			<translations>
@@ -9314,9 +9337,10 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="333000">puncture<nouns>
-			<translations>
-				<translation catagory="transport" gender="f">punxada<synonyms>flat</synonyms></translation>
+        <Entry frequency="8610000">puncture<nouns>
+			<translations><date>0408</date>
+				<translation disambiguate="transport" gender="f">punxada<synonyms>flat</synonyms></translation>
+                                <translation disambiguate="medical" gender="f">punció<engexamp>Lumbar puncture</engexamp><catexamp>Punció lumbar</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
