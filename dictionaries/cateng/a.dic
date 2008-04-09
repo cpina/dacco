@@ -1217,6 +1217,13 @@
 			</translations>
 		</verbs>
 	</Entry>
+         <Entry frequency="98300">acomiadament<nouns>
+			<translations><date>0408</date>
+				<translation gender="m">sacking / dismissal / firing</translation>
+                                <translation gender="m">laying off</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="16100" hasSound="true">acomiadar<verbs conj="regular">
 			<translations><date>0105</date>
 				<translation disambiguate="work">to sack / to get rid of / to fire / to dismiss</translation>
@@ -2355,11 +2362,28 @@
 			</translations>
 		</adjectives>
 	</Entry>
+                <Entry frequency="132000">afirmació<nouns>
+			<translations><date>0408</date>
+				<translation gender="f">affirmation<plural>afirmacions</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="126000" hasSound="true">afirmar<verbs conj="regular">
 			<translations><date>0105</date>
 				<translation>to state / to affirm</translation>
 			</translations>
 		</verbs>
+	</Entry>
+                <Entry frequency="17500">afirmatiu<adjectives>
+			<translations><date>0408</date>
+				<translation>affirmative<fems>afirmativa</fems></translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation sourceplural="afirmativa" gender="f">affirmative</translation>
+                    </translations>
+                </nouns>
 	</Entry>
         <Entry frequency="568">afix<nouns>
 			<translations><date>0406</date>
@@ -2453,9 +2477,17 @@
                 <translations>
                 <translation>African-American / Afro-American<fems>afroamericana</fems><plural>afroamericans</plural></translation></translations></adjectives>
 	</Entry>
-	<Entry frequency="57400" hasSound="true">afrontar<verbs conj="regular">
-			<translations><date>0105</date>
+        <Entry frequency="2420">afront<nouns>
+			<translations><date>0408</date>
+				<translation gender="m">affront / public insult</translation>
+			</translations>
+		</nouns>
+	</Entry>
+	<Entry frequency="357000" hasSound="true">afrontar<verbs conj="regular">
+			<translations><date>0408</date>
 				<translation>to face</translation>
+                                <translation>to face up to / to confront</translation>
+                                <translation>to border on</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3773,9 +3805,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="125000" hasSound="true">allotjament<nouns>
-			<translations><date>0705</date>
-				<translation gender="m">accomodation</translation>
+        <Entry frequency="766000" hasSound="true">allotjament<nouns>
+			<translations><date>0408</date>
+				<translation gender="m">accomodation / lodging(s)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4896,6 +4928,30 @@
 	<Entry frequency="268000">anàlisi<nouns>
 			<translations><date>0105</date>
 				<translation gender="f" collocation="true">analysis</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="189000">analista<nouns>
+			<translations><date>0408</date>
+				<translation catagory="work-job" gender="m / f">analyst</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="615">analista de sistemes<nouns>
+			<translations><date>0408</date>
+				<translation catagory="work-job" gender="m / f">systems analyst</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="12700">analista polític<nouns>
+			<translations><date>0408</date>
+				<translation catagory="work-job" gender="m / f">political analyst</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="906">analista programador<nouns>
+			<translations><date>0408</date>
+				<translation catagory="work-job" gender="m / f">programmer analyst</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -8234,6 +8290,24 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="1690">asserció<nouns>
+			<translations><date>0408</date>
+                                <translation gender="f">assertion<plural>assercions</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>  
+        <Entry frequency="99600">asserir<verbs conj="inceptive">
+			<translations><date>0408</date>
+                                <translation>to assert</translation>
+			</translations>
+		</verbs>
+	</Entry>  
+        <Entry frequency="3060">assertiu<adjectives>
+			<translations><date>0408</date>
+                                <translation>assertive<catexamp>Ser assertiu</catexamp><engexamp>To be assertive / to assert yourself</engexamp><fems>assertiva</fems></translation>
+			</translations>
+		</adjectives>
+	</Entry>  
 	<Entry frequency="99600">assessor<nouns>
 			<translations>
 				<date>0705</date>
@@ -8379,6 +8453,12 @@
 				<translation>to achieve</translation>
 			</translations>
 		</verbs>
+	</Entry>
+          <Entry frequency="7290">assortiment<nouns>
+			<translations><date>0408</date>
+				<translation gender="m">assortment</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="108">assossegament<nouns>
 			<translations><date>0106</date>
@@ -9022,6 +9102,13 @@
 			<translations>
 				<date>0205</date>
 				<translation catagory="education" gender="f">classroom</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="22600">aulari<nouns>
+			<translations><date>0408</date>
+				<translation catagory="education" gender="m">classrooms (escola) / lecture rooms (or theatres) (universitat)</translation>
+                                <translation catagory="education" gender="m">classroom building (or block) / lecture room (or theatre) building (or block)</translation>
 			</translations>
 		</nouns>
 	</Entry>

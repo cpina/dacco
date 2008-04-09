@@ -57,6 +57,12 @@
                 <translations>
                 <translation catagory="work">acomiadar<synonyms>to fire / to give someone their cards</synonyms></translation></translations></verbs>
 	</Entry>
+         <Entry frequency="2300000">sacking<nouns>
+			<translations><date>0408</date>
+				<translation gender="m">acomiadament</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="6030000">sacred<adjectives>
 			<translations>
 				<translation catagory="religious">sagrat</translation>
@@ -2043,6 +2049,18 @@
 			<translations>
 				<translation catagory="politics, work-job" gender="mf">secretari d'estat<plural>Secretaries of State</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="8420000">secrete<verbs>
+			<translations><date>0408</date>
+				<translation>secretar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+          <Entry frequency="7070000">secretion<nouns>
+			<translations><date>0408</date>
+				<translation gender="f">secreció</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5191,16 +5209,22 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="3540000">skate<verbs>
-			<translations>
+	<Entry frequency="2650000">skate<verbs>
+			<translations><date>0408</date>
 				<translation catagory="sports-event-skating">patinar</translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
 				<translation gender="m">patí</translation>
+                            <translation disambiguate="animal-fish" gender="f">rajada</translation>
 			</translations>
 		</nouns>
+                <expressions>get your skates on!
+                <translations>
+                    <translation>Afanya't!</translation>
+                </translations>
+            </expressions>
 	</Entry>
 	<Entry frequency="3540000">skateboard<nouns>
 			<translations>
@@ -5214,16 +5238,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="1150000">skates<nouns>
-			<translations>
-				<translation catagory="sports-event-skating, transport-mode" gender="mpl">patins<catnote>L'expressió anglesa 'get your skates on!' significa 'afanya't!'</catnote>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="3420000">skating<nouns>
-			<translations>
-				<translation catagory="sports-event" gender="m">patinatge</translation>
+	<Entry frequency="2830000">skating<nouns>
+			<translations><date>0408</date>
+				<translation catagory="sports-event" gender="m">patinatge<engexamp>Ice skating</engexamp><catexamp>Patinatge sobre gel</catexamp><engexamp>Figure skating</engexamp><catexamp>Patinatge artístic</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6687,6 +6704,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="819000">snowmobile<nouns>
+			<translations><date>0408</date>
+				<translation catagory="transport-mode" gender="f">moto de neu</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="301000">snow park<nouns>
 			<translations>
 				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">parc de surf<synonyms>snowboard park</synonyms></translation>
@@ -8138,6 +8161,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+            <Entry frequency="2650000">specious<adjectives>
+			<translations><date>0408</date>
+				<translation register="formal">especiós</translation>
+			</translations>
+		</adjectives>
+	</Entry>
           <Entry frequency="12400000">speck<nouns>
 			<translations>
 				<translation gender="f">busca</translation>
@@ -8975,15 +9004,16 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="16500000">spread<verbs>
+	<Entry frequency="26700000">spread<verbs>
 			<past>spread</past>
 			<participle>spread</participle>
-			<translations>
+			<translations><date>0408</date>
 				<translation>difondre / propagar / disseminar<engnote>These verbs mean 'to spread' in the sense 'to spread news / gossip / a virus'</engnote>
 				</translation>
 				<translation>untar<engnote>'Untar' means 'to spread' in the sense 'to spread butter on bread'</engnote>
 				</translation>
-                                <translation>expandir(-se)s</translation>
+                                <translation>expandir(-se)</translation>
+                                <translation>transmetre's<example>Measles is a disease which is &lt;b&gt;spread&lt;/b&gt; very easily.</example></translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -9110,6 +9140,12 @@
                     <translation>esperonar / incitar / estimular</translation>
                 </translations>
                 </phrasalverbs>
+	</Entry>
+         <Entry frequency="9490000">spurious<adjectives>
+			<translations><date>0408</date>
+				<translation>espuri</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="128000">spur-of-the-moment<adjectives>
 			<translations>
@@ -9277,6 +9313,28 @@
 				<translation catagory="sports-event-squash" gender="f">raqueta d'esquaix</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="798000">squat<adjectives>
+			<translations><date>0408</date>
+				<translation>rabassut</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="m">local ocupat(sense el permís del propietari)</translation>
+                    </translations>
+                </nouns>
+                <verbs double="true">
+                    <translations>
+                        <translation>ajupir-se</translation>
+                        <translation>ocupar un local (sense el permís del propietari)</translation>
+                    </translations>
+                </verbs>
+                <phrasalverbs>squat down
+                <translations>
+                    <translation>ajupir-se</translation>
+                </translations>
+            </phrasalverbs>
 	</Entry>
         <Entry frequency="7450000">squeak<verbs>
                             <translations><date>1007</date>
@@ -10525,6 +10583,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="1690000">stoichiometry<nouns>
+        <translations><date>0408</date>
+            <translation catagory="chemistry" gender="f">estequiometria</translation>
+        </translations>
+    </nouns>
+    </Entry>
 	<Entry frequency="66000">stoicism<nouns>
 			<translations>
 				<translation gender="m">estoïcisme</translation>
@@ -12106,6 +12170,12 @@
 				<translation>esquerp / sorrut</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+<Entry frequency="6980000">sully<verbs ie="true">
+			<translations><date>0408</date>
+				<translation register="formal">malmetre / tacar / embrutar / malbaratar<example>The businessman claimed the newspaper had &lt;b&gt;sullied&lt;/b&gt; his good name by printing rumours about him.</example></translation>
+			</translations>
+		</verbs>
 	</Entry>
         <Entry frequency="321000">sulphate<nouns>
 			<translations>
