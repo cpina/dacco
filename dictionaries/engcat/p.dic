@@ -1616,7 +1616,13 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="5230000">passport<nouns>
+	<Entry frequency="817000">Passover<nouns>
+			<translations><date>0408</date>
+				<translation gender="f">Pasqua jueva</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="5230000">passport<nouns>
 			<translations>
 				<translation gender="m">passaport</translation>
 			</translations>
@@ -2728,6 +2734,18 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
           <Entry frequency="30700000">perception<nouns>
 			<translations>
 				<translation gender="f">percepció</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="1490000">percussion<nouns>
+			<translations><date>0408</date>
+				<translation catagory="entertainment-music" gender="f">percussió<engexamp>Percussion instruments</engexamp><catexamp>Instruments de percussió</catexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2530000">percussionist<nouns>
+			<translations><date>0408</date>
+				<translation catagory="entertainment-music" gender="m / f">percussionista</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -9151,7 +9169,7 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 		</nouns>
 	</Entry>
 	<Entry frequency="184000000">pull<verbs>
-			<translations><date>1007</date>
+			<translations><date>0408</date>
 				<translation>estirar</translation>
 				<translation register="slang">lligar<synonyms>score</synonyms>
 				</translation>
@@ -9181,82 +9199,85 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
                     <translation disambiguate="transport">allunyar-se<example>As the car &lt;b&gt;pulled away&lt;/b&gt; from the curb she turned in the back seat and waved out the window.</example></translation>
                     </translations>
                     </phrasalverbs>
-                <phrasalverbs>pull back<translations><translation>retrocedir</translation></translations></phrasalverbs>
-		<phrasalverbs>pull down
+                <phrasalverbs>pull back
+                <translations>
+                    <translation intransitive="true">retrocedir / recular</translation>
+                    <translation transitive="true">fer recular</translation>
+                </translations>
+            </phrasalverbs>
+                <phrasalverbs>pull down
 			<translations>
-				<translation>baixar<example>&lt;b&gt;Pull&lt;/b&gt; the blind &lt;b&gt;down&lt;/b&gt;, it's too sunny in here!</example>
+				<translation transitive="true">baixar<example>&lt;b&gt;Pull&lt;/b&gt; the blind &lt;b&gt;down&lt;/b&gt;, it's too sunny in here!</example>
 				</translation>
-				<translation>enderrocar<example>The old cinema in the high street was &lt;b&gt;pulled down&lt;/b&gt; because the new, out-of-town multiplex had forced it out of business</example>
+				<translation transitive="true">enderrocar<example>The old cinema in the high street was &lt;b&gt;pulled down&lt;/b&gt; because the new, out-of-town multiplex had forced it out of business</example>
 				</translation>
 			</translations>
 		</phrasalverbs>
                 <phrasalverbs>pull for
                 <translations>
-                    <translation local="us">donar suport a / donar ànims a</translation>
+                    <translation transitive="true" local="us">donar suport a / donar ànims a</translation>
                     </translations>
                     </phrasalverbs>
 		<phrasalverbs>pull in
 			<translations>
-				<translation disambiguate="transport">aturar / parar<example>He was feeling tired, so he &lt;b&gt;pulled in&lt;/b&gt; at the nearest service station for a rest</example>
+				<translation intransitive="true" catagory="transport">arrambar un vehicle a la vorera o al voral<example>He was feeling tired, so he &lt;b&gt;pulled in&lt;/b&gt; at the nearest service station for a rest</example>
 				</translation>
-				<translation>atreure<example>The show &lt;b&gt;pulled in&lt;/b&gt; 12 million viewers</example>
+				<translation transitive="true">atreure<example>The show &lt;b&gt;pulled in&lt;/b&gt; 12 million viewers</example>
 				</translation>
-				<translation disambiguate="transport">arribar<example>The train &lt;b&gt;pulled in&lt;/b&gt; just as I reached the platform</example>
+				<translation intransitive="true" catagory="transport">entrar (un vehicle a un lloc)<example>The train &lt;b&gt;pulled in&lt;/b&gt; just as I reached the platform</example>
 				</translation>
-				<translation>recaptar<example>The film &lt;b&gt;pulled in&lt;/b&gt; 5 million dollars at the box office</example>
+				<translation transitive="true">recaptar<example>The film &lt;b&gt;pulled in&lt;/b&gt; 5 million dollars at the box office</example>
 				</translation>
+                                <translation transitive="true">detenir (un sospitós)<example>When the police &lt;b&gt;pulled him in&lt;/b&gt; they found he was carrying drugs and a weapon.</example></translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>pull off
 			<translations>
-				<translation>reeixir / aconseguir / tenir èxit<example>It was a seemingly impossible task, but they &lt;b&gt;pulled it off&lt;/b&gt;through sheer guts and determination</example>
+				<translation transitive="true">aconseguir<example>It was a seemingly impossible task, but they &lt;b&gt;pulled it off&lt;/b&gt;through sheer guts and determination</example>
 				</translation>
-				<translation>treure's<example>He &lt;b&gt;pulled&lt;/b&gt; his t-shirt &lt;b&gt;off&lt;/b&gt; and threw it in the laundry basket</example>
+				<translation transitive="true">treure's (una peça de roba / les sabates..)<example>He &lt;b&gt;pulled&lt;/b&gt; his t-shirt &lt;b&gt;off&lt;/b&gt; and threw it in the laundry basket</example>
 					<example>She &lt;b&gt;pulled&lt;/b&gt; her shoes &lt;b&gt;off&lt;/b&gt; and put her poor, tired feet up on the settee</example>
 				</translation>
 			</translations>
 		</phrasalverbs>
                 <phrasalverbs>pull on
                 <translations>
-                    <translation>posar-se<example>Sven was freezing so he &lt;b&gt;pulled on&lt;/b&gt; his sweater</example></translation>
-                    <translation>fer (or donar) una pipada<example>She &lt;b&gt;pulled on&lt;/b&gt; her cigarette, threw her head back and blew smoke in his face.</example></translation>
+                    <translation transitive="true">posar-se (una peça de roba / les sabates...)<example>Sven was freezing so he &lt;b&gt;pulled on&lt;/b&gt; his sweater</example></translation>
+                    <translation transitive="true">fer (or donar) una pipada<example>She &lt;b&gt;pulled on&lt;/b&gt; her cigarette, threw her head back and blew smoke in his face.</example></translation>
                     </translations>
                     </phrasalverbs>
 		<phrasalverbs>pull out
 			<translations>
-				<translation>abandonar<example>American troops could soon be &lt;b&gt;pulling out&lt;/b&gt; of Afghanistan</example>
-					<example>Radcliffe &lt;b&gt;pulled out&lt;/b&gt; of the race with only two laps to go</example>
-					<engnote>Abandonar can mean to pull out of a sports event or to pull out of a country</engnote>
+				<translation intransitive="true">abandonar<example>Radcliffe &lt;b&gt;pulled out&lt;/b&gt; of the race with only two laps to go</example>
 				</translation>
-				<translation disambiguate="transport">sortir<example>The car &lt;b&gt;pulled out&lt;/b&gt; in front of me without warning</example>
+				<translation intransitive="true" catagory="transport">sortir (un vehicle d'un lloc)<example>The car &lt;b&gt;pulled out&lt;/b&gt; in front of me without warning</example>
 					<example>The train &lt;b&gt;pulled out&lt;/b&gt; of the station</example>
 					<catnote>Si es diu que un cotxe / camió / moto  'pulls out', pot significar que aquest ja està aparcat al carrer i comença a moure's o bé que ja s'està movent pel carrer / autopista i passa a una via més ràpida.</catnote>
 				</translation>
-				<translation>arrencar<example>The dentist &lt;b&gt;pulled&lt;/b&gt; the man's tooth &lt;b&gt;out&lt;/b&gt; under general anaesthetic</example>
+				<translation transitive="true">arrencar / extreure<example>The dentist &lt;b&gt;pulled&lt;/b&gt; the man's tooth &lt;b&gt;out&lt;/b&gt; under general anaesthetic</example>
 				</translation>
-				<translation>retirar<example>Indonesia must &lt;b&gt;pull&lt;/b&gt; their troops &lt;b&gt;out&lt;/b&gt; of East Timor</example>
+				<translation transitive="true">retirar<example>Indonesia must &lt;b&gt;pull&lt;/b&gt; their troops &lt;b&gt;out&lt;/b&gt; of East Timor</example>
 				</translation>
+                                <translation intransitive="true">retirar-se<example>If Barack Obama becomes president, American troops will begin &lt;b&gt;pulling out&lt;/b&gt; of Iraq immediately.</example></translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>pull over
 			<translations>
-				<translation disambiguate="transport">aturar / parar<example>The police car signalled for me to &lt;b&gt;pull over&lt;/b&gt;</example><example>As soon as she heard the siren she &lt;b&gt;pulled over&lt;/b&gt; to let the ambulance past.</example>
+				<translation intransitive="true" catagory="transport">arrambar un vehicle (a la vorera o al voral)<example>The police car signalled for me to &lt;b&gt;pull over&lt;/b&gt;</example><example>As soon as she heard the siren she &lt;b&gt;pulled over&lt;/b&gt; to let the ambulance past.</example>
 				</translation>
+                                <translation transitive="true" catagory="transport">fer aturar / parar<example>The police regularly &lt;b&gt;pulled him over&lt;/b&gt; when he was driving his dad's car.</example></translation>
 			</translations>
 		</phrasalverbs>
-                <phrasalverbs>pull somebody over
-                <translations>
-                    <translation disambiguate="transport">fer aturar / parar<example>The police regularly &lt;b&gt;pulled him over&lt;/b&gt; when he was driving his dad's car.</example></translation>
-                    </translations>
-                    </phrasalverbs>
                     <phrasalverbs>pull through
                     <translations>
-                        <translation>recuperar-se (un malalt)<example>He was badly injured in the blast and the doctors don't expect him to &lt;b&gt;pull through&lt;/b&gt;.</example></translation>
-                        </translations>
+                        <translation intransitive="true">recuperar-se (d'una malaltia)<example>He was badly injured in the blast and the doctors don't expect him to &lt;b&gt;pull through&lt;/b&gt;.</example></translation>
+                       <translation intransitive="true">superar una dificultat, sortir-se'n<example>No matter what difficulties we face, we always manage to &lt;b&gt;pull through&lt;/b&gt;.</example></translation>
+                        <translation transitive="true">ajudar (algú) a superar una dificultat<example>My friend Vanessa has helped &lt;b&gt;pull me through&lt;/b&gt; some tough times.</example></translation>
+                    </translations>
                         </phrasalverbs>
 		<phrasalverbs>pull together
 			<translations>
-                            <translation>treballar junts / treballar fent pinya / treballar en comú / unir forces / col·laborar<example>With limited resources, we all need to &lt;b&gt;pull together&lt;/b&gt; if we want this project to succeed.</example></translation>
+                            <translation intransitive="true">treballar junts / treballar fent pinya / treballar en comú / unir forces / col·laborar<example>With limited resources, we all need to &lt;b&gt;pull together&lt;/b&gt; if we want this project to succeed.</example></translation>
 			</translations>
 		</phrasalverbs>
                  <phrasalverbs>pull (yourself) together
@@ -9267,14 +9288,10 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 		</phrasalverbs>
 		<phrasalverbs>pull up
 			<translations>
-				<translation disambiguate="transport">aturar / parar<example>He &lt;b&gt;pulled up&lt;/b&gt; outside the shop, switched the engine off and went to buy a pint of milk</example></translation>
-			</translations>
+				<translation intransitive="true" catagory="transport">aturar / parar (un vehicle)<example>He &lt;b&gt;pulled up&lt;/b&gt; outside the shop, switched the engine off and went to buy a pint of milk</example></translation>
+                                <translation transitive="true">criticar / reprendre / renyar<example>At school her teachers are always &lt;b&gt;pulling her up&lt;/b&gt; for not wearing the correct uniform.</example></translation>
+                            </translations>
 		</phrasalverbs>
-                <phrasalverbs>pull somebody up
-                <translations>
-                    <translation>reprendre / renyar<example>At school her teachers are always &lt;b&gt;pulling her up&lt;/b&gt; for not wearing the correct uniform.</example></translation>
-                    </translations>
-                        </phrasalverbs>
                         <expressions>pull a fast one on somebody
                         <translations>
                             <translation>estafar / enganyar algú</translation>
@@ -9649,7 +9666,7 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 		</nouns>
 	</Entry>
 	<Entry frequency="227000000">push<verbs>
-			<translations><date>1007</date>
+			<translations><date>0408</date>
 				<translation>empènyer</translation>
 				<translation catagory="computers">prémer (un botó)<synonyms>press</synonyms>
 				</translation>
@@ -9661,20 +9678,73 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 				</translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>push about
+                <translations>
+                    <translation transitive="true">intimidar / donar ordres (a algú) d'una manera amenaçadora<synonyms>push around</synonyms></translation>
+                </translations>
+                </phrasalverbs>
+                <phrasalverbs>push ahead
+                <translations>
+                    <translation intransitive="true">tirar endavant / avançar</translation>
+                </translations>
+                </phrasalverbs>
                 <phrasalverbs>push around
                 <translations>
-                    <translation>donar orders (a algú) brusca i amenaçadorament</translation>
+                    <translation>intimidar / donar ordres (a algú) d'una manera amenaçadora<synonyms>push about</synonyms></translation>
                     </translations>
                     </phrasalverbs>
+                    <phrasalverbs>push aside
+                    <translations>
+                        <translation transitive="true">apartar (una cosa) empenyent</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>push away
+                    <translations>
+                        <translation transitive="true">allunyar (algú o alguna cosa) empenyent</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>push down
+                <translations>
+                    <translation transitive="true">fer abaixar empenyent</translation>
+                    <translation transitive="true">fer caure (algú) amb una empenta</translation>
+                    <translation transitive="true">fa baixar (els preus)</translation>
+                    <translation intransitive="true">empènyer cap avall</translation>
+                </translations>
+                </phrasalverbs>
+                <phrasalverbs>push forward
+                <translations>
+                    <translation intransitive="true">empènyer endavant / tirar endavant fent empentes</translation>
+                    <translation intransitive="true">tirar endavant / avançar</translation>
+                </translations>
+                </phrasalverbs>
 		<phrasalverbs>push in
 			<translations>
-				<translation approval="true" topic="10">colar-se / filtrar-se<engnote>This entry is provisional and pending approval</engnote>
+				<translation intransitive="true">colar-se / passar al davant d'algú (en una cua)
 					<example>Hey! That man just &lt;b&gt;pushed in&lt;/b&gt; right in front of us!</example>
 					<example>Instead of waiting in the queue, Nick &lt;b&gt;pushed in&lt;/b&gt; at the front and got a load of angry stares from the people behind him</example>
-					<catnote>Si algú 'pushes in' vol dir que passen al davant d'una cua sense la permissió de les altres persones que fan cua (aquesta entrada és provisional i espera l'aprovació dels usuaris de Dacco)</catnote>
 				</translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>push off
+                <translations>
+                    <translation register="colloquial" intransitive="true">tocar el dos / anar-se'n</translation>
+                </translations>
+                </phrasalverbs>
+                <phrasalverbs>push on
+                <translations>
+                    <translation intransitive="true">tirar endavant / avançar</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>push over
+            <translations>
+                <translation transitive="true">fer tombar empenyent</translation>
+            </translations>
+            </phrasalverbs>
+            <phrasalverbs>push through
+            <translations>
+                <translation>fer que s'aprovi (una proposta, una llei, etc.)</translation>
+            </translations>
+            </phrasalverbs>
 	</Entry>
 	<Entry frequency="61100">pushchair<nouns>
 			<translations>

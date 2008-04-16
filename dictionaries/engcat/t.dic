@@ -4138,6 +4138,12 @@
                 <translations>
                 <translation catagory="politics">conservador</translation></translations></adjectives>
 	</Entry>
+        <Entry frequency="92200">tosh<nouns>
+                            <translations><date>0408</date>
+				<translation local="gb" register="dated" gender="fpl">bestieses<example>What a load of old &lt;b&gt;tosh&lt;/b&gt;!</example></translation>
+			</translations>
+		</nouns>
+            </Entry>
         <Entry frequency="44000000">toss<verbs>
                             <translations><date>1007</date>
 				<translation>llançar</translation>
@@ -6378,22 +6384,36 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="7570000">twin<nouns>
-			<translations>
+	<Entry frequency="18400000">twin<nouns>
+			<translations><date>0408</date>
 				<translation catagory="family-blood" gender="mf">bessó</translation>
 				<translation catagory="household-room-bedroom" local="us" gender="f">llit individual<synonyms>twin bed</synonyms>
 					<otherlocal>single bed</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="796000">twin bed<nouns>
-			<translations>
-				<translation catagory="household-room-bedroom" local="us" gender="f">llit individual<otherlocal>single bed</otherlocal>
+                <expressions>twin bed
+                <translations>
+                    <translation catagory="household-room-bedroom" local="us" gender="f">llit individual<otherlocal>single bed</otherlocal>
 					<catnote>Els americans tenen el 'twin bed' (llit individual), el 'full bed' (llit individual però de grans dimensions), el 'king bed' (llit de matrimoni) i el 'queen bed' (llit de matrimoni de grans dimensions!). Els britànics tenen el 'single bed' (llit individual) i el 'double bed' (llit de matrimoni).</catnote>
 				</translation>
 			</translations>
-		</nouns>
+                    </expressions>
+                    <expressions>twin brother
+                    <translations>
+                        <translation catagory="family" gender="m">germà bessó</translation>
+                    </translations>
+                </expressions>
+                <expressions>twin sister
+                <translations>
+                    <translation catagory="family" gender="f">germana bessona</translation>
+                </translations>
+            </expressions>
+            <verbs>
+                <translations>
+                    <translation>agermanar<engexamp>Cardiff is twinned with Stuttgart</engexamp><catexamp>Cardiff està agermanada amb Stuttgart</catexamp></translation>
+                </translations>
+            </verbs>
 	</Entry>
           <Entry frequency="1090000">twinge<nouns>
 			<translations><date>0407</date>
@@ -6407,6 +6427,7 @@
 			</translations>
 		</verbs>
 	</Entry>
+
         <Entry frequency="261000">Twin Towers<nouns>
 			<translations>
 				<translation catagory="encyclopaedic" gender="fpl">Torres Bessones</translation>
