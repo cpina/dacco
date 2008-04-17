@@ -48,14 +48,8 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="47600000">pack<verbs>
-			<translations>
-				<translation>fer les maletes</translation>
-                                <translation>atapeir</translation>
-			</translations>
-		</verbs>
-		<nouns>
-			<translations>
+	<Entry frequency="47600000">pack<nouns>
+			<translations><date>0408</date>
 				<translation gender="m">paquet</translation>
 				<translation gender="f">motxilla<engnote>'Motxilla' means 'pack' in the sense 'backpack'</engnote>
 				</translation>
@@ -69,6 +63,24 @@
 				</translation>
 			</translations>
 		</nouns>
+                <verbs>
+			<translations>
+				<translation>fer les maletes</translation>
+                                <translation>atapeir</translation>
+			</translations>
+		</verbs>
+                <phrasalverbs>pack in
+                <translations>
+                    <translation local="gb" transitive="true">deixar de fer (una cosa)<example>If you don't like your job, you should &lt;b&gt;pack it in&lt;/b&gt;.</example><example>If you kids don't &lt;b&gt;pack it in&lt;/b&gt; now I'll smack the pair of you!</example></translation>
+                    <translation local="gb" intransitive="true">avariar-se / deixar de funcionar (un aparell o un vehicle)<example>Damn! The photocopier has &lt;b&gt;packed in&lt;/b&gt; again.</example></translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>pack up
+            <translations>
+                <translation local="gb" intransitive="true">avariar-se / deixar de funcionar (un aparell o un vehicle)<example>I can't do anything right now, the computer's &lt;b&gt;packed up&lt;/b&gt;.</example></translation>
+                <translation intransitive="true">plegar<example>Leave that now. It's time to &lt;b&gt;pack up&lt;/b&gt; and go home.</example></translation>
+            </translations>
+            </phrasalverbs>
 	</Entry>
 	<Entry frequency="72600000">package<nouns>
 			<translations>
@@ -116,12 +128,20 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="7450000">pad<nouns>
-			<translations>
+	<Entry frequency="11600000">pad<nouns>
+			<translations><date>0408</date>
 				<translation gender="m">bloc<engnote>'Bloc' means 'pad' in the sense 'pad of paper'</engnote>
 				</translation>
-			</translations>
+                                <translation catagory="animal" gender="m">tou (d'un animal)</translation>
+                                <translation disambiguate="transport" gender="m"><engexamp>Launch pad</engexamp><catexamp>Plataforma de llançament</catexamp><engexamp>Helipad</engexamp><catexamp>Helisuperfície</catexamp></translation>
+                                <translation><engexamp>Knee pad</engexamp><catexamp>Genollera</catexamp><engexamp>Shin pad</engexamp><catexamp>Canyellera</catexamp><engexamp>Elbow pad</engexamp><catexamp>Colzera</catexamp></translation>
+                            </translations>
 		</nouns>
+                <phrasalverbs>pad out
+                <translations>
+                    <translation transitive="true">fer més llarg (un text) afegint-hi informació poc rellevant</translation>
+                </translations>
+            </phrasalverbs>
 	</Entry>
         <Entry frequency="2160000">padding<nouns>
 			<translations>
@@ -321,13 +341,19 @@
 		</nouns>
                 <verbs>
                 <translations>
-                <translation>aparellar</translation>
+                <translation>aparellar / apariar</translation>
             </translations>
             </verbs>
+            <phrasalverbs>pair off
+        <translations>
+            <translation transitive="true">aparellar / apariar</translation>
+            <translation intransitive="true">aparellar-se / apariar-se</translation>
+        </translations>
+        </phrasalverbs>
             <phrasalverbs>pair up
                 <translations>
-                    <translation>fer parelles</translation>
-                    <translation>fer-se parella</translation>
+                    <translation transitive="true">aparellar / apariar</translation>
+                    <translation intransitive="true">fer-se parella / aparellar-se / apariar-se</translation>
                 </translations>
             </phrasalverbs>
 	</Entry>
@@ -355,7 +381,7 @@
 		</nouns>
 	</Entry>
 	<Entry frequency="136000000">pal<nouns>
-			<translations><date>1007</date>
+			<translations><date>0408</date>
 				<translation register="colloquial" gender="mf">amic<synonyms>mate, friend</synonyms>
 				</translation>
 			</translations>
@@ -367,7 +393,7 @@
                 </phrasalverbs>
                 <phrasalverbs>pal up with
                     <translations>
-                        <translation local="gb">fer amics amb</translation>
+                        <translation local="gb">fer-se amic de</translation>
                     </translations>
                 </phrasalverbs>
 	</Entry>
@@ -521,6 +547,19 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="9150000">pall<nouns>
+			<translations><date>0408</date>
+				<translation gender="m">núvol<engexamp>A pall of smoke</engexamp><catexamp>Un núvol de fum</catexamp></translation>
+                                <translation gender="m">drap mortuori</translation>
+                                <translation gender="m">taüt</translation>
+                            </translations>
+		</nouns>
+                <phrasalverbs>pall on
+                <translations>
+                    <translation>embafar</translation>
+                    </translations>
+                </phrasalverbs>
+	</Entry>
         <Entry frequency="2580000">palliative<adjectives>
 			<translations>
 				<translation catagory="medical">pal·liatiu</translation>
@@ -533,13 +572,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="17800000">palm<nouns>
-			<translations>
+	<Entry frequency="19100000">palm<nouns>
+			<translations><date>0408</date>
                         <translation>
 				<translation disambiguate="body" gender="m">palmell (de la mà)</translation>
                                 <translation disambiguate="body" gender="f">palma</translation>
                                 </translation>
-                                <translation disambiguate="plant-tree" gender="f">palmera / palma</translation>
+                                <translation disambiguate="plant-tree" gender="f">palmera / palma<synonyms>palm tree</synonyms></translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -547,10 +586,15 @@
                 <translation>escamotejar</translation>
                 </translations>
                 </verbs>
-                <phrasalverbs>palm (something) off (on / onto someone)
+                <phrasalverbs>palm off
                 <translations>
-                <translation>encolomar / endossar (alguna cosa) a (algú)</translation>
+                <translation transitive="true">encolomar / endossar (a algú) una cosa</translation>
                 </translations>
+                </phrasalverbs>
+                <phrasalverbs>palm off on
+                <translations>
+                    <translation>endossar a</translation>
+                    </translations>
                 </phrasalverbs>
                 <expressions>have someone in the palm of your hand
                 <translations>
@@ -565,7 +609,7 @@
 	</Entry>
 	<Entry frequency="570000">palm tree<nouns>
 			<translations>
-				<translation catagory="plant-tree" gender="f">palmera</translation>
+				<translation catagory="plant-tree" gender="f">palmera<synonyms>palm</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -609,6 +653,12 @@
                 <translation register="colloquial">criticar</translation>
                 </translations>
                 </verbs>
+                <phrasalverbs>pan out
+                <translations>
+                    <translation register="colloquial" intransitive="true">resultar<example>Nobody knows for sure yet. We'll just have to see how things &lt;b&gt;pan out&lt;/b&gt; over the coming weeks.</example></translation>
+                    <translation register="colloquial" intransitive="true">sortir bé<example>She left for the city full of hope but, sadly, things didn't &lt;b&gt;pan out&lt;/b&gt; and she was left homeless, jobless and penniless.</example></translation>
+                </translations>
+                </phrasalverbs>
                 <expressions>flash in the pan
                 <translations>
                 <translation>foc d'encenalls</translation>
@@ -4817,6 +4867,12 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 				<translation register="colloquial">borratxo</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="2680000">plasterer<nouns>
+			<translations><date>0408</date>
+				<translation catagory="work-job" gender="mf">guixaire</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="13500000">plastic<nouns>
 			<translations>
