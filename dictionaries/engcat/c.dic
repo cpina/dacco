@@ -1615,9 +1615,15 @@
     </Entry>
     <Entry frequency="1360000">cartilage<nouns>
         <translations>
-            <translation gender="m">cartílag</translation>
+            <translation catagory="body" gender="m">cartílag</translation>
         </translations>
     </nouns>
+    </Entry>
+    <Entry frequency="1330000">cartilaginous<adjectives>
+        <translations><date>0408</date>
+            <translation>cartilaginós</translation>
+        </translations>
+    </adjectives>
     </Entry>
     <Entry frequency="155000">cartographer<nouns>
         <translations>
@@ -9000,28 +9006,32 @@
             <translation register="slang" gender="mf">policia</translation>
         </translations>
     </nouns>
-        <exclamations>cop a load of this
+    <exclamations>cop a load of this
         <translations>
-        <translation>mira / escolta això!</translation></translations></exclamations>
-        <phrasalverbs>cop off (with somebody)
+            <translation>mira / escolta això!</translation>
+        </translations>
+    </exclamations>
+    <phrasalverbs>cop off (with somebody)
         <translations>
-        <translation register="slang" local="gb">lligar</translation></translations></phrasalverbs>
-        <phrasalverbs>cop out
+            <translation register="slang" local="gb">lligar</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>cop out
         <translations>
             <translation>evitar una obligació<example>I was going to make the pastry from scratch but I &lt;b&gt;copped out&lt;/b&gt; again and bought some ready frozen.</example></translation>
         </translations>
     </phrasalverbs>
     <expressions>not much cop
-    <translations>
-        <translation local="gb" register="slang">no molt bo<example>Everyone else liked the film but I did&lt;b&gt;n't&lt;/b&gt; think it was &lt;b&gt;much cop&lt;/b&gt;.</example></translation>
-    </translations>
+        <translations>
+            <translation local="gb" register="slang">no molt bo<example>Everyone else liked the film but I did&lt;b&gt;n't&lt;/b&gt; think it was &lt;b&gt;much cop&lt;/b&gt;.</example></translation>
+        </translations>
     </expressions>
     <expressions>cop it
-    <translations>
-        <translation local="gb" register="slang">ser castigat<example>He hasn't cleaned the house at all while his wife's been away. He'll really &lt;b&gt;cop it&lt;/b&gt; when she gets back.</example></translation>
+        <translations>
+            <translation local="gb" register="slang">ser castigat<example>He hasn't cleaned the house at all while his wife's been away. He'll really &lt;b&gt;cop it&lt;/b&gt; when she gets back.</example></translation>
         </translations>
-        </expressions>
-</Entry>
+    </expressions>
+    </Entry>
     <Entry frequency="4700000">cope<verbs>
             <translations><date>1007</date>
             <translation>apanyar-se<synonyms>manage, get by</synonyms></translation>
@@ -9053,7 +9063,8 @@
             </translation>
             <translation sourceplural="coppers">
             <translation disambiguate="financial" local="gb" gender="m">canvi</translation>
-            <translation gender="fpl">monedes (de poc valor)</translation></translation>
+            <translation gender="fpl">monedes (de poc valor)</translation>
+        </translation>
         </translations>
     </nouns>
     </Entry>
@@ -9105,15 +9116,13 @@
     </Entry>
     <Entry frequency="1270000">coral reef<nouns>
         <translations>
-            <translation>
-                <translation gender="m">escull coral·lí</translation>
-                <translation gender="m">escull de corall</translation>
-            </translation>
+                <translation gender="m">escull coral·lí / escull de corall</translation>
         </translations>
     </nouns>
     </Entry>
     <Entry frequency="11200000">cord<nouns>
-        <translations><translation>
+        <translations>
+            <translation>
             <translation gender="m">cable / cordó<engexamp>Umbilical cord</engexamp><catexamp>Cordó umbilical</catexamp></translation>
             <translation gender="f">corda</translation>
         </translation>
@@ -9273,11 +9282,16 @@
         </translations>
     </adverbs>
     </Entry>
-    <Entry frequency="17500000">correctness<nouns>
-        <translations>
-            <translation gender="f">correcció<engexamp>Political correctness</engexamp><catexamp>Correcció política</catexamp></translation>
+    <Entry frequency="863000">correctness<nouns>
+        <translations><date>0408</date>
+            <translation gender="f">correcció</translation>
         </translations>
     </nouns>
+    <expressions>political correctness
+    <translations>
+        <translation gender="f">correcció política</translation>
+        </translations>
+        </expressions>
     </Entry>
     <Entry frequency="12000000">correspond<verbs>
         <translations>
