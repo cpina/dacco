@@ -442,7 +442,7 @@
         <translation gender="f" >fence<catexamp>Tanca publicitària</catexamp>
           <engexamp>Billboard / hoarding (Br.)</engexamp>
         </translation>
-        <translation catagory="sports-event-athletics" gender="f" >hurdle</translation>
+        <translation disambiguate="sports-event-athletics" gender="f" >hurdle</translation>
       </translations>
     </nouns>
   </Entry>
@@ -2101,11 +2101,12 @@
       </translations>
     </verbs>
   </Entry>
-  <Entry frequency="27700" >testimoni<nouns>
-      <translations>
+  <Entry frequency="270000" >testimoni<nouns>
+      <translations><date>0408</date>
         <translation gender="m" >witness</translation>
-        <translation catagory="legal" gender="m" >testimony / evidence<synonyms>testimoniatge</synonyms>
+        <translation disambiguate="legal" gender="m" >testimony / evidence<synonyms>testimoniatge</synonyms>
         </translation>
+        <translation disambiguate="sports-event-athletics" gender="m">baton</translation>
       </translations>
     </nouns>
   </Entry>
@@ -4618,6 +4619,12 @@
             </translations>
             </adjectives>
     </Entry>
+    	<Entry frequency="3940">triatleta<nouns>
+			<translations><date>0408</date>
+				<translation catagory="sports" gender="m / f">triathlete</translation>
+			</translations>
+		</nouns>
+	</Entry>
   <Entry frequency="2000" >triatló<nouns>
       <translations>
         <translation catagory="sports-event" gender="m" >triathlon<plural>triatlons</plural>
@@ -4767,6 +4774,12 @@
       </translations>
     </verbs>
   </Entry>
+  <Entry frequency="397">triplista<nouns>
+			<translations><date>0408</date>
+				<translation catagory="sports-event-athletics" gender="m / f">triple jumper<synonyms>saltador de triple</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
   <Entry frequency="3810">trípode<nouns>
                             <translations><date>1007</date>
 				<translation gender="m">tripod</translation>

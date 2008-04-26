@@ -10,9 +10,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="433000">pacemaker<nouns>
-			<translations>
-				<translation disambiguate="medical-treatment" gender="m">marcapàs</translation>
+	<Entry frequency="5570000">pacemaker<nouns>
+			<translations><date>0408</date>
+				<translation disambiguate="medical-treatment" gender="m">marcapassos</translation>
+                                <translation disambiguate="sports-event-athletics" termcat="true" gender="m">llebre</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2693,6 +2694,18 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 	<Entry frequency="1850000">pentagon<nouns>
 			<translations>
 				<translation catagory="maths" gender="m">pentàgon</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="64200">pentathlete<nouns>
+			<translations><date>0408</date>
+				<translation catagory="sports" gender="mf">pentatleta</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1700000">pentathlon<nouns>
+			<translations><date>0408</date>
+				<translation catagory="sports" gender="m">pentatló</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5765,13 +5778,13 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="7120000">pole<nouns>
-			<translations>
-				<translation gender="m">pal<engnote>'Pal' means 'pole' as in 'a long round stick or rod'</engnote>
+	<Entry frequency="11100000">pole<nouns>
+			<translations><date>0408</date>
+				<translation gender="m">pal</translation>
+                                <translation disambiguate="sports-event-athletics" gender="f">[pole vault] perxa</translation>
+                                <translation disambiguate="sports-event-motorraccing" gender="f">[Formula 1] pole</translation>
+				<translation disambiguate="nationality-europe-poland" capitalized="Pole" gender="mf">polonès<engnote>'Polonès' means 'Pole' as in 'someone from Poland'</engnote>
 				</translation>
-				<translation disambiguate="nationality-europe-poland" gender="mf">polonès<engnote>'Polonès' means 'Pole' as in 'someone from Poland'</engnote>
-				</translation>
-                                <translation disambiguate="sports-event-motorraccing" gender="f">pole</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5808,6 +5821,12 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 	<Entry frequency="164000">pole vault<nouns>
 			<translations>
 				<translation catagory="sports-event-athletics" gender="m">salt de perxa</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="222000">pole vaulter<nouns>
+			<translations><date>0408</date>
+				<translation catagory="sports-event-athletics" gender="mf">perxista / saltador de perxa</translation>
 			</translations>
 		</nouns>
 	</Entry>

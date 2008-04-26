@@ -345,6 +345,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="113">decatleta<nouns>
+			<translations><date>0408</date>
+				<translation catagory="sports-event-athletics" gender="m / f">decathlete</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="78">decatló<nouns>
 			<translations>
 				<translation catagory="sports-event-athletics" gender="m">decathlon<plural>decatlons</plural>
@@ -4795,10 +4801,11 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="6510">doblar<verbs conj="regular">
-			<translations>
+	<Entry frequency="49600">doblar<verbs conj="regular">
+			<translations><date>0408</date>
 				<translation>to dub</translation>
 				<translation>to double</translation>
+                                <translation disambiguate="sports">to lap</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5138,11 +5145,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-        	<Entry frequency="25400">dorsal<adjectives>
-			<translations><date>1007</date>
+        	<Entry frequency="134000">dorsal<adjectives>
+			<translations><date>0408</date>
 				<translation>dorsal</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="m">back plate</translation>
+                        <translation disambiguate="sports" gender="m">number<engnote>Specifically, 'dorsal' is the number an athlete wears on their back during a competition</engnote></translation>
+                    </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="699000">dos<nouns>
 			<translations><date>0505</date>

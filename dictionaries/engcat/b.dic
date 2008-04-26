@@ -899,11 +899,13 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="76400000">bar<nouns>
-			<translations>
+	<Entry frequency="74000000">bar<nouns>
+			<translations><date>0408</date>
 				<translation gender="f">barra</translation>
 				<translation gender="m">bar<engnote>'Bar' means 'bar' in the sense 'drinking establishment'</engnote>
 				</translation>
+                                <translation disambiguate="sports" gender="m">travesser<synonyms>crossbar</synonyms></translation>
+                                <translation disambiguate="sports-event-athletics" gender="m">llistó<synonyms>crossbar</synonyms></translation>
 			</translations>
 		</nouns>
 		<verbs double="true">
@@ -1309,9 +1311,10 @@
                 <translations>
                 <translation catagory="sports">batre</translation></translations></verbs>
 	</Entry>
-         <Entry frequency="48200000">baton<nouns>
-			<translations>
+         <Entry frequency="1720000">baton<nouns>
+			<translations><date>0408</date>
 				<translation disambiguate="entertainment-music" gender="f">batuta</translation>
+                                <translation disambiguate="sports-event-athletics" gender="m">testimoni</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2546,6 +2549,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="35400">biathlete<nouns>
+			<translations><date>0408</date>
+				<translation catagory="sports" gender="mf">biatleta</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="187000">biathlon<nouns>
 			<translations>
 				<translation gender="m">biatló</translation>
@@ -2793,9 +2802,9 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="1650000">billboard<nouns>
-			<translations>
-				<translation gender="f">cartellera</translation>
+	<Entry frequency="2010000">billboard<nouns>
+			<translations><date>0408</date>
+				<translation gender="f">tanca publicitària<synonyms>hoarding</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
