@@ -1709,7 +1709,7 @@
         <Entry frequency="1610000">terribly<adverbs>
 			<translations><date>0108</date>
 				<translation register="dated">terriblement<example>Her mother missed her &lt;b&gt;terribly&lt;/b&gt;.</example><example>Would you mind &lt;b&gt;terribly&lt;/b&gt; if I said I don't want to go?</example></translation>
-                                <translation sourceplural="not terribly">no massa<example>It's &lt;b&gt;not terribly&lt;/b&gt; difficult.</example><example>That's &lt;/b&gt;not terribly&lt;/b&gt; surprising though, is it?</example></translation>
+                                <translation sourceplural="not terribly">no gaire<example>It's &lt;b&gt;not terribly&lt;/b&gt; difficult.</example><example>That's &lt;b&gt;not terribly&lt;/b&gt; surprising though, is it?</example></translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -2991,12 +2991,13 @@
                 </phrasalverbs>
 	</Entry>	
 	<Entry frequency="30000000">ticket<nouns>
-			<translations>
+			<translations><date>0408</date>
 				<translation gender="m">bitllet</translation>
                                 <translation gender="m">tiquet</translation>
 					<translation gender="f">entrada / localitat</translation>
                                         <translation disambiguate="politics" local="us" gender="f">llista (electoral)<example>Arnold Schwarzenegger was elected governor of California on the Republican &lt;b&gt;ticket&lt;/b&gt;.</example><synonyms>slate (Am.)</synonyms></translation>
-			</translations>
+                                        <translation disambiguate="transport" gender="f">multa<example>I got a &lt;b&gt;ticket&lt;/b&gt; for speeding.</example></translation>
+                                    </translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="783000">tickle<verbs>
@@ -4688,6 +4689,12 @@
 	<Entry frequency="1010000">traffic light<nouns>
 			<translations>
 				<translation catagory="transport" gender="m">semàfor</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1610000">traffic ticket<nouns>
+			<translations><date>0408</date>
+				<translation catagory="transport" local="us" gender="f">multa de trànsit<otherlocal>(parking) ticket / (speeding) ticket</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>

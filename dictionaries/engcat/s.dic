@@ -3807,9 +3807,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="6450000">shit<nouns>
-			<translations>
+	<Entry frequency="13000000">shit<nouns>
+			<translations><date>0408</date>
 				<translation gender="f">merda / caca</translation>
+                                <translation gender="m">fill de puta<example>He's an arrogant little &lt;b&gt;shit&lt;/b&gt;</example></translation>
 			</translations>
 		</nouns>
 		<exclamations>
@@ -7642,8 +7643,8 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="94200000">sound<nouns>
-                            <translations><date>1007</date>
+	<Entry frequency="68400000">sound<nouns>
+                            <translations><date>0408</date>
 				<translation gender="m">so</translation>
                                 <translation beforenoun="true">sonar<engexamp>Sound effects</engexamp><catexamp>Efectes sonars</catexamp><engexamp>Soundtrack</engexamp><catexamp>Banda sonora</catexamp></translation>
 			</translations>
@@ -7652,11 +7653,15 @@
 			<translations>
 				<translation>sòlid / ferm</translation>
 				<translation>encertat / sensat<example>A &lt;b&gt;sound&lt;/b&gt; argument</example></translation>
-				<translation>profundament<engexamp>Sound asleep</engexamp><catexamp>Profundament adormit</catexamp></translation>
 				<translation>contundent<engexamp>A sound defeat</engexamp><catexamp>Una derrota contundent</catexamp></translation>
 				<translation>sa<engexamp>Safe and sound</engexamp><catexamp>Sa i estalvi</catexamp></translation>
 			</translations>
 		</adjectives>
+                <adverbs>
+                    <translations>
+                      <translation>profundament<engexamp>Sound asleep</engexamp><catexamp>Profundament adormit</catexamp></translation>
+                  </translations>
+                </adverbs>
                 <verbs>
 			<translations>
 				<translation>sonar</translation>
@@ -8750,15 +8755,25 @@
 			<past>split</past>
 			<participle>split</participle>
 			<gerund>splitting</gerund>
-			<translations>
-				<translation>dividir</translation>
+			<translations><date>0408</date>
+				<translation transitive="true">dividir</translation>
+                                <translation transitive="true">escindir<engnote>'Escindir' means 'split' as in 'different stances on the war split the party'</engnote></translation>
+                                <translation intransitive="true">dividir-se</translation>
+                                <translation intransitive="true">escindir-se</translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
 				<translation gender="f">divisió</translation>
+                                <translation gender="f">escletxa<engnote>'Escletxa' means 'split' in the sense 'tear or crack'</engnote></translation>
+                                <translation gender="f">escissió<engnote>'Escissió' means 'split' in the sense 'there was a split within the Conservative Party'</engnote></translation>
 			</translations>
 		</nouns>
+                <expressions>do the splits (Am.) / do the splits (Br.)
+                <translations>
+                    <translation>eixarrancar(-se) / eixancarrar(-se)</translation>
+                </translations>
+                </expressions>
                 <expressions>split hairs
                     <translations>
                         <translation>subtilitzar / primfilar / filar prim<synonyms>quibble, nitpick</synonyms></translation>
@@ -11344,6 +11359,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="8140000">stuck<adjectives>
+			<translations><date>0408</date>
+                            <translation>encallat / enganxat</translation>
+			</translations>
+		</adjectives>
+                <expressions>get stuck in
+                <translations>
+                    <translation register="colloquial">posar mans a l'obra / començar a fer una cosa amb entusiasme<example>The best way to learn is to just get &lt;b&gt;stuck in&lt;/b&gt; and learn as you go along.</example><example>(A taula) Don't wait for permission. There's plenty for everybody. Get &lt;b&gt;stuck in&lt;/b&gt;!</example></translation>
+                </translations>
+            </expressions>
+	</Entry>        
         <Entry frequency="4160000">stuck-up<adjectives>
 			<translations>
 <translation register="colloquial">altiu<synonyms>snooty</synonyms></translation>
