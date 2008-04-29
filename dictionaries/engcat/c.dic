@@ -1509,12 +1509,6 @@
             <translation>portar</translation>
         </translations>
     </verbs>
-        <adjectives>carry-out
-            <translations>
-                <translation>per emportar-se<catnote>(Per exemple: 'carry-out menu' (menú de menjar per emportar-se), 'carry-out buffet')</catnote>
-                </translation>
-            </translations>
-        </adjectives>
         <phrasalverbs>carry away
             <translations>
                 <translation>emportar-se</translation>
@@ -1522,8 +1516,9 @@
         </phrasalverbs>
         <phrasalverbs>carry on (doing something)
             <translations>
-                <translation>seguir / continuar<example>He &lt;b&gt;carried on&lt;/b&gt; talking even though it was obvious that nobody was listening any more.</example>
+                <translation>seguir / continuar / prosseguir<example>He &lt;b&gt;carried on&lt;/b&gt; talking even though it was obvious that nobody was listening any more.</example>
                 </translation>
+                <translation>comportar-se (sobretot malament)<example>I was in the bar prior to the ruckus and, yes, Stephen was &lt;b&gt;carrying on&lt;/b&gt; like an idiot.</example></translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>carry on (with someone)
@@ -1534,12 +1529,13 @@
         </phrasalverbs>
         <phrasalverbs>carry out
             <translations>
-                <translation>realitzar / portar a terme / dur a terme / executar</translation>
+                <translation>realitzar / portar a terme / complir / dur a terme / executar</translation>
+                <translation>portar fora</translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>carry over
             <translations>
-                <translation>posposar / deixar per un altre dia</translation>
+                <translation>ajornar / diferir</translation>
             </translations>
         </phrasalverbs>
         <expressions>get carried away
@@ -1549,6 +1545,12 @@
                 </translations>
             </expressions>
     </Entry>
+    <Entry frequency="5620000">carry-out<nouns>
+            <translations><date>0408</date>
+                <translation local="us" catagory="food" gender="m">menjar per emportar<catnote>'Carry-out' també es diu a Escòcia</catnote><otherlocal>takeaway</otherlocal></translation>
+            </translations>
+        </nouns>
+        </Entry>
     <Entry frequency="6910000">car seat<nouns>
         <translations>
             <translation gender="f">cadireta de cotxe</translation>
@@ -1710,7 +1712,7 @@
         </expressions>
         <phrasalverbs>cash in
             <translations>
-                <translation catagory="financial">convertir una inversió a diners en metàl·lic</translation>
+                <translation catagory="financial">convertir (una inversió / unes fitxes) a diners en metàl·lic</translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>cash in (on something)
@@ -1720,7 +1722,7 @@
         </phrasalverbs>
         <phrasalverbs>cash out
             <translations>
-                <translation catagory="financial">convertir una inversió a diners en metàl·lic<example>I &lt;b&gt;cashed out&lt;/b&gt; in 2004 and am renting for a couple of years.</example></translation>
+                <translation catagory="financial">convertir (una inversió) a diners en metàl·lic<example>I &lt;b&gt;cashed out&lt;/b&gt; in 2004 and am renting for a couple of years.</example></translation>
             </translations>
         </phrasalverbs>
     </Entry>
@@ -1805,9 +1807,9 @@
                 </translation>
             </translations>
         </verbs>
-        <phrasalverbs>cast (something) aside
+        <phrasalverbs>cast (something or somebody) aside
             <translations>
-                <translation>deixar de banda</translation>
+                <translation>deixar de banda (alguna cosa o algú)</translation>
             </translations>
         </phrasalverbs>
     </Entry>
@@ -1892,7 +1894,7 @@
     </nouns>
         <phrasalverbs>cat around
             <translations>
-                <translation register="colloquial">buscar relacions sexuals d'una manera promíscua</translation>
+                <translation local="us" register="colloquial">buscar relacions sexuals d'una manera promíscua</translation>
             </translations>
         </phrasalverbs>
     </Entry>
@@ -1993,27 +1995,27 @@
             </translation>
         </translations>
     </verbs>
-        <phrasalverbs>catch cold
+        <expressions>catch cold
             <translations>
                 <translation>refredar-se<example>I warned you that you'd &lt;b&gt;catch cold&lt;/b&gt; if you kept going out without a coat on, didn't I?</example>
                     <example>When America sneezes, the whole world &lt;b&gt;catches cold&lt;/b&gt;!</example>
                     <catnote>Si vols dir que una persona triga molt en fer qualsevol cosa, pots utilitzar l'expressió col·loquial 'he / she's too slow to catch cold'</catnote>
                 </translation>
             </translations>
-        </phrasalverbs>
+        </expressions>
         <phrasalverbs>catch up
             <translations>
                 <translation>arribar al mateix nivell</translation>
             </translations>
         </phrasalverbs>
-        <phrasalverbs>catch up on (something)
+        <phrasalverbs>catch up (on something)
             <translations>
-                <translation>posar-se al dia en (alguna cosa)</translation>
+                <translation>posar-se al dia (pel que fa a alguna cosa)</translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>catch up with (someone)
             <translations>
-                <translation>atrapar</translation>
+                <translation>atrapar (algú que va més endavant)</translation>
             </translations>
         </phrasalverbs>
     </Entry>
@@ -3073,8 +3075,7 @@
     </nouns>
         <phrasalverbs>chart out
             <translations>
-                <translation>dibuixar un diagrama o ruta</translation>
-                <translation>planificar</translation>
+                <translation>dibuixar un diagrama o ruta / planificar</translation>
             </translations>
         </phrasalverbs>
     </Entry>
@@ -3119,7 +3120,7 @@
         </nouns>
         <phrasalverbs>chat (someone) up
             <translations>
-                <translation local="gb" register="colloquial">parlar amb algú que hom troba sexualment atractiu<example>The last I saw of Keith he was &lt;b&gt;chatting up&lt;/b&gt; some blonde woman over by the jukebox</example>
+                <translation local="gb" register="colloquial">parlar amb algú que hom troba sexualment atractiu / flirtejar<example>The last I saw of Keith he was &lt;b&gt;chatting up&lt;/b&gt; some blonde woman over by the jukebox</example>
                 </translation>
             </translations>
         </phrasalverbs>
@@ -3196,12 +3197,12 @@
     </verbs>
         <phrasalverbs>cheat on (someone)
             <translations>
-                <translation>tenir relacions sexuals amb una persona que no és el teu xicot o marit / la teva xicota o dona<example>Kelly didn't realise that her boyfriend was &lt;b&gt;cheating on her&lt;/b&gt; behind her back.</example></translation>
+                <translation>ser infidel (a la parella)<example>Kelly didn't realise that her boyfriend was &lt;b&gt;cheating on her&lt;/b&gt; behind her back.</example></translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>cheat (somebody) out of (something)
         <translations>
-            <translation>estafar<example>Her brother &lt;b&gt;cheated her out of&lt;/b&gt; her inheritance.</example></translation>
+            <translation>estafar (alguna cosa) a (algú)<example>Her brother &lt;b&gt;cheated her out of&lt;/b&gt; her inheritance.</example></translation>
         </translations>
         </phrasalverbs>
     </Entry>
@@ -3312,7 +3313,16 @@
                 <translation gender="m">aplaudiment</translation>
             </translations>
         </nouns>
-        <phrasalverbs>cheer up<translations><translation>animar-se<engexamp>To cheer somebody up</engexamp><catexamp>Animar a algú</catexamp></translation></translations></phrasalverbs>
+        <phrasalverbs>cheer up
+        <translations>
+            <translation intransitive="true">alegrar-se</translation>
+      </translations>
+  </phrasalverbs>
+  <phrasalverbs>cheer (someone) up
+  <translations>
+      <translation transitive="true">animar (algú que està moix)</translation>
+        </translations>
+        </phrasalverbs>
     </Entry>
     <Entry frequency="486000">cheerful<adjectives>
         <translations>
@@ -3471,7 +3481,7 @@
     </verbs>
         <phrasalverbs>chew out
             <translations>
-                <translation>renyar fort</translation>
+                <translation local="us" register="colloquial">renyar</translation>
             </translations>
         </phrasalverbs>
         <expressions>chew (someone's) ear off
@@ -3663,7 +3673,7 @@
         </verbs>
         <phrasalverbs>chill out
             <translations>
-                <translation>relaxar</translation>
+                <translation register="colloquial">relaxar</translation>
             </translations>
         </phrasalverbs>
         <expressions>take a chill pill
@@ -3703,7 +3713,8 @@
         </verbs>
         <phrasalverbs>chime in
             <translations>
-                <translation>interrompre el parlar d'altre (amb les teves opinions)<example>Be sure to &lt;b&gt;chime in&lt;/b&gt; if you think you know the answer.</example></translation>
+                <translation>afegir la veu al que diu un altre</translation>
+                <translation>interrompre el parlar d'altre<example>Be sure to &lt;b&gt;chime in&lt;/b&gt; if you think you know the answer.</example></translation>
             </translations>
         </phrasalverbs>
     </Entry>
@@ -3956,7 +3967,9 @@
         </verbs>
         <phrasalverbs>chop down
         <translations>
-        <translation>talar</translation></translations></phrasalverbs>
+        <translation>talar</translation>
+    </translations>
+</phrasalverbs>
     </Entry>
     <Entry frequency="38300">chop chop<exclamations>
         <translations>
@@ -4243,7 +4256,7 @@
     </nouns>
     <phrasalverbs>churn out
     <translations>
-        <translation local="gb">produir ràpidament, potser descuradament<otherlocal>crank out</otherlocal></translation>
+        <translation local="gb">produir ràpidament, sobretot descuradament<otherlocal>crank out</otherlocal></translation>
         </translations>
         </phrasalverbs>
     </Entry>
@@ -4493,8 +4506,9 @@
     </nouns>
         <phrasalverbs>clam up
         <translations>
-        <translation>callar</translation>
-        <translation>negar-se a parlar<catnote>'To clam up' vol dir 'deixar de parlar' o bé perquè estàs nerviós o bé perquè no vols parlar d'un assumpte</catnote></translation></translations></phrasalverbs>
+        <translation register="colloquial">callar / negar-se a parlar<catnote>'To clam up' vol dir 'deixar de parlar' o bé perquè estàs nerviós o bé perquè no vols parlar d'un assumpte</catnote></translation>
+    </translations>
+</phrasalverbs>
         <expressions>happy as a clam
         <translations>
             <translation local="us">més content que un gínjol</translation>
@@ -4672,10 +4686,20 @@
         </adjectives>
         <phrasalverbs>clean out
         <translations>
-        <translation>escurar</translation></translations></phrasalverbs>
+        <translation>netejar (sobretot buidant un espai)</translation>
+    <translation>escurar</translation>
+</translations>
+</phrasalverbs>
+<phrasalverbs>clean (someone) out
+<translations>
+    <translation>deixar escurat</translation>
+        </translations>
+        </phrasalverbs>
         <phrasalverbs>clean up
             <translations>
-                <translation>endreçar<synonyms>tidy up</synonyms></translation>
+                <translation>netejar (del tot)</translation>
+                <translation>rentar-se</translation>
+                <translation register="colloquial">guanyar molts diners en poc temps<example>When his company's stock soared, he &lt;b&gt;cleaned up&lt;/b&gt; with $40 million in option gains.</example></translation>
             </translations>
         </phrasalverbs>
         <expressions>squeaky-clean
@@ -4727,13 +4751,13 @@
     </adjectives>
     <phrasalverbs>clear out
     <translations>
-        <translation>netejar bé llençant coses no volgudes</translation>
-        <translation>buidar</translation>
+        <translation>netejar bé llençant coses no volgudes / buidar<example>When I get a free moment, I'm going to &lt;b&gt;clear out&lt;/b&gt; the garage.</example></translation>
+        <translation register="colloquial">tocar el dos / anar-se'n<example>You've got two days to &lt;b&gt;clear out&lt;/b&gt; or I'm calling the police.</example></translation>
         </translations>
         </phrasalverbs>
         <phrasalverbs>clear up
             <translations>
-                <translation>aclarir<engnote>Aclarir means to clear up in the sense 'to clear up any misunderstanding'</engnote>
+                <translation>aclarir (un afer / una dificultat)<engnote>Aclarir means to clear up in the sense 'to clear up any misunderstanding'</engnote>
                 </translation>
                 <translation>ordenar<engnote>Ordenar means to clear up as in to tidy away</engnote>
                 </translation>
@@ -4995,7 +5019,10 @@
     </verbs>
         <phrasalverbs>clog up
         <translations>
-        <translation>embussar(-se)</translation></translations></phrasalverbs>
+        <translation transitive="true">embussar</translation>
+    <translation intransitive="true">embussar-se</translation>
+</translations>
+</phrasalverbs>
         <nouns>
             <translations>
                 <translation gender="m">soc / esclop</translation>
@@ -6261,6 +6288,7 @@
             </phrasalverbs>
     <phrasalverbs>come after
     <translations>
+        <translation>atacar</translation>
         <translation>perseguir</translation>
     </translations>
     </phrasalverbs>
@@ -6276,7 +6304,7 @@
     </phrasalverbs>
     <phrasalverbs>come down on
     <translations>
-        <translation>renyar fort<catnote>És molt freqüent l'expressió 'to come down on somebody like a ton of bricks'</catnote><example>If you continue to waste time I will certainly &lt;b&gt;come down on&lt;/b&gt; you again.</example></translation>
+        <translation>renyar / criticar fort<catnote>És molt freqüent l'expressió 'to come down on somebody like a ton of bricks'</catnote><example>If you continue to waste time I will certainly &lt;b&gt;come down on&lt;/b&gt; you again.</example></translation>
     </translations>
     </phrasalverbs>
         <phrasalverbs>come from
@@ -6289,9 +6317,14 @@
                 <translation>heretar</translation>
             </translations>
         </phrasalverbs>
-        <phrasalverbs>come out (of the closet)
+        <phrasalverbs>come out
         <translations>
-        <translation>sortir de l'armari</translation>
+            <translation>sortir (cap aquí)</translation>
+            <translation>(publicar-se) sortir</translation>
+            <translation>(resultar) sortir</translation>
+        <translation>sortir de l'armari<catnote>També es diu 'to come out of the closet'</catnote></translation>
+        <translation>(una taca) marxar</translation>
+        <translation>(esdevenir conegut) resultar</translation>
     </translations>
     </phrasalverbs>
     <phrasalverbs>come out with
@@ -6302,22 +6335,24 @@
         </phrasalverbs>
         <phrasalverbs>come round
             <translations>
-                <translation>canviar d'opinió<example>I expect he'll get really angry when you tell him what you're planning but don't worry, he'll &lt;b&gt;come round&lt;/b&gt; eventually</example>
+                <translation>deixar-se convèncer<example>I expect he'll get really angry when you tell him what you're planning but don't worry, he'll &lt;b&gt;come round&lt;/b&gt; eventually</example>
                 </translation>
-                <translation>recuperar la consciència</translation>
-                <translation>venir a casa d'algú per fer-li una visita (curta)<example>Mum, is it OK if Jason &lt;b&gt;comes round&lt;/b&gt; after school?</example>
+                <translation>tornar en si / recuperar la consciència</translation>
+                <translation>passar, visitar informalment<example>Mum, is it OK if Jason &lt;b&gt;comes round&lt;/b&gt; after school?</example>
                     <example>I'll &lt;b&gt;come round&lt;/b&gt; this evening if you like and we can talk some more then</example>
                 </translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>come through
         <translations>
-            <translation>arribar via ones radiofòniques</translation>
-            <translation>complir amb èxit una promesa, un manament, etc.</translation>
+            <translation>arribar (correctament) via ones radiofòniques</translation>
+            <translation>complir amb èxit una promesa, un encàrrec etc.</translation>
         </translations>
         </phrasalverbs>
         <expressions>come again?<translations>
-        <translation register="colloquial">com (dius)?</translation></translations></expressions>
+        <translation register="colloquial">com (dius)?</translation>
+    </translations>
+</expressions>
     </Entry>
     <Entry frequency="1260000">comedian<nouns>
         <translations>
@@ -7803,7 +7838,7 @@
             <phrasalverbs>conk out
             <translations>
                 <translation register="colloquial">parar-se (una màquina)<example>Why do freezers always &lt;b&gt;conk out&lt;/b&gt; over Christmas when they're full and you need them the most??</example><example>I'd only had my watch three days when it &lt;b&gt;conked out&lt;/b&gt; on me.</example></translation>
-                <translation register="colloquial">dormir-se<example>After a hard day's work, Peter sat down in front of the television and &lt;b&gt;conked out&lt;/b&gt; almost immediately.</example></translation>
+                <translation register="colloquial">adormir-se (o perdre consciència)<example>After a hard day's work, Peter sat down in front of the television and &lt;b&gt;conked out&lt;/b&gt; almost immediately.</example></translation>
         </translations>
     </phrasalverbs>
     </Entry>
@@ -9597,7 +9632,9 @@
     </verbs>
         <phrasalverbs>cough up
         <translations>
-        <translation register="slang">afluixar la mosca</translation></translations></phrasalverbs>
+        <translation register="slang">afluixar la mosca / donar diners (o informació) a contracor</translation>
+    </translations>
+</phrasalverbs>
         <nouns>
             <translations>
                 <translation gender="m">tos</translation>
@@ -10034,14 +10071,14 @@
         </verbs>
         <phrasalverbs>crack down on (something / someone)
             <translations>
-                <translation>fer un esforç especial per controlar<example>The Colombian government has pleged to &lt;b&gt;crack down on&lt;/b&gt; drug traffickers in the country</example>
+                <translation>controlar rigorosament / castigar<example>The Colombian government has pleged to &lt;b&gt;crack down on&lt;/b&gt; drug traffickers in the country</example>
                     <example>European governments have expressed their intentions to &lt;b&gt;crack down on&lt;/b&gt; illegal immigration</example>
                 </translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>crack on with (something)
             <translations>
-                <translation register="colloquial">seguir amb (alguna cosa)<example>I'm sorry but I can't talk right now. This report is due in tomorrow and I really must &lt;b&gt;crack on with&lt;/b&gt; it.</example>
+                <translation register="colloquial" local="gb">treballar fort perquè s'acabi una tasca<example>I'm sorry but I can't talk right now. This report is due in tomorrow and I really must &lt;b&gt;crack on with&lt;/b&gt; it.</example>
                 </translation>
             </translations>
         </phrasalverbs>
