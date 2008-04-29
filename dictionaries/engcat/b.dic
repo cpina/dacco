@@ -93,10 +93,11 @@
 		</nouns>
 		<phrasalverbs>back down
 			<translations>
-				<translation>cedir / fer marxa enrere<example>Australia won't &lt;b&gt;back down&lt;/b&gt; on its immigration policy</example>
+				<translation>desdir-se'n / retractar-se'n / abandonar (una reclamació)<example>Australia won't &lt;b&gt;back down&lt;/b&gt; on its immigration policy</example>
 					<example>The Americans believe that if they put pressure on North Korea they will &lt;b&gt;back down&lt;/b&gt; on their plans to build more nuclear missiles</example>
 					<example>The question everybody is asking is 'who will &lt;b&gt;back down&lt;/b&gt; first, the French or the Americans?'</example>
 				</translation>
+                                <translation disambiguate="transport">fer baixar enrere (un vehicle)</translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>back into
@@ -128,13 +129,14 @@
 		</phrasalverbs>
 		<phrasalverbs>back up
 			<translations>
+                            <translation>donar suport a<example>The student insisted that the death penalty was a good way of preventing crime, but nobody took much notice of him as he always failed to provide any real evidence to &lt;b&gt;back&lt;/b&gt; his arguments &lt;b&gt;up&lt;/b&gt;</example>
+					<example>The protestors claimed that the government had acted illegally and should be overthrown. However, their cries fell on deaf ears as they never managed to &lt;b&gt;back&lt;/b&gt; their statements &lt;b&gt;up&lt;/b&gt; with any facts</example>
+				</translation>
 				<translation disambiguate="transport">fer marxa enrere<synonyms>reverse</synonyms>
 				</translation>
+                                <translation>anar enrere</translation>
 				<translation disambiguate="computers">fer una còpia de seguretat<example>If you don't regularly &lt;b&gt;back up&lt;/b&gt; your work files you risk losing them all should your computer get hit by a virus</example>
 					<example>We strongly recommend that you &lt;b&gt;back up&lt;/b&gt; the system every day!</example>
-				</translation>
-				<translation>defensar<example>The student insisted that the death penalty was a good way of preventing crime, but nobody took much notice of him as he always failed to provide any real evidence to &lt;b&gt;back&lt;/b&gt; his arguments &lt;b&gt;up&lt;/b&gt;</example>
-					<example>The protestors claimed that the government had acted illegally and should be overthrown. However, their cries fell on deaf ears as they never managed to &lt;b&gt;back&lt;/b&gt; their statements &lt;b&gt;up&lt;/b&gt; with any facts</example>
 				</translation>
 			</translations>
 		</phrasalverbs>
@@ -454,18 +456,20 @@
 		</verbs>
 		<phrasalverbs>bail (someone) out
 			<translations>
-				<translation>pagar la fiança d'algú i, per extensió, solucionar els problemes d'una persona (generalment prestant-li diners)<example>Steven was thrown in jail for being drunk and disorderly and his grandmother had to pay £20,000 to &lt;b&gt;bail&lt;/b&gt; him &lt;b&gt;out&lt;/b&gt;</example>
-					<example>Paula's parents helped her to pay off her credit card debts but warned her that she needed to start spending responsibly because they wouldn't &lt;b&gt;bail&lt;/b&gt; her &lt;b&gt;out&lt;/b&gt; again</example>
-				</translation>
+				<translation>obtenir la llibertat d'algú sota fiança<example>Steven was thrown in jail for being drunk and disorderly and his grandmother had to pay £20,000 to &lt;b&gt;bail&lt;/b&gt; him &lt;b&gt;out&lt;/b&gt;</example></translation>
+                                <translation>ajudar algú que es troba en una situació difícil (generalment en prestant-li diners)<example>Paula's parents helped her to pay off her credit card debts but warned her that she needed to start spending responsibly because they wouldn't &lt;b&gt;bail&lt;/b&gt; her &lt;b&gt;out&lt;/b&gt; again</example></translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>bail out
 			<translations>
-				<translation disambiguate="transport">abandonar un vehicle en cas d'emergència<example>The plane started to dive so the pilot grabbed a parachute and &lt;b&gt;bailed out&lt;/b&gt;</example>
-					<example>The cargo ship sank off the coast of New Zealand but, luckily, the entire crew managed to &lt;b&gt;bail out&lt;/b&gt; safely</example>
-				</translation>
+				<translation intransitive="true" disambiguate="transport">abandonar un vehicle en cas d'emergència / (avió) saltar d'un avió amb paracaigudes<example>The plane started to dive so the pilot grabbed a parachute and &lt;b&gt;bailed out&lt;/b&gt;.</example><example>The cargo ship sank off the coast of New Zealand but, luckily, the entire crew managed to &lt;b&gt;bail out&lt;/b&gt; safely.</example><example>Two suspects in a traffic stop &lt;b&gt;bailed out&lt;/b&gt; of a moving car, leaving the car to roll into a house.</example></translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>bail out (a ship or boat)
+                <translations>
+                    <translation transitive="true" disambiguate="transport">treure l'aigua d'(una embarcació)</translation>
+                </translations>
+            </phrasalverbs>
 	</Entry>
 	<Entry frequency="36600">bairn<nouns>
 			<translations>
@@ -782,7 +786,7 @@
                 <translation>copejar</translation>
                 <translation register="vulgar">fotre</translation></translations></verbs>
                 <phrasalverbs>bang on about (something)<translations>
-                <translation register="slang" local="gb">parlar contínuament d'alguna cosa d'una manera avorrida</translation></translations><synonyms>harp on about something</synonyms></phrasalverbs>
+                <translation register="slang" local="gb">parlar sense parar d'alguna cosa (d'una manera avorrida)</translation></translations><synonyms>harp on about something</synonyms></phrasalverbs>
 	</Entry>
 	<Entry frequency="5760000">Bangladesh<nouns>
 			<translations>
@@ -1025,7 +1029,7 @@
 		</nouns>
                 <phrasalverbs>barge in
                 <translations>
-                    <translation>entrar matusserament</translation>
+                    <translation>entrar matusserament / ficar-se (entremig) / barrejar-se</translation>
                     </translations>
                     </phrasalverbs>
                 </Entry>
@@ -1425,7 +1429,7 @@
 		</verbs>
                 <phrasalverbs>bawl (someone) out
                 <translations>
-                <translation>renyar molt fort (algú)</translation>
+                <translation>renyar fort (algú)</translation>
                 </translations>
                 </phrasalverbs>
 	</Entry>
@@ -1486,7 +1490,7 @@
                 </phrasalverbs>
                 <phrasalverbs>be in
                 <translations>
-                <translation>ser present (en un despatx, a casa, etc.)<example>&lt;b&gt;Is&lt;/b&gt; John &lt;b&gt;in&lt;/b&gt;? I need to talk to him.</example></translation>
+                <translation>ser present (a casa, a la feina...)<example>&lt;b&gt;Is&lt;/b&gt; John &lt;b&gt;in&lt;/b&gt;? I need to talk to him.</example></translation>
                 </translations>
                 </phrasalverbs>
                 <phrasalverbs>be into (something)
@@ -1496,8 +1500,10 @@
                 </phrasalverbs>
                 <phrasalverbs>be off
                 <translations>
+                    <translation>(un aparell) ser apagat<example>&lt;b&gt;Is&lt;/b&gt; the TV &lt;b&gt;off&lt;/b&gt;? If not, can you switch it off please?</example></translation>
                 <translation>anar-se'n<example>John and Julia &lt;b&gt;are off&lt;/b&gt; now, are you coming to say goodbye?</example><example>Right, that's it, I'&lt;b&gt;m off&lt;/b&gt;. See you later!</example></translation>
-                </translations>
+                <translation>ser passat</translation>
+            </translations>
                 </phrasalverbs>
                 <phrasalverbs>be on to (something)
                 <translations>
@@ -1621,12 +1627,12 @@
 		</verbs>
                 <phrasalverbs>beat down
                 <translations>
-                <translation>abatre</translation>
+                <translation>abatre a cops</translation>
                 </translations>
                 </phrasalverbs>
                 <phrasalverbs>beat out
                 <translations>
-                <translation>apagar (un foc), donant-hi cops</translation>
+                <translation>apagar (un foc) a cops</translation>
                 <translation local="us" register="colloquial">vèncer / superar<example>HTTP and the Internet &lt;b&gt;beat out&lt;/b&gt; all the other protocol-based Bulletin Board Services.</example></translation>
                 </translations>
                 </phrasalverbs>
@@ -1827,9 +1833,10 @@
 		</nouns>
                 <phrasalverbs>beef up
                 <translations>
-                <translation>fer més fort / enfortir<example>US plans to &lt;b&gt;beef up&lt;/b&gt; border control.</example></translation>
-                <translation>fer-se més fort i musculós<example>The way he &lt;b&gt;beefed up&lt;/b&gt; over such a short period of time, he had to suspect that there were steroids in what he was taking.</example></translation>
-                </translations>
+                <translation transitive="true">fer més fort / enfortir<example>US plans to &lt;b&gt;beef up&lt;/b&gt; border control.</example></translation>
+                <translation intransitive="true">guanyar pes fent-se més musculós<example>The way he &lt;b&gt;beefed up&lt;/b&gt; over such a short period of time, he had to suspect that there were steroids in what he was taking.</example></translation>
+                <translation intransitive="true">enfortir-se</translation>
+            </translations>
                 </phrasalverbs>
 	</Entry>
         <Entry frequency="3350000">beehive<nouns>
@@ -2285,7 +2292,7 @@
 		</verbs>
                 <phrasalverbs>bend over
                 <translations>
-                    <translation>inclinar-se</translation>
+                    <translation>encorbar-se (doblegant-se a la cintura)</translation>
                     </translations>
                 </phrasalverbs>
                 <nouns>
@@ -3651,9 +3658,10 @@
 		</verbs>
                 <phrasalverbs>blank out
                 <translations>
-                <translation>sofrir una fallada temporal de memòria<example>The man accused of killing his wife and children said he &lt;b&gt;blanked out&lt;/b&gt; and could not recall anything.</example></translation>
-                <translation>oblidar intencionadament un record trist o dolorós<example>No matter how much she tried to &lt;b&gt;blank out&lt;/b&gt; memories of the accident, she couldn't do it.</example></translation>
-                </translations>
+                <translation intransitive="true">sofrir una fallada temporal de memòria<example>The man accused of killing his wife and children said he &lt;b&gt;blanked out&lt;/b&gt; and could not recall anything.</example></translation>
+                <translation>reprimir un pensament / una memòria traumàtica<example>No matter how much she tried to &lt;b&gt;blank out&lt;/b&gt; memories of the accident, she couldn't do it.</example></translation>
+                <translation>tapar o esborrar seccions d'un text</translation>
+            </translations>
                 </phrasalverbs>
               	</Entry>
 	<Entry frequency="145000">blank check<nouns>
@@ -4105,10 +4113,15 @@
 				</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>blow away
+                <translations>
+                    <translation>ser endut pel vent</translation>
+                </translations>
+                </phrasalverbs>
                 <phrasalverbs>blow (somebody) away
                 <translations>
-                <translation>matar a trets (algú)</translation>
-                <translation>impressionar molt (algú)</translation>
+                <translation register="colloquial">matar a trets (algú)</translation>
+                <translation register="colloquial">impressionar molt (algú)</translation>
                 </translations>
                 </phrasalverbs>
                 <phrasalverbs>blow off
@@ -4118,22 +4131,26 @@
                 </phrasalverbs>
                 <phrasalverbs>blow out
                 <translations>
-                <translation transitive="true">apagar / extingir</translation>
+                <translation transitive="true">bufar (sobre alguna cosa) fins que s'apagui<example>Heather &lt;b&gt;blew out&lt;/b&gt; the candles on her birthday cake and made a wish.</example></translation>
                 <translation intransitive="true">apagar-se<example>The candle &lt;b&gt;blew out&lt;/b&gt; and we were left in darkness.</example></translation>
 <translation register="colloquial" local="gb" transitive="true">no acompanyar una persona / no assistir a un esdeveniment / no fer una acció prevista<otherlocal>blow off</otherlocal></translation>
                 </translations>
                 </phrasalverbs>
                 <phrasalverbs>blow over
                 <translations>
-                <translation>amainar-se</translation>
+                <translation>bolcar-se (a causa del vent o d'un corrent d'aire)</translation>
+                <translation>bolcar el vent (alguna cosa)</translation>
+                <translation>quedar oblidat (un afer)</translation>
                 </translations>
                 </phrasalverbs>
 		<phrasalverbs>blow up
 			<translations>
-				<translation>fer esclatar</translation>
-				<translation register="colloquial">fer una còpia més gran d'(una fotografia, un cartell, etc...)</translation>
-				<translation>inflar<synonyms>inflate</synonyms>
-				</translation>
+                                <translation transitive="true">inflar / omplir d'aire<synonyms>inflate</synonyms></translation>
+                                <translation transitive="true">exagerar l'importància de</translation>
+				<translation intransitive="true">fer esclatar</translation>
+				<translation transitive="true">ampliar (una foto, un cartell...)</translation>
+                                <translation transitive="true">esclatar / fer explosió</translation>
+                                <translation intransitive="true">enfuriasmar-se (perdre els estreps)</translation>
 			</translations>
 		</phrasalverbs>
 	</Entry>
@@ -4220,12 +4237,12 @@
 	</Entry>
         <Entry frequency="3230000">blurt<verbs>
                             <translations><date>0408</date>
-				<translation>deixar anar (una cosa) / dir (una cosa) sense pensar-ho</translation>
+				<translation>deixar anar (una cosa) / dir ràpidament (una cosa) sense pensar-ho</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>blurt (something) out
                 <translations>
-                    <translation>deixar anar (una cosa) / dir (una cosa) sense pensar-ho</translation>
+                    <translation>deixar anar (una cosa) / dir ràpidament (una cosa) sense pensar-ho</translation>
                 </translations>
             </phrasalverbs>
         </Entry>      
@@ -4419,7 +4436,10 @@
 		</nouns>
                 <phrasalverbs>bog down
                 <translations>
-                <translation>empantanegar / dificultar-li la feina (a algú)<engexamp>That debate will bog down the General Assembly for months</engexamp><catexamp>Aquest debat empantanegarà l'Assemblea General durant mesos</catexamp><engexamp>To become (or get) bogged down</engexamp><catexamp>Encallar-se</catexamp></translation></translations></phrasalverbs>
+                <translation transitive="true">empantanegar / dificultar-li la feina (a algú)<engexamp>That debate will bog down the General Assembly for months</engexamp><catexamp>Aquest debat empantanegarà l'Assemblea General durant mesos</catexamp><engexamp>To become (or get) bogged down</engexamp><catexamp>Encallar-se / empantanegar-se</catexamp></translation>
+                <translation intransitive="true">alentir-se / funcionar irregularment<example>The mower was working fine until I hit some heavy grass, then it &lt;b&gt;bogged down&lt;/b&gt;.</example></translation>
+            </translations>
+        </phrasalverbs>
                 <exclamations>bog off
                 <translations>
                 <translation register="slang">fot el camp!<synonyms>sod off</synonyms></translation></translations></exclamations>
@@ -5119,8 +5139,9 @@
 		</adjectives>
                 <phrasalverbs>bottom out
                 <translations>
-                <translation>arribar al punt més baix</translation>
-                </translations>
+                <translation>tocar el punt més baix (o arribar-hi) i començar a pujar, tant psicològicament com físicament</translation>
+                <translation>fer tocar a terra el xassís (p.e. d'un cotxe)</translation>
+            </translations>
                 </phrasalverbs>
 	</Entry>
         <Entry frequency="5400000">boudoir<nouns>
@@ -5608,29 +5629,29 @@
 		</nouns>
 		<phrasalverbs>break down
 			<translations>
-				<translation>espatllar<engnote>'Espatllar' means 'to break down' in the sense 'my car broke down' or 'my fridge-freezer broke down'.</engnote>
+				<translation intransitive="true">deixar de funcionar / avariar-se<engnote>'Avariar-se' means 'to break down' in the sense 'my car broke down' or 'my fridge-freezer broke down'.</engnote>
 					<example>My car &lt;b&gt;broke down&lt;/b&gt; halfway to London</example>
 					<example>Why do freezers only ever &lt;b&gt;break down&lt;/b&gt; just before Christmas when they're full of food??</example>
 				</translation>
-				<translation>fracassar<engnote>'Fracassar' means 'to break down' in the sense of a relationship or discussions</engnote>
+				<translation intransitive="true">fracassar<engnote>'Fracassar' means 'to break down' in the sense of a relationship or discussions</engnote>
 					<example>The couple couldn't pinpoint the exact moment their relationship had &lt;b&gt;broken down&lt;/b&gt;.  They had been drifting apart for years.</example>
 				</translation>
-				<translation>tirar (una porta) a terra<engnote>'Tirar a terra' means 'to break down' in the sense 'to break a door down'</engnote>
-					<example>The police &lt;b&gt;broke down&lt;/b&gt; the door and stormed into the house</example>
-				</translation>
-				<translation>descompondre / desglossar<engnote>'Descompondre' and 'desglossar' mean 'to break down' in the sense 'to break something down into smaller bits'</engnote>
-					<example>When we &lt;b&gt;break down&lt;/b&gt; the figures by region, the effect is even more dramatic</example>
-					<example>To be truly biodegradable, a substance should &lt;b&gt;break down&lt;/b&gt; into carbon dioxide, water and naturally occurring minerals.</example>
-				</translation>
-				<translation>posar-se a plorar<engnote>'Posar-se a plorar' means 'to break down' in the sense 'he broke down and wept'</engnote>
-					<example>John &lt;b&gt;broke down&lt;/b&gt; when they told him his mother had died</example>
-				</translation>
+				<translation intransitive="true">descompondre's<example>To be truly biodegradable, a substance should &lt;b&gt;break down&lt;/b&gt; into carbon dioxide, water and naturally occurring minerals.</example></translation>
+				<translation intransitive="true">posar-se a plorar<engnote>'Posar-se a plorar' means 'to break down' in the sense 'he broke down and wept'</engnote><example>John &lt;b&gt;broke down&lt;/b&gt; when they told him his mother had died</example></translation>
 			</translations>
 		</phrasalverbs>
-		<phrasalverbs>break in
+                <phrasalverbs>break (something) down
+                <translations>
+                    <translation transitive="true">descompondre<example>Lipases help the body &lt;b&gt;break down&lt;/b&gt; fats and oils.</example></translation>
+                    <translation transitive="true">dividir (per analitzar)<example>When we &lt;b&gt;break down&lt;/b&gt; the figures by region, the effect is even more dramatic</example></translation>
+                  <translation transitive="true">destrossar / abatre (tirar a terra el que està dret)<engnote>'Destrossar' and 'abatre' mean 'to break down' in the sense 'to break a door down'</engnote><example>The police &lt;b&gt;broke down&lt;/b&gt; the door and stormed into the house</example></translation>
+                  </translations>
+                  </phrasalverbs>
+                  <phrasalverbs>break in
 			<translations>
-				<translation>forçar (una porta / una finestra) i entrar en un edifici<example>Just after the betting shop closed for the night, John &lt;b&gt;broke in&lt;/b&gt; and stole the day's takings</example>
-				</translation>
+				<translation>entrar amb força (sobretot trencant la porta o una finestra)<example>Just after the betting shop closed for the night, John &lt;b&gt;broke in&lt;/b&gt; and stole the day's takings</example></translation>
+                                <translation catagory="animal">domar (un cavall salvatge)</translation>
+                                <translation>interrompre</translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>break into
@@ -5640,29 +5661,26 @@
 				</translation>
 				<translation disambiguate="computers">entrar en un ordinador / sistema sense permissió<example>He &lt;b&gt;broke into&lt;/b&gt; the bank's computer system</example>
 				</translation>
-				<translation>començar a<catnote>Es pot utilitzar el verb 'to break into' amb un sustantiu, per significar 'començar a fer una cosa de sobte' (per exemple: 'He broke into song', 'He broke into a run', 'He broke into a cold sweat', 'He broke into a big grin')</catnote>
+				<translation>començar a (fer una cosa de sobte)<catnote>Es pot utilitzar el verb 'to break into' amb un sustantiu, per significar 'començar a fer una cosa de sobte' (per exemple: 'He broke into song', 'He broke into a run', 'He broke into a cold sweat', 'He broke into a big grin')</catnote>
 				</translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>break off
 			<translations>
-				<translation>trencar<engnote>'Trencar' means 'to break off' in the sense 'to break a piece off', 'to break off a relationship'</engnote>
-				</translation>
-				<translation>callar<engnote>'Callar' means 'to break off' as in 'he broke off mid sentence'</engnote>
-					<example>He &lt;b&gt;broke off&lt;/b&gt; mid-sentence as if he had just remembered something</example>
-				</translation>
+				<translation>trencar separant-se</translation>
+                                <translation>terminar bruscament (p.e. una relació)</translation>
+				<translation>parar de parlar (o fer alguna cosa) durant un cert temps<example>He &lt;b&gt;broke off&lt;/b&gt; mid-sentence as if he had just remembered something</example><example>We worked hard all morning but at 12 we &lt;b&gt;broke off&lt;/b&gt; for a quick lunch.</example></translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>break open
 			<translations>
-				<translation>obrir<example>Let's &lt;b&gt;break open&lt;/b&gt; a bottle of champagne to celebrate your engagement!</example>
-				</translation>
-			</translations>
-		</phrasalverbs>
+                                <translation>obrir (amb força)<example>The police &lt;b&gt;broke open&lt;/b&gt; the door and stormed into the house.</example><example>Let's &lt;b&gt;break open&lt;/b&gt; a bottle of champagne to celebrate your engagement!</example></translation>
+                                <translation>trencar (un partit, una competició, etc.) (obtenir-hi un avantatge sobtat, important i permanent)<example>Gonzalez &lt;b&gt;broke open&lt;/b&gt; the game with 10 runs in the second inning.</example></translation>
+                        </translations>                            
+                            </phrasalverbs>
 		<phrasalverbs>break out
 			<translations>
-				<translation>esclatar<engnote>'Esclatar' means 'to break out' as in 'war'</engnote>
-					<example>On the day war &lt;b&gt;broke out&lt;/b&gt; towns and villages across Britain were brought to a standstill by anti-war protests</example>
+				<translation>esclatar (una cosa desagradable, com ara una guerra, una plaga, etc.)<example>On the day war &lt;b&gt;broke out&lt;/b&gt; towns and villages across Britain were brought to a standstill by anti-war protests</example>
 				</translation>
 				<translation>produir-se (un incendi / una baralla)<example>120 people were made homeless yesterday when a fire &lt;b&gt;broke out&lt;/b&gt; in their neighborhood</example>
 					<example>Lesley left the party after the second fight of the evening &lt;b&gt;broke out&lt;/b&gt; </example>
@@ -5673,18 +5691,22 @@
 		</phrasalverbs>
 		<phrasalverbs>break up
 			<translations>
-				<translation>dissoldre / dispersar<engnote>'Dissoldre' and 'dispersar' mean to 'break up' in the sense 'to break up a demonstration'</engnote>
-					<example>Hundreds of police armed with water cannons and tear gas finally &lt;b&gt;broke up&lt;/b&gt; the demonstration</example>
+				<translation intransitive="true">separar-se (una parella) / desfer-se (un matrimoni o una relació)<example>Jim and Alice &lt;b&gt;broke up&lt;/b&gt; just three months after getting married</example>
 				</translation>
-                                <translation>desarticular<engnote>'Desarticular' means 'to break up' in the sense 'to break up a criminal gang'.</engnote></translation>
-				<translation>separar-se (una parella); desfer-se (un matrimoni o una relació)<example>Jim and Alice &lt;b&gt;broke up&lt;/b&gt; just three months after getting married</example>
-				</translation>
-				<translation>esmicolar / fragmentar<engnote>'Esmicolar' and 'fragmentar' mean 'to break up' in the sense 'to separate into smaller pieces'</engnote>
-				</translation>
-				<translation>tancar-se per vacances<example>This year our school &lt;b&gt;breaks up&lt;/b&gt; for Christmas on the 21st of December</example>
+                                <translation intransitive="true">acabar-se</translation>
+                                <translation intransitive="true">dispersar-se (una gentada)</translation>
+				<translation intransitive="true" local="gb">tancar-se per vacances<example>This year our school &lt;b&gt;breaks up&lt;/b&gt; for Christmas on the 21st of December</example>
 				</translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>break (something) up
+                <translations>
+                    <translation transitive="true">esmicolar / fragmentar / trencar en trossos</translation>
+                    <translation transitive="true">dissoldre / dispersar<engnote>'Dissoldre' and 'dispersar' mean to 'break up' in the sense 'to break up a demonstration'</engnote><example>Hundreds of police armed with water cannons and tear gas finally &lt;b&gt;broke up&lt;/b&gt; the demonstration</example></translation>
+                    <translation transitive="true">acabar d'una vegada (una lluita)</translation>
+                    <translation transitive="true">desarticular<engnote>'Desarticular' means 'to break up' in the sense 'to break up a criminal gang'.</engnote></translation>
+                </translations>
+                </phrasalverbs>
                 <phrasalverbs>break up with (someone)
                 <translations>
                 <translation>separar-se d'(algú)</translation>
@@ -6038,12 +6060,59 @@
                                 <translation>aportar</translation>
 			</translations>
 		</verbs>
-                <phrasalverbs>bring back<translations><translation>tornar / restablir / portar de tornada</translation><translation>fer recordar</translation></translations></phrasalverbs>
-                <phrasalverbs>bring forward<translations><translation>anticipar</translation></translations></phrasalverbs>
-                <phrasalverbs>bring in<translations><translation>fer entrar / fer passar<example>Please &lt;b&gt;bring in&lt;/b&gt; the next candidate.</example></translation>
-                <translation>guanyar</translation></translations></phrasalverbs>
-                <phrasalverbs>bring round<translations><translation>reanimar</translation><translation>persuadir / convèncer</translation></translations></phrasalverbs>
-                <phrasalverbs>bring up<translations><translation>plantejar</translation></translations></phrasalverbs>
+                <phrasalverbs>bring back
+                <translations>
+                <translation>portar de tornada / tornar (algú o alguna cosa) cap aquí</translation>
+                <translation>restaurar<example>It is unlikely France will ever &lt;b&gt;bring back&lt;/b&gt; the monarchy.</example></translation>
+                <translation>fer recordar</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>bring forward
+                    <translations>
+                        <translation>presentar / produir</translation>
+                        <translation>avançar (una cita)</translation>
+                        <translation>(comptabilitat) portar un nombre d'una pàgina o d'una columna a una altra</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>bring in
+                    <translations>
+                        <translation transitive="true">introduir</translation>
+                        <translation transitive="true">rendir (produir un benefici)</translation>
+                        <translation transitive="true">fer venir (per ocupar un càrrec)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>bring (someone) in
+                <translations>
+                    <translation>convidar algú a participar (en una discussió)</translation>
+                </translations>
+                </phrasalverbs>
+                <phrasalverbs>bring (someone or something) over
+            <translations>
+                <translation>portar cap aquí (o allí)<example>I'll &lt;b&gt;bring&lt;/b&gt; it &lt;b&gt;over&lt;/b&gt; this evening.</example><example>If you're busy, just &lt;b&gt;bring&lt;/b&gt; the kids &lt;b&gt;over&lt;/b&gt; and I'll look after them.</example></translation>
+                </translations>
+                </phrasalverbs>
+                <phrasalverbs>bring (someone) round
+                <translations>
+                    <translation>reanimar algú (després d'un desmai)</translation>
+                    <translation>persuadir / convèncer algú</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>bring (someone or something) round
+            <translations>
+                <translation>portar cap aquí (o allí)<example>I'll &lt;b&gt;bring&lt;/b&gt; the CD you wanted &lt;b&gt;round&lt;/b&gt; this evening.</example><example>If you're busy, just &lt;b&gt;bring&lt;/b&gt; the kids &lt;b&gt;round&lt;/b&gt; and I'll look after them.</example></translation>
+                </translations>
+                </phrasalverbs>
+                <phrasalverbs>bring (someone) up
+                <translations>
+                    <translation transitive="true">criar (fills)<example>She might be their birth mother but she isn't the one who &lt;b&gt;brought&lt;/b&gt; them &lt;b&gt;up&lt;/b&gt;.</example></translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>bring up
+                <translations>
+                    <translation transitive="true">pujar (algú o alguna cosa) cap aquí</translation>
+                    <translation transitive="true">introduir (un tema)</translation>
+                </translations>
+            </phrasalverbs>
 	</Entry>
 	<Entry frequency="974000">brink<nouns>
 			<translations>
@@ -6480,7 +6549,7 @@
                         </phrasalverbs>
                         <phrasalverbs>buckle up
                         <translations>
-                        <translation local="us">cordar-se el cinturó de seguretat</translation>
+                        <translation local="us">fer servir el cinturó de seguretat</translation>
                         </translations>
                         </phrasalverbs>
 	</Entry>
@@ -6604,7 +6673,7 @@
 		</verbs>
                 <phrasalverbs>bugger off
                 <translations>
-                <translation>fotre el camp<example>I was going to ask him a question but he appears to have &lt;b&gt;buggered off&lt;/b&gt;.</example></translation>
+                <translation register="vulgar" local="gb">fotre el camp<example>I was going to ask him a question but he appears to have &lt;b&gt;buggered off&lt;/b&gt;.</example></translation>
                 </translations>
                 </phrasalverbs>
 		<nouns>
@@ -7176,7 +7245,10 @@
 		</verbs>
                 <phrasalverbs>burst out
                 <translations>
-                <translation>esclafir<engexamp>To burst out laughing</engexamp><catexamp>Esclafir de riure</catexamp></translation></translations></phrasalverbs>
+                <translation>esclafir (o esclatar)<engexamp>To burst out laughing</engexamp><catexamp>Esclafir (o esclatar) a riure</catexamp></translation>
+                <translation>sortir d'un cop</translation>
+            </translations>
+        </phrasalverbs>
                 <nouns>
                 <translations>
                 <translation gender="f">ràfega</translation></translations></nouns>
@@ -7373,13 +7445,13 @@
 		</nouns>
 		<phrasalverbs>butt in
 		<translations>
-				<translation>interrompre una conversa<synonyms>interrupt</synonyms>
+				<translation>interrompre (maleducadament)<synonyms>interrupt</synonyms>
 				</translation>
 			</translations>
 		</phrasalverbs>
                 <phrasalverbs>butt out
                 <translations>
-                <translation>deixar (algú) en pau / callar-se<example>Will you &lt;b&gt;butt out&lt;/b&gt;? This has got nothing to do with you!</example></translation>
+                <translation register="colloquial">abstenir-se de participar, sobretot en una conversa<example>Will you &lt;b&gt;butt out&lt;/b&gt;? This has got nothing to do with you!</example></translation>
                 </translations>
                 </phrasalverbs>
 	</Entry>
@@ -7428,15 +7500,17 @@
 				</translation>
 			</translations>
 		</verbs>
-                <phrasalverbs>buy into
+            <phrasalverbs>buy into
                 <translations>
                 <translation>participar invertint diners a / invertir a / adquirir un interès en</translation>
                 <translation>creure<catnote>(Generalment negatiu)</catnote><example>I never really &lt;b&gt;bought into&lt;/b&gt; that whole 'God is on our side' way of thinking.</example></translation>
                 </translations>
-                </phrasalverbs>
-                <phrasalverbs>buy up
+            </phrasalverbs>
+            <phrasalverbs>buy up
                 <translations>
-                <translation>acaparar</translation></translations></phrasalverbs>
+                <translation>acaparar / comprar (tot el que hi ha disponible)</translation>
+                </translations>
+            </phrasalverbs>
 	</Entry>
 	<Entry frequency="10900000">buyer<nouns>
 			<translations>
