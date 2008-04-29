@@ -644,27 +644,29 @@
 		</verbs>
 		<phrasalverbs>deal in
 <translations>
-				<translation>mercadejar / vendre i comprar<example>Our company &lt;b&gt;deals in&lt;/b&gt; industrial machinery</example>
+				<translation>tractar (o comerciar) en<example>Our company &lt;b&gt;deals in&lt;/b&gt; industrial machinery</example>
 				</translation>
+                                <translation>incloure (algú) en un joc de cartes</translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>deal out
 <translations>
-				<translation>distribuir / repartir</translation>
+				<translation>distribuir</translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>deal with (somebody)
 <translations>
-				<translation>tractar amb (algú)</translation>
+                                <translation>fer negocis amb / tenir tractes amb</translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>deal with (something)
 <translations>
-				<translation>afrontar (alguna cosa)<engnote>&apos;Afrontar&apos; means &apos;to deal with something negative such as an illness or a problem&apos;</engnote>
+				<translation>afrontar (alguna cosa)<engnote>'Afrontar' means deal with something negative such as an illness or a problem'</engnote>
 				</translation>
-				<translation>ocupar-se d&apos;(alguna cosa)<engnote>&apos;Ocupar-se de&apos; means &apos;to deal with&apos; in the sense &apos;to attend to something&apos; (e.g. &apos;Have you dealt with those outstanding queries yet?&apos;)</engnote>
+                                <translation>tractar (manejar assumptes a resoldre / relacionar-se amb algú)</translation>
+				<translation>ocupar-se d'(alguna cosa)<engnote>'Ocupar-se de' means 'deal with' in the sense 'attend to something' (e.g. 'Have you dealt with those outstanding queries yet?')</engnote>
 				</translation>
-				<translation>tractar de<engnote>&apos;Tractar de&apos; means &apos;to deal with&apos; in the sense &apos;to cover / tackle&apos; (e.g. &apos;her books deal with ideas such as reincarnation and the afterlife&apos;)</engnote>
+				<translation>tractar de<engnote>'Deal with' in the sense 'cover / tackle' (e.g. 'her books deal with ideas such as reincarnation and the afterlife')</engnote>
 				</translation>
 			</translations>
 		</phrasalverbs>
@@ -1906,8 +1908,9 @@
 		<phrasalverbs>depend on
 <translations>
 				<translation>refiar-se (de) / confiar en<engexamp>You can always &lt;b&gt;depend on&lt;/b&gt; a friend</engexamp>
-					<catexamp>D&apos;un amic sempre te&apos;n pots refiar</catexamp>
+					<catexamp>D'un amic sempre te'n pots refiar</catexamp>
 				</translation>
+                                <translation>dependre de</translation>
 			</translations>
 		</phrasalverbs>
 	</Entry>
@@ -3111,7 +3114,8 @@
                 </phrasalverbs>
 		<phrasalverbs>dig up
 			<translations>
-				<translation>desenterrar</translation>
+				<translation>desenterrar / arrencar</translation>
+                                <translation register="colloquial">trobar</translation>
 			</translations>
 		</phrasalverbs>
                 <expressions>dig your own grave
@@ -3954,7 +3958,7 @@
 		</nouns>
                 <phrasalverbs>dish out
                 <translations>
-                <translation>repartir / distribuir</translation>
+                <translation register="colloquial">repartir / donar (lliurement, sense pensar-hi gaire)</translation>
                 <translation>servir (un àpat, menjar)</translation>
                 </translations>
                 </phrasalverbs>
@@ -4708,7 +4712,7 @@
 		</verbs>
                 <phrasalverbs>divide up
                 <translations>
-                    <translation>dividir / repartir</translation>
+                    <translation>dividir i repartir</translation>
                     </translations>
                     </phrasalverbs>
                 <nouns>
@@ -4793,7 +4797,7 @@
     </nouns>
     <phrasalverbs>divvy up
     <translations>
-        <translation catagory="colloquial">dividir / repartir</translation>
+        <translation catagory="colloquial">dividir i repartir</translation>
     </translations>
     </phrasalverbs>
     </Entry>
@@ -4846,7 +4850,7 @@
                     </phrasalverbs>
                 <phrasalverbs>do away with (something)
                 <translations>
-                    <translation register="colloquial">suprimir / abolir</translation>
+                    <translation register="colloquial">suprimir / eliminar / abolir</translation>
                 </translations>
                 </phrasalverbs>
 		<phrasalverbs>do (somebody) in<translations>
@@ -4858,7 +4862,11 @@
 		</phrasalverbs>
                 <phrasalverbs>do (something) up
                 <translations>
-                <translation local="gb">rehabilitar / renovar</translation></translations></phrasalverbs>
+                <translation local="gb">rehabilitar / renovar</translation>
+                <translation disambiguate="clothes">cordar-se</translation>
+            <translation>embolcar</translation>
+        </translations>
+    </phrasalverbs>
 	</Entry>
         <Entry frequency="3270000">docile<adjectives>
 			<translations>
@@ -5002,7 +5010,7 @@
 			</translations>
 		</nouns>
 		<phrasalverbs>dole out<translations>
-				<translation>repartir</translation>
+				<translation>distribuir (en quantitats petites)</translation>
 			</translations>
 		</phrasalverbs>
 	</Entry>
@@ -5685,9 +5693,12 @@
                                 <translation>traçar</translation>
 			</translations>
 		</verbs>
-                <phrasalverbs>draw up (plans)
+                <phrasalverbs>draw up
                 <translations>
-                <translation>redactar</translation></translations></phrasalverbs>
+                <translation transitive="true">redactar</translation>
+            <translation intransitive="true">parar-se</translation>
+        </translations>
+    </phrasalverbs>
                 <nouns>
                 <translations>
                 <translation gender="m">sorteig<engnote>'Sorteig' means 'draw' as in 'lottery draw'</engnote></translation></translations></nouns>
@@ -5792,7 +5803,10 @@
 		</verbs>
                 <phrasalverbs>dress up
                 <translations>
-                <translation>disfressar-se<engnote>'Disfressar-se' means 'to dress up' in the sense 'to dress up as someone / something'.</engnote></translation></translations></phrasalverbs>
+                <translation>disfressar-se<engnote>'Disfressar-se' means 'to dress up' in the sense 'to dress up as someone / something'.</engnote></translation>
+            <translation>mudar-se<engnote>'Mudar-se' means 'dress up' in the sense 'to put on your best clothes'</engnote></translation>
+        </translations>
+    </phrasalverbs>
 	</Entry>
 	<Entry frequency="155">dressage<nouns>
 			<translations>
