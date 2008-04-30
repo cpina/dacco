@@ -4856,7 +4856,7 @@
 		<phrasalverbs>do (somebody) in<translations>
 				<translation>matar / assassinar</translation>
 				<translation>arruïnar / destrossar</translation>
-				<translation register="colloquial">esgotar del tot / fer molt cansat<example>Can I leave the washing up until this afternoon? I&apos;ve just finished my morning run and I&apos;m absolutely &lt;b&gt;done in&lt;/b&gt; at the moment.</example>
+				<translation register="colloquial">esgotar del tot / fer cansar<example>Can I leave the washing up until this afternoon? I&apos;ve just finished my morning run and I&apos;m absolutely &lt;b&gt;done in&lt;/b&gt; at the moment.</example>
 				</translation>
 			</translations>
 		</phrasalverbs>
@@ -6047,16 +6047,25 @@
 		</verbs>
 		<phrasalverbs>drop in on (someone)
 <translations>
-				<translation>visitar (breument) a algú<synonyms>visit</synonyms>
+				<translation>visitar algú informalment<synonyms>visit</synonyms>
 				</translation>
 			</translations>
 		</phrasalverbs>
-                <phrasalverbs>drop off (to sleep)
+                <phrasalverbs>drop off
                 <translations>
-                <translation>adormir-se</translation></translations></phrasalverbs>
+                <translation intransitive="true">adormir-se<example>I've put the baby down and hopefully he'll &lt;b&gt;drop off&lt;/b&gt; in a minute or two.</example></translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>drop (something or someone) off
+            <translations>
+            <translation>portar i deixar pel camí (alguna cosa o algú)</translation>
+        </translations>
+    </phrasalverbs>
 		<phrasalverbs>drop out
 <translations>
-				<translation>abandonar els estudis / una carrera</translation>
+				<translation disambiguate="education">abandonar els estudis</translation>
+                                <translation disambiguate="sports">abandonar (una carrera)</translation>
+                                <translation>deixar de participar</translation>
 			</translations>
 		</phrasalverbs>
 	</Entry>
@@ -6227,10 +6236,15 @@
 		</verbs>
                 <phrasalverbs>dry out
                 <translations>
-                    <translation>assecar-se / eixugar-se</translation>
-                    <translation>seguir un tractament per alcoholisme</translation>
+                    <translation intransitive="true">assecar-se / eixugar-se</translation>
+                    <translation intransitive="true">seguir un tractament per alcoholisme</translation>
                 </translations>
                     </phrasalverbs>
+                    <phrasalverbs>dry (something) out
+                    <translations>
+                                            <translation transitive="true">eixugar</translation>
+                                        </translations>
+                                    </phrasalverbs>
                     <phrasalverbs>dry up
                     <translations>
                         <translation>assecar-se</translation>
@@ -6684,7 +6698,7 @@
 		</verbs>
                 <phrasalverbs>dwell on
                 <translations>
-                    <translation>pensar en una cosa o parlar-ne excessivament<example>She was aware of the risk but didn't want to &lt;b&gt;dwell on&lt;/b&gt; it.</example><example>The best advice she gave me was 'learn from past mistakes but don't &lt;b&gt;dwell on&lt;/b&gt; them.</example></translation>
+                    <translation>pensar massa (en una cosa) o parlar-ne excessivament<example>She was aware of the risk but didn't want to &lt;b&gt;dwell on&lt;/b&gt; it.</example><example>The best advice she gave me was 'learn from past mistakes but don't &lt;b&gt;dwell on&lt;/b&gt; them.</example></translation>
                 </translations>
                 </phrasalverbs>
                 <phrasalverbs>dwell upon
