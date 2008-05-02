@@ -2375,6 +2375,12 @@
         </translations>
     </nouns>
     </Entry>
+     <Entry frequency="5630000">celluloid<nouns>
+			<translations><date>0408</date>
+				<translation catagory="chemistry" gender="m">cel·luloide</translation>
+			</translations>
+		</nouns>
+	</Entry>
     <Entry frequency="3860000">cellulose<nouns>
         <translations>
             <translation catagory="biology" gender="f">cel·lulosa</translation>
@@ -3230,18 +3236,31 @@
         </translations>
     </nouns>
     </Entry>
-    <Entry frequency="184000000">check<verbs>
-        <translations>
-            <translation>provar / comprovar / verificar</translation>
-        </translations>
-    </verbs>
-        <nouns>
-            <translations>
+    <Entry frequency="106000000">check<nouns>
+            <translations><date>0508</date>
                 <translation disambiguate="financial" local="us" gender="m">xec<otherlocal>cheque</otherlocal>
                 </translation>
                 <translation gender="m">escac<engnote>'Escac' means 'check' in the chess sense</engnote></translation>
             </translations>
         </nouns>
+    <verbs>
+            <translations>
+                <translation>provar / comprovar / verificar</translation>
+            </translations>
+        </verbs>
+        <phrasalverbs>check in
+            <translations>
+                <translation>facturar (l'equipatge / les maletes)</translation>
+                <translation>(hotel) fer l'entrada</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>check out
+            <translations>
+                <translation termcat="true">(hotel) fer la sortida</translation>
+                <translation transitive="true">treure llibres d'una biblioteca</translation>
+                <translation transitive="true" register="colloquial">donar un cop d'ull a</translation>
+            </translations>
+        </phrasalverbs>
     </Entry>
     <Entry frequency="129000">check book<nouns>
         <translations>
@@ -3267,7 +3286,7 @@
     <Entry frequency="6490000">check-in<nouns>
         <translations><date>0408</date>
             <translation disambiguate="transport" termcat="true" gender="f">(aeroport) facturació<engexamp>Check-in desk</engexamp><catexamp>Taulell de facturació</catexamp></translation>
-            <translation termcat="true" gender="f">(hotel) entrada<engnote>For the verb 'check in', see the entry 'check'</engnote></translation>
+            <translation termcat="true" gender="f">(hotel) entrada<engnote>For the phrasal verb 'check in', see the entry 'check'</engnote></translation>
         </translations>
     </nouns>
     </Entry>
@@ -3281,6 +3300,12 @@
     <Entry frequency="2100000">checkmate<nouns>
         <translations>
             <translation gender="m">escac i mat</translation>
+        </translations>
+    </nouns>
+    </Entry>
+     <Entry frequency="5000000">check out<nouns>
+        <translations><date>0508</date>
+            <translation termcat="true" gender="f">(hotel) sortida<engnote>For the phrasal verb 'check out', see the entry 'check'</engnote></translation>
         </translations>
     </nouns>
     </Entry>

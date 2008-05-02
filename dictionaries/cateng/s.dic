@@ -662,7 +662,25 @@
 		</nouns>
 	</Entry>
 <Entry frequency="0">santvicenter<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Sant Vicent del Raspeig</translation></translations></nouns><adjectives><translations><translation>relating to Sant Vicent del Raspeig or its people<fems>santvicentera</fems></translation></translations></adjectives></Entry>
-        <Entry frequency="17000">saqueig<nouns>
+          <Entry frequency="165">saponificable<adjectives>
+			<translations><date>0408</date>
+				<translation catagory="chemistry">saponifiable</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="569">saponificació<nouns>
+			<translations><date>0408</date>
+				<translation catagory="chemistry" gender="f">saponification</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="84">saponificar<verbs conj="CtoQU">
+			<translations><date>0408</date>
+				<translation catagory="chemistry">to saponify</translation>
+			</translations>
+		</verbs>
+	</Entry>
+<Entry frequency="17000">saqueig<nouns>
 			<translations><date>0506</date>
 				<translation gender="m">looting</translation>
 			</translations>
@@ -3444,22 +3462,51 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="77100">sortida<nouns>
-			<translations>
-				<translation gender="f">exit</translation>
+	<Entry frequency="2090000">sortida<nouns>
+                            <translations><date>0508</date>
+				<translation gender="f">exit / way out</translation>
+                                <translation disambiguate="transport" gender="f">departure</translation>
+                                <translation gender="f">outing / trip<catexamp>Sortida de camp</catexamp><engexamp>Field trip</engexamp></translation>
+                                <translation gender="f">solution</translation>
+                                <translation disambiguate="computers" gender="f">output</translation>
 			</translations>
 		</nouns>
+                <expressions>punt de sortida
+                    <translations>
+                        <translation gender="m">starting point</translation>
+                        <translation disambiguate="computers" gender="m">return point</translation>
+                    </translations>
+                </expressions>
                 <expressions>tenir sortida
                 <translations>
                 <translation>to sell well<example>S'ha previst que en surtin les versions castellana, anglesa i francesa, però dependrà "de &lt;b&gt;la sortida que tingui&lt;/b&gt; la catalana".</example></translation>
                 </translations>
                 </expressions>
+                <expressions>sortida del sol
+                    <translations>
+                        <translation gender="f">sunrise</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-	<Entry frequency="89300">sortir<verbs conj="irregular3">
-			<translations>
+	<Entry frequency="411000">sortir<verbs conj="irregular3">
+                            <translations><date>0508</date>
 				<translation>to go out / to leave</translation>
+                                <translation>to come out</translation>
+                                <translation>(tooth) to come through</translation>
+                                <translation>to come out with</translation>
+                                <translation>to turn out</translation>
 			</translations>
 		</verbs>
+                <expressions>sortir a la llum
+                    <translations>
+                        <translation>to come to light</translation>
+                    </translations>
+                </expressions>
+                <expressions>sortir de l'armari
+                    <translations>
+                        <translation>to come out of the closet</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="40200">sortosament<adverbs>
 			<translations><date>0107</date>
