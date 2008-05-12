@@ -100,31 +100,20 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
-		<phrasalverbs>back (someone) into a corner
+		<phrasalverbs>back up
 			<translations>
-				<translation>arraconar<example>The three security guards &lt;b&gt;backed&lt;/b&gt; Sean &lt;b&gt;into a corner&lt;/b&gt; and started to beat him up</example>
-					<example>Firefighters returned to work after their month-long strike because they said they had been &lt;b&gt;backed into a corner&lt;/b&gt; by the unions and had no other choice</example>
+                            <translation transitive="true">donar suport a<example>The student insisted that the death penalty was a good way of preventing crime, but nobody took much notice of him as he always failed to provide any real evidence to &lt;b&gt;back&lt;/b&gt; his arguments &lt;b&gt;up&lt;/b&gt;</example>
+					<example>The protestors claimed that the government had acted illegally and should be overthrown. However, their cries fell on deaf ears as they never managed to &lt;b&gt;back&lt;/b&gt; their statements &lt;b&gt;up&lt;/b&gt; with any facts</example>
 				</translation>
-			</translations>
-		</phrasalverbs>
-		<phrasalverbs>back (someone) up
-			<translations>
-				<translation>corroborar<example>If you don't believe me ask Sarah.  She'll &lt;b&gt;back&lt;/b&gt; me &lt;b&gt;up&lt;/b&gt;</example>
+                                <translation transitive="true">corroborar<example>If you don't believe me ask Sarah.  She'll &lt;b&gt;back&lt;/b&gt; me &lt;b&gt;up&lt;/b&gt;</example>
 					<example>The man claimed he was nowhere near the house at the time of the murder and three neighbours came forward to &lt;b&gt;back him up&lt;/b&gt;</example>
 					<example>You're my best friend. You're supposed to &lt;b&gt;back me up&lt;/b&gt; not drop me in it!')</example>
 					<synonyms>vouch for (someone)</synonyms>
 				</translation>
-			</translations>
-		</phrasalverbs>
-		<phrasalverbs>back up
-			<translations>
-                            <translation>donar suport a<example>The student insisted that the death penalty was a good way of preventing crime, but nobody took much notice of him as he always failed to provide any real evidence to &lt;b&gt;back&lt;/b&gt; his arguments &lt;b&gt;up&lt;/b&gt;</example>
-					<example>The protestors claimed that the government had acted illegally and should be overthrown. However, their cries fell on deaf ears as they never managed to &lt;b&gt;back&lt;/b&gt; their statements &lt;b&gt;up&lt;/b&gt; with any facts</example>
-				</translation>
 				<translation disambiguate="transport">fer marxa enrere<synonyms>reverse</synonyms>
 				</translation>
-                                <translation>anar enrere</translation>
-				<translation disambiguate="computers">fer una còpia de seguretat<example>If you don't regularly &lt;b&gt;back up&lt;/b&gt; your work files you risk losing them all should your computer get hit by a virus</example>
+                                <translation intransitive="true">recular / anar enrere</translation>
+				<translation transitive="true" disambiguate="computers">fer una còpia de seguretat<example>If you don't regularly &lt;b&gt;back up&lt;/b&gt; your work files you risk losing them all should your computer get hit by a virus</example>
 					<example>We strongly recommend that you &lt;b&gt;back up&lt;/b&gt; the system every day!</example>
 				</translation>
 			</translations>
@@ -1306,7 +1295,7 @@
 		</verbs>
                 <phrasalverbs>be down with (something)
                 <translations>
-                <translation>estar (malalti i) al llit amb</translation>
+                <translation>estar (malalt i) al llit amb</translation>
                 </translations>
                 </phrasalverbs>
                 <phrasalverbs>be in
@@ -2002,11 +1991,8 @@
 	</Entry><Entry frequency="5580000">bench<nouns>
 			<translations>
 				<translation>
-					<translation gender="f">banqueta</translation>
-					<translation gender="m">banc</translation>
-					<translation gender="f">banca</translation>
-					<plural>benches</plural>
-				</translation>
+					<translation gender="f">banqueta / banca</translation>
+					<translation gender="m">banc</translation><plural>benches</plural></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="36500000">benchmark<nouns>
@@ -2030,9 +2016,12 @@
                 </phrasalverbs>
                 <nouns>
                 <translations>
-                <translation gender="m">revolt</translation>
+                    <translation>
+                        <translation gender="m">revolt</translation>
+                        <translation gender="f">giragonsa</translation>
+                    </translation>
                 <translation gender="f">corba</translation>
-                <translation gender="f">giragonsa</translation></translations></nouns>
+          </translations></nouns>
                 <expressions>bend over backwards
                 <translations>
                     <translation>fer un gran esforç<example>He &lt;b&gt;bent over backwards&lt;/b&gt; to help her.</example></translation>
@@ -2051,22 +2040,22 @@
 	</Entry><Entry frequency="31000000">benefit<nouns>
 			<translations>
 				<translation gender="m">benefici / avantatge</translation>
-                                <translation gender="m">subsidi<engnote>'Subsidi' means 'benefit' in the sense 'housing benefit', 'unemployment benefit'.</engnote></translation>
+                                <translation local="gb" gender="m">subsidi<engexamp>Unemployment benefit</engexamp><catexamp>Subsidi d'atur (o de desocupació)</catexamp></translation>
 			</translations>
 		</nouns>
                 <verbs>
                 <translations>
-                <translation intransitive="true">beneficiar</translation>
+                <translation transitive="true">beneficiar</translation>
                 </translations>
                 </verbs>
                 <phrasalverbs>benefit from
                 <translations>
-                <translation>beneficiar-se de</translation></translations></phrasalverbs>
+                <translation intransitive="true">beneficiar-se de</translation></translations></phrasalverbs>
 	</Entry><Entry frequency="422000">benevolent<adjectives>
 			<translations>
 				<translation register="formal">benèvol<engnote>'Benèvol' means 'benevolent' in the sense 'kind / generous'.</engnote>
 				</translation>
-				<translation>benèfic<engnote>'Benèfic' means 'benevolent' in the sense 'charitable' (i.e. 'a benevolent organization').</engnote>
+                                <translation>benèfic<engexamp>Benevolent association (or organization)</engexamp><catexamp>Associació (o organització) benèfica</catexamp><engnote>'Benèfic' means 'benevolent' in the sense 'charitable'.</engnote>
 				</translation>
 			</translations>
 		</adjectives>
@@ -2424,7 +2413,14 @@
 				<translation catagory="sports-event" gender="m">bicitrial</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="28700000">bilateral<adjectives>
+	</Entry>
+        <Entry frequency="3380000">bikini<nouns>
+                            <translations><date>0508</date>
+                                <translation catagory="clothes" gender="m">biquini</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="28700000">bilateral<adjectives>
 			<translations>
 				<translation>bilateral</translation>
 			</translations>
@@ -3233,7 +3229,7 @@
 		</nouns>
 	</Entry><Entry frequency="7710000">blanket<nouns>
 			<translations>
-				<translation gender="f">manta</translation>
+				<translation catagory="household-room-bedroom" gender="f">manta</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="61100">blaspheme<verbs>
@@ -3345,7 +3341,8 @@
 				</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>blend in with<translations><translation intransitive="true">harmonitzar amb</translation></translations></phrasalverbs><phrasalverbs>blend into<translations><translation intransitive="true">barrejar-se amb, combinar-se amb</translation></translations></phrasalverbs></Entry><Entry frequency="9230000">blender<nouns>
+	<phrasalverbs>blend in with<translations><translation intransitive="true">harmonitzar amb</translation></translations></phrasalverbs><phrasalverbs>blend into<translations><translation intransitive="true">barrejar-se amb, combinar-se amb</translation></translations></phrasalverbs></Entry>
+        <Entry frequency="9230000">blender<nouns>
 			<translations>
 				<translation catagory="household-room-kitchen" gender="f">liquadora</translation>
 			</translations>
@@ -3377,7 +3374,7 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation gender="f">persiana</translation>
+				<translation catagory="household" gender="f">persiana</translation>
 			</translations>
 		</nouns>
 		<verbs>

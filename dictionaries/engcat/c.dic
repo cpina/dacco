@@ -1600,7 +1600,7 @@
     </nouns>
     </Entry><Entry frequency="85000">casserole dish<nouns>
         <translations>
-            <translation gender="f">cassola<plural>casserole dishes</plural>
+            <translation catagory="household-room-kitchen" gender="f">cassola<plural>casserole dishes</plural>
             </translation>
         </translations>
     </nouns>
@@ -3103,9 +3103,9 @@
                 <translation>treure les castanyes del foc a algú</translation>
             </translations>
         </expressions>
-    </Entry><Entry frequency="140000">chest of drawers<nouns>
-        <translations>
-            <translation gender="f">calaixera<plural>chests of drawers</plural></translation>
+    </Entry><Entry frequency="2270000">chest of drawers<nouns>
+            <translations><date>0508</date>
+            <translation catagory="household-room-bedroom" gender="f">calaixera / còmoda<plural>chests of drawers</plural></translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="38800">chest pass<nouns>
@@ -4582,7 +4582,13 @@
             <translation gender="f">roba<engexamp>To take your clothes off</engexamp><catexamp>Despullar-se</catexamp><engexamp>Bed clothes</engexamp><catexamp>Roba de llit</catexamp></translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="135000">clothes line<nouns>
+    </Entry>
+    <Entry frequency="2100000">clothes dryer<nouns>
+                            <translations><date>0508</date>
+                                <translation catagory="household-room-kitchen" gender="f">assecadora (de roba)<catnote>Molt sovint es diu senzillament 'dryer'.</catnote><synonyms>tumble dryer</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry><Entry frequency="135000">clothes line<nouns>
         <translations>
             <translation local="gb" gender="m">estenedor<synonyms>washing line (Br.) / line</synonyms></translation>
         </translations>
@@ -7845,7 +7851,7 @@
         </expressions>
     <phrasalverbs>cook up<translations><translation transitive="true">(col·loq.) inventar (un pla d'acció, una excusa, etc.)</translation></translations></phrasalverbs></Entry><Entry frequency="2540000">cooker<nouns>
         <translations>
-            <translation local="gb" gender="f">cuina<otherlocal>stove</otherlocal>
+            <translation local="gb" catagory="household-room-kitchen" gender="f">cuina<otherlocal>stove</otherlocal>
             </translation>
         </translations>
     </nouns>
@@ -8120,7 +8126,15 @@
         <verbs>
         <translations>
         <translation>acaparar<engnote>'Acaparar' means 'to corner' in the sense 'to corner a market'.</engnote></translation></translations></verbs>
-    </Entry><Entry frequency="1480000">cornerback<nouns>
+        <expressions>back (someone) into a corner
+			<translations>
+				<translation>arraconar<example>The three security guards &lt;b&gt;backed&lt;/b&gt; Sean &lt;b&gt;into a corner&lt;/b&gt; and started to beat him up</example>
+					<example>Firefighters returned to work after their month-long strike because they said they had been &lt;b&gt;backed into a corner&lt;/b&gt; by the unions and had no other choice</example>
+				</translation>
+			</translations>
+		</expressions>
+    </Entry>
+    <Entry frequency="1480000">cornerback<nouns>
                             <translations><date>1107</date>
 				<translation catagory="sports-event-americanfootball" termcat="true" gender="mf">defensor lateral</translation>
 			</translations>
@@ -8726,7 +8740,7 @@
             <translation gender="f">funda</translation>
             <translation disambiguate="financial" gender="f">assegurança<example>You are possibly aware that you don't have enough &lt;b&gt;cover&lt;/b&gt; but can't afford to pay any more for your travel insurance.</example></translation>
             <translation gender="f">protecció<example>Tanks were advised to seal off city blocks, repel counterattacks and provide &lt;b&gt;cover&lt;/b&gt;.</example></translation>
-            <translation sourceplural="the covers" catagory="household-room-bedroom">cobrellits (i llençols)<example>James jumped into bed and snuggled under &lt;b&gt;the covers&lt;/b&gt;.</example></translation>
+            <translation sourceplural="the covers" catagory="household-room-bedroom">cobrellit (i llençols)<example>James jumped into bed and snuggled under &lt;b&gt;the covers&lt;/b&gt;.</example></translation>
         </translations>
     </nouns>
         <verbs>
@@ -9958,18 +9972,18 @@
     </adjectives>
     </Entry><Entry frequency="1750000">cunt<nouns>
         <translations>
-            <translation register="vulgar" gender="m">gillipolles</translation>
+            <translation register="vulgar" gender="m">fill de puta / cabró</translation>
             <translation disambiguate="body" register="vulgar" gender="m">cony</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="42200000">cup<nouns>
         <translations>
-            <translation gender="f">tassa</translation>
+            <translation catagory="household-room-kitchen" gender="f">tassa</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="1330000">cupboard<nouns>
         <translations>
-            <translation gender="m">armari</translation>
+            <translation catagory="household-room-kitchen" gender="m">armari</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="139000">cup holder<nouns>
