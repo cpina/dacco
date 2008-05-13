@@ -879,18 +879,39 @@
 				<translation>posar (ous)</translation>
 			</translations>
 		</verbs>
-		<phrasalverbs>lay aside
+		<phrasalverbs>lay about
+                <translations>
+                    <translation transitive="true">repartir cops a tort i a dret</translation>
+                </translations>
+            </phrasalverbs>
+                <phrasalverbs>lay aside
 			<translations>
 				<translation>estalviar</translation>
 				<translation>apartar / deixar a banda</translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>lay away
+                <translations>
+                    <translation transitive="true">guardar (alguna cosa) per al futur</translation>
+                    <translation>guardar (una cosa) temporalment abans de lliurar-la</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>lay by
+        <translations>
+            <translation transitive="true">deixar o posar a part</translation>
+    </translations>
+</phrasalverbs>
 		<phrasalverbs>lay down
 			<translations>
 				<translation>deposar (les armes)</translation>
 				<translation>establir / fixar / determinar</translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>lay for
+                <translations>
+                    <translation intransitive="true">esperar (algú) (per atacar-lo)</translation>
+            </translations>
+        </phrasalverbs>
 		<phrasalverbs>lay in
 			<translations>
 				<translation>(supplies / food) proveir-se</translation>
@@ -917,13 +938,28 @@
 				<translation>presentar / disposar / distribuir / col·locar</translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>lay over
+                <translations>
+                    <translation intransitive="true">fer una pausa, sovint involuntari, en un viatge</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>lay to
+        <translations>
+            <translation intransitive="true">en la nàutica, fer parar un veler, dirigint-se cap al vent</translation>
+    </translations>
+</phrasalverbs>
                 <phrasalverbs>lay up
                 <translations>
                     <translation>emmagatzemar (p.e. proveïments)</translation>
                     <translation>causar d'haver de fer llit</translation>
                     </translations>
                     </phrasalverbs>
-	<phrasalverbs>lay about<translations><translation transitive="true">repartir cops a tort i a dret</translation></translations></phrasalverbs><phrasalverbs>lay away<translations><translation transitive="true">1 guardar (alguna cosa) per al futur 2 guardar (una cosa) temporalment abans de lliurar-la</translation></translations></phrasalverbs><phrasalverbs>lay by<translations><translation transitive="true">deixar o posar a part</translation></translations></phrasalverbs><phrasalverbs>lay for<translations><translation intransitive="true">esperar (algú) (per atacar-lo)</translation></translations></phrasalverbs><phrasalverbs>lay over<translations><translation intransitive="true">fer una pausa, sovint involuntari, en un viatge</translation></translations></phrasalverbs><phrasalverbs>lay to<translations><translation intransitive="true">en la nàutica, fer parar un veler, dirigint-se cap al vent</translation></translations></phrasalverbs></Entry><Entry frequency="96200">layabout<nouns>
+                    <phrasalverbs>be laid up
+                    <translations>
+                        <translation intransitive="true">fer llit (estar allitat)</translation>
+                </translations>
+                </phrasalverbs>
+	</Entry><Entry frequency="96200">layabout<nouns>
 			<translations>
 				<translation gender="mf">mandrós / gandul</translation>
 			</translations>
@@ -1183,17 +1219,51 @@
                                 <translation>descuidar-se<engexamp>I left the keys in the car</engexamp><catexamp>M'he descuidat les claus al cotxe</catexamp></translation>
                                 </translations>
 		</verbs>
+               <phrasalverbs>leave aside
+                    <translations>
+                        <translation transitive="true">deixar de banda</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>leave behind
+                    <translations>
+                        <translation transitive="true">deixar enrere / abandonar</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>leave for
+                    <translations>
+                        <translation intransitive="true">marxar a</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>leave off
                 <translations>
-                    <translation>deixar de</translation>
+                    <translation register="colloquial">deixar de</translation>
                 </translations>
                 </phrasalverbs>
+                <phrasalverbs>leave on
+                    <translations>
+                        <translation transitive="true">no tancar (un aparell)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>leave out
+                    <translations>
+                        <translation transitive="true">ometre</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>be left over<translations><translation intransitive="true">quedar (restar), sobrar</translation></translations></phrasalverbs>
                 <nouns>
                 <translations>
                 <translation disambiguate="work" gender="f">excedència</translation>
                 <translation register="formal" gender="m">permís<engnote>'Permís' means 'leave' in the sense 'permission'.</engnote></translation>
                 </translations></nouns>
-	<phrasalverbs>leave alone<translations><translation transitive="true">deixar (algú) en pau</translation></translations></phrasalverbs><phrasalverbs>leave aside<translations><translation transitive="true">deixar de banda</translation></translations></phrasalverbs><phrasalverbs>leave behind<translations><translation transitive="true">deixar enrere, abandonar</translation></translations></phrasalverbs><phrasalverbs>leave for<translations><translation intransitive="true">marxar a</translation></translations></phrasalverbs><phrasalverbs>leave on<translations><translation transitive="true">no tancar (un aparell)</translation></translations></phrasalverbs><phrasalverbs>leave out<translations><translation transitive="true">ometre</translation></translations></phrasalverbs></Entry><Entry frequency="4110000">leave of absence<nouns>
+                <expressions>leave (somebody) alone
+                    <translations>
+                        <translation>deixar en pau (algú)</translation>
+                    </translations>
+                </expressions>
+                 <expressions>to be left
+                <translations>
+                <translation>restar</translation></translations></expressions>
+	</Entry><Entry frequency="4110000">leave of absence<nouns>
 			<translations>
 				<translation catagory="work" gender="f">excedència</translation>
 			</translations>
@@ -1263,9 +1333,6 @@
 				<translation>a l'esquerra</translation>
 			</translations>
 		</adverbs>
-                <expressions>to be left
-                <translations>
-                <translation>restar</translation></translations></expressions>
 	</Entry><Entry frequency="2230000">left-hand<adjectives>
 			<translations><date>0308</date>
                                 <translation beforenoun="yes">d'esquerra<engexamp>On the left-hand side</engexamp><catexamp>A l'esquerra</catexamp></translation>

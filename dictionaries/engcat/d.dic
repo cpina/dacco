@@ -246,12 +246,12 @@
 		</nouns>
 	</Entry><Entry frequency="10200000">dare<verbs>
 			<translations>
-				<translation>desafiar<engexamp>To dare someone to do something</engexamp>
-					<catexamp>Desafiar a algú a fer una cosa</catexamp>
+				<translation>desafiar<engexamp>I dare you to tell her the truth</engexamp>
+					<catexamp>Et desafio a dir-li la veritat</catexamp>
 					<engnote>&apos;Desafiar&apos; means &apos;to dare&apos; in the sense &apos;to challenge&apos;.</engnote>
 				</translation>
-				<translation>gosar / atrevir-se<engexamp>To dare to do something</engexamp>
-					<catexamp>Gosar fer una cosa / atrevir-se a fer una cosa</catexamp>
+				<translation>gosar-se / atrevir-se<engexamp>Would you dare to go naked on the beach?</engexamp>
+                                    <catexamp>Et gosaries a anar despullat a la platja?</catexamp><engexamp>I didn't dare talk to my boss about it</engexamp><catexamp>No m'atrevia a parlar-ne amb el cap</catexamp>
 				</translation>
 			</translations>
 		</verbs>
@@ -1254,14 +1254,14 @@
 				<translation>desanimadament</translation>
 			</translations>
 		</adverbs>
-	</Entry><Entry frequency="44300000">delay<nouns>
-			<translations>
+	</Entry><Entry frequency="152000000">delay<nouns>
+                            <translations><date>0508</date>
 				<translation gender="m">retard / endarreriment</translation>
 			</translations>
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>retardar / endarrerir / entretenir</translation>
+                            <translation>retardar / endarrerir<engexamp>Hospital officials delayed informing the families of those affected</engexamp><catexamp>Els oficials de l'hospital van endarrerir d'informar les famílies dels afectats</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="3040000">delegate<nouns>
@@ -2010,9 +2010,9 @@
 				<translation gender="f">deserció</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="7040000">deserve<verbs>
-			<translations>
-				<translation>merèixer</translation>
+	</Entry><Entry frequency="7500000">deserve<verbs>
+                        <translations><date>0508</date>
+                            <translation>merèixer<engexamp>We deserve to know the truth</engexamp><catexamp>Mereixem saber la veritat</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="425000000">design<verbs>
@@ -4445,7 +4445,26 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="644000">dongle<nouns>
+                </Entry>
+                <Entry frequency="51700000">done<adjectives>
+                        <translations><date>0508</date>
+                            <translation>acabat</translation>
+                            <translation local="gb">acceptable</translation>
+                        </translations>
+                    </adjectives>
+                    <expressions>be done for
+                        <translations>
+                            <translation register="colloquial">estar esgotat</translation>
+                            <translation register="colloquial">ser destinat a morir</translation>
+                        </translations>
+                    </expressions>
+                     <expressions>be done in
+                        <translations>
+                            <translation register="colloquial">estar esgotat</translation>
+                        </translations>
+                    </expressions>
+                </Entry>
+	<Entry frequency="644000">dongle<nouns>
                             <translations><date>0508</date>
 				<translation termcat="internet" gender="f">motxilla</translation>
 			</translations>
@@ -4685,8 +4704,8 @@
 				<translation register="formal">encaixar / ajustar-se<example>Microsoft e-mail spec &lt;b&gt;dovetails&lt;/b&gt; with Cisco-Yahoo effort.</example><catnote>'Dovetail' va seguit de la preposició 'with' (o 'into').  La primera és molt més freqüent.</catnote></translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="99100000">down<prepositions>
-			<translations>
+	</Entry><Entry frequency="108000000">down<prepositions>
+                            <translations><date>0508</date>
 				<translation>avall</translation>
 			</translations>
 		</prepositions>
@@ -4699,8 +4718,8 @@
 		</verbs>
 		<adjectives>
 			<translations>
-				<translation>trist / deprimit<synonyms>depressed, sad</synonyms>
-				</translation>
+				<translation>moix<synonyms>depressed, sad</synonyms></translation>
+                                <translation>que no funciona [un sistema / un ordinador]</translation>
 			</translations>
 		</adjectives>
                 <expressions>down tools
@@ -4948,6 +4967,11 @@
                                 <translation>traçar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>be drawn into
+                    <translations>
+                        <translation intransitive="true">veure's atret per</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>draw up
                 <translations>
                 <translation transitive="true">redactar</translation>

@@ -1618,18 +1618,64 @@
             </translation>
         </translations>
     </nouns>
-        <verbs>
+    <verbs>
+        <translations>
+            <translation>donar un paper a algú<engnote>'Donar un paper a algú' means 'to cast' as in 'Wallis decided to cast Bogart in the role of Rick' > 'Wallis va decidir donar el paper de Rick a Bogart'.</engnote>
+            </translation>
+        </translations>
+    </verbs>
+    <phrasalverbs>cast about<translations><translation intransitive="true">cercar, sobretot sense rumb</translation>
+</translations>
+</phrasalverbs>
+<phrasalverbs>cast around
+<translations>
+    <translation intransitive="true">cercar, sobretot sense rumb</translation>
+</translations>
+</phrasalverbs>
+<phrasalverbs>cast aside
             <translations>
-                <translation>donar un paper a algú<engnote>'Donar un paper a algú' means 'to cast' as in 'Wallis decided to cast Bogart in the role of Rick' > 'Wallis va decidir donar el paper de Rick a Bogart'.</engnote>
-                </translation>
-            </translations>
-        </verbs>
-        <phrasalverbs>cast (something or somebody) aside
-            <translations>
-                <translation>deixar de banda (alguna cosa o algú)</translation>
+                <translation>deixar de banda</translation>
             </translations>
         </phrasalverbs>
-    <phrasalverbs>cast about<translations><translation intransitive="true">cercar, sobretot sense rumb</translation></translations></phrasalverbs><phrasalverbs>cast around<translations><translation intransitive="true">cercar, sobretot sense rumb</translation></translations></phrasalverbs><phrasalverbs>cast away<translations><translation transitive="true">desfer-se de</translation></translations></phrasalverbs><phrasalverbs>cast down<translations><translation transitive="true">tirar a terra</translation></translations></phrasalverbs><phrasalverbs>cast off<translations><translation intransitive="true">1 tirar la corda que lliga una embarcació a terra 2 fent mitja, fer la primera fila de punts 3 desfer-se de</translation></translations></phrasalverbs><phrasalverbs>cast on<translations><translation intransitive="true">fent mitja, fer la primera fila de punts</translation></translations></phrasalverbs><phrasalverbs>cast out<translations><translation transitive="true">expel·lir</translation></translations></phrasalverbs></Entry><Entry frequency="344000">castaway<nouns>
+<phrasalverbs>cast away
+<translations>
+    <translation transitive="true">desfer-se de</translation>
+</translations>
+</phrasalverbs>
+<phrasalverbs>cast down
+<translations>
+    <translation transitive="true">tirar a terra</translation>
+</translations>
+</phrasalverbs>
+<phrasalverbs>cast off
+<translations>
+<translation intransitive="true">tirar la corda que lliga una embarcació a terra</translation>
+<translation intransitive="true">fent mitja, fer la primera fila de punts</translation>
+<translation intransitive="true">desfer-se de</translation>
+</translations>
+</phrasalverbs>
+<phrasalverbs>cast on
+<translations>
+    <translation intransitive="true">fent mitja, fer la primera fila de punts</translation>
+</translations>
+</phrasalverbs>
+<phrasalverbs>cast out
+<translations>
+    <translation transitive="true">expel·lir</translation>
+</translations>
+</phrasalverbs>
+    <expressions>be cast away
+        <translations>
+            <translation>quedar (després de naufragar)</translation>
+        </translations>
+    </expressions>
+    <expressions>be cast down
+        <translations>
+            <translation register="literary">estar deprimit</translation>
+        </translations>
+    </expressions>
+</Entry>
+<Entry frequency="344000">castaway<nouns>
         <translations>
             <translation gender="m">nàufrag</translation>
         </translations>
@@ -3993,14 +4039,14 @@
 				<translation termcat="energy" gender="f">beina<synonyms>can, sheath</synonyms></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="31800000">claim<nouns>
-        <translations>
+	</Entry><Entry frequency="32800000">claim<nouns>
+                <translations><date>0508</date>
             <translation gender="f">reclamació</translation>
         </translations>
     </nouns>
         <verbs>
         <translations>
-        <translation>pretendre</translation></translations></verbs>
+        <translation>pretendre / sostenir / asseverar</translation></translations></verbs>
     </Entry><Entry frequency="1110000">clam<nouns>
         <translations>
             <translation gender="f">cloïssa</translation>
@@ -7082,7 +7128,7 @@
     </verbs>
     </Entry><Entry frequency="19100000">consider<verbs>
         <translations>
-            <translation>considerar</translation>
+            <translation>considerar / pensar<engexamp>No punishment would be adequate considering what he did</engexamp><catexamp>Cap càstig no seria adequat considerant el que va fer</catexamp></translation>
         </translations>
     </verbs>
     </Entry><Entry frequency="32800000">considerable<adjectives>
@@ -8875,7 +8921,13 @@
                 </translation>
             </translations>
         </phrasalverbs>
-    </Entry><Entry frequency="57200">crackers<adjectives>
+        <expressions>be cracked up (to be)
+            <translations>
+                <translation register="colloquial">tenir fama (de ser)</translation>
+            </translations>
+        </expressions>
+    </Entry>
+    <Entry frequency="57200">crackers<adjectives>
         <translations>
             <translation register="slang">boig<synonyms>mad, crazy</synonyms>
             </translation>
@@ -10235,6 +10287,16 @@
             <translation>retallar</translation>
         </translations>
     </verbs>
+    <phrasalverbs>cut across
+    <translations>
+        <translation intransitive="true">fer drecera per</translation>
+    </translations>
+</phrasalverbs>
+    <phrasalverbs>cut away
+<translations>
+    <translation transitive="true">tallar, llençant la part no volguda</translation>
+</translations>
+</phrasalverbs>
         <phrasalverbs>cut back
             <translations>
                 <translation disambiguate="plants">retallar / podar / escatir / esporgar<synonyms>prune</synonyms>
@@ -10253,14 +10315,57 @@
                 <translation>matar<example>The president was &lt;b&gt;cut down&lt;/b&gt; by a sniper's bullet.</example></translation>
             </translations>
         </phrasalverbs>
-        <phrasalverbs>cut down (on something)
+        <phrasalverbs>cut down on
             <translations>
-                <translation register="colloquial" noteng="TRUE">
-                    <catnote>Cut down tendeix a referir als vicis i vol dir 'limitar la quantitat' és a dir 'limitar el nombre de cigarrets que fumes cada dia', 'limitar la quantitat de cervesa que beus', 'limitar la quantitat de xocolata que menges', etc. etc.</catnote>
-                </translation>
+                <translation intransitive="true">reduir el consum de</translation>
             </translations>
         </phrasalverbs>
-    <phrasalverbs>cut across<translations><translation intransitive="true">fer drecera per</translation></translations></phrasalverbs><phrasalverbs>cut away<translations><translation transitive="true">tallar, llençant la part no volguda</translation></translations></phrasalverbs><phrasalverbs>cut down on<translations><translation intransitive="true">reduir el consum de</translation></translations></phrasalverbs><phrasalverbs>cut in<translations><translation intransitive="true">1 interrompre 2 passar arran, impedint el pas</translation></translations></phrasalverbs><phrasalverbs>cut into<translations><translation intransitive="true">fer disminuir</translation><translation intransitive="true">tallar a/en</translation></translations></phrasalverbs><phrasalverbs>cut off<translations><translation transitive="true">1 tallar i separar del cos 2 desconectar (línia telefònica, current elèctric) </translation><translation transitive="true">1 interrompre el pas (d'algú) 2 desheretar 3 aïllar</translation></translations></phrasalverbs><phrasalverbs>cut out<translations><translation transitive="true">retallar</translation><translation transitive="true">eliminar (certs aliments, tabac, etc.)</translation></translations></phrasalverbs><phrasalverbs>cut up<translations><translation transitive="true">tallar en trossos</translation><translation transitive="true">criticar fort</translation><translation intransitive="true">jugar frívolament, fer de pallasso</translation></translations></phrasalverbs></Entry><Entry frequency="9540000">cutaneous<adjectives>
+        <phrasalverbs>cut in
+            <translations>
+                <translation intransitive="true">interrompre</translation>
+                <translation intransitive="true">passar arran, impedint el pas</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>cut into
+            <translations>
+                <translation transitive="true">fer disminuir</translation>
+                <translation transitive="true">tallar a / en</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>cut off
+            <translations>
+                <translation transitive="true">tallar i separar del cos</translation>
+                <translation transitive="true">desconnectar (línia telefònica, current elèctric)</translation>
+                <translation transitive="true">interrompre el pas (d'algú)</translation>
+                <translation transitive="true">desheretar</translation>
+                <translation transitive="true">aïllar</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>cut out
+            <translations>
+                <translation transitive="true">retallar</translation>
+                <translation transitive="true">eliminar (certs aliments, tabac, etc.)</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>be cut out for
+            <translations>
+                <translation register="colloquial" intransitive="true">ser apte a</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>cut up
+            <translations>
+                <translation transitive="true">tallar en trossos</translation>
+                <translation transitive="true">criticar fort</translation>
+                <translation intransitive="true">jugar frívolament, fer de pallasso</translation>
+            </translations>
+        </phrasalverbs>
+         <phrasalverbs>be cut up
+            <translations>
+                <translation register="colloquial" intransitive="true">estar aflegit</translation>
+            </translations>
+        </phrasalverbs>
+    </Entry>
+    <Entry frequency="9540000">cutaneous<adjectives>
         <translations>
             <translation>cutani</translation>
         </translations>
