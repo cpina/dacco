@@ -340,6 +340,8 @@
                     <translation transitive="true">entendre (p.e., una idea)</translation>
                     <translation transitive="true">estrènyer (una peça de roba)</translation>
                     <translation transitive="true">acollir (un animal)</translation>
+                        <translation transitive="true">observar atentament</translation>
+                        <translation transitive="true">assistir (un partit, una pel·lícula, etc.)</translation>
                     </translations>
                 </phrasalverbs>
                 <phrasalverbs>take off
@@ -354,7 +356,6 @@
                         <translation transitive="true">acceptar (una feina), responsabilitzar-se'n</translation>
                     <translation transitive="true">jugar o lluitar contra (algú)</translation>
                     <translation transitive="true">contractar</translation>
-                    <translation register="colloquial" intransitive="true">mostrar una emoció molt forta</translation>
                 </translations>
             </phrasalverbs>
             <phrasalverbs>take out
@@ -383,6 +384,7 @@
             <phrasalverbs>take to
                 <translations>
                     <translation intransitive="true">afeccionar-se a</translation>
+                    <translation intransitive="true">començar a acostumar-se a</translation>
                 </translations>
             </phrasalverbs>
 		<phrasalverbs>take up
@@ -659,7 +661,14 @@
                         <translation>anar minvant / reduir-se fins un cert punt</translation>
                     </translations>
                 </phrasalverbs>
-	</Entry><Entry frequency="836000">tape recorder<nouns>
+	</Entry>
+        <Entry frequency="4470000">tape measure<nouns>
+                            <translations><date>0508</date>
+				<translation gender="f">cinta mètrica</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="836000">tape recorder<nouns>
 			<translations>
 				<translation catagory="entertainment" gender="m">magnetòfon</translation>
 			</translations>
@@ -1576,7 +1585,14 @@
                                 <translation gender="m">bancal<engnote>'Bancal' means 'terrace' in the agricultural sense.</engnote></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="5880000">terrarium<nouns>
+	</Entry>
+        <Entry frequency="5880000">terrapin<nouns>
+                            <translations><date>0508</date>
+                                <translation catagory="animal-animal" local="gb" gender="f">tortuga (d'aigua dolça)<engexamp>Diamondback terrapin</engexamp><catexamp>Tortuga de dors diamantí</catexamp><otherlocal>slider</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="5880000">terrarium<nouns>
                             <translations><date>1007</date>
 				<translation gender="m">terrari<plural>terrariums, terraria</plural></translation>
 			</translations>
@@ -1659,7 +1675,14 @@
 				<translation catagory="medical">donar positiu</translation>
 			</translations>
 		</expressions>
-	</Entry><Entry frequency="868000">testicle<nouns>
+	</Entry>
+         <Entry frequency="115000">testa<nouns>
+			<translations><date>0508</date>
+                            <translation disambiguate="biology" gender="f">testa<synonyms>seed coat</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="868000">testicle<nouns>
 			<translations>
 				<translation catagory="body" gender="m">testicle</translation>
 			</translations>
@@ -2816,7 +2839,7 @@
                 </phrasalverbs>
                 <phrasalverbs>tie into
                     <translations>
-                        <translation intransitive="true">renyar fort</translation>
+                        <translation local="us" intransitive="true">renyar fort</translation>
                     </translations>
                 </phrasalverbs>
                     <phrasalverbs>tie up
@@ -3692,9 +3715,9 @@
 				<translation catagory="body" gender="m">tors</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="694000">tortoise<nouns>
-			<translations>
-				<translation catagory="animal-animal" gender="f">tortuga</translation>
+	</Entry><Entry frequency="656000">tortoise<nouns>
+			<translations><date>0508</date>
+				<translation catagory="animal-animal" local="gb, au" gender="f">tortuga (terrestre)</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2890000">tortuous<adjectives>
@@ -5440,17 +5463,37 @@
 				<translation catagory="entertainment-music" gender="f">melodia</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation catagory="entertainment-music">afinar (instruments musicals)</translation>
+                    </translations>
+                </verbs>
                 <phrasalverbs>tune in
                 <translations>
                 <translation>sintonitzar</translation>
                 </translations>
+                </phrasalverbs>
+                <phrasalverbs>tune out
+                    <translations>
+                        <translation register="colloquial" transitive="true">no fer cas a</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>tune up
+                    <translations>
+                        <translation catagory="entertainment-music" intransitive="true">afinar (instruments musicals)</translation>
+                    </translations>
                 </phrasalverbs>
                 <expressions>to call the tune
                 <translations>
                 <translation>tallar el bacallà</translation>
                 </translations>
                 </expressions>
-	<phrasalverbs>tune out<translations><translation transitive="true">(col·loq.) no fer cas a</translation></translations></phrasalverbs><phrasalverbs>tune up<translations><translation intransitive="true">afinar (instruments musicals)</translation></translations></phrasalverbs></Entry><Entry frequency="2840000">tuner<nouns>
+                <expressions>in tune with
+                    <translations>
+                        <translation>en sintonia amb</translation>
+                    </translations>
+                </expressions>
+	</Entry><Entry frequency="2840000">tuner<nouns>
                             <translations><date>0508</date>
 				<translation termcat="internet" gender="m">sintonitzador</translation>
 			</translations>
@@ -5617,9 +5660,10 @@
 				<translation register="colloquial" gender="f">trementina<synonyms>turpentine</synonyms></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="3730000">turtle<nouns>
-			<translations>
-				<translation catagory="animal-animal" gender="f">tortuga (del mar)</translation>
+	</Entry><Entry frequency="2430000">turtle<nouns>
+                            <translations><date>0508</date>
+                                <translation catagory="animal-animal" local="us" gender="f">tortuga (marina, d'aigua dolça o terrestre)<engexamp>Sea turtle</engexamp><catexamp>Tortuga marina</catexamp><engexamp>Box turtle (Am.)</engexamp><catexamp>Tortuga (terrestre)</catexamp></translation>
+                                <translation catagory="animal-animal" local="gb, au" gender="f">tortuga (marina o d'aigua dolça)</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1450000">Tuscan<adjectives>

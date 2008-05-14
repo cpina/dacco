@@ -800,8 +800,8 @@
 		</nouns>
 		<verbs double="true">
 			<translations>
-				<translation>prohibir<synonyms>ban</synonyms>
-				</translation>
+				<translation>prohibir<synonyms>ban</synonyms></translation>
+                                <translation>barrar</translation>
 			</translations>
 		</verbs>
 		<prepositions>
@@ -2163,7 +2163,14 @@
                 <translation intransitive="true">beneficiar-se de</translation>
                 </translations>
             </phrasalverbs>
-	</Entry><Entry frequency="422000">benevolent<adjectives>
+	</Entry>
+         <Entry frequency="2300000">benevolence<nouns>
+                            <translations><date>0508</date>
+				<translation gender="f">benevolència</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="422000">benevolent<adjectives>
 			<translations>
 				<translation register="formal">benèvol<engnote>'Benèvol' means 'benevolent' in the sense 'kind / generous'.</engnote>
 				</translation>
@@ -3614,9 +3621,9 @@
 				<translation gender="f">tempesta de neu</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="121000000">block<verbs>
-			<translations>
-				<translation>obstruir / estroncar<synonyms>obstruct</synonyms></translation>
+	</Entry><Entry frequency="54000000">block<verbs>
+                            <translations><date>0508</date>
+				<translation>obstruir / estroncar / barrar<synonyms>obstruct</synonyms></translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>block up
@@ -4858,7 +4865,13 @@
 				<translation>embalar</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>box up<translations><translation transitive="true">posar en caixes</translation></translations></phrasalverbs></Entry><Entry frequency="9430000">boxing<nouns>
+                <phrasalverbs>box up
+                    <translations>
+                            <translation transitive="true">posar en caixes</translation>
+                        </translations>
+                    </phrasalverbs>
+                </Entry>
+                <Entry frequency="9430000">boxing<nouns>
 			<translations>
 				<translation gender="f">boxa</translation>
 			</translations>
@@ -5585,7 +5598,7 @@
                 <translations>
                     <translation transitive="true">pujar (algú, alguna cosa) cap aquí</translation>
                     <translation transitive="true">criar (fills)<example>She might be their birth mother but she isn't the one who &lt;b&gt;brought&lt;/b&gt; them &lt;b&gt;up&lt;/b&gt;.</example></translation>
-                    <translation transitive="true">introduir un tema</translation>
+                    <translation transitive="true">introduir (un tema)</translation>
                 </translations>
             </phrasalverbs>
             <phrasalverbs>bring up
@@ -5886,7 +5899,13 @@
 				</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>brush up on<translations><translation intransitive="true">repassar</translation></translations></phrasalverbs></Entry><Entry frequency="9910000">Brussels<nouns>
+	<phrasalverbs>brush up on
+            <translations>
+                <translation intransitive="true">repassar</translation>
+            </translations>
+        </phrasalverbs>
+    </Entry>
+    <Entry frequency="9910000">Brussels<nouns>
 			<translations>
 				<translation>Brusel·les</translation>
 			</translations>

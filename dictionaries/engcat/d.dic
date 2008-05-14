@@ -27,7 +27,16 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="381000">daffodil<nouns>
+	</Entry>
+        <Entry frequency="137000">daddy longlegs<nouns>
+                        <translations><date>0508</date>
+                            <translation local="gb" catagory="animal-insect" gender="f">típula</translation>
+                        <translation local="us" catagory="animal-spider" gender="m">opilió</translation>
+                            <translation local="au" catagory="animal-spider" gender="m">fòlcid</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="381000">daffodil<nouns>
 			<translations>
 				<translation gender="m">narcís<catnote>El narcís és un símbol nacional del País de Gal·les.</catnote>
 				</translation>
@@ -2934,11 +2943,24 @@
 		</nouns>
 	</Entry><Entry frequency="8340000">dip<verbs double="true">
 			<translations>
-				<translation>submergir / enfonsar</translation>
+				<translation transitive="true">submergir / enfonsar</translation>
 				<translation>banyar</translation>
-                                <translation>sucar</translation>
+                                <translation transitive="true">sucar</translation>
+                                <translation intransitive="true">davallar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>dip down
+                    <translations>
+                        <translation intransitive="true">davallar</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>dip into
+                    <translations>
+                    <translation intransitive="true">tractar breument</translation>
+                <translation intransitive="true">fullejar</translation>
+                <translation intransitive="true">extreure (diners, d'un fons)</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
 				<translation disambiguate="food" gender="f">salsa</translation>
@@ -2952,7 +2974,7 @@
 				</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>dip into<translations><translation intransitive="true">1 tractar breument 2 fullejar 3 extreure (diners, d'un fons)</translation></translations></phrasalverbs></Entry><Entry frequency="38300">diphtheria<nouns>
+	</Entry><Entry frequency="38300">diphtheria<nouns>
 			<translations>
 				<translation gender="f">diftèria</translation>
 			</translations>
@@ -5594,14 +5616,14 @@
 				<translation gender="m">duc</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1590000">dull<adjectives>
-			<translations>
+	</Entry><Entry frequency="1180000">dull<adjectives>
+                            <translations><date>0508</date>
 				<translation>avorrit<engnote>&apos;Avorrit&apos; means &apos;dull&apos; as in &apos;boring&apos;.</engnote>
 				</translation>
 				<translation>apagat<engnote>&apos;Apagat&apos; means &apos;dull&apos; as in &apos;dim&apos;.</engnote>
 				</translation>
 				<translation disambiguate="weather">ennuvolat</translation>
-                                <translation>sord<engnote>'Sord' means 'dull' in the sense 'persistent but not sharp' (i.e. a dull pain).</engnote></translation>
+                                <translation>somort<engnote>'Somort' means 'dull' in the sense 'a dull pain'.</engnote></translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="6530000">dumb<adjectives>
