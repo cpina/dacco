@@ -2436,8 +2436,18 @@
 				<translation gender="f">sopa de lletres<plural>word searches</plural></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="364000000">work<verbs>
+	</Entry><Entry frequency="364000000">work<nouns>
                             <translations><date>0408</date>
+				<translation catagory="work">
+					<translation gender="m">treball<engexamp>Line of work</engexamp><catexamp>àmbit de treball</catexamp></translation>
+                                        <translation gender="f">feina</translation>
+                                </translation>
+                                        <translation gender="f">obra<engexamp>The works of Shakespeare</engexamp><catexamp>Les obres de Shakespeare</catexamp><engexamp>The works of Picasso</engexamp><catexamp>Les obres de Picasso</catexamp></translation>
+                                        <translation sourceplural="the works" register="informal" gender="m">tot<example>What would you like on your burger? I'll have &lt;b&gt;the works&lt;/b&gt; please: gherkins, ketchup, cheese, mayonnaise...</example></translation>
+                            </translations>
+                        </nouns>
+                        <verbs>
+                            <translations>
 				<translation intransitive="true" catagory="work">treballar<engexamp>To work hard</engexamp><catexamp>Treballar fort</catexamp><engexamp>To work together</engexamp><catexamp>Col·laborar / cooperar</catexamp><engnote>'Treballar' is the general verb for work (i.e. I work in a factory, she is working hard..)</engnote>
 				</translation>
                                 <translation intransitive="true">feinejar</translation>
@@ -2446,6 +2456,11 @@
                                 <translation transitive="true">accionar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>work in
+                    <translations>
+                        <translation transitive="true">introduir (p.e., idees en una obra)</translation>
+                    </translations>
+                </phrasalverbs>
                   <phrasalverbs>work off
                     <translations>
                         <translation>fer exercici (per eliminar l'estrès o la ràbia)</translation>
@@ -2468,30 +2483,32 @@
                         <translation>donar una pallissa (a algú)</translation>
                     </translations>
                 </phrasalverbs>
+                <phrasalverbs>work together
+                    <translations>
+                        <translation intransitive="true">treballar junts</translation>
+                    </translations>
+                </phrasalverbs>
                   <phrasalverbs>work towards (something)
                     <translations>
                         <translation>intentar assolir un objectiu</translation>
                     </translations>
                 </phrasalverbs>
-		<nouns>
-			<translations>
-				<translation catagory="work">
-					<translation gender="m">treball</translation>
-					<translation gender="f">feina</translation>
-                                        <translation beforenoun="true">laboral</translation>
-                                        <translation gender="f">obra<engexamp>The works of Shakespeare</engexamp><catexamp>Les obres de Shakespeare</catexamp><engexamp>The works of Picasso</engexamp><catexamp>Les obres de Picasso</catexamp></translation>
-                                        <translation sourceplural="the works" register="informal" gender="m">tot<example>What would you like on your burger? I'll have &lt;b&gt;the works&lt;/b&gt; please: gherkins, ketchup, cheese, mayonnaise...</example></translation>
-					<engexamp>Line of work</engexamp>
-					<catexamp>àmbit de treball</catexamp>
-				</translation>
-			</translations>
-		</nouns>
+                <phrasalverbs>work up
+                    <translations>
+                        <translation transitive="true">suscitar</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>work up to
+                    <translations>
+                        <translation intransitive="true">preparar el terreny per</translation>
+                    </translations>
+                </phrasalverbs>
                 <expressions>get down to work
                 <translations>
                     <translation>posar mans a l'obra</translation>
                     </translations>
                 </expressions>
-	<phrasalverbs>work together<translations><translation intransitive="true">treballar junts</translation></translations></phrasalverbs><phrasalverbs>work up<translations><translation transitive="true">suscitar</translation></translations></phrasalverbs><phrasalverbs>work up to<translations><translation intransitive="true">preparar el terreny per</translation></translations></phrasalverbs><phrasalverbs>work in<translations><translation transitive="true">introduir (p.e., idees en una obra)</translation></translations></phrasalverbs></Entry><Entry frequency="2670000">workaholic<nouns>
+	</Entry><Entry frequency="2670000">workaholic<nouns>
 			<translations>
 				<translation gender="mf">addicte al treball<example>Lesley's husband was a &lt;b&gt;workaholic&lt;/b&gt;. That's why she divorced him.</example></translation>
 			</translations>
