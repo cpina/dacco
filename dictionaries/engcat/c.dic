@@ -4095,10 +4095,10 @@
     </verbs>
     <phrasalverbs>clamp down (on)
     <translations>
-        <translation>posar límits a / restringir / reprimir<example>The government is &lt;b&gt;clamping down on&lt;/b&gt; the real estate industry, proposing an end to self-regulation.</example></translation>
+        <translation>posar límits a / restringir / reprimir / suprimir<example>The government is &lt;b&gt;clamping down on&lt;/b&gt; the real estate industry, proposing an end to self-regulation.</example></translation>
         </translations>
         </phrasalverbs>
-    <phrasalverbs>clamp down on<translations><translation intransitive="true">reprimir, suprimir</translation></translations></phrasalverbs></Entry><Entry frequency="9610000">clan<nouns>
+        </Entry><Entry frequency="9610000">clan<nouns>
         <translations>
             <translation>
                 <translation gender="m">clan</translation>
@@ -4115,8 +4115,11 @@
     </nouns>
         <verbs double="true">
         <translations>
-        <translation>aplaudir</translation></translations></verbs>
-    </Entry><Entry frequency="672000">clapperboard<nouns>
+        <translation>aplaudir</translation>
+        </translations>
+    </verbs>
+    </Entry>
+    <Entry frequency="672000">clapperboard<nouns>
         <translations>
             <translation gender="f">claqueta</translation>
         </translations>
@@ -4151,7 +4154,13 @@
         <verbs>
         <translations>
         <translation>xocar</translation></translations></verbs>
-    <phrasalverbs>clash with<translations><translation intransitive="true">desentonar amb</translation></translations></phrasalverbs></Entry><Entry frequency="121000000">class<nouns>
+        <phrasalverbs>clash with
+            <translations>
+                <translation intransitive="true">desentonar amb</translation>
+            </translations>
+        </phrasalverbs>
+    </Entry>
+    <Entry frequency="121000000">class<nouns>
         <translations>
             <translation gender="f">classe<plural>classes</plural>
             </translation>
@@ -4231,15 +4240,15 @@
             </translations>
         </adjectives>
         <phrasalverbs>clean out
-        <translations>
-        <translation>netejar (sobretot buidant un espai)</translation>
-    <translation>escurar</translation>
-</translations>
-</phrasalverbs>
-<phrasalverbs>clean (someone) out
-<translations>
-    <translation>deixar escurat</translation>
-        </translations>
+            <translations>
+                <translation>netejar (sobretot buidant un espai)</translation>
+                <translation>escurar</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>clean (somebody) out
+            <translations>
+                <translation>deixar escurat</translation>
+            </translations>
         </phrasalverbs>
         <phrasalverbs>clean up
             <translations>
@@ -4248,12 +4257,17 @@
                 <translation register="colloquial">guanyar rotundament / guanyar molts diners en poc temps<example>When his company's stock soared, he &lt;b&gt;cleaned up&lt;/b&gt; with $40 million in option gains.</example></translation>
             </translations>
         </phrasalverbs>
+        <phrasalverbs>clean up after (someone)
+            <translations>
+                <translation intransitive="true">netejar per (algú, allò que ha embrutat)</translation>
+            </translations>
+        </phrasalverbs>
         <expressions>squeaky-clean
             <translations>
                 <translation>impol·lut</translation>
             </translations>
         </expressions>
-    <phrasalverbs>clean up after<translations><translation intransitive="true">netejar per (algú, allò que ha embrutat) (clean up after someone)</translation></translations></phrasalverbs></Entry><Entry frequency="5790000">cleaner<nouns>
+    </Entry><Entry frequency="5790000">cleaner<nouns>
         <translations>
             <translation gender="f">dona de la neteja</translation>
         </translations>
@@ -4284,11 +4298,14 @@
     </nouns>
     </Entry><Entry frequency="120000000">clear<adjectives>
         <translations>
-            <translation>clar / nítid<engexamp>To make clear</engexamp>
-                <catexamp>Deixar clar / Fer palesa</catexamp>
-            </translation>
+            <translation>clar / nítid</translation>
         </translations>
     </adjectives>
+    <phrasalverbs>clear away
+        <translations>
+            <translation transitive="true">treure (coses) per deixar un espai net, endreçat</translation>
+        </translations>
+    </phrasalverbs>
     <phrasalverbs>clear out
     <translations>
         <translation>netejar bé llençant coses no volgudes / buidar<example>When I get a free moment, I'm going to &lt;b&gt;clear out&lt;/b&gt; the garage.</example></translation>
@@ -4304,7 +4321,13 @@
                 </translation>
             </translations>
         </phrasalverbs>
-    <phrasalverbs>clear away<translations><translation transitive="true">recollir (el que no es vol); endreçar, traient el que no es vol</translation></translations></phrasalverbs></Entry><Entry frequency="168000">clearheaded<adjectives>
+        <expressions>make (something) clear
+            <translations>
+                <translation>deixar clar / fer palesa</translation>
+            </translations>
+        </expressions>
+    </Entry>
+     <Entry frequency="168000">clearheaded<adjectives>
         <translations>
             <translation>lúcid</translation>
         </translations>
@@ -4443,7 +4466,13 @@
                 <translation gender="f">ascensió</translation>
             </translations>
         </nouns>
-    <phrasalverbs>climb up<translations><translation intransitive="true">pujar escalant</translation></translations></phrasalverbs></Entry><Entry frequency="4000000">clinch<verbs>
+    <phrasalverbs>climb up
+        <translations>
+            <translation intransitive="true">pujar escalant</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
+<Entry frequency="4000000">clinch<verbs>
         <translations>
             <translation>tancar / cloure / aconseguir<engexamp>To clinch a deal</engexamp><catexamp>Tancar un tracte</catexamp><engexamp>To clinch victory</engexamp><catexamp>Aconseguir la victòria</catexamp><engexamp>The clinching argument</engexamp><catexamp>L'argument que rebla el clau</catexamp></translation>
         </translations>
@@ -4458,7 +4487,13 @@
             <translation>adherir-se / aferrar-se / agafar-se</translation>
         </translations>
     </verbs>
-    <phrasalverbs>cling to<translations><translation intransitive="true">agafar-se a</translation></translations></phrasalverbs></Entry><Entry frequency="28600000">clip<nouns>
+    <phrasalverbs>cling to
+        <translations>
+            <translation intransitive="true">agafar-se a</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
+<Entry frequency="28600000">clip<nouns>
         <translations>
             <translation gender="m">clip<engexamp>Clip round the ear (Br.)</engexamp><catexamp>Clatellot</catexamp></translation>
         </translations>
@@ -4506,7 +4541,13 @@
             <translation gender="m">rellotge</translation>
         </translations>
     </nouns>
-    <phrasalverbs>clock out<translations><translation intransitive="true">fitxar-se (quan se surt de treballar)</translation></translations></phrasalverbs></Entry><Entry frequency="909000">clockwise<adjectives>
+    <phrasalverbs>clock out
+        <translations>
+            <translation intransitive="true">fitxar-se (quan se surt de treballar)</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
+<Entry frequency="909000">clockwise<adjectives>
         <translations>
             <translation>en sentit de les agulles del rellotge</translation>
         </translations>
@@ -4564,13 +4605,23 @@
         </phrasalverbs>
         <phrasalverbs>close in (on)
         <translations>
-            <translation>acostar-se per tots costats (a)<example>They say that Barack Obama is &lt;b&gt;closing in on&lt;/b&gt; Hillary Clinton.</example></translation>
+            <translation>acostar-se encerclant<example>They say that Barack Obama is &lt;b&gt;closing in on&lt;/b&gt; Hillary Clinton.</example></translation>
             </translations>
+            </phrasalverbs>
+            <phrasalverbs>close off
+                <translations>
+                    <translation transitive="true">tancar, sobretot aïllant / blocar</translation>
+                </translations>
             </phrasalverbs>
             <phrasalverbs>close on
             <translations>
                 <translation>acostar-se per tots costats (a)</translation>
             </translations>
+            </phrasalverbs>
+            <phrasalverbs>close out
+                <translations>
+                    <translation transitive="true">terminar, sobretot una activitat econòmica<engexamp>To close out a bank account</engexamp><catexamp>Tancar un compte bancari</catexamp></translation>
+                </translations>
             </phrasalverbs>
             <phrasalverbs>close up
             <translations>
@@ -4595,7 +4646,7 @@
             <translation>prop de<example>My weekly train ticket costs &lt;b&gt;close on&lt;/b&gt; $100.</example><example>&lt;b&gt;Close on&lt;/b&gt; 300 people turned up.</example><example>&lt;b&gt;Close to&lt;/b&gt; 400 runners took part in the race.</example></translation>
         </translations>
         </expressions>
-    <phrasalverbs>close in on<translations><translation intransitive="true">acostar-se encerclant</translation></translations></phrasalverbs><phrasalverbs>close off<translations><translation transitive="true">tancar, sobretot aïllant; blocar</translation></translations></phrasalverbs><phrasalverbs>close out<translations><translation transitive="true">terminar, sobretot una activitat econòmica</translation></translations></phrasalverbs></Entry><Entry frequency="26900000">closed<adjectives>
+    </Entry><Entry frequency="26900000">closed<adjectives>
         <translations>
             <translation>tancat</translation>
             <translation>cluc<engnote>'Cluc' means 'shut' when referring to eyes (amb els ulls clucs - with his eyes closed).</engnote></translation>
@@ -4753,7 +4804,13 @@
                 <translation>agafar</translation>
             </translations>
         </verbs>
-    <phrasalverbs>clutch at<translations><translation intransitive="true">agafar-se a</translation></translations></phrasalverbs></Entry><Entry frequency="70700000">clutter<nouns>
+    <phrasalverbs>clutch at
+        <translations>
+            <translation intransitive="true">agafar-se a</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
+<Entry frequency="70700000">clutter<nouns>
         <translations>
             <translation gender="m">desgavell / desordre</translation>
         </translations>
@@ -5125,7 +5182,13 @@
             <translation>coincidir</translation>
         </translations>
     </verbs>
-    <phrasalverbs>coincide with<translations><translation intransitive="true">coincidir amb</translation></translations></phrasalverbs></Entry><Entry frequency="2780000">coincidence<nouns>
+    <phrasalverbs>coincide with
+        <translations>
+            <translation intransitive="true">coincidir amb</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
+<Entry frequency="2780000">coincidence<nouns>
         <translations>
             <translation gender="f">coincidència</translation>
         </translations>
@@ -5201,7 +5264,13 @@
             <translation>col·laborar<catnote>El verb 'to collaborate' pot tenir connotacions negatives ja que a més de significar 'treballar junts' pot significar 'ser col·laboracionista' (per ex: 'They are collaborating on a new book / During World War II, Vichy France collaborated with the Nazis).</catnote></translation>
         </translations>
     </verbs>
-    <phrasalverbs>collaborate with<translations><translation intransitive="true">col·laborar amb</translation></translations></phrasalverbs></Entry><Entry frequency="32600000">collaboration<nouns>
+    <phrasalverbs>collaborate with
+        <translations>
+            <translation intransitive="true">col·laborar amb</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
+<Entry frequency="32600000">collaboration<nouns>
         <translations>
             <translation gender="f">col·laboració<engexamp>In collaboration with</engexamp>
                 <catexamp>En col·laboració amb</catexamp>
@@ -5292,10 +5361,16 @@
     </nouns>
     </Entry><Entry frequency="4010000">collide<verbs>
         <translations>
-            <translation>col·lidir / xocar / topar (contra)</translation>
+            <translation>col·lidir / xocar / topar</translation>
         </translations>
     </verbs>
-    <phrasalverbs>collide with<translations><translation intransitive="true">xocar amb</translation></translations></phrasalverbs></Entry><Entry frequency="1140000">collimator<nouns>
+    <phrasalverbs>collide with
+        <translations>
+            <translation intransitive="true">xocar amb / topar contra</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
+<Entry frequency="1140000">collimator<nouns>
 			<translations><date>0307</date>
 				<translation termcat="energy" gender="m">col·limador</translation>
 			</translations>
@@ -5619,12 +5694,52 @@
             <translation register="slang">escórrer-se / ejacular / arribar</translation>
         </translations>
     </verbs>
+    <phrasalverbs>come about
+        <translations>
+            <translation intransitive="true">passar (esdevenir-se)</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>come across
+        <translations>
+            <translation intransitive="true">venir d'un costat a l'altre / travessar (un lloc) cap aquí</translation>
+            <translation intransitive="true">trobar (per casualitat)</translation>
+            <translation intransitive="true">fer el que es demana, sobretot pagant diners</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>come across as
+        <translations>
+            <translation intransitive="true">donar l'aparença de</translation>
+        </translations>
+    </phrasalverbs>
     <phrasalverbs>come after
     <translations>
         <translation>atacar</translation>
         <translation>perseguir</translation>
     </translations>
     </phrasalverbs>
+    <phrasalverbs>come along
+        <translations>
+            <translation intransitive="true">venir (acompanyant algú)</translation>
+            <translation intransitive="true">progressar</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>come apart
+        <translations>
+            <translation intransitive="true">desfer-se</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>come around
+        <translations>
+            <translation intransitive="true">passar (per aquí)</translation>
+    <translation intransitive="true">tornar en si</translation>
+    <translation intransitive="true">deixar-se convèncer</translation>
+</translations>
+</phrasalverbs>
+<phrasalverbs>come around to
+    <translations>
+        <translation intransitive="true">acabar per estar d'acord amb</translation>
+    </translations>
+</phrasalverbs>
      <phrasalverbs>come at (somebody)
     <translations>
         <translation>atacar<example>He &lt;b&gt;came at&lt;/b&gt; me with a knife.</example></translation>
@@ -5635,30 +5750,107 @@
             <translation>abordar / enfocar<example>Reframing a problem can help you &lt;b&gt;come at&lt;/b&gt; from a different angle and find and innovative solution.</example></translation>
             </translations>
             </phrasalverbs>
+            <phrasalverbs>come away
+                <translations>
+                    <translation intransitive="true">sortir (d'allà, cap aquí) / allunyar-se (cap aquí)</translation>
+                    <translation intransitive="true">desprendre's</translation>
+                </translations>
+            </phrasalverbs>
     <phrasalverbs>come away with (something)
     <translations>
         <translation>sortir amb (alguna cosa)<example>She &lt;b&gt;came away with&lt;/b&gt; the impression that he didn't really care one way or the other.</example></translation>
     </translations>
     </phrasalverbs>
+    <phrasalverbs>come back
+        <translations>
+            <translation intransitive="true">tornar (cap aquí)</translation>
+    <translation intransitive="true">recórrer a la memòria</translation>
+    <translation intransitive="true">tornar a posar-se de moda</translation>
+</translations>
+</phrasalverbs>
     <phrasalverbs>come between
     <translations>
         <translation>interposar-se entre<example>I would never try to &lt;b&gt;come between&lt;/b&gt; a mother and her daughter.</example></translation>
     </translations>
     </phrasalverbs>
+    <phrasalverbs>come by
+        <translations>
+            <translation intransitive="true">venir / visitar</translation>
+            <translation intransitive="true">adquirir (per casualitat)</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>come down
+        <translations>
+    <translation intransitive="true">baixar (cap aquí)</translation>
+    <translation intransitive="true">reduir-se (preus)</translation>
+    <translation intransitive="true">sofrir un revés / perdre estatus social</translation>
+</translations>
+</phrasalverbs>
     <phrasalverbs>come down on
     <translations>
         <translation>renyar / criticar fort<catnote>És molt freqüent l'expressió 'to come down on somebody like a ton of bricks'.</catnote><example>If you continue to waste time I will certainly &lt;b&gt;come down on&lt;/b&gt; you again.</example></translation>
     </translations>
+    </phrasalverbs>
+    <phrasalverbs>come down to
+        <translations>
+            <translation intransitive="true">resultar (al capdavall)</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>come down with
+        <translations>
+            <translation intransitive="true">posar-se malalt de / caure malalt de</translation>
+        </translations>
+    </phrasalverbs>
+     <phrasalverbs>come forth
+        <translations>
+            <translation intransitive="true">emergir / sorgir</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>come forward
+        <translations>
+            <translation intransitive="true">presentar-se</translation>
+        </translations>
     </phrasalverbs>
         <phrasalverbs>come from
             <translations>
                 <translation>provenir de</translation>
             </translations>
         </phrasalverbs>
+        <phrasalverbs>come in
+            <translations>
+        <translation intransitive="true">entrar (cap aquí)</translation>
+        <translation intransitive="true">arribar (transport públic)</translation>
+        <translation intransitive="true">arribar (en una cursa, elecció, etc.) / quedar (en una partida, lliga, etc.)</translation>
+        <translation intransitive="true">posar-se de moda</translation>
+        </translations>
+        </phrasalverbs>
+        <phrasalverbs>come in for
+            <translations>
+                <translation intransitive="true">ser objecte de (crítiques, comentaris negatius)</translation>
+            </translations>
+        </phrasalverbs>
         <phrasalverbs>come into (money / property)
             <translations>
                 <translation>heretar</translation>
             </translations>
+        </phrasalverbs>
+        <phrasalverbs>come of
+            <translations>
+                <translation intransitive="true">resultar de</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>come off
+            <translations>
+        <translation intransitive="true">desenganxar-se</translation>
+        <translation intransitive="true">tenir èxit (un afer)</translation>
+        <translation intransitive="true">sortir-se (d'un afer)</translation>
+        </translations>
+        </phrasalverbs>
+        <phrasalverbs>come on
+            <translations>
+        <translation intransitive="true">progressar</translation>
+        <translation intransitive="true">començar a sortir</translation>
+        </translations>
         </phrasalverbs>
         <phrasalverbs>come out
         <translations>
@@ -5670,11 +5862,32 @@
         <translation>(esdevenir conegut) resultar<example>A few years ago it &lt;b&gt;came out&lt;/b&gt; that Nike were producing their shoes in Asian sweatshops.</example></translation>
     </translations>
     </phrasalverbs>
+    <phrasalverbs>come out against
+        <translations>
+            <translation intransitive="true">declarar-se en contra</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>come out for
+        <translations>
+            <translation intransitive="true">declarar-se a favor</translation>
+        </translations>
+    </phrasalverbs>
     <phrasalverbs>come out with
     <translations>
         <translation>sortir amb<example>Would you like to &lt;b&gt;come out with&lt;/b&gt; me this evening?</example></translation>
         <translation>dir espontàniament<example>He &lt;b&gt;comes out with&lt;/b&gt; some rubbish sometimes, he really does.</example></translation>
         </translations>
+        </phrasalverbs>
+        <phrasalverbs>come over
+            <translations>
+                <translation intransitive="true">venir / visitar</translation>
+                <translation intransitive="true">afectar (un sentiment o emoció a algú)</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>come past
+            <translations>
+                <translation intransitive="true">passar (cap aquí)</translation>
+            </translations>
         </phrasalverbs>
         <phrasalverbs>come round
             <translations>
@@ -5692,11 +5905,67 @@
             <translation>complir amb èxit una promesa, un encàrrec etc.</translation>
         </translations>
         </phrasalverbs>
-        <expressions>come again?<translations>
+        <phrasalverbs>come to
+            <translations>
+        <translation intransitive="true">acudir-se a (algú)</translation>
+        <translation intransitive="true">pujar a (una factura)<example>Altogether that &lt;b&gt;comes to&lt;/b&gt; $17.50.</example></translation>
+        <translation intransitive="true">tornar en si<example>The boxer was knocked out. When he &lt;b&gt;came to&lt;/b&gt; he felt very woozy.</example></translation>
+        </translations>
+        </phrasalverbs>
+        <phrasalverbs>come together
+            <translations>
+                <translation intransitive="true">ajuntar-se / reunir-se</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>come under
+            <translations>
+                <translation intransitive="true">passar sota l'autoritat de</translation>
+                <translation intransitive="true">venir sota</translation>
+                <translation intransitive="true">estar subjecte a</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>come up
+            <translations>
+        <translation intransitive="true">pujar (cap aquí)</translation>
+        <translation intransitive="true">ascendir</translation>
+        <translation intransitive="true">sortir (el sol)</translation>
+        <translation intransitive="true">acostar-se</translation>
+        <translation intransitive="true">sortir (un imprevist)</translation>
+        <translation intransitive="true">sortir (despuntar una planta)</translation>
+        </translations>
+        </phrasalverbs>
+        <phrasalverbs>come up against
+            <translations>
+                <translation intransitive="true">topar amb</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>come up to
+            <translations>
+        <translation intransitive="true">arribar fins a</translation>
+        <translation intransitive="true">estar a l'alçada de</translation>
+        <translation intransitive="true">acostar-se a</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>come up with
+        <translations>
+            <translation intransitive="true">trobar (una solució)</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>come upon
+        <translations>
+            <translation intransitive="true">trobar (per casualitat)</translation>
+        </translations>
+    </phrasalverbs>
+        <exclamations>come again<translations>
         <translation register="colloquial">com (dius)?</translation>
     </translations>
-</expressions>
-    <phrasalverbs>come over<translations><translation intransitive="true">venir, visitar</translation><translation intransitive="true">afectar (un sentiment o emoció a algú)</translation></translations></phrasalverbs><phrasalverbs>come past<translations><translation intransitive="true">passar (cap aquí)</translation></translations></phrasalverbs><phrasalverbs>come to<translations><translation intransitive="true">1 acudir-se a (algú) 2 pujar a (una factura)</translation><translation intransitive="true">tornar en si</translation></translations></phrasalverbs><phrasalverbs>come together<translations><translation intransitive="true">ajuntar-se, reunir-se</translation></translations></phrasalverbs><phrasalverbs>come under<translations><translation intransitive="true">passar sota l'autoritat de</translation><translation intransitive="true">venir sota</translation><translation intransitive="true">estar subjecte a</translation></translations></phrasalverbs><phrasalverbs>come up<translations><translation intransitive="true">1 pujar (cap aquí) 2 ascendir 3 sortir (el sol)</translation><translation intransitive="true">1 acostar-se 2 sortir (un imprevist) 3 sortir (despuntar una planta)</translation></translations></phrasalverbs><phrasalverbs>come up against<translations><translation intransitive="true">topar amb</translation></translations></phrasalverbs><phrasalverbs>come up to<translations><translation intransitive="true">1 arribar fins a 2 estar a l'alçada de 3 acostar-se a</translation></translations></phrasalverbs><phrasalverbs>come up with<translations><translation intransitive="true">trobar (una solució)</translation></translations></phrasalverbs><phrasalverbs>come upon<translations><translation intransitive="true">trobar (per casualitat)</translation></translations></phrasalverbs><phrasalverbs>come about<translations><translation intransitive="true">passar (esdevenir-se)</translation></translations></phrasalverbs><phrasalverbs>come across as<translations><translation intransitive="true">donar l'aparença de</translation></translations></phrasalverbs><phrasalverbs>come across<translations><translation intransitive="true">venir d'un costat a l'altre, travessar (un lloc) cap aquí</translation><translation intransitive="true">trobar (per casualitat)</translation><translation intransitive="true">fer el que es demana, sobretot pagant diners</translation></translations></phrasalverbs><phrasalverbs>come along<translations><translation intransitive="true">venir (acompanyant algú)</translation><translation intransitive="true">progressar</translation></translations></phrasalverbs><phrasalverbs>come apart<translations><translation intransitive="true">desfer-se</translation></translations></phrasalverbs><phrasalverbs>come around<translations><translation intransitive="true">passar (per aquí)</translation><translation intransitive="true">1 tornar en si 2 deixar-se convèncer</translation></translations></phrasalverbs><phrasalverbs>come around to<translations><translation intransitive="true">acabar per estar d'acord amb</translation></translations></phrasalverbs><phrasalverbs>come away<translations><translation intransitive="true">sortir (d'allà, cap aquí), allunyar-se (cap aquí)</translation><translation intransitive="true">desprendre's</translation></translations></phrasalverbs><phrasalverbs>come back<translations><translation intransitive="true">tornar (cap aquí)</translation><translation intransitive="true">1 recórrer a la memòria 2 tornar a posar-se de moda</translation></translations></phrasalverbs><phrasalverbs>come by<translations><translation intransitive="true">venir, visitar</translation><translation intransitive="true">adquirir (per casualitat)</translation></translations></phrasalverbs><phrasalverbs>come down<translations><translation intransitive="true">1 baixar (cap aquí) 2 reduir-se (preus)</translation><translation intransitive="true">sofrir un revés, perdre estatus social</translation></translations></phrasalverbs><phrasalverbs>come down to<translations><translation intransitive="true">resultar (al capdavall)</translation></translations></phrasalverbs><phrasalverbs>come down with<translations><translation intransitive="true">posar-se malalt de, caure malalt de</translation></translations></phrasalverbs><phrasalverbs>come forth<translations><translation intransitive="true">emergir, sorgir</translation></translations></phrasalverbs><phrasalverbs>come forward<translations><translation intransitive="true">presentar-se</translation></translations></phrasalverbs><phrasalverbs>come in<translations><translation intransitive="true">1 entrar (cap aquí) 2 arribar (transport públic)</translation><translation intransitive="true">1 arribar (en una cursa, elecció, etc.); quedar (en una partida, lliga, etc.) 2 posar-se de moda</translation></translations></phrasalverbs><phrasalverbs>come in for<translations><translation intransitive="true">ser objecte de (crítiques, comentaris negatius)</translation></translations></phrasalverbs><phrasalverbs>come of<translations><translation intransitive="true">resultar de</translation></translations></phrasalverbs><phrasalverbs>come off<translations><translation intransitive="true">1 desenganxar-se 2 tenir èxit (un afer) 3 sortir-se (d'un afer)</translation></translations></phrasalverbs><phrasalverbs>come on<translations><translation intransitive="true">(imperatiu) Au! Vinga!</translation><translation intransitive="true">1 progressar 2 començar a sortir</translation></translations></phrasalverbs><phrasalverbs>come out against<translations><translation intransitive="true">declarar-se en contra</translation></translations></phrasalverbs><phrasalverbs>come out for<translations><translation intransitive="true">declarar-se a favor</translation></translations></phrasalverbs></Entry><Entry frequency="1260000">comedian<nouns>
+</exclamations>
+       <exclamations>come on
+           <translations>
+               <translation>Au! Vinga!</translation>
+           </translations>
+       </exclamations>
+   </Entry><Entry frequency="1260000">comedian<nouns>
         <translations>
             <translation>
                 <translation gender="mf">còmic</translation>
