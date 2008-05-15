@@ -467,9 +467,12 @@
                                 <translation catagory="clothes" gender="m">passamuntanyes<synonyms>ski mask</synonyms></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="71600000">balance<nouns>
-			<translations>
-				<translation gender="m">equilibri</translation>
+	</Entry><Entry frequency="34800000">balance<nouns>
+                            <translations><date>0508</date>
+                                <translation>
+                                    <translation gender="m">equilibri</translation>
+                                    <translation gender="f">ponderació</translation>
+                                </translation>
                                 <translation disambiguate="financial" gender="m">saldo</translation>
 			</translations>
 		</nouns>
@@ -478,17 +481,18 @@
 				<translation>equilibrar</translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="469000">balance of payments<nouns>
-			<translations>
-				<translation gender="f">balança de pagaments</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="3560000">balance sheet<nouns>
-			<translations>
-				<translation gender="m">balanç de situació</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="6660000">balcony<nouns>
+                <expressions>balance of payments
+                    <translations>
+                        <translation catagory="financial" gender="f">balança de pagaments</translation>
+                    </translations>
+                </expressions>
+                <expressions>balance sheet
+                    <translations>
+                        <translation gender="m">balanç de situació</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="6660000">balcony<nouns>
 			<translations>
 				<translation gender="m">balcó<plural>balconies</plural>
 				</translation>

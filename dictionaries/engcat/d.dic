@@ -2112,9 +2112,16 @@
 				</translation>
 			</translations>
 		</prepositions>
-	</Entry><Entry frequency="2130000">despondent<adjectives>
+	</Entry>
+     <Entry frequency="1390000">despondency<nouns>
+                        <translations><date>0508</date>
+                            <translation gender="m">desànim / descoratjament<synonyms>discouragement</synonyms></translation>
+                    </translations>
+            </nouns>
+    </Entry>
+        <Entry frequency="2130000">despondent<adjectives>
 			<translations><date>0408</date>
-				<translation>desanimat / descaigut / abatut</translation>
+                            <translation>desanimat / descaigut / abatut<engexamp>To become despondent</engexamp><catexamp>Desanimar-se / descoratjar-se</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="122000">despondently<adverbs>
@@ -3296,7 +3303,20 @@
 				<translation>descartar</translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="89300000">discover<verbs>
+	</Entry>
+        <Entry frequency="807000">discourage<verbs>
+                            <translations><date>0508</date>
+                                <translation>descoratjar<engexamp>To become discouraged</engexamp><catexamp>Descoratjar-se / desanimar-se</catexamp></translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="2570000">discouragement<nouns>
+                            <translations><date>0508</date>
+                                <translation gender="m">descoratjament<synonyms>despondency</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="89300000">discover<verbs>
 			<translations>
 				<translation>descobrir<synonyms>find</synonyms>
 				</translation>
@@ -3460,7 +3480,20 @@
                     <translation>criticar (algú) abusivament</translation>
                     </translations>
                     </expressions>
-	<phrasalverbs>dish up<translations><translation transitive="true">servir menjar</translation></translations></phrasalverbs></Entry><Entry frequency="1000000">disheveled<adjectives>
+	<phrasalverbs>dish up<translations><translation transitive="true">servir menjar</translation></translations></phrasalverbs></Entry>
+         <Entry frequency="2500000">dishearten<verbs>
+                            <translations><date>0508</date>
+                                <translation>descoratjar<engexamp>To become disheartened</engexamp><catexamp>Descoratjar-se / desanimar-se</catexamp><synonyms>discourage</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry> 
+        <Entry frequency="25600">disheartenment<nouns>
+                            <translations><date>0508</date>
+                                <translation gender="m">descoratjament<synonyms>despondency, discouragement</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1000000">disheveled<adjectives>
 			<translations>
 				<translation local="us">despentinat<otherlocal>dishevelled</otherlocal></translation>
 			</translations>
@@ -4379,13 +4412,23 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="14400000">doll<nouns>
-			<translations>
-				<translation gender="f">nina<synonyms>dolly</synonyms>
-				</translation>
+	</Entry><Entry frequency="10900000">doll<nouns>
+                            <translations><date>0508</date>
+                                <translation gender="f">nina / nineta<synonyms>dolly</synonyms></translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>doll up<translations><translation intransitive="true">(col·loq.) guarnir, empolainar</translation></translations></phrasalverbs></Entry><Entry frequency="36500000">dollar<nouns>
+                <phrasalverbs>doll up
+                    <translations>
+                        <translation register="colloquial" intransitive="true">guarnir / empolainar</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>doll's house
+                    <translations>
+                        <translation gender="f">casa de nines</translation>
+                    </translations>
+                </expressions>
+            </Entry>
+            <Entry frequency="36500000">dollar<nouns>
 			<translations><date>0408</date>
 				<translation catagory="financial" gender="m">dòlar</translation>
 			</translations>
@@ -4395,17 +4438,14 @@
                     <translation local="us">ser faves comptades / més clar que l'aigua / (poder) pujar-hi de peus</translation>
                 </translations>
             </expressions>
-	</Entry><Entry frequency="695000">doll's house<nouns>
-			<translations>
-				<translation gender="f">casa de nines</translation>
+	</Entry><Entry frequency="636000">dollhouse<nouns>
+                            <translations><date>0508</date>
+                                <translation gender="f">casa de nines<synonyms>doll's house</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2680000">dolly<nouns>
 			<translations>
-				<translation gender="f">nina<catnote>La paraula &apos;dolly&apos; és sinònim de &apos;doll&apos;, però l&apos;utilitzen sobretot els nens molt petits.</catnote>
-					<plural>dollies</plural>
-					<synonyms>doll</synonyms>
-				</translation>
+                                <translation gender="f">nina<catnote>La paraula 'dolly' és sinònim de 'doll'.</catnote><plural>dollies</plural><synonyms>doll</synonyms></translation>
 				<translation gender="f">plataforma rodant</translation>
 			</translations>
 		</nouns>
