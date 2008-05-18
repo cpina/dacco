@@ -475,12 +475,12 @@
     </nouns>
     </Entry><Entry frequency="22500000">Cambodia<nouns>
         <translations>
-            <translation gender="f">Cambotja</translation>
+            <translation catagory="country-asia" gender="f">Cambotja</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="1900000">Cambodian<nouns>
         <translations>
-            <translation catagory="nationality" gender="mf">cambotjà</translation>
+            <translation catagory="nationality-asia" gender="mf">cambotjà</translation>
         </translations>
     </nouns>
         <adjectives>
@@ -510,7 +510,7 @@
     </nouns>
     </Entry><Entry frequency="3210000">Cameroon<nouns>
         <translations>
-            <translation gender="m">Camerun</translation>
+            <translation catagory="country-africa" gender="m">Camerun</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="630000">Cameroonian<nouns>
@@ -616,7 +616,7 @@
     </nouns>
     </Entry><Entry frequency="54400000">Canadian<nouns>
         <translations>
-            <translation catagory="nationality" gender="mf">canadenc</translation>
+            <translation catagory="nationality-northamerica" gender="mf">canadenc</translation>
         </translations>
     </nouns>
         <adjectives>
@@ -632,8 +632,7 @@
     </Entry><Entry frequency="18800">Canaries<nouns>
         <translations>
             <translation disambiguate="geography" gender="fpl">Canàries</translation>
-            <translation disambiguate="sports, encyclopaedic" register="colloquial" noteng="TRUE" local="gb">-<catnote>The Canaries és el sobrenom de l'equip de futbol anglès Norwich City FC.</catnote>
-            </translation>
+            <translation disambiguate="sports, encyclopaedic" register="colloquial" local="gb">sobrenom de l'equip de futbol anglès Norwich City FC</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="5030000">canary<nouns>
@@ -750,11 +749,11 @@
             <translation gender="f">carn de canó</translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="49500000">cannot<notinfverbs>
+    </Entry><Entry frequency="49500000">cannot<verbs>
         <translations><date>0408</date>
             <translation>forma negativa del verb auxiliar 'can'<example>I &lt;b&gt;cannot&lt;/b&gt; see how that is relevant.</example></translation>
         </translations>
-    </notinfverbs>
+    </verbs>
     </Entry><Entry frequency="6900000">canoe<nouns>
         <translations>
             <translation gender="f">canoa</translation>
@@ -1075,18 +1074,12 @@
                             <translation catagory="medical">cardiovascular</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="179000000">care<nouns>
-        <translations>
-            <translation gender="f">cura</translation>
-            <translation gender="f">preocupació<example>Just look at him lying there on the sofa, you'd think he didn't have a &lt;b&gt;care&lt;/b&gt; in the world.</example>
-            </translation>
-        </translations>
-    </nouns>
-        <expressions>take care<translations>
-            <translation noteng="TRUE">-<catnote>'Take care' és una expressió afectuosa que s'utilitza en dir 'adéu' a un amic / amiga. Literalment vol dir 'cuida't bé!'</catnote>
-            </translation>
-        </translations>
-        </expressions>
+	</Entry>
+        <Entry frequency="179000000">care<verbs>
+            <translations>
+                <translation>importar-se<engexamp>What do you care?</engexamp><catexamp>A tu què t’importa?</catexamp></translation>
+            </translations>
+        </verbs>
         <phrasalverbs>care about
             <translations>
                 <translation>estimar<example>You can tell John really &lt;b&gt;cares about&lt;/b&gt; his children. It's obvious from how much time he spends with them.</example>
@@ -1099,31 +1092,32 @@
         </phrasalverbs>
         <phrasalverbs>care for
             <translations>
-                <translation>tenir cura de<example>Susie gave up work last year to &lt;b&gt;care for&lt;/b&gt; her disabled son full time.</example>
-                    <example>Peter runs his own business and yet still finds time to &lt;b&gt;care for&lt;/b&gt; his elderly mother</example>
-                </translation>
-                <translation register="formal">agradar
-                    <example>I don't &lt;b&gt;care&lt;/b&gt; much &lt;b&gt;for&lt;/b&gt; Windows. I much prefer Linux.</example>
-                </translation>
-                <translation register="formal">voler
-                    <example>Would you &lt;b&gt;care for&lt;/b&gt; a cup of tea</example>
-                </translation>
-            </translations>
-        </phrasalverbs>
-        <phrasalverbs>take care of
-            <translations>
-                <translation>tenir cura de<example>My neighbour has offered to &lt;b&gt;take care of&lt;/b&gt; my dog while I'm away on holiday next week.</example>
-                    <example>I would love to go shopping with you this afternoon but I can't find anybody to &lt;b&gt;take care of&lt;/b&gt; the kids.</example>
-                </translation>
+                <translation>tenir cura de<example>Susie gave up work last year to &lt;b&gt;care for&lt;/b&gt; her disabled son full time.</example><example>Peter runs his own business and yet still finds time to &lt;b&gt;care for&lt;/b&gt; his elderly mother</example></translation>
+                <translation register="formal">agradar<example>I don't &lt;b&gt;care&lt;/b&gt; much &lt;b&gt;for&lt;/b&gt; Windows. I much prefer Linux.</example></translation>
+                <translation register="formal">voler<example>Would you &lt;b&gt;care for&lt;/b&gt; a cup of tea</example></translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>care to
             <translations>
-                <translation register="formal">voler
-                    <example>I'm going for breakfast at Tiffany's, would you &lt;b&gt;care to&lt;/b&gt; join me?</example>
-                </translation>
+                <translation register="formal">voler<example>I'm going for breakfast at Tiffany's, would you &lt;b&gt;care to&lt;/b&gt; join me?</example></translation>
             </translations>
         </phrasalverbs>
+        <nouns>
+        <translations>
+            <translation gender="f">cura</translation>
+            <translation gender="f">preocupació<example>Just look at him lying there on the sofa, you'd think he didn't have a &lt;b&gt;care&lt;/b&gt; in the world.</example>
+            </translation>
+        </translations>
+    </nouns>
+        <expressions>take care<translations>
+            <translation>cuida't!<catnote>'Take care' és una expressió afectuosa que s'utilitza en dir 'adéu' a un amic / amiga.</catnote></translation>
+        </translations>
+        </expressions>
+         <expressions>take care of
+            <translations>
+                <translation>tenir cura de<example>My neighbour has offered to &lt;b&gt;take care of&lt;/b&gt; my dog while I'm away on holiday next week.</example><example>I would love to go shopping with you this afternoon but I can't find anybody to &lt;b&gt;take care of&lt;/b&gt; the kids.</example></translation>
+            </translations>
+        </expressions>
     </Entry><Entry frequency="301000000">career<nouns>
         <translations>
             <translation gender="f">carrera</translation>
@@ -1758,7 +1752,7 @@
             <translation disambiguate="language" gender="m">català<engexamp>Catalan speaker</engexamp>
                 <catexamp>catalanoparlant</catexamp>
             </translation>
-            <translation disambiguate="nationality" gender="mf">català</translation>
+            <translation disambiguate="nationality-europe" gender="mf">català</translation>
         </translations>
     </nouns>
         <adjectives>
@@ -1786,12 +1780,12 @@
         <translation>catalogar</translation></translations></verbs>
     </Entry><Entry frequency="375000">Catalonia<nouns>
         <translations>
-            <translation gender="f">Catalunya</translation>
+            <translation catagory="country-europe" gender="f">Catalunya</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="746000">Catalonian<nouns>
 			<translations>
-				<translation catagory="nationality" gender="mf">català</translation>
+				<translation catagory="nationality-europe" gender="mf">català</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -3309,7 +3303,7 @@
     </Entry><Entry frequency="54900000">chile<nouns>
         <translations>
             <translation local="us" gender="m">xili / bitxo<otherlocal>chilli</otherlocal><synonyms>chili (Am.)</synonyms></translation>
-            <translation capitalized="Chile" gender="m">Xile</translation>
+            <translation capitalized="Chile" catagory="country-southamerica" gender="m">Xile</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="2940000">Chilean<adjectives>
@@ -3319,7 +3313,7 @@
     </adjectives>
         <nouns>
         <translations>
-        <translation catagory="nationality=southamerica" gender="mf">xilé</translation></translations></nouns>
+        <translation catagory="nationality-southamerica" gender="mf">xilé</translation></translations></nouns>
     </Entry><Entry frequency="5130000">chili<nouns>
         <translations>
             <translation local="us" gender="m">xili / bitxo<otherlocal>chilli</otherlocal><synonyms>chile (Am.)</synonyms>
@@ -5419,7 +5413,7 @@
     </nouns>
     </Entry><Entry frequency="15100000">Colombia<nouns>
         <translations>
-            <translation catagory="geography-country-southamerica" gender="f">Colòmbia</translation>
+            <translation catagory="country-southamerica" gender="f">Colòmbia</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="1290000">Colombian<adjectives>
@@ -5429,7 +5423,7 @@
     </adjectives>
         <nouns>
             <translations>
-                <translation catagory="nationality" gender="mf">colombià</translation>
+                <translation catagory="nationality-southamerica" gender="mf">colombià</translation>
             </translations>
         </nouns>
     </Entry><Entry frequency="4910000">colonel<nouns>
@@ -9779,7 +9773,7 @@
     </verbs>
     </Entry><Entry frequency="7530000">Croatia<nouns>
         <translations>
-            <translation gender="f">Croàcia</translation>
+            <translation catagory="country-europe" gender="f">Croàcia</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="1820000">Croatian<adjectives>
@@ -9790,7 +9784,7 @@
         <nouns>
             <translations>
                 <translation disambiguate="language" gender="m">croat</translation>
-                <translation disambiguate="nationality" gender="mf">croat<synonyms>Croat</synonyms></translation>
+                <translation disambiguate="nationality-europe" gender="mf">croat<synonyms>Croat</synonyms></translation>
             </translations>
         </nouns>
     </Entry><Entry frequency="25300000">croc<nouns>
@@ -10206,7 +10200,7 @@
     </nouns>
     </Entry><Entry frequency="8440000">Cuba<nouns>
         <translations>
-            <translation gender="f">Cuba</translation>
+            <translation catagory="country-northamerica" gender="f">Cuba</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="1940000">Cuban<adjectives>
@@ -10216,7 +10210,7 @@
     </adjectives>
         <nouns>
             <translations>
-                <translation catagory="nationality" gender="mf">cubà</translation>
+                <translation catagory="nationality-northamerica" gender="mf">cubà</translation>
             </translations>
         </nouns>
     </Entry><Entry frequency="7150000">cubic<adjectives>
@@ -10777,10 +10771,10 @@
     </adjectives>
         <nouns>
         <translations>
-        <translation catagory="nationality=europe" gender="mf">xipriota</translation></translations></nouns>
+        <translation catagory="nationality-europe" gender="mf">xipriota</translation></translations></nouns>
     </Entry><Entry frequency="6510000">Cyprus<nouns>
         <translations>
-            <translation gender="m">Xipre</translation>
+            <translation catagory="country-europe" gender="m">Xipre</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="887000">cyst<nouns>
@@ -10816,7 +10810,7 @@
 	</Entry><Entry frequency="7250000">Czech<nouns>
         <translations>
             <translation disambiguate="language" gender="m">txec</translation>
-            <translation disambiguate="nationality" gender="mf">txec</translation>
+            <translation disambiguate="nationality-europe" gender="mf">txec</translation>
         </translations>
     </nouns>
         <adjectives>
@@ -10831,7 +10825,7 @@
     </nouns>
     </Entry><Entry frequency="13400000">Czech Republic<nouns>
         <translations>
-            <translation gender="f">República Txeca</translation>
+            <translation catagory="country-europe" gender="f">República Txeca</translation>
         </translations>
     </nouns>
     </Entry></dictionary>

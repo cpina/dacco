@@ -119,9 +119,14 @@
 				<translation>malgaix<synonyms>Malagasy</synonyms></translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation catagory="nationality-africa" gender="mf">malgaix</translation>
+                    </translations>
+                </nouns>
 	</Entry><Entry frequency="5230000">Madagascar<nouns>
 			<translations>
-				<translation gender="m">Madagascar</translation>
+				<translation catagory="country-africa" gender="m">Madagascar</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1640000">madcap<adjectives>
@@ -131,7 +136,7 @@
 		</adjectives>
 	</Entry><Entry frequency="225000">mad cow disease<nouns>
 			<translations>
-				<translation register="colloquial" gender="f">malaltia de les vaques boges</translation>
+				<translation catagory="medical-illness" register="colloquial" gender="f">malaltia de les vaques boges</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="40000">made-for-television movie<nouns>
@@ -141,8 +146,7 @@
 		</nouns>
 	</Entry><Entry frequency="14300">Madejski Stadium<nouns>
 			<translations>
-				<translation catagory="sports, encyclopaedic" noteng="TRUE" local="gb">-<catnote>Madejski Stadium és el nom de l'estadi de l'equip de futbol Reading FC.</catnote>
-				</translation>
+				<translation catagory="sports, encyclopaedic" local="gb">nom de l'estadi de l'equip de futbol Reading FC</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="350000">madeleine<nouns>
@@ -570,7 +574,7 @@
 		</adjectives>
                 </Entry><Entry frequency="807000">Malagasy<nouns>
 			<translations>
-				<translation gender="m">malgaix</translation>
+				<translation catagory="language" gender="m">malgaix</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -586,13 +590,12 @@
 		</nouns>
 	</Entry><Entry frequency="5950000">Malawi<nouns>
 			<translations>
-				<translation gender="m">Malawi</translation>
+				<translation catagory="country-africa" gender="m">Malawi</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1400000">Malay<nouns>
 			<translations>
 				<translation disambiguate="language" gender="m">malai</translation>
-                                <translation disambiguate="nationality" gender="mf">malai</translation>
                             </translations>
 		</nouns>
                 <adjectives>
@@ -622,7 +625,7 @@
 		</nouns>
 	</Entry><Entry frequency="6790000">Mali<nouns>
 			<translations>
-				<translation gender="m">Mali</translation>
+				<translation catagory="country-africa" gender="m">Mali</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="576000">Malian<adjectives>
@@ -983,7 +986,7 @@
 	</Entry><Entry frequency="530">Maori<nouns>
 			<translations><date>0305</date>
 				<translation disambiguate="language" gender="m">maori</translation>
-                                <translation disambiguate="nationality" gender="mf">Maori</translation>
+                                <translation disambiguate="nationality-oceania" gender="mf">Maori</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -1731,7 +1734,7 @@
 		</nouns>
 	</Entry><Entry frequency="2780000">Mauritania<nouns>
 			<translations>
-				<translation gender="f">Mauritània</translation>
+				<translation catagory="country-africa" gender="f">Mauritània</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="749000">Mauritanian<adjectives>
@@ -1741,7 +1744,7 @@
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation catagory="nationality" gender="mf">maurità</translation></translations></nouns>
+                <translation catagory="nationality-africa" gender="mf">maurità</translation></translations></nouns>
 	</Entry><Entry frequency="5420000">Mauritius<nouns>
 			<translations>
 				<translation gender="m">Maurici</translation>
@@ -2202,7 +2205,7 @@
 		</nouns>
 	</Entry><Entry frequency="503000">Melanesia<nouns>
 			<translations>
-				<translation catagory="country-australasia" gender="f">Melanèsia</translation>
+				<translation catagory="country-oceania" gender="f">Melanèsia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="191000">Melanesian<adjectives>
@@ -2212,7 +2215,7 @@
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation catagory="nationality" gender="mf">melanesi</translation></translations></nouns>
+                <translation catagory="nationality-oceania" gender="mf">melanesi</translation></translations></nouns>
 	</Entry><Entry frequency="864000">melasma<nouns>
 			<translations><date>0408</date>
 				<translation catagory="medical" gender="f">melasma</translation>
@@ -2852,7 +2855,7 @@
 		</verbs>
 	</Entry><Entry frequency="10000">mick<nouns>
 			<translations>
-				<translation register="offensive" disambiguate="nationality" gender="m">irlandès</translation>
+				<translation disambiguate="nationality-europe" register="offensive" gender="m">irlandès</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="15000">mickey<nouns>
@@ -2883,7 +2886,7 @@
 		</nouns>
 	</Entry><Entry frequency="18600000">Micronesia<nouns>
 			<translations>
-				<translation catagory="country-australasia" gender="f">Micronèsia</translation>
+				<translation catagory="country-oceania" gender="f">Micronèsia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="147000">Micronesian<adjectives>
@@ -2893,7 +2896,7 @@
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation catagory="nationality" gender="mf">micronesi</translation></translations></nouns>
+                <translation catagory="nationality-oceania" gender="mf">micronesi</translation></translations></nouns>
 	</Entry><Entry frequency="3240000">microorganism<nouns><mistakes>micro-organism</mistakes>
 			<translations>
 				<translation catagory="biology" gender="m">microorganisme<catnote>Aquesta paraula també s'escriu 'micro-organism'.</catnote></translation>
@@ -4402,7 +4405,7 @@
                 </adjectives>
 	</Entry><Entry frequency="5980000">Montenegro<nouns>
 			<translations>
-				<translation gender="m">Montenegro</translation>
+				<translation catagory="country-europe" gender="m">Montenegro</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="206000000">month<nouns>
@@ -4867,23 +4870,22 @@
 		</nouns>
 	</Entry><Entry frequency="35300000">mount<verbs>
 			<translations>
-				<translation>augmentar / incrementar<example>Deaths &lt;b&gt;mount&lt;/b&gt; in Iraq</example>
-					<engnote>'Augmentar' and 'incrementar' mean 'to mount' as in 'to increase'.</engnote>
-					<synonyms>increase</synonyms>
-				</translation>
-				<translation>organitzar (una manifestació / una protesta / una campanya)<engnote>'Organitzar' means 'to mount' as in 'to mount a campaign / protest etc.'</engnote>
-					<synonyms>stage, organize</synonyms>
-				</translation>
-				<translation/>
+				<translation>augmentar / incrementar<example>Deaths &lt;b&gt;mount&lt;/b&gt; in Iraq</example><engnote>'Augmentar' and 'incrementar' mean 'to mount' as in 'to increase'.</engnote><synonyms>increase</synonyms></translation>
+				<translation>organitzar (una manifestació / una protesta / una campanya)<engnote>'Organitzar' means 'to mount' as in 'to mount a campaign / protest etc.'</engnote><synonyms>stage, organize</synonyms></translation>
 			</translations>
 		</verbs>
+                 <phrasalverbs>mount up
+                    <translations>
+                        <translation intransitive="true">acumular / fer-se més gran</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
-				<translation gender="f">muntanya<catnote>Els noms de les muntanyes molt sovint comencen per 'Mount' (per ex: Mount Everest, Mount Rushmore).</catnote>
-				</translation>
+				<translation gender="f">muntanya<catnote>Els noms de les muntanyes molt sovint comencen per 'Mount' (per ex: Mount Everest, Mount Rushmore).</catnote></translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>mount up<translations><translation intransitive="true">acumular, fer-se més gran</translation></translations></phrasalverbs></Entry><Entry frequency="52400000">mountain<nouns>
+            </Entry>
+            <Entry frequency="52400000">mountain<nouns>
 			<translations>
 				<translation gender="f">muntanya</translation>
 			</translations>
@@ -4983,7 +4985,7 @@
                 </phrasalverbs>
 	</Entry><Entry frequency="60600">mouth organ<nouns>
 			<translations>
-				<translation catagory="entertainment-music-instrument" gender="f">harmònica<synonym>harmonica</synonym></translation>
+				<translation catagory="entertainment-music-instrument" gender="f">harmònica<synonyms>harmonica</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="79000">mouth to mouth (resuscitation)<nouns>
@@ -5079,7 +5081,7 @@
 		</nouns>
 	</Entry><Entry frequency="167000">Mozambican<nouns>
 			<translations>
-				<translation catagory="nationality" gender="mf">moçambiquès</translation>
+				<translation catagory="nationality-africa" gender="mf">moçambiquès</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -5087,7 +5089,7 @@
                 <translation>moçambiquès</translation></translations></adjectives>
 	</Entry><Entry frequency="10300000">Mozambique<nouns>
 			<translations>
-				<translation gender="m">Moçambic</translation>
+				<translation catagory="country-africa" gender="m">Moçambic</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="36000">mozzie<nouns>

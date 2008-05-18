@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Robert Hibbert (Penn State Univ) -->
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Documents and Settings\James\My Documents\dacco projects\dacco\dictionary\dic.xsd">
         <Entry frequency="4200000">jack<nouns>
                 <translations><date>1007</date>
@@ -118,18 +117,18 @@
 		</adjectives>
 	</Entry><Entry frequency="477000">janitor<nouns>
 			<translations>
-				<translation local="us" gender="m">porter<otherlocal>caretaker</otherlocal>
+				<translation catagory="work-job" local="us" gender="m">porter<otherlocal>caretaker</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="79800000">January<nouns>
 			<translations>
-				<translation gender="m">gener</translation>
+				<translation catagory="time-month" gender="m">gener</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="61000000">Japan<nouns>
 			<translations>
-				<translation gender="m">Japó</translation>
+				<translation catagory="country-asia" gender="m">Japó</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2000">Japan air<nouns>
@@ -140,7 +139,7 @@
 	</Entry><Entry frequency="25800000">Japanese<nouns>
 			<translations>
 				<translation disambiguate="language" gender="m">japonès</translation>
-				<translation disambiguate="nationality" gender="mf">japonès</translation>
+				<translation sourceplural="the Japanese" disambiguate="nationality" gender="mpl">japonesos</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -812,8 +811,7 @@
 		</adjectives>
 		<adverbs>
 			<translations>
-				<translation register="colloquial">realment / totalment<engexamp/>
-				</translation>
+				<translation register="colloquial">realment / totalment</translation>
 			</translations>
 		</adverbs>
 		<expressions>to have just done something

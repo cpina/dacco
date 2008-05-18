@@ -3,10 +3,22 @@
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Documents and Settings\James\My Documents\dacco projects\dacco\dictionary\dic.xsd">
 	<Entry frequency="2980000">Gabon<nouns>
 			<translations>
-				<translation gender="m">Gabon</translation>
+				<translation catagory="country-africa" gender="m">Gabon</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="6670000">gadget<nouns>
+	</Entry>
+        <Entry frequency="478000">Gabonese<adjectives>
+                            <translations><date>0508</date>
+				<translation>gabonès</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation catagory="nationality-africa" sourceplural="the Gabonese" gender="mpl">gabonesos</translation>
+                    </translations>
+                </nouns>
+	</Entry>
+        <Entry frequency="6670000">gadget<nouns>
 			<translations>
 				<translation>
 					<translation gender="m">dispositiu</translation>
@@ -16,7 +28,7 @@
 		</nouns>
 	</Entry><Entry frequency="2820">Gaelic<nouns>
 			<translations>
-				<translation gender="m">gaèlic</translation>
+				<translation catagory="language" gender="m">gaèlic</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -84,7 +96,7 @@
 		</nouns>
 	</Entry><Entry frequency="971000">Galapagos Islands<nouns>
 			<translations>
-				<translation catagory="geography" gender="fpl">Illes Galápagos</translation>
+				<translation catagory="region-southamerica" gender="fpl">Illes Galápagos</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="8950000">galaxy<nouns>
@@ -98,10 +110,17 @@
 				<translation gender="m">temporal de vent</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="335000">Galician<nouns>
+	</Entry>
+        <Entry frequency="2220000">Galicia<nouns>
+                            <translations><date>0508</date>
+				<translation catagory="region-europe">Galícia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="335000">Galician<nouns>
 			<translations>
 				<translation disambiguate="language" gender="m">gallec</translation>
-				<translation disambiguate="nationality" gender="mf">gallec</translation>
+				<translation disambiguate="nationality-europe" gender="mf">gallec</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -965,13 +984,13 @@
 		</adjectives>
 	</Entry><Entry frequency="5000000">Georgia<nouns>
 			<translations>
-				<translation gender="f">Geòrgia</translation>
+				<translation catagory="country-europe, country-asia" gender="f">Geòrgia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="300000">Georgian<nouns>
 			<translations>
 				<translation disambiguate="language" gender="m">georgià</translation>
-				<translation disambiguate="nationality" gender="mf">georgià</translation>
+				<translation disambiguate="nationality-europe, nationality-asia" gender="mf">georgià</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -1037,7 +1056,7 @@
 	</Entry><Entry frequency="84300000">German<nouns>
 			<translations>
 				<translation disambiguate="language" gender="m">alemany</translation>
-				<translation disambiguate="nationality" gender="mf">alemany</translation>
+				<translation disambiguate="nationality-europe" gender="mf">alemany</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -1052,7 +1071,7 @@
 		</adjectives>
 	</Entry><Entry frequency="45600">German measles<nouns>
 			<translations>
-				<translation gender="f">rubèola<synonyms>rubella</synonyms>
+				<translation catagory="medical-illness" gender="f">rubèola<synonyms>rubella</synonyms>
 				</translation>
 			</translations>
 		</nouns>
@@ -1063,27 +1082,27 @@
 		</nouns>
 	</Entry><Entry frequency="93200000">Germany<nouns>
 			<translations>
-				<translation gender="f">Alemanya</translation>
+				<translation catagory="country-europe" gender="f">Alemanya</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="158000">germinate<verbs>
 			<translations>
-				<translation>germinar</translation>
+				<translation catagory="biology">germinar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="315000">germination<nouns>
 			<translations>
-				<translation gender="f">germinació</translation>
+				<translation catagory="biology" gender="f">germinació</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="52200">gerund<nouns>
 			<translations>
-				<translation gender="m">gerundi</translation>
+				<translation catagory="linguistics" gender="m">gerundi</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="334000">gestation<nouns>
 			<translations>
-				<translation gender="f">gestació</translation>
+				<translation catagory="biology" gender="f">gestació</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="22900">gesticulate<verbs>
@@ -1976,9 +1995,7 @@
                 </phrasalverbs>
 	</Entry><Entry frequency="42900">gobbledygook<nouns>
 			<translations>
-				<translation register="colloquial" noteng="TRUE">-<catnote>Si es diu que un text és 'gobbledygook', vol dir que està escrit en un llenguatge que és tan complex que no aconsegueixes d'entendre'l.</catnote>
-					<example/>
-				</translation>
+				<translation register="colloquial" noteng="TRUE">-<catnote>Si es diu que un text és 'gobbledygook', vol dir que està escrit en un llenguatge que és tan complex que no aconsegueixes d'entendre'l.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2410000">goblet<nouns>
@@ -2787,7 +2804,7 @@
 		</nouns>
 	</Entry><Entry frequency="21800000">Greece<nouns>
 			<translations>
-				<translation gender="f">Grècia</translation>
+				<translation catagory="country-europe" gender="f">Grècia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="4700000">greed<nouns>
@@ -2807,7 +2824,7 @@
 	</Entry><Entry frequency="15600000">Greek<nouns>
 			<translations>
 				<translation disambiguate="language" gender="m">grec</translation>
-				<translation disambiguate="nationality" gender="mf">grec</translation>
+				<translation disambiguate="nationality-europe" gender="mf">grec</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -3525,7 +3542,7 @@
 		</nouns>
 	</Entry><Entry frequency="1960000">Guyana<nouns>
 			<translations>
-				<translation gender="f">Guaiana</translation>
+				<translation catagory="country-southamerica" gender="f">Guaiana</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="4710000">gym<nouns>

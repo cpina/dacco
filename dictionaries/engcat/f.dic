@@ -347,7 +347,7 @@
 		</nouns>
                 </Entry><Entry frequency="1710000">Falkland Islands<nouns>
 			<translations>
-				<translation gender="fpl">Illes Malvines</translation>
+				<translation catagory="country-southamerica" gender="fpl">Illes Malvines</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="82300000">fall<verbs>
@@ -1878,7 +1878,7 @@
 		</nouns>
 	</Entry><Entry frequency="1190000">Filipino<nouns>
 			<translations>
-				<translation catagory="nationality" gender="mf">filipí</translation>
+				<translation catagory="nationality-asia" gender="mf">filipí</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -2135,12 +2135,12 @@
 		</adjectives>
 	</Entry><Entry frequency="17000000">Finland<nouns>
 			<translations>
-				<translation gender="f">Finlàndia</translation>
+				<translation catagory="country-europe" gender="f">Finlàndia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1720000">Finn<nouns>
 			<translations>
-				<translation catagory="nationality" gender="mf">finès / finlandès</translation>
+				<translation catagory="nationality-europe" gender="mf">finès / finlandès</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="3580000">Finnish<nouns>
@@ -2659,7 +2659,14 @@
 				<translation>combustible<synonyms>inflammable</synonyms></translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="22300000">flank<nouns>
+	</Entry>
+        <Entry frequency="597000">Flanders<nouns>
+                            <translations><date>0508</date>
+				<translation catagory="region-europe">Flandes</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="22300000">flank<nouns>
 			<translations>
 				<translation gender="m">flanc</translation>
 			</translations>
@@ -2858,7 +2865,25 @@
 				<translation gender="f">flota</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="21400000">flesh<nouns>
+	</Entry>
+        <Entry frequency="84900">Fleming<nouns>
+                            <translations><date>0508</date>
+				<translation catagory="nationality-europe" gender="mf">flamenc</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="563000">Flemish<adjectives>
+                            <translations><date>0508</date>
+                                <translation>flamenc</translation>
+                            </translations>
+                        </adjectives>
+                        <nouns>
+                            <translations>
+				<translation catagory="language" gender="m">flamenc</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="21400000">flesh<nouns>
 			<translations><date>0807</date>
 				<translation gender="f">carn</translation>
 			</translations>
@@ -3118,7 +3143,7 @@
 		</nouns>
                 <verbs>
                 <translations>
-                <translation>enfarinar<examples>Grease and &lt;b&gt;flour&lt;/b&gt; the baking sheet.</examples></translation>
+                <translation>enfarinar<example>Grease and &lt;b&gt;flour&lt;/b&gt; the baking sheet.</example></translation>
                 </translations>
                 </verbs>
 	</Entry><Entry frequency="13800000">flow<verbs>
@@ -4279,7 +4304,7 @@
 		</nouns>
 	</Entry><Entry frequency="100000000">France<nouns>
 			<translations>
-				<translation gender="f">França</translation>
+				<translation catagory="country-europe" gender="f">França</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="4390000">Franciscan<nouns>
@@ -4520,7 +4545,7 @@
 	</Entry><Entry frequency="58500000">French<nouns>
 			<translations>
 				<translation disambiguate="language" gender="m">francès</translation>
-				<translation disambiguate="nationality" gender="mf">francès</translation>
+				<translation sourceplural="the French" disambiguate="nationality-europe" gender="mpl">francesos</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -4536,7 +4561,7 @@
 		</nouns>
 	</Entry><Entry frequency="1400000">French Guiana<nouns>
 			<translations>
-				<translation gender="f">Guaiana Francesa</translation>
+				<translation catagory="country-southamerica" gender="f">Guaiana Francesa</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="531000">French kiss<nouns>
@@ -4546,7 +4571,14 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="5400">French stick<nouns>
+	</Entry>
+        <Entry frequency="7220000">Frenchman<nouns>
+                            <translations><date>0508</date>
+                                <translation catagory="nationality-europe" gender="m">francès<plural>Frenchmen</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="5400">French stick<nouns>
 			<translations>
 				<translation local="gb" gender="f">baguette<synonyms>baguette</synonyms>
 				</translation>
@@ -4774,10 +4806,17 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="436000">Frisian<nouns>
+	</Entry>
+         <Entry frequency="764000">Frisia<nouns>
+                        <translations><date>0508</date>
+                            <translation disambiguate="region-europe">Frísia</translation>
+                        </translations>        
+                    </nouns>
+                </Entry>
+        <Entry frequency="436000">Frisian<nouns>
 			<translations>
 				<translation disambiguate="language" gender="m">frisó</translation>
-                                <translation disambiguate="nationality" gender="mf">frisó</translation>
+                                <translation disambiguate="nationality-europe" gender="mf">frisó</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -4813,7 +4852,7 @@
 	</Entry><Entry frequency="6510000">frog<nouns>
 			<translations>
 				<translation disambiguate="animal" gender="f">granota</translation>
-				<translation disambiguate="nationality" register="offensive" gender="mf">francès</translation>
+				<translation capitalized="Frog" disambiguate="nationality-europe" register="offensive" gender="mf">francès</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="23200000">from<prepositions>
