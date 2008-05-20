@@ -3,7 +3,7 @@
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Documents and Settings\James\My Documents\dacco projects\dacco\dictionary\dic.xsd">
     <Entry frequency="10200000">cab<nouns>
         <translations>
-            <translation local="us" gender="m">taxi<otherlocal>taxi</otherlocal>
+            <translation catagory="transport-mode" local="us" gender="m">taxi<otherlocal>taxi</otherlocal>
             </translation>
         </translations>
     </nouns>
@@ -16,12 +16,12 @@
     </nouns>
     </Entry><Entry frequency="1430000">cabbage<nouns>
         <translations>
-            <translation gender="m">col</translation>
+            <translation catagory="food-vegetable" gender="m">col</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="127000">cabbie<nouns>
         <translations>
-            <translation register="colloquial" gender="mf">taxista<catnote>Aquesta paraula també s'escriu 'cabby'.</catnote></translation>
+            <translation catagory="work-job" register="colloquial" gender="mf">taxista<catnote>Aquesta paraula també s'escriu 'cabby'.</catnote></translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="294000">cabby<nouns>
@@ -31,7 +31,7 @@
     </nouns>
     </Entry><Entry frequency="179000">cab driver<nouns>
         <translations>
-            <translation local="us" gender="mf">taxista<otherlocal>taxi driver</otherlocal></translation>
+            <translation catagory="work-job" local="us" gender="mf">taxista<otherlocal>taxi driver</otherlocal></translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="10800000">cabin<nouns>
@@ -61,7 +61,7 @@
     </Entry><Entry frequency="35300000">cabinet<nouns>
         <translations>
             <translation disambiguate="politics" local="gb" gender="m">consell de ministres / gabinet</translation>
-            <translation gender="m">armari<synonyms>cupboard</synonyms>
+            <translation catagory="household" gender="m">armari<synonyms>cupboard</synonyms>
             </translation>
         </translations>
     </nouns>
@@ -77,7 +77,7 @@
     </nouns>
     </Entry><Entry frequency="282000">cable car<nouns>
         <translations>
-            <translation gender="m">telefèric</translation>
+            <translation catagory="transport-mode" gender="m">telefèric</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="11300000">cable modem<nouns>
@@ -103,7 +103,7 @@
     </nouns>
     </Entry><Entry frequency="1350000">cactus<nouns>
         <translations>
-            <translation gender="m">cactus<plural>cacti</plural>
+            <translation catagory="plants" gender="m">cactus<plural>cacti</plural>
             </translation>
         </translations>
     </nouns>
@@ -144,46 +144,46 @@
     </verbs>
     </Entry><Entry frequency="555000">cadmium<nouns>
         <translations>
-            <translation gender="m">cadmi<engexamp>Nickel-cadmium battery</engexamp><catexamp>Bateria de níquel-cadmi</catexamp></translation>
+            <translation catagory="chemistry" gender="m">cadmi<engexamp>Nickel-cadmium battery</engexamp><catexamp>Bateria de níquel-cadmi</catexamp></translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="95500">caesarean<nouns>
         <translations>
-            <translation local="gb" gender="f">cesària<synonyms>caesarean section, c-section</synonyms>
+            <translation local="gb" catagory="medical" gender="f">cesària<synonyms>caesarean section, c-section</synonyms>
                 <otherlocal>cesarean</otherlocal>
             </translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="163800">caesarean section<nouns>
         <translations>
-            <translation local="gb" gender="f">cesària<synonyms>caesarean, c-section</synonyms>
+            <translation local="gb" catagory="medical" gender="f">cesària<synonyms>caesarean, c-section</synonyms>
                 <otherlocal>cesarean section</otherlocal>
             </translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="73600000">cafe<nouns>
         <translations>
-            <translation gender="f">cafeteria<catnote>Aquesta paraula també s'escriu 'café'.</catnote></translation>
+            <translation catagory="food" gender="f">cafeteria<catnote>Aquesta paraula també s'escriu 'café'.</catnote></translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="37800000">café<nouns>
         <translations>
-            <translation gender="f">cafeteria<catnote>Aquesta paraula també s'escriu 'cafe' (sense accent).</catnote></translation>
+            <translation catagory="food" gender="f">cafeteria<catnote>Aquesta paraula també s'escriu 'cafe' (sense accent).</catnote></translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="271000">cafetière<nouns>
         <translations>
-            <translation flickr="http://www.flickr.com/photos/coffeegeek/92279083/" picture="http://static.flickr.com/32/92279083_a8e53f2e3c.jpg" gender="f">cafetera</translation>
+            <translation catagory="food-drink" flickr="http://www.flickr.com/photos/coffeegeek/92279083/" picture="http://static.flickr.com/32/92279083_a8e53f2e3c.jpg" gender="f">cafetera</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="11400000">caffeine<nouns>
         <translations>
-            <translation gender="f">cafeïna</translation>
+            <translation catagory="food-drink" gender="f">cafeïna</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="12400000">cage<nouns>
         <translations>
-            <translation gender="f">gàbia</translation>
+            <translation catagory="animal" gender="f">gàbia</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="922000">caiman<nouns>
@@ -193,7 +193,7 @@
     </nouns>
     </Entry><Entry frequency="7810000">Cairo<nouns>
         <translations>
-            <translation gender="m">Caire<engnote>Cairo is 'El Caire' in Catalan (e.g. 'els ministres s'havien de reunir a la capital egípcia, El Caire.'</engnote></translation>
+            <translation catagory="city-africa-egypt" gender="m">Caire<engnote>Cairo is 'El Caire' in Catalan (e.g. 'els ministres s'havien de reunir a la capital egípcia, El Caire.'</engnote></translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="1600000">cajole<verbs>
@@ -203,7 +203,7 @@
     </verbs>
     </Entry><Entry frequency="6020000">cake<nouns>
         <translations>
-            <translation gender="m">pastís</translation>
+            <translation catagory="food" gender="m">pastís</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="1100000">cakewalk<nouns>
@@ -229,19 +229,19 @@
     </nouns>
     </Entry><Entry frequency="31000000">calculate<verbs>
         <translations>
-            <translation>calcular / fer càlculs</translation>
+            <translation catagory="maths">calcular / fer càlculs</translation>
         </translations>
     </verbs>
     </Entry><Entry frequency="25000000">calculation<nouns>
         <translations>
-            <translation gender="m">càlcul<engexamp>To do your calculations</engexamp>
+            <translation catagory="maths" gender="m">càlcul<engexamp>To do your calculations</engexamp>
                 <catexamp>Fer càlculs</catexamp>
             </translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="125000">calculation table<nouns>
 			<translations><date>0707</date>
-                            <translation gender="m">barem</translation>
+                            <translation catagory="maths" gender="m">barem</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="40200000">calculator<nouns>
@@ -251,7 +251,7 @@
     </nouns>
     </Entry><Entry frequency="16100000">Calcutta<nouns>
         <translations>
-            <translation catagory="geography-city-asia-india">Calcuta</translation>
+            <translation catagory="city-asia-india">Calcuta</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="256000000">calendar<nouns>
@@ -283,7 +283,7 @@
     </nouns>
     </Entry><Entry frequency="10900000">California<nouns>
         <translations>
-            <translation gender="f">Califòrnia</translation>
+            <translation catagory="region-northamerica-usa" gender="f">Califòrnia</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="596000">Californian<adjectives>
@@ -293,7 +293,7 @@
     </adjectives>
     </Entry><Entry frequency="529000000">call<verbs>
         <translations>
-            <translation>trucar / telefonar<example>His mother reminded him, for the umpteenth time, to &lt;b&gt;call&lt;/b&gt; her as soon as he got there</example>
+            <translation catagory="telephone">trucar / telefonar<example>His mother reminded him, for the umpteenth time, to &lt;b&gt;call&lt;/b&gt; her as soon as he got there</example>
                 <example>&lt;b&gt;Call&lt;/b&gt; me any time tomorrow after 1 o'clock</example><synonyms>phone, ring</synonyms>
             </translation>
             <translation>anomenar<example>The couple &lt;b&gt;called&lt;/b&gt; the baby 'Helen' after her grandmother</example>
@@ -415,7 +415,7 @@
         </expressions>
         <nouns>
             <translations>
-                <translation gender="f">trucada<engnote>'Trucada' means 'call' in the sense 'telephone call'.</engnote></translation>
+                <translation catagory="telephone" gender="f">trucada<engnote>'Trucada' means 'call' in the sense 'telephone call'.</engnote></translation>
                 <translation gender="f">crida</translation>
                 <translation gender="f">convocatòria<example>The group issued a &lt;b&gt;call&lt;/b&gt; for papers for its 2006 annual conference.</example></translation>
             </translations>
@@ -439,13 +439,13 @@
     </nouns>
     </Entry><Entry frequency="26400">caller display<nouns>
         <translations>
-            <translation gender="f">identificació número entrant<synonyms>caller ID</synonyms>
+            <translation catagory="telephone" gender="f">identificació número entrant<synonyms>caller ID</synonyms>
             </translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="1330000">caller ID<nouns>
         <translations>
-            <translation gender="f">identificació número entrant<synonyms>caller display</synonyms>
+            <translation catagory="telephone" gender="f">identificació número entrant<synonyms>caller display</synonyms>
             </translation>
         </translations>
     </nouns>
@@ -462,7 +462,7 @@
     </nouns>
     </Entry><Entry frequency="116000">calling code<nouns>
         <translations>
-            <translation gender="m">codi telefònic</translation>
+            <translation catagory="telephone" gender="m">codi telefònic</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="5890000">callous<adjectives>
@@ -472,7 +472,7 @@
     </adjectives>
     </Entry><Entry frequency="3010">call waiting<nouns>
         <translations>
-            <translation gender="f">trucada en espera</translation>
+            <translation catagory="telephone" gender="f">trucada en espera</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="4780000">calm<adjectives>
@@ -507,7 +507,7 @@
     </adverbs>
     </Entry><Entry frequency="2770000">calorie<nouns>
         <translations>
-            <translation gender="f">caloria</translation>
+            <translation catagory="food" gender="f">caloria</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="119000">calque<nouns>
@@ -1898,6 +1898,22 @@
                 </translation>
             </translations>
         </expressions>
+        <phrasalverbs>catch at
+            <translations>
+                <translation intransitive="true">intentar agafar</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>catch on
+            <translations>
+                <translation register="colloquial" intransitive="true">popularitzar-se</translation>
+                <translation register="colloquial" intransitive="true">entendre</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>catch out
+            <translations>
+                <translation transitive="true">enxampar</translation>
+            </translations>
+        </phrasalverbs>
         <phrasalverbs>catch up
             <translations>
                 <translation>arribar al mateix nivell</translation>
@@ -1908,29 +1924,38 @@
                 <translation>posar-se al dia (pel que fa a alguna cosa)</translation>
             </translations>
         </phrasalverbs>
+        <phrasalverbs>catch up to
+            <translations>
+                <translation intransitive="true">arribar al mateix nivell que</translation>
+            </translations>
+        </phrasalverbs>
         <phrasalverbs>catch up with (someone)
             <translations>
                 <translation>atrapar (algú que va més endavant)</translation>
             </translations>
         </phrasalverbs>
-    <phrasalverbs>catch at<translations><translation intransitive="true">intentar agafar</translation></translations></phrasalverbs><phrasalverbs>catch on<translations><translation intransitive="true">(col·loq.) 1 popularitzar-se 2 entendre</translation></translations></phrasalverbs><phrasalverbs>catch out<translations><translation transitive="true">enxampar</translation></translations></phrasalverbs><phrasalverbs>catch up on<translations><translation intransitive="true">posar-se al dia pel que fa a</translation></translations></phrasalverbs><phrasalverbs>catch up to<translations><translation intransitive="true">arribar al mateix nivell que</translation></translations></phrasalverbs></Entry><Entry frequency="8060000">catchy<adjectives>
-        <translations>
-            <translation>agradable i fàcil de recordar</translation>
-            <translation local="us">enganyós / amb trampa<engexamp>A catchy question</engexamp><catexamp>Una pregunta amb trampa</catexamp></translation>
-        </translations>
-    </adjectives>
-    </Entry><Entry frequency="214000">catechism<nouns>
-        <translations>
-            <translation gender="m">catecisme</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="444000">categorical<adjectives>
-        <translations>
-            <translation>categòric</translation>
-            <translation>taxatiu</translation>
-        </translations>
-    </adjectives>
-    </Entry><Entry frequency="145000">categorically<adverbs>
+        </Entry>
+        <Entry frequency="8060000">catchy<adjectives>
+            <translations>
+                <translation>agradable i fàcil de recordar</translation>
+                <translation local="us">enganyós / amb trampa<engexamp>A catchy question</engexamp><catexamp>Una pregunta amb trampa</catexamp></translation>
+            </translations>
+            </adjectives>
+        </Entry>
+        <Entry frequency="214000">catechism<nouns>
+            <translations>
+                <translation gender="m">catecisme</translation>
+            </translations>
+            </nouns>
+        </Entry>
+        <Entry frequency="444000">categorical<adjectives>
+            <translations>
+                <translation>categòric</translation>
+                <translation>taxatiu</translation>
+            </translations>
+        </adjectives>
+        </Entry>
+        <Entry frequency="145000">categorically<adverbs>
         <translations>
             <translation>rotundament</translation>
         </translations>
@@ -2066,7 +2091,14 @@
             <translation gender="f">cova</translation>
         </translations>
     </nouns>
-    <phrasalverbs>cave in<translations><translation intransitive="true">(col·loq.) 1 enfondrar-se 2 rendir-se</translation></translations></phrasalverbs></Entry><Entry frequency="245000">cave diving<nouns>
+    <phrasalverbs>cave in
+        <translations>
+            <translation register="colloquial" intransitive="true">enfondrar-se</translation>
+            <translation register="colloquial" intransitive="true">rendir-se</translation>
+        </translations>
+    </phrasalverbs>
+    </Entry>
+    <Entry frequency="245000">cave diving<nouns>
         <translations>
             <translation catagory="sports-event" gender="m">espeleobusseig</translation>
         </translations>
@@ -2442,20 +2474,20 @@
     </nouns>
     </Entry><Entry frequency="397000">cervix<nouns>
         <translations>
-            <translation gender="f">cèrvix<plural>cervixes / cervices</plural>
+            <translation catagory="body" gender="f">cèrvix<plural>cervixes / cervices</plural>
             </translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="95500">cesarean<nouns>
         <translations>
-            <translation local="us" gender="f">cesària<synonyms>cesarean section, c-section</synonyms>
+            <translation local="us" catagory="medical" gender="f">cesària<synonyms>cesarean section, c-section</synonyms>
                 <otherlocal>caesarean</otherlocal>
             </translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="163800">cesarean section<nouns>
         <translations>
-            <translation local="us" gender="f">cesària<synonyms>cesarean, c-section</synonyms>
+            <translation local="us" catagory="medical" gender="f">cesària<synonyms>cesarean, c-section</synonyms>
                 <otherlocal>caesarean</otherlocal>
             </translation>
         </translations>
@@ -2487,12 +2519,12 @@
         </verbs>
         <phrasalverbs>chain together
             <translations>
-                <translation>encadenar</translation>
+                <translation>encadenar / lligar (amb cadena)<example>Protesters &lt;b&gt;chained&lt;/b&gt; themselves &lt;/b&gt; together outside the abortion clinic.</example></translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>chain up
             <translations>
-                <translation>encadenar</translation>
+                <translation>encadenar / lligar (amb cadena)<example>He &lt;b&gt;chained&lt;/b&gt; his bike &lt;/b&gt;up&lt;/b&gt; at the station then got on the train.</example><example>The family &lt;b&gt;chain up&lt;/b&gt; their dog in the garden when they are out of the house.</example></translation>
             </translations>
         </phrasalverbs>
     </Entry><Entry frequency="53500000">chair<nouns>
@@ -2527,7 +2559,13 @@
                 <translation>ni de bon tros<synonyms>not by a long shot</synonyms></translation>
             </translations>
         </expressions>
-    <phrasalverbs>chalk up<translations><translation transitive="true">atribuir</translation></translations></phrasalverbs></Entry><Entry frequency="185000">chalkboard<nouns>
+    <phrasalverbs>chalk up
+        <translations>
+            <translation transitive="true">atribuir</translation>
+        </translations>
+    </phrasalverbs>
+    </Entry>
+    <Entry frequency="185000">chalkboard<nouns>
         <translations>
             <translation local="us" gender="f">pissarra<otherlocal>blackboard</otherlocal>
             </translation>
@@ -2882,8 +2920,9 @@
             <translations>
                 <translation gender="f">tertúlia</translation>
                 <translation gender="f">xerrada</translation>
+                <translation>
                 <translation disambiguate="computers" termcat="true" gender="f">tertúlia</translation>
-                <translation disambiguate="computers" gender="m">xat<engnote>Although TermCat approved 'tertúlia' for 'chat' and 'fer (una) tertúlia' for 'to chat' in the computer sense, 'xat' is also very common.</engnote>
+                <translation disambiguate="computers" termcat="true" gender="m">xat</translation>
                 </translation>
             </translations>
         </nouns>
@@ -4463,8 +4502,8 @@
         </translations>
     </nouns>
     </Entry><Entry frequency="362000000">click<verbs>
-        <translations>
-            <translation disambiguate="computers" termcat="true">fer clic<engexamp>Double click (on)</engexamp>
+            <translations><date>0508</date>
+            <translation disambiguate="computers" termcat="true">fer (un) clic / clicar<engexamp>Double click (on)</engexamp>
                 <catexamp>Fer doble clic (sobre/a/en)</catexamp>
             </translation>
         </translations>
@@ -4476,6 +4515,16 @@
                 </translation>
             </translations>
         </nouns>
+        <expressions>click-through
+            <translations>
+                <translation catagory="computers" termcat="true" gender="m">clic d'entrada</translation>
+            </translations>
+        </expressions>
+        <expressions>pay-per-click
+            <translations>
+                <translation catagory="computers" termcat="true" gender="m">pagament per clic</translation>
+            </translations>
+        </expressions>
     </Entry><Entry frequency="81500000">client<nouns>
         <translations>
             <translation gender="mf">client</translation>
