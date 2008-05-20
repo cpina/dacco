@@ -2558,7 +2558,7 @@
 		</adverbs>
 	</Entry><Entry frequency="740000">bilberry<nouns>
 			<translations>
-				<translation gender="m">nabiu / mirtil<plural>bilberries</plural></translation>
+				<translation catagory="food-fruit" gender="m">nabiu / mirtil<plural>bilberries</plural></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="572000">bilby<nouns>
@@ -2573,18 +2573,18 @@
 		</nouns>
 	</Entry><Entry frequency="3500000">bilingual<adjectives>
 			<translations>
-				<translation>bilingüe</translation>
+				<translation catagory="linguistics">bilingüe</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="39200">bilingual dictionary<nouns>
 			<translations>
-				<translation gender="m">diccionari bilingüe<plural>bilingual dictionaries</plural>
+				<translation catagory="linguistics" gender="m">diccionari bilingüe<plural>bilingual dictionaries</plural>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="10900000">bill<nouns>
 			<translations>
-				<translation gender="f">factura</translation>
+				<translation catagory="financial" gender="f">factura</translation>
 				<translation local="gb" gender="m">compte<otherlocal>check</otherlocal>
 				</translation>
 				<translation gender="m">projecte de llei<engexamp>Bill of Rights</engexamp>
@@ -2599,7 +2599,7 @@
 		</nouns>
 	</Entry><Entry frequency="2890000">billable<adjectives>
 			<translations>
-				<translation>facturable</translation>
+				<translation catagory="financial">facturable</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="2010000">billboard<nouns>
@@ -2619,7 +2619,7 @@
 		</nouns>
 	</Entry><Entry frequency="62800">billy goat<nouns>
 			<translations>
-				<translation gender="m">boc</translation>
+				<translation catagory="animal-animal" gender="m">boc</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="10000000">bin<nouns>
@@ -2700,14 +2700,14 @@
 		</nouns>
 	</Entry><Entry frequency="970">bin lorry<nouns>
 			<translations>
-				<translation local="gb" gender="m">camió d'escombraries<otherlocal>refuse truck / garbage truck</otherlocal>
+				<translation catagory="transport-mode" local="gb" gender="m">camió d'escombraries<otherlocal>refuse truck / garbage truck</otherlocal>
 					<plural>bin lorries</plural>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2610000">binoculars<nouns>
 			<translations>
-				<translation gender="m">prismàtics</translation>
+				<translation gender="mpl">prismàtics</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="6860000">binomial<nouns>
@@ -2722,12 +2722,12 @@
 		</nouns>
 	</Entry><Entry frequency="9610000">biochemical<adjectives>
 			<translations>
-				<translation>bioquímic</translation>
+				<translation catagory="biology">bioquímic</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="24200000">biochemistry<nouns>
 			<translations>
-				<translation gender="f">bioquímica</translation>
+				<translation catagory="biology" gender="f">bioquímica</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="254000">biodegradable<adjectives>
@@ -2767,7 +2767,7 @@
 		</adjectives>
 	</Entry><Entry frequency="1290000">biographer<nouns>
 			<translations>
-				<translation gender="mf">biògraf</translation>
+				<translation catagory="work-job" gender="mf">biògraf</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="20100000">biography<nouns>
@@ -2783,22 +2783,22 @@
 		</nouns>
 	</Entry><Entry frequency="39000000">biological<adjectives>
 			<translations>
-				<translation>biològic</translation>
+				<translation catagory="biology">biològic</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="330000">biologically<adverbs>
 			<translations>
-				<translation>biològicament</translation>
+				<translation catagory="biology">biològicament</translation>
 			</translations>
 		</adverbs>
 	</Entry><Entry frequency="797000">biologist<nouns>
 			<translations>
-				<translation gender="mf">biòleg</translation>
+				<translation catagory="biology, work-job" gender="mf">biòleg</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="30200000">biology<nouns>
 			<translations>
-				<translation gender="f">biologia</translation>
+				<translation catagory="biology" gender="f">biologia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1310000">biomass<nouns>
@@ -2833,7 +2833,7 @@
 		</nouns>
 	</Entry><Entry frequency="1390000">biophysics<nouns>
 			<translations>
-				<translation gender="f">biofísica</translation>
+				<translation catagory="biology" gender="f">biofísica</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="84500000">bios<engacro>Basic Input Output System</engacro><nouns>
@@ -2848,7 +2848,7 @@
 		</nouns>
 	</Entry><Entry frequency="186000000">biotechnology<nouns>
 			<translations>
-				<translation termcat="true" gender="f">biotecnologia</translation>
+				<translation catagory="work-field" termcat="true" gender="f">biotecnologia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="104000">biotelemetry<nouns>
@@ -2886,20 +2886,32 @@
 				<translation catagory="transport" gender="m">biplà</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="622000">bipolar disorder<nouns>
-			<translations>
-				<translation gender="m">trastorn bipolar</translation>
+	</Entry>
+        <Entry frequency="779000">bipolar<nouns>
+                            <translations><date>0508</date>
+				<translation catagory="medical" gender="mf">bipolar</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="11800000">birch<nouns>
+                <adjectives>
+                    <translations>
+                        <translation catagory="medical">bipolar</translation>
+                    </translations>
+                </adjectives>
+                <expressions>bipolar disorder
+                    <translations>
+                        <translation catagory="medical-illness" gender="m">trastorn bipolar</translation>
+                    </translations>
+                </expressions>
+              </Entry>
+            <Entry frequency="11800000">birch<nouns>
 			<translations>
-				<translation catagory="plant-tree" gender="m">bedoll<catnote>També es diu 'birch tree'.</catnote></translation>
-                                <translation gender="f">fusta de bedoll<catnote>També es diu 'birchwood'.</catnote></translation>
+				<translation catagory="plants-tree" gender="m">bedoll<catnote>També es diu 'birch tree'.</catnote></translation>
+                                <translation catagory="material" gender="f">fusta de bedoll<catnote>També es diu 'birchwood'.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2970000">birchwood<nouns>
 			<translations>
-                                    <translation gender="f">fusta de bedoll<catnote>També es diu 'birch' (es pot dir, per exemple, 'a birchwood table' o 'a birch table').</catnote></translation>
+                                    <translation catagory="material" gender="f">fusta de bedoll<catnote>També es diu 'birch' (es pot dir, per exemple, 'a birchwood table' o 'a birch table').</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="19900000">bird<nouns>
@@ -2928,23 +2940,21 @@
 	</Entry><Entry frequency="305000">bird flu<nouns>
 			<translations>
 				<translation>
-					<translation gender="f">grip del pollastre</translation>
-					<translation gender="f">grip aviària</translation>
+					<translation catagory="medical-illness" gender="f">grip del pollastre</translation>
+					<translation catagory="medical-illness" gender="f">grip aviària</translation>
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="422000">birdseed<nouns>
+	</Entry>
+        <Entry frequency="422000">birdseed<nouns>
 			<translations>
 				<translation catagory="animal" gender="f">llavor(s) per a ocells</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="2060000">bird's eye view<nouns>
+	</Entry>
+        <Entry frequency="2380000">bird watching<nouns>
 			<translations>
-				<translation>vista d'ocell<engexamp>A bird's eye view of Barcelona</engexamp><catexamp>Barcelona a vista d'ocell</catexamp></translation></translations>
-		</nouns>
-	</Entry><Entry frequency="2380000">bird watching<nouns>
-			<translations>
-				<translation gender="f">observació ornitològica<synonyms>twitching (Br.) (colloq.)</synonyms>
+				<translation catagory="animal" gender="f">observació ornitològica<synonyms>twitching (Br.) (colloq.)</synonyms>
 				</translation>
                                 <translation beforenoun="true">ornitològic<synonyms>ornithological</synonyms></translation>
 			</translations>
@@ -2957,7 +2967,7 @@
 	</Entry><Entry frequency="38400000">birth<nouns>
 			<translations>
 				<translation gender="m">naixement</translation>
-                                <translation gender="f">natalitat<engexamp>Birth rate</engexamp><catexamp>Taxa de natalitat</catexamp></translation>
+                                <translation gender="f">natalitat</translation>
 			</translations>
 		</nouns>
                 <expressions>give birth
@@ -3022,18 +3032,18 @@
 		</nouns>
 	</Entry><Entry frequency="3500000">biscuit<nouns>
 			<translations>
-				<translation local="gb" gender="f">galeta<catnote>Als Estats Units utilitzen la paraula 'biscuit' per referir a una galeta salada (el que els anglesos anomenaríem 'cracker') i la paraula 'cookie' per referir a les galetes no salades (el que els anglesos anomenaríem 'biscuit').</catnote>
+				<translation catagory="food" local="gb" gender="f">galeta<catnote>Als Estats Units utilitzen la paraula 'biscuit' per referir a una galeta salada (el que els anglesos anomenaríem 'cracker') i la paraula 'cookie' per referir a les galetes no salades (el que els anglesos anomenaríem 'biscuit').</catnote>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1890000">bisect<verbs>
 			<translations>
-				<translation>bisecar</translation>
+				<translation catagory="maths">bisecar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="508000">bisection<nouns>
 			<translations>
-				<translation gender="f">bisecció</translation>
+				<translation catagory="maths" gender="f">bisecció</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2950000">bisexual<adjectives>
@@ -3048,13 +3058,13 @@
 		</nouns>
 	</Entry><Entry frequency="15000000">bishop<nouns>
 			<translations>
-				<translation gender="m">bisbe</translation>
+				<translation catagory="religious, work-job" gender="m">bisbe</translation>
 				<translation gender="m">alfil<catnote>(Escacs)</catnote><engnote>'Alfil' is a 'bishop' in a game of chess.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="931000">bison<nouns>
 			<translations>
-				<translation gender="m">bisó<plural>bison</plural>
+				<translation catagory="animal-animal" gender="m">bisó<plural>bison</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -3110,13 +3120,12 @@
                 </expressions>
 	</Entry><Entry frequency="1710000">bitmap<nouns>
 			<translations>
-				<translation termcat="true" gender="f">mapa de bits</translation>
+				<translation catagory="computers" termcat="true" gender="f">mapa de bits</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="3190000">bit rate<nouns>
-			<translations>
-				<translation gender="f">velocitat de bits</translation>
-                                <translation termcat="true" gender="f">taxa de bits</translation>
+                            <translations><date>0508</date>
+                                <translation catagory="computers" termcat="true" gender="f">taxa de bits</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="11600000">bitter<adjectives>
@@ -3194,7 +3203,7 @@
 		</nouns>
 	</Entry><Entry frequency="1980000">blackboard<nouns>
 			<translations>
-				<translation gender="f">pissarra<synonyms>chalkboard (Am.)</synonyms></translation>
+				<translation catagory="education" gender="f">pissarra<synonyms>chalkboard (Am.)</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1010000">blackbody<nouns>
@@ -3214,7 +3223,7 @@
 		</nouns>
 	</Entry><Entry frequency="96800">blackcurrant<nouns>
 			<translations>
-				<translation gender="f">grosella negra</translation>
+				<translation catagory="food-fruit" gender="f">grosella negra</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2430000">Black Death<nouns>
@@ -3239,7 +3248,7 @@
 		</nouns>
 	</Entry><Entry frequency="1890000">black hole<nouns>
 			<translations>
-				<translation gender="m">forat negre</translation>
+				<translation catagory="astronomy" gender="m">forat negre</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1070000">blackmail<verbs>
@@ -3281,12 +3290,12 @@
 		</nouns>
 	</Entry><Entry frequency="713000">Black Sea<nouns>
 			<translations>
-				<translation gender="m">Mar Negre</translation>
+				<translation catagory="geography" gender="m">Mar Negre</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1340000">blacksmith<nouns>
 			<translations>
-				<translation gender="mf">ferrer</translation>
+				<translation catagory="work-job" gender="mf">ferrer</translation>
                                 <translation sourceplural="blacksmiths" gender="f">ferreria</translation>
 			</translations>
 		</nouns>
@@ -3370,7 +3379,7 @@
 		</nouns>
 	</Entry><Entry frequency="26100">blank cheque<nouns>
 			<translations>
-				<translation local="gb" gender="m">xec en blanc<otherlocal>blank check</otherlocal>
+				<translation catagory="financial" local="gb" gender="m">xec en blanc<otherlocal>blank check</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
