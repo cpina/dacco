@@ -6106,10 +6106,7 @@
        </exclamations>
    </Entry><Entry frequency="1260000">comedian<nouns>
         <translations>
-            <translation>
-                <translation gender="mf">còmic</translation>
-                <translation gender="mf">comediant</translation>
-            </translation>
+                <translation gender="mf">còmic / comediant</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="379000">comedogenic<adjectives>
@@ -6130,7 +6127,7 @@
     </nouns>
     </Entry><Entry frequency="142000">comeuppance<nouns>
         <translations>
-            <translation>-<catnote>mala sort que afecta una persona com a conseqüència d'una cosa dolenta que ha fet.</catnote></translation>
+            <translation>mala sort que afecta una persona com a conseqüència d'una cosa dolenta que ha fet</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="19500000">comfort<nouns>
@@ -6150,7 +6147,7 @@
     </adverbs>
     </Entry><Entry frequency="946000">comforter<nouns>
         <translations>
-            <translation local="us" gender="m">edredó<otherlocal>duvet</otherlocal>
+            <translation catagory="household-room-bedroom" local="us" gender="m">edredó<otherlocal>duvet</otherlocal>
             </translation>
         </translations>
     </nouns>
@@ -6162,7 +6159,7 @@
     </Entry><Entry frequency="102000000">comic<nouns>
         <translations>
             <translation gender="m">còmic</translation>
-            <translation gender="mf">còmic</translation>
+            <translation gender="mf">còmic / comediant</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="9560000">comma<nouns>
@@ -6188,13 +6185,13 @@
     </nouns>
     </Entry><Entry frequency="6700000">command line<nouns>
         <translations>
-            <translation gender="m">intèrpret d'ordres<synonyms>DOS prompt</synonyms>
+            <translation catagory="computers" gender="m">intèrpret d'ordres<synonyms>DOS prompt</synonyms>
             </translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="348000">commandment<nouns>
         <translations>
-            <translation gender="m">manament</translation>
+            <translation catagory="religious" gender="m">manament</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="6040000">commemorate<verbs>
@@ -6223,17 +6220,23 @@
             <translation register="formal">encomiable / lloable / laudable<synonyms>praiseworthy, laudable</synonyms></translation>
         </translations>
     </adjectives>
-    </Entry><Entry frequency="288000000">comment<verbs>
-        <translations>
-            <translation>comentar</translation>
-        </translations>
-    </verbs>
-        <nouns>
+    </Entry><Entry frequency="288000000">comment
+     <nouns>
             <translations>
                 <translation gender="m">comentari</translation>
             </translations>
         </nouns>
-    <phrasalverbs>comment on<translations><translation intransitive="true">comentar sobre</translation></translations></phrasalverbs></Entry><Entry frequency="59800000">commentary<nouns>
+        <verbs>
+        <translations>
+            <translation>comentar</translation>
+        </translations>
+    </verbs>
+       <phrasalverbs>comment on
+            <translations>
+                <translation intransitive="true">comentar sobre</translation>
+            </translations>
+        </phrasalverbs>
+    </Entry><Entry frequency="59800000">commentary<nouns>
         <translations>
             <translation gender="m">comentari</translation>
         </translations>
@@ -6788,37 +6791,40 @@
             <translation>computacionalment</translation>
         </translations>
     </adverbs>
-    </Entry><Entry frequency="270000000">computer<nouns>
-        <translations>
+    </Entry><Entry frequency="115000000">computer<nouns>
+            <translations><date>0508</date>
             <translation catagory="computers" termcat="true" gender="m">ordinador</translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="356000">computer-aided learning<nouns>
+        <expressions>computer animator
+            <translations>
+                <translation catagory="computers, work-job" termcat="true" gender="mf">animador</translation>
+            </translations>
+        </expressions>
+          <expressions>computer architecture
+            <translations>
+                <translation catagory="computers" termcat="true" gender="f">arquitectura d'ordinador</translation>
+            </translations>
+        </expressions>
+          <expressions>computer security
+            <translations>
+                <translation catagory="computers" termcat="internet" gender="f">seguretat informàtica</translation>
+            </translations>
+        </expressions>
+    </Entry>
+    <Entry frequency="356000">computer-aided learning<nouns>
         <translations>
             <translation catagory="computers, education" termcat="true" gender="m">aprenentatge assistit per ordinador<synonyms>computer-assisted learning</synonyms></translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="263000">computer animator<nouns>
-        <translations>
-            <translation catagory="work-job, computers" termcat="true" gender="mf">animador</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="6710000">computer architecture<nouns>
-        <translations>
-            <translation catagory="computers" termcat="true" gender="f">arquitectura d'ordinador</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="483000">computer-assisted learning<nouns>
+    </Entry>
+    <Entry frequency="483000">computer-assisted learning<nouns>
         <translations>
             <translation catagory="computers, education" termcat="true" gender="m">aprenentatge assistit per ordinador<synonyms>computer-aided learning</synonyms></translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="505000">computer security<nouns>
-                <translations><date>0508</date>
-            <translation termcat="internet" catagory="computers" gender="f">seguretat informàtica</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="1690000">comrade<nouns>
+    </Entry>
+   <Entry frequency="1690000">comrade<nouns>
         <translations>
             <translation gender="mf">camarada</translation>
         </translations>
@@ -6830,25 +6836,24 @@
     </verbs>
         <nouns>
             <translations>
-                <translation>
-                    <translation gender="m">inconvenient</translation>
-                    <translation gender="m">desavantatge</translation>
-                    <engnote>Inconvenient and desavantatge mean con as in disadvantage.</engnote>
-                    <engexamp>Pros and cons</engexamp>
-                    <catexamp>Avantatges i inconvenients</catexamp>
-                    <synonyms>disadvantage</synonyms>
-                </translation>
+                    <translation gender="m">inconvenient / desavantatge<engnote>Inconvenient and desavantatge mean con as in disadvantage.</engnote><synonyms>disadvantage</synonyms></translation>
                 <translation gender="f">estafa<engnote>'Estafa' means 'con' as in 'it was all a big con'.</engnote>
                 </translation>
-                <translation register="colloquial" gender="mf">presidiari</translation>
+                <translation register="colloquial" gender="mf">presidiari<engnote>'Presidiari' means 'con' as in 'convict'.</engnote></translation>
             </translations>
         </nouns>
-    </Entry><Entry frequency="1050000">con artist<nouns>
-        <translations>
-            <translation gender="mf">estafador / trapella</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="378000">concatenate<verbs>
+        <expressions>con artist
+            <translations>
+                <translation gender="mf">estafador / trapella</translation>
+            </translations>
+        </expressions>
+        <expressions>pros and cons
+            <translations>
+                <translation gender="mpl">avantatges i inconvenients</translation>
+            </translations>
+        </expressions>
+    </Entry>
+    <Entry frequency="378000">concatenate<verbs>
         <translations>
             <translation>concatenar</translation>
         </translations>
@@ -6885,12 +6890,18 @@
             <translation>concentrar</translation>
         </translations>
     </verbs>
+    <phrasalverbs>concentrate on
+        <translations>
+            <translation intransitive="true">concentrar-se en</translation>
+        </translations>
+    </phrasalverbs>
     <nouns>
         <translations>
             <translation gender="m">concentrat</translation>
         </translations>
     </nouns>
-    <phrasalverbs>concentrate on<translations><translation intransitive="true">concentrar-se en</translation></translations></phrasalverbs></Entry><Entry frequency="13100000">concentration<nouns>
+    </Entry>
+    <Entry frequency="13100000">concentration<nouns>
         <translations>
             <translation gender="f">concentració</translation>
         </translations>
@@ -6948,9 +6959,14 @@
     </adjectives>
     </Entry><Entry frequency="4240000">concession<nouns>
         <translations>
-            <translation gender="f">concessió<engexamp>To make concessions</engexamp><catexamp>Transigir</catexamp></translation>
+            <translation gender="f">concessió</translation>
         </translations>
     </nouns>
+    <expressions>make concessions
+        <translations>
+            <translation>transigir</translation>
+        </translations>
+        </expressions>
     </Entry><Entry frequency="12600000">concierge<nouns>
         <translations>
             <translation catagory="work-job" gender="mf">conserge</translation>
@@ -6988,7 +7004,7 @@
     </nouns>
     </Entry><Entry frequency="8390000">concrete<nouns>
         <translations>
-            <translation gender="m">formigó</translation>
+            <translation catagory="material" gender="m">formigó</translation>
         </translations>
     </nouns>
         <adjectives>
@@ -7032,7 +7048,14 @@
             <translation>tractar amb condescendència</translation>
         </translations>
     </verbs>
-    <phrasalverbs>condescend to<translations><translation intransitive="true">1 tractar (algú) amb inferioritat 2 estar d'acord a fer (una acció que hom considera per sota de la seva dignitat)</translation></translations></phrasalverbs></Entry><Entry frequency="285000">condescending<adjectives>
+    <phrasalverbs>condescend to
+        <translations>
+        <translation intransitive="true">tractar (algú) amb inferioritat</translation>
+        <translation intransitive="true">estar d'acord a fer (una acció que hom considera per sota de la seva dignitat)</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
+<Entry frequency="285000">condescending<adjectives>
         <translations>
             <translation>condescendent<synonyms>patronizing, patronising (Br.)</synonyms></translation>
         </translations>
@@ -7073,7 +7096,7 @@
             <translation>dirigir<engnote>'Dirigir' means 'to conduct' as in an orchestra or a piece of music.</engnote></translation>
             <translation>conduir<engnote>'Conduir' means 'to conduct' in the sense 'metal conducts heat'.</engnote></translation>
             <translation>realitzar / dur a terme<engnote>'Realitzar' and 'dur a terme' mean 'to conduct' in the sense 'to carry out' (e.g. 'to conduct a survey' or 'to conduct an experiment').</engnote></translation>
-            <translation>comportar-se / actuar<engnote>'Comportar-se' and 'actuar' mean 'to conduct yourself' in the sense 'to behave' (e.g. 'How to conduct yourself at office parties'.)</engnote></translation>
+            <translation>(yourself) comportar-se / actuar<engnote>'Comportar-se' and 'actuar' mean 'to conduct yourself' in the sense 'to behave' (e.g. 'How to conduct yourself at office parties'.)</engnote></translation>
         </translations></verbs>
     </Entry><Entry frequency="1340000">conduction<nouns>
 			<translations><date>0307</date>
@@ -7082,8 +7105,8 @@
 		</nouns>
 	</Entry><Entry frequency="8230000">conductor<nouns>
         <translations>
-            <translation disambiguate="transport" gender="mf">cobrador / revisor</translation>
-            <translation gender="mf">director d'orquestra</translation>
+            <translation disambiguate="transport, work-job" gender="mf">cobrador / revisor</translation>
+            <translation disambiguate="work-job, entertainment-music" gender="mf">director d'orquestra</translation>
             <translation gender="m">conductor</translation>
         </translations>
     </nouns>
@@ -7102,12 +7125,13 @@
             <translation gender="f">conferència</translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="20000000">conference room<nouns>
-        <translations>
-            <translation gender="f">sala d'actes</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="825000">confetti<nouns>
+        <expressions>conference room
+            <translations>
+                <translation gender="f">sala d'actes</translation>
+            </translations>
+        </expressions>
+    </Entry>
+    <Entry frequency="825000">confetti<nouns>
         <translations>
             <translation gender="m">confeti</translation>
         </translations>
@@ -7117,7 +7141,13 @@
             <translation>confiar / contar confidencialment</translation>
         </translations>
     </verbs>
-    <phrasalverbs>confide in<translations><translation intransitive="true">fiar-se d'(algú) [revelar a algú assumptes íntimes tot confiant-hi]</translation></translations></phrasalverbs></Entry><Entry frequency="16800000">confidence<nouns>
+    <phrasalverbs>confide in
+        <translations>
+            <translation intransitive="true">fiar-se d'(algú) [revelar a algú assumptes íntimes tot confiant-hi]</translation>
+        </translations>
+    </phrasalverbs>
+    </Entry>
+    <Entry frequency="16800000">confidence<nouns>
         <translations>
             <translation gender="f">confiança</translation>
         </translations>
@@ -7187,7 +7217,14 @@
             <translation>confirmar / afirmar / constatar</translation>
         </translations>
     </verbs>
-    </Entry><Entry frequency="1150000">confiscate<verbs>
+    </Entry>
+    <Entry frequency="8720000">confirmation<nouns>
+        <translations><date>0508</date>
+            <translation catagory="religious" gender="f">confirmació</translation>
+        </translations>
+    </nouns>
+    </Entry>
+    <Entry frequency="1150000">confiscate<verbs>
         <translations>
             <translation>confiscar</translation>
         </translations>
@@ -7207,10 +7244,16 @@
     </nouns>
     </Entry><Entry frequency="2110000">conform<verbs>
         <translations>
-            <translation>conformar-se a / adaptar-se a / acomodar-se a / fer-se a / emmotllar-se a</translation>
+            <translation>conformar-se / acomodar-se / emmotllar-se</translation>
         </translations>
     </verbs>
-    <phrasalverbs>conform to<translations><translation intransitive="true">conformar-se a</translation></translations></phrasalverbs></Entry><Entry frequency="3270000">conformist<nouns>
+    <phrasalverbs>conform to
+        <translations>
+            <translation intransitive="true">conformar-se a</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
+<Entry frequency="3270000">conformist<nouns>
         <translations>
             <translation gender="mf">conformista</translation>
         </translations>
@@ -7270,14 +7313,12 @@
     </nouns>
     </Entry><Entry frequency="70500">congestion charge<nouns>
         <translations>
-            <translation noteng="TRUE">-<catnote>Un 'congestion charge' és una mena de peatge que es paga per poder entrar en una ciutat. El seu propòsit és reduir la congestió a la ciutat.</catnote>
-            </translation>
+            <translation>peatge que es paga per poder entrar en una ciutat (el seu propòsit és reduir la congestió a la ciutat)</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="39100">congestion charging<nouns>
         <translations>
-            <translation noteng="TRUE">-<catnote>Congestion charging és un pla segons el qual les autoritats d'una ciutat cobren als vehicles que hi entren, en un intent de combatre la congestió a la ciutat.</catnote>
-            </translation>
+            <translation>pla segons el qual les autoritats d'una ciutat cobren als vehicles que hi entren, en un intent de combatre la congestió a la ciutat</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="3800000">congestive<adjectives>
@@ -7307,7 +7348,7 @@
     </verbs>
     </Entry><Entry frequency="6090000">congregation<nouns>
         <translations>
-            <translation gender="mpl">feligresos</translation>
+            <translation catagory="religious" gender="mpl">feligresos</translation>
             <translation gender="f">congregació<engexamp>Member of a congregation</engexamp><catexamp>Congregant</catexamp></translation>
         </translations>
     </nouns>
@@ -7363,7 +7404,7 @@
     </nouns>
     </Entry><Entry frequency="170000">conjunctivitis<nouns>
         <translations>
-            <translation gender="f">conjuntivitis<synonyms>pink eye</synonyms>
+            <translation catagory="medical-illness" gender="f">conjuntivitis<synonyms>pink eye</synonyms>
             </translation>
         </translations>
     </nouns>
@@ -7393,7 +7434,7 @@
     </nouns>
     </Entry><Entry frequency="985">con merchant<nouns>
         <translations>
-            <translation gender="mf">estafador / trapella<synonyms>con artist / conman</synonyms></translation>
+            <translation gender="mf">estafador / trapella<synonyms>con artist, conman</synonyms></translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="10300000">connect<verbs>
@@ -7494,17 +7535,23 @@
             </translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="10600000">consent<verbs>
-        <translations>
-            <translation>consentir</translation>
-        </translations>
-    </verbs>
-        <nouns>
+    </Entry><Entry frequency="10600000">consent <nouns>
             <translations>
                 <translation gender="m">consentiment</translation>
             </translations>
         </nouns>
-    <phrasalverbs>consent to<translations><translation intransitive="true">consentir en</translation></translations></phrasalverbs></Entry><Entry frequency="23700000">consequence<nouns>
+        <verbs>
+        <translations>
+            <translation>consentir</translation>
+        </translations>
+    </verbs>
+       <phrasalverbs>consent to
+        <translations>
+            <translation intransitive="true">consentir en</translation>
+        </translations>
+    </phrasalverbs>
+    </Entry>
+    <Entry frequency="23700000">consequence<nouns>
         <translations>
             <translation gender="f">conseqüència</translation>
         </translations>
@@ -7519,7 +7566,19 @@
             <translation gender="f">conservació</translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="18400000">conservative<adjectives>
+    </Entry>
+    <Entry frequency="2400000">conservationist<nouns>
+            <translations><date>0508</date>
+            <translation gender="mf">conservacionista</translation>
+        </translations>
+    </nouns>
+        <adjectives>
+            <translations>
+                <translation>conservacionista</translation>
+            </translations>
+        </adjectives>
+    </Entry>
+    <Entry frequency="18400000">conservative<adjectives>
         <translations>
             <translation>conservador</translation>
         </translations>
