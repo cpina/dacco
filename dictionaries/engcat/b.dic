@@ -4875,7 +4875,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>boxejar</translation>
+				<translation catagory="sports-event-boxing">boxejar</translation>
 				<translation>embalar</translation>
 			</translations>
 		</verbs>
@@ -4887,7 +4887,7 @@
                 </Entry>
                 <Entry frequency="9430000">boxing<nouns>
 			<translations>
-				<translation gender="f">boxa</translation>
+				<translation catagory="sports-event" gender="f">boxa</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="205000">Boxing Day<nouns>
@@ -4973,7 +4973,13 @@
 				<translation>jactar-se / fanfarronejar</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>brag about<translations><translation intransitive="true">vanagloriar-se de</translation></translations></phrasalverbs></Entry><Entry frequency="753000">Brahman<nouns>
+                <phrasalverbs>brag about
+                    <translations>
+                        <translation intransitive="true">vanagloriar-se de</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="753000">Brahman<nouns>
 			<translations>
 				<translation catagory="religious" gender="m">braman</translation>
 			</translations>
@@ -4985,12 +4991,12 @@
 		</nouns>
 	</Entry><Entry frequency="47200000">brain<nouns>
 			<translations>
-				<translation gender="m">cervell</translation>
+				<translation catagory="body" gender="m">cervell</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="626000">brain damage<nouns>
 			<translations>
-				<translation gender="m">dany cerebral</translation>
+				<translation catagory="medical" gender="m">dany cerebral</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="443000">brainstorming<nouns>
@@ -5014,12 +5020,12 @@
 		</adjectives>
 	</Entry><Entry frequency="9790000">brake<nouns>
 			<translations>
-				<translation gender="m">fre</translation>
+				<translation catagory="transport" gender="m">fre</translation>
 			</translations>
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>frenar</translation>
+				<translation catagory="transport">frenar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="27400">Bramall Lane<nouns>
@@ -5043,7 +5049,13 @@
                 <translation disambiguate="computers-programming" termcat="true">bifurcar</translation>
                 </translations>
                 </verbs>
-	<phrasalverbs>branch out<translations><translation intransitive="true">ramificar-se, estendre's (a la manera d'un tronc brancat)</translation></translations></phrasalverbs></Entry><Entry frequency="214000">branch and bound algorithm<nouns>
+            <phrasalverbs>branch out
+                <translations>
+                    <translation intransitive="true">ramificar-se / estendre's (a la manera d'un tronc brancat)</translation>
+                </translations>
+            </phrasalverbs>
+        </Entry>
+        <Entry frequency="214000">branch and bound algorithm<nouns>
 			<translations>
 				<translation catagory="computers" termcat="true" gender="m">algorisme de branca i límit</translation>
 			</translations>
@@ -5066,7 +5078,7 @@
 		</adjectives>
 	</Entry><Entry frequency="1230000">brandy<nouns>
 			<translations>
-				<translation gender="m">conyac / aiguardent<plural>brandies</plural>
+				<translation catagory="food-drink" gender="m">conyac / aiguardent<plural>brandies</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -5093,7 +5105,13 @@
 				<translation>valent</translation>
 			</translations>
 		</adjectives>
-	<phrasalverbs>brave out<translations><translation transitive="true">aguantar amb valentia, no deixar-se intimidar</translation></translations></phrasalverbs></Entry><Entry frequency="146000">bravely<adverbs>
+                <phrasalverbs>brave out
+                    <translations>
+                        <translation transitive="true">aguantar amb valentia / no deixar-se intimidar</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="146000">bravely<adverbs>
 			<translations>
 				<translation>amb valentia</translation>
 			</translations>
@@ -5113,8 +5131,11 @@
 		</nouns>
                 <verbs>
                 <translations>
-                <translation>esvalotar / barallar-se</translation></translations></verbs>
-	</Entry><Entry frequency="6280000">brazen<adjectives>
+                    <translation>esvalotar / barallar-se</translation>
+                </translations>
+            </verbs>
+	</Entry>
+        <Entry frequency="6280000">brazen<adjectives>
 			<translations><date>0408</date>
 				<translation>descarat</translation>
 			</translations>
@@ -5182,6 +5203,11 @@
                                 <translation gender="f">ruptura</translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>break away
+                    <translations>
+                        <translation intransitive="true">separar-se (d'un grup)</translation>
+                    </translations>
+                </phrasalverbs>
 		<phrasalverbs>break down
 			<translations>
 				<translation intransitive="true">deixar de funcionar / avariar-se<engnote>'Avariar-se' means 'to break down' in the sense 'my car broke down' or 'my fridge-freezer broke down'.</engnote>
@@ -5246,6 +5272,17 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>break out in
+                    <translations>
+                        <translation intransitive="true">quedar ple (de grans)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>break through
+                    <translations>
+                        <translation intransitive="true">sortir / arribar (superant un impediment)</translation>
+                        <translation intransitive="true">travessar (trencant alguna cosa)</translation>
+                    </translations>
+                </phrasalverbs>
 		<phrasalverbs>break up
 			<translations>
 				<translation intransitive="true">separar-se (una parella) / desfer-se (un matrimoni o una relació)<example>Jim and Alice &lt;b&gt;broke up&lt;/b&gt; just three months after getting married</example>
@@ -5269,7 +5306,8 @@
                 <translation>separar-se d'(algú)</translation>
                 </translations>
                 </phrasalverbs>
-	<phrasalverbs>break away<translations><translation intransitive="true">separar-se (d'un grup)</translation></translations></phrasalverbs><phrasalverbs>break out in<translations><translation intransitive="true">quedar ple (de grans)</translation></translations></phrasalverbs><phrasalverbs>break through<translations><translation intransitive="true">sortir, arribar (superant un impediment)</translation><translation intransitive="true">travessar (trencant alguna cosa)</translation></translations></phrasalverbs></Entry><Entry frequency="11200000">breakdown<nouns>
+	</Entry>
+        <Entry frequency="11200000">breakdown<nouns>
 			<translations>
 				<translation disambiguate="transport" gender="f">avaria<engnote>'Avaria' means 'breakdown' as in 'mechanical failure'.</engnote>
 				</translation>
@@ -5282,7 +5320,7 @@
 		</nouns>
 	</Entry><Entry frequency="36200000">breakfast<nouns>
 			<translations>
-				<translation gender="m">esmorzar<engexamp>To have breakfast</engexamp>
+				<translation catagory="food" gender="m">esmorzar<engexamp>To have breakfast</engexamp>
 					<catexamp>Esmorzar</catexamp>
 				</translation>
 			</translations>
@@ -5313,15 +5351,21 @@
 		</nouns>
 	</Entry><Entry frequency="9560000">breast<nouns>
 			<translations>
-				<translation gender="m">pit</translation>
+				<translation catagory="body" gender="m">pit</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="3700000">breast cancer<nouns>
-			<translations>
-				<translation gender="m">càncer de mama</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="189000">breastfeed<verbs>
+                <expressions>breast cancer
+                    <translations>
+                        <translation catagory="medical-illness" gender="m">càncer de mama</translation>
+                    </translations>
+                </expressions>
+                <expressions>breast pump
+                    <translations>
+                        <translation gender="m">tirallet</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="189000">breastfeed<verbs>
 			<past>breastfed</past>
 			<participle>breastfed</participle>
 			<translations>
@@ -5329,7 +5373,8 @@
 				</translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="3320000">breastfeeding<nouns>
+	</Entry>
+        <Entry frequency="3320000">breastfeeding<nouns>
 			<translations>
 				<translation>
 					<translation gender="m">alletament (matern)</translation>
@@ -5338,19 +5383,16 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="338000">breastplate<nouns>
+	</Entry>
+        <Entry frequency="338000">breastplate<nouns>
 			<translations>
 				<translation gender="m">plastró</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1740000">breast pump<nouns>
+	</Entry>
+        <Entry frequency="281000">breaststroke<nouns>
 			<translations>
-				<translation gender="m">tirallet</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="281000">breaststroke<nouns>
-			<translations>
-				<translation gender="f">braça</translation>
+				<translation catagory="sports-event-swimming" gender="f">braça</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="9950000">breath<nouns>
@@ -5386,7 +5428,7 @@
 		</nouns>
                 <expressions>breech (baby)
                 <translations>
-                    <translation>fetus de presentació podàlica (de peus o de natges)</translation>
+                    <translation gender="m">fetus de presentació podàlica (de peus o de natges)</translation>
                     </translations>
                     </expressions>
                     <expressions>breech presentation
@@ -5415,7 +5457,14 @@
                                 <translation register="colloquial" gender="f">cosa fàcil<engexamp>It was a breeze to install</engexamp><catexamp>Era molt fàcil d'instal·lar</catexamp></translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>breeze through<translations><translation intransitive="true">passar per (un lloc) a la lleugera</translation><translation intransitive="true">dur a terme sense esforç (una tasca, una prova, etc.)</translation></translations></phrasalverbs></Entry><Entry frequency="22400">breezily<adverbs>
+                <phrasalverbs>breeze through
+                    <translations>
+                        <translation intransitive="true">passar per (un lloc) a la lleugera</translation>
+                        <translation intransitive="true">dur a terme sense esforç (una tasca, una prova, etc.)</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="22400">breezily<adverbs>
 			<translations>
 				<translation>alegrement (i amb confiança)</translation>
 			</translations>
@@ -5430,11 +5479,17 @@
 				</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="1300000">Breton<nouns>
-			<translations>
-				<translation catagory="language" gender="m">bretó</translation>
+	</Entry><Entry frequency="2980000">Breton<nouns>
+			<translations><date>0508</date>
+				<translation disambiguate="language" gender="m">bretó</translation>
+                                <translation disambiguate="nationality-europe" gender="mf">bretó</translation>
 			</translations>
 		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>bretó</translation>
+                    </translations>
+                </adjectives>
 	</Entry><Entry frequency="208000">brevity<nouns>
 			<translations>
 				<translation gender="f">brevetat</translation>
@@ -5470,12 +5525,12 @@
 		</nouns>
                 <expressions>be bricking it
                 <translations>
-                    <translation>cagar-se a les calces<example>I start my new job on Monday and I'm &lt;b&gt;bricking it&lt;/b&gt;.</example></translation>
+                    <translation register="vulgar">cagar-se a les calces<example>I start my new job on Monday and I'm &lt;b&gt;bricking it&lt;/b&gt;.</example></translation>
                     </translations>
                     </expressions>
 	</Entry><Entry frequency="114000">bricklayer<nouns>
 			<translations>
-				<translation gender="mf">paleta</translation>
+				<translation catagory="work-job" gender="mf">paleta</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="7270000">bridal<adjectives>
@@ -5506,7 +5561,7 @@
 		</nouns>
 	</Entry><Entry frequency="881000">bridle<nouns>
 			<translations>
-				<translation gender="f">brida</translation>
+				<translation catagory="animal" gender="f">brida</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="49900000">brief<adjectives>
@@ -5572,6 +5627,39 @@
                                 <translation>aportar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>bring about
+                    <translations>
+                        <translation transitive="true">causar</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>bring across
+                    <translations>
+                        <translation transitive="true">portar (algú, alguna cosa) d'un costat a l'altre, cap aquí</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>bring along
+                    <translations>
+                    <translation transitive="true">portar (acompanyant algú, alguna cosa) cap aquí</translation>
+                    <translation transitive="true">ajudar (algú) a millorar</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>bring around
+                <translations>
+                    <translation local="us" transitive="true">portar cap aquí</translation>
+                <translation local="us" transitive="true">refer (algú després d'un desmai)</translation>
+                <translation local="us" transitive="true">convèncer (algú)<otherlocal>bring round</otherlocal></translation>
+            </translations>
+            </phrasalverbs>
+            <phrasalverbs>bring aside
+                <translations>
+                    <translation transitive="true">portar a part (algú, alguna cosa) cap aquí</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>bring away
+                <translations>
+                    <translation transitive="true">allunyar (algú, alguna cosa) cap aquí</translation>
+                </translations>
+            </phrasalverbs>
                 <phrasalverbs>bring back
                 <translations>
                 <translation>portar de tornada / tornar (algú o alguna cosa) cap aquí</translation>
@@ -5579,11 +5667,32 @@
                 <translation>fer recordar</translation>
                     </translations>
                 </phrasalverbs>
+                <phrasalverbs>bring by
+                    <translations>
+                        <translation transitive="true">portar (cap aquí)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>bring down
+                    <translations>
+                        <translation transitive="true">baixar (algú, alguna cosa) cap aquí</translation>
+                        <translation transitive="true">abatre (del cel)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>bring forth
+                    <translations>
+                        <translation transitive="true">presentar / produir</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>bring forward
                     <translations>
                         <translation>presentar / produir</translation>
                         <translation>avançar (una cita)</translation>
                         <translation>(comptabilitat) portar una xifra d'una pàgina o d'una columna a una altra</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>bring home
+                    <translations>
+                        <translation transitive="true">portar a casa (venint)</translation>
                     </translations>
                 </phrasalverbs>
                 <phrasalverbs>bring in
@@ -5594,6 +5703,23 @@
                         <translation transitive="true">fer venir (per ocupar un càrrec)<example>The company &lt;b&gt;brought in&lt;/b&gt; a new CEO who was able to cut costs significantly.</example></translation>
                         <translation transitive="true">convidar algú a participar (en una discussió)<example>I'd just like to &lt;b&gt;bring in&lt;/b&gt; Jason here and see what he thinks.</example></translation>
                     </translations>
+                </phrasalverbs>
+                <phrasalverbs>bring off
+                    <translations>
+                        <translation transitive="true">dur a terme amb èxit (superant obstacles)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>bring on
+                    <translations>
+                        <translation transitive="true">propiciar / fer avançar una cosa</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>bring out
+                    <translations>
+                        <translation transitive="true">treure (algú, alguna cosa) cap aquí</translation>
+                    <translation transitive="true">destacar / fer prominent<example>I like that blue shirt. It really &lt;b&gt;brings out&lt;/b&gt; the blue in your eyes.</example></translation>
+                    <translation transitive="true">publicar</translation>
+                </translations>
                 </phrasalverbs>
                 <phrasalverbs>bring over
             <translations>
@@ -5620,7 +5746,7 @@
                     <translation transitive="true">introduir (un tema)</translation>
                 </translations>
             </phrasalverbs>
-	<phrasalverbs>bring about<translations><translation transitive="true">causar</translation></translations></phrasalverbs><phrasalverbs>bring across<translations><translation transitive="true">portar (algú, alguna cosa) d'un costat a l'altre, cap aquí</translation></translations></phrasalverbs><phrasalverbs>bring along<translations><translation transitive="true">1 portar (acompanyant algú, alguna cosa) cap aquí 2 ajudar (algú) a millorar</translation></translations></phrasalverbs><phrasalverbs>bring around<translations><translation transitive="true">portar cap aquí</translation><translation transitive="true">1 refer (algú després d'un desmai) 2 convèncer (algú)</translation></translations></phrasalverbs><phrasalverbs>bring aside<translations><translation transitive="true">portar a part (algú, alguna cosa) cap aquí</translation></translations></phrasalverbs><phrasalverbs>bring away<translations><translation transitive="true">allunyar (algú, alguna cosa) cap aquí</translation></translations></phrasalverbs><phrasalverbs>bring by<translations><translation transitive="true">portar (cap aquí)</translation></translations></phrasalverbs><phrasalverbs>bring down<translations><translation transitive="true">baixar (algú, alguna cosa) cap aquí</translation><translation transitive="true">abatre (del cel)</translation></translations></phrasalverbs><phrasalverbs>bring forth<translations><translation transitive="true">presentar, produir</translation></translations></phrasalverbs><phrasalverbs>bring home<translations><translation transitive="true">portar a casa (venint)</translation></translations></phrasalverbs><phrasalverbs>bring off<translations><translation transitive="true">dur a terme amb èxit (superant obstacles)</translation></translations></phrasalverbs><phrasalverbs>bring on<translations><translation transitive="true">propiciar, fer avançar una cosa</translation></translations></phrasalverbs><phrasalverbs>bring out<translations><translation transitive="true">treure (algú, alguna cosa) cap aquí</translation><translation transitive="true">1 destacar, fer prominent 2 publicar</translation></translations></phrasalverbs><phrasalverbs>bring to<translations><translation transitive="true">1 refer (algú després d'un desmai) 2 en la nàutica, fer que un veler giri cap al vent o que pari</translation></translations></phrasalverbs><phrasalverbs>bring together<translations><translation transitive="true">reunir</translation></translations></phrasalverbs></Entry><Entry frequency="974000">brink<nouns>
+	<phrasalverbs>bring to<translations><translation transitive="true">1 refer (algú després d'un desmai) 2 en la nàutica, fer que un veler giri cap al vent o que pari</translation></translations></phrasalverbs><phrasalverbs>bring together<translations><translation transitive="true">reunir</translation></translations></phrasalverbs></Entry><Entry frequency="974000">brink<nouns>
 			<translations>
 				<translation gender="m">caire<engexamp>On the brink of...</engexamp>
 					<catexamp>Al caire de...</catexamp>

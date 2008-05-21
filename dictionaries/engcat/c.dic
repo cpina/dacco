@@ -723,25 +723,56 @@
     </nouns>
     </Entry><Entry frequency="53300000">cancer<nouns>
         <translations>
-            <translation disambiguate="medical" gender="m">càncer<engexamp>Breast cancer</engexamp>
-                <catexamp>Càncer de mama</catexamp>
-                <engexamp>Prostate cancer</engexamp>
-                <catexamp>Càncer de pròstata</catexamp>
-            </translation>
+            <translation disambiguate="medical" gender="m">càncer</translation>
             <translation beforenoun="true">oncològic<engexamp>Cancer treatment</engexamp><catexamp>Tractament oncològic</catexamp></translation>
             <translation disambiguate="zodiac" gender="m">Cranc</translation>
         </translations>
     </nouns>
+    <expressions>breast cancer
+        <translations>
+            <translation catagory="medical-illness" gender="m">càncer de mama</translation>
+        </translations>
+    </expressions>
+      <expressions>cervical cancer
+        <translations>
+            <translation catagory="medical-illness" gender="m">càncer de cèrvix</translation>
+        </translations>
+    </expressions>
+    <expressions>colon cancer
+        <translations>
+            <translation catagory="medical-illness" gender="m">càncer de còlon</translation>
+        </translations>
+    </expressions>
+     <expressions>colorectal cancer
+        <translations>
+            <translation catagory="medical-illness" gender="m">càncer colorectal</translation>
+        </translations>
+    </expressions>
+     <expressions>lung cancer
+        <translations>
+            <translation catagory="medical-illness" gender="m">càncer de pulmó</translation>
+        </translations>
+    </expressions>
+     <expressions>ovarian cancer
+        <translations>
+            <translation catagory="medical-illness" gender="m">càncer d'ovari</translation>
+        </translations>
+    </expressions>
+     <expressions>prostate cancer
+        <translations>
+            <translation catagory="medical-illness" gender="m">càncer de pròstata</translation>
+        </translations>
+    </expressions>
+     <expressions>cancer specialist
+        <translations>
+            <translation catagory="medical, work-job" gender="mf">oncòleg</translation>
+        </translations>
+    </expressions>
     </Entry><Entry frequency="383000">cancerous<adjectives>
         <translations>
             <translation>cancerós</translation>
         </translations>
     </adjectives>
-    </Entry><Entry frequency="130000">cancer specialist<nouns>
-        <translations>
-            <translation catagory="medical-job" gender="mf">oncòleg</translation>
-        </translations>
-    </nouns>
     </Entry><Entry frequency="24100000">candid<adjectives>
         <translations>
             <translation>franc / directe</translation>
@@ -766,11 +797,11 @@
     </Entry><Entry frequency="23300000">candy<nouns>
         <translations>
             <translation>
-                <translation local="us" gender="mpl">dolços / bombons<catnote>Encara que els britànics no utilitzem la paraula 'candy' per significar 'dolços', l'expressió 'like taking candy from a baby' s'utilitza tant al Regne Unit com als EUA per significar que una cosa és molt fàcil (per exemple: 'Getting people to part with their money in order to participate in 'get rich quick' schemes is really easy. It's &lt;b&gt;like taking candy from a baby&lt;/b&gt;.</catnote>
+                <translation catagory="food" local="us" gender="mpl">dolços / bombons<catnote>Encara que els britànics no utilitzem la paraula 'candy' per significar 'dolços', l'expressió 'like taking candy from a baby' s'utilitza tant al Regne Unit com als EUA per significar que una cosa és molt fàcil (per exemple: 'Getting people to part with their money in order to participate in 'get rich quick' schemes is really easy. It's &lt;b&gt;like taking candy from a baby&lt;/b&gt;.</catnote>
                 </translation>
                 <translation gender="fpl">llaminadures<otherlocal>sweets</otherlocal></translation>
             </translation>
-            <translation local="us" gender="f">xocolata<otherlocal></otherlocal></translation>               
+            <translation catagory="food" local="us" gender="f">xocolata<otherlocal></otherlocal></translation>               
         </translations>
     </nouns>
     </Entry><Entry frequency="1060000">cannabis<nouns>
@@ -780,7 +811,7 @@
     </nouns>
     </Entry><Entry frequency="28900">cannelloni<nouns>
         <translations>
-            <translation gender="mpl">canelons</translation>
+            <translation catagory="food" gender="mpl">canelons</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="">cannibal<nouns>
@@ -801,11 +832,6 @@
         <expressions>cannon fodder
         <translations>
         <translation gender="f">carn de canó</translation></translations></expressions>
-    </Entry><Entry frequency="918000">cannon fodder<nouns>
-        <translations>
-            <translation gender="f">carn de canó</translation>
-        </translations>
-    </nouns>
     </Entry><Entry frequency="49500000">cannot<verbs>
         <translations><date>0408</date>
             <translation>forma negativa del verb auxiliar 'can'<example>I &lt;b&gt;cannot&lt;/b&gt; see how that is relevant.</example></translation>
@@ -813,15 +839,15 @@
     </verbs>
     </Entry><Entry frequency="6900000">canoe<nouns>
         <translations>
-            <translation gender="f">canoa</translation>
+            <translation catagory="transport-mode" gender="f">canoa</translation>
         </translations>
     </nouns>
         <verbs>
         <translations>
-        <translation>practicar el piragüisme</translation></translations></verbs>
+        <translation catagory="sports">practicar el piragüisme</translation></translations></verbs>
     </Entry><Entry frequency="2930000">canoeing<nouns>
         <translations>
-            <translation gender="m">piragüisme</translation>
+            <translation catagory="sports-event" gender="m">piragüisme</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="4240000">canola<nouns>
@@ -836,7 +862,7 @@
 		</adjectives>
 	</Entry><Entry frequency="205000">can opener<nouns>
         <translations>
-            <translation gender="m">obrellaunes</translation>
+            <translation catagory="household-room-kitchen" gender="m">obrellaunes</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="573000">canting<nouns>
@@ -851,7 +877,7 @@
     </nouns>
     </Entry><Entry frequency="11900000">canyon<nouns>
         <translations>
-            <translation gender="m">canó / congost</translation>
+            <translation catagory="geography" gender="m">canó / congost</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="25000000">cap<nouns>
@@ -920,25 +946,22 @@
     </nouns>
     </Entry><Entry frequency="1660000">capitalism<nouns>
         <translations>
-            <translation gender="m">capitalisme</translation>
+            <translation catagory="financial" gender="m">capitalisme</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="894000">capitalist<nouns>
         <translations>
-            <translation gender="mf">capitalista</translation>
+            <translation catagory="financial" gender="mf">capitalista</translation>
         </translations>
     </nouns>
         <adjectives>
             <translations>
-                <translation>capitalista</translation>
+                <translation catagory="financial">capitalista</translation>
             </translations>
         </adjectives>
     </Entry><Entry frequency="876000">capital punishment<nouns>
         <translations>
-            <translation>
-                <translation gender="f">pena de mort</translation>
-                <translation gender="f">pena capital</translation>
-            </translation>
+                <translation gender="f">pena de mort / pena capital</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="138000">capitulate<verbs>
@@ -954,7 +977,7 @@
     </nouns>
     </Entry><Entry frequency="2730000">Capricorn<nouns>
         <translations>
-            <translation gender="m">Capricorn</translation>
+            <translation catagory="zodiac" gender="m">Capricorn</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="25000000">caps<nouns>
@@ -964,7 +987,7 @@
     </nouns>
     </Entry><Entry frequency="2170000">capsicum<nouns>
         <translations>
-            <translation catagory="food-vegetable" local="au" gender="m">pebrot<otherlocal>pepper</otherlocal></translation>
+            <translation catagory="food-vegetable" local="au" gender="m">pebrot<otherlocal>(bell) pepper</otherlocal></translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="18200000">captain<nouns>
@@ -1007,6 +1030,11 @@
             <translation gender="m">cotxe / automòbil</translation>
         </translations>
     </nouns>
+    <expressions>car bomb
+        <translations>
+            <translation gender="m">cotxe bomba</translation>
+        </translations>
+    </expressions>
     </Entry><Entry frequency="637000">carapace<nouns>
         <translations>
             <translation catagory="animal" gender="f">cuirassa</translation>
@@ -1019,7 +1047,7 @@
     </nouns>
     </Entry><Entry frequency="1040000">caravan<nouns>
         <translations>
-            <translation gender="f">caravana</translation>
+            <translation catagory="transport-mode" gender="f">caravana</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="1110000">carbohydrate<nouns>
@@ -1027,12 +1055,7 @@
 				<translation catagory="biology" gender="m">glúcid / hidrat de carboni / carbohidrat</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="640000">car bomb<nouns>
-        <translations>
-            <translation gender="m">cotxe bomba</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="12000000">carbon<nouns>
+	</Entry><Entry frequency="12000000">carbon<nouns>
         <translations>
             <translation gender="m">carboni</translation>
         </translations>
@@ -2711,10 +2734,7 @@
         <translation>canalitzar</translation></translations></verbs>
     </Entry><Entry frequency="2040000">Channel Islands<nouns>
         <translations>
-            <translation>
-                <translation gender="fpl">Illes del Canal</translation>
-                <translation gender="fpl">Illes Anglonormandes</translation>
-            </translation>
+                <translation catagory="region-europe" gender="fpl">Illes del Canal / Illes Anglonormandes</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="2500000">chant<verbs>
