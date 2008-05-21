@@ -405,7 +405,7 @@
 			<span class="category">[AGRIC] </span>
 		</xsl:if>
                  <xsl:if test="contains(@disambiguate,'Music') or contains(@disambiguate,'music') ">
-			<span class="category">[MÃSICA] </span>
+			<span class="category">[MÚSICA] </span>
 		</xsl:if>
                   <xsl:if test="contains(@disambiguate,'Maths') or contains(@disambiguate,'maths') ">
 			<span class="category">[MAT] </span>
