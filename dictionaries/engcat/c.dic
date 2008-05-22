@@ -7635,26 +7635,25 @@
     </nouns>
     </Entry><Entry frequency="8270000">consist<verbs>
         <translations>
-            <translation>consistir<engexamp>To consist of...</engexamp>
-                <catexamp>Consistir en...</catexamp>
-            </translation>
+            <translation>(vegeu 'consist of')</translation>
         </translations>
     </verbs>
-    <phrasalverbs>consist of<translations><translation intransitive="true">ser compost o fet de</translation></translations></phrasalverbs></Entry><Entry frequency="4860000">consistency<nouns>
+    <phrasalverbs>consist of
         <translations>
-            <translation>
-                <translation gender="f">regularitat</translation>
-                <translation gender="f">consistència</translation>
-                <plural>consistencies</plural>
-            </translation>
+            <translation intransitive="true">ser compost o fet de</translation>
+        </translations>
+    </phrasalverbs>
+    </Entry>
+    <Entry frequency="4860000">consistency<nouns>
+        <translations>
+                <translation gender="f">regularitat / consistència<plural>consistencies</plural></translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="12700000">consistent<adjectives>
         <translations>
-            <translation>conseqüent</translation>
+            <translation>conseqüent / consistent</translation>
             <translation>constant</translation>
-            <translation>consistent</translation>
-        </translations>
+            </translations>
     </adjectives>
     </Entry><Entry frequency="82000000">consistently<adverbs>
         <translations>
@@ -7712,7 +7711,7 @@
     </verbs>
     </Entry><Entry frequency="299000">constable<nouns>
         <translations>
-            <translation local="gb" gender="mf">policia<synonyms>policeman</synonyms>
+            <translation catagory="work-job" local="gb" gender="mf">policia<synonyms>policeman</synonyms>
             </translation>
         </translations>
     </nouns>
@@ -7724,7 +7723,7 @@
     </adjectives>
     </Entry><Entry frequency="1210000">Constantinople<nouns>
         <translations>
-            <translation catagory="geography">Constantinoble</translation>
+            <translation catagory="city-europe-turkey">Constantinoble</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="3240000">constantly<adverbs>
@@ -7739,9 +7738,14 @@
     </nouns>
     </Entry><Entry frequency="1490000">constipate<verbs>
         <translations>
-            <translation catagory="medical" transitive="true">restrènyer<engexamp>To be constipated</engexamp><catexamp>Anar restret</catexamp></translation>
-        </translations>
+        <translation catagory="medical" transitive="true">restrènyer</translation>
+    </translations>
     </verbs>
+        <expressions>be constipated
+            <translations>
+                <translation>anar restret</translation>
+            </translations>
+        </expressions>
     </Entry><Entry frequency="1330000">constipated<adjectives>
         <translations>
             <translation catagory="medical">restret</translation>
@@ -7749,7 +7753,7 @@
     </adjectives>
     </Entry><Entry frequency="613000">constipation<nouns>
         <translations>
-            <translation gender="m">restrenyiment</translation>
+            <translation catagory="medical-illness" gender="m">restrenyiment</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="6350000">constitution<nouns>
@@ -7784,8 +7788,8 @@
     </nouns>
     </Entry><Entry frequency="23800000">construct<verbs>
         <translations>
-            <translation>construir<example>Bob's neighbours weren't happy when he &lt;b&gt;constructed&lt;/b&gt; a 20ft statue of Elvis Presley in his back garden</example>
-                <example>The Indians in Sioux Falls, Nevada are planning to &lt;b&gt;construct&lt;/b&gt; a 50ft bridge across the Colorado River</example>
+            <translation>construir<example>Bob's neighbours weren't happy when he &lt;b&gt;constructed&lt;/b&gt; a 20ft statue of Elvis Presley in his back garden.</example>
+                <example>The Indians in Sioux Falls, Nevada are planning to &lt;b&gt;construct&lt;/b&gt; a 50ft bridge across the Colorado River.</example>
                 <synonyms>build</synonyms>
             </translation>
         </translations>
@@ -7795,29 +7799,36 @@
             <translation gender="f">construcció</translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="11700000">constructive<adjectives>
-        <translations>
-            <translation>constructiu</translation>
+    </Entry><Entry frequency="1570000">constructive<adjectives>
+            <translations><date>0508</date>
+            <translation>constructiu<engexamp>Constructive criticism</engexamp><catexamp>Crítica constructiva</catexamp></translation>
         </translations>
     </adjectives>
-    </Entry><Entry frequency="139000">consubstantial<adjectives>
+    </Entry>
+    <Entry frequency="3780000">constructively<adverbs>
+            <translations><date>0508</date>
+                <translation>constructivament</translation>
+            </translations>
+        </adverbs>
+    </Entry>
+    <Entry frequency="139000">consubstantial<adjectives>
         <translations>
             <translation disambiguate="religious">consubstancial</translation>
         </translations>
     </adjectives>
     </Entry><Entry frequency="432000">consul<nouns>
         <translations>
-            <translation gender="mf">cònsol</translation>
+            <translation catagory="politics" gender="mf">cònsol</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="2950000">consular<adjectives>
         <translations>
-            <translation>consular</translation>
+            <translation catagory="politics">consular</translation>
         </translations>
     </adjectives>
     </Entry><Entry frequency="512000">consulate<nouns>
         <translations>
-            <translation gender="m">consolat</translation>
+            <translation catagory="politics" gender="m">consolat</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="28800000">consult<verbs>
@@ -7830,8 +7841,7 @@
     </Entry><Entry frequency="3540000">consultancy<nouns>
         <translations>
             <translation>
-                <translation gender="f">assessoria</translation>
-                <translation gender="f">consultoria</translation>
+                <translation gender="f">assessoria / consultoria</translation>
                 <translation gender="m">assessorament</translation>
             </translation>
         </translations>
@@ -7839,8 +7849,8 @@
     </Entry><Entry frequency="10900000">consultant<nouns>
         <translations>
             <translation>
-                <translation gender="mf">assessor</translation>
-                <translation local="gb" disambiguate="medical-job" gender="mf">(metge) especialista</translation>
+                <translation catagory="work-job" gender="mf">assessor</translation>
+                <translation local="gb" disambiguate="work-job, medical" gender="mf">(metge) especialista</translation>
             </translation>
         </translations>
     </nouns>
@@ -7855,12 +7865,13 @@
             <translation gender="mf">consumidor</translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="771000">consumer price index<nouns>
-        <translations>
-            <translation gender="m">índex de preus de consum</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="8290000">consumption<nouns>
+        <expressions>consumer price index
+            <translations>
+                <translation gender="m">índex de preus de consum</translation>
+            </translations>
+        </expressions>
+    </Entry>
+    <Entry frequency="8290000">consumption<nouns>
         <translations>
             <translation gender="m">consum</translation>
         </translations>
@@ -7880,12 +7891,13 @@
                 <translation gender="f">lent de contacte<example>He used to wear glasses but now he wears &lt;b&gt;contacts&lt;/b&gt;.</example></translation>
             </translations>
         </nouns>
-    </Entry><Entry frequency="452000">contact dermatitis<nouns>
-        <translations>
-            <translation catagory="medical-illness" gender="f">dermatitis de contacte</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="6520000">contact lens<nouns>
+        <expressions>contact dermatitis
+            <translations>
+                <translation catagory="medical-illness" gender="f">dermatitis de contacte</translation>
+            </translations>
+        </expressions>
+    </Entry>
+    <Entry frequency="6520000">contact lens<nouns>
         <translations><date>1005</date>
             <translation gender="f">lent de contacte<engexamp>Soft contact lenses</engexamp><catexamp>Lents de contacte toves</catexamp><engexamp>Hard contact lenses</engexamp><catexamp>Lents de contacte rígides</catexamp><plural>contact lenses</plural></translation>
         </translations>
@@ -7901,10 +7913,7 @@
     </verbs>
     </Entry><Entry frequency="12200000">container<nouns>
         <translations>
-            <translation>
-                <translation gender="m">contenidor</translation>
-                <translation gender="m">recipient</translation>
-            </translation>
+                <translation gender="m">contenidor / recipient</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="1520000">containment<nouns>
@@ -7950,12 +7959,13 @@
             <translation gender="m">desacatament</translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="574000">contempt of court<nouns>
-        <translations>
-            <translation gender="m">desacatament al tribunal</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="26700000">contend<verbs>
+        <expressions>contempt of court
+            <translations>
+                <translation gender="m">desacatament al tribunal</translation>
+            </translations>
+        </expressions>
+    </Entry>
+    <Entry frequency="26700000">contend<verbs>
         <translations>
             <translation register="formal">afirmar / asseverar / mantenir</translation>
             <translation>competir (per) / disputar-se<engexamp>To contend for something</engexamp><catexamp>Competir per alguna cosa</catexamp></translation>
@@ -8037,7 +8047,7 @@
 		</adverbs>
 	</Entry><Entry frequency="2860000">continent<nouns>
         <translations>
-            <translation gender="m">continent</translation>
+            <translation catagory="geography" gender="m">continent</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="3880000">contingent<nouns>
@@ -8100,14 +8110,20 @@
                 </translation>
             </translations>
         </verbs>
-    <phrasalverbs>contract out<translations><translation transitive="true">contractar (una feina a una altra empresa)</translation></translations></phrasalverbs></Entry><Entry frequency="616000">contraction<nouns>
+    <phrasalverbs>contract out
+        <translations>
+            <translation transitive="true">contractar (una feina a una altra empresa)</translation>
+        </translations>
+    </phrasalverbs>
+    </Entry>
+    <Entry frequency="616000">contraction<nouns>
         <translations>
             <translation disambiguate="medical" gender="f">contracció</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="8810000">contractor<nouns>
         <translations>
-            <translation gender="mf">contractista</translation>
+            <translation catagory="work-job" gender="mf">contractista</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="1140000">contracture<nouns>
@@ -8132,11 +8148,14 @@
     </adjectives>
     </Entry><Entry frequency="16200000">contrary<nouns>
         <translations>
-            <translation gender="m">contrari<engexamp>On the contrary</engexamp>
-                <catexamp>Al contrari</catexamp>
-            </translation>
+            <translation gender="m">contrari</translation>
         </translations>
     </nouns>
+        <expressions>on the contrary
+            <translations>
+                <translation>al contrari</translation>
+            </translations>
+        </expressions>
     </Entry><Entry frequency="16400000">contrast<nouns>
         <translations>
             <translation gender="m">contrast</translation>
@@ -8185,23 +8204,23 @@
                 <translation gender="m">control</translation>
             </translations>
         </nouns>
-    </Entry><Entry frequency="904000">control group<nouns>
-        <translations>
-            <translation gender="m">grup control</translation>
-        </translations>
-    </nouns>
+        <expressions>control group
+            <translations>
+                <translation gender="m">grup control</translation>
+            </translations>
+        </expressions>
+        <expressions>control structure
+            <translations>
+                <translation catagory="computers-programming" gender="f">estructura de control</translation>
+            </translations>
+        </expressions>
     </Entry><Entry frequency="20600000">controller<nouns>
         <translations>
             <translation gender="mf">controlador</translation>
             <translation gender="m">comandament<engexamp>Wireless controller</engexamp><catexamp>Comandament sense fils / a distància / remot</catexamp></translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="743000">control structure<nouns>
-        <translations>
-            <translation catagory="computers-programming" gender="f">estructura de control</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="2900000">controversial<adjectives>
+        </Entry><Entry frequency="2900000">controversial<adjectives>
         <translations>
             <translation>polèmic / controvertit</translation>
         </translations>
@@ -8217,9 +8236,9 @@
 				<translation termcat="medical" gender="f">convalescència</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="723000">convection<nouns>
-        <translations>
-            <translation gender="f">convecció</translation>
+	</Entry><Entry frequency="712000">convection<nouns>
+                <translations><date>0508</date>
+            <translation gender="f">convecció<engexamp>Convection currents</engexamp><catexamp>Corrents de convecció</catexamp></translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="4350000">convene<verbs>
@@ -8253,7 +8272,7 @@
                 <translation gender="f">convenció</translation>
                 <translation gender="m">congrés</translation>
             </translation>
-            <translation beforenoun="true">congressual<engexamp>Convention agreement</engexamp><catexamp>Acord congressual</catexamp></translation>
+            <translation gender="f">convenció</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="27000000">conventional<adjectives>
@@ -8276,12 +8295,48 @@
             <translation gender="f">convergència</translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="33500000">conversation<nouns>
+    </Entry>
+    <Entry frequency="2320000">convergent<adjectives>
+            <translations><date>0508</date>
+            <translation>convergent</translation>
+        </translations>
+    </adjectives>
+    </Entry>
+    <Entry frequency="33500000">conversation<nouns>
         <translations>
             <translation gender="f">conversa</translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="2830000">conversely<adverbs>
+    </Entry>
+     <Entry frequency="2360000">conversational<adjectives>
+            <translations><date>0508</date>
+            <translation catagory="linguistics">col·loquial / familiar</translation>
+        </translations>
+    </adjectives>
+    </Entry>
+ <Entry frequency="980000">conversationalist<nouns>
+         <translations><date>0508</date>
+            <translation gender="mf">conversador</translation>
+        </translations>
+    </nouns>
+    </Entry>
+  <Entry frequency="750000">converse<verbs>
+            <translations><date>0508</date>
+            <translation register="formal">conversar</translation>
+        </translations>
+    </verbs>
+    <adjectives>
+        <translations>
+            <translation>contrari</translation>
+        </translations>
+    </adjectives>
+        <nouns>
+            <translations>
+                <translation sourceplural="the converse" gender="m">contrari</translation>
+            </translations>
+        </nouns>
+    </Entry>
+    <Entry frequency="2830000">conversely<adverbs>
         <translations>
             <translation>per contra</translation>
         </translations>
@@ -8296,9 +8351,9 @@
             <translation>convertir</translation>
         </translations>
     </verbs>
-    </Entry><Entry frequency="22400000">converter<nouns>
-        <translations>
-            <translation gender="m">convertidor</translation>
+    </Entry><Entry frequency="7880000">converter<nouns>
+            <translations><date>0508</date>
+            <translation gender="m">convertidor<catnote>També s'escriu 'convertor' però 'converter' és més freqüent.</catnote></translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="22400000">convertible<nouns>
@@ -8309,7 +8364,14 @@
         <adjectives>
         <translations>
         <translation disambiguate="transport">descapotable</translation></translations></adjectives>
-    </Entry><Entry frequency="1440000">convex<adjectives>
+    </Entry>
+    <Entry frequency="640000">convertor<nouns>
+            <translations><date>0508</date>
+                <translation gender="m">convertidor<catnote>També s'escriu 'converter' ('converter' és més freqüent).</catnote></translation>
+        </translations>
+    </nouns>
+    </Entry>
+    <Entry frequency="1440000">convex<adjectives>
         <translations>
             <translation>convex<engexamp>Convex lens</engexamp><catexamp>Lent convergent</catexamp></translation>
         </translations>
@@ -8320,11 +8382,16 @@
                                 <translation>comunicar</translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="35700000">convict<nouns>
-        <translations><date>1005</date>
+	</Entry><Entry frequency="2170000">convict<nouns>
+        <translations><date>0508</date>
             <translation gender="m / f">presidiari</translation>
         </translations>
     </nouns>
+        <verbs>
+            <translations>
+                <translation>condemnar</translation>
+            </translations>
+        </verbs>
     </Entry><Entry frequency="2640000">conviction<nouns>
         <translations>
             <translation gender="f">condemna<engnote>'Condemna' means 'conviction' as in 'criminal conviction'.</engnote>
@@ -8372,9 +8439,14 @@
             <translation>coure</translation>
         </translations>
     </verbs>
+    <phrasalverbs>cook up
+        <translations>
+            <translation register="colloquial" transitive="true">inventar (un pla d'acció, una excusa, etc.)</translation>
+        </translations>
+    </phrasalverbs>
         <nouns>
             <translations>
-                <translation gender="mf">cuiner</translation>
+                <translation catagory="work-job" gender="mf">cuiner</translation>
             </translations>
         </nouns>
         <expressions>what's cooking?
@@ -8382,7 +8454,7 @@
                 <translation register="slang">què s'hi cou?<synonyms>what's up, what's happening, what gives</synonyms></translation>
             </translations>
         </expressions>
-    <phrasalverbs>cook up<translations><translation transitive="true">(col·loq.) inventar (un pla d'acció, una excusa, etc.)</translation></translations></phrasalverbs></Entry><Entry frequency="2540000">cooker<nouns>
+    </Entry><Entry frequency="2540000">cooker<nouns>
         <translations>
             <translation local="gb" catagory="household-room-kitchen" gender="f">cuina<otherlocal>stove</otherlocal>
             </translation>
@@ -8412,7 +8484,7 @@
             <translation>calmat / tranquil / serè</translation>
             <translation>fred<engnote>'Fred' means 'cool' psychologically speaking.</engnote></translation>
             <translation register="slang">de moda / a l'últim</translation>
-            <translation register="slang">xulo / bufó / guai<engnote>'Xulo' is a borrowing from the Spanish (chulo). We have included it here as it is very widely used in Catalan. However, be aware.</engnote></translation>
+            <translation register="slang">xulo / bufó / guai<engnote>'Xulo' is a borrowing from the Spanish (chulo). We have included it here as it is very widely used in Catalan but would advise caution in its use.</engnote></translation>
         </translations>
     </adjectives>
     <verbs>
@@ -8420,7 +8492,14 @@
             <translation>refrigerar</translation>
         </translations>
     </verbs>
-    <phrasalverbs>cool off<translations><translation intransitive="true">refrescar-se</translation><translation intransitive="true">calmar-se</translation></translations></phrasalverbs></Entry><Entry frequency="64400">coolant circuit<nouns>
+    <phrasalverbs>cool off
+        <translations>
+            <translation intransitive="true">refrescar-se</translation>
+            <translation intransitive="true">calmar-se</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
+<Entry frequency="64400">coolant circuit<nouns>
 			<translations><date>0307</date>
 				<translation gender="m">circuit de refrigeració</translation>
 			</translations>
@@ -8445,7 +8524,7 @@
             <translation>cooperatiu</translation>
         </translations>
     </adjectives>
-    </Entry><Entry frequency="242000">coopetition<nouns>
+    </Entry><Entry frequency="41700">coopetition<nouns>
         <translations>
             <translation>'coopetència'<catnote>Suma de cooperation (cooperació) i competition (competència) o sigui 'cooperació entre empreses rivals en mercats competitius'.</catnote></translation>
         </translations>
@@ -8486,7 +8565,7 @@
     </nouns>
     </Entry><Entry frequency="3870000">cop<nouns>
         <translations>
-            <translation register="slang" gender="mf">policia</translation>
+            <translation catagory="work-job" register="slang" gender="mf">policia</translation>
         </translations>
     </nouns>
     <exclamations>cop a load of this
@@ -8519,9 +8598,15 @@
             <translation>apanyar-se<synonyms>manage, get by</synonyms></translation>
         </translations>
     </verbs>
-    <phrasalverbs>cope with<translations><translation intransitive="true">enfrontar-se a</translation></translations></phrasalverbs></Entry><Entry frequency="6650000">Copenhagen<nouns>
+    <phrasalverbs>cope with
         <translations>
-            <translation catagory="geography-city">Copenhague</translation>
+            <translation intransitive="true">enfrontar-se a</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
+<Entry frequency="6650000">Copenhagen<nouns>
+        <translations>
+            <translation catagory="city-europe-denmark">Copenhague</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="117000">coping<nouns>
@@ -8536,8 +8621,8 @@
     </nouns>
     </Entry><Entry frequency="9040000">copper<nouns>
         <translations>
-            <translation gender="m">coure</translation>
-            <translation register="slang" local="gb" gender="mf">policia<synonyms>policeman, cop</synonyms>
+            <translation catagory="material" gender="m">coure</translation>
+            <translation catagory="work-job" register="slang" local="gb" gender="mf">policia<synonyms>policeman, cop</synonyms>
             </translation>
             <translation sourceplural="coppers">
             <translation disambiguate="financial" local="gb" gender="m">canvi</translation>
@@ -8586,33 +8671,37 @@
                 <translation>coral·lí</translation>
             </translations>
         </adjectives>
-    </Entry><Entry frequency="1270000">coral reef<nouns>
-        <translations>
+        <expressions>coral reef
+            <translations>
                 <translation gender="m">escull coral·lí / escull de corall</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="11200000">cord<nouns>
+            </translations>
+        </expressions>
+    </Entry>
+    <Entry frequency="11200000">cord<nouns>
         <translations>
             <translation>
-            <translation gender="m">cable / cordó<engexamp>Umbilical cord</engexamp><catexamp>Cordó umbilical</catexamp></translation>
+            <translation gender="m">cable / cordó</translation>
             <translation gender="f">corda</translation>
-        </translation>
+            </translation>
+            <translation disambiguate="clothes" sourceplural="cords" gender="mpl">pantalons de pana</translation>
         </translations>
-    </nouns>
+        </nouns>
         <verbs>
         <translations>
-        <translation>lligar amb corda</translation></translations></verbs>
+        <translation>lligar amb corda</translation>
+        </translations>
+        </verbs>
+        <expressions>umbilical cord
+            <translations>
+                <translation gender="m">cordó umbilical</translation>
+            </translations>
+        </expressions>
     </Entry><Entry frequency="1770000">cordless<adjectives>
         <translations>
             <translation>sense fil<synonyms>wireless</synonyms>
             </translation>
         </translations>
     </adjectives>
-    </Entry><Entry frequency="1140000">cords<nouns>
-        <translations>
-            <translation gender="mpl">pantalons de pana</translation>
-        </translations>
-    </nouns>
     </Entry><Entry frequency="14400000">core<nouns>
         <translations>
             <translation disambiguate="food" gender="m">cor</translation>
@@ -8754,7 +8843,13 @@
             <translation>correspondre</translation>
         </translations>
     </verbs>
-    <phrasalverbs>correspond with<translations><translation intransitive="true">correspondre a</translation></translations></phrasalverbs></Entry><Entry frequency="10100000">correspondence<nouns>
+    <phrasalverbs>correspond with
+        <translations>
+            <translation intransitive="true">correspondre a</translation>
+        </translations>
+    </phrasalverbs>
+    </Entry>
+    <Entry frequency="10100000">correspondence<nouns>
         <translations>
             <translation gender="f">correspondència</translation>
         </translations>
@@ -8817,12 +8912,12 @@
     </nouns>
     </Entry><Entry frequency="1270000">corset<nouns>
         <translations>
-            <translation gender="f">cotilla</translation>
+            <translation catagory="clothes" gender="f">cotilla</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="742000">Corsica<nouns>
         <translations>
-            <translation gender="f">Còrsega</translation>
+            <translation catagory="region-europe" gender="f">Còrsega</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="9330000">cortex<nouns>
@@ -8853,19 +8948,20 @@
         <nouns>
         <translations>
         <translation gender="m">cosmètic</translation></translations></nouns>
-    </Entry><Entry frequency="1600000">cosmetic surgery<nouns>
-        <translations>
-            <translation gender="f">cirurgia estètica / cirurgia plàstica<synonyms>Plastic surgery</synonyms></translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="10400000">cosmic<adjectives>
+        <expressions>cosmetic surgery
+            <translations>
+                <translation catagory="medical" gender="f">cirurgia estètica / cirurgia plàstica<synonyms>Plastic surgery</synonyms></translation>
+            </translations>
+        </expressions>
+    </Entry>
+    <Entry frequency="10400000">cosmic<adjectives>
         <translations>
             <translation catagory="astronomy">còsmic</translation>
         </translations>
     </adjectives>
     </Entry><Entry frequency="699000">cosmology<nouns>
         <translations>
-            <translation gender="f">cosmologia</translation>
+            <translation catagory="astronomy" gender="f">cosmologia</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="662000">cosmonaut<nouns>
@@ -8890,7 +8986,7 @@
     </nouns>
     </Entry><Entry frequency="118000000">cost<nouns>
         <translations>
-            <translation gender="m">cost<engexamp>Whatever the cost</engexamp><catexamp>Costi el que costi</catexamp></translation>
+            <translation gender="m">cost</translation>
         </translations>
     </nouns>
         <verbs>
@@ -8899,21 +8995,29 @@
                 </translation>
             </translations>
         </verbs>
-        <expressions>to cost an arm and a leg
+        <expressions>cost an arm and a leg
         <translations>
         <translation register="colloquial">costar un ull de la cara / costar un ronyó</translation></translations></expressions>
-        <expressions>to cost a bomb
+        <expressions>cost a bomb
         <translations>
         <translation register="colloquial">costar un ull de la cara / costar un ronyó</translation></translations></expressions>
-        <expressions>to cost a fortune
+        <expressions>cost a fortune
             <translations>
                 <translation register="colloquial">costar un ull de la cara / costar un ronyó</translation>
             </translations>
         </expressions>
-        <expressions>at all costs
-        <translations>
-        <translation>costi el que costi</translation></translations></expressions>
-    </Entry><Entry frequency="7660000">Costa Rica<nouns>
+            <expressions>at all costs
+                <translations>
+                <translation>costi el que costi</translation>
+            </translations>
+        </expressions>
+            <expressions>whatever the cost
+                <translations>
+                    <translation>costi el que costi</translation>
+                </translations>
+            </expressions>
+    </Entry>
+    <Entry frequency="7660000">Costa Rica<nouns>
         <translations>
             <translation catagory="country-centralamerica" gender="f">Costa Rica</translation>
         </translations>
@@ -8937,12 +9041,20 @@
             <translation gender="m">cost de la vida</translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="1010000">costume designer<nouns>
-        <translations>
-            <translation gender="mf">dissenyador (de roba)</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="2550000">cosy<adjectives>
+    </Entry>
+    <Entry frequency="5470000">costume<nouns>
+            <translations><date>0508</date>
+                <translation gender="m">vestit</translation>
+                <translation local="gb" disambiguate="clothes" register="colloquial" gender="m">banyador</translation>
+            </translations>
+        </nouns>
+        <expressions>costume designer
+            <translations>
+                <translation catagory="work-job" gender="mf">dissenyador de vestuari</translation>
+            </translations>
+        </expressions>
+    </Entry>
+ <Entry frequency="2550000">cosy<adjectives>
             <translations><date>0807</date>
             <translation local="gb">acollidor / calent i còmode<otherlocal>cozy</otherlocal></translation>
         </translations>
@@ -8952,12 +9064,13 @@
         <translation>posar-se còmode</translation>
         </translations>
         </phrasalverbs>
-        <phrasalverbs>cosy up (to somebody)
+        <phrasalverbs>cosy up to
             <translations>
                 <translation>afalagar</translation>
             </translations>
         </phrasalverbs>
-    <phrasalverbs>cosy up to<translations><translation intransitive="true">afalagar</translation></translations></phrasalverbs></Entry><Entry frequency="1840000">cot<nouns>
+    </Entry>
+    <Entry frequency="1840000">cot<nouns>
         <translations>
             <translation local="us" gender="m">catre / jaç<otherlocal>camp bed</otherlocal><engnote>'Catre' and 'jaç' mean 'cot' in the American sense 'small, folding bed'.</engnote></translation>
             <translation local="gb" gender="m">llit de baranes<otherlocal>crib</otherlocal><engnote>'Bressol' means 'cot' in the British sense 'baby's bed' (Am. 'crib').</engnote></translation>
@@ -8974,17 +9087,17 @@
                 <translation gender="m">cotó</translation>
             </translations>
         </nouns>
-        <phrasalverbs>cotton on (to something)
+        <phrasalverbs>cotton on to
             <translations>
-                <translation>adonar-se d'(una cosa)<example>The local bistro finally &lt;b&gt;cottoned on&lt;/b&gt; to the fact that the lunchtime uni crowd was stealing the plastic beer pitchers.</example></translation>
+                <translation>adonar-se de<example>The local bistro finally &lt;b&gt;cottoned on&lt;/b&gt; to the fact that the lunchtime uni crowd was stealing the plastic beer pitchers.</example></translation>
             </translations>
         </phrasalverbs>
-        <phrasalverbs>cotton to (something)
+        <phrasalverbs>cotton to
         <translations>
             <translation local="us" register="colloquial">sentir atracció per<example>I was afraid Janet wouldn't like my brother, but she &lt;b&gt;cottoned to&lt;/b&gt; him immediately.</example><example>UK customers have &lt;b&gt;cottoned to&lt;/b&gt; their iced coffees, but they still need educating about iced espresso and lattes.</example></translation>
         </translations>
         </phrasalverbs>
-    <phrasalverbs>cotton on to<translations><translation intransitive="true">(col·loq.) adonar-se de</translation></translations></phrasalverbs></Entry><Entry frequency="7410000">couch<nouns>
+        </Entry><Entry frequency="7410000">couch<nouns>
         <translations>
             <translation gender="m">sofà<synonyms>sofa / settee</synonyms><plural>couches</plural></translation>
         </translations>
@@ -9001,7 +9114,7 @@
 </phrasalverbs>
         <nouns>
             <translations>
-                <translation gender="m">tos</translation>
+                <translation catagory="medical" gender="m">tos</translation>
             </translations>
         </nouns>
     </Entry><Entry frequency="70300000">council<nouns>
@@ -9029,17 +9142,19 @@
             <translation local="gb" gender="m">assessorament<otherlocal>counseling</otherlocal></translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="22500000">counselor<nouns>
-        <translations>
-            <translation local="us" gender="m">assessor<otherlocal>counsellor</otherlocal></translation>
-        </translations>
-    </nouns>
     </Entry><Entry frequency="22500000">counsellor<nouns>
         <translations>
             <translation local="gb" gender="m">assessor<otherlocal>counselor</otherlocal></translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="243000000">count<verbs>
+    </Entry>
+    <Entry frequency="22500000">counselor<nouns>
+        <translations>
+            <translation local="us" gender="m">assessor<otherlocal>counsellor</otherlocal></translation>
+        </translations>
+    </nouns>
+    </Entry>
+    <Entry frequency="243000000">count<verbs>
         <translations><date>0807</date>
             <translation>comptar / comptabilitzar</translation>
             <translation disambiguate="politics">escrutar<engnote>'Escrutar' means 'to count votes'.</engnote></translation>
@@ -9056,6 +9171,11 @@
             <translation>recitar números en ordre descendent</translation>
             </translations>
             </phrasalverbs>
+            <phrasalverbs>count in
+                <translations>
+                    <translation transitive="true">comptar amb algú / incloure-l'hi</translation>
+                </translations>
+            </phrasalverbs>
             <phrasalverbs>count off
             <translations>
                 <translation>recitar números</translation>
@@ -9068,7 +9188,12 @@
                 </translation>
             </translations>
         </phrasalverbs>
-    <phrasalverbs>count in<translations><translation transitive="true">comptar amb algú, incloure-l'hi</translation></translations></phrasalverbs><phrasalverbs>count out<translations><translation transitive="true">no comptar amb algú, excloure-l'en</translation></translations></phrasalverbs></Entry><Entry frequency="42000000">counter<nouns>
+        <phrasalverbs>count out
+            <translations>
+                <translation transitive="true">no comptar amb algú, excloure-l'en</translation>
+            </translations>
+        </phrasalverbs>
+    </Entry><Entry frequency="42000000">counter<nouns>
         <translations>
             <translation gender="m">taulell<engnote>'Taulell' means 'counter' in the sense 'He put the meat on the counter'.</engnote></translation>
             <translation gender="m">comptador<engnote>'Comptador' means 'counter' in the sense 'thing which counts' (e.g. 'web counter').</engnote></translation>
@@ -9134,12 +9259,13 @@
             <translation gender="m">cop d'estat / colp d'estat<engexamp>Coup attempt / attempted coup</engexamp><catexamp>Intent colpista</catexamp><engexamp>Coup plotter (or participant in a coup)</engexamp><catexamp>Colpista</catexamp></translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="1790000">coup d'état<nouns>
-        <translations>
-            <translation gender="m">cop d'estat / colp d'estat</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="773000">coup de grâce<nouns>
+        <expressions>coup d'état
+            <translations>
+                <translation gender="m">cop d'estat / colp d'estat</translation>
+            </translations>
+        </expressions>
+    </Entry>
+    <Entry frequency="773000">coup de grâce<nouns>
         <translations>
             <translation gender="m">cop de gràcia / colp de gràcia</translation>
         </translations>
@@ -9148,9 +9274,7 @@
         <translations>
             <translation gender="f">parella<engnote>Parella means couple as in two people (i.e. John and Mary are not married but live together as a couple; at the ice-skating contest, the winning couple were presented with medals and flowers).</engnote>
             </translation>
-            <translation>un parell de<engnote>Un parell de means couple in the sense of 'a pair of', 'a couple of' (i.e. here's a couple of questions for you; I'm going to Geneva in a couple of days).</engnote>
-                <synonyms>pair</synonyms>
-            </translation>
+            <translation sourceplural="a couple of">un parell de<synonyms>pair</synonyms></translation>
         </translations>
     </nouns>
         <verbs>
@@ -9171,15 +9295,14 @@
     </Entry><Entry frequency="3660000">courage<nouns>
         <translations>
             <translation>
-                <translation gender="m">coratge</translation>
-                <translation gender="m">valor</translation>
+                <translation gender="m">coratge / valor</translation>
                 <translation gender="f">valentia</translation>
             </translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="137000">courgette<nouns>
         <translations>
-            <translation local="gb" gender="m">carabassó<otherlocal>zucchini</otherlocal>
+            <translation catagory="food-vegetable" local="gb" gender="m">carabassó<otherlocal>zucchini</otherlocal>
             </translation>
         </translations>
     </nouns>
@@ -9254,14 +9377,14 @@
     </nouns>
     </Entry><Entry frequency="254000">couscous<nouns>
         <translations>
-            <translation gender="m">cuscús</translation>
+            <translation catagory="food" gender="m">cuscús</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="7870000">cousin<nouns>
         <translations>
             <translation>
-                <translation gender="m">cosí</translation>
-                <translation gender="f">cosina </translation>
+                <translation catagory="family" gender="m">cosí</translation>
+                <translation catagory="family" gender="f">cosina </translation>
             </translation>
         </translations>
     </nouns>
@@ -9292,12 +9415,8 @@
             <translation gender="f">cobertura</translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="3190000">coverage area<nouns>
-        <translations>
-            <translation catagory="telephone, computers" termcat="true" gender="f">àrea de cobertura</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="1220000">cover plate<nouns>
+    </Entry>
+    <Entry frequency="1220000">cover plate<nouns>
 			<translations><date>0307</date>
 				<translation termcat="energy" gender="m">coberta</translation>
 			</translations>
@@ -9314,7 +9433,7 @@
     </verbs>
     </Entry><Entry frequency="17200000">cow<nouns>
         <translations>
-            <translation gender="f">vaca</translation>
+            <translation catagory="animal-animal" gender="f">vaca</translation>
         </translations>
     </nouns>
         <verbs>
@@ -9348,15 +9467,15 @@
     </adjectives>
     <phrasalverbs>cozy up
     <translations>
-        <translation>posar-se còmode</translation>
+        <translation intransitive="true">posar-se còmode</translation>
         </translations>
         </phrasalverbs>
-        <phrasalverbs>cozy up (to somebody)
+        <phrasalverbs>cozy up to
             <translations>
-                <translation>afalagar</translation>
+                <translation intransitive="true">afalagar</translation>
             </translations>
         </phrasalverbs>
-    <phrasalverbs>cozy up to<translations><translation intransitive="true">afalagar</translation></translations></phrasalverbs></Entry><Entry frequency="1240000">CPI<engacro>Consumer Price Index</engacro>
+        </Entry><Entry frequency="1240000">CPI<engacro>Consumer Price Index</engacro>
         <nouns>
             <translations>
                 <translation catagory="financial">IPC<catacro>Índex de Preus de / al Consum</catacro></translation>
@@ -9364,15 +9483,12 @@
         </nouns>
     </Entry><Entry frequency="2880000">crab<nouns>
         <translations>
-            <translation gender="m">cranc</translation>
+            <translation catagory="animal-animal" gender="m">cranc</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="70400000">crack<nouns>
         <translations><date>0807</date>
-            <translation>
-                <translation gender="f">esquerda</translation>
-                <translation gender="f">fissura</translation>
-            </translation>
+            <translation gender="f">esquerda / fissura</translation>
             <translation register="slang" gender="f">cocaïna</translation>
         </translations>
     </nouns>
@@ -9381,14 +9497,14 @@
                 <translation>esquerdar / esberlar</translation>
             </translations>
         </verbs>
-        <phrasalverbs>crack down on (something / someone)
+        <phrasalverbs>crack down on
             <translations>
                 <translation>controlar rigorosament / castigar<example>The Colombian government has pleged to &lt;b&gt;crack down on&lt;/b&gt; drug traffickers in the country</example>
                     <example>European governments have expressed their intentions to &lt;b&gt;crack down on&lt;/b&gt; illegal immigration</example>
                 </translation>
             </translations>
         </phrasalverbs>
-        <phrasalverbs>crack on with (something)
+        <phrasalverbs>crack on with
             <translations>
                 <translation register="colloquial" local="gb">treballar fort perquè s'acabi una tasca<example>I'm sorry but I can't talk right now. This report is due in tomorrow and I really must &lt;b&gt;crack on with&lt;/b&gt; it.</example>
                 </translation>
@@ -9414,13 +9530,20 @@
             </translations>
         </expressions>
     </Entry>
-    <Entry frequency="57200">crackers<adjectives>
-        <translations>
-            <translation register="slang">boig<synonyms>mad, crazy</synonyms>
-            </translation>
+    <Entry frequency="1010000">cracker<nouns>
+            <translations><date>0508</date>
+            <translation disambiguate="food" gender="f">galeta salada</translation>
+            <translation disambiguate="computers" termcat="true" gender="mf">pirata</translation>
+        </translations>
+    </nouns>
+    </Entry>
+     <Entry frequency="300000">crackers<adjectives>
+            <translations><date>0508</date>
+            <translation local="gb" register="colloquial">tocat de l'ala</translation>
         </translations>
     </adjectives>
-    </Entry><Entry frequency="620000">crackle<verbs>
+    </Entry>
+    <Entry frequency="620000">crackle<verbs>
             <translations><date>0408</date>
                 <translation>crepitar</translation>
             </translations>
@@ -9439,8 +9562,7 @@
         </verbs>
     </Entry><Entry frequency="1480">cradle snatcher<nouns>
         <translations>
-            <translation register="slang" noteng="TRUE">-<catnote>Un / una 'cradle snatcher' és un home / una dona que té relacions sexuals amb una dona / un home molt més jove que ell / ella.</catnote>
-            </translation>
+            <translation register="slang">home / dona que té relacions sexuals amb una dona / un home molt més jove que ell / ella</translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="19700000">craft<nouns>
@@ -9451,12 +9573,13 @@
             <translation disambiguate="transport" gender="f">nau / embarcació</translation>
         </translations>
     </nouns>
-    </Entry><Entry frequency="203000">craft fair<nouns>
-        <translations>
-            <translation gender="f">fira d'artesania</translation>
-        </translations>
-    </nouns>
-    </Entry><Entry frequency="2040000">craftsmanship<nouns>
+        <expressions>craft fair
+            <translations>
+                <translation gender="f">fira d'artesania</translation>
+            </translations>
+        </expressions>
+    </Entry>
+    <Entry frequency="2040000">craftsmanship<nouns>
         <translations>
             <translation gender="f">artesania</translation>
         </translations>
