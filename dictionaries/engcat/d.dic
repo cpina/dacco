@@ -18,12 +18,12 @@
 		</verbs>
 	</Entry><Entry frequency="5800000">dad<nouns>
 			<translations>
-				<translation gender="m" register="colloquial">papà</translation>
+				<translation catagory="family" gender="m" register="colloquial">papà</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="4320000">daddy<nouns>
 			<translations>
-				<translation gender="m" register="colloquial">papà<catnote>&apos;Daddy&apos; és una paraula utilitzada sobretot pels infants.</catnote>
+				<translation catagory="family" gender="m" register="colloquial">papà<catnote>&apos;Daddy&apos; és una paraula utilitzada sobretot pels infants.</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -38,7 +38,7 @@
 	</Entry>
         <Entry frequency="381000">daffodil<nouns>
 			<translations>
-				<translation gender="m">narcís<catnote>El narcís és un símbol nacional del País de Gal·les.</catnote>
+				<translation catagory="plants-flower" gender="m">narcís<catnote>El narcís és un símbol nacional del País de Gal·les.</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -51,7 +51,7 @@
 		</adjectives>
 	</Entry><Entry frequency="8120">dag<nouns>
 			<translations>
-				<translation gender="mf" local="au" register="colloquial">geek</translation>
+                                    <translation local="au" register="colloquial">persona que no segueix la moda</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1010000">dagger<nouns>
@@ -61,7 +61,7 @@
 		</nouns>
 	</Entry><Entry frequency="399000">dahlia<nouns>
 			<translations>
-				<translation gender="f">dàlia</translation>
+				<translation catagory="plants-flower" gender="f">dàlia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="122000000">daily<adverbs>
@@ -78,7 +78,7 @@
 	</Entry><Entry frequency="10300000">dairy<nouns>
 			<translations><date>0408</date>
 				<translation gender="f">lleteria<plural>dairies</plural></translation>
-                                <translation gender="mpl">productes làctics<example>Susan's son can't eat &lt;b&gt;dairy&lt;/b&gt; so she gives him soy milk and cheese.</example></translation>
+                                <translation catagory="food" gender="mpl">productes làctics<example>Susan's son can't eat &lt;b&gt;dairy&lt;/b&gt; so she gives him soy milk and cheese.</example></translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -89,18 +89,18 @@
                 </adjectives>
 	</Entry><Entry frequency="3130000">daisy<nouns>
 			<translations>
-				<translation gender="f">margarida<plural>daisies</plural>
+				<translation catagory="plants-flower" gender="f">margarida<plural>daisies</plural>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="3010">daks<nouns>
 			<translations>
-				<translation gender="mpl" local="au" register="colloquial">pantalons</translation>
+				<translation catagory="clothes" gender="mpl" local="au" register="colloquial">pantalons</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="4650000">dalmatian<nouns>
 			<translations>
-				<translation gender="m">(gos) dàlmata</translation>
+				<translation catagory="animal-animal" gender="m">(gos) dàlmata</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="4650000">dam<nouns>
@@ -116,9 +116,8 @@
 		<nouns>
 			<translations>
 				<translation>
-					<translation gender="mpl">danys</translation>
+					<translation gender="mpl">danys / desperfectes</translation>
 					<translation gender="m">perjudici</translation>
-					<translation gender="mpl">desperfectes</translation>
 				</translation>
 			</translations>
 		</nouns>
@@ -129,7 +128,7 @@
 		</adjectives>
 	</Entry><Entry frequency="655000">Damascus<nouns>
 			<translations>
-				<translation gender="m">Damasc</translation>
+				<translation catagory="city-asia-syria" gender="m">Damasc</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2130000">dame<nouns>
@@ -139,12 +138,12 @@
 		</nouns>
 	</Entry><Entry frequency="5430000">damn<exclamations>
 			<translations>
-				<translation>merda!</translation>
+				<translation register="slang">merda!</translation>
 			</translations>
 		</exclamations>
 		<adjectives>
 			<translations>
-				<translation>maleït<example>I&apos;m sick of this &lt;b&gt;damn&lt;/b&gt; weather. All it&apos;s done for three weeks now is rain!</example>
+				<translation register="slang">maleït<example>I&apos;m sick of this &lt;b&gt;damn&lt;/b&gt; weather. All it&apos;s done for three weeks now is rain!</example>
 					<example>I installed a new DVD writer in my computer this morning, but the &lt;b&gt;damn&lt;/b&gt; thing isn&apos;t working!</example>
 					<synonyms>damned / cursed / blasted (Br.)</synonyms>
 				</translation>
@@ -152,7 +151,7 @@
 		</adjectives>
 	</Entry><Entry frequency="4800000">damned<adjectives>
 			<translations>
-				<translation>maleït<synonyms>blasted (Br.) / cursed</synonyms></translation>
+				<translation catagory="slang">maleït<synonyms>blasted (Br.) / cursed</synonyms></translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="1010000">damp<adjectives>
@@ -166,13 +165,14 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="4610">damp course<nouns>
-			<translations>
-				<translation gender="m">sistema de protecció contra la humitat<synonyms>damp proof course</synonyms>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="5110000">dampen<verbs>
+                <expressions>damp (proof) course
+                    <translations>
+                        <translation gender="m">sistema de protecció contra la humitat<synonyms>damp proof course</synonyms>
+                        </translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="5110000">dampen<verbs>
 			<translations>
                             <translation>humitejar</translation>                        
 			</translations>
@@ -180,12 +180,6 @@
 	</Entry><Entry frequency="138000">dampness<nouns>
 			<translations>
 				<translation gender="f">humitat<synonyms>damp</synonyms>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="5570">damp proof course<nouns>
-			<translations>
-				<translation gender="m">sistema de protecció contra la humitat<synonyms>damp course</synonyms>
 				</translation>
 			</translations>
 		</nouns>
@@ -207,7 +201,7 @@
 		</nouns>
 	</Entry><Entry frequency="2160000">Dane<nouns>
 			<translations>
-				<translation gender="mf">danès</translation>
+				<translation catagory="nationality-europe" gender="mf">danès</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="19100000">danger<nouns>
@@ -287,7 +281,7 @@
                 </expressions>
 	</Entry><Entry frequency="7490000">darken<verbs>
 			<translations>
-				<translation transitive="true">enfosquir<example>The electronically operated window shade completely &lt;b&gt;darkened&lt;/b&gt; the room</example></translation>
+				<translation transitive="true">enfosquir<example>The electronically-operated window shade completely &lt;b&gt;darkened&lt;/b&gt; the room</example></translation>
                                 <translation intransitive="true">enfosquir-se<example>The sky slowly &lt;b&gt;darkened&lt;/b&gt; and its reflection disappeared on the water's surface.</example></translation>
 			</translations>
 		</verbs>
@@ -321,9 +315,16 @@
 				<translation disambiguate="transport" gender="m" register="colloquial">davantal</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>dash off<translations><translation intransitive="true">anar-se'n a corre-cuita</translation><translation transitive="true">escriure (ràpidament), esbossar</translation></translations></phrasalverbs></Entry><Entry frequency="1220000">dashboard<nouns>
+	<phrasalverbs>dash off
+            <translations>
+                <translation intransitive="true">anar-se'n a corre-cuita<example>Sorry, I've got to &lt;b&gt;dash off&lt;/b&gt;. I'm meeting my brother in five minutes.</example></translation>
+                <translation transitive="true">escriure (ràpidament) / esbossar<example>He got angry and immediately &lt;b&gt;dashed off&lt;/b&gt; a letter to the company to complain.</example></translation>
+            </translations>
+        </phrasalverbs>
+    </Entry>
+    <Entry frequency="1220000">dashboard<nouns>
 			<translations>
-				<translation gender="m">davantal</translation>
+				<translation catagory="transport" gender="m">davantal</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="199000000">data<nouns>
@@ -331,61 +332,77 @@
 				<translation gender="fpl" termcat="true">dades</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="9210000">data bank<nouns>
-			<translations>
-				<translation catagory="computers" termcat="true" gender="m">banc de dades</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="143000000">database<nouns>
+                <expressions>data bank
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="m">banc de dades</translation>
+                    </translations>
+                </expressions>
+                <expressions>data entry
+                    <translations>
+                        <translation gender="f">entrada de dades</translation>
+                    </translations>
+                </expressions>
+                <expressions>data source
+                    <translations>
+                        <translation gender="f" termcat="true">font de dades</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="143000000">database<nouns>
 			<translations>
 				<translation gender="f" termcat="true">base de dades</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="6780000">database administrator<nouns>
-			<translations>
-				<translation catagory="computers, work-job" termcat="true" gender="mf">gestor de base de dades / administrador de base de dades<synonyms>database manager</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="618000">database management system<nouns>
-			<translations>
-				<translation gender="m" termcat="true">sistema de gestió de bases de dades</translation>
-				<translation gender="m">sistema gestor de bases de dades</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="925000">database manager<nouns>
-			<translations>
-				<translation catagory="computers, work-job" termcat="true" gender="mf">gestor de base de dades / administrador de base de dades<synonyms>database administrator</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="4760000">data source<nouns>
-			<translations>
-				<translation gender="f" termcat="true">font de dades</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="232000000">date<nouns>
+                <expressions>database administrator
+                    <translations>
+                        <translation catagory="computers, work-job" termcat="true" gender="mf">gestor de base de dades / administrador de base de dades<synonyms>database manager</synonyms></translation>
+                    </translations>
+                </expressions>
+                <expressions>database management system
+                    <translations>
+                        <translation>
+                            <translation gender="m" termcat="true">sistema de gestió de bases de dades</translation>
+                            <translation gender="m">sistema gestor de bases de dades<engnote>We include 'sistema gestor...' here as it is quite widely used. However, we recommend the use of 'sistema de gestió...' as it is approved by TermCat.</engnote></translation>
+                        </translation>
+                    </translations> 
+                </expressions>
+                <expressions>database manager
+                    <translations>
+                        <translation catagory="computers, work-job" termcat="true" gender="mf">gestor de base de dades / administrador de base de dades<synonyms>database administrator</synonyms></translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="232000000">date<nouns>
 			<translations>
 				<translation gender="f">data<engexamp>In date order</engexamp><catexamp>Per data</catexamp></translation>
-				<translation gender="f">cita<engexamp>Blind date</engexamp><catexamp>Cita a cegues</catexamp></translation>
+				<translation gender="f">cita</translation>
 				<translation disambiguate="food-fruit" gender="m">dàtil</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>date from<translations><translation intransitive="true">datar de</translation></translations></phrasalverbs></Entry><Entry frequency="8090000">date of birth<nouns>
+                <phrasalverbs>date from
+                    <translations>
+                        <translation intransitive="true">datar de</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>blind date
+                    <translations>
+                        <translation gender="f">cita a cegues</translation>
+                    </translations>
+                </expressions>
+            </Entry>
+            <Entry frequency="8090000">date of birth<nouns>
 			<translations>
 				<translation gender="f">data de naixement<synonyms>birth date</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="16300000">daughter<nouns>
 			<translations>
-				<translation gender="f">filla</translation>
+				<translation catagory="family" gender="f">filla</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="272000">daughter-in-law<nouns>
 			<translations>
-				<translation>
-					<translation gender="f">nora</translation>
-					<translation gender="f">jove</translation>
-					<plural>daughters-in-law</plural>
-				</translation>
+                                    <translation gender="f">nora / jove<plural>daughters-in-law</plural></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1640000">daunt<verbs>
@@ -413,7 +430,13 @@
 				<translation gender="m">crepuscle</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>dawn on<translations><translation intransitive="true">acudir-se a (algú)</translation></translations></phrasalverbs></Entry><Entry frequency="324000000">day<nouns>
+                <phrasalverbs>dawn on
+                    <translations>
+                        <translation intransitive="true">acudir-se a (algú)</translation>
+                    </translations>
+                </phrasalverbs>
+                </Entry>
+                <Entry frequency="324000000">day<nouns>
 			<translations>
 				<translation>
 					<translation gender="m">dia</translation>
@@ -506,17 +529,8 @@
 				<translation>esmorteir / mitigar</translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="18800000">dead end<nouns>
-			<translations>
-				<translation gender="m">atzucac</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="318000">dead-end street<nouns><mistakes>dead end street</mistakes>
-			<translations><date>0807</date>
-				<translation local="us" gender="m">atzucac<otherlocal>cul-de-sac, no through road</otherlocal></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="22100000">deadline<nouns>
+	</Entry>
+       <Entry frequency="22100000">deadline<nouns>
 			<translations>
 				<translation gender="m">termini</translation>
 				<translation gender="f">data límit</translation>
@@ -573,41 +587,33 @@
 			</translations>
 		</verbs>
 		<phrasalverbs>deal in
-<translations>
-				<translation>tractar (o comerciar) en<example>Our company &lt;b&gt;deals in&lt;/b&gt; industrial machinery</example>
-				</translation>
-                                <translation>incloure (algú) en un joc de cartes</translation>
+                    <translations>
+			<translation>tractar (o comerciar) en<example>Our company &lt;b&gt;deals in&lt;/b&gt; industrial machinery.</example></translation>
+                        <translation>incloure (algú) en un joc de cartes</translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>deal out
-<translations>
-				<translation>distribuir</translation>
-			</translations>
+                    <translations>
+			<translation>distribuir</translation>
+                    </translations>
 		</phrasalverbs>
 		<phrasalverbs>deal with (somebody)
-<translations>
-                                <translation>fer negocis amb / tenir tractes amb</translation>
-			</translations>
+                    <translations>
+                        <translation>fer negocis amb / tenir tractes amb</translation>
+                    </translations>
 		</phrasalverbs>
 		<phrasalverbs>deal with (something)
-<translations>
-				<translation>afrontar (alguna cosa)<engnote>'Afrontar' means deal with something negative such as an illness or a problem'.</engnote>
-				</translation>
-                                <translation>tractar (manejar assumptes a resoldre / relacionar-se amb algú)</translation>
-				<translation>ocupar-se d'(alguna cosa)<engnote>'Ocupar-se de' means 'deal with' in the sense 'attend to something' (e.g. 'Have you dealt with those outstanding queries yet?')</engnote>
-				</translation>
-				<translation>tractar de<engnote>'Deal with' in the sense 'cover / tackle' (e.g. 'her books deal with ideas such as reincarnation and the afterlife').</engnote>
-				</translation>
+                    <translations>
+			<translation>afrontar (alguna cosa)<engnote>'Afrontar' means deal with something negative such as an illness or a problem'.</engnote></translation>
+                        <translation>tractar (manejar assumptes a resoldre / relacionar-se amb algú)</translation>
+        		<translation>ocupar-se d'(alguna cosa)<engnote>'Ocupar-se de' means 'deal with' in the sense 'attend to something' (e.g. 'Have you dealt with those outstanding queries yet?')</engnote></translation>
+			<translation>tractar de<engnote>'Deal with' in the sense 'cover / tackle' (e.g. 'her books deal with ideas such as reincarnation and the afterlife').</engnote></translation>
 			</translations>
 		</phrasalverbs>
 	</Entry><Entry frequency="10400000">dealer<nouns>
 			<translations>
 				<translation gender="mf">comerciant</translation>
-				<translation gender="mf">traficant<engexamp>Drug dealer</engexamp>
-					<catexamp>Traficant de drogues</catexamp>
-					<engexamp>Arms dealer</engexamp>
-					<catexamp>Traficant d&apos;armes</catexamp>
-				</translation>
+				<translation gender="mf">traficant<engexamp>Drug dealer</engexamp><catexamp>Traficant de drogues</catexamp><engexamp>Arms dealer</engexamp><catexamp>Traficant d'armes</catexamp></translation>
                                 <translation gender="m">concessionari<engexamp>Official Ford Dealer</engexamp><catexamp>Concessionari Oficial Ford</catexamp></translation>
 			</translations>
 		</nouns>
@@ -618,16 +624,11 @@
 		</nouns>
 	</Entry><Entry frequency="23400000">dear<adjectives>
 			<translations>
-				<translation>estimat<engnote>Estimat means dear as in &apos;my dear friend Jane&apos;.</engnote>
-					<engexamp>My dear friend John Smith</engexamp>
-					<catexamp>El meu estimat amic John Smith</catexamp>
+				<translation>estimat<engexamp>My dear friend John Smith</engexamp><catexamp>El meu estimat amic John Smith</catexamp></translation>
+				<translation>benvolgut<engnote>Benvolgut means dear as in the opening word of most letters 'Dear Peter...'.</engnote>
 				</translation>
-				<translation>benvolgut<engnote>Benvolgut means dear as in the opening word of most letters &apos;Dear Peter...&apos;.</engnote>
-				</translation>
-				<translation>car<engnote>&apos;Car&apos; means expensive.</engnote>
-					<catnote>Dear significa &apos;car&apos;, però avui dia la paraula és poc utilitzada pels joves. &apos;Expensive&apos; és molt més freqüent.</catnote>
-					<synonyms>expensive</synonyms>
-				</translation>
+				<translation>car<engnote>'Car' means expensive.</engnote>
+					<catnote>Dear significa 'car', però avui dia la paraula és poc utilitzada pels joves. 'Expensive' és molt més freqüent.</catnote><synonyms>expensive</synonyms></translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="261000">dearly<adverbs>
@@ -647,10 +648,20 @@
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="66200000">death<nouns>
-			<translations>
+                            <translations><date>0508</date>
 				<translation gender="f">mort</translation>
 			</translations>
 		</nouns>
+                <expressions>death sentence
+                    <translations>
+                        <translation gender="f">sentència de mort</translation>
+                    </translations>
+                </expressions>
+                <expressions>death threat
+                <translations>
+                    <translation gender="f">amenaça de mort</translation>
+			</translations>
+		</expressions>
 	</Entry><Entry frequency="770000">death metal<nouns>
 			<translations>
 				<translation gender="m">metall extrem</translation>
@@ -666,12 +677,8 @@
 				<translation gender="m">esquadró de la mort</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="270000">death threat<nouns>
-			<translations>
-				<translation gender="f">amenaça de mort</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="520000">death toll<nouns>
+	</Entry>
+        <Entry frequency="520000">death toll<nouns>
 			<translations>
 				<translation gender="f">xifra de víctimes mortals</translation>
 			</translations>
@@ -704,12 +711,15 @@
                 </expressions>
 	</Entry><Entry frequency="61100000">debug<verbs double="true">
 			<translations>
-				<translation catagory="computers-programming">depurar / desbrossar</translation>
+				<translation catagory="computers-programming" termcat="true">depurar / desbrossar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="102000000">debugging<nouns>
-			<translations>
-				<translation catagory="computers-programming" gender="m">desbrossament</translation>
+                        <translations><date>0508</date>
+                            <translation>
+                                <translation catagory="computers-programming" termcat="true" gender="f">depuració</translation>
+				<translation catagory="computers-programming" termcat="true" gender="m">desbrossament</translation>
+                                </translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="27700000">decade<nouns>
@@ -730,7 +740,7 @@
 	</Entry><Entry frequency="368000">decaf<adjectives>
 			<translations>
 				<translation>descafeïnat<fems>descafeïnada</fems>
-					<engnote>&apos;Descafeïnat&apos; can be used in a figurative sense (e.g. &apos;És una versió molt descafeïnada del darwinisme&apos;).</engnote>
+					<engnote>'Descafeïnat' can be used in a figurative sense (e.g. 'És una versió molt descafeïnada del darwinisme').</engnote>
 				</translation>
 			</translations>
 		</adjectives>
@@ -746,7 +756,7 @@
 		</nouns>
 	</Entry><Entry frequency="124000">decathlon<nouns>
 			<translations>
-				<translation gender="m">decatló</translation>
+				<translation catagory="sports-event-athletics" gender="m">decatló</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="40100000">decay<nouns>
@@ -768,7 +778,9 @@
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation register="formal" gender="mf">difunt / mort</translation></translations></nouns>
+                <translation sourceplural="the deceased" register="formal" gender="mf">difunt / mort</translation>
+                </translations>
+                </nouns>
 	</Entry><Entry frequency="1870000">deceit<nouns>
 			<translations>
 				<translation gender="m">engany / frau</translation>
@@ -807,7 +819,13 @@
 				</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>decide against<translations><translation intransitive="true">pronunciar-se en contra de</translation></translations></phrasalverbs></Entry><Entry frequency="3580000">decider<nouns>
+                <phrasalverbs>decide against
+                    <translations>
+                        <translation intransitive="true">pronunciar-se en contra de</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="3580000">decider<nouns>
                             <translations><date>0408</date>
                                 <translation catagory="sports" gender="m">partit que decideix el guanyador d'una copa, lliga, etc.<example>After a lacklustre performance from Man U at the Nou Camp, the return match at Old Trafford will be the &lt;b&gt;decider&lt;/b&gt;.</example></translation>
                                 <translation catagory="sports" gender="m">gol guanyador d'un partit<example>The game looked destined to end level until Jones headed home the &lt;b&gt;decider&lt;/b&gt;.</example></translation>
@@ -815,7 +833,7 @@
 		</nouns>
 	</Entry><Entry frequency="1130000">deciduous<adjectives>
 			<translations>
-				<translation>caduc</translation>
+				<translation catagory="plants">caduc</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="1470000">decipher<verbs>
@@ -843,8 +861,8 @@
 				<translation>
 					<translation gender="f">terrassa</translation>
 					<translation gender="f">terrassa entarimada</translation>
-					<engnote>&apos;Terrassa&apos; is the kind of &apos;deck&apos; found in peoples&apos; gardens / yards.</engnote>
-					<catnote>Un &apos;deck&apos; és una mena de terrassa de fusta que es troba als jardins particulars. Actualment estan molt de moda als EUA i a la Gran Bretanya.</catnote>
+					<engnote>'Terrassa' is the kind of 'deck' found in peoples' gardens / yards.</engnote>
+					<catnote>Un 'deck' és una mena de terrassa de fusta que es troba als jardins particulars.</catnote>
 				</translation>
 				<translation gender="f">coberta<engnote>&apos;Coberta&apos; refers to the &apos;deck&apos; on a ship.</engnote>
 				</translation>
