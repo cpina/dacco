@@ -915,12 +915,27 @@
 				<translation gender="m">descodificador</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="3030000">decomposition<nouns>
+	</Entry>
+        <Entry frequency="2190000">decompose<verbs>
+                        <translations><date>0508</date>
+                            <translation intransitive="true">descompondre's<example>It takes 20 years for a plastic bag to &lt;b&gt;decompose&lt;/b&gt;.</example><engnote>'Descompondre's' (reflexive) means 'to decompose' in the sense 'to decay'.</engnote></translation>
+                        <translation register="technical" transitive="true">descompondre<engnote>'Descompondre' (non reflexive) means 'to decompose' in the sense 'to break down into smaller parts'.</engnote></translation>
+                    </translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="3030000">decomposition<nouns>
 			<translations><date>0307</date>
 				<translation termcat="energy" gender="f">descomposició</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="526000">deconstruction<nouns>
+	</Entry>
+              <Entry frequency="1790000">deconstruct<verbs>
+                            <translations><date>0508</date>
+				<translation>deconstruir</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="526000">deconstruction<nouns>
 			<translations>
 				<translation gender="f">deconstrucció</translation>
 			</translations>
@@ -1012,7 +1027,7 @@
 	</Entry><Entry frequency="3570000">deed<nouns>
 			<translations>
 				<translation gender="f">acció</translation>
-				<translation disambiguate="legal" gender="f">escriptura<engnote>&apos;Escriptura&apos; means &apos;deed&apos; in the legal sense (e.g. &apos;title deeds&apos;).</engnote>
+				<translation disambiguate="legal" gender="f">escriptura<engnote>'Escriptura' means 'deed' in the legal sense (e.g. 'title deeds').</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -1042,7 +1057,7 @@
 		</verbs>
 	</Entry><Entry frequency="178000">deep-fat fryer<nouns>
 			<translations>
-				<translation gender="f">fregidora<synonyms>fryer</synonyms></translation>
+				<translation catagory="household-room-kitchen" gender="f">fregidora<synonyms>fryer</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2490000">deeply<adverbs>
@@ -1052,12 +1067,12 @@
 		</adverbs>
 	</Entry><Entry frequency="90600">deep vein thrombosis<nouns>
 			<translations>
-				<translation gender="f">trombosi venosa profunda</translation>
+				<translation catagory="medical-illness" gender="f">trombosi venosa profunda</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="12600000">deer<nouns>
 			<translations>
-				<translation gender="m">cérvol<plural>deer</plural>
+				<translation catagory="animal-animal" gender="m">cérvol<plural>deer</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -1155,7 +1170,13 @@
 				<translation>ajornar</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>defer to<translations><translation intransitive="true">diferir de</translation></translations></phrasalverbs></Entry><Entry frequency="78000">defervescence<nouns>
+                <phrasalverbs>defer to
+                    <translations>
+                        <translation intransitive="true">diferir de</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="78000">defervescence<nouns>
 			<translations><date>0407</date>
 				<translation termcat="medical" gender="f">defervescència</translation>
 			</translations>
@@ -1238,25 +1259,51 @@
 		</verbs>
 	</Entry><Entry frequency="93200000">degree<nouns>
 			<translations>
-				<translation disambiguate="weather" gender="m">grau<engnote>&apos;Grau&apos; means &apos;degree&apos; as in &apos;100 degrees fahrenheit&apos;.</engnote>
+				<translation catagory="weather" gender="m">grau<engnote>'Grau' means 'degree' as in '100 degrees fahrenheit'.</engnote>
 					<engexamp>Degree of separation</engexamp>
 					<catexamp>Grau de separació</catexamp>
 				</translation>
-				<translation disambiguate="education" gender="f">llicència<engnote>&apos;Llicència&apos; means &apos;degree&apos; as in &apos;university degree&apos;.</engnote>
-				</translation>
+				<translation disambiguate="education" gender="f">llicència</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="135000">dehumanise<verbs>
+	</Entry>
+         <Entry frequency="88700">dehumanisation<nouns>
+                            <translations><date>0508</date>
+                                <translation local="gb" gender="f">deshumanització<otherlocal>dehumanization</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="135000">dehumanise<verbs>
 			<translations>
 				<translation local="gb">deshumanitzar<otherlocal>dehumanize</otherlocal></translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="632000">dehumanize<verbs>
+	</Entry>
+         <Entry frequency="92800">dehumanising<adjectives>
+                            <translations><date>0508</date>
+                                <translation local="gb">deshumanitzant / deshumanitzador<otherlocal>dehumanizing</otherlocal></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="616000">dehumanization<nouns>
+                            <translations><date>0508</date>
+				<translation gender="f">deshumanització</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="632000">dehumanize<verbs>
 			<translations>
 				<translation>deshumanitzar</translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="2100000">dehumidifier<nouns>
+	</Entry>
+         <Entry frequency="909000">dehumanizing<adjectives>
+                            <translations><date>0508</date>
+                                <translation>deshumanitzant / deshumanitzador</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="2100000">dehumidifier<nouns>
 			<translations>
 				<translation gender="m">deshumidificador</translation>
 			</translations>
