@@ -255,7 +255,7 @@
 		</nouns>
 	</Entry><Entry frequency="1740000">magnesium<nouns>
 			<translations>
-				<translation gender="m">magnesi</translation>
+				<translation catagory="chemistry" gender="m">magnesi</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="4020000">magnet<nouns>
@@ -808,7 +808,7 @@
 		</nouns>
 	</Entry><Entry frequency="559000">manganese<nouns>
 			<translations>
-				<translation gender="m">manganès</translation>
+				<translation catagory="chemistry" gender="m">manganès</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="815000">mange<nouns>
@@ -2188,7 +2188,14 @@
 				<translation catagory="biology" gender="f">meiosi</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1240000">melamine<nouns>
+	</Entry>
+         <Entry frequency="60700">meitnerium<nouns>
+                            <translations><date>0508</date>
+				<translation catagory="chemistry" gender="m">meitneri</translation>
+			</translations>
+		</nouns>
+	</Entry> 
+        <Entry frequency="1240000">melamine<nouns>
                             <translations><date>0507</date>
 				<translation catagory="material" gender="f">melamina</translation>
 			</translations>
@@ -2339,7 +2346,14 @@
 				<translation>reparar / apanyar<synonyms>repair, fix</synonyms></translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="102000">menhir<nouns>
+	</Entry>
+        <Entry frequency="78600">mendelevium<nouns>
+                            <translations><date>0508</date>
+				<translation catagory="chemistry" gender="m">mendelevi</translation>
+			</translations>
+		</nouns>
+	</Entry> 
+        <Entry frequency="102000">menhir<nouns>
 			<translations>
 				<translation gender="m">menhir</translation>
 			</translations>
@@ -2696,7 +2710,14 @@
 				<translation>metàl·lic</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="694000">metallurgy<nouns>
+	</Entry>
+         <Entry frequency="328000">metalloid<nouns>
+                            <translations><date>0508</date>
+				<translation catagory="chemistry" gender="m">metal·loide</translation>
+			</translations>
+		</nouns>
+	</Entry>  
+        <Entry frequency="694000">metallurgy<nouns>
 			<translations>
 				<translation gender="f">metal·lúrgia</translation>
 			</translations>
@@ -3210,7 +3231,19 @@
 				<translation gender="mf">milionari</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="79900">millipede<nouns>
+	</Entry>
+        <Entry frequency="2190000">millionth<adjectives>
+                            <translations><date>0508</date>
+				<translation catagory="number-ordinal">milionèsim</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="m">milionèsim</translation>
+                    </translations>
+                </nouns>
+	</Entry>
+        <Entry frequency="79900">millipede<nouns>
 			<translations>
 				<translation gender="m">milpeus</translation>
 			</translations>
@@ -4157,6 +4190,12 @@
 				<translation>fos</translation>
 			</translations>
 		</adjectives>
+                  <Entry frequency="6530000">molybdenum<nouns>
+                            <translations><date>0508</date>
+				<translation catagory="chemistry" gender="m">molibdè</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	</Entry><Entry frequency="21200000">mom<nouns>
 			<translations>
 				<translation register="colloquial" local="us">mamà<otherlocal>mum</otherlocal>

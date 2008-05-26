@@ -909,7 +909,14 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="17000000">either<adjectives>
+	</Entry>
+         <Entry frequency="165000">einsteinium<nouns>
+                            <translations><date>0508</date>
+				<translation catagory="chemistry" gender="m">einsteini</translation>
+			</translations>
+		</nouns>
+	</Entry> 
+        <Entry frequency="17000000">either<adjectives>
 			<translations>
 				<translation>qualsevol (dels dos / d'aquests dos etc..)<engexamp>We can use either of these addresses</engexamp>
 					<catexamp>Podem usar qualsevol d'aquestes dues adreces</catexamp>
@@ -2695,7 +2702,14 @@
 				<translation gender="f">goma</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="6580000">erect<verbs>
+	</Entry>
+         <Entry frequency="931000">erbium<nouns>
+                            <translations><date>0508</date>
+				<translation catagory="chemistry" gender="m">erbi</translation>
+			</translations>
+		</nouns>
+	</Entry> 
+        <Entry frequency="6580000">erect<verbs>
 			<translations>
 				<translation>erigir</translation>
 			</translations>
@@ -2828,7 +2842,7 @@
 		</adjectives>
 	</Entry><Entry frequency="19100">espadrille<nouns>
 			<translations>
-				<translation gender="f">espardenya</translation>
+				<translation catagory="clothes" gender="f">espardenya</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="49900000">especially<adverbs>
@@ -2838,7 +2852,7 @@
 		</adverbs>
 	</Entry><Entry frequency="1800000">Esperanto<nouns>
 			<translations>
-				<translation gender="m">esperanto</translation>
+				<translation catagory="language" gender="m">esperanto</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2760000">espionage<nouns>
@@ -2890,7 +2904,7 @@
 		</nouns>
 	</Entry><Entry frequency="1900000">estate agent<nouns>
 			<translations>
-				<translation local="gb" gender="mf">agent immobiliari<otherlocal>realtor</otherlocal>
+				<translation catagory="work-job" local="gb" gender="mf">agent immobiliari<otherlocal>realtor</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
@@ -2923,7 +2937,7 @@
 		</adjectives>
 	</Entry><Entry frequency="1230000">estuary<nouns>
 			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">estuari<plural>estuaries</plural></translation>
+				<translation catagory="geography" gender="m">estuari<plural>estuaries</plural></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="883000">eternity<nouns>
@@ -3034,7 +3048,7 @@
 		</nouns>
 	</Entry><Entry frequency="560000">euphemism<nouns>
 			<translations>
-				<translation gender="m">eufemisme</translation>
+				<translation catagory="linguistics" gender="m">eufemisme</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="246000">euphemistic<adjectives>
@@ -3054,7 +3068,7 @@
 		</adjectives>
 	</Entry><Entry frequency="10500000">Eurasia<nouns>
 			<translations>
-				<translation catagory="geography" gender="f">Euràsia</translation>
+				<translation catagory="region-europe, region-asia" gender="f">Euràsia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="7320000">Eurasian<adjectives>
@@ -3112,12 +3126,26 @@
 				<translation gender="ffullform">Unió Europea</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="575000">euthanasia<nouns>
-			<translations>
-				<translation gender="f">eutanàsia</translation>
+	</Entry>
+         <Entry frequency="638000">europium<nouns>
+                            <translations><date>0508</date>
+				<translation catagory="chemistry" gender="m">europi</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1640000">evacuate<verbs>
+	</Entry> 
+        <Entry frequency="575000">euthanasia<nouns>
+			<translations>
+				<translation catagory="medical" gender="f">eutanàsia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="24200">euxenite<nouns>
+                            <translations><date>0508</date>
+				<translation catagory="chemistry" gender="f">euxenita</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1640000">evacuate<verbs>
 			<translations>
 				<translation>evacuar / desallotjar<engnote>'Evacuar' is the more general word for 'evacuate'. 'Desallotjar' specifically means moving people from their homes.</engnote>
 				</translation>
@@ -3224,7 +3252,7 @@
 		</adverbs>
 	</Entry><Entry frequency="15000000">eve<nouns>
 			<translations>
-				<translation register="formal" gender="f">vig�lia<engexamp>Christmas Eve</engexamp><catexamp>Nit de Nadal</catexamp></translation>
+				<translation register="formal" gender="f">vigília<engexamp>Christmas Eve</engexamp><catexamp>Nit de Nadal</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="136000000">even<adverbs>
@@ -3248,33 +3276,35 @@
                 <expressions>even though
                 <translations>
                 <translation>tot i que</translation></translations></expressions>
-	<phrasalverbs>even up<translations><translation transitive="true">igualar</translation></translations></phrasalverbs></Entry><Entry frequency="21100000">evening<nouns>
+                <phrasalverbs>even up
+                    <translations>
+                        <translation transitive="true">igualar</translation>
+                    </translations>
+                </phrasalverbs>
+                </Entry>
+                <Entry frequency="21100000">evening<nouns>
 			<translations>
 				<translation gender="m">vespre</translation>
                                 <translation beforenoun="true">vespertí</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="257000000">event<nouns>
-			<translations>
-				<translation>
-					<translation gender="m">esdeveniment</translation>
-					<translation gender="m">succés</translation>
-					<engexamp>In the event of an (accident)</engexamp>
-					<catexamp>En cas d'(accident)</catexamp>
-				</translation>
+	</Entry><Entry frequency="228000000">event<nouns>
+                        <translations><date>0508</date>
+                            <translation gender="m">esdeveniment / succés</translation>
 			</translations>
 		</nouns>
+                <expressions>in the event of
+                    <translations>
+                        <translation>en cas de<engexamp>In the event of an accident</engexamp><catexamp>En cas d'accident</catexamp></translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="4960000">eventful<adjectives>
 			<translations>
 				<translation>ple de vivències (o experiències)<example>After a very &lt;b&gt;eventful&lt;/b&gt; journey, Maggie arrived at her hotel tired but happy.</example><example>It's been a very &lt;b&gt;eventful&lt;/b&gt; week. A lot has been happening.</example></translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="7180000">even though<conjunctions>
-			<translations>
-				<translation>tot i que / encara que</translation>
-			</translations>
-		</conjunctions>
-	</Entry><Entry frequency="7960000">eventual<adjectives>
+	</Entry>
+        <Entry frequency="7960000">eventual<adjectives>
 			<translations>
 				<translation>final</translation>
 			</translations>
@@ -3396,8 +3426,7 @@
 		</verbs>
 	</Entry><Entry frequency="20700">Ewood Park<nouns>
 			<translations>
-				<translation catagory="sports, encyclopaedic" noteng="TRUE" local="gb">-<catnote>Ewood Park és el nom de l'estadi de l'equip de futbol Blackburn Rovers FC.</catnote>
-				</translation>
+				<translation catagory="sports, encyclopaedic" local="gb">nom de l'estadi de l'equip de futbol Blackburn Rovers FC</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="27500000">ex-<adjectives>
@@ -3420,7 +3449,14 @@
 				<translation>exacte / precís</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="19000000">exactly<adverbs>
+	</Entry>
+         <Entry frequency="2560000">exacting<adjectives>
+                            <translations><date>0508</date>
+				<translation>exigent<synonyms>demanding</synonyms></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="19000000">exactly<adverbs>
 			<translations>
 				<translation>precisament</translation>
 			</translations>
