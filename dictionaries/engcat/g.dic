@@ -53,7 +53,7 @@
 		</nouns>
 	</Entry><Entry frequency="255000">gaffer<nouns>
 			<translations>
-				<translation local="gb" register="slang" gender="mf">cap / capitost</translation>
+				<translation local="gb" catagory="work" register="slang" gender="mf">cap / capitost</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2740000">gag<nouns>
@@ -65,7 +65,7 @@
 		<verbs double="true">
 			<translations>
 				<translation>silenciar / posar-li una mordassa a algú</translation>
-				<translation register="colloquial" noteng="TRUE">tenir la sensació d'estar a punt de vomitar<example>No matter how hard he tried, James couldn't change the baby's nappy without &lt;b&gt;gagging&lt;/b&gt;</example>
+				<translation register="colloquial">tenir la sensació d'estar a punt de vomitar<example>No matter how hard he tried, James couldn't change the baby's nappy without &lt;b&gt;gagging&lt;/b&gt;</example>
 				</translation>
 			</translations>
 		</verbs>
@@ -74,14 +74,22 @@
 				<translation>obtenir / adquirir / guanyar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>gain on
+                    <translations>
+                        <translation intransitive="true">guanyar terreny a (algú)</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
 				<translation gender="m">guany</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>gain on<translations><translation intransitive="true">guanyar terreny a (algú)</translation></translations></phrasalverbs></Entry><Entry frequency="9450000">gait<nouns>
+	</Entry><Entry frequency="9450000">gait<nouns>
 			<translations>
-				<translation>manera de caminar / andamis</translation>
+                            <translation>
+                                <translation gender="f">manera de caminar</translation>
+                                <translation gender="m">andamis</translation>
+                                </translation>
                                 <translation gender="f">anadura (d'un animal)</translation>
 			</translations>
 		</nouns>
@@ -108,13 +116,13 @@
 		</nouns>
 	</Entry><Entry frequency="8950000">galaxy<nouns>
 			<translations>
-				<translation gender="f">galàxia<plural>galaxies</plural>
+				<translation catagory="astronomy" gender="f">galàxia<plural>galaxies</plural>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2220000">gale<nouns>
 			<translations>
-				<translation gender="m">temporal de vent</translation>
+				<translation catagory="weather" gender="m">temporal de vent</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -195,12 +203,12 @@
 		</adjectives>
 	</Entry><Entry frequency="3240000">Gambia<nouns>
 			<translations>
-				<translation gender="f">Gàmbia</translation>
+				<translation catagory="country-africa" gender="f">Gàmbia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="230000">Gambian<nouns>
 			<translations>
-				<translation gender="mf">gambià</translation>
+				<translation catagory="nationality-africa" gender="mf">gambià</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -222,7 +230,13 @@
 				<translation>jugar / apostar</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>gamble on<translations><translation intransitive="true">jugar-se (alguna cosa) en</translation></translations></phrasalverbs></Entry><Entry frequency="14900000">gambling<nouns>
+                <phrasalverbs>gamble on
+                    <translations>
+                        <translation intransitive="true">jugar-se (alguna cosa) en</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="14900000">gambling<nouns>
 			<translations>
 				<translation gender="m">joc (jocs d'atzar)</translation>
 			</translations>
@@ -240,7 +254,7 @@
                 </expressions>
 	</Entry><Entry frequency="690000">gamepad<nouns>
         <translations><date>0408</date>
-            <translation gender="m">comandament<synonyms>controller</synonyms></translation>
+            <translation catagory="computers" gender="m">comandament<synonyms>controller</synonyms></translation>
         </translations>
     </nouns>
     </Entry><Entry frequency="2510000">games room<nouns>
@@ -290,7 +304,7 @@
                 </phrasalverbs>
 	</Entry><Entry frequency="103000">gangrene<nouns>
 			<translations>
-				<translation gender="f">gangrena</translation>
+				<translation catagory="medical-illness" gender="f">gangrena</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="581000">gangster<nouns>
@@ -309,13 +323,13 @@
 		</nouns>
 	</Entry><Entry frequency="191000">gap year<nouns>
 			<translations>
-				<translation gender="m">any sabàtic<catnote>Alguns estudiants decideixen 'take a gap year' abans de començar els estudis universitaris.  La majoria aprofiten l'ocasió per viatjar arreu del món o bé treballar com a voluntari en països en vies de desenvolupament.</catnote>
+				<translation catagory="education" gender="m">any sabàtic<catnote>Alguns estudiants decideixen 'take a gap year' abans de començar els estudis universitaris.  La majoria aprofiten l'ocasió per viatjar arreu del món o bé treballar com a voluntari en països en vies de desenvolupament.</catnote>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="20100000">garage<nouns>
 			<translations>
-				<translation gender="m">garatge</translation>
+				<translation catagory="household-room" gender="m">garatge</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="6730000">garbage<nouns>
@@ -325,14 +339,14 @@
 		</nouns>
 	</Entry><Entry frequency="69300000">garden<nouns>
 			<translations>
-				<translation local="gb" gender="m">jardí<otherlocal>yard</otherlocal>
+				<translation catagory="household" local="gb" gender="m">jardí<otherlocal>yard</otherlocal>
 					<catnote>A l'Anglaterra, 'yard' significa pati.  'Garden' significa 'jardí'.  Als EUA, 'yard' significa les dues coses.  Als EUA, 'garden' significa el lloc on no hi ha gespa, on es troben les flors, els arbusts i / o els llegums.  Els britànics no tenen una paraula específica per aquest lloc sinó potser 'flower bed' o 'vegetable patch'.</catnote>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2590000">gardener<nouns>
 			<translations>
-				<translation gender="mf">jardiner</translation>
+				<translation catagory="work-job" gender="mf">jardiner</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="5240000">gardening<nouns>
@@ -362,7 +376,7 @@
 		</nouns>
 	</Entry><Entry frequency="4230000">garlic<nouns>
 			<translations>
-				<translation gender="m">all</translation>
+				<translation catagory="food-vegetable" gender="m">all</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="5220000">garment<nouns>
@@ -388,27 +402,31 @@
 				</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>gas up<translations><translation intransitive="true">subministrar benzina</translation><translation transitive="true">subministrar (a un vehicle) benzina</translation></translations></phrasalverbs></Entry><Entry frequency="1130000">gas appliance<nouns>
-			<translations><date>0307</date>
-                        <translation>
-				<translation termcat="energy" gender="m">gasodomèstic</translation>
-                                <translation gender="m">aparell a gas / aparell gasodomèstic</translation>
-                                </translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="1610000">gas cooker<nouns>
+                <phrasalverbs>gas up
+                    <translations>
+                        <translation local="us" intransitive="true">subministrar benzina</translation>
+                        <translation local="us" transitive="true">subministrar (a un vehicle) benzina</translation>
+                        </translations>
+                    </phrasalverbs>
+                    <expressions>gas appliance
+                        <translations>
+                            <translation gender="m">gasodomèstic / aparell a gas</translation>
+                        </translations>
+                    </expressions>
+                    <expressions>gas generator
+                        <translations>
+                            <translation gender="m">gasogen<engnote>Plural = gasògens (with accent).</engnote></translation>
+                        </translations>
+                    </expressions>
+                </Entry>
+                <Entry frequency="1610000">gas cooker<nouns>
 			<translations>
 				<translation catagory="household-room-kitchen" local="gb" gender="f">cuina de gas<otherlocal>gas stove</otherlocal></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1080000">gas generator<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">gasogen<engnote>Plural = gasògens (with accent).</engnote></translation>
-			</translations>
-		</nouns>
 	</Entry><Entry frequency="1050000">gas guzzler<nouns>
 			<translations>
-                            <translation register="colloquial" local="us">vehicle que fa molts pocs quilòmetres per litre de benzina<example>Now that fuel prices are rising, people are seriously considering replacing their &lt;b&gt;gas guzzlers&lt;/b&gt; with more efficient cars.</example></translation>
+                            <translation catagory="transport" register="colloquial" local="us">vehicle que fa molts pocs quilòmetres per litre de benzina<example>Now that fuel prices are rising, people are seriously considering replacing their &lt;b&gt;gas guzzlers&lt;/b&gt; with more efficient cars.</example></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1150000">gasification<nouns>
@@ -438,7 +456,7 @@
                     </expressions>
            	</Entry><Entry frequency="31000">gaspacho<nouns>
 			<translations>
-				<translation gender="m">gaspatxo</translation>
+				<translation catagory="food" gender="m">gaspatxo</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="3360000">gas pipeline<nouns>
@@ -459,12 +477,12 @@
 		</nouns>
 	</Entry><Entry frequency="2390000">gastric<adjectives>
 			<translations>
-				<translation>gàstric</translation>
+				<translation catagory="medical">gàstric</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="579000">gastroenteritis<nouns>
 			<translations>
-				<translation gender="f">gastroenteritis</translation>
+				<translation catagory="medical-illness" gender="f">gastroenteritis</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="6570000">gastrointestinal<adjectives>
@@ -521,7 +539,19 @@
                                 <translation>deduir<engnote>'Deduir' means 'to gather' in the sense 'I gather you didn't know about this'.</engnote><example>From your posts to this newsgroup, I &lt;b&gt;gather&lt;/b&gt; you are a bit of a religious 'nut'.</example></translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>gather up<translations><translation transitive="true">recollir</translation></translations></phrasalverbs></Entry><Entry frequency="6250000">gathering<nouns>
+                <phrasalverbs>gather together
+                    <translations>
+                        <translation transitive="true">recollir</translation>
+                        <translation intransitive="true">reunir-se</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>gather up
+                    <translations>
+                        <translation transitive="true">recollir</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="6250000">gathering<nouns>
 			<translations>
 				<translation gender="f">reunió</translation>
                                 <translation gender="f">concentració</translation>
@@ -550,7 +580,7 @@
 		</nouns>
 	</Entry><Entry frequency="217000">Gawd<exclamations>
 			<translations>
-				<translation register="slang" gender="m">Déu</translation>
+				<translation register="slang" gender="m">Déu!</translation>
 			</translations>
 		</exclamations>
 	</Entry><Entry frequency="19400000">gay<nouns>
@@ -565,7 +595,7 @@
 		</adjectives>
 	</Entry><Entry frequency="1180000">gaydar<nouns>
 			<translations>
-				<translation register="slang">la suposada capacitat de discernir si una persona és homosexual<example>'I've never met a gay man who doesn't have at least a 3 out of 4 success rate with his &lt;b&gt;'gaydar'&lt;/b&gt;. I mean, he has to differentiate between straight and gay every time he sees an attractive man.</example><example>David Kopay, the former NFL running back who came out in the 1970s, says that on his one meeting with Troy (on a plane flight) his &lt;b&gt;gaydar&lt;/b&gt; detected nothing.</example></translation>
+				<translation register="slang">suposada capacitat de discernir si una persona és homosexual<example>'I've never met a gay man who doesn't have at least a 3 out of 4 success rate with his &lt;b&gt;'gaydar'&lt;/b&gt;. I mean, he has to differentiate between straight and gay every time he sees an attractive man.</example><example>David Kopay, the former NFL running back who came out in the 1970s, says that on his one meeting with Troy (on a plane flight) his &lt;b&gt;gaydar&lt;/b&gt; detected nothing.</example></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2880000">gay marriage<nouns>
@@ -578,12 +608,17 @@
 				<translation>contemplar / mirar fixament</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>gaze on
+                    <translations>
+                        <translation intransitive="true">contemplar</translation>
+                    </translations>
+                </phrasalverbs>
                 <nouns>
                 <translations>
                 <translation gender="f">mirada</translation></translations></nouns>
-	<phrasalverbs>gaze on <translations><translation intransitive="true">contemplar</translation></translations></phrasalverbs></Entry><Entry frequency="385000">gazelle<nouns>
+	</Entry><Entry frequency="385000">gazelle<nouns>
 			<translations>
-				<translation gender="f">gasela</translation>
+				<translation catagory="animal-animal" gender="f">gasela</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="8310000">gazetteer<nouns>
@@ -594,8 +629,7 @@
 	</Entry><Entry frequency="1320000">GCSE<engacro>General Certificate of Secondary Education</engacro>
 		<nouns>
 			<translations>
-				<translation noteng="TRUE" local="gb">-<catnote>Els GCSE són exàmens que fan els alumnes anglesos a l'edat de 16 anys després de 5 anys d'educació secundària obligatòria.</catnote>
-				</translation>
+				<translation catagory="education" local="gb">exàmens que fan els alumnes anglesos i gal·lesos a l'edat de 16 anys després de 5 anys d'educació secundària obligatòria</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="201000">g'day<exclamations>
@@ -631,7 +665,7 @@
 		</nouns>
 	</Entry><Entry frequency="117000">gelatine<nouns>
 			<translations>
-				<translation gender="f">gelatina</translation>
+				<translation catagory="food" gender="f">gelatina</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="45800000">gem<nouns>
@@ -641,7 +675,7 @@
 		</nouns>
 	</Entry><Entry frequency="2370000">Gemini<nouns>
 			<translations>
-				<translation gender="mpl">Bessons</translation>
+				<translation catagory="zodiac" gender="mpl">Bessons</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="10800000">gender<nouns>
@@ -651,7 +685,7 @@
 		</nouns>
 	</Entry><Entry frequency="32000000">gene<nouns>
 			<translations>
-				<translation gender="m">gen</translation>
+				<translation catagory="biology" gender="m">gen</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="639000">genealogical<adjectives>
@@ -661,12 +695,12 @@
 		</adjectives>
 	</Entry><Entry frequency="1960000">genealogist<nouns>
 			<translations><date>0408</date>
-				<translation gender="mf">genealogista</translation>
+				<translation catagory="work-job" gender="mf">genealogista</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="5570000">genealogy<nouns>
 			<translations>
-				<translation gender="f">genealogia</translation>
+				<translation catagory="work-field" gender="f">genealogia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="246000000">general<adjectives>
@@ -681,7 +715,7 @@
 		</nouns>
 	</Entry><Entry frequency="1440000">general election<nouns>
 			<translations>
-				<translation gender="fpl">eleccions generals</translation>
+				<translation catagory="politics" gender="fpl">eleccions generals</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="711000">generalisation<nouns>
@@ -715,24 +749,24 @@
 		</adverbs>
 	</Entry><Entry frequency="4140000">general manager<nouns>
 			<translations>
-				<translation gender="mf">director general</translation>
+				<translation catagory="work-job" gender="mf">director general</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="777000">general practice<nouns>
 			<translations>
-				<translation gender="f">medicina general</translation>
+				<translation catagory="medical" local="gb" gender="f">medicina general</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="775000">general practitioner<nouns>
 			<translations>
-				<translation local="gb" gender="mf">metge de capçalera<otherlocal>family doctor / primary care physician</otherlocal><example>If you feel ill you should go to see your &lt;b&gt;GP&lt;/b&gt;, who will then refer you to a specialist if he thinks it is appropriate</example>
+				<translation catagory="medical" local="gb" gender="mf">metge de capçalera<otherlocal>family doctor / primary care physician</otherlocal><example>If you feel ill you should go to see your &lt;b&gt;GP&lt;/b&gt;, who will then refer you to a specialist if he thinks it is appropriate</example>
 					<catnote>L'expressió 'GP' és més habitual que 'general practitioner'.</catnote>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="197000">general strike<nouns>
 			<translations>
-				<translation gender="f">vaga general</translation>
+				<translation catagory="work" gender="f">vaga general</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="12000000">generate<verbs>
@@ -757,10 +791,7 @@
 		</adjectives>
 	</Entry><Entry frequency="2710000">generosity<nouns>
 			<translations>
-				<translation>
-					<translation gender="f">generositat</translation>
-					<translation gender="f">bondat</translation>
-				</translation>
+					<translation gender="f">generositat / bondat</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="10200000">generous<adjectives>
@@ -775,45 +806,43 @@
 		</adverbs>
 	</Entry><Entry frequency="18800000">genetic<adjectives>
 			<translations>
-				<translation>genètic</translation>
+				<translation catagory="biology">genètic</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="1480000">genetically<adverbs>
 			<translations>
-				<translation>genèticament</translation>
+				<translation catagory="biology">genèticament</translation>
 			</translations>
 		</adverbs>
 	</Entry><Entry frequency="389000">genetically modified food<nouns>
 			<translations>
-				<translation gender="m">menjar genèticament manipulat</translation>
+				<translation catagory="food" gender="m">menjar genèticament manipulat</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="14600000">genetics<nouns>
 			<translations>
-				<translation gender="f">genètica</translation>
+				<translation catagory="work-field" gender="f">genètica</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1240000">genetic engineering<nouns>
 			<translations>
-				<translation>
-					<translation gender="f">enginyeria genètica</translation>
-					<translation gender="f">manipulació genètica</translation>
-				</translation>
+					<translation gender="f">enginyeria genètica / manipulació genètica</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="12200000">Geneva<nouns>
 			<translations>
-				<translation gender="f">Ginebra</translation>
+				<translation catagory="city-europe-switzerland" gender="f">Ginebra</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="241000">Geneva Convention<nouns>
+                <expressions>Geneva Convention
+                    <translations>
+                        <translation catagory="politics" gender="f">Convenció de Ginebra</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="393000">genitals<nouns>
 			<translations>
-				<translation gender="f">Convenció de Ginebra</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="393000">genitals<nouns>
-			<translations>
-				<translation gender="mpl">genitals</translation>
+				<translation catagory="body" gender="mpl">genitals</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="8010000">genius<nouns>
@@ -878,17 +907,17 @@
 		</adverbs>
 	</Entry><Entry frequency="1330000">geocache<nouns>
                             <translations><date>0408</date>
-				<translation gender="m">geoamagatall</translation>
+				<translation catagory="geography" gender="m">geoamagatall</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="450000">geocacher<nouns>
                             <translations><date>0408</date>
-				<translation gender="mf">geocercador</translation>
+				<translation catagory="geography" gender="mf">geocercador</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="671000">geocaching<nouns>
                             <translations><date>0408</date>
-				<translation gender="f">geocerca</translation>
+				<translation catagory="geography" gender="f">geocerca</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="974000">geode<nouns>
@@ -898,17 +927,17 @@
 		</nouns>
 	</Entry><Entry frequency="179000">geodesy<nouns>
 			<translations>
-				<translation gender="f">geodèsia</translation>
+				<translation catagory="geography" gender="f">geodèsia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="675000">geographer<nouns>
 			<translations>
-				<translation gender="mf">geògraf</translation>
+				<translation catagory="work-job, geography" gender="mf">geògraf</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="132000000">geographic<adjectives>
 			<translations>
-				<translation>geogràfic</translation>
+				<translation catagory="geography">geogràfic</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="63500000">geographical<adjectives>
@@ -918,32 +947,32 @@
 		</adjectives>
 	</Entry><Entry frequency="515000">geographically<adverbs>
 			<translations>
-				<translation>geogràficament</translation>
+				<translation catagory="geographic">geogràficament</translation>
 			</translations>
 		</adverbs>
 	</Entry><Entry frequency="16800000">geography<nouns>
 			<translations>
-				<translation gender="f">geografia</translation>
+				<translation catagory="geography" gender="f">geografia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="8620000">geological<adjectives>
 			<translations>
-				<translation>geològic</translation>
+				<translation catagory="geography">geològic</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="98100">geologically<adverbs>
 			<translations>
-				<translation>geològicament</translation>
+				<translation catagory="geography">geològicament</translation>
 			</translations>
 		</adverbs>
 	</Entry><Entry frequency="1710000">geologist<nouns>
 			<translations>
-				<translation gender="mf">geòleg</translation>
+				<translation catagory="work-job, geography" gender="mf">geòleg</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="9520000">geology<nouns>
 			<translations>
-				<translation gender="f">geologia</translation>
+				<translation catagory="work-field, geography" gender="f">geologia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1010000">geomatics<nouns>
@@ -953,37 +982,37 @@
 		</nouns>
 	</Entry><Entry frequency="2370000">geometric<adjectives>
 			<translations>
-				<translation>geomètric</translation>
+				<translation catagory="maths">geomètric</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="206000">geometrically<adverbs>
 			<translations>
-				<translation>geomètricament</translation>
+				<translation catagory="maths">geomètricament</translation>
 			</translations>
 		</adverbs>
 	</Entry><Entry frequency="9320000">geometry<nouns>
 			<translations>
-				<translation gender="f">geometria</translation>
+				<translation catagory="maths" gender="f">geometria</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="119000">geophone<nouns>
 			<translations><date>0408</date>
-				<translation gender="m"></translation>
+				<translation catagory="geography" gender="m">geòfon</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="774000">geophysics<nouns>
 			<translations>
-				<translation gender="f">geofísica</translation>
+				<translation catagory="geography" gender="f">geofísica</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="182000">geopolitical<adjectives>
 			<translations>
-				<translation>geopolític</translation>
+				<translation catagory="politics">geopolític</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="166000">geopolitics<nouns>
 			<translations>
-				<translation gender="f">geopolítica</translation>
+				<translation catagory="politics" gender="f">geopolítica</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="113000">Geordie<nouns>
@@ -1024,27 +1053,28 @@
 		</adjectives>
 	</Entry><Entry frequency="949000">geothermal<adjectives>
 			<translations><date>0307</date>
-				<translation>geotèrmic</translation>
+				<translation catagory="geography">geotèrmic</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="200000">geothermal field<nouns>
-			<translations><date>0307</date>
-				<translation gender="m">camp geotèrmic</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="147000">geothermal gradient<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">gradient geotèrmic</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="204000">geothermal power plant<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">central geotèrmic</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="436000">geranium<nouns>
+                <expressions>geothermal field
+                    <translations>
+                        <translation gender="m">camp geotèrmic</translation>
+                    </translations>
+                </expressions>
+                <expressions>geothermal gradient
+                    <translations>
+                        <translation termcat="energy" gender="m">gradient geotèrmic</translation>
+                    </translations>
+                </expressions>
+                <expressions>geothermal power plant
+                    <translations>
+                        <translation termcat="energy" gender="f">central geotèrmic</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="436000">geranium<nouns>
 			<translations>
-				<translation gender="m">gerani</translation>
+				<translation catagory="plants-flower" gender="m">gerani</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1890000">gerbil<nouns>
@@ -1059,12 +1089,12 @@
 		</adjectives>
 	</Entry><Entry frequency="394000">geriatrics<nouns>
 			<translations>
-				<translation gender="f">geriatria</translation>
+				<translation catagory="work-field, medical" gender="f">geriatria</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1740000">germ<nouns>
 			<translations>
-				<translation gender="m">germen</translation>
+				<translation catagory="biology" gender="m">germen</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="84300000">German<nouns>
@@ -1295,6 +1325,11 @@
                     <translation>començar a treballar en (el camp de)<engexamp>Get into journalism / politics</engexamp><catexamp>Començar a treballar en el periodisme / la política</catexamp></translation>
                 </translations>
                     </phrasalverbs>
+                    <phrasalverbs>get in with
+                        <translations>
+                            <translation intransitive="true">quedar bé amb</translation>
+                        </translations>
+                    </phrasalverbs>
 		<phrasalverbs>get off
 			<translations>
 				<translation disambiguate="transport">baixar<engexamp>He got off the plane</engexamp>
@@ -1335,14 +1370,58 @@
                 <phrasalverbs>get out (of)
                 <translations>
                     <translation>sortir<example>With two small children, I don't &lt;b&gt;get out&lt;/b&gt; as often as I used to.</example></translation>
-                    <translation>(cotxe) baixar<example>He &lt;b&gt;got out of&lt;/b&gt; the car and turned to wave goodbye.</example></translation>
+                    <translation>(cotxe, barca) baixar (de)<example>He &lt;b&gt;got out of&lt;/b&gt; the car and turned to wave goodbye.</example></translation>
                     <translation>(llit) sortir (de) / aixecar-se (de)<example>He &lt;b&gt;got out&lt;/b&gt; of bed and stumbled to the bathroom.</example></translation>
+                    <translation>escapolir-se de (p.e., una obligació</translation>
                 </translations>
                 </phrasalverbs>
                 <phrasalverbs>get over (something)
                 <translations>
                     <translation>recuperar-se d'(alguna cosa)<example>How to &lt;b&gt;get over&lt;/b&gt; the death of a loved one.</example><example>He is just &lt;b&gt;getting over&lt;/b&gt; a really bad dose of the flu.</example></translation>
                 </translations>
+                </phrasalverbs>
+                <phrasalverbs>get past
+                    <translations>
+                        <translation intransitive="true">passar</translation>
+                        <translation intransitive="true">arribar més enllà de</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>get to
+                    <translations>
+                        <translation intransitive="true">arribar a</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>get round
+                    <translations>
+                        <translation intransitive="true">convèncer</translation>
+                    <translation intransitive="true">sortir (socialment) / rondar</translation>
+                    <translation intransitive="true">córrer (una notícia) / circular</translation>
+                    <translation intransitive="true">evitar o superar (una dificultat)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>get through
+                    <translations>
+                        <translation intransitive="true">passar cap a l'altra banda</translation>
+                        <translation transitive="true">fer passar per</translation>
+                        <translation transitive="true">arribar al final de</translation>
+                    <translation intransitive="true">arribar (persones) al fi (d'una tasca, d'un esdeveniment, etc.)</translation>
+                    <translation intransitive="true">entrar en contacte (per telèfon)</translation>
+                   </translations>
+                </phrasalverbs>
+                <phrasalverbs>get together
+                    <translations>
+                        <translation intransitive="true">reunir-se</translation>
+                        <translation transitive="true">reunir</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>get up
+                    <translations>
+                        <translation intransitive="true">aixecar-se (posar-se dret)</translation>
+                    <translation transitive="true">cridar / fer llevar</translation>
+                    <translation transitive="true">fer pujar (alguna cosa)</translation>
+                    <translation transitive="true">preparar (una obra de teatre)</translation>
+                    <translation intransitive="true">llevar-se (del llit)</translation>
+                    </translations>
                 </phrasalverbs>
                 <expressions>from the get-go
                 <translations>
@@ -1359,7 +1438,7 @@
 				<translation>acostumar-se a</translation>
 			</translations>
 		</expressions>
-	<phrasalverbs>get in with<translations><translation intransitive="true">quedar bé amb</translation></translations></phrasalverbs><phrasalverbs>get out of<translations><translation intransitive="true">1 poder sortir de 2 escapolir-se de (p.e., una obligació) 3 baixar de (un cotxe, una barca, etc.)</translation></translations></phrasalverbs><phrasalverbs>get past<translations><translation intransitive="true">poder passar</translation><translation intransitive="true">arribar més enllà de</translation></translations></phrasalverbs><phrasalverbs>get to<translations><translation intransitive="true">arribar a</translation></translations></phrasalverbs><phrasalverbs>get round<translations><translation intransitive="true">convèncer</translation><translation intransitive="true">1 sortir (socialment), rondar 2 córrer (una notícia), circular</translation><translation intransitive="true">evitar o superar (una dificultat)</translation></translations></phrasalverbs><phrasalverbs>get through<translations><translation intransitive="true">poder passar cap a l'altra banda</translation><translation transitive="true">fer passar per</translation><translation transitive="true">arribar al final de</translation><translation intransitive="true">1 arribar (persones) al fi (d'una tasca, d'un esdeveniment, etc.) 2 entrar en contacte (per telèfon)</translation></translations></phrasalverbs><phrasalverbs>get together<translations><translation intransitive="true">reunir-se</translation><translation transitive="true">reunir</translation></translations></phrasalverbs><phrasalverbs>get worked up<translations><translation transitive="true">emocionar-se</translation></translations></phrasalverbs><phrasalverbs>get up<translations><translation intransitive="true">aixecar-se (posar-se dret)</translation><translation transitive="true">1 cridar, fer llevar 2 poder fer pujar (alguna cosa)</translation><translation transitive="true">preparar (una obra de teatre)</translation><translation intransitive="true">llevar-se (del llit)</translation></translations></phrasalverbs></Entry><Entry frequency="1350000">get-up-and-go<nouns><mistakes>get up and go</mistakes>
+	</Entry><Entry frequency="1350000">get-up-and-go<nouns><mistakes>get up and go</mistakes>
 			<translations>
 				<translation>energia, determinació i positivitat<example>Vince took early retirement in 1995 but he had too much &lt;b&gt;get-up-and-go&lt;/b&gt; about him to stay retired for long.</example></translation>
 			</translations>
@@ -1422,7 +1501,7 @@
 		</nouns>
 	</Entry><Entry frequency="9130000">Gibraltar<nouns>
 			<translations>
-				<translation gender="m">Gibraltar</translation>
+				<translation catagory="region-europe" gender="m">Gibraltar</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="753000">giddy<adjectives>
@@ -1433,7 +1512,7 @@
 	</Entry><Entry frequency="116000000">GIF<engacro>Graphics Interchange Format</engacro>
 		<nouns>
 			<translations>
-				<translation termcat="true" gender="m">GIF<catacro>Format d'intercanvi de gràfics</catacro>
+				<translation termcat="true" catagory="computers" gender="m">GIF<catacro>Format d'intercanvi de gràfics</catacro>
 				</translation>
 			</translations>
 		</nouns>
@@ -1475,18 +1554,18 @@
 			<translations><date>0307</date>
 				<translation catagory="animal" gender="f">brànquia / ganya<engnote>'Brànquia' and 'ganya' mean 'gill' as in the gills of a fish.</engnote>
 				</translation>
-                                <translation catagory="food-vegetable" gender="f">làmina</translation>
+                                <translation catagory="food" gender="f">(bolet) làmina</translation>
                                 <translation>unitat imperial emprada per mesurar els líquids - (aproximadament) 142ml</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1380000">gin<nouns>
 			<translations>
-				<translation gender="f">ginebra</translation>
+				<translation catagory="food-drink" gender="f">ginebra</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2660000">ginger<nouns>
 			<translations>
-				<translation gender="m">gingebre</translation>
+				<translation catagory="food-spice" gender="m">gingebre</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -1506,7 +1585,7 @@
 		</nouns>
 	</Entry><Entry frequency="901000">giraffe<nouns>
 			<translations>
-				<translation gender="f">girafa</translation>
+				<translation catagory="animal-animal" gender="f">girafa</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="3150000">gird<verbs>
@@ -1521,15 +1600,12 @@
                 </phrasalverbs>
 	</Entry><Entry frequency="814000">girder<nouns>
 			<translations>
-				<translation>biga (de ferro o d'acer)</translation>
+				<translation gender="f">biga (de ferro o d'acer)</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="67500000">girl<nouns>
 			<translations>
-				<translation>
-					<translation gender="f">noia</translation>
-					<translation gender="f">xiqueta</translation>
-				</translation>
+				<translation gender="f">noia / xiqueta</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="4660000">girlfriend<nouns>
@@ -1546,7 +1622,7 @@
 	</Entry><Entry frequency="1620000">GIS<engacro>Geographic Information System</engacro>
 		<nouns>
 			<translations>
-				<translation termcat="true" gender="m">SIG<catacro>Sistema d'Informació Geogràfic</catacro>
+				<translation termcat="true" catagory="geography" gender="m">SIG<catacro>Sistema d'Informació Geogràfic</catacro>
 				</translation>
 			</translations>
 		</nouns>
@@ -1563,19 +1639,41 @@
                                 <translation>impartir<engexamp>To give classes</engexamp><catexamp>Impartir classes</catexamp></translation>
 			</translations>
 		</verbs>
-                <phrasalverbs>give (something) back
+                <phrasalverbs>give away
+                    <translations>
+                        <translation transitive="true">regalar</translation>
+                    <translation transitive="true">revelar</translation>
+                    <translation transitive="true">trair</translation>
+                </translations>
+                </phrasalverbs>
+                <phrasalverbs>give back
                 <translations>
                     <translation>tornar</translation>
                 </translations>
+                </phrasalverbs>
+                <phrasalverbs>give forth
+                    <translations>
+                        <translation register="formal" intransitive="true">emetre</translation>
+                    </translations>
                 </phrasalverbs>
                 <phrasalverbs>give in
                     <translations>
                         <translation>rendir-se / cedir<example>I &lt;b&gt;give in&lt;/b&gt;. What's the answer?</example></translation>
                     </translations>
                 </phrasalverbs>
+                <phrasalverbs>give of
+                    <translations>
+                        <translation intransitive="true">donar de</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>give off
                     <translations>
                         <translation>emetre</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>give onto
+                    <translations>
+                        <translation intransitive="true">tenir vista cap a</translation>
                     </translations>
                 </phrasalverbs>
                 <phrasalverbs>give out
@@ -1605,6 +1703,12 @@
                     <translation>deixar de / desenganxar-se<engexamp>To give up smoking</engexamp><catexamp>Deixar de fumar</catexamp><engexamp>To give up drugs</engexamp><catexamp>Desenganxar-se de la droga</catexamp><example>He wants you to &lt;b&gt;give up&lt;/b&gt; smoking.</example></translation>
                     </translations>
                 </phrasalverbs>
+                <phrasalverbs>give (yourself) up to
+                    <translations>
+                    <translation intransitive="true">abandonar-se a</translation>
+                    <translation intransitive="true">lliurar-se a (una autoritat)</translation>
+                </translations>
+            </phrasalverbs>
                 <phrasalverbs>give way
                     <translations>
                         <translation>cedir el pas</translation>
@@ -1620,7 +1724,7 @@
                     <translation local="us">aplaudir<example>Ladies and gentlemen, please &lt;b&gt;give it up for&lt;/b&gt; tonight's guest Will Smith!</example></translation>
                 </translations>
             </expressions>
-	<phrasalverbs>give away<translations><translation transitive="true">regalar</translation><translation transitive="true">1 revelar 2 trair</translation></translations></phrasalverbs><phrasalverbs>give forth<translations><translation intransitive="true">emetre</translation></translations></phrasalverbs><phrasalverbs>give of<translations><translation intransitive="true">donar de</translation></translations></phrasalverbs><phrasalverbs>give onto<translations><translation intransitive="true">tenir vista cap a</translation></translations></phrasalverbs><phrasalverbs>give up to<translations><translation intransitive="true">1 abandonar-se a 2 lliurar-se a (una autoritat)</translation></translations></phrasalverbs></Entry><Entry frequency="516000">glacial<adjectives>
+	</Entry><Entry frequency="516000">glacial<adjectives>
 			<translations>
 				<translation>glacial</translation>
 			</translations>
