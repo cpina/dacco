@@ -2770,12 +2770,12 @@
 		</nouns>
 	</Entry><Entry frequency="1270000">methane<nouns>
 			<translations>
-				<translation gender="m">metà</translation>
+				<translation catagory="chemistry" gender="m">metà</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="371000">methanol<nouns>
 			<translations>
-				<translation gender="m">metanol</translation>
+				<translation catagory="chemistry" gender="m">metanol</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="76900000">method<nouns>
@@ -2790,7 +2790,7 @@
 		</nouns>
 	</Entry><Entry frequency="2080000">methodist<nouns>
 			<translations>
-				<translation gender="mf">metodista</translation>
+				<translation catagory="religious" gender="mf">metodista</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -2843,7 +2843,7 @@
 		</verbs>
                 <nouns>
                 <translations>
-                <translation catagory="animal" gender="m">miol</translation></translations></nouns>
+            <translation catagory="animal" gender="m">miol<synonyms>miaow</synonyms></translation></translations></nouns>
 	</Entry><Entry frequency="7370000">Mexican<nouns>
 			<translations>
 				<translation gender="mf">mexicà</translation>
@@ -2866,12 +2866,12 @@
 		</nouns>
 	</Entry><Entry frequency="43400">miaow<nouns>
 			<translations>
-				<translation gender="m">miol</translation>
+				<translation catagory="animal" gender="m">miol</translation>
 			</translations>
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>miolar</translation>
+                            <translation catagory="animal">miolar<synonyms>mew</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="10000">mick<nouns>
@@ -2971,8 +2971,8 @@
 	</Entry><Entry frequency="12400000">middle<nouns>
 			<translations>
 				<translation>
-					<translation gender="m">centre</translation>
-					<translation gender="m">mig</translation>
+                                        <translation gender="m">centre</translation>
+                                        <translation gender="m">mig<engexamp>In the middle of the street</engexamp><catexamp>Al mig del carrer</catexamp></translation>
 				</translation>
 			</translations>
 
@@ -3001,7 +3001,7 @@
 		</nouns>
 	</Entry><Entry frequency="3230000">middleman<nouns>
 			<translations>
-				<translation gender="m">intermediari<synonyms>intermediary / go-between</synonyms><plural>middlemen</plural></translation>
+				<translation gender="m">intermediari<synonyms>intermediary, go-between</synonyms><plural>middlemen</plural></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1520000">middle name<nouns>
@@ -3011,10 +3011,7 @@
 		</nouns>
 	</Entry><Entry frequency="423000">midfielder<nouns>
 			<translations>
-				<translation>
-					<translation gender="mf">centrecampista</translation>
-					<translation gender="mf">migcampista</translation>
-				</translation>
+				<translation catagory="sports-event-football" gender="mf">centrecampista / migcampista</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="727000">midget<nouns>
@@ -3025,18 +3022,18 @@
 		</nouns>
 	</Entry><Entry frequency="13700000">midnight<nouns>
 			<translations>
-				<translation gender="f">mitjanit</translation>
+				<translation catagory="time-ofDay" gender="f">mitjanit</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="905000">midwife<nouns>
 			<translations>
-				<translation gender="f">llevadora<plural>midwives</plural>
+                                <translation catagory="work-job, medical" gender="f">llevadora<plural>midwives</plural>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="320000">might<nouns>
 			<translations>
-				<translation gender="f">força<example>The rebels and their outdated weapons were of little use against the &lt;b&gt;might&lt;/b&gt; of the German army. </example>
+				<translation register="formal" gender="f">força<example>The rebels and their outdated weapons were of little use against the &lt;b&gt;might&lt;/b&gt; of the German army. </example>
 				</translation>
 			</translations>
 		</nouns>
@@ -3153,12 +3150,12 @@
 		</nouns>
 	</Entry><Entry frequency="10300000">milk<nouns>
 			<translations>
-				<translation gender="f">llet</translation>
+				<translation catagory="food-drink" gender="f">llet</translation>
 			</translations>
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>munyir</translation>
+				<translation transitive="true" catagory="animal">munyir</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="5170000">milkshake<nouns>
@@ -3172,13 +3169,16 @@
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="10500000">mill<nouns>
-			<translations>
-				<translation gender="m">molí<engnote>'Molí' means 'mill' as in 'a place where grain is ground into flour'.</engnote>
-				</translation>
-				<translation gender="f">fàbrica<engnote>'Fàbrica' means 'mill' in the sense 'factory' (i.e. 'paper mill' / 'cotton mill' etc.)</engnote>
-				</translation>
+                            <translations><date>0508</date>
+                                <translation gender="m">molí<engnote>'Molí' means 'mill' in the sense 'building where grain is ground into flour' (e.g. windmill, watermill).</engnote></translation>
+                                <translation gender="f">fàbrica<engexamp>Paper mill</engexamp><catexamp>Fàbrica de paper</catexamp><engexamp>Cotton mill</engexamp><catexamp>Fàbrica de cotó</catexamp></translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>moldre</translation>
+                    </translations>
+                </verbs>
 	</Entry><Entry frequency="10700000">millennium<nouns>
 			<translations>
 				<translation gender="m">mil·leni<plural>millennia / millenniums</plural>
@@ -3187,7 +3187,7 @@
 		</nouns>
 	</Entry><Entry frequency="779000">miller<nouns>
 			<translations>
-				<translation gender="mf">moliner</translation>
+				<translation catagory="work-job" gender="mf">moliner</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="494000">milligram<nouns>
@@ -3223,7 +3223,7 @@
 		</nouns>
 	</Entry><Entry frequency="15900000">million<nouns>
 			<translations>
-				<translation gender="m">milió</translation>
+				<translation catagory="number-cardinal" gender="m">milió</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2050000">millionaire<nouns>
@@ -3245,14 +3245,19 @@
 	</Entry>
         <Entry frequency="79900">millipede<nouns>
 			<translations>
-				<translation gender="m">milpeus</translation>
+				<translation catagory="animal-insect" gender="m">milpeus</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="5630000">mime<nouns>
-			<translations>
+                            <translations><date>0508</date>
 				<translation gender="m">mim</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>fer mim</translation>
+                    </translations>
+                </verbs>
 	</Entry><Entry frequency="24900">mime artist<nouns>
 			<translations>
 				<translation gender="mf">mim</translation>
@@ -3268,7 +3273,7 @@
 		</verbs>
 	</Entry><Entry frequency="269000">minaret<nouns>
 			<translations>
-				<translation gender="m">minaret</translation>
+				<translation catagory="religious" gender="m">minaret</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="7880000">mince<nouns>
@@ -3286,7 +3291,7 @@
                 <translation>sense embuts</translation>
                 </translations>
                 </expressions>
-                <expressions>to not mince words
+                <expressions>not mince words
                 <translations>
                     <translation>no tenir pèls a la llengua</translation>
                     </translations>
@@ -3308,7 +3313,7 @@
 		</nouns>
 	</Entry><Entry frequency="1830000">miner<nouns>
 			<translations>
-				<translation gender="m">miner</translation>
+				<translation catagory="work-job" gender="m">miner</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="7840000">mineral<nouns>
@@ -3318,9 +3323,7 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>mineral<engexamp>Mineral water</engexamp>
-					<catexamp>Aigua mineral</catexamp>
-				</translation>
+				<translation>mineral</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="966000">mineralogy<nouns>
@@ -3330,7 +3333,7 @@
 		</nouns>
 	</Entry><Entry frequency="4660000">mineral water<nouns>
 			<translations>
-				<translation gender="f">aigua mineral<engexamp>Sparkling mineral water</engexamp><catexamp>Aigua mineral amb gas</catexamp><engexamp>Still mineral water</engexamp><catexamp>Aigua mineral sense gas</catexamp></translation>
+				<translation catagory="food-drink" gender="f">aigua mineral<engexamp>Sparkling mineral water</engexamp><catexamp>Aigua mineral amb gas</catexamp><engexamp>Still mineral water</engexamp><catexamp>Aigua mineral sense gas</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="26800000">mini<adjectives>
@@ -3378,7 +3381,7 @@
 		</nouns>
 	</Entry><Entry frequency="1120000">minimum wage<nouns>
 			<translations>
-				<translation gender="m">salari mínim (interprofessional)</translation>
+				<translation catagory="work" gender="m">salari mínim (interprofessional)</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="34700000">mining<nouns>
@@ -3397,7 +3400,13 @@
 				<translation disambiguate="religious" gender="mf">sacerdot</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>minister to<translations><translation intransitive="true">tenir cura de, atendre</translation></translations></phrasalverbs></Entry><Entry frequency="6410000">ministerial<adjectives>
+                <phrasalverbs>minister to
+                    <translations>
+                        <translation intransitive="true">tenir cura de / atendre</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="6410000">ministerial<adjectives>
 			<translations>
 				<translation catagory="politics">ministerial</translation>
 			</translations>
@@ -3408,10 +3417,16 @@
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="37800000">minor<nouns>
-			<translations>
+                            <translations><date>0508</date>
 				<translation gender="mf">menor</translation>
 			</translations>
 		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation catagory="entertainment-music">menor<engexamp>Minor scale</engexamp><catexamp>Escala menor</catexamp><engexamp>Minor key</engexamp><catexamp>To menor</catexamp></translation>
+                        <translation>secundari</translation>   
+                    </translations>
+                </adjectives>
 	</Entry><Entry frequency="7680000">minority<nouns>
 			<translations>
 				<translation gender="f">minoria<plural>minorities</plural>
@@ -3430,7 +3445,7 @@
 		</nouns>
 	</Entry><Entry frequency="3880000">mint<nouns>
 			<translations>
-				<translation gender="f">menta</translation>
+				<translation catagory="food-herb" gender="f">menta</translation>
                                 <translation disambiguate="financial" register="colloquial" gender="f">fortuna<example>Organic fruit and veg might be good for you, but they cost &lt;b&gt;a mint&lt;/b&gt;.</example></translation>
 			</translations>
 		</nouns>
@@ -3439,7 +3454,7 @@
                 <translation>(com) nou<example>The book might be expensive, but it's in absolutely &lt;b&gt;mint&lt;/b&gt; condition.</example></translation></translations></adjectives>
 	</Entry><Entry frequency="50000">minted<adjectives>
 			<translations>
-				<translation local="gb" register="colloquial">folrat<example>Jude Law is &lt;b&gt;minted&lt;/b&gt; and drop-dead gorgeous, what more could a woman ask for?</example></translation>
+				<translation local="gb" catagory="financial" register="colloquial">folrat<example>Jude Law is &lt;b&gt;minted&lt;/b&gt; and drop-dead gorgeous, what more could a woman ask for?</example></translation>
                                 <translation disambiguate="food">amb menta / amb sabor de menta</translation>
 			</translations>
 		</adjectives>
@@ -3455,8 +3470,9 @@
                 <translation gender="m">desavantatge<engexamp>Pluses and minuses</engexamp><catexamp>Avantatges i desavantatges</catexamp><plural>minuses</plural></translation>
                 <translation disambiguate="maths" gender="m">signe menys<synonyms>minus sign</synonyms></translation></translations></nouns>
 	</Entry><Entry frequency="59900000">minute<nouns>
-			<translations>
+                            <translations><date>0508</date>
 				<translation gender="m">minut</translation>
+                                <translation sourceplural="the minutes" gender="f">acta (de reunió)</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -3464,12 +3480,8 @@
                         <translation>molt petit<engexamp>In minute detail</engexamp><catexamp>Menudament</catexamp></translation>
                     </translations>
                 </adjectives>
-	</Entry><Entry frequency="5000000">minutes<nouns>
-			<translations>
-				<translation gender="f">acta (de reunió)</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="8800000">miracle<nouns>
+	</Entry>
+        <Entry frequency="8800000">miracle<nouns>
 			<translations>
 				<translation gender="m">miracle</translation>
 			</translations>
@@ -3491,7 +3503,7 @@
 		</nouns>
 	</Entry><Entry frequency="12000000">mirror<nouns>
                             <translations><date>050rèplica8</date>
-				<translation gender="m">mirall</translation>
+				<translation catagory="household" gender="m">mirall</translation>
                                 <translation termcat="internet" disambiguate="computers-internet" gender="f">rèplica</translation>
 			</translations>
 		</nouns>
@@ -3692,13 +3704,8 @@
 		</nouns>
 	</Entry><Entry frequency="97800">missus<nouns>
 			<translations>
-				<translation register="slang">
-					<translation gender="f">dona</translation>
-					<translation gender="f">esposa<catnote>Molt sovint aquesta paraula va precedida de l'article definit 'the' en comptes de 'your' (el teu) - per exemple: 'Hello John, how's the missus?' = 'Hola Joan, com està la teva dona?'</catnote>
-					</translation>
-				</translation>
-				<translation register="slang" local="gb">senyora<catnote>En l'argot britànic 'missus' s'utilitza per dirigir-se a una senyora que no coneixes.  És molt descortès utilitzar aquesta paraula.  Normalment es diria 'madam'.</catnote>
-				</translation>
+					<translation register="slang" gender="f">dona / esposa<catnote>Molt sovint aquesta paraula va precedida de l'article definit 'the' en comptes de 'your' (el teu) - per exemple: 'Hello John, how's the missus?' = 'Hola Joan, com està la teva dona?'</catnote></translation>
+				<translation register="slang" local="gb">senyora<catnote>En l'argot britànic la paraula 'missus' s'utilitza per dirigir-se a una senyora no coneguda.  És molt descortès utilitzar aquesta paraula en aquest sentit i, de fet, és utilitzada sobretot pels nens petits que encara no han après com han de dirigir-se als grans que no coneixen, de forma correcta i cortesa.  Normalment es diria 'madam'.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="200000">missy<nouns>
@@ -3708,7 +3715,7 @@
 		</nouns>
 	</Entry><Entry frequency="2920000">mist<nouns>
 			<translations>
-					<translation gender="f">boira / boirina</translation>
+				<translation catagory="weather" gender="f">boira / boirina</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="14500000">mistake<nouns>
@@ -3718,8 +3725,8 @@
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1530000">mister<nouns>
-			<translations>
-				<translation gender="m">senyor</translation>
+                            <translations><date>0508</date>
+				<translation register="slang" gender="m">senyor<catnote>En l'argot britànic la paraula 'mister' s'utilitza per dirigir-se a un senyor no conegut.  És molt descortès utilitzar aquesta paraula en aquest sentit i, de fet, és utilitzada sobretot pels nens petits que encara no han après com han de dirigir-se als grans que no coneixen, de forma correcta i cortesa.  Normalment es diria 'sir'.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="190000">mistreat<verbs>
