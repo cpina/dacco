@@ -36,7 +36,7 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation local="us">laboral<otherlocal>labour</otherlocal>
+                                <translation local="us">laboral<engexamp>Labor market</engexamp><catexamp>Mercat laboral</catexamp><otherlocal>labour</otherlocal>
 				</translation>
 			</translations>
 		</adjectives>
@@ -45,12 +45,29 @@
                 <translation disambiguate="medical" local="us">anar de part / estar de part / parir</translation>
                 </translations>
                 </verbs>
-	</Entry><Entry frequency="544000">labor agreement<nouns>
-			<translations>
-				<translation catagory="work" local="us" gender="m">conveni col·lectiu<otherlocal>labour agreement</otherlocal></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="71300000">laboratory<nouns>
+                <expressions>labor agreement
+                    <translations>
+                        <translation catagory="work" local="us" gender="m">conveni col·lectiu<otherlocal>labour agreement</otherlocal></translation>
+                    </translations>
+                </expressions>
+                <expressions>labor dispute
+                    <translations>
+                        <translation catagory="work" local="us" gender="f">disputa laboral<otherlocal>labour dispute</otherlocal>
+                        </translation>
+                    </translations>
+                </expressions>
+                <expressions>labor market
+                    <translations>
+                        <translation catagory="work" local="us" gender="m">mercat laboral</translation>
+                    </translations>
+                </expressions>
+                <expressions>labor union
+                    <translations>
+                        <translation catagory="work" local="us" gender="m">sindicat<otherlocal>trade union</otherlocal></translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="71300000">laboratory<nouns>
 			<translations>
 				<translation gender="m">laboratori<plural>laboratories</plural>
 					<synonyms>lab (colloq.)</synonyms>
@@ -59,17 +76,11 @@
 		</nouns>
 	</Entry><Entry frequency="2130000">Labor Day<nouns>
 			<translations>
-				<translation noteng="TRUE" local="us">-<catnote>Labor Day és un dia festiu als Estats Units (el primer dilluns de setembre). Tradicionalment representa la fi de l'estiu.</catnote>
-				</translation>
+                            <translation local="us">dia festiu als Estats Units (el primer dilluns de setembre). Tradicionalment representa la fi de l'estiu</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="222000">labor dispute<nouns>
-			<translations>
-				<translation local="us" gender="f">disputa laboral<otherlocal>labour dispute</otherlocal>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="392000">laborious<adjectives>
+	</Entry>
+        <Entry frequency="392000">laborious<adjectives>
 			<translations>
 				<translation>laboriós</translation>
 			</translations>
@@ -79,14 +90,8 @@
 				<translation>laboriosament</translation>
 			</translations>
 		</adverbs>
-	</Entry><Entry frequency="822000">labor union<nouns>
-			<translations>
-				<translation local="us" gender="m">sindicat<otherlocal>trade union</otherlocal>
-				</translation>
-                                <translation beforenoun="true" local="us">sindical</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="33700000">labour<nouns>
+	</Entry>
+        <Entry frequency="33700000">labour<nouns>
 			<translations>
 				<translation disambiguate="work" local="gb" gender="m">treball<otherlocal>labor</otherlocal>
 				</translation>
@@ -104,18 +109,23 @@
                 <translation disambiguate="medical" local="gb">anar de part / estar de part / parir</translation>
                 </translations>
                 </verbs>
-	</Entry><Entry frequency="172000">labour agreement<nouns>
-			<translations>
-				<translation catagory="work" local="gb" gender="m">conveni col·lectiu<otherlocal>labor agreement</otherlocal></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="222000">labour dispute<nouns>
-			<translations>
-				<translation local="gb">disputa laboral<otherlocal>labor dispute</otherlocal>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="739000">Labour Party<nouns>
+                <expressions>labour agreement
+                    <translations>
+                        <translation catagory="work" local="gb" gender="m">conveni col·lectiu<otherlocal>labor agreement</otherlocal></translation>
+                        </translations>
+                    </expressions>
+                    <expressions>labour dispute
+                        <translations>
+                            <translation catagory="work" local="gb">disputa laboral<otherlocal>labor dispute</otherlocal></translation>
+                        </translations>
+                    </expressions>
+                    <expressions>labour market
+                        <translations>
+                            <translation catagory="work" local="gb" gender="m">mercat laboral<otherlocal>labor market</otherlocal></translation>
+                        </translations>
+                    </expressions>
+	</Entry>
+        <Entry frequency="739000">Labour Party<nouns>
 			<translations>
 				<translation gender="m">Partit Laborista</translation>
 			</translations>
@@ -144,7 +154,13 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
-	<phrasalverbs>lace into<translations><translation intransitive="true">atacar verbalment</translation></translations></phrasalverbs></Entry><Entry frequency="111000">lachrymal<adjectives>
+                <phrasalverbs>lace into
+                    <translations>
+                        <translation intransitive="true">atacar verbalment</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="111000">lachrymal<adjectives>
                             <translations><date>1007</date>
 				<translation>lacrimal<catnote>També s'escriu 'lacrimal'.</catnote></translation>
 			</translations>
@@ -156,7 +172,7 @@
 		</verbs>
 		<nouns>
 			<translations>
-					<translation gender="f">manca / mancança / falta / carència</translation>
+                            <translation gender="f">manca / mancança / falta / carència</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="4910000">lackey<nouns>
@@ -209,11 +225,7 @@
 		</nouns>
 	</Entry><Entry frequency="2570000">lad<nouns>
 			<translations>
-				<translation register="colloquial">
-					<translation gender="m">xaval </translation>
-					<translation gender="m">noi</translation>
-					<translation gender="m">xicot</translation>
-				</translation>
+        			<translation register="colloquial" gender="m">xaval / noi / xicot</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="5240000">ladder<nouns>
@@ -234,8 +246,7 @@
 		</nouns>
 	</Entry><Entry frequency="102000">ladies' man<nouns>
 			<translations>
-				<translation noteng="TRUE">-<catnote>Un 'ladies' man' és un home a qui li agrada estar rodejat de dones i qui sempre està molt atent a elles.</catnote>
-				</translation>
+				<translation>home a qui li agrada estar rodejat de dones i qui sempre està molt atent a elles</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="5340000">ladle<nouns>
