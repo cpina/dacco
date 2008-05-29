@@ -546,7 +546,13 @@
                                 <translation gender="m">cabdell<engnote>'Cabdell' means 'ball' in the sense 'ball of wool / string'.</engnote></translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>ball up<translations><translation transitive="true">espatllar</translation></translations></phrasalverbs></Entry><Entry frequency="4180000">ballad<nouns>
+                <phrasalverbs>ball up
+                    <translations>
+                        <translation local="us" transitive="true">potinejar</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="4180000">ballad<nouns>
 			<translations>
 				<translation gender="f">balada</translation>
 			</translations>
@@ -693,7 +699,29 @@
                 <translation register="vulgar">fotre</translation></translations></verbs>
                 <phrasalverbs>bang on about (something)<translations>
                 <translation register="slang" local="gb">parlar sense parar d'alguna cosa (d'una manera avorrida)</translation></translations><synonyms>harp on about something</synonyms></phrasalverbs>
-	<phrasalverbs>bang about<translations><translation intransitive="true">fer soroll movent-se per casa</translation></translations></phrasalverbs><phrasalverbs>bang around<translations><translation intransitive="true">fer soroll movent-se per casa</translation></translations></phrasalverbs><phrasalverbs>bang out<translations><translation transitive="true">tocar música, una cançó darrere l'altra</translation></translations></phrasalverbs><phrasalverbs>bang up<translations><translation transitive="true">danyar, espatllar</translation></translations></phrasalverbs></Entry><Entry frequency="5760000">Bangladesh<nouns>
+                <phrasalverbs>bang about
+                    <translations>
+                        <translation intransitive="true">fer soroll movent-se per casa</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>bang around
+                    <translations>
+                        <translation intransitive="true">fer soroll movent-se per casa</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>bang out
+                    <translations>
+                        <translation transitive="true">fer ràpidament (alguna cosa), sense gaires esforços</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>bang up
+                    <translations>
+                        <translation local="us" transitive="true">danyar / espatllar</translation>
+                        <translation local="gb" transitive="true">empresonar (algú)</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="5760000">Bangladesh<nouns>
 			<translations>
 				<translation gender="m">Bangla Desh</translation>
 			</translations>
@@ -1163,7 +1191,13 @@
                 <verbs double="true">
                 <translations>
                 <translation catagory="sports">batre</translation></translations></verbs>
-	<phrasalverbs>bat out<translations><translation transitive="true">produir ràpidament</translation></translations></phrasalverbs></Entry><Entry frequency="1720000">baton<nouns>
+                <phrasalverbs>bat out
+                    <translations>
+                      <translation transitive="true">fer ràpidament (alguna cosa), sense gaires esforços</translation>
+                  </translations>
+              </phrasalverbs>
+          </Entry>
+          <Entry frequency="1720000">baton<nouns>
 			<translations><date>0408</date>
 				<translation disambiguate="entertainment-music" gender="f">batuta</translation>
                                 <translation disambiguate="sports-event-athletics" gender="m">testimoni</translation>
@@ -4450,7 +4484,7 @@
 		</verbs>
                  <expressions>be booked up
                 <translations>
-                    <translation>(hostaleria) tenir totes les habitacons ocupades</translation>
+                    <translation>(hostaleria) estar ple / tenir totes les habitacons ocupades</translation>
                     <translation>estar compromès (sense cap hora o dia lliure)</translation>
             </translations>
             </expressions>
@@ -5333,8 +5367,9 @@
                 </phrasalverbs>
                 <phrasalverbs>break through
                     <translations>
-                        <translation intransitive="true">sortir / arribar (superant un impediment)</translation>
-                        <translation intransitive="true">travessar (trencant alguna cosa)</translation>
+                        <translation intransitive="true">superar (una barrera, un obstacle)</translation>
+                        <translation intransitive="true">avançar (superant un impediment)</translation>
+                        <translation intransitive="true">sortir / erupcionar</translation>
                     </translations>
                 </phrasalverbs>
 		<phrasalverbs>break up
@@ -5734,7 +5769,7 @@
                 </phrasalverbs>
                 <phrasalverbs>bring forth
                     <translations>
-                        <translation transitive="true">presentar / produir</translation>
+                        <translation register="formal" transitive="true">presentar / produir</translation>
                     </translations>
                 </phrasalverbs>
                 <phrasalverbs>bring forward
@@ -5754,7 +5789,7 @@
                         <translation transitive="true">acompanyar una persona de fora a dins<example>Would you &lt;b&gt;bring in&lt;/b&gt; the next candidate please?</example></translation>
                         <translation transitive="true">introduir<example>The Department of Education &lt;b&gt;brought in&lt;/b&gt; a new syllabus for the sciences.</example></translation>
                         <translation transitive="true">rendir (produir un benefici)<example>New VAT revenue from higher fuel prices &lt;b&gt;brought in&lt;/b&gt; an extra £450 million.</example></translation>
-                        <translation transitive="true">fer venir (per ocupar un càrrec)<example>The company &lt;b&gt;brought in&lt;/b&gt; a new CEO who was able to cut costs significantly.</example></translation>
+                        <translation transitive="true">contractar<example>The company &lt;b&gt;brought in&lt;/b&gt; a new CEO who was able to cut costs significantly.</example></translation>
                         <translation transitive="true">convidar algú a participar (en una discussió)<example>I'd just like to &lt;b&gt;bring in&lt;/b&gt; Jason here and see what he thinks.</example></translation>
                     </translations>
                 </phrasalverbs>
@@ -6786,7 +6821,10 @@
                 <nouns>
                 <translations>
                 <translation gender="f">cremada<engexamp>Third-degree burns</engexamp><catexamp>Cremades de tercer grau</catexamp></translation></translations></nouns>
-	<phrasalverbs>burn up<translations><translation intransitive="true">cremar-se del tot</translation><translation transitive="true">cremar, destruir amb foc</translation></translations></phrasalverbs></Entry><Entry frequency="1800000">burning<adjectives>
+                <phrasalverbs>burn up
+                    <translations>
+                        <translation intransitive="true">cremar-se completament</translation>
+                        <translation transitive="true">cremar completament / destruir amb foc</translation></translations></phrasalverbs></Entry><Entry frequency="1800000">burning<adjectives>
 			<translations>
 				<translation>ardent</translation>
 			</translations>
