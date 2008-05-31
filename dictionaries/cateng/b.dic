@@ -254,7 +254,8 @@
         <Entry frequency="">baixkir<nouns><translations><translation catagory="geography" gender="m / f">Bashkir</translation></translations></nouns><adjectives><translations><translation>Bashkir<fems>baixkira</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="1790">bajanada<nouns>
 			<translations><date>0505</date>
-				<translation gender="f">piece of nonsense / stupid thing</translation>
+				<translation gender="f">piece of nonsense / (act or piece) of stupidity (or idiocy or foolishness) / idiotic (or foolish or stupid) act</translation>
+                                <translation sourceplural="bajanades" gender="fpl">rubbish / nonsense / hooey (Am.)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -320,6 +321,13 @@
 			<translations>
 				<translation catagory="household" gender="m">balcony<plural>balcons</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="3360">baldaquí<nouns>
+			<translations><date>0508</date>
+				<translation gender="m">canopy</translation>
+                                <translation gender="m">baldachin<engnote>A 'baldachin' is a kind of canopy which covers an altar, throne or tomb. It can be made of fabric but also stone, wood or metal.</engnote><plural>baldaquins</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1159,6 +1167,12 @@
         <Entry frequency="315">BCE<catacro>Banc Central Europeu</catacro><nouns>
 			<translations><date>1205</date>
 				<translation catagory="financial" gender="m">ECB<engacro>European Central Bank</engacro></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="5000">be<nouns>
+			<translations><date>0508</date>
+                            <translation catagory="animal-animal" gender="m">sheep<catnote>El plural de 'sheep' és 'sheep'.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2576,6 +2590,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="3180">bodi<nouns>
+                            <translations><date>0508</date>
+				<translation catagory="clothes" gender="m">body (Br.) / bodysuit</translation>
+                                <translation catagory="clothes" gender="m">bodysuit / onesie<catnote>'Onesie' és un 'bodi' de bebè.</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="3580">bogeria<nouns>
 			<translations>
 				<translation gender="f">madness</translation>
@@ -2965,9 +2986,19 @@
         <Entry frequency="">bosnià<nouns><translations><translation catagory="geography" gender="m / f">Bosnian</translation></translations></nouns><adjectives><translations><translation>Bosnian<plural>bosnians</plural><fems>bosniana</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="15100" hasSound="true">bossa<nouns>
 			<translations>
-				<translation gender="f">bag<catexamp>Bossa de plàstic</catexamp>
-					<engexamp>Plastic bag / carrier bag (Br.)</engexamp>
-				</translation>
+				<translation gender="f">bag</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="147">bossa d'aigua calenta<nouns>
+                            <translations><date>0508</date>
+				<translation gender="f">hot water bottle</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="736">bossa d'escombraries<nouns>
+			<translations><date>0805</date>
+				<translation gender="f">bin bag (Br.) / bin liner (Br.) / trash bag (Am.)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2983,20 +3014,19 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="736">bossa d'escombraries<nouns>
-			<translations><date>0805</date>
-				<translation gender="f">bin bag (Br.) / bin liner (Br.) / trash bag (Am.)</translation>
-			</translations>
-		</nouns>
-	</Entry>
         <Entry frequency="13300">bot<nouns>
 			<translations><date>0505</date>
 				<translation gender="m">leap</translation>
                                 <translation gender="m">bounce</translation>
-                                <translation catagory="transport-mode" gender="m">boat<catexamp>Bot salvavides</catexamp><engexamp>Lifeboat</engexamp></translation>
-                                <translation gender="m">wineskin<catexamp>Ploure a bots i barrals</catexamp><engexamp>To chuck it down / to throw it down / to rain cats and dogs</engexamp></translation>
+                                <translation catagory="transport-mode" gender="m">boat</translation>
+                                <translation gender="m">wineskin</translation>
 			</translations>
 		</nouns>
+                <expressions>ploure a bots i barrals
+                    <translations>
+                        <translation>to chuck it down / to throw it down / to rain cats and dogs</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="5000">bota<nouns>
 			<translations>
@@ -3015,12 +3045,6 @@
 				<translation>to bounce<synonyms>botre</synonyms></translation>
 			</translations>
 		</verbs>
-	</Entry>
-	<Entry frequency="3690" hasSound="true">botes<nouns>
-			<translations>
-				<translation catagory="clothes">boots</translation>
-			</translations>
-		</nouns>
 	</Entry>
 	<Entry frequency="934">botí<nouns>
 			<translations>
@@ -3041,7 +3065,7 @@
                     <translation>to make an obscene gesture<engnote>'Fer botifarra' is, specifically, when you bend one arm with fist clenched and upright then bring the other arm into the crook of your elbow.</engnote></translation>
                     </translations>
                     </expressions>
-	</Entry>
+                </Entry>
 	<Entry frequency="41000" hasSound="true">botiga<nouns>
 			<translations>
 				<translation gender="f">shop<plural>botigues</plural>

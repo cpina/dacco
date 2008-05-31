@@ -1664,12 +1664,24 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="82700">bedside table<nouns>
-			<translations>
-				<translation catagory="household-room-bedroom" gender="f">tauleta de nit</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="2060000">bedspread<nouns>
+	</Entry>
+        <Entry frequency="17200000">bedside<nouns>
+                <translations><date>0508</date>
+                    <translation gender="f">capçalera</translation>
+                </translations>
+            </nouns>
+            <expressions>bedside clock
+                <translations>
+                    <translation catagory="household-room-bedroom" gender="m">despertador</translation>
+                </translations>
+            </expressions>
+            <expressions>bedside table
+                <translations>
+                    <translation catagory="household-room-bedroom" gender="f">tauleta de nit</translation>
+                </translations>
+            </expressions>
+        </Entry>
+       <Entry frequency="2060000">bedspread<nouns>
 			<translations><date>0408</date>
 				<translation catagory="household-room-bedroom" gender="m">cobrellit</translation>
 			</translations>
@@ -3615,7 +3627,8 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation catagory="household" gender="f">persiana</translation>
+                                <translation catagory="household" gender="f">persiana</translation>
+                                <translation catagory="household" gender="m">estor</translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -4143,14 +4156,29 @@
 			<translations>
 				<translation gender="m">cos<engnote>'Cos' means 'body' in the general sense ('He's got a great body').</engnote>
 				</translation>
-				<translation gender="m">cadàver<plural>bodies</plural>
-					<engnote>'Cadàver' means 'body' as in 'dead body' / 'corpse'.</engnote>
+				<translation gender="m">cadàver<engnote>'Cadàver' means 'body' as in 'dead body' / 'corpse'.</engnote>
 				</translation>
-                                <translation beforenoun="true">corporal<engexamp>Body image</engexamp><catexamp>Imatge corporal</catexamp><engexamp>Body temperature</engexamp><catexamp>Temperatura corporal</catexamp></translation>
+                                <translation beforenoun="true">corporal</translation>
                                 <translation gender="f">entitat<engnote>'Entitat' means 'body' in the sense 'entity' / 'institution' (e.g. 'funding body').</engnote></translation>
+                                <translation disambiguate="clothes" local="gb" gender="m">bodi<otherlocal>bodysuit</otherlocal><plural>bodies</plural></translation>
 			</translations>
 		</nouns>
-            <phrasalverbs>body forth<translations><translation transitive="true">encarnar, personificar</translation></translations></phrasalverbs></Entry><Entry frequency="148000">bodyboard<nouns>
+                <phrasalverbs>body forth
+                    <translations>
+                        <translation transitive="true">encarnar / personificar</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>body image
+                    <translations>
+                        <translation gender="f">imatge corporal</translation>
+                    </translations>
+                </expressions>
+                <expressions>body temperature
+                    <translations>
+                        <translation gender="f">temperatura corporal</translation>
+                    </translations>
+                </expressions>
+            </Entry><Entry frequency="148000">bodyboard<nouns>
 			<translations>
 				<translation gender="f">(taula de) bodyboard</translation>
 			</translations>
@@ -4172,7 +4200,7 @@
 		</nouns>
 	</Entry><Entry frequency="760000">bodysuit<nouns>
 			<translations>
-				<translation catagory="clothes" gender="m">bodi<synonyms>onesie</synonyms></translation>
+                            <translation catagory="clothes" gender="m">bodi</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="567000">body temperature<nouns>
