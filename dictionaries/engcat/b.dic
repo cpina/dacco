@@ -650,11 +650,11 @@
 		</nouns>
 	</Entry><Entry frequency="58000000">band<nouns>
 			<translations>
-				<translation>
+				<grouptranslation>
 					<translation gender="m">grup</translation>
 					<translation gender="f">banda</translation>
 					<synonyms>group</synonyms>
-				</translation>
+				</grouptranslation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="508000">bandage<nouns>
@@ -683,22 +683,31 @@
 				<translation gender="f">ruïna / perdició / maledicció<example>Our teenage son is always getting into trouble. That boy is the &lt;b&gt;bane&lt;/b&gt; of my life!</example></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="14300000">bang<nouns>
+	</Entry>
+<Entry frequency="14300000">bang<nouns>
 			<translations>
 				<translation gender="m">estrèpit / esclat</translation>
                                 <translation gender="m">cop</translation>
                                 <translation sourceplural="bangs" local="us" gender="m">serrell<otherlocal>fringe</otherlocal></translation>
 			</translations>
-		</nouns>
-                <exclamations>
-                <translations>
-                <translation>pam!</translation></translations></exclamations>
-                <verbs>
-                <translations>
+  </nouns>
+  <exclamations>
+        <translations>
+                <translation>pam!</translation></translations>
+  </exclamations>
+  <verbs>
+        <translations>
                 <translation>copejar</translation>
-                <translation register="vulgar">fotre</translation></translations></verbs>
-                <phrasalverbs>bang on about (something)<translations>
-                <translation register="slang" local="gb">parlar sense parar d'alguna cosa (d'una manera avorrida)</translation></translations><synonyms>harp on about something</synonyms></phrasalverbs>
+                <translation register="vulgar">fotre</translation>
+        </translations>
+  </verbs>
+  <phrasalverbs>bang on about (something)
+        <translations>
+                <translation register="slang" local="gb">parlar sense parar d'alguna cosa (d'una manera avorrida)
+                <synonyms>harp on about something</synonyms>
+                </translation>
+        </translations>
+  </phrasalverbs>
                 <phrasalverbs>bang about
                     <translations>
                         <translation intransitive="true">fer soroll movent-se per casa</translation>
@@ -740,13 +749,14 @@
                                 </translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>bank upon<translations><translation intransitive="true">refiar-se de</translation></translations></phrasalverbs></Entry><Entry frequency="1360000">bank holiday<nouns>
+	<phrasalverbs>bank upon<translations><translation intransitive="true">refiar-se de</translation></translations></phrasalverbs></Entry>
+<Entry frequency="1360000">bank holiday<nouns>
 			<translations>
-				<translation>
+				<grouptranslation>
 					<translation local="gb" gender="m">dia festiu</translation>
 					<translation gender="m">dia de festa</translation>
 					<otherlocal>holiday</otherlocal>
-				</translation>
+				</grouptranslation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="49300000">banking<nouns>
@@ -1823,10 +1833,7 @@
                 </phrasalverbs>
 	</Entry><Entry frequency="1070000">beggar<nouns>
 			<translations>
-				<translation>
-					<translation gender="m">captaire</translation>
-					<translation gender="m">pidolaire</translation>
-					<translation gender="m">mendicant</translation>
+					<translation gender="m">captaire / pidolaire / mendicant
 					<catnote>Hi ha una expressió molt popular en anglès que diu 'beggars can't be choosers'.  Literalment significa 'els pidolaires no tenen la possibilitat d'exigir el que més els agrada'.  Significa que les persones que reben coses gratis o a preu reduït no s'haurien de queixar (per ex: 'Although I normally drink tea, they only provided coffee at the conference. I drank it anyway though.  After all, &lt;b&gt;beggars can't be choosers&lt;/b&gt;', 'I hate the way Hotmail and Yahoo attach adverts to my emails.  Still, &lt;b&gt;beggars can't be choosers&lt;/b&gt;').</catnote>
 				</translation>
 			</translations>
@@ -1855,12 +1862,11 @@
 		</nouns>
 	</Entry><Entry frequency="47000000">beginning<nouns>
 			<translations>
-				<translation>
-					<translation gender="m">inici</translation>
-					<translation gender="m">principi</translation>
-					<translation gender="m">començament<engexamp>At the beginning of 2003</engexamp><catexamp>A començaments / a primers del 2003</catexamp></translation>
+					<translation gender="m">inici / principi / començament
+          <engexamp>At the beginning of 2003</engexamp>
+          <catexamp>A començaments / a primers del 2003</catexamp>
 					<synonyms>start</synonyms>
-				</translation>
+  				</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="8090000">behalf<nouns>
@@ -1879,20 +1885,20 @@
 		</verbs>
 	</Entry><Entry frequency="32100000">behavior<nouns>
 			<translations>
-				<translation>
+				<grouptranslation>
 					<translation local="us" gender="m">comportament / capteniment</translation>
 					<translation gender="f">conducta</translation>
 					<otherlocal>behaviour</otherlocal>
-				</translation>
+				</grouptranslation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="20000000">behaviour<nouns>
 			<translations>
-				<translation>
+				<grouptranslation>
 					<translation local="gb" gender="m">comportament / capteniment</translation>
 					<translation gender="f">conducta</translation>
 					<otherlocal>behavior</otherlocal>
-				</translation>
+				</grouptranslation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="186000">behead<verbs>
@@ -2053,12 +2059,12 @@
 		</nouns>
 	</Entry><Entry frequency="3870000">belly<nouns>
 			<translations>
-				<translation>
+				<grouptranslation>
 					<translation register="colloquial" gender="f">panxa</translation>
 					<translation gender="m">ventre</translation>
 					<synonyms>tummy (colloq.), stomach</synonyms>
 					<plural>bellies</plural>
-				</translation>
+				</grouptranslation>
 			</translations>
 		</nouns>
                 <phrasalverbs>belly up to
@@ -3367,11 +3373,11 @@
 		</nouns>
 	</Entry><Entry frequency="3070000">blackout<nouns>
 			<translations>
-				<translation>
+				<grouptranslation>
 					<translation gender="f">apagada</translation>
 					<translation gender="m">tall (de subministrament) elèctric</translation>
 					<synonyms>power cut</synonyms>
-				</translation>
+				</grouptranslation>
                                 <translation disambiguate="medical" gender="f">síncope</translation>
 			</translations>
 		</nouns>
@@ -5151,9 +5157,7 @@
 		</nouns>
 	</Entry><Entry frequency="30500000">branch<nouns>
 			<translations>
-				<translation>
-					<translation gender="f">sucursal</translation>
-					<translation gender="f">filial</translation>
+					<translation gender="f">sucursal / filial
 					<engnote>'Sucursal' and 'filial' mean 'branch' as in one of a chain of shops or offices.</engnote>
 				</translation>
 				<translation disambiguate="plants" gender="f">branca<plural>branches</plural></translation>
@@ -6347,9 +6351,7 @@
                     </phrasalverbs>
 		<nouns>
 			<translations>
-				<translation disambiguate="animal">
-					<translation gender="m">insecte</translation>
-					<translation gender="m">bitxo</translation>
+				<translation disambiguate="animal" gender="m">insecte / bitxo
 					<synonyms>insect</synonyms>
 				</translation>
 				<translation disambiguate="computers" termcat="true" gender="f">brossa</translation>
@@ -6645,24 +6647,19 @@
 		</nouns>
 	</Entry><Entry frequency="4770000">bunch<nouns>
 			<translations>
-				<translation>
-					<translation gender="m">ram</translation>
-					<translation gender="m">pom</translation>
+					<translation gender="m">ram / pom
 					<engnote>'Ram' and 'pom' are used to mean a bunch of flowers (i.e. un ram de flors / clavells / roses etc.)</engnote>
-				</translation>
-				<translation>
-					<translation gender="m">manat</translation>
-					<translation gender="m">manoll</translation>
+	  			</translation>
+					<translation gender="m">manat / manoll
 					<engnote>'Manat' and 'manoll' are used to mean a bunch of vegetables (i.e. un manat de porros / cebes tendres) or herbs (i.e. un manat de julivert / farigola).</engnote>
-				</translation>
-				<translation gender="m">grapat<engnote>'Grapat' means 'bunch' in the sense 'a batch of / a set of' (i.e. 'a bunch of songs', 'a bunch of things', 'a bunch of prizes to give away' etc.)</engnote>
-				</translation>
-				<translation>
-					<translation gender="m">grup</translation>
-					<translation gender="m">grapat</translation>
+				  </translation>
+				  <translation gender="m">grapat
+          <engnote>'Grapat' means 'bunch' in the sense 'a batch of / a set of' (i.e. 'a bunch of songs', 'a bunch of things', 'a bunch of prizes to give away' etc.)</engnote>
+				  </translation>
+					<translation gender="m">grup / grapat
 					<engnote>'Grup' and 'grapat' mean 'bunch' in the sense 'group' (i.e. 'a bunch of kids', 'a bunch of idiots' etc.)</engnote>
 					<plural>bunches</plural>
-				</translation>
+				  </translation>
 			</translations>
 		</nouns>
 		<verbs>
