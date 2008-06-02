@@ -110,9 +110,7 @@
     </Entry><Entry frequency="4000000">CAD<engacro>Computer Aided Design / Computer Assisted Design</engacro>
         <acronyms>
             <translations>
-                <translation termcat="true">
-                    <translation gender="m">CAD</translation>
-                    <translation gender="m">DAO</translation>
+                <translation termcat="true" gender="m">CAD / DAO
                     <catacro>Disseny Assistit per Ordinador</catacro>
                 </translation>
             </translations>
@@ -2692,23 +2690,21 @@
     </nouns>
     </Entry><Entry frequency="15200000">chance<nouns>
         <translations>
-            <translation>
-                <translation gender="f">probabilitat</translation>
-                <translation gender="f">possibilitat</translation>
+                <translation gender="f">probabilitat / possibilitat
                 <engnote>'Probabilitat' and 'possibilitat' equate to 'chance' in the sense 'there's not much chance of that happening'.</engnote>
                 <example>If you ask me, there's as much &lt;b&gt;chance&lt;/b&gt; of England winning the next World Cup as there is of me winning the lottery!</example>
                 <synonyms>probability, possibility</synonyms>
-            </translation>
+              </translation>
             <translation gender="f">oportunitat<engnote>'Oportunitat' means 'chance' in the sense 'I didn't get the chance to tell him'.</engnote>
                 <example>My father died suddenly which meant I never got the &lt;b&gt;chance&lt;/b&gt; to say goodbye properly</example>
                 <synonyms>opportunity</synonyms>
             </translation>
-            <translation>
+            <grouptranslation>
                 <translation gender="f">casualitat</translation>
                 <translation gender="m">atzar</translation>
                 <engnote>'Casualitat' and 'atzar' mean 'chance' in the sense 'coincidence'.</engnote>
                 <synonyms>coincidence</synonyms>
-            </translation>
+            </grouptranslation>
             <translation beforenoun="true">fortuït</translation>
         </translations>
     </nouns>
@@ -6719,12 +6715,12 @@
 </Entry>
 <Entry frequency="48000000">competition<nouns>
         <translations>
-            <translation>
+            <grouptranslation>
                 <translation gender="m">concurs</translation>
                 <translation gender="f">competició</translation>
                 <engnote>'Concurs' and 'competició' mean 'competition' in the sense 'contest'.</engnote>
                 <synonyms>contest</synonyms>
-            </translation>
+            </grouptranslation>
             <translation gender="f">competència<engnote>'Competència' means 'competition' in the sense 'the opposition'.</engnote>
                 <synonyms>opposition</synonyms>
             </translation>
@@ -10433,11 +10429,9 @@
     </nouns>
     </Entry><Entry frequency="1790000">crook<nouns>
         <translations>
-            <translation>
-                <translation gender="mf">delinqüent</translation>
-                <translation gender="mf">criminal</translation>
+                <translation gender="mf">delinqüent / criminal
                 <synonyms>criminal</synonyms>
-            </translation>
+                </translation>
         </translations>
     </nouns>
         <adjectives>
