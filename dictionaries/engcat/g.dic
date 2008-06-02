@@ -1797,18 +1797,18 @@
 		</nouns>
 	</Entry><Entry frequency="21000000">glass<nouns>
 			<translations>
-				<translation>
+				<grouptranslation>
 					<translation gender="m">got</translation>
 					<translation gender="f">copa</translation>
 					<engnote>'Got' and 'copa' mean 'glass' as in the thing you drink out of.</engnote>
 					<plural>glasses</plural>
-				</translation>
+				</grouptranslation>
 				<translation>
 					<translation catagory="material" gender="m">vidre</translation>
 					<translation gender="m">cristall</translation>
 					<engnote>'Vidre' and 'cristall' mean 'glass' as in the material (e.g. The building is made almost entirely of glass).</engnote>
 				</translation>
-                                <translation sourceplural="glasses" gender="fpl">ulleres</translation>
+         <translation sourceplural="glasses" gender="fpl">ulleres</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="27100">Glaswegian<nouns>
@@ -2187,13 +2187,13 @@
 		</nouns>
 	</Entry><Entry frequency="150000">goatee<nouns>
 			<translations>
-				<translation>
+				<grouptranslation>
 					<translation gender="f">barba de cabra</translation>
 					<translation gender="f">barba pera</translation>
 					<translation gender="f">barba francesa</translation>
 					<translation gender="m">masclet</translation>
 					<catnote>Un 'goatee (beard)' és una d'aquestes barbes molt petites que porten els homes només al mentó.</catnote>
-				</translation>
+				</grouptranslation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1930000">gob<nouns>
@@ -2564,10 +2564,8 @@
 	</Entry><Entry frequency="1910000">GP<engacro>General Practitioner</engacro>
 		<nouns>
 			<translations>
-				<translation local="gb">
-					<translation gender="mf">metge de capçalera</translation>
-					<translation gender="mf">metge de família</translation>
-					<otherlocal>family doctor (or practitioner)</otherlocal>
+				<translation local="gb" gender="mf">metge de capçalera / metge de família
+  			<otherlocal>family doctor (or practitioner)</otherlocal>
 				</translation>
 			</translations>
 		</nouns>

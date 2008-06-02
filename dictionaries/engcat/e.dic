@@ -55,12 +55,10 @@
 		</nouns>
 	</Entry><Entry frequency="31900000">ear<nouns>
 			<translations>
-				<translation disambiguate="body">
-					<translation gender="f">orella</translation>
-					<translation gender="f">oïda</translation>
-					<engnote>'Orella' is the actual physical protuberance that sticks out of the side of your head, 'oïda' is your inner ear.</engnote>
+				<translation disambiguate="body">orella / oïda
+					<engnote>'Orella' is the actual physical protuberance that sticks out of the side of your head, and 'oïda' means 'ear' in the sense 'He has a good / bad ear'.</engnote>
 				</translation>
-                                <translation catagory="plants" gender="f">espiga<engexamp>Ear of corn</engexamp><catexamp>Espiga de blat</catexamp></translation>
+          <translation catagory="plants" gender="f">espiga<engexamp>Ear of corn</engexamp><catexamp>Espiga de blat</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="343000">earache<nouns>
@@ -619,14 +617,16 @@
 		</adjectives>
 	</Entry><Entry frequency="253000000">education<nouns>
 			<translations>
-				<translation>
+				<grouptranslation>
 					<translation gender="f">educació</translation>
 					<translation gender="m">ensenyament</translation>
 					<engexamp>Access to education</engexamp>
 					<catexamp>Accés a l'educació</catexamp>
-                                        <translation gender="ffullform">instrucció</translation>
-                                        <translation gender="f">pedagogia<engexamp>Department of Education (university department)</engexamp><catexamp>Departament de Pedagogia (d'una universitat)</catexamp></translation>
-				</translation>
+				</grouptranslation>
+          <translation gender="ffullform">instrucció</translation>
+          <translation gender="f">pedagogia
+          <engexamp>Department of Education (university department)</engexamp>
+          <catexamp>Departament de Pedagogia (d'una universitat)</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="69400000">educational<adjectives>
@@ -2180,10 +2180,7 @@
 	</Entry><Entry frequency="5270000">enquiry<nouns>
 			<translations>
 				<translation local="gb" gender="f">investigació</translation>
-				<translation local="gb">
-					<translation gender="f">petició d'informació</translation>
-					<translation gender="f">sol·licitud d'informació</translation>
-					<translation gender="f">demanda d'informació</translation>
+				<translation local="gb" gender="f">petició d'informació / sol·licitud d'informació / demanda d'informació
 					<otherlocal>inquiry</otherlocal>
 					<plural>enquiries</plural>
 				</translation>
