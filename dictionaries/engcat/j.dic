@@ -420,22 +420,35 @@
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="159000000">job<nouns>
-			<translations>
-				<translation>
-					<translation gender="f">feina</translation>
-					<translation gender="m">treball</translation>
-                                        <translation gender="m">ofici</translation>
-					<engexamp>Jobs vacant</engexamp>
-					<catexamp>Borsa de treball / ofertes de treball</catexamp>
-				</translation>
+                            <translations><date>0508</date>
+				<grouptranslation>
+                                    <translation gender="f">feina</translation>
+                                    <translation gender="m">treball / ofici</translation>
+				</grouptranslation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="20800000">job description<nouns>
-			<translations>
-				<translation catagory="work" termcat="true" gender="f">descripció del lloc de treball</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="7360000">jobless<adjectives>
+                <expressions>job description
+                    <translations>
+                        <translation termcat="true" gender="f">descripció del lloc de treball</translation>
+                    </translations>
+                </expressions>
+                <expressions>job market
+                    <translations>
+                        <translation gender="m">mercat de treball</translation>
+                    </translations>
+                </expressions>
+                <expressions>job offer
+                    <translations>
+                        <translation gender="f">oferta de treball</translation>
+                    </translations>
+                </expressions>
+                <expressions>jobs vacant
+                    <translations>
+                        <translation>borsa de treball / ofertes de treball</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="7360000">jobless<adjectives>
 			<translations>
 				<translation catagory="work">desocupat / aturat</translation>
 			</translations>
@@ -450,17 +463,8 @@
 				<translation catagory="work" gender="m">atur<synonyms>unemployment</synonyms></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1820000">job market<nouns>
-			<translations>
-				<translation gender="m">mercat de treball</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="1630000">job offer<nouns>
-			<translations>
-				<translation gender="f">oferta de treball</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="1820000">jog<verbs double="true">
+	</Entry>
+        <Entry frequency="1820000">jog<verbs double="true">
 			<translations>
 				<translation catagory="sports-event-jogging">fer fúting</translation>
                                 <translation>refrescar<engexamp>To jog (somebody's) memory</engexamp><catexamp>Refrescar la memòria</catexamp></translation>
@@ -602,11 +606,11 @@
 		</nouns>
 	</Entry><Entry frequency="11800000">joy<nouns>
 			<translations>
-				<translation>
+				<grouptranslation>
 					<translation gender="f">joia / alegria</translation>
 					<translation gender="m">goig</translation>
 					<synonyms>happiness</synonyms>
-				</translation>
+				</grouptranslation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2830000">joyful<adjectives>
@@ -780,13 +784,13 @@
 		</nouns>
 	</Entry><Entry frequency="4650000">junk<nouns>
 			<translations>
-				<translation>
+				<grouptranslation>
 					<translation gender="fpl">escombraries</translation>
 					<translation gender="mpl">trastos</translation>
 					<example>This camera's a &lt;b&gt;heap of junk&lt;/b&gt;. The flash doesn't work and the batteries are dead</example>
 					<example>John loves his car dearly but, in reality, it's a &lt;b&gt;heap of junk&lt;/b&gt;. The sunroof doesn't work, the radio is dead and the whole thing shakes when you try to go above 60</example>
-					<catnote>L'expressió col·loquial  'heap of junk' significa que una cosa és inútil i que s'hauria de llençar a les escombraries.  'Junk' té el mateix significat, però 'heap of junk' té més èmfasi.</catnote>
-				</translation>
+					<catnote>L'expressió col·loquial 'heap of junk' significa que una cosa és inútil i que s'hauria de llençar a les escombraries.  'Junk' té el mateix significat, però 'heap of junk' té més èmfasi.</catnote>
+				</grouptranslation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="14500000">junkie<nouns>

@@ -3134,14 +3134,19 @@
 	</Entry><Entry frequency="361000000">time<nouns>
 			<translations>
 				<translation catagory="time" gender="m">temps</translation>
-				<translation>
-					<translation gender="f">vegada<engexamp>At the same time</engexamp><catexamp>Alhora</catexamp></translation>
+				<grouptranslation>
+					<translation gender="f">vegada</translation>
 					<translation gender="m">cop</translation>
 					<engexamp>Three times</engexamp>
 					<catexamp>Tres vegades / tres cops</catexamp>
-				</translation>
+				</grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>at the same time
+                    <translations>
+                        <translation>alhora</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="7270000">time bomb<nouns>
 			<translations>
 				<translation gender="f">bomba de rellotgeria</translation>
@@ -3410,11 +3415,11 @@
 		</adverbs>
 	</Entry><Entry frequency="3170000">toddler<nouns>
 			<translations>
-				<translation>
+				<grouptranslation>
 					<translation gender="mf">infant</translation>
 					<translation gender="f">criatura</translation>
-					<catnote>Un 'toddler' és un nen / una nena que ja ha après a caminar però encara no assisteix al parvulari (més o menys entre les edats de 16 i 36 mesos).</catnote>
-				</translation>
+					<catnote>Un 'toddler' és un(a) nen(a) que ja ha après a caminar però encara no assisteix al parvulari (més o menys entre les edats de 12 i 36 mesos).</catnote>
+				</grouptranslation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="620000">todo list<nouns>
@@ -5209,12 +5214,11 @@
 		</nouns>
 	</Entry><Entry frequency="447000000">trip<nouns>
                             <translations><date>1007</date>
-				<translation>
+				<grouptranslation>
 					<translation gender="f">excursió</translation>
-					<translation gender="m">viatge</translation>
-                                        <translation gender="m">desplaçament</translation>
+					<translation gender="m">viatge / desplaçament</translation>
 					<synonyms>journey</synonyms>
-				</translation>
+				</grouptranslation>
 			</translations>
 		</nouns>
 		<verbs double="true">
@@ -6095,11 +6099,11 @@
 		</verbs>
 		<nouns>
 			<translations>
-				<translation>
+				<grouptranslation>
 					<translation gender="m">tipus</translation>
 					<translation gender="f">mena</translation>
 					<synonyms>kind, sort</synonyms>
-				</translation>
+				</grouptranslation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="87300">typecast<adjectives>

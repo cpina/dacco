@@ -170,11 +170,11 @@
 		</adjectives>
 	</Entry><Entry frequency="42700">mad house<nouns>
 			<translations>
-				<translation>
+				<grouptranslation>
 					<translation gender="m">manicomi</translation>
 					<translation gender="f">bogeria</translation>
 					<catnote>Avui dia, aquesta paraula s'utilitza només amb sentit figuratiu (per exemple: 'You don't want to work here, it's a madhouse!').</catnote>
-				</translation>
+				</grouptranslation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="9830000">madness<nouns>
@@ -893,18 +893,16 @@
 		</adjectives>
 	</Entry><Entry frequency="9400000">manner<nouns>
 			<translations>
-				<translation>
-					<translation gender="f">manera</translation>
-					<translation gender="f">forma</translation>
-					<engexamp>In a manner of speaking...</engexamp>
-					<catexamp>En certa manera...</catexamp>
-					<synonyms>way</synonyms>
-				</translation>
-				<translation gender="f">actitud<engnote>'Actitud' means 'manner' in the sense 'I don't think I like your manner young lady!'</engnote>
-					<synonyms>attitude</synonyms>
-				</translation>
+                            <translation gender="f">manera / forma<synonyms>way</synonyms></translation>	
+                            <translation gender="f">actitud<engnote>'Actitud' means 'manner' in the sense 'I don't think I like your manner young lady!'</engnote><synonyms>attitude</synonyms></translation>
+                            <translation sourceplural="manners" gender="fpl">maneres<engexamp>Good manners</engexamp><catexamp>Bones maneres</catexamp><engexamp>Bad manners</engexamp><catexamp>Males maneres</catexamp></translation>
 			</translations>
 		</nouns>
+                <expressions>in a manner of speaking...
+                    <translations>
+                        <translation>en certa manera...</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="499000">mannerism<nouns>
 			<translations>
                         <translation>
@@ -914,17 +912,8 @@
                                 <translation gender="m">manierisme<engnote>'Manierisme' means 'mannerism' in the sense 'artistic style of the 16th Century'.</engnote></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1120000">manners<nouns>
-			<translations>
-				<translation>
-					<translation gender="fpl">maneres</translation>
-					<translation gender="f">educació</translation>
-					<engexamp>Good manners</engexamp>
-					<catexamp>Bones maneres</catexamp>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="225000">manoeuvre<nouns>
+	</Entry>
+        <Entry frequency="225000">manoeuvre<nouns>
 			<translations>
 				<translation local="gb" gender="f">maniobra<otherlocal>maneuver</otherlocal>
 				</translation>
@@ -1576,12 +1565,8 @@
 		</nouns>
 	</Entry><Entry frequency="8950000">mate<nouns>
 			<translations>
-				<translation register="colloquial">
-					<translation gender="mf">company</translation>
-					<translation gender="mf">amic</translation>
-					<synonyms>pal (Br.) / buddy (Am.)</synonyms>
-				</translation>
-                                <translation gender="m">mat<engnote>[chess]</engnote></translation>
+                            <translation register="colloquial" gender="mf">company / amic<synonyms>pal (Br.) / buddy (Am.)</synonyms></translation>
+                            <translation gender="m">mat<engnote>[chess]</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="207000000">material<nouns>

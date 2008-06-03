@@ -33,12 +33,7 @@
 		</verbs>
 	</Entry><Entry frequency="8460000">wage<nouns>
 			<translations>
-				<translation catagory="work">
-					<translation gender="m">sou</translation>
-					<translation gender="m">saldo</translation>
-					<translation gender="m">salari</translation>
-					<synonyms>salary</synonyms>
-				</translation>
+				<translation catagory="work" gender="m">sou / saldo / salari<synonyms>salary</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="732000">wager<nouns>
@@ -157,16 +152,12 @@
 			<translations>
 				<translation noteng="TRUE">-<catnote>Si un hotel ofereix un 'wake-up call' a un client, vol dir que el trucaran per telèfon a una hora predeterminada entre ells per tal de despertar-lo.</catnote>
 				</translation>
-				<translation>
-					<translation gender="f">alerta</translation>
-					<translation gender="f">alarma</translation>
-					<example>Many Americans feel that September the 11th served as a &lt;b&gt;wake-up call&lt;/b&gt; to the American government who never expected to be the victims of terrorism</example>
-				</translation>
+					<translation gender="f">alerta / alarma<example>Many Americans feel that September the 11th served as a &lt;b&gt;wake-up call&lt;/b&gt; to the American government who never expected to be the victims of terrorism.</example></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="4100000">wake-up service<nouns>
 			<translations>
-				<translation gender="m">servei de despertador</translation>
+				<translation termcat="true" gender="m">servei de despertador</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="11300000">Wales<nouns>
@@ -229,12 +220,12 @@
 			<translations>
 				<translation catagory="household" gender="f">paret<catnote>L'expressió col·loquial 'It's like banging your head against a (brick) wall' o 'I/You/He might as well bang my/your/his head against a brick wall' s'utilitza molt sovint per significar que una acció és inútil (per exemple: 'Being over 45 and trying to find a job is like banging your head against a brick wall', 'There's no point trying to reason with a teenager.  It's like banging your head against a wall' o 'They tried explaining to the boss that his idea was a bad one but in the end they might as well have banged their heads against a brick wall for all the notice he took of them').</catnote>
 				</translation>
-				<translation>
+				<grouptranslation>
 					<translation gender="m">mur</translation>
 					<translation gender="f">muralla</translation>
 					<engexamp>The city walls</engexamp>
 					<catexamp>Els murs de la ciutat / la muralla de la ciutat</catexamp>
-				</translation>
+				</grouptranslation>
 			</translations>
 		</nouns>
                 <phrasalverbs>wall off
@@ -485,7 +476,7 @@
 		</verbs>
 		<phrasalverbs>wash up
 			<translations>
-				<translation>rentar plats<synonyms>do the washing up / do the dishes</synonyms>
+				<translation>rentar plats<synonyms>do the washing up, do the dishes</synonyms>
 				</translation>
 			</translations>
 		</phrasalverbs>
@@ -509,13 +500,8 @@
 		</nouns>
 	</Entry><Entry frequency="150000">washing<nouns>
 			<translations>
-				<translation>
-					<translation catagory="clothes" gender="f">roba bruta</translation>
-					<translation catagory="clothes" gender="f">roba neta</translation>
-					<catnote>La paraula 'washing' pot significar o bé la roba bruta (abans de rentar-la) o bé la roba neta (després de rentar-la), però si es vol distinguir entre les dues es pot dir 'dirty washing' o 'clean washing'.</catnote>
-					<example>I'm just about to put the &lt;b&gt;washing&lt;/b&gt; on, have you got anything there that needs to go in?</example>
-					<example>The sky turned black and it started to spot with rain so Linda ran outside to bring the &lt;b&gt;washing&lt;/b&gt; in off the line</example>
-				</translation>
+                            <translation catagory="clothes" gender="f">roba bruta<example>I'm just about to put the &lt;b&gt;washing&lt;/b&gt; on, have you got anything there that needs to go in?</example></translation>
+                            <translation catagory="clothes" gender="f">roba neta<example>The sky turned black and it started to spot with rain so Linda ran outside to bring the &lt;b&gt;washing&lt;/b&gt; in off the line</example><catnote>La paraula 'washing' pot significar o bé la roba bruta (abans de rentar-la) o bé la roba neta (després de rentar-la), però si es vol distinguir entre les dues es pot dir 'dirty washing' o 'clean washing'.</catnote></translation>	
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="61400">washing line<nouns>
