@@ -52,7 +52,7 @@
 	</Entry>	
 	<Entry frequency="31700">vaga<nouns>
 			<translations><date>0605</date>
-				<translation catagory="work" gender="f">strike<catexamp>Vaga de fam</catexamp><engexamp>Hunger strike</engexamp><catexamp>Vaga salvatge</catexamp><engexamp>Wildcat strike</engexamp><catexamp>Vaga de zel</catexamp><engexamp>Work-to-rule</engexamp><femplural>vagues</femplural>
+				<translation catagory="work" gender="f">strike<plural>vagues</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -65,7 +65,7 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>wandering</translation>
+				<translation>wandering<fems>vagabunda</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -100,13 +100,29 @@
 			</translations>
 		</nouns>
 	</Entry>
+	<Entry frequency="12400">vaginal<adjectives>
+			<translations><date>0608</date>
+				<translation catagory="body">vaginal</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="6720">vagó<nouns>
 			<translations><date>0605</date>
-				<translation catagory="transports" gender="m">carriage (Br.) / passenger car (Am.) / passenger coach (Am.) / goods van (Br.) / boxcar (Am.) / freight car (Am.)<catexamp>Vagó llit</catexamp><engexamp>Sleeper / sleeping car (Am.)</engexamp><catexamp>Vagó restaurant</catexamp><engexamp>Restaurant car (Br.) / dining car</engexamp><plural>vagons</plural>
-				</translation>
+                                <translation catagory="transports" gender="m">carriage (Br.) / passenger car (Am.) / passenger coach (Am.)<catnote>(de passatgers)</catnote></translation>
+                                <translation catagory="transport" gender="m">wagon (Br.) / goods van (Br.) / boxcar (Am.) / freight car (Am.)<catnote>(de mercaderies)</catnote><plural>vagons</plural></translation>
 			</translations>
 		</nouns>
-	</Entry>
+                <expressions>vagó llit
+                    <translations>
+                        <translation gender="m">sleeper / sleeping car</translation>
+                    </translations>
+                </expressions>
+                <expressions>vagó restaurant
+                    <translations>
+                        <translation gender="m">restaurant car (Br.) / dining car</translation>
+                    </translations>
+                </expressions>
+            </Entry>
 	<Entry frequency="800">vague<adjectives>
 			<translations><date>0705</date>
 				<translation>vague<fems>vaga</fems>

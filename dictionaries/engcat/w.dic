@@ -395,7 +395,7 @@
 		</verbs>
 	<phrasalverbs>warn off<translations><translation transitive="true">advertir (algú) que marxi (o es mantingui lluny d'una cosa o persona)</translation></translations></phrasalverbs></Entry><Entry frequency="25100000">warning<nouns>
 			<translations>
-					<translation gender="m">avís / advertiment</translation>
+                            <translation gender="m">avís / advertiment</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="31900000">warrant<nouns>
@@ -1137,14 +1137,11 @@
                             <translations><date>1007</date>
 				<translation>bé / ben<example>He plays really &lt;b&gt;well&lt;/b&gt;</example>
 					<example>I hope everything goes &lt;b&gt;well&lt;/b&gt;</example>
-					<engexamp>it's just as well (that)</engexamp><catexamp>encara sort que</catexamp>
-					<engexamp>as well</engexamp><catexamp>també</catexamp>
-					<engexamp>as well as</engexamp><catexamp>a més de</catexamp>
-				</translation>
+					</translation>
 				<translation register="colloquial">molt<example>I was &lt;b&gt;well&lt;/b&gt; annoyed when I found out</example>
 					<example>By midnight he was &lt;b&gt;well&lt;/b&gt; tired</example>
 					<example>I was &lt;b&gt;well&lt;/b&gt; pleased with my exam results</example>
-					<engexamp>you might as well go home</engexamp><catexamp>més val que tornis a casa</catexamp>
+					<engexamp>You might as well go home</engexamp><catexamp>Més val que tornis a casa</catexamp>
 				</translation>
 			</translations>
 		</adverbs>
@@ -1163,6 +1160,21 @@
                         <translation>sorgir</translation>
                     </translations>
                 </phrasalverbs>
+                <expressions>as well
+                    <translations>
+                        <translation>també</translation>
+                    </translations>
+                </expressions>
+                <expressions>as well as
+                    <translations>
+                        <translation>a més de</translation>
+                    </translations>
+                </expressions>
+                <expressions>it's just as well (that)
+                    <translations>
+                        <translation>encara sort que</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="617000">wellbeing<nouns>
 			<translations>
 				<translation gender="m">benestar</translation>
@@ -1693,17 +1705,12 @@
 		</nouns>
 	</Entry><Entry frequency="11100000">width<nouns>
 			<translations>
-					<translation gender="f">amplitud / amplada / amplària</translation>
+				<translation gender="f">amplitud / amplada / amplària</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="17800000">wife<nouns>
 			<translations>
-				<grouptranslation catagory="family">
-					<translation gender="f">dona</translation>
-					<translation gender="f">muller</translation>
-					<translation gender="f">esposa</translation>
-					<plural>wives</plural>
-				</grouptranslation>
+				<translation catagory="family" gender="f">dona / muller / esposa<plural>wives</plural></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2520000">wig<nouns>
@@ -1751,7 +1758,7 @@
 			<translations>
                         <grouptranslation>
 				<translation gender="f">salvatgia / feresa</translation>
-        <translation gender="ffullform">intemperància</translation>
+                                <translation gender="ffullform">intemperància</translation>
                                 </grouptranslation>
 			</translations>
 		</nouns>
@@ -1838,8 +1845,7 @@
 		<adjectives>
 			<translations>
 				<translation>eòlica<engexamp>Wind farm</engexamp>
-					<catexamp>Granja eòlica</catexamp>
-				</translation>
+					<catexamp>Granja eòlica</catexamp></translation>
 			</translations>
 		</adjectives>
                 <verbs>
@@ -2006,7 +2012,7 @@
 		</nouns>
 	</Entry><Entry frequency="4320000">wink<verbs>
 			<translations>
-				<translation>fer l'ullet<engexamp>Quick as a wink</engexamp><catexamp>Com un llampec</catexamp></translation>
+				<translation>fer l'ullet</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -2016,6 +2022,11 @@
                 <translations>
                 <translation>en un tancar i obrir d'ulls<synonyms>in a flash</synonyms></translation>
                 </translations>
+                </expressions>
+                <expressions>quick as a wink
+                    <translations>
+                        <translation>com un llampec</translation>
+                    </translations>
                 </expressions>
 	<phrasalverbs>wink out<translations><translation intransitive="true">apagar-se (llums)</translation></translations></phrasalverbs></Entry><Entry frequency="8910000">winner<nouns>
 			<translations>
@@ -2178,11 +2189,14 @@
 		</adverbs>
 	</Entry><Entry frequency="153000000">without<prepositions>
 			<translations>
-				<translation>sense<engexamp>To do without</engexamp>
-					<catexamp>Prescindir de</catexamp>
-				</translation>
+				<translation>sense</translation>
 			</translations>
 		</prepositions>
+                <expressions>do without
+                    <translations>
+                        <translation>prescindir de</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="16300000">withstand<verbs>
         <past>withstood</past>
         <participle>withstood</participle>
@@ -2213,8 +2227,8 @@
 		</adjectives>
 	</Entry><Entry frequency="7940000">wizard<nouns>
 			<translations>
-					<translation gender="m">mag / bruixot</translation>
-        <translation gender="mf">expert<example>Jasper is a programming &lt;b&gt;wizard&lt;/b&gt;.</example></translation>
+				<translation gender="m">mag / bruixot</translation>
+                                <translation gender="mf">expert<example>Jasper is a programming &lt;b&gt;wizard&lt;/b&gt;.</example></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="547000">wobble<verbs>
@@ -2280,19 +2294,24 @@
 				<translation>preguntar-se / demanar-se</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>wonder about
+                    <translations>
+                        <translation intransitive="true">preguntar-se sobre</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
 				<translation gender="f">meravella</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>wonder about<translations><translation intransitive="true">preguntar-se sobre</translation></translations></phrasalverbs></Entry><Entry frequency="16400000">wonderful<adjectives>
+                </Entry><Entry frequency="16400000">wonderful<adjectives>
 			<translations>
 				<translation>meravellós</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="642000">wonderfully<adverbs>
 			<translations>
-				<translation>meravellosament</translation>
+				<translation>meravellosament / de meravella</translation>
 			</translations>
 		</adverbs>
 	</Entry>

@@ -22,7 +22,7 @@
 		</nouns>
 	</Entry><Entry frequency="791000">tablecloth<nouns>
 			<translations>
-				<translation gender="fpl">tovalles / estovalles</translation>
+				<translation catagory="household-room-diningroom" gender="fpl">tovalles / estovalles</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="9470000">tablet<nouns>
@@ -459,10 +459,15 @@
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="12300000">tale<nouns>
-			<translations>
-					<translation gender="m">conte / relat</translation>
+                            <translations><date>0608</date>
+				<translation gender="m">conte / relat</translation>
 			</translations>
 		</nouns>
+                <expressions>tall tale
+                    <translations>
+                        <translation gender="f">guatlla (colloq.)</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="46200000">talent<nouns>
 			<translations>
 				<translation gender="m">talent</translation>
@@ -976,13 +981,13 @@
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="11700000">teaching<nouns>
-			<translations>
-                        <grouptranslation>
-				<translation catagory="education" gender="m">ensenyament</translation>
-                                <translation gender="f">docència</translation>
-                                <translation gender="ffullform">instrucció</translation>
-                                </grouptranslation>
-			</translations>
+                    <translations>
+                        <grouptranslation catagory="education">
+                            <translation gender="m">ensenyament</translation>
+                            <translation gender="f">docència</translation>
+                            <translation gender="ffullform">instrucció</translation>
+                        </grouptranslation>
+                    </translations>
 		</nouns>
 		<adjectives>
 			<translations>
@@ -1093,7 +1098,7 @@
 		</phrasalverbs>
                <phrasalverbs>tear into<translations><translation intransitive="true">tractar (una cosa) violentament</translation></translations></phrasalverbs></Entry><Entry frequency="765000">tear jerker<nouns>
                             <translations><date>1007</date>
-				<translation>(novel·la o pel·lícula o cançó) lacrimògena<example>The film Philadelphia is a real &lt;b&gt;tear jerker&lt;/b&gt;.</example></translation>
+				<translation>(novel·la, pel·lícula o cançó) lacrimògena<example>The film Philadelphia is a real &lt;b&gt;tear jerker&lt;/b&gt;.</example></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="4560000">tease<verbs>
@@ -1274,10 +1279,15 @@
 			<translations>
                         <grouptranslation>
 				<translation gender="f">dentició</translation>
-                                <translation gender="m">desfici de les dents<engexamp>Teething troubles</engexamp><catexamp>Problemes inicials</catexamp></translation>
+                                <translation gender="m">desfici de les dents</translation>
                                 </grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>teething troubles
+                    <translations>
+                        <translation gender="mpl">problemes inicials</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="1370000">teflon<nouns>
 			<translations><date>0507</date>
 				<translation catagory="material" gender="m">tefló</translation>
@@ -1963,7 +1973,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-	</Entry><Entry frequency="1590000">Thames<nouns>
+	<Entry frequency="1590000">Thames<nouns>
 			<translations>
 				<translation catagory="river-europe-UK-england" gender="m">Tàmesi</translation>
 			</translations>
@@ -2319,8 +2329,7 @@
 		</nouns>
 	</Entry><Entry frequency="3530000">thickness<nouns>
 			<translations>
-					<translation gender="m">espessor / gruix<plural>thicknesses</plural>
-				</translation>
+                            <translation gender="m">espessor / gruix<plural>thicknesses</plural></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2110000">thief<nouns>
@@ -3244,8 +3253,8 @@
 				<translation gender="m">consell<engnote>'Consell' means 'tip' as in 'piece of advice'.</engnote>
 				</translation>
                                 <grouptranslation>
-				<translation gender="m">abocador<catnote>La paraula 'tip' també s'utilitza en sentit figuratiu per significar que una habitació / casa és molt bruta i desordenada (ex: Your bedroom is a tip! Clean it up now!).</catnote></translation>
-                                <translation gender="f">deixalleria<engnote>'Abocador' and 'deixalleria' mean 'tip' as in 'rubbish tip'.</engnote></translation>
+				<translation gender="m">abocador</translation>
+                                <translation gender="f">deixalleria</translation><engnote>'Abocador' and 'deixalleria' mean 'tip' as in 'rubbish tip'.</engnote><catnote>La paraula 'tip' també s'utilitza en sentit figuratiu per significar que una habitació / casa és molt bruta i desordenada (ex: Your bedroom is a tip! Clean it up now!).</catnote>
 				</grouptranslation>
 				<translation gender="f">punta<engnote>'Punta' means 'tip' as in the end of something (tip of a pencil).</engnote>
 				</translation>
@@ -3303,7 +3312,7 @@
                 </expressions>
                 <expressions>sick and tired
                 <translations>
-                <translation>fart / fins als collons<engexamp>I'm sick and tired of always hearing the same complaints</engexamp><catexamp>Estic fart de / estic fins als collons de sentir sempre les mateixes queixes</catexamp></translation></translations></expressions>
+                <translation>fart / fins als collons (vulg.)<engexamp>I'm sick and tired of always hearing the same complaints</engexamp><catexamp>Estic fart de / estic fins als collons de sentir sempre les mateixes queixes</catexamp></translation></translations></expressions>
 	</Entry><Entry frequency="12400">tiredness<nouns>
 			<translations>
                         <grouptranslation>
@@ -3563,9 +3572,9 @@
 		</nouns>
 	</Entry><Entry frequency="6570000">tomato<nouns>
 			<translations>
-                        <grouptranslation>
-				<translation catagory="food-vegetable, food-fruit" gender="m">tomàquet</translation>
-                                <translation catagory="food-vegetable, food-fruit" gender="f">tomaca<plural>tomatoes</plural></translation>
+                        <grouptranslation catagory="food-vegetable, food-fruit">
+				<translation gender="m">tomàquet</translation>
+                                <translation gender="f">tomaca (Val.)</translation><plural>tomatoes</plural>
                                 </grouptranslation>
 			</translations>
 		</nouns>
@@ -3587,12 +3596,14 @@
 		</nouns>
 	</Entry><Entry frequency="21100000">tomorrow<adverbs>
 			<translations>
-				<translation catagory="time">demà<engnote>When we simply say 'tomorrow', sometimes the Catalans say 'tomorrow + day of week' (e.g. 'Blair and Aznar will meet tomorrow at Chequers' becomes 'Blair i Aznar es reuniran demà dijous a Chequers' - literally: 'Blair and Aznar will meet tomorrow Thursday at Chequers').</engnote>
-					<engexamp>The day after tomorrow</engexamp>
-					<catexamp>Demà passat</catexamp>
-				</translation>
+				<translation catagory="time">demà<engnote>When we simply say 'tomorrow', sometimes the Catalans say 'tomorrow + day of week' (e.g. 'Blair and Aznar will meet tomorrow at Chequers' becomes 'Blair i Aznar es reuniran demà dijous a Chequers' - literally: 'Blair and Aznar will meet tomorrow Thursday at Chequers').</engnote></translation>
 			</translations>
 		</adverbs>
+                <expressions>the day after tomorrow
+                    <translations>
+                        <translation catagory="time">demà passat</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="19900">ton<nouns>
 			<translations>
 				<translation gender="f">tona<engexamp>Metric ton</engexamp><catexamp>Tona mètrica (1.000 kg)</catexamp></translation>
@@ -3739,8 +3750,8 @@
 		</nouns>
 	</Entry><Entry frequency="569000">toothpaste<nouns>
                         <translations><date>0408</date>
-                            <grouptranslation>
-                                <translation catagory="household-room-bathroom" gender="f">pasta de dents</translation>
+                            <grouptranslation catagory="household-room-bathroom">
+                                <translation gender="f">pasta de dents</translation>
                                 <translation gender="m">dentifrici / dentífric</translation>
                             </grouptranslation>
 			</translations>
@@ -3846,10 +3857,9 @@
 		</nouns>
 	</Entry><Entry frequency="2650000">torch<nouns>
 			<translations>
-                        <grouptranslation>
-				<translation local="gb" gender="f">llanterna<otherlocal>flashlight</otherlocal></translation>
-        <translation local="gb" gender="m">lot<engnote>'Llanterna' and 'lot' mean the battery-operated type of torch. 'Lot' is a registered trademark but is widely used.</engnote></translation>
-                        </grouptranslation>
+                                 <grouptranslation local="gb">
+                                     <translation gender="f">llanterna</translation>
+                                 <translation gender="m">lot</translation><otherlocal>flashlight</otherlocal><engnote>'Llanterna' and 'lot' mean the battery-operated type of torch. 'Lot' is a registered trademark but is widely used.</engnote></grouptranslation>
                                  <translation gender="f">torxa<plural>torches</plural><engnote>'Torxa' means the 'set end on fire' type of torch (i.e. like the Olympic torch).</engnote></translation>
 			</translations>
 		</nouns>
@@ -4251,17 +4261,16 @@
 				<translation catagory="body" gender="f">tràquea<plural>tracheas / tracheae</plural></translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="82000000">track<nouns>
-   <translations><date>0308</date>
-		<translation disambiguate="transport" gender="f">via</translation>
-    <translation gender="f">petjada</translation>
-    <grouptranslation>
-                  <translation disambiguate="entertainment-music" gender="m">tall</translation>
-                  <translation disambiguate="entertainment-music" gender="f">pista</translation>
-    </grouptranslation>
-    <translation disambiguate="sports-event-athletics" gender="f">pista</translation> 
-	</translations>
+	</Entry><Entry frequency="82000000">track<nouns>
+                            <translations><date>0308</date>
+				<translation disambiguate="transport" gender="f">via</translation>
+                                <translation gender="f">petjada</translation>
+                                <grouptranslation disambiguate="entertainment-music">
+                                <translation gender="m">tall</translation>
+                                <translation gender="f">pista</translation>
+                                </grouptranslation>
+                                <translation disambiguate="sports-event-athletics" gender="f">pista</translation> 
+			</translations>
 		</nouns>
                 <verbs>
                     <translations>
@@ -4911,10 +4920,15 @@
 			<translations>
                         <grouptranslation>
 				<translation gender="f">caricatura / paròdia / aparença</translation>
-                                <translation gender="m">simulacre<engexamp>A travesty of justice</engexamp><catexamp>Un simulacre (o una paròdia) de justícia</catexamp><plural>travesties</plural><catnote>'Travesty' té el matís de 'mala còpia' o 'mala imitació'.</catnote></translation>
+                                <translation gender="m">simulacre</translation><plural>travesties</plural><catnote>'Travesty' té el matís de 'mala còpia' o 'mala imitació'.</catnote>
                                 </grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>travesty of justice
+                    <translations>
+                        <translation>simulacre (o paròdia) de justícia</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="2110000">tray<nouns>
                         <translations><date>0508</date>
                             <translation catagory="household-room-kitchen" gender="f">safata<engexamp>In tray</engexamp><catexamp>Safata d'entrada</catexamp><engexamp>Out tray</engexamp><catexamp>Safata de sortida</catexamp></translation>
@@ -5099,8 +5113,7 @@
 	</Entry><Entry frequency="284000000">trick<nouns>
                             <translations><date>0408</date>
 				<grouptranslation>
-					<translation gender="f">esganyifa / trampa<engexamp>Dirty trick</engexamp><catexamp>Jugada</catexamp></translation>
-					<translation gender="f">broma</translation>
+					<translation gender="f">esganyifa / trampa / broma</translation>
                                         <translation gender="m">truc</translation>
 				</grouptranslation>
 			</translations>
@@ -5115,6 +5128,11 @@
                         <translation>adornar (sobretot amb colors molt vius)</translation>
                     </translations>
                 </phrasalverbs>
+                <expressions>dirty trick
+                    <translations>
+                        <translation gender="f">jugada</translation>
+                    </translations>
+                </expressions>
                 <expressions>not miss a trick
                 <translations>
                     <translation>ser molt astut</translation>
@@ -5359,10 +5377,8 @@
 	</Entry><Entry frequency="25600000">trouble<nouns>
 			<translations>
 				<grouptranslation>
-					<translation gender="f">dificultat</translation>
+					<translation gender="f">dificultat / molèstia / nosa</translation>
 					<translation gender="m">problema</translation>
-					<translation gender="f">molèstia</translation>
-					<translation gender="f">nosa</translation>
 				</grouptranslation>
 			</translations>
 		</nouns>
@@ -5823,13 +5839,13 @@
 		</nouns>
 	</Entry><Entry frequency="3030000">turnover<nouns>
                     <translations><date>1107</date>
-                        <grouptranslation>
-				<translation disambiguate="financial" gender="m">volum de negoci</translation>
-        <translation gender="f">facturació / xifra de vendes</translation>
-        </grouptranslation>
-        <translation gender="f">rotació de personal<engnote>(turnover of staff)</engnote></translation>
-        <translation disambiguate="sports-event-americanfootball" termcat="true" gender="f">(futbol americà) pèrdua de possessió</translation>
-        <translation disambiguate="sports-event-basketball" termcat="true" gender="f">(basquetbol) pèrdua de la pilota</translation>
+                        <grouptranslation disambiguate="financial">
+				<translation gender="m">volum de negoci</translation>
+                                <translation gender="f">facturació / xifra de vendes</translation>
+                                </grouptranslation>
+                                <translation gender="f">rotació de personal<engnote>(turnover of staff)</engnote></translation>
+                                <translation disambiguate="sports-event-americanfootball" termcat="true" gender="f">(futbol americà) pèrdua de possessió</translation>
+                                <translation disambiguate="sports-event-basketball" termcat="true" gender="f">(basquetbol) pèrdua de la pilota</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1010000">turnpike<nouns>
