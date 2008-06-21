@@ -4176,7 +4176,7 @@
 	<Entry frequency="797000">pla<nouns>
 			<translations><date>0505</date>
 				<translation gender="m">plan</translation>
-				<translation gender="m">shot<catexamp>Primer pla</catexamp><engexamp>Close-up</engexamp></translation>
+				<translation gender="m">shot</translation>
 				<translation gender="m">level / plane</translation>
 			</translations>
                         </nouns>
@@ -4185,15 +4185,40 @@
 				<translation>flat / even<fems>plana</fems><plural>plans</plural></translation>
 			</translations>
 		</adjectives>
+                <expressions>pla d'empresa
+			<translations>
+				<translation catagory="work" gender="m">business plan</translation>
+			</translations>
+		</expressions>
+                <expressions>pla d'estudis
+			<translations>
+				<translation catagory="education" gender="m">curriculum</translation>
+			</translations>
+		</expressions>
+                <expressions>primer pla
+                    <translations>
+                        <translation gender="m">close-up</translation>
+                    </translations>
+                </expressions>
 	</Entry>	
         <Entry frequency="974000">placa<nouns>
                             <translations><date>1107</date>
-                            <translation gender="f">plate<catexamp>Placa de matrícula</catexamp><engexamp>Number plate (Br.) / license plate (Am.)</engexamp></translation>
+                            <translation gender="f">plate</translation>
                             <translation disambiguate="medical" gender="f">plaque</translation>
                             <translation gender="f">patch</translation>
-				<translation disambiguate="geography" gender="f">plate<catexamp>Placa tectònica</catexamp><engexamp>Tectonic plate</engexamp></translation>
+				<translation disambiguate="geography" gender="f">plate</translation>
 			</translations>
 		</nouns>
+                <expressions>placa de matrícula
+                    <translations>
+                        <translation catagory="transport" gender="f">number plate (Br.) / license plate (Am.)</translation>
+                    </translations>
+                </expressions>
+                <expressions>placa tectònica
+                    <translations>
+                        <translation catagory="geotraphy" gender="f">tectonic plate</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="756000">plaça<nouns>
 			<translations><date>0405</date>
@@ -4231,18 +4256,6 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="3490">pla d'empresa<nouns>
-			<translations>
-				<translation catagory="work" gender="m">business plan</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="3490">pla d'estudis<nouns>
-			<translations><date>1105</date>
-				<translation catagory="education" gender="m">curriculum</translation>
-			</translations>
-		</nouns>
-	</Entry>
 	<Entry frequency="14300">plaer<nouns>
 			<translations>
 				<translation gender="m">pleasure</translation>
@@ -4273,10 +4286,11 @@
 			</translations>
 		</nouns>
 	</Entry>
-           <Entry frequency="853000">plana<nouns>
-                            <translations><date>0507</date>
+           <Entry frequency="418000">plana<nouns>
+                            <translations><date>0608</date>
 				<translation disambiguate="geography" gender="f">plain</translation>
                                 <translation gender="f">page</translation>
+                                <translation gender="f">plane<synonyms>ribot</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
