@@ -1871,9 +1871,12 @@
                 </translations>
             </expressions>
         </Entry>
-<Entry frequency="2060000">bedspread<nouns>
-			<translations><date>0408</date>
-				<translation catagory="household-room-bedroom" gender="m">cobrellit</translation>
+<Entry frequency="4180000">bedspread<nouns>
+			<translations><date>0608</date>
+                            <grouptranslation catagory="household-room-bedroom">
+                                <translation gender="m">cobrellit</translation>
+                                <translation gender="f">vànova</translation>
+                            </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2159,6 +2162,21 @@
                                 <translation disambiguate="nationality-europe" gender="mf">bielorús</translation>
 			</translations>
 		</nouns>
+	</Entry>
+<Entry frequency="1240000">belch<verbs>
+
+			<translations><date>0708</date>
+
+				<translation>eructar / rotar</translation>
+
+			</translations>
+
+		</verbs>
+                <nouns>
+                    <translations>
+                        <translation gender="m">eructe / rot<synonyms>burp</synonyms></translation>
+                    </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="2180000">beleaguered<adjectives>
 			<translations>
@@ -2499,7 +2517,7 @@
 	</Entry>
 <Entry frequency="3060000">Benin<nouns>
 			<translations>
-				<translation gender="m">Benín</translation>
+				<translation catagory="country-africa" gender="m">Benín</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5116,8 +5134,7 @@
 	</Entry>
 <Entry frequency="1360000">boon<nouns>
 			<translations>
-				<translation gender="m">avantatge</translation>
-                                <translation gender="m">benefici</translation>
+				<translation gender="m">avantatge / benefici</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5370,7 +5387,7 @@
 	</Entry>
 <Entry frequency="4590000">Botswana<nouns>
 			<translations>
-				<translation gender="f">Botswana</translation>
+				<translation catagory="country-africa" gender="f">Botswana</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7548,7 +7565,7 @@
 	</Entry>
 <Entry frequency="2720000">Burkina Faso<nouns>
 			<translations>
-				<translation gender="m">Burkina Faso</translation>
+				<translation catagory="country-africa" gender="m">Burkina Faso</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7605,6 +7622,21 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="4080000">burp<verbs>
+
+			<translations><date>0708</date>
+
+				<translation>eructar / rotar</translation>
+
+			</translations>
+
+		</verbs>
+                <nouns>
+                    <translations>
+                        <translation gender="m">eructe / rot<synonyms>belch</synonyms></translation>
+                    </translations>
+                </nouns>
+	</Entry>
 <Entry frequency="56300">burqini<nouns>
 			<translations>
 				<translation catagory="clothes" gender="m">burquini<catnote>El 'burquini' és un banyador de dones creat per l'australiana Aheda Zanetti.  Només deixa descobert les mans, els peus i la cara. És una combinació de les paraules 'burka' (o 'burqa') i 'bikini'.</catnote></translation>
@@ -7631,7 +7663,7 @@
 	<phrasalverbs>burst forth<translations><translation intransitive="true">brollar</translation></translations></phrasalverbs><phrasalverbs>burst in<translations><translation intransitive="true">entrar d'un cop</translation></translations></phrasalverbs><phrasalverbs>burst into<translations><translation intransitive="true">1 entrar d'un cop a 2 (flames) abrandar-se 3 arrencar-se (a córrer, a plorar, a riure, etc.)</translation></translations></phrasalverbs><phrasalverbs>burst open<translations><translation intransitive="true">obrir-se d'un cop</translation></translations></phrasalverbs><phrasalverbs>burst out of<translations><translation intransitive="true">sortir d'un cop de</translation></translations></phrasalverbs></Entry>
 <Entry frequency="3510000">Burundi<nouns>
 			<translations>
-				<translation gender="m">Burundi</translation>
+				<translation catagory="country-africa" gender="m">Burundi</translation>
 			</translations>
 		</nouns>
 	</Entry>

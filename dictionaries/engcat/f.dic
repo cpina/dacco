@@ -3631,6 +3631,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="82800000">fluid<nouns>
+        <translations><date>0708</date>
+            <translation gender="m">fluid</translation>
+        </translations>
+    </nouns>
+<adjectives>
+    <translations>
+        <translation>fluid</translation>
+</translations>
+</adjectives>
+    </Entry>
 <Entry frequency="272000">flume<nouns>
 			<translations>
 				<translation gender="m">tobogan d'aigua</translation>
@@ -4316,7 +4327,8 @@
 	</Entry>
 <Entry frequency="45500000">forge<verbs>
                             <translations><date>0807</date>
-				<translation>falsificar</translation>
+				<translation transitive="true">falsificar</translation>
+                                <translation transitive="true">forjar<engnote>'Forjar' means 'to forge' in the sense 'to shape iron'.</engnote></translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -4449,6 +4461,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="147000000">formation<nouns>
+        <translations><date>0708</date>
+            <translation gender="f">formació</translation>
+        </translations>
+    </nouns>
+    </Entry>
 <Entry frequency="66100000">former<adjectives>
 			<translations>
 				<translation>antic / anterior<synonyms>previous, ex-</synonyms>
@@ -5078,13 +5096,13 @@
 	</Entry>
 <Entry frequency="1470000">freeloader<nouns>
 			<translations>
-				<translation register="colloquial">gorrer / gorrista<synonyms>sponger</synonyms></translation>
+				<translation register="colloquial">gorrer / gorrista / corc<synonyms>sponger, leech, parasite</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="45200">free practice session<nouns>
 			<translations>
-				<translation gender="f">sessió d'entrenaments lliures</translation>
+				<translation disambiguate="sports-event-formula1" gender="f">sessió d'entrenaments lliures</translation>
 			</translations>
 		</nouns>
 	</Entry>
