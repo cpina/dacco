@@ -1406,24 +1406,21 @@
         </translations>
     </expressions>
   </Entry>
-  <Entry frequency="9730" >tempesta<nouns>
-      <translations>
+  <Entry frequency="320000" >tempesta<nouns>
+      <translations><date>0708</date>
         <translation catagory="weather" gender="f" >storm</translation>
       </translations>
     </nouns>
-  </Entry>
-  <Entry frequency="257">tempesta de neu<nouns>
-			<translations><date>0805</date>
-				<translation catagory="weather" gender="f">blizzard</translation>
-			</translations>
-		</nouns>
-	</Entry>
-  <Entry frequency="138" >tempesta tropical<nouns>
-      <translations>
-        <date>0405</date>
-        <translation catagory="weather" gender="f" >tropical storm</translation>
-      </translations>
-    </nouns>
+<expressions>tempesta de neu
+<translations>
+<translation catagory="weather" gender="f">blizzard / snow storm</translation>
+</translations>
+</expressions>
+<expressions>tempesta tropical
+<translations>
+<translation catagory="weather" gender="f">tropical storm</translation>
+</translations>
+</expressions>
   </Entry>
   <Entry frequency="841" >tempestuós<adjectives>
       <translations>
@@ -1923,6 +1920,12 @@
         <translation>thermonuclear</translation>
       </translations>
     </adjectives>
+  </Entry>
+<Entry frequency="683">termosfera<nouns>
+      <translations><date>0708</date>
+	<translation catagory="geography" gender="f">termosphere</translation>
+      </translations>
+    </nouns>
   </Entry>
   <Entry frequency="620" >termòstat<nouns>
       <translations>
@@ -5056,6 +5059,40 @@
   <Entry frequency="9570" >tropes<nouns>
       <translations>
         <translation catagory="topicalissues-war" gender="f" >troops</translation>
+      </translations>
+    </nouns>
+  </Entry>
+<Entry frequency="39800">tròpic<nouns>
+			<translations><date>0708</date>
+				<translation gender="m">tropic</translation>
+			</translations>
+		</nouns>
+<expressions>Tròpic de Càncer
+<translations>
+<translation catagory="geography" gender="m">Tropic of Cancer</translation>
+</translations>
+</expressions>
+<expressions>Tròpic de Capricorni
+<translations>
+<translation catagory="geography" gender="m">Tropic of Capricorn</translation>
+</translations>
+</expressions>
+	</Entry>
+<Entry frequency="112000">tropical<adjectives>
+      <translations><date>0708</date>
+	<translation>tropical</translation>
+      </translations>
+    </adjectives>
+  </Entry>
+<Entry frequency="308">tropopausa<nouns>
+      <translations><date>0708</date>
+	<translation catagory="geography" gender="f">tropopause</translation>
+      </translations>
+    </nouns>
+  </Entry>
+<Entry frequency="2510">troposfera<nouns>
+      <translations><date>0708</date>
+	<translation catagory="geography" gender="f">troposphere</translation>
       </translations>
     </nouns>
   </Entry>

@@ -249,7 +249,7 @@
 				<translation>taiwanès</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="2870000">Tajikistan<nouns>
+            </Entry><Entry frequency="2870000">Tajikistan<nouns>
 			<translations>
 				<translation catagory="country-asia" gender="m">Ta(d)jikistan</translation>
 			</translations>
@@ -1730,7 +1730,8 @@
 				<translation gender="f">terminologia</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="7810000">terrace<nouns>
+	</Entry>
+<Entry frequency="7810000">terrace<nouns>
 			<translations>
 				<translation gender="f">terrassa</translation>
                                 <translation gender="f">filera de cases adossades</translation>
@@ -2269,7 +2270,14 @@
 				<translation>termonuclear</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="1630000">thermostat<nouns>
+	</Entry>
+<Entry frequency="183000">thermosphere<nouns>
+      <translations><date>0708</date>
+	<translation catagory="geography" gender="f">termosfera</translation>
+      </translations>
+    </nouns>
+  </Entry>
+<Entry frequency="1630000">thermostat<nouns>
 			<translations>
 				<translation gender="m">termòstat</translation>
 			</translations>
@@ -5373,12 +5381,48 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="937000">tropical storm<nouns>
-			<translations>
-				<translation catagory="weather" gender="f">tempesta tropical</translation>
+	</Entry>
+<Entry frequency="8630000">tropic<nouns>
+			<translations><date>0708</date>
+				<translation gender="m">tròpic</translation>
+                                <translation sourceplural="the tropics" gender="mpl">tròpics</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="8780000">trot<verbs double="true">
+<expressions>Tropic of Cancer
+<translations>
+<translation catagory="geography" gender="m">Tròpic de Càncer</translation>
+</translations>
+</expressions>
+<expressions>Tropic of Capricorn
+<translations>
+<translation catagory="geography" gender="m">Tròpic de Capricorni</translation>
+</translations>
+</expressions>
+	</Entry>
+<Entry frequency="92800000">tropical<adjectives>
+			<translations><date>0708</date>
+				<translation>tropical</translation>
+			</translations>
+		</adjectives>
+<expressions>tropical storm
+<translations>
+<translation catagory="weather" gender="f">tempesta tropical</translation>
+</translations>
+</expressions>
+</Entry>
+<Entry frequency="580000">tropopause<nouns>
+      <translations><date>0708</date>
+	<translation catagory="geography" gender="f">tropopausa</translation>
+      </translations>
+    </nouns>
+  </Entry>
+<Entry frequency="1840000">troposphere<nouns>
+      <translations><date>0708</date>
+	<translation catagory="geography" gender="f">troposfera</translation>
+      </translations>
+    </nouns>
+  </Entry>
+	<Entry frequency="8780000">trot<verbs double="true">
                             <translations><date>1007</date>
 				<translation catagory="animal">trotar</translation>
 			</translations>
@@ -5716,8 +5760,9 @@
                     </translations>
                 </expressions>
 	</Entry><Entry frequency="2840000">tuner<nouns>
-                            <translations><date>0508</date>
+                            <translations><date>0708</date>
 				<translation termcat="internet" gender="m">sintonitzador</translation>
+                                <translation termcat="entertainment-music" gender="mf">afinador</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="942000">tungsten<nouns>
