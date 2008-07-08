@@ -1474,6 +1474,12 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="1820000">carillon<nouns>
+			<translations><date>0708</date>
+                            <translation termcat="entertainment-music" gender="m">carilló</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="144000">carjacking<nouns>
         <translations>
             <translation gender="m">robatori d'un cotxe (amb força)</translation>
@@ -4824,16 +4830,26 @@
         </translations>
     </nouns>
     </Entry>
+      <Entry frequency="110000">cittern<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music" gender="m">cistre</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="141000000">city<nouns>
         <translations>
-            <translation gender="f">ciutat<plural>cities</plural><engexamp>City centre (Br.)</engexamp><catexamp>Centre de la ciutat</catexamp></translation>
+            <translation gender="f">ciutat<plural>cities</plural></translation>
         </translations>
     </nouns>
+        <expressions>city centre (Br.)
+            <translations>
+                <translation gender="m">centre de la ciutat<example>The Council has been trying to encourage people back to live in the &lt;b&gt;city centre&lt;/b&gt;.</example></translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="7590">City Ground<nouns>
         <translations>
-            <translation catagory="sports, encyclopaedic" noteng="TRUE" local="gb">-<catnote>The City Ground és el nom de l'estadi de l'equip de futbol Notts Forest.</catnote>
-            </translation>
+            <translation catagory="sports, encyclopaedic" local="gb">etadi de l'equip de futbol anglès Notts Forest</translation>
         </translations>
     </nouns>
     </Entry>
@@ -4845,15 +4861,29 @@
     </Entry>
 <Entry frequency="139000000">civil<adjectives>
         <translations>
-            <translation>civil<engexamp>Civil war</engexamp><catexamp>Guerra civil</catexamp></translation>
+            <translation>civil</translation>
         </translations>
     </adjectives>
-    </Entry>
-<Entry frequency="833000">civil court<nouns>
-        <translations>
-            <translation gender="m">tribunal civil</translation>
-        </translations>
-    </nouns>
+        <expressions>civil court
+            <translations>
+                <translation gender="m">tribunal civil</translation>
+            </translations>
+        </expressions>
+        <expressions>civil liberty
+            <translations>
+                <translation gender="f">llibertat civil<plural>civil liberties</plural></translation>
+            </translations>
+        </expressions>
+        <expressions>civil servant
+            <translations>
+                <translation catagory="work-job" gender="mf">funcionari</translation>
+            </translations>
+        </expressions>
+        <expressions>civil war
+            <translations>
+                <translation gender="f">guerra civil</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="7100000">civilian<nouns>
         <translations>
@@ -4864,24 +4894,6 @@
 <Entry frequency="9570000">civilization<nouns>
         <translations>
             <translation gender="f">civilització</translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="8740000">civil liberty<nouns>
-        <translations>
-            <translation gender="f">llibertat civil<plural>civil liberties</plural></translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="978000">civil servant<nouns>
-        <translations>
-            <translation gender="mf">funcionari</translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="10700000">civil war<nouns>
-        <translations>
-            <translation gender="f">guerra civil</translation>
         </translations>
     </nouns>
     </Entry>
@@ -4996,6 +5008,12 @@
         </translations>
     </nouns>
     </Entry>
+       <Entry frequency="528000">clarinetist<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music" gender="mf">clarinetista / clarinet</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="9970000">clarity<nouns>
         <translations>
             <translation gender="f">claredat / nitidesa</translation>
@@ -5082,6 +5100,12 @@
         </translations>
     </adjectives>
     </Entry>
+           <Entry frequency="305000">clavichord<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music" gender="m">clavicordi</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="1460000">claw<nouns>
         <translations>
             <translation gender="f">urpa</translation>
@@ -8127,11 +8151,16 @@
         </translations>
     </prepositions>
     </Entry>
-<Entry frequency="368000000">concert<nouns>
-        <translations>
+<Entry frequency="163000000">concert<nouns>
+        <translations><date>0708</date>
             <translation gender="m">concert</translation>
         </translations>
     </nouns>
+        <expressions>concert artist
+            <translations>
+                <translation gender="mf">concertista</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="22600000">concerted<adjectives>
         <translations>
@@ -8139,6 +8168,12 @@
         </translations>
     </adjectives>
     </Entry>
+    <Entry frequency="1400000">concertina<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music" gender="f">concertina</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="4240000">concession<nouns>
         <translations>
             <translation gender="f">concessió</translation>
@@ -12937,6 +12972,12 @@
         </translations>
     </nouns>
     </Entry>
+      <Entry frequency="3680000">cymbal<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music" sourceplural="cymbals" gender="mpl">címbals / platerets</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="4720000">cypress<nouns>
         <translations>
             <translation catagory="plants-tree" gender="m">xiprer</translation>
