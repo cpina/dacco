@@ -191,9 +191,16 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="1030">oboè<nouns>
-			<translations>
+	<Entry frequency="13800">oboè<nouns>
+                            <translations><date>0708</date>
 				<translation catagory="entertainment-music-instrument" gender="m">oboe</translation>
+                                <translation termcat="entertainment-music" gender="m / f">oboist<synonyms>oboista</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="302">oboista<nouns>
+                        <translations><date>0708</date>
+                            <translation termcat="entertainment-music" gender="m / f">oboist<synonyms>oboè</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -427,6 +434,12 @@
 			<translations>
 				<translation catagory="animal-bird" gender="f">goose<plural>oques</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="773">ocarina<nouns>
+                            <translations><date>0708</date>
+				<translation termcat="entertainment-music" gender="f">ocarina</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2129,9 +2142,20 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="3780">orgue<nouns>
-			<translations>
+	<Entry frequency="98000">orgue<nouns>
+                            <translations><date>0708</date>
 				<translation catagory="entertainment-music-instrument" gender="m">organ</translation>
+			</translations>
+		</nouns>
+                <expressions>orgue de maneta
+                    <translations>
+                        <translation termcat="entertainment-music" gender="m">barrel organ<synonyms>piano de maneta, piano de manubri, orguenet</synonyms></translation>
+                    </translations>
+                </expressions>
+	</Entry>
+<Entry frequency="242">orguenet<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music" gender="m">barrel organ<synonyms>piano de maneta, piano de manubri, orgue de maneta</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>

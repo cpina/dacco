@@ -414,22 +414,29 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="2340000">bagpipe<nouns>
+                <translations><date>0708</date>
+                    <translation catagory="entertainment-music-instrument" local="us" gender="f">gaita</translation>
+                    <translation catagory="entertainment-music-instrument" gender="m">sac de gemecs</translation>
+                </translations>
+		</nouns>
+	</Entry>
 <Entry frequency="64500">bagpiper<nouns>
 			<translations>
-				<translation gender="m">gaiter</translation>
+				<translation catagory="entertainment-music" gender="m">gaiter</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="214000">bagpipes<nouns>
 			<translations>
-				<translation gender="f">gaita</translation>
-                                <translation gender="m">sac de gemecs</translation>
+				<translation catagory="entertainment-music-instrument" gender="f">gaita</translation>
+                                <translation catagory="entertainment-music-instrument" gender="m">sac de gemecs</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="6070000">Bahamas<nouns>
 			<translations>
-				<translation gender="fpl">Bahames</translation>
+				<translation catagory="country-northamerica" gender="fpl">Bahames</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1198,6 +1205,12 @@
 <Entry frequency="11000000">barrel<nouns>
 			<translations>
 				<translation gender="m">barril</translation>
+			</translations>
+		</nouns>            
+	</Entry>
+        <Entry frequency="102000">barrel organ<nouns>
+                <translations><date>0708</date>
+                    <translation termcat="entertainment-music" gender="m">piano de maneta / orgue de maneta / orguenet / piano de manubri</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2353,14 +2366,15 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="252222">bellow<verbs>
-			<translations>
+<Entry frequency="5680000">bellow<verbs>
+                            <translations><date>0708</date>
 				<translation>cridar</translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
 				<translation gender="m">cridar</translation>
+                                <translation catagory="entertainment-music" sourceplural="bellows" gender="f">manxa</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5887,6 +5901,11 @@
                                 <translation disambiguate="financial" register="dated" gender="f">pasta<synonyms>dosh, dough, moolah, bread</synonyms></translation>
 			</translations>
 		</nouns>
+                <expressions>brass instrument
+                    <translations>
+                        <translation catagory="entertainment-music" gender="m">instrument de metall</translation>
+                    </translations>
+                </expressions>
                 <expressions>brass monkey weather
                 <translations>
                 <translation local="gb" register="slang">(fa) un fred que pela<example>John came in and stood in front of the fire. "It's real &lt;b&gt;brass monkey weather&lt;/b&gt; out there today", he said rubbing his hands.</example></translation></translations></expressions>

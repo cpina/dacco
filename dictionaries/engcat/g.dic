@@ -2615,6 +2615,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="24400000">gong<nouns>
+                <translations><date>0708</date>
+                    <translation termcat="entertainment-music-instrument" gender="m">gong</translation>
+                </translations>
+		</nouns>
+	</Entry>
 <Entry frequency="15400000">gonna<verbs>
 			<translations><date>0308</date>
 				<translation>abreviatura de 'going to'<catnote>Utilitzada després del verb "be" per expressar el futur.  Ex.: "You're gonna have to hurry" = "You are going to have to hurry" (Hauràs de córrer).  S'usa principalment en el llenguatge oral i en el llenguatge escrit molt informal.</catnote></translation>
@@ -4107,21 +4113,56 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="8610000">guitar<nouns>
-			<translations>
-				<translation gender="f">guitarra<engexamp>Electric guitar</engexamp><catexamp>Guitarra elèctrica</catexamp><engexamp>Acoustic guitar</engexamp><catexamp>Guitarra acústica</catexamp></translation>
+<Entry frequency="212000000">guitar<nouns>
+                            <translations><date>0708</date>
+				<translation catagory="entertainment-music-instrument" gender="f">guitarra</translation>
 			</translations>
 		</nouns>
+                <expressions>acoustic guitar
+                <translations>
+                    <translation catagory="entertainment-music-instrument" gender="f">guitarra acústica</translation>
+                </translations>
+                </expressions>
+                <expressions>classical guitar
+                <translations>
+                     <translation catagory="entertainment-music-instrument" gender="f">guitarra clàssica</translation>
+                    </translations>
+                </expressions>
+                <expressions>double-neck guitar
+                <translations>
+                     <translation catagory="entertainment-music-instrument" gender="f">guitarra de doble mànec</translation>
+                    </translations>
+                </expressions>
+                <expressions>electric guitar
+                    <translations>
+                        <translation catagory="entertainment-music-instrument" gender="f">guitarra elèctrica</translation>
+                    </translations>
+                </expressions>
+                <expressions>flamenco guitar
+                    <translations>
+                        <translation catagory="entertainment-music-instrument" gender="f">guitarra flamenca</translation>
+                    </translations>
+                </expressions>
+                <expressions>Latin guitar
+                    <translations>
+                        <translation catagory="entertainment-music-instrument" gender="f">guitarra llatina</translation>
+                    </translations>
+                </expressions>
+                 <expressions>guitar maker
+                    <translations>
+                        <translation catagory="entertainment-music, work-job" gender="mf">guitarrer</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2580000">guitarist<nouns>
 			<translations>
-				<translation gender="mf">guitarrista</translation>
+				<translation catagory="work-job, entertainment-music" gender="mf">guitarrista</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="674000">Gujarati<nouns>
 			<translations>
-				<translation gender="m">gujarati</translation>
+				<translation catagory="language" gender="m">gujarati</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4130,18 +4171,16 @@
 				<translation gender="m">golf</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="905000">Gulf of Mexico<nouns>
-			<translations>
-				<translation gender="m">Golf de Mèxic</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="2850000">Gulf War<nouns>
-			<translations>
-				<translation gender="f">Guerra del Golf</translation>
-			</translations>
-		</nouns>
+                <expressions>Gulf of Mexico
+                    <translations>
+                        <translation catagory="geography" gender="m">Golf de Mèxic</translation>
+                    </translations>
+                </expressions>
+                <expressions>Gulf War
+                    <translations>
+                        <translation gender="f">Guerra del Golf</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1950000">gull<nouns>
 			<translations>
@@ -4182,14 +4221,19 @@
                         <translation>matar (algú) amb una arma de foc</translation>
                     </translations>
                 </phrasalverbs>
-	<phrasalverbs>gun for<translations><translation intransitive="true">1 seguir (algú) amb la intenció de fer-li mal 2 intentar a aconseguir (una cosa) agressivament</translation></translations></phrasalverbs></Entry>
-<Entry frequency="459000">gun control<nouns>
-			<translations>
-				<translation noteng="TRUE">-<catnote>'Gun control' és el fet de reduir l'accés del públic a les armes.  Hi ha un moviment social molt important als Estats Units.  Els partidaris d'aquest moviment s'anomenen 'the gun control lobby'.</catnote>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
+                <phrasalverbs>gun for
+                    <translations>
+                    <translation intransitive="true">seguir (algú) amb la intenció de fer-li mal</translation>
+                    <translation intransitive="true">intentar a aconseguir (una cosa) agressivament</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>gun control
+                    <translations>
+                        <translation noteng="TRUE">-<catnote>'Gun control' és el fet de reduir l'accés del públic a les armes.  Hi ha un moviment social molt important als Estats Units.  Els partidaris d'aquest moviment s'anomenen 'the gun control lobby'.</catnote>
+                        </translation>
+                    </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="2720000">gunman<nouns>
 			<translations><date>0407</date>
 				<translation gender="m">pistoler<plural>gunmen</plural></translation>
@@ -4198,8 +4242,7 @@
 	</Entry>
 <Entry frequency="64500">Gunners<nouns>
 			<translations>
-				<translation catagory="sports, encyclopaedic" register="colloquial" noteng="TRUE" local="gb">-<catnote>The Gunners és el sobrenom de l'equip de futbol anglès Arsenal FC.</catnote>
-				</translation>
+				<translation catagory="sports, encyclopaedic" register="colloquial" local="gb">sobrenom de l'equip de futbol anglès Arsenal FC</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4221,6 +4264,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+       <Entry frequency="2580000">gusli<nouns>
+                            <translations><date>0708</date>
+				<translation termcat="entertainment-music-instrument" gender="f">gusla</translation>
+			</translations>
+		</nouns>
+	</Entry> 
 <Entry frequency="2160000">gust<nouns>
 			<translations>
 				<translation catagory="weather" gender="f">ràfega / ratxa / ventada</translation>
