@@ -950,19 +950,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="22100">fat client<nouns>
-			<translations>
-				<translation catagory="computers" termcat="true" gender="m">client pesant</translation>
-			</translations>
-		</nouns>
-	</Entry>
 <Entry frequency="11100000">fate<nouns>
 			<translations>
 				<translation gender="m">destí</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="16600">fat free milk<nouns>
+<Entry frequency="16600">fat-free milk<nouns>
 			<translations>
 				<translation local="us" gender="f">llet desnatada<otherlocal>skimmed milk</otherlocal>
 				</translation>
@@ -3600,11 +3594,16 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="1910000">flu<nouns>
-			<translations>
-				<translation gender="f">grip</translation>
+<Entry frequency="31600000">flu<nouns>
+                            <translations><date>0708</date>
+				<translation catagory="medical-illness" gender="f">grip</translation>
 			</translations>
 		</nouns>
+                <expressions>flu epidemic
+                    <translations>
+                        <translation catagory="medical" gender="f">epidèmia de grip</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="270000">fluctuate<verbs>
 			<translations>
@@ -3637,10 +3636,10 @@
 			</translations>
 		</adverbs>
 	</Entry>
-<Entry frequency="32600">flu epidemic<nouns>
-			<translations>
-				<translation gender="f">epidèmia de grip</translation>
-			</translations>
+        <Entry frequency="880000">flugelhorn<nouns>
+                <translations><date>0708</date>
+                    <translation termcat="entertainment-music" gender="m">fiscorn</translation>
+                </translations>
 		</nouns>
 	</Entry>
 <Entry frequency="82800000">fluid<nouns>
