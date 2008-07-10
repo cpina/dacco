@@ -407,9 +407,14 @@
 	</Entry>
 <Entry frequency="4640000">igneous<adjectives>
 			<translations>
-				<translation catagory="geography">igni<engexamp>Igneous rocks</engexamp><catexamp>Roques ígnies</catexamp></translation>
+				<translation catagory="geography">igni</translation>
 			</translations>
 		</adjectives>
+                <expressions>igneous rocks
+                    <translations>
+                        <translation gender="fpl">roques ígnies</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2110000">ignite<verbs>
 			<translations>
@@ -462,10 +467,15 @@
 	</Entry>
 <Entry frequency="15300000">ill<adjectives>
 			<translations>
-				<translation>malalt<engexamp>To become ill</engexamp><catexamp>Emmalaltir(-se)</catexamp><synonyms>sick, unwell, poorly</synonyms>
+				<translation>malalt<synonyms>sick, unwell, poorly</synonyms>
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>become (o fall) ill
+                    <translations>
+                        <translation catagory="medical">emmalaltir(-se)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="17400000">illegal<adjectives>
 			<translations>
@@ -1026,9 +1036,14 @@
 	</Entry>
 <Entry frequency="23500000">impossible<adjectives>
 			<translations>
-				<translation>impossible<engexamp>To make (something) impossible</engexamp><catexamp>Impossibilitar (alguna cosa)</catexamp></translation>
+				<translation>impossible</translation>
 			</translations>
 		</adjectives>
+                <expressions>make (something) impossible
+                    <translations>
+                        <translation>impossibilitar (alguna cosa)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="181000">impossibly<adverbs>
 			<translations>
@@ -1228,9 +1243,14 @@
 	</Entry>
 <Entry frequency="866000">impunity<nouns>
 			<translations>
-				<translation gender="ffullform">impunitat<engexamp>With impunity</engexamp><catexamp>Impunement</catexamp></translation>
+				<translation gender="ffullform">impunitat</translation>
 			</translations>
 		</nouns>
+                <expressions>with impunity
+                    <translations>
+                        <translation>impunement</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="777000">impure<adjectives>
 			<translations>
@@ -1576,9 +1596,14 @@
 	</Entry>
 <Entry frequency="286000">incisor<nouns>
 			<translations>
-				<translation gender="ffullform">incisiva<engexamp>Incisor teeth</engexamp><catexamp>Dents incisives</catexamp></translation>
+				<translation gender="ffullform">incisiva</translation>
 			</translations>
 		</nouns>
+                <expressions>incisor teeth
+                    <translations>
+                        <translation catagory="body" gender="fpl">dents incisives</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3290000">inclement<adjectives>
 			<translations>
@@ -1842,9 +1867,14 @@
 	</Entry>
 <Entry frequency="3680000">indefinite<adjectives>
 			<translations>
-				<translation>indefinit<engexamp>Indefinite article</engexamp><catexamp>Article indefinit</catexamp></translation>
+				<translation>indefinit</translation>
 			</translations>
 		</adjectives>
+                <expressions>indefinite article
+                    <translations>
+                        <translation gender="m">article indefinit</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1210000">indefinitely<adverbs>
 			<translations>
@@ -2209,21 +2239,24 @@
 <Entry frequency="18700000">indoor<adjectives>
 			<translations><date>0307</date>
 				<translation>interior</translation>
-                                <translation disambiguate="sports">en (or de) pista coberta<catexamp>Temporada en (or de) pista coberta</catexamp><engexamp>Indoor season</engexamp></translation>
+                                <translation disambiguate="sports">en (or de) pista coberta</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="25700">indoor football<nouns>
-			<translations>
-				<translation gender="m">futbol sala</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="816000">indoor pool<nouns>
-			<translations>
-				<translation gender="f">piscina coberta</translation>
-			</translations>
-		</nouns>
+                <expressions>indoor football
+                    <translations>
+                        <translation catagory="sports-event" gender="m">futbol sala</translation>
+                    </translations>
+                </expressions>
+                <expressions>indoor pool
+                    <translations>
+                        <translation catagory="sports-event-swimming" gender="f">piscina coberta</translation>
+                    </translations>
+                </expressions>
+                <expressions>indoor season
+                    <translations>
+                        <translation catagory="sports" gender="f">temporada en (or de) pista coberta</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4750000">indoors<adverbs>
 			<translations><date>0707</date>
@@ -2458,9 +2491,14 @@
 	</Entry>
 <Entry frequency="2180000">infarction<nouns>
 			<translations>
-				<translation catagory="medical" gender="m">infart<engexamp>Myocardial infarction</engexamp><catexamp>Infart de miocardi</catexamp></translation>
+				<translation catagory="medical" gender="m">infart</translation>
 			</translations>
 		</nouns>
+                <expressions>myocardial infarction
+                    <translations>
+                        <translation catagory="medical" gender="m">infart de miocardi</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="738000">infatuation<nouns>
 			<translations>
@@ -2502,9 +2540,14 @@
 	</Entry>
 <Entry frequency="763000">inferiority<nouns>
 			<translations>
-				<translation gender="ffullform">inferioritat<engexamp>Inferiority complex</engexamp><catexamp>Complex d'inferioritat</catexamp></translation>
+				<translation gender="ffullform">inferioritat</translation>
 			</translations>
 		</nouns>
+                <expressions>inferiority complex
+                <translations>
+                    <translation gender="m">complex d'inferioritat</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2220000">infertility<nouns>
 			<translations><date>0607</date>
@@ -2821,9 +2864,14 @@
 	</Entry>
 <Entry frequency="80000000">in-house<adjectives>
 			<translations>
-				<translation catagory="work">a l'empresa<engexamp>In-house training</engexamp><catexamp>Formació a l'empresa</catexamp></translation>
+				<translation catagory="work">a l'empresa</translation>
 			</translations>
 		</adjectives>
+                <expressions>in-house training
+                    <translations>
+                        <translation catagory="work" gender="f">formació a l'empresa</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1530000">inhuman<adjectives>
 			<translations>
@@ -3129,9 +3177,14 @@
 	</Entry>
 <Entry frequency="680000">insemination<nouns>
 			<translations>
-				<translation gender="ffullform">inseminació<engexamp>Artificial insemination</engexamp><catexamp>Inseminació artificial</catexamp></translation>
+				<translation gender="ffullform">inseminació</translation>
 			</translations>
 		</nouns>
+                <expressions>artificial insemination
+                    <translations>
+                        <translation catagory="medical" gender="ffullform">inseminació artificial</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4880000">insensitive<adjectives>
 			<translations>
@@ -3197,11 +3250,14 @@
 				<grouptranslation>
 					<translation gender="ffullform">idea</translation>
 					<translation gender="f">comprensió</translation>
-					<engexamp>To gain / get an insight into something</engexamp>
-					<catexamp>Fer-se una idea d'alguna cosa</catexamp>
 				</grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>gain (o get) an insight into (something)
+                    <translations>
+                        <translation>fer-se una idea d'(alguna cosa)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4690000">insignificant<adjectives>
 			<translations>
@@ -3358,26 +3414,39 @@
 	</Entry>
 <Entry frequency="1750000">installment<nouns>
 			<translations>
-				<translation local="us" gender="m">lliurament<engexamp>To pay by installments</engexamp><catexamp>Pagar a terminis</catexamp></translation>
+				<translation local="us" gender="m">lliurament</translation>
                                 <translation local="us" gender="m">episodi<engnote>'Episodi' means 'installment' in the sense 'episode' ('installment of a television series').</engnote><otherlocal>instalment</otherlocal></translation>
 			</translations>
 		</nouns>
+                <expressions>pay by (o in) installments
+                    <translations>
+                        <translation>pagar a terminis</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="307000">instalment<nouns>
 			<translations>
-				<translation local="gb" gender="m">lliurament<engexamp>To pay by instalments</engexamp><catexamp>Pagar a terminis</catexamp></translation>
+				<translation local="gb" gender="m">lliurament</translation>
                                 <translation local="gb" gender="m">episodi<engnote>'Episodi' means 'instalment' in the sense 'episode' ('instalment of a television series').</engnote><otherlocal>installment</otherlocal></translation>
 			</translations>
 		</nouns>
+                <expressions>pay by (o in) instalments
+                    <translations>
+                        <translation>pagar a terminis</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="15900000">instance<nouns>
 			<translations>
-				<translation gender="m">cas<engexamp>For instance</engexamp>
-					<catexamp>Per exemple</catexamp>
-				</translation>
+				<translation gender="m">cas</translation>
                                 <translation gender="ffullform">instància</translation>
 			</translations>
 		</nouns>
+                <expressions>for instance
+                    <translations>
+                        <translation>per exemple</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="25900000">instant<adjectives>
 			<translations>
@@ -4144,13 +4213,19 @@
 	</Entry>
 <Entry frequency="837000">intestine<nouns>
 			<translations>
-				<translation gender="m">intestí<engexamp>Small intestine</engexamp>
-					<catexamp>Intestí prim</catexamp>
-					<engexamp>Large intestine</engexamp>
-					<catexamp>Intestí gros</catexamp>
-				</translation>
+				<translation catagory="body" gender="m">intestí</translation>
 			</translations>
 		</nouns>
+                <expressions>large intestine
+                    <translations>
+                        <translation catagory="body" gender="m">intestí gros</translation>
+                    </translations>
+                </expressions>
+                <expressions>small intestine
+                    <translations>
+                        <translation catagory="body" gender="m">intestí prim</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1280000">in the meantime<adverbs>
 			<translations>
@@ -4603,9 +4678,14 @@
 	<phrasalverbs>invite out<translations><translation transitive="true">convidar (algú) a sortir</translation></translations></phrasalverbs></Entry>
 <Entry frequency="8390000">in vitro<adjectives>
 			<translations>
-				<translation catagory="medical">in vitro<engexamp>In vitro fertilization</engexamp><catexamp>Fecundació in vitro</catexamp></translation>
+				<translation catagory="medical">in vitro</translation>
 			</translations>
 		</adjectives>
+                <expressions>in vitro fertilization
+                    <translations>
+                        <translation catagory="medical" gender="f">fecundació in vitro</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2940000">invoice<nouns>
 			<translations>
@@ -4621,15 +4701,18 @@
 	</Entry>
 <Entry frequency="73700000">involve<verbs>
 			<translations>
-				<translation>involucrar<engexamp>To get involved in something</engexamp>
-					<catexamp>Involucrar-se en alguna cosa</catexamp>
-				</translation>
+				<translation>involucrar</translation>
                                 <translation>comportar<synonyms>entail</synonyms></translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>involve (somebody) in (something)
                 <translations>
                 <translation>implicar (algú) en (alguna cosa)</translation></translations></phrasalverbs>
+                <expressions>get involved in (something)
+                    <translations>
+                        <translation>involucrar-se en (alguna cosa)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="8020000">involvement<nouns>
 			<translations><date>0108</date>
@@ -5039,9 +5122,14 @@
 	</Entry>
 <Entry frequency="3110000">irritate<verbs>
 			<translations>
-				<translation>irritar<engexamp>To become irritated</engexamp><catexamp>Irritar-se</catexamp></translation>
+				<translation>irritar</translation>
 			</translations>
 		</verbs>
+                <expressions>become (o get) irritated
+                    <translations>
+                        <translation>irritar-se</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1030000">irritating<adjectives>
 			<translations>
@@ -5058,9 +5146,19 @@
 	</Entry>
 <Entry frequency="166000">irrotational<adjectives>
 			<translations>
-				<translation disambiguate="maths">irrotacional<engexamp>Irrotational flow</engexamp><catexamp>Flux irrotacional</catexamp><engexamp>Irrotational field</engexamp><catexamp>Camp irrotacional</catexamp></translation>
+				<translation disambiguate="maths">irrotacional</translation>
 			</translations>
 		</adjectives>
+                <expressions>irrotational field
+                    <translations>
+                        <translation gender="m">camp irrotacional</translation>
+                    </translations>
+                </expressions>
+                <expressions>irrotational flow
+                    <translations>
+                        <translation gender="m">flux irrotacional</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3160000">ischemia<nouns>
 			<translations>
@@ -5289,9 +5387,14 @@
 	</Entry>
 <Entry frequency="545000">isosceles<adjectives>
 			<translations>
-				<translation catagory="maths">isòsceles<engexamp>Isosceles triangle</engexamp><catexamp>Triangle isòsceles</catexamp></translation>
+				<translation catagory="maths">isòsceles</translation>
 			</translations>
 		</adjectives>
+                <expressions>isosceles triangle
+                    <translations>
+                        <translation catagory="maths" gender="m">triangle isòsceles</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1870000">isotherm<nouns>
 			<translations>
@@ -5420,9 +5523,14 @@
 <Entry frequency="3310000">italics<nouns>
 			<translations>
                         <grouptranslation><translation termcat="true" gender="f">cursiva</translation>
-                                <translation gender="ffullform">itàlica</translation><engexamp>In italics</engexamp><catexamp>En cursiva</catexamp></grouptranslation>
+                                <translation gender="ffullform">itàlica</translation></grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>in italics
+                    <translations>
+                        <translation>en cursiva</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="21400">Italophile<nouns>
 			<translations>
