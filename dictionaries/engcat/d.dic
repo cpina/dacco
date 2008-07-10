@@ -4824,6 +4824,11 @@
 				<translation>dividir</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>divide by
+                    <translations>
+                        <translation intransitive="true">dividir per</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>divide up
                 <translations>
                     <translation>dividir i repartir</translation>
@@ -4832,7 +4837,7 @@
                 <nouns>
                 <translations>
                 <translation gender="f">bretxa</translation></translations></nouns>
-	<phrasalverbs>divide by<translations><translation intransitive="true">dividir per</translation></translations></phrasalverbs></Entry>
+	</Entry>
 <Entry frequency="5910000">dividend<nouns>
 			<translations><date>0707</date>
 				<translation catagory="financial" gender="m">dividend</translation>
@@ -4851,12 +4856,11 @@
                                 <translation catagory="sports-event-diving" gender="mpl">salts<engnote>'Salts' means 'diving' as in 'jumping off a diving board into a diving pool'.</engnote></translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="1690000">diving board<nouns>
-			<translations>
-				<translation disambiguate="sports-event-diving" gender="m">trampolí<synonyms>springboard</synonyms></translation>
-                                </translations>
-		</nouns>
+                <expressions>diving board
+                    <translations>
+                        <translation catagory="sports-event-diving" gender="m">trampolí<synonyms>springboard</synonyms></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="807000">divinity<nouns>
 			<translations>
@@ -6333,10 +6337,26 @@
                         <translation>expulsar (d'una organització)</translation>
                     </translations>
                 </phrasalverbs>
-	<phrasalverbs>drum up<translations><translation transitive="true">concitar, fomentar, fer venir</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>drum up
+                    <translations>
+                        <translation transitive="true">concitar / fomentar / fer venir</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>drum kit
+                    <translations>
+                        <translation catagory="entertainment-music" gender="f">bateria</translation>
+                    </translations>
+                </expressions>
+                <expressions>tenor drum
+                    <translations>
+                        <translation termcat="entertainment-music-instrument" gender="m">redoblant</translation>
+                    </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="2850000">drummer<nouns>
-			<translations>
-				<translation gender="mf">bateria</translation>
+                            <translations><date>0708</date>
+				<translation catagory="entertainment-music" gender="mf">bateria</translation>
+                                <translation catagory="entertainment-music" gender="mf">tambor / tamborer</translation>
 			</translations>
 		</nouns>
 	</Entry>

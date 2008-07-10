@@ -1140,7 +1140,7 @@
 	<Entry frequency="10900">bateria<nouns>
 			<translations>
 				<translation gender="f">battery</translation>
-				<translation catagory="entertainment-music-instrument" gender="f">drums</translation>
+				<translation catagory="entertainment-music-instrument" gender="f">drums / drum kit</translation>
 				<translation catagory="entertainment-music" gender="m / f">drummer</translation>
 			</translations>
 		</nouns>
@@ -3093,17 +3093,23 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="13300">bot<nouns>
-			<translations><date>0505</date>
+        <Entry frequency="479000">bot<nouns>
+			<translations><date>0708</date>
 				<translation gender="m">leap</translation>
                                 <translation gender="m">bounce</translation>
                                 <translation catagory="transport-mode" gender="m">boat</translation>
                                 <translation gender="m">wineskin</translation>
+                                <translation termcat="entertainment-music-instrument" gender="m">bagpipe(s)<synonyms>sac de gemecs, gaita, cornamusa, manxa borrega, xeremies</synonyms><engnote>Full name is 'bot de gemecs'.</engnote></translation>
 			</translations>
 		</nouns>
                 <expressions>ploure a bots i barrals
                     <translations>
                         <translation>to chuck it down / to throw it down / to rain cats and dogs</translation>
+                    </translations>
+                </expressions>
+                <expressions>bot salvavides
+                    <translations>
+                        <translation catagory="transport-mode" gender="m">lifeboat</translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -3162,12 +3168,6 @@
 			<translations>
 				<translation gender="m">button<plural>botons</plural>
 				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="306000">bot salvavides<nouns>
-			<translations>
-				<translation catagory="transport-mode" gender="m">lifeboat</translation>
 			</translations>
 		</nouns>
 	</Entry>

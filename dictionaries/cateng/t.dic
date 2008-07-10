@@ -8,6 +8,18 @@
       </translations>
     </nouns>
   </Entry>
+    <Entry frequency="20500">tabal<nouns>
+                    <translations><date>0708</date>
+                        <translation termcat="entertainment-music-instrument" gender="m">kettledrum<synonyms>timbal</synonyms></translation>
+                    </translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="532">tabaler<nouns>
+                    <translations><date>0708</date>
+                        <translation termcat="entertainment-music" gender="m / f">timpanist / tympanist<synonyms>timbaler, timbal</synonyms><fems>tabalera</fems></translation>
+                    </translations>
+		</nouns>
+	</Entry>
   <Entry frequency="461">tabalot<nouns>
 			<translations><date>1007</date>
 				<translation gender="m">scatterbrain</translation>
@@ -829,20 +841,23 @@
         <translation catagory="household-room-kitchen, household-room-diningroom, household-room-livingroom" gender="f" >table</translation>
       </translations>
     </nouns>
+    <expressions>taula d'harmonia (o taula harmònica)
+    <translations>
+        <translation termcat="entertainment-music" gender="f">soundboard<synonyms>tapa</synonyms></translation>
+    </translations>
+    </expressions>
+    <expressions>taula periòdica
+        <translations>
+            <translation catagory="chemistry" gender="f">periodic table</translation>
+        </translations>
+    </expressions>
+    <expressions>taula rodona
+        <translations>
+            <translation gender="f">round table</translation>
+        </translations>
+    </expressions>
   </Entry>
-   <Entry frequency="47700" >taula periòdica<nouns>
-           <translations><date>0508</date>
-        <translation catagory="chemistry" gender="f" >periodic table</translation>
-      </translations>
-    </nouns>
-  </Entry>  
-  <Entry frequency="30100" >taula rodona<nouns>
-      <translations>
-        <translation gender="f" >round table</translation>
-      </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="35900" >taulell<nouns>
+   <Entry frequency="35900" >taulell<nouns>
       <translations>
         <date>0305</date>
         <translation gender="m" >counter<example>La mestressa de la botiga passava tot el dia rere el &lt;b>taulell&lt;/b>.</example>
@@ -2449,6 +2464,25 @@
       </translations>
     </nouns>
   </Entry>
+    <Entry frequency="17500">timbal<nouns>
+                    <translations><date>0708</date>
+                        <translation termcat="entertainment-music-instrument" gender="m">kettledrum<synonyms>tabal</synonyms></translation>
+                        <translation termcat="entertainment-music" gender="m / f">timpanist / tympanist<synonyms>tabaler, timbaler</synonyms></translation>
+                    </translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="231">timbala<nouns>
+                    <translations><date>0708</date>
+			<translation termcat="entertainment-music-instrument" gender="f">timpani</translation>
+                    </translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="33600">timbaler<nouns>
+                    <translations><date>0708</date>
+                        <translation termcat="entertainment-music" gender="m / f">timpanist / tympanist<synonyms>timbal, tabaler</synonyms><fems>timbalera</fems></translation>
+                    </translations>
+		</nouns>
+	</Entry>
   <Entry frequency="59950">timbre<nouns>
 			<translations><date>0806</date>
 				<translation gender="m">bell<catexamp>Timbre de la porta</catexamp><engexamp>Doorbell</engexamp></translation>
@@ -2506,6 +2540,12 @@
       </translations>
     </nouns>
   </Entry>
+       <Entry frequency="1830">tiorba<nouns>
+                    <translations><date>0708</date>
+                        <translation termcat="entertainment-music-instrument" gender="f">theorbo<engnote>A 'theorbo' is a kind of lute.</engnote></translation>
+                    </translations>
+		</nouns>
+	</Entry>
   <Entry frequency="1000" >tip<adjectives>
       <translations>
         <translation>fed up<synonyms>fart</synonyms>
@@ -4356,6 +4396,19 @@
       </translations>
     </verbs>
   </Entry>
+       <Entry frequency="103000">trast<nouns>
+                    <translations><date>0708</date>
+                        <translation disambiguate="entertainment-music" gender="m">fret</translation>
+                        <translation gender="m">piece of junk</translation>
+                    </translations>
+		</nouns>
+	</Entry>
+             <Entry frequency="130000">traster<nouns>
+                    <translations><date>0708</date>
+                        <translation gender="m">junk room</translation>
+                    </translations>
+		</nouns>
+	</Entry>
   <Entry frequency="830" >trastocar<verbs conj="CtoQU" >
       <translations>
         <translation>to send s.o. mad / crazy<catexamp>Trastocar-se</catexamp>
@@ -4997,30 +5050,58 @@
 			</translations>
 		</adjectives>
 	</Entry>
-  <Entry frequency="1390" >trombó<nouns>
-      <translations>
-        <translation catagory="entertainment-music-instrument" gender="m" >trombone<plural>trombons</plural>
-        </translation>
+  <Entry frequency="28900" >trombó<nouns>
+          <translations><date>0708</date>
+              <translation catagory="entertainment-music-instrument" gender="m" >trombone</translation>
+              <translation termcat="entertainment-music" gender="m / f">trombonist<synonyms>trombonista</synonyms><plural>trombons</plural></translation>
       </translations>
     </nouns>
+    <expressions>trombó de colissa
+        <translations>
+            <translation termcat="entertainment-music-instrument" gender="m">slide trombone</translation>
+        </translations>
+    </expressions>
+    <expressions>trombó de pistons
+        <translations>
+            <translation termcat="entertainment-music-instrument" gender="m">valve trombone</translation>
+        </translations>
+    </expressions>
   </Entry>
+       <Entry frequency="1460">trombonista<nouns>
+                    <translations><date>0708</date>
+                        <translation termcat="entertainment-music" gender="m / f">trombonist<synonyms>trombó</synonyms></translation>
+                    </translations>
+		</nouns>
+	</Entry>
   <Entry frequency="1990" >trompa<nouns>
-      <translations>
-        <translation catagory="entertainment-music-instrument" gender="f" >trumpet</translation>
-        <translation catagory="animal" gender="f" >trunk</translation>
+          <translations><date>0708</date>
+        <translation disambiguate="entertainment-music-instrument" gender="f" >(French) horn</translation>
+        <translation termcat="entertainment-music" gender="m / f">(French) horn player</translation>
+        <translation disambiguate="animal" gender="f" >trunk</translation>
       </translations>
     </nouns>
-  </Entry>
-  <Entry frequency="82" >trompa de Fal·lopi<nouns>
-      <translations>
-        <date>0205</date>
-        <translation catagory="biology" gender="f" >Fallopian tube</translation>
-      </translations>
-    </nouns>
+    <expressions>trompa de Fal·lopi
+        <translations>
+            <translation catagory="biology" gender="f" >Fallopian tube</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="3230" >trompeta<nouns>
       <translations>
         <translation catagory="entertainment-music-instrument" gender="f" >trumpet</translation>
+      </translations>
+    </nouns>
+  </Entry>
+  <Entry frequency="1230" >trompeter<nouns>
+          <translations><date>0708</date>
+        <translation termcat="entertainment-music" gender="m / f">trumpet maker</translation>
+        <translation termcat="entertainment-music" gender="m / f">trumpet player<synonyms>trompetista</synonyms><fems>trompetera</fems></translation>
+      </translations>
+    </nouns>
+  </Entry>
+    <Entry frequency="7660" >trompetista<nouns>
+            <translations><date>0708</date>
+                <translation catagory="entertainment-music" gender="m / f" >trumpet player<synonyms>trompeter</synonyms></translation>
       </translations>
     </nouns>
   </Entry>
@@ -5155,25 +5236,30 @@
       </translations>
     </nouns>
   </Entry>
-  <Entry frequency="275000" >tub<nouns>
-      <translations><date>1007</date>
-        <translation gender="m" >tube<catexamp>Tub d'assaig</catexamp><engexamp>Test tube</engexamp></translation>
+  <Entry frequency="167000" >tub<nouns>
+      <translations><date>0708</date>
+        <translation gender="m" >tube</translation>
+        <translation gender="m">pipe</translation>
       </translations>
     </nouns>
+    <expressions>tub d'assaig
+        <translations>
+            <translation catagory="chemistry" gender="m">test tube</translation>
+        </translations>
+    </expressions>
+    <expressions>tub de raigs catòdics
+        <translations>
+            <translation gender="m">cathode ray tube</translation>
+        </translations>
+    </expressions>
   </Entry>
-  <Entry frequency="868">tub d'assaig<nouns>
-                            <translations><date>1007</date>
-				<translation catagory="chemistry" gender="m">test tube</translation>
-			</translations>
+    <Entry frequency="17500">tuba<nouns>
+                    <translations><date>0708</date>
+			<translation termcat="entertainment-music-instrument" gender="f">tuba</translation>
+                    </translations>
 		</nouns>
 	</Entry>
-       <Entry frequency="761">tub de raigs catòdics<nouns>
-                            <translations><date>0508</date>
-				<translation gender="m">cathode ray tube</translation>
-			</translations>
-		</nouns>
-	</Entry> 
-  <Entry frequency="2450" >tuberculosi<nouns>
+   <Entry frequency="2450" >tuberculosi<nouns>
       <translations>
         <translation catagory="medical-illness" gender="m" >tuberculosis</translation>
       </translations>

@@ -1953,11 +1953,28 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="11700">viola<nouns>
-			<translations><date>0605</date>
-				<translation catagory="entertainment-music" gender="f">viola</translation>
+	<Entry frequency="109000">viola<nouns>
+			<translations><date>0708</date>
+				<translation disambiguate="entertainment-music-instrument" gender="f">viola</translation>
+                                <translation disambiguate="entertainment-music" gender="m / f">violist / viola player</translation>
+                                <translation disambiguate="plants-flower" gender="f">violet</translation>
 			</translations>
 		</nouns>
+                <expressions>viola d'amor
+                    <translations>
+                        <translation termcat="entertainment-music-instrument" gender="f">viola d'amore</translation>
+                    </translations>
+                </expressions>
+                <expressions>viola de gamba
+                    <translations>
+                        <translation termcat="entertainment-music-instrument" gender="f">viola da gamba</translation>
+                    </translations>
+                </expressions>
+                <expressions>viola de roda
+                    <translations>
+                        <translation termcat="entertainment-music-instrument" gender="f">hurdy-gurdy</translation>
+                    </translations>
+                </expressions>
 	</Entry>	
         <Entry frequency="870">violador<nouns>
 			<translations><date>1206</date>
@@ -1977,18 +1994,16 @@
                                 <translation gender="f">violent act</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="317000">violència de gènere<nouns>
-			<translations><date>0408</date>
-				<translation gender="f">gender-based violence / violence against women / domestic violence</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="3150">violència domèstica<nouns>
-			<translations>
-				<translation gender="f">domestic violence</translation>
-			</translations>
-		</nouns>
+                <expressions>violència de gènere
+                    <translations>
+                        <translation gender="f">gender-based violence / violence against women / domestic violence</translation>
+                    </translations>
+                </expressions>
+                <expressions>violència domèstica
+                    <translations>
+                        <translation gender="f">domestic violence</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="31000">violent<adjectives>
 			<translations><date>0605</date>
@@ -2014,14 +2029,33 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="5700">violí<nouns>
-			<translations>
+	<Entry frequency="50200">violí<nouns>
+                            <translations><date>0708</date>
 				<translation catagory="entertainment-music-instrument" gender="m">violin</translation>
+                                <translation termcat="entertainment-music" gender="m / f">violinist<synonyms>violinista</synonyms><plural>violins</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="7140">violoncel<nouns>
-			<translations><date>0605</date>
+           <Entry frequency="46100">violinista<nouns>
+                    <translations><date>0708</date>
+                        <translation termcat="entertainment-music-instrument" gender="m / f">violinist<synonyms>violí</synonyms></translation>
+                    </translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="361">violista<nouns>
+                    <translations><date>0708</date>
+                        <translation termcat="entertainment-music" gender="m / f">violist / viola player<synonyms>viola</synonyms></translation>
+                    </translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="725">violó<nouns>
+                    <translations><date>0708</date>
+                        <translation termcat="entertainment-music-instrument" gender="m">violone<plural>violons</plural></translation>
+                    </translations>
+		</nouns>
+	</Entry>
+	<Entry frequency="50100">violoncel<nouns>
+			<translations><date>0708</date>
 				<translation catagory="entertainment-music-instrument" gender="m">cello / violoncello</translation>
 				<translation catagory="entertainment-music" gender="m / f">cellist<synonyms>violoncel·lista</synonyms></translation>
 			</translations>

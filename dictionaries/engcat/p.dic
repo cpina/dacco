@@ -7266,9 +7266,20 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 		</nouns>
                 <expressions>grand piano
                     <translations>
-                        <translation termcat="entertainment-music" gender="m">piano de cua</translation>
+                        <translation termcat="entertainment-music-instrument" gender="m">piano de cua</translation>
                     </translations>
                 </expressions>
+                <expressions>upright piano
+                    <translations>
+                        <translation termcat="entertainment-music-instrument" gender="m">piano vertical / piano de paret</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="143000">pianola<nouns>
+                            <translations><date>0708</date>
+				<translation termcat="entertainment-music-instrument" gender="f">pianola</translation>
+			</translations>
+		</nouns>
 	</Entry>
  <Entry frequency="3000000">piccolo<nouns>
                 <translations><date>0708</date>
@@ -8422,7 +8433,13 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 		</nouns>
 
 	</Entry>
-<Entry frequency="15500000">pit<nouns>
+<Entry frequency="16600000">piston<nouns>
+			<translations><date>0708</date>
+				<translation gender="m">pistó</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="15500000">pit<nouns>
 
 			<translations>
 
@@ -9476,6 +9493,15 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 		</nouns>
 
+	</Entry>
+        <Entry frequency="443000">plectrum<nouns>
+                            <translations><date>0708</date>
+                                <grouptranslation termcat="entertainment-music">
+                                    <translation gender="m">plectre</translation>
+                                    <translation gender="f">ploma / pua</translation>
+                                </grouptranslation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="2790000">pledge<verbs>
 
@@ -16568,6 +16594,17 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 			<translations>
 
 				<translation catagory="plants" gender="f">poda</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="250000">psaltery<nouns>
+
+                            <translations><date>0708</date>
+
+                            <translation termcat="entertainment-music-instrument" gender="m">saltiri<plural>psalteries</plural></translation>
 
 			</translations>
 

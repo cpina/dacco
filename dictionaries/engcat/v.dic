@@ -160,7 +160,14 @@
 				<translation>valorar</translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="2420000">vampire<nouns>
+	</Entry>
+        <Entry frequency="65100000">valve<nouns>
+                            <translations><date>0708</date>
+				<translation termcat="entertainment-music" gender="m">pistó</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2420000">vampire<nouns>
 			<translations>
 				<translation gender="mf">vampir</translation>
 			</translations>
@@ -919,7 +926,24 @@
 				<translation catagory="material" gender="m">vinil</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="2320000">violate<verbs>
+	</Entry>
+  <Entry frequency="28400000">viola<nouns>
+                    <translations><date>0708</date>
+			<translation termcat="entertainment-music-instrument" gender="f">viola</translation>
+                    </translations>
+		</nouns>
+                <expressions>viola d'amore
+                    <translations>
+                        <translation termcat="entertainment-music-instrument" gender="f">viola d'amor</translation>
+                    </translations>
+                </expressions>
+                <expressions>viola da gamba
+                    <translations>
+                        <translation termcat="entertainment-music-instrument" gender="f">viola de gamba</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="2320000">violate<verbs>
 			<translations>
 				<translation>violar</translation>
 			</translations>
@@ -939,17 +963,41 @@
 				<translation>violent</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="1500000">violet<adjectives>
-			<translations>
-				<translation catagory="colour">violeta</translation>
+                            </Entry><Entry frequency="48600000">violet<adjectives>
+                                    <translations>
+                                        <translation catagory="colour">violeta</translation>
+                                    </translations>
+                                </adjectives>
+                                <nouns>
+                                    <translations>
+                                        <translation disambiguate="plants-flower" gender="f">viola</translation>
 			</translations>
-		</adjectives>
+		</nouns>
 	</Entry><Entry frequency="2120000">violin<nouns>
 			<translations>
 				<translation catagory="entertainment-music-instrument" gender="m">violí</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="6840000">viper<nouns>
+	</Entry>
+           <Entry frequency="2350000">violinist<nouns>
+                    <translations><date>0708</date>
+			<translation termcat="entertainment-music" gender="mf">violinista / violí</translation>
+                    </translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="1440000">violoncello<nouns>
+                    <translations><date>0708</date>
+                        <translation termcat="entertainment-music-instrument" gender="m">violoncel</translation>
+                    </translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="76000">violone<nouns>
+                    <translations><date>0708</date>
+                        <translation termcat="entertainment-music-instrument" gender="m">violó</translation>
+                    </translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="6840000">viper<nouns>
 			<translations>
                         <grouptranslation catagory="animal-animal">
 				<translation gender="f">vibra</translation>

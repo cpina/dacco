@@ -3629,6 +3629,17 @@
                 <translation termcat="entertainment-music" gender="m">barrel organ<synonyms>orgue de maneta / orguenet</synonyms></translation>
                 </translations>
                 </expressions>
+                <expressions>piano vertical (o de paret)
+                    <translations>
+                        <translation termcat="entertainment-music-instrument" gender="m">upright piano</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="784">pianola<nouns>
+                            <translations><date>0708</date>
+				<translation termcat="entertainment-music-instrument" gender="f">pianola</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="118000">PIB<catacro>Producte Interior Brut</catacro>
                 <acronyms><date>1206</date>
@@ -4149,6 +4160,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="9430">pistó<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music" gender="m">valve</translation>
+                                <translation gender="m">piston<plural>pistons</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="3150">pistola<nouns>
 			<translations>
 				<translation gender="f">gun / pistol</translation>
@@ -4638,6 +4656,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1250">plectre<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music" gender="m">plectrum<synonyms>ploma, pua</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
           <Entry frequency="326">pledejar<verbs conj="JtoG">
 			<translations><date>0406</date>
 				<translation>to litigate<synonyms>litigar</synonyms></translation>
@@ -4718,9 +4742,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="6240">ploma<nouns>
-			<translations>
-				<translation catagory="animal" gender="f">feather</translation>
+	<Entry frequency="114000">ploma<nouns>
+                            <translations><date>0708</date>
+				<translation disambiguate="animal" gender="f">feather</translation>
+                                <translation disambiguate="entertainment-music" gender="f">plectrum<synonyms>plectre, pua</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5650,27 +5675,32 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="150000">pont<nouns>
-			<translations>
-				<translation gender="m">bridge</translation>
+	<Entry frequency="1830000">pont<nouns>
+                            <translations><date>0708</date>
+                                <translation catagory="entertainment-music" gender="m">bridge<engnote>'Pont' means 'bridge' both in the 'structure over a road or river' and the 'bridge of a guitar' sense.</engnote></translation>
 				<translation gender="m">long weekend</translation>
 			</translations>
 		</nouns>
+                <expressions>pont penjant
+                    <translations>
+                        <translation gender="m">suspension bridge</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="0">pontdinquer<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Pont d'Inca</translation></translations></nouns><adjectives><translations><translation>relating to Pont d'Inca or its people<fems>pontdinquera</fems></translation></translations></adjectives></Entry>
-        <Entry frequency="780">pontífex<nouns>
+<Entry frequency="1100">pontet<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music" gender="m">bridge<synonyms>pont</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>        
+<Entry frequency="780">pontífex<nouns>
 			<translations><date>0405</date>
 				<translation catagory="religious" gender="m">Pontiff</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="222">pont penjant<nouns>
-			<translations>
-				<translation gender="m">suspension bridge</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="728">popa<nouns>
+	<Entry frequency="728">popa<nouns>
 			<translations><date>0605</date>
 				<translation catagory="transport" gender="f">stern</translation>
 			</translations>
@@ -8282,6 +8312,12 @@
         <Entry frequency="304">pterosaure<nouns>
                             <translations><date>1107</date>
 				<translation gender="m">pterosaur</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="28200">pua<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music" gender="f">plectrum<synonyms>plectre, ploma</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>

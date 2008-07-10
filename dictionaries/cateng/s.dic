@@ -87,9 +87,25 @@
                 </translations>
                 </expressions>
 	</Entry>
-        <Entry frequency="48100">sac<nouns>
-			<translations><date>0705</date>
+        <Entry frequency="413000">sac<nouns>
+			<translations><date>0708</date>
 				<translation gender="m">sack / bag</translation>
+			</translations>
+		</nouns>
+                <expressions>sac de dormir
+                    <translations>
+                        <translation gender="m">sleeping bag</translation>
+                    </translations>
+                </expressions>
+                <expressions>sac de gemecs
+                <translations>
+                    <translation catagory="entertainment-music-instrument" gender="m">bagpipe(s)<synonyms>bot (de gemecs), gaita, cornamusa, manxa borrega, xeremies</synonyms></translation>
+                </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="897">sacabutx<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music-instrument" gender="m">sackbut<engnote>A 'sackbut' is a brass instrument, a bit like a trombone, from the Renaissance period.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -103,18 +119,6 @@
 <Entry frequency="2900">sacarosa<nouns>
                             <translations><date>0408</date>
 				<translation catagory="chemistry" gender="f">sucrose / saccharose</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="606">sac de dormir<nouns>
-			<translations><date>0705</date>
-				<translation gender="m">sleeping bag</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="1370">sac de gemecs<nouns>
-			<translations><date>0705</date>
-				<translation catagory="entertainment-music-instrument" gender="m">bagpipes</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -422,18 +426,63 @@
 			</translations>
 		</nouns>
 	</Entry>
-                <Entry frequency="853">salt<nouns>
-			<translations><date>0805</date>
-				<translation gender="m">jump / bound<catexamp>Salt de llargada</catexamp><engexamp>Long jump</engexamp><catexamp>Salt d'alçada</catexamp><engexamp>High jump</engexamp><catexamp>Triple salt</catexamp><engexamp>Triple jump</engexamp><catexamp>Salt amb perxa</catexamp><engexamp>Pole vault</engexamp></translation>
+                <Entry frequency="219000">salt<nouns>
+			<translations><date>0708</date>
+				<translation gender="m">jump / bound</translation>
                                 <translation gender="m">dive</translation>
 			</translations>
 		</nouns>
+                <expressions>salt a cavall
+                    <translations>
+                        <translation catagory="sports-event" gender="m">show jumping</translation>
+                    </translations>
+                </expressions>
+                <expressions>salt amb perxa
+                    <translations><date>0805</date>
+                        <translation catagory="sports-event-athletics" gender="m">pole vault</translation>
+                    </translations>
+                </expressions>
+                <expressions>salt d'alçada
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="m">high jump</translation>
+                    </translations>
+                </expressions>
+                <expressions>salt de llargada
+                <translations>	
+                    <translation catagory="sports-event-athletics" gender="m">long jump</translation>
+		</translations>
+                </expressions>
+                <expressions>salt de plataforma
+                    <translations>
+                        <translation catagory="sports-event" gender="m">(platform) diving</translation>
+                    </translations>
+                </expressions>
+                <expressions>salt de pont
+                    <translations>
+                        <translation catagory="sports-event" gender="m">bungee jumping</translation>
+                    </translations>
+                </expressions>
+                <expressions>salt de trampolí
+                    <translations>
+                        <translation catagory="sports-event" gender="m">(springboard) diving</translation>
+                    </translations>
+                </expressions>
+                <expressions>triple salt
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="m">triple jump</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4100">saltador<nouns>
 			<translations><date>0408</date>
-				<translation gender="m / f">jumper<catexamp>Saltador d'alçada</catexamp><engexamp>High jumper</engexamp><catexamp>Saltador de llargada</catexamp><engexamp>Long jumper</engexamp><catexamp>Saltador de triple</catexamp><engexamp>Triple jumper</engexamp></translation>
+				<translation gender="m / f">jumper<catexamp>Saltador de llargada</catexamp><engexamp>Long jumper</engexamp><catexamp>Saltador de triple</catexamp><engexamp>Triple jumper</engexamp></translation>
                             </translations>
 		</nouns>
+                <expressions>saltador d'alçada
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="m / f">high jumper</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="246">saltamartí<nouns>
 			<translations>
@@ -441,39 +490,15 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="157">salt amb perxa<nouns>
-			<translations><date>0805</date>
-				<translation catagory="sports-event-athletics" gender="m">pole vault</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="17100">saltar<verbs conj="regular">
+      	<Entry frequency="17100">saltar<verbs conj="regular">
 			<translations>
 				<translation>to jump / to bound</translation>
 			</translations>
 		</verbs>
 	</Entry>
-        <Entry frequency="605">salt d'alçada<nouns>
-			<translations><date>0805</date>
-				<translation catagory="sports-event-athletics" gender="m">high jump</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="424">salt de llargada<nouns>
-			<translations><date>0805</date>
-				<translation catagory="sports-event-athletics" gender="m">long jump</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="159">salt de pont<nouns>
-			<translations><date>0805</date>
-				<translation catagory="sports-event" gender="m">bungee jumping</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="76">salt de trampolí<nouns>
-			<translations>
-				<translation catagory="sports-event" gender="m">diving</translation>
+        <Entry frequency="1430">saltiri<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music-instrument" gender="m">psaltery<engnote>A 'psaltery' is a stringed instrument a bit like a zither or harp.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -873,9 +898,22 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="69">saxhorn<nouns>
+                            <translations><date>0708</date>
+				<translation termcat="entertainment-music-instrument" gender="m">saxhorn</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="4730">saxòfon<nouns>
 			<translations><date>1007</date>
-				<translation catagory="entertainment-music-instrument" gender="m">saxophone</translation>
+				<translation catagory="entertainment-music-instrument" gender="m">saxophone / sax</translation>
+                                <translation termcat="entertainment-music" gender="m / f">saxophonist<synonyms>saxòfon</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="11100">saxofonista<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music" gender="m / f">saxophonist<synonyms>saxòfon</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2820,6 +2858,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="419">sistre<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music-instrument" picture="http://farm1.static.flickr.com/139/327552272_4b8943df68.jpg" flickr="http://www.flickr.com/photos/44124324682@N01/327552272/" gender="m">sistrum<engnote>A 'sistrum' is a percussion instrument from Egypt.</engnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="4280">sitar<nouns>
+                            <translations><date>0708</date>
+                                <translation termcat="entertainment-music-instrument" gender="m">sitar</translation>
+			</translations>
+		</nouns>
+	</Entry>
           <Entry frequency="20000">sitja<nouns>
 			<translations><date>0408</date>
 				<translation gender="f">silo</translation>
@@ -3422,6 +3472,12 @@
             </translations>
             </expressions>
 	</Entry>
+        <Entry frequency="1810">sonall<nouns>
+                            <translations><date>0708</date>
+				<translation gender="m">rattle</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="19100">sonar<verbs conj="regular">
 			<translations>
 				<translation>to sound / to ring</translation>
@@ -3524,6 +3580,12 @@
 				<translation>sordid<fems>sòrdida</fems></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="832">sordina<nouns>
+                            <translations><date>0708</date>
+				<translation disambiguate="entertainment-music" gender="f">mute</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="35100">sorgir<verbs conj="inceptive">
 			<translations>
