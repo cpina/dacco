@@ -165,9 +165,14 @@
     </Entry>
 <Entry frequency="555000">cadmium<nouns>
         <translations>
-            <translation catagory="chemistry" gender="m">cadmi<engexamp>Nickel-cadmium battery</engexamp><catexamp>Bateria de níquel-cadmi</catexamp></translation>
+            <translation catagory="chemistry" gender="m">cadmi</translation>
         </translations>
     </nouns>
+        <expressions>nickel-cadmium
+            <translations>
+                <translation gender="m">níquel-cadmi</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="95500">caesarean<nouns>
         <translations>
@@ -278,18 +283,20 @@
     </Entry>
 <Entry frequency="25000000">calculation<nouns>
         <translations>
-            <translation catagory="maths" gender="m">càlcul<engexamp>To do your calculations</engexamp>
-                <catexamp>Fer càlculs</catexamp>
-            </translation>
+            <translation catagory="maths" gender="m">càlcul</translation>
         </translations>
     </nouns>
+    <expressions>calculation table
+    <translations>
+        <translation catagory="maths" gender="m">barem</translation>
+    </translations>
+    </expressions>
+        <expressions>do your calculations
+            <translations>
+                <translation>fer càlculs</translation>
+            </translations>
+        </expressions>
     </Entry>
-<Entry frequency="125000">calculation table<nouns>
-			<translations><date>0707</date>
-                            <translation catagory="maths" gender="m">barem</translation>
-			</translations>
-		</nouns>
-	</Entry>
 <Entry frequency="40200000">calculator<nouns>
         <translations>
             <translation gender="f">calculadora</translation>
@@ -742,15 +749,18 @@
         <translation>saber<engexamp>Can you play the piano?</engexamp><catexamp>Saps tocar el piano?</catexamp></translation></translations></verbs>       
         <nouns>
             <translations>
-                <translation gender="f">llauna<engexamp>Can opener</engexamp>
-                    <catexamp>Obrellaunes</catexamp>
-                </translation>
+                <translation gender="f">llauna</translation>
                 <translation register="slang" local="us" gender="m">lavabo<synonyms>john (Am.) (argot)</synonyms>
                     <otherlocal>loo</otherlocal>
                 </translation>
                 <translation gender="m">bidó<engnote>'Bidó' means 'can' in the sense 'petrol can'.</engnote></translation>
             </translations>
         </nouns>
+        <expressions>can opener
+            <translations>
+                <translation gender="m">obrellaunes</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="198000000">Canada<nouns>
         <translations>
@@ -819,10 +829,15 @@
 <Entry frequency="53300000">cancer<nouns>
         <translations>
             <translation disambiguate="medical" gender="m">càncer</translation>
-            <translation beforenoun="true">oncològic<engexamp>Cancer treatment</engexamp><catexamp>Tractament oncològic</catexamp></translation>
+            <translation beforenoun="true">oncològic</translation>
             <translation disambiguate="zodiac" gender="m">Cranc</translation>
         </translations>
     </nouns>
+    <expressions>cancer treatment
+        <translations>
+            <translation catagory="medical" gender="m">tractament oncològic</translation>
+        </translations>
+    </expressions>
     <expressions>breast cancer
         <translations>
             <translation catagory="medical-illness" gender="m">càncer de mama</translation>
@@ -964,9 +979,14 @@
     </Entry>
 <Entry frequency="4240000">canola<nouns>
         <translations>
-            <translation catagory="food" gender="f">canola<engexamp>Canola oil</engexamp><catexamp>Oli de canola</catexamp></translation>
+            <translation catagory="food" gender="f">canola</translation>
         </translations>
     </nouns>
+        <expressions>canola oil
+            <translations>
+                <translation catagory="food" gender="m">oli de canola</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="3980000">canonical<adjectives>
 			<translations><date>0807</date>
@@ -974,12 +994,6 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="205000">can opener<nouns>
-        <translations>
-            <translation catagory="household-room-kitchen" gender="m">obrellaunes</translation>
-        </translations>
-    </nouns>
-    </Entry>
   <Entry frequency="18700000">canopy<nouns>
 			<translations><date>0708</date>
 				<translation gender="m">dosser / baldaquí<plural>canopies</plural></translation>
@@ -1167,7 +1181,7 @@
     </Entry>
 <Entry frequency="143000000">car<nouns>
         <translations>
-            <translation gender="m">cotxe / automòbil</translation>
+            <translation catagory="transport-mode" gender="m">cotxe / automòbil</translation>
         </translations>
     </nouns>
     <expressions>car bomb
@@ -1175,6 +1189,16 @@
             <translation gender="m">cotxe bomba</translation>
         </translations>
     </expressions>
+        <expressions>car pooling
+            <translations>
+                <translation termcat="true" catagory="transport" gender="m">cotxe compartit</translation>
+            </translations>
+        </expressions>
+        <expressions>car rental
+            <translations>
+                <translation gender="m">lloguer de vehicles</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="637000">carapace<nouns>
         <translations>
@@ -1208,9 +1232,14 @@
     </Entry>
 <Entry frequency="3530000">carbonated<adjectives>
         <translations>
-            <translation>carbonatat / carbònic<engexamp>Carbonated beverages</engexamp><catexamp>Begudes carbòniques (o carbonatades)</catexamp><synonyms>fizzy</synonyms></translation>
+            <translation>carbonatat / carbònic<synonyms>fizzy</synonyms></translation>
         </translations>
     </adjectives>
+        <expressions>carbonated beverage
+            <translations>
+                <translation gender="f">beguda carbònica (or carbonatada)</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="2750000">carbon dioxide<nouns>
         <translations>
@@ -1268,7 +1297,7 @@
 	</Entry>
 <Entry frequency="280000000">card<nouns>
         <translations>
-            <translation gender="f">targeta<engexamp>To give somebody their cards</engexamp><catexamp>Acomiadar algú</catexamp></translation>
+            <translation gender="f">targeta</translation>
             <grouptranslation><translation gender="f">carta</translation>
                 <translation gender="m">naip</translation><engnote>'Carta' and 'naip' mean 'card' in the sense 'playing card'. 'Carta' is the most widely used of the two.</engnote></grouptranslation>
         </translations>
@@ -1276,6 +1305,16 @@
         <expressions>card game
             <translations>
                 <translation gender="m">joc de cartes<synonyms>game of cards</synonyms></translation>
+            </translations>
+        </expressions>
+        <expressions>game of cards
+            <translations>
+                <translation gender="m">joc de cartes<synonyms>card game</synonyms></translation>
+            </translations>
+        </expressions>
+        <expressions>give (somebody) their cards
+            <translations>
+                <translation>acomiadar (algú)</translation>
             </translations>
         </expressions>
         <expressions>pack of cards
@@ -1403,9 +1442,14 @@
     </Entry>
 <Entry frequency="632000">carelessness<nouns>
         <translations>
-            <translation gender="f">deixadesa<engexamp>Act of carelessness</engexamp><catexamp>Badada</catexamp></translation>
+            <translation gender="f">deixadesa</translation>
         </translations>
     </nouns>
+        <expressions>act of carelessness
+            <translations>
+                <translation gender="f">badada</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="3870000">carer<nouns>
         <translations>
@@ -1553,9 +1597,14 @@
     </Entry>
 <Entry frequency="2890000">carpal tunnel<nouns>
         <translations>
-            <translation catagory="medical" gender="m">túnel carpià<engexamp>Carpal tunnel syndrome</engexamp><catexamp>Síndrome del túnel carpià</catexamp></translation>
+            <translation catagory="medical" gender="m">túnel carpià</translation>
         </translations>
     </nouns>
+        <expressions>carpal tunnel syndrome
+            <translations>
+                <translation catagory="medical-illness" gender="f">síndrome del túnel carpià</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="2620000">car park<nouns>
         <translations>
@@ -1580,18 +1629,6 @@
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="137000">car pooling<nouns>
-        <translations>
-            <translation termcat="true" gender="m">cotxe compartit</translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="17800000">car rental<nouns>
-        <translations>
-            <translation gender="m">lloguer de vehicles</translation>
-        </translations>
-    </nouns>
-    </Entry>
 <Entry frequency="7980000">carriage<nouns>
         <translations>
             <translation catagory="transport" gender="m">vagó<engnote>'Vagó' means 'carriage' as in 'train carriage'.</engnote></translation>
@@ -1607,17 +1644,16 @@
             </translation>
         </translations>
     </nouns>
+        <expressions>carrier sense multiple access
+            <translations>
+                <translation disambiguate="computers" termcat="true" gender="m">accés múltiple amb escolta de portadora</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="175000">carrier bag<nouns>
         <translations>
             <translation local="gb" gender="f">bossa de plàstic<otherlocal>plastic bag</otherlocal>
             </translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="279000">carrier sense multiple access<nouns>
-        <translations>
-            <translation disambiguate="computers" termcat="true" gender="m">accés múltiple amb escolta de portadora</translation>
         </translations>
     </nouns>
     </Entry>
@@ -1638,6 +1674,21 @@
             <translation>portar</translation>
         </translations>
     </verbs>
+        <phrasalverbs>carry about
+            <translations>
+                <translation transitive="true">portar (arreu)</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>carry across
+            <translations>
+                <translation transitive="true">portar (alguna cosa) d'un costat a l'altre</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>carry around
+            <translations>
+                <translation transitive="true">portar (arreu)</translation>
+            </translations>
+        </phrasalverbs>
         <phrasalverbs>carry away
             <translations>
                 <translation>emportar-se</translation>
@@ -1646,6 +1697,34 @@
         <phrasalverbs>get carried away
             <translations>
                 <translation transitive="true">esverar-se</translation>
+                <translation transitive="true">deixar-se portar per<example>I meant to add one or two examples to this dictionary but I got &lt;b&gt;carried away&lt;/b&gt; and...well, you can see what happened!</example>
+                <example>I'm sorry this letter's a bit long, I got a bit &lt;b&gt;carried away&lt;/b&gt; and couldn't stop writing!</example></translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>carry back
+            <translations>
+                <translation transitive="true">tornar (una cosa, portant-la)</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>carry down
+            <translations>
+                <translation transitive="true">baixar (una cosa, portant-la)</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>carry forward
+            <translations>
+                <translation disambiguate="maths" transitive="true">portar una xifra d'una pàgina o d'una columna a una altra</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>carry in
+            <translations>
+                <translation transitive="true">entrar (una cosa, portant-la)</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>carry off
+            <translations>
+                <translation transitive="true">emportar-se (sobretot amb força o sense permís)</translation>
+                <translation transitive="true">guanyar (sobretot un premi)</translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>carry on (doing something)
@@ -1657,7 +1736,7 @@
         </phrasalverbs>
         <phrasalverbs>carry on (with someone)
             <translations>
-                <translation register="colloquial">tenir relacions sexuals amb una persona de forma secreta<example>Roger was devastated when he discovered that his wife had been &lt;b&gt;carrying on with&lt;/b&gt; his best friend behind his back.</example>
+                <translation register="colloquial">tenir relacions sexuals amb (una persona) de forma secreta<example>Roger was devastated when he discovered that his wife had been &lt;b&gt;carrying on with&lt;/b&gt; his best friend behind his back.</example>
                 </translation>
             </translations>
         </phrasalverbs>
@@ -1672,13 +1751,18 @@
                 <translation>ajornar / diferir</translation>
             </translations>
         </phrasalverbs>
-        <expressions>get carried away
-        <translations>
-            <translation>deixar-se portar per<example>I meant to add one or two examples to this dictionary but I got &lt;b&gt;carried away&lt;/b&gt; and...well, you can see what happened!</example>
-                    <example>I'm sorry this letter's a bit long, I got a bit &lt;b&gt;carried away&lt;/b&gt; and couldn't stop writing!</example></translation>
-                </translations>
-            </expressions>
-    <phrasalverbs>carry about<translations><translation transitive="true">portar (arreu)</translation></translations></phrasalverbs><phrasalverbs>carry across<translations><translation transitive="true">portar (alguna cosa) d'un costat a l'altre</translation></translations></phrasalverbs><phrasalverbs>carry around<translations><translation transitive="true">portar (arreu)</translation></translations></phrasalverbs><phrasalverbs>carry back<translations><translation transitive="true">tornar (una cosa, portant-la)</translation></translations></phrasalverbs><phrasalverbs>carry down<translations><translation transitive="true">baixar (una cosa, portant-la)</translation></translations></phrasalverbs><phrasalverbs>carry forward<translations><translation transitive="true">en la comptabilitat, portar una figura d'una pàgina o d'una columna a una altra</translation></translations></phrasalverbs><phrasalverbs>carry in<translations><translation transitive="true">entrar (una cosa, portant-la)</translation></translations></phrasalverbs><phrasalverbs>carry off<translations><translation transitive="true">emportar-se (sobretot amb força o sense permís)</translation><translation transitive="true">guanyar (sobretot un premi)</translation></translations></phrasalverbs><phrasalverbs>carry on with<translations><translation intransitive="true">tenir relacions sexuals amb</translation></translations></phrasalverbs><phrasalverbs>carry through<translations><translation transitive="true">portar cap a l'altra banda (passant per un lloc)</translation><translation transitive="true">dur a terme</translation></translations></phrasalverbs><phrasalverbs>carry up<translations><translation transitive="true">pujar (una cosa, portant-la)</translation></translations></phrasalverbs></Entry>
+        <phrasalverbs>carry through
+            <translations>
+                <translation transitive="true">portar cap a l'altra banda (passant per un lloc)</translation>
+                <translation transitive="true">dur a terme</translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>carry up
+            <translations>
+                <translation transitive="true">pujar (una cosa, portant-la)</translation>
+            </translations>
+        </phrasalverbs>
+    </Entry>
 <Entry frequency="991000">carry-on<nouns>
             <translations><date>0508</date>
                 <translation catagory="transport" gender="m">equipatge de mà<catnote>També es diu 'carry-on luggage (o bag o suitcase).</catnote><example>First class passengers are allowed two &lt;b&gt;carry-ons&lt;/b&gt;.</example></translation>
@@ -1826,16 +1910,16 @@
     </Entry>
 <Entry frequency="253000000">case<nouns>
         <translations>
-            <translation gender="m">cas<engnote>'Cas' means 'case' as in a general sense.</engnote>
-                <engexamp>Just in case</engexamp>
-                <catexamp>Per si de cas</catexamp>
-            </translation>
-            <translation gender="f">maleta<engnote>'Maleta' means 'case' as in 'suitcase'.</engnote>
-                <synonyms>suitcase</synonyms>
-            </translation>
-            <translation gender="m">estoig</translation>
+            <translation gender="m">cas</translation>
+            <translation gender="f">maleta<engnote>'Maleta' means 'case' as in 'suitcase'.</engnote><synonyms>suitcase</synonyms></translation>
+            <translation gender="m">estoig<engnote>'Estoig' means a small 'case' such as a pencil case or a jewellery case.</engnote></translation>
         </translations>
     </nouns>
+        <expressions>just in case
+            <translations>
+                <translation>per si de cas</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="12500000">cash<nouns>
         <translations>
@@ -2093,9 +2177,7 @@
     </Entry>
 <Entry frequency="1110000">Catalan<nouns>
         <translations>
-            <translation disambiguate="language" gender="m">català<engexamp>Catalan speaker</engexamp>
-                <catexamp>catalanoparlant</catexamp>
-            </translation>
+            <translation disambiguate="language" gender="m">català</translation>
             <translation disambiguate="nationality-europe" gender="mf">català</translation>
         </translations>
     </nouns>
@@ -2104,6 +2186,11 @@
                 <translation>català</translation>
             </translations>
         </adjectives>
+        <expressions>Catalan speaker
+            <translations>
+                <translation gender="mf">parlant del català / catalanoparlant</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="61100000">catalog<nouns>
         <translations>
@@ -2728,7 +2815,7 @@
     </Entry>
 <Entry frequency="3750000">Central America<nouns>
         <translations>
-            <translation gender="f">Amèrica Central</translation>
+            <translation catagory="geography" gender="f">Amèrica Central</translation>
         </translations>
     </nouns>
     </Entry>
@@ -2740,22 +2827,25 @@
     </Entry>
 <Entry frequency="647000000">centre<nouns>
         <translations>
-            <translation local="gb" gender="m">centre<engexamp>City (or town) centre</engexamp><catexamp>Centre de la ciutat</catexamp><otherlocal>center</otherlocal>
+            <translation local="gb" gender="m">centre<otherlocal>center</otherlocal>
             </translation>
         </translations>
     </nouns>
-    </Entry>
-<Entry frequency="118000">centre back<nouns>
-        <translations>
-            <translation gender="m">defensa central</translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="52800">centre forward<nouns>
-        <translations>
-            <translation gender="m">davanter centre</translation>
-        </translations>
-    </nouns>
+        <expressions>centre back
+            <translations>
+                <translation catagory="sports" gender="m">defensa central</translation>
+            </translations>
+        </expressions>
+        <expressions>centre forward
+            <translations>
+                <translation catagory="sports" gender="m">davanter centre</translation>
+            </translations>
+        </expressions>
+        <expressions>city (o town) centre
+            <translations>
+                <translation gender="m">centre de la ciutat</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="27300">centripetal force<nouns>
         <translations>
@@ -2773,7 +2863,7 @@
 <Entry frequency="17900000">CEO<engacro>Chief Executive Officer</engacro>
         <acronyms>
             <translations>
-                <translation termcat="true" gender="mf">conseller delegat</translation>
+                <translation termcat="true" catagory="work-job" gender="mf">conseller delegat</translation>
             </translations>
         </acronyms>
     </Entry>
@@ -3348,9 +3438,14 @@
     </Entry>
 <Entry frequency="48400000">charter<nouns>
         <translations>
-            <translation catagory="transport" gender="m">xàrter<engexamp>Charter flight</engexamp><catexamp>Vol xàrter</catexamp></translation>
+            <translation catagory="transport" gender="m">xàrter</translation>
         </translations>
     </nouns>
+        <expressions>charter flight
+            <translations>
+                <translation catagory="transport" gender="m">vol xàrter</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="11800000">chase<verbs>
         <translations>
@@ -3552,10 +3647,15 @@
     </Entry>
 <Entry frequency="6490000">check-in<nouns>
         <translations><date>0408</date>
-            <translation disambiguate="transport" termcat="true" gender="f">(aeroport) facturació<engexamp>Check-in desk</engexamp><catexamp>Taulell de facturació</catexamp></translation>
+            <translation disambiguate="transport" termcat="true" gender="f">(aeroport) facturació</translation>
             <translation termcat="true" gender="f">(hotel) entrada<engnote>For the phrasal verb 'check in', see the entry 'check'.</engnote></translation>
         </translations>
     </nouns>
+        <expressions>check-in desk
+            <translations>
+                <translation gender="m">taulell de facturació</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="1200000">checking account<nouns>
         <translations>
@@ -3608,9 +3708,14 @@
 <Entry frequency="3650000">cheek<nouns>
         <translations>
             <translation disambiguate="body" gender="f">galta</translation>
-            <translation gender="f">barra<engexamp>What (a) cheek!</engexamp><catexamp>Quina barra! / quines penques!</catexamp></translation>
+            <translation gender="f">barra</translation>
         </translations>
     </nouns>
+        <expressions>what (a) cheek
+            <translations>
+                <translation>quina barra! / quines penques!</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="405000">cheekbone<nouns>
         <translations>
@@ -3816,7 +3921,12 @@
     </nouns>
         <adjectives>
         <translations>
-        <translation>castany<engexamp>Chestnut-coloured (Br.) / colored (Am.)</engexamp><catexamp>Castany</catexamp></translation></translations></adjectives>
+        <translation>castany</translation></translations></adjectives>
+        <expressions>chestnut-coloured (Br.) / -colored (Am.)
+            <translations>
+                <translation>castany</translation>
+            </translations>
+        </expressions>
         <expressions>pull someone's chestnuts out of the fire
             <translations>
                 <translation>treure les castanyes del foc a algú</translation>
@@ -4503,58 +4613,42 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="17400000">Christmas<nouns>
-        <translations>
-            <translation gender="m">Nadal<engexamp>Christmas card</engexamp>
-                <catexamp>Nadala / felicitació de Nadal</catexamp>
-                <engexamp>Christmas carol</engexamp>
-                <catexamp>Cançó de Nadal / nadala</catexamp>
-                <engexamp>Christmas Day</engexamp>
-                <catexamp>Dia de Nadal</catexamp>
-                <engexamp>Christmas Eve</engexamp>
-                <catexamp>Nit de Nadal</catexamp>
-                <engexamp>Christmas tree</engexamp>
-                <catexamp>Arbre de Nadal</catexamp>
-                <engexamp>Merry Christmas!</engexamp>
-                <catexamp>Bon Nadal!</catexamp>
-            </translation>
+<Entry frequency="472000000">Christmas<nouns>
+        <translations><date>0708</date>
+            <translation gender="m">Nadal</translation>
+            <translation beforenoun="true">nadalenc<engexamp>Christmas traditions</engexamp><catexamp>Tradicions nadalenques</catexamp></translation>
         </translations>
     </nouns>
-        <adjectives>
+        <expressions>Christmas card
             <translations>
-                <translation>nadalenc</translation>
+                <translation gender="f">nadala / felicitació de Nadal</translation>
             </translations>
-        </adjectives>
-    </Entry>
-<Entry frequency="1110000">Christmas card<nouns>
-        <translations>
-            <translation gender="f">nadala / felicitació de Nadal</translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="1060000">Christmas carol<nouns>
-        <translations>
-            <translation gender="f">nadala / cançó de Nadal</translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="1830000">Christmas Day<nouns>
-        <translations>
-            <translation gender="m">dia de Nadal</translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="1420000">Christmas Eve<nouns>
-        <translations>
-            <translation gender="f">nit de Nadal</translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="2530000">Christmas tree<nouns>
-        <translations>
-            <translation gender="m">arbre de Nadal</translation>
-        </translations>
-    </nouns>
+        </expressions>
+        <expressions>Christmas carol
+            <translations>
+                <translation gender="f">cançó de Nadal / nadala</translation>
+            </translations>
+        </expressions>
+        <expressions>Christmas Day
+            <translations>
+                <translation gender="m">dia de Nadal</translation>
+            </translations>
+        </expressions>
+        <expressions>Christmas Eve
+            <translations>
+                <translation gender="f">nit de Nadal</translation>
+            </translations>
+        </expressions>
+        <expressions>Christmas tree
+            <translations>
+                <translation gender="m">arbre de Nadal</translation>
+            </translations>
+        </expressions>
+        <expressions>Merry Christmas
+            <translations>
+                <translation>Bon Nadal!</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="3220000">chromatin<nouns>
         <translations>
@@ -4594,11 +4688,14 @@
     </Entry>
 <Entry frequency="5200000">chronological<adjectives>
         <translations>
-            <translation>cronològic<engexamp>In chronological order</engexamp>
-                <catexamp>Per ordre cronològic</catexamp>
-            </translation>
+            <translation>cronològic</translation>
         </translations>
     </adjectives>
+        <expressions>in chronological order
+            <translations>
+                <translation>per ordre cronològic</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="411000">chronologically<adverbs>
         <translations>
@@ -4620,9 +4717,19 @@
     </Entry>
 <Entry frequency="2090000">chubby<adjectives>
         <translations>
-            <translation>grassó / grassonet<engexamp>Chubby cheeks</engexamp><catexamp>Galtones</catexamp><engexamp>Chubby-cheeked</engexamp><catexamp>Galtaplè</catexamp></translation>
+            <translation>grassó / grassonet</translation>
         </translations>
     </adjectives>
+        <expressions>chubby cheeks
+            <translations>
+                <translation gender="f">galtones</translation>
+            </translations>
+        </expressions>
+        <expressions>chubby-cheeked
+            <translations>
+                <translation>galtaplé</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="7000000">chuck<nouns>
         <translations>
@@ -4700,9 +4807,14 @@
     </Entry>
 <Entry frequency="1460000">chutzpah<nouns>
         <translations>
-            <translation gender="f">descaradura / audàcia / insolència / cara dura<engnote>Although widespread, 'cara dura' is considered by some dictionaries to be a Castilianism. A less frequently used (but more 'Catalan') alternative would be 'cara gruixuda'.</engnote><engexamp>To have chutzpah</engexamp><catexamp>Tenir barra / ser un barrut / tenir galtes</catexamp></translation>
+            <translation gender="f">descaradura / audàcia / insolència / cara dura<engnote>Although widespread, 'cara dura' is considered by some dictionaries to be a Castilianism. A less frequently used (but more 'Catalan') alternative would be 'cara gruixuda'.</engnote></translation>
         </translations>
     </nouns>
+        <expressions>have (got) chutzpah
+            <translations>
+                <translation>tenir barra / ser un barrut / tenir galtes</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="26700">ciabatta<nouns>
         <translations>
@@ -5071,12 +5183,15 @@
     </Entry>
 <Entry frequency="800000">classified<adjectives>
         <translations>
-            <translation>secret / confidencial<engexamp>Classified information</engexamp>
-                <catexamp>Informació confidencial</catexamp>
-            </translation>
+            <translation>secret / confidencial</translation>
             <translation>classificat</translation>
         </translations>
     </adjectives>
+        <expressions>classified information
+            <translations>
+                <translation gender="ffullform">informació confidencial</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="29300000">classifieds<nouns>
         <translations>
@@ -5144,9 +5259,19 @@
 <Entry frequency="922000">clay court<nouns>
         <translations>
             <translation catagory="sports-event-tennis" gender="f">pista de tennis de terra batuda</translation>
-            <translation catagory="sports-event-tennis" beforenoun="true">sobre / en terra batuda<engexamp>Clay-court specialists</engexamp><catexamp>Especialistes en terra batuda</catexamp><engexamp>Clay-court tennis</engexamp><catexamp>Tennis sobre terra batuda</catexamp></translation>
+            <translation catagory="sports-event-tennis" beforenoun="true">sobre / en terra batuda</translation>
         </translations>
     </nouns>
+        <expressions>clay-court specialist
+            <translations>
+                <translation catagory="sports-event-tennis" gender="mf">especialista en terra batuda</translation>
+            </translations>
+        </expressions>
+        <expressions>clay-court tennis
+            <translations>
+                <translation catagory="sports-event-tennis" gender="m">tennis sobre terra batuda</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="34700000">clean<verbs>
         <translations>
@@ -5204,17 +5329,19 @@
     </Entry>
 <Entry frequency="1280000">cleaning<nouns>
         <translations>
-            <translation gender="f">neteja<engexamp>Street cleaning</engexamp>
-                <catexamp>Neteja viària</catexamp>
-            </translation>
+            <translation gender="f">neteja</translation>
         </translations>
     </nouns>
-    </Entry>
-<Entry frequency="657000">cleaning services<nouns>
-        <translations>
-            <translation gender="mpl">serveis de neteja</translation>
-        </translations>
-    </nouns>
+        <expressions>cleaning services
+            <translations>
+                <translation gender="mpl">serveis de neteja</translation>
+            </translations>
+        </expressions>
+        <expressions>street cleaning
+            <translations>
+                <translation gender="f">neteja viària</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="2300000">cleanliness<nouns>
         <translations>
@@ -5266,7 +5393,12 @@
     </nouns>
         <adjectives>
         <translations>
-        <translation>de compensació<engexamp>Clearing house</engexamp><catexamp>Cambra de compensació</catexamp></translation></translations></adjectives>
+        <translation>de compensació</translation></translations></adjectives>
+        <expressions>clearing house
+            <translations>
+                <translation catagory="financial" gender="f">cambra de compensació</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="34300000">clearly<adverbs>
         <translations>
@@ -5290,7 +5422,7 @@
     </Entry>
 <Entry frequency="5570000">cleave<verbs>
         <translations>
-            <translation>partir<engexamp>Cloven hooves</engexamp><catexamp>Peülles partides</catexamp></translation>
+            <translation>partir</translation>
         </translations>
     </verbs>
         <phrasalverbs>cleave to (something)
@@ -5298,6 +5430,11 @@
                 <translation register="literary">aferrar-se a (alguna cosa)<catnote>'To cleave to (something)' és una expressió literària. Una expressió molt més comuna seria 'to cling to (something)'.</catnote></translation>
             </translations>
         </phrasalverbs>
+        <expressions>cloven hooves
+        <translations>
+            <translation gender="fpl">peülles partides</translation>
+        </translations>
+        </expressions>
     </Entry>
 <Entry frequency="31100">cleft sentence<nouns>
         <translations>
@@ -5347,21 +5484,27 @@
     </Entry>
 <Entry frequency="362000000">click<verbs>
             <translations><date>0508</date>
-            <translation disambiguate="computers" termcat="true">fer (un) clic / clicar<engexamp>Double click (on)</engexamp>
-                <catexamp>Fer doble clic (sobre/a/en)</catexamp>
-            </translation>
+            <translation disambiguate="computers" termcat="true">fer (un) clic / clicar</translation>
         </translations>
     </verbs>
         <nouns>
             <translations>
-                <translation disambiguate="computers" termcat="true" gender="m">clic<engexamp>Double click</engexamp>
-                    <catexamp>Doble clic</catexamp>
-                </translation>
+                <translation disambiguate="computers" termcat="true" gender="m">clic</translation>
             </translations>
         </nouns>
         <expressions>click-through
             <translations>
                 <translation catagory="computers" termcat="true" gender="m">clic d'entrada</translation>
+            </translations>
+        </expressions>
+        <expressions>double click
+            <translations>
+                <translation catagory="computers" gender="m">doble clic</translation>
+            </translations>
+        </expressions>
+        <expressions>double click (on)
+            <translations>
+                <translation catagory="computers">fer doble clic (sobre / a / en)</translation>
             </translations>
         </expressions>
         <expressions>pay-per-click
@@ -5441,12 +5584,27 @@
 </Entry>
 <Entry frequency="4000000">clinch<verbs>
         <translations>
-            <translation>tancar / cloure / aconseguir<engexamp>To clinch a deal</engexamp><catexamp>Tancar un tracte</catexamp><engexamp>To clinch victory</engexamp><catexamp>Aconseguir la victòria</catexamp><engexamp>The clinching argument</engexamp><catexamp>L'argument que rebla el clau</catexamp></translation>
+            <translation>tancar / cloure / aconseguir</translation>
         </translations>
     </verbs>
         <nouns>
         <translations>
         <translation gender="f">abraçada</translation></translations></nouns>
+        <expressions>clinch a deal
+            <translations>
+                <translation>tancar un tracte</translation>
+            </translations>
+        </expressions>
+        <expressions>clinch victory
+            <translations>
+                <translation>aconseguir la victòria</translation>
+            </translations>
+        </expressions>
+        <expressions>clinching argument
+            <translations>
+                <translation gender="m">argument que rebla el clau</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="842000">cling<verbs>
         <past>clung</past>
@@ -5491,7 +5649,7 @@
 	</Entry>
 <Entry frequency="28600000">clip<nouns>
         <translations>
-            <translation gender="m">clip<engexamp>Clip round the ear (Br.)</engexamp><catexamp>Clatellot</catexamp></translation>
+            <translation gender="m">clip</translation>
         </translations>
     </nouns>
         <verbs double="true">
@@ -5499,6 +5657,11 @@
             <translation>retallar / tallar</translation>
             <translation>subjectar</translation>
         </translations></verbs>
+        <expressions>clip round the ear
+            <translations>
+                <translation local="gb">clatellot</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="1990000">clipboard<nouns>
         <translations>
@@ -5594,9 +5757,14 @@
     </Entry>
 <Entry frequency="4590000">cloning<nouns>
         <translations>
-            <translation gender="f">clonació<engexamp>Human cloning</engexamp><catexamp>Clonació humana</catexamp></translation>
+            <translation catagory="biology" gender="f">clonació</translation>
         </translations>
     </nouns>
+        <expressions>human cloning
+            <translations>
+                <translation catagory="biology" gender="f">clonació humana</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="173000000">close<verbs>
         <translations>
@@ -5638,9 +5806,9 @@
                 </phrasalverbs>
         <adjectives>
             <translations>
-                <translation>pròxim / a prop<engexamp>Close to</engexamp><catexamp>Prop de / arran de</catexamp><synonyms>near</synonyms>
+                <translation>pròxim / a prop<synonyms>near</synonyms>
                 </translation>
-                <translation>íntim<engexamp>Close friends</engexamp><catexamp>Amics íntims</catexamp></translation>
+                <translation>íntim</translation>
             </translations>
         </adjectives>
         <nouns>
@@ -5648,10 +5816,20 @@
                 <translation local="gb" gender="m">atzucac<otherlocal>dead-end street</otherlocal><synonyms>cul-de-sac, no through road</synonyms><catnote>Amb el sentit 'atzucac', 'close' s'usa sobretot en els noms dels carrers (p.e. 'He lives in Castle Close').</catnote></translation>
                 </translations>
         </nouns>
+        <expressions>close friends
+            <translations>
+                <translation gender="mpl">amics íntims</translation>
+            </translations>
+        </expressions>
         <expressions>close on (or to)
         <translations>
             <translation>prop de<example>My weekly train ticket costs &lt;b&gt;close on&lt;/b&gt; $100.</example><example>&lt;b&gt;Close on&lt;/b&gt; 300 people turned up.</example><example>&lt;b&gt;Close to&lt;/b&gt; 400 runners took part in the race.</example></translation>
         </translations>
+        </expressions>
+        <expressions>close to
+            <translations>
+                <translation>prop de / arran de<example>The cathedral is &lt;close to&lt;/b&gt; the station.</example><synonyms>near</synonyms></translation>
+            </translations>
         </expressions>
     </Entry>
 <Entry frequency="26900000">closed<adjectives>
@@ -5696,7 +5874,7 @@
     </Entry>
 <Entry frequency="8920000">clot<nouns>
 			<translations><date>1007</date>
-				<translation disambiguate="medical" gender="m">coàgul<engexamp>Blood clot</engexamp><catexamp>Coàgul de sang</catexamp></translation>
+				<translation disambiguate="medical" gender="m">coàgul</translation>
                                 <translation local="gb" register="dated" gender="mf">idiota</translation>
 			</translations>
 		</nouns>
@@ -5705,6 +5883,11 @@
                         <translation>coagular-se</translation>
                         </translations>
                         </verbs>
+                        <expressions>blood clot
+                            <translations>
+                                <translation catagory="medical" gender="m">coàgul de sang</translation>
+                            </translations>
+                        </expressions>
 	</Entry>
 <Entry frequency="9390000">cloth<nouns>
         <translations>
@@ -5717,21 +5900,34 @@
     </Entry>
 <Entry frequency="24300000">clothes<nouns>
         <translations>
-            <translation gender="f">roba<engexamp>To take your clothes off</engexamp><catexamp>Despullar-se</catexamp><engexamp>Bed clothes</engexamp><catexamp>Roba de llit</catexamp></translation>
+            <translation gender="f">roba</translation>
         </translations>
     </nouns>
-    </Entry>
-<Entry frequency="2100000">clothes dryer<nouns>
-                            <translations><date>0508</date>
-                                <translation catagory="household-room-kitchen" gender="f">assecadora (de roba)<catnote>Molt sovint es diu senzillament 'dryer'.</catnote><synonyms>tumble dryer</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="135000">clothes line<nouns>
+    <expressions>clothes dryer
         <translations>
-            <translation local="gb" gender="m">estenedor<synonyms>washing line (Br.) / line</synonyms></translation>
+            <translation catagory="household-room-kitchen" gender="f">assecadora (de roba)<catnote>Molt sovint es diu senzillament 'dryer'.</catnote><synonyms>tumble dryer</synonyms></translation>
         </translations>
-    </nouns>
+    </expressions>
+    <expressions>clothes line
+        <translations>
+            <translation local="gb" gender="m">estenedor<synonyms>washing line (Br.), line</synonyms></translation>
+        </translations>
+    </expressions>
+    <expressions>bed clothes
+        <translations>
+            <translation catagory="household-room-bedroom" gender="f">roba de llit</translation>
+        </translations>
+        </expressions>
+        <expressions>put your clothes on
+            <translations>
+                <translation>vestir-se<synonyms>dress, get dressed</synonyms></translation>
+            </translations>
+        </expressions>
+        <expressions>take your clothes off
+            <translations>
+                <translation>despullar-se<synonyms>undress, get undressed</synonyms></translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="47800000">clothing<nouns>
         <translations>
@@ -6389,11 +6585,14 @@
 </Entry>
 <Entry frequency="32600000">collaboration<nouns>
         <translations>
-            <translation gender="f">col·laboració<engexamp>In collaboration with</engexamp>
-                <catexamp>En col·laboració amb</catexamp>
-            </translation>
+            <translation gender="f">col·laboració</translation>
         </translations>
     </nouns>
+        <expressions>in collaboration with
+            <translations>
+                <translation>en col·laboració amb</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="487000">collaborator<nouns>
         <translations>

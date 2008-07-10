@@ -2446,12 +2446,10 @@
 <Entry frequency="52900">belly button ring<nouns>
 			<translations>
 				<translation gender="m">pírcing<engnote>'Pírcing' is a general term that can be used to refer to any body piercings (nose studs, belly button rings etc).</engnote>
-					<engexamp>fer-se un pírcing</engexamp>
-					<catexamp>to get a belly button ring / nose ring / nose stud / eyebrow ring etc.</catexamp>
-					<engexamp>Porta un pírcing al melic</engexamp>
-					<catexamp>He's got a belly button ring</catexamp>
-					<engexamp>Porta un pírcing al dent</engexamp>
-					<catexamp>He's got a tooth stud</catexamp>
+					<engexamp>To get a belly button ring</engexamp>
+					<catexamp>Fer-se un pírcing (al melic)</catexamp>
+					<engexamp>He's got a belly button ring</engexamp>
+					<catexamp>Porta un pírcing al melic</catexamp>
 				</translation>
 			</translations>
 		</nouns>
@@ -2577,7 +2575,7 @@
 <Entry frequency="31000000">benefit<nouns>
 			<translations>
 				<translation gender="m">benefici / avantatge</translation>
-                                <translation local="gb" gender="m">subsidi<engexamp>Unemployment benefit</engexamp><catexamp>Subsidi d'atur (o de desocupació)</catexamp></translation>
+                                <translation local="gb" gender="m">subsidi</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -2590,6 +2588,11 @@
                 <translation intransitive="true">beneficiar-se de</translation>
                 </translations>
             </phrasalverbs>
+            <expressions>unemployment benefit
+                <translations>
+                    <translation gender="m">subsidi d'atur (o de desocupació)</translation>
+                </translations>
+            </expressions>
 	</Entry>
 <Entry frequency="2300000">benevolence<nouns>
                             <translations><date>0508</date>
@@ -2753,10 +2756,7 @@
 			<translations>
 				<translation>apostar
 					<example>Simon &lt;b&gt;bet&lt;/b&gt; his friend £20 that he couldn't fit a whole Big Mac in his mouth in one go.</example>
-					<example>If you &lt;b&gt;bet&lt;/b&gt; £10 on a horse at 5-1 then you stand to win £50</example>
-					<engexamp>To bet on something</engexamp>
-					<catexamp>Apostar per alguna cosa</catexamp>
-				</translation>
+					<example>If you &lt;b&gt;bet&lt;/b&gt; £10 on a horse at 5-1 then you stand to win £50</example></translation>
                                 <translation>jugar-se<example>I'll &lt;b&gt;bet&lt;/b&gt; you anything you like he won't show up</example></translation>
 			</translations>
 		</verbs>
@@ -2882,9 +2882,14 @@
 	</Entry>
 <Entry frequency="1520000">bicarbonate<nouns>
 			<translations><date>0707</date>
-				<translation catagory="chemistry" gender="m">hidrogencarbonat<engexamp>Sodium bicarbonate</engexamp><catexamp>Hidrogencarbonat de sodi</catexamp></translation>
+				<translation catagory="chemistry" gender="m">hidrogencarbonat</translation>
 			</translations>
 		</nouns>
+                <expressions>sodium bicarbonate
+                    <translations>
+                        <translation catagory="chemistry" gender="m">hidrogencarbonat de sodi</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3040000">bicker<verbs>
 			<translations>
@@ -3095,16 +3100,22 @@
 				<translation catagory="financial" gender="f">factura</translation>
 				<translation local="gb" gender="m">compte<otherlocal>check</otherlocal>
 				</translation>
-				<translation gender="m">projecte de llei<engexamp>Bill of Rights</engexamp>
-					<catexamp>Declaració de Drets</catexamp>
-				</translation>
+				<translation gender="m">projecte de llei</translation>
 				<translation disambiguate="animal" gender="m">bec</translation>
-				<translation local="us" disambiguate="financial" gender="m">bitllet<engexamp>A five dollar bill</engexamp>
-					<catexamp>Un bitllet de cinc dòlars</catexamp>
-					<otherlocal>note</otherlocal>
+				<translation local="us" disambiguate="financial" gender="m">bitllet<otherlocal>note</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>Bill of Rights
+                    <translations>
+                        <translation gender="f">Declaració de Drets</translation>
+                    </translations>
+                </expressions>
+                <expressions>(five / ten...) dollar bill
+                    <translations>
+                        <translation gender="m">bitllet de (cinc / deu...) dòlars</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2890000">billable<adjectives>
 			<translations>
@@ -3120,9 +3131,14 @@
 	</Entry>
 <Entry frequency="3350000">billiards<nouns>
 			<translations>
-				<translation catagory="sports-event" gender="m">billar<engexamp>Billiards hall</engexamp><catexamp>Billar</catexamp></translation>
+				<translation catagory="sports-event" gender="m">billar</translation>
 			</translations>
 		</nouns>
+                <expressions>billiards hall
+                    <translations>
+                        <translation catagory="sports" gender="m">billar</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="248000000">billion<nouns>
 			<translations>
@@ -3478,13 +3494,18 @@
 <Entry frequency="19900000">bird<nouns>
 			<translations>
 				<grouptranslation catagory="animal"><translation gender="m">ocell</translation>
-					<translation gender="f">au</translation><engexamp>Baby bird</engexamp><catexamp>Ocellet</catexamp></grouptranslation>
+					<translation gender="f">au</translation></grouptranslation>
 			</translations>
 		</nouns>
                 <expressions>bird's eye view
                 <translations>
                 <translation>vista d'ocell<engexamp>A bird's eye view of Barcelona</engexamp><catexamp>Barcelona a vista d'ocell</catexamp></translation>
                 </translations>
+                </expressions>
+                <expressions>baby bird
+                    <translations>
+                        <translation catagory="animal" gender="m">ocellet</translation>
+                    </translations>
                 </expressions>
 	</Entry>
 <Entry frequency="159000">birdbrain<nouns>
@@ -3545,9 +3566,14 @@
 	</Entry>
 <Entry frequency="11200000">birth control<nouns>
 			<translations>
-				<translation gender="m">control de natalitat<engexamp>Birth-control pill</engexamp><catexamp>Píndola anticonceptiva</catexamp></translation>
+				<translation catagory="medical" gender="m">control de natalitat</translation>
 			</translations>
 		</nouns>
+                <expressions>birth-control pill
+                    <translations>
+                        <translation catagory="medical" gender="f">píndola anticonceptiva</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="5510000">birth date<nouns>
 			<translations>
@@ -3930,9 +3956,14 @@
 	</Entry>
 <Entry frequency="4330000">bladder<nouns>
 			<translations>
-				<translation gender="f">bufeta<engexamp>Gall bladder</engexamp><catexamp>Vesícula biliar</catexamp></translation>
+				<translation catagory="body" gender="f">bufeta</translation>
 			</translations>
 		</nouns>
+                <expressions>gall bladder
+                    <translations>
+                        <translation catagory="body" gender="f">vesícular biliar</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="8000">bladdered<adjectives>
 			<translations>
@@ -4179,7 +4210,7 @@
 	</Entry>
 <Entry frequency="14800000">blind<adjectives>
                             <translations><date>0408</date>
-				<translation>cec<engexamp>Blind date</engexamp><catexamp>Cita a cegues</catexamp></translation>
+				<translation>cec</translation>
 			</translations>
 		</adjectives>
 		<nouns>
@@ -4267,9 +4298,14 @@
 <Entry frequency="1570000">blister<nouns>
 			<translations>
 				<translation disambiguate="medical" gender="f">butllofa</translation>
-                                <translation gender="f">bombolla<engexamp>Blister pack</engexamp><catexamp>Blister / envoltori</catexamp></translation>
+                                <translation gender="f">bombolla</translation>
 			</translations>
 		</nouns>
+                <expressions>blister pack
+                    <translations>
+                        <translation gender="m">blister / envoltori</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="468000">blistering<adjectives>
 			<translations>
@@ -4396,9 +4432,19 @@
 	</Entry>
 <Entry frequency="8900000">blood cell<nouns>
 			<translations>
-				<translation catagory="biology" gender="m">glòbul de la sang<engexamp>Red blood cells</engexamp><catexamp>Glòbuls vermells</catexamp><engexamp>White blood cells</engexamp><catexamp>Glòbuls blancs</catexamp></translation>
+				<translation catagory="biology" gender="m">glòbul de la sang</translation>
 			</translations>
 		</nouns>
+                <expressions>red blood cells
+                    <translations>
+                        <translation catagory="biology" gender="mpl">glòbuls vermells</translation>
+                    </translations>
+                </expressions>
+                <expressions>white blood cells
+                    <translations>
+                        <translation catagory="biology" gender="mpl">glòbuls blancs</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1610000">blood donor<nouns>
 			<translations>
@@ -4533,7 +4579,7 @@
 			<translations>
 				<translation>blau</translation>
                                 <translation register="colloquial">trist</translation>
-                                <translation>verd<engexamp>Blue jokes</engexamp><catexamp>Acudits verds</catexamp></translation>
+                                <translation>verd</translation>
 			</translations>
 		</adjectives>
                 <nouns>
@@ -4541,6 +4587,11 @@
                 <translation sourceplural="blues" catagory="entertainment-music" gender="mpl">blues</translation>
                	<translation sourceplural="The Blues" catagory="sports, encyclopaedic" register="colloquial" local="gb">sobrenom dels següents equips de futbol anglesos: Birmingham City, Chelsea, Everton i Manchester City i l'equip escocès Stranraer FC</translation>
                 </translations></nouns>
+                <expressions>blue joke
+                    <translations>
+                        <translation gender="m">acudit verd</translation>
+                    </translations>
+                </expressions>
                 <expressions>out of the blue
                 <translations>
                 <translation>inesperadament</translation></translations></expressions>
@@ -4559,9 +4610,19 @@
 	</Entry>
 <Entry frequency="4970000">blue-collar<nouns>
 			<translations>
-				<translation beforenoun="true">de fàbrica / obrer<engexamp>Blue-collar worker</engexamp><catexamp>Treballador de fàbrica</catexamp><engexamp>Blue-collar voter</engexamp><catexamp>El votant obrer</catexamp></translation>
+				<translation beforenoun="true">de fàbrica / obrer</translation>
 			</translations>
 		</nouns>
+                <expressions>blue-collar voter
+                    <translations>
+                        <translation catagory="politics" gender="mf">votant obrer</translation>
+                    </translations>
+                </expressions>
+                <expressions>blue-collar worker
+                    <translations>
+                        <translation catagory="work" gender="mf">treballador de fàbrica</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1340000">blueprint<nouns>
 			<translations>
@@ -4658,9 +4719,7 @@
 	</Entry>
 <Entry frequency="10900000">board<nouns>
 			<translations>
-				<translation gender="m">post<engexamp>Ironing board</engexamp>
-					<catexamp>Post de planxar</catexamp>
-				</translation>
+				<translation gender="m">post</translation>
 				<translation disambiguate="sports" gender="f">planxa</translation>
 				<grouptranslation catagory="work"><translation gender="f">junta directiva</translation>
 					<translation gender="m">consell de direcció / patronat</translation></grouptranslation>
@@ -4668,11 +4727,7 @@
 					<engnote>'Pissarra' means 'board' as in 'blackboard'.</engnote>
 				</translation>
 				<translation gender="m">tauler</translation>
-				<translation gender="f">pensió<engexamp>Full board</engexamp>
-					<catexamp>Pensió completa</catexamp>
-					<engexamp>Half board</engexamp>
-					<catexamp>Mitja pensió</catexamp>
-				</translation>
+				<translation gender="f">pensió</translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -4690,6 +4745,21 @@
                         <translation transitive="true">tancar alguna cosa amb taulons de fusta</translation>
                     </translations>
                 </phrasalverbs>
+                <expressions>full board
+                    <translations>
+                        <translation gender="f">pensió completa</translation>
+                    </translations>
+                </expressions>
+                    <expressions>half board
+                        <translations>
+                            <translation gender="f">mitja pensió</translation>
+                        </translations>
+                    </expressions>
+                    <expressions>ironing board
+                    <translations>
+                        <translation gender="m">post de planxar</translation>
+                    </translations>
+                </expressions>
                 <expressions>on board
                 <translations>
                 <translation>a bord</translation>
@@ -4842,13 +4912,13 @@
 		</nouns>
                 <phrasalverbs>bog down
                 <translations>
-                <translation transitive="true">empantanegar / dificultar-li la feina (a algú)<engexamp>That debate will bog down the General Assembly for months</engexamp><catexamp>Aquest debat empantanegarà l'Assemblea General durant mesos</catexamp><engexamp>To become (or get) bogged down</engexamp><catexamp>Encallar-se / empantanegar-se</catexamp></translation>
+                <translation transitive="true">empantanegar / dificultar-li la feina (a algú)<engexamp>That debate will bog down the General Assembly for months</engexamp><catexamp>Aquest debat empantanegarà l'Assemblea General durant mesos</catexamp></translation>
                 <translation intransitive="true">alentir-se / funcionar irregularment<example>The mower was working fine until I hit some heavy grass, then it &lt;b&gt;bogged down&lt;/b&gt;.</example></translation>
             </translations>
             </phrasalverbs>
             <phrasalverbs>get bogged down
                 <translations>
-                    <translation intransitive="true">encallar-se</translation>
+                    <translation intransitive="true">encallar-se / empantanegar-se</translation>
                 </translations>
             </phrasalverbs>
                 <exclamations>bog off
@@ -4954,12 +5024,17 @@
 	</Entry>
 <Entry frequency="320000">bollocks<nouns>
 			<translations>
-				<translation disambiguate="body" register="vulgar" local="gb" gender="mpl">collons<engexamp>The dog's bollocks</engexamp><catexamp>Molt bo / excel·lent</catexamp><synonyms>nuts (vulg.), balls (vulg.)</synonyms>
+				<translation disambiguate="body" register="vulgar" local="gb" gender="mpl">collons<synonyms>nuts (vulg.), balls (vulg.)</synonyms>
 				</translation>
 				<translation register="vulgar" local="gb">equivocat / incorrecte<synonyms>rubbish, crap</synonyms>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>the dog's bollocks
+                    <translations>
+                        <translation local="gb" register="vulgar">molt bo / excel·lent</translation>
+                    </translations>
+                </expressions>
 		<exclamations>
 			<translations>
 				<translation register="vulgar">collons!<synonyms>shit (vulg.), damn (vulg.), fuck (vulg.), bugger it (vulg.)</synonyms>
@@ -5011,9 +5086,14 @@
 	</Entry>
 <Entry frequency="36800000">bomb<nouns>
 			<translations>
-				<translation gender="f">bomba<engexamp>Bomb disposal expert / officer</engexamp><catexamp>Artificier</catexamp></translation>
+				<translation gender="f">bomba</translation>
 			</translations>
 		</nouns>
+                <expressions>bomb disposal expert (o officer)
+                    <translations>
+                        <translation catagory="work-job" gender="mf">artificier</translation>
+                    </translations>
+                </expressions>
                 <expressions>cost a bomb
                 <translations>
                 <translation>costar un ull de la cara / costar un ronyó<synonyms>cost an arm and a leg, cost a fortune</synonyms></translation></translations></expressions>
@@ -5294,10 +5374,15 @@
 	</Entry>
 <Entry frequency="152000000">booth<nouns>
 			<translations>
-				<translation gender="f">cabina<engexamp>Phone booth</engexamp><catexamp>Cabina telefònica</catexamp></translation>
+				<translation gender="f">cabina</translation>
                                 <translation gender="m">estand<engnote>'Estand' means a 'booth' (stand) at, for example, an exhibition.</engnote></translation>
 			</translations>
 		</nouns>
+                <expressions>phone booth
+                <translations>
+                    <translation gender="f">cabina telefònica</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1270000">bootleg<adjectives>
 			<translations>
@@ -5647,7 +5732,7 @@
 			<translations><date>0708</date>
 				<translation gender="m">llaç<engnote>'Llaç' means 'bow' in the sense 'he tied the ribbon into a bow'.</engnote>
 				</translation>
-				<translation gender="m">arc<engexamp>Bow and arrows</engexamp><catexamp>Arc i fletxes</catexamp><engnote>'Arc' means 'bow' as in 'bow and arrow'.</engnote>
+				<translation gender="m">arc<engnote>'Arc' means 'bow' as in 'bow and arrow'.</engnote>
 				</translation>
                                 <translation catagory="entertainment-music" gender="m">arquet<engnote>'Arquet' means 'bow' in the sense 'implement used for playing a stringed instrument'.</engnote></translation>
 			</translations>
@@ -5662,18 +5747,23 @@
 				</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>bow out<translations><translation intransitive="true">retirar-se, no participar</translation></translations></phrasalverbs></Entry>
+	<phrasalverbs>bow out<translations><translation intransitive="true">retirar-se, no participar</translation></translations></phrasalverbs>
+        <expressions>bow and arrows
+            <translations>
+                <translation>arc i fletxes</translation>
+            </translations>
+        </expressions>
+    </Entry>
 <Entry frequency="15800000">bowel<nouns>
 			<translations>
-				<translation catagory="body" gender="m">intestí gros<engexamp>Bowel movement</engexamp><catexamp>Evacuació intestinal</catexamp></translation>
+				<translation catagory="body" gender="m">intestí gros</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="2160000">bowel movement<nouns>
-			<translations>
-				<translation gender="f">evacuació intestinal</translation>
-			</translations>
-		</nouns>
+                <expressions>bowel movement
+                    <translations>
+                        <translation gender="f">evacuació intestinal</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="8830000">bowl<nouns>
 			<translations>
@@ -5734,11 +5824,14 @@
 	</Entry>
 <Entry frequency="8100000">box office<nouns>
 			<translations>
-				<translation gender="f">taquilla<engexamp>Box office hit</engexamp>
-					<catexamp>èxit de taquilla</catexamp>
-				</translation>
+				<translation gender="f">taquilla</translation>
 			</translations>
 		</nouns>
+                <expressions>box office hit
+                <translations>
+                    <translation gender="m">èxit de taquilla</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="49900000">boy<nouns>
 			<translations>
@@ -6060,13 +6153,13 @@
 					<example>The footballer was out for the entire season as he &lt;b&gt;broke&lt;/b&gt; his leg during training</example>
 				</translation>
                                 <translation>avariar<engnote>'Avariar' means 'to break' in the sense 'to stop working'.</engnote></translation>
-                                <translation disambiguate="legal">infringir / transgredir<engexamp>To break a law</engexamp><catexamp>Infringir / transgredir una llei</catexamp></translation>
+                                <translation disambiguate="legal">infringir / transgredir</translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
 				<translation gender="m">descans</translation>
-                                <translation gender="f">pausa<engexamp>(Commercial) break</engexamp><catexamp>Pausa (publicitària)</catexamp></translation>
+                                <translation gender="f">pausa</translation>
                                 <translation gender="f">ruptura</translation>
 			</translations>
 		</nouns>
@@ -6174,26 +6267,41 @@
                 <translation>separar-se d'(algú)</translation>
                 </translations>
                 </phrasalverbs>
+                <expressions>break a law
+                    <translations>
+                        <translation>infringir / transgredir una llei</translation>
+                    </translations>
+                </expressions>
+                <expressions>commercial break
+                    <translations>
+                        <translation gender="f">pausa publicitària</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="11200000">breakdown<nouns>
 			<translations>
 				<translation disambiguate="transport" gender="f">avaria<engnote>'Avaria' means 'breakdown' as in 'mechanical failure'.</engnote>
 				</translation>
-				<translation disambiguate="medical" gender="f">crisi<engnote>'Crisi' means 'breakdown' in the medical sense.</engnote>
-					<engexamp>Nervous breakdown</engexamp>
-					<catexamp>Crisi nerviosa</catexamp>
-				</translation>
+				<translation disambiguate="medical" gender="f">crisi<engnote>'Crisi' means 'breakdown' in the medical sense.</engnote></translation>
                                 <translation gender="m">desglossament<engnote>'Desglossament' means 'breakdown' in the sense 'the breakdown of the stages of the project'.</engnote></translation>
 			</translations>
 		</nouns>
+                <expressions>nervous breakdown
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">crisi nerviosa</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="36200000">breakfast<nouns>
 			<translations>
-				<translation catagory="food" gender="m">esmorzar<engexamp>To have breakfast</engexamp>
-					<catexamp>Esmorzar</catexamp>
-				</translation>
+				<translation catagory="food" gender="m">esmorzar</translation>
 			</translations>
 		</nouns>
+                <expressions>have breakfast
+                    <translations>
+                        <translation catagory="food">esmorzar</translation>
+                </translations>
+            </expressions>
 	</Entry>
 <Entry frequency="14500000">breaking news<nouns>
 			<translations>
@@ -6423,9 +6531,14 @@
 	</Entry>
 <Entry frequency="12200000">bride<nouns>
 			<translations>
-				<translation gender="f">núvia<engexamp>Bride and groom</engexamp><catexamp>Nuvis</catexamp></translation>
+				<translation gender="f">núvia</translation>
 			</translations>
 		</nouns>
+                <expressions>bride and groom
+                    <translations>
+                        <translation gender="mpl">nuvis</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="204000">bridegroom<nouns>
 			<translations>
@@ -6643,11 +6756,14 @@
 	<phrasalverbs>bring to<translations><translation transitive="true">1 refer (algú després d'un desmai) 2 en la nàutica, fer que un veler giri cap al vent o que pari</translation></translations></phrasalverbs><phrasalverbs>bring together<translations><translation transitive="true">reunir</translation></translations></phrasalverbs></Entry>
 <Entry frequency="974000">brink<nouns>
 			<translations>
-				<translation gender="m">caire<engexamp>On the brink of...</engexamp>
-					<catexamp>Al caire de...</catexamp>
-				</translation>
+				<translation gender="m">caire</translation>
 			</translations>
 		</nouns>
+                <expressions>on the brink of
+                    <translations>
+                        <translation>al caire de</translation>
+                </translations>
+            </expressions>
 	</Entry>
 <Entry frequency="407000">brinkmanship<nouns>
 			<translations>
@@ -6829,9 +6945,14 @@
 	</Entry>
 <Entry frequency="16600000">bronze<nouns>
 			<translations><date>0407</date>
-				<translation catagory="material" gender="m">bronze<engexamp>Bronze Age</engexamp><catexamp>Edat del Bronze</catexamp></translation>
+				<translation catagory="material" gender="m">bronze</translation>
 			</translations>
 		</nouns>
+                <expressions>Bronze Age
+                    <translations>
+                        <translation gender="f">Edat del Bronze</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2600000">broom<nouns>
 			<translations>
@@ -7148,26 +7269,43 @@
 		</nouns>
                 <adjectives>
                     <translations>
-                        <translation>de baix cost<engexamp>Budget airlines</engexamp><catexamp>Línies aèries de baix cost</catexamp></translation>
+                        <translation>de baix cost</translation>
                         </translations>
                         </adjectives>
+                        <expressions>budget airline
+                            <translations>
+                                <translation gender="f">línia aèria de baix cost</translation>
+                            </translations>
+                        </expressions>
 	</Entry>
 <Entry frequency="19200000">buff<adjectives>
 			<translations>
-				<translation>bru<engexamp>Buff envelope</engexamp><catexamp>Sobre marró</catexamp></translation>
+				<translation>bru</translation>
 			</translations>
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation gender="mf">afeccionat<engexamp>Film (Br.) / movie (Am.) buff</engexamp><catexamp>Cinèfil</catexamp></translation>
+                <translation gender="mf">afeccionat</translation>
                 </translations>
                 </nouns>
                 <verbs>
                 <translations>
-                <translation>enllustrar / abrillantar / polir</translation></translations></verbs>
+                <translation>enllustrar / abrillantar / polir</translation>
+                </translations>
+                </verbs>
+                <expressions>buff envelope
+                    <translations>
+                        <translation gender="m">sobre marró</translation>
+                    </translations>
+                </expressions>
                 <expressions>in the buff
                 <translations>
                 <translation register="colloquial">despullat</translation></translations></expressions>
+                <expressions>film (Br.) / movie (Am.) buff
+                    <translations>
+                        <translation catagory="mf">cinèfil</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="6220000">buffalo<nouns>
 			<translations>
@@ -7663,9 +7801,14 @@
 	</Entry>
 <Entry frequency="8870000">burger<nouns>
 			<translations>
-				<translation gender="f">hamburguesa<engexamp>Chicken burger</engexamp><catexamp>Hamburguessa de pollastre</catexamp></translation>
+				<translation catagory="food" gender="f">hamburguesa</translation>
 			</translations>
 		</nouns>
+                <expressions>chicken burger
+                    <translations>
+                        <translation catagory="food" gender="f">hamburguesa de pollastre</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="677000">burglar<nouns>
 			<translations>
@@ -7737,13 +7880,21 @@
 				</translation>
 			</translations>
 		</verbs>
-                <nouns>
-                <translations>
-                <translation gender="f">cremada<engexamp>Third-degree burns</engexamp><catexamp>Cremades de tercer grau</catexamp></translation></translations></nouns>
-                <phrasalverbs>burn up
+                 <phrasalverbs>burn up
                     <translations>
                         <translation intransitive="true">cremar-se completament</translation>
-                        <translation transitive="true">cremar completament / destruir amb foc</translation></translations></phrasalverbs></Entry>
+                        <translation transitive="true">cremar completament / destruir amb foc</translation>
+                    </translations>
+                </phrasalverbs>
+                <nouns>
+                <translations>
+                <translation catagory="medical" gender="f">cremada</translation></translations></nouns>
+                        <expressions>third-degree burns
+                            <translations>
+                                <translation gender="fpl">cremades de tercer grau</translation>
+                            </translations>
+                    </expressions>
+                </Entry>
 <Entry frequency="1800000">burning<adjectives>
 			<translations>
 				<translation>ardent</translation>
@@ -7755,11 +7906,14 @@
 	</Entry>
 <Entry frequency="1930000">burnout<nouns>
 			<translations>
-				<translation>desgast / esgotament / apatia
-					<engexamp>Burnout syndrome</engexamp><catexamp>Síndrome d'esgotament professional</catexamp>
-				</translation>
+				<translation>desgast / esgotament / apatia</translation>
 			</translations>
 		</nouns>
+                <expressions>burnout syndrome
+                    <translations>
+                        <translation gender="f">síndrome d'esgotament professional</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4080000">burp<verbs>
 
@@ -7790,16 +7944,43 @@
                                 <translation>desbordar<engnote>'Desbordar' means 'to burst' in the sense 'the river burst its banks'.</engnote></translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>burst forth
+                    <translations>
+                        <translation intransitive="true">brollar</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>burst in
+                    <translations>
+                        <translation intransitive="true">entrar d'un cop</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>burst into
+                    <translations>
+                <translation intransitive="true">entrar d'un cop a</translation>
+                <translation intransitive="true">(flames) abrandar-se</translation>
+                <translation intransitive="true">arrencar-se (a córrer, a plorar, a riure, etc.)</translation>
+                </translations>
+            </phrasalverbs>
+                <phrasalverbs>burst open
+                    <translations>
+                        <translation intransitive="true">obrir-se d'un cop</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>burst out
                 <translations>
                 <translation>esclafir (o esclatar)<engexamp>To burst out laughing</engexamp><catexamp>Esclafir (o esclatar) a riure</catexamp></translation>
                 <translation>sortir d'un cop</translation>
             </translations>
         </phrasalverbs>
+        	<phrasalverbs>burst out of
+                    <translations>
+                        <translation intransitive="true">sortir d'un cop de</translation>
+                    </translations>
+                </phrasalverbs>
                 <nouns>
                 <translations>
                 <translation gender="f">ràfega</translation></translations></nouns>
-	<phrasalverbs>burst forth<translations><translation intransitive="true">brollar</translation></translations></phrasalverbs><phrasalverbs>burst in<translations><translation intransitive="true">entrar d'un cop</translation></translations></phrasalverbs><phrasalverbs>burst into<translations><translation intransitive="true">1 entrar d'un cop a 2 (flames) abrandar-se 3 arrencar-se (a córrer, a plorar, a riure, etc.)</translation></translations></phrasalverbs><phrasalverbs>burst open<translations><translation intransitive="true">obrir-se d'un cop</translation></translations></phrasalverbs><phrasalverbs>burst out of<translations><translation intransitive="true">sortir d'un cop de</translation></translations></phrasalverbs></Entry>
+</Entry>
 <Entry frequency="3510000">Burundi<nouns>
 			<translations>
 				<translation catagory="country-africa" gender="m">Burundi</translation>
@@ -7978,7 +8159,7 @@
 	</Entry>
 <Entry frequency="3440000">butt<nouns>
 			<translations>
-				<translation disambiguate="body" local="us" gender="m">cul<engexamp>Butt ugly</engexamp><catexamp>Molt lleig</catexamp><otherlocal>bottom, arse (vulg.), backside (colloq.)</otherlocal>
+				<translation disambiguate="body" local="us" gender="m">cul<otherlocal>bottom, arse (vulg.), backside (colloq.)</otherlocal>
 				</translation>
 				<translation gender="m">objectiu<example>I'm sick of always being the &lt;b&gt;butt&lt;/b&gt; of his jokes</example>
 					<example>George W. Bush's speeches are the &lt;b&gt;butt&lt;/b&gt; of jokes worldwide</example>
@@ -7999,6 +8180,11 @@
                 <translation register="colloquial">abstenir-se de participar, sobretot en una conversa<example>Will you &lt;b&gt;butt out&lt;/b&gt;? This has got nothing to do with you!</example></translation>
                 </translations>
                 </phrasalverbs>
+                <expressions>butt ugly
+                    <translations>
+                        <translation local="us">molt lleig</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3870000">butter<nouns>
 			<translations>
@@ -8076,10 +8262,15 @@
 	<phrasalverbs>buzz off<translations><translation intransitive="true">(col·loq., imperatiu) Vés a pastar fang!</translation></translations></phrasalverbs></Entry>
 <Entry frequency="1280000">buzzard<nouns>
 			<translations>
-				<translation catagory="animal-bird" local="gb" gender="m">aligot<engexamp>Common buzzard</engexamp><catexamp>Aligot comú</catexamp><otherlocal>hawk</otherlocal></translation>
+				<translation catagory="animal-bird" local="gb" gender="m">aligot<otherlocal>hawk</otherlocal></translation>
                                 <translation catagory="animal-bird" local="us" gender="m">voltor</translation>
 			</translations>
 		</nouns>
+                <expressions>common buzzard
+                    <translations>
+                        <translation catagory="animal-bird" gender="m">aligot comú</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4870000000">by<prepositions>
                             <translations><date>1007</date>
