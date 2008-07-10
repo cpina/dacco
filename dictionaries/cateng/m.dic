@@ -1312,7 +1312,9 @@
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation gender="m / f">(person) from Maó<plural>maonesos</plural><fems>maonesa</fems></translation></translations></nouns>
+                <translation gender="m / f">(person) from Maó<plural>maonesos</plural><fems>maonesa</fems></translation>
+                </translations>
+                </nouns>
 	</Entry>
                 <Entry frequency="1680000">maori<nouns>
 			<translations>
@@ -1322,7 +1324,9 @@
 		</nouns>
                 <adjectives>
                 <translations>
-                <translation>Maori</translation></translations></adjectives>
+                <translation>Maori</translation>
+                </translations>
+                </adjectives>
 	</Entry>
 	<Entry frequency="150000">mapa<nouns>
 			<translations>
@@ -1396,6 +1400,16 @@
 				<translation gender="f">sea</translation>
 			</translations>
 		</nouns>
+                <expressions>Mar Caspi
+                    <translations>
+                        <translation catagory="geography" gender="m">Caspian Sea<engnote>Also, 'Mar Càspia'.</engnote></translation>
+                    </translations>
+                </expressions>
+                <expressions>Mar Negre
+                    <translations>
+                        <translation catagory="geography" gender="m">Black Sea</translation>
+                    </translations>
+                </expressions>
 	</Entry>
               <Entry frequency="1910">maraca<nouns>
 			<translations><date>0708</date>
@@ -1447,20 +1461,18 @@
 				<translation gender="f">brand</translation>
 			</translations>
 		</nouns>
+                <expressions>marca d'aigua
+                    <translations>
+                        <translation termcat="telecom" gender="f">watermark</translation>
+                    </translations>
+                </expressions>
+                <expressions>marca mínima
+                    <translations>
+                        <translation catagory="sports" gender="f">qualifying standard</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-                   <Entry frequency="1100">marca d'aigua<nouns>
-			<translations><date>1007</date>
-				<translation termcat="telecom" gender="f">watermark</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="160">marca mínima<nouns>
-			<translations>
-				<translation catagory="sports-event-athletics" gender="f">qualifying standard</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="2470">marcapassos<nouns>
+     	<Entry frequency="2470">marcapassos<nouns>
 			<translations><date>0408</date>
 				<translation catagory="medical-treatment" gender="m">pacemaker</translation>
 			</translations>
@@ -1479,18 +1491,6 @@
 			</translations>
 		</verbs>
 	</Entry>
-        <Entry frequency="333">Mar Caspi<nouns>
-			<translations><date>0406</date>
-				<translation catagory="geography" gender="m">Caspian Sea<engnote>Also, 'Mar Càspia'</engnote></translation>
-			</translations>
-		</nouns>
-                </Entry>
-<Entry frequency="197">Mar Càspia<nouns>
-			<translations><date>0406</date>
-				<translation catagory="geography" gender="f">Caspian Sea<engnote>Also, 'Mar Caspi'</engnote></translation>
-			</translations>
-		</nouns>
-                </Entry>
 	<Entry frequency="1030">marcià<nouns>
 			<translations>
 				<translation gender="m / f">Martian</translation>
@@ -1509,22 +1509,32 @@
 				<translation catagory="family-blood" gender="f">mother</translation>
 			</translations>
 		</nouns>
+                <expressions>mare soltera
+                    <translations>
+                        <translation gender="f">single mother</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-	<Entry frequency="3200">marea<nouns>
-			<translations>
-				<translation gender="f">tide<catexamp>Marea alta</catexamp>
-					<engexamp>High tide</engexamp>
-					<catexamp>Marea baixa</catexamp>
-					<engexamp>Low tide</engexamp>
-				</translation>
+	<Entry frequency="46800">marea<nouns>
+                            <translations><date>0708</date>
+				<translation gender="f">tide</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="1360">marea negra<nouns>
-			<translations>
-				<translation gender="f">oil slick</translation>
-			</translations>
-		</nouns>
+                <expressions>marea alta
+                    <translations>
+                        <translation gender="f">high tide</translation>
+                    </translations>
+                </expressions>
+                <expressions>marea baixa
+                    <translations>
+                        <translation gender="f">low tide</translation>
+                    </translations>
+                </expressions>
+                <expressions>marea negra
+                    <translations>
+                        <translation gender="f">oil slick</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1080">mareig<nouns>
 			<translations>
@@ -1543,12 +1553,6 @@
 	<Entry frequency="1500">maresme<nouns>
 			<translations>
 				<translation gender="m">marsh</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="340">mare soltera<nouns>
-			<translations>
-				<translation gender="f">single mother</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1577,11 +1581,16 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="41400">marge<nouns>
-			<translations>
+	<Entry frequency="730000">marge<nouns>
+                            <translations><date>0708</date>
 				<translation gender="m">margin</translation>
 			</translations>
 		</nouns>
+                <expressions>marge d'error
+                    <translations>
+                        <translation gender="m">margin of error</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="7610">marginació<nouns>
 			<translations>
@@ -1656,14 +1665,14 @@
 	<Entry frequency="48200">mariner<nouns>
 			<translations><date>0208</date>
 				<translation disambiguate="work-job" gender="m">sailor</translation>
-<translation disambiguate="geography" gender="m / f">(person / people) from Marines</translation>
+                                <translation disambiguate="geography" gender="m / f">(person / people) from Marines</translation>
 			</translations>
 		</nouns>
-<adjectives>
-<translations>
-<translation>relating to Marines or its people</translation>
-</translations>
-</adjectives>
+                <adjectives>
+                    <translations>
+                        <translation>relating to Marines or its people</translation>
+                    </translations>
+                </adjectives>
 	</Entry>
 	<Entry frequency="3220">marisc<nouns>
 			<translations>
@@ -1701,12 +1710,6 @@
 			</translations>
 		</adjectives>
 	</Entry>
-         <Entry frequency="680">Mar Negre<nouns>
-			<translations><date>0805</date>
-				<translation gender="m">Black Sea</translation>
-			</translations>
-		</nouns>
-	</Entry>
               <Entry frequency="49600">maror<nouns>
 			<translations><date>0907</date>
 				<translation gender="f">unease / disquiet / agitation / discontent</translation>
@@ -1726,7 +1729,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="0">marratxiner<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Marratxí</translation></translations></nouns><adjectives><translations><translation>relating to Marratxí or its people<fems>marratxinera</fems></translation></translations></adjectives></Entry>
+        <Entry frequency="812">marratxiner<nouns>
+                <translations><date>0708</date>
+                    <translation catagory="geography" gender="m / f">(person / people) from Marratxí</translation>
+                </translations>
+            </nouns>
+            <adjectives>
+                <translations>
+                    <translation>relating to Marratxí or its people<fems>marratxinera</fems></translation>
+                </translations>
+            </adjectives>
+        </Entry>
         <Entry frequency="607">marrec<nouns>
 			<translations><date>0505</date>
 				<translation catagory="animal-animal" gender="m">lamb</translation>
@@ -1797,7 +1810,7 @@
 	</Entry>
 	<Entry frequency="4240">Mart<nouns>
 			<translations>
-				<translation gender="m">Mars</translation>
+				<translation catagory="astronomy" gender="m">Mars</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1979,9 +1992,39 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="0">massalavesí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Massalavés</translation></translations></nouns><adjectives><translations><translation>relating to Massalavés or its people<plural>massalavesins</plural><fems>massalavesina</fems></translation></translations></adjectives></Entry>
-<Entry frequency="0">massalfassí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Massalfassar</translation></translations></nouns><adjectives><translations><translation>relating to Massalfassar or its people<plural>massalfassins</plural><fems>massalfassina</fems></translation></translations></adjectives></Entry>
-<Entry frequency="0">massamagrellenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Massamagrell</translation></translations></nouns><adjectives><translations><translation>relating to Massamagrell or its people<fems>massamagrellenca</fems><femplural>massamagrellenques</femplural></translation></translations></adjectives></Entry>
+        <Entry frequency="8">massalavesí<nouns>
+                <translations><date>0708</date>
+                    <translation catagory="geography" gender="m / f">(person / people) from Massalavés</translation>
+                </translations>
+            </nouns>
+            <adjectives>
+                <translations>
+                    <translation>relating to Massalavés or its people<plural>massalavesins</plural><fems>massalavesina</fems></translation>
+                </translations>
+            </adjectives>
+        </Entry>
+        <Entry frequency="35">massalfassí<nouns>
+                <translations><date>0708</date>
+                <translation catagory="geography" gender="m / f">(person / people) from Massalfassar</translation>
+            </translations>
+        </nouns>
+        <adjectives>
+            <translations>
+                <translation>relating to Massalfassar or its people<plural>massalfassins</plural><fems>massalfassina</fems></translation>
+            </translations>
+        </adjectives>
+    </Entry>
+    <Entry frequency="44">massamagrellenc<nouns>
+            <translations><date>0708</date>
+            <translation catagory="geography" gender="m / f">(person / people) from Massamagrell</translation>
+        </translations>
+    </nouns>
+    <adjectives>
+        <translations>
+            <translation>relating to Massamagrell or its people<fems>massamagrellenca</fems><femplural>massamagrellenques</femplural></translation>
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="0">massanasser<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Massanassa</translation></translations></nouns><adjectives><translations><translation>relating to Massanassa or its people<fems>massanassera</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="353">massapà<nouns>
 			<translations>
@@ -2138,22 +2181,30 @@
 	</Entry>
 	<Entry frequency="115000">matèria<nouns>
 			<translations>
-				<translation gender="f">material<catexamp>Primeres matèries</catexamp>
-					<engexamp>Raw materials</engexamp>
-				</translation>
+				<translation gender="f">material</translation>
 			</translations>
 		</nouns>
+                <expressions>primeres matèries
+                    <translations>
+                        <translation gender="fpl">raw materials</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="160000">material<adjectives>
 			<translations>
-				<translation>material</translation>
+				<translation>material / physical</translation>
 			</translations>
 		</adjectives>
-                <nouns>
-                <translations>
-                <translation gender="m">matter<catexamp>Material imprès</catexamp><engexamp>Printed matter</engexamp><catexamp>Material de lectura</catexamp><engexamp>Reading matter / material</engexamp></translation>
-                </translations>
-                </nouns>
+                <expressions>material de lectura
+                    <translations>
+                        <translation gender="m">reading matter (o material)</translation>
+                    </translations>
+                </expressions>
+                <expressions>material imprès
+                    <translations>
+                        <translation gender="m">printed matter</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1200">materialista<nouns>
 			<translations>
@@ -2169,11 +2220,14 @@
 	</Entry>
 	<Entry frequency="124000">maternitat<nouns>
 			<translations><date>0807</date>
-				<translation gender="f">maternity / motherhood<catexamp>Permís de maternitat</catexamp>
-					<engexamp>Maternity leave</engexamp>
-				</translation>
+				<translation gender="f">maternity / motherhood</translation>
 			</translations>
 		</nouns>
+                <expressions>permís de maternitat
+                    <translations>
+                        <translation catagory="work" gender="m">maternity leave</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="7100">mates<nouns>
 			<translations>
@@ -2216,9 +2270,14 @@
 	</Entry>
         <Entry frequency="1170">matràs<nouns>
                             <translations><date>1007</date>
-				<translation gender="m">laboratory flask<catexamp>Matràs de fons rodó</catexamp><engexamp>Round-bottom flask</engexamp><plural>matrassos</plural></translation>
+				<translation catagory="chemistry" gender="m">laboratory flask<plural>matrassos</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>matràs de fons rodó
+                    <translations>
+                        <translation catagory="chemistry" gender="m">round-bottom flask</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="251">matriarca<nouns>
 			<translations><date>1205</date>
@@ -2427,9 +2486,7 @@
 	</Entry>
 	<Entry frequency="145000">medi<nouns>
 			<translations>
-				<translation gender="m">medium<catexamp>Medi ambient</catexamp>
-					<engexamp>Environment</engexamp>
-				</translation>
+				<translation gender="m">medium</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2770,11 +2827,14 @@
 	</Entry>
 	<Entry frequency="83900">memòria<nouns>
 			<translations>
-				<translation gender="f">memory<catexamp>Saber (una cosa) de memòria</catexamp>
-					<engexamp>To know (something) off by heart</engexamp>
-				</translation>
+				<translation gender="f">memory</translation>
 			</translations>
 		</nouns>
+                <expressions>saber (una cosa) de memòria
+                    <translations>
+                        <translation>to know (something) (off) by heart</translation> 
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="14300">memòria anual<nouns>
 			<translations><date>0805</date>
@@ -2820,13 +2880,16 @@
 	</Entry>
 	<Entry frequency="13100">menció<nouns>
 			<translations>
-				<translation gender="f">mention<catexamp>Fer menció d'una cosa</catexamp>
-					<engexamp>To mention something</engexamp>
-					<plural>mencions</plural>
+				<translation gender="f">mention<plural>mencions</plural>
 				</translation>
                                 <translation gender="f">citation</translation>
 			</translations>
 		</nouns>
+                <expressions>fer menció d'(una cosa)
+                    <translations>
+                        <translation>to mention (something)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="8620">mencionar<verbs conj="regular">
 			<translations>
@@ -2860,11 +2923,14 @@
 	</Entry>
 	<Entry frequency="4070">menester<nouns>
 			<translations><date>0605</date>
-				<translation gender="m">need / necessity / requirement<catexamp>Haver de menester</catexamp>
-					<engexamp>To need</engexamp>
-				</translation>
+				<translation gender="m">need / necessity / requirement</translation>
 			</translations>
 		</nouns>
+                <expressions>haver de menester
+                    <translations>
+                        <translation>to need</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="6770">menestral<nouns>
 			<translations><date>1007</date>
@@ -2996,9 +3062,14 @@
 	</Entry>
 	<Entry frequency="197000">mental<adjectives>
 			<translations><date>1205</date>
-				<translation>mental<catexamp>Salut mental</catexamp><engexamp>Mental health</engexamp></translation>
+				<translation>mental</translation>
 			</translations>
 		</adjectives>
+                <expressions>salut mental
+                <translations>
+                    <translation catagory="medical" gender="f">mental health</translation>
+                </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="48700">mentalitat<nouns>
 			<translations><date>1205</date>
@@ -3008,9 +3079,14 @@
 	</Entry>
 	<Entry frequency="101000">mentida<nouns>
 			<translations><date>1205</date>
-				<translation gender="f">lie<catexamp>Mentida pietosa</catexamp><engexamp>White lie</engexamp></translation>
+				<translation gender="f">lie</translation>
 			</translations>
 		</nouns>
+                <expressions>mentida pietosa
+                    <translations>
+                        <translation gender="f">white lie</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="43">mentida pietosa<nouns>
 			<translations><date>1205</date>
@@ -3038,11 +3114,14 @@
 	</Entry>
 	<Entry frequency="97700">mentre<conjunctions>
 			<translations>
-				<translation>while<catexamp>Mentre que</catexamp>
-					<engexamp>While</engexamp>
-				</translation>
+				<translation>while</translation>
 			</translations>
 		</conjunctions>
+                <expressions>mentre que
+                    <translations>
+                        <translation>while</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="14600">mentrestant<adverbs>
 			<translations>
@@ -3140,7 +3219,7 @@
 	</Entry>
           <Entry frequency="31400">mercant<adjectives>
 			<translations><date>0806</date>
-				<translation catagory="financial">merchant<catexamp>Marina mercant</catexamp><engexamp>Merchant navy</engexamp></translation>
+				<translation catagory="financial">merchant</translation>
 			</translations>
 		</adjectives>
                 <nouns>
@@ -3148,12 +3227,22 @@
                         <translation catagory="transport" gender="m">merchant ship</translation>
                     </translations>
                 </nouns>
+                <expressions>marina mercant
+                    <translations>
+                        <translation gender="f">merchant navy</translation>
+                    </translations>
+                </expressions>
 	</Entry>
           <Entry frequency="1010">mercantil<adjectives>
 			<translations><date>0806</date>
-				<translation catagory="financial">commercial / mercantile / merchant<catexamp>Dret mercantil</catexamp><engexamp>Commercial law</engexamp></translation>
+				<translation catagory="financial">commercial / mercantile / merchant</translation>
 			</translations>
 		</adjectives>
+                <expressions>dret mercantil
+                    <translations>
+                        <translation gender="m">commercial law</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="361000">mercat<nouns>
 			<translations><date>0605</date>
@@ -3918,10 +4007,15 @@
 	</Entry>
 	<Entry frequency="180000">milió<nouns>
 			<translations><date>0605</date>
-				<translation gender="m">million<catexamp>Mil milions</catexamp><engexamp>A billion</engexamp><plural>milions</plural>
+				<translation gender="m">million<plural>milions</plural>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>mil milions
+                    <translations>
+                        <translation>a billion</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="5830">milionari<nouns>
 			<translations><date>0605</date>
@@ -4118,9 +4212,7 @@
 	</Entry>
 	<Entry frequency="115000">mínim<nouns>
 			<translations>
-				<translation gender="m">minimum<catexamp>Com a mínim</catexamp>
-					<engexamp>At least</engexamp>
-				</translation>
+				<translation gender="m">minimum</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -4128,6 +4220,11 @@
 				<translation>minimal<fems>mínima</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>com a mínim
+                    <translations>
+                        <translation>at least</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="667">minimalista<adjectives>
 			<translations>
@@ -4160,38 +4257,34 @@
 	</Entry>
 	<Entry frequency="33600">ministre<nouns>
 			<translations>
-				<translation catagory="politics, work-job" gender="m / f">minister<catexamp>Primer ministre</catexamp>
-					<engexamp>Prime minister</engexamp>
-					<catexamp>Ministre d'afers estrangers / ministre d'exteriors</catexamp>
-					<engexamp>Foreign minister</engexamp>
-					<fems>ministra</fems>
-				</translation>
+				<translation catagory="politics" gender="m / f">minister<fems>ministra</fems></translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="913">ministre d'afers estrangers<nouns>
-			<translations>
-				<translation catagory="politics, work-job" gender="m / f">foreign minister<fems>ministra d'afers estrangers</fems><synonyms>ministre d'exteriors</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="986">ministre de defensa<nouns>
-			<translations>
-				<translation catagory="politics, work-job" gender="m / f">defense minister<fems>ministra de defensa</fems></translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="1400">ministre de l'interior<nouns>
-			<translations>
-				<translation catagory="politics, work-job" gender="m / f">home secretary<fems>ministra de l'interior</fems></translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="598">ministre d'exteriors<nouns>
-			<translations>
-				<translation catagory="politics, work-job" gender="m / f">foreign minister<fems>ministra d'exteriors</fems><synonyms>ministre d'afers estrangers</synonyms></translation>
-			</translations>
-		</nouns>
+                <expressions>ministre d'afers estrangers
+                    <translations>
+                        <translation catagory="politics" gender="m / f">foreign minister (Br.) / secretary of state (Am.)</translation>
+                    </translations>
+                </expressions>
+                <expressions>ministre de defensa
+                    <translations>
+                        <translation catagory="politics" gender=" m / f">defence minister (Br.) / secretary of defense (Am.)</translation>
+                    </translations>
+                </expressions>
+                <expressions>ministre de l'interior
+                    <translations>
+                        <translation catagory="politics" gender="m / f">home secretary (Br.) / secretary of homeland security (Am.)</translation>
+                    </translations>
+                </expressions>
+                <expressions>ministre d'exteriors
+                    <translations>
+                        <translation catagory="politics" gender="m / f">foreign minister (Br.) / secretary of state (Am.)</translation>
+                    </translations>
+                </expressions>
+                <expressions>primer ministre
+                    <translations>
+                        <translation catagory="politics" gender="m / f">prime minister</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="14800">minoria<nouns>
 			<translations>
@@ -4577,9 +4670,7 @@
 	</Entry>
 	<Entry frequency="192000">mitjà<nouns>
 			<translations>
-				<translation gender="m">medium<catexamp>Mitjans de comunicació</catexamp>
-					<engexamp>The Media</engexamp>
-					<plural>mitjans</plural>
+				<translation gender="m">medium<plural>mitjans</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -4590,6 +4681,11 @@
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>mitjans de comunicació
+                    <translations>
+                        <translation gender="mpl">(The) Media</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="145000">mitjançant<prepositions>
 			<translations>
@@ -4712,11 +4808,14 @@
 	</Entry>
 	<Entry frequency="4020">mocador<nouns>
 			<translations>
-				<translation catagory="clothes-accessories" gender="m">handkerchief<catexamp>Mocador al cap</catexamp>
-					<engexamp>Headscarf</engexamp>
-				</translation>
+				<translation catagory="clothes-accessories" gender="m">handkerchief</translation>
 			</translations>
 		</nouns>
+                <expressions>mocador al cap
+                    <translations>
+                        <translation catagory="clothes" gender="m">headscarf</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1480">Moçambic<nouns>
 			<translations>

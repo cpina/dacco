@@ -3360,9 +3360,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="26100000">biotech<nouns>
+                            <translations><date>0708</date>
+                                <translation catagory="work-field" gender="f">biotecnologia<engexamp>Biotech industries</engexamp><catexamp>Indústries de biotecnologia</catexamp><synonyms>biotechnology</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="186000000">biotechnology<nouns>
 			<translations>
-				<translation catagory="work-field" termcat="true" gender="f">biotecnologia</translation>
+                            <translation catagory="work-field" termcat="true" gender="f">biotecnologia<synonyms>biotech</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4270,9 +4276,12 @@
                 <translations>
                 <translation gender="m">blocatge / bloqueig</translation></translations></nouns>
 	</Entry>
-<Entry frequency="1590000">blockage<nouns>
-			<translations>
+<Entry frequency="4440000">blockage<nouns>
+                        <translations><date>0708</date>
+                            <grouptranslation>
+                                <translation gender="m">embús</translation>
 				<translation gender="f">obstrucció<synonyms>obstruction</synonyms></translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
