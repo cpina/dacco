@@ -276,9 +276,14 @@
 	</Entry>
 <Entry frequency="3470000">bacon<nouns>
 			<translations>
-				<translation gender="f">cansalada<engexamp>To bring home the bacon</engexamp><catexamp>Guanyar-se les garrofes / el pa</catexamp></translation>
+				<translation gender="f">cansalada</translation>
 			</translations>
 		</nouns>
+                <expressions>bring home the bacon
+                    <translations>
+                        <translation register="colloquial">guanyar-se les garrofes (or el pa)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="7450000">bacteria<nouns>
 			<translations>
@@ -1076,13 +1081,19 @@
 <Entry frequency="19600000">bargain<nouns>
 			<translations>
 				<translation gender="f">ganga / oferta</translation>
-                                <translation gender="m">tracte / pacte<engexamp>Into the bargain</engexamp><catexamp>Per afegiment / a més</catexamp></translation>
+                                <translation gender="m">tracte / pacte</translation>
 			</translations>
 		</nouns>
                 <verbs>
                 <translations>
                 <translation>negociar / regatejar</translation></translations></verbs>
-	<phrasalverbs>bargain on<translations><translation intransitive="true">esperar (anticipar)</translation></translations></phrasalverbs></Entry>
+	<phrasalverbs>bargain on<translations><translation intransitive="true">esperar (anticipar)</translation></translations></phrasalverbs>
+        <expressions>into the bargain
+            <translations>
+                <translation>per afegiment / a més</translation>
+            </translations>
+        </expressions>
+    </Entry>
 <Entry frequency="2980000">barge<nouns>
 			<translations><date>0807</date>
 				<translation catagory="transport-mode" gender="f">barcassa</translation>
@@ -1437,11 +1448,14 @@
 	</Entry>
 <Entry frequency="9380000">bath<nouns>
 			<translations>
-				<translation gender="m">bany<engexamp>To have a bath</engexamp>
-					<catexamp>Banyar-se</catexamp>
-				</translation>
+				<translation gender="m">bany</translation>
 			</translations>
 		</nouns>
+                <expressions>have (o take) a bath
+                    <translations>
+                        <translation>banyar-se</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1030000">bathe<verbs>
 			<translations>
@@ -1865,7 +1879,7 @@
         </Entry>
 <Entry frequency="20200000">bed<nouns>
 			<translations>
-				<translation gender="m">llit<engexamp>Bed linen / bed clothes</engexamp><catexamp>Roba de llit</catexamp></translation>
+				<translation catagory="household-room-bedroom" gender="m">llit</translation>
 			</translations>
 		</nouns>
                 <verbs double="true">
@@ -1879,6 +1893,11 @@
                 <translation>establir-se / arrelar-se</translation>
                 </translations>
                 </phrasalverbs>
+                <expressions>bed clothes (o linen)
+                    <translations>
+                        <translation catagory="household-room-bedroom" gender="f">roba de llit</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="548000">bedbug<nouns>
 			<translations><date>1105</date>
@@ -1966,13 +1985,19 @@
 	</Entry>
 <Entry frequency="7290000">bee<nouns>
 			<translations>
-				<translation gender="f">abella<engexamp>Queen bee</engexamp>
-					<catexamp>Abella reina</catexamp>
-					<engexamp>Worker bee</engexamp>
-					<catexamp>Abella obrera</catexamp>
-				</translation>
+				<translation catagory="animal-insect" gender="f">abella</translation>
 			</translations>
 		</nouns>
+                <expressions>queen bee
+                    <translations>
+                        <translation catagory="animal-insect" gender="f">abella reina</translation>
+                    </translations>
+                </expressions>
+                <expressions>worker bee
+                    <translations>
+                        <translation catagory="animal-insect" gender="f">abella obrera</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="21100000">beech<nouns>
 			<translations>
@@ -2141,23 +2166,30 @@
 	</Entry>
 <Entry frequency="47000000">beginning<nouns>
 			<translations>
-					<translation gender="m">inici / principi / començament
-          <engexamp>At the beginning of 2003</engexamp>
-          <catexamp>A començaments / a primers del 2003</catexamp>
-					<synonyms>start</synonyms>
-  				</translation>
+					<translation gender="m">inici / principi / començament<synonyms>start</synonyms></translation>
 			</translations>
 		</nouns>
+                <expressions>at the beginning of (2003)
+                    <translations>
+                        <translation>a començaments / a primers del (2003)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="8090000">behalf<nouns>
 			<translations>
-				<translation gender="m">benefici<engexamp>On behalf of...</engexamp>
-					<catexamp>En nom de...</catexamp>
-					<engexamp>On (my / his) behalf</engexamp>
-					<catexamp>En el (meu / seu) nom</catexamp>
-				</translation>
+				<translation gender="m">benefici</translation>
 			</translations>
 		</nouns>
+                <expressions>on behalf of
+                    <translations>
+                        <translation>en nom de</translation>
+                    </translations>
+                </expressions>
+                <expressions>on (my / his / your...) behalf
+                    <translations>
+                        <translation>en el (meu / seu / teu...) nom</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1040000">behave<verbs>
 			<translations>
