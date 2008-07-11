@@ -67,9 +67,14 @@
 				<translation disambiguate="body">orella / oïda
 					<engnote>'Orella' is the actual physical protuberance that sticks out of the side of your head, and 'oïda' means 'ear' in the sense 'He has a good / bad ear'.</engnote>
 				</translation>
-          <translation catagory="plants" gender="f">espiga<engexamp>Ear of corn</engexamp><catexamp>Espiga de blat</catexamp></translation>
+          <translation catagory="plants" gender="f">espiga</translation>
 			</translations>
 		</nouns>
+                <expressions>ear of wheat
+                    <translations>
+                        <translation gender="f">espiga de blat</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="343000">earache<nouns>
 			<translations>
@@ -98,16 +103,23 @@
 	</Entry>
 <Entry frequency="85200000">early<adverbs>
 			<translations>
-				<translation>d'hora<engexamp>To get up early</engexamp><catexamp>Matinar</catexamp><example>As John came through the door, Ian looked at his watch.  "You're &lt;b&gt;early&lt;/b&gt; this morning!", he said.</example>
-					<example>Emma wanted to arrive at the station with plenty of time to spare, just in case her train was &lt;b&gt;early&lt;/b&gt;</example>
-					<engexamp>Early hours (of the morning)</engexamp>
-					<catexamp>Matinada</catexamp>
-				</translation>
+				<translation>d'hora<example>As John came through the door, Ian looked at his watch.  "You're &lt;b&gt;early&lt;/b&gt; this morning!", he said.</example>
+					<example>Emma wanted to arrive at the station with plenty of time to spare, just in case her train was &lt;b&gt;early&lt;/b&gt;</example></translation>
 				<translation>primerenc<example>Notre Dame Cathedral in Paris is an outstanding example of &lt;b&gt;early&lt;/b&gt; Gothic architecture.</example>
 					<example>'Romeo and Juliet' was one of Shakespeare's &lt;b&gt;early&lt;/b&gt; works.</example>
 				</translation>
 			</translations>
 		</adverbs>
+                <expressions>early hours (of the morning ...)
+                    <translations>
+                        <translation gender="f">primeres hores (del matí ...)</translation>
+                    </translations>
+                </expressions>
+                <expressions>get up early
+                    <translations>
+                        <translation>matinar</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4850000">earmark<verbs>
                             <translations><date>1007</date>
@@ -121,14 +133,20 @@
 			<past>earnt, earned</past>
 			<participle>earnt, earned</participle>
 			<translations>
-				<translation>guanyar<engexamp>To earn money</engexamp>
-					<catexamp>Guanyar diners</catexamp>
-					<engexamp>To earn a living</engexamp>
-					<catexamp>Guanyar-se la vida</catexamp>
-					<example>Figures due out next week are expected to show that academics in the UK &lt;b&gt;earn&lt;/b&gt; on average £30,000 a year less than their counterparts in the US.</example>
+				<translation>guanyar<example>Figures due out next week are expected to show that academics in the UK &lt;b&gt;earn&lt;/b&gt; on average £30,000 a year less than their counterparts in the US.</example>
 				</translation>
 			</translations>
 		</verbs>
+                <expressions>earn a living
+                    <translations>
+                        <translation>guanyar-se la vida</translation>
+                    </translations>
+                </expressions>
+                <expressions>earn money
+                    <translations>
+                        <translation>guanyar diners</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1710000">earnest<adjectives>
 			<translations>
@@ -181,9 +199,7 @@
 	</Entry>
 <Entry frequency="85200000">earth<nouns>
 			<translations>
-				<translation gender="f">terra<engexamp>What on earth (is a x)?</engexamp>
-					<catexamp>Què dimonis (és un x)?</catexamp>
-				</translation>
+				<translation gender="f">terra</translation>
                                 <translation beforenoun="true">terrestre</translation>
 			</translations>
 		</nouns>
@@ -192,6 +208,11 @@
                 <translation catagory="agriculture">calçar<example>&lt;b&gt;Earth up&lt;/b&gt; celery to blanch the stems and make them more tender.</example><synonyms>hill up</synonyms></translation>
                 </translations>
                 </phrasalverbs>
+                <expressions>what on earth (is an x)?
+                <translations>
+                    <translation>què dimonis (és un x)?</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="1350000">earthenware<nouns>
 			<translations><date>0407</date>
@@ -220,15 +241,37 @@
 	</Entry>
 <Entry frequency="6340000">ease<nouns>
 			<translations>
-				<translation gender="f">facilitat<engexamp>To put somebody at ease</engexamp>
-					<catexamp>Fer sentir a gust algú</catexamp>
-					<example>Venus served seven aces, broke her opponent's serve with relative &lt;b&gt;ease&lt;/b&gt; and won the match 6-2, 6-0.</example>
+				<translation gender="f">facilitat<example>Venus served seven aces, broke her opponent's serve with relative &lt;b&gt;ease&lt;/b&gt; and won the match 6-2, 6-0.</example>
 				</translation>
 			</translations>
 		</nouns>
                 <verbs>
                 <translations>
                 <translation>alleujar / pal·liar</translation></translations></verbs>
+                <phrasalverbs>ease into
+                    <translations>
+                        <translation intransitive="true">fer entrar suaument a</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>ease off
+                    <translations>
+                        <translation intransitive="true">alleujar-se (p.e., el dolor, la pluja, la velocitat, etc.)</translation>
+                        <translation register="colloquial" intransitive="true">no fer servir tant</translation>
+                    <translation intransitive="true">reduir pressió sobre (l'accelerador, el fre, etc.)</translation>
+                    <translation intransitive="true">reduir el consum de</translation>
+                    <translation transitive="true">treure (lentament, amb molta cura)</translation>
+                </translations>
+            </phrasalverbs>
+                <phrasalverbs>ease out
+                    <translations>
+                        <translation transitive="true">apartar (gradualment)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>ease out of
+                    <translations>
+                        <translation intransitive="true">fer sortir suaument de</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>ease up
                 <translations>
                     <translation intransitive="true">alentir-se<example>The runner &lt;b&gt;eased up&lt;/b&gt; just before the finish line as no-one could catch him.</example></translation>
@@ -236,7 +279,12 @@
                     <translation intransitive="true">(vent / tempesta) afluixar<example>The wind seems to have &lt;b&gt;eased up&lt;/b&gt; now.</example></translation>
                     </translations>
                     </phrasalverbs>
-	<phrasalverbs>ease into<translations><translation intransitive="true">fer entrar suaument a</translation></translations></phrasalverbs><phrasalverbs>ease out<translations><translation transitive="true">apartar (gradualment)</translation></translations></phrasalverbs><phrasalverbs>ease off<translations><translation intransitive="true">alleujar-se (p.e., el dolor, la pluja, la velocitat, etc.)</translation><translation intransitive="true">(col·loq.) no fer servir tant</translation><translation intransitive="true">1 reduir pressió sobre (l'accelerador, el fre, etc.) 2 reduir el consum de</translation><translation transitive="true">treure (lentament, amb molta cura)</translation></translations></phrasalverbs><phrasalverbs>ease out of<translations><translation intransitive="true">fer sortir suaument de</translation></translations></phrasalverbs></Entry>
+                    <expressions>put (somebody) at ease
+                        <translations>
+                            <translation>fer sentir a gust (algú)</translation>
+                        </translations>
+                    </expressions>
+</Entry>
 <Entry frequency="9390000">easel<nouns>
 			<translations>
                             <translation gender="m">cavallet</translation>
@@ -270,31 +318,34 @@
 	</Entry>
 <Entry frequency="5050000">Easter<nouns>
 			<translations>
-				<translation gender="f">Pasqua<engexamp>Easter egg</engexamp>
-					<catexamp>Ou de Pasqua</catexamp>
-					<engexamp>Easter Island</engexamp>
-					<catexamp>Illa de Pasqua</catexamp>
-					<engexamp>Easter Monday</engexamp>
-					<catexamp>Dilluns de Pasqua</catexamp>
-					<engexamp>Easter Sunday</engexamp>
-					<catexamp>Diumenge de Pasqua</catexamp>
-					<engexamp>Happy Easter!</engexamp>
-					<catexamp>Bona Pasqua!</catexamp>
-				</translation>
+				<translation gender="f">Pasqua</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="4480000">Easter Island<nouns>
-			<translations>
-				<translation catagory="country-oceania" gender="f">illa de Pasqua</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="354000">Easter Monday<nouns>
-			<translations>
-				<translation gender="m">Dilluns de Pasqua</translation>
-			</translations>
-		</nouns>
+                <expressions>Easter egg
+                    <translations>
+                        <translation gender="m">ou de Pasqua</translation>
+                    </translations>
+                </expressions>
+                <expressions>Easter Island
+                <translations>
+                    <translation catagory="geography" gender="f">Illa de Pasqua</translation>
+                </translations>
+                </expressions>
+                <expressions>Easter Monday
+                    <translations>
+                        <translation>Dilluns de Pasqua</translation>
+                    </translations>
+                </expressions>
+                <expressions>Easter Sunday
+                    <translations>
+                        <translation>Diumenge de Pasqua</translation>
+                    </translations>
+                </expressions>
+                <expressions>Happy Easter
+                <translations>
+                <translation>Bona Pasqua!</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="40100000">eastern<adjectives>
 			<translations>
@@ -306,7 +357,7 @@
 			<translations>
 				<translation catagory="country-asia" gender="m">Timor Oriental</translation>
 			</translations>
-		</nouns>38900
+		</nouns>
 	</Entry>
 <Entry frequency="589000">eastward<adverbs>
 			<translations>
@@ -333,12 +384,33 @@
 				<translation>menjar / consumir</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>eat away
+                    <translations>
+                        <translation transitive="true">destrossar gradualment</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>eat in
+                    <translations>
+                        <translation intransitive="true">sopar a casa</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>eat into
+                    <translations>
+                        <translation intransitive="true">rovellar / desgastar</translation>
+                    </translations>
+                </phrasalverbs>
 		<phrasalverbs>eat out
 			<translations>
 				<translation>menjar fora (de casa)</translation>
 			</translations>
 		</phrasalverbs>
-	<phrasalverbs>eat away<translations><translation transitive="true">destrossar gradualment</translation></translations></phrasalverbs><phrasalverbs>eat in<translations><translation intransitive="true">sopar a casa</translation></translations></phrasalverbs><phrasalverbs>eat into<translations><translation intransitive="true">rovellar, desgastar</translation></translations></phrasalverbs><phrasalverbs>eat up<translations><translation transitive="true">menjar-se</translation><translation transitive="true">acceptar, rebre ardosament</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>eat up
+                    <translations>
+                        <translation transitive="true">menjar-se</translation>
+                        <translation transitive="true">acceptar / rebre ardosament</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="24000000">eating disorder<nouns>
 			<translations>
 				<translation>trastorn alimentari</translation>
@@ -454,12 +526,17 @@
 	</Entry>
 <Entry frequency="14200000">eclipse<nouns>
          <translations>
-         <translation catagory="astronomy" gender="m">eclipsi<engexamp>Lunar eclipse</engexamp><catexamp>Eclipsi de lluna</catexamp></translation></translations></nouns>
+         <translation catagory="astronomy" gender="m">eclipsi</translation></translations></nouns>
          <verbs>
 			<translations>
 				<translation catagory="astronomy">eclipsar</translation>
 			</translations>
 		</verbs>
+                <expressions>lunar eclipse
+                <translations>
+                    <translation gender="m">eclipsi de lluna</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="6480000">ecological<adjectives>
 			<translations>
@@ -556,11 +633,14 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>econòmic<engexamp>Economy class</engexamp>
-					<catexamp>Classe turista / classe econòmica</catexamp>
-				</translation>
+				<translation>econòmic</translation>
 			</translations>
 		</adjectives>
+                <expressions>economy class
+                    <translations>
+                        <translation gender="f">classe turista / classe econòmica</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="23400000">ecosystem<nouns>
 			<translations>
@@ -684,9 +764,14 @@
 <Entry frequency="72800000">editor<nouns>
 			<translations>
 				<translation gender="mf">redactor</translation>
-                                <translation disambiguate="computers-software" gender="m">editor<engexamp>HTML editor</engexamp><catexamp>Editor d'HTML</catexamp></translation>
+                                <translation disambiguate="computers-software" gender="m">editor</translation>
 			</translations>
 		</nouns>
+                <expressions>HTML editor
+                    <translations>
+                        <translation catagory="computers-software" gender="m">editor d'HTML</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="148000000">editorial<nouns>
 			<translations>
@@ -757,9 +842,19 @@
 	</Entry>
 <Entry frequency="488000">eel<nouns>
 			<translations>
-				<translation gender="f">anguila<engexamp>Electric eel</engexamp><catexamp>Anguila elèctrica</catexamp><engexamp>Conger eel</engexamp><catexamp>Congre</catexamp></translation>
+				<translation catagory="animal" gender="f">anguila</translation>
 			</translations>
 		</nouns>
+                <expressions>conger eel
+                    <translations>
+                        <translation catagory="animal" gender="m">congre</translation>
+                    </translations>
+                </expressions>
+                <expressions>electric eel
+                    <translations>
+                        <translation catagory="animal" gender="f">anguila elèctrica</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="7170000">EEPROM<engacro>Electrically Erasable Programmable Read Only Memory</engacro>
                    <acronyms>
@@ -1540,18 +1635,71 @@
 	</Entry>
 <Entry frequency="6340000">El Salvador<nouns>
 			<translations>
-				<translation>El Salvador</translation>
+				<translation catagory="country-centralamerica">El Salvador</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="32600000">else<adjectives>
-			<translations>
-				<translation>més / altre<engexamp>Everyone else</engexamp><catexamp>Tots els altres / totes les altres persones</catexamp><engexamp>Everything else</engexamp><catexamp>(Tota) la resta / totes les altres coses</catexamp><engexamp>Someone else</engexamp><catexamp>Un altre / una altra persona</catexamp><engexamp>Something else</engexamp><catexamp>Una altra cosa</catexamp><engexamp>Anyone else</engexamp><catexamp>Qualsevol altre / qualsevol altra persona / ningú més (negative)</catexamp><engexamp>Anything else</engexamp><catexamp>Qualsevol altra cosa / res més (negative)</catexamp><engexamp>No one else</engexamp><catexamp>Ningú més</catexamp><engexamp>Nothing else</engexamp><catexamp>Res mes</catexamp><engexamp>Who else?</engexamp><catexamp>Qui més?</catexamp><engexamp>What else?</engexamp><catexamp>Què més?</catexamp><catnote>La paraula 'else' es col·loca després dels pronoms indefinits i els mots 'who', 'what', 'where' i 'when' amb el sentit de 'més' o 'altre'.</catnote><engnote>In the examples for 'anyone else' and 'anything else', the options 'ningú més' and 'res més' are marked as 'negative'. This simply means 'in negative sentences' (for example: 'Isn't there anyone else?' > 'Què no hi ha ningú més?'; 'Isn't there anything else?' > 'Què no hi ha res més?').</engnote></translation>
-			</translations>
-		</adjectives>
-                <adverbs>
+        <Entry frequency="32600000">else<adjectives>
                 <translations>
-                <translation>si no<example>Do what I say &lt;b&gt;or else&lt;/b&gt; I'll punish you.</example></translation></translations></adverbs></Entry>
+                    <translation>més / altre<catnote>La paraula 'else' es col·loca després dels pronoms indefinits i els mots 'who', 'what', 'where' i 'when' amb el sentit de 'més' o 'altre'.</catnote><engnote>In the examples for 'anyone else' and 'anything else', the options 'ningú més' and 'res més' are marked as 'negative'. This simply means 'in negative sentences' (for example: 'Isn't there anyone else?' > 'Què no hi ha ningú més?'; 'Isn't there anything else?' > 'Què no hi ha res més?').</engnote></translation>
+                </translations>
+            </adjectives>
+        <expressions>anyone (o anybody) else
+            <translations>
+                <translation>qualsevol altre / qualsevol altra persona / ningú més (negative)</translation>
+            </translations>
+        </expressions>
+        <expressions>anything else
+            <translations>
+                <translation>qualsevol altra cosa / res més (negative)</translation>
+            </translations>
+        </expressions>
+        <expressions>everyone (o everybody) else
+            <translations>
+                <translation>tots els altres / totes les altres persones</translation>
+            </translations>
+        </expressions>
+        <expressions>everything else
+            <translations>
+                <translation>(tota) la resta / totes les altres coses</translation>
+            </translations>
+        </expressions>
+        <expressions>no one (o nobody) else
+            <translations>
+                <translation>ningú més</translation>
+            </translations>
+        </expressions>
+        <expressions>nothing else
+            <translations>
+                <translation>res més</translation>
+            </translations>
+        </expressions>
+          <expressions>or else
+                <translations>
+                <translation>si no<example>Do what I say &lt;b&gt;or else&lt;/b&gt; I'll punish you.</example></translation>
+            </translations>
+        </expressions>
+        <expressions>someone (o somebody) else
+            <translations>
+                <translation>un altre / una altra persona</translation>
+            </translations>
+        </expressions>
+        <expressions>something else
+            <translations>
+                <translation>una altra cosa</translation>
+            </translations>
+        </expressions>
+        <expressions>what else
+            <translations>
+                <translation>què més?</translation>
+            </translations>
+        </expressions>
+        <expressions>who else
+        <translations>
+        <translation>qui més?</translation>
+        </translations>
+        </expressions>
+    </Entry>
 <Entry frequency="19300000">elucidate<verbs>
 			<translations>
 				<translation>dilucidar / elucidar / escatir</translation>
@@ -1840,15 +1988,19 @@
 	</Entry>
 <Entry frequency="8900000">emission<nouns>
 			<translations><date>0508</date>
-                            <translation gender="f">emissió<engexamp>Carbon emissions</engexamp><catexamp>Emissions de carboni</catexamp><engexamp>Emissions trading</engexamp><catexamp>Comerç de drets d'emissió</catexamp></translation>
+                            <translation gender="f">emissió</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="1930000">emissions trading<nouns>
-                            <translations><date>0508</date>
-				<translation gender="m">comerç de drets d'emissió</translation>
-			</translations>
-		</nouns>
+                <expressions>emissions trading
+                    <translations>
+                        <translation gender="m">comerç de drets d'emissió</translation>
+                    </translations>
+                </expressions>
+                <expressions>carbon emissions
+                    <translations>
+                        <translation gender="fpl">emissions de carboni</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="10600000">emit<verbs double="true">
 			<translations>
@@ -1858,7 +2010,7 @@
 	</Entry>
 <Entry frequency="43400">emmental<nouns>
 			<translations>
-				<translation catagory="food" gender="m">emmental</translation>
+				<translation catagory="food-dairy" gender="m">emmental</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1961,11 +2113,16 @@
 	</Entry>
 <Entry frequency="25600000">employment<nouns>
 			<translations><date>0508</date>
-                            <translation gender="f">ocupació<engexamp>Employment agency</engexamp><catexamp>Agència de col·locació</catexamp></translation>
+                            <translation gender="f">ocupació</translation>
                             <grouptranslation><translation gender="f">utilització</translation>
                                 <translation gender="m">ús</translation></grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>employment agency
+                    <translations>
+                        <translation gender="f">agència de col·locació</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="45000000">empower<verbs>
 			<translations>
@@ -2123,7 +2280,7 @@
 	</Entry>
 <Entry frequency="335000000">end<nouns>
 			<translations>
-				<translation gender="f">fi<engexamp>To come to an end</engexamp><catexamp>Acabar / culminar</catexamp></translation>
+				<translation gender="f">fi</translation>
                                 <translation gender="fpl">acaballes</translation>
                                 <translation gender="m">acabament</translation>
                                 <translation gender="f">darreria</translation>
@@ -2144,6 +2301,11 @@
                 <translations>
                 <translation>al cap i a la fi<example>&lt;b&gt;At the end of the day&lt;/b&gt;, it shows that Iran will pay a very heavy price if it continues to try and enrich its fuel.</example><example>It involves distasteful compromises, but &lt;b&gt;at the end of the day&lt;/b&gt;, even a dictatorship as small and weak as Cuba hasn't cracked under 40 years of hardball.</example><example>Oversaturation of the brain with images and information is very good in many ways, but &lt;b&gt;at the end of the day&lt;/b&gt;, unless you remember to breathe - you die.</example></translation>
                 </translations>
+                </expressions>
+                <expressions>come to an end
+                    <translations>
+                        <translation>acabar / culminar</translation>
+                    </translations>
                 </expressions>
                 <expressions>dead end
                 <translations>

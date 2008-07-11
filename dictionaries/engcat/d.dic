@@ -427,7 +427,7 @@
 	</Entry>
 <Entry frequency="232000000">date<nouns>
 			<translations>
-				<translation gender="f">data<engexamp>In date order</engexamp><catexamp>Per data</catexamp></translation>
+				<translation gender="f">data</translation>
 				<translation gender="f">cita</translation>
 				<translation disambiguate="food-fruit" gender="m">dàtil</translation>
 			</translations>
@@ -441,6 +441,11 @@
                     <translations>
                         <translation gender="f">cita a cegues</translation>
                     </translations>
+                </expressions>
+                <expressions>in date order
+                <translations>
+                    <translation>per data</translation>
+                </translations>
                 </expressions>
             </Entry>
 <Entry frequency="8090000">date of birth<nouns>
@@ -687,16 +692,36 @@
 <Entry frequency="10400000">dealer<nouns>
 			<translations>
 				<translation gender="mf">comerciant</translation>
-				<translation gender="mf">traficant<engexamp>Drug dealer</engexamp><catexamp>Traficant de drogues</catexamp><engexamp>Arms dealer</engexamp><catexamp>Traficant d'armes</catexamp></translation>
-                                <translation gender="m">concessionari<engexamp>Official Ford Dealer</engexamp><catexamp>Concessionari Oficial Ford</catexamp></translation>
+				<translation gender="mf">traficant</translation>
+                                <translation gender="m">concessionari</translation>
 			</translations>
 		</nouns>
+                <expressions>arms dealer
+                <translations>
+                <translation gender="mf">traficant d'armes</translation>
+                </translations>
+                </expressions>
+                <expressions>car dealer
+                <translations>
+                    <translation gender="mf">concessionari de cotxes</translation>
+                </translations>
+                </expressions>
+                <expressions>drug dealer
+                <translations>
+                    <translation gender="mf">traficant de drogues</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="19800000">dealership<nouns>
 			<translations>
-				<translation gender="m">concessionari<engexamp>Official Ford Dealership</engexamp><catexamp>Concessionari Oficial Ford</catexamp></translation>
+				<translation gender="m">concessionari</translation>
 			</translations>
 		</nouns>
+                <expressions>car dealership
+                <translations>
+                <translation gender="m">concessionari de cotxes</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="23400000">dear<adjectives>
 			<translations>
@@ -1099,9 +1124,7 @@
 	</Entry>
 <Entry frequency="6540000">decree<nouns>
 			<translations>
-				<translation gender="m">decret<engexamp>Royal decree</engexamp>
-					<catexamp>Reial decret</catexamp>
-				</translation>
+				<translation gender="m">decret</translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -1109,6 +1132,11 @@
 				<translation>decretar</translation>
 			</translations>
 		</verbs>
+                <expressions>royal decree
+                <translations>
+                <translation gender="m">reial decret</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="60800">decriminalize<verbs>
 			<translations>
@@ -1133,11 +1161,14 @@
 			<translations>
 				<translation>dedicat<engexamp>Dedicated to something</engexamp>
 					<catexamp>Dedicat a alguna cosa</catexamp>
-					<engexamp>Dedicated server</engexamp>
-					<catexamp>Servidor dedicat</catexamp>
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>dedicated server
+                    <translations>
+                        <translation catagory="computers" gender="m">servidor dedicat</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="99900000">dedication<nouns>
 			<translations>
@@ -1441,13 +1472,15 @@
 	</Entry>
 <Entry frequency="93200000">degree<nouns>
 			<translations>
-				<translation catagory="weather" gender="m">grau<engnote>'Grau' means 'degree' as in '100 degrees fahrenheit'.</engnote>
-					<engexamp>Degree of separation</engexamp>
-					<catexamp>Grau de separació</catexamp>
-				</translation>
+				<translation catagory="weather" gender="m">grau<engnote>'Grau' means 'degree' as in '100 degrees fahrenheit'.</engnote></translation>
 				<translation disambiguate="education" gender="f">llicència</translation>
 			</translations>
 		</nouns>
+                <expressions>degree of separation
+                    <translations>
+                        <translation gender="m">grau de separació</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="88700">dehumanisation<nouns>
                             <translations><date>0508</date>
@@ -1727,12 +1760,14 @@
 	</Entry>
 <Entry frequency="33200000">democracy<nouns>
 			<translations>
-				<translation gender="f">democràcia<engexamp>On-line democracy</engexamp>
-					<catexamp>Democràcia electrònica</catexamp>
-					<plural>democracies</plural>
-				</translation>
+				<translation gender="f">democràcia<plural>democracies</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>on-line democracy
+                    <translations>
+                        <translation catagory="computers, politics" gender="f">democràcia electrònica</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="56800000">democratic<adjectives>
 			<translations>
@@ -2030,11 +2065,14 @@
 	</Entry>
 <Entry frequency="568000">deplete<verbs>
 			<translations>
-				<translation>exhaurir<engexamp>Depleted uranium</engexamp>
-					<catexamp>Urani empobrit</catexamp>
-				</translation>
+				<translation>exhaurir</translation>
 			</translations>
 		</verbs>
+                <expressions>depleted uranium
+                    <translations>
+                        <translation gender="m">urani empobrit</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="763000">depletion<nouns>
 			<translations>
@@ -2231,17 +2269,18 @@
 	</Entry>
 <Entry frequency="53800000">depth<nouns>
 			<translations>
-				<translation gender="f">profunditat<engexamp>In depth</engexamp>
-					<catexamp>A fons / en profunditat</catexamp>
-				</translation>
+				<translation gender="f">profunditat</translation>
 			</translations>
 		</nouns>
+                <expressions>in depth
+                    <translations>
+                        <translation>a fons / en profunditat</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="16300000">deputy<adjectives>
 			<translations>
-				<translation>sots- / vice-<engexamp>Deputy director</engexamp>
-					<catexamp>Sotsdirector</catexamp>
-				</translation>
+				<translation>sots- / vice-</translation>
 			</translations>
 		</adjectives>
 		<nouns>
@@ -2253,6 +2292,11 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>deputy director
+                    <translations>
+                        <translation gender="mf">sotsdirector</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1350000">derail<verbs>
 			<translations>
@@ -2281,9 +2325,14 @@
 	</Entry>
 <Entry frequency="1210000">dermatitis<nouns>
 			<translations>
-				<translation catagory="medical-illness" gender="f">dermatitis<engexamp>Atopic dermatitis</engexamp><catexamp>Dermatitis atòpica</catexamp></translation>
+				<translation catagory="medical-illness" gender="f">dermatitis</translation>
 			</translations>
 		</nouns>
+                <expressions>atopic dermatitis
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">dermatitis atòpica</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1500000">dermatology<nouns>
 			<translations>
@@ -6055,13 +6104,29 @@
                                 <translation gender="m">alcohol<engexamp>To go (out) for a drink</engexamp><catexamp>Anar de copes</catexamp><example>By the time the group of lads got on the plane, they were already the worse for &lt;b&gt;drink&lt;/b&gt;.</example><example>I need a &lt;b&gt;drink&lt;/b&gt;!</example></translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>drink down
+                    <translations>
+                        <translation transitive="true">beure's d'una tirada</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>drink in
                     <translations>
                         <translation>contemplar</translation>
                         <translation>fer molt cas per entendre bé</translation>
                     </translations>
                 </phrasalverbs>
-	<phrasalverbs>drink down<translations><translation transitive="true">beure's d'una tirada</translation></translations></phrasalverbs><phrasalverbs>drink to<translations><translation intransitive="true">brindar per</translation></translations></phrasalverbs><phrasalverbs>drink up<translations><translation transitive="true">1 beure's 2 (imperatiu) Acabeu de beure!</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>drink to
+                    <translations>
+                        <translation intransitive="true">brindar per</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>drink up
+                    <translations>
+                    <translation transitive="true">beure's</translation>
+                    <translation>(imperatiu) acabeu de beure!</translation>
+                </translations>
+            </phrasalverbs>
+        </Entry>
 <Entry frequency="11400">drink driver<nouns>
 			<translations>
 				<translation gender="mf">conductor ebri<synonyms>drunk driver</synonyms>
@@ -6271,54 +6336,50 @@
 	</Entry>
 <Entry frequency="36700000">drug<nouns>
 			<translations>
-				<translation gender="f">droga<engexamp>To take drugs</engexamp>
-					<catexamp>Consumir drogues</catexamp>
-				</translation>
+				<translation gender="f">droga</translation>
 				<translation disambiguate="medical" gender="m">fàrmac / medicament</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="316000">drug addict<nouns>
-			<translations>
-				<translation gender="mf">toxicòman</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="789000">drug addiction<nouns>
-			<translations>
-				<translation gender="f">drogodependència / toxicomania</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="45100">drug smuggler<nouns>
-			<translations>
-				<translation gender="mf">narcotraficant</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="84500">drug smuggling<nouns>
-			<translations>
-				<translation gender="m">tràfic de drogues / narcotràfic</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="63200">drug taking<nouns>
-			<translations>
-				<translation gender="m">consum de drogues</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="96300">drug trafficker<nouns>
-			<translations>
-				<translation gender="mf">narcotraficant</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="537000">drug trafficking<nouns>
-			<translations>
-				<translation gender="m">tràfic de drogues / narcotràfic</translation>
-			</translations>
-		</nouns>
+                <expressions>drug addict
+                    <translations>
+                        <translation gender="mf">toxicòman</translation>
+                    </translations>
+                </expressions>
+                <expressions>drug addiction
+                    <translations>
+                        <translation gender="f">drogodependència / toxicomania</translation>
+                    </translations>
+                </expressions>
+                <expressions>drug smuggler
+                    <translations>
+                        <translation gender="mf">narcotraficant</translation>
+                    </translations>
+                </expressions>
+                <expressions>drug smuggling
+                    <translations>
+                        <translation gender="m">tràfic de drogues / narcotràfic</translation>
+                    </translations>
+                </expressions>
+                <expressions>drug taking
+                    <translations>
+                        <translation gender="m">consum de drogues</translation>
+                    </translations>
+                </expressions>
+                <expressions>drug trafficker
+                    <translations>
+			<translation gender="mf">narcotraficant</translation>
+                    </translations>
+                </expressions>
+                <expressions>drug trafficking
+                    <translations>
+			<translation gender="m">tràfic de drogues / narcotràfic</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>take drugs
+                    <translations>
+                        <translation>consumir drogues</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="15100000">drum<nouns>
                             <translations><date>0308</date>
@@ -6369,8 +6430,7 @@
 	</Entry>
 <Entry frequency="4000000">drunk<adjectives>
 			<translations>
-				<translation>borratxo / ebri<catnote>També es pot dir &apos;drunk as a skunk&apos; i &apos;drunk as a lord&apos;.</catnote>
-				</translation>
+				<translation>borratxo / ebri</translation>
 			</translations>
 		</adjectives>
                 <nouns>
@@ -6378,20 +6438,21 @@
                 <translation gender="mf">borratxo</translation>
                 </translations>
                 </nouns>
-	</Entry>
-<Entry frequency="142000">drunk driver<nouns>
-			<translations>
-				<translation gender="mf">conductor ebri<synonyms>drink driver</synonyms>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="378000">drunk driving<nouns>
-			<translations>
-				<translation>conduir mentre està sota l&apos;influència de l&apos;alcohol<synonyms>drink driving</synonyms>
-				</translation>
-			</translations>
-		</nouns>
+                <expressions>drunk as a lord (o skunk)
+                <translations>
+                    <translation>(molt) borratxo / ebri</translation>
+                </translations>
+                </expressions>
+                <expressions>drunk driver
+                    <translations>
+                        <translation gender="mf">conductor ebri<synonyms>drink driver</synonyms></translation>
+                    </translations>
+                </expressions>
+                <expressions>drunk driving
+                    <translations>
+			<translation>conduir mentre està sota l&apos;influència de l&apos;alcohol<synonyms>drink driving</synonyms></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1770000">drunkenness<nouns>
 			<translations>
@@ -6435,10 +6496,20 @@
 	</Entry>
 <Entry frequency="1630000">dryer<nouns>
                         <translations><date>0408</date>
-                            <translation gender="m">assecador<engexamp>(Hand) dryer</engexamp><catexamp>Assecador (de mans)</catexamp></translation>
-                            <translation gender="f">assecadora<engexamp>Tumble dryer</engexamp><catexamp>Assecadora de roba</catexamp></translation>
+                            <translation gender="m">assecador</translation>
+                            <translation gender="f">assecadora</translation>
 			</translations>
 		</nouns>
+                <expressions>(hand) dryer
+                    <translations>
+                <translation gender="m">assecador (de mans)</translation>
+                </translations>
+                </expressions>
+                <expressions>(tumble) dryer
+                <translations>
+                <translation gender="f">assecadora de roba</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2580000">dryness<nouns>
 			<translations>
@@ -6604,7 +6675,12 @@
 				<translation local="us" register="colloquial">estúpid / ruc</translation>
 			</translations>
 		</adjectives>
-	<phrasalverbs>dumb down<translations><translation transitive="true">(col·loq.) refer (algun escrit o alguna obra) perquè sigui més entenador per als qui no coneixen bé el tema</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>dumb down
+                    <translations>
+                        <translation register="colloquial" transitive="true">refer (algun escrit o alguna obra) perquè sigui més entenador per als qui no coneixen bé el tema</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="649000">dumbass<nouns>
 			<translations>
 				<translation register="slang" local="us" gender="mf">idiota<plural>dumbasses</plural></translation>
@@ -6632,9 +6708,14 @@
 				<translation>abocar</translation>
 				<translation register="slang">separar-se del xicot / xicota<example>She &lt;b&gt;dumped&lt;/b&gt; her boyfriend for a tall, dark, handsome stranger!</example>
 				</translation>
-                                <translation>endossar / encolomar<engexamp>To dump (something) on (somebody)</engexamp><catexamp>Endossar / encolomar (alguna cosa) a (algú)</catexamp></translation>
+                                <translation>endossar / encolomar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>dump (something) on (somebody)
+                <translations>
+                <translation>endossar / encolomar (alguna cosa) a (algú)</translation>
+                </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
                         <grouptranslation><translation gender="m">abocador</translation>
@@ -6749,9 +6830,14 @@
 	</Entry>
 <Entry frequency="2420000">duress<nouns>
                             <translations><date>1007</date>
-				<translation gender="f">coacció<engexamp>Under duress</engexamp><catexamp>Sota coacció</catexamp></translation>
+				<translation gender="f">coacció</translation>
 			</translations>
 		</nouns>
+                <expressions>under duress
+                    <translations>
+                        <translation>sota coacció</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="118000000">during<prepositions>
 			<translations>
@@ -6906,9 +6992,24 @@
 	</Entry>
 <Entry frequency="1490000">dweller<nouns>
 			<translations>
-				<translation gender="mf">habitant<engexamp>Rural dwellers</engexamp><catexamp>Habitants del camp</catexamp></translation>
+				<translation gender="mf">habitant</translation>
 			</translations>
 		</nouns>
+                <expressions>city dweller
+                    <translations>
+                        <translation gender="mf">habitant de la ciutat</translation>
+                    </translations>
+                </expressions>
+                <expressions>rural dweller
+                    <translations>
+                        <translation gender="mf">habitant del camp</translation>
+                    </translations>
+                </expressions>
+                <expressions>urban dweller
+                <translations>
+                <translation gender="mf">habitant urbà</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="5360000">dwelling<nouns>
 			<translations>

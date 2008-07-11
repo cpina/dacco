@@ -200,16 +200,8 @@
 
 			<translations><date>0408</date>
 
-				<translation gender="m">bloc<engnote>'Bloc' means 'pad' in the sense 'pad of paper'.</engnote>
-
-				</translation>
-
+				<translation gender="m">bloc<engnote>'Bloc' means 'pad' in the sense 'pad of paper'.</engnote></translation>
                                 <translation catagory="animal" gender="m">tou (d'un animal)</translation>
-
-                                <translation disambiguate="transport" gender="m"><engexamp>Launch pad</engexamp><catexamp>Plataforma de llançament</catexamp><engexamp>Helipad</engexamp><catexamp>Helisuperfície</catexamp></translation>
-
-                                <translation><engexamp>Knee pad</engexamp><catexamp>Genollera</catexamp><engexamp>Shin pad</engexamp><catexamp>Canyellera</catexamp><engexamp>Elbow pad</engexamp><catexamp>Colzera</catexamp></translation>
-
                             </translations>
 
 		</nouns>
@@ -223,7 +215,26 @@
                 </translations>
 
             </phrasalverbs>
-
+            <expressions>elbow pad
+            <translations>
+            <translation catagory="sports" gender="f">colzera</translation>
+            </translations>
+            </expressions>
+            <expressions>knee pad
+            <translations>
+            <translation catagory="sports" gender="f">genollera</translation>
+            </translations>
+            </expressions>
+            <expressions>launch pad
+            <translations>
+                <translation gender="f">plataforma de llançament</translation>
+                </translations>
+                </expressions>
+                <expressions>shin pad
+                <translations>
+                <translation catagory="sports" gender="f">canyellera</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2160000">padding<nouns>
 
@@ -440,14 +451,21 @@
 
 			<translations>
 
-				<translation catagory="medical" gender="m">dolor / mal<engexamp>To ease the pain</engexamp>
-
-					<catexamp>Alleujar el dolor</catexamp><engexamp>Back pain</engexamp><catexamp>Mal d'esquena</catexamp></translation>
+				<translation catagory="medical" gender="m">dolor / mal</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>back pain
+                <translations>
+                    <translation catagory="medical" gender="m">mal d'esquena</translation>
+                </translations>
+                </expressions>
+                <expressions>ease the pain
+                    <translations>
+                        <translation catagory="medical">alleujar el dolor</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="5910000">painful<adjectives>
 
@@ -979,7 +997,7 @@
 
 			<translations><date>0408</date>
 
-				<translation gender="m">núvol<engexamp>A pall of smoke</engexamp><catexamp>Un núvol de fum</catexamp></translation>
+				<translation gender="m">núvol</translation>
 
                                 <translation gender="m">drap mortuori</translation>
 
@@ -998,7 +1016,11 @@
                     </translations>
 
                 </phrasalverbs>
-
+                <expressions>pall of smoke
+                    <translations>
+                        <translation gender="m">núvol de fum</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="680000">palladium<nouns>
                             <translations><date>0508</date>
@@ -1119,12 +1141,16 @@
 
 			<translations>
 
-				<translation catagory="medical" gender="f">paràlisi<engexamp>Cerebral palsy</engexamp><catexamp>Paràlisi cerebral</catexamp><plural>palsies</plural></translation>
+				<translation catagory="medical" gender="f">paràlisi<plural>palsies</plural></translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>cerebral palsy
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">paràlisi cerebral</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1910000">paltry<adjectives>
 
@@ -1250,12 +1276,16 @@
 
 			<translations>
 
-				<translation catagory="animal-animal" gender="m">panda<engexamp>Giant panda</engexamp><catexamp>Panda gegant</catexamp></translation>
+				<translation catagory="animal-animal" gender="m">panda</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>giant panda
+                <translations>
+                    <translation catagory="animal-animal" gender="m">panda gegant</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="22700000">pandemic<nouns>
 
@@ -2580,11 +2610,7 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation gender="f">part<engexamp>To be part of</engexamp>
-
-					<catexamp>Formar part de</catexamp>
-
-				</translation>
+				<translation gender="f">part</translation>
 
 				<translation gender="m">paper<engnote>'Paper' means 'part' as in 'a role in a film or play'.</engnote>
 
@@ -2608,7 +2634,17 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 		</verbs>
 
-	<phrasalverbs>part with<translations><translation intransitive="true">abandonar, perdre</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>part with
+                    <translations>
+                        <translation intransitive="true">abandonar / perdre</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>be part of
+                    <translations>
+                        <translation>formar part de</translation>
+                    </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="13600000">partial<adjectives>
 
 			<translations><date>0108</date>
@@ -2692,16 +2728,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation catagory="chemistry" gender="f">partícula<engexamp>Particle physics</engexamp>
-
-					<catexamp>Física de partícules</catexamp>
-
-				</translation>
+				<translation catagory="chemistry" gender="f">partícula</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>particle physics
+                <translations>
+                <translation catagory="work-field, physics" gender="f">física de partícules</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="15800000">particular<adjectives>
 
@@ -2833,7 +2869,9 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
                 <translations>
 
-                <translation>a mitja jornada<engexamp>Peter works part time</engexamp><catexamp>En Peter treballa a mitja jornada</catexamp></translation></translations></adverbs>
+                <translation>a mitja jornada<engexamp>Peter works part time</engexamp><catexamp>En Peter treballa a mitja jornada</catexamp></translation>
+                </translations>
+            </adverbs>
 
 	</Entry>
 <Entry frequency="93100000">party<nouns>
@@ -2901,58 +2939,116 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 			</translations>
 
 		</verbs>
-
-                <phrasalverbs>pass down
-
+                <phrasalverbs>pass across
                     <translations>
-
-                        <translation>pronunciar (una decisió judicial)</translation>
-
-                        <translation>transmetre (a algú més jove) coses o coneixements</translation>
-
+                        <translation intransitive="true">passar (a l'altra banda)</translation>
+                        <translation transitive="true">fer passar (una cosa) d'un costat a l'altre</translation>
                     </translations>
-
                 </phrasalverbs>
-
+                <phrasalverbs>pass along
+                    <translations>
+                        <translation transitive="true">passar (una cosa, de l'un a l'altre)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pass around
+                    <translations>
+                        <translation transitive="true">fer circular (una cosa de mà en mà)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pass away
+                    <translations>
+                        <translation intransitive="true">passar (i desaparèixer)</translation>
+                        <translation intransitive="true">morir-se (eufemisme)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pass back
+                    <translations>
+                        <translation transitive="true">retornar (una cosa)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pass by
+                    <translations>
+                        <translation intransitive="true">passar (prop de)</translation>
+                        <translation transitive="true">no tractar (algú, una dificultat)</translation>
+                        <translation transitive="true">passar desapercebudament (esdeveniments a algú)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pass down
+                    <translations>
+                        <translation>pronunciar (una decisió judicial)</translation>
+                        <translation>transmetre (a algú més jove) coses o coneixements</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pass for
+                    <translations>
+                        <translation intransitive="true">ser acceptat com a</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pass into
+                    <translations>
+                        <translation intransitive="true">passar a (entrant)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pass off
+                    <translations>
+                        <translation intransitive="true">ocórrer</translation>
+                    <translation transitive="true">fer passar (una cosa) fraudulentament</translation>
+                    <translation transitive="true">passar per alt (una cosa)</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>pass off as
+                <translations>
+                    <translation intransitive="true">fer passar per</translation>
+                </translations>
+            </phrasalverbs>
                 <phrasalverbs>pass on
-
                 <translations>
-
                     <translation>transmetre's</translation>
-
                 </translations>
-
                 </phrasalverbs>
-
+                <phrasalverbs>pass out
+                    <translations>
+                        <translation intransitive="true">perdre el coneixement / desmaiar-se</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pass out of
+                    <translations>
+                        <translation intransitive="true">sortir de</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>pass over
-
                 <translations>
-
                     <translation>no fer cas de / ometre / deixar fora</translation>
-
                 </translations>
-
                 </phrasalverbs>
-
+                <phrasalverbs>pass round
+                    <translations>
+                        <translation transitive="true">fer circular (una cosa de mà en mà)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pass through
+                    <translations>
+                        <translation intransitive="true">estar de passada / passar cap a l'altra banda</translation>
+                        <translation intransitive="true">passar per</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pass up
+                    <translations>
+                        <translation transitive="true">fer passar amunt (una cosa, de mà en mà)</translation>
+                        <translation transitive="true">perdre (p.e., una oportunitat)</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
-
 			<translations>
-
 				<translation gender="m">permís<engnote>'Permís' means 'pass' in the sense 'permit'.</engnote>
-
 				</translation>
-
 				<translation gender="m">aprovat<engnote>'Aprovat' means 'pass' as in 'Students are expected to have a pass in German or French'.</engnote>
-
 					<plural>passes</plural>
-
 				</translation>
-
 			</translations>
-
 		</nouns>
 
-	<phrasalverbs>pass across<translations><translation intransitive="true">passar (a l'altra banda)</translation><translation transitive="true">fer passar (una cosa) d'un costat a l'altre</translation></translations></phrasalverbs><phrasalverbs>pass along<translations><translation transitive="true">passar (una cosa, de l'un a l'altre)</translation></translations></phrasalverbs><phrasalverbs>pass around<translations><translation transitive="true">fer circular (una cosa de mà en mà)</translation></translations></phrasalverbs><phrasalverbs>pass away<translations><translation intransitive="true">passar (i desaparèixer)</translation><translation intransitive="true">morir-se (eufemisme)</translation></translations></phrasalverbs><phrasalverbs>pass back<translations><translation transitive="true">retornar (una cosa)</translation></translations></phrasalverbs><phrasalverbs>pass by<translations><translation intransitive="true">passar (prop de)</translation><translation transitive="true">1 no tractar (algú, una dificultat) 2 passar desapercebudament (esdeveniments a algú)</translation></translations></phrasalverbs><phrasalverbs>pass for<translations><translation intransitive="true">ser acceptat com a</translation></translations></phrasalverbs><phrasalverbs>pass into<translations><translation intransitive="true">passar a (entrant)</translation></translations></phrasalverbs><phrasalverbs>pass off<translations><translation intransitive="true">ocórrer</translation><translation transitive="true">1 fer passar (una cosa) fraudulentament 2 passar per alt (una cosa)</translation></translations></phrasalverbs><phrasalverbs>pass off as<translations><translation intransitive="true">fer passar per</translation></translations></phrasalverbs><phrasalverbs>pass out<translations><translation intransitive="true">perdre el coneixement, desmaiar-se</translation></translations></phrasalverbs><phrasalverbs>pass out of<translations><translation intransitive="true">sortir de</translation></translations></phrasalverbs><phrasalverbs>pass round<translations><translation transitive="true">fer circular (una cosa de mà en mà)</translation></translations></phrasalverbs><phrasalverbs>pass through<translations><translation intransitive="true">estar de passada, passar cap a l'altra banda</translation><translation intransitive="true">passar per</translation></translations></phrasalverbs><phrasalverbs>pass up<translations><translation transitive="true">fer passar amunt (una cosa, de mà en mà)</translation><translation transitive="true">perdre (p.e., una oportunitat)</translation></translations></phrasalverbs></Entry>
+</Entry>
 <Entry frequency="603000">passable<adjectives>
 
 			<translations>
@@ -3167,26 +3263,30 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 	</Entry>
 <Entry frequency="2120000">pastry<nouns>
-
 			<translations><date>0407</date>
-
-				<translation catagory="food" gender="f">pasta<engexamp>Puff pastry</engexamp><catexamp>Pasta de full</catexamp><engexamp>Shortcrust pastry</engexamp><catexamp>Pasta sablée</catexamp><engexamp>Choux pastry</engexamp><catexamp>Pasta choux</catexamp></translation>
-
+				<translation catagory="food" gender="f">pasta</translation>
 			</translations>
-
 		</nouns>
-
-	</Entry>
-<Entry frequency="1160000">pastry chef<nouns>
-
-			<translations><date>0407</date>
-
-				<translation catagory="work-job, food" gender="mf">pastisser</translation>
-
-			</translations>
-
-		</nouns>
-
+                <expressions>pastry chef
+                <translations>
+                    <translation catagory="work-job, food" gender="mf">pastisser</translation>
+                </translations>
+                </expressions>
+                <expressions>choux pastry
+                    <translations>
+                        <translation catagory="food" gender="f">pasta choux</translation>
+                    </translations>
+                </expressions>
+                <expressions>puff pastry
+                    <translations>
+                        <translation catagory="food" gender="f">pasta de fulls</translation>
+                    </translations>
+                </expressions>
+                <expressions>shortcrust pastry
+                <translations>
+                    <translation catagory="food" gender="f">pasta sablée</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="751000">PA system<nouns>
 
@@ -3772,50 +3872,67 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 	<phrasalverbs>pawn off<translations><translation transitive="true">endossar (a algú una cosa)</translation></translations></phrasalverbs></Entry>
 <Entry frequency="94300000">pay<verbs>
-
 			<past>paid</past>
-
 			<participle>paid</participle>
-
 			<translations>
-
 				<translation catagory="financial">pagar<engexamp>Pay in advance</engexamp><catexamp>Anticipar</catexamp></translation>
-
 			</translations>
-
 		</verbs>
-
+                <phrasalverbs>pay back
+                    <translations>
+                        <translation transitive="true">tornar diners (a algú) / reembossar</translation>
+                        <translation transitive="true">venjar-se (d'algú)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pay by
+                    <translations>
+                        <translation intransitive="true">pagar amb</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pay for
+                    <translations>
+                        <translation intransitive="true">pagar (quan vol dir "donar diners per")</translation>
+                    </translations>
+                </phrasalverbs>
 		<phrasalverbs>pay in
-
 			<translations>
-
-				<translation catagory="financial" local="gb">ingressar<otherlocal>deposit</otherlocal>
-
-				</translation>
-
+				<translation catagory="financial" local="gb">ingressar<otherlocal>deposit</otherlocal></translation>
 			</translations>
-
 		</phrasalverbs>
-
+                <phrasalverbs>pay off
+                    <translations>
+                        <translation transitive="true">liquidar (deutes)</translation>
+                        <translation intransitive="true">reeixir</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pay out
+                    <translations>
+                        <translation transitive="true">gastar (diners)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>pay up
+                    <translations>
+                        <translation intransitive="true">pagar (un deute)</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
-
 			<translations>
-
 				<translation gender="m">salari / sou<synonyms>salary, wages</synonyms>
-
 				</translation>
-
 			</translations>
-
 		</nouns>
-
+                <expressions>pay as you go
+                    <translations>
+                        <translation catagory="telephone" gender="m">mòbil de prepagament</translation>
+                        <translation>sense contracte</translation>
+                    </translations>
+                </expressions>
                 <expressions>pay attention to
-
                 <translations>
-
-                <translation>prestar atenció a</translation></translations></expressions>
-
-	<phrasalverbs>pay back<translations><translation transitive="true">tornar diners (a algú), reembossar</translation><translation transitive="true">venjar-se (d'algú)</translation></translations></phrasalverbs><phrasalverbs>pay by<translations><translation intransitive="true">pagar amb</translation></translations></phrasalverbs><phrasalverbs>pay for<translations><translation intransitive="true">pagar (quan vol dir "donar diners per")</translation></translations></phrasalverbs><phrasalverbs>pay off<translations><translation transitive="true">liquidar (deutes)</translation><translation intransitive="true">reeixir</translation></translations></phrasalverbs><phrasalverbs>pay out<translations><translation transitive="true">gastar (diners)</translation></translations></phrasalverbs><phrasalverbs>pay up<translations><translation intransitive="true">pagar (un deute)</translation></translations></phrasalverbs></Entry>
+                <translation>prestar atenció a</translation>
+                </translations>
+                </expressions>
+</Entry>
 <Entry frequency="4960000">payable<adjectives>
 
 			<translations>
@@ -3827,29 +3944,7 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 		</adjectives>
 
 	</Entry>
-<Entry frequency="362000">pay as you go<nouns>
 
-			<translations>
-
-				<translation catagory="telephone" noteng="TRUE">-<catnote>Un 'pay as you go' és un mòbil que no necessita un abonament, sinó que s'utilitza una targeta de prepagament.</catnote>
-
-				</translation>
-
-			</translations>
-
-		</nouns>
-
-		<adjectives>
-
-			<translations>
-
-				<translation>sense contracte</translation>
-
-			</translations>
-
-		</adjectives>
-
-	</Entry>
 <Entry frequency="37700000">payment<nouns>
 
 			<translations>
@@ -4576,16 +4671,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation catagory="body">pèlvic / pelvià<engexamp>Pelvic floor (muscles)</engexamp>
-
-					<catexamp>(Músculs del) sòl pèlvic / pelvià</catexamp>
-
-				</translation>
+				<translation catagory="body">pèlvic / pelvià</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>pelvic floor (muscles)
+                <translations>
+                    <translation catagory="body">(músculs del) sòl pèlvic / pelvià</translation>
+            </translations>
+            </expressions>
 	</Entry>
 <Entry frequency="8910000">pelvis<nouns>
 
@@ -5136,22 +5231,26 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
                 </translations>
 		</nouns>
 	</Entry>
-<Entry frequency="1490000">percussion<nouns>
+<Entry frequency="24000000">percussion<nouns>
 
-			<translations><date>0408</date>
+			<translations><date>0708</date>
 
-				<translation catagory="entertainment-music" gender="f">percussió<engexamp>Percussion instruments</engexamp><catexamp>Instruments de percussió</catexamp></translation>
+				<translation catagory="entertainment-music" gender="f">percussió</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>percussion instrument
+                    <translations>
+                        <translation catagory="entertainment-music-instrument" gender="m">instrument de percussió</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2530000">percussionist<nouns>
 
 			<translations><date>0408</date>
 
-				<translation catagory="entertainment-music" gender="m / f">percussionista</translation>
+				<translation catagory="entertainment-music" gender="mf">percussionista</translation>
 
 			</translations>
 
@@ -5362,7 +5461,7 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
             </Entry>
 <Entry frequency="5140000">peripheral<adjectives>
                             <translations><date>0508</date>
-                            <translation>perifèric<engexamp>Peripheral device</engexamp><catexamp>Perifèric</catexamp></translation>
+                            <translation>perifèric</translation>
 			</translations>
 		</adjectives>
                 <nouns>
@@ -5370,6 +5469,11 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
                         <translation catagory="computers" sourceplural="peripherals" gender="mpl">perifèrics</translation>
                     </translations>
                 </nouns>
+                <expressions>peripheral device
+                <translations>
+                <translation catagory="computers" gender="m">perifèric</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="893000">periphery<nouns>
 
@@ -6003,9 +6107,14 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>peticionar / demanar<engexamp>To petition for divorce</engexamp><catexamp>Demanar divorci</catexamp></translation>
+                        <translation>peticionar / demanar</translation>
                     </translations>
                 </verbs>
+                <expressions>petition for divorce
+                    <translations>
+                        <translation>demanar divorci</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1490000">petrochemical<adjectives>
 
@@ -6449,12 +6558,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation>filharmònic<engexamp>London Philharmonic Orchestra</engexamp><catexamp>Orquestra Filharmònica de Londres</catexamp></translation>
+				<translation>filharmònic</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>philharmonic orchestra
+                <translations>
+                <translation catagory="entertainment-music" gender="f">orquestra filharmònica</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="15300000">Philippines<nouns>
 
@@ -6765,18 +6878,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation register="colloquial" gender="f">foto<engexamp>To take a photo</engexamp>
-
-					<catexamp>Fer una foto</catexamp>
-
-					<synonyms>photograph</synonyms>
-
-				</translation>
+				<translation register="colloquial" gender="f">foto</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>take a photo
+                    <translations>
+                        <translation>fer una foto</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="22800">photoanode<nouns>
 
@@ -7654,12 +7765,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation>a collibè<engexamp>To give someone a piggyback</engexamp><catexamp>Portar algú a collibè</catexamp></translation>
+				<translation>a collibè</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>give (somebody) a piggyback
+                    <translations>
+                        <translation>portar (algú) a collibè</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="22300">pig-headed<adjectives>
 
@@ -7901,28 +8016,27 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 	</Entry>
 <Entry frequency="14900000">pin<nouns>
-
 			<translations><date>0408</date>
-
                             <translation gender="f">agulla<engexamp>Drawing pin</engexamp><catexamp>Xinxeta</catexamp></translation>
-
 				<translation disambiguate="financial" capitalized="PIN" gender="m">número secret<catnote>Encara que l'acrònim 'PIN' vol dir 'Personal Identification Number' molts angloparlants diuen 'PIN number' (és a dir Personal Identification Number number).</catnote></translation>
-
 			</translations>
-
-		</nouns>
-
-                <expressions>pins and needles
-
+		</nouns>        
+	<phrasalverbs>pin up
+            <translations>
+                <translation transitive="true">penjar (un paper, una notícia) amb una xinxeta o agulla de cap</translation>
+            </translations>
+        </phrasalverbs>
+    <expressions>pins and needles
                 <translations>
-
                     <translation>formigueig</translation>
-
                 </translations>
-
             </expressions>
-
-	<phrasalverbs>pin up<translations><translation transitive="true">penjar (un paper, una notícia) amb una xinxeta o agulla de cap</translation></translations></phrasalverbs></Entry>
+            <expressions>drawing pin
+                <translations>
+                    <translation gender="f">xinxeta</translation>
+                </translations>
+            </expressions>
+    </Entry>
 <Entry frequency="1550000">pinch<verbs>
 
 			<translations><date>0408</date>
@@ -7951,18 +8065,27 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 	</Entry>
 <Entry frequency="8880000">pine<nouns>
-
 			<translations>
-
-				<translation catagory="plant-tree" gender="m">pi<engexamp>Pine forest</engexamp><catexamp>Pineda</catexamp><synonyms>pine tree</synonyms>
-
+				<translation catagory="plants-tree" gender="m">pi<synonyms>pine tree</synonyms>
 				</translation>
-
 			</translations>
-
 		</nouns>
-
-	<phrasalverbs>pine for<translations><translation intransitive="true">delir-se per</translation></translations></phrasalverbs></Entry>
+	<phrasalverbs>pine for
+            <translations>
+                <translation intransitive="true">delir-se per</translation>
+            </translations>
+        </phrasalverbs>
+        <expressions>pine forest
+            <translations>
+                <translation gender="f">pineda</translation>
+            </translations>
+        </expressions>
+        <expressions>pine tree
+        <translations>
+            <translation catagory="plants-tree" gender="m">pi</translation>
+            </translations>
+            </expressions>
+    </Entry>
 <Entry frequency="1150000">pineapple<nouns>
 
 			<translations>
@@ -8168,7 +8291,12 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 		</nouns>
 
-	<phrasalverbs>pipe up<translations><translation intransitive="true">(col·loq.) dir sobtadament</translation></translations></phrasalverbs></Entry>
+	<phrasalverbs>pipe up
+            <translations>
+                <translation register="colloquial" intransitive="true">dir sobtadament</translation>
+            </translations>
+        </phrasalverbs>
+    </Entry>
 <Entry frequency="101000">piped gas<nouns>
 
 			<translations><date>0307</date>
@@ -8264,15 +8392,7 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation register="vulgar" gender="m">pipí
-
-					<engexamp>To take / have a piss</engexamp>
-
-					<catexamp>Fer pipí</catexamp>
-
-					<synonyms>wee</synonyms>
-
-				</translation>
+				<translation register="vulgar" gender="m">pipí<synonyms>wee</synonyms></translation>
 
 			</translations>
 
@@ -8359,7 +8479,11 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
                 </translations>
 
                 </expressions>
-
+                <expressions>take (o have) a piss
+                    <translations>
+                        <translation register="vulgar">fer pipí</translation>
+                    </translations>
+                </expressions>
                 <expressions>take the piss out of (someone)
 
                 <translations>
@@ -8685,11 +8809,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation gender="f">placenta<engexamp>Placenta previa</engexamp><catexamp>Placenta prèvia</catexamp></translation>
+				<translation gender="f">placenta</translation>
 
 			</translations>
 
 		</nouns>
+                <expressions>placenta previa
+                    <translations>
+                    <translation catagory="medical" gender="f">placenta prèvia</translation>
+                    </translations>
+                </expressions>
 
 	</Entry>
 <Entry frequency="4990000">place of birth<nouns>
@@ -8749,21 +8878,24 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 	</Entry>
 <Entry frequency="1720000">plague<nouns>
 			<translations><date>0408</date>
-				<translation gender="f">plaga / pesta<engexamp>Plague victim</engexamp><catexamp>Empestat</catexamp><engexamp>Plague-stricken</engexamp><catexamp>Empestat</catexamp></translation>
+				<translation gender="f">plaga / pesta</translation>
 			</translations>
-
 		</nouns>
-
 		<verbs>
-
 			<translations>
-
 				<translation>infestar / afligir / assolar</translation>
-
 			</translations>
-
 		</verbs>
-
+                <expressions>plague-stricken
+                    <translations>
+                        <translation>empestat</translation>
+                    </translations>
+                </expressions>
+                <expressions>plague victim
+                    <translations>
+                        <translation gender="mf">empestat</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="447000">plaice<nouns>
 
@@ -8811,16 +8943,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation>de paisà<engexamp>Plainclothes policeman</engexamp>
-
-					<catexamp>Policia de paisà</catexamp>
-
-				</translation>
+				<translation>de paisà</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>plainclothes policeman
+                <translations>
+                <translation gender="mf">policia de paisà</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="15600000">plaintiff<nouns>
 
@@ -8907,14 +9039,18 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation>tauló / post<engexamp>He's as thick as two short planks</engexamp><catexamp>És idiota</catexamp></translation>
+				<translation>tauló / post</translation>
 
                                 <translation register="slang" gender="mf">idiota<example>Don't take any notice of him, he's a right &lt;b&gt;plank&lt;/b&gt;.</example></translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>be as thick as two short planks
+                    <translations>
+                        <translation register="colloquial">ser idiota</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2300000">plankton<nouns>
 
@@ -8944,12 +9080,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 				<translation gender="f">planificació</translation>
 
-                                <translation beforenoun="true">planificador<engexamp>Planning process</engexamp><catexamp>Procés planificador</catexamp></translation>
+                                <translation beforenoun="true">planificador</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>planning process
+                    <translations>
+                        <translation gender="m">procés planificador</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="108000000">plant<nouns>
 
@@ -9188,16 +9328,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation catagory="chemistry, material" gender="m">platí<engexamp>Platinum disc</engexamp>
-
-					<catexamp>Disc de platí</catexamp>
-
-				</translation>
+				<translation catagory="chemistry, material" gender="m">platí</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>platinum disc
+                <translations>
+                    <translation gender="m">disc de platí</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4800000">platypus<nouns>
 
@@ -9405,14 +9545,23 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 				<translation>pregar / suplicar</translation>
 
-                                <translation disambiguate="legal">declarar-se<engexamp>To plead guilty</engexamp><catexamp>Declarar-se culpable</catexamp><engexamp>To plead innocent</engexamp><catexamp>Declarar-se innocent</catexamp></translation>
+                                <translation disambiguate="legal">declarar-se</translation>
 
                                 <translation>al·legar / donar com a raó / donar com a excusa</translation>
 
 			</translations>
 
 		</verbs>
-
+                <expressions>plead guilty
+                <translations>
+                <translation catagory="legal">declarar-se culpable</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>plead innocent
+                        <translations>
+                            <translation catagory="legal">declarar-se innocent</translation>
+                        </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="10300000">pleasant<adjectives>
 
@@ -10562,12 +10711,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
                             <grouptranslation><translation gender="m">verí</translation>
 
-                                <translation gender="f">metzina</translation><engexamp>Rat poison</engexamp><catexamp>Raticida / mata-rates</catexamp></grouptranslation>
+                                <translation gender="f">metzina</translation></grouptranslation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>rat poison
+                <translations>
+                    <translation gender="f">raticida / mata-rates</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="6370000">poisoning<nouns>
 
@@ -10881,7 +11034,7 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation gender="f">política<engexamp>To put politics before policy</engexamp><catexamp>Posar la política de partit per davant de la política d'estat</catexamp><engexamp>American foreign policy</engexamp><catexamp>Política exterior americana</catexamp><engexamp>The company's personnel policy</engexamp><catexamp>La política de personal de l'empresa</catexamp></translation>
+				<translation gender="f">política<engexamp>To put politics before policy</engexamp><catexamp>Posar la política de partit per davant de la política d'estat</catexamp><engexamp>The company's personnel policy</engexamp><catexamp>La política de personal de l'empresa</catexamp></translation>
 
 				<translation gender="f">pòlissa<engnote>'Pòlissa' means 'policy' in the insurance sense (i.e. 'I have a policy with Standard Life / State Farm' etc.)</engnote>
 
@@ -10892,7 +11045,11 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 			</translations>
 
 		</nouns>
-
+                <expressions>foreign policy
+                <translations>
+                    <translation catagory="politics" gender="f">política exterior</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="9000000">polish<verbs>
 
@@ -12301,12 +12458,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation catagory="medical" local="gb">postpart<engexamp>Postnatal depression</engexamp><catexamp>Depressió postpart</catexamp><otherlocal>postpartum</otherlocal></translation>
+				<translation catagory="medical" local="gb">postpart<otherlocal>postpartum</otherlocal></translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>postnatal depression
+                <translations>
+                <translation catagory="medical-illness" gender="f">depressió postpart</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="33400000">post office<nouns>
 
@@ -12325,12 +12486,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation catagory="medical" local="us">postpart<engexamp>Postpartum depression</engexamp><catexamp>Depressió postpart</catexamp><otherlocal>postnatal</otherlocal></translation>
+				<translation catagory="medical" local="us">postpart<otherlocal>postnatal</otherlocal></translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>postpartum depression
+                <translations>
+                    <translation catagory="medical-illness" gender="f">depressió postpart</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3400000">postpone<verbs>
 
@@ -12427,7 +12592,7 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 				<translation catagory="household-room-kitchen" gender="f">olla</translation>
 
-				<translation gender="m">pot<engexamp>Coffee pot</engexamp><catexamp>Cafetera</catexamp><engexamp>Tea pot</engexamp><catexamp>Tetera</catexamp></translation>
+                                    <translation gender="m">potg</translation>
 
 				<translation gender="m">test<synonyms>flowerpot</synonyms></translation>
 
@@ -12436,7 +12601,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 			</translations>
 
 		</nouns>
-
+                <expressions>coffee pot
+                <translations>
+                    <translation catagory="household-room-kitchen" gender="f">cafetera</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>tea pot
+                    <translations>
+                        <translation catagory="household-room-kitchen" gender="f">tetera</translation>
+                        </translations>
+                        </expressions>
 	</Entry>
 <Entry frequency="1260000">potable<adjectives>
 
@@ -12760,12 +12934,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations><date>0807</date>
 
-				<translation>en pols<engexamp>Powdered milk</engexamp><catexamp>Llet en pols</catexamp></translation>
+				<translation>en pols</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>powdered milk
+                    <translations>
+                        <translation catagory="food" gender="f">llet en pols</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="149000000">power<nouns>
 			<translations>
@@ -12906,7 +13084,13 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
                 <translations>
 
-                <translation gender="f">pràctica<engexamp>In practice...</engexamp><catexamp>A la pràctica</catexamp></translation></translations></nouns>
+                <translation gender="f">pràctica</translation></translations>
+                <expressions>in practice
+                    <translations>
+                        <translation>a la pràctica</translation>
+                    </translations>
+                </expressions>
+            </nouns>
 
 	</Entry>
 <Entry frequency="90300000">practise<verbs>
@@ -13436,6 +13620,12 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 		</nouns>
 
 	</Entry>
+            <Entry frequency="1440000">preemie<nouns>
+                            <translations><date>0708</date>
+                            <translation register="colloquial" gender="m">prematur<synonyms>premature baby</synonyms><catnote>Aquesta paraula també s'escriu 'premie'.</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="2880000">prefab<nouns>
 
 			<translations>
@@ -13546,16 +13736,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation>embarassada / encinta / prenyada<engexamp>To be x months pregnant</engexamp>
-
-					<catexamp>Estar (embarassada) de x mesos</catexamp>
-
-				</translation>
+				<translation>embarassada / encinta / prenyada</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>be (x) months pregnant
+                    <translations>
+                        <translation>estar (embarassada) de (x) mesos</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="11700000">prehistoric<adjectives>
 
@@ -13638,12 +13828,22 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation>prematur<engexamp>Premature baby</engexamp><catexamp>Prematur</catexamp></translation>
+				<translation>prematur</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>premature baby
+                    <translations>
+                        <translation gender="m">prematur<synonyms>pre(e)mie (colloq)</synonyms></translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="674000">premie<nouns>
+                            <translations><date>0708</date>
+                            <translation register="colloquial" gender="m">prematur<synonyms>premature baby</synonyms><catnote>Aquesta paraula també s'escriu 'preemie'.</catnote></translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="7270000">premiere<verbs>
 
@@ -14259,16 +14459,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation gender="f">prevenció<engexamp>Prevention is better than cure</engexamp>
-
-					<catexamp>Més val prevenir que curar</catexamp>
-
-				</translation>
+				<translation gender="f">prevenció</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>prevention is better than cure
+                    <translations>
+                        <translation>més val prevenir que curar</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="14200000">preventive<adjectives>
 
@@ -14931,12 +15131,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation>de proves<engexamp>Probationary period</engexamp><catexamp>Període de proves</catexamp></translation>
+				<translation>de proves</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>probationary period
+                <translations>
+                <translation gender="m">període de proves</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="6170000">probe<verbs>
 
@@ -15061,16 +15265,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation catagory="computers" termcat="true" gender="m">processador<engexamp>Word processor</engexamp>
-
-					<catexamp>Processador de textos</catexamp>
-
-				</translation>
+				<translation catagory="computers" termcat="true" gender="m">processador</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>word processor
+                <translations>
+                <translation catagory="computers" gender="m">processador de textos</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1490000">proclaim<verbs>
 
@@ -16066,18 +16270,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation>proporcional<engexamp>Inversely proportional to...</engexamp>
-
-					<catexamp>Inversament proporcional a...</catexamp>
-
-					<synonyms>proportionate</synonyms>
-
-				</translation>
+				<translation>proporcional<synonyms>proportionate</synonyms></translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>inversely proportional to
+                <translations>
+                    <translation>inversament proporcional a</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="158000">proportionally<adverbs>
 
@@ -16216,12 +16418,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation catagory="body" gender="f">pròstata<engexamp>Prostate cancer</engexamp><catexamp>Càncer de pròstata</catexamp></translation>
+				<translation catagory="body" gender="f">pròstata</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>prostate cancer
+                    <translations>
+                        <translation catagory="medical-illness" gender="m">càncer de pròstata</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="661000">prostration<nouns>
 
@@ -16979,7 +17185,9 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
          <translations>
 
-         <translation gender="f">edició<engexamp>Desktop publishing</engexamp><catexamp>Autoedició</catexamp></translation></translations></nouns>
+         <translation gender="f">edició</translation>
+     </translations>
+ </nouns>
 
          <adjectives>
 
@@ -16990,29 +17198,21 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 			</translations>
 
 		</adjectives>
-
-	</Entry>
-<Entry frequency="7040000">publishing company<nouns>
-
-			<translations>
-
-				<translation gender="f">editorial<plural>publishing companies</plural></translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry>
-<Entry frequency="2090000">publishing house<nouns>
-
-			<translations>
-
-				<translation gender="f">editorial</translation>
-
-			</translations>
-
-		</nouns>
-
+                <expressions>publishing company
+                    <translations>
+                        <translation gender="f">editorial<plural>publishing companies</plural></translation>
+                    </translations>
+                </expressions>
+                <expressions>publishing house
+                <translations>
+                    <translation gender="f">editorial</translation>
+                </translations>
+                </expressions>
+                <expressions>desktop publishing
+                <translations>
+                <translation gender="f">autoedició</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2470000">pucker<verbs>
 
@@ -17508,35 +17708,31 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 	</Entry>
 <Entry frequency="6370000">pulp<nouns>
-
 			<translations>
-
 				<translation gender="f">polpa</translation>
-
-				<translation gender="f">pasta<engexamp>Wood pulp</engexamp><catexamp>Pasta de fusta</catexamp>
-
-					<engexamp>Paper pulp</engexamp><catexamp>Pasta de paper</catexamp>
-
-				</translation>
-
-				<translation gender="f">barata<engexamp>Pulp fiction</engexamp><catexamp>Literatura barata</catexamp>
-
-				</translation>
-
+				<translation gender="f">pasta</translation>
 			</translations>
-
 		</nouns>
-
 		<verbs>
-
 			<translations>
-
 				<translation>reduir a polpa</translation>
-
 			</translations>
-
 		</verbs>
-
+                 <expressions>pulp fiction
+                <translations>
+                <translation gender="f">literatura barata</translation>
+                </translations>
+                </expressions>
+                <expressions>paper pulp
+                <translations>
+                    <translation gender="f">pasta de paper</translation>
+                </translations>
+                </expressions>
+                <expressions>wood pulp
+                    <translations>
+                        <translation gender="f">pasta de fusta</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="13700000">pulsar<nouns>
       <translations><date>0708</date>
@@ -17604,11 +17800,7 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations><date>1107</date>
 
-				<translation>donar a algú un cop de puny<engexamp>To punch someone (in the stomach)</engexamp>
-
-					<catexamp>Donar a algú un cop de puny al ventre</catexamp>
-
-				</translation>
+				<translation>donar (a algú) un cop de puny</translation>
 
 			</translations>
 
@@ -17708,23 +17900,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations><date>0807</date>
 
-				<translation catagory="linguistics" gender="f">puntuació<engexamp>Punctuation mark</engexamp><catexamp>Signe de puntuació</catexamp></translation>
+				<translation catagory="linguistics" gender="f">puntuació</translation>
 
 			</translations>
 
 		</nouns>
-
-	</Entry>
-<Entry frequency="1130000">punctuation mark<nouns>
-
-			<translations><date>0807</date>
-
-				<translation catagory="linguistics" gender="m">signe de puntuació</translation>
-
-			</translations>
-
-		</nouns>
-
+                <expressions>punctuation mark
+                    <translations>
+                        <translation catagory="linguistics" gender="m">signe de puntuació</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="8610000">puncture<nouns>
 
@@ -17732,12 +17917,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 				<translation disambiguate="transport" gender="f">punxada<synonyms>flat</synonyms></translation>
 
-                                <translation disambiguate="medical" gender="f">punció<engexamp>Lumbar puncture</engexamp><catexamp>Punció lumbar</catexamp></translation>
+                                <translation disambiguate="medical" gender="f">punció</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>lumbar puncture
+                    <translations>
+                        <translation catagory="medical" gender="f">punció lumbar</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2800000">pundit<nouns>
 
@@ -18018,23 +18207,31 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation disambiguate="legal" register="formal"><engexamp>Pursuant to</engexamp><catexamp>D'acord amb</catexamp></translation>
+				<translation disambiguate="legal" register="formal">paraula utilitzada en l'expressió 'pursuant to'</translation>
 
 			</translations>
 
         </adjectives>
-
+            <expressions>pursuant to
+                <translations>
+                    <translation>d'acord amb</translation>
+                </translations>
+            </expressions>
 	</Entry>
 <Entry frequency="13000000">pursue<verbs>
 
 			<translations>
 
-				<translation>perseguir<engexamp>To pursue (studies)</engexamp><catexamp>Cursar (els estudis)</catexamp></translation>
+				<translation>perseguir</translation>
 
 			</translations>
 
 		</verbs>
-
+                <expressions>pursue (studies)
+                <translations>
+                    <translation>cursar (els estudis)</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="23700000">pursuit<nouns>
 
@@ -18546,13 +18743,7 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 				</translation>
 
-				<translation gender="m">trencaclosques<engnote>'Trencaclosques' is a puzzle in the sense of a puzzle where you need to put a number of pieces together in the correct order - for example, a jigsaw'.</engnote>
-
-					<engexamp>Crossword puzzle</engexamp>
-
-					<catexamp>Mots encreuats</catexamp>
-
-				</translation>
+				<translation gender="m">trencaclosques<engnote>'Trencaclosques' is a puzzle in the sense of a puzzle where you need to put a number of pieces together in the correct order - for example, a jigsaw'.</engnote></translation>
 
 				<translation gender="m">misteri<engnote>'Misteri' means 'puzzle' in the sense of 'mystery' (e.g. 'Where John disappeared to after the party is still a puzzle').</engnote>
 
@@ -18562,7 +18753,17 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 		</nouns>
 
-	<phrasalverbs>puzzle out<translations><translation transitive="true">solucionar (un dilema, un trencaclosques), dexifrar</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>puzzle out
+                    <translations>
+                        <translation transitive="true">solucionar (un dilema, un trencaclosques) / dexifrar</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>crossword puzzle
+                    <translations>
+                        <translation gender="m">mots encreuats</translation>
+                    </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="1530000">pygmy<nouns>
 
 			<translations><date>0707</date>
@@ -18589,12 +18790,16 @@ is being accused of once again &lt;b&gt;pandering to&lt;/b&gt; Quebec for votes.
 
 			<translations>
 
-				<translation catagory="maths" gender="m">piràmide<engexamp>Population pyramid</engexamp><catexamp>Piràmide de població</catexamp></translation>
+				<translation catagory="maths" gender="m">piràmide</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>population pyramid
+                    <translations>
+                        <translation gender="m">piràmide de població</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="627000">Pyrenees<nouns>
 
