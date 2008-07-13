@@ -41,7 +41,7 @@
 		</nouns>
 		<adjectives>
 			<translations>
-                                <translation local="us">laboral<engexamp>Labor market</engexamp><catexamp>Mercat laboral</catexamp><otherlocal>labour</otherlocal>
+                                <translation local="us">laboral<otherlocal>labour</otherlocal>
 				</translation>
 			</translations>
 		</adjectives>
@@ -52,13 +52,12 @@
                 </verbs>
                 <expressions>labor agreement
                     <translations>
-                        <translation catagory="work" local="us" gender="m">conveni col·lectiu<otherlocal>labour agreement</otherlocal></translation>
+                        <translation catagory="work" local="us" gender="m">conveni col·lectiu</translation>
                     </translations>
                 </expressions>
                 <expressions>labor dispute
                     <translations>
-                        <translation catagory="work" local="us" gender="f">disputa laboral<otherlocal>labour dispute</otherlocal>
-                        </translation>
+                        <translation catagory="work" local="us" gender="f">disputa laboral</translation>
                     </translations>
                 </expressions>
                 <expressions>labor market
@@ -359,7 +358,7 @@
 	</Entry>
 <Entry frequency="37400000">lake<nouns>
 			<translations>
-				<translation gender="m">llac<engexamp>Small lake</engexamp><catexamp>Llacuna</catexamp></translation>
+				<translation gender="m">llac</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1214,9 +1213,14 @@
 	</Entry>
 <Entry frequency="13900000">LCD<engacro>Liquid Crystal Display</engacro><nouns>
 			<translations>
-				<translation gender="f">LCD<catacro>Pantalla de Cristall Líquid</catacro><engexamp>LCD TV / LCD television</engexamp><catexamp>Televisor de LCD</catexamp></translation>
-			</translations>
-		</nouns>
+				<translation gender="f">LCD<catacro>Pantalla de Cristall Líquid</catacro></translation>
+                            </translations>
+                        </nouns>
+                <expressions>LCD television (o TV)
+                <translations>
+                    <translation catagory="household-room-livingroom" gender="m">televisor de LCD</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="708000">LEA<engacro>Local Education Authority</engacro>
 		<nouns>
@@ -1278,27 +1282,30 @@
 <Entry frequency="73900000">leading<adjectives>
 			<translations>
 				<translation>líder</translation>
-                                <translation>principal<engexamp>Leading actor</engexamp><catexamp>Actor principal</catexamp></translation>
+                                <translation>principal</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="61200">leading question<nouns>
-			<translations>
-				<translation noteng="TRUE">-<catnote>Una 'leading question' és una pregunta que es fa amb la intenció d'obtenir una resposta pre-determinada (com fan els advocats als tribunals).</catnote>
-				</translation>
-			</translations>
-		</nouns>
+                <expressions>leading actor
+                    <translations>
+                        <translation gender="mf">actor principal</translation>
+                    </translations>
+                </expressions>
+                <expressions>leading question
+                    <translations>
+                        <translation noteng="TRUE">-<catnote>Una 'leading question' és una pregunta que es fa amb la intenció d'obtenir una resposta pre-determinada (com fan els advocats als tribunals).</catnote></translation>
+                    </translations>
+               </expressions>
 	</Entry>
 <Entry frequency="18000000">leaf<nouns>
 			<translations>
-				<translation gender="f">fulla<plural>leaves</plural>
+				<translation catagory="plants" gender="f">fulla<plural>leaves</plural>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="707000">leafless<adjectives>
 			<translations>
-				<translation>desfullat</translation>
+				<translation catagory="plants">desfullat</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1316,15 +1323,26 @@
 	</Entry>
 <Entry frequency="16100000">leak<nouns>
 			<translations>
-				<translation gender="f">fuita<engexamp>Gas leak</engexamp><catexamp>Fuita de gas</catexamp></translation>
+				<translation gender="f">fuita</translation>
 			</translations>
 		</nouns>
-                <expressions>take a leak
-                <translations>
-                <translation local="gb" register="slang">orinar / fer pipí</translation>
-                </translations>
+                <expressions>gas leak
+                    <translations>
+                        <translation gender="f">fuita de gas</translation>
+                    </translations>
                 </expressions>
-	<phrasalverbs>leak out<translations><translation transitive="true">divulgar sense autorització</translation><translation intransitive="true">divulgar-se</translation></translations></phrasalverbs></Entry>
+                <expressions>take a leak
+                    <translations>
+                        <translation local="gb" register="slang">orinar / fer pipí</translation>
+                    </translations>
+                </expressions>
+                <phrasalverbs>leak out
+                    <translations>
+                        <translation transitive="true">divulgar sense autorització</translation>
+                        <translation intransitive="true">divulgar-se</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="3330000">lean<verbs>
 			<past>leant, leaned</past>
 			<participle>leant, leaned</participle>
@@ -1349,15 +1367,17 @@
 			</translations>
 		</verbs>
                 <nouns>
+                    <translations>
+                        <translation gender="m">salt / bot</translation>
+                    </translations>
+                </nouns>
+                <expressions>leap year
                 <translations>
-                <translation gender="m">salt / bot<engexamp>Leap year</engexamp><catexamp>Any de traspàs / any bixest</catexamp></translation></translations></nouns>
-	</Entry>
-<Entry frequency="475000">leap year<nouns>
-			<translations>
-				<translation gender="m">any de traspàs / any bixest</translation>
-			</translations>
-		</nouns>
-	</Entry>
+                    <translation gender="m">any de traspàs / any bixest</translation>
+                </translations>
+                </expressions>
+            </Entry>
+
 <Entry frequency="657000000">learn<verbs>
 			<past>learnt, learned</past>
 			<participle>learnt, learned</participle>
@@ -1551,9 +1571,14 @@
 	</Entry>
 <Entry frequency="2230000">left-hand<adjectives>
 			<translations><date>0308</date>
-                                <translation beforenoun="true">d'esquerra<engexamp>On the left-hand side</engexamp><catexamp>A l'esquerra</catexamp></translation>
+                                <translation beforenoun="true">d'esquerra</translation>
 			</translations>
 		</adjectives>
+                <expressions>on the left-hand side
+                    <translations>
+                        <translation>a l'esquerra</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="863000">left-handed<adjectives>
 			<translations>
@@ -1939,9 +1964,16 @@
 			</translations>
 		</verbs>
                 <adjectives>
-                <translations>
-                <translation>anivellat<engexamp>Level with</engexamp><catexamp>Arran de</catexamp></translation></translations></adjectives>
-	</Entry>
+                    <translations>
+                        <translation>anivellat</translation>
+                    </translations>
+                </adjectives>
+                <expressions>level with
+                    <translations>
+                        <translation>arran de</translation>
+                    </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="74500">level crossing<nouns>
 			<translations>
 				<translation local="gb" gender="m">pas a nivell<otherlocal>grade crossing</otherlocal>
@@ -2099,29 +2131,36 @@
 <Entry frequency="68100000">licence<nouns>
 			<translations>
 				<translation gender="f">llicència</translation>
-                                <translation gender="m">carnet<engexamp>Driving licence (Br.)</engexamp><catexamp>Carnet de conduir</catexamp></translation>
+                                <translation gender="m">carnet</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="576000">licence fee<nouns>
-			<translations>
-				<translation noteng="TRUE" local="gb">-<catnote>Per veure la televisió a l'Anglaterra has de pagar el 'license fee'.  Oficialment és per subvencionar la BBC, que és un canal de servei públic, però, en realitat has de pagar el quota anual fins i tot si no veus mai aquest canal.</catnote>
-				</translation>
-			</translations>
-		</nouns>
+                <expressions>licence fee
+                    <translations>
+                        <translation local="gb" noteng="TRUE">-<catnote>Per veure la televisió a l'Anglaterra has de pagar el 'license fee'.  Oficialment és per subvencionar la BBC, que és un canal de servei públic, però, en realitat has de pagar el quota anual fins i tot si no veus mai aquest canal.</catnote></translation>
+                    </translations>
+                </expressions>
+                <expressions>driving licence
+                    <translations>
+                        <translation local="gb" gender="m">carnet de conduir<otherlocal>drivers license</otherlocal></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="253000000">license<nouns>
 			<translations>
 				<translation gender="f">llicència</translation>
-                                <translation gender="m">carnet<engexamp>Drivers license (Am.)</engexamp><catexamp>Carnet de conduir</catexamp></translation>
+                                <translation gender="m">carnet</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="3900000">license plate<nouns>
-			<translations>
-				<translation catagory="transport" local="us" gender="f">(placa de) matrícula<otherlocal>number plate</otherlocal></translation>
-			</translations>
-		</nouns>
+                <expressions>license plate
+                <translations>
+                    <translation local="us" catagory="transport" gender="f">(placa de) matrícula<otherlocal>number plate</otherlocal></translation>
+                    </translations>
+                    </expressions>
+                <expressions>drivers license
+                <translations>
+                    <translation local="us" gender="m">carnet de conduir<otherlocal>driving licence</otherlocal></translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="5770000">lick<verbs>
 			<translations>
@@ -2159,24 +2198,82 @@
                                 <translation intransitive="true">estar situat<example>Lindisfarne &lt;b&gt;lies&lt;/b&gt; just off the Northumberland coast.</example></translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>lie about
+                    <translations>
+                        <translation intransitive="true">jeure / gandulejar</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>lie around
+                    <translations>
+                        <translation intransitive="true">jeure / gandulejar</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>lie back
+                    <translations>
+                        <translation intransitive="true">reclinar-se</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>lie down
-                <translations>
-                <translation>jeure</translation></translations></phrasalverbs>
+                    <translations>
+                    <translation>jeure</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>lie in
+                    <translations>
+                        <translation intransitive="true">no llevar-se</translation>
+                        <translation intransitive="true">estar de part</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>lie over
+                    <translations>
+                        <translation intransitive="true">quedar ajornat</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>lie to
+                    <translations>
+                        <translation intransitive="true">en la nàutica, mantenir-se immòbil orientant-se al vent</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>lie up
+                    <translations>
+                        <translation intransitive="true">amagar-se de les autoritats</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>lie upon
+                    <translations>
+                        <translation intransitive="true">jeure damunt (de)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>lie with
+                    <translations>
+                        <translation intransitive="true">jeure amb</translation>
+                        <translation intransitive="true">ser competència de (p.e., una decisió)</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
-				<translation gender="f">mentida<engexamp>Barefaced lie</engexamp><catexamp>Mentida descarada</catexamp><engexamp>(Little) white lie</engexamp><catexamp>Mentida pietosa</catexamp></translation>
+				<translation gender="f">mentida</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>lie about<translations><translation intransitive="true">jeure, gandulejar</translation></translations></phrasalverbs><phrasalverbs>lie around<translations><translation intransitive="true">jeure, gandulejar</translation></translations></phrasalverbs><phrasalverbs>lie back<translations><translation intransitive="true">reclinar-se</translation></translations></phrasalverbs><phrasalverbs>lie in<translations><translation intransitive="true">1 no llevar-se 2 estar de part</translation></translations></phrasalverbs><phrasalverbs>lie over<translations><translation intransitive="true">quedar ajornat</translation></translations></phrasalverbs><phrasalverbs>lie to<translations><translation intransitive="true">en la nàutica, mantenir-se immòbil orientant-se al vent</translation></translations></phrasalverbs><phrasalverbs>lie up<translations><translation intransitive="true">amagar-se de les autoritats</translation></translations></phrasalverbs><phrasalverbs>lie upon<translations><translation intransitive="true">jeure damunt (de)</translation></translations></phrasalverbs><phrasalverbs>lie with<translations><translation intransitive="true">jeure amb</translation><translation intransitive="true">ser competència de (p.e., una decisió)</translation></translations></phrasalverbs></Entry>
+                <expressions>lie detector
+                    <translations>
+                        <translation gender="m">detector de mentides</translation>
+                    </translations>
+                </expressions>
+                <expressions>barefaced lie
+                    <translations>
+                        <translation gender="f">mentida descarada</translation>
+                    </translations>
+                </expressions>
+                <expressions>(little) white lie
+                    <translations>
+                        <translation gender="f">mentida pietosa</translation>
+                    </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="5610000">Liechtenstein<nouns>
 			<translations>
-				<translation gender="m">Liechtenstein</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="107000">lie detector<nouns>
-			<translations>
-				<translation gender="m">detector de mentides</translation>
+				<translation catagory="country-europe" gender="m">Liechtenstein</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2294,17 +2391,32 @@
                     <translation local="us">atacar</translation>
                     </translations>
                     </phrasalverbs>
+                    <phrasalverbs>light on
+                        <translations>
+                            <translation intransitive="true">(rar) trobar (per casualitat)</translation>
+                        </translations>
+                    </phrasalverbs>
                     <phrasalverbs>light out
                     <translations>
                         <translation local="us">marxar</translation>
                     </translations>
                     </phrasalverbs>
+                    <phrasalverbs>light up
+                        <translations>
+                        <translation transitive="true">il·luminar</translation>
+                        <translation transitive="true">encendre (tabac)</translation>
+                        <translation intransitive="true">il·luminar-se (d'alegria)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>light upon
+                    <translations>
+                        <translation intransitive="true">trobar (rar) (per casualitat)</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
                             <translation gender="f">claror</translation>
-				<translation gender="f">llum<engexamp>To come to light</engexamp>
-					<catexamp>Sortir a la llum</catexamp>
-				</translation>
+				<translation gender="f">llum</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -2315,15 +2427,20 @@
 				</translation>
 			</translations>
 		</adjectives>
-                <expressions>see somebody in their tue light
+                <expressions>come to light
+                <translations>
+                    <translation>sortir a la llum</translation>
+                </translations>
+                </expressions>
+                <expressions>see somebody in their true light
                 <translations>
                 <translation>veure's el llautó<synonyms>show your true colors (Am.) / colours (Br.)</synonyms></translation>
                 </translations>
                 </expressions>
-	<phrasalverbs>light on<translations><translation intransitive="true">(rar) trobar (per casualitat)</translation></translations></phrasalverbs><phrasalverbs>light up<translations><translation transitive="true">1 il·luminar 2 encendre (tabac)</translation><translation intransitive="true">il·luminar-se (d'alegria)</translation></translations></phrasalverbs><phrasalverbs>light upon<translations><translation intransitive="true">trobar (rar) (per casualitat)</translation></translations></phrasalverbs></Entry>
+	</Entry>
 <Entry frequency="1337000">light bulb<mistakes>lightbulb</mistakes><nouns>
 			<translations>
-				<translation gender="f">bombeta</translation>
+                            <translation gender="f">bombeta<catnote>Els australians també diuen 'light globe'.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2407,12 +2524,14 @@
 	</Entry>
 <Entry frequency="2490000">likelihood<nouns>
 			<translations>
-				<translation gender="f">probabilitat<engexamp>In all likelihood</engexamp>
-					<catexamp>Probablement</catexamp>
-					<synonyms>probability</synonyms>
-				</translation>
+				<translation gender="f">probabilitat<synonyms>probability</synonyms></translation>
 			</translations>
 		</nouns>
+                <expressions>in all likelihood
+                    <translations>
+                        <translation>probablement</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="14700000">likely<adjectives>
 			<translations>
@@ -2422,9 +2541,14 @@
 	</Entry>
 <Entry frequency="5000000">liking<nouns>
 			<translations>
-				<translation gender="m">gust<engexamp>It's not to my liking</engexamp><catexamp>No és del meu grat / gust</catexamp></translation>
+				<translation gender="m">gust</translation>
 			</translations>
 		</nouns>
+                <expressions>be to (somebody's) liking
+                <translations>
+                    <translation>ser del grat / gust (d'algú)<engexamp>It's not to my liking</engexamp><catexamp>No és del meu grat / gust</catexamp></translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1030000">lilac<adjectives>
 			<translations>
@@ -2442,10 +2566,15 @@
 <Entry frequency="1640000">limb<nouns>
 			<translations>
 				<translation gender="m">membre</translation>
-				<translation gender="m">extremitat<engexamp>artificial limbs</engexamp><catexamp>pròtesis</catexamp></translation>
+				<translation gender="m">extremitat</translation>
 				<translation gender="m">branca</translation>
 			</translations>
 		</nouns>
+                <expressions>artificial limb
+                <translations>
+                <translation gender="f">pròtesi</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2220000">lime<nouns>
 			<translations>
@@ -2456,7 +2585,7 @@
 	</Entry>
 <Entry frequency="15200000">limit<verbs>
 			<translations>
-				<translation>limitar<engexamp>To limit yourself to (sth)</engexamp><catexamp>Limitar-se (o cenyir-se) a (alguna cosa)</catexamp></translation>
+				<translation>limitar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -2464,6 +2593,11 @@
 				<translation gender="m">límit</translation>
 			</translations>
 		</nouns>
+                <expressions>limit yourself to (something)
+                <translations>
+                    <translation>limitar-se (o cenyir-se) a (alguna cosa)</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="19800000">limitation<nouns>
 			<translations>
@@ -2526,9 +2660,14 @@
 <Entry frequency="2450000">linen<nouns>
 			<translations>
 				<translation disambiguate="material" gender="m">lli</translation>
-				<translation gender="f">llenceria (roba de llit, de bany i de taula)<engexamp>Bed linen</engexamp><catexamp>Roba de llit</catexamp></translation>
+				<translation gender="f">llenceria (roba de llit, de bany i de taula)</translation>
 			</translations>
 		</nouns>
+                <expressions>bed linen
+                <translations>
+                <translation catagory="household-room-bedroom" gender="f">roba de llit</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="98500">linesman<nouns>
 			<translations>

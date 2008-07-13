@@ -1965,23 +1965,36 @@
 	</Entry>
 <Entry frequency="20200000">glance<nouns>
 			<translations>
-				<translation gender="m">cop d'ull<engexamp>To have a glance at</engexamp><catexamp>Donar (or fer) una ullada (or un cop d'ull) a</catexamp></translation>
+				<translation gender="m">cop d'ull</translation>
                                 <translation gender="m">esguard</translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>glance at
+                    <translations>
+                        <translation intransitive="true">donar un cop d'ull a / fer una ullada a</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>glance through
                     <translations>
                         <translation>donar un cop d'ull a<example>Could you &lt;b&gt;glance through&lt;/b&gt; that and let me know what you think?</example></translation>
                     </translations>
                 </phrasalverbs>
-	<phrasalverbs>glance at<translations><translation intransitive="true">donar un cop d'ull a</translation></translations></phrasalverbs></Entry>
+                <expressions>have (o take) a glance at
+                <translations>
+                    <translation>donar un cop d'ull a / fer una ullada a</translation>
+                </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="1430000">gland<nouns>
 			<translations>
-				<translation gender="f">glàndula<engexamp>Thyroid gland</engexamp>
-					<catexamp>Glàndula tiroide</catexamp>
-				</translation>
+				<translation gender="f">glàndula</translation>
 			</translations>
 		</nouns>
+                <expressions>thyroid gland
+                    <translations>
+                        <translation catagory="body" gender="f">glàndula tiroide</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1630000">glare<verbs>
 			<translations>
@@ -2258,23 +2271,31 @@
 	</Entry>
 <Entry frequency="616000">gluten<nouns>
 			<translations>
-				<translation gender="m">gluten<engexamp>Gluten-free</engexamp>
-					<catexamp>Sense gluten</catexamp>
-				</translation>
+				<translation gender="m">gluten</translation>
 			</translations>
 		</nouns>
+                <expressions>gluten-free
+                    <translations>
+                        <translation catagory="food">sense gluten</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="65700">glycaemia<nouns>
 			<translations><date>0408</date>
-				<translation catagory="medical" gender="f">glicèmia / glucèmia<catnote>També escrit 'glycemia'.</catnote></translation>
+				<translation catagory="medical" gender="f">glicèmia / glucèmia<catnote>Aquesta paraula també s'escriu 'glycemia'.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="884000">glycaemic<adjectives>
 			<translations><date>0408</date>
-				<translation>glucèmic / glicèmic<engexamp>Glycaemic index</engexamp><catexamp>Index glucèmic</catexamp><catnote>També escrit 'glycemic'.</catnote></translation>
+				<translation>glucèmic / glicèmic<catnote>Aquesta paraula també s'escriu 'glycemic'.</catnote></translation>
 			</translations>
 		</adjectives>
+                <expressions>glycaemic index
+                <translations>
+                    <translation gender="m">índex glucèmic</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="276000">glycemia<nouns>
 			<translations><date>0408</date>
@@ -2284,9 +2305,14 @@
 	</Entry>
 <Entry frequency="4110000">glycemic<adjectives>
 			<translations><date>0408</date>
-				<translation>glucèmic / glicèmic<engexamp>Glycemic index</engexamp><catexamp>Index glucèmic</catexamp><catnote>També escrit 'glycaemic'.</catnote></translation>
+				<translation>glucèmic / glicèmic<catnote>Aquesta paraula també s'escriu 'glycaemic'.</catnote></translation>
 			</translations>
 		</adjectives>
+                <expressions>glycemic index
+                    <translations>
+                        <translation gender="m">índex glucèmic</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="177000">glycerine<nouns>
 			<translations>
@@ -2554,10 +2580,15 @@
 	</Entry>
 <Entry frequency="2110000">going<adjectives>
 			<translations><date>0408</date>
-				<translation>que rutlla / que marxa / que funciona<engexamp>A going concern</engexamp><catexamp>Un negoci que rutlla</catexamp></translation>
+				<translation>que rutlla / que marxa / que funciona</translation>
                                 <translation>habitual / corrent<engexamp>The going rate (for)</engexamp><catexamp>La tarifa (o el preu) habitual (de)</catexamp></translation>
 			</translations>
 		</adjectives>
+                <expressions>going concern
+                <translations>
+                    <translation>negoci que rutlla</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="55900000">gold<nouns>
 			<translations>
@@ -2654,10 +2685,15 @@
 	</Entry>
 <Entry frequency="4340000">goodbye<exclamations>
 			<translations>
-				<translation>adéu!<engexamp>To say goodbye</engexamp><catexamp>Acomiadar-se</catexamp><catnote>De forma més col·loquial també es pot dir 'bye bye!' o 'bye!'.  En el llenguatge parlat, molt sovint 'bye bye' es pronuncia més bé 'ba-bye'.</catnote>
+				<translation>adéu!<catnote>De forma més col·loquial també es pot dir 'bye bye!' o 'bye!'.  En el llenguatge parlat, molt sovint 'bye bye' es pronuncia més bé 'ba-bye'.</catnote>
 				</translation>
 			</translations>
 		</exclamations>
+                <expressions>say goodbye
+                    <translations>
+                        <translation>acomiadar-se</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4340000">good evening<exclamations>
 			<translations>
@@ -2868,9 +2904,14 @@
 	</Entry>
 <Entry frequency="4690000">governmental<adjectives>
 			<translations>
-				<translation catagory="politics">governamental / governatiu<engexamp>Non-governmental organisation (Br.) / organization (Am.)</engexamp><catexamp>Organització no governamental</catexamp></translation>
+				<translation catagory="politics">governamental / governatiu</translation>
 			</translations>
 		</adjectives>
+                <expressions>non-governmental organisation (Br.) / organization
+                    <translations>
+                        <translation catagory="politics" gender="f">organització no governamental</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="22800000">governor<nouns>
 			<translations>
@@ -2881,9 +2922,14 @@
 <Entry frequency="4550000">gown<nouns>
 			<translations>
 				<translation catagory="clothes" gender="f">toga<engnote>'Toga' means 'gown' as in the kind worn by academics or judges.</engnote></translation>
-                                <translation catagory="clothes" gender="m">vestit<engexamp>Wedding gown</engexamp><catexamp>Vestit de núvia</catexamp></translation>
+                                <translation catagory="clothes" gender="m">vestit</translation>
 			</translations>
 		</nouns>
+                <expressions>wedding gown
+                    <translations>
+                        <translation gender="m">vestit de núvia</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1910000">GP<engacro>General Practitioner</engacro>
 		<nouns>
@@ -2897,10 +2943,14 @@
 <Entry frequency="16500000">GPS<engacro>Global Positioning System</engacro>
 		<nouns>
 			<translations><date>0408</date>
-				<translation gender="m">GPS<catacro>Sistema de Posicionament Global</catacro><engexamp>GPS device (or unit)</engexamp><catexamp>Aparell de GPS</catexamp>
-				</translation>
+				<translation gender="m">GPS<catacro>Sistema de Posicionament Global</catacro></translation>
 			</translations>
 		</nouns>
+                <expressions>GPS device (o unit)
+                    <translations>
+                        <translation gender="m">aparell de GPS</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="13200000">grab<verbs double="true">
 			<translations>
@@ -2910,19 +2960,34 @@
 		</verbs>
                 <nouns>
                 <translations>
-                <translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">grapada<engexamp>Nose grab</engexamp><catexamp>Grapada d'espàtula</catexamp><engexamp>Tail grab</engexamp><catexamp>Grapada de cua</catexamp></translation>
+                <translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">grapada</translation>
                 </translations>
                 </nouns>
+                <expressions>nose grab
+                    <translations>
+                        <translation catagory="sports-event-snowboarding" termcat="true" gender="f">grapada d'espàtula</translation>
+                    </translations>
+                </expressions>
+                <expressions>tail grab
+                    <translations>
+                        <translation catagory="sports-event-snowboarding" termcat="true" gender="f">grapada de cua</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="19700000">grace<nouns>
 			<translations>
-				<translation gender="f">gràcia<engexamp>The Three Graces</engexamp><catexamp>Les tres Gràcies / les tres Maries</catexamp></translation>
+				<translation gender="f">gràcia</translation>
                                 <translation gender="f">mercè</translation>
                                 <translation gender="m">encant</translation>
                                 <translation disambiguate="religious" gender="f">excel·lència</translation>
                                 <translation disambiguate="religious" gender="f">acció de gràcies</translation>
                                 			</translations>
 		</nouns>
+                <expressions>The Three Graces
+                    <translations>
+                        <translation>les tres Gràcies / les tres Maries</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="80800000">grade<nouns>
 			<translations>
@@ -2951,7 +3016,12 @@
                 <verbs>
                 <translations>
                 <translation>graduar / diplomar</translation></translations></verbs>
-                <phrasalverbs>graduate from<translations><translation intransitive="true">llicenciar-se a</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>graduate from
+                    <translations>
+                        <translation intransitive="true">llicenciar-se a</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="1470000">graffiti<nouns>
 			<translations>
 				<grouptranslation><translation gender="fpl">pintades</translation>
@@ -3273,7 +3343,7 @@
 	</Entry>
 <Entry frequency="12500000">grave<nouns>
 			<translations>
-				<translation gender="f">fossa / tomba<engexamp>Mass grave</engexamp><catexamp>Fossa comuna</catexamp><engexamp>Beyond the grave</engexamp><catexamp>Ultra tomba</catexamp></translation>
+				<translation gender="f">fossa / tomba</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -3282,10 +3352,20 @@
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>beyond the grave
+                    <translations>
+                        <translation>ultra tomba</translation>
+                    </translations>
+                </expressions>
                 <expressions>dig your own grave
                 <translations>
                 <translation>cavar la seva pròpia fossa</translation>
                 </translations>
+                </expressions>
+                <expressions>mass grave
+                    <translations>
+                        <translation gender="f">fossa comuna</translation>
+                    </translations>
                 </expressions>
                  <expressions>(x) would roll over (or turn) in his / her grave
                 <translations>
@@ -3665,7 +3745,7 @@
 <Entry frequency="15200000">grit<nouns>
 			<translations>
 				<translation gender="f">sorra / arena</translation>
-                                <translation gender="m">coratge (per a fer alguna cosa difícil o desagradable)<engexamp>To have grit</engexamp><catexamp>Tenir pebrots / tenir fetge</catexamp></translation>
+                                <translation gender="m">coratge (per a fer alguna cosa difícil o desagradable)</translation>
 			</translations>
 		</nouns>
                 <verbs double="true">
@@ -3677,6 +3757,11 @@
                 <translations>
                 <translation>prèmer fort les dents de dalt contra les de baix</translation>
                 </translations>
+                </expressions>
+                <expressions>have grit
+                    <translations>
+                        <translation>tenir pebrots / tenir fetge</translation>
+                    </translations>
                 </expressions>
 	</Entry>
 <Entry frequency="14700000">gritty<adjectives>
@@ -3945,29 +4030,38 @@
 				<translation gender="f">guàrdia</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>guard against<translations><translation intransitive="true">prevenir</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>guard against
+                    <translations>
+                        <translation intransitive="true">prevenir</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="4630000">guardian<nouns>
 			<translations>
-				<translation gender="mf">tutor<engexamp>Legal guardian</engexamp><catexamp>Tutor legal</catexamp></translation>
+				<translation gender="mf">tutor</translation>
                                 <translation gender="mf">custodi</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="413000">guardian angel<nouns>
-			<translations>
-				<translation gender="m">àngel de la guarda</translation>
-			</translations>
-		</nouns>
+                <expressions>guardian angel
+                    <translations>
+                        <translation gender="m">àngel de la guarda</translation>
+                    </translations>
+                </expressions>
+                <expressions>legal guardian
+                    <translations>
+                        <translation catagory="legal" gender="mf">tutor legal</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="6100000">Guatemala<nouns>
 			<translations>
-				<translation gender="f">Guatemala</translation>
+				<translation catagory="geography-centralamerica" gender="f">Guatemala</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="408000">Guatemalan<nouns>
 			<translations>
-				<translation gender="mf">guatemalenc</translation>
+				<translation catagory="nationality-centralamerica" gender="mf">guatemalenc</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -3996,26 +4090,19 @@
 	</Entry>
 <Entry frequency="69200000">guest<nouns>
 			<translations>
-				<translation gender="mf">convidat / invitat<engexamp>Guest of honour (Br.) / honor (Am.)</engexamp><catexamp>Invitat (or convidat) d'honor</catexamp></translation>
+				<translation gender="mf">convidat / invitat</translation>
                                 <translation gender="mf">hoste<engnote>'Hoste' is specifically a 'guest' in the sense 'person staying in somebody else's house'.</engnote></translation>
 			</translations>
 		</nouns>
+                <expressions>guest of honor (Am.) / honour (Br.)
+                    <translations>
+                        <translation gender="m">convidat d'honor</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2370000">guesthouse<nouns>
 			<translations>
 				<translation gender="f">pensió</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="2110000">guest of honor<nouns>
-			<translations>
-				<translation local="us" gender="mf">convidat d'honor<otherlocal>guest of honour</otherlocal></translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="1070000">guest of honour<nouns>
-			<translations>
-				<translation local="gb" gender="mf">convidat d'honor<otherlocal>guest of honor</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>

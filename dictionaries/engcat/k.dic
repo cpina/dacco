@@ -574,9 +574,14 @@
 	</Entry>
 <Entry frequency="3020000">kindling<nouns>
 			<translations>
-				<translation gender="mpl">encenalls<engexamp>Piece of kindling</engexamp><catexamp>Encenall</catexamp></translation>
+				<translation gender="mpl">encenalls</translation>
 			</translations>
 		</nouns>
+                <expressions>piece of kindling
+                    <translations>
+                        <translation gender="m">encenall</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="56100000">kindly<adverbs>
                             <translations><date>1007</date>
@@ -606,15 +611,25 @@
 	</Entry>
 <Entry frequency="2770000">kinetic<adjectives>
 			<translations><date>0307</date>
-				<translation termcat="energy">cinètic<engexamp>Kinetic energy</engexamp><catexamp>Energia cinètica</catexamp></translation>
+				<translation termcat="energy">cinètic</translation>
 			</translations>
 		</adjectives>
+                <expressions>kinetic energy
+                <translations>
+                    <translation gender="f">energia cinètica</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="38300000">king<nouns>
 			<translations>
-				<translation gender="m">rei<engexamp>The three kings</engexamp><catexamp>Els reis mags</catexamp></translation>
+				<translation gender="m">rei</translation>
 			</translations>
 		</nouns>
+                <expressions>the three kings
+                    <translations>
+                        <translation>els reis mags</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="69700000">kingdom<nouns>
 			<translations>
@@ -965,11 +980,16 @@
 	</Entry>
 <Entry frequency="82700000">knowledge<nouns>
 			<translations>
-				<translation gender="m">coneixement<engexamp>Knowledge management</engexamp><catexamp>Gestió del coneixement</catexamp></translation>
+				<translation gender="m">coneixement</translation>
                                 <translation sourceplural="The Knowledge" local="gb">-<catnote>Per ser taxista oficial a Londres has de tenir 'The Knowledge'.  Això vol dir que has seguit un curs d'estudis oficial i aprovat un exàmen que demostra que coneixes molt bé la topografia de Londres i que saps trobar qualsevol carrer de la ciutat sense haver de consultar un plànol d'aquesta.</catnote>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>knowledge management
+                    <translations>
+                        <translation>gestió del coneixement</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4530000">knowledgeable<adjectives>
 			<translations>
@@ -991,7 +1011,7 @@
 	</Entry>
 <Entry frequency="271000">knuckle<nouns>
 			<translations>
-				<translation gender="m">artell<engexamp>Knuckle sandwich</engexamp><catexamp>Cop de puny</catexamp></translation>
+				<translation gender="m">artell</translation>
 			</translations>
 		</nouns>
                 <phrasalverbs>knuckle down (to something)
@@ -999,7 +1019,17 @@
                 <translation>arremangar-se / arromangar-se</translation>
                 </translations>
                 </phrasalverbs>
-	<phrasalverbs>knuckle under<translations><translation intransitive="true">sotmetre's</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>knuckle under
+                    <translations>
+                        <translation intransitive="true">sotmetre's</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>knuckle sandwich
+                <translations>
+                    <translation register="colloquial" gender="m">cop de puny</translation>
+                </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="154000">knuckleduster<nouns>
 			<translations>
 				<translation local="gb" gender="m">puny americà<otherlocal>brass knuckles</otherlocal></translation>
@@ -1032,13 +1062,19 @@
 	</Entry>
 <Entry frequency="16100000">Korea<nouns>
 			<translations>
-				<translation catagory="country-asia" gender="f">Corea<engexamp>South Korea</engexamp>
-					<catexamp>Corea del Sud</catexamp>
-					<engexamp>North Korea</engexamp>
-					<catexamp>Corea del Nord</catexamp>
-				</translation>
+				<translation catagory="country-asia">Corea</translation>
 			</translations>
 		</nouns>
+                <expressions>North Korea
+                <translations>
+                    <translation catagory="country-asia">Corea del Nord</translation>
+                </translations>
+                </expressions>
+                <expressions>South Korea
+                <translations>
+                <translation catagory="country-asia">Corea del Sud</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="9770000">Korean<nouns>
 			<translations>
