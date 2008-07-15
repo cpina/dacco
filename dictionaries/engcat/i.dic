@@ -249,18 +249,16 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="431000">identity card<nouns>
-			<translations>
-				<translation gender="m">carnet d'identitat</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="742000">identity theft<nouns>
-			<translations>
-				<translation gender="m">robatori d'identitats</translation>
-			</translations>
-		</nouns>
+                <expressions>identity card
+                    <translations>
+                        <translation gender="m">carnet d'identitat</translation>
+                    </translations>
+                </expressions>
+                <expressions>identity theft
+                    <translations>
+                        <translation gender="m">robatori d'identitats</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="763000">idiocy<nouns>
 			<translations>
@@ -367,17 +365,21 @@
                                 <translation>ociós</translation>
 			</translations>
 		</adjectives>
-	<phrasalverbs>idle away<translations><translation transitive="true">perdre (hores, temps, etc.)</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>idle away
+                    <translations>
+                        <translation transitive="true">perdre (hores, temps, etc.)</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>idle time
+                    <translations>
+                        <translation disambiguate="computers" termcat="true" gender="m">temps mort</translation>
+                    </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="1710000">idleness<nouns>
 			<translations>
                         <translation gender="f">ociositat</translation>
                         <translation gender="f">mandra / peresa</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="425000">idle time<nouns>
-			<translations>
-				<translation disambiguate="computers" termcat="true" gender="m">temps mort</translation>
 			</translations>
 		</nouns>
 	</Entry>

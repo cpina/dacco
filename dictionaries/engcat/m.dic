@@ -6044,13 +6044,11 @@
 				<translation gender="m">senyor / sr</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="589000">Mr Right<nouns>
-			<translations>
-				<translation register="colloquial" gender="m">Príncep Blau<example>She still hasn't met her &lt;b&gt;Mr Right&lt;/b&gt; yet, but she's determined to keep looking!</example>
-				</translation>
-			</translations>
-		</nouns>
+                <expressions>Mr Right
+                <translations>
+                    <translation register="colloquial" gender="m">Príncep Blau<example>She still hasn't met her &lt;b&gt;Mr Right&lt;/b&gt; yet, but she's determined to keep looking!</example></translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="29000000">Mrs<nouns>
 			<translations>
@@ -6093,7 +6091,12 @@
 				<translation local="gb" register="colloquial" gender="f">ronya</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>muck up<translations><translation intransitive="true">(col·loq.) (br.) espatllar</translation></translations></phrasalverbs></Entry>
+	<phrasalverbs>muck up
+            <translations>
+                <translation register="colloquial" local="gb" intransitive="true">espatllar</translation>
+            </translations>
+        </phrasalverbs>
+    </Entry>
 <Entry frequency="5310000">mud<nouns>
 			<translations>
 				<translation gender="m">fang</translation>

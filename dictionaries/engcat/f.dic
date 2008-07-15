@@ -243,20 +243,33 @@
 <Entry frequency="29300000">failure<nouns>
 			<translations>
 				<translation gender="m">fracàs</translation>
-				<translation disambiguate="medical" gender="ffullform">insuficiència / aturada<engexamp>Kidney failure</engexamp>
-					<catexamp>Insuficiència renal</catexamp>
-					<engexamp>Heart failure</engexamp>
-					<catexamp>Insuficiència / aturada cardíaca</catexamp>
-				</translation>
-                                <translation gender="f">avaria<engexamp>Brake failure</engexamp><catexamp>Avaria dels frens</catexamp></translation>
+				<translation disambiguate="medical" gender="ffullform">insuficiència / aturada</translation>
+                                <translation gender="f">avaria</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="176000">failure load<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">càrrega de ruptura</translation>
-			</translations>
-		</nouns>
+                <expressions>failure load
+                <translations>
+                    <translation termcat="energy" gender="f">càrrega de ruptura</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>brake failure
+                    <translations>
+                        <translation gender="f">avaria dels frens</translation>
+                        </translations>
+                        </expressions>
+                        <expressions>heart failure
+                        <translations>
+                            <grouptranslation catagory="medical-illness">
+                        <translation gender="ffullform">insuficiència cardíaca</translation>
+                        <translation gender="f">aturada cardíaca</translation>
+                        </grouptranslation>
+                        </translations>
+                        </expressions>
+                        <expressions>kidney failure
+                        <translations>
+                            <translation catagory="medical-illness" gender="ffullform">insuficiència renal</translation>
+                            </translations>
+                            </expressions>
 	</Entry>
 <Entry frequency="2000000">faint<verbs>
 			<translations>
@@ -286,7 +299,7 @@
 				<translation gender="f">fira</translation>
 			</translations>
 		</nouns>
-	</Entry>
+             	</Entry>
 <Entry frequency="22900">fair dinkum<adjectives>
 			<translations>
 				<translation register="colloquial" local="au">autèntic / sincer</translation>
@@ -2461,20 +2474,25 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>acomiadar</translation>
+				<translation catagory="work">acomiadar</translation>
 			</translations>
 		</verbs>
-                <expressions>pull someone's chestnuts out of the fire
-                <translations>
-                <translation>treure les castanyes del foc a algú</translation>
-                </translations>
-                </expressions>
+                <phrasalverbs>fire upon
+                    <translations>
+                        <translation intransitive="true">disparar trets a (o contra)</translation>
+                    </translations>
+                </phrasalverbs>
                 <expressions>fight fire with fire
                 <translations>
                 <translation>pagar amb la mateixa moneda</translation>
                 </translations>
                 </expressions>
-	<phrasalverbs>fire upon<translations><translation intransitive="true">disparar trets a (o contra)</translation></translations></phrasalverbs></Entry>
+                <expressions>pull someone's chestnuts out of the fire
+                <translations>
+                <translation>treure les castanyes del foc a algú</translation>
+                </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="1370000">firearm<nouns>
 			<translations>
 				<translation gender="f">arma de foc</translation>

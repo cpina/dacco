@@ -2,11 +2,14 @@
 <dictionary>
 	<Entry frequency="1500">va<adjectives>
 			<translations><date>0605</date>
-				<translation>vain<plural>vans</plural><fems>vana</fems>
-					<catexamp>En va</catexamp><engexamp>In vain</engexamp>
-				</translation>
+				<translation>vain<plural>vans</plural><fems>vana</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>en va
+                <translations>
+                    <translation>in vain</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 	<Entry frequency="425000">vaca<nouns>
                             <translations><date>1107</date>
@@ -56,6 +59,21 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>vaga de fam
+                <translations>
+                    <translation catagory="work" gender="f">hunger strike</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>vaga de zel
+                    <translations>
+                        <translation catagory="work" gender="f">work-to-rule</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>vaga salvatge
+                    <translations>
+                        <translation catagory="work" gender="f">wildcat strike</translation>
+                        </translations>
+                        </expressions>
 	</Entry>
 	<Entry frequency="691">vagabund<nouns>
 			<translations><date>0705</date>
@@ -69,32 +87,14 @@
 			</translations>
 		</adjectives>
 	</Entry>
-          <Entry frequency="1920">vaga de fam<nouns>
-			<translations><date>0605</date>
-				<translation gender="f">hunger strike<plural>vagues de fam</plural></translation>
-			</translations>
-		</nouns>
-	</Entry>
-          <Entry frequency="142">vaga de zel<nouns>
-			<translations><date>0806</date>
-				<translation gender="f">work-to-rule<plural>vagues de zel</plural></translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="800">vagar<verbs conj="GtoGU">
+       	<Entry frequency="800">vagar<verbs conj="GtoGU">
 			<translations><date>0705</date>
 				<translation>to wander / to roam</translation>
 				<translation>to suit<example>A veure quan us &lt;b&gt;vagarà&lt;/b&gt; d'endreçar la habitació.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
-          <Entry frequency="554">vaga salvatge<nouns>
-			<translations><date>0806</date>
-				<translation gender="f">wildcat strike<plural>vagues salvatges</plural></translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="962">vagina<nouns>
+     	<Entry frequency="962">vagina<nouns>
 			<translations><date>0605</date>
 				<translation catagory="body" gender="f">vagina</translation>
 			</translations>
@@ -520,13 +520,18 @@
 	</Entry>
         <Entry frequency="667">vegetatiu<adjectives>
 			<translations><date>0305</date>
-				<translation>vegetative<catexamp>Estat vegetatiu (persistent)</catexamp><engexamp>(Persistent) vegetative state</engexamp><fems>vegetativa</fems></translation>
+				<translation>vegetative<fems>vegetativa</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>estat vegetatiu (persistent)
+                <translations>
+                    <translation catagory="medical" gender="m">(persistent) vegetative state</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 	<Entry frequency="152000">vehicle<nouns>
 			<translations><date>0605</date>
-				<translation gender="m">vehicle</translation>
+				<translation catagory="transport" gender="m">vehicle</translation>
 			</translations>
 		</nouns>
 	</Entry>	
@@ -637,13 +642,13 @@
 	</Entry>
 	<Entry frequency="639">velòdrom<nouns>
 			<translations><date>0705</date>
-				<translation gender="m">velodrome</translation>
+				<translation catagory="sports-event-cycling" gender="m">velodrome</translation>
 			</translations>
 		</nouns>
 	</Entry>	
 	<Entry frequency="3270">vena<nouns>
 			<translations>
-				<translation catagory="body-internal" gender="f">vein</translation>
+				<translation catagory="body" gender="f">vein</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -802,15 +807,9 @@
 				<translation gender="m">belly</translation>
 			</translations>
 		</nouns>
-                <expressions>anar de ventre
+                <expressions>anar (or fer) de ventre
                 <translations>
                 <translation>to have a shit (vulgar) / to take a dump (vulgar)<synonyms>fer de ventre, fer de cos</synonyms>
-                </translation>
-                </translations>
-                </expressions>
-                <expressions>fer de ventre
-                <translations>
-                <translation>to have a shit (vulgar) / to take a dump (vulgar)<synonyms>anar de ventre, fer de cos</synonyms>
                 </translation>
                 </translations>
                 </expressions>
@@ -868,6 +867,11 @@
 				<translation catagory="linguistics" gender="m">verb</translation>
 			</translations>
 		</nouns>
+                <expressions>verb auxiliar
+                <translations>
+				<translation catagory="linguistics" gender="m">auxiliary verb</translation>
+			</translations>
+                        </expressions>
 	</Entry>
 	<Entry frequency="15900">verbal<adjectives>
 			<translations>
@@ -878,13 +882,7 @@
 			</translations>
 		</adjectives>
 	</Entry>
-        <Entry frequency="138">verb auxiliar<nouns>
-			<translations><date>0605</date>
-				<translation catagory="linguistics" gender="m">auxiliary verb</translation>
-			</translations>
-		</nouns>
-	</Entry>
- <Entry frequency="65">verbós<adjectives>
+      <Entry frequency="65">verbós<adjectives>
 			<translations><date>0406</date>
 				<translation>verbose<plural>verbosos</plural><fems>verbosa</fems></translation>
 			</translations>

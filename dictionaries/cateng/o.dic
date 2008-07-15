@@ -126,11 +126,16 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="477">objector de consciència<nouns>
-			<translations>
-				<translation gender="m">conscientious objector</translation>
+	<Entry frequency="4590">objector<nouns>
+                            <translations><date>0708</date>
+                                <translation gender="m / f">objector<fems>objectora</fems></translation>
 			</translations>
 		</nouns>
+                <expressions>objector de consciència
+                    <translations>
+                        <translation gender="m / f">conscientious objector</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="804">oblic<adjectives>
 			<translations>
@@ -204,29 +209,27 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="200000">obra<nouns>
-			<translations>
-				<translation gender="f">work<catexamp>Obra mestra</catexamp><engexamp>Masterpiece</engexamp></translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="90">obrellaunes<nouns>
+        <Entry frequency="200000">obra<nouns>
+                <translations>
+                    <translation gender="f">work</translation>
+                    <translation sourceplural="obres" catagory="transport" gender="fpl">roadworks</translation>
+                </translations>
+            </nouns>
+            <expressions>obra mestra
+            <translations>
+                <translation gender="f">masterpiece</translation>
+                </translations>
+                </expressions>
+        </Entry>
+        <Entry frequency="90">obrellaunes<nouns>
 			<translations>
 				<translation catagory="household-room-kitchen" gender="m">tin opener (Br.) / can opener</translation>
 			</translations>
 		</nouns>
 	</Entry>
-         <Entry frequency="41300">obra mestra<nouns>
-			<translations><date>0806</date>
-				<translation gender="f">masterpiece</translation>
-			</translations>
-		</nouns>
-	</Entry>
 	<Entry frequency="20600">obrer<adjectives>
 			<translations>
-				<translation catagory="work">workers' / labour<catexamp>Classe obrera</catexamp>
-					<engexamp>Working class</engexamp>
-				</translation>
+				<translation catagory="work">workers' / labour (Br.) / labor (Am.)</translation>
 			</translations>
 		</adjectives>
 		<nouns>
@@ -234,12 +237,11 @@
 				<translation catagory="work" gender="m / f">(blue-collar) worker<fems>obrera</fems></translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="25000">obres<nouns>
-			<translations>
-				<translation catagory="transport" gender="f">roadworks</translation>
-			</translations>
-		</nouns>
+                <expressions>classe obrera
+                <translations>
+                    <translation gender="f">working class</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 	<Entry frequency="253000">obrir<verbs conj="irregular31">
 			<translations>
@@ -2191,18 +2193,16 @@
 				<translation gender="f">position / location</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="24300">orientació professional<nouns>
-			<translations><date>1105</date>
-				<translation catagory="work" termcat="true" gender="f">intransigent</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="10800">orientació sexual<nouns>
-			<translations><date>1105</date>
-				<translation gender="f">sexual orientation</translation>
-			</translations>
-		</nouns>
+                <expressions>orientació professional
+                    <translations>
+                        <translation catagory="work" termcat="true" gender="f">career guidance</translation>
+                    </translations>
+                </expressions>
+                <expressions>orientació sexual
+                    <translations>
+                        <translation gender="f">sexual orientation</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="291000">oriental<adjectives>
 			<translations><date>1105</date>

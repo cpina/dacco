@@ -36,12 +36,17 @@
 				<translation catagory="work" gender="m">sou / saldo / salari<synonyms>salary</synonyms></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="732000">wager<nouns>
-			<translations>
-				<translation gender="f">aposta<synonyms>bet</synonyms>
+	</Entry><Entry frequency="5540000">wager<nouns>
+                            <translations><date>0708</date>
+				<translation register="dated" gender="f">aposta<synonyms>bet</synonyms>
 				</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation register="dated">apostar</translation>
+                        </translations>
+                </verbs>
 	</Entry><Entry frequency="309000">wagtail<nouns>
 			<translations>
 				<translation catagory="animal-bird" gender="f">cuereta blanca<engexamp>Yellow wagtail</engexamp><catexamp>Cuereta groga</catexamp></translation>
@@ -54,7 +59,7 @@
 		</nouns>
 	</Entry><Entry frequency="405000">waistcoat<nouns>
 			<translations>
-				<translation catagory="clothes" gender="f">armilla</translation>
+				<translation catagory="clothes" local="gb" gender="f">armilla<otherlocal>vest</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="505000000">wait<verbs>
@@ -62,11 +67,6 @@
 				<translation>esperar</translation>
 			</translations>
 		</verbs>
-		<expressions>wait tables
-			<translations>
-				<translation local="us">treballar de cambrer</translation>
-			</translations>
-		</expressions>
 		<phrasalverbs>wait for
 			<translations>
 				<translation>esperar</translation>
@@ -82,7 +82,33 @@
                         <translation>esperar fins que acabés (una cosa)</translation>
                     </translations>
                 </phrasalverbs>
-	<phrasalverbs>wait up<translations><translation intransitive="true">(imperatiu) Espera't! Espereu-vos!</translation><translation intransitive="true">vetllar (sobretot esperant que passi alguna cosa o que arribi algú)</translation></translations></phrasalverbs><phrasalverbs>wait upon<translations><translation intransitive="true">atendre</translation></translations></phrasalverbs></Entry><Entry frequency="928000">waiter<nouns>
+                        <phrasalverbs>wait up
+                            <translations>
+                                <translation intransitive="true">vetllar (sobretot esperant que passi alguna cosa o que arribi algú)</translation>
+                            </translations>
+                        </phrasalverbs>
+                        <phrasalverbs>wait upon
+                            <translations>
+                                <translation intransitive="true">atendre</translation>
+                            </translations>
+                        </phrasalverbs>
+                        <expressions>wait staff
+                        <translations>
+                            <translation local="us" gender="mpl">cambrers</translation>
+                            </translations>
+                            </expressions>
+                        <expressions>wait tables
+			<translations>
+				<translation local="us">treballar de cambrer</translation>
+			</translations>
+		</expressions>
+                  <exclamations>wait up
+                    <translations>
+                        <translation intransitive="true">(imperatiu) Espera't! Espereu-vos!</translation>
+                        </translations>
+                        </exclamations>
+                    </Entry>
+                    <Entry frequency="928000">waiter<nouns>
 			<translations>
 				<translation catagory="work-job" gender="m">cambrer</translation>
 			</translations>
@@ -101,11 +127,6 @@
 			<translations>
 				<translation catagory="work-job" gender="f">cambrera<plural>waitresses</plural>
 				</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="2100000">wait staff<nouns>
-			<translations>
-				<translation catagory="work" local="us" gender="mpl">cambrers</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="5580000">waiver<nouns>

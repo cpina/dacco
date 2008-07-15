@@ -466,12 +466,12 @@
                 <translation gender="f">empresa (de capital de risc)</translation>
                 </translations>
                 </nouns>
-              	</Entry><Entry frequency="1290000">venture capital<nouns>
-			<translations>
-				<translation catagory="financial" gender="m">capital de risc</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="6110000">venue<nouns>
+                <expressions>venture capital
+                <translations>
+                    <translation catagory="financial" gender="m">capital de risc</translation>
+                    </translations>
+                    </expressions>
+              	</Entry><Entry frequency="6110000">venue<nouns>
 			<translations>
 				<translation gender="m">local / indret</translation>
 			</translations>
@@ -511,7 +511,12 @@
 				<translation disambiguate="transport" local="gb" gender="m">voral<otherlocal>shoulder</otherlocal></translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>verge on<translations><translation intransitive="true">vorejar</translation></translations></phrasalverbs></Entry><Entry frequency="8910000">verify<verbs ie="true">
+                <phrasalverbs>verge on
+                    <translations>
+                        <translation intransitive="true">vorejar</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry><Entry frequency="8910000">verify<verbs ie="true">
 			<translations>
 				<translation>verificar</translation>
 			</translations>
@@ -1186,17 +1191,21 @@
 				<translation catagory="food-drink" gender="m">vodka</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="43000000">voice<nouns>
-			<translations>
-				<translation gender="f">veu<catnote>To talk / shout at the top of your voice' significa 'Parlar / cridar el més fort possible'.</catnote>
-				</translation>
+	</Entry><Entry frequency="328000000">voice<nouns>
+                            <translations><date>0708</date>
+				<translation gender="f">veu</translation>
 			</translations>
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>expressar</translation>
+                            <translation>expressar<example>Aragones &lt;b&gt;voiced&lt;/b&gt; dissatisfaction with the fact that the federation had leaked the identity of his possible successor.</example></translation>
 			</translations>
 		</verbs>
+                <expressions>at the top of your voice
+                    <translations>
+                        <translation>a plens pulmons</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="6500000">voiced<adjectives>
 			<translations>
 				<translation disambiguate="linguistics">sonor</translation>
@@ -1207,9 +1216,13 @@
 				<translation disambiguate="linguistics">sord<engexamp>Voiceless alveolar fricative</engexamp><catexamp>Alveolar fricativa sorda</catexamp></translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="499000">voice mailbox<nouns>
-			<translations>
-				<translation catagory="telephone" termcat="true" gender="f">bústia de veu<plural>voice mailboxes</plural></translation>
+	</Entry><Entry frequency="9160000">voice mail<nouns>
+                        <translations><date>0708</date>
+                            <grouptranslation catagory="telephone" termcat="true">
+				<translation gender="m">correu de veu</translation>
+                                    <translation gender="f">missatgeria de veu<example>I can't remember my &lt;b&gt;voice mail&lt;/b&gt; password.</example></translation>
+                                </grouptranslation>
+                                <translation gender="m">missatge de veu<example>My &lt;b&gt;voice mails&lt;/b&gt; are automatically deleted after 30 days.</example></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="50000000">void<nouns>
@@ -1300,25 +1313,35 @@
                 </adjectives>
         </Entry><Entry frequency="658000000">vote<verbs>
                             <translations><date>1007</date>
-				<translation>votar</translation>
+				<translation catagory="politics">votar</translation>
 			</translations>
 		</verbs>
                   <phrasalverbs>vote down
                     <translations>
-                        <translation>votar en contra de</translation>
+                        <translation>votar en contra de<example>The board &lt;b&gt;voted down&lt;/b&gt; the proposal.</example></translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>vote for
+                    <translations>
+                        <translation intransitive="true">votar</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>vote on
+                    <translations>
+                        <translation intransitive="true">votar sobre</translation>
                     </translations>
                 </phrasalverbs>
                   <phrasalverbs>vote out
                     <translations>
-                        <translation>fer fora (algú) votant</translation>
+                        <translation>fer fora (algú) votant<example>Londoners &lt;b&gt;voted out&lt;/b&gt; Ken Livingstone as mayor.</example></translation>
                     </translations>
                 </phrasalverbs>
 		<nouns>
 			<translations>
-				<translation gender="m">vot</translation>
+				<translation catagory="politics" gender="m">vot</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>vote for<translations><translation intransitive="true">votar</translation></translations></phrasalverbs><phrasalverbs>vote on<translations><translation intransitive="true">votar sobre</translation></translations></phrasalverbs></Entry><Entry frequency="23200000">voter<nouns>
+	</Entry><Entry frequency="23200000">voter<nouns>
 			<translations>
 				<translation catagory="politics" gender="mf">votant / elector<engexamp>Voter apathy</engexamp><catexamp>Apatia electoral</catexamp></translation>
 			</translations>

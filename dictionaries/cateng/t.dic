@@ -817,11 +817,14 @@
   <Entry frequency="12000" >tast<nouns>
       <translations>
         <translation gender="m" >taste</translation>
-        <translation gender="m" >tasting<catexamp>Tast de vins</catexamp>
-          <engexamp>Wine tasting</engexamp>
-        </translation>
+        <translation gender="m" >tasting</translation>
       </translations>
     </nouns>
+    <expressions>tast de vins
+    <translations>
+        <translation gender="m">wine tasting</translation>
+        </translations>
+        </expressions>
   </Entry>
   <Entry frequency="4040" >tastar<verbs conj="regular" >
       <translations>
@@ -925,24 +928,27 @@
         <translation gender="f" >rate</translation>
       </translations>
     </nouns>
+    <expressions>taxa de mortalitat
+    <translations>
+        <translation gender="f">death (o mortality) rate</translation>
+        </translations>
+        </expressions>
+        <expressions>taxa de natalitat
+        <translations>
+            <translation gender="f">birth rate</translation>
+            </translations>
+            </expressions>
   </Entry>
-        	<Entry frequency="738">taxa de mortalitat<nouns>
-			<translations><date>0805</date>
-				<translation gender="f">death rate</translation>
-			</translations>
-		</nouns>
-	</Entry>
-  <Entry frequency="1150" >taxa de natalitat<nouns>
-      <translations>
-        <translation gender="f" >birth rate</translation>
-      </translations>
-    </nouns>
-  </Entry>
-    <Entry frequency="10400" >taxatiu<adjectives>
+          <Entry frequency="10400" >taxatiu<adjectives>
       <translations><date>0806</date>
-        <translation>categorical<catexamp>Mostrar-se taxatiu (o assegurar taxatiu o afirmar taxatiu)</catexamp><engexamp>To insist / to state categorically</engexamp><fems>taxativa</fems></translation>
+        <translation>categorical<fems>taxativa</fems></translation>
       </translations>
     </adjectives>
+    <expressions>mostrar-se (or assegurar or afirmar) taxatiu
+    <translations>
+        <translation>to insist / to state categorically</translation>
+        </translations>
+        </expressions>
   </Entry>
   <Entry frequency="103000" >taxi<nouns>
       <translations><date>1007</date>
@@ -953,6 +959,12 @@
   <Entry frequency="252" >taxidèrmia<nouns>
       <translations>
         <translation gender="f" >taxidermy</translation>
+      </translations>
+    </nouns>
+  </Entry>
+   <Entry frequency="3970" >taxidermista<nouns>
+           <translations><date>0708</date>
+        <translation gender="m / f">taxidermist</translation>
       </translations>
     </nouns>
   </Entry>
@@ -1996,7 +2008,7 @@
 <Entry frequency="0">terrategí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Terrateig</translation></translations></nouns><adjectives><translations><translation>relating to Terrateig or its people<plural>terrategins</plural><fems>terrategina</fems></translation></translations></adjectives></Entry>
   <Entry frequency="3720" >terratrèmol<nouns>
       <translations>
-        <translation catagory="naturaldisaster" gender="m" >earthquake</translation>
+        <translation gender="m" >earthquake</translation>
       </translations>
     </nouns>
   </Entry>
@@ -2004,14 +2016,12 @@
       <translations>
         <translation gender="m" >ground</translation>
       </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="2470" >terreny de joc<nouns>
-      <translations>
-        <translation catagory="sports" gender="m" >field of play / playing field<plural>terrenys de joc</plural>
-        </translation>
-      </translations>
-    </nouns>
+   </nouns>
+      <expressions>terreny de joc
+          <translations>
+              <translation catagory="sports" gender="m" >field of play / playing field<plural>terrenys de joc</plural></translation>
+          </translations>
+      </expressions>
   </Entry>
   <Entry frequency="15500" >terrestre<adjectives>
       <translations>
@@ -2049,11 +2059,14 @@
 	</Entry>
   <Entry frequency="90200" >territori<nouns>
       <translations>
-        <translation gender="m" >land / territory<catexamp>Territoris ocupats</catexamp>
-          <engexamp>Occupied Territories</engexamp>
-        </translation>
+        <translation gender="m" >land / territory</translation>
       </translations>
     </nouns>
+    <expressions>territoris ocupats
+        <translations>
+            <translation catagory="geography" gender="mpl">occupied territories</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="207000" >territorial<adjectives>
       <translations>
@@ -2187,12 +2200,22 @@
   </Entry>
   <Entry frequency="270000" >testimoni<nouns>
       <translations><date>0408</date>
-        <translation gender="m" >witness</translation>
+        <translation gender="m / f" >witness</translation>
         <translation disambiguate="legal" gender="m" >testimony / evidence<synonyms>testimoniatge</synonyms>
         </translation>
         <translation disambiguate="sports-event-athletics" gender="m">baton</translation>
       </translations>
     </nouns>
+    <expressions>testimoni de Jehovà
+    <translations>
+        <translation catagory="religious" gender="m / f">Jehovah's witness</translation>
+    </translations>
+    </expressions>
+    <expressions>testimoni ocular (or testimoni de vista or testimoni presencial)
+        <translations>
+            <translation gender="m / f">eyewitness</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="657" >testimoniatge<nouns>
       <translations>
@@ -2202,30 +2225,6 @@
       </translations>
     </nouns>
   </Entry>
-  <Entry frequency="223" >Testimoni de Jehovà<nouns>
-      <translations>
-        <translation catagory="religious" gender="m / f" >Jehovah's Witness</translation>
-      </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="1290">testimoni de vista<nouns>
-			<translations><date>0408</date>
-				<translation gender="m / f">eyewitness<synonyms>testimoni presencial, testimoni ocular</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="823">testimoni ocular<nouns>
-			<translations><date>0408</date>
-				<translation gender="m / f">eyewitness<synonyms>testimoni de vista, testimoni presencial</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
-  <Entry frequency="3810">testimoni presencial<nouns>
-			<translations><date>0408</date>
-				<translation>eyewitness<synonyms>testimoni ocular, testmoni de vista</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
      <Entry frequency="788">testosterona<nouns>
 			<translations><date>1205</date>
 				<translation catagory="biology" gender="f">testosterone</translation>
@@ -2393,7 +2392,7 @@
   <Entry frequency="3210" >tibetà<nouns>
       <translations>
         <translation catagory="language" gender="m" >Tibetan</translation>
-        <translation catagory="nationality" gender="m / f" >Tibetan</translation>
+        <translation catagory="nationality-asia" gender="m / f" >Tibetan</translation>
       </translations>
     </nouns>
     <adjectives>
@@ -3318,6 +3317,11 @@
         <translation gender="f">rook / castle<catnote>(Escacs)</catnote></translation>
       </translations>
     </nouns>
+    <expressions>Torres Bessones
+    <translations>
+        <translation gender="fpl">the Twin Towers</translation>
+        </translations>
+        </expressions>
   </Entry>
 <Entry frequency="0">torrebaixer<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Torre Baixa</translation></translations></nouns><adjectives><translations><translation>relating to Torre Baixa or its people<fems>torrebaixera</fems></translation></translations></adjectives></Entry>
 <Entry frequency="0">torreblanquí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Torreblanca</translation></translations></nouns><adjectives><translations><translation>relating to Torreblanca or its people<plural>torreblanquins</plural><fems>torreblanquina</fems></translation></translations></adjectives></Entry>
@@ -3329,12 +3333,6 @@
     </adjectives>
   </Entry>
 <Entry frequency="0">torrentí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Torrent </translation></translations></nouns><adjectives><translations><translation>relating to Torrent  or its people<plural>torrentins</plural><fems>torrentina</fems></translation></translations></adjectives></Entry>
-  <Entry frequency="959" >Torres Bessones<nouns>
-      <translations>
-        <translation gender="fpl" >The Twin Towers</translation>
-      </translations>
-    </nouns>
-  </Entry>
 <Entry frequency="0">torrestorrer<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Torres Torres</translation></translations></nouns><adjectives><translations><translation>relating to Torres Torres or its people<fems>torrestorrera</fems></translation></translations></adjectives></Entry>
 <Entry frequency="0">torretí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from la Torre d’en Besora (or la Torre d'en Doménec)</translation></translations></nouns><adjectives><translations><translation>relating to la Torre d’en Besora (or la Torre d'en Doménec) or its people<plural>torretins</plural><fems>torretina</fems></translation></translations></adjectives></Entry>
 <Entry frequency="0">torrevellenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Torrevella</translation></translations></nouns><adjectives><translations><translation>relating to Torrevella or its people<fems>torrevellenca</fems><femplural>torrevellenques</femplural></translation></translations></adjectives></Entry>

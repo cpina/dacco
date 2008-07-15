@@ -98,12 +98,13 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="4700000">quality assurance<nouns>
-			<translations>
-				<translation gender="f">assegurament de la qualitat</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="694000">qualm<nouns>
+                <expressions>quality assurance
+                <translations>
+                    <translation gender="f">assegurament de la qualitat</translation>
+                </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="694000">qualm<nouns>
 			<translations>
 				<translation gender="m">escrúpol / dubte</translation>
 				<translation gender="f">objecció</translation>
@@ -173,12 +174,18 @@
                                 <translation gender="m">trimestre</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1010000">quarter final<nouns>
-			<translations>
-				<translation catagory="sports" gender="m">partit dels quarts de final<engexamp>Quarter finals</engexamp><catexamp>Quarts de final</catexamp></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="6400000">quarterly<adjectives>
+                <expressions>quarter final
+                <translations>
+                    <translation catagory="sports" gender="m">partit dels quarts de final<engexamp>Quarter finals</engexamp><catexamp>Quarts de final</catexamp></translation>
+                </translations>
+                </expressions>
+                <expressions>quarter pipe
+                <translations>
+                    	<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">quart de tub</translation>
+                </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="6400000">quarterly<adjectives>
 			<translations>
 				<translation>trimestral</translation>
 			</translations>
@@ -188,11 +195,6 @@
 				<translation>trimestralment</translation>
 			</translations>
 		</adverbs>
-	</Entry><Entry frequency="197000">quarter pipe<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">quart de tub</translation>
-			</translations>
-		</nouns>
 	</Entry><Entry frequency="4540000">quartz<nouns>
                             <translations><date>1107</date>
 				<translation catagory="geography" gender="m">quars</translation>
@@ -384,7 +386,7 @@
 		</nouns>
 	</Entry><Entry frequency="659000">quince<nouns>
 			<translations>
-				<translation gender="m">codony</translation>
+				<translation catagory="food-fruit" gender="m">codony</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1070000">quinoa<nouns>
@@ -423,8 +425,9 @@
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="12500000">quite<adjectives>
-			<translations>
-				<translation>força / bastant</translation>
+                            <translations><date>0708</date>
+                                <translation local="gb">bastant / força<otherlocal>pretty</otherlocal></translation>
+                                <translation local="us">molt</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="15800000">quiz<nouns>
@@ -434,7 +437,9 @@
 		</nouns>
                 <verbs double="true">
                 <translations>
-                <translation>interrogar</translation></translations></verbs>
+                <translation>interrogar</translation>
+                </translations>
+                </verbs>
 	</Entry><Entry frequency="8810000">quotation<nouns>
 			<translations>
 				<translation gender="f">citació</translation>
@@ -452,6 +457,11 @@
                                 <translation catagory="financial">cotitzar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>quote from
+                    <translations>
+                        <translation intransitive="true">citar</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
 				<translation gender="f">citació</translation>
@@ -459,4 +469,4 @@
                                 <translation sourceplural="quotes" gender="fpl">cometes<synonyms>quotation marks / inverted commas (Br.) / speech marks</synonyms></translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>quote from<translations><translation intransitive="true">citar</translation></translations></phrasalverbs></Entry></dictionary>
+	</Entry></dictionary>

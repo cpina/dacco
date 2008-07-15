@@ -65,7 +65,7 @@
 	</Entry>	
 	<Entry frequency="267">udolar<verbs conj="regular">
 			<translations><date>0505</date>
-				<translation>to howl</translation>
+				<translation>to howl<example>El llop sempre &lt;b&gt;udola&lt;/b&gt; a la lluna plena.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -121,26 +121,25 @@
 				<translation catagory="body" gender="m">eye</translation>
 			</translations>
 		</nouns>
+                 <expressions>a ulls clucs
+                    <translations>
+                        <translation>blindly / with your eyes closed</translation>
+                    </translations>
+                </expressions>
                 <expressions>costar un ull de la cara
-                <translations>
-                <translation>to cost an arm and a leg / to cost a fortune / to cost a bomb<synonyms>costar un ronyó</synonyms></translation></translations></expressions>
-                <expressions>a ulls clucs
-                <translations>
-                <translation>blindly / with your eyes closed</translation></translations></expressions>
-                <expressions>donar un cop d'ull a
-                <translations>
-                <translation>to have a glance at / to have a quick look at</translation>
-                </translations>
+                    <translations>
+                        <translation>to cost an arm and a leg / to cost a fortune / to cost a bomb<synonyms>costar un ronyó</synonyms></translation>
+                    </translations>
                 </expressions>
-                <expressions>fer un cop d'ull a
-                <translations>
-                <translation>to have a glance at / to have a quick look at</translation>
-                </translations>
+                <expressions>donar (or fer) un cop d'ull a
+                    <translations>
+                        <translation>to have a glance at / to have a quick look at</translation>
+                    </translations>
                 </expressions>
-                <expressions>en un tancar i obrir d'ulls
-                <translations>
-                <translation>in the wink of an eye / in a flash<synonyms>en un batre d'ull, en un girar d'ulls</synonyms></translation>
-                </translations>
+                 <expressions>en un tancar i obrir d'ulls (or en un batre d'ull or en un girar d'ulls)
+                    <translations>
+                        <translation>in the wink of an eye / in a flash</translation>
+                    </translations>
                 </expressions>
 	</Entry>
 	<Entry frequency="15400">ullada<nouns>
@@ -253,7 +252,7 @@
 	</Entry>	
 	<Entry frequency="781">ultrasò<nouns>
 			<translations><date>0505</date>
-				<translation gender="m">ultrasound</translation>
+				<translation catagory="medical" gender="m">ultrasound</translation>
 			</translations>
 		</nouns>
 	</Entry>	
@@ -686,7 +685,7 @@
 	</Entry>
 	<Entry frequency="311">urticària<nouns>
 			<translations><date>0505</date>
-				<translation gender="ffullform">hives / urticaria</translation>
+				<translation catagory="medical-illness" gender="ffullform">hives / urticaria</translation>
 			</translations>
 		</nouns>
 	</Entry>	

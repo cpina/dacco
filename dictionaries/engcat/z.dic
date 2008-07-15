@@ -42,12 +42,11 @@
                 </translation>
             </translations>
         </nouns>
-    </Entry><Entry frequency="22300">zebra crossing<nouns>
+        <expressions>zebra crossing
             <translations>
-                <translation catagory="transport" local="gb" gender="m">pas de zebra<otherlocal>crosswalk</otherlocal>
-                </translation>
+                <translation catagory="transport" local="gb" gender="m">pas de zebra<otherlocal>crosswalk</otherlocal></translation>
             </translations>
-        </nouns>
+        </expressions>
     </Entry><Entry frequency="92100">zebu<nouns>
             <translations>
                 <translation catagory="animal-animal" gender="m">zebú</translation>
@@ -134,7 +133,7 @@
         <translation catagory="religious" gender="mf">sionista</translation></translations></nouns>
     </Entry><Entry frequency="36400000">zip<verbs double="true">
             <translations>
-                <translation catagory="computers">comprimir</translation>
+                <translation disambiguate="computers">comprimir</translation>
             </translations>
         </verbs>
         <nouns>
@@ -212,15 +211,19 @@
         </verbs>
         <phrasalverbs>zoom in
             <translations>
-        <translation>apropar</translation></translations></phrasalverbs>
+        <translation>apropar</translation>
+        </translations>
+    </phrasalverbs>
         <phrasalverbs>zoom out
             <translations>
-        <translation>allunyar</translation></translations></phrasalverbs>
-    </Entry><Entry frequency="2500000">zoom lens<nouns>
+        <translation>allunyar</translation>
+    </translations>
+</phrasalverbs>
+        <expressions>zoom lens
             <translations>
                 <translation termcat="true" gender="m">zoom<plural>zoom lenses</plural></translation>
             </translations>
-        </nouns>
+        </expressions>
     </Entry><Entry frequency="744000">zoophilia<nouns>
             <translations>
                 <translation gender="f">zoofília</translation>
@@ -231,11 +234,9 @@
                 <translation catagory="medical" gender="m">zòster<engexamp>Herpes zoster</engexamp><catexamp>Herpes zòster</catexamp></translation>
             </translations>
         </nouns>
-    </Entry><Entry frequency="367000">zucchini<nouns>
-            <translations>
-                <translation catagory="food-vegetable" local="us" gender="m">carabassó<otherlocal>courgette</otherlocal>
-                    <plural>zucchini / zucchinis</plural>
-                </translation>
+    </Entry><Entry frequency="8560000">zucchini<nouns>
+            <translations><date>0708</date>
+                <translation catagory="food-vegetable" local="us" gender="m">carabassó<otherlocal>courgette</otherlocal><catnote>També es diu 'zucchini' en anglès australià.</catnote><plural>zucchini / zucchinis</plural></translation>
             </translations>
         </nouns>
     </Entry><Entry frequency="1320000">Zulu<nouns>

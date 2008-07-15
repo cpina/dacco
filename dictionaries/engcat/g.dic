@@ -1755,6 +1755,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+          <Entry frequency="24800">ginnel<nouns>
+			<translations><date>0708</date>
+                            <translation register="dialectal" gender="m">passatge<catnote>Aquesta paraula s'utilitza sobretot als comtats anglesos de Yorkshire i Lancashire.</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="675000">ginormous<adjectives>
 			<translations>
 				<translation local="gb" register="colloquial">enorme<synonyms>enormous, huge</synonyms></translation>
@@ -1905,16 +1911,16 @@
                         <translation>cedir el pas</translation>
                     </translations>
                 </phrasalverbs>
+                  <expressions>give it up for (someone / something)
+                <translations>
+                    <translation local="us">aplaudir<example>Ladies and gentlemen, please &lt;b&gt;give it up for&lt;/b&gt; tonight's guest Will Smith!</example></translation>
+                </translations>
+            </expressions>
                 <expressions>what gives?
                 <translations>
                 <translation register="slang">què s'hi cou?<synonyms>what's up, what's happening, what's cooking</synonyms></translation>
                 </translations>
                 </expressions>
-                <expressions>give it up for (someone / something)
-                <translations>
-                    <translation local="us">aplaudir<example>Ladies and gentlemen, please &lt;b&gt;give it up for&lt;/b&gt; tonight's guest Will Smith!</example></translation>
-                </translations>
-            </expressions>
 	</Entry>
 <Entry frequency="516000">glacial<adjectives>
 			<translations>
@@ -1924,7 +1930,7 @@
 	</Entry>
 <Entry frequency="1400000">glacier<nouns>
 			<translations>
-				<translation gender="f">glacera</translation>
+				<translation catagory="geography" gender="f">glacera</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1942,8 +1948,8 @@
 	</Entry>
 <Entry frequency="8170000">gladly<adverbs>
 			<translations>
-				<translation>amb molt de gust<example>I would &lt;b&gt;gladly&lt;/b&gt; give my life for my country</example>
-					<example>The American told the policeman that he would &lt;b&gt;gladly&lt;/b&gt; accompany him to the police station if he chose to arrest him, but that he would also sue him for wrongful arrest later</example>
+				<translation>amb molt de gust<example>I would &lt;b&gt;gladly&lt;/b&gt; give my life for my country.</example>
+					<example>The American told the policeman that he would &lt;b&gt;gladly&lt;/b&gt; accompany him to the police station if he chose to arrest him, but that he would also sue him for wrongful arrest later.</example>
 				</translation>
 			</translations>
 		</adverbs>
@@ -2639,13 +2645,22 @@
 				<translation gender="m">golf</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="3750000">golf course<nouns>
-			<translations>
-				<translation gender="m">camp de golf</translation>
-			</translations>
-		</nouns>
-	</Entry>
+                <expressions>golf ball
+                <translations>
+                    <translation catagory="sports-event-golf" gender="f">bola de golf</translation>
+                    </translations>
+                    </expressions>
+                <expressions>golf club
+                <translations>
+                <translation catagory="sports-event-golf" gender="m">pal (or bastó) de golf</translation>
+                </translations>
+                </expressions>
+                <expressions>golf course
+                <translations>
+                    <translation catagory="sports-event-golf" gender="m">camp de golf</translation>
+                    </translations>
+                    </expressions>
+            </Entry>
          <Entry frequency="24400000">gong<nouns>
                 <translations><date>0708</date>
                     <translation termcat="entertainment-music-instrument" gender="m">gong</translation>
@@ -2660,7 +2675,7 @@
 	</Entry>
 <Entry frequency="224000">gonorrhea<nouns>
 			<translations>
-				<translation gender="f">gonorrea</translation>
+				<translation catagory="medical-illness" gender="f">gonorrea</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2710,8 +2725,7 @@
 	</Entry>
 <Entry frequency="33500">Goodison Park<nouns>
 			<translations>
-				<translation catagory="sports, encyclopaedic" noteng="TRUE" local="gb">-<catnote>Goodison Park és el nom de l'estadi de l'equip de futbol Everton FC.</catnote>
-				</translation>
+				<translation catagory="sports, encyclopaedic" local="gb">nom de l'estadi de l'equip de futbol anglès Everton FC</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2766,15 +2780,20 @@
                 </verbs>
                 <phrasalverbs>goof around
                 <translations>
-                    <translation>gandulejar / passar l'estona fent no res</translation>
+                    <translation local="us" register="colloquial">gandulejar / passar l'estona fent no res</translation>
                 </translations>
                 </phrasalverbs>
                 <phrasalverbs>goof off
                     <translations>
-                        <translation>gandulejar / evitar el treball i la responsibilitat</translation>
+                        <translation local="us" register="colloquial">gandulejar / evitar el treball i la responsibilitat</translation>
                     </translations>
                 </phrasalverbs>
-	<phrasalverbs>goof up<translations><translation intransitive="true">(col·loq.) espatllar</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>goof up
+                    <translations>
+                        <translation local="us" register="colloquial" intransitive="true">espatllar</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="1910000">goofball<nouns>
 			<translations>
                                 <translation local="us" register="colloquial" gender="m / f">babau<synonyms>goof</synonyms></translation>
@@ -2791,12 +2810,11 @@
                 <translation disambiguate="sports-event-snowboarding" termcat="true">gufi</translation>
                 </translations>
                 </adverbs>
-	</Entry>
-<Entry frequency="16500">goofy footer<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" gender="m / f">gufi</translation>
-			</translations>
-		</nouns>
+                <expressions>goofy footer
+                <translations>
+                    <translation disambiguate="sports-event-snowboarding" gender="mf">gufi</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="2000000">google<verbs>
 			<translations><date>0307</date>
@@ -2810,19 +2828,16 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="531000">goose bumps<nouns>
-			<translations>
-				<translation gender="f">pell de gallina<synonyms>goose pimples</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="29500">goose pimples<nouns>
-			<translations>
-				<translation gender="f">pell de gallina<synonyms>goose bumps</synonyms>
-				</translation>
-			</translations>
-		</nouns>
+                <expressions>goose bumps
+                <translations>
+                    <translation gender="f">pell de gallina</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>goose pimples
+                    <translations>
+                        <translation gender="f">pell de gallina</translation>
+                        </translations>
+                        </expressions>
 	</Entry>
 <Entry frequency="39700000">GOP<acronyms><engacro>Grand Old Party</engacro>
 			<translations>
