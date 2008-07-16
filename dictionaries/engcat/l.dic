@@ -328,13 +328,12 @@
 				<translation gender="f">cervesa rossa</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="4880">lager lout<nouns>
-			<translations>
-				<translation register="slang" local="gb" noteng="TRUE">-<catnote>Lager lout és un nom que posem als homes borratxos que provoquen baralles i disturbis. És molt semblant a la paraula 'hooligan' però 'hooligan' no significa necessàriament que l'individu està borratxo.</catnote>
+                <expressions>lager lout
+                <translations>
+                    <translation register="slang" local="gb" noteng="TRUE">-<catnote>Lager lout és un nom que posem als homes borratxos que provoquen baralles i disturbis. És molt semblant a la paraula 'hooligan' però 'hooligan' no significa necessàriament que l'individu està borratxo.</catnote>
 				</translation>
-			</translations>
-		</nouns>
+                                </translations>
+                                </expressions>
 	</Entry>
 <Entry frequency="14300">lagging<nouns>
 			<translations>
@@ -431,7 +430,7 @@
 				<translation>aterrar</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>land up<translations><translation intransitive="true">acabar</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>land up<translations><translation intransitive="true">acabar</translation></translations></phrasalverbs></Entry>
 <Entry frequency="2290000">landfill<nouns>
 			<translations>
 				<translation gender="m">abocador</translation>
@@ -633,13 +632,19 @@
 	</Entry>
 <Entry frequency="581000">larva<nouns>
 			<translations>
-				<translation gender="f">larva<plural>larvae</plural></translation>
+				<translation catagory="animal" gender="f">larva<plural>larvae</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="2920000">larval<adjectives>
+                            <translations><date>0708</date>
+				<translation catagory="animal">larval</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="247000">larynx<nouns>
 			<translations>
-				<translation gender="f">laringe<synonyms>voice box</synonyms></translation>
+				<translation catagory="body" gender="f">laringe<synonyms>voice box</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -954,13 +959,18 @@
 				<translation>llançar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>launch out
+                    <translations>
+                        <translation intransitive="true">llançar-se a / emprendre</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
 				<translation gender="m">llançament</translation>
                                 <translation disambiguate="transport" gender="f">llanxa<plural>launches</plural></translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>launch out<translations><translation intransitive="true">llançar-se a, emprendre</translation></translations></phrasalverbs></Entry>
+	</Entry>
 <Entry frequency="141000">launderette<nouns>
 			<translations>
 				<translation gender="f">bugaderia</translation>
@@ -975,19 +985,25 @@
 	</Entry>
 <Entry frequency="536000">laundry room<nouns>
 			<translations>
-				<translation gender="f">bugaderia</translation>
+				<translation catagory="household-room" gender="f">bugaderia</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="9020000">laurel<nouns>
 			<translations>
-				<translation gender="m">llorer</translation>
+				<translation catagory="plants" gender="m">llorer</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="970000">Lausanne<nouns>
 			<translations>
-				<translation gender="f">Lausana</translation>
+				<translation catagory="city-europe-switzerland" gender="f">Lausana</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="24300000">lava<nouns>
+                            <translations><date>0708</date>
+				<translation catagory="geography" gender="f">lava</translation>
 			</translations>
 		</nouns>
 	</Entry>
