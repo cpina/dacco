@@ -7162,13 +7162,13 @@
 	</Entry>
 <Entry frequency="152000">bubble bath<nouns>
 			<translations>
-				<translation gender="m">gel de bany</translation>
+				<translation catagory="household-room-bathroom" gender="m">gel de bany</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="3470000">buck<nouns>
 			<translations>
-				<translation disambiguate="financial" register="colloquial" gender="m">dòlar</translation>
+				<translation disambiguate="financial" register="colloquial" local="us" gender="m">dòlar</translation>
                                 <translation disambiguate="animal" gender="m">cérvol (mascle)</translation>
 			</translations>
 		</nouns>
@@ -7248,7 +7248,12 @@
 				</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>buddy up to<translations><translation intransitive="true">afalagar</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>buddy up to
+                    <translations>
+                        <translation local="us" intransitive="true">afalagar</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="2720000">budge<verbs>
 			<translations>
 				<translation>moure<example>I tried to open the door but it was stuck and I couldn't &lt;b&gt;budge&lt;/b&gt; it.</example></translation>
@@ -7320,10 +7325,20 @@
 				</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>bug off
+                    <translations>
+                        <translation register="colloquial" intransitive="true">anar-se'n (deixant algú en pau)</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>bug out
                 <translations>
-                    <translation register="colloquial">anar-se'n / escapolir-se</translation>
+                    <translation local="us" register="colloquial">anar-se'n / escapolir-se</translation>
                     </translations>
+                    </phrasalverbs>
+                    <phrasalverbs>bug out on
+                        <translations>
+                            <translation register="colloquial" local="us" intransitive="true">abandonar (algú, evitant un deure o una responsibilitat)</translation>
+                        </translations>
                     </phrasalverbs>
 		<nouns>
 			<translations>
@@ -7335,7 +7350,7 @@
 				<translation>petit micròfon o petita camareta que utilitzen els detectius / forces de seguretat per escoltar les converses privades</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>bug off<translations><translation intransitive="true">(col·loq.) anar-se'n (deixant algú en pau)</translation></translations></phrasalverbs><phrasalverbs>bug out on<translations><translation intransitive="true">(col·loq.) (am.) abandonar (algú, evitant un deure o una responsibilitat)</translation></translations></phrasalverbs></Entry>
+	</Entry>
 <Entry frequency="411000">bugger<verbs>
 			<translations>
 				<translation>sodomitzar<synonyms>sodomize</synonyms></translation>
