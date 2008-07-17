@@ -3094,9 +3094,9 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="68400">flatmate<nouns>
-			<translations>
-				<translation noteng="TRUE">persona amb qui comparteixes pis</translation>
+<Entry frequency="1080000">flatmate<nouns>
+                            <translations><date>0708</date>
+				<translation local="gb" gender="mf">company de pis</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3596,20 +3596,18 @@
                                 <translation termcat="energy" gender="m">escolament</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="928000">flow chart<nouns>
-			<translations>
-				<translation gender="m">diagrama de flux<synonyms>flow diagram</synonyms>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="239000">flow diagram<nouns>
-			<translations>
-				<translation gender="m">diagrama de flux<synonyms>flow chart</synonyms>
-				</translation>
-			</translations>
-		</nouns>
+                <expressions>flow chart
+                    <translations>
+                        <translation gender="m">diagrama de flux<synonyms>flow diagram</synonyms>
+                        </translation>
+                    </translations>
+                </expressions>
+                <expressions>flow diagram
+                    <translations>
+                        <translation gender="m">diagrama de flux<synonyms>flow chart</synonyms>
+                        </translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="19700000">flower<nouns>
 			<translations>
@@ -3621,10 +3619,15 @@
 				<translation>florir</translation>
 			</translations>
 		</verbs>
+                <expressions>flower bed
+                    <translations>
+                        <translation gender="m">parterre</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-<Entry frequency="732000">flower bed<nouns>
-			<translations>
-				<translation gender="m">parterre</translation>
+<Entry frequency="1460000">flowerpot<nouns>
+                            <translations><date>0708</date>
+				<translation catagory="plants" gender="m">test</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3739,13 +3742,18 @@
                                 <translation>onejar<engexamp>La bandera espanyola torna a onejar a Igualada</engexamp><catexamp>The Spanish flag is flying again in Igualada</catexamp></translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>fly over
+                    <translations>
+                        <translation intransitive="true">sobrevolar</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
-				<translation gender="f">mosca<plural>flies</plural>
+				<translation catagory="animal-insect" gender="f">mosca<plural>flies</plural>
 				</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>fly over<translations><translation intransitive="true">sobrevolar</translation></translations></phrasalverbs></Entry>
+	</Entry>
 <Entry frequency="7260000">flyer<nouns>
 			<translations>
 				<translation disambiguate="transport" gender="mf">passatger (d'avió)</translation>
