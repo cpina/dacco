@@ -3830,9 +3830,7 @@
 		</nouns>
 	</Entry><Entry frequency="8350">Toon Army<nouns>
 			<translations>
-				<translation catagory="sports-event-football-teams, encyclopaedic" register="colloquial" noteng="TRUE" local="gb">-<synonyms>Magpies</synonyms>
-					<catnote>The Toon Army és un dels sobrenoms de l'equip de futbol anglès Newcastle United FC.  L'altre sobrenom d'aquest equip és 'The Magpies'.</catnote>
-				</translation>
+                            <translation catagory="sports-event-football-teams, encyclopaedic" register="colloquial" local="gb">sobrenom de l'equip de futbol anglès Newcastle United FC<synonyms>Magpies</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="6850000">tooth<nouns>
@@ -3890,12 +3888,17 @@
                         <translation>parar d'augmentar</translation>
                     </translations>
                 </phrasalverbs>
+                <phrasalverbs>top up
+                    <translations>
+                        <translation transitive="true">omplir del tot</translation>
+                    </translations>
+                </phrasalverbs>
                 <expressions>top yourself
                     <translations>
                         <translation local="gb" register="slang">suïcidar-se</translation>
                     </translations>
                 </expressions>
-	<phrasalverbs>top up<translations><translation transitive="true">omplir del tot</translation></translations></phrasalverbs></Entry><Entry frequency="107000000">topic<nouns>
+                </Entry><Entry frequency="107000000">topic<nouns>
 			<translations>
                         <grouptranslation>
 				<translation gender="m">tema / assumpte</translation>
@@ -3969,7 +3972,9 @@
 		</nouns>
                 <verbs>
                 <translations>
-                <translation register="slang">calar foc a<example>Environmentalists were found guilty of &lt;b&gt;torching&lt;/b&gt; Hummers and SUVs at a local car showroom.</example><example>Bosnians &lt;b&gt;torched&lt;/b&gt; homes and businesses in an attempt to drive the Serbs out of town.</example></translation></translations></verbs>
+                <translation register="slang">calar foc a<example>Environmentalists were found guilty of &lt;b&gt;torching&lt;/b&gt; Hummers and SUVs at a local car showroom.</example><example>Bosnians &lt;b&gt;torched&lt;/b&gt; homes and businesses in an attempt to drive the Serbs out of town.</example></translation>
+                </translations>
+                </verbs>
 	</Entry><Entry frequency="806000">torment<verbs>
 			<translations>
 				<translation>atormentar</translation>
@@ -4029,17 +4034,8 @@
 				<translation gender="mf">torturador</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="319000">torturous<adjectives>
-			<translations>
-				<translation>tortuós</translation>
-			</translations>
-		</adjectives>
-	</Entry><Entry frequency="319000">torturous<adjectives>
-			<translations>
-				<translation>tortuós</translation>
-			</translations>
-		</adjectives>
-	</Entry><Entry frequency="6570000">tory<nouns>
+	</Entry>
+        <Entry frequency="6570000">tory<nouns>
 			<translations>
 				<translation catagory="politics" local="gb" gender="mf">membre del partit conservador britànic</translation>
                                 <translation catagory="politics" gender="mf">membre del partit conservador canadenc<plural>tories</plural></translation>
@@ -4047,7 +4043,9 @@
 		</nouns>
                 <adjectives>
                 <translations>
-                <translation catagory="politics">conservador</translation></translations></adjectives>
+                <translation catagory="politics">conservador</translation>
+                </translations>
+                </adjectives>
 	</Entry><Entry frequency="92200">tosh<nouns>
                             <translations><date>0408</date>
 				<translation local="gb" register="dated" gender="fpl">bestieses<example>What a load of old &lt;b&gt;tosh&lt;/b&gt;!</example></translation>
@@ -4058,6 +4056,11 @@
 				<translation>llançar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>toss around
+                    <translations>
+                        <translation transitive="true">intercanviar (idees, opinions)</translation>
+                    </translations>
+                </phrasalverbs>
                   <phrasalverbs>toss off
                     <translations>
                         <translation>beure's d'un glop</translation>
@@ -4078,7 +4081,7 @@
                 <translation register="slang" local="gb">importar un rave / no interessar (a algú)<synonyms>couldn't (o don't) give a monkey's (Br.) / couldn't (o don't) give a XXXX / couldn't (o don't) give a fuck (o damn o shit o crap) (vulg.)</synonyms></translation>
                 </translations>
                 </expressions>
-	<phrasalverbs>toss around<translations><translation transitive="true">intercanviar (idees, opinions)</translation></translations></phrasalverbs></Entry><Entry frequency="175000">tosser<nouns>
+	</Entry><Entry frequency="175000">tosser<nouns>
 			<translations>
 				<translation register="slang" local="gb" gender="mf">idiota</translation>
 			</translations>
@@ -4137,18 +4140,28 @@
 				<translation>retocar<example>Susan made a quick trip to the 'ladies' restroom to &lt;b&gt;touch up&lt;/b&gt; her lipstick.</example></translation>
 			</translations>
 		</phrasalverbs>
+                	<phrasalverbs>touch upon
+                            <translations>
+                                <translation intransitive="true">referir-se breument a / mencionar</translation>
+                            </translations>
+                        </phrasalverbs>
                 <nouns>
                     <translations>
                         <translation gender="m">tacte</translation>
                         <translation gender="m">toc</translation>
                     </translations>
                 </nouns>
+                <expressions>touch screen
+                    <translations>
+                        <translation catagory="computers-hardware" gender="f">pantalla tàctil</translation>
+                    </translations>
+                </expressions>
                 <expressions>get in touch
                     <translations>
                         <translation>posar-se en contacte</translation>
                     </translations>
                 </expressions>
-	<phrasalverbs>touch upon<translations><translation intransitive="true">mencionar</translation></translations></phrasalverbs></Entry><Entry frequency="879000">touchdown<nouns>
+</Entry><Entry frequency="879000">touchdown<nouns>
 			<translations>
 				<translation catagory="sports-event-americanfootball" termcat="true" gender="m">touchdown</translation>
 			</translations>
@@ -4163,12 +4176,8 @@
 				<translation>commovedor<synonyms>moving</synonyms></translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="1360000">touch screen<nouns>
-			<translations>
-				<translation catagory="computers-hardware" gender="f">pantalla tàctil</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="7310000">tough<adjectives>
+	</Entry>
+        <Entry frequency="7310000">tough<adjectives>
 			<translations>
 				<translation>fort</translation>
 				<translation>difícil</translation>
@@ -4190,51 +4199,54 @@
 				<translation gender="f">perruca<synonyms>wig</synonyms></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="56100000">tour<nouns>
-			<translations>
-				<translation gender="f">gira<engexamp>To go on tour</engexamp><catexamp>Anar / sortir de gira</catexamp></translation>
+	</Entry><Entry frequency="504000000">tour<nouns>
+                            <translations><date>0708</date>
+				<translation gender="f">gira</translation>
                                 <translation gender="m">viatge<engnote>'Viatge' means 'tour' in the sense 'sightseeing tour'.</engnote></translation>
                                 <translation gender="f">visita<engnote>'Visita' means 'tour' in the sense 'being shown around a place' (He took me on a tour of the museum).</engnote></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="2160000">tour guide<nouns>
-			<translations>
-				<translation catagory="work-job" gender="mf">guia acompanyant</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="17100000">tourism<nouns>
-			<translations>
+                <expressions>tour guide
+                    <translations>
+                        <translation catagory="work-job" gender="mf">guia acompanyant</translation>
+                        </translations>
+                </expressions>
+                <expressions>tour operator
+                    <translations>
+                        <translation catagory="work-job" gender="mf">operador turístic</translation>
+                    </translations>
+                </expressions>
+                <expressions>go on tour
+                    <translations>
+                        <translation>anar / sortir de gira</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="111000000">tourism<nouns>
+                            <translations><date>0708</date>
 				<translation gender="m">turisme</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="1430000">tourism bureau<nouns>
-			<translations>
-				<translation gender="f">oficina de turisme<synonyms>tourist office / tourism office / tourist bureau</synonyms></translation>
                                 <translation beforenoun="true">turístic</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1830000">tourism office<nouns>
-			<translations>
-				<translation gender="f">oficina de turisme<synonyms>tourist office / tourist bureau / tourism bureau</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="11500000">tourist<nouns>
-			<translations>
+                <expressions>tourism bureau (o office)
+                    <translations>
+                        <translation gender="f">oficina de turisme<synonyms>tourist office, tourist bureau</synonyms></translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="81800000">tourist<nouns>
+                            <translations><date>0708</date>
 				<translation gender="mf">turista</translation>
                                 <translation beforenoun="true">turístic</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="778000">tourist bureau<nouns>
-			<translations>
-				<translation gender="f">oficina de turisme<synonyms>tourist office / tourism bureau / tourism office</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="2520000">tourist office<nouns>
-			<translations>
-				<translation gender="f">oficina de turisme<synonyms>tourism bureau / tourism office / tourist bureau</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="9380000">tournament<nouns>
+                <expressions>tourist bureau (o office)
+                    <translations>
+                        <translation gender="f">oficina de turisme<synonyms>tourism office,tourism bureau</synonyms></translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="9380000">tournament<nouns>
 			<translations>
 				<translation catagory="sports" gender="m">torneig</translation>
 			</translations>
@@ -4244,16 +4256,16 @@
 				<translation catagory="medical" gender="m">torniquet</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="5340000">tour operator<nouns>
-			<translations>
-				<translation gender="m">operador turístic</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="4910000">tow<verbs>
-			<translations>
+	</Entry><Entry frequency="23700000">tow<verbs>
+                            <translations><date>0708</date>
 				<translation>remolcar</translation>
 			</translations>
 		</verbs>
+                <expressions>tow rope
+                    <translations>
+                        <translation gender="f">sirga</translation>
+                        </translations>
+                </expressions>
 	</Entry><Entry frequency="14200000">toward<prepositions>
 			<translations>
 				<translation>envers<engnote>'Envers' means 'toward' in the sense 'Your attitude toward your work leaves a great deal to be desired'.</engnote>
@@ -4280,9 +4292,9 @@
 				<translation catagory="household-room-bathroom, household-room-kitchen" gender="f">tovallola</translation>
 			</translations>
 		</nouns>
-                <expressions>tirar la tovallola
+                <expressions>throw in the towel
                 <translations>
-                <translation>to throw in the towel</translation>
+                <translation>tirar la tovallola</translation>
                 </translations>
                 </expressions>
 	</Entry><Entry frequency="9300000">tower<nouns>
@@ -4295,23 +4307,35 @@
 				<translation picture="http://photos15.flickr.com/20995389_d1f57a8d52.jpg" flickr="http://www.flickr.com/photos/my_gallery/20995389/" catagory="encyclopaedic" gender="f">Torre de Londres<catnote>També és conegut senzillament com 'The Tower'.</catnote></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="37400000">town<nouns>
-			<translations>
-				<translation gender="f">ciutat<engexamp>Town centre (Br.)</engexamp><catexamp>Centre de la ciutat</catexamp><catnote>Les dues paraules 'town' i 'city' signifiquen 'ciutat', però un 'city' és més gran que un 'town'.</catnote>
+	</Entry><Entry frequency="528000000">town<nouns>
+                            <translations><date>0708</date>
+				<translation gender="f">ciutat<catnote>Les dues paraules 'town' i 'city' signifiquen 'ciutat', però un 'city' és més gran que un 'town'.</catnote>
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1960000">town hall<nouns>
-			<translations>
-				<translation catagory="politics" gender="m">ajuntament</translation>
+                <expressions>town centre
+                    <translations>
+                        <translation local="gb">centre de la ciutat</translation>
+                    </translations>
+                </expressions>
+                <expressions>town hall
+                    <translations>
+                        <translation catagory="politics" gender="m">ajuntament</translation>
+                    </translations>
+                </expressions>
+                <expressions>town planning
+                    <translations>
+                        <translation gender="m">urbanisme</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+<Entry frequency="521000">towpath<nouns>
+			<translations><date>0708</date>
+				<translation gender="m">camí de sirga</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="605000">town planning<nouns>
-			<translations>
-				<translation gender="m">urbanisme</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="4850000">toxic<adjectives>
+	</Entry>
+        <Entry frequency="4850000">toxic<adjectives>
 			<translations>
 				<translation>tòxic</translation>
 			</translations>

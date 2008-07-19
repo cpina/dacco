@@ -9104,7 +9104,14 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="19700000">sister<nouns>
+	</Entry>
+        <Entry frequency="17100000">siren<nouns>
+                <translations><date>0708</date>
+                    <translation gender="f">sirena</translation>
+                </translations>
+            </nouns>
+        </Entry>
+        <Entry frequency="19700000">sister<nouns>
 
 			<translations>
 
@@ -9578,7 +9585,31 @@
 			</translations>
 
 		</nouns>
-
+                <expressions>ski jump
+                    <translations>
+                        <translation catagory="sports-event-skiing" gender="m">trampolí</translation>
+                    </translations>
+                </expressions>
+                <expressions>ski lift
+                    <translations>
+                        <translation catagory="sports-event-skiing" gender="f">telecadira</translation>
+                    </translations>
+                </expressions>
+                <expressions>ski mask
+                    <translations>
+                        <translation catagory="clothes" gender="m">passamuntanyes<synonyms>balaclava</synonyms></translation>
+                    </translations>
+                </expressions>
+                <expressions>ski resort
+                    <translations>
+                        <translation catagory="sports-event-skiing" gender="f">estació d'esquí</translation>
+                    </translations>
+                </expressions>
+                <expressions>ski slope
+                    <translations>
+                        <translation catagory="sports-event-skiing" gender="f">pista d'esquí</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="15300000">skid<verbs double="true">
 
@@ -9611,27 +9642,8 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="222000">ski jump<nouns>
-
-			<translations>
-
-				<translation catagory="sports-event-skiing" gender="m">trampolí</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="191000">ski lift<nouns>
-
-			<translations>
-
-				<translation catagory="sports-event-skiing" gender="f">telecadira</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="669000">skilful<adjectives>
+	</Entry>
+        <Entry frequency="669000">skilful<adjectives>
 
 			<translations>
 
@@ -9702,16 +9714,6 @@
 			</translations>
 
 		</adverbs>
-
-	</Entry><Entry frequency="590000">ski mask<nouns>
-
-                            <translations><date>1007</date>
-
-				<translation catagory="clothes" gender="m">passamuntanyes<synonyms>balaclava</synonyms></translation>
-
-			</translations>
-
-		</nouns>
 
 	</Entry><Entry frequency="2370000">skim milk<nouns>
 
@@ -9789,26 +9791,20 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="1450000">skinny<adjectives>
+	</Entry><Entry frequency="33600000">skinny<adjectives>
 
-			<translations>
+                            <translations><date>0708</date>
 
 				<translation>magre</translation>
 
 			</translations>
 
 		</adjectives>
-
-	</Entry><Entry frequency="55800">skinny dipping<nouns>
-
-			<translations>
-
-				<translation>el fet de banyar-se despullat / nu</translation>
-
-			</translations>
-
-		</nouns>
-
+                <expressions>skinny dipping
+                    <translations>
+                        <translation>fet de banyar-se despullat / nu</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="48900">skint<adjectives>
 
 			<translations>
@@ -9858,16 +9854,6 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="5250000">ski resort<nouns>
-
-			<translations>
-
-				<translation catagory="sports-event-skiing" gender="f">estació d'esquí</translation>
-
-			</translations>
-
-		</nouns>
-
 	</Entry><Entry frequency="3480000">skirt<nouns>
 
 			<translations>
@@ -9885,16 +9871,6 @@
                 <translation>esquivar / defugir<engnote>'Esquivar' and 'defugir' mean 'to skirt' in the sense 'the politician skirted the question'.</engnote></translation>
 
                 <translation>vorejar</translation></translations></verbs>
-
-	</Entry><Entry frequency="148000">ski slope<nouns>
-
-			<translations>
-
-				<translation catagory="sports-event-skiing" gender="f">pista d'esquí</translation>
-
-			</translations>
-
-		</nouns>
 
 	</Entry><Entry frequency="127000">skittles<nouns>
 
@@ -9987,7 +9963,19 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="1110000">slacken<verbs>
+	</Entry>
+<Entry frequency="13700000">slack<adjectives>
+        <translations><date>0708</date>
+        <translation>fluix<synonyms>loose</synonyms></translation>
+        </translations>
+    </adjectives>
+        <nouns>
+            <translations>
+                <translation sourceplural="slacks" catagory="clothes" gender="mpl">pantalons</translation>
+            </translations>
+        </nouns>
+	</Entry>
+        <Entry frequency="1110000">slacken<verbs>
 
 			<translations><date>0707</date>
 
@@ -10021,39 +10009,19 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="749000">slacks<nouns>
-
-			<translations>
-
-				<translation catagory="clothes" gender="mpl">pantalons</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="982">slag<nouns>
-
-			<translations>
-
+	</Entry><Entry frequency="7120000">slag<nouns>
+                            <translations><date>0708</date>
 				<translation register="vulgar" gender="f">puta</translation>
-
                                 <translation gender="f">escòria</translation>
-
 			</translations>
-
 		</nouns>
-
-	</Entry><Entry frequency="20400">slag off<verbs double="true">
-
-			<translations>
-
-				<translation register="slang" local="gb">parlar malament d'una persona</translation>
-
-			</translations>
-
-		</verbs>
-
-	</Entry><Entry frequency="6440000">slalom<nouns>
+                <phrasalverbs>slag off
+                    <translations>
+                        <translation register="slang" local="gb">parlar malament d'una persona</translation>
+                    </translations>
+                </phrasalverbs>
+	</Entry>
+        <Entry frequency="6440000">slalom<nouns>
 
 			<translations>
 
@@ -10072,18 +10040,13 @@
                 </translations>
 
                 </verbs>
-
-	</Entry><Entry frequency="5590">slalom post<nouns>
-
-			<translations>
-
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">pal d'eslàlom</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="5720000">slam<verbs double="true">
+                <expressions>slalom post
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">pal d'eslàlom</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="5720000">slam<verbs double="true">
 
 			<translations>
 
@@ -10094,18 +10057,13 @@
 			</translations>
 
 		</verbs>
-
-	</Entry><Entry frequency="1330000">slam dunk<nouns>
-
-                            <translations><date>1107</date>
-
-				<translation catagory="sports-event-basketball" termcat="true" gender="f">esmaixada</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="25000">slammer<nouns>
+                <expressions>slam dunk
+                    <translations>
+                        <translation catagory="sports-event-basketball" termcat="true" gender="f">esmaixada</translation>   
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="25000">slammer<nouns>
 
 			<translations>
 
@@ -10198,7 +10156,11 @@
 			</translations>
 
 		</verbs>
-
+                <phrasalverbs>slap down
+                    <translations>
+                        <translation transitive="true">criticar durament (algú)</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 
 			<translations>
@@ -10215,7 +10177,7 @@
 
 		</nouns>
 
-	<phrasalverbs>slap down<translations><translation transitive="true">criticar durament (algú)</translation></translations></phrasalverbs></Entry><Entry frequency="74100">slapper<nouns>
+	</Entry><Entry frequency="74100">slapper<nouns>
 
 			<translations>
 
@@ -10337,28 +10299,18 @@
 			</translations>
 
 		</nouns>
-
-	</Entry><Entry frequency="76900">slave driver<nouns>
-
-			<translations>
-
-				<translation gender="mf">negrer</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="138000">slave trader<nouns>
-
-			<translations>
-
-				<translation gender="mf">negrer</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="3300000">slavery<nouns>
+                <expressions>slave driver
+                    <translations>
+                        <translation gender="mf">negrer</translation>
+                    </translations>
+                </expressions>
+                <expressions>slave trader
+                    <translations>
+                        <translation gender="mf">negrer</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+       <Entry frequency="3300000">slavery<nouns>
 
 			<translations>
 
@@ -10516,7 +10468,7 @@
 
 			<translations>
 
-					<translation gender="mf">noctàmbul / somnàmbul</translation>
+				<translation gender="mf">noctàmbul / somnàmbul</translation>
 
 			</translations>
 
@@ -10592,7 +10544,13 @@
 
                 </verbs>
 
-	<phrasalverbs>slice up<translations><translation transitive="true">llescar, fer rodanxes</translation></translations></phrasalverbs></Entry><Entry frequency="21900000">slide<verbs>
+                <phrasalverbs>slice up
+                    <translations>
+                        <translation transitive="true">llescar / fer rodanxes</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="21900000">slide<verbs>
 
 			<past>slid</past>
 
@@ -10702,7 +10660,11 @@
 			</translations>
 
 		</verbs>
-
+                <phrasalverbs>slip up
+                    <translations>
+                        <translation intransitive="true">equivocar-se / relliscar / ficar-se de peus a la galleda</translation>
+                    </translations>
+                </phrasalverbs>
                 <nouns>
 
                 <translations>
@@ -10714,17 +10676,11 @@
                 <translation gender="m">error</translation>
 
                 <translation gender="m">tros<engexamp>A slip of paper</engexamp><catexamp>Un tros de paper</catexamp></translation></translations></nouns>
-
-	<phrasalverbs>slip up<translations><translation intransitive="true">equivocar-se, relliscar, ficar-se de peus a la galleda</translation></translations></phrasalverbs></Entry><Entry frequency="1180000">slip cover<nouns>
-
-			<translations>
-
-				<translation local="us" gender="f">funda<otherlocal>loose cover</otherlocal></translation>
-
-			</translations>
-
-		</nouns>
-
+                <expressions>slip cover
+                    <translations>
+                        <translation local="us" gender="f">funda<otherlocal>loose cover</otherlocal></translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="2840000">slippers<nouns>
 
 			<translations>
@@ -10800,32 +10756,17 @@
 			<translations>
 
 				<translation gender="f">ranura</translation>
-
+                                <translation sourceplural="slots" gender="fpl">màquines escura-butxaques</translation>
 			</translations>
 
 		</nouns>
-
-	</Entry><Entry frequency="1020000">slot machine<nouns>
-
-			<translations>
-
-				<translation gender="f">màquina escura-butxaques</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="740000">slots<nouns>
-
-			<translations>
-
-				<translation gender="fpl">màquines escura-butxaques</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="8680000">Slovakia<nouns>
+                <expressions>slot machine
+                    <translations>
+                        <translation gender="f">màquina escura-butxaques</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+      <Entry frequency="8680000">Slovakia<nouns>
 
 			<translations>
 
@@ -10897,23 +10838,29 @@
 
 		</adjectives>
 
-	</Entry><Entry frequency="26600000">slow<adjectives>
+	</Entry><Entry frequency="212000000">slow<adjectives>
 
-			<translations><date>0707</date>
+			<translations><date>0708</date>
 
 				<translation>lent</translation>
 
 			</translations>
 
 		</adjectives>
-
-                <verbs><translations>
+                <adverbs>
+                    <translations>
+                        <translation>lentament<example>Are these pages loading real &lt;b&gt;slow&lt;/b&gt; for everyone else?</example><synonyms>slowly</synonyms><catnote>'Slow' com adverbi s'utilitza més freqüentment en anglès americà que no pas en anglès britànic.</catnote></translation>
+                    </translations>
+                </adverbs>
+                <verbs>
+                    <translations>
 
                     <translation transitive="true">alentir<example>Although strong headwinds &lt;b&gt;slowed&lt;/b&gt; the runners, they still managed to complete the race.</example></translation>
 
                     <translation intransitive="true">alentir-se<example>Without the impetus of deadlines, I find that I have &lt;b&gt;slowed&lt;/b&gt; somewhat.</example></translation>
 
-                </translations></verbs>
+                </translations>
+                </verbs>
 
                 <phrasalverbs>slow down
 
@@ -10929,7 +10876,13 @@
 
                     </phrasalverbs>
 
-	<phrasalverbs>slow up<translations><translation intransitive="true">alentir el pas</translation></translations></phrasalverbs></Entry><Entry frequency="12800000">slowly<adverbs>
+                    <phrasalverbs>slow up
+                        <translations>
+                            <translation intransitive="true">alentir el pas</translation>
+                        </translations>
+                    </phrasalverbs>
+                </Entry>
+        <Entry frequency="12800000">slowly<adverbs>
 
 			<translations>
 
