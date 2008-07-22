@@ -98,6 +98,11 @@
 					<translation gender="m">rostre</translation></grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>face down
+                    <translations>
+                        <translation>boca avall</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="663000">face-off<nouns>
 			<translations><date>0408</date>
@@ -426,6 +431,11 @@
                  <translation local="gb">partir-se de riure</translation>
                     </translations>
                     </phrasalverbs>
+             <phrasalverbs>fall among
+                <translations>
+                    <translation intransitive="true">anar a parar entre</translation>
+                </translations>
+            </phrasalverbs>
                     <phrasalverbs>fall apart
               <translations>
                   <translation intransitive="true">desfer-se (caure en trossos)</translation>
@@ -470,6 +480,11 @@
             <translation transitive="true">deixar-se enganyar per</translation>
             <translation transitive="true">enamorar-se de</translation>
         </translations>
+        </phrasalverbs>
+        <phrasalverbs>fall from
+            <translations>
+                <translation intransitive="true">caure de</translation>
+            </translations>
         </phrasalverbs>
         <phrasalverbs>fall in
         <translations>
@@ -522,6 +537,16 @@
                     <translation intransitive="true">fracassar / frustrar-se</translation>
                 </translations>
                 </phrasalverbs>
+                <phrasalverbs>fall to
+                    <translations>
+                        <translation intransitive="true">posar-se a treballar</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>fall under
+                    <translations>
+                        <translation intransitive="true">caure sota</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>fall upon
                 <translations>
                     <translation transitive="true">atacar</translation>
@@ -538,7 +563,17 @@
                                 <translation local="us" beforenoun="true">tardorenc</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>fall among<translations><translation intransitive="true">anar a parar entre</translation></translations></phrasalverbs><phrasalverbs>fall from<translations><translation intransitive="true">caure de</translation></translations></phrasalverbs><phrasalverbs>fall to<translations><translation intransitive="true">posar-se a treballar</translation></translations></phrasalverbs><phrasalverbs>fall under<translations><translation intransitive="true">caure sota</translation></translations></phrasalverbs></Entry>
+                <expressions>fall guy
+                    <translations>
+                        <translation register="colloquial" gender="m">cap de turc / boc expiatori / boc emissari<synonyms>scapegoat</synonyms></translation>
+                    </translations>
+                </expressions>
+                <expressions>fall zone
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">marge de seguretat</translation>
+                    </translations>
+                </expressions>
+</Entry>
 <Entry frequency="19400000">fallacy<nouns>
 			<translations>
 				<translation gender="f">fal·làcia<plural>fallacies</plural></translation>
@@ -564,29 +599,21 @@
                 </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="66000">fall zone<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">marge de seguretat</translation>
-			</translations>
-		</nouns>
-	</Entry>
 <Entry frequency="16400000">false<adjectives>
 			<translations>
 				<translation>fals</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="363000">false alarm<nouns>
-			<translations>
-				<translation gender="f">falsa alarma</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="89100">false friend<nouns>
-			<translations>
-				<translation gender="m">fals amic<engexamp>False friends</engexamp><catexamp>Falsos amics</catexamp><catnote>'False friends' són paraules que semblen iguals en dues llengües però, de fet, no signifiquen la mateixa cosa.</catnote></translation>
-			</translations>
-		</nouns>
+                <expressions>false alarm
+                    <translations>
+                        <translation gender="f">falsa alarma</translation>
+                    </translations>
+                </expressions>
+                <expressions>false friend
+                    <translations>
+                        <translation catagory="linguistics" gender="m">fals amic<engexamp>False friends</engexamp><catexamp>Falsos amics</catexamp><catnote>'False friends' són paraules que semblen iguals en dues llengües però, de fet, no signifiquen la mateixa cosa.</catnote></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="306000">falsely<adverbs>
 			<translations>
@@ -639,18 +666,16 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="7750000">family member<nouns>
-			<translations>
-				<translation gender="m">familiar</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="2460000">family tree<nouns>
-			<translations>
-				<translation gender="m">arbre genealògic</translation>
-			</translations>
-		</nouns>
+                <expressions>family member
+                    <translations>
+                        <translation gender="m">familiar</translation>
+                    </translations>
+                </expressions>
+                <expressions>family tree
+                    <translations>
+                        <translation gender="m">arbre genealògic</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="21200000">famous<adjectives>
 			<translations>
@@ -659,8 +684,8 @@
 		</adjectives>
 	</Entry>
 <Entry frequency="328000000">fan<nouns>
-			<translations><date>0807</date>
-				<translation gender="mf">aficionat / afeccionat</translation>
+			<translations><date>0708</date>
+				<translation gender="mf">aficionat / afeccionat / entusiasta</translation>
 				<translation gender="m">ventall</translation>
 				<translation gender="m">ventilador</translation>
 			</translations>
@@ -756,6 +781,16 @@
                                 <translation>extrem<engexamp>The Far East</engexamp><catexamp>Extrem Orient</catexamp><engexamp>The Far Right</engexamp><catexamp>L'extrema dreta</catexamp></translation>
 			</translations>
 	</adjectives>
+        <expressions>far off
+            <translations>
+                <translation>llunyà</translation>
+            </translations>
+        </expressions>
+        <expressions>Far Right
+            <translations>
+                <translation catagory="politics" gender="f">Extrema Dreta</translation>
+            </translations>
+        </expressions>
         <expressions>by far
         <translations>
         <translation>de llarg<engexamp>He was by far the best player</engexamp><catexamp>Va ser de llarg el millor jugador</catexamp></translation>
@@ -804,7 +839,12 @@
 				</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>farm out<translations><translation transitive="true">enviar (tasques) a altres llocs</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>farm out
+                    <translations>
+                        <translation transitive="true">enviar (tasques) a altres llocs</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="12700000">farmer<nouns>
 			<translations>
 			    <translation gender="mf">agricultor / granger</translation>
@@ -835,18 +875,6 @@
 			<translations>
 				<translation gender="fpl">Illes Fèroe<catnote>També s'escriu 'Faeroe Islands'.</catnote>
 				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="891000">far off<adjectives>
-			<translations>
-				<translation>llunyà</translation>
-			</translations>
-		</adjectives>
-	</Entry>
-<Entry frequency="838000">Far Right<nouns>
-			<translations>
-				<translation catagory="politics" gender="f">extrema dreta</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -955,6 +983,11 @@
 				<translation gender="m">greix</translation>
 			</translations>
 		</nouns>
+                <expressions>fat soluble
+                    <translations>
+                        <translation>soluble en greix</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="13400000">fatality<nouns>
 			<translations>
@@ -1010,12 +1043,6 @@
 <Entry frequency="1370000">fatigued<adjectives>
 			<translations><date>0307</date>
 				<translation register="formal">fatigat / esgotat<synonyms>worn out, exhausted, knackered (argot) (Br.)</synonyms></translation>
-			</translations>
-		</adjectives>
-	</Entry>
-<Entry frequency="274000">fat soluble<adjectives>
-			<translations>
-				<translation>soluble en greix</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1737,6 +1764,30 @@
 			</translations>
 		</verbs>
 	<phrasalverbs>fetch up<translations><translation intransitive="true">anar a parar</translation></translations></phrasalverbs></Entry>
+           <Entry frequency="45800000">fetish<nouns>
+			<translations><date>0708</date>
+				<translation gender="m">fetitxe</translation>
+			</translations>
+		</nouns>
+	</Entry>
+            <Entry frequency="1260000">fetishism<nouns>
+			<translations><date>0708</date>
+				<translation gender="m">fetitxisme</translation>
+			</translations>
+		</nouns>
+	</Entry>
+            <Entry frequency="520000">fetishist<nouns>
+			<translations><date>0708</date>
+				<translation gender="mf">fetitxista</translation>
+			</translations>
+		</nouns>
+	</Entry>
+            <Entry frequency="277000">fetishistic<adjectives>
+			<translations><date>0708</date>
+				<translation>fetitxista</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="1520000">fetus<nouns>
 			<translations>
 				<translation gender="m">fetus</translation>
@@ -6217,6 +6268,17 @@
 			</translations>
 		</nouns>
             </Entry>
+               <Entry frequency="1940000">furrow<nouns>
+                <translations><date>0708</date>
+                    <translation gender="m">solc</translation>
+                </translations>
+                </nouns>
+                <verbs>
+                    <translations>
+                        <translation>arrufar (les celles)</translation>
+                        </translations>
+                        </verbs>
+                </Entry>
 <Entry frequency="2340000">furry<adjectives>
 			<translations><date>0807</date>
 				<translation>pelut</translation>
