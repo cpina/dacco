@@ -3126,7 +3126,7 @@
 	</Entry>
 <Entry frequency="2280000">granary<nouns>
 			<translations><date>0408</date>
-				<translation gender="m">graner<fems>granaries</fems></translation>
+				<translation catagory="agriculture" gender="m">graner<fems>granaries</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3140,27 +3140,33 @@
                 <translations>
                 <translation catagory="financial" register="slang">mil dòlars / mil lliures</translation></translations></nouns>
 	</Entry>
+        <Entry frequency="2220000">grandad<nouns>
+                            <translations><date>0708</date>
+				<translation catagory="family" gender="m">avi<catnote>Aquesta paraula també s'escriu 'granddad'.</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="2200000">grandchild<nouns>
 			<translations>
-				<translation gender="mf">nét (o néta)<plural>grandchildren</plural></translation>
+				<translation catagory="family" gender="mf">nét (o néta)<plural>grandchildren</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="99800">granddad<nouns>
 			<translations>
-				<translation gender="m">avi</translation>
+				<translation catagory="family" gender="m">avi<catnote>Aquesta paraula també s'escriu 'grandad'.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="803000">granddaughter<nouns>
 			<translations>
-				<translation gender="f">néta</translation>
+				<translation catagory="family" gender="f">néta</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="2130000">grandfather<nouns>
 			<translations>
-				<translation gender="m">avi</translation>
+				<translation catagory="family" gender="m">avi</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3179,44 +3185,46 @@
 	</Entry>
 <Entry frequency="4110000">grandmother<nouns>
 			<translations>
-				<translation gender="f">àvia<synonyms>grandma, gran (Br.), nana (Br.)</synonyms></translation>
+				<translation catagory="family" gender="f">àvia<synonyms>grandma, gran (Br.), nana (Br.)</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="944000">grandpa<nouns>
 			<translations>
+                            <grouptranslation catagory="family">
 				<translation gender="m">avi</translation>
                                 <translation gender="mfullform">iaio<synonyms>grandad</synonyms><engnote>'Iaio' is a word typically used by small children.</engnote></translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="4090000">grandparents<nouns>
 			<translations>
-				<translation gender="mpl">avis</translation>
+				<translation catagory="family" gender="mpl">avis</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="662">Grand Prix<nouns>
 			<translations>
-				<translation gender="m">Gran Premi</translation>
+				<translation catagory="sports-event-formulaone" gender="m">Gran Premi</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="1470000">grandson<nouns>
 			<translations>
-				<translation gender="m">nét</translation>
+				<translation catagory="family" gender="m">nét</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="2270000">granite<nouns>
 			<translations>
-				<translation gender="m">granit</translation>
+				<translation catagory="material" gender="m">granit</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="2780000">granny<nouns>
 			<translations>
-				<translation register="colloquial" gender="ffullform">iaia<plural>grannies</plural></translation>
+				<translation register="colloquial" catagory="family" gender="ffullform">iaia<plural>grannies</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3251,19 +3259,19 @@
 	</Entry>
 <Entry frequency="2430000">grape<nouns>
 			<translations>
-				<translation gender="m">raïm</translation>
+				<translation catagory="food-fruit" gender="m">raïm</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="1610000">grapefruit<nouns>
 			<translations>
-				<translation gender="f">aranja</translation>
+				<translation catagory="food-fruit" gender="f">aranja</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="33300000">graph<nouns>
 			<translations>
-				<translation gender="f">gràfica</translation>
+				<translation catagory="maths" gender="f">gràfica</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3276,18 +3284,17 @@
                 <translations>
                 <translation>gràfic</translation>
                 <translation>explícit</translation></translations></adjectives>
+                <expressions>graphic novel
+                    <translations>
+                        <translation gender="f">fotonovel·la</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="34800000">graphical<adjectives>
 			<translations>
 				<translation>gràfic<synonyms>graphic</synonyms></translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="5640000">graphic novel<nouns>
-			<translations>
-				<translation gender="f">fotonovel·la</translation>
-			</translations>
-		</nouns>
 	</Entry>
 <Entry frequency="1880000">graphics card<nouns>
 			<translations>
@@ -3303,14 +3310,24 @@
 				</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>grasp at<translations><translation intransitive="true">mirar d'agafar</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>grasp at
+                    <translations>
+                        <translation intransitive="true">mirar d'agafar</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="13100000">grass<nouns>
 			<translations>
 				<translation disambiguate="plant" gender="f">herba</translation>
 					<translation register="slang" gender="f">herba / marijuana</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>grass on<translations><translation intransitive="true">informar sobre (fent de "chivato")</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>grass on
+                    <translations>
+                        <translation intransitive="true">informar sobre (fent de "chivato")</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="451000">grasshopper<nouns>
 			<translations>
                         <grouptranslation catagory="animal-insect"><translation gender="m">saltamartí</translation>
@@ -3436,7 +3453,12 @@
 				</translation>
 			</translations>
 		</adjectives>
-	<phrasalverbs>gray out<translations><translation transitive="true">desactivar (una opció en un programa informàtica)</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>gray out
+                    <translations>
+                        <translation transitive="true">desactivar (una opció en un programa informàtica)</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="131000">grayish<adjectives>
 			<translations>
 				<translation local="us">grisenc<otherlocal>greyish</otherlocal>
@@ -3474,25 +3496,25 @@
 	</Entry>
 <Entry frequency="5170000">Great Britain<nouns>
 			<translations>
-				<translation gender="f">Gran Bretanya</translation>
+				<translation catagory="country-europe" gender="f">Gran Bretanya</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="422000">great grandfather<nouns>
 			<translations>
-				<translation gender="m">besavi</translation>
+				<translation catagory="family" gender="m">besavi</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="257000">great grandmother<nouns>
 			<translations>
-				<translation gender="f">besàvia</translation>
+				<translation catagory="family" gender="f">besàvia</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="135000">great grandparents<nouns>
 			<translations>
-				<translation gender="mpl">besavis</translation>
+				<translation catagory="family" gender="mpl">besavis</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3541,12 +3563,11 @@
 				<translation>grec</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="67500">Greek Orthodox Church<nouns>
-			<translations>
-				<translation gender="f">església ortodoxa grega</translation>
-			</translations>
-		</nouns>
+                <expressions>Greek Orthodox Church
+                <translations>
+                    <translation catagory="religious" gender="f">església ortodoxa grega</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="72500000">green<adjectives>
 			<translations>
@@ -3555,7 +3576,15 @@
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation sourceplural="greens" gender="fpl">verdures</translation></translations></nouns>
+                <translation sourceplural="greens" gender="fpl">verdures</translation>
+                </translations>
+                </nouns>
+                <expressions>green light
+                    <translations>
+                        <translation gender="f">llum verda</translation>
+                        <translation disambiguate="transport" gender="m">semàfor en verd</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="79000">green-eyed monster<nouns>
 			<translations>
@@ -3568,29 +3597,20 @@
 				<translation gender="m">hivernacle</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="359000">greenhouse effect<nouns>
-			<translations>
-				<translation gender="m">efecte hivernacle</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="3300000">greenhouse gases<nouns>
-			<translations>
-				<translation gender="mpl">gasos hivernacle</translation>
-			</translations>
-		</nouns>
+                <expressions>greenhouse effect
+                    <translations>
+                        <translation gender="m">efecte hivernacle</translation>
+                    </translations>
+                </expressions>
+                <expressions>greenhouse gases
+                    <translations>
+                        <translation gender="mpl">gasos hivernacle</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2560000">Greenland<nouns>
 			<translations>
-				<translation gender="f">Groenlàndia</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="1290000">green light<nouns>
-			<translations>
-				<translation gender="f">llum verda</translation>
-				<translation disambiguate="transport" gender="m">semàfor en verd</translation>
+				<translation catagory="country-europe" gender="f">Groenlàndia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4497,6 +4517,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+             <Entry frequency="5070000">gypsum<nouns>
+                <translations><date>0708</date>   
+                    <translation catagory="material" gender="m">guix</translation>
+                </translations>
+            </nouns>
+            </Entry>
 <Entry frequency="1060000">gypsy<nouns>
 			<translations>
 				<translation gender="mf">gitano<plural>gypsies</plural>

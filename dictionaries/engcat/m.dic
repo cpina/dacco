@@ -4928,21 +4928,26 @@
 	</Entry>
 <Entry frequency="21200000">mom<nouns>
 			<translations>
-				<translation register="colloquial" local="us">mamà<otherlocal>mum</otherlocal>
+				<translation register="colloquial" local="us" gender="f">mamà<otherlocal>mum</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="17400">mom and pop store<nouns>
-			<translations>
-				<translation local="us" gender="f">petita botiga familiar</translation>
-			</translations>
-		</nouns>
+                <expressions>mom and pop store
+                    <translations>
+                        <translation local="us" gender="f">petita botiga familiar</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="84000000">moment<nouns>
 			<translations>
 				<translation gender="m">moment</translation>
                                 <translation gender="m">instant</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="31100000">mommy<nouns>
+                            <translations><date>0708</date>
+				<translation register="colloquial" local="us" gender="f">mamà<otherlocal>mummy</otherlocal><plural>mommies</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6371,6 +6376,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+             <Entry frequency="20300000">municipality<nouns>
+                     <translations><date>0708</date>
+                         <translation gender="m">municipi<plural>municipalities</plural></translation>
+                     </translations>
+                  </nouns>
+    </Entry>
 <Entry frequency="519000">munificence<nouns>
 			<translations><date>0408</date>
 				<translation register="formal" gender="f">munificència</translation>
