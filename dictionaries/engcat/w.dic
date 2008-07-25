@@ -638,6 +638,31 @@
                 </translation>
                 </translations>
                 </phrasalverbs>
+                <expressions>water column
+                    <translations>
+                        <translation termcat="energy" gender="f">columna d'aigua</translation>
+                    </translations>
+                </expressions>
+                <expressions>water cycle
+                    <translations>
+                        <translation gender="m">cicle de l'aigua</translation>
+                    </translations>
+                </expressions>
+                <expressions>water hammer
+                    <translations>
+                        <translation termcat="energy" gender="m">cop d'ariet</translation>
+                    </translations>
+                </expressions>
+                <expressions>water jump
+                    <translations>
+                        <translation disambiguate="sports" gender="m">rial</translation>
+                    </translations>
+                </expressions>
+                <expressions>water year
+                    <translations>
+                        <translation gender="m">any hidràulic</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="3480000">watercolor<nouns>
 			<translations>
 				<translation local="us" gender="f">aquarel·la<otherlocal>watercolour</otherlocal></translation>
@@ -648,19 +673,9 @@
 				<translation local="gb" gender="f">aquarel·la<otherlocal>watercolor</otherlocal></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1220000">water column<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">columna d'aigua</translation>
-			</translations>
-		</nouns>
 	</Entry><Entry frequency="1710000">watercress<nouns>
 			<translations>
 				<translation catagory="food" gender="mpl">créixens</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="175000">water cycle<nouns>
-			<translations>
-				<translation gender="m">cicle de l'aigua</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="6250000">watered-down<adjectives>
@@ -671,16 +686,6 @@
 	</Entry><Entry frequency="1400000">waterfall<nouns>
 			<translations>
 				<translation gender="f">cascada</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="309000">water hammer<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">cop d'ariet</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="108000">water jump<nouns>
-			<translations><date>0408</date>
-				<translation disambiguate="sports" gender="m">rial</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="857000">water lily<nouns>
@@ -728,11 +733,6 @@
 	</Entry><Entry frequency="1150000">water sports<nouns>
 			<translations>
 				<translation catagory="sports" gender="mpl">esports aquàtics</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="599000">water year<nouns>
-			<translations><date>0307</date>
-				<translation gender="m">any hidràulic</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="247000000">wave<nouns>
@@ -902,6 +902,21 @@
                         <translation local="us" intransitive="true">estar sense poder anar enlloc a causa del temps</translation>
                     </translations>
                 </phrasalverbs>
+                <expressions>weather cock
+                    <translations>
+                        <translation gender="m">[en forma de gall] penell</translation>
+                    </translations>
+                </expressions>
+                <expressions>weather forecast
+                    <translations>
+                        <translation catagory="weather" gender="m">pronòstic (meteorològic)</translation>
+                    </translations>
+                </expressions>
+                <expressions>weather vane
+                    <translations>
+                        <translation gender="m">penell<synonyms>wind vane</synonyms></translation>
+                    </translations>
+                </expressions>
                 <expressions>be under the weather
                 <translations>
                 <translation register="colloquial">no trobar-se bé</translation>
@@ -912,11 +927,6 @@
                 <translation register="colloquial">no trobar-se bé</translation>
                 </translations>
                 </expressions>
-	</Entry><Entry frequency="3260000">weather forecast<nouns>
-			<translations>
-				<translation catagory="weather" gender="m">pronòstic (meteorològic)</translation>
-			</translations>
-		</nouns>
 	</Entry><Entry frequency="154000">weatherman<nouns>
 			<translations>
 				<translation catagory="work-job" gender="m">home del temps<plural>weathermen</plural></translation>
@@ -1730,7 +1740,20 @@
 				<translation gender="f">amplitud / amplada / amplària</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="17800000">wife<nouns>
+	</Entry>
+            <Entry frequency="18900">widthways<adverbs>
+                            <translations><date>0708</date>
+				<translation>a l'ample<synonyms>widthwise, crossways, crosswise</synonyms></translation>
+			</translations>
+		</adverbs>
+	</Entry>
+            <Entry frequency="264000">widthwise<adverbs>
+                            <translations><date>0708</date>
+				<translation>a l'ample<synonyms>crossways, crosswise, widthways</synonyms></translation>
+			</translations>
+		</adverbs>
+	</Entry>
+        <Entry frequency="17800000">wife<nouns>
 			<translations>
 				<translation catagory="family" gender="f">dona / muller / esposa<plural>wives</plural></translation>
 			</translations>
@@ -1880,8 +1903,7 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>eòlica<engexamp>Wind farm</engexamp>
-					<catexamp>Granja eòlica</catexamp></translation>
+				<translation>eòlica</translation>
 			</translations>
 		</adjectives>
                 <verbs>
@@ -1908,16 +1930,41 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
-	</Entry><Entry frequency="1030000">wind energy<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">energia eòlica</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="1140000">wind farm<nouns>
-			<translations><date>0307</date>
-				<translation gender="f">granja eòlica</translation>
-			</translations>
-		</nouns>
+                <expressions>wind energy
+                    <translations>
+                        <translation termcat="energy" gender="f">energia eòlica</translation>
+                    </translations>
+                </expressions>
+                <expressions>wind farm
+                    <translations>
+                        <translation gender="f">granja eòlica</translation>
+                    </translations>
+                </expressions>
+                <expressions>wind power
+                    <translations>
+                        <translation gender="f">energia eòlica</translation>
+                    </translations>
+                </expressions>
+                <expressions>wind power plant
+                    <translations>
+                        <translation termcat="energy" gender="f">central eòlica</translation>
+                    </translations>
+                </expressions>
+                <expressions>wind pump
+                    <translations>
+                        <translation gender="f">aerobomba</translation>
+                    </translations>
+                </expressions>
+                <expressions>wind turbine
+                    <translations>
+                        <translation gender="m">aerogenerador</translation>
+                    </translations>
+                </expressions>
+                <expressions>wind vane
+                    <translations>
+                        <translation gender="m">penell<synonyms>weather vane</synonyms></translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="748000">windmill<nouns>
 			<translations>
 				<translation gender="m">molí de vent</translation>
@@ -1931,21 +1978,6 @@
 	</Entry><Entry frequency="212000">windpipe<nouns>
 			<translations>
 				<translation catagory="body" gender="f">tràquea</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="421000">wind power<nouns>
-			<translations>
-				<translation gender="f">energia eòlica</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="225000">wind power plant<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">central eòlica</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="134000">wind pump<nouns>
-			<translations><date>0307</date>
-				<translation gender="f">aerobomba</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="236000">windscreen<nouns>
@@ -1984,11 +2016,6 @@
 				<translation catagory="sports-event" gender="m">windsurf</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1120000">wind turbine<nouns>
-			<translations><date>0307</date>
-				<translation gender="m">aerogenerador</translation>
-			</translations>
-		</nouns>
 	</Entry><Entry frequency="38600">wind up<nouns>
 			<translations>
 				<translation register="colloquial" gender="f">broma<example>This a &lt;b&gt;wind up&lt;/b&gt;, right?</example>
@@ -2005,21 +2032,21 @@
 				<translation catagory="food-drink" gender="m">vi</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="696000">wine glass<nouns>
-			<translations>
-				<translation gender="f">copa<plural>wine glasses</plural></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="287000">wine grower<nouns>
-			<translations><date>0408</date>
-				<translation catagory="work-job" gender="mf">vinater</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="1560000">wine merchant<nouns>
-			<translations><date>0408</date>
-				<translation catagory="work-job" gender="mf">vinater</translation>
-			</translations>
-		</nouns>
+                <expressions>wine glass
+                    <translations>
+                        <translation gender="f">copa</translation>
+                    </translations>
+                </expressions>
+                <expressions>wine grower
+                    <translations>
+                        <translation catagory="work-job" gender="mf">vinater</translation>
+                    </translations>
+                </expressions>
+                <expressions>wine merchant
+                    <translations>
+                        <translation catagory="work-job" gender="mf">vinater</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="78000">wineskin<nouns>
 			<translations>
 				<translation gender="m">bot</translation>
@@ -2031,14 +2058,14 @@
                                 <translation gender="f">aspa<engnote>'Aspa' very specifically means the wing of a windmill or wind turbine.</engnote></translation>
 			</translations>
 		</nouns>
+                <expressions>wing mirror
+                    <translations>
+                        <translation catagory="transport" local="gb" gender="m">retrovisor</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="150000">winger<nouns>
 			<translations>
 				<translation catagory="sports-event-football" gender="mf">aler</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="16900">wing mirror<nouns>
-			<translations>
-				<translation catagory="transport" local="gb" gender="m">retrovisor</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="295000">wingspan<nouns>
