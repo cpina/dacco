@@ -1492,24 +1492,27 @@
 			</translations>
    </adverbs>
 	</Entry>
-  <Entry frequency="242000" >temps<nouns>
-      <translations>
+  <Entry frequency="6380000" >temps<nouns>
+          <translations><date>0708</date>
         <translation catagory="time" gender="m" >time</translation>
         <translation catagory="weather" gender="m" >weather</translation>
       </translations>
     </nouns>
-  </Entry>
-  <Entry frequency="194" >temps de descompte<nouns>
-      <translations>
-        <translation catagory="sports-event-football" gender="m" >injury time</translation>
-      </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="11800" >temps lliure<nouns>
-      <translations>
-        <translation gender="m" >free time</translation>
-      </translations>
-    </nouns>
+    <expressions>temps de descompte
+        <translations>
+            <translation catagory="sports-event-football" gender="m" >injury time</translation>
+        </translations>
+    </expressions>
+    <expressions>temps lliure
+        <translations>
+            <translation gender="m">free (o spare) time</translation>
+        </translations>
+    </expressions>
+    <expressions>dos temps
+        <translations>
+            <translation catagory="sports-event-weightlifting" gender="m">[halterofília] clean and jerk</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="14900" >temptació<nouns>
       <translations>
@@ -1960,11 +1963,22 @@
       </translations>
     </nouns>
   </Entry>
-  <Entry frequency="144000" >terra<nouns>
-      <translations>
-        <translation gender="f" >earth<catexamp>Tocar terra</catexamp><engexamp>To make landfall</engexamp></translation>
+  <Entry frequency="4030000" >terra<nouns>
+          <translations><date>0708</date>
+        <translation gender="f" >earth</translation>
+        <translation disambiguate="sports-event-gymnastics" gender="m">[gimnàstica] floor</translation>
       </translations>
     </nouns>
+    <expressions>exercici de terra
+        <translations>
+            <translation catagory="sports-event-gymnastics" gender="m">[gimnàstica] floor exercise</translation>
+        </translations>
+    </expressions>
+    <expressions>tocar terra
+        <translations>
+            <translation>to make landfall</translation>
+        </translations>
+    </expressions>
   </Entry>
    <Entry frequency="3100" >terrabastall<nouns>
       <translations><date>0108</date>

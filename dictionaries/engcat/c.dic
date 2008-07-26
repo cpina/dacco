@@ -2794,7 +2794,7 @@
     </Entry>
 <Entry frequency="213000">centipede<nouns>
         <translations>
-            <translation gender="m">centpeus</translation>
+            <translation catagory="animal-insect" gender="m">centpeus</translation>
         </translations>
     </nouns>
     </Entry>
@@ -2853,6 +2853,12 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="7360000">centurion<nouns>
+			<translations><date>0708</date>
+				<translation gender="m">centurió</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="183000000">century<nouns>
         <translations>
             <translation gender="m">segle<plural>centuries</plural>
@@ -6691,10 +6697,16 @@
     </adjectives>
     </Entry>
 <Entry frequency="12800000">collector<nouns>
-        <translations>
+        <translations><date>0708</date>
             <translation gender="mf">col·leccionista</translation>
+            <translation gender="m">captador</translation>
         </translations>
     </nouns>
+        <expressions>solar collector
+            <translations>
+                <translation termcat="energy" gender="m">captador solar</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="4010000">collide<verbs>
         <translations>
@@ -8767,6 +8779,12 @@
         </translations>
     </phrasalverbs>
 </Entry>
+    <Entry frequency="12900000">conformance<nouns>
+                            <translations><date>0708</date>
+				<translation gender="f">conformitat</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="3270000">conformist<nouns>
         <translations>
             <translation gender="mf">conformista</translation>
