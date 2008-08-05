@@ -1302,10 +1302,23 @@
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="15300000">wet<adjectives>
-			<translations>
+                            <translations><date>0708</date>
 				<translation>mullat</translation>
 			</translations>
 		</adjectives>
+                <verbs double="true">
+                    <translations>
+                        <translation>mullar</translation>
+                        </translations>
+                </verbs>
+                <nouns>
+                    <translations>
+                        <grouptransiation sourceplural="the wet">
+                        <translation gender="m">temps mullat</translation>
+                        <translation gender="f">pluja<example>When riders take their horses out in &lt;b&gt;the wet&lt;/b&gt; they ruin the trail surface.</example><example>When Formula One drivers find themselves out in &lt;b&gt;the wet&lt;/b&gt; they need to take a pit stop and change their tyres.</example></translation>
+                        </grouptransiation>
+                    </translations>
+                </nouns>
                 <expressions>wet behind the ears
                 <translations>
                 <translation>jove i novell</translation>
@@ -2812,16 +2825,33 @@
 				<translation gender="f">clau<plural>wrenches</plural><synonyms>spanner (Br.)</synonyms></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1640000">wrestler<nouns>
+	</Entry>
+          <Entry frequency="6750000">wrestle<verbs>
+                            <translations><date>0808</date>
+				<translation>lluitar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="1640000">wrestler<nouns>
 			<translations>
-				<translation catagory="sports-event-wrestling" gender="mf">lluitador (de lluita lliure)</translation>
+				<translation catagory="sports-event-wrestling" gender="mf">lluitador</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="11300000">wrestling<nouns>
-			<translations>
-				<translation catagory="sports-event" gender="f">lluita lliure</translation>
+	</Entry><Entry frequency="55500000">wrestling<nouns>
+                            <translations><date>0808</date>
+				<translation catagory="sports-event" gender="f">lluita</translation>
 			</translations>
 		</nouns>
+                <expressions>freestyle wrestling
+                    <translations>
+                        <translation catagory="sports-event" gender="f">lluita lliure</translation>
+                    </translations>
+                </expressions>
+                <expressions>Greco-Roman wrestling
+                    <translations>
+                        <translation catagory="sports-event" gender="f">lluita grecoromana</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="2030000">wrinkle<nouns>
 			<translations>
 				<translation catagory="body" gender="f">arruga</translation>

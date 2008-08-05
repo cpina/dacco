@@ -1949,11 +1949,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="37600">lliurament<nouns>
-			<translations>
-				<translation>installment</translation>
+	<Entry frequency="580000">lliurament<nouns>
+                            <translations><date>0808</date>
+				<translation gender="m">installment</translation>
+                                <translation gender="m">handing out</translation>
 			</translations>
 		</nouns>
+                <expressions>(acte de) lliurament de premis
+                    <translations>
+                        <translation gender="m">prize giving (ceremony)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="26800">lliurar<verbs conj="regular">
 			<translations>
@@ -2159,11 +2165,22 @@
                     </translations>
                 </expressions>
 	</Entry>
-	<Entry frequency="50000">lluita<nouns>
-			<translations>
+	<Entry frequency="1150000">lluita<nouns>
+                            <translations><date>0808</date>
 				<translation gender="f">fight</translation>
+                                <translation disambiguate="sports-event" gender="f">wrestling</translation>
 			</translations>
 		</nouns>
+                <expressions>lluita grecoromana
+                    <translations>
+                        <translation catagory="sports-event" gender="f">Greco-Roman wrestling</translation>
+                    </translations>
+                </expressions>
+                <expressions>lluita lliure
+                    <translations>
+                        <translation catagory="sports-event" gender="f">freestyle wrestling</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="7170">lluitador<nouns>
 			<translations><date>0505</date>
@@ -2171,9 +2188,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="40000">lluitar<verbs conj="regular">
-			<translations>
+	<Entry frequency="750000">lluitar<verbs conj="regular">
+                            <translations><date>0808</date>
 				<translation>to fight</translation>
+                                <translation>to wrestle</translation>
 			</translations>
 		</verbs>
 	</Entry>

@@ -762,12 +762,6 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="37000">off (his/her) rocker<adjectives>
-			<translations>
-				<translation register="colloquial">tocat de l'ala</translation>
-			</translations>
-		</adjectives>
-	</Entry>
 <Entry frequency="295000000">office<nouns>
 			<translations>
                                         <grouptranslation catagory="work">
@@ -776,18 +770,16 @@
                                         <translation gender="m">gabinet<engnote>'Gabinet' refers specifically to the office of a professional such as a lawyer or a doctor.</engnote></translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="755000">office automation<nouns>
-			<translations>
-				<translation gender="m">ofimàtica / buròtica<engexamp>Office automation tools</engexamp><catexamp>Eines ofimàtiques</catexamp></translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="3030000">office building<nouns>
-			<translations>
-				<translation gender="m">edifici d'oficines</translation>
-			</translations>
-		</nouns>
+                <expressions>office automation
+                    <translations>
+                        <translation gender="m">ofimàtica / buròtica<engexamp>Office automation tools</engexamp><catexamp>Eines ofimàtiques</catexamp></translation>
+                    </translations>
+                </expressions>
+                <expressions>office building
+                    <translations>
+                        <translation gender="m">edifici d'oficines</translation>                   
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="410000000">official<adjectives>
         <translations>
@@ -927,24 +919,21 @@
                                         </translation>
                                     </translations>
                                 </nouns>
-                            </Entry>
-                            <Entry frequency="753000">oil pipeline<nouns>
+                                <expressions>oil pipeline
                                     <translations>
                                         <translation gender="m">oleoducte</translation>
                                     </translations>
-                                </nouns>
-                            </Entry>
-                            <Entry frequency="67900">oil slick<nouns>
+                                </expressions>
+                                <expressions>oil slick
                                     <translations>
                                         <translation gender="f">taca de petroli / marea negra</translation>
                                     </translations>
-                                </nouns>
-                            </Entry>
-                            <Entry frequency="297000">oil well<nouns>
+                                </expressions>
+                                <expressions>oil well
                                     <translations>
                                         <translation gender="m">pou petrolífer</translation>
                                     </translations>
-                                </nouns>
+                                </expressions>
                             </Entry>
                             <Entry frequency="1710000">oink<verbs>
                                     <translations>
@@ -1147,12 +1136,11 @@
                                         <translation>omnidireccional</translation>
                                     </translations>
                                 </adjectives>
-                            </Entry>
-                            <Entry frequency="169000">omnidirectional antenna<nouns>
+                                <expressions>omnidirectional antenna
                                     <translations>
                                         <translation termcat="true" gender="m">antena omnidireccional</translation>
                                     </translations>
-                                </nouns>
+                                </expressions>
                             </Entry>
                             <Entry frequency="470000">omnipotence<nouns>
                                     <translations>
@@ -1199,18 +1187,24 @@
                             </Entry>
                             <Entry frequency="16300000">once<adverbs>
                                     <translations>
-                                        <translation>una vegada / un cop<engexamp>Once upon a time...</engexamp>
-                                            <catexamp>Hi havia una vegada...</catexamp>
-                                        </translation>
+                                        <translation>una vegada / un cop</translation>
                                     </translations>
                                 </adverbs>
                                 <conjunctions>
                                     <translations>
-                                        <translation>tan aviat com<engexamp>At once</engexamp>
-                                            <catexamp>Immediatament</catexamp>
-                                        </translation>
+                                        <translation>tan aviat com</translation>
                                     </translations>
                                 </conjunctions>
+                                <expressions>once upon a time
+                                    <translations>
+                                        <translation>hi havia una vegada...</translation>
+                                    </translations>
+                                </expressions>
+                                <expressions>at once
+                                    <translations>
+                                        <translation>immediatament</translation>
+                                    </translations>
+                                </expressions>
                             </Entry>
                             <Entry frequency="198000">oncologic<adjectives>
                                     <translations>
@@ -1254,21 +1248,17 @@
                                         <translation disambiguate="number-cardinal">u</translation>
                                     </translations>
                                 </pronouns>
-                            </Entry>
-                            <Entry frequency="353000">one armed<adjectives>
+                                <expressions>one armed
                                     <translations>
                                         <translation>manc</translation>
                                     </translations>
-                                </adjectives>
-                            </Entry>
-                            <Entry frequency="985000">one handed<adjectives>
+                                </expressions>
+                                <expressions>one handed
                                     <translations>
                                         <translation>manc</translation>
+                                        <translation>amb una sola mà</translation>
                                     </translations>
-                                </adjectives>
-                                <adverbs>
-                                    <translations>
-                                <translation>amb una sola mà</translation></translations></adverbs>
+                                </expressions>
                             </Entry>
                             <Entry frequency="1390000">onerous<adjectives>
                                     <translations>
@@ -1332,27 +1322,6 @@
                                     </translations>
                                 </adjectives>
                             </Entry>
-                            <Entry frequency="1880000">on the one hand<adverbs>
-                                    <translations>
-                                        <translation>per una banda</translation>
-                                    </translations>
-                                </adverbs>
-                            </Entry>
-                            <Entry frequency="5890000">on the other hand<adverbs>
-                                    <translations>
-                                        <translation>per altra banda</translation>
-                                    </translations>
-                                </adverbs>
-                            </Entry>
-                            <Entry frequency="441000">on the rocks<adjectives>
-                                    <translations>
-                                        <translation disambiguate="food-drink">amb gel</translation>
-                                        <translation>que passa un mal moment<example>Jane admitted to her friend that her marriage had been &lt;b&gt;on the rocks&lt;/b&gt; for years</example>
-                                            <example>Foo Limited announced yesterday that their joint venture with Bar &amp; Co. was &lt;b&gt;on the rocks&lt;/b&gt; and was in danger of being shelved altogether if the two companies could not resolve their differences</example>
-                                        </translation>
-                                    </translations>
-                                </adjectives>
-                            </Entry>
                             <Entry frequency="13300000">onto<prepositions>
                                     <translations>
                                         <translation>sobre / a</translation>
@@ -1377,23 +1346,15 @@
                             </Entry>
                             <Entry frequency="833000">ontological<adjectives>
                                     <translations>
-                                        <translation>ontològic</translation>
+                                        <translation catagory="medical">ontològic</translation>
                                     </translations>
                                 </adjectives>
                             </Entry>
                             <Entry frequency="666000">ontology<nouns>
                                     <translations>
-                                        <translation gender="f">ontologia</translation>
+                                        <translation catagory="medical-field" gender="f">ontologia</translation>
                                     </translations>
                                 </nouns>
-                            </Entry>
-                            <Entry frequency="7500000">on top of<prepositions>
-                                    <translations>
-                                        <translation>damunt</translation>
-                                        <translation>a més de<engnote>'A més de' means 'on top of' in the sense 'in addition to'.</engnote>
-                                        </translation>
-                                    </translations>
-                                </prepositions>
                             </Entry>
                             <Entry frequency="1660000">onyx<nouns>
                                     <translations>
@@ -1482,12 +1443,11 @@
                                         </translation>
                                     </translations>
                                 </nouns>
-                            </Entry>
-                            <Entry frequency="547000">opening night<nouns>
+                                <expressions>opening night
                                     <translations>
                                         <translation gender="f">estrena</translation>
                                     </translations>
-                                </nouns>
+                                </expressions>
                             </Entry>
                             <Entry frequency="3820000">openly<adverbs>
                                     <translations>

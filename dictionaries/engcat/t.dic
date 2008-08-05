@@ -1808,6 +1808,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="54400000">terrain<nouns>
+                            <translations><date>0808</date>
+				<translation gender="m">terreny</translation>
+			</translations>
+		</nouns>
+                <expressions>terrain park
+                    <translations>
+                        <translation catagory="sports" termcat="true" gender="m">parc de surf</translation>
+                    </translations>
+                </expressions>
+	</Entry>
         <Entry frequency="5880000">terrapin<nouns>
                             <translations><date>0508</date>
                                 <translation catagory="animal-animal" local="gb" gender="f">tortuga (d'aigua dolça)<engexamp>Diamondback terrapin</engexamp><catexamp>Tortuga de dors diamantí</catexamp><otherlocal>slider</otherlocal></translation>
@@ -3241,22 +3252,28 @@
 				</grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>time bomb
+                    <translations>
+                        <translation gender="f">bomba de rellotgeria</translation>
+                    </translations>
+                </expressions>
+                <expressions>time division multiple access
+                    <translations>
+                        <translation disambiguate="computers" termcat="true" gender="m">accés múltiple per divisió de temps</translation>
+                    </translations>
+                </expressions>
+                <expressions>time trial
+                    <translations>
+                        <translation catagory="sports-event-cycling" gender="m">contrarellotge</translation>
+                    </translations>
+                </expressions>
                 <expressions>at the same time
                     <translations>
                         <translation>alhora</translation>
                     </translations>
                 </expressions>
-	</Entry><Entry frequency="7270000">time bomb<nouns>
-			<translations>
-				<translation gender="f">bomba de rellotgeria</translation>
-                        </translations>
-		</nouns>
-	</Entry><Entry frequency="443000">time division multiple access<nouns>
-			<translations>
-				<translation disambiguate="computers" termcat="true" gender="m">accés múltiple per divisió de temps</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="10200000">timeline<nouns>
+	</Entry>
+       <Entry frequency="10200000">timeline<nouns>
 			<translations>
 				<translation gender="f">cronologia</translation>
 			</translations>
@@ -3271,14 +3288,21 @@
 				<translation>oportú</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="4550000">timetable<nouns>
-			<translations>
-				<translation gender="m">horari</translation>
+	</Entry>
+              <Entry frequency="20100000">time-out<nouns>
+			<translations><date>0808</date>
+				<translation disambiguate="sports" gender="m">temps mort</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="336000">time trial<nouns>
+                <expressions>send (a child) for a time-out
+                    <translations>
+                        <translation>enviar (un nen) a pensar<catnote>Un 'time-out' (literalment: temps fora) és una mesura disciplinària que consisteix en apartar un(a) nen(a) que es porta malament d'un lloc o d'una situació específica fins que es calmi.</catnote></translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="4550000">timetable<nouns>
 			<translations>
-				<translation catagory="sports-event-cycling" gender="m">contrarellotge</translation>
+				<translation gender="m">horari</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="499000">timid<adjectives>
@@ -3909,6 +3933,12 @@
                         <translation local="gb" register="slang">suïcidar-se</translation>
                     </translations>
                 </expressions>
+                    <expressions>on top of
+                        <translations>
+                            <translation>damunt</translation>
+                            <translation>a més de<engnote>'A més de' means 'on top of' in the sense 'in addition to'.</engnote></translation>
+                        </translations>
+                    </expressions>
                 </Entry><Entry frequency="107000000">topic<nouns>
 			<translations>
                         <grouptranslation>
