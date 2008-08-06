@@ -4667,16 +4667,6 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="589000">sense of smell<nouns>
-
-			<translations><date>0605</date>
-
-				<translation gender="m">olfacte</translation>
-
-			</translations>
-
-		</nouns>
-
 	</Entry><Entry frequency="3180000">sensible<adjectives>
 
 			<translations>
@@ -11253,24 +11243,27 @@
 			<translations>
 
 				<translation intransitive="true">fer olor</translation>
-
-                                <translation transitive="true">olorar</translation>
+                                <translation transitive="true">olorar / ensumar</translation>
 
 			</translations>
 
 		</verbs>
-
+                <phrasalverbs>smell out
+                    <translations>
+                        <translation transitive="true">detectar (alguna cosa) per l'olor</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
-
-			<translations>
-
-				<translation gender="m">olor</translation>
-
-			</translations>
-
+                    <translations>
+                        <translation gender="m">olor</translation>
+                    </translations>
 		</nouns>
-
-	<phrasalverbs>smell out<translations><translation transitive="true">detectar (alguna cosa) per l'olor</translation></translations></phrasalverbs></Entry><Entry frequency="561000">smelly<adjectives>
+                <expressions>sense of smell
+                    <translations>
+                        <translation gender="m">olfacte</translation>
+                    </translations>
+                </expressions>
+        </Entry><Entry frequency="561000">smelly<adjectives>
 
 			<translations>
 
@@ -14259,20 +14252,37 @@
 
         <translation>sobrant</translation>
 
-        <translation>de recanvi<engexamp>Spare tyre (Br.) / tire (Am.)</engexamp><catexamp>Roda de recanvi</catexamp><engexamp>Spare tyre (Br.)</engexamp><catexamp>Sacsons</catexamp><engnote>'Sacsons' means 'spare tyre' in the sense 'pot belly'.</engnote></translation>
+        <translation>de recanvi</translation>
 
-        <translation>lliure<engexamp>Spare time</engexamp><catexamp>Temps lliure</catexamp></translation></translations></adjectives>
+        <translation>lliure</translation>
+        </translations>
+        </adjectives>
 
         <nouns>
 
 			<translations>
 
-				<translation gender="m">recanvi<engexamp>To go spare (colloq.)</engexamp><catexamp>Emprenyar-se / encendre's</catexamp></translation>
+				<translation gender="m">recanvi</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>spare time
+                    <translations>
+                        <translation gender="m">temps lliure</translation>
+                    </translations>
+                </expressions>
+                <expressions>spare tyre
+                <translations>
+                    <translation local="gb" gender="f">roda de recanvi</translation>
+                    <translation local="gb" register="slang" gender="mpl">sacsons</translation>
+                    </translations>
+                    </expressions>
+                <expressions>go spare
+                    <translations>
+                        <translation register="colloquial">emprenyar-se / encendre's</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="544000">sparing<adjectives>
 
 			<translations>
@@ -14373,7 +14383,19 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="2320000">spawn<verbs>
+	</Entry>
+<Entry frequency="3540000">spatula<nouns>
+
+                            <translations><date>0808</date>
+
+				<translation catagory="household-room-kitchen" gender="f">espàtula</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="2320000">spawn<verbs>
 
 			<translations>
 
@@ -14396,7 +14418,11 @@
 			</translations>
 
 		</verbs>
-
+                <phrasalverbs>speak about
+                    <translations>
+                        <translation intransitive="true">parlar de</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>speak down to
 
                     <translations>
@@ -14406,7 +14432,11 @@
                     </translations>
 
                 </phrasalverbs>
-
+                <phrasalverbs>speak for
+                    <translations>
+                        <translation intransitive="true">parlar per, parlar en nom de</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>speak of
 
                     <translations>
@@ -14416,13 +14446,21 @@
                     </translations>
 
                 </phrasalverbs>
-
-                <phrasalverbs>speak out
+                <phrasalverbs>speak on
+                    <translations>
+                        <translation intransitive="true">parlar sobre</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>speak out (about)
 
                 <translations>
 
-                <translation>pronunciar-se<engexamp>To speak out about something</engexamp><catexamp>Pronunciar-se sobre alguna cosa</catexamp></translation></translations></phrasalverbs>
-
+                <translation>pronunciar-se (sobre)</translation></translations></phrasalverbs>
+                <phrasalverbs>speak to
+                    <translations>
+                        <translation intransitive="true">parlar amb</translation>
+                    </translations>
+                </phrasalverbs>
 		<phrasalverbs>speak up
 
 		<translations>
@@ -14439,7 +14477,13 @@
 
 		</phrasalverbs>
 
-	<phrasalverbs>speak about<translations><translation intransitive="true">parlar de</translation></translations></phrasalverbs><phrasalverbs>speak for<translations><translation intransitive="true">parlar per, parlar en nom de</translation></translations></phrasalverbs><phrasalverbs>speak on<translations><translation intransitive="true">parlar sobre</translation></translations></phrasalverbs><phrasalverbs>speak to<translations><translation intransitive="true">parlar amb</translation></translations></phrasalverbs><phrasalverbs>speak with<translations><translation intransitive="true">parlar amb</translation></translations></phrasalverbs></Entry><Entry frequency="28700000">speaker<nouns>
+	<phrasalverbs>speak with
+            <translations>
+                <translation intransitive="true">parlar amb</translation>
+            </translations>
+        </phrasalverbs>
+    </Entry>
+    <Entry frequency="28700000">speaker<nouns>
 
 			<translations>
 
@@ -20809,7 +20853,21 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="65000000">style<nouns>
+	</Entry>
+        <Entry frequency="12200000">sty<nouns>
+			<translations><date>0808</date>
+				<translation catagory="animal" gender="f">porquera / porcellera / cort de porcs / porcatera/ soll</translation>
+                                <translation disambiguate="medical" gender="m">mussol / urçol / ordèol<catnote>Amb el sentit 'mussol', aquesta paraula també s'escriu 'stye'.</catnote><plural>sties</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+            <Entry frequency="451000">stye<nouns>
+			<translations><date>0808</date>
+                                <translation disambiguate="medical" gender="m">mussol / urçol / ordèol<catnote>Amb el sentit 'mussol', aquesta paraula també s'escriu 'sty'.</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="65000000">style<nouns>
 
 			<translations>
 
