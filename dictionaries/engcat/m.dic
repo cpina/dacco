@@ -2876,6 +2876,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="30400000">mentor<nouns>
+                            <translations><date>0808</date>
+				<translation gender="mf">mentor</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="50000000">menu<nouns>
 			<translations>
 				<grouptranslation><translation gender="f">carta</translation>
@@ -2883,13 +2889,12 @@
 				<translation termcat="true" disambiguate="computers" gender="m">menú</translation>
 			</translations>
 		</nouns>
+                <expressions>menu bar
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="f">barra de menú</translation>
+                    </translations>
+                </expressions>
 	</Entry>  
-<Entry frequency="23300000">menu bar<nouns>
-			<translations>
-				<translation catagory="computers" termcat="true" gender="f">barra de menú</translation>
-			</translations>
-		</nouns>
-	</Entry>
 <Entry frequency="629000">meow<nouns>
 			<translations>
 				<translation gender="m">miol</translation>
@@ -4145,6 +4150,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+             <Entry frequency="140000">misandry<nouns>
+                            <translations><date>0808</date>
+				<translation gender="f">misàndria</translation>
+			</translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="929000">misanthropy<nouns>
+                            <translations><date>0808</date>
+				<translation gender="f">misantropia</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="712000">misappropriation<nouns>
 			<translations>
 				<translation catagory="financial" gender="f">malversació</translation>
@@ -5236,9 +5253,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="57500000">monthly<adverbs>
-			<translations>
-				<translation>cada mes</translation>
+<Entry frequency="221000000">monthly<adverbs>
+                            <translations><date>0808</date>
+				<translation>cada mes / per mesos / mensualment<engnote>'Mensualitat' is a noun which means 'monthly payment' or 'monthly salary'.</engnote></translation>
 			</translations>
 		</adverbs>
 		<adjectives>
@@ -5854,6 +5871,12 @@
 				<translation>molt trist / afligit<synonyms>sorrowful</synonyms></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="436000">mournfully<adverbs>
+                            <translations><date>0808</date>
+				<translation>melancòlicament</translation>
+			</translations>
+		</adverbs>
 	</Entry>
 <Entry frequency="2310000">mourning<nouns>
 			<translations>
@@ -6602,11 +6625,16 @@
 		</nouns>
 	</Entry>
 <Entry frequency="20800000">must<verbs>
-			<translations>
+                            <translations><date>0808</date>
 				<translation>haver de / caldre / deure<example>Please don't disturb me. I &lt;b&gt;must&lt;/b&gt; finish this work today.</example><example>You &lt;b&gt;must&lt;/b&gt; do what your mother tells you.</example><synonyms>have to</synonyms>
 				</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                    <translations>
+                        <translation gender="m">most</translation>
+                        </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="1090000">mustache<nouns>
 			<translations>

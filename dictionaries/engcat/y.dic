@@ -49,7 +49,14 @@
                                 <translation gender="ffullform">iarda<catnote>Unitat de longitud (0.9144 metres).</catnote></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="379000">yawn<verbs>
+	</Entry>
+           <Entry frequency="242000">yarmulke<nouns>
+                            <translations><date>0808</date>
+				<translation gender="m">quipà<synonyms>kippa(h)</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="379000">yawn<verbs>
 			<translations>
 				<translation>badallar</translation>
 			</translations>
@@ -189,26 +196,31 @@
                 </conjunctions>
 	</Entry><Entry frequency="2280000">yew<nouns>
 			<translations>
-				<translation catagory="plants-tree" gender="m">teix<synonyms>yew tree</synonyms></translation>
+				<translation catagory="plants-tree" gender="m">teix</translation>
 			<translation gender="f">fusta del teix</translation>
                                 </translations>
 		</nouns>
-	</Entry><Entry frequency="468000">yew tree<nouns>
-			<translations>
-				<translation catagory="plants-tree" gender="m">teix<synonyms>yew</synonyms></translation>
-			</translations>
-		</nouns>
+                <expressions>yew tree
+                    <translations>
+                        <translation catagory="plants-tree" gender="m">teix</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="19000000">yield<verbs>
 			<translations>
 				<translation>rendir / produir</translation>
                                 <translation>sucumbir / rendir-se / cedir</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>yield to
+                    <translations>
+                        <translation intransitive="true">rendir-se a</translation>
+                    </translations>
+                </phrasalverbs>
                 <nouns>
                 <translations>
                 <translation gender="f">producció / rendiment</translation>
                 <translation gender="f">collita<engnote>'Collita' refers specifically to crops.</engnote></translation></translations></nouns>
-	<phrasalverbs>yield to<translations><translation intransitive="true">rendir-se a</translation></translations></phrasalverbs></Entry><Entry frequency="1030000">YMMV<engacro>Your Mileage May Vary</engacro>
+	</Entry><Entry frequency="1030000">YMMV<engacro>Your Mileage May Vary</engacro>
         <acronyms>        
         <translations>
                 <translation>pot ser que la teva experiència sigui diferent / pot ser que no funcioni igual al teu ordinador<catnote>Expressió molt utilitzada a Internet (sobretot com a acrònim).</catnote></translation>
