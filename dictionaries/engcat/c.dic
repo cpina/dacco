@@ -10146,6 +10146,17 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="11400000">conveyor<nouns>
+                <translations><date>0808</date>
+            <translation gender="m">transportador</translation>
+        </translations>
+    </nouns>
+    <expressions>conveyor belt
+    <translations>
+        <translation termcat="true" gender="m">transportador continu</translation>
+    </translations>
+    </expressions>
+    </Entry>
 <Entry frequency="2170000">convict<nouns>
         <translations><date>0508</date>
             <translation gender="m / f">presidiari</translation>
@@ -10182,12 +10193,18 @@
     </Entry>
 <Entry frequency="3130000">convincing<adjectives>
         <translations>
-            <translation>convincent<synonyms>persuasive, plausible</synonyms>
+            <translation>convincent<example>The book's author makes a very &lt;b&gt;convincing&lt;/b&gt; argument in favour of eliminating third-world debt.</example><synonyms>persuasive, plausible</synonyms>
             </translation>
-            <translation>contundent</translation>
+            <translation>contundent<example>Sunderland went top of the league thanks to a &lt;b&gt;convincing&lt;/b&gt; win over Newcastle.</example></translation>
         </translations>
     </adjectives>
     </Entry>
+        <Entry frequency="402000">convoke<verbs>
+			<translations><date>0808</date>
+				<translation register="formal">convocar<synonyms>convene</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
 <Entry frequency="904000">convoy<nouns>
         <translations>
             <translation gender="m">comboi</translation>
@@ -10242,7 +10259,7 @@
 <Entry frequency="32900000">cookie<nouns>
         <translations>
             <translation disambiguate="computers" termcat="true" gender="f">galeta</translation>
-            <translation disambiguate="food" local="us" gender="f">galeta<otherlocal>Biscuit</otherlocal>
+            <translation disambiguate="food" local="us" gender="f">galeta<otherlocal>biscuit</otherlocal>
             </translation>
         </translations>
     </nouns>
@@ -10281,12 +10298,33 @@
         </translations>
     </phrasalverbs>
 </Entry>
-<Entry frequency="64400">coolant circuit<nouns>
-			<translations><date>0307</date>
-				<translation gender="m">circuit de refrigeració</translation>
+<Entry frequency="6270000">coolant<nouns>
+			<translations><date>0808</date>
+				<translation gender="m">refrigerant</translation>
 			</translations>
 		</nouns>
+                <expressions>coolant circuit
+                    <translations>
+                        <translation gender="m">circuit de refrigeració</translation>
+                    </translations>
+                </expressions>
 	</Entry>
+<Entry frequency="87000000">cooling<nouns>
+        <translations><date>0808</date>
+            <translation gender="m">refredament</translation>
+        </translations>
+    </nouns>
+        <adjectives>
+            <translations>
+                <translation>refrescant<engexamp>A nice cooling shower</engexamp><catexamp>Una bona dutxa refrescant</catexamp></translation>
+            </translations>
+        </adjectives>
+        <expressions>cooling tower
+            <translations>
+                <translation gender="f">torre de refrigeració</translation>
+            </translations>
+        </expressions>
+    </Entry>
 <Entry frequency="2660000">coolness<nouns>
         <translations>
             <translation gender="f">frescor</translation>
@@ -10347,18 +10385,28 @@
                     </translations>
 		</verbs>
 	</Entry>
-<Entry frequency="24000000">coordinate<verbs>
+<Entry frequency="63000000">coordinate<verbs>
         <translations>
             <translation>coordinar<synonyms>arrange, organize</synonyms>
             </translation>
         </translations>
     </verbs>
+        <nouns>
+            <translations>
+                <translation gender="f">coordenada</translation>
+            </translations>
+        </nouns>
     </Entry>
-<Entry frequency="7120000">coordinates<nouns>
-        <translations>
-            <translation gender="fpl">coordenades</translation>
+    <Entry frequency="20600000">coordinated<adjectives>
+        <translations><date>0808</date>
+            <translation>coordinat</translation>
         </translations>
-    </nouns>
+    </adjectives>
+        <expressions>coordinated universal time (UTC)
+            <translations>
+                <translation gender="m">temps universal coordinat (UTC)</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="12800000">coordination<nouns>
         <translations>
@@ -10384,12 +10432,7 @@
             <translation catagory="work-job" register="slang" gender="mf">policia</translation>
         </translations>
     </nouns>
-    <exclamations>cop a load of this
-        <translations>
-            <translation>mira / escolta això!</translation>
-        </translations>
-    </exclamations>
-    <phrasalverbs>cop off (with somebody)
+     <phrasalverbs>cop off (with somebody)
         <translations>
             <translation register="slang" local="gb">lligar</translation>
         </translations>
@@ -10398,17 +10441,27 @@
         <translations>
             <translation>evitar una obligació<example>I was going to make the pastry from scratch but I &lt;b&gt;copped out&lt;/b&gt; again and bought some ready frozen.</example></translation>
         </translations>
-    </phrasalverbs>
+    </phrasalverbs> 
+       <expressions>cop it
+        <translations>
+            <translation local="gb" register="slang">ser castigat<example>He hasn't cleaned the house at all while his wife's been away. He'll really &lt;b&gt;cop it&lt;/b&gt; when she gets back.</example></translation>
+        </translations>
+    </expressions>
+    <expressions>cop shop
+        <translations>
+            <translation local="gb" register="slang" gender="f">comissaria</translation>
+        </translations>
+    </expressions>
     <expressions>not much cop
         <translations>
             <translation local="gb" register="slang">no molt bo<example>Everyone else liked the film but I did&lt;b&gt;n't&lt;/b&gt; think it was &lt;b&gt;much cop&lt;/b&gt;.</example></translation>
         </translations>
     </expressions>
-    <expressions>cop it
+     <exclamations>cop a load of this
         <translations>
-            <translation local="gb" register="slang">ser castigat<example>He hasn't cleaned the house at all while his wife's been away. He'll really &lt;b&gt;cop it&lt;/b&gt; when she gets back.</example></translation>
+            <translation>mira / escolta això!</translation>
         </translations>
-    </expressions>
+    </exclamations>
     </Entry>
 <Entry frequency="4700000">cope<verbs>
             <translations><date>1007</date>
@@ -10433,6 +10486,12 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="5970000">copious<adjectives>
+        <translations><date>0808</date>
+            <translation>copiós</translation>
+        </translations>
+    </adjectives>
+    </Entry>
 <Entry frequency="1470000">cop-out<nouns><mistakes>cop out</mistakes>
             <translations><date>0807</date>
             <translation register="slang">excusa (per no fer alguna cosa que s'ha de fer)<example>Paying offsets for tree planting is just a &lt;b&gt;cop-out&lt;/b&gt;.</example></translation>
@@ -10450,18 +10509,36 @@
         </translations>
     </nouns>
     </Entry>
+      <Entry frequency="406000">coppersmith<nouns>
+        <translations><date>0808</date>
+            <translation catagory="work-job" gender="mf">courer</translation>
+        </translations>
+    </nouns>
+    </Entry>
 <Entry frequency="78000">coprolite<nouns>
 			<translations><date>1007</date>
 				<translation catagory="biology" gender="m">copròlit</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="59300">cop shop<nouns>
-        <translations>
-            <translation local="gb" register="slang" gender="f">comissaria</translation>
-        </translations>
-    </nouns>
-    </Entry>
+      <Entry frequency="78000">copulate<verbs>
+			<translations><date>0808</date>
+				<translation register="technical" intransitive="true">copular</translation>
+			</translations>
+		</verbs>
+	</Entry>
+              <Entry frequency="1690000">copulation<nouns>
+			<translations><date>0808</date>
+				<translation register="technical" gender="f">copulació</translation>
+			</translations>
+		</nouns>
+	</Entry>
+              <Entry frequency="106000">copulative<adjectives>
+			<translations><date>0808</date>
+				<translation catagory="linguistics">copulatiu<engexamp>Copulative verb</engexamp><catexamp>Verb copulatiu</catexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="16100000">copy<nouns>
         <translations>
             <translation gender="f">còpia</translation>
@@ -10476,11 +10553,41 @@
             </translations>
         </verbs>
     </Entry>
+    <Entry frequency="825000">copyist<nouns>
+            <translations><date>0808</date>
+            <translation catagory="work-job" gender="mf">copista</translation>
+        </translations>
+    </nouns>
+    </Entry>
 <Entry frequency="1470000000">copyright<nouns>
         <translations>
             <translation gender="mpl">drets d'autor</translation>
         </translations>
     </nouns>
+    </Entry>
+     <Entry frequency="235000">coquetry<nouns>
+            <translations><date>0808</date>
+            <translation register="literary" gender="f">coqueteria</translation>
+        </translations>
+    </nouns>
+    </Entry>
+     <Entry frequency="825000">coquette<nouns>
+            <translations><date>0808</date>
+            <translation register="literary" gender="f">coqueta</translation>
+        </translations>
+    </nouns>
+    </Entry>
+     <Entry frequency="346000">coquettish<adjectives>
+            <translations><date>0808</date>
+            <translation register="literary">coquet<engnote>'Coqueta' in the feminine.</engnote></translation>
+        </translations>
+    </adjectives>
+    </Entry>
+     <Entry frequency="99000">coquettishly<adverbs>
+            <translations><date>0808</date>
+            <translation register="literary">coquetament</translation>
+        </translations>
+    </adverbs>
     </Entry>
 <Entry frequency="4230000">coral<nouns>
         <translations>
@@ -11205,6 +11312,17 @@
         </translations>
     </nouns>
     </Entry>
+          <Entry frequency="25400000">coupling<nouns>
+			<translations><date>0808</date>
+                                <grouptranslation>
+                                    <translation gender="m">acoblament</translation>
+                                    <translation gender="f">copulació<engnote>'Acoblament' and 'copulació' mean 'coupling' in the sense 'joining two things together'.</engnote></translation>
+                                </grouptranslation>
+                                <translation gender="m">acoblament<engnote>'Acoblament' means 'coupling' in the sense 'device which joins two things together'.</engnote></translation> 
+                                <translation gender="f">copulació<engnote>'Copulació' means 'coupling' in the sense 'copulation'.</engnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="7490000">coupon<nouns>
         <translations>
             <translation gender="m">cupó</translation>
