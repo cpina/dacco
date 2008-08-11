@@ -1638,24 +1638,23 @@
     </nouns>
     </Entry>
 <Entry frequency="8020000">carrier<nouns>
-        <translations>
+        <translations><date>0808</date>
             <translation disambiguate="medical" gender="m">portador</translation>
-            <translation local="gb" register="colloquial" gender="f">bossa de plàstic<otherlocal>plastic bag</otherlocal>
+            <translation gender="m">transportador</translation>
+            <translation local="gb" register="colloquial" gender="f">bossa de plàstic<catnote>'Carrier (bag)' no es diu en anglès americà ni en anglès australià.</catnote><otherlocal>plastic bag</otherlocal>
             </translation>
         </translations>
     </nouns>
+        <expressions>carrier bag
+            <translations>
+                <translation local="gb" gender="f">bossa de plàstic<otherlocal>plastic bag</otherlocal></translation>
+            </translations>
+        </expressions>
         <expressions>carrier sense multiple access
             <translations>
                 <translation disambiguate="computers" termcat="true" gender="m">accés múltiple amb escolta de portadora</translation>
             </translations>
         </expressions>
-    </Entry>
-<Entry frequency="175000">carrier bag<nouns>
-        <translations>
-            <translation local="gb" gender="f">bossa de plàstic<otherlocal>plastic bag</otherlocal>
-            </translation>
-        </translations>
-    </nouns>
     </Entry>
 <Entry frequency="828000">carrion<nouns>
         <translations><date>0805</date>
@@ -4548,6 +4547,13 @@
         </translations>
     </nouns>
     </Entry>
+     <Entry frequency="774000">chordate<nouns>
+                            <translations><date>0808</date>
+				<translation catagory="animal" gender="m">cordat</translation>
+                                <translation catagory="animal" sourceplural="chordates" gender="mpl">cordats</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="1480000">chore<nouns>
         <translations>
             <translation gender="f">tasca domèstica<example>Men are not generally very good at offering to help with &lt;b&gt;chores&lt;/b&gt; around the house</example>
@@ -4583,6 +4589,11 @@
             </grouptranslation>
         </translations>
     </nouns>
+    <verbs>
+        <translations>
+            <translation>corejar</translation>
+        </translations>
+    </verbs>
     </Entry>
 <Entry frequency="488335">chow<nouns>
         <translations>
@@ -4927,6 +4938,24 @@
         </translations>
     </nouns>
     </Entry>
+     <Entry frequency="1050000">circumspect<adjectives>
+                            <translations><date>0808</date>
+				<translation>circumspecte</translation>
+			</translations>
+		</adjectives>
+	</Entry> 
+         <Entry frequency="488000">circumspection<nouns>
+                            <translations><date>0808</date>
+				<translation gender="f">circumspecció</translation>
+			</translations>
+		</nouns>
+	</Entry> 
+         <Entry frequency="155000">circumspectly<adverbs>
+                            <translations><date>0808</date>
+				<translation>circumspectament</translation>
+			</translations>
+		</adverbs>
+	</Entry> 
 <Entry frequency="28600000">circumstance<nouns>
         <translations>
             <translation gender="f">circumstància</translation>
@@ -7626,10 +7655,10 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="68800000">commodity<nouns>
-        <translations>
-            <grouptranslation><translation gender="m">article</translation>
-            <translation gender="f">mercaderia / matèria primera</translation><plural>commodities</plural>
+<Entry frequency="41400000">commodity<nouns>
+        <translations><date>0808</date>
+            <grouptranslation><translation gender="m">article de consum / bé / producte</translation>
+                <translation gender="f">mercaderia / matèria primera</translation><engexamp>A valuable commodity</engexamp><catexamp>Un bé preuat</catexamp><plural>commodities</plural>
         </grouptranslation>
         </translations>
     </nouns>
@@ -10624,12 +10653,36 @@
             </translations>
         </expressions>
     </Entry>
+     <Entry frequency="10200000">cordial<adjectives>
+                            <translations><date>0808</date>
+				<translation register="formal">cordial</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="462000">cordiality<nouns>
+                            <translations><date>0808</date>
+				<translation register="formal" gender="f">cordialitat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="3970000">cordially<adverbs>
+                            <translations><date>0808</date>
+				<translation register="formal">cordialment</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 <Entry frequency="1770000">cordless<adjectives>
         <translations>
             <translation>sense fil<synonyms>wireless</synonyms>
             </translation>
         </translations>
     </adjectives>
+    </Entry>
+<Entry frequency="6930000">cordon<nouns>
+        <translations><date>0808</date>
+            <translation gender="m">cordó</translation>
+        </translations>
+    </nouns>
     </Entry>
 <Entry frequency="14400000">core<nouns>
         <translations>
@@ -10641,7 +10694,7 @@
     </Entry>
 <Entry frequency="999000">Corfu<nouns>
         <translations>
-            <translation gender="m">Corfú</translation>
+            <translation catagory="geography" gender="m">Corfú</translation>
         </translations>
     </nouns>
     </Entry>
@@ -13378,6 +13431,12 @@
         </translations>
     </adjectives>
     </Entry>
+    <Entry frequency="2120000">cut-throat<adjectives>
+                            <translations><date>0808</date>
+				<translation>despietat<engexamp>Cut-throat competition</engexamp><catexamp>Competició despietada</catexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="50000">cutting<adjectives>
         <translations>
             <translation>mordaç / càustic</translation>

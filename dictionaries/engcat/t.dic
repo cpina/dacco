@@ -20,6 +20,11 @@
 			<translation catagory="household-room-livingroom, household-room-diningroom, household-room-kitchen" gender="f">taula</translation>
 			</translations>
 		</nouns>
+                <expressions>table wine
+                    <translations>
+                        <translation catagory="food-drink" gender="m">vi de taula</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="791000">tablecloth<nouns>
 			<translations>
 				<translation catagory="household-room-diningroom" gender="fpl">tovalles / estovalles</translation>
@@ -33,11 +38,6 @@
 	</Entry><Entry frequency="3810000">table tennis<nouns>
 			<translations>
 				<translation catagory="sports-event" gender="m">tennis de taula<synonyms>ping pong</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="61400">table wine<nouns>
-			<translations>
-				<translation catagory="food-drink" gender="m">vi de taula</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="3190000">tabloid<nouns>
@@ -4976,7 +4976,14 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1370000">transubstantiation<nouns>
+	</Entry>
+        <Entry frequency="21100000">transporter<nouns>
+                            <translations><date>0808</date>
+				<translation gender="m">transportador</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1370000">transubstantiation<nouns>
 			<translations>
 				<translation gender="f">transsubstanciació</translation>
 			</translations>
@@ -5074,7 +5081,8 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="15600000">traveler<nouns>
+	</Entry>
+        <Entry frequency="15600000">traveler<nouns>
 			<translations>
 				<translation local="us" gender="mf">viatger<otherlocal>traveller</otherlocal>
 				</translation>
