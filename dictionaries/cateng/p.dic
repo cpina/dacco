@@ -979,6 +979,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="7700">paracaigudista<nouns>
+			<translations><date>0808</date>
+                            <translation gender="m / f">parachutist / [militar] paratrooper</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="291">paracetamol<nouns>
 			<translations><date>0405</date>
 				<translation catagory="medical" gender="m">paracetamol (Br.) / acetaminophen (Am.) / Tylenol (Am.)<catnote>'Tylenol' és un nom comercial.</catnote></translation>
@@ -1233,11 +1239,26 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="316000">parc<nouns>
-			<translations><date>0805</date>
+	<Entry frequency="1020000">parc<nouns>
+			<translations><date>0808</date>
 				<translation gender="m">park</translation>
 			</translations>
 		</nouns>
+                <expressions>parc d'atraccions
+                    <translations>
+                        <translation gender="m">amusement park</translation>
+                    </translations>
+                </expressions>
+                <expressions>parc infantil
+                    <translations>
+                        <translation gender="m">playground</translation>
+                    </translations>
+                </expressions>
+                <expressions>parc temàtic
+                    <translations>
+                        <translation gender="m">theme park</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="0">parcentí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Parcent</translation></translations></nouns><adjectives><translations><translation>relating to Parcent or its people<plural>parcentins</plural><fems>parcentina</fems></translation></translations></adjectives></Entry>
         <Entry frequency="330000">parcial<adjectives>
@@ -1466,9 +1487,21 @@
 			</translations>
 		</nouns>
 	</Entry>
-      <Entry frequency="32">parrupejar<verbs conj="JtoG">
+          <Entry frequency="290">parrup<nouns>
+			<translations><date>0808</date>
+				<translation catagory="animal">coo<synonyms>marruc, marruqueig, amanyac</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+   <Entry frequency="155">parrupar<verbs conj="regular">
+			<translations><date>0808</date>
+                                    <translation catagory="animal">to coo<synonyms>parrupejar, marruquejar, marrucar</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
+      <Entry frequency="153">parrupejar<verbs conj="JtoG">
 			<translations><date>1105</date>
-				<translation catagory="animal">to coo</translation>
+				<translation catagory="animal">to coo<synonyms>parrupar, marruquejar, marrucar</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1896,9 +1929,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="26200">pati<nouns>
-			<translations>
-				<translation gender="m">yard<engnote>'Pati' means 'yard' in the sense of school playground or 'courtyard'.  It does not mean 'yard' in the American sense of the word.  This would be 'jardí'.</engnote>
+	<Entry frequency="600000">pati<nouns>
+                            <translations><date>0808</date>
+				<translation gender="m">yard / playground<engnote>'Pati' means 'yard' in the sense 'school yard' or 'courtyard'.  It does not mean 'yard' in the American sense 'back yard'.  This would be 'jardí'.</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -2057,10 +2090,9 @@
 			</translations>
 		</verbs>
 	</Entry>
-        <Entry frequency="115000">patrocini<nouns>
-			<translations><date>0106</date>
+        <Entry frequency="450000">patrocini<nouns>
+			<translations><date>0808</date>
 				<translation gender="m">sponsorship</translation>
-                                <translation gender="m">patronage</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4694,12 +4726,11 @@
 				<translation gender="m">sealed letter</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="68">plec solt<nouns>
-			<translations><date>0106</date>
-				<translation gender="m">broadsheet / broadside</translation>
-			</translations>
-		</nouns>
+                <expressions>plec solt
+                    <translations>
+                        <translation gender="m">broadsheet / broadside</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="1250">plectre<nouns>
                             <translations><date>0708</date>
@@ -4709,9 +4740,15 @@
 	</Entry>
           <Entry frequency="326">pledejar<verbs conj="JtoG">
 			<translations><date>0406</date>
-				<translation>to litigate<synonyms>litigar</synonyms></translation>
+				<translation catagory="legal">to litigate<synonyms>litigar</synonyms></translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="15800">plegable<adjectives>
+                            <translations><date>0808</date>
+				<translation>folding / foldable / foldaway</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="25300">plegar<verbs conj="GtoGU">
 			<translations>

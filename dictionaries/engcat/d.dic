@@ -563,10 +563,15 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>daylight saving time
+                    <translations>
+                        <translation gender="m">horari d'estiu</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-<Entry frequency="671000">daylight saving time<nouns>
-			<translations>
-				<translation gender="m">horari d'estiu</translation>
+        <Entry frequency="25400000">daytime<nouns>
+                            <translations><date>0808</date>
+				<translation gender="m">dia<engexamp>Daytime temperatures</engexamp><catexamp>Temperatures diürnes</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1094,6 +1099,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="1640000">decompress<verbs>
+			<translations><date>0808</date>
+                            <translation>descomprimir</translation>
+			</translations>
+		</verbs>
+	</Entry>
 <Entry frequency="1790000">deconstruct<verbs>
                             <translations><date>0508</date>
 				<translation>deconstruir</translation>
@@ -1265,6 +1276,12 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+          <Entry frequency="1620000">defame<verbs>
+			<translations><date>0808</date>
+				<translation>denigrar</translation>
+			</translations>
+		</verbs>
 	</Entry>
 <Entry frequency="38800000">default<adjectives>
 			<translations><date>0108</date>
@@ -1903,8 +1920,8 @@
 		</nouns>
 	</Entry>
 <Entry frequency="5120000">denigrate<verbs>
-			<translations>
-				<translation register="formal">denigrar<synonyms>disparage, belittle</synonyms></translation>
+                            <translations><date>0808</date>
+				<translation register="formal">denigrar / menysprear / desdenyar<synonyms>disparage, belittle</synonyms></translation>
                                 </translations>
 		</verbs>
 	</Entry>
@@ -4859,6 +4876,12 @@
                 <translation catagory="medical" gender="m">diürètic</translation>
                 </translations>
                 </nouns>
+	</Entry>
+        <Entry frequency="2280000">diurnal<adjectives>
+                            <translations><date>0808</date>
+				<translation catagory="animal, astronomy">diürn</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="5170000">dive<nouns>
 			<translations>

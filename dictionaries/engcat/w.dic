@@ -1167,7 +1167,25 @@
 				<translation>acollidor</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="111000000">welfare<nouns>
+	</Entry>
+        <Entry frequency="11700000">weld<verbs>
+                            <translations><date>0808</date>
+				<translation>soldar</translation>
+			</translations>
+		</verbs>
+                <nouns>
+                    <translations>
+                        <translation gender="f">soldadura</translation>
+                        </translations>
+                </nouns>
+	</Entry>
+        <Entry frequency="2370000">welder<nouns>
+                            <translations><date>0808</date>
+				<translation catagory="work-job" gender="mf">soldador</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="111000000">welfare<nouns>
 			<translations>
 				<translation gender="m">benestar<engexamp>Welfare state</engexamp><catexamp>Estat de benestar</catexamp></translation>
 			</translations>
@@ -1507,7 +1525,13 @@
                         <translation>preparar ràpidament menjar<example>If you're hungry and can't wait 'til dinner time I can always &lt;b&gt;whip up&lt;/b&gt; an omelette.</example><example>Johnny remembered to tell his mum he needed a fancy-dress costume the night before the party. Luckily she was able to &lt;b&gt;whip him up&lt;/b&gt; a costume with a few odds and ends she had lying around the house.</example></translation>
                     </translations>
                 </phrasalverbs>
-	<phrasalverbs>whip out<translations><translation transitive="true">treure ràpidament</translation></translations></phrasalverbs></Entry><Entry frequency="1540000">whirl<verbs>
+                <phrasalverbs>whip out
+                    <translations>
+                        <translation transitive="true">treure ràpidament</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="1540000">whirl<verbs>
                <translations><date>0507</date>
                    <translation>girar</translation>
                    </translations>
@@ -2277,18 +2301,28 @@
 				<translation>amb</translation>
 			</translations>
 		</prepositions>
-	</Entry><Entry frequency="7590000">withdrawal<nouns>
+	</Entry>
+<Entry frequency="23400000">withdraw<verbs>
+        <past>withdrew</past>
+        <participle>withdrawn</participle>
+                            <translations><date>0808</date>
+				<translation transitive="true">retirar</translation>
+                                <translation intransitive="true">retirar-se</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="7590000">withdrawal<nouns>
 			<translations>
 				<translation catagory="financial" gender="m">reintegrament<engnote>'Reintegrament' means 'withdrawal' in the sense 'money taken from a current / checking account'.</engnote></translation>
                                 <translation gender="f">retirada</translation>
                                 <translation catagory="sports" gender="m">abandó</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="154000">withdrawal symptoms<nouns>
-			<translations>
-				<translation catagory="medical" gender="fpl">símptomes d'abstinència</translation>
-			</translations>
-		</nouns>
+                <expressions>withdrawal symptoms
+                    <translations>
+                        <translation catagory="medical" gender="fpl">símptomes d'abstinència</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="264000">withdrawn<adjectives>
 			<translations>
 				<translation>retret</translation>
@@ -2300,7 +2334,13 @@
                                 <translation transitive="true">assecar / pansir</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>wither up<translations><translation intransitive="true">marcir-se</translation></translations></phrasalverbs></Entry><Entry frequency="50800000">within<adverbs>
+                <phrasalverbs>wither up
+                    <translations>
+                        <translation intransitive="true">marcir-se</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+        <Entry frequency="50800000">within<adverbs>
 			<translations>
 				<translation>dins / dintre</translation>
 			</translations>

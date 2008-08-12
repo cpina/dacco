@@ -2184,11 +2184,11 @@
 				<translation gender="m">tema / lema</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1440000">theme park<nouns>
-			<translations>
-				<translation gender="m">parc temàtic</translation>
-			</translations>
-		</nouns>
+                <expressions>theme park
+                    <translations>
+                        <translation gender="m">parc temàtic</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="14300000">themselves<pronouns>
 			<translations>
 				<translation>ells mateixos / elles mateixes</translation>
@@ -5175,12 +5175,19 @@
                 <translation catagory="entertainment-music" gender="m">agut</translation>
                 <translation catagory="entertainment-music" gender="mf">soprano / tiple</translation>
                 </translations></nouns>
-	</Entry><Entry frequency="36500000">tree<nouns>
-			<translations>
-				<translation catagory="plants" gender="m">arbre</translation>
+            </Entry><Entry frequency="36500000">tree<nouns>
+                    <translations>
+                        <translation catagory="plants" gender="m">arbre</translation>
+                    </translations>
+                </nouns>
+	</Entry>
+        <Entry frequency="1540000">treetop<nouns>
+                            <translations><date>0808</date>
+				<translation catagory="plants" gender="f">capçada de l'arbre<engexamp>In the treetops</engexamp><catexamp>A les capçades dels arbres</catexamp></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="17900000">tremble<verbs>
+	</Entry>
+        <Entry frequency="17900000">tremble<verbs>
                             <translations><date>1007</date>
 				<translation>tremolar</translation>
 			</translations>
