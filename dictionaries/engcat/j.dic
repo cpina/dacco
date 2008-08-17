@@ -431,14 +431,13 @@
 				<translation local="gb" gender="fpl">joies<otherlocal>jewelry</otherlocal></translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="93700">jewellery shop<nouns>
-			<translations>
-				<translation local="gb" gender="f">joieria<otherlocal>jewelers</otherlocal>
-					<synonyms>jewellers (Br.) / jewelers (Am.)</synonyms>
-				</translation>
-			</translations>
-		</nouns>
+                <expressions>jewellery shop
+                    <translations>
+                        <translation local="gb" gender="f">joieria<otherlocal>jewelers</otherlocal>
+                            <synonyms>jewellers (Br.) / jewelers (Am.)</synonyms>
+                        </translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="109000000">jewelry<nouns>
 			<translations>
@@ -451,6 +450,12 @@
 				<translation>jueu</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="1890000">Jewry<nouns>
+                            <translations><date>0808</date>
+				<translation register="formal" gender="mpl">jueus</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="972000">jigsaw<nouns>
 			<translations><date>0707</date>
@@ -555,7 +560,11 @@
                         <translation>acoblar</translation>
                     </translations>
                 </verbs>
-                <phrasalverbs>join up<translations><translation intransitive="true">enrolar-se</translation></translations></phrasalverbs>
+                <phrasalverbs>join up
+                    <translations>
+                        <translation intransitive="true">enrolar-se</translation>
+                    </translations>
+                </phrasalverbs>
                 <nouns>
                     <translations>
                         <translation gender="f">juntura</translation>
@@ -605,7 +614,12 @@
 				<translation>fer broma</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>joke about<translations><translation intransitive="true">fer broma sobre</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>joke about
+                    <translations>
+                        <translation intransitive="true">fer broma sobre</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="3390000">jolly<adjectives>
 			<translations>
 				<translation>alegre / jovial</translation>
@@ -659,6 +673,12 @@
                 </translations>
                 </expressions>
 	</Entry>
+          <Entry frequency="2040000">joule<nouns>
+			<translations><date>0808</date>
+				<translation gender="m">joule</translation>
+			</translations>
+		</nouns>
+          </Entry>
 <Entry frequency="15000000">journal<nouns>
 			<translations>
 				<translation gender="f">revista<catnote>'Journal' vol dir una revista d'interès professional o acadèmic.</catnote>

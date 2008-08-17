@@ -1531,6 +1531,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="2600">Partenó<nouns>
+			<translations><date>0808</date>
+				<translation gender="m">The Parthenon</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1240000">participació<nouns>
 			<translations><date>0108</date>
 				<translation gender="f">participation / involvement</translation>
@@ -1562,11 +1568,14 @@
 	</Entry>
 	<Entry frequency="20600">partícula<nouns>
 			<translations><date>0805</date>
-				<translation catagory="chemistry" gender="f">particle<catexamp>Física de partícules</catexamp>
-					<engexamp>Particle physics</engexamp>
-				</translation>
+				<translation catagory="chemistry" gender="f">particle</translation>
 			</translations>
 		</nouns>
+                <expressions>física de partícules
+                    <translations>
+                        <translation catagory="work-field" gender="f">particle physics</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="35100">particularment<adverbs>
 			<translations><date>0805</date>
@@ -3202,25 +3211,109 @@
                     </translations>
                 </nouns>
 	</Entry>
-	<Entry frequency="3540">perpetrar<verbs conj="regular">
-			<translations><date>0805</date>
-				<translation>to carry out<example>Cap d'aquests assassinats va ser &lt;b&gt;perpetrat&lt;/b&gt; per Companys.</example>
-					<example>El grup terrorista va amenaçar de &lt;b&gt;perpetrar&lt;/b&gt; atacs suïcides.</example>
-				</translation>
-				<translation>to commit<example>Denunciem el genocidi &lt;b&gt;perpetrat&lt;/b&gt; pel govern sudanès.</example>
-					<example>El jove es dedicava a perpetrar robatoris.</example>
-				</translation>
+        <Entry frequency="1400">perpendicularitat<nouns>
+			<translations><date>0808</date>
+				<translation gender="f">perpendicularity</translation>
+			</translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="7130">perpendicularment<adverbs>
+			<translations><date>0808</date>
+				<translation>perpendicularly</translation>
+			</translations>
+		</adverbs>
+	</Entry>
+           <Entry frequency="803">perpetració<nouns>
+			<translations><date>0808</date>
+				<translation gender="f">perpetration<plural>perpetracions</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+           <Entry frequency="353">perpetrador<nouns>
+			<translations><date>0808</date>
+				<translation gender="m / f">perpetrator<fems>perpetradora</fems></translation>
+			</translations>
+		</nouns>
+	</Entry>
+	<Entry frequency="11700">perpetrar<verbs conj="regular">
+			<translations><date>0808</date>
+				<translation>to carry out / to commit / to perpetrate<example>Cap d'aquests assassinats va ser &lt;b&gt;perpetrat&lt;/b&gt; per Companys.</example>
+					<example>El grup terrorista va amenaçar de &lt;b&gt;perpetrar&lt;/b&gt; atacs suïcides.</example><example>Denunciem el genocidi &lt;b&gt;perpetrat&lt;/b&gt; pel govern sudanès.</example><example>El jove es dedicava a perpetrar robatoris.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
-        	<Entry frequency="173">perpinyès<adjectives>
-			<translations><date>0905</date>
-				<translation>of / from Perpinyà (Perpignan)</translation>
+        <Entry frequency="726000">perpetu<adjectives>
+			<translations><date>0808</date>
+				<translation>perpetual<fems>perpètua</fems></translation>
 			</translations>
 		</adjectives>
-                <nouns>
+                <expressions>cadena perpètua
                 <translations>
-                <translation gender="m / f">(person) from Perpinyà (Perpignan)<plural>perpinyesos</plural><fems>perpinyesa</fems></translation></translations></nouns>
+                    <translation gender="f">life imprisonment / life in prison</translation>
+                </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="7330">perpetuació<nouns>
+			<translations><date>0808</date>
+				<translation gender="f">perpetuation</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                   <Entry frequency="3590">perpètuament<adverbs>
+			<translations><date>0808</date>
+				<translation>perpetually</translation>
+			</translations>
+		</adverbs>
+	</Entry>
+        <Entry frequency="146000">perpetuar<verbs conj="irregular1">
+			<translations><date>0808</date>
+				<translation>to perpetuate</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="1110">perpetuenc<adjectives>
+                <translations><date>0808</date>
+                <translation>of / from Santa Perpètua de Mogoda</translation>
+                </translations>
+        </adjectives>
+        <nouns>
+            <translations><date>0808</date>
+		<translation gender="m / f">(person) from Santa Perpètua de Mogoda<fems>perpetuenca</fems><femplural>perpetuenques</femplural></translation>
+            </translations>
+	</nouns>
+	</Entry>
+ <Entry frequency="5840">perpetuïtat<nouns>
+			<translations><date>0808</date>
+				<translation gender="f">perpetuity</translation>
+			</translations>
+		</nouns>
+                <expressions>a perpetuïtat
+                    <translations>
+                        <translation>in perpetuity / forever</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+          <Entry frequency="1920">perpinyanenc<adjectives>
+            <translations><date>0905</date>
+		<translation>of / from Perpinyà (Perpignan)</translation>
+            </translations>
+	</adjectives>
+        <nouns>
+            <translations>
+                <translation gender="m / f">(person) from Perpinyà (Perpignan)<fems>perpinyanenca</fems><femplural>perpinyanenques</femplural></translation>
+            </translations>
+        </nouns>
+	</Entry>
+        <Entry frequency="3190">perpinyanès<adjectives>
+            <translations><date>0905</date>
+		<translation>of / from Perpinyà (Perpignan)</translation>
+            </translations>
+	</adjectives>
+        <nouns>
+            <translations>
+                <translation gender="m / f">(person) from Perpinyà (Perpignan)<plural>perpinyanesos</plural><fems>perpinyanesa</fems></translation>
+            </translations>
+        </nouns>
 	</Entry>
         <Entry frequency="16400">perplex<adjectives>
 			<translations><date>0408</date>
@@ -3228,11 +3321,22 @@
 			</translations>
 		</adjectives>
 	</Entry>
+          <Entry frequency="34">perplexament<adverbs>
+            <translations><date>0808</date>
+		<translation>perplexedly<synonyms>amb perplexitat</synonyms></translation>
+            </translations>
+	</adverbs>
+	</Entry>
         <Entry frequency="29200">perplexitat<nouns>
 			<translations><date>0506</date>
 				<translation gender="f">perplexity</translation>
 			</translations>
 		</nouns>
+                <expressions>amb perplexitat
+                    <translations>
+                        <translation>perplexedly</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="182000">perquè<conjunctions>
 			<translations>
@@ -3240,21 +3344,36 @@
 			</translations>
 		</conjunctions>
 	</Entry>
+          <Entry frequency="2070">perquisició<nouns>
+            <translations><date>0808</date>
+		<translation gender="f">search<synonyms>escorcoll</synonyms></translation>
+                <translation gender="f">inquiry<plural>perquisicions</plural></translation>
+            </translations>
+	</nouns>
+	</Entry>
 	<Entry frequency="727">perruca<nouns>
 			<translations><date>0305</date>
 				<translation gender="f">wig</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="889">perruquer<nouns>
-			<translations><date>0805</date>
-				<translation catagory="work-job" gender="m / f">hairdresser<fems>perruquera</fems></translation>
+	<Entry frequency="17900">perruquer<nouns>
+			<translations><date>0808</date>
+				<translation catagory="work-job" gender="m / f">hairdresser</translation>
+                                <translation catagory="work-job" gender="m / f">wig maker<fems>perruquera</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="170000">perruqueria<nouns>
+            <translations><date>0808</date>
+		<translation gender="f">hairdresser's / hair salon</translation>
+            </translations>
+	</nouns>
+	</Entry>
                 <Entry frequency="1450">persa<nouns>
 			<translations><date>0305</date>
-				<translation catagory="language" gender="f">Persian</translation>
+				<translation catagory="language" gender="m">Persian</translation>
+                                <translation catagory="nationality-asia" gender="m / f">Persian</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -3263,15 +3382,47 @@
 	</Entry>
 	<Entry frequency="18000">persecució<nouns>
 			<translations><date>0805</date>
-                        <translation gender="f">chase</translation>
+                        <translation gender="f">chase / pursuit</translation>
 				<translation gender="f">persecution<plural>persecucions</plural>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="34500">perseguir<verbs conj="inceptive">
-			<translations><date>0805</date>
-				<translation>chase</translation>
+          <Entry frequency="137">persecutor<nouns>
+            <translations><date>0808</date>
+            <translation gender="m / f">pursuer</translation>
+		<translation gender="m / f">persecutor</translation>
+            </translations>
+	</nouns>
+        <adjectives>
+            <translations>
+                <translation>chasing / pursuing<fems>persecutora</fems></translation>
+                </translations>
+        </adjectives>
+ 	</Entry>
+          <Entry frequency="6680">perseguidor<nouns>
+            <translations><date>0808</date>
+		<translation gender="m / f">pursuer</translation>
+                <translation gender="m / f">persecutor</translation>
+            </translations>
+	</nouns>
+            <adjectives>
+                <translations>
+                    <translation>chasing / pursuing<fems>perseguidora</fems><synonyms>persecutor</synonyms></translation>
+                </translations>
+            </adjectives>
+	</Entry>
+          <Entry frequency="146">perseguiment<nouns>
+            <translations><date>0808</date>
+		<translation gender="m">chase / pursuit</translation>
+                <translation gender="m">persecution</translation>
+            </translations>
+	</nouns>
+	</Entry>
+	<Entry frequency="92700">perseguir<verbs conj="inceptive">
+			<translations><date>0808</date>
+				<translation>to chase / to pursue / to follow</translation>
+                                <translation>to persecute</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3294,6 +3445,47 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="18300">pèrsic<adjectives>
+			<translations><date>0808</date>
+				<translation>Persian<fems>pèrsica</fems><femplural>pèrsiques</femplural></translation>
+			</translations>
+		</adjectives>
+                <expressions>Golf Pèrsic
+                    <translations>
+                        <translation catagory="geography" gender="m">Persian Gulf</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+     <Entry frequency="9">persimó<nouns>
+			<translations><date>0808</date>
+				<translation catagory="plants" gender="m">persimmon<plural>persimons</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="37800">persistència<nouns>
+			<translations><date>0808</date>
+				<translation gender="f">persistence</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="41800">persistent<adjectives>
+			<translations><date>0808</date>
+				<translation>persistent</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="1380">persistentment<adverbs>
+			<translations><date>0808</date>
+				<translation>persistently</translation>
+			</translations>
+		</adverbs>
+	</Entry>
+        <Entry frequency="26400">persistir<verbs conj="inceptive">
+			<translations><date>0808</date>
+				<translation>to persist</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="650000">persona<nouns>
 			<translations><date>0805</date>
 				<translation gender="f">person</translation>
@@ -3311,15 +3503,28 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="4620">personalisme<nouns>
+			<translations><date>0808</date>
+				<translation gender="m">personalism</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="7020">personalista<adjectives>
+			<translations><date>0808</date>
+				<translation>personalist</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="36300">personalitat<nouns>
 			<translations>
 				<translation gender="f">personality</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="20500">personalment<adverbs>
-			<translations>
+	<Entry frequency="360000">personalment<adverbs>
+                            <translations><date>0808</date>
 				<translation>personally</translation>
+                                <translation>in person</translation>
 			</translations>
 		</adverbs>
 	</Entry>
