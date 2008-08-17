@@ -11,7 +11,18 @@
                         <translation local="us" register="vulgar">masturbar-se</translation>
                     </translations>
                 </phrasalverbs>
-	<phrasalverbs>jack up<translations><translation transitive="true">1 aixecar (amb el cric) 2 fer pujar (preus)</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>jack up
+                    <translations>
+                        <translation transitive="true">aixecar (amb el cric)</translation>
+                        <translation transitive="true">fer pujar (preus)</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>jack shit
+                    <translations>
+                        <translation register="vulgar">res<example>You (don't) know &lt;b&gt;Jack shit&lt;/b&gt; about it, so just shut up!</example></translation>
+                    </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="705000">jackal<nouns>
 			<translations>
 				<translation catagory="animal-animal" gender="m">xacal</translation>
@@ -34,12 +45,6 @@
 			<translations>
                         <grouptranslation><translation gender="m">pot</translation>
                                 <translation gender="f">grossa</translation></grouptranslation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="254000">jack shit<nouns>
-			<translations>
-				<translation register="vulgar">res<example>You (don't) know &lt;b&gt;Jack shit&lt;/b&gt; about it, so just shut up!</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -144,12 +149,11 @@
 				<translation catagory="country-asia" gender="m">Japó</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="2000">Japan air<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">japó</translation>
-			</translations>
-		</nouns>
+                <expressions>Japan air
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">japó</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="25800000">Japanese<nouns>
 			<translations>
@@ -293,8 +297,14 @@
 	</Entry>
 <Entry frequency="236000">jellyfish<nouns>
 			<translations>
-				<translation gender="f">medusa<plural>jellyfish</plural>
+				<translation catagory="animal-sea" gender="f">medusa<plural>jellyfish</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="999000">jenny<nouns>
+                            <translations><date>0808</date>
+				<translation gender="f">somera<plural>jennies</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>

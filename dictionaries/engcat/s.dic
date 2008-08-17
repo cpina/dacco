@@ -5891,10 +5891,13 @@
 	</Entry><Entry frequency="145000000">shake<verbs>
 			<past>shook</past>
 			<participle>shaken</participle>
-                            <translations><date>1007</date>
-				<translation>sacsejar</translation>
-				<translation>trontollar</translation>
-                                <translation>agitar</translation>
+                            <translations><date>0808</date>
+				<translation transitive="true">sacsejar</translation>
+				<translation transitive="true">(fer) trontollar</translation>
+                                <translation transitive="true">agitar</translation>
+                                <translation transitive="true">estremir</translation>
+                                <translation intransitive="true">trontollar</translation>
+                                <translation intransitive="true">estremir-se</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>shake down
@@ -8142,6 +8145,17 @@
 
 		</nouns>
 
+	</Entry>
+         <Entry frequency="809000">sidelong<adjectives>
+			<translations><date>0808</date>
+                        <translation>de reüll</translation>
+			</translations>
+		</adjectives>
+                <expressions>sidelong glance
+                    <translations>
+                        <translation gender="f">mirada de reüll</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="1350000">sidereal<adjectives>
 			<translations><date>0508</date>
@@ -17737,12 +17751,10 @@ s
 
 	</Entry><Entry frequency="154000000">start<verbs>
 
-			<translations>
+                            <translations><date>0808</date>
 
-				<translation>començar<synonyms>begin</synonyms>
-
-				</translation>
-
+				<translation>començar<synonyms>begin</synonyms></translation>
+                                <translation>sobresaltar-se<example>He tapped her on the shoulder and she &lt;b&gt;started&lt;/b&gt;, spilling her coffee everywhere. "Jesus!" she cried. "Don't creep up on me like that!".</example></translation>
 			</translations>
 
 		</verbs>
@@ -17757,11 +17769,20 @@ s
 			<translations>
 
 				<translation gender="m">començament</translation>
-
+                                <translation gender="m">sobresalt (startled reaction)</translation>
 			</translations>
 
 		</nouns>
-
+                <expressions>give a start
+                    <translations>
+                        <translation>sobresaltar-se<example>When the doorbell rang she &gt;b&gt;gave a start&lt;/b&gt; and ran to answer it.</example></translation>
+                    </translations>
+                </expressions>
+                <expressions>give (somebody) a start
+                    <translations>
+                        <translation>sobresaltar (algú)<example>He jumped out in front of her and she leapt into the air. "Oh goodness, you &lt;b&gt;gave me quite a start&lt;/b&gt;!" she cried.</example></translation>
+                    </translations>
+                </expressions>
            </Entry><Entry frequency="12200000">starter<nouns>
 
 			<translations>
@@ -17779,7 +17800,14 @@ s
 
                 <translations>
 
-                <translation beforenoun="true">per a principiants<engexamp>Starter course</engexamp><catexamp>Curs per a principiants</catexamp></translation></translations></adjectives>
+                <translation beforenoun="true">per a principiants<engexamp>Starter course</engexamp><catexamp>Curs per a principiants</catexamp></translation>
+                </translations>
+                </adjectives>
+                <expressions>for starters
+                    <translations>
+                        <translation>primer / en primer lloc / per començar</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="6480000">starting line<nouns>
 			<translations><date>0408</date>
 				<translation catagory="sports" gender="f">línia de sortida</translation>
@@ -17789,7 +17817,7 @@ s
 
 			<translations>
 
-				<translation>sobresaltar</translation>
+				<translation transitive="true">sobresaltar<synonyms>give (somebody) a start</synonyms></translation>
 
 			</translations>
 
