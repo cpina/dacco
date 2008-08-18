@@ -4347,9 +4347,20 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1830000">foregone<adjectives>
+			<translations><date>0808</date>
+                            <translation>antic / anterior / previ</translation>
+			</translations>
+		</adjectives>
+                <expressions>foregone conclusion
+                    <translations>
+                        <translation gender="m">resultat (perfectament) previsible / resultat obvi per a tothom</translation>
+                    </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="1900000">forehead<nouns>
 			<translations>
-				<translation gender="m">front</translation>
+				<translation catagory="body" gender="m">front</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4358,28 +4369,25 @@
 				<translation>estranger</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="279000">foreign correspondent<nouns>
-			<translations>
-				<translation gender="mf">corresponsal internacional</translation>
-			</translations>
-		</nouns>
+                <expressions>foreign correspondent
+                    <translations>
+                        <translation gender="mf">corresponsal internacional</translation>
+                    </translations>
+                </expressions>
+                <expressions>foreign language
+                    <translations>
+                        <translation gender="f">llengua estrangera</translation>
+                    </translations>
+                </expressions>
+                <expressions>foreign minister
+                    <translations>
+                        <translation catagory="politics" gender="mf">ministre d'afers estrangers / ministre d'exteriors</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3540000">foreigner<nouns>
 			<translations>
 				<translation gender="mf">estranger</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="8210000">foreign language<nouns>
-			<translations>
-				<translation gender="f">llengua estrangera</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="2280000">foreign minister<nouns>
-			<translations>
-				<translation catagory="politics" gender="mf">ministre d'afers estrangers / ministre d'exteriors</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5280,12 +5288,22 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="48000">freestyle binding<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">fixació tova<synonyms>soft binding, strap binding</synonyms></translation>
+             <Entry frequency="36100000">freestyle<nouns>
+                            <translations><date>0808</date>
+				<translation catagory="sports" gender="m">estil lliure</translation>
 			</translations>
 		</nouns>
-	</Entry>
+                <expressions>200m freestyle
+                    <translations>
+                        <translation catagory="sports-event-swimming" gender="m">[natació] 200m lliures</translation>
+                    </translations>
+                </expressions>
+                        <expressions>freestyle binding
+                            <translations>
+                                <translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">fixació tova<synonyms>soft binding, strap binding</synonyms></translation>
+                            </translations>
+                        </expressions>
+                    </Entry>
 <Entry frequency="4850000">free time<nouns>
 			<translations>
 				<translation gender="m">temps lliure / temps d'oci</translation>
