@@ -216,9 +216,10 @@
 	<phrasalverbs>fade out<translations><translation intransitive="true">desaparèixer gradualment</translation></translations></phrasalverbs></Entry>
 <Entry frequency="585000">faeces<nouns>
 			<translations>
-				<translation register="formal" local="gb" gender="mpl">excrements<otherlocal>feces</otherlocal>
-					<synonyms>shit (vulg.), crap (vulg.), dirt, excrement</synonyms>
-				</translation>
+                            <grouptranslation register="formal" local="gb">
+				<translation gender="mpl">excrements</translation>
+                                <translation gender="fpl">dejeccions<otherlocal>feces</otherlocal><synonyms>shit (vulg.), crap (vulg.), dirt, excrement</synonyms></translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -859,10 +860,11 @@
 		</nouns>
 	</Entry>
 <Entry frequency="8150000">farming<nouns>
-			<translations>
+                            <translations><date>0808</date>
 				<translation gender="f">agricultura</translation>
                                 <translation gender="f">ramaderia<engnote>'Ramaderia' means farming animals (as opposed to crops).</engnote></translation>
-                                <translation>agrícola</translation>
+                                <translation beforenoun="true">agrícola</translation>
+                                <translation beforenoun="true">agrari</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1305,9 +1307,10 @@
 	</Entry>
 <Entry frequency="585000">feces<nouns>
 			<translations>
-				<translation register="formal" local="us" gender="mpl">excrements<otherlocal>faeces</otherlocal>
-					<synonyms>shit (vulg.), crap (vulg.), dirt, excrement</synonyms>
-				</translation>
+                            <grouptranslation register="formal" local="us">
+				<translation gender="mpl">excrements</translation>
+                                <translation gender="fpl">dejeccions<otherlocal>faeces</otherlocal><synonyms>shit (vulg.), crap (vulg.), dirt, excrement</synonyms></translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3049,16 +3052,20 @@
                                 <translation termcat="internet" disambiguate="computers-internet" gender="f">resposta irada</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>flame out<translations><translation intransitive="true">fallar</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>flame out
+                    <translations>
+                        <translation intransitive="true">fallar</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>flame war
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="f">baralla</translation>
+                    </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="481000www">flamebait<nouns>
                             <translations><date>0508</date>
 				<translation catagory="computers" termcat="internet" gender="f">provocació</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="500000">flame war<nouns><mistakes>flamewar</mistakes>
-			<translations>
-				<translation catagory="computers" termcat="true" gender="f">baralla</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3858,17 +3865,22 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="15800000">focus<verbs double="true">
-			<translations>
-				<translation>enfocar / centrar-se en</translation>
-			</translations>
-		</verbs>
-		<nouns>
+<Entry frequency="15800000">focus<nouns>
 			<translations>
 				<translation gender="m">focus</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>focus upon<translations><translation intransitive="true">enfocar, fixar-se l'atenció en</translation></translations></phrasalverbs></Entry>
+                <verbs double="true">
+			<translations>
+				<translation>enfocar / centrar-se en</translation>
+			</translations>
+		</verbs>
+		<phrasalverbs>focus upon
+                    <translations>
+                        <translation intransitive="true">enfocar / fixar-se l'atenció en</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="2140000">fodder<nouns>
 			<translations>
 				<translation catagory="animal" gender="m">pinso</translation>
@@ -3908,11 +3920,14 @@
 	</Entry>
 <Entry frequency="44300">foggiest<adjectives>
 			<translations>
-				<translation>remota<engexamp>I haven't the foggiest (idea)</engexamp>
-					<catexamp>No tinc ni la més remota idea</catexamp>
-				</translation>
+				<translation>remota</translation>
 			</translations>
 		</adjectives>
+                <expressions>not have the foggiest (idea)
+                    <translations>
+                        <translation register="colloquial">no tenir ni la més remota idea</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="701000">foggy<adjectives>
 			<translations>
@@ -3922,13 +3937,13 @@
 	</Entry>
 <Entry frequency="5940000">foil<nouns>
 			<translations>
-				<translation gender="f">làmina<engexamp>silver, kitchen or aluminium foil</engexamp><catexamp>paper d'alumini, d'estany o de plata</catexamp>
+				<translation gender="f">làmina<engexamp>Silver (o kitchen o aluminium) foil</engexamp><catexamp>Paper d'alumini (or d'estany or de plata)</catexamp>
 				</translation>
 			</translations>
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>frustrar / fer fracassar<synonyms>thwart, stymie</synonyms></translation>
+				<translation>frustrar / fer fracassar<synonyms>thwart, stymie, frustrate</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3937,10 +3952,17 @@
 				<translation>doblegar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>fold up
+                    <translations>
+                        <translation transitive="true">plegar (del tot)</translation>
+                    </translations>
+                </phrasalverbs>
                 <nouns>
-                <translations>
-                <translation gender="m">plec</translation></translations></nouns>
-	<phrasalverbs>fold up<translations><translation transitive="true">plegar (del tot)</translation></translations></phrasalverbs></Entry>
+                    <translations>
+                        <translation gender="m">plec</translation>
+                    </translations>
+                </nouns>
+                </Entry>
         <Entry frequency="4600000">foldable<adjectives>
                             <translations><date>0808</date>
 				<translation>plegable</translation>
@@ -3989,13 +4011,34 @@
 				<translation>seguir<engexamp>As follows...</engexamp><catexamp>Com segueix...</catexamp><engexamp>That follows</engexamp><catexamp>Això sí que té sentit</catexamp></translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>follow along
+                    <translations>
+                        <translation intransitive="true">seguir (sobretot seguint l'exemple d'un altre)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>follow on
+                    <translations>
+                        <translation intransitive="true">continuar seguint</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>follow out
+                    <translations>
+                        <translation transitive="true">complir (sobretot instruccions)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>follow through
+                    <translations>
+                        <translation intransitive="true">continuar (una acció, després de fer contacte amb un objecte)</translation>
+                        <translation intransitive="true">complir</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>follow up
                     <translations>
                         <translation>completar, portar una activitat o un projecte al seu fi</translation>
                         <translation>seguir un acte amb un altre amb el mateix fi</translation>
                     </translations>
                 </phrasalverbs>
-	<phrasalverbs>follow along<translations><translation intransitive="true">seguir (sobretot seguint l'exemple d'un altre)</translation></translations></phrasalverbs><phrasalverbs>follow on<translations><translation intransitive="true">continuar seguint</translation></translations></phrasalverbs><phrasalverbs>follow out<translations><translation transitive="true">complir (sobretot instruccions)</translation></translations></phrasalverbs><phrasalverbs>follow through<translations><translation intransitive="true">continuar (una acció, després de fer contacte amb un objecte)</translation><translation intransitive="true">complir</translation></translations></phrasalverbs></Entry>
+	</Entry>
 <Entry frequency="3130000">follower<nouns>
 			<translations>
 				<translation gender="mf">seguidor / adepte</translation>
@@ -4008,8 +4051,10 @@
 			</translations>
 		</adjectives>
                 <prepositions>
-                <translations>
-                <translation>arran de<engnote>'Arran de' means 'following' in the sense 'as a result of'.</engnote><synonyms>as a result of</synonyms></translation></translations></prepositions>
+                    <translations>
+                        <translation>arran de<engnote>'Arran de' means 'following' in the sense 'as a result of'.</engnote><synonyms>as a result of</synonyms></translation>
+                    </translations>
+                </prepositions>
 	</Entry>
 <Entry frequency="20500000">fond<adjectives>
 			<translations>
@@ -4038,7 +4083,7 @@
 	</Entry>
 <Entry frequency="144000">fontanelle<nouns>
 			<translations>
-				<translation gender="f">fontanel·la</translation>
+				<translation catagory="body" gender="f">fontanel·la</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4050,12 +4095,11 @@
                                 <translation beforenoun="true">alimentari<engexamp>Food aid</engexamp><catexamp>Ajut alimentari</catexamp></translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="8020000">food chain<nouns>
-			<translations><date>0408</date>
-				<translation gender="f">xarxa tròfica</translation>
-			</translations>
-		</nouns>
+                <expressions>food chain
+                    <translations>
+                        <translation gender="f">xarxa tròfica</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="7170000">fool<nouns>
 			<translations>
@@ -4101,6 +4145,11 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>foot soldier
+                    <translations>
+                        <translation gender="m">peó</translation>
+                    </translations>
+                </expressions>
                 <expressions>put your foot in it
                 <translations>
                 <translation>ficar la pota</translation>
@@ -4126,23 +4175,20 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="578000">football club<nouns>
-			<translations>
-				<translation gender="m">club de futbol</translation>
-			</translations>
-		</nouns>
+                <expressions>football club
+                    <translations>
+                        <translation gender="m">club de futbol</translation>
+                    </translations>
+                </expressions>
+                <expressions>football match
+                    <translations>
+                        <translation gender="m">partit de futbol<plural>football matches</plural></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="256000">footballer<nouns>
 			<translations>
 				<translation gender="mf">futbolista</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="262000">football match<nouns>
-			<translations>
-				<translation gender="m">partit de futbol<plural>football matches</plural>
-				</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4190,15 +4236,14 @@
 	</Entry>
 <Entry frequency="41300000">footsie<nouns>
 			<translations>
-				<translation>peuets<engexamp>To play footsie</engexamp><catexamp>Fer peuets</catexamp></translation>
+				<translation>peuets</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="1480000">foot soldier<nouns>
-			<translations>
-				<translation gender="m">peó</translation>
-			</translations>
-		</nouns>
+                <expressions>play footsie
+                    <translations>
+                        <translation>fer peuets</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1680000">footstep<nouns>
 			<translations>
@@ -4206,11 +4251,11 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="76900000">footwear<nouns>
-			<translations>
-				<translation gender="m">calçat</translation>
-                                </translations>
-		</nouns>
+                <Entry frequency="76900000">footwear<nouns>
+                        <translations>
+                            <translation gender="m">calçat</translation>
+                        </translations>
+                    </nouns>
                 </Entry>
 <Entry frequency="305000">footy<nouns>
 			<translations>
@@ -4305,7 +4350,7 @@
 	</Entry>
 <Entry frequency="354000">forearm<nouns>
 			<translations>
-				<translation gender="m">avantbraç</translation>
+				<translation catagory="body" gender="m">avantbraç</translation>
 			</translations>
 		</nouns>
 	</Entry>

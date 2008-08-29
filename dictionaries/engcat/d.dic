@@ -1171,16 +1171,15 @@
                 </translations>
                 </expressions>
 	</Entry>
-        <Entry frequency="90500">decriminalise<verbs>
+        <Entry frequency="90700">decriminalise<verbs>
                             <translations><date>0808</date>
-				<translation local="gb">descriminalitzar / legalitzar (una cosa il·legal)<synonyms>legalize</synonyms><otherlocal>decriminalize</otherlocal></translation>
+				<translation local="gb">despenalitzar / legalitzar (una cosa que era il·legal)<synonyms>legalise (Br.), legalize</synonyms><otherlocal>decriminalize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="60800">decriminalize<verbs>
-			<translations>
-				<translation>legalitzar<synonyms>legalize</synonyms>
-				</translation>
+<Entry frequency="92300">decriminalize<verbs>
+                            <translations><date>0808</date>
+				<translation>despenalitzar / legalitzar (una cosa que era il·legal)<synonyms>legalize</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2860,7 +2859,12 @@
 				<translation>desenvolupar</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>develop into<translations><translation intransitive="true">convertir-se en</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>develop into
+                    <translations>
+                        <translation intransitive="true">convertir-se en</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="88600000">developer<nouns>
 			<translations>
 				<translation gender="mf" termcat="true">desenvolupador</translation>

@@ -14,9 +14,15 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="3320000">ibex<nouns>
+			<translations><date>0808</date>
+				<translation picture="http://farm1.static.flickr.com/194/502213935_aed5048ba4.jpg" flickr="http://www.flickr.com/photos/tambako/502213935/" catagory="animal-animal" gender="m">íbex<plural>ibex</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="1600000">Ibiza<nouns>
 			<translations>
-				<translation gender="f">Eivissa</translation>
+				<translation catagory="geography" gender="f">Eivissa</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1442,7 +1448,7 @@
 	</Entry>
         <Entry frequency="9780000">inbound<adjectives>
                             <translations><date>0808</date>
-				<translation register="formal">entrant<example>Kuwait bans &lt;b&gt;inbound&lt;/b&gt; passengers from SARS-affected areas.</example></translation>
+				<translation register="formal">entrant<synonyms>incoming</synonyms><example>Kuwait bans &lt;b&gt;inbound&lt;/b&gt; passengers from SARS-affected areas.</example></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1710,6 +1716,12 @@
 				<translation gender="m">impost sobre la renda</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="35500000">incoming<adjectives>
+                            <translations><date>0808</date>
+				<translation>entrant / d'entrada<synonyms>inbound</synonyms></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="1330000">incomparable<adjectives>
 			<translations>
@@ -4417,7 +4429,7 @@
 	</Entry>
 <Entry frequency="1880000">in tray<nouns>
 			<translations><date>0508</date>
-                                <translation gender="f">safata de sortida</translation>
+                                <translation gender="f">safata d'entrada</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5513,9 +5525,9 @@
 <Entry frequency="11400000">ISP<engacro>Internet Service Provider</engacro>
 		<nouns>
 			<translations>
-				<translation termcat="true" gender="m">Proveïdor d'Internet
+				<translation termcat="true" gender="m">proveïdor d'Internet
 				</translation>
-				<translation gender="m">Proveïdor d'accés (a Internet) / Proveïdor de serveis (d'Internet)</translation>
+				<translation gender="m">proveïdor d'accés (a Internet) / proveïdor de serveis (d'Internet)</translation>
 			</translations>
 		</nouns>
 	</Entry>

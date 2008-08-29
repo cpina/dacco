@@ -2507,7 +2507,7 @@
 		</nouns>
 	</Entry>
 <Entry frequency="29000">engage<verbs>
-			<translations>
+                            <translations>
 				<translation register="formal">contractar</translation>
                                 <translation register="formal">cridar / atreure (l'atenció)</translation>
 			</translations>
@@ -2551,7 +2551,7 @@
 	</Entry>
 <Entry frequency="24300000">England<nouns>
 			<translations>
-				<translation gender="f">Anglaterra</translation>
+				<translation catagory="country-europe" gender="f">Anglaterra</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2574,7 +2574,7 @@
 	</Entry>
 <Entry frequency="305000">engraver<nouns>
 			<translations>
-				<translation gender="mf">gravador</translation>
+				<translation catagory="work-job" gender="mf">gravador</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2632,7 +2632,12 @@
 				<translation>engrandir / engrossir</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>enlarge upon<translations><translation intransitive="true">donar més detalls sobre</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>enlarge upon
+                    <translations>
+                        <translation intransitive="true">donar més detalls sobre</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="4120000">enlargement<nouns>
 			<translations>
 				<translation gender="f">ampliació</translation>
