@@ -161,6 +161,11 @@
 				<translation gender="m">fet</translation>
 			</translations>
 		</nouns>
+                <expressions>in fact
+                    <translations>
+                        <translation>de fet</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1890000">faction<nouns>
 			<translations>
@@ -1108,12 +1113,14 @@
 		</verbs>
 		<nouns>
 			<translations>
-				<translation local="us" gender="m">favor<engexamp>To be in favor of</engexamp>
-					<catexamp>Estar a favor de / Ser partidari de</catexamp>
-					<otherlocal>favour</otherlocal>
-				</translation>
+				<translation local="us" gender="m">favor<otherlocal>favour</otherlocal></translation>
 			</translations>
 		</nouns>
+                <expressions>in favor of
+                    <translations>
+                        <translation>a favor de / partidari de</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2370000">favorable<adjectives>
 			<translations>
@@ -1155,12 +1162,14 @@
 		</verbs>
 		<nouns>
 			<translations>
-				<translation local="gb" gender="m">favor<engexamp>To be in favour of</engexamp>
-					<catexamp>Estar a favor de / Ser partidari de</catexamp>
-					<otherlocal>favor</otherlocal>
-				</translation>
+				<translation local="gb" gender="m">favor<otherlocal>favor</otherlocal></translation>
 			</translations>
 		</nouns>
+                <expressions>in favour of
+                    <translations>
+                        <translation>a favor de / partidari de</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="625000">favourable<adjectives>
 			<translations>
@@ -1681,10 +1690,32 @@
 		</verbs>
 	</Entry>
 <Entry frequency="881000">fertile<adjectives>
-			<translations>
-				<translation>fecund</translation>
+                            <translations><date>0908</date>
+				<translation>fecund / fèrtil</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="1720">fertilisation<nouns>
+			<translations>
+                                <translation local="gb" disambiguate="biology" gender="f">fecundació<engnote>'Fecundació' means 'fertilization' in the biological sense.</engnote>
+				</translation>
+				<translation local="gb" disambiguate="agriculture" gender="f">fertilització<engnote>'Fertilització' means 'fertilization' in the sense 'forest fertilization' or 'fertilization of your lawn'.</engnote>
+				<otherlocal>fertilization</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="721000">fertilise<verbs>
+                            <translations><date>0908</date>
+                            <translation local="gb" disambiguate="biology">fecundar</translation>
+				<translation local="gb" disambiguate="agriculture">fertilitzar<otherlocal>fertilize</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="2390000">fertiliser<nouns>
+                            <translations><date>0908</date>
+				<translation local="gb" gender="m">fertilitzant<otherlocal>fertilizer</otherlocal></translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="3340000">fertility<nouns>
 			<translations>
@@ -1701,8 +1732,15 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="2580000">fertilizer<nouns>
-			<translations>
+        <Entry frequency="2580000">fertilize<verbs>
+                            <translations><date>0908</date>
+                            <translation disambiguate="biology">fecundar</translation>
+				<translation disambiguate="agriculture">fertilitzar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+<Entry frequency="12500000">fertilizer<nouns>
+                            <translations><date>0908</date>
 				<translation gender="m">fertilitzant</translation>
 			</translations>
 		</nouns>
