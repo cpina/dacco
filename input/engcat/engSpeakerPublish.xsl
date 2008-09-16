@@ -87,10 +87,19 @@
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="nouns">
-		<xsl:if test="count(translations/translation[@noteng='TRUE'])=0 or count(/translations/translation[@noteng='TRUE'])!=count(translations/translation)">
+            <xsl:if test="count(translations/translation)>0 or count(translations/grouptranslation)>0">
 			<br/>
 			<span class="pos"> n </span>
 			<xsl:apply-templates/>
+                        <xsl:if test="count(translations/grouptranslation)>0">
+                          <span class="grouptranslation">
+                          <xsl:for-each select="translations/grouptranslation/translation">
+			  <xsl:call-template name="translation">
+				<xsl:with-param name="hideCount" select="'true'"/>
+			  </xsl:call-template>
+		          </xsl:for-each>
+                          </span>
+                        </xsl:if>
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="adjectives">

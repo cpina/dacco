@@ -143,54 +143,60 @@
 			<br/>
                         
                         <xsl:if test="count(translations/translation[@intransitive]) >0 and count(translations/translation[@transitive]) =0">
-                        <span class="pos"> vi </span>
-                        <xsl:call-template name="verbInfo"/>
-                        <xsl:apply-templates select="translations/translation[@intransitive]"/>
+                          <span class="pos"> verb intr </span>
+                          <xsl:call-template name="verbInfo"/>
+                          <xsl:apply-templates select="translations/translation[@intransitive]"/>
                         </xsl:if>
                         
                         <xsl:if test="count(translations/translation[@intransitive]) =0 and count(translations/translation[@transitive]) >0">
-			<span class="pos"> vt </span>
-                        <xsl:call-template name="verbInfo"/>
-                        <xsl:apply-templates select="translations/translation[@transitive]"/>
+			  <span class="pos"> verb tr </span>
+                          <xsl:call-template name="verbInfo"/>
+                          <xsl:apply-templates select="translations/translation[@transitive]"/>
                         </xsl:if>
                         
                         <xsl:if test="count(translations/translation[@intransitive]) >0 and count(translations/translation[@transitive]) >0">
-                        <span class="pos"> vt </span>
-                        <xsl:call-template name="verbInfo"/>
-                        <xsl:apply-templates select="translations/translation[@transitive]"/>
-                        <br/>
-                        <span class="pos"> vi </span>
-                        <xsl:apply-templates select="translations/translation[@intransitive]"/>
+                          <span class="pos"> verb tr </span>
+                          <xsl:call-template name="verbInfo"/>
+                          <xsl:apply-templates select="translations/translation[@transitive]"/>
+                          <br/>
+                          <span class="pos"> verb intr </span>
+                          <xsl:apply-templates select="translations/translation[@intransitive]"/>
                         </xsl:if>
                         
                         <xsl:if test="count(translations/translation[@intransitive]) =0 and count(translations/translation[@transitive]) =0">
-                        <span class="pos"> v </span>
-                        <xsl:call-template name="verbInfo"/>
-                        <xsl:apply-templates select="translations"/>
-                        </xsl:if>
-                       
-	
-			
+                          <span class="pos"> verb </span>
+                          <xsl:call-template name="verbInfo"/>
+                          <xsl:apply-templates select="translations"/>
+                        </xsl:if>		
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="adverbs">
 		<xsl:if test="count(translations/translation)>0">
 			<br/>
-			<span class="pos"> adv </span>
+			<span class="pos"> adverbi </span>
 			<xsl:apply-templates/>
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="nouns">
-		<xsl:if test="count(translations/translation)>0">
+		<xsl:if test="count(translations/translation)>0 or count(translations/grouptranslation)>0">
 			<br/>
-			<span class="pos"> n </span>
+			<span class="pos"> nom </span>
 			<xsl:apply-templates/>
+                        <xsl:if test="count(translations/grouptranslation)>0">
+                          <span class="grouptranslation">
+                          <xsl:for-each select="translations/grouptranslation/translation">
+			  <xsl:call-template name="translation">
+				<xsl:with-param name="hideCount" select="'true'"/>
+			  </xsl:call-template>
+		          </xsl:for-each>
+                          </span>
+                        </xsl:if>
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="adjectives">
 		<xsl:if test="count(translations/translation)>0">
 			<br/>
-			<span class="pos"> adj </span>
+			<span class="pos"> adjectiu </span>
 			<xsl:apply-templates/>
 
 <!--			<xsl:if test="text()">
@@ -258,9 +264,7 @@
 				<img src="images/arrow.gif" alt=">"/>
 				<xsl:text> </xsl:text>
 				<xsl:value-of select="text()"/>
-			</span>
-			<br/>
-			<span class="pos"> v.c. </span>
+                        </span>
 			<xsl:apply-templates select="translations"/>
 		</xsl:if>
 	</xsl:template>
@@ -285,7 +289,9 @@
 		<xsl:param name="hideCount"/>
 		<xsl:text>    </xsl:text>
 		<xsl:if test="last()>1 and $hideCount!='true'">
-			<xsl:if test="position()=1"/>
+			<xsl:if test="position()=1">
+                            <br/>
+                        </xsl:if>
 			<b>
 				<xsl:value-of select="position()"/>
 				<xsl:text>. </xsl:text>
@@ -423,11 +429,7 @@
                 
                 </xsl:element>
                 </xsl:if>    
-		<xsl:for-each select="translation">
-			<xsl:call-template name="translation">
-				<xsl:with-param name="hideCount" select="'true'"/>
-			</xsl:call-template>
-		</xsl:for-each>
+
 		<span class="translation">
 			<xsl:value-of select="text()"/>
 		</span>
@@ -455,13 +457,8 @@
 		<xsl:if test="count(plural) > 0">
 			<br/>
 			<span class="plural">
-				<i>pl. </i>
-			</span>
-			<i>
-				<b>
-					<xsl:value-of select="plural"/>
-				</b>
-			</i>
+                            pl. <b><xsl:value-of select="plural"/></b>
+                        </span>
 		</xsl:if>
 		<xsl:if test="@local='gb'">
 			<xsl:if test="count(otherlocal) > 0">
