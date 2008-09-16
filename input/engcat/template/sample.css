@@ -16,9 +16,10 @@
 			Color : #000066
 		}
 .pos	 {
-			Font-Family : Comic Sans MS ;
 			Font-Size : Smaller ;
-			Font-Style : Italic
+			Font-Style : Italic;
+                        padding-left: 2pt;
+                        background: #CCCCFF;
 		}
 .transitive	 {
 			Font-Family : Comic Sans MS ;
@@ -34,7 +35,8 @@
 			Font-Style : Italic
 		}
 .conj	 {
-			Font-Size : Smaller
+			Font-Size : Smaller;
+                        Padding-left : 3pt
 		}
 .phr	 {
 			Font-Family : Comic Sans MS ;
@@ -63,6 +65,22 @@
 			Width: auto;
 			Background-Color : #E4E4E4
 		}
+.grouptranslation	 {
+			text-decoration: underline;
+                        padding-left: 1pt;
+		}
+.grouptranslation .translation {
+  Padding-Left: 4pt;
+}
+
+.grouptranslation .gender {
+  text-decoration: none;
+}
+
+.a:link {
+  color: #000066;
+}
+
 .translation	 {
 			Padding-Bottom : 0pt    ;
 			Padding-Left : 4pt    ;
@@ -75,3 +93,7 @@
 			Font-Family : Comic Sans MS ;
 			Font-Size : Smaller
 		}
+
+.plural {
+    display : none;
+}
