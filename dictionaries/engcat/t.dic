@@ -1546,14 +1546,17 @@
 			</translations>
 		</nouns>
                 <adjectives>
-                <translations>
-                <translation>temporal</translation></translations></adjectives>
-	</Entry><Entry frequency="172000">temp agency<nouns>
-			<translations>
-				<translation catagory="work" gender="f">empresa de treball temporal (ETT)<plural>temp agencies</plural></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="436000">temperament<nouns>
+                    <translations>
+                        <translation>temporal</translation>
+                    </translations>
+                </adjectives>
+                <expressions>temp agency
+                    <translations>
+                        <translation catagory="work" gender="f">empresa de treball temporal (ETT)<plural>temp agencies</plural></translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="436000">temperament<nouns>
 			<translations>
 				<translation gender="m">temperament</translation>
 			</translations>
@@ -3592,23 +3595,32 @@
 				<translation catagory="body" gender="m">dit (del peu)</translation>
 			</translations>
 		</nouns>
+                <expressions>toe side
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">costat de puntes<synonyms>frontside</synonyms></translation>
+                    </translations>
+                </expressions>
                 <expressions>big toe
-                <translations>
-                <translation catagory="body" gender="m">dit gros (del peu)</translation></translations></expressions>
-	</Entry><Entry frequency="109000">toerag<nouns>
+                    <translations>
+                        <translation catagory="body" gender="m">dit gros (del peu)</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="1790000">toenail<nouns>
+                            <translations><date>0908</date>
+				<translation catagory="body" gender="f">ungla del peu</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="109000">toerag<nouns>
 			<translations>
 				<translation local="gb" register="offensive" gender="m">cabró<example>The current government promised lots of things like 'education, education', 'tough on crime' etc etc... The flaw is obvious, how do you get the lying &lt;b&gt;toerags&lt;/b&gt; to actually DO what they promise?</example><example>Hopefully the damage your bike won't cost too much and WHEN you catch those little &lt;b&gt;toerags&lt;/b&gt;, make sure you wring their necks extra tight for me won't you?</example><example>I was a supply teacher when I taught the little &lt;b&gt;toerag&lt;/b&gt;. He made every lesson hell.</example></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="155000">toe side<nouns>
+	</Entry>
+        <Entry frequency="8450">Toffees<nouns>
 			<translations>
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">costat de puntes<synonyms>frontside</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="8450">Toffees<nouns>
-			<translations>
-				<translation catagory="sports-event-football-teams, encyclopaedic" register="colloquial" noteng="TRUE" local="gb">-<catnote>The Toffees és el sobrenom de l'equip de futbol anglès Everton FC.</catnote>
-				</translation>
+				<translation catagory="sports-event-football-teams, encyclopaedic" register="colloquial" local="gb">sobrenom de l'equip de futbol anglès Everton FC</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1550000">tofu<nouns>

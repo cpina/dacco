@@ -1859,17 +1859,22 @@
 			</translations>
 		</nouns>
 	</Entry>
+ <Entry frequency="461000">pastisseria<nouns>
+			<translations><date>0908</date>
+				<translation catagory="food" gender="f">baker's / bakery / patisserie / cake shop (Am. / Aus.) / pastry shop (Am. / Aus.)</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="277000">pastor<nouns>
 			<translations><date>0806</date>
 				<translation catagory="work-job" gender="m / f">shepherd (m) / shepherdess (f)<fems>pastora</fems></translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="1950">pastor alemany<nouns>
-			<translations><date>0806</date>
-				<translation catagory="animal-animal" gender="m">German shepherd / Alsatian<plural>pastors alemanys</plural></translation>
-			</translations>
-		</nouns>
+                <expressions>pastor alemany
+                    <translations>
+                        <translation catagory="animal-animal" gender="m">German shepherd / Alsatian<plural>pastors alemanys</plural></translation>
+                    </translations>
+                </expressions>
 	</Entry>
         	<Entry frequency="34000">pasturar<verbs conj="regular">
                             <translations><date>0307</date>
@@ -1883,12 +1888,11 @@
 				<translation catagory="food-vegetable" gender="f">potato</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="1110">patates fregides<nouns>
-			<translations>
-				<translation catagory="food" gender="fpl">chips (Br.) / crisps (Br.) / (french) fries (Am.) / chips (Am.)</translation>
-			</translations>
-		</nouns>
+                <expressions>patates fregides
+                    <translations>
+                        <translation catagory="food" gender="fpl">chips (Br.) / crisps (Br.) / (french) fries (Am.) / chips (Am.)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="660">paté<nouns>
 			<translations><date>0705</date>
@@ -2697,7 +2701,7 @@
 	</Entry>
         <Entry frequency="190">penja-robes<nouns>
 			<translations><date>0305</date>
-                        <translation gender="m">(clothes) hanger</translation>
+                        <translation gender="m">(clothes o coat) hanger</translation>
 				<translation gender="m">coat rack / wardrobe / closet</translation>
 			</translations>
 		</nouns>
@@ -6615,6 +6619,7 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        
 <Entry frequency="0">potrier<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Potries</translation></translations></nouns><adjectives><translations><translation>relating to Potries or its people<fems>potriera</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="1430000">potser<adverbs>
                             <translations><date>1007</date>
@@ -7188,6 +7193,12 @@
 				<translation gender="f">presentation</translation>
                                 <translation gender="f">introduction</translation>
                                 <translation gender="f">submission</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="68700">presentador<nouns>
+			<translations><date>0908</date>
+				<translation gender="m / f">presenter / host<fems>presentadora</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>

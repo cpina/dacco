@@ -6217,12 +6217,17 @@
     </nouns>
     </Entry>
 <Entry frequency="4280000">coat<nouns>
-        <translations>
+        <translations><date>0908</date>
             <translation disambiguate="clothes" gender="m">abric</translation>
             <translation gender="f">capa<engnote>'Capa' means 'coat' in the sense 'layer' (e.g. 'coat of paint').</engnote></translation>
             <translation disambiguate="animal" gender="m">pelatge<synonyms>fur</synonyms></translation>
         </translations>
     </nouns>
+        <expressions>coat hanger
+            <translations>
+                <translation catagory="household-room-bedroom" gender="m">penja-robes</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="34900">coatroom<nouns>
         <translations>
@@ -6435,15 +6440,14 @@
     </Entry>
 <Entry frequency="19600000">coffee<nouns>
         <translations>
-            <translation gender="m">cafè</translation>
+            <translation catagory="food-drink" gender="m">cafè</translation>
         </translations>
     </nouns>
-    </Entry>
-<Entry frequency="2730000">coffee maker<nouns>
-        <translations>
-            <translation gender="f">cafetera</translation>
-        </translations>
-    </nouns>
+        <expressions>coffee maker
+            <translations>
+                <translation catagory="household-room-kitchen" gender="f">cafetera</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="315000">cofferdam<nouns>
 			<translations><date>0307</date>
@@ -6453,9 +6457,7 @@
 	</Entry>
 <Entry frequency="770000">coffin<nouns>
         <translations>
-            <grouptranslation><translation gender="m">bagul</translation>
-                <translation gender="m">taüt</translation>
-                <translation gender="m">fèretre</translation></grouptranslation>
+            <translation gender="m">bagul / taüt / fèretre</translation>
         </translations>
     </nouns>
     </Entry>
@@ -6544,7 +6546,19 @@
         <verbs>
         <translations>
         <translation>crear / encunyar</translation>
-        <translation>encunyar</translation></translations></verbs>
+        <translation>encunyar</translation>
+    </translations>
+</verbs>
+        <expressions>coin collecting
+            <translations>
+                <translation gender="f">numismàtica<synonyms>numismatics</synonyms></translation>
+            </translations>
+        </expressions>
+        <expressions>coin purse
+            <translations>
+                <translation local="us" gender="m">portamonedes / moneder<otherlocal>purse</otherlocal><synonyms>change purse</synonyms></translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="10200000">coincide<verbs>
         <translations>
@@ -6560,18 +6574,6 @@
 <Entry frequency="2780000">coincidence<nouns>
         <translations>
             <translation gender="f">coincidència</translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="294000">coin collecting<nouns>
-        <translations>
-            <translation gender="f">numismàtica<synonyms>numismatics</synonyms></translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="1550000">coin purse<nouns>
-        <translations>
-            <translation local="us" gender="m">portamonedes / moneder<otherlocal>purse</otherlocal><synonyms>change purse</synonyms></translation>
         </translations>
     </nouns>
     </Entry>
@@ -6597,6 +6599,11 @@
                 <translation>fred</translation>
             </translations>
         </adjectives>
+        <expressions>cold front
+            <translations>
+                <translation catagory="weather" gender="m">front fred</translation>
+            </translations>
+        </expressions>
         <expressions>catch cold
             <translations>
                 <translation>refredar-se</translation>
@@ -6614,12 +6621,6 @@
             <translation>a sang freda<engexamp>Cold-blooded murder</engexamp><catexamp>Assassinat a sang freda</catexamp></translation>
         </translations>
     </adjectives>
-    </Entry>
-<Entry frequency="1810000">cold front<nouns>
-        <translations>
-            <translation catagory="weather" gender="m">front fred</translation>
-        </translations>
-    </nouns>
     </Entry>
 <Entry frequency="1930000">coldness<nouns>
         <translations>
