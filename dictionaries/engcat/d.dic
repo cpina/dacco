@@ -5802,17 +5802,28 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="7940000">downfall<nouns>
+                            <translations><date>0908</date>
+				<translation gender="f">perdició</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="77800">downhearted<adjectives>
 			<translations>
 				<translation>aclaparat / descoratjat / desanimat / abatut</translation>
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="155000">downhill skiing<nouns>
-			<translations>
-				<translation gender="m">esquí alpí</translation>
+<Entry frequency="15600000">downhill<adverbs>
+                            <translations><date>0908</date>
+				<translation>pendent avall</translation>
 			</translations>
-		</nouns>
+		</adverbs>
+                <expressions>downhill skiing
+                    <translations>
+                        <translation catagory="sport-event" gender="m">esquí alpí</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="201000000">download<verbs>
 			<translations>
@@ -6366,13 +6377,6 @@
                         <translation>beure alcohol<example>Are you coming out drinking tonight?</example><example>He'd been drinking since lunchtime and by 5 o'clock he was completely pissed</example></translation>
                     </translations>
                 </verbs>
-		<nouns>
-			<translations>
-				<translation gender="f">beguda<catnote>A vegades els anglesos diuem col·loquialment &apos;drink drink&apos; per referir específicament a una beguda alcohòlica (Per exemple: &apos;Do you want a cup of tea or would you rather have a drink drink?&apos;).</catnote>
-				</translation>
-                                <translation gender="m">alcohol<engexamp>To go (out) for a drink</engexamp><catexamp>Anar de copes</catexamp><example>By the time the group of lads got on the plane, they were already the worse for &lt;b&gt;drink&lt;/b&gt;.</example><example>I need a &lt;b&gt;drink&lt;/b&gt;!</example></translation>
-			</translations>
-		</nouns>
                 <phrasalverbs>drink down
                     <translations>
                         <translation transitive="true">beure's d'una tirada</translation>
@@ -6395,21 +6399,24 @@
                     <translation>(imperatiu) acabeu de beure!</translation>
                 </translations>
             </phrasalverbs>
+            <nouns>
+			<translations>
+				<translation gender="f">beguda<catnote>A vegades els anglesos diem col·loquialment &apos;drink drink&apos; per referir específicament a una beguda alcohòlica (Per exemple: &apos;Do you want a cup of tea or would you rather have a drink drink?&apos;).</catnote>
+				</translation>
+                                <translation gender="m">alcohol<engexamp>To go (out) for a drink</engexamp><catexamp>Anar de copes</catexamp><example>By the time the group of lads got on the plane, they were already the worse for &lt;b&gt;drink&lt;/b&gt;.</example><example>I need a &lt;b&gt;drink&lt;/b&gt;!</example></translation>
+			</translations>
+		</nouns>
+                <expressions>drink driver
+                    <translations>
+                        <translation gender="mf">conductor ebri<synonyms>drunk driver</synonyms></translation>
+                    </translations>
+                </expressions>
+                <expressions>drink driving
+                    <translations>
+                        <translation>conduir mentre està sota l&apos;influència de l&apos;alcohol<synonyms>drunk driving</synonyms></translation>
+                    </translations>
+                </expressions>
         </Entry>
-<Entry frequency="11400">drink driver<nouns>
-			<translations>
-				<translation gender="mf">conductor ebri<synonyms>drunk driver</synonyms>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="60800">drink driving<nouns>
-			<translations>
-				<translation>conduir mentre està sota l&apos;influència de l&apos;alcohol<synonyms>drunk driving</synonyms>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
 <Entry frequency="3220000">drinking water<nouns>
 			<translations>
 				<translation gender="f">aigua potable</translation>
@@ -6424,8 +6431,10 @@
 			</translations>
 		</nouns>
                 <verbs>
-                <translations>
-                <translation>regalimar / gotejar / degotar</translation></translations></verbs>
+                    <translations>
+                        <translation>regalimar / gotejar / degotar</translation>
+                    </translations>
+                </verbs>
 	</Entry>
 <Entry frequency="71400000">drive<verbs>
 			<past>drove</past>
@@ -6435,6 +6444,12 @@
                                 <translation>accionar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>drive up
+                    <translations>
+                        <translation intransitive="true">pujar conduint</translation>
+                        <translation intransitive="true">arribar (conduint)</translation>
+                    </translations>
+                </phrasalverbs>
 		<nouns>
 			<translations>
                         <translation gender="f">energia / empenta</translation>
@@ -6445,7 +6460,7 @@
 				</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>drive up<translations><translation intransitive="true">1 pujar conduint 2 arribar (conduint)</translation></translations></phrasalverbs></Entry>
+               </Entry>
 <Entry frequency="282000">drivel<nouns>
 			<translations>
 				<translation gender="fpl" register="slang">bestieses<example>&apos;I&apos;ve never heard such &lt;b&gt;drivel&lt;/b&gt; in all my life!&apos;</example>
@@ -6461,26 +6476,22 @@
                                 <translation disambiguate="computers" termcat="internet" gender="m">programa de control</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="566000">drivers&apos; license<nouns>
-			<translations>
-				<translation gender="m" local="us">permís de conduir<otherlocal>driving licence</otherlocal>
-				</translation>
-			</translations>
-		</nouns>
+                <expressions>drivers' license
+                    <translations>
+                        <translation gender="m" local="us">permís de conduir<otherlocal>driving licence</otherlocal></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="71500000">driving<nouns>
 			<translations>
 				<translation gender="f">conducció</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="340000">driving licence<nouns>
-			<translations>
-				<translation gender="m" local="gb">permís de conduir<otherlocal>drivers&apos; license</otherlocal>
-				</translation>
-			</translations>
-		</nouns>
+                <expressions>driving licence
+                    <translations>
+                        <translation gender="m" local="gb">permís de conduir<otherlocal>drivers&apos; license</otherlocal></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="611000">drizzle<verbs>
 			<translations>
@@ -6518,7 +6529,13 @@
 				<translation disambiguate="animal-insect" gender="m">abellot / abegot</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>drone on<translations><translation intransitive="true">1 continuar fent brunzit 2 parlar llargament i avorrida</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>drone on
+                    <translations>
+                        <translation intransitive="true">continuar fent brunzit</translation>
+                        <translation intransitive="true">parlar llargament i avorrida</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="688000">drool<nouns>
 			<translations><date>0408</date>
 				<translation gender="f">bava</translation>
@@ -6543,27 +6560,57 @@
 				<translation>deixar caure</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>drop back
+                    <translations>
+                        <translation intransitive="true">(en futbol americà) retirar-se de la línia de scrimmage</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>drop behind
+                    <translations>
+                        <translation intransitive="true">quedar-se enrere</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>drop by
+                    <translations>
+                        <translation intransitive="true">passar (a un lloc) per fer una visita informal</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>drop down
+                    <translations>
+                        <translation intransitive="true">caure</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>drop in
+                    <translations>
+                        <translation transitive="true">deixar caure (alguna cosa) a</translation>
+                        <translation intransitive="true">visitar informalment</translation>
+                    </translations>
+                </phrasalverbs>
 		<phrasalverbs>drop in on
-<translations>
-				<translation>visitar (algú) informalment<synonyms>visit</synonyms>
-				</translation>
-			</translations>
+                    <translations>
+			<translation>visitar (algú) informalment<synonyms>visit</synonyms></translation>
+                    </translations>
 		</phrasalverbs>
                 <phrasalverbs>drop off
-                <translations>
-                <translation intransitive="true">adormir-se<example>I've put the baby down and hopefully he'll &lt;b&gt;drop off&lt;/b&gt; in a minute or two.</example></translation>
-                <translation transitive="true">portar i deixar pel camí<example>I'll be back soon, I'm just going to &lt;b&gt;drop&lt;/b&gt; the children &lt;b&gt;off&lt;/b&gt; at school.</example></translation>
-                </translations>
-            </phrasalverbs>
-            <phrasalverbs>drop out
-<translations>
-				<translation disambiguate="education">abandonar els estudis</translation>
-                                <translation disambiguate="sports">abandonar (una carrera)</translation>
-                                <translation>deixar de participar</translation>
-			</translations>
+                    <translations>
+                        <translation intransitive="true">adormir-se<example>I've put the baby down and hopefully he'll &lt;b&gt;drop off&lt;/b&gt; in a minute or two.</example></translation>
+                        <translation transitive="true">portar i deixar pel camí<example>I'll be back soon, I'm just going to &lt;b&gt;drop&lt;/b&gt; the children &lt;b&gt;off&lt;/b&gt; at school.</example></translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>drop out
+                    <translations>
+			<translation disambiguate="education">abandonar els estudis</translation>
+                        <translation disambiguate="sports">abandonar (una carrera)</translation>
+                        <translation>deixar de participar</translation>
+                    </translations>
 		</phrasalverbs>
-	<phrasalverbs>drop back<translations><translation intransitive="true">en futbol nord-americà, retirar-se de la línia de scrimmage</translation></translations></phrasalverbs><phrasalverbs>drop behind<translations><translation intransitive="true">quedar-se enrere</translation></translations></phrasalverbs><phrasalverbs>drop by<translations><translation intransitive="true">passar (a un lloc) per fer una visita informal</translation></translations></phrasalverbs><phrasalverbs>drop down<translations><translation intransitive="true">caure</translation></translations></phrasalverbs><phrasalverbs>drop in<translations><translation transitive="true">deixar caure (alguna cosa) a</translation><translation intransitive="true">visitar informalment</translation></translations></phrasalverbs><phrasalverbs>drop out of<translations><translation intransitive="true">deixar de participar en</translation></translations></phrasalverbs></Entry>
-<Entry frequency="182000">droplet<nouns>
+                <phrasalverbs>drop out of
+                    <translations>
+                        <translation intransitive="true">deixar de participar en</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+    <Entry frequency="182000">droplet<nouns>
 			<translations>
 				<translation gender="f">gota (petita)</translation>
 			</translations>
@@ -6733,31 +6780,31 @@
 		<verbs ie="true">
 			<translations>
 				<translation>assecar<engnote>'Assecar' means 'to dry' in the sense 'to extract the liquid from sth' (e.g. to dry the clothes).</engnote></translation>
-                                <translation>eixugar<engnote>'|Eixugar' means 'to dry' in the sense 'to remove liquid from the outside of sth' (e.g. to dry the dishes).</engnote></translation>
+                                <translation>eixugar<engnote>'Eixugar' means 'to dry' in the sense 'to remove liquid from the outside of sth' (e.g. to dry the dishes).</engnote></translation>
 			</translations>
 		</verbs>
-                <phrasalverbs>dry out
-                <translations>
-                    <translation intransitive="true">assecar-se / eixugar-se</translation>
-                    <translation intransitive="true">seguir un tractament per alcoholisme</translation>
-                </translations>
+                    <phrasalverbs>dry out
+                        <translations>
+                            <translation intransitive="true">assecar-se / eixugar-se</translation>
+                            <translation intransitive="true">seguir un tractament per alcoholisme</translation>
+                        </translations>
                     </phrasalverbs>
                     <phrasalverbs>dry (something) out
-                    <translations>
-                                            <translation transitive="true">eixugar</translation>
-                                        </translations>
-                                    </phrasalverbs>
+                        <translations>
+                            <translation transitive="true">eixugar</translation>
+                        </translations>
+                    </phrasalverbs>
                     <phrasalverbs>dry up
                     <translations>
                         <translation>assecar-se</translation>
                         <translation>passar a ser escàs</translation>
                         </translations>
                         </phrasalverbs>
-		<expressions>dry run
-<translations>
-				<translation gender="m">assaig</translation>
+                    <expressions>dry run
+                        <translations>
+                            <translation gender="m">assaig</translation>
 			</translations>
-		</expressions>
+                    </expressions>
 	</Entry>
 <Entry frequency="1630000">dryer<nouns>
                         <translations><date>0408</date>
@@ -6785,16 +6832,21 @@
 <Entry frequency="9510000">DSL<engacro>Digital Subscriber Line</engacro>
 		<acronyms>
 			<translations>
-				<translation gender="f">DSL<catacro>línia d&apos;abonat digital</catacro>
+				<translation catagory="telephone" gender="f">DSL<catacro>línia d&apos;abonat digital</catacro>
 				</translation>
 			</translations>
 		</acronyms>
 	</Entry>
-<Entry frequency="19500000">dual<adjectives>
-			<translations>
+<Entry frequency="221000000">dual<adjectives>
+                            <translations><date>0908</date>
 				<translation>dual</translation>
 			</translations>
 		</adjectives>
+                <expressions>dual nationality
+                    <translations>
+                        <translation gender="f">doble nacionalitat</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="786000">duality<nouns>
 			<translations>
@@ -6818,19 +6870,18 @@
 			<translations>
 				<translation>dubtós</translation>
 			</translations>
-</adjectives>
+                </adjectives>
 	</Entry>
         <Entry frequency="8900000">Dublin<nouns>
                             <translations><date>0608</date>
 				<translation catagory="city-europe-ireland">Dublín</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="28800">Dublin Bay prawn<nouns>
-                            <translations><date>0608</date>
-                                <translation catagory="food-sea" gender="m">escamarlà<synonyms>Norway lobster, langoustine</synonyms></translation>
-			</translations>
-		</nouns>
+                <expressions>Dublin Bay prawn
+                    <translations>
+                        <translation catagory="food-sea" gender="m">escamarlà<synonyms>Norway lobster, langoustine</synonyms></translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="3250000">Dubliner<nouns>
                 <translations><date>0608</date>
