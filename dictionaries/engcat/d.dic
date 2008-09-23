@@ -49,6 +49,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="14400000">daemon<nouns>
+                            <translations><date>0908</date>
+                                <translation gender="m">dèmon</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="381000">daffodil<nouns>
 			<translations>
 				<translation catagory="plants-flower" gender="m">narcís<catnote>El narcís és un símbol nacional del País de Gal·les.</catnote>
@@ -928,6 +934,17 @@
                         </translations>
                         </verbs>
 	</Entry>
+        <Entry frequency="1520000">decease<verbs>
+			<translations><date>0908</date>
+                                <translation register="formal">morir</translation>
+			</translations>
+		</verbs>
+                <nouns>
+                    <translations>
+                        <translation register="formal" gender="m">decés</translation>
+                    </translations>
+                </nouns>
+	</Entry>
 <Entry frequency="6510000">deceased<adjectives>
 			<translations>
 				<translation register="formal">difunt / mort<synonyms>dead</synonyms></translation>
@@ -1275,12 +1292,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="12600000">deer<nouns>
-			<translations>
+<Entry frequency="58200000">deer<nouns>
+                            <translations><date>0908</date>
 				<translation catagory="animal-animal" gender="m">cérvol<plural>deer</plural>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>fallow deer
+                    <translations>
+                        <translation catagory="animal-animal" gender="f">daina</translation>
+                    </translations>
+                </expressions>
 	</Entry>
           <Entry frequency="1620000">defame<verbs>
 			<translations><date>0808</date>
@@ -1732,7 +1754,12 @@
 				</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>deliver up<translations><translation transitive="true">lliurar</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>deliver up
+                    <translations>
+                        <translation transitive="true">lliurar</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="14400000">delivery<nouns>
 			<translations>
 				<grouptranslation><translation gender="m">lliurament / repartiment</translation>
@@ -1874,12 +1901,30 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="46600000">demon<nouns>
+                            <translations><date>0908</date>
+                                <translation gender="m">dimoni</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="53700000">demonstrate<verbs>
 			<translations>
 				<translation>manifestar<engnote>&apos;Manifestar&apos; means &apos;to demonstrate&apos; in the sense &apos;to protest&apos;.</engnote>
 				</translation>
 				<translation>demostrar<engnote>&apos;Demostrar&apos; means to demonstrate how something works or what something can do.</engnote>
 				</translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="280000">demonise<verbs>
+			<translations><date>0908</date>
+                            <translation local="gb">demonitzar<otherlocal>demonize</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="1030000">demonize<verbs>
+			<translations><date>0908</date>
+                            <translation>demonitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1897,6 +1942,17 @@
 				<translation gender="mf">manifestant</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="1710000">demure<adjectives>
+
+			<translations><date>0908</date>
+
+				<translation>púdic / modest / pudorós</translation>
+
+			</translations>
+
+		</adjectives>
+
 	</Entry>
 <Entry frequency="146000000">den<nouns>
 			<translations><date>0707</date>
@@ -2423,6 +2479,12 @@
 				<translation>descendir</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="3200000">descendent<nouns>
+                            <translations><date>0908</date>
+				<translation gender="mf">descendent</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="25000000">descent<nouns>
 			<translations>
