@@ -684,7 +684,7 @@
     </nouns>
     </Entry>
 <Entry frequency="22300000">camp<nouns>
-        <translations>
+        <translations><date>0908</date>
             <translation gender="m">camp / campament</translation>
         </translations>
     </nouns>
@@ -695,7 +695,7 @@
         </verbs>
         <adjectives>
             <translations>
-                <translation register="slang">efeminat</translation>
+                <translation register="slang">efeminat<synonyms>effeminate</synonyms></translation>
             </translations>
         </adjectives>
     <phrasalverbs>camp out<translations><translation intransitive="true">acampar (passar la nit en una tenda)</translation></translations></phrasalverbs></Entry>
@@ -1686,8 +1686,8 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="146000000">carry<verbs ie="true">
-        <translations>
+<Entry frequency="250000000">carry<verbs ie="true">
+        <translations><date>0908</date>
             <translation>portar</translation>
         </translations>
     </verbs>
@@ -1759,7 +1759,8 @@
         </phrasalverbs>
         <phrasalverbs>carry out
             <translations>
-                <translation>realitzar / portar a terme / complir / dur a terme / executar</translation>
+                <translation>complir (una promesa, una amenaça, una ordre)</translation>
+                <translation>dur a terme /  executar / acomplir (una tasca, una investigació, etc.)</translation>
                 <translation>portar fora</translation>
             </translations>
         </phrasalverbs>
@@ -6723,12 +6724,17 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="485000">collateral damage<nouns>
-        <translations>
-            <translation gender="mpl">danys col·laterals</translation>
-        </translations>
-    </nouns>
-    </Entry>
+      <Entry frequency="5250">collateral<nouns>
+			<translations><date>0908</date>
+				<translation gender="f">garantia<example>When you take out a mortgage, the house you buy serves as &lt;b&gt;collateral&lt;/b&gt; for the duration of the loan.</example></translation>
+			</translations>
+		</nouns>
+                <expressions>collateral damage
+                    <translations>
+                        <translation gender="mpl">danys col·laterals</translation>
+                    </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="4360000">colleague<nouns>
         <translations>
             <translation gender="mf">col·lega</translation>
@@ -11786,7 +11792,7 @@
     </Entry>
 <Entry frequency="8740000">crafty<adjectives>
         <translations><date>0708</date>
-            <translation>murri / astut<synonyms>wily, cunning</synonyms></translation>
+            <translation>murri / astut<synonyms>wily, cunning, sly</synonyms></translation>
         </translations>
     </adjectives>
     </Entry>
@@ -13108,7 +13114,7 @@
 	</Entry>
 <Entry frequency="8620000">cunning<adjectives>
         <translations><date>0708</date>
-            <translation>murri / astut<synonyms>crafty, wily</synonyms></translation>
+            <translation>murri / astut<synonyms>crafty, wily, sly</synonyms></translation>
         </translations>
     </adjectives>
     </Entry>

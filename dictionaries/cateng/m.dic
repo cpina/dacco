@@ -5207,12 +5207,6 @@
 			</translations>
 		</adjectives>
 	</Entry>
-        <Entry frequency="5250">molta sort<exclamations>
-			<translations><date>0805</date>
-				<translation>good luck! / best of British! (Br.)</translation>
-			</translations>
-		</exclamations>
-	</Entry>
 	<Entry frequency="735">moltó<nouns>
 			<translations>
 				<translation catagory="animal-animal" gender="m">ram</translation>
@@ -5479,12 +5473,11 @@
 				<translation catagory="chemistry" gender="m">monoxide</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        	<Entry frequency="655">monòxid de carboni<nouns>
-			<translations><date>0805</date>
-				<translation catagory="chemistry" gender="m">carbon monoxide<catexamp>Intoxicació per monòxid de carboni</catexamp><engexamp>Carbon monoxide poisoning</engexamp></translation>
-			</translations>
-		</nouns>
+                <expressions>monòxid de carboni
+                    <translations>
+                        <translation catagory="chemistry" gender="m">carbon monoxide<catexamp>Intoxicació per monòxid de carboni</catexamp><engexamp>Carbon monoxide poisoning</engexamp></translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="11900">monstre<nouns>
 			<translations><date>0605</date>
@@ -5762,14 +5755,13 @@
 				<translation gender="m">servant</translation>
 			</translations>
 		</nouns>
+                <expressions>mosso d'esquadra
+                    <translations>
+                        <translation gender="m">member of the Catalan police force</translation>
+                    </translations>
+                </expressions>
 	</Entry>	
-	<Entry frequency="18000">mosso d'esquadra<nouns>
-			<translations><date>0705</date>
-				<translation gender="m">member of the Catalan police force</translation>
-			</translations>
-		</nouns>
-	</Entry>	
-        <Entry frequency="715000">most<nouns>
+	<Entry frequency="715000">most<nouns>
                             <translations><date>0808</date>
 				<translation gender="m">must</translation>
 			</translations>
@@ -5834,6 +5826,11 @@
 				<translation catagory="transport-mode" register="colloquial" gender="f">(motor)bike</translation>
 			</translations>
 		</nouns>
+                <expressions>moto de neu
+                    <translations>
+                        <translation catagory="transport-mode" gender="f">snowmobile</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="4790">motocicleta<nouns>
 			<translations>
@@ -5850,12 +5847,6 @@
         	<Entry frequency="5300">motocròs<nouns>
 			<translations><date>0408</date>
 				<translation catagory="sports-event" gender="m">motocross / moto X</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="7560">moto de neu<nouns>
-			<translations><date>0408</date>
-				<translation catagory="transport-mode" gender="f">snowmobile</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6149,14 +6140,13 @@
 				<translation gender="f">mountain</translation>
 			</translations>
 		</nouns>
+                <expressions>muntanya russa
+                    <translations>
+                        <translation gender="f">roller coaster</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="744">muntanya russa<nouns>
-			<translations><date>0106</date>
-				<translation gender="f">roller coaster</translation>
-			</translations>
-		</nouns>
-	</Entry>
-          <Entry frequency="76100">muntanyenc<adjectives>
+        <Entry frequency="76100">muntanyenc<adjectives>
 			<translations><date>0406</date>
 				<translation>mountain<fems>muntanyenca</fems><femplural>muntanyenques</femplural></translation>
 			</translations>
@@ -6245,10 +6235,20 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="0">murler<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Murla</translation></translations></nouns><adjectives><translations><translation>relating to Murla or its people<fems>murlera</fems></translation></translations></adjectives></Entry>
+        <Entry frequency="15">murler<nouns>
+                <translations><date>0908</date>
+                    <translation catagory="geography" gender="m / f">(person / people) from Murla</translation>
+                </translations>
+        </nouns>
+        <adjectives>
+            <translations>
+                <translation>relating to Murla or its people<fems>murlera</fems></translation>
+            </translations>
+        </adjectives>
+    </Entry>
 	<Entry frequency="60400">murri<adjectives>
 			<translations><date>0708</date>
-				<translation>cunning / crafty / wily<fems>múrria</fems></translation>
+				<translation>sly / cunning / crafty / wily<fems>múrria</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>        
@@ -6269,22 +6269,20 @@
 				<translation catagory="body" gender="m">muscle</translation>
 			</translations>
 		</nouns>
+                <expressions>múscul abductor
+                    <translations>
+                        <translation catagory="body" gender="m">abductor muscle</translation>
+                    </translations>
+                </expressions>
+                <expressions>músculs abdominals
+                    <translations>
+                        <translation catagory="body" gender="mpl">abdomninal muscles / abdominals / abs (col·loq)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="78">múscul abductor<nouns>
-			<translations><date>0906</date>
-				<translation catagory="body" gender="m">abductor muscle</translation>
-			</translations>
-		</nouns>
-	</Entry>	
-	<Entry frequency="890">musculatura<nouns>
+     	<Entry frequency="890">musculatura<nouns>
 			<translations>
 				<translation catagory="body" gender="f">muscles</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="70">músculs abdominals<nouns>
-			<translations><date>0705</date>
-				<translation catagory="body" gender="mpl">abdomninal muscles / abdominals / abs (col·loq)</translation>
 			</translations>
 		</nouns>
 	</Entry>
