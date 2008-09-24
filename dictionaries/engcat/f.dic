@@ -997,7 +997,7 @@
                     </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="13400000">fatality<nouns>
+     <Entry frequency="13400000">fatality<nouns>
 			<translations>
 				<translation gender="f">víctima mortal<plural>fatalities</plural></translation>
                                 <translation gender="f">fatalitat</translation>
@@ -1009,6 +1009,12 @@
 				<translation gender="m">destí</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="1150000">fateful<adjectives>
+			<translations><date>0908</date>
+				<translation>fatal / fatídic</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="16600">fat-free milk<nouns>
 			<translations>
@@ -4524,6 +4530,11 @@
 				<translation>forestal</translation>
 			</translations>
 		</adjectives>
+                <expressions>forest fire
+                    <translations>
+                        <translation gender="m">incendi forestal</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1970000">forested<adjectives>
 			<translations>
@@ -4531,9 +4542,10 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="951000">forest fire<nouns>
-			<translations>
-				<translation gender="m">incendi forestal</translation>
+<Entry frequency="39400000">forestry<nouns>
+                            <translations><date>0908</date>
+				<translation gender="f">ciència forestal / sivicultura</translation>
+                                <translation beforenoun="true">forestal<engexamp>Forestry sector</engexamp><catexamp>Sector forestal</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>

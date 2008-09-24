@@ -6724,12 +6724,17 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="485000">collateral damage<nouns>
-        <translations>
-            <translation gender="mpl">danys col·laterals</translation>
-        </translations>
-    </nouns>
-    </Entry>
+      <Entry frequency="5250">collateral<nouns>
+			<translations><date>0908</date>
+				<translation gender="f">garantia<example>When you take out a mortgage, the house you buy serves as &lt;b&gt;collateral&lt;/b&gt; for the duration of the loan.</example></translation>
+			</translations>
+		</nouns>
+                <expressions>collateral damage
+                    <translations>
+                        <translation gender="mpl">danys col·laterals</translation>
+                    </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="4360000">colleague<nouns>
         <translations>
             <translation gender="mf">col·lega</translation>
@@ -7837,12 +7842,21 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="2990000">compact disc<nouns>
-        <translations>
-            <translation gender="m">disc compacte<synonyms>CD</synonyms>
-            </translation>
+<Entry frequency="174000000">compact<adjectives>
+        <translations><date>0908</date>
+            <translation>compacte</translation>
         </translations>
-    </nouns>
+    </adjectives>
+        <nouns>
+            <translations>
+                <translation catagory="transport" gender="m">(cotxe) compacte</translation>
+            </translations>
+        </nouns>
+        <expressions>compact disc
+            <translations>
+                <translation gender="m">disc compacte<synonyms>CD</synonyms></translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="220000000">company<nouns>
         <translations>
@@ -8011,7 +8025,12 @@
             <translation>queixar-se</translation>
         </translations>
     </verbs>
-    <phrasalverbs>complain of<translations><translation intransitive="true">queixar-se de</translation></translations></phrasalverbs></Entry>
+    <phrasalverbs>complain of
+        <translations>
+            <translation intransitive="true">queixar-se de</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
 <Entry frequency="25500000">complaint<nouns>
         <translations>
             <translation gender="f">queixa</translation>
@@ -8058,12 +8077,14 @@
     </adjectives>
         <nouns>
             <translations>
-                <translation gender="m">complex<engexamp>Sports complex</engexamp>
-                    <catexamp>Complex esportiu</catexamp>
-                    <plural>complexes</plural>
-                </translation>
+                <translation gender="m">complex<plural>complexes</plural></translation>
             </translations>
         </nouns>
+        <expressions>sports complex
+            <translations>
+                <translation catagory="sports" gender="m">complex esportiu</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="619000">complexion<nouns>
         <translations>
@@ -8205,48 +8226,39 @@
             <translation local="gb" catagory="education" gender="m">institut d'educació secundària (on els estudiants no han estat seleccionats segons el seu nivell intel·lectual o socioeconòmic)<synonyms>comprehensive school, comp (argot)</synonyms><example>Parents all over the country are abandoning neighbourhood &lt;b&gt;comprehensives&lt;/b&gt; in favour of grammar schools.</example></translation>
         </translations>
     </nouns>
-    </Entry>
-<Entry frequency="1180000">comprehensive school<nouns>
-        <translations>
-            <translation local="gb" catagory="education" gender="m">institut d'educació secundària (on els estudiants no han estat seleccionats segons el seu nivell intel·lectual o socioeconòmic)<synonyms>comprehensive, comp (argot)</synonyms><example>Parents all over the country are abandoning neighbourhood &lt;b&gt;comprehensive schools&lt;/b&gt; in favour of grammar schools.</example></translation>
-        </translations>
-    </nouns>
-    </Entry>
+     </Entry>
 <Entry frequency="7000000">compress<verbs>
         <translations>
             <translation catagory="computers">comprimir</translation>
         </translations>
     </verbs>
+        <expressions>compressed natural gas
+            <translations>
+                <translation termcat="energy" gender="m">gas natural comprimit (GNC)</translation>
+            </translations>
+        </expressions>
     </Entry>
-<Entry frequency="770000">compressed natural gas<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">gas natural comprimit (GNC)</translation>
-			</translations>
-		</nouns>
-	</Entry>
 <Entry frequency="111000000">compression<nouns>
         <translations>
             <translation gender="f">compressió</translation>
         </translations>
     </nouns>
-    </Entry>
-<Entry frequency="1750000">compression algorithm<nouns>
-        <translations>
-            <translation termcat="true" gender="m">algorisme de compressió</translation>
-        </translations>
-    </nouns>
+        <expressions>compression algorithm
+            <translations>
+                <translation termcat="true" gender="m">algorisme de compressió</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="3030000">compressor<nouns>
 			<translations><date>0307</date>
 				<translation termcat="energy" gender="m">compressor</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="480000">compressor station<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">estació de compressió</translation>
-			</translations>
-		</nouns>
+                <expressions>compressor station
+                    <translations>
+                        <translation termcat="energy" gender="f">estació de compressió</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="59100000">comprise<verbs>
 			<translations><date>0708</date>
@@ -8316,6 +8328,11 @@
           <expressions>computer architecture
             <translations>
                 <translation catagory="computers" termcat="true" gender="f">arquitectura d'ordinador</translation>
+            </translations>
+        </expressions>
+        <expressions>computer science
+            <translations>
+                <translation gender="f">informàtica</translation>
             </translations>
         </expressions>
           <expressions>computer security
@@ -12245,12 +12262,11 @@
                 <translation gender="m">delicte</translation></grouptranslation>
         </translations>
     </nouns>
-    </Entry>
-<Entry frequency="1080000">crime against humanity<nouns>
-        <translations>
-            <translation gender="m">crim contra la humanitat</translation>
-        </translations>
-    </nouns>
+        <expressions>crime against humanity
+            <translations>
+                <translation gender="m">crim contra la humanitat</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="20900000">criminal<nouns>
         <translations>
@@ -12303,6 +12319,17 @@
 <Entry frequency="1080000">criminology<nouns>
         <translations>
             <translation gender="f">criminologia</translation>
+        </translations>
+    </nouns>
+    </Entry>
+<Entry frequency="27300000">crimson<adjectives>
+        <translations><date>0908</date>
+            <translation>carmesí</translation>
+        </translations>
+    </adjectives>
+    <nouns>
+        <translations>
+            <translation gender="m">carmesí</translation>
         </translations>
     </nouns>
     </Entry>

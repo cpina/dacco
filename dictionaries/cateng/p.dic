@@ -4346,16 +4346,17 @@
 			</translations>
 		</nouns>
                 <adjectives>
-                <translations>
-                <translation>pirated / bootleg<catexamp>Enregistraments pirates</catexamp><engexamp>Bootleg / pirated recordings</engexamp></translation></translations></adjectives>
+                    <translations>
+                        <translation>pirated / bootleg<catexamp>Enregistraments pirates</catexamp><engexamp>Bootleg / pirated recordings</engexamp></translation>
+                    </translations>
+                </adjectives>
+                <expressions>pirata informàtic
+                    <translations>
+                        <translation catagory="computers-internet" gender="m / f">hacker</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="620">pirata informàtic<nouns>
-			<translations><date>0805</date>
-				<translation catagory="computers-internet" gender="m / f">hacker</translation>
-			</translations>
-		</nouns>
-	</Entry>
-                <Entry frequency="670">piratejar<verbs conj="JtoG">
+                  <Entry frequency="670">piratejar<verbs conj="JtoG">
 			<translations><date>0805</date>
 				<translation>to pirate / to bootleg</translation>
 			</translations>
@@ -4387,7 +4388,7 @@
 	</Entry>
 	<Entry frequency="27100">Pirineu<nouns>
 			<translations>
-				<translation gender="f">Pyrenees</translation>
+				<translation catagory="geography-europe" gender="f">Pyrenees</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4425,22 +4426,21 @@
          <Entry frequency="12300">pissarra<nouns>
 			<translations><date>0805</date>
 				<translation catagory="education" gender="f">blackboard (Br.) / chalkboard (Am.)</translation>
+                                <translation catagory="material" gender="f">slate<synonyms>llicorella</synonyms></translation>
 			</translations>
 		</nouns>
+                <expressions>pissarra blanca
+                    <translations>
+                        <translation disambiguate="education, computers" gender="f">whiteboard</translation>
+                    </translations>
+                </expressions>
+                <expressions>pissarra electrònica
+                    <translations>
+                        <translation catagory="computers" gender="f">(electronic) whiteboard</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-          <Entry frequency="246">pissarra blanca<nouns>
-			<translations><date>0408</date>
-				<translation disambiguate="education, computers" gender="f">whiteboard</translation>
-			</translations>
-		</nouns>
-	</Entry>
-          <Entry frequency="265">pissarra electrònica<nouns>
-			<translations><date>0508</date>
-				<translation catagory="computers" gender="f">whiteboard</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="139000">pista<nouns>
+    	<Entry frequency="139000">pista<nouns>
 			<translations><date>0505</date>
 				<translation gender="f">clue</translation>
 				<translation gender="f">trail<catexamp>Segueixen la pista de l'assassí</catexamp><engexamp>They are on the trail of the killer / they are on the killer's trail</engexamp></translation>
@@ -6664,7 +6664,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
-        
+<Entry frequency="18000">poti-poti<nouns>
+                            <translations><date>0908</date>
+				<translation gender="m">hodgepodge (Br.) / hotchpotch (Am.)</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="0">potrier<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Potries</translation></translations></nouns><adjectives><translations><translation>relating to Potries or its people<fems>potriera</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="1430000">potser<adverbs>
                             <translations><date>1007</date>
@@ -9255,6 +9260,12 @@
 				<translation catagory="animal-bird" gender="m">hoopoe</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="1220000">pur<adjectives>
+                            <translations><date>0908</date>
+				<translation>pure<fems>pura</fems></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 	<Entry frequency="8750">purament<adverbs>
 			<translations>
