@@ -965,8 +965,8 @@
 	</Entry>
 <Entry frequency="1010000">fasten<verbs>
 			<translations><date>0408</date>
-                        <translation>subjectar</translation>
-				<translation>cordar-se</translation>
+                        <translation>subjectar / fixar</translation>
+				<translation>(coat / shoes) cordar-se</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>fasten up
@@ -2281,7 +2281,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>rodar / filmar (una pel·lícula)</translation>
+				<translation>rodar / filmar (una pel·lícula)<synonyms>shoot</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2439,6 +2439,11 @@
                         <translation register="slang">denunciar</translation>
                     </translations>
                 </verbs>
+                <expressions>finger hole
+                    <translations>
+                        <translation disambiguate="entertainment-music" gender="m">orifici</translation>
+                    </translations>
+                </expressions>
                 <expressions>index finger
                     <translations>
                         <translation catagory="body" gender="m">dit índex</translation>
@@ -2459,11 +2464,6 @@
                 <translations>
                     <translation local="gb">fer el gest d'anar a prendre pel cul amb el dit del mig (o el dit del mig i el dit índex)<otherlocal>flip (someone) off, flip (someone) the bird</otherlocal></translation>
                 </translations>
-                </expressions>
-                <expressions>finger hole
-                    <translations>
-                        <translation disambiguate="entertainment-music" gender="m">orifici</translation>
-                    </translations>
                 </expressions>
 	</Entry>
          <Entry frequency="2250000">fingerboard<nouns>
@@ -2495,25 +2495,27 @@
 				<translation>acabar / terminar / finalitzar / culminar</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>finish with<translations><translation intransitive="true">acabar de fer servir (una cosa)</translation></translations></phrasalverbs></Entry>
-<Entry frequency="449">finish hut<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding, sports-event-skiing" termcat="true" gender="f">caseta d'arribada</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="703000">finishing line<nouns>
-			<translations><date>0408</date>
-				<translation catagory="sports" gender="f">línia d'arribada</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="4830000">finishing touch<nouns>
-			<translations><date>0408</date>
-				<translation gender="m">toc final<plural>finishing touches</plural></translation>
-			</translations>
-		</nouns>
-	</Entry>
+                <phrasalverbs>finish with
+                    <translations>
+                        <translation intransitive="true">acabar de fer servir (una cosa)</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>finish hut
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding, sports-event-skiing" termcat="true" gender="f">caseta d'arribada</translation>
+                    </translations>
+                </expressions>
+                <expressions>finish(ing) line
+                    <translations><date>0408</date>
+                        <translation catagory="sports" gender="f">línia d'arribada</translation>
+                    </translations>
+                </expressions>
+                <expressions>finishing touch
+                    <translations>
+                        <translation gender="m">toc final<plural>finishing touches</plural></translation>
+                    </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="64000000">finite<adjectives>
 			<translations>
 				<translation>finit</translation>
@@ -2557,9 +2559,14 @@
 	</Entry>
 <Entry frequency="3590000">fir<nouns>
 			<translations>
-				<translation gender="m">avet<synonyms>fir tree</synonyms></translation>
+				<translation catagory="plants-tree" gender="m">avet</translation>
 			</translations>
 		</nouns>
+                <expressions>fir tree
+                    <translations>
+                        <translation catagory="plants-tree" gender="m">avet</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="43100000">fire<nouns>
 			<translations>
@@ -2581,6 +2588,31 @@
                         <translation intransitive="true">disparar trets a (o contra)</translation>
                     </translations>
                 </phrasalverbs>
+                <expressions>fire brigade
+                    <translations>
+                        <translation gender="mpl">bombers</translation>
+                    </translations>
+                </expressions>
+                <expressions>fire drill
+                    <translations>
+                        <translation gender="m">simulacre d'incendi</translation>
+                    </translations>
+                </expressions>
+                <expressions>fire engine
+                    <translations>
+                        <translation catagory="transport" local="gb" gender="f">camió de bombers<otherlocal>fire truck</otherlocal></translation>
+                    </translations>
+                </expressions>
+                <expressions>fire extinguisher
+                    <translations>
+                        <translation gender="m">extintor</translation>
+                    </translations>
+                </expressions>
+                <expressions>fire truck
+                    <translations>
+                        <translation catagory="transport" local="us" gender="f">camió de bombers<otherlocal>fire engine</otherlocal></translation>
+                    </translations>
+                </expressions>
                 <expressions>fight fire with fire
                 <translations>
                 <translation>pagar amb la mateixa moneda</translation>
@@ -2604,30 +2636,6 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="347000">fire brigade<nouns>
-			<translations>
-				<translation gender="mpl">bombers</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="137000">fire drill<nouns>
-			<translations>
-				<translation gender="m">simulacre d'incendi</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="1800000">fire engine<nouns>
-			<translations>
-				<translation catagory="transport" local="gb" gender="f">camió de bombers<otherlocal>fire truck</otherlocal></translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="10200000">fire extinguisher<nouns>
-			<translations>
-				<translation gender="m">extintor</translation>
-			</translations>
-		</nouns>
-	</Entry>
 <Entry frequency="20100000">firefighter<nouns>
 			<translations>
 				<translation catagory="work-job" local="us" gender="mf">bomber<otherlocal>fireman</otherlocal>
@@ -2645,12 +2653,6 @@
 <Entry frequency="2760000">fireplace<nouns>
 			<translations>
 				<translation gender="f">llar de foc / xemeneia</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="943000">fire truck<nouns>
-			<translations>
-				<translation catagory="transport" local="us" gender="f">camió de bombers<otherlocal>fire engine</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2682,7 +2684,7 @@
 				<translation>ferm</translation>
 			</translations>
 		</adjectives>
-	<phrasalverbs>firm up<translations><translation transitive="true">enfortir</translation><translation transitive="true">aclarir (un assumpte), especificar amb més detall</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>firm up<translations><translation transitive="true">enfortir</translation><translation transitive="true">aclarir (un assumpte), especificar amb més detall</translation></translations></phrasalverbs></Entry>
 <Entry frequency="688000">firmness<nouns>
 			<translations>
 		<translation gender="f">fermesa</translation>
@@ -2711,9 +2713,29 @@
                         <translation>primer / primerament</translation>
                     </translations>
                 </adverbs>
+                <expressions>first aid
+                    <translations>
+                        <translation catagory="medical" gender="mpl">primers auxilis</translation>
+                    </translations>
+                </expressions>
+                <expressions>first aider
+                    <translations>
+                        <translation gender="mf">socorrista</translation>
+                    </translations>
+                </expressions>
+                <expressions>first aid kit
+                    <translations>
+                        <translation catagory="medical" gender="f">farmaciola</translation>
+                    </translations>
+                </expressions>
                 <expressions>first and foremost
                     <translations>
                         <translation>abans de tot</translation>
+                    </translations>
+                </expressions>
+                <expressions>first name
+                    <translations>
+                        <translation gender="m">nom<example>His &lt;b&gt;first name&lt;/b&gt; is John. His surname (o second name) is Smith.</example></translation>
                     </translations>
                 </expressions>
                 <expressions>first of all
@@ -2726,72 +2748,22 @@
                 <translation register="colloquial">abans que res / primer de tot</translation>
                 </translations>
                 </expressions>
-	</Entry>
-<Entry frequency="8350000">first aid<nouns>
-			<translations>
-				<translation catagory="medical" gender="mpl">primers auxilis</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="136000">first aider<nouns>
-			<translations>
-				<translation gender="mf">socorrista</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="1450000">first aid kit<nouns>
-			<translations>
-				<translation catagory="medical" gender="f">farmaciola</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="1520000">first and foremost<adverbs>
-			<translations>
-				<translation>abans de tot</translation>
-			</translations>
-		</adverbs>
+                <expressions>first time buyer
+                    <translations>
+                        <translation>persona que compra el seu primer pis / casa</translation>
+                    </translations>
+                </expressions>
+                <expressions>First World War
+                    <translations>
+                        <translation gender="f">Primera Guerra Mundial</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="28000000">firstly<adverbs>
 			<translations><date>1007</date>
 				<translation>primer / primerament / en primer lloc / abans que res / primer de tot</translation>
 			</translations>
 		</adverbs>
-	</Entry>
-<Entry frequency="5740000">first of all<adverbs>
-			<translations>
-				<translation>abans que res / primer de tot</translation>
-			</translations>
-		</adverbs>
-	</Entry>
-<Entry frequency="312000">first off<adverbs>
-			<translations>
-				<translation register="colloquial">abans que res / primer de tot</translation>
-			</translations>
-		</adverbs>
-	</Entry>
-<Entry frequency="18400000">first name<nouns>
-			<translations>
-				<translation gender="m">nom</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="1100000">first time buyer<nouns>
-			<translations>
-				<translation>una persona que compra el seu primer pis / casa</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="971000">First World War<nouns>
-			<translations>
-				<translation gender="f">Primera Guerra Mundial</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="409000">fir tree<nouns>
-			<translations>
-				<translation gender="m">avet<synonyms>fir</synonyms></translation>
-			</translations>
-		</nouns>
 	</Entry>
 <Entry frequency="44700000">fiscal<adjectives>
 			<translations>
@@ -2811,7 +2783,17 @@
 				<translation>pescar</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>fish out<translations><translation transitive="true">exhaurir el nombre peixos (d'un cos d'aigua) pescant</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>fish out
+                    <translations>
+                        <translation transitive="true">exhaurir el nombre peixos (d'un cos d'aigua) pescant</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>fish ladder
+                    <translations>
+                        <translation termcat="energy" gender="f">escalera psicícola</translation>
+                    </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="1890000">fisherman<nouns>
 			<translations>
 				<translation gender="mf">pescador<plural>fishermen</plural>
@@ -2825,12 +2807,12 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="332000">fish ladder<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">escalera psicícola</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <Entry frequency="553000">fishmonger<nouns>
+                <translations><date>0908</date>
+            <translation catagory="work-job" gender="mf">peixater</translation>
+        </translations>
+    </nouns>
+    </Entry>
 <Entry frequency="53000">fisho<nouns>
 			<translations>
 				<translation register="slang" local="au" gender="mf">pescador</translation>
@@ -2948,8 +2930,9 @@
 		</nouns>
 	</Entry>
 <Entry frequency="443000000">fix<verbs>
-                            <translations><date>0408</date>
+                            <translations><date>0908</date>
 				<translation>arreglar / apanyar / reparar</translation>
+                                <translation>fixar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>fix on

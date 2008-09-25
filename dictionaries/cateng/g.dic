@@ -3057,7 +3057,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="0">guadassequià<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Guadasséquies</translation></translations></nouns><adjectives><translations><translation>relating to Guadasséquies or its people<fems>guadassequiana</fems></translation></translations></adjectives></Entry>
+<Entry frequency="4">guadassequià<nouns>
+        <translations><date>0908</date>
+            <translation catagory="geography" gender="m / f">(person / people) from Guadasséquies</translation>
+        </translations>
+    </nouns>
+    <adjectives>
+        <translations>
+            <translation>relating to Guadasséquies or its people<fems>guadassequiana</fems></translation>
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="0">guadassuarenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Guadassuar</translation></translations></nouns><adjectives><translations><translation>relating to Guadassuar or its people<fems>guadassuarenca</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="197">Guaiana<nouns>
 			<translations>
@@ -3119,6 +3129,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+          <Entry frequency="7500">guarda<nouns>
+			<translations><date>0908</date>
+				<translation gender="m / f">guard / warden / custodian</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="119">guardaagulles<nouns>
 			<translations><date>0106</date>
 				<translation catagory="work-job" gender="m / f">pointsman (Br.) / switchman (Am.)</translation>
@@ -3149,7 +3165,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="0">guardamarenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Guardamar de la Safor (or Guardamar del Segura)</translation></translations></nouns><adjectives><translations><translation>relating to Guardamar de la Safor (or Guardamar del Segura) or its people<fems>guardamarenca</fems></translation></translations></adjectives></Entry>
+        <Entry frequency="150">guardamarenc<nouns>
+                <translations><date>0908</date>
+                    <translation catagory="geography" gender="m / f">(person / people) from Guardamar de la Safor (or Guardamar del Segura)</translation>
+                </translations>
+            </nouns>
+            <adjectives>
+                <translations>
+                    <translation>relating to Guardamar de la Safor (or Guardamar del Segura) or its people<fems>guardamarenca</fems></translation>
+                </translations>
+            </adjectives>
+        </Entry>
         <Entry frequency="95000">guardar<verbs conj="regular">
 			<translations><date>0305</date>
 				<translation>to keep</translation>
@@ -3172,20 +3198,31 @@
 	</Entry>
         <Entry frequency="75300">guàrdia<nouns>
 			<translations><date>0305</date>
-				<translation gender="f">guard / watch<catexamp>Guàrdia de seguretat</catexamp><engexamp>Security guard</engexamp><catexamp>Farmàcia de guàrdia</catexamp><engexamp>Duty chemist</engexamp></translation>
+				<translation gender="f">guard / watch</translation>
 			</translations>
 		</nouns>
+                <expressions>guàrdia nacional
+                    <translations>
+                        <translation gender="f">national guard</translation>
+                    </translations>
+                </expressions>
+                <expressions>guàrdia de seguretat
+                    <translations>
+                        <translation gender="mf">security guard</translation>
+                    </translations>
+                </expressions>
                 <expressions>abaixar la guàrdia
                 <translations>
-                <translation>to lower your guard</translation></translations></expressions>
+                <translation>to lower your guard</translation>
+                </translations>
+            </expressions>
+            <expressions>farmàcia de guàrdia
+                <translations>
+                    <translation gender="f">duty chemist</translation>
+                </translations>
+            </expressions>
 	</Entry>
-        <Entry frequency="570">guàrdia nacional<nouns>
-			<translations><date>0905</date>
-				<translation gender="f">national guard</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="33000">guardiola<nouns>
+       	<Entry frequency="33000">guardiola<nouns>
 			<translations><date>0705</date>
 				<translation gender="f">piggy bank</translation>
 			</translations>

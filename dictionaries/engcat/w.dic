@@ -418,7 +418,14 @@
 				<translation catagory="animal-animal" gender="f">morsa<plural>walruses</plural></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1280000">wane<verbs>
+	</Entry>
+        <Entry frequency="16900000">wander<verbs>
+                <translations><date>0908</date>
+                    <translation>vagar<synonyms>roam</synonyms></translation>
+                </translations>
+            </verbs>
+	</Entry>
+        <Entry frequency="1280000">wane<verbs>
 			<translations>
 				<translation>decaure / minvar</translation>
                                 <translation>minvar<engnote>(the moon)</engnote><catnote>(la lluna)</catnote></translation>
@@ -429,7 +436,8 @@
                 <translation>de caiguda / de capa caiguda / en declivi</translation>
                 </translations>
                 </expressions>
-	</Entry><Entry frequency="99500">wank<verbs>
+	</Entry>
+               <Entry frequency="99500">wank<verbs>
 			<translations>
 				<translation register="vulgar">pelar-se-la<synonyms>masturbate</synonyms>
 				</translation>
@@ -454,7 +462,13 @@
 				<translation>voler</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>want out<translations><translation intransitive="true">desitjar allunyar-se (d'una situació, d'un compromís, etc.)</translation></translations></phrasalverbs></Entry><Entry frequency="50700000">war<nouns>
+                <phrasalverbs>want out
+                    <translations>
+                        <translation intransitive="true">desitjar allunyar-se (d'una situació, d'un compromís, etc.)</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="50700000">war<nouns>
 			<translations>
 				<translation gender="f">guerra<engexamp>War with (Iraq)</engexamp>
 					<catexamp>Guerra contra / amb (l'Iraq)</catexamp>
@@ -475,7 +489,17 @@
                         <translation>repel·lir</translation>
                     </translations>
                 </phrasalverbs>
-	</Entry><Entry frequency="3980000">wardrobe<nouns>
+	</Entry>
+          <Entry frequency="9450000">warden<nouns>
+			<translations><date>0908</date>
+				<translation gender="mf">guarda<engnote>'Guarda' means 'warden' in the sense 'someone who looks after something' (e.g. forest warden).</engnote></translation>
+                                <translation gender="mf">guàrdia<engnote>'Guàrdia' means 'warden' in the sense 'someone who enforces rules and regulations' (e.g. dog warden).</engnote></translation>
+                                <translation local="us" gender="mf">director de presó<otherlocal>(prison) governor</otherlocal></translation>
+                                <translation disambiguate="religious">laic que s'encarrega dels afers seculars d'una església</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="3980000">wardrobe<nouns>
 			<translations>
 				<translation catagory="household-room-bedroom" gender="m">guarda-roba</translation>
                                 <translation gender="m">vestuari</translation>
@@ -2539,7 +2563,7 @@
 		</nouns>
 		<phrasalverbs>wolf down
 			<translations>
-				<translation register="colloquial">embocar (menjhttp://visca.com/gramatica_anglesa/new.txtar àvidament)</translation>
+				<translation register="colloquial">embocar (menjar àvidament)</translation>
 			</translations>
 		</phrasalverbs>
 	</Entry><Entry frequency="95000">wolfram<nouns>
