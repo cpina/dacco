@@ -6931,6 +6931,7 @@
 <Entry frequency="13700000">dub<verbs double="true">
 			<translations>
 				<translation>doblar</translation>
+                                <translation>anomenar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7087,12 +7088,17 @@
 				</translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>dummy up
+                    <translations>
+                        <translation local="us" register="slang" intransitive="true">callar / negar-se a parlar<otherlocal>keep shtum</otherlocal></translation>
+                    </translations>
+                </phrasalverbs>
                 <expressions>spit the dummy
                 <translations>
                 <translation register="colloquial" local="au">perdre els estreps<synonyms>have a strop, throw your toys out of the pram</synonyms><example>After being overlooked for the Olympic selection, the athlete &lt;b&gt;spat the dummy&lt;/b&gt; and said he would turn his back on Australia.</example><example>America has &lt;b&gt;spat the dummy&lt;/b&gt; because France won't agree to their takeover bid of Iraq.</example></translation>
                 </translations>
                 </expressions>
-	<phrasalverbs>dummy up<translations><translation intransitive="true">(col·loq.) callar, negar-se a parlar</translation></translations></phrasalverbs></Entry>
+            </Entry>
 <Entry frequency="24400000">dump<verbs>
 			<translations>
 				<translation>abocar</translation>
@@ -7120,9 +7126,9 @@
                 </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="1320000">dumpster<nouns>
-			<translations>
-				<translation gender="m">contenidor d'escombraries</translation>
+<Entry frequency="4080000">dumpster<nouns>
+                            <translations><date>0908</date>
+				<translation local="us" gender="m">contenidor d'escombraries<otherlocal>skip</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>

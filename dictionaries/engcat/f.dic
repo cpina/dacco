@@ -2430,7 +2430,7 @@
 	</Entry>
 <Entry frequency="8730000">finger<nouns>
                             <translations><date>0708</date>
-                                    <translation gender="m">dit<engexamp>Middle finger</engexamp><catexamp>Dit del mig (o del cor)</catexamp><engexamp>Ring finger</engexamp><catexamp>Dit anular</catexamp><engexamp>Little finger (or pinky)</engexamp><catexamp>Dit menut (o xic)</catexamp></translation>
+                                    <translation catagory="body" gender="m">dit</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -2449,9 +2449,19 @@
                         <translation catagory="body" gender="m">dit índex</translation>
                     </translations>
                 </expressions>
+                <expressions>middle finger
+                    <translations>
+                        <translation catagory="body" gender="m">dit del mig / dit del cor</translation>
+                    </translations>
+                </expressions>
                 <expressions>lay a finger on
                     <translations>
                         <translation>posar la mà a sobre</translation>
+                    </translations>
+                </expressions>
+                <expressions>little finger
+                    <translations>
+                        <translation catagory="body" gender="m">dit menut / dit xic<synonyms>pinky</synonyms></translation>
                     </translations>
                 </expressions>
                <expressions>not lift a finger (to do something)
@@ -2459,6 +2469,11 @@
                 <translation>no moure un dit (per fer alguna cosa)
                 </translation>
                 </translations>
+                </expressions>
+                <expressions>ring finger
+                    <translations>
+                        <translation catagory="body" gender="m">dit anular</translation>
+                    </translations>
                 </expressions>
                 <expressions>stick your finger(s) up at (someone)
                 <translations>
@@ -3547,7 +3562,7 @@
                     </translations>
                     </expressions>
 	</Entry>
-<Entry frequency="3930000">float<verbs>
+    <Entry frequency="3930000">float<verbs>
 			<translations>
 				<translation>surar / flotar<engnote>'Surar' and 'flotar' mean 'float' in the sense 'not to sink'.</engnote></translation>
                                 <translation disambiguate="financial">posar en circulació (per primer cop)<example>Football is big business in England and many clubs have been &lt;b&gt;floated&lt;/b&gt; on the Stock Exchange in recent years.</example></translation>
