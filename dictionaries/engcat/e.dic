@@ -129,11 +129,11 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="41200000">earn<verbs>
+<Entry frequency="136000000">earn<verbs>
 			<past>earnt, earned</past>
 			<participle>earnt, earned</participle>
-			<translations>
-				<translation>guanyar<example>Figures due out next week are expected to show that academics in the UK &lt;b&gt;earn&lt;/b&gt; on average £30,000 a year less than their counterparts in the US.</example>
+                            <translations><date>1008</date>
+				<translation>guanyar / cobrar<example>Figures due out next week are expected to show that academics in the UK &lt;b&gt;earn&lt;/b&gt; on average £30,000 a year less than their counterparts in the US.</example>
 				</translation>
 			</translations>
 		</verbs>
@@ -1048,29 +1048,27 @@
 				<translation register="colloquial">animar a algú</translation>
 			</translations>
 		</phrasalverbs>
+                <expressions>egg cup
+                    <translations>
+                        <translation catagory="household-room-kitchen" gender="f">ouera</translation>
+                    </translations>
+                </expressions>
+                <expressions>egg white
+                    <translations>
+                        <translation catagory="food" gender="f">clara (d'ou)</translation>
+                    </translations>
+                </expressions>
+                <expressions>egg yolk
+                    <translations>
+                        <translation catagory="food" gender="m">rovell d'ou</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-<Entry frequency="193000">egg cup<nouns>
-			<translations>
-				<translation catagory="household-room-kitchen" gender="f">ouera</translation>
-			</translations>
-		</nouns>
-	</Entry>
+
 <Entry frequency="504000">eggplant<nouns>
 			<translations>
 				<translation local="us" gender="f">albergínia<otherlocal>aubergine</otherlocal>
 				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="407000">egg white<nouns>
-			<translations>
-				<translation gender="f">clara (d'ou)</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="232000">egg yolk<nouns>
-			<translations>
-				<translation gender="m">rovell d'ou</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1302,11 +1300,21 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="496000">electoral college<nouns>
-			<translations>
-				<translation catagory="politics" gender="m">col·legi electoral</translation>
+<Entry frequency="29500000">electoral<adjectives>
+                            <translations><date>1008</date>
+				<translation catagory="politics">electoral</translation>
 			</translations>
-		</nouns>
+		</adjectives>
+                <expressions>electoral college
+                    <translations>
+                        <translation catagory="politics" gender="m">col·legi electoral</translation>
+                    </translations>
+                </expressions>
+                <expressions>electoral register (o roll)
+                    <translations>
+                        <translation catagory="politics" gender="m">cens electoral</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="763000">electorate<nouns>
 			<translations>
@@ -1320,48 +1328,37 @@
 				<translation>elèctric</translation>
 			</translations>
 		</adjectives>
+                <expressions>electric charge
+                    <translations>
+                        <translation termcat="energy" gender="f">càrrega elèctrica</translation>
+                    </translations>
+                </expressions>
+                <expressions>electric current
+                    <translations>
+                        <translation gender="m">corrent elèctric</translation>
+                    </translations>
+                </expressions>
+                <expressions>electric field
+                    <translations>
+                        <translation gender="m">camp elèctric</translation>
+                    </translations>
+                </expressions>
+                <expressions>electric guitar
+                    <translations>
+                        <translation catagory="entertainment-music-instrument" gender="f">guitarra elèctrica</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="23900000">electrical<adjectives>
 			<translations>
 				<translation>elèctric</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="1170000">electrical energy<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">energia elèctrica</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="968">electric charge<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">càrrega elèctrica</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="113000">electric circuit<nouns>
-			<translations>
-				<translation gender="m">circuit elèctric</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="335000">electric current<nouns>
-			<translations>
-				<translation gender="m">corrent elèctric</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="756000">electric field<nouns>
-			<translations>
-				<translation gender="m">camp elèctric</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="572000">electric guitar<nouns>
-			<translations>
-				<translation gender="f">guitarra elèctrica</translation>
-			</translations>
-		</nouns>
+                <expressions>electrical energy
+                    <translations>
+                        <translation termcat="energy" gender="f">energia elèctrica</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="983000">electrician<nouns>
 			<translations>
@@ -1374,12 +1371,11 @@
 				<translation gender="f">electricitat / energia elèctrica</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="72300">electricity sector<nouns>
-			<translations>
-				<translation gender="m">sector elèctric</translation>
-			</translations>
-		</nouns>
+                <expressions>electricity sector
+                    <translations>
+                        <translation gender="m">sector elèctric</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1260000">electrification<nouns>
 			<translations><date>0307</date>
@@ -1387,11 +1383,16 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="882000">electrochemical cell<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">cèl·lula electroquímica</translation>
+<Entry frequency="5310000">electrochemical<adjectives>
+			<translations><date>1008</date>
+				<translation>electroquímic</translation>
 			</translations>
-		</nouns>
+		</adjectives>
+                <expressions>electrochemical cell
+                    <translations>
+                        <translation termcat="energy" gender="f">cèl·lula electroquímica</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="480000">electrocute<verbs>
 			<translations>
@@ -1447,6 +1448,21 @@
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>electronic diary
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="f">agenda electrònica<plural>electronic diaries</plural></translation>
+                    </translations>
+                </expressions>
+                <expressions>electronic engineering
+                    <translations>
+                        <translation gender="f">enginyeria electrònica</translation>
+                    </translations>
+                </expressions>
+                <expressions>electronic library
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="f">biblioteca electrònica<plural>electronic libraries</plural></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1890000">electronically<adverbs>
 			<translations>
@@ -1454,29 +1470,17 @@
 			</translations>
 		</adverbs>
 	</Entry>
-<Entry frequency="227000">electronic diary<nouns>
-			<translations>
-				<translation catagory="computers" termcat="true" gender="f">agenda electrònica<plural>electronic diaries</plural></translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="701000">electronic engineering<nouns>
-			<translations>
-				<translation gender="f">enginyeria electrònica</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="6800000">electronic library<nouns>
-			<translations>
-				<translation catagory="computers" termcat="true" gender="f">biblioteca electrònica<plural>electronic libraries</plural></translation>
-			</translations>
-		</nouns>
-	</Entry>
 <Entry frequency="136000000">electronics<nouns>
 			<translations>
 				<translation gender="f">electrònica</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="7390000">electrostatic<adjectives>
+			<translations><date>1008</date>
+				<translation>electrostàtic</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="1370000">electrostatics<nouns>
 			<translations><date>0708</date>
@@ -1504,7 +1508,7 @@
 	</Entry>
 <Entry frequency="2460000">elegy<nouns>
 			<translations><date>0907</date>
-				<translation gender="f">elegy<plural>elegies</plural></translation>
+				<translation gender="f">elegia<plural>elegies</plural></translation>
 			</translations>
 		</nouns>
                 </Entry>
@@ -1526,13 +1530,12 @@
 				<translation>elemental</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="6600000">elementary school<nouns>
-			<translations>
-				<translation local="us" gender="f">escola primària<otherlocal>primary school</otherlocal>
-				</translation>
-			</translations>
-		</nouns>
+                <expressions>elementary school
+                    <translations>
+                        <translation local="us" gender="f">escola primària<otherlocal>primary school</otherlocal>
+                        </translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="5620000">elephant<nouns>
 			<translations>
@@ -1549,7 +1552,7 @@
 	</Entry>
 <Entry frequency="3700000">eleven<adjectives>
 			<translations>
-				<translation>onze</translation>
+				<translation catagory="number-cardinal">onze</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1589,6 +1592,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="539000">elitist<adjectives>
+                            <translations><date>1008</date>
+				<translation>elitista</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="mf">elitista</translation>
+                    </translations>
+                </nouns>
+	</Entry>
 <Entry frequency="1040000">elixir<nouns>
 			<translations>
 				<translation gender="m">elixir</translation>
@@ -1597,12 +1611,12 @@
 	</Entry>
 <Entry frequency="2730000">Elizabethan<adjectives>
 			<translations>
-				<translation>relatiu o pertanyent al regnat d'Elizabeth II d'Anglaterra</translation>
+				<translation>relatiu o pertanyent al regnat d'Elizabeth I d'Anglaterra</translation>
 			</translations>
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation gender="mf">persona que vivia durant el regnat d'Elizabeth II d'Anglaterra</translation></translations></nouns>
+                <translation gender="mf">persona que vivia durant el regnat d'Elizabeth I d'Anglaterra</translation></translations></nouns>
 	</Entry>
 <Entry frequency="38900000">elk<nouns>
 			<translations>
@@ -1612,8 +1626,7 @@
 	</Entry>
 <Entry frequency="38100">Elland Road<nouns>
 			<translations>
-				<translation catagory="sports, encyclopaedic" noteng="TRUE" local="gb">-<catnote>Elland Road és el nom de l'estadi de l'equip de futbol Leeds United FC.</catnote>
-				</translation>
+				<translation catagory="sports, encyclopaedic" local="gb">nom de l'estadi de l'equip de futbol Leeds United FC</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1767,13 +1780,12 @@
                                 <translation termcat="true" catagory="computers-internet" gender="f">adreça electrònica / a/e<engnote>'Adreça electrònica' means 'email' as in 'email address' (e.g. 'Which of your emails should I send this to?').</engnote></translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="259000">email address<nouns>
-			<translations>
-				<translation catagory="computers-internet" termcat="true" gender="f">adreça electrònica / a/e</translation>
-				<translation catagory="computers-internet" gender="f">adreça de correu electrònic</translation>
-			</translations>
-		</nouns>
+                <expressions>email address
+                    <translations>
+                        <translation catagory="computers-internet" termcat="true" gender="f">adreça electrònica / a/e</translation>
+                        <translation catagory="computers-internet" gender="f">adreça de correu electrònic</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2030000">embargo<nouns>
 			<translations>
@@ -1820,7 +1832,7 @@
 	</Entry>
 <Entry frequency="95200000">embassy<nouns>
 			<translations>
-				<translation gender="f">ambaixada<plural>embassies</plural>
+				<translation catagory="politics" gender="f">ambaixada<plural>embassies</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -1961,20 +1973,18 @@
                                 <translation>d'urgència</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="45900">emergency brake<nouns>
-			<translations>
-				<translation local="us" gender="m">fre de mà<synonyms>e-brake (Am.)</synonyms>
-					<otherlocal>handbrake</otherlocal>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="2500000">emergency services<nouns>
-			<translations>
-				<translation gender="mpl">serveis d'emergència</translation>
-			</translations>
-		</nouns>
+                <expressions>emergency brake
+                    <translations>
+                        <translation local="us" gender="m">fre de mà<synonyms>e-brake (Am.)</synonyms>
+                            <otherlocal>handbrake</otherlocal>
+                        </translation>
+                    </translations>
+                </expressions>
+                <expressions>emergency services
+                    <translations>
+                        <translation gender="mpl">serveis d'emergència</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1310000">emigrant<nouns>
 			<translations>
@@ -2046,6 +2056,18 @@
 			</translations>
 		</adverbs>
 	</Entry>
+          <Entry frequency="1650000">empathetic<adjectives>
+                            <translations><date>1008</date>
+				<translation>empàtic<catnote>També es diu 'empathic'.</catnote></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="1190000">empathic<adjectives>
+                            <translations><date>1008</date>
+				<translation>empàtic<catnote>També es diu 'empathetic'.</catnote></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="1850000">empathy<nouns>
 			<translations>
 				<translation gender="f">empatia</translation>
@@ -2096,7 +2118,7 @@
 	</Entry>
 <Entry frequency="2650000">emphysema<nouns>
 			<translations>
-				<translation gender="m">emfisema</translation>
+				<translation catagory="medical-illness" gender="m">emfisema</translation>
 			</translations>
 		</nouns>
 	</Entry>

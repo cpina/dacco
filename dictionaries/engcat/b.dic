@@ -1292,6 +1292,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1800000">bashful<adjectives>
+                            <translations><date>1008</date>
+				<translation>tímid i modest (or púdic)</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="104000000">basic<adjectives>
 			<translations>
 				<translation>bàsic</translation>
@@ -2279,11 +2285,22 @@
                     </translations>
                     </nouns>
 	</Entry>
-<Entry frequency="3500000">being<nouns>
-			<translations>
+<Entry frequency="33100000">being<nouns>
+                            <translations><date>1008</date>
 				<translation gender="m">ésser</translation>
+                                <translation gender="f">existència</translation>
 			</translations>
 		</nouns>
+                <expressions>human being
+                    <translations>
+                        <translation gender="m">ésser humà</translation>
+                    </translations>
+                </expressions>
+                <expressions>Supreme Being
+                    <translations>
+                        <translation catagory="religious" gender="m">ésser suprem</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="5900000">Belarus<nouns>
 			<translations>
@@ -2474,20 +2491,19 @@
 	</Entry>
 <Entry frequency="566000">belly button<nouns>
 			<translations>
-				<translation gender="m">melic</translation>
+				<translation catagory="body" gender="m">melic</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="52900">belly button ring<nouns>
-			<translations>
-				<translation gender="m">pírcing<engnote>'Pírcing' is a general term that can be used to refer to any body piercings (nose studs, belly button rings etc).</engnote>
-					<engexamp>To get a belly button ring</engexamp>
-					<catexamp>Fer-se un pírcing (al melic)</catexamp>
-					<engexamp>He's got a belly button ring</engexamp>
-					<catexamp>Porta un pírcing al melic</catexamp>
-				</translation>
-			</translations>
-		</nouns>
+                <expressions>belly button ring
+                    <translations>
+                        <translation gender="m">pírcing<engnote>'Pírcing' is a general term that can be used to refer to any body piercings (nose studs, belly button rings etc).</engnote>
+                            <engexamp>To get a belly button ring</engexamp>
+                            <catexamp>Fer-se un pírcing (al melic)</catexamp>
+                            <engexamp>He's got a belly button ring</engexamp>
+                            <catexamp>Porta un pírcing al melic</catexamp>
+                        </translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="16700000">belong<verbs>
 			<translations>
@@ -2509,6 +2525,17 @@
                                         <translation gender="m">cabal</translation><synonyms>possessions, property</synonyms></grouptranslation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="49000000">beloved<adjectives>
+			<translations><date>1008</date>
+				<translation>estimat</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation register="dated" gender="mf">estimat</translation>
+                    </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="21100000">below<prepositions>
 			<translations>
@@ -6025,12 +6052,11 @@
 				<translation catagory="body" gender="m">cervell</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="626000">brain damage<nouns>
-			<translations>
-				<translation catagory="medical" gender="m">dany cerebral</translation>
-			</translations>
-		</nouns>
+                <expressions>brain damage
+                    <translations>
+                        <translation catagory="medical" gender="m">dany cerebral</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="443000">brainstorming<nouns>
 			<translations>
@@ -6088,12 +6114,11 @@
                     <translation intransitive="true">ramificar-se / estendre's (a la manera d'un tronc brancat)</translation>
                 </translations>
             </phrasalverbs>
-        </Entry>
-<Entry frequency="214000">branch and bound algorithm<nouns>
-			<translations>
-				<translation catagory="computers" termcat="true" gender="m">algorisme de branca i límit</translation>
-			</translations>
-		</nouns>
+            <expressions>branch and bound algorithm
+                <translations>
+                    <translation catagory="computers" termcat="true" gender="m">algorisme de branca i límit</translation>
+                </translations>
+            </expressions>
         </Entry>
 <Entry frequency="14600000">brand<nouns>
 			<translations>
@@ -6106,12 +6131,11 @@
                                 <translation>titllar<engnote>'Titllar' means 'to brand' in the sense 'to brand someone a liar'.</engnote></translation>
 			</translations>
 		</verbs>
-	</Entry>
-<Entry frequency="12900000">brand new<adjectives>
-			<translations>
-				<translation>flamant</translation>
-			</translations>
-		</adjectives>
+                <expressions>brand new
+                    <translations>
+                        <translation>flamant</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1230000">brandy<nouns>
 			<translations>
@@ -6132,18 +6156,17 @@
                         <translation catagory="entertainment-music" gender="m">instrument de metall</translation>
                     </translations>
                 </expressions>
+                <expressions>brass knuckles
+                    <translations>
+                        <translation local="us" gender="m">puny americà<otherlocal>knuckleduster</otherlocal></translation>
+                    </translations>
+                </expressions>
                 <expressions>brass monkey weather
                 <translations>
                 <translation local="gb" register="slang">(fa) un fred que pela<example>John came in and stood in front of the fire. "It's real &lt;b&gt;brass monkey weather&lt;/b&gt; out there today", he said rubbing his hands.</example></translation></translations></expressions>
                 <expressions>it's cold enough to freeze the balls off a brass monkey
                 <translations>
                 <translation local="gb" register="vulgar">fa un fred que pela</translation></translations></expressions>
-	</Entry>
-<Entry frequency="108000">brass knuckles<nouns>
-			<translations>
-				<translation local="us" gender="m">puny americà<otherlocal>knuckleduster</otherlocal></translation>
-			</translations>
-		</nouns>
 	</Entry>
 <Entry frequency="2860000">brave<adjectives>
 			<translations>
@@ -6389,6 +6412,11 @@
 				<translation catagory="food" gender="m">esmorzar</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation register="formal">esmorzar</translation>
+                        </translations>
+                </verbs>
                 <expressions>have breakfast
                     <translations>
                         <translation catagory="food">esmorzar</translation>
@@ -7214,6 +7242,12 @@
             </translations>
         </phrasalverbs>
     </Entry>
+<Entry frequency="1450000">brusque<adjectives>
+                            <translations><date>1008</date>
+				<translation>brusc<synonyms>curt, abrupt</synonyms></translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="9910000">Brussels<nouns>
 			<translations>
 				<translation>Brusel·les</translation>

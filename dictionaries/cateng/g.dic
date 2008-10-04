@@ -812,7 +812,7 @@
 	</Entry>
 	<Entry frequency="2460">gegantí<adjectives>
 			<translations>
-				<translation>gigantic / enormous<plural>gegantins</plural>
+				<translation>gigantic<plural>gegantins</plural>
 					<fems>gegantina</fems>
 				</translation>
 			</translations>
@@ -1011,9 +1011,10 @@
 			</translations>
 		</verbs>
 	</Entry>
-        	<Entry frequency="117000">gènere<nouns>
-			<translations><date>0305</date>
+        	<Entry frequency="1160000">gènere<nouns>
+			<translations><date>1008</date>
 				<translation gender="m">genre</translation>
+                                <translation disambiguate="biology" gender="m">genus<catnote>El plural de 'genus' és 'genera'.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2876,8 +2877,29 @@
 			</translations>
 		</adjectives>
 	</Entry>
-        <Entry frequency="">grisó<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from the Swiss canton of Graubünden (Grisons)</translation></translations></nouns><adjectives><translations><translation>relating to the Swiss canton of Graubünden (Grisons) or its people<plural>grisons</plural><fems>grisona</fems></translation></translations></adjectives></Entry>
-	<Entry frequency="25300">groc<adjectives>
+        <Entry frequency="5230">grisó<nouns>
+            <translations>
+                <translation catagory="geography" gender="m / f">(person / people) from the Swiss canton of Graubünden (Grisons)</translation>
+            </translations>
+        </nouns>
+        <adjectives>
+            <translations>
+                <translation>relating to the Swiss canton of Graubünden (Grisons) or its people<plural>grisons</plural><fems>grisona</fems></translation>
+            </translations>
+        </adjectives>
+    </Entry>
+        <Entry frequency="1400">griva<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="animal-bird" gender="f">mistle thrush</translation>
+			</translations>
+		</nouns>
+                <expressions>griva americana
+                    <translations>
+                        <translation catagory="animal-bird" gender="f">(American) robin<catnote>Turdus migratorius</catnote></translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="25300">groc<adjectives>
 			<translations>
 				<translation catagory="colour">yellow<fems>groga</fems>
 					<femplural>grogues</femplural>

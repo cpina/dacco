@@ -566,6 +566,12 @@
                     </translations>
                 </expressions>
 	</Entry>
+             <Entry frequency="8510">bandada<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="animal" gender="f">flock</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="20000" hasSound="true">bandera<nouns>
 			<translations>
 				<translation gender="f">flag</translation>
@@ -2710,15 +2716,15 @@
                     </translations>
                 </expressions>
 	</Entry>
-	<Entry frequency="978000" hasSound="true">boca<nouns>
-                            <translations><date>0708</date>
+	<Entry frequency="650000" hasSound="true">boca<nouns>
+                            <translations><date>1008</date>
 				<translation catagory="body" gender="f">mouth<plural>boques</plural>
 				</translation>
 			</translations>
 		</nouns>
-                <expressions>boca avall
+                <expressions>boca (per) avall
                     <translations>
-                        <translation>face down</translation>
+                        <translation>face down<synonyms>de bocaterrosa</synonyms></translation>
                     </translations>
                 </expressions>
                 <expressions>a boca de canó
@@ -2727,9 +2733,9 @@
                 </translations>
                 </expressions>
 	</Entry>
-	<Entry frequency="1680" hasSound="true">bocabadat<adjectives>
-			<translations>
-				<translation>open-mouthed / gob-smacked (col·loq)<fems>bocabadada</fems>
+	<Entry frequency="24700" hasSound="true">bocabadat<adjectives>
+                            <translations><date>1008</date>
+				<translation>open-mouthed / gobsmacked (col·loq) (Br.)<fems>bocabadada</fems>
 				</translation>
 			</translations>
 		</adjectives>
@@ -2741,6 +2747,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="2850000">bocaterrós<adjectives>
+            <translations><date>1008</date>
+            <translation>face-down<fems>bocaterrosa</fems><plural>bocaterrosos</plural></translation>
+        </translations>
+    </adjectives>
+        <expressions>de bocaterrosa
+            <translations>
+                <translation>face down<synonyms>boca (per) avall</synonyms></translation>
+            </translations>
+        </expressions>
+    </Entry>
           <Entry frequency="1780">bocoi<nouns>
 			<translations><date>0408</date>
 				<translation gender="f">(large) barrel<engnote>A 'bocoi' is a barrel that holds between 400 and 500 litres</engnote></translation>
@@ -3781,6 +3798,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="34400">brusc<adjectives>
+                            <translations><date>1008</date>
+				<translation>brusque / curt</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation disambiguate="plants" gender="m">Butcher's broom (Ruscus aculeatus)</translation>
+                    </translations>
+                </nouns>
+	</Entry>
 	<Entry frequency="1750">Brusel·les<nouns>
 			<translations><date>0805</date>
 				<translation catagory="city-europe-belgium">Brussels</translation>
@@ -4124,6 +4152,17 @@
 				<translation>to look for</translation>
 			</translations>
 		</verbs>
+	</Entry>
+           <Entry frequency="3570">busca-raons<adjectives>
+                            <translations><date>1008</date>
+				<translation>argumentative / quarrelsome</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="mf">argumentative person<synonyms>cerca-raons</synonyms></translation>
+                        </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="0">busoter<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Busot</translation></translations></nouns><adjectives><translations><translation>relating to Busot or its people<fems>busotera</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="905">busseig<nouns>

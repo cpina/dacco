@@ -3839,6 +3839,12 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="1160000">cheerio<exclamations>
+			<translations><date>1008</date>
+				<translation register="colloquial" local="gb">adéu</translation>
+			</translations>
+		</exclamations>
+	</Entry>
 <Entry frequency="453000">cheerless<adjectives>
         <translations><date>0508</date>
             <translation>trist</translation>
@@ -13278,25 +13284,22 @@
                 <translation gender="m">corrent</translation>
             </translations>
         </nouns>
-    </Entry>
-<Entry frequency="1300000">current account<nouns>
-        <translations>
-            <translation local="gb" gender="m">compte corrent<otherlocal>checking account</otherlocal>
-            </translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="1120000">current affairs<nouns>
-        <translations>
-            <translation gender="f">actualitat</translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="258000">current intensity<nouns>
-        <translations><date>0307</date>
-            <translation termcat="energy" gender="ffullform">intensitat de corrent</translation>
-        </translations>
-    </nouns>
+        <expressions>current account
+            <translations>
+                <translation local="gb" gender="m">compte corrent<otherlocal>checking account</otherlocal>
+                </translation>
+            </translations>
+        </expressions>
+        <expressions>current affairs
+            <translations>
+                <translation gender="f">actualitat</translation>
+            </translations>
+        </expressions>
+        <expressions>current intensity
+            <translations>
+                <translation termcat="energy" gender="ffullform">intensitat de corrent</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="75600000">currently<adverbs>
         <translations>
@@ -13311,12 +13314,11 @@
             </translation>
         </translations>
     </nouns>
-    </Entry>
-<Entry frequency="17100000">curriculum vitae<nouns>
-        <translations>
+    <expressions>
+         <translations>
             <translation gender="m">currículum<synonyms>CV (Br.) / résumé (Am.)</synonyms></translation>
         </translations>
-    </nouns>
+    </expressions>
     </Entry>
 <Entry frequency="125000">currier<nouns>
 			<translations><date>0707</date>
@@ -13345,6 +13347,12 @@
             <translation termcat="true" gender="m">cursor</translation>
         </translations>
     </nouns>
+    </Entry>
+    <Entry frequency="450000">curt<adjectives>
+            <translations><date>1008</date>
+            <translation>brusc<synonyms>brusque, abrupt</synonyms></translation>
+        </translations>
+    </adjectives>
     </Entry>
 <Entry frequency="4600000">curtain<nouns>
         <translations>

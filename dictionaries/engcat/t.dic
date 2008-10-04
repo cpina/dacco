@@ -1911,8 +1911,8 @@
 				<translation>terciari<engexamp>Tertiary sector</engexamp><catexamp>Sector terciari</catexamp></translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="91700000">test<nouns>
-			<translations>
+	</Entry><Entry frequency="734000000">test<nouns>
+                            <translations><date>1008</date>
 				<grouptranslation>
 					<translation gender="f">prova</translation>
 					<translation gender="m">assaig</translation>
@@ -1924,6 +1924,16 @@
 				<translation>provar</translation>
 			</translations>
 		</verbs>
+                <expressions>test card
+                    <translations>
+                        <translation gender="f">carta d'ajust</translation>
+                    </translations>
+                </expressions>
+                <expressions>test pattern
+                    <translations>
+                        <translation gender="f">carta d'ajust</translation>
+                    </translations>
+                </expressions>
 		<expressions>test positive
 			<translations>
 				<translation catagory="medical">donar positiu</translation>
@@ -3043,7 +3053,7 @@
 		</nouns>
 	</Entry><Entry frequency="783000">tickle<verbs>
 			<translations>
-				<translation>fer pessigolles</translation>
+				<translation>fer pessigolles a / buscar les pessigolles a</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="1060000">ticklish<adjectives>
@@ -3057,22 +3067,23 @@
 				<translation>mareomotriu</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="812000">tidal power<nouns>
-			<translations>
-				<translation gender="f">energia mareomotriu</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="26800">tidal power plant<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">central mareomotriu</translation>
-                            </translations>
-                        </nouns>
-	</Entry><Entry frequency="15400">tidal race<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">canal de marees</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="71700000">tide<nouns>
+                            <expressions>tidal power
+                                <translations>
+                                    <translation gender="f">energia mareomotriu</translation>
+                                </translations>
+                            </expressions>
+                            <expressions>tidal power plant
+                                <translations>
+                                    <translation termcat="energy" gender="f">central mareomotriu</translation>
+                                </translations>
+                            </expressions>
+                            <expressions>tidal race
+                                <translations>
+                                    <translation termcat="energy" gender="m">canal de marees</translation>
+                                </translations>
+                            </expressions>
+                	</Entry>
+                        <Entry frequency="71700000">tide<nouns>
                             <translations><date>1007</date>
 				<translation gender="f">marea</translation>
 			</translations>
@@ -3093,13 +3104,15 @@
 			</translations>
 		</verbs>
                 <phrasalverbs>tidy up
-                <translations>
-                <translation>endreçar</translation>
-                </translations>
+                    <translations>
+                        <translation>endreçar</translation>
+                    </translations>
                 </phrasalverbs>
                 <adjectives>
-                <translations>
-                <translation>endreçat / ordenat</translation></translations></adjectives>
+                    <translations>
+                        <translation>endreçat / ordenat</translation>
+                    </translations>
+                </adjectives>
 	</Entry><Entry frequency="153000000">tie<nouns>
                             <translations><date>1007</date>
 				<translation catagory="clothes" gender="f">corbata</translation>
@@ -3197,11 +3210,11 @@
 				<translation gender="f">corda fluixa</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="77500">tightrope walker<nouns>
-			<translations>
-				<translation gender="mf">funàmbul</translation>
-			</translations>
-		</nouns>
+                <expressions>tightrope walker
+                    <translations>
+                        <translation gender="mf">funàmbul</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="422000">tights<nouns>
 			<translations>
 				<translation catagory="clothes" gender="fpl">mitges</translation>
@@ -3227,9 +3240,9 @@
                 <translation>fins que<engnote>'Fins que' takes the subjunctive in Catalan.</engnote></translation></translations></conjunctions>
 	</Entry><Entry frequency="3830000">tile<nouns>
 			<translations>
-				<translation gender="f">rajola<engnote>'Tile' as in wall and floor tiles.</engnote>
+				<translation gender="f">rajola<engnote>'Rajola' is a wall or floor tile.</engnote>
 				</translation>
-				<translation gender="f">teula<engnote>'Tile' as in 'roof tiles'.</engnote>
+				<translation gender="f">teula<engnote>'Teula' is a roof tile.</engnote>
 				</translation>
 			</translations>
 		</nouns>

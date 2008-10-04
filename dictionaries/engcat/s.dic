@@ -4058,6 +4058,11 @@
                         <translation transitive="true">encarregar-se de</translation>
                     </translations>
                     </phrasalverbs>
+                    <expressions>see you (later o soon)
+                    <translations>
+                        <translation>fins ara! / fins aviat!</translation>
+                    </translations>
+                    </expressions>
           </Entry><Entry frequency="7870000">seed<nouns>
 
 			<translations>
@@ -4139,36 +4144,6 @@
 			</translations>
 
 		</adjectives>
-
-	</Entry><Entry frequency="840000">see you<exclamations>
-
-			<translations>
-
-				<translation>fins ara!</translation>
-
-			</translations>
-
-		</exclamations>
-
-	</Entry><Entry frequency="647000">see you later<exclamations>
-
-			<translations>
-
-				<translation>fins ara!</translation>
-
-			</translations>
-
-		</exclamations>
-
-	</Entry><Entry frequency="820000">see you soon<exclamations>
-
-			<translations>
-
-				<translation>fins ara! / fins aviat!</translation>
-
-			</translations>
-
-		</exclamations>
 
 	</Entry>
  <Entry frequency="80300000">segment<nouns>
@@ -11482,9 +11457,9 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="10100000">smoke<verbs>
+	</Entry><Entry frequency="145000000">smoke<verbs>
 
-			<translations>
+                            <translations><date>1008</date>
 
 				<translation>fumar<engexamp>To quit smoking</engexamp>
 
@@ -11510,21 +11485,28 @@
 
 		</nouns>
 
-	<phrasalverbs>smoke out<translations><translation transitive="true">fer fugir amb fum</translation></translations></phrasalverbs></Entry><Entry frequency="3610000">smoker<nouns>
+                <phrasalverbs>smoke out
+                    <translations>
+                        <translation transitive="true">fer fugir amb fum</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>smoke detector
+                    <translations>
+                        <translation catagory="household" gender="m">detector de fum</translation>
+                    </translations>
+                </expressions>
+                <expressions>smoke screen
+                    <translations>
+                        
+                        <translation gender="f">cortina de fum</translation>
+                        
+                    </translations>
+                </expressions>
+            </Entry><Entry frequency="3610000">smoker<nouns>
 
 			<translations>
 
 				<translation gender="mf">fumador</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="80000">smoke screen<nouns>
-
-			<translations>
-
-				<translation gender="f">cortina de fum</translation>
 
 			</translations>
 
@@ -13230,7 +13212,20 @@
 
 		</adjectives>
 
-	</Entry><Entry frequency="126000000">Solomon Islands<nouns>
+	</Entry>
+        <Entry frequency="213000000">solo<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="entertainment-music" gender="m">solo</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="4380000">soloist<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="entertainment-music" gender="mf">solista</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="126000000">Solomon Islands<nouns>
 
 			<translations>
 
@@ -24427,7 +24422,15 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="1130000">sympathise<verbs>
+	</Entry>
+        <Entry frequency="15500000">sympathetic<adjectives>
+                            <translations><date>1008</date>
+				<translation>comprensiu / empàtic</translation>
+                                <translation>simpatitzant</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="1130000">sympathise<verbs>
 
 			<translations>
 
