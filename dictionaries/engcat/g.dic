@@ -18,11 +18,11 @@
                     </translations>
                 </nouns>
 	</Entry>
-<Entry frequency="6670000">gadget<nouns>
-			<translations>
-					<translation gender="m">dispositiu / aparell</translation>
-			</translations>
-		</nouns>
+        <Entry frequency="6670000">gadget<nouns>
+                <translations>
+                    <translation gender="m">dispositiu / aparell</translation>
+                </translations>
+            </nouns>
 	</Entry>
 <Entry frequency="1730000">gadolinium<nouns>
                             <translations><date>0508</date>
@@ -62,8 +62,8 @@
 		</nouns>
 		<verbs double="true">
 			<translations>
-				<translation>silenciar / posar-li una mordassa a algú</translation>
-				<translation register="colloquial">tenir la sensació d'estar a punt de vomitar<example>No matter how hard he tried, James couldn't change the baby's nappy without &lt;b&gt;gagging&lt;/b&gt;</example>
+				<translation transitive="true">silenciar / posar-li una mordassa a algú</translation>
+				<translation register="colloquial" intransitive="true">tenir la sensació d'estar a punt de vomitar<example>No matter how hard he tried, James couldn't change the baby's nappy without &lt;b&gt;gagging&lt;/b&gt;</example>
 				</translation>
 			</translations>
 		</verbs>
@@ -81,6 +81,7 @@
 		<nouns>
 			<translations>
 				<translation gender="m">guany</translation>
+                                <translation gender="m">augment / increment</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -172,12 +173,17 @@
                             </translations>
 		</nouns>
 	</Entry>
-<Entry frequency="61400000">gallery<nouns>
-			<translations>
+<Entry frequency="910000000">gallery<nouns>
+                            <translations><date>1008</date>
 				<translation gender="f">galeria<plural>galleries</plural>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>art gallery
+                    <translations>
+                        <translation gender="f">galeria d'art</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="38100">gallicism<nouns>
 			<translations>
@@ -670,16 +676,15 @@
 				<translation>gai</translation>
 			</translations>
 		</adjectives>
+                <expressions>gay marriage
+                    <translations>
+                        <translation gender="mpl">matrimonis homosexuals</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1180000">gaydar<nouns>
 			<translations>
 				<translation register="slang">suposada capacitat de discernir si una persona és homosexual<example>'I've never met a gay man who doesn't have at least a 3 out of 4 success rate with his &lt;b&gt;'gaydar'&lt;/b&gt;. I mean, he has to differentiate between straight and gay every time he sees an attractive man.</example><example>David Kopay, the former NFL running back who came out in the 1970s, says that on his one meeting with Troy (on a plane flight) his &lt;b&gt;gaydar&lt;/b&gt; detected nothing.</example></translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="2880000">gay marriage<nouns>
-			<translations>
-				<translation gender="mpl">matrimonis homosexuals</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4411,6 +4416,17 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="3930000">gulp<verbs>
+                            <translations><date>1008</date>
+				<translation intransitive="true">empassar-se la saliva</translation>
+			</translations>
+		</verbs>
+                <phrasalverbs>gulp down
+                    <translations>
+                        <translation>empassar-se / engolir / tragar</translation>
+                    </translations>
+                </phrasalverbs>
+	</Entry>
 <Entry frequency="8630000">gum<nouns>
 			<translations>
 				<translation disambiguate="body" gender="f">geniva</translation>
@@ -4420,13 +4436,17 @@
 				</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>gum up<translations><translation transitive="true">espatllar</translation></translations></phrasalverbs></Entry>
-<Entry frequency="29500000">gum tree<nouns>
-			<translations>
-				<translation catagory="plants-tree" gender="m">eucaliptus<synonyms>eucalyptus tree, eucalyptus</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
+                <phrasalverbs>gum up
+                    <translations>
+                        <translation transitive="true">espatllar</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>gum tree
+                    <translations>
+                        <translation catagory="plants-tree" gender="m">eucaliptus<synonyms>eucalyptus tree, eucalyptus</synonyms></translation>
+                    </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="188000000">gun<nouns>
 			<translations><date>1007</date>
 				<translation gender="f">pistola / arma</translation>
