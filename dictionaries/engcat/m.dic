@@ -5696,7 +5696,7 @@
 	</Entry>
 <Entry frequency="1750000">moth<nouns>
 			<translations>
-				<translation gender="f">arna / falena / papallona de nit</translation>
+				<translation catagory="animal-insect" gender="f">arna / falena / papallona de nit</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5705,12 +5705,16 @@
 				<translation gender="f">mare</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="819000">mother country<nouns>
-			<translations>
-				<translation gender="f">pàtria<plural>mother countries</plural><synonyms>motherland, fatherland</synonyms></translation>
-			</translations>
-		</nouns>
+                <expressions>mother country
+                    <translations>
+                        <translation gender="f">pàtria<plural>mother countries</plural><synonyms>motherland, fatherland</synonyms></translation>
+                    </translations>
+                </expressions>
+                <expressions>mother tongue
+                    <translations>
+                        <translation catagory="linguistics" gender="f">llengua materna</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="695000">motherfucker<nouns>
 			<translations>
@@ -5740,12 +5744,6 @@
 <Entry frequency="1270000">mother of pearl<nouns>
 			<translations>
 				<translation gender="m">nacre</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="850000">mother tongue<nouns>
-			<translations>
-				<translation gender="f">llengua materna</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5806,6 +5804,12 @@
 <Entry frequency="833000">motor home<nouns>
 			<translations>
 				<translation gender="f">autocaravana</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="6310000">motorist<nouns>
+                            <translations><date>1008</date>
+				<translation gender="mf">conductor / automobilista</translation>
 			</translations>
 		</nouns>
 	</Entry>
