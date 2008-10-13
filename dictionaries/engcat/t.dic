@@ -1222,13 +1222,14 @@
 				<translation>tècnic</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="667000">technical foul<nouns>
-                            <translations><date>1107</date>
-				<translation catagory="sports" termcat="true" gender="f">falta tècnica</translation>
-                                <translation catagory="sports-event-basketball" termcat="true" gender="f">(basquetbol) tècnica / falta tècnica</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="1560000">technically<adverbs>
+                <expressions>technical foul
+                    <translations>
+                        <translation catagory="sports" termcat="true" gender="f">falta tècnica</translation>
+                        <translation catagory="sports-event-basketball" termcat="true" gender="f">(basquetbol) tècnica / falta tècnica</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="1560000">technically<adverbs>
 			<translations>
 				<translation>tècnicament</translation>
 			</translations>
@@ -1269,15 +1270,19 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="2750000">tectonic<adjectives>
-			<translations>
-				<translation catagory="geography">tectònic</translation>
-			</translations>
-		</adjectives>
-                <nouns>
-                <translations>
-                <translation sourceplural="tectonics" gender="f">tectònica</translation></translations></nouns>
-	</Entry><Entry frequency="29500000">teddy<nouns>
+                </Entry><Entry frequency="2750000">tectonic<adjectives>
+                        <translations>
+                            <translation catagory="geography">tectònic</translation>
+                        </translations>
+                    </adjectives>
+                </Entry>
+                <Entry frequency="2100000">tectonics<nouns>
+                        <translations>
+                            <translation catagory="geography" gender="f">tectònica</translation>
+                        </translations>
+                    </nouns>
+                </Entry>
+	<Entry frequency="29500000">teddy<nouns>
 			<translations>
 				<translation gender="m">ós de peluix / osset de peluix<synonyms>teddy bear</synonyms><plural>teddies</plural></translation>
 			</translations>
@@ -1983,12 +1988,13 @@
 				<translation catagory="chemistry" gender="m">tub d'assaig<engexamp>Test tube holder</engexamp><catexamp>Gradeta</catexamp></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="36200">test tube holder<nouns>
-                            <translations><date>1007</date>
-				<translation catagory="chemistry" gender="f">gradeta</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="640000">tetanus<nouns>
+                <expressions>test tube holder
+                    <translations>
+                        <translation catagory="chemistry" gender="f">gradeta</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="640000">tetanus<nouns>
 			<translations>
 				<translation catagory="medical-illness" gender="m">tètanus</translation>
 			</translations>
