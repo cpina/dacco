@@ -268,13 +268,14 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="65000">pal<nouns>
-			<translations><date>0605</date>
+	<Entry frequency="838000">pal<nouns>
+			<translations><date>1008</date>
 				<translation gender="m">stick</translation>
                                 <translation disambiguate="sports" gender="m">bat</translation>
                                 <translation gender="m">pole</translation>
                                 <translation gender="m">mast</translation>
-			</translations>
+                                <translation disambiguate="sports" gender="m">post<catexamp>Pal de la porteria</catexamp><engexamp>Goalpost</engexamp></translation>
+                            </translations>
 		</nouns>
 	</Entry>       
         <Entry frequency="9080">pala<nouns>
@@ -2821,6 +2822,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+  <Entry frequency="6220">Pentateuc<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="religious" gender="m">Pentateuch</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="78">pentatleta<nouns>
 			<translations><date>0408</date>
 				<translation catagory="sports" gender="m / f">pentathlete</translation>
@@ -3060,6 +3067,12 @@
                             </translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="8140">perible<adjectives>
+                            <translations><date>1008</date>
+                                <translation>perishable</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 	<Entry frequency="4470">perifèria<nouns>
 			<translations>
 				<translation gender="f">periphery</translation>
@@ -3071,20 +3084,18 @@
                                 <translation catagory="computers" gender="m">peripheral device<catexamp>Perifèrics</catexamp><engexamp>Peripherals</engexamp></translation>
 			</translations>
 		</nouns>
+                <expressions>perifèric d'entrada
+                    <translations>
+                        <translation termcat="internet" catagory="computers" gender="m">input device</translation>
+                    </translations>
+                </expressions>
+                <expressions>perifèric de sortida
+                    <translations>
+                        <translation termcat="internet" catagory="computers" gender="m">output device</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-<Entry frequency="14900">perifèric d'entrada<nouns>
-                            <translations><date>0508</date>
-                                <translation termcat="internet" catagory="computers" gender="m">input device</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="640">perifèric de sortida<nouns>
-                            <translations><date>0508</date>
-                                <translation termcat="internet" catagory="computers" gender="m">output device</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="43100">perill<nouns>
+       	<Entry frequency="43100">perill<nouns>
 			<translations>
 				<translation gender="m">danger</translation>
 			</translations>
@@ -3158,6 +3169,12 @@
                                 <translation gender="m">journey / (round) trip</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="2210">perir<verbs conj="inceptive">
+                            <translations><date>1008</date>
+				<translation>to perish</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="885">pèrit<nouns>
 			<translations>
@@ -7719,10 +7736,10 @@
 			</translations>
 		</adverbs>
 	</Entry>
-	<Entry frequency="481000">principi<nouns>
-			<translations><date>0405</date>
+	<Entry frequency="1340000">principi<nouns>
+			<translations><date>1008</date>
 				<translation gender="m">beginning / start<catexamp>Des del principi</catexamp><engexamp>From the start / from the beginning / from the word go / from the get-go</engexamp></translation>
-                                <translation gender="m">principle</translation>
+                                <translation gender="m">tenet / principle</translation>
 			</translations>
 		</nouns>
 	</Entry>

@@ -521,8 +521,15 @@
 
 	<phrasalverbs>rag on<translations><translation intransitive="true">(br.) criticar</translation></translations></phrasalverbs></Entry>
         <Entry frequency="757000">ragamuffin<nouns>
-			<translations><date>1008</date>
-				<translation>persona (molt sovint un nen) brut i vestit amb parracs</translation>
+                <translations><date>1008</date>
+                    <translation>persona (molt sovint un nen) brut i vestit amb parracs</translation>
+                </translations>
+            </nouns>
+        </Entry>
+          <Entry frequency="72200">ragbag<nouns>
+                            <translations><date>1008</date>
+				<translation gender="m">calaix de sastre</translation>
+                                <translation gender="m">garbuix<example>The opposition criticised Gordon Brown's £300M &lt;b&gt;ragbag&lt;/b&gt; of ideas.</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -537,7 +544,17 @@
 			</translations>
 
 		</nouns>
-
+                <expressions>road rage
+                    <translations>
+                        
+                        <grouptranslation catagory="transport">
+                            
+                            <translation gender="ffullform">ira de carretera</translation>
+                            
+                        <translation gender="f">ràbia de carretera</translation></grouptranslation>
+                        
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="5860000">raid<nouns>
 
@@ -3869,12 +3886,12 @@
 		</nouns>
 
 	</Entry>
-<Entry frequency="9000000">refund<nouns>
-
-			<translations>
-
+<Entry frequency="85700000">refund<nouns>
+                        <translations><date>1008</date>
+                            <grouptranslation>
 				<translation gender="f">devolució</translation>
-
+                                <translation gender="m">reemborsament</translation>
+                                </grouptranslation>
 			</translations>
 
 		</nouns>
@@ -3891,6 +3908,12 @@
 
 		</verbs>
 
+	</Entry>
+          <Entry frequency="18100000">refundable<adjectives>
+                            <translations><date>1008</date>
+				<translation>reemborsable</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="9040000">refusal<nouns>
 
@@ -4452,6 +4475,21 @@
 		</nouns>
 
 	</Entry>
+        <Entry frequency="5950000">relapse<nouns>
+
+                            <translations><date>1008</date>
+
+				<translation catagory="medical" gender="f">recaiguda</translation>
+
+			</translations>
+
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation catagory="medical">recaure</translation>
+                        </translations>
+                </verbs>
+	</Entry>
 <Entry frequency="18700000">relate<verbs>
                             <translations><date>0508</date>
 				<translation register="formal">contar / relatar<example>The childrens' grandfather loved to &lt;b&gt;relate&lt;/b&gt; his wartime experiences to them.</example>
@@ -4484,16 +4522,16 @@
 		</nouns>
 
 	</Entry>
-<Entry frequency="646000">relational database<nouns>
-
-			<translations>
-
-				<translation catagory="computers" gender="f">base de dades relacional</translation>
-
+        <Entry frequency="10800000">relational<adjectives>
+                            <translations><date>1008</date>
+				<translation>relacional</translation>
 			</translations>
-
-		</nouns>
-
+		</adjectives>
+                <expressions>relational database
+                    <translations>                        
+                        <translation catagory="computers" gender="f">base de dades relacional</translation>                        
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="48600000">relationship<nouns>
 			<translations><date>0508</date>
@@ -8619,45 +8657,19 @@
 
 	</Entry>
 <Entry frequency="104000000">road<nouns>
-
 			<translations>
-
 				<translation catagory="transport" gender="f">carretera</translation>
-
 			</translations>
-
 		</nouns>
-
-                <adjectives>
-
-                <translations><translation>viari<engexamp>Road safety</engexamp><catexamp>Seguretat viària</catexamp></translation></translations></adjectives>
-
-	</Entry>
-<Entry frequency="227000">road rage<nouns>
-
-			<translations>
-
-				<grouptranslation catagory="transport">
-
-					<translation gender="ffullform">ira de carretera</translation>
-
-					<translation gender="f">ràbia de carretera</translation></grouptranslation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry>
-<Entry frequency="847000">road safety<nouns>
-
-			<translations>
-
-				<translation catagory="transport" gender="f">seguretat viària</translation>
-
-			</translations>
-
-		</nouns>
-
+                <adjectives>                    
+                    <translations><translation>viari</translation>
+                    </translations>
+                </adjectives>
+                <expressions>road safety                   
+                    <translations>                        
+                        <translation catagory="transport" gender="f">seguretat viària</translation>                        
+                    </translations>                   
+                </expressions>
 	</Entry>
 <Entry frequency="585000">roadworks<nouns>
 

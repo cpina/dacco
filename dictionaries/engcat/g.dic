@@ -226,6 +226,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="3580000">gallows<nouns>
+                            <translations><date>1008</date>
+				<translation gender="f">forca<plural>gallows</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="1450000">gallstone<nouns>
                             <translations><date>1008</date>
 				<translation catagory="medical" gender="m">càlcul biliar</translation>
@@ -2515,28 +2521,33 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>goal scorer
+                    <translations>
+                        <translation catagory="sports" gender="mf">golejador</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="631000">goalie<nouns>
 			<translations>
-				<translation register="colloquial" gender="mf">porter</translation>
+				<translation catagory="sports" register="colloquial" gender="mf">porter</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="1230000">goalkeeper<nouns>
 			<translations>
-				<translation gender="mf">porter</translation>
+				<translation catagory="sports" gender="mf">porter</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="2520000">goal scorer<nouns>
-			<translations>
-				<translation catagory="sports" gender="mf">golejador</translation>
+        <Entry frequency="514000">goalpost<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="sports" gender="m">pal (de la porteria)</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="4170000">goat<nouns>
 			<translations>
-				<translation gender="f">cabra</translation>
+				<translation catagory="animal-animal" gender="f">cabra</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2757,12 +2768,44 @@
                             <translation gender="fpl">mercaderies</translation></grouptranslation>
                     </translations>
                 </nouns>
-	</Entry>
-<Entry frequency="341000">good afternoon<exclamations>
-			<translations>
-				<translation>bona tarda!</translation>
-			</translations>
-		</exclamations>
+                <exclamations>good afternoon
+                    <translations>
+                        <translation>bona tarda!</translation>
+                    </translations>
+                </exclamations>
+                <exclamations>good evening
+                    <translations>
+                        <translation>bona nit!<catnote>L'expressio 'good evening' s'utilitza només com a salutació en situacions formals.</catnote>
+                        </translation>
+                    </translations>
+                </exclamations>
+                <expressions>Good Friday
+                    <translations>
+                        <translation gender="m">Divendres Sant</translation>
+                    </translations>
+                </expressions>
+                <expressions>good looking
+                    <translations>
+                        <translation>atractiu</translation>
+                    </translations>
+                </expressions>
+                <exclamations>good luck
+                    <translations>
+                        <translation>bona sort!</translation>
+                    </translations>
+                </exclamations>
+                <exclamations>good morning
+                    <translations>
+                        <translation>bon dia!<catnote>També es pot dir simplement 'Morning!'.  De fet, és ben possible que aquesta última salutació sigui encara més freqüent que 'good morning'. A l'Irlanda, l'expressió 'Top of the morning (to you!)' també és molt freqüent.</catnote>
+                        </translation>
+                    </translations>
+                </exclamations>
+                <expressions>good night
+                    <translations>
+                        <translation>bona nit!<catnote>L'expressió 'good night' s'utilitza només en acomiadar-se. També es pot dir 'night night!'.  En el llenguatge parlat molt sovint es pronuncia més bés 'na-night'.</catnote>
+                        </translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4340000">goodbye<exclamations>
 			<translations>
@@ -2776,56 +2819,17 @@
                     </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="4340000">good evening<exclamations>
-			<translations>
-				<translation>bona nit!<catnote>L'expressio 'good evening' s'utilitza només com a salutació en situacions formals.</catnote>
-				</translation>
-			</translations>
-		</exclamations>
-	</Entry>
-<Entry frequency="501000">Good Friday<nouns>
-			<translations>
-				<translation gender="m">Divendres Sant</translation>
-			</translations>
-		</nouns>
-	</Entry>
 <Entry frequency="33500">Goodison Park<nouns>
 			<translations>
 				<translation catagory="sports, encyclopaedic" local="gb">nom de l'estadi de l'equip de futbol anglès Everton FC</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="1430000">good looking<adjectives>
-			<translations>
-				<translation>atractiu</translation>
-			</translations>
-		</adjectives>
-	</Entry>
-<Entry frequency="7500000">good luck<expressions>
-			<translations>
-				<translation>bona sort!</translation>
-			</translations>
-		</expressions>
-	</Entry>
-<Entry frequency="2610000">good morning<exclamations>
-			<translations>
-				<translation>bon dia!<catnote>També es pot dir simplement 'Morning!'.  De fet, és ben possible que aquesta última salutació sigui encara més freqüent que 'good morning'. A l'Irlanda, l'expressió 'Top of the morning (to you!)' també és molt freqüent.</catnote>
-				</translation>
-			</translations>
-		</exclamations>
-	</Entry>
 <Entry frequency="27300000">goodness<nouns>
 			<translations>
 				<translation gender="f">bondat</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="1010000">good night<exclamations>
-			<translations>
-				<translation>bona nit!<catnote>L'expressió 'good night' s'utilitza només en acomiadar-se. També es pot dir 'night night!'.  En el llenguatge parlat molt sovint es pronuncia més bés 'na-night'.</catnote>
-				</translation>
-			</translations>
-		</exclamations>
 	</Entry>
 <Entry frequency="793000">goodwill<nouns>
                             <translations><date>0508</date>
