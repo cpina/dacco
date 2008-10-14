@@ -4280,9 +4280,15 @@
             </translations>
         </expressions>
     </Entry>
+        <Entry frequency="10900000">Chinatown<nouns>
+            <translations><date>1008</date>
+            <translation gender="m">barri xinès</translation>
+        </translations>
+    </nouns>
+    </Entry>
 <Entry frequency="147000">chinchilla<nouns>
         <translations>
-            <translation gender="f">xinxilla</translation>
+            <translation catagory="animal-animal" gender="f">xinxilla</translation>
         </translations>
     </nouns>
     </Entry>
@@ -6029,12 +6035,11 @@
             <translation>ennuvolar-se</translation>
         </translations>
         </phrasalverbs>
-    </Entry>
-<Entry frequency="636000">cloud cover<nouns>
-        <translations>
-            <translation catagory="weather" gender="f">nuvolositat</translation>
-        </translations>
-    </nouns>
+        <expressions>cloud cover
+            <translations>
+                <translation catagory="weather" gender="f">nuvolositat</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="1570000">cloudiness<nouns>
         <translations>
@@ -6044,9 +6049,24 @@
     </Entry>
 <Entry frequency="5840000">cloudy<adjectives>
         <translations>
-            <translation>nuvolós / nebulós / ennuvolat</translation>
+            <translation catagory="weather">nuvolós / nebulós / ennuvolat</translation>
         </translations>
     </adjectives>
+    </Entry>
+     <Entry frequency="2930000">clout<nouns>
+            <translations><date>1008</date>
+                <translation gender="f">preponderància, poder i influència<example>There has been a shift of global financial and economic &lt;b&gt;clout&lt;/b&gt; to the Far East and the Middle East.</example><catnote>'Clout' és una paraula que una persona no tendeix a atribuir-se a si mateix excepte de manera jocosa.</catnote></translation>
+                <grouptranslation>
+                <translation gender="m">cop / colp</translation>
+                <translation gender="f">plantofada<example>He wouldn't stop misbehaving so his dad gave him a &lt;b&gt;clout&lt;/b&gt; round the ear.</example></translation>
+                </grouptranslation>
+        </translations>
+    </nouns>
+    <verbs>
+        <translations>
+            <translation>pegar / colpejar</translation>
+        </translations>
+    </verbs>
     </Entry>
 <Entry frequency="579000">clove<nouns>
         <translations>
@@ -9234,7 +9254,7 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="10600000">consent <nouns>
+<Entry frequency="10600000">consent<nouns>
             <translations>
                 <translation gender="m">consentiment</translation>
             </translations>

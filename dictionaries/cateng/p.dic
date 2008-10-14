@@ -4434,9 +4434,14 @@
 	</Entry>
 	<Entry frequency="28700">piràmide<nouns>
 			<translations><date>1205</date>
-				<translation catagory="maths" gender="m">pyramid<catexamp>Piràmide de població</catexamp><engexamp>Population pyramid</engexamp></translation>
+				<translation catagory="maths" gender="m">pyramid</translation>
 			</translations>
 		</nouns>
+                <expressions>piràmide de població
+                    <translations>
+                        <translation gender="m">population pyramid</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="5600">pirata<nouns>
 			<translations>
@@ -5453,11 +5458,23 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="17500">poblar<verbs conj="regular">
+            
+            <translations><date>1008</date>
+                
+                <translation transitive="true">to populate</translation>
+                <translation transitive="true">to inhabit / to live in</translation>
+            </translations>
+            
+        </verbs>
+        
+    </Entry>
 <Entry frequency="0">poblatà<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Pobla de Benifassà (or Pobla Llarga)</translation></translations></nouns><adjectives><translations><translation>relating to Pobla de Benifassà (or Pobla Llarga) or its people<plural>poblatans</plural><fems>poblatana</fems></translation></translations></adjectives></Entry>
 <Entry frequency="0">poblatí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Pobla Tornesa</translation></translations></nouns><adjectives><translations><translation>relating to Pobla Tornesa or its people<plural>poblatins</plural><fems>poblatina</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="120000">poble<nouns>
 			<translations>
-				<translation gender="m">town / people</translation>
+                            <translation gender="m">town</translation>
+                            <translation gender="m">people</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7297,6 +7314,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+         <Entry frequency="352">presciència<nouns>
+            <translations><date>1008</date>
+            <translation gender="f">prescience</translation>
+        </translations>
+    </nouns>
+    </Entry>
+        <Entry frequency="126">prescient<adjectives>
+            <translations><date>1008</date>
+            <translation>prescient</translation>
+        </translations>
+    </adjectives>
+    </Entry>
 	<Entry frequency="13600">prescindir<verbs conj="inceptive">
 			<translations>
 				<translation>to do without / to miss out / to cut out</translation>
