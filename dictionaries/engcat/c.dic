@@ -2676,6 +2676,11 @@
             </translation>
         </translations>
     </nouns>
+        <expressions>cell phone
+            <translations>
+                <translation local="us" gender="m">telèfon mòbil<otherlocal>mobile phone</otherlocal></translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="5300000">cellar<nouns>
         <translations>
@@ -2696,12 +2701,16 @@
                     </translations>
 		</nouns>
 	</Entry>
-<Entry frequency="8700000">cell phone<nouns>
-        <translations>
-            <translation local="us" gender="m">telèfon mòbil<otherlocal>mobile phone</otherlocal>
-            </translation>
-        </translations>
-    </nouns>
+     <Entry frequency="1350000">cellulitis<nouns>
+            
+            <translations><date>1008</date>
+                
+                <translation catagory="medical-illness" gender="f">cel·lulitis</translation>
+                
+            </translations>
+            
+        </nouns>
+        
     </Entry>
 <Entry frequency="5630000">celluloid<nouns>
 			<translations><date>0408</date>
@@ -4225,6 +4234,12 @@
         </translations>
     </adjectives>
     </Entry>
+      <Entry frequency="770000">chimaera<nouns>
+        <translations><date>1008</date>
+            <translation gender="f">quimera<catnote>Aquesta paraula també s'escriu 'chimera'.</catnote></translation>
+        </translations>
+    </nouns>
+    </Entry>
 <Entry frequency="2800000">chime<nouns>
             <translations><date>0807</date>
             <translation gender="f">campanada</translation>
@@ -4243,6 +4258,18 @@
                 <translation>interrompre el parlar d'altre<example>Be sure to &lt;b&gt;chime in&lt;/b&gt; if you think you know the answer.</example></translation>
             </translations>
         </phrasalverbs>
+    </Entry>
+      <Entry frequency="4180000">chimera<nouns>
+        <translations><date>1008</date>
+            <translation gender="f">quimera<catnote>Aquesta paraula també s'escriu 'chimaera'.</catnote></translation>
+        </translations>
+    </nouns>
+    </Entry>
+    <Entry frequency="370000">chimerical<ajectives>
+        <translations><date>1008</date>
+            <translation>quimèric</translation>
+        </translations>
+    </adjectives>
     </Entry>
 <Entry frequency="1170000">chimney<nouns>
         <translations>
@@ -6346,13 +6373,13 @@
     </Entry>
 <Entry frequency="63600">cockerel<nouns>
         <translations>
-            <translation gender="m">gall</translation>
+            <translation catagory="animal-animal" gender="m">gall</translation>
         </translations>
     </nouns>
     </Entry>
 <Entry frequency="567000">cockle<nouns>
         <translations>
-            <translation gender="f">escopinya</translation>
+            <translation catagory="food-sea" gender="f">escopinya</translation>
         </translations>
     </nouns>
     </Entry>
@@ -6364,7 +6391,7 @@
     </Entry>
 <Entry frequency="501000">cockroach<nouns>
         <translations>
-            <translation gender="f">panerola</translation>
+            <translation catagory="animal-insect" gender="f">panerola</translation>
         </translations>
     </nouns>
     </Entry>
@@ -6376,22 +6403,32 @@
     </Entry>
 <Entry frequency="8410000">cocktail<nouns>
         <translations>
-            <translation gender="m">còctel</translation>
+            <translation catagory="food-drink" gender="m">còctel</translation>
         </translations>
     </nouns>
     </Entry>
 <Entry frequency="3650000">cocoa<nouns>
         <translations>
-            <translation gender="m">cacau</translation>
+            <translation catagory="food-drink" gender="m">cacau</translation>
         </translations>
     </nouns>
+        <expressions>cocoa butter
+            <translations>
+                <translation gender="f">mantega de cacau</translation>
+            </translations>
+        </expressions>
     </Entry>
-<Entry frequency="272000">cocoa butter<nouns>
-        <translations>
-            <translation gender="f">mantega de cacau</translation>
-        </translations>
-    </nouns>
-    </Entry>
+        	<Entry frequency="23200000">coconut<nouns>
+			<translations><date>1008</date>
+				<translation catagory="food-fruit" gender="m">coco</translation>
+			</translations>
+		</nouns>
+                <expressions>coconut tree
+                    <translations>
+                        <translation catagory="plants-tree" gender="m">cocoter</translation>
+                    </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="14000000">cocoon<nouns>
         <translations>
             <translation catagory="animal" gender="m">capoll</translation>
@@ -11576,6 +11613,11 @@
                 <translation register="dated">festejar</translation>
             </translations>
         </verbs>
+        <expressions>Court of Appeal
+            <translations>
+                <translation gender="m">Tribunal d'apel·lació</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="467000">courteous<adjectives>
         <translations>
@@ -11601,9 +11643,9 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="990000">Court of Appeal<nouns>
-        <translations>
-            <translation gender="m">Tribunal d'apel·lació</translation>
+    <Entry frequency="7510000">courtroom<nouns>
+            <translations><date>1008</date>
+            <translation catagory="legal" gender="f">sala de justícia</translation>
         </translations>
     </nouns>
     </Entry>
@@ -11941,8 +11983,8 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="13300000">crash<nouns>
-        <translations>
+<Entry frequency="109000000">crash<nouns>
+        <translations><date>1008</date>
             <grouptranslation><translation gender="f">col·lisió</translation>
                 <translation gender="m">accident</translation></grouptranslation>
         </translations>
@@ -11960,6 +12002,11 @@
         <expressions>crash course
             <translations>
                 <translation>curs ràpid i bàsic</translation>
+            </translations>
+        </expressions>
+        <expressions>crash helmet
+            <translations>
+                <translation catagory="transport" gender="m">casc</translation>
             </translations>
         </expressions>
         <expressions>crash landing

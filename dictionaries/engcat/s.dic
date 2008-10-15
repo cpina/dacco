@@ -2135,8 +2135,7 @@
 	</Entry><Entry frequency="6860000">scent<nouns>
 
 			<translations><date>0907</date>
-
-				<translation gender="f">olor / aroma</translation>
+				<translation gender="f">olor / aroma / flaire</translation>
 
 			</translations>
 
@@ -2162,7 +2161,19 @@
 
                 </expressions>
 
-	</Entry><Entry frequency="1160000">sceptic<nouns>
+	</Entry>
+        <Entry frequency="9250000">scented<adjectives>
+
+			<translations><date>1008</date>
+
+				<translation>fragrant / perfumat / flairós / olorós</translation>
+
+			</translations>
+
+		</adjectives>
+
+	</Entry>
+        <Entry frequency="1160000">sceptic<nouns>
 
 			<translations>
 
@@ -3915,26 +3926,20 @@
 
                 </verbs>
 
-	</Entry><Entry frequency="3870000000">security<nouns>
+	</Entry><Entry frequency="679000000">security<nouns>
 
-			<translations>
+                            <translations><date>1008</date>
 
 				<translation gender="f">seguretat</translation>
-
+                                <translation sourceplural="securities" disambiguate="financial" gender="m">títol / valor</translation>
 			</translations>
 
 		</nouns>
-
-	</Entry><Entry frequency="3020000">security council<nouns>
-
-			<translations>
-
-				<translation catagory="politics" gender="m">consell de seguretat</translation>
-
-			</translations>
-
-		</nouns>
-
+                <expressions>security council
+                    <translations>
+                        <translation catagory="politics" gender="m">consell de seguretat</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="805000">sedative<nouns>
 
 			<translations>
@@ -5994,7 +5999,14 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="7980000">shame<nouns>
+	</Entry>
+         <Entry frequency="2470000">shamanism<nouns>
+			<translations><date>1008</date>
+				<translation gender="m">xamanisme</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="7980000">shame<nouns>
 
 			<translations>
 
@@ -6772,7 +6784,20 @@
 
 		</verbs>
 
-	</Entry><Entry frequency="545000000">ship<nouns>
+	</Entry>
+        <Entry frequency="3540000">Shinto<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="religious" gender="m">xintoisme<synonyms>Shintoism</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="219000">Shintoism<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="religious" gender="m">xintoisme<synonyms>Shinto</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="545000000">ship<nouns>
 
                             <translations><date>1007</date>
 
@@ -7950,7 +7975,14 @@
 
                 <translation gender="f">esgarrifança</translation></translations></nouns>
 
-	</Entry><Entry frequency="174000000">shut<verbs>
+	</Entry>
+         <Entry frequency="8150000">shun<verbs double="true">
+                            <translations><date>1008</date>
+				<translation>evitar / defugir</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="174000000">shut<verbs>
 
 			<past>shut</past>
 
@@ -11113,7 +11145,20 @@
 
 		</adjectives>
 
-	</Entry><Entry frequency="2110000">slurry<nouns>
+	</Entry>
+<Entry frequency="10400000">slump<verbs>
+                            <translations><date>1008</date>
+				<translation>(sales, prices) ensorrar-se</translation>
+                                <translation>(person) desplomar-se</translation>
+		</translations>
+		</verbs>
+                <nouns>
+                    <translations>
+                        <translation gender="m">ensorrament / declivi</translation>
+                    </translations>
+                </nouns>
+	</Entry>
+        <Entry frequency="2110000">slurry<nouns>
 
 			<translations><date>0807</date>
 
@@ -11346,13 +11391,13 @@
 
                 <translation>desprestigiar / difamar</translation></translations></verbs>
 
-	</Entry><Entry frequency="4640000">smell<verbs>
+	</Entry><Entry frequency="48300000">smell<verbs>
 
 			<past>smelt, smelled</past>
 
 			<participle>smelt, smelled</participle>
 
-			<translations>
+                            <translations><date>1008</date>
 
 				<translation intransitive="true">fer olor</translation>
                                 <translation transitive="true">olorar / ensumar</translation>
@@ -11367,7 +11412,7 @@
                 </phrasalverbs>
 		<nouns>
                     <translations>
-                        <translation gender="m">olor</translation>
+                        <translation gender="m">olor / flaire</translation>
                     </translations>
 		</nouns>
                 <expressions>sense of smell
@@ -11379,7 +11424,7 @@
 
 			<translations>
 
-				<translation>olorós</translation>
+				<translation>olorós / flairós</translation>
 
 			</translations>
 
@@ -23116,7 +23161,19 @@ s
 
 		</verbs>
 
-	</Entry><Entry frequency="230000000">surprise<nouns>
+	</Entry>
+        <Entry frequency="34500000">surplus<adjectives>
+            <translations><date>1008</date>
+            <translation>sobrer</translation>
+        </translations>
+    </adjectives>
+    <nouns>
+        <translations>
+            <translation gender="m">excedent</translation>
+        </translations>
+        </expressions>
+    </Entry>
+        <Entry frequency="230000000">surprise<nouns>
 
                             <translations><date>1007</date>
 

@@ -344,12 +344,17 @@
 			</translations>
 		</nouns>
 	</Entry>	
-	<Entry frequency="939">vareta<nouns>
-			<translations><date>0605</date>
+	<Entry frequency="21100">vareta<nouns>
+			<translations><date>1008</date>
 				<translation gender="f">wand</translation>
 				<translation gender="f">little stick</translation>
 			</translations>
 		</nouns>
+                <expressions>vareta màgica
+                    <translations>
+                        <translation gender="f">magic wand</translation>
+                    </translations>
+                </expressions>
 	</Entry>	
 	<Entry frequency="72500">vari<adjectives>
 			<translations><date>0605</date>
@@ -1657,13 +1662,12 @@
                                 <translation gender="f">casualty</translation>
 			</translations>
 		</nouns>
+                <expressions>víctima mortal
+                    <translations>
+                        <translation gender="f">fatality<catexamp>El nombre de víctimes mortals és molt alt</catexamp><engexamp>The number of deaths / dead is very high</engexamp></translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="9960">víctima mortal<nouns>
-      <translations><date>0106</date>
-        <translation gender="f">fatality<catexamp>El nombre de víctimes mortals és molt alt</catexamp><engexamp>The number of deaths / dead is very high</engexamp></translation>
-      </translations>
-    </nouns>
-  </Entry>
 	<Entry frequency="26100">victòria<nouns>
 			<translations>
 				<translation gender="f">victory / win</translation>
@@ -1675,20 +1679,18 @@
 				<translation gender="f">life</translation>
 			</translations>
 		</nouns>
+                <expressions>vida artificial
+                    <translations>
+                        <translation gender="f">A-life</translation>
+                    </translations>
+                </expressions>
+                <expressions>vida nocturna
+                    <translations>
+                        <translation gender="f">nightlife</translation>
+                    </translations>
+                </expressions>
 	</Entry>	
-        <Entry frequency="494">vida artificial<nouns>
-			<translations><date>0705</date>
-				<translation gender="f">A-life</translation>
-			</translations>
-		</nouns>
-	</Entry>
-              <Entry frequency="790">vida nocturna<nouns>
-			<translations><date>1006</date>
-				<translation gender="f">nightlife</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="116000">vídeo<nouns>
+     	<Entry frequency="116000">vídeo<nouns>
 			<translations>
 				<translation gender="m">video</translation>
 			</translations>
@@ -1762,8 +1764,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-                <Entry frequency="13700">vietnamita<nouns>
-			<translations><date>0305</date>
+                <Entry frequency="164000">vietnamita<nouns>
+			<translations><date>1008</date>
+                        <translation catagory="nationality-asia" gender="m / f">Vietnamese (man / woman / person)<catexamp>Els vietnamites</catexamp><engexamp>The Vietnamese</engexamp></translation>
 				<translation catagory="language" gender="m">Vietnamese</translation>
 			</translations>
 		</nouns>
@@ -1793,13 +1796,12 @@
 				<translation>watchful</translation>
 			</translations>
 		</adjectives>
+                <expressions>vigilant de seguretat
+                    <translations>
+                        <translation catagory="work-job">security guard</translation>
+                    </translations>
+                </expressions>
 	</Entry>	
-        <Entry frequency="648">vigilant de seguretat<nouns>
-			<translations><date>0805</date>
-				<translation catagory="work-job">security guard</translation>
-			</translations>
-		</nouns>
-	</Entry>
 	<Entry frequency="9690">vigilar<verbs conj="regular">
 			<translations>
 				<translation>to keep an eye on / to watch / to look after</translation>
@@ -1865,8 +1867,28 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="0">vilafamesí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vilafamés</translation></translations></nouns><adjectives><translations><translation>relating to Vilafamés or its people<plural>vilafamesins</plural><fems>vilafamesina</fems></translation></translations></adjectives></Entry>
-<Entry frequency="0">vilafermoser<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vilafermosa</translation></translations></nouns><adjectives><translations><translation>relating to Vilafermosa or its people<fems>vilafermosera</fems></translation></translations></adjectives></Entry>
+        <Entry frequency="38">vilafamesí<nouns>
+                <translations><date>1008</date>
+                    <translation catagory="geography" gender="m / f">(person / people) from Vilafamés</translation>
+                </translations>
+            </nouns>
+            <adjectives>
+                <translations>
+                    <translation>relating to Vilafamés or its people<plural>vilafamesins</plural><fems>vilafamesina</fems></translation>
+                </translations>
+            </adjectives>
+        </Entry>
+        <Entry frequency="7">vilafermoser<nouns>
+                <translations><date>1008</date>
+                    <translation catagory="geography" gender="m / f">(person / people) from Vilafermosa</translation>
+                </translations>
+            </nouns>
+            <adjectives>
+                <translations>
+                    <translation>relating to Vilafermosa or its people<fems>vilafermosera</fems></translation>
+                </translations>
+            </adjectives>
+        </Entry>
 <Entry frequency="0">vilafranquer<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vilafranca de Bonany</translation></translations></nouns><adjectives><translations><translation>relating to Vilafranca de Bonany or its people<fems>vilafranquera</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="1730">vilafranquí<adjectives>
 			<translations><date>0905</date>

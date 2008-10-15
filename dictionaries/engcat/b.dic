@@ -99,6 +99,11 @@
 				<translation disambiguate="body" gender="f">esquena</translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>back away
+                    <translations>
+                        <translation intransitive="true">recular / fer-se enrere</translation>
+                    </translations>
+                </phrasalverbs>
 		<phrasalverbs>back down
 			<translations>
 				<translation>desdir-se'n / retractar-se'n / abandonar (una reclamació)<example>Australia won't &lt;b&gt;back down&lt;/b&gt; on its immigration policy</example>
@@ -119,6 +124,18 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
+                <phrasalverbs>back off
+                    <translations>
+                        <translation intransitive="true">recular / fer-se enrere</translation>
+                        <translation transitive="true">fer recular</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>back out
+                    <translations>
+                        <translation transitive="true">fer sortir enrere (un vehicle)</translation>
+                        <translation intransitive="true">retirar-se (sobretot d'un negoci)</translation>
+                    </translations>
+                </phrasalverbs>
 		<phrasalverbs>back up
 			<translations>
                             <translation transitive="true">donar suport a<example>The student insisted that the death penalty was a good way of preventing crime, but nobody took much notice of him as he always failed to provide any real evidence to &lt;b&gt;back&lt;/b&gt; his arguments &lt;b&gt;up&lt;/b&gt;</example>
@@ -137,12 +154,17 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
+                <expressions>back seat
+                    <translations>
+                        <translation disambiguate="transport" gender="m">seient del darrere</translation>
+                    </translations>
+                </expressions>
                 <expressions>turn your back on (somebody / something)
                 <translations>
                 <translation>girar l'esquena a (algú / alguna cosa)</translation>
                 </translations>
                 </expressions>
-	<phrasalverbs>back away<translations><translation intransitive="true">recular, fer-se enrere</translation></translations></phrasalverbs><phrasalverbs>back off<translations><translation intransitive="true">recular, fer-se enrere</translation><translation transitive="true">fer recular</translation></translations></phrasalverbs><phrasalverbs>back out<translations><translation transitive="true">fer sortir enrere (un vehicle)</translation><translation intransitive="true">retirar-se (sobretot d'un negoci)</translation></translations></phrasalverbs></Entry>
+	</Entry>
 <Entry frequency="1010000">backboard<nouns>
                             <translations><date>1107</date>
 				<translation disambiguate="sports-event-basketball" gender="m">tauler</translation>
@@ -182,6 +204,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="6690000">backlash<nouns>
+                            <translations><date>1008</date>
+				<translation gender="f">reacció hostil</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="19100">back of beyond<nouns>
 			<translations>
 				<grouptranslation><translation gender="m">cul de món</translation>
@@ -205,12 +233,6 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="1220000">back seat<nouns>
-			<translations>
-				<translation disambiguate="transport" gender="m">seient del darrere</translation>
-			</translations>
-		</nouns>
-	</Entry>
 <Entry frequency="100000">backside<nouns>
 			<translations>
 				<translation disambiguate="body" gender="m" register="colloquial" local="gb">cul<otherlocal>ass, butt</otherlocal>
@@ -218,24 +240,21 @@
                                 <translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">costat de talons<synonyms>heel side</synonyms></translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="26800">backside air<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">aeri de talons</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="699">backside edge<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">cantell de talons</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="545">backside wall<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">paret de talons</translation>
-			</translations>
-		</nouns>
+                <expressions>backside air
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">aeri de talons</translation>
+                    </translations>
+                </expressions>
+                <expressions>backside edge
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">cantell de talons</translation>
+                    </translations>
+                </expressions>
+                <expressions>backside wall
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">paret de talons</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="405000">back slash<nouns>
 			<translations>
@@ -3322,19 +3341,28 @@
                         <translation local="gb" register="colloquial">llençar<example>Do you still want these newspapers or shall I &lt;b&gt;bin&lt;/b&gt; them?</example></translation>
                     </translations>
                 </verbs>
+                <expressions>bin bag
+                    <translations>
+                        <translation local="gb" gender="f">bossa d'escombraries<otherlocal>garbage bag / trash bag</otherlocal>
+                        </translation>
+                    </translations>
+                </expressions>
+                <expressions>bin liner
+                    <translations>
+                        <translation local="gb" gender="f">bossa d'escombraries<otherlocal>garbage bag / trash bag</otherlocal></translation>
+                    </translations>
+                </expressions>
+                <expressions>bin lorry
+                    <translations>
+                        <translation catagory="transport-mode" local="gb" gender="m">camió d'escombraries<otherlocal>garbage truck, refuse truck</otherlocal></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="6900000">binary<adjectives>
 			<translations>
 				<translation>binari</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="18900">bin bag<nouns>
-			<translations>
-				<translation local="gb" gender="f">bossa d'escombraries<otherlocal>garbage bag / trash bag</otherlocal>
-				</translation>
-			</translations>
-		</nouns>
 	</Entry>
 <Entry frequency="16500000">bind<verbs>
         <past>bound</past>
@@ -3375,22 +3403,19 @@
                         <translation>vinculant</translation>
                     </translations>
                         </adjectives>
+                        <expressions>binding energy
+                            <translations>
+                                <translation termcat="energy" gender="f">energia de lligadura</translation>
+                            </translations>
+                        </expressions>
 	</Entry>
-<Entry frequency="1070000">binding energy<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">energia de lligadura</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="67700">bin liner<nouns>
-			<translations>
-				<translation local="gb" gender="f">bossa d'escombraries<otherlocal>garbage bag / trash bag</otherlocal></translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="970">bin lorry<nouns>
-			<translations>
-				<translation catagory="transport-mode" local="gb" gender="m">camió d'escombraries<otherlocal>garbage truck, refuse truck</otherlocal></translation>
+        <Entry frequency="4660">binge<nouns>
+                            <translations><date>1008</date>
+				<translation gender="f">borratxera / trompa<engnote>'Borratxera' and 'trompa' specifically mean a 'drinking binge'.</engnote></translation>
+                                <grouptranslation>
+                                    <translation gender="m">tip / fart</translation>
+                                    <translation gender="f">fartera / fartanera / afartada</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3526,9 +3551,33 @@
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="453000">biomimetics<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="work-field" gender="f">biònica / biomimètica<synonyms>biomimicry, bionics</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="221000">biomimicry<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="work-field" gender="f">biònica / biomimètica<synonyms>biomimetics, bionics</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="1790000">biomolecule<nouns>
                             <translations><date>0408</date>
 				<translation catagory="biology" gender="f">biomolècula</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="6800000">bionic<adjectives>
+                            <translations><date>1008</date>
+				<translation>biònic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="553000">bionics<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="work-field" gender="f">biònica / biomimètica<synonyms>biomimicry, biomimetics</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5433,6 +5482,11 @@
 				</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>book into
+                    <translations>
+                        <translation intransitive="true">registrar en (un hotel)</translation>
+                    </translations>
+                </phrasalverbs>
                  <expressions>be booked up
                 <translations>
                     <translation>(hostaleria) estar ple / tenir totes les habitacons ocupades</translation>
@@ -5447,8 +5501,8 @@
 		</expressions>
             <expressions>to be a turn-up for the books
                 <translations>
-            <translation>ser una sorpresa<example>Uzbekistan's qualification for the World Youth Championship &lt;b&gt;was a turn-up for the books&lt;/b&gt;</example></translation></translations></expressions>
-	<phrasalverbs>book into<translations><translation intransitive="true">registrar en (un hotel)</translation></translations></phrasalverbs></Entry>
+            <translation>ser una sorpresa<example>Uzbekistan's qualification for the World Youth Championship &lt;b&gt;was a turn-up for the books&lt;/b&gt;.</example></translation></translations></expressions>
+	</Entry>
 <Entry frequency="4810000">bookcase<nouns>
 			<translations>
 				<translation gender="f">prestatgeria / estanteria (rare)</translation>
@@ -5484,6 +5538,12 @@
 <Entry frequency="31100000">bookseller<nouns>
 			<translations>
 				<translation catagory="work-job" gender="mf">llibreter</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="11700000">bookshelf<nouns>
+                            <translations><date>1008</date>
+				<translation gender="m">prestatge (de llibres)<plural>bookshelves</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -8487,10 +8547,25 @@
 				</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>buy back
+                    <translations>
+                        <translation transitive="true">comprar (el que s'ha venut)</translation>
+                    </translations>
+                </phrasalverbs>
             <phrasalverbs>buy into
                 <translations>
                 <translation>participar invertint diners a / invertir a / adquirir un interès en</translation>
                 <translation>creure<catnote>(Generalment negatiu).</catnote><example>I never really &lt;b&gt;bought into&lt;/b&gt; that whole 'God is on our side' way of thinking.</example></translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>buy off
+                <translations>
+                    <translation transitive="true">subornar</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>buy out
+                <translations>
+                    <translation transitive="true">comprar (un negoci)</translation>
                 </translations>
             </phrasalverbs>
             <phrasalverbs>buy up
@@ -8498,7 +8573,7 @@
                 <translation>acaparar / comprar (tot el que hi ha disponible)</translation>
                 </translations>
             </phrasalverbs>
-	<phrasalverbs>buy back<translations><translation transitive="true">comprar (el que s'ha venut)</translation></translations></phrasalverbs><phrasalverbs>buy off<translations><translation transitive="true">subornar</translation></translations></phrasalverbs><phrasalverbs>buy out<translations><translation transitive="true">comprar (un negoci)</translation></translations></phrasalverbs></Entry>
+	</Entry>
 <Entry frequency="10900000">buyer<nouns>
 			<translations>
 				<translation gender="m">comprador</translation>
