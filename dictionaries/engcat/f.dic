@@ -2154,19 +2154,35 @@
 				<translation gender="f">figura</translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>figure in
+                    <translations>
+                        <translation transitive="true">incloure (alguna cosa o quantitat) quan es fa un compte o càlcul</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>figure on
+                    <translations>
+                        <translation register="colloquial" intransitive="true">comptar amb</translation>
+                        <translation register="colloquial" intransitive="true">tenir la intenció de</translation>
+                        <translation register="colloquial" intransitive="true">anticipar</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>figure out
                     <translations>
                         <translation>esbrinar</translation>
                         <translation>solucionar / desxifrar</translation>
                     </translations>
                 </phrasalverbs>
-	<phrasalverbs>figure in<translations><translation transitive="true">incloure (alguna cosa o quantitat) quan es fa un compte o càlcul</translation></translations></phrasalverbs><phrasalverbs>figure on<translations><translation intransitive="true">(col·loq.) 1 comptar amb 2 tenir la intenció de</translation><translation intransitive="true">(col·loq.) anticipar</translation></translations></phrasalverbs><phrasalverbs>figure up<translations><translation transitive="true">calcular</translation></translations></phrasalverbs></Entry>
-<Entry frequency="621000">figure skating<nouns>
-			<translations><date>0408</date>
-				<translation catagory="sports-event" gender="m">patinatge artístic</translation>
-			</translations>
-		</nouns>
-	</Entry>
+                <phrasalverbs>figure up
+                    <translations>
+                        <translation transitive="true">calcular</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>figure skating
+                    <translations>
+                        <translation catagory="sports-event" gender="m">patinatge artístic</translation>
+                    </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="5710000">filament<nouns>
 			<translations>
 				<translation catagory="biology" gender="m">filament</translation>
@@ -2181,11 +2197,6 @@
 				</translation>
 			</translations>
 		</nouns>
-                <expressions>single file
-                    <translations>
-                        <translation gender="f">fila índia</translation>
-                    </translations>
-                </expressions>
                 <verbs>
                 <translations>
                 <translation>arxivar<engnote>'Arxivar' means 'to file' in the sense 'to put documents / letters etc. away'.</engnote></translation>
@@ -2202,24 +2213,27 @@
                         <translation transitive="true">llimar</translation>
                     </translations>
                 </phrasalverbs>
-	</Entry>
-<Entry frequency="1870000">file sharing<nouns>
-			<translations>
-				<translation catagory="computers" gender="m">intercanvi de fitxers</translation>
-			</translations>
-		</nouns>
+                <expressions>file sharing
+                    <translations>
+                        <translation catagory="computers" gender="m">intercanvi de fitxers</translation>
+                    </translations>
+                </expressions>
+                <expressions>single file
+                    <translations>
+                        <translation gender="f">fila índia</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="15000000">filing<nouns>
 			<translations>
 				<translation catagory="computers" termcat="true" gender="m">arxivament</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="1100000">filing cabinet<nouns>
-			<translations>
-				<translation gender="m">arxivador</translation>
-			</translations>
-		</nouns>
+                <expressions>filing cabinet
+                    <translations>
+                        <translation gender="m">arxivador</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1190000">Filipino<nouns>
 			<translations>
@@ -2311,23 +2325,27 @@
 			</translations>
 		</expressions>
 	</Entry>
-<Entry frequency="19200000">filter<verbs>
-			<translations>
-				<translation>filtrar</translation>
-			</translations>
-		</verbs>
-		<nouns>
+<Entry frequency="19200000">filter<nouns>
 			<translations>
 				<translation gender="m">filtre</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>filter out<translations><translation transitive="true">filtrar (impureses)</translation></translations></phrasalverbs></Entry>
-<Entry frequency="2290000">filtering software<nouns>
-                            <translations><date>0508</date>
-                                <translation disambiguate="computers" termcat="internet" gender="m">programari de filtratge</translation>
+                <verbs>
+			<translations>
+				<translation>filtrar</translation>
 			</translations>
-		</nouns>
-	</Entry>
+		</verbs>
+                <phrasalverbs>filter out
+                    <translations>
+                        <translation transitive="true">filtrar (impureses)</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>filtering software
+                    <translations>
+                        <translation disambiguate="computers" termcat="internet" gender="m">programari de filtratge</translation>
+                    </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="200000">fimbria<nouns>
                             <translations><date>0408</date>
                                 <translation disambiguate="medical" gender="f">fímbria<plural>fimbriae</plural></translation>
@@ -2489,7 +2507,7 @@
 	</Entry>
 <Entry frequency="248000">fingernail<nouns>
 			<translations>
-				<translation gender="f">ungla</translation>
+				<translation catagory="body" gender="f">ungla</translation>
 			</translations>
 		</nouns>
 	</Entry>
