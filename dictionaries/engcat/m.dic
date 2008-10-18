@@ -2721,15 +2721,22 @@
 	</Entry>
 <Entry frequency="894000">melon<nouns>
 			<translations>
-				<translation gender="m">meló</translation>
+				<translation catagory="food-fruit" gender="m">meló</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="1710000">melt<verbs>
 			<translations>
-				<translation>fondre</translation>
+				<translation transitive="true">fondre</translation>
+                                <translation intransitive="true">fondre / fondre's</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="4270000">melting point<nouns>
+                            <translations><date>1008</date>
+				<translation gender="m">punt de fusió</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="2980000">melting pot<nouns>
 			<translations>
@@ -2761,7 +2768,7 @@
 	</Entry>
 <Entry frequency="5220000">membrane<nouns>
 			<translations>
-				<translation gender="f">membrana</translation>
+				<translation catagory="biology" gender="f">membrana</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2785,15 +2792,14 @@
 	</Entry>
 <Entry frequency="100000">memorise<verbs>
 			<translations>
-				<translation local="gb">memoritzar<otherlocal>memorize</otherlocal>
+				<translation transitive="true" local="gb">memoritzar<otherlocal>memorize</otherlocal>
 				</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="360000">memorize<verbs>
 			<translations>
-				<translation local="us">memoritzar<otherlocal>memorise</otherlocal>
-				</translation>
+				<translation transitive="true">memoritzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2816,13 +2822,13 @@
 	</Entry>
 <Entry frequency="150000">menarche<nouns>
 			<translations>
-				<translation gender="f">menarquia</translation>
+				<translation catagory="biology" gender="f">menarquia</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="14300000">mend<verbs>
                             <translations><date>1007</date>
-				<translation>reparar / apanyar<synonyms>repair, fix</synonyms></translation>
+				<translation transitive="true">reparar / apanyar<synonyms>repair, fix</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2910,7 +2916,7 @@
 	</Entry>
 <Entry frequency="38700000">mention<verbs>
 			<translations>
-				<translation>mencionar / esmentar</translation>
+				<translation transitive="true">mencionar / esmentar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -2946,7 +2952,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>miolar</translation>
+				<translation intransitive="true">miolar</translation>
 			</translations>
 		</verbs>
 	</Entry>  
@@ -3013,7 +3019,7 @@
 <Entry frequency="10200000">merge<verbs>
 			<translations>
 				<translation transitive="true">fusionar<example>Lockheed Martin Corp. and Boeing Co. said yesterday that they will &lt;b&gt;merge&lt;/b&gt; their struggling government rocket businesses.</example></translation>
-                                <translation>fusionar-se<example>Pulse Data and VisuAide &lt;b&gt;merged&lt;/b&gt; to form HumanWare.</example></translation>
+                                <translation intransitive="true">fusionar-se<example>Pulse Data and VisuAide &lt;b&gt;merged&lt;/b&gt; to form HumanWare.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3025,7 +3031,7 @@
 	</Entry>
 <Entry frequency="217000">meringue<nouns>
 			<translations>
-				<translation gender="f">merenga</translation>
+				<translation catagory="food" gender="f">merenga</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3042,7 +3048,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>meritar</translation>
+				<translation transitive="true">meritar / merèixer</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3085,7 +3091,7 @@
 	</Entry>
 <Entry frequency="591000">mesmerise<verbs>
 			<translations>
-				<translation local="gb">hipnotitzar<otherlocal>mesmerize</otherlocal></translation>
+				<translation transitive="true" local="gb">hipnotitzar<otherlocal>mesmerize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3097,7 +3103,7 @@
 	</Entry>
 <Entry frequency="4640000">mesmerize<verbs>
 			<translations>
-				<translation>hipnotitzar</translation>
+				<translation transitive="true">hipnotitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3289,7 +3295,7 @@
 	</Entry>
 <Entry frequency="1490000">meteor<nouns>
 			<translations>
-				<translation gender="m">meteor</translation>
+				<translation catagory="astronomy" gender="m">meteor</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3303,19 +3309,19 @@
 	</Entry>
 <Entry frequency="1110000">meteorite<nouns>
 			<translations>
-				<translation gender="m">meteorit</translation>
+				<translation catagory="astronomy" gender="m">meteorit</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="172000">meteorologist<nouns>
 			<translations>
-				<translation gender="mf">meteoròleg</translation>
+				<translation catagory="weather, work-job" gender="mf">meteoròleg</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="5650000">meteorology<nouns>
 			<translations>
-				<translation gender="f">meteorologia</translation>
+				<translation catagory="weather" gender="f">meteorologia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3426,7 +3432,7 @@
 	</Entry>
 <Entry frequency="7370000">Mexican<nouns>
 			<translations>
-				<translation gender="mf">mexicà</translation>
+				<translation catagory="nationality-northamerica" gender="mf">mexicà</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -3437,7 +3443,7 @@
 	</Entry>
 <Entry frequency="32000000">Mexico<nouns>
 			<translations>
-				<translation gender="m">Mèxic</translation>
+				<translation catagory="country-northamerica" gender="m">Mèxic</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3466,13 +3472,12 @@
 	</Entry>
 <Entry frequency="15000">mickey<nouns>
 			<translations>
-				<translation register="colloquial" noteng="TRUE" local="gb">-<example>She didn't realise that he was &lt;b&gt;taking the mickey&lt;/b&gt; out of her</example>
-                                    <example>Are you &lt;b&gt;taking the mickey&lt;/b&gt; or what?</example></translation>
+				<translation register="colloquial" local="gb">paraula utilitzada en l'expressió 'to take the mickey'</translation>
 			</translations>
 		</nouns>
-                <expressions>take the mickey out (of someone)
+                <expressions>take the mickey (out of someone)
                 <translations>
-                    <translation>burlar-se d'algú</translation>
+                    <translation>burlar-se d'algú<example>She didn't realise that he was &lt;b&gt;taking the mickey&lt;/b&gt; out of her.</example><example>Are you &lt;b&gt;taking the mickey&lt;/b&gt; or what?</example></translation>
                 </translations>
                 </expressions>
 	</Entry>
@@ -6693,6 +6698,12 @@
                 <verbs>
                 <translations>
                 <translation>multiplicar / incrementar molt ràpidament</translation></translations></verbs>
+	</Entry>
+         <Entry frequency="128000">mushy peas<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="food" local="gb" picture="http://farm4.static.flickr.com/3187/2565165665_cc9a577a1d.jpg" flickr="http://www.flickr.com/photos/pikaluk/2565165665/" gender="m">puré de pèsols cuits</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="174000000">music<nouns>
 			<translations>

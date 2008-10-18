@@ -235,21 +235,25 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="958000">Fahrenheit<nouns>
-			<translations>
+<Entry frequency="11300000">Fahrenheit<adjectives>
+                            <translations><date>1008</date>
 				<translation>fahrenheit</translation>
 			</translations>
-		</nouns>
+		</adjectives>
 	</Entry>
 <Entry frequency="32000000">fail<verbs>
 			<translations>
-				<translation>fracassar<example>Despite a brave performance, Newcastle &lt;b&gt;failed&lt;/b&gt; to qualify for the finals of the UEFA Cup</example>
-					<example>Although he had studied very hard, Charlie &lt;b&gt;failed&lt;/b&gt; all of his exams</example>
-					<example>Mary was disappointed because her children &lt;b&gt;failed&lt;/b&gt; to live up to her expectations</example>
-				</translation>
-                                <translation disambiguate="education">suspendre</translation>
+				<translation intransitive="true">fracassar</translation>
+                                <translation intransitive="true">fallir / fallar</translation>
+                                <translation disambiguate="education" intransitive="true">suspendre<example>Jasper &lt;b&gt;failed&lt;/b&gt; his physics exam.</example><example>Fiona &lt;b&gt;failed&lt;/b&gt; chemistry.</example><synonyms>flunk (Am.) (col·loq)</synonyms></translation>
+                                <translation disambiguate="education" transitive="true">suspendre<example>The friends checked their test results on the noticeboard. Paul saw that he had passed but his friend Mark had &lt;b&gt;failed&lt;/b&gt;.</example></translation>
 			</translations>
 		</verbs>
+                <nouns>
+                    <translations>
+                        <translation disambiguate="education" gender="m">suspens</translation>
+                    </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="29300000">failure<nouns>
                             <translations><date>0808</date>
@@ -3851,6 +3855,12 @@
                                 <translation gender="m">canal (que porta aigua per a ús industrial)</translation>
 			</translations>
 		</nouns>
+                </Entry>
+                <Entry frequency="1030000">flunk<verbs>
+                        <translations><date>1008</date>
+                            <translation register="colloquial" local="us">(examen) suspendre</translation>
+                        </translations>
+                    </verbs>
                 </Entry>
 <Entry frequency="6240000">fluorescent<adjectives>
                         <translations>

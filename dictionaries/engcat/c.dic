@@ -483,6 +483,11 @@
                 <translation gender="f">convocatòria<example>The group issued a &lt;b&gt;call&lt;/b&gt; for papers for its 2006 annual conference.</example></translation>
             </translations>
         </nouns>
+        <expressions>call waiting
+            <translations>
+                <translation catagory="telephone" gender="f">trucada en espera</translation>
+            </translations>
+        </expressions>
         <expressions>on call
             <translations>
                 <translation catagory="work">accessible fora de les hores de treball normals<example>When he worked at the accident and emergency department at the local hospital, Dr Smith was &lt;b&gt;on call&lt;/b&gt; 24 hours a day.</example>
@@ -503,20 +508,22 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="26400">caller display<nouns>
-        <translations>
-            <translation catagory="telephone" gender="f">identificació número entrant<synonyms>caller ID</synonyms>
-            </translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="1330000">caller ID<nouns>
-        <translations>
-            <translation catagory="telephone" gender="f">identificació número entrant<synonyms>caller display</synonyms>
-            </translation>
-        </translations>
-    </nouns>
-    </Entry>
+    <Entry frequency="5400000">caller<nouns>
+			<translations><date>1008</date>
+				<translation>persona que truca (al telèfon o a la porta)</translation>
+			</translations>
+		</nouns>
+                <expressions>caller display
+                    <translations>
+                        <translation catagory="telephone" gender="f">identificació número entrant</translation>
+                    </translations>
+                </expressions>
+                <expressions>caller ID
+                    <translations>
+                        <translation catagory="telephone" gender="f">identificació número entrant</translation>
+                    </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="1370000">calligraphy<nouns>
         <translations>
             <translation gender="f">cal·ligrafia</translation>
@@ -529,12 +536,11 @@
             </translation>
         </translations>
     </nouns>
-    </Entry>
-<Entry frequency="116000">calling code<nouns>
-        <translations>
-            <translation catagory="telephone" gender="m">codi telefònic</translation>
-        </translations>
-    </nouns>
+        <expressions>calling code
+            <translations>
+                <translation catagory="telephone" gender="m">codi telefònic</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="5890000">callous<adjectives>
         <translations>
@@ -548,12 +554,6 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="3010">call waiting<nouns>
-        <translations>
-            <translation catagory="telephone" gender="f">trucada en espera</translation>
-        </translations>
-    </nouns>
-    </Entry>
 <Entry frequency="4780000">calm<adjectives>
         <translations>
             <translation>tranquil / plàcid<synonyms>still, peaceful, tranquil</synonyms>
@@ -615,7 +615,7 @@
 	</Entry>
 <Entry frequency="1230000">camber<nouns>
         <translations>
-            <translation gender="m">peralt</translation>
+            <translation catagory="transport" gender="m">peralt</translation>
         </translations>
     </nouns>
     </Entry>
@@ -644,13 +644,13 @@
     </Entry>
 <Entry frequency="6790000">camel<nouns>
         <translations>
-            <translation gender="m">camell</translation>
+            <translation catagory="animal-animal" gender="m">camell</translation>
         </translations>
     </nouns>
     </Entry>
 <Entry frequency="212000">camembert<nouns>
         <translations>
-            <translation gender="m">camembert</translation>
+            <translation catagory="food-dairy" gender="m">camembert</translation>
         </translations>
     </nouns>
     </Entry>
@@ -715,12 +715,11 @@
             <translation gender="mf">acampador / campista</translation>
         </translations>
     </nouns>
-    </Entry>
-<Entry frequency="703000">camper van<nouns>
-        <translations>
-            <translation local="gb" gender="f">autocaravana<otherlocal>motor home / RV (Recreational Vehicle)</otherlocal></translation>
-        </translations>
-    </nouns>
+        <expressions>camper van
+            <translations>
+                <translation local="gb" gender="f">autocaravana<otherlocal>motor home / RV (Recreational Vehicle)</otherlocal></translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="13000000">campground<nouns>
         <translations>
@@ -733,22 +732,21 @@
             <translation gender="f">acampada</translation>
         </translations>
     </nouns>
-    </Entry>
-<Entry frequency="768000">camping ground<nouns>
-        <translations>
-            <translation local="au" gender="m">càmping<otherlocal>campsite (Br.) / campground (Am.)</otherlocal></translation>
-        </translations>
-    </nouns>
+        <expressions>camping ground
+            <translations>
+                <translation local="au" gender="m">càmping<otherlocal>campsite (Br.) / campground (Am.)</otherlocal></translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="2440000">campsite<nouns>
         <translations>
-            <translation gender="m">càmping</translation>
+            <translation local="gb" gender="m">càmping<otherlocal>campground (Am.) / camping ground (Aus.)</otherlocal></translation>
         </translations>
     </nouns>
     </Entry>
 <Entry frequency="9780000">campus<nouns>
         <translations>
-            <translation gender="m">campus</translation>
+            <translation catagory="education" gender="m">campus</translation>
         </translations>
     </nouns>
     </Entry>
@@ -811,7 +809,7 @@
     </Entry>
 <Entry frequency="2800000">Canary Islands<nouns>
         <translations>
-            <translation gender="fpl">Illes Canàries</translation>
+            <translation catagory="geography" gender="fpl">Illes Canàries</translation>
         </translations>
     </nouns>
     </Entry>
@@ -7880,7 +7878,7 @@
 	</Entry>
 <Entry frequency="543000">commute<verbs>
         <translations>
-            <translation disambiguate="transport">anar a la feina<example>2% of New York City residents &lt;b&gt;commute&lt;/b&gt; by car every day across the East River bridges.</example>
+            <translation disambiguate="transport">anar al lloc de treball (i tornar a casa)<example>2% of New York City residents &lt;b&gt;commute&lt;/b&gt; by car every day across the East River bridges.</example>
                 <example>John &lt;b&gt;commutes&lt;/b&gt; to work by bike every day, except when it's snowing.</example>
             </translation>
             <translation disambiguate="legal">commutar<engnote>'Commutar' means 'to commute' in the sense 'to commute a death sentence to life in prison.</engnote>
@@ -7889,10 +7887,19 @@
     </verbs>
         <nouns>
             <translations>
-                <translation gender="m">viatge (diari) a la feina</translation>
+                <translation gender="m">viatge diari entre el lloc de treball i la casa</translation>
             </translations>
         </nouns>
     </Entry>
+    <Entry frequency="470000">commuter<nouns>
+                            <translations><date>1008</date>
+                            <grouptranslation>
+				<translation termcat="true" gender="mf">treballador pendular<engnote>Although Termcat give 'treballador pendular' as the official equivalent of 'commuter' it does not appear to be widely used in Catalan.</engnote></translation>
+                                <translation gender="mf">persona que viatja diàriament entre el lloc de treball i casa seva</translation>
+                                </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="2070000">Comoros<nouns>
         <translations>
             <translation catagory="country-africa" gender="fpl">(Illes) Comores</translation>
