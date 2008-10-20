@@ -2309,9 +2309,15 @@
 	</Entry>
 <Entry frequency="943000">depreciate<verbs>
 			<translations>
-				<translation>depreciar</translation>
+				<translation catagory="financial">depreciar</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="12100000">depreciation<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="financial" gender="f">depreciació</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="1300000">depress<verbs>
 			<translations>
@@ -2467,6 +2473,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="3900000">derogatory<adjectives>
+                            <translations><date>1008</date>
+				<translation register="formal">ofensiu / insultant</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="1250000">desalination<nouns>
 			<translations><date>0307</date>
 				<translation termcat="energy" gender="m">dessalatge</translation>
@@ -2585,6 +2597,12 @@
 			<translations>
 				<translation>desitjar<synonyms>wish</synonyms>
 				</translation>
+			</translations>
+		</verbs>
+	</Entry>
+<Entry frequency="3510000">desist<verbs>
+                            <translations><date>1008</date>
+				<translation register="formal">parar<engexamp>Desist from (doing something)</engexamp><catexamp>Parar de (fer alguna cosa)</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2794,11 +2812,27 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="254000000">detail<nouns>
-			<translations>
+<Entry frequency="1450000000">detail<nouns>
+                            <translations><date>1008</date>
 				<translation gender="m">detall<engexamp>Small details</engexamp><catexamp>Minúcies</catexamp></translation>
 			</translations>
 		</nouns>
+                <expressions>in great detail
+                    <translations>
+                        <translation>amb tots els ets i uts</translation>
+                    </translations>
+                </expressions>
+                <expressions>small details
+                    <translations>
+                        <translation gender="fpl">minúcies</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="10400000">detain<verbs>
+                            <translations><date>1008</date>
+				<translation>retenir / detenir</translation>
+			</translations>
+		</verbs>
 	</Entry>
 <Entry frequency="287000000">detect<verbs>
 			<translations>

@@ -609,6 +609,12 @@
       </translations>
     </nouns>
   </Entry>
+ <Entry frequency="10900" >taquígraf<nouns>
+         <translations><date>1008</date>
+        <translation catagory="work-job" gender="m / f" >stenographer<fems>taquígrafa</fems></translation>
+      </translations>
+    </nouns>
+  </Entry>
   <Entry frequency="13400" >taquilla<nouns>
       <translations>
         <translation catagory="entertainment" gender="f" >ticket office</translation>
@@ -672,12 +678,6 @@
       </translations>
     </verbs>
   </Entry>
-  <Entry frequency="26200" >tard o d'hora<adverbs>
-      <translations>
-        <translation>sooner or later<example>&lt;b&gt;Tard o d'hora&lt;/b&gt; CiU i ERC hauran de col·laborar.</example></translation>
-      </translations>
-    </adverbs>
-  </Entry>
   <Entry frequency="27100" >tardor<nouns>
       <translations>
         <translation catagory="time-season" gender="f" >autumn (Br.) / fall (Am.)</translation>
@@ -691,66 +691,58 @@
     </adjectives>
   </Entry>
   <Entry frequency="30900" >targeta<nouns>
-      <translations>
-        <translation gender="f" >card</translation>
-      </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="4660" >targeta de crèdit<nouns>
-      <translations>
-        <translation catagory="financial" gender="f" >credit card</translation>
-      </translations>
-    </nouns>
-  </Entry>
-  	<Entry frequency="115">targeta d'embarcament<nouns>
-			<translations><date>0805</date>
-				<translation catagory="transport" gender="f">boarding card</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="160">targeta de fidelització<nouns>
-			<translations><date>1205</date>
-				<translation gender="f">loyalty card / rewards card / club card</translation>
-			</translations>
-		</nouns>
-	</Entry>
-  <Entry frequency="982" >targeta gràfica<nouns>
-      <translations>
-        <translation catagory="computers-hardware" gender="f" >graphics card</translation>
-      </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="317" >targeta postal<nouns>
-      <translations>
-        <translation gender="f" >postcard</translation>
-      </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="114" >targeta de prepagament<nouns>
-      <translations>
-        <translation catagory="telephone" gender="f" >top-up card</translation>
-      </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="1380" >targeta de so<nouns>
-      <translations>
-        <translation catagory="computers-hardware" gender="f" >sound card</translation>
-      </translations>
-    </nouns>
+          <translations>
+              <translation gender="f" >card</translation>
+          </translations>
+      </nouns>
+      <expressions>targeta de crèdit
+          <translations>
+              <translation catagory="financial" gender="f" >credit card</translation>
+          </translations>
+      </expressions>
+      <expressions>targeta d'embarcament
+          <translations>
+              <translation catagory="transport" gender="f">boarding card</translation>
+          </translations>
+      </expressions>
+      <expressions>targeta de fidelització
+          <translations>
+              <translation gender="f">loyalty card / rewards card / club card</translation>
+          </translations>
+      </expressions>
+      <expressions>targeta gràfica
+          <translations>
+              <translation catagory="computers" gender="f">graphics card</translation>
+          </translations>
+      </expressions>
+      <expressions>targeta postal
+          <translations>
+              <translation gender="f">postcard</translation>
+          </translations>
+      </expressions>
+      <expressions>targeta de prepagament
+          <translations>
+              <translation catagory="telephone" gender="f">top-up card</translation>
+          </translations>
+      </expressions>
+      <expressions>targeta de so
+          <translations>
+              <translation catagory="computers" gender="f">sound card</translation>
+          </translations>
+      </expressions>
   </Entry>
   <Entry frequency="32000" >tarifa<nouns>
       <translations>
         <translation gender="f" >rate / tariff</translation>
       </translations>
     </nouns>
+    <expressions>tarifa plana
+        <translations>
+            <translation catagory="computers-internet" gender="f">flat rate</translation>
+        </translations>
+    </expressions>
   </Entry>
-  <Entry frequency="1470" >tarifa plana<nouns>
-      <translations>
-        <translation catagory="computers-internet" gender="f" >flat rate</translation>
-      </translations>
-    </nouns>
-  </Entry>
-  	<Entry frequency="775">tarima<nouns>
+   	<Entry frequency="775">tarima<nouns>
 			<translations><date>0905</date>
 				<translation gender="f">platform / dais</translation>
 			</translations>
@@ -3045,8 +3037,8 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="0">toixà<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Toixa</translation></translations></nouns><adjectives><translations><translation>relating to Toixa or its people<plural>toixans</plural><fems>toixana</fems></translation></translations></adjectives></Entry>
-  	<Entry frequency="277">toledà<adjectives>
+<Entry frequency="0">toixà<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Toixa</translation></translations></nouns><adjectives><translations><translation>relating to Toixa or its people<plural>toixans</plural><fems>toixana</fems></translation></translations></adjectives></Entry>	
+<Entry frequency="277">toledà<adjectives>
 			<translations><date>0905</date>
 				<translation>of / from Toledo</translation>
 			</translations>
