@@ -2391,21 +2391,21 @@
 				<translation>termal</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="1160000">thermal energy<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">energia tèrmica</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="535000">thermal load<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">càrrega tèrmica</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="22800">thermal power plant<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">central tèrmica</translation>
-			</translations>
-		</nouns>
+                <expressions>thermal energy
+                    <translations>
+                        <translation termcat="energy" gender="f">energia tèrmica</translation>
+                    </translations>
+                    <expressions>thermal load
+                        <translations>
+                            <translation termcat="energy" gender="f">càrrega tèrmica</translation>
+                        </translations>
+                    </expressions>
+                    <expressions>thermal power plant
+                        <translations>
+                            <translation termcat="energy" gender="f">central tèrmica</translation>
+                        </translations>
+                    </expressions>
+                </expressions>
 	</Entry><Entry frequency="5820000">thermodynamic<adjectives>
 			<translations>
 				<translation>termodinàmic</translation>
@@ -2414,12 +2414,13 @@
                 <nouns>
                 <translations>
                 <translation sourceplural="thermodynamics" gender="f">termodinàmica</translation></translations></nouns>
-	</Entry><Entry frequency="181000">thermodynamic cycle<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">cicle termodinàmic</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="653000">thermoelectric<adjectives>
+                <expressions>thermodynamic cycle
+                    <translations>
+                        <translation termcat="energy" gender="m">cicle termodinàmic</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="653000">thermoelectric<adjectives>
 			<translations>
 				<translation>termoelèctric</translation>
 			</translations>
@@ -2472,7 +2473,14 @@
 				<translation gender="mf">actor / actriu</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="25500000">they<pronouns>
+	</Entry>
+        <Entry frequency="727000">Thetis<nouns>
+                <translations><date>1008</date>   
+                    <translation catagory="encyclopaedic">Tetis</translation>
+                </translations>            
+            </nouns>        
+        </Entry>
+        <Entry frequency="25500000">they<pronouns>
 			<translations>
 				<translation>ells / elles</translation>
 			</translations>

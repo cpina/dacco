@@ -7361,7 +7361,7 @@
 
 				<translation>curt</translation>
 
-				<translation>curt, baix</translation>
+				<translation>curt / baix</translation>
 
 			</translations>
 
@@ -7399,7 +7399,20 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="4040000">short circuit<nouns>
+	</Entry>
+        <Entry frequency="429000">short-change<verbs>
+
+                            <translations><date>1008</date>
+
+				<translation>tornar de menys / tornar malament (el canvi)</translation>
+
+			</translations>
+
+		</verbs>
+
+	</Entry>
+
+        <Entry frequency="4040000">short circuit<nouns>
 
 			<translations>
 
@@ -13083,98 +13096,58 @@
 			</translations>
 
 		</adjectives>
-
-	</Entry><Entry frequency="1150000">solar cell<nouns>
-
-			<translations><date>0307</date>
-
-				<translation termcat="energy" gender="f">cèl·lula solar</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="885000">solar collector<nouns>
-
-			<translations><date>0307</date>
-
-				<translation termcat="energy" gender="m">captador solar</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="160000">solar constant<nouns>
-
-			<translations><date>0307</date>
-
-				<translation termcat="energy" gender="f">constant solar</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="1070000">solar energy<nouns>
-
-			<translations>
-
-				<translation gender="f">energia solar</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="190000">solar filter<nouns>
-
-			<translations><date>0307</date>
-
-				<translation termcat="energy" gender="m">filtre solar</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="265000">solar gain<nouns>
-
-			<translations><date>0307</date>
-
-				<translation termcat="energy" gender="m">guany solar</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="118000">solar pond<nouns>
-
-                    <translations><date>0307</date>
-
-				<translation termcat="energy" gender="m">estany solar</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="470000">solar power<nouns>
-
-			<translations>
-
-				<translation gender="f">energia solar</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="201000">solar power plant<nouns>
-
-			<translations><date>0307</date>
-
-				<translation termcat="energy" gender="f">central solar</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="2870000">solar system<nouns>
+                <expressions>solar cell
+                    <translations>
+                        <translation termcat="energy" gender="f">cèl·lula solar</translation>
+                    </translations>
+                </expressions>
+                <expressions>solar collector
+                    <translations>
+                        <translation termcat="energy" gender="m">captador solar</translation>
+                    </translations>
+                </expressions>
+                <expressions>solar constant
+                    <translations>
+                        <translation termcat="energy" gender="f">constant solar</translation>
+                    </translations>
+                </expressions>
+                <expressions>solar energy
+                    <translations>                        
+                        <translation gender="f">energia solar</translation>                        
+                    </translations>
+                </expressions>
+                <expressions>solar filter
+                    <translations>                       
+                        <translation termcat="energy" gender="m">filtre solar</translation>                        
+                    </translations>                    
+                </expressions>
+                <expressions>solar gain
+                    <translations>                        
+                        <translation termcat="energy" gender="m">guany solar</translation>                        
+                    </translations>
+                </expressions>
+                <expressions>solar pond
+                    <translations>                    
+                        <translation termcat="energy" gender="m">estany solar</translation>                        
+                    </translations>
+                </expressions>
+                <expressions>solar power
+                    <translations>
+                        <translation gender="f">energia solar</translation>
+                    </translations>
+                </expressions>
+                <expressions>solar power plant
+                    <translations>
+                        <translation termcat="energy" gender="f">central solar</translation>
+                    </translations>
+                </expressions>
+                <expressions>solar thermal power plant
+                    <translations>                        
+                        <translation termcat="energy" gender="f">central heliotèrmica</translation>                        
+                    </translations>
+                </expressions>
+	</Entry>
+       <Entry frequency="2870000">solar system<nouns>
 
 			<translations>
 
@@ -13184,17 +13157,21 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="200000">solar thermal power plant<nouns>
-
-			<translations><date>0307</date>
-
-				<translation termcat="energy" gender="f">central heliotèrmica</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="147000">solderer<nouns>
+	</Entry>
+        <Entry frequency="7250000">solder<verbs>
+                <translations><date>1008</date>
+                    
+                    <translation>soldar</translation>
+                    
+                </translations>
+            </verbs>
+            <nouns>
+                <translations>
+                    <translation gender="f">soldadura</translation>
+                </translations>
+            </nouns>
+        </Entry>
+        <Entry frequency="147000">solderer<nouns>
 
 			<translations><date>1007</date>
 
@@ -17475,12 +17452,21 @@ s
 	</Entry>
         <Entry frequency="5050000">stake<nouns>
 			<translations>
-				<translation gender="m">pal</translation>
+                            <grouptranslation>
+                                <translation gender="m">pal</translation>
+                                <translation gender="f">estaca</translation>
+                            </grouptranslation>
+                            <translation sourceplural="the stake" gender="f">pira / foguera</translation>
+                            <grouptranslation disambiguate="financial">
+                                <translation gender="f">participació</translation>
+                                <translation gender="fpl">accions</translation>
+                            </grouptranslation>
+                            <translation gender="m">(~ in sth) interès (en)</translation>
 			</translations>
 		</nouns>
                 <verbs>
                     <translations>
-                    <translation>jugar diners</translation>
+                    <translation>jugar-se diners</translation>
                     </translations>
                 </verbs>
                 <phrasalverbs>stake (something) on (something)
@@ -17493,6 +17479,16 @@ s
                         <translation transitive="true">mantenir vigilat clandestinament (algun lloc o algú)</translation>
                     </translations>
                 </phrasalverbs>
+                <expressions>at stake
+                    <translations>
+                        <translation>en joc</translation>
+                    </translations>
+                </expressions>
+                <expressions>the stakes were high
+                    <translations>
+                        <translation>s'hi jugava molt / hi havia molt en joc</translation>
+                    </translations>
+                </expressions>
             </Entry>
             <Entry frequency="1620000">stalk<nouns>
 
@@ -17562,9 +17558,7 @@ s
 
 			<translations>
 
-				<translation catagory="sports-event-football-grounds, encyclopaedic" noteng="TRUE" local="gb">-<catnote>Stamford Bridge és el nom de l'estadi de l'equip de futbol Chelsea FC.</catnote>
-
-				</translation>
+				<translation catagory="sports-event-football-grounds, encyclopaedic" local="gb">nom de l'estadi de l'equip de futbol Chelsea FC</translation>
 
 			</translations>
 
@@ -17601,6 +17595,17 @@ s
                     </translations>
                 </expressions>
             </Entry>
+            <Entry frequency="453000">stanch<verbs>
+
+                            <translations><date>1008</date>
+
+				<translation local="us">estroncar / aturar<engexamp>To stanch the bleeding</engexamp><catexamp>Aturar la sagnia / estroncar l'hemorràgia</catexamp><otherlocal>staunch</otherlocal><catnote>'To stanch' es diu també en anglès britànic (to stanch blood) però 'to staunch' és molt més usual.</catnote></translation>
+
+			</translations>
+
+		</verbs>
+
+	</Entry>
            <Entry frequency="767000000">stand<verbs>
 
 			<past>stood</past>
@@ -18326,16 +18331,20 @@ s
 			</translations>
 		</adjectives>
 	</Entry>
-        <Entry frequency="328000">staunch<adjectives>
+        <Entry frequency="3660000">staunch<adjectives>
 
-			<translations>
+                            <translations><date>1008</date>
 
-				<translation>acèrrim</translation>
+				<translation>ferm / acèrrim / incondicional<engexamp>A staunch supporter of the death penalty</engexamp><catexamp>Un acèrrim defensor de la pena de mort</catexamp></translation>
 
 			</translations>
 
 		</adjectives>
-
+                <verbs>
+                    <translations>
+                        <translation>estroncar / aturar<engexamp>To staunch the bleeding</engexamp><catexamp>Aturar la sagnia / estroncar l'hemorràgia</catexamp></translation>
+                    </translations>
+                </verbs>
 	</Entry>
         <Entry frequency="103000">staurolite<nouns>
                             <translations><date>0708</date>
