@@ -3676,8 +3676,7 @@
 <Entry frequency="1000">DINKY<engacro>Double Income No Kids Yet</engacro>
 		<acronyms>
 			<translations>
-				<translation noteng="TRUE">-<catnote>DINKY refereix a les parelles (generalment joves) on treballen les dues persones però encara no tenen nens.</catnote>
-				</translation>
+				<translation>parella jove sense fills en què ambdós treballen</translation>
 			</translations>
 		</acronyms>
 	</Entry>
@@ -4517,6 +4516,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1180000">disown<verbs>
+                            <translations><date>1008</date>
+				<translation>repudiar</translation>
+			</translations>
+		</verbs>
+	</Entry>
 <Entry frequency="5320000">disparage<verbs>
 			<translations>
 				<translation register="formal">denigrar<synonyms>belittle, denigrate</synonyms></translation>
@@ -4535,9 +4540,15 @@
                                 </translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="6840000">disparate<adjectives>
+                            <translations><date>1008</date>
+				<translation register="formal">dispar</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="8980000">disparity<nouns>
 			<translations>
-				<translation gender="m">desajustament / desajust</translation>
+				<translation register="formal" gender="m">desajustament / desajust</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5103,11 +5114,16 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="2880000">divest<verbs>
-			<translations><date>0408</date>
-				<translation register="formal">destituir<engexamp>Divest yourself of</engexamp><catexamp>Desapropiar-se de</catexamp></translation>
+<Entry frequency="2050000">divest<verbs>
+			<translations><date>1008</date>
+				<translation register="formal">destituir</translation>
 			</translations>
 		</verbs>
+                <expressions>divest yourself of (something)
+                    <translations>
+                        <translation>desapropiar-se d'(alguna cosa) / desfer-se d'(alguna cosa)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="138000000">divide<verbs>
 			<translations><date>0807</date>
@@ -7462,6 +7478,18 @@
 				<translation gender="m">habitatge / domicili / estatge</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="2000000">dwindle<verbs>
+			<translations><date>1008</date>
+                                <translation intransitive="true">minvar / disminuir</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="3920000">dwindling<adjectives>
+			<translations><date>1008</date>
+                                <translation>minvant</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="2470000">dye<verbs>
 			<gerund>dyeing</gerund>

@@ -790,7 +790,7 @@
 		</nouns>
 	</Entry><Entry frequency="3810000">tapestry<nouns>
 			<translations>
-				<translation gender="m">tapís<plural>tapestries</plural></translation>
+				<translation gender="m">tapís</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="619000">taphonomy<nouns>
@@ -950,9 +950,8 @@
 		</nouns>
 	</Entry><Entry frequency="342000000">tax<nouns>
                             <translations><date>0708</date>
-				<translation catagory="financial" gender="m">impost<plural>taxes</plural>
-				</translation>
-                                <translation beforenoun="true">fiscal<engexamp>Tax haven</engexamp><catexamp>Paradís fiscal</catexamp></translation>
+				<translation catagory="financial" gender="m">impost</translation>
+                                <translation beforenoun="true">fiscal</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -960,12 +959,13 @@
                         <translation>gravar<engexamp>To tax consumption</engexamp><catexamp>Gravar el consum</catexamp></translation>
                         </translations>
                 </verbs>
-	</Entry><Entry frequency="1380000">tax haven<nouns>
-			<translations>
-				<translation catagory="financial" gender="m">paradís fiscal</translation>
-                                </translations>
-		</nouns>
-	</Entry><Entry frequency="116000000">taxi<nouns>
+                <expressions>tax haven
+                    <translations>
+                        <translation catagory="financial" gender="m">paradís fiscal</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="116000000">taxi<nouns>
 			<translations><date>1007</date>
 				<translation catagory="transport-mode" gender="m">taxi<synonyms>cab (Am.)</synonyms></translation>
 			</translations>
@@ -3448,7 +3448,15 @@
 				<translation gender="m">paper d'alumini<synonyms>aluminum foil (Am.)</synonyms></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1180000">tingling<nouns>
+	</Entry>
+        <Entry frequency="3390000">tinge<nouns>
+                            <translations><date>1008</date>
+				<translation gender="m">tint</translation>
+                                <translation gender="m">toc</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1180000">tingling<nouns>
 			<translations>
 				<translation gender="m">formigueig</translation>
 			</translations>
@@ -3626,14 +3634,14 @@
 				<translation register="slang" local="gb" gender="mf">idiota</translation>
 			</translations>
 		</nouns>
+                <expressions>tit for tat
+                    <translations>
+                        <translation>pagar amb la mateixa moneda / dóna-me'n que te'n donaré<example>The United States has ordered the expulsion of a senior Venezuelan diplomat in a &lt;b&gt;tit-for-tat&lt;/b&gt; move.</example></translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="3050000">titanium<nouns>
 			<translations>
 				<translation catagory="chemistry" gender="m">titani</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="1140000">tit for tat<nouns>
-			<translations>
-				<translation>pagar amb la mateixa moneda / dóna-me'n que te'n donaré<example>The United States has ordered the expulsion of a senior Venezuelan diplomat in a &lt;b&gt;tit-for-tat&lt;/b&gt; move.</example></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="19400000">title<nouns>
@@ -3674,7 +3682,7 @@
 	</Entry>
 <Entry frequency="938000">toady<nouns>
                             <translations><date>0808</date>
-				<translation gender="mf">llagoter / llepa / llepaire / llepaculs<plural>toadies</plural></translation>
+				<translation gender="mf">llagoter / llepa / llepaire / llepaculs</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3828,7 +3836,7 @@
 		</nouns>
 	</Entry><Entry frequency="101000">token bus<nouns>
 			<translations>
-				<translation disambiguate="computers" termcat="true" gender="m">bus de testimoni<plural>token buses</plural></translation>
+				<translation disambiguate="computers" termcat="true" gender="m">bus de testimoni</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2820000">token ring<nouns>
@@ -3990,7 +3998,7 @@
 		</nouns>
 	</Entry><Entry frequency="207000">tonsillectomy<nouns>
 			<translations>
-				<translation gender="f">amigdalectomia<plural>tonsillectomies</plural></translation>
+				<translation gender="f">amigdalectomia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="289000">tonsillitis<nouns>
@@ -4055,8 +4063,7 @@
 		</nouns>
 	</Entry><Entry frequency="2050000">toothbrush<nouns>
 			<translations>
-				<translation catagory="household-room-bathroom" gender="m">raspall de dents<plural>toothbrushes</plural>
-				</translation>
+				<translation catagory="household-room-bathroom" gender="m">raspall de dents</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="569000">toothpaste<nouns>
@@ -4149,7 +4156,7 @@
 		</adjectives>
 	</Entry><Entry frequency="4650000">topography<nouns>
 			<translations>
-				<translation catagory="geography" gender="f">topografia<plural>topographies</plural></translation>
+				<translation catagory="geography" gender="f">topografia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2530000">topological<adjectives>
@@ -4203,7 +4210,7 @@
                                  <grouptranslation local="gb">
                                      <translation gender="f">llanterna</translation>
                                  <translation gender="m">lot</translation><otherlocal>flashlight</otherlocal><engnote>'Llanterna' and 'lot' mean the battery-operated type of torch. 'Lot' is a registered trademark but is widely used.</engnote></grouptranslation>
-                                 <translation gender="f">torxa<plural>torches</plural><engnote>'Torxa' means the 'set end on fire' type of torch (i.e. like the Olympic torch).</engnote></translation>
+                                 <translation gender="f">torxa<engnote>'Torxa' means the 'set end on fire' type of torch (i.e. like the Olympic torch).</engnote></translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -4274,7 +4281,7 @@
         <Entry frequency="6570000">tory<nouns>
 			<translations>
 				<translation catagory="politics" local="gb" gender="mf">membre del partit conservador britànic</translation>
-                                <translation catagory="politics" gender="mf">membre del partit conservador canadenc<plural>tories</plural></translation>
+                                <translation catagory="politics" gender="mf">membre del partit conservador canadenc</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -4810,8 +4817,7 @@
 		</nouns>
 	</Entry><Entry frequency="5700000">tragedy<nouns>
 			<translations>
-				<translation gender="f">tragèdia<plural>tragedies</plural>
-				</translation>
+				<translation gender="f">tragèdia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="3620000">tragic<adjectives>
@@ -4826,7 +4832,7 @@
 		</adverbs>
 	</Entry><Entry frequency="80800">tragicomedy<nouns>
 			<translations>
-				<translation gender="f">tragicomèdia<plural>tragicomedies</plural></translation>
+				<translation gender="f">tragicomèdia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="62600">tragicomic<adjectives>
@@ -4840,15 +4846,22 @@
 				<translation gender="fpl">empremtes</translation>
                                 <translation gender="m">rastre</translation>
                                 <translation gender="f">pista</translation>
-                                <translation gender="f">reguera</translation>
                                 </grouptranslation>
-                                <translation gender="m">camí</translation>
+                                <translation gender="f">[liquid or powder] reguera</translation>
+                                <translation gender="m">[route] camí</translation>
 			</translations>
 		</nouns>
                 <verbs>
                 <translations>
                 <translation>seguir la pista / arrosegar / rastrejar / anar a la saga</translation></translations></verbs>
-	</Entry><Entry frequency="11300000">trailer<nouns>
+	            </Entry>
+                    <Entry frequency="3070000">trailblazer<nouns>
+                            <translations><date>1008</date>
+				<translation gender="mf">pioner</translation>
+			</translations>
+		</nouns>
+	</Entry>
+                    <Entry frequency="11300000">trailer<nouns>
 			<translations>
 				<translation catagory="transport" gender="m">tràiler</translation>
                                 <translation catagory="entertainment" gender="m">tràiler</translation>
@@ -4911,9 +4924,7 @@
 		</adjectives>
 	</Entry><Entry frequency="704000">trajectory<nouns>
 			<translations>
-				<translation gender="f">trajectòria<synonyms>path, course</synonyms>
-					<plural>trajectories</plural>
-				</translation>
+				<translation gender="f">trajectòria<synonyms>path, course</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="865000">tram<nouns>
@@ -4940,7 +4951,7 @@
                 </phrasalverbs>
 	<phrasalverbs>trample upon<translations><translation intransitive="true">trepitjar</translation></translations></phrasalverbs></Entry><Entry frequency="2780000">tranny<nouns>
 			<translations>
-				<translation register="slang" gender="f">transsexual<plural>trannies</plural></translation>
+				<translation register="slang" gender="f">transsexual</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="13000000">tranquil<adjectives>
@@ -5139,8 +5150,7 @@
 		</adjectives>
 	</Entry><Entry frequency="3740000">transparency<nouns>
 			<translations>
-				<translation gender="f">transparència<plural>transparencies</plural>
-				</translation>
+				<translation gender="f">transparència</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="6220000">transparent<adjectives>
@@ -5276,8 +5286,7 @@
 		</nouns>
 	</Entry><Entry frequency="1950000">travel agency<nouns>
 			<translations>
-				<translation gender="f">agència de viatges<plural>travel agencies</plural>
-				</translation>
+				<translation gender="f">agència de viatges</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5302,7 +5311,7 @@
 			<translations>
                         <grouptranslation>
 				<translation gender="f">caricatura / paròdia / aparença</translation>
-                                <translation gender="m">simulacre</translation><plural>travesties</plural><catnote>'Travesty' té el matís de 'mala còpia' o 'mala imitació'.</catnote>
+                                <translation gender="m">simulacre</translation><catnote>'Travesty' té el matís de 'mala còpia' o 'mala imitació'.</catnote>
                                 </grouptranslation>
 			</translations>
 		</nouns>
@@ -5357,8 +5366,7 @@
 		</nouns>
 	</Entry><Entry frequency="4730000">treaty<nouns>
 			<translations>
-				<translation catagory="politics" gender="m">tractat<plural>treaties</plural>
-				</translation>
+				<translation catagory="politics" gender="m">tractat</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1330000">treble<adjectives>
@@ -5415,7 +5423,7 @@
 	</Entry><Entry frequency="15100000">trench<nouns>
 			<translations>
 				<translation gender="f">trinxera<engnote>'Trinxera' is the type of trench dug by soldiers.</engnote></translation>
-                                <translation gender="f">rasa<plural>trenches</plural></translation>
+                                <translation gender="f">rasa</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="11300000">trend<nouns>
@@ -5524,8 +5532,7 @@
 		</nouns>
 	</Entry><Entry frequency="366000">tributary<nouns>
 			<translations>
-				<translation catagory="geography" gender="m">afluent<plural>tributaries</plural>
-				</translation>
+				<translation catagory="geography" gender="m">afluent</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="914000">tribute<nouns>
@@ -5637,7 +5644,7 @@
 		</nouns>
 	</Entry><Entry frequency="6650000">trilogy<nouns>
 			<translations>
-				<translation gender="f">trilogia<plural>trilogies</plural></translation>
+				<translation gender="f">trilogia</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1350000">trimester<nouns>
@@ -5798,8 +5805,7 @@
 		</nouns>
 	</Entry><Entry frequency="3260000">trophy<nouns>
 			<translations>
-				<translation gender="m">trofeu<plural>trophies</plural>
-				</translation>
+				<translation gender="m">trofeu</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5966,7 +5972,20 @@
 				<translation>veritablement / vertaderament / realment</translation>
 			</translations>
 		</adverbs>
-	</Entry><Entry frequency="20200000">trumpet<nouns>
+	</Entry>
+             <Entry frequency="12500000">trump<nouns>
+                            <translations><date>1008</date>
+				<translation gender="m">trumfo / atot</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>[cards] matar amb trumfo</translation>
+                        <translation>superar / guanyar</translation>
+                    </translations>
+                </verbs>
+	</Entry>
+        <Entry frequency="20200000">trumpet<nouns>
                             <translations><date>0708</date>
 				<translation catagory="entertainment-music-instrument" gender="f">trompeta</translation>
 			</translations>
@@ -6174,8 +6193,7 @@
 	</Entry><Entry frequency="661000">tummy<nouns>
 			<translations>
 				<translation catagory="body" register="colloquial" gender="m">ventre<synonyms>stomach, belly (colloquial)</synonyms>
-					<catnote>La traducció més usual de 'ventre' seria 'stomach'.  Tummy és una paraula més utilitzada pels nens o pels que parlen amb els nens. 'Belly' és una altra alternativa, però és més col·loquial i no recomanaríem el seu ús.</catnote>
-					<plural>tummies</plural>
+                                    <catnote>La traducció més usual de 'ventre' seria 'stomach'.  Tummy és una paraula més utilitzada pels nens o pels que parlen amb els nens. 'Belly' és una altra alternativa, però és més col·loquial i no recomanaríem el seu ús.</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -6543,7 +6561,7 @@
 		</nouns>
 	</Entry><Entry frequency="450000">tux<nouns>
 			<translations>
-				<translation catagory="clothes" register="colloquial" gender="m">esmòquing<synonyms>dinner jacket (Br.)</synonyms><plural>tuxes</plural></translation>
+				<translation catagory="clothes" register="colloquial" gender="m">esmòquing<synonyms>dinner jacket (Br.)</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1540000">tuxedo<nouns>
@@ -6849,8 +6867,7 @@
 		</nouns>
 	</Entry><Entry frequency="1140000">tyranny<nouns>
 			<translations>
-				<translation gender="f">tirania<plural>tyrannies</plural>
-				</translation>
+				<translation gender="f">tirania</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="782000">tyrant<nouns>

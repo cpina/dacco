@@ -28,14 +28,17 @@
 	</Entry>
   <Entry frequency="545" >tabaquer<adjectives>
       <translations>
-        <translation>tobacco<catexamp>Indústria tabaquera</catexamp>
-          <engexamp>Tobacco industry</engexamp>
-          <catexamp>Companyies tabaqueres</catexamp>
-          <engexamp>Tobacco companies</engexamp>
-          <fems>tabaquera</fems>
-        </translation>
+        <translation>tobacco<fems>tabaquera</fems></translation>
       </translations>
     </adjectives>
+    <expressions>companyia tabaquera
+        <translations>
+            <translation gender="f">tobacco company</translation>
+        </translations>
+    </expressions>
+    <expressions>indústria tabaquera
+        <translations><translation gender="ffullform">tobacco industry</translation></translations>
+    </expressions>
   </Entry>
   <Entry frequency="6870" >tabaquisme<nouns>
       <translations>
@@ -2599,6 +2602,12 @@
       </translations>
     </nouns>
   </Entry>
+  <Entry frequency="860000">tint<nouns>
+                            <translations><date>1008</date>
+				<translation gender="m">dye</translation>
+			</translations>
+		</nouns>
+	</Entry>
   <Entry frequency="17300" >tinta<nouns>
       <translations>
         <translation gender="f" >ink</translation>
@@ -2936,14 +2945,22 @@
   </Entry>
   <Entry frequency="30300" >toc<nouns>
       <translations>
-        <translation gender="m" >touch / feel<catexamp>Pedra de toc</catexamp>
-          <engexamp>Touchstone</engexamp>
-        </translation>
-        <translation catagory="entertainment-music" gender="m" >beat (of a drum)/ peal (of a bell) / call (of a trumpet)<catexamp>Toc de queda</catexamp><engexamp>Curfew</engexamp><engnote>'Toc' can mean 'beat', 'blast', 'peal', 'ring', 'chime' etc. depending on the instrument being played.</engnote>
+        <translation gender="m" >touch / feel</translation>
+        <translation catagory="entertainment-music" gender="m" >beat (of a drum)/ peal (of a bell) / call (of a trumpet)<engnote>'Toc' can mean 'beat', 'blast', 'peal', 'ring', 'chime' etc. depending on the instrument being played.</engnote>
         </translation>
         <translation gender="m" >(finishing) touch</translation>
       </translations>
     </nouns>
+    <expressions>toc de queda
+        <translations>
+            <translation gender="m">curfew</translation>
+        </translations>
+    </expressions>
+    <expressions>pedra de toc
+        <translations>
+            <translation gender="f">touchstone</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="188" >tocadiscs<nouns>
       <translations>
@@ -5394,6 +5411,17 @@
         </translations>
     </expressions>
   </Entry>
+       <Entry frequency="7860">trumfo<nouns>
+                            <translations><date>1008</date>
+				<translation gender="m">trump (card)<synonyms>atot</synonyms></translation>
+			</translations>
+		</nouns>
+                <expressions>matar amb trumfo
+                    <translations>
+                        <translation>to trump</translation>
+                    </translations>
+                </expressions>
+	</Entry>
   <Entry frequency="435" >tsunami<nouns>
       <translations>
         <translation catagory="weather" gender="m" >tsunami</translation>

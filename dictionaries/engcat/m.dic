@@ -227,9 +227,14 @@
 <Entry frequency="2500000">mafia<nouns>
 			<translations>
 				<translation gender="f">màfia</translation>
-                                <translation beforenoun="true">mafiós<engexamp>Member of the mafia / mafia member</engexamp><catexamp>Mafiós</catexamp></translation>
+                                <translation beforenoun="true">mafiós</translation>
 			</translations>
 		</nouns>
+                <expressions>member of the mafia (o mafia member)
+                    <translations>
+                        <translation gender="mf">mafiós</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="95300000">magazine<nouns>
 			<translations>
@@ -711,11 +716,14 @@
 	</Entry>
 <Entry frequency="4420000">makeup<nouns>
 			<translations>
-				<translation gender="m">maquillatge<engexamp>To put your makeup on</engexamp>
-					<catexamp>Maquillar-se</catexamp>
-				</translation>
+				<translation gender="m">maquillatge</translation>
 			</translations>
 		</nouns>
+                <expressions>put your makeup on / do your makeup
+                    <translations>
+                        <translation>maquillar-se</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="271000">makeup artist<nouns>
 			<translations>
@@ -2155,9 +2163,14 @@
 	</Entry>
 <Entry frequency="9210000">mayor<nouns>
 			<translations>
-				<translation gender="m">alcalde<engexamp>Office of mayor</engexamp><catexamp>Alcaldia</catexamp></translation>
+				<translation gender="m">alcalde</translation>
 			</translations>
 		</nouns>
+                <expressions>office of mayor
+                    <translations>
+                        <translation gender="f">alcaldia</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="21000">mayoress<nouns>
 			<translations>
@@ -2387,25 +2400,48 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="203000">med<adjectives>
-        <translations>
-        <translation>de medicina<engexamp>Med student</engexamp><catexamp>Estudiant de medicina</catexamp><engexamp>Med school</engexamp><catexamp>Escola de Medicina</catexamp></translation></translations></adjectives>
+        <Entry frequency="203000">med<adjectives>
+                <translations>
+                    <translation>de medicina</translation>
+                </translations>
+            </adjectives>
         <nouns>
 			<translations>
 				<translation register="slang" gender="f">mediterrània<example>The website offers deals with over 1500 discount hotels in the &lt;b&gt;Med&lt;/b&gt;.</example></translation>
-                                <translation disambiguate="education" gender="m">Màster en educació<example>For her &lt;b&gt;MEd&lt;/b&gt; dissertation, Jennifer studied the use of computers in primary schools.</example></translation>
+                                <translation disambiguate="education" sourceplural="M.Ed." gender="m">Màster en educació<example>For her &lt;b&gt;MEd&lt;/b&gt; dissertation, Jennifer studied the use of computers in primary schools.</example></translation>
 			</translations>
 		</nouns>
+                <expressions>med school
+                    <translations>
+                        <translation catagory="medical, education" gender="f">escola de medicina</translation>
+                    </translations>
+                </expressions>
+                <expressions>med student
+                    <translations>
+                        <translation catagory="medical, education" gender="mf">estudiant de medicina</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="6530000">medal<nouns>
 			<translations>
-				<translation gender="f">medalla<engexamp>Gold medal</engexamp>
-					<catexamp>Medalla d'or</catexamp>
-					<engexamp>Silver medal</engexamp>
-					<catexamp>Medalla de plata</catexamp>
-				</translation>
+				<translation gender="f">medalla</translation>
 			</translations>
 		</nouns>
+                <expressions>bronze medal
+                    <translations>
+                        <translation gender="f">medalla de bronze</translation>
+                    </translations>
+                </expressions>
+                <expressions>gold medal
+                    <translations>
+                        <translation gender="f">medalla d'or</translation>
+                    </translations>
+                </expressions>
+                <expressions>silver medal
+                    <translations>
+                        <translation gender="f">medalla de plata</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3840000">meddle<verbs>
 			<translations>
@@ -2416,15 +2452,19 @@
 <Entry frequency="167000000">media<nouns>
 			<translations>
 				<translation gender="mpl">mitjans de comunicació</translation>
-                                <translation beforenoun="true">mediàtic<engexamp>Media coverage</engexamp><catexamp>Cobertura mediàtica</catexamp></translation>
+                                <translation beforenoun="true">mediàtic</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="1720000">media library<nouns>
-			<translations>
-				<translation gender="f">mediateca<plural>media libraries</plural></translation>
-			</translations>
-		</nouns>
+                <expressions>media coverage
+                    <translations>
+                        <translation gender="f">cobertura mediàtica</translation>
+                    </translations>
+                </expressions>
+                <expressions>media library
+                    <translations>
+                        <translation gender="f">mediateca</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3050000">mediation<nouns>
 			<translations>
@@ -2565,21 +2605,25 @@
                     <translation>trobar-se</translation>
                     </translations>
                     </phrasalverbs>
-	<phrasalverbs>meet with<translations><translation intransitive="true">trobar-se amb</translation><translation intransitive="true">experimentar, trobar</translation></translations></phrasalverbs></Entry>
-<Entry frequency="94400000">meeting<nouns>
-			<translations>
-				<grouptranslation><translation gender="f">trobada</translation>
+                    <phrasalverbs>meet with
+                        <translations>
+                            <translation intransitive="true">trobar-se amb</translation>
+                            <translation intransitive="true">experimentar / trobar</translation>
+                        </translations>
+                    </phrasalverbs>
+       </Entry>
+<Entry frequency="380000000">meeting<nouns>
+                            <translations><date>1008</date>
+				<grouptranslation><translation gender="f">trobada / reunió</translation>
 					<translation gender="m">encontre / aplec</translation>
                                         </grouptranslation>
-                                <translation disambiguate="politics" gender="m">míting</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="3660000">meeting room<nouns>
-			<translations>
-				<translation gender="f">sala de reunions</translation>
-			</translations>
-		</nouns>
+                <expressions>meeting room
+                    <translations>
+                        <translation gender="f">sala de reunions</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="9050000">megabyte<nouns>
 			<translations>
@@ -2731,6 +2775,22 @@
                                 <translation intransitive="true">fondre / fondre's</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>melt down
+                    <translations>
+                        <translation transitive="true">fondre</translation>
+                        <translation intransitive="true">[fig.] ensorrar-se / ensulsiar-se</translation>
+                    </translations>
+                </phrasalverbs>
+	</Entry>
+        <Entry frequency="15600000">meltdown<nouns>
+                            <translations><date>1008</date>
+				<translation gender="f">fusió (d'un reactor nuclear)</translation>
+                                <grouptranslation>
+                                <translation gender="m">ensorrament / esfondrament / enfonsament</translation>
+                                    <translation gender="f">ensulsiada<engexamp>The financial meltdown</engexamp><catexamp>L'ensulsiada financera</catexamp></translation>
+                                </grouptranslation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="4270000">melting point<nouns>
                             <translations><date>1008</date>
@@ -2982,9 +3042,19 @@
 		</nouns>
                 <adjectives>
                     <translations>
-                        <translation>mercant<engexamp>Merchant navy</engexamp><catexamp>Marina mercant</catexamp><engexamp>Merchant ship</engexamp><catexamp>(Vaixell) mercant</catexamp></translation>
+                        <translation>mercant</translation>
                     </translations>
                 </adjectives>
+                <expressions>merchant navy
+                    <translations>
+                        <translation gender="f">marina mercant</translation>
+                    </translations>
+                </expressions>
+                <expressions>merchant ship
+                    <translations>
+                        <translation gender="m">(vaixell) mercant</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="721000">merciless<adjectives>
 			<translations>
@@ -3333,13 +3403,15 @@
 	</Entry>
 <Entry frequency="17700000">meter<nouns>
 			<translations>
-				<translation local="us" gender="m">metre<otherlocal>metre</otherlocal>
-					<engexamp>Meter squared</engexamp>
-					<catexamp>Metre quadrat</catexamp>
-					<catnote>Els americans no utilitzen el sistema mètric decimal.</catnote>
+				<translation local="us" gender="m">metre<otherlocal>metre</otherlocal><catnote>Els americans no utilitzen el sistema mètric decimal.</catnote>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>meter squared
+                    <translations>
+                        <translation gender="m">metre quadrat</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1270000">methane<nouns>
 			<translations>
@@ -3358,12 +3430,11 @@
 				<translation gender="m">mètode</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="48100">method air<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">mètode</translation>
-			</translations>
-		</nouns>
+                <expressions>method air
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">mètode</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2080000">methodist<nouns>
 			<translations>
@@ -3402,12 +3473,14 @@
 	</Entry>
 <Entry frequency="3150000">metre<nouns>
 			<translations>
-				<translation local="gb" gender="m">metre<otherlocal>meter</otherlocal>
-					<engexamp>Metre squared</engexamp>
-					<catexamp>Metre quadrat</catexamp>
-				</translation>
+				<translation local="gb" gender="m">metre<otherlocal>meter</otherlocal></translation>
 			</translations>
 		</nouns>
+                <expressions>metre squared
+                    <translations>
+                        <translation gender="m">metre quadrat</translation>
+                    </translations>
+                </expressions>
 	</Entry>
             <Entry frequency="3950000">metronome<nouns>
 			<translations><date>0708</date>
@@ -3582,7 +3655,7 @@
 	</Entry>
 <Entry frequency="12400000">middle<nouns>
 			<translations>
-				<translation gender="m">centre / mig<engexamp>In the middle of the street</engexamp><catexamp>Al mig del carrer</catexamp></translation>
+				<translation gender="m">centre / mig</translation>
 			</translations>
 
 		</nouns>
@@ -3591,6 +3664,11 @@
 				<translation>central</translation>
 			</translations>
 		</adjectives>
+                <expressions>in the middle of
+                    <translations>
+                        <translation>al mig de</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1180000">middle-aged<adjectives>
 			<translations>
@@ -3787,7 +3865,7 @@
 	</Entry>
 <Entry frequency="1700000">militate<verbs>
 			<translations>
-				<translation register="formal"><engexamp>To militate against (something)</engexamp><catexamp>Impedir / fer difícil (alguna cosa)</catexamp></translation>
+				<translation register="formal">[~ against] impedir / fer difícil</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3823,7 +3901,7 @@
 <Entry frequency="10500000">mill<nouns>
                             <translations><date>0508</date>
                                 <translation gender="m">molí<engnote>'Molí' means 'mill' in the sense 'building where grain is ground into flour' (e.g. windmill, watermill).</engnote></translation>
-                                <translation gender="f">fàbrica<engexamp>Paper mill</engexamp><catexamp>Fàbrica de paper</catexamp><engexamp>Cotton mill</engexamp><catexamp>Fàbrica de cotó</catexamp></translation>
+                                <translation gender="f">fàbrica</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -3831,6 +3909,16 @@
                         <translation>moldre</translation>
                     </translations>
                 </verbs>
+                <expressions>cotton mill
+                    <translations>
+                        <translation gender="f">fàbrica de cotó</translation>
+                    </translations>
+                </expressions>
+                <expressions>paper mill
+                    <translations>
+                        <translation gender="f">fàbrica de paper</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="10700000">millennium<nouns>
 			<translations>
@@ -4005,9 +4093,19 @@
 	</Entry>
 <Entry frequency="4660000">mineral water<nouns>
 			<translations>
-				<translation catagory="food-drink" gender="f">aigua mineral<engexamp>Sparkling mineral water</engexamp><catexamp>Aigua mineral amb gas</catexamp><engexamp>Still mineral water</engexamp><catexamp>Aigua mineral sense gas</catexamp></translation>
+				<translation catagory="food-drink" gender="f">aigua mineral</translation>
 			</translations>
 		</nouns>
+                <expressions>sparkling mineral water
+                    <translations>
+                        <translation catagory="food-drink" gender="f">aigua mineral amb gas</translation>
+                    </translations>
+                </expressions>
+                <expressions>still mineral water
+                    <translations>
+                        <translation catagory="food-drink" gender="f">aigua mineral sense gas</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="26800000">mini<adjectives>
 			<translations>
@@ -4109,10 +4207,20 @@
 		</nouns>
                 <adjectives>
                     <translations>
-                        <translation catagory="entertainment-music">menor<engexamp>Minor scale</engexamp><catexamp>Escala menor</catexamp><engexamp>Minor key</engexamp><catexamp>To menor</catexamp></translation>
+                        <translation catagory="entertainment-music">menor</translation>
                         <translation>secundari</translation>   
                     </translations>
                 </adjectives>
+                <expressions>minor key
+                    <translations>
+                        <translation disambiguate="entertainment-music" gender="m">to menor</translation>
+                    </translations>
+                </expressions>
+                <expressions>minor scale
+                    <translations>
+                        <translation disambiguate="entertainment-music" gender="f">escala menor</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="7680000">minority<nouns>
 			<translations>
@@ -4718,9 +4826,29 @@
 	</Entry>
 <Entry frequency="35900000">modem<nouns>
                         <translations><date>0508</date>
-                            <translation termcat="true" gender="m">mòdem<engexamp>External modem</engexamp><catexamp>Mòdem extern</catexamp><engexamp>Internal modem</engexamp><catexamp>Mòdem intern</catexamp><engexamp>Integrated modem</engexamp><catexamp>Mòdem integrat</catexamp><engexamp>Wireless modem</engexamp><catexamp>Mòdem sense fil</catexamp></translation>
+                            <translation catagory="computers" termcat="true" gender="m">mòdem</translation>
 			</translations>
 		</nouns>
+                <expressions>external modem
+                    <translations>
+                        <translation catagory="computers" gender="m">mòdem extern</translation>
+                    </translations>
+                </expressions>
+                <expressions>integrated modem
+                    <translations>
+                        <translation catagory="computers" gender="m">mòdem integrat</translation>
+                    </translations>
+                </expressions>
+                <expressions>internal modem
+                    <translations>
+                        <translation catagory="computers" gender="m">mòdem intern</translation>
+                    </translations>
+                </expressions>
+                <expressions>wireless modem
+                    <translations>
+                        <translation catagory="computers" gender="m">mòdem sense fil</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="6120000">moderate<adjectives>
 			<translations>
@@ -5180,11 +5308,14 @@
 	</Entry>
 <Entry frequency="83400">monolingual<adjectives>
 			<translations>
-				<translation>monolingüe<engexamp>Monolingual dictionary</engexamp>
-					<catexamp>Diccionari monolingüe</catexamp>
-				</translation>
+				<translation>monolingüe</translation>
 			</translations>
 		</adjectives>
+                <expressions>monolingual dictionary
+                    <translations>
+                        <translation gender="m">diccionari monolingüe</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="511000">monologue<nouns>
 			<translations>
@@ -5371,16 +5502,24 @@
 	</Entry>
 <Entry frequency="8380000">mood<nouns>
 			<translations>
-				<translation gender="m">humor<engexamp>To be in a bad mood</engexamp>
-					<catexamp>Estar de mal humor / estar de mala llet / estar de mal rotllo</catexamp><engexamp>To be in a good mood</engexamp><catexamp>Estar de bon humor / estar de bon rotllo</catexamp></translation>
+				<translation gender="m">humor</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="506000">mood swings<nouns>
-			<translations>
-				<translation gender="mpl">canvis d'humor</translation>
-			</translations>
-		</nouns>
+                <expressions>mood swings
+                    <translations>
+                        <translation catagory="medical" gender="mpl">canvis d'humor</translation>
+                    </translations>
+                </expressions>
+                <expressions>be in a bad mood
+                    <translations>
+                        <translation>estar de mal humor / estar de mala llet / estar de mal rotllo</translation>
+                    </translations>
+                </expressions>
+                <expressions>be in a good mood
+                    <translations>
+                        <translation>estar de bon humor / estar de bon rotllo</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="6290000">moody<adjectives>
 			<translations>
@@ -5436,6 +5575,22 @@
 				<translation catagory="animal-animal" gender="m">ant<plural>moose</plural><catnote>Al Canadà i als Estats Units: 'ant' = 'moose'. En Europa: 'ant' = 'elk'.</catnote></translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="5340000">moot<adjectives>
+			<translations><date>1008</date>
+                                <translation local="us">inútil / ociós<example>The whole debate may be &lt;b&gt;moot&lt;/b&gt;.</example></translation>
+			</translations>
+		</adjectives>
+                <expressions>moot hall
+                    <translations>
+                        <translation local="gb" gender="f">sala de l'ajuntament / sala del consell</translation>
+                    </translations>
+                </expressions>
+                <expressions>moot point (o question)
+                    <translations>
+                        <translation gender="m">tema discutible / disputable</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1230000">mop<nouns>
 			<translations>
@@ -5622,12 +5777,14 @@
 	</Entry>
 <Entry frequency="3290000">mortality<nouns>
 			<translations>
-				<translation gender="f">mortalitat<plural>mortalities</plural>
-					<engexamp>Mortality rate</engexamp>
-					<catexamp>Taxa de mortalitat</catexamp>
-				</translation>
+				<translation gender="f">mortalitat</translation>
 			</translations>
 		</nouns>
+                <expressions>mortality rate
+                    <translations>
+                        <translation gender="f">taxa de mortalitat</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="120000">mortally<adverbs>
 			<translations>
@@ -5690,11 +5847,14 @@
 	</Entry> 
 <Entry frequency="344000000">most<pronouns>
 			<translations>
-				<translation>la majoria<engexamp>Most of</engexamp>
-					<catexamp>La majoria de</catexamp>
-				</translation>
+				<translation>la majoria</translation>
 			</translations>
 		</pronouns>
+                <expressions>most of
+                    <translations>
+                        <translation>la majoria de</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="77000000">mostly<adverbs>
 			<translations><date>0307</date>
@@ -6381,9 +6541,14 @@
 	</Entry>
 <Entry frequency="48000000">multimedia<adjectives>
 			<translations>
-				<translation>multimèdia<engexamp>Multimedia PC / computer</engexamp><catexamp>Ordinador multimèdia</catexamp></translation>
+				<translation>multimèdia</translation>
 			</translations>
 		</adjectives>
+                <expressions>multimedia PC (o computer)
+                    <translations>
+                        <translation catagory="computers" gender="m">ordinador multimèdia</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1030000">multimillionaire<nouns>
 			<translations>
@@ -7013,9 +7178,14 @@
 <Entry frequency="21000000">mystery<nouns>
 			<translations>
 				<translation gender="m">misteri</translation>
-                                <translation gender="ffullform">intriga<engexamp>Mystery novel</engexamp><catexamp>Novel·la d'intriga</catexamp><plural>mysteries</plural></translation>
+                                <translation gender="ffullform">intriga</translation>
 			</translations>
 		</nouns>
+                <expressions>mystery novel
+                    <translations>
+                        <translation gender="f">novel·la d'intriga</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="5820000">mystic<nouns>
 			<translations>
