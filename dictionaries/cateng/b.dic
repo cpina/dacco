@@ -772,7 +772,7 @@
 	</Entry>
 	<Entry frequency="3310" hasSound="true">baralla<nouns>
 			<translations>
-				<translation gender="f">fight</translation>
+				<translation gender="f">fight<synonyms>brega</synonyms></translation>
                                 <translation gender="f">pack of cards / deck of cards</translation>
 			</translations>
 		</nouns>
@@ -3583,11 +3583,16 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="21000">brega<nouns>
-			<translations><date>0306</date>
-				<translation gender="f">fight<plural>bregues</plural></translation>
+        <Entry frequency="22600">brega<nouns>
+			<translations><date>1008</date>
+				<translation gender="f">fight<synonyms>baralla</synonyms><plural>bregues</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>buscar brega
+                    <translations>
+                        <translation>to be looking for a fight</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="239">bresca<nouns>
 			<translations><date>1105</date>

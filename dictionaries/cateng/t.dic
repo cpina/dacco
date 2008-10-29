@@ -2636,14 +2636,19 @@
                     </translations>
 		</nouns>
 	</Entry>
-  <Entry frequency="1000" >tip<adjectives>
-      <translations>
+  <Entry frequency="255000" >tip<adjectives>
+          <translations><date>1008</date>
         <translation>fed up<synonyms>fart</synonyms>
         </translation>
         <translation>full<engnote>'Tip' means 'full' in the sense 'can't eat any more'.</engnote><fems>tipa</fems>
         </translation>
       </translations>
     </adjectives>
+    <nouns>
+        <translations>
+            <translation gender="m">binge<synonyms>fart, afartada, fartera, fartanera</synonyms></translation>
+            </translations>
+    </nouns>
   </Entry>
   <Entry frequency="63300" >típic<adjectives>
       <translations>
@@ -5265,15 +5270,21 @@
 		</nouns>
 	</Entry>
   <Entry frequency="1990" >trompa<nouns>
-          <translations><date>0708</date>
+          <translations><date>1008</date>
         <translation disambiguate="entertainment-music-instrument" gender="f" >(French) horn</translation>
         <translation termcat="entertainment-music" gender="m / f">(French) horn player</translation>
         <translation disambiguate="animal" gender="f" >trunk</translation>
+        <translation gender="f">drinking binge</translation>
       </translations>
     </nouns>
+    <expressions>trompa d'Eustaqui
+        <translations>
+            <translation catagory="body" gender="f">Eustachian tube</translation>
+        </translations>
+    </expressions>
     <expressions>trompa de Fal·lopi
         <translations>
-            <translation catagory="biology" gender="f" >Fallopian tube</translation>
+            <translation catagory="body" gender="f" >Fallopian tube</translation>
         </translations>
     </expressions>
   </Entry>

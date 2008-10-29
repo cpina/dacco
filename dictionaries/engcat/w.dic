@@ -1023,10 +1023,16 @@
 	</Entry><Entry frequency="247000000">wear<verbs>
 			<past>wore</past>
 			<participle>worn</participle>
-                            <translations><date>1007</date>
-				<translation>portar</translation>
+                            <translations><date>1008</date>
+				<translation transitive="true">[clothes] portar</translation>
+                                <translation transitive="true">desgastar(-se)</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>wear away
+                    <translations>
+                        <translation transitive="true">erosionar (erosió en general)</translation>
+                    </translations>
+                </phrasalverbs>
                   <phrasalverbs>wear down
                     <translations>
                         <translation>desgastar</translation>
@@ -1038,7 +1044,23 @@
                         <translation>dur (una peça de vestir) durant períodes breus fins que s'adapti al cos</translation>
                     </translations>
                 </phrasalverbs>
-	<phrasalverbs>wear away<translations><translation transitive="true">erosionar (erosió en general)</translation></translations></phrasalverbs><phrasalverbs>wear off<translations><translation intransitive="true">disminuir</translation></translations></phrasalverbs><phrasalverbs>wear on<translations><translation intransitive="true">passar (el temps)</translation></translations></phrasalverbs><phrasalverbs>wear out<translations><translation transitive="true">desgastar del tot (com a resultat d'ús)</translation></translations></phrasalverbs></Entry><Entry frequency="453000">wearily<adverbs>
+                <phrasalverbs>wear off
+                    <translations>
+                        <translation intransitive="true">disminuir</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>wear on
+                    <translations>
+                        <translation intransitive="true">passar (el temps)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>wear out
+                    <translations>
+                        <translation transitive="true">desgastar del tot (com a resultat d'ús)</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="453000">wearily<adverbs>
 			<translations>
 				<translation>cansadament / amb cansament</translation>
 			</translations>
@@ -3172,9 +3194,15 @@
                                 <translation>arrufar<engexamp>To wrinkle your nose</engexamp><catexamp>Arrufar el nas</catexamp></translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>wrinkle up<translations><translation transitive="true">arrufar (generalment un aspecte de la fisonomia)</translation></translations></phrasalverbs></Entry><Entry frequency="2450000">wrist<nouns>
-			<translations>
-				<translation catagory="body" gender="m">canell</translation>
+                <phrasalverbs>wrinkle up
+                    <translations>
+                        <translation transitive="true">arrufar (generalment un aspecte de la fisonomia)</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+        <Entry frequency="30300000">wrist<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="body" gender="m">canell / puny</translation>
 			</translations>
 		</nouns>
                 <expressions>wrist rest
@@ -3200,12 +3228,28 @@
                 <translation>anotar / apuntar<example>It's not a good idea to &lt;b&gt;write down&lt;/b&gt; your PIN number on the back of your cash card.</example><example>I'd like to &lt;b&gt;write&lt;/b&gt; that &lt;b&gt;down&lt;/b&gt;. Hsave you got a pen and paper?</example><example>If you have any questions, &lt;b&gt;write&lt;/b&gt; them &lt;b&gt;down&lt;/b&gt; and I will answer them after the lecture.</example><synonyms>jot down</synonyms></translation>
                 </translations>
                 </phrasalverbs>
+                <phrasalverbs>write in
+                    <translations>
+                        <translation intransitive="true">escriure i sotmetre (una carta, un missatge)</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>write off
                 <translations>
                 <translation>condonar<example>Britain urges G8 to &lt;b&gt;write off&lt;/b&gt; developing world debt.</example></translation>
                 </translations>
                 </phrasalverbs>
-	<phrasalverbs>write in<translations><translation intransitive="true">escriure i submetre (una carta, un missatge)</translation></translations></phrasalverbs><phrasalverbs>write out<translations><translation transitive="true">transcriure, escriure sense abreviatures</translation></translations></phrasalverbs><phrasalverbs>write up<translations><translation transitive="true">redactar, escriure en net</translation></translations></phrasalverbs></Entry><Entry frequency="31800000">writer<nouns>
+                <phrasalverbs>write out
+                    <translations>
+                        <translation transitive="true">transcriure / escriure sense abreviatures</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>write up
+                    <translations>
+                        <translation transitive="true">redactar / escriure en net</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="31800000">writer<nouns>
 			<translations>
 				<translation catagory="work-job" gender="mf">escriptor</translation>
 			</translations>
