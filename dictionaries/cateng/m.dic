@@ -1753,6 +1753,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="26400">marrada<nouns>
+                            <translations><date>1108</date>
+				<translation gender="f">detour<synonyms>volta, rodeig</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="812">marratxiner<nouns>
                 <translations><date>0708</date>
                     <translation catagory="geography" gender="m / f">(person / people) from Marratxí</translation>
@@ -3690,7 +3696,7 @@
 	</Entry>
 	<Entry frequency="790">meteor<nouns>
 			<translations>
-				<translation gender="m">meteor</translation>
+				<translation catagory="astronomy" gender="m">meteor</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3703,7 +3709,7 @@
 	</Entry>
         <Entry frequency="825">meteorit<nouns>
 			<translations><date>0605</date>
-				<translation gender="m">meteorite</translation>
+				<translation catagory="astronomy" gender="m">meteorite</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4258,13 +4264,18 @@
 				<translation gender="f">mine</translation>
 			</translations>
 		</nouns>
+                <expressions>mina antipersona
+                    <translations>
+                        <translation gender="f">landmine<plural>mines antipersona</plural></translation>
+                    </translations>
+                </expressions>
 	</Entry>
-	<Entry frequency="729">mina antipersona<nouns>
-			<translations>
-				<translation gender="f">landmine<plural>mines antipersona</plural>
-				</translation>
+	        	<Entry frequency="7500">minar<verbs conj="regular">
+                            <translations><date>1108</date>
+                            <translation transitive="true">to mine / to lay (o place) mines</translation>
+				<translation transitive="true">to weaken / to undermine / (confiança, moral) to sap</translation>
 			</translations>
-		</nouns>
+		</verbs>
 	</Entry>
 	<Entry frequency="153">minaret<nouns>
 			<translations>

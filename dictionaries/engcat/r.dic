@@ -39,6 +39,18 @@
 		</nouns>
 
 	</Entry>
+        <Entry frequency="4380000">rabid<adjectives>
+                            <translations><date>1108</date>
+				<translation>rabiós</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+ <Entry frequency="152000">rabidly<adverbs>
+                            <translations><date>1108</date>
+				<translation>rabiosament</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 <Entry frequency="518000">rabies<nouns>
 
 			<translations>
@@ -2476,11 +2488,11 @@
 		</verbs>
 
 	</Entry>
-<Entry frequency="2180000">recant<verbs>
+<Entry frequency="546000">recant<verbs>
 
-                            <translations>
+                            <translations><date>1008</date>
 
-				<translation register="formal">retractar</translation>
+				<translation register="formal">retractar-se</translation>
 
 			</translations>
 
@@ -2662,18 +2674,11 @@
 			</translations>
 
 		</nouns>
-
-	</Entry>
-<Entry frequency="521000">recipe book<nouns>
-
-			<translations>
-
-				<translation gender="m">receptari</translation>
-
-			</translations>
-
-		</nouns>
-
+                <expressions>recipe book
+                    <translations>
+                        <translation gender="m">receptari</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="19900000">recipient<nouns>
 
@@ -7217,7 +7222,7 @@
 				</translation>
 
                                 <translation disambiguate="computers" gender="m">retorn (de carro)<engexamp>Return key</engexamp><catexamp>Tecla retorn</catexamp></translation>
-
+                                <translation local="gb" gender="m">bitllet d'anada i tornada<example>Two &lt;b&gt;returns&lt;/b&gt; to Brighton please.</example></translation>
 			</translations>
 
 		</nouns>
@@ -7226,7 +7231,7 @@
 
 			<translations>
 
-				<translation>d'anada i tornada<engnote>'D'anada i tornada' means 'return' in the sense 'return ticket' (round trip ticket).</engnote>
+				<translation>d'anada i tornada<engnote>'D'anada i tornada' means 'return' in the sense 'return ticket' (round-trip ticket).</engnote>
 
 				</translation>
 
@@ -7384,12 +7389,23 @@
 		</adjectives>
 
 	</Entry>
-<Entry frequency="425000000">reverse<verbs>
+<Entry frequency="14200000">reversal<nouns>
+                            <translations><date>1108</date>
+                                <grouptranslation>
+                                    <translation gender="ffullform">inversió</translation>
+                                    <translation gender="m">capgirament</translation>
+                                </grouptranslation>
+                                <translation gender="m">intercanvi<engexamp>Role reversal</engexamp><catexamp>Intercanvi de papers</catexamp></translation>
+                                <translation gender="f">(of a decision) revocació</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="85900000">reverse<verbs>
 
-			<translations>
+                            <translations><date>1108</date>
 
 				<translation>capgirar / invertir</translation>
-
+                                <translation>revocar (una decisió)</translation>
 			</translations>
 
 		</verbs>
@@ -9771,7 +9787,7 @@
 	</Entry>
 <Entry frequency="522000000">round<nouns>
 
-			<translations><date>1007</date>
+			<translations><date>1108</date>
 
 				<translation register="colloquial" local="gb" gender="f">ronda<catnote>Al Regne Unit, quan un grup d'amics va a un bar és molt habitual que tots els membres del grup compren les begudes per torns.  És a dir que l'amic A compra una beguda per a tots, llavors l'amic B fa el mateix etc. etc. fins que tots hagin comprat 'a round'. (Per exemple: 'It's your round!' &gt; 'És el teu torn (de comprar begudes per a tots)').</catnote>
 
@@ -9834,7 +9850,16 @@
                     </translations>
 
                 </phrasalverbs>
-
+                <expressions>round the bend
+                    <translations>
+                        <translation>tocat de l'ala</translation>
+                    </translations>
+                </expressions>
+                <expressions>round trip
+                    <translations>
+                        <translation gender="m">viatge d'anada i tornada</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1260000">roundabout<nouns>
             <translations>
@@ -9845,16 +9870,16 @@
 
 			<translations>
 
-				<translation>indirecte<engexamp>In a roundabout way</engexamp>
-
-					<catexamp>De forma indirecta</catexamp>
-
-				</translation>
+				<translation>indirecte</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>in a roundabout way
+                    <translations>
+                        <translation>de forma indirecta</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="750000">round-bottom flask<nouns>
 
@@ -9878,24 +9903,14 @@
 		</nouns>
 
 	</Entry>
-<Entry frequency="47000">round the bend<adjectives>
 
-			<translations>
-
-				<translation register="colloquial">boig</translation>
-
-			</translations>
-
-		</adjectives>
-
-	</Entry>
 <Entry frequency="7360000">rouse<verbs>
 
 			<translations>
 
-				<translation>agitar<example>A number of patriots have gone to the rural areas to &lt;b&gt;rouse&lt;/b&gt; the masses.</example></translation>
+				<translation transitive="true">agitar<example>A number of patriots have gone to the rural areas to &lt;b&gt;rouse&lt;/b&gt; the masses.</example></translation>
 
-                                <translation register="formal">despertar<example>Peter was so tired that I couldn't &lt;b&gt;rouse&lt;/b&gt; him from his nest of blankets on the sofa.</example></translation>
+                                <translation transitive="true" register="formal">despertar<example>Peter was so tired that I couldn't &lt;b&gt;rouse&lt;/b&gt; him from his nest of blankets on the sofa.</example></translation>
 
 			</translations>
 
@@ -9924,7 +9939,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>derrotar completament</translation>
+                        <translation transitive="true">derrotar completament</translation>
                     </translations>
                 </verbs>
 	</Entry>	
@@ -9991,7 +10006,7 @@
 
 			<translations>
 
-				<translation catagory="sports-event-rowing">remar</translation>
+				<translation intransitive="true" catagory="sports-event-rowing">remar</translation>
 
 			</translations>
 
@@ -10049,9 +10064,9 @@
 
                 <translations>
 
-                <translation sourceplural="royals" catagory="monarchy">família reial</translation>
+                <translation sourceplural="the royals" catagory="monarchy" gender="f">família reial</translation>
 
-                <translation sourceplural="Royals" catagory="sports-event-football-teams, encyclopaedic" register="colloquial" noteng="TRUE" local="gb">-<catnote>The Royals és el sobrenom de l'equip de futbol anglès Reading FC.</catnote></translation>
+                <translation sourceplural="Royals" catagory="sports-event-football-teams, encyclopaedic" register="colloquial" local="gb">sobrenom de l'equip de futbol anglès Reading FC</translation>
 
                 </translations>
 

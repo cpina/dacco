@@ -1163,6 +1163,13 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="52100">seduir<verbs conj="irregular2">
+                            <translations><date>1008</date>
+				<translation transitive="true">to seduce</translation>
+                                <translation transitive="true">to attract / to entice</translation>
+			</translations>
+		</verbs>
+	</Entry>
         <Entry frequency="657">sefardita<adjectives>
 			<translations><date>0506</date>
 				<translation catagory="religious">Sephardic</translation>
@@ -1927,6 +1934,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="6500">serf<nouns>
+                            <translations><date>1008</date>
+				<translation gender="m / f">serf<fems>serva</fems></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="1690">sergent<nouns>
 			<translations>
 				<translation gender="m / f">sergeant</translation>
@@ -2005,72 +2018,62 @@
                                 <translation disambiguate="sports-event-tennis" gender="m">serve<catexamp>Nadal va trencar el servei d'Agassi</catexamp><engexamp>Nadal broke Agassi's serve</engexamp></translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="264">servei d'àpats<nouns>
-			<translations><date>0805</date>
-				<translation catagory="food" gender="m">catering</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="1060">servei cartogràfic<nouns>
-			<translations><date>0408</date>
-				<translation catagory="geography" gender="m">mapping agency</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="800">servei de centre<nouns>
-			<translations><date>0408</date>
-				<translation catagory="sports-event-football" termcat="true" gender="m">kick-off<engnote>'Servei de centre' means 'kick-off' in the sense 'kick taken from the centre spot after a goal is scored'. The 'kick-off' at the beginning of each half is a 'servei inicial'</engnote></translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="256">servei de despertador<nouns>
-			<translations><date>1205</date>
-				<translation gender="m">wake-up service</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="174">servei d'habitacions<nouns>
-			<translations><date>1205</date>
-				<translation termcat="true" gender="m">room service</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="578">servei d'urgències<nouns>
-			<translations><date>0805</date>
-				<translation catagory="medical" gender="m">casualty (Br.) / A&amp;E (Br.) / Accident and Emergency (department) (Br.)/ emergency room (Am.)</translation>
-			</translations>
-		</nouns>
-	</Entry>
-               <Entry frequency="13700">serveis de neteja<nouns>
-			<translations><date>0905</date>
-				<translation gender="mpl">cleaning services</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="786">serveis secrets<nouns>
-			<translations>
-				<translation gender="m">secret service</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="98600">serveis socials<nouns>
-			<translations><date>0405</date>
-				<translation gender="mpl">social services</translation>
-			</translations>
-		</nouns>
+                <expressions>servei d'àpats
+                    <translations>
+                        <translation catagory="food" gender="m">catering</translation>
+                    </translations>
+                </expressions>
+                <expressions>servei cartogràfic
+                    <translations>
+                        <translation catagory="geography" gender="m">mapping agency</translation>
+                    </translations>
+                </expressions>
+                <expressions>servei de centre
+                    <translations>
+                        <translation catagory="sports-event-football" termcat="true" gender="m">kick-off<engnote>'Servei de centre' means 'kick-off' in the sense 'kick taken from the centre spot after a goal is scored'. The 'kick-off' at the beginning of each half is a 'servei inicial'</engnote></translation>
+                    </translations>
+                </expressions>
+                <expressions>servei de despertador
+                    <translations>
+                        <translation gender="m">wake-up service</translation>
+                    </translations>
+                </expressions>
+                <expressions>servei d'habitacions
+                    <translations>
+                        <translation termcat="true" gender="m">room service</translation>
+                    </translations>
+                </expressions>
+                <expressions>servei d'urgències
+                    <translations>
+                        <translation catagory="medical" gender="m">casualty (Br.) / A&amp;E (Br.) / Accident and Emergency (department) (Br.)/ emergency room (Am.)</translation>
+                    </translations>
+                </expressions>
+                <expressions>serveis de neteja
+                <translations>
+                    <translation gender="mpl">cleaning services</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>serveis secrets
+                        <translations>
+                            <translation gender="mpl">secret service</translation>
+                        </translations>
+                    </expressions>
+                    <expressions>serveis socials
+                        <translations>
+                            <translation gender="mpl">social services</translation>
+                        </translations>
+                    </expressions>
 	</Entry>
         <Entry frequency="166000">servidor<nouns>
 			<translations><date>0405</date>
 				<translation catagory="computers" gender="m">server</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="1350">servidor FTP<nouns>
-			<translations><date>0405</date>
-				<translation catagory="computers-internet" gender="m">FTP server</translation>
-			</translations>
-		</nouns>
+                <expressions>servidor FTP
+                    <translations>
+                        <translation catagory="computers-internet" gender="m">FTP server</translation>
+                    </translations>
+                </expressions>
 	</Entry>
               <Entry frequency="6750">servil<adjectives>
 			<translations><date>0907</date>
@@ -2092,6 +2095,13 @@
 				</translation>
 			</translations>
 		</verbs>
+	</Entry>
+         <Entry frequency="44000">servitud<nouns>
+                            <translations><date>1008</date>
+				<translation gender="f">servitude</translation>
+                                <translation gender="f">serfdom</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="69200">set<nouns>
 			<translations>
@@ -3932,6 +3942,13 @@
 			</translations>
 		</adverbs>
 	</Entry>
+ <Entry frequency="11500">soscavar<verbs conj="regular">
+			<translations><date>1108</date>
+				<translation transitive="true">to undermine</translation>
+                                <translation transitive="true">(confiança, moral) to sap / to undermine<synonyms>minar</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
         	<Entry frequency="27400">sospir<nouns>
 			<translations><date>0408</date>
 				<translation gender="m">sigh</translation>
@@ -4582,8 +4599,8 @@
 	<Entry frequency="1060">sufocar<verbs conj="CtoQU">
 			<translations><date>0805</date>
 				<translation transitive="true">to suffocate</translation>
-                                <translation transitive="true">to put out</translation>
-                                <translation transitive="true">to suppress</translation>
+                                <translation transitive="true">[incendi] to put out</translation>
+                                <translation transitive="true">[rebel·lió] to suppress / to quell</translation>
 			</translations>
 		</verbs>
 	</Entry>

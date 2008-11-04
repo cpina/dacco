@@ -244,11 +244,16 @@
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="6020000">cake<nouns>
-        <translations>
+<Entry frequency="84400000">cake<nouns>
+        <translations><date>1008</date>
             <translation catagory="food" gender="m">pastís</translation>
         </translations>
     </nouns>
+        <expressions>to be a piece of cake
+            <translations>
+                <translation>ésser bufar i fer ampolles</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="1100000">cakewalk<nouns>
         <translations>
@@ -1432,6 +1437,7 @@
          <expressions>take care of
             <translations>
                 <translation>tenir cura de<example>My neighbour has offered to &lt;b&gt;take care of&lt;/b&gt; my dog while I'm away on holiday next week.</example><example>I would love to go shopping with you this afternoon but I can't find anybody to &lt;b&gt;take care of&lt;/b&gt; the kids.</example></translation>
+                <translation>encarregar-se de<example>Don't worry, I'll &lt;b&gt;take care of&lt;/b&gt; that myself.</example></translation>
             </translations>
         </expressions>
     </Entry>
@@ -2777,6 +2783,20 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="5730000">censure<verbs>
+                            <translations><date>1108</date>
+				<translation register="formal">censurar / blasmar<synonyms>rebuke, reprove</synonyms></translation>
+			</translations>
+		</verbs>
+                <nouns>
+                    <translations>
+                        <grouptranslation register="formal">
+                            <translation gender="f">censura</translation>
+                            <translation gender="m">blasme</translation>
+                        </grouptranslation>
+                    </translations>
+                </nouns>
+	</Entry>
 <Entry frequency="11300000">census<nouns>
         <translations>
             <translation gender="m">cens</translation>
@@ -2792,6 +2812,12 @@
         </translations>
     </nouns>
     </Entry>
+        <Entry frequency="3230000">centaur<nouns>
+                <translations><date>1008</date>
+                    <translation gender="m">centaure</translation>
+                </translations>
+            </nouns>
+	</Entry>
 <Entry frequency="1030000">centenary<nouns>
         <translations>
             <translation gender="m">centenari</translation>
@@ -3641,15 +3667,23 @@
     </nouns>
     </Entry>
 <Entry frequency="106000000">check<nouns>
-            <translations><date>0508</date>
+            <translations><date>1108</date>
                 <translation disambiguate="financial" local="us" gender="m">xec<otherlocal>cheque</otherlocal>
                 </translation>
+                <translation local="us" gender="m">compte<otherlocal>bill</otherlocal></translation>
+                <translation local="us" gender="f">marca / senyal</translation>
+                <translation register="formal" gender="m">control / fre</translation>
+                <translation gender="f">verificació</translation>
                 <translation gender="m">escac<engnote>'Escac' means 'check' in the chess sense.</engnote></translation>
             </translations>
         </nouns>
     <verbs>
             <translations>
-                <translation>provar / comprovar / verificar</translation>
+                <translation transitive="true">examinar</translation>
+                <translation intransitive="true">provar / comprovar / verificar</translation>
+                <translation transitive="true">estroncar / estancar / aturar / contenir</translation>
+                <translation transitive="true" local="us">marcar<example>If you agree to these terms and conditions, &lt;b&gt;check&lt;/b&gt; the box below.</example></translation>
+                <translation transitive="true" local="us">facturar<example>Are you keeping your bags with you or would you like to &lt;b&gt;check&lt;/b&gt; them?</example></translation>
             </translations>
         </verbs>
         <phrasalverbs>check in
@@ -5004,6 +5038,12 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="805000">circuitous<adjectives>
+        <translations><date>1008</date>
+            <translation catagory="formal">tortuós / indirecte</translation>
+        </translations>
+    </adjectives>
+    </Entry>
 <Entry frequency="5310000">circulate<verbs>
         <translations>
             <translation>circular</translation>
@@ -5023,6 +5063,16 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="182000">circumlocution<nouns>
+                            <translations><date>1108</date>
+                                <grouptranslation catagory="linguistics" register="formal">
+                                    <translation gender="m">circumloqui</translation>
+                                    <translation gender="f">circumlocució</translation>
+                                    <translation gender="mpl">ambages</translation>
+                                </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>
      <Entry frequency="1050000">circumspect<adjectives>
                             <translations><date>0808</date>
 				<translation>circumspecte</translation>
@@ -5283,14 +5333,18 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="6280000">clash<nouns>
-        <translations>
+<Entry frequency="19400000">clash<nouns>
+        <translations><date>1108</date>
             <translation gender="m">enfrontament</translation>
+            <translation gender="f">topada</translation>
         </translations>
     </nouns>
         <verbs>
-        <translations>
-        <translation>xocar</translation></translations></verbs>
+            <translations>
+                <translation>xocar</translation>
+                <tranlsation>topar</tranlsation>
+            </translations>
+        </verbs>
         <phrasalverbs>clash with
             <translations>
                 <translation intransitive="true">desentonar amb</translation>
@@ -5299,9 +5353,26 @@
     </Entry>
 <Entry frequency="121000000">class<nouns>
         <translations>
-            <translation gender="f">classe</translation>
+            <translation catagory="education" gender="f">classe</translation>
         </translations>
     </nouns>
+    </Entry>
+    <Entry frequency="430000000">classic<adjectives>
+            <translations><date>1008</date>
+            <translation>clàssic<synonyms>classical</synonyms></translation>
+        </translations>
+    </adjectives>
+    </Entry>
+    <Entry frequency="139000000">classical<adjectives>
+            <translations><date>1008</date>
+            <translation>clàssic<synonyms>classic</synonyms></translation>
+        </translations>
+    </adjectives>
+        <expressions>classical music
+            <translations>
+                <translation catagory="entertainment-music" gender="f">música clàssica</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="102000000">classification<nouns>
         <translations><date>0708</date>
@@ -9152,13 +9223,13 @@
     </Entry>
 <Entry frequency="1460000">conjugate<verbs>
         <translations>
-            <translation>conjugar</translation>
+            <translation catagory="linguistics">conjugar</translation>
         </translations>
     </verbs>
     </Entry>
 <Entry frequency="386000">conjugation<nouns>
         <translations>
-            <translation gender="f">conjugació</translation>
+            <translation catagory="linguistics" gender="f">conjugació</translation>
         </translations>
     </nouns>
     </Entry>
@@ -9370,6 +9441,13 @@
             <translation gender="f">conseqüència</translation>
         </translations>
     </nouns>
+    </Entry>
+    <Entry frequency="9140000">consequential<adjectives>
+            <translations><date>1108</date>
+                <translation register="formal">conseqüent / resultant</translation>
+                <translation register="formal">important / rellevant</translation>
+            </translations>
+        </adjectives>
     </Entry>
 <Entry frequency="13100000">consequently<adverbs>
         <translations>
@@ -9634,7 +9712,7 @@
     </Entry>
 <Entry frequency="4020000">constraint<nouns>
         <translations>
-            <translation gender="f">restricció</translation>
+            <translation catagory="maths" gender="f">restricció</translation>
         </translations>
     </nouns>
     </Entry>
@@ -9762,6 +9840,19 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="1520000">contagion<nouns>
+                            <translations><date>1108</date>
+				<translation catagory="medical" gender="m">contagi</translation>
+                            <translation register="formal" gender="f">epidèmia</translation>
+                        </translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="7360000">contagious<adjectives>
+                            <translations><date>1108</date>
+				<translation catagory="medical">contagiós</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="97000000">contain<verbs>
         <translations>
             <translation>contenir<example>Household paint bought before the 1970s is potentially dangerous as it could &lt;b&gt;contain&lt;/b&gt; lead</example>
@@ -11203,6 +11294,12 @@
         </translations>
     </adjectives>
     </Entry>
+    <Entry frequency="354000">cosmogony<nouns>
+			<translations><date>1008</date>
+				<translation gender="f">cosmogonia</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="699000">cosmology<nouns>
         <translations>
             <translation catagory="astronomy" gender="f">cosmologia</translation>
@@ -12035,7 +12132,7 @@
 	</Entry>
 <Entry frequency="109000000">crash<nouns>
         <translations><date>1008</date>
-            <grouptranslation><translation gender="f">col·lisió</translation>
+            <grouptranslation><translation gender="f">topada / col·lisió</translation>
                 <translation gender="m">accident</translation></grouptranslation>
         </translations>
     </nouns>
@@ -12627,11 +12724,12 @@
             </translations>
         </adjectives>
     </Entry>
-<Entry frequency="3610000">crooked<adjectives>
-        <translations>
-            <translation>tort</translation>
-        </translations>
-    </adjectives>
+    <Entry frequency="332000">crooked<adjectives>
+            <translations><date>1008</date>
+                <translation>tort / tortuós</translation>
+                <translation>[persona] tortuós<synonyms>dishonest</synonyms></translation>
+            </translations>
+        </adjectives>
     </Entry>
 <Entry frequency="79900000">crop<nouns>
         <translations><date>1007</date>

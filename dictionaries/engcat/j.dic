@@ -93,14 +93,14 @@
                 </verbs>
                   <phrasalverbs>jam up
                     <translations>
-                        <translation>embussar / encallar</translation>
-                        <translation>embussar-se / encallar-se</translation>
+                        <translation transitive="true">embussar / encallar</translation>
+                        <translation intransitive="true">embussar-se / encallar-se</translation>
                     </translations>
                 </phrasalverbs>
 	</Entry>
 <Entry frequency="9490000">Jamaica<nouns>
 			<translations>
-				<translation gender="f">Jamaica</translation>
+				<translation catagory="country-northamerica" gender="f">Jamaica</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -111,7 +111,7 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation gender="mf">jamaicà</translation>
+				<translation catagory="nationality-northamerica" gender="mf">jamaicà</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -164,7 +164,7 @@
 <Entry frequency="25800000">Japanese<nouns>
 			<translations>
 				<translation disambiguate="language" gender="m">japonès</translation>
-				<translation sourceplural="the Japanese" disambiguate="nationality" gender="mpl">japonesos</translation>
+				<translation sourceplural="the Japanese" disambiguate="nationality-asia" gender="mpl">japonesos</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -406,6 +406,12 @@
 				<translation gender="f">moto d'aigua</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="458000">jettison<verbs>
+                            <translations><date>1108</date>
+				<translation>desempallegar-se de / desfer-se de</translation>
+			</translations>
+		</verbs>
 	</Entry>
 <Entry frequency="2230000">jetway<nouns>
 			<translations>

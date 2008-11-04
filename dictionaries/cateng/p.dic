@@ -751,6 +751,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="28200">panteó<nouns>
+			<translations><date>1008</date>
+				<translation gender="m">pantheon</translation>
+			</translations>
+		</nouns>
+	</Entry>
          <Entry frequency="27800">pantera<nouns>
                             <translations><date>0508</date>
 				<translation catagory="animal-animal" gender="f">panther</translation>
@@ -835,12 +841,20 @@
 	</Entry>
 	<Entry frequency="113000">paper<nouns>
 			<translations>
-				<translation catagory="material" gender="m">paper<catexamp>Paper higiènic</catexamp>
-					<engexamp>Toilet paper</engexamp>
-				</translation>
+				<translation catagory="material" gender="m">paper</translation>
 				<translation gender="m">role / part</translation>
 			</translations>
 		</nouns>
+                <expressions>paper higiènic
+                    <translations>
+                        <translation gender="m">toilet paper</translation>
+                    </translations>
+                </expressions>
+                <expressions>paper pintat
+                    <translations>
+                        <translation gender="m">wallpaper</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="591">paperassa<nouns>
 			<translations><date>1005</date>
@@ -876,18 +890,6 @@
         <Entry frequency="359">papereta electoral<nouns>
 			<translations><date>1005</date>
 				<translation catagory="politics" gender="f">ballot (paper)</translation>
-			</translations>
-		</nouns>
-	</Entry>
-               <Entry frequency="662">paper higiènic<nouns>
-			<translations><date>0805</date>
-				<translation catagory="household-room-bathroom" gender="m">toilet paper</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="408">paper pintat<nouns>
-			<translations><date>0405</date>
-				<translation gender="m">wallpaper</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1028,28 +1030,25 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="937">parada d'autobús<nouns>
-			<translations><date>0805</date>
-				<translation catagory="transport" gender="f">bus stop</translation>
-			</translations>
-		</nouns>
+                <expressions>parada d'autobús
+                    <translations>
+                        <translation catagory="transport" gender="f">bus stop</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="20500">paradís<nouns>
 			<translations><date>0805</date>
-				<translation gender="m">paradise / heaven<catexamp>Paradís fiscal</catexamp><engexamp>Tax haven</engexamp><plural>paradisos</plural>
+				<translation gender="m">paradise / heaven<plural>paradisos</plural>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>paradís fiscal
+                    <translations>
+                        <translation gender="m">tax haven</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="11200">paradís fiscal<nouns>
-			<translations><date>0306</date>
-				<translation gender="m">tax haven<plural>paradisos fiscals</plural>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="10400">paradisíac<adjectives>
+              <Entry frequency="10400">paradisíac<adjectives>
 			<translations><date>0606</date>
 				<translation>heavenly<fems>paradisíaca</fems><femplural>paradisíaques</femplural></translation>
 			</translations>
@@ -2061,9 +2060,11 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="136000">patir<verbs conj="inceptive">
-			<translations><date>0605</date>
-				<translation>to suffer</translation>
+	<Entry frequency="812000">patir<verbs conj="inceptive">
+			<translations><date>1108</date>
+				<translation transitive="true">to suffer</translation>
+                                <translation intransitive="true">to suffer from<catexamp>Patir d'insomni</catexamp><engexamp>To suffer from insomnia</engexamp></translation>
+                                <translation intransitive="true">to worry<catexamp>No pateixis, jo mateix me n'encarregaré</catexamp><engexamp>Don't worry, I'll take care of it myself</engexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5059,6 +5060,12 @@
 	<Entry frequency="2720">plàtan<nouns>
 			<translations>
 				<translation catagory="food-fruit" gender="m">banana</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="27500">platea<nouns>
+                            <translations><date>1008</date>
+				<translation gender="f">[theatre] the stalls</translation>
 			</translations>
 		</nouns>
 	</Entry>

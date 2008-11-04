@@ -1531,12 +1531,19 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="4220000">batch<nouns>
-			<translations>
-				<translation gender="f">sèrie</translation>
+<Entry frequency="44800000">batch<nouns>
+                        <translations><date>1008</date>
+                            <grouptranslation>
 				<translation gender="m">grup</translation>
+				<translation gender="f">sèrie / tongada</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>in batches
+                    <translations>
+                        <translation>a tongades</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="9380000">bath<nouns>
 			<translations>
@@ -1816,13 +1823,13 @@
 	</Entry>
 <Entry frequency="14900000">bean<nouns>
 			<translations>
-				<translation gender="f">mongeta</translation>
+				<translation catagory="food" gender="f">mongeta</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="25600000">bear<nouns>
 			<translations><date>0707</date>
-				<translation gender="m">ós</translation>
+				<translation catagory="animal-animal" gender="m">ós</translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -1948,7 +1955,7 @@
 	</Entry>
 <Entry frequency="4230000">beaver<nouns>
 			<translations>
-				<translation gender="m">castor</translation>
+				<translation catagory="animal-animal" gender="m">castor</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2635,6 +2642,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="2290000">beltway<nouns>
+			<translations><date>1108</date>
+				<translation catagory="transport" local="us" gender="f">(carretera de) circumval·lació<otherlocal>ring road</otherlocal><synonyms>loop</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="294000">bemoan<verbs>
 			<translations>
 				<translation>lamentar / queixar-se<example>Europeans &lt;b&gt;bemoaned&lt;/b&gt; the reelection of George W. Bush.</example></translation>
@@ -3005,11 +3018,16 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="4680000">bib<nouns>
-			<translations>
+<Entry frequency="26900000">bib<nouns>
+                            <translations><date>1108</date>
 				<translation gender="m">pitet</translation>
 			</translations>
 		</nouns>
+                <expressions>wear your best bib and tucker
+                    <translations>
+                        <translation register="humor">vestir de gala</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="9220000">bible<nouns>
 			<translations>
@@ -4540,6 +4558,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="555000">blithe<adjectives>
+                            <translations><date>1108</date>
+				<translation>despreocupat / feliç</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="421000">blithely<adverbs>
+                            <translations><date>1108</date>
+				<translation>despreocupadament</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 <Entry frequency="3240000">blizzard<nouns>
 			<translations>
 				<translation gender="f">tempesta de neu</translation>
@@ -4849,6 +4879,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="4790000">blue-chip<adjectives>
+                            <translations><date>1008</date>
+				<translation>de primera categoria / líder</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="4970000">blue-collar<nouns>
 			<translations>
 				<translation beforenoun="true">de fàbrica / obrer</translation>
@@ -5147,6 +5183,12 @@
 				<translation gender="f">carrosseria</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="155000">boffo<adjectives>
+                            <translations><date>1108</date>
+				<translation local="us">exitós / d'èxit / (film, show) taquiller</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="1540000">bog<nouns>
 			<translations>
@@ -5863,6 +5905,30 @@
                 <adjectives>
                 <translations>
                 <translation>de la ciutat de Boston</translation></translations></adjectives>
+	</Entry>
+        <Entry frequency="6560000">botanic<adjectives>
+                            <translations><date>1008</date>
+				<translation catagory="plants">botànic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="22400000">botanical<adjectives>
+                            <translations><date>1008</date>
+				<translation catagory="plants">botànic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="1530000">botanist<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="work" gender="mf">botànic</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="14800000">botany<nouns>
+                            <translations><date>1008</date>
+				<translation catagory="plants" gender="f">botànica</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="23000000">both<adjectives>
 			<translations>
@@ -6767,7 +6833,7 @@
                         <translations><date>1007</date>
                             <grouptranslation disambiguate="weather"><translation gender="f">brisa</translation>
                                 <translation gender="m">oratge</translation></grouptranslation>
-                                <translation register="colloquial" gender="f">cosa fàcil<engexamp>It was a breeze to install</engexamp><catexamp>Era molt fàcil d'instal·lar</catexamp></translation>
+                                <translation register="colloquial" gender="f">cosa fàcil</translation>
 			</translations>
 		</nouns>
                 <phrasalverbs>breeze through
@@ -6776,6 +6842,11 @@
                         <translation intransitive="true">dur a terme sense esforç (una tasca, una prova, etc.)</translation>
                     </translations>
                 </phrasalverbs>
+                <expressions>be a breeze
+                    <translations>
+                        <translation register="colloquial">ésser bufar i fer ampolles</translation>
+                    </translations>
+                </expressions>
             </Entry>
 <Entry frequency="22400">breezily<adverbs>
 			<translations>
@@ -7893,12 +7964,11 @@
 				<translation disambiguate="computers" termcat="true" gender="m">BBS</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="1520000">bulletin board system<nouns>
-			<translations>
-				<translation catagory="computers" termcat="true" gender="m">BBS</translation>
-			</translations>
-		</nouns>
+                <expressions>bulletin board system
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="m">BBS<catnote>'BBS' és un acrònim de l'expressió anglesa 'bulletin board system' que vol dir (literalment) 'sistema de tauler d'anuncis').</catnote></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="386000">bulletproof<adjectives>
 			<translations><date>0607</date>
@@ -7910,6 +7980,12 @@
                         <translation>blindar</translation>
                     </translations>
                     </verbs>
+	</Entry>
+          <Entry frequency="24400000">bullion<nouns>
+                            <translations><date>1108</date>
+				<translation>or o plata en lingots<catnote>Es parla de 'gold bullion' o 'silver bullion'. 'Bullion' és un nom incomptable, no és un lingot.</catnote><example>Gold &lt;b&gt;bullion&lt;/b&gt; is an attractive asset.</example></translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="2950000">bullock<nouns>
 			<translations>

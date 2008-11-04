@@ -1014,16 +1014,20 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="437000">sap<nouns>
+	</Entry><Entry frequency="48500000">sap<nouns>
 
-			<translations>
+                            <translations><date>1108</date>
 
 				<translation catagory="plants" gender="f">saba</translation>
-
+                                <translation register="colloquial" gender="mf">ingenu / crèdul</translation>
 			</translations>
 
 		</nouns>
-
+                <verbs double="true">
+                    <translations>
+                        <translation transitive="true">soscavar / minar<example>The crisis has &lt;b&gt;sapped&lt;/b&gt; European confidence.</example><example>The setbacks have &lt;b&gt;sapped&lt;/b&gt; morale among peacekeepers.</example></translation>
+                    </translations>
+                </verbs>
 	</Entry><Entry frequency="2510000">sapling<nouns>
 
 			<translations>
@@ -4170,7 +4174,23 @@
 
 		</adverbs>
 
-	</Entry><Entry frequency="784000">see-through<adjectives>
+	</Entry>
+        <Entry frequency="1350000">seesaw<nouns>
+
+                            <translations><date>1008</date>
+
+				<translation gender="m">gronxador (de biga)<catnote>També es diu 'teeter-totter' als Estats Units.</catnote></translation>
+
+			</translations>
+
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>oscil·lar</translation>
+                    </translations>
+                </verbs>
+	</Entry>
+        <Entry frequency="784000">see-through<adjectives>
 
 			<translations>
 
@@ -5140,7 +5160,20 @@
 
 		</adjectives>
 
-	</Entry><Entry frequency="1360000">sergeant<nouns>
+	</Entry>
+         <Entry frequency="1670000">serf<nouns>
+                            <translations><date>1008</date>
+				<translation gender="mf">serf</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="594000">serfdom<nouns>
+                            <translations><date>1008</date>
+				<translation gender="f">servitud</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1360000">sergeant<nouns>
 
 			<translations>
 
@@ -5338,7 +5371,19 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="64900000">servlet<nouns>
+	</Entry>
+        <Entry frequency="3710000">servitude<nouns>
+
+                            <translations><date>1008</date>
+
+				<translation register="formal" gender="f">servitud</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="64900000">servlet<nouns>
 
 			<translations>
 
@@ -10523,19 +10568,18 @@
 		</verbs>
 
 	</Entry><Entry frequency="5990000">slave<nouns>
-
-			<translations>
-
+                            <translations><date>1008</date>
 				<translation gender="mf">esclau</translation>
-
-                                <translation beforenoun="true">negrer<engexamp>Slave ship</engexamp><catexamp>Vaixell negrer</catexamp></translation>
-
 			</translations>
-
 		</nouns>
-                <expressions>slave driver
+                  <expressions>slave driver
                     <translations>
                         <translation gender="mf">negrer</translation>
+                    </translations>
+                </expressions>
+                <expressions>slave ship
+                    <translations>
+                        <translation gender="m">vaixell negrer</translation>
                     </translations>
                 </expressions>
                 <expressions>slave trader
@@ -10544,12 +10588,13 @@
                     </translations>
                 </expressions>
 	</Entry>
-       <Entry frequency="3300000">slavery<nouns>
+       <Entry frequency="22500000">slavery<nouns>
 
-			<translations>
-
+                    <translations><date>1008</date>
+                        <grouptranslation>
 				<translation gender="m">esclavatge</translation>
-
+                                <translation gender="f">esclavitud</translation>
+                                </grouptranslation>
 			</translations>
 
 		</nouns>
@@ -13776,8 +13821,8 @@
 
 		</adjectives>
 
-	</Entry><Entry frequency="57800000">sort<nouns>
-			<translations>
+	</Entry><Entry frequency="875000000">sort<nouns>
+                            <translations><date>1108</date>
 				<grouptranslation>
 					<translation gender="m">tipus</translation>
 					<translation gender="f">mena</translation>
@@ -13795,6 +13840,11 @@
 				<translation>arreglar</translation>
 			</translations>
 		</phrasalverbs>
+                <expressions>of sorts
+                    <translations>
+                        <translation>diguem-ne / si se'n pot dir així<engexamp>There was an attempted coup d'état of sourts in Europe last week</engexamp><catexamp>La setmana passada hi hagué un intent de, diguem-ne, cop d'estat</catexamp></translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="14200000">soul<nouns>
 
 			<translations>
@@ -17490,6 +17540,12 @@ s
                     </translations>
                 </expressions>
             </Entry>
+            <Entry frequency="1030000">stalemate<nouns>
+                            <translations><date>1108</date>
+				<translation gender="m">punt mort / estancament (en unes negociacions, en un acord)<synonyms>deadlock</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
             <Entry frequency="1620000">stalk<nouns>
 
 			<translations>
@@ -17542,19 +17598,34 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="1870000">stall<nouns>
+            </Entry><Entry frequency="18800000">stall<nouns>
+                    <translations><date>1008</date>
+                        <translation gender="f">parada (en un mercat)<engnote>'Parada' means 'stall' as in 'market stall'.</engnote><synonyms>stand</synonyms></translation>
+                        <translation sourceplural="the stalls" gender="f">[teatre] platea</translation>
+                    </translations>
+                </nouns>
+                <verbs>
+                    <translations>
+                        <translation>calar(-se) (un motor)</translation>
+                    </translations>
+                </verbs>
+	</Entry>
+         <Entry frequency="1320000">stalwart<nouns>
 
-			<translations>
+                            <translations><date>1108</date>
 
-				<translation gender="f">parada<engnote>'Parada' means 'stall' as in 'market stall'.</engnote>
-
-				</translation>
+				<translation gender="mf">incondicional / fidel</translation>
 
 			</translations>
 
 		</nouns>
-
-	</Entry><Entry frequency="45700">Stamford Bridge<nouns>
+                <adjectives>
+                    <translations>
+                        <translation>incondicional / fidel</translation>
+                    </translations>
+                </adjectives>
+	</Entry>
+        <Entry frequency="45700">Stamford Bridge<nouns>
 
 			<translations>
 
@@ -17599,6 +17670,12 @@ s
                         <translation gender="mpl">cupons de menjar</translation>
                     </translations>
                 </expressions>
+            </Entry>
+            <Entry frequency="19600000">stance<nouns>
+                    <translations><date>1008</date>
+                        <translation gender="f">posició (parer, opinió sobre un tema)</translation>
+                    </translations>
+                </nouns>
             </Entry>
             <Entry frequency="453000">stanch<verbs>
 
@@ -18160,26 +18237,20 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="">static<adjectives>
+	</Entry><Entry frequency="129000000">static<adjectives>
 
-			<translations>
+                            <translations><date>1108</date>
 
 				<translation>estàtic</translation>
 
 			</translations>
 
 		</adjectives>
-
-	</Entry><Entry frequency="12600000">static electricity<nouns>
-
-			<translations>
-
-				<translation gender="f">electricitat estàtica</translation>
-
-			</translations>
-
-		</nouns>
-
+                <expressions>static electricity
+                    <translations>
+                        <translation gender="f">electricitat estàtica</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="14200000">station<nouns>
 
 			<translations>
@@ -18620,7 +18691,7 @@ s
 
 	</Entry><Entry frequency="33000000">stem<nouns>
 
-			<translations>
+                            <translations><date>1108</date>
 
 				<translation catagory="plants" gender="f">tija</translation>
 
@@ -18632,7 +18703,7 @@ s
 
                 <translations>
 
-                <translation>estroncar / aturar / contenir<engexamp>The cut was bandaged to stem the bleeding</engexamp><catexamp>Van embenar el tall per estroncar l'hemorràgia</catexamp><engexamp>It would not be enough to stem harmful warming</engexamp><catexamp>No seria suficient per a aturar l'escalfament nociu (de l'atmosfera)</catexamp></translation>
+                <translation>estroncar / estancar / aturar / contenir<engexamp>The cut was bandaged to stem the bleeding</engexamp><catexamp>Van embenar el tall per estroncar l'hemorràgia</catexamp><engexamp>It would not be enough to stem harmful warming</engexamp><catexamp>No seria suficient per a aturar l'escalfament nociu (de l'atmosfera)</catexamp></translation>
 
                 </translations>
 
@@ -20371,7 +20442,22 @@ s
 
 		</adverbs>
 
-	</Entry><Entry frequency="1620000">strident<adjectives>
+	</Entry>
+        <Entry frequency="1130000">stricture<nouns>
+
+                            <translations><date>1108</date>
+
+				<translation register="formal" gender="f">restricció</translation>
+                                <grouptranslation register="formal">
+                                    <translation gender="f">crítica / censura</translation>
+                                    <translation gender="m">blasme</translation>
+                                </grouptranslation>
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="1620000">strident<adjectives>
 
 			<translations>
 
@@ -20565,7 +20651,7 @@ s
 
 			<translations>
 
-				<translation>despullar-se</translation>
+				<translation intransitive="true">despullar-se</translation>
 
 			</translations>
 
@@ -22552,18 +22638,22 @@ s
                             <translation local="gb" gender="f">crema protectora / crema solar<otherlocal>sunscreen</otherlocal></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="59100000">Sunday<nouns>
+	</Entry><Entry frequency="400000000">Sunday<nouns>
 
-			<translations>
+                            <translations><date>1108</date>
 
-				<translation catagory="time-day" gender="m">diumenge</translation>
+				<translation catagory="time-day" gender="m">diumenge<engexamp>Sunday paper</engexamp><catexamp>Diari de diumenge</catexamp></translation>
 
-                                <translation>dominical</translation>
+                                <translation>dominical<engexamp>Sunday rest</engexamp><catexamp>Descans dominical</catexamp></translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>dress in (o wear) your Sunday best
+                    <translations>
+                        <translation register="humor">endiumenjar-se</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="566000">sundial<nouns>
 
 			<translations>
@@ -23478,8 +23568,7 @@ s
 				<translation>enquestar</translation>
 
 			</translations>
-
-		</verbs>
+    		</verbs>
 
 	</Entry><Entry frequency="131000000">survival<nouns>
 

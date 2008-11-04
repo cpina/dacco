@@ -1530,7 +1530,7 @@
 	</Entry>
 <Entry frequency="82800">incapability<nouns>
 			<translations>
-				<translation gender="ffullform">incapacitat<synonyms>inability / incapacity</synonyms></translation>
+				<translation gender="ffullform">incapacitat<synonyms>inability, incapacity</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1815,9 +1815,9 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="3750000">inconsequential<adjectives>
-			<translations><date>0108</date>
-				<translation>de poca importància</translation>
+<Entry frequency="944000">inconsequential<adjectives>
+			<translations><date>1108</date>
+				<translation>de poca importància / irrellevant</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2961,7 +2961,7 @@
 	</Entry>
 <Entry frequency="333000">inhaler<nouns>
 			<translations>
-				<translation gender="m">inhalador / nebulitzador</translation>
+                                    <translation catagory="medical" gender="m">inhalador / nebulitzador</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3956,7 +3956,18 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="24400000">intense<adjectives>
+          <Entry frequency="170000000">intended<adjectives>
+			<translations><date>1108</date>
+				<translation>desitjat / previst</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation register="colloquial" gender="mf">promès / promesa<example>Do you know whether Anya and her &lt;b&gt;intended&lt;/b&gt; plan on gracing us with their presence this Christmas?</example></translation>
+                    </translations>
+                </nouns>
+	</Entry>
+        <Entry frequency="24400000">intense<adjectives>
 			<translations>
 				<translation>intens</translation>
 			</translations>

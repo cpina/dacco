@@ -149,8 +149,8 @@
                 </expressions>
 	</Entry>
 <Entry frequency="1710000">earnest<adjectives>
-			<translations>
-				<translation>seriós / treballador<example>Zac is an &lt;b&gt;earnest&lt;/b&gt; young man who believes that in order to succeed you must work hard.</example>
+                            <translations><date>1008</date>
+				<translation>seriós<example>Zac is an &lt;b&gt;earnest&lt;/b&gt; young man who believes that in order to succeed you must work hard.</example>
 				</translation>
 				<translation>fervent / sincer<example>It is our &lt;b&gt;earnest&lt;/b&gt; hope that the international community will find a satisfactory solution to this problem before it gets out of hand</example>
 				</translation>
@@ -658,7 +658,13 @@
 	</Entry>
 <Entry frequency="1990000">ecstasy<nouns>
 			<translations>
-				<translation gender="m">èxtasis</translation>
+				<translation gender="m">èxtasi</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="1990000">ecstatic<nouns>
+                            <translations><date>1008</date>
+				<translation>extàtic (formal) / encantat / entusiasmat<synonyms>delighted, over the moon (col·loq)</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2389,6 +2395,11 @@
                         <translation intransitive="true">acabar (la fi d'un acte o d'un estat com a efecte d'un trànsit o mudança)<example>Do you know where the iron &lt;b&gt;ended up&lt;/b&gt;? I haven't seen it since we moved.</example><example>The car swerved to avoid a pedestrian in the road and, rather ironically perhaps, &lt;b&gt;ended up&lt;/b&gt; on the sidewalk.</example></translation>
                     </translations>
                 </phrasalverbs>
+                <expressions>end product
+                    <translations>
+                        <translation gender="m">producte final</translation>
+                    </translations>
+                </expressions>
                 <expressions>at the end of the day
                 <translations>
                 <translation>al cap i a la fi<example>&lt;b&gt;At the end of the day&lt;/b&gt;, it shows that Iran will pay a very heavy price if it continues to try and enrich its fuel.</example><example>It involves distasteful compromises, but &lt;b&gt;at the end of the day&lt;/b&gt;, even a dictatorship as small and weak as Cuba hasn't cracked under 40 years of hardball.</example><example>Oversaturation of the brain with images and information is very good in many ways, but &lt;b&gt;at the end of the day&lt;/b&gt;, unless you remember to breathe - you die.</example></translation>
@@ -2490,9 +2501,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="927000">end product<nouns>
-			<translations>
-				<translation gender="m">producte final</translation>
+          <Entry frequency="24400000">endowment<nouns>
+                            <translations><date>1108</date>
+				<translation disambiguate="financial" gender="f">dotació</translation>
+                                <translation gender="m">dot<engnote>'Dot' means 'endowment' in the sense 'natural gift or talent'.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2541,42 +2553,36 @@
                                 <translation beforenoun="true">enèrgetic<engexamp>Energy policy</engexamp><catexamp>Política enèrgetica</catexamp></translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="920000">energy consumption<nouns>
-			<translations>
-				<translation gender="m">consum d'energia</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="514000">energy crop<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">cultiu energètic</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="4150000">energy drink<nouns>
-			<translations>
-				<translation catagory="food-drink" termcat="true" gender="f">beguda energètica</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="2460000">energy efficiency<nouns>
-			<translations>
-				<translation gender="f">eficiència energètica</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="945000">energy flux<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">flux d'energia</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="1880000">energy source<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">font d'energia</translation>
-			</translations>
-		</nouns>
+                <expressions>energy consumption
+                    <translations>
+                        <translation gender="m">consum d'energia</translation>
+                    </translations>
+                </expressions>
+                <expressions>energy crop
+                    <translations>
+                        <translation termcat="energy" gender="m">cultiu energètic</translation>
+                    </translations>
+                </expressions>
+                <expressions>energy drink
+                    <translations>
+                        <translation catagory="food-drink" termcat="true" gender="f">beguda energètica</translation>
+                    </translations>
+                </expressions>
+                <expressions>energy efficiency
+                    <translations>
+                        <translation gender="f">eficiència energètica</translation>
+                    </translations>
+                </expressions>
+                <expressions>energy flux
+                    <translations>
+                        <translation termcat="energy" gender="m">flux d'energia</translation>
+                    </translations>
+                </expressions>
+                <expressions>energy source
+                    <translations>
+                        <translation termcat="energy" gender="f">font d'energia</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4640000">enforce<verbs>
 			<translations>
@@ -2623,13 +2629,13 @@
 	</Entry>
 <Entry frequency="44700000">engineer<nouns>
 			<translations>
-				<translation gender="mf">enginyer</translation>
+				<translation catagory="work-job" gender="mf">enginyer</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="77000000">engineering<nouns>
 			<translations>
-				<translation gender="f">enginyeria</translation>
+				<translation catagory="work-field" gender="f">enginyeria</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2943,6 +2949,12 @@
 				<translation>amb entusiasme</translation>
 			</translations>
 		</adverbs>
+	</Entry>
+        <Entry frequency="3370000">entice<verbs>
+                            <translations><date>1008</date>
+				<translation>atraure / seduir</translation>
+			</translations>
+		</verbs>
 	</Entry>
 <Entry frequency="57700000">entire<adjectives>
 			<translations>
