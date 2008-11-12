@@ -620,18 +620,16 @@
 				<translation gender="ffullform">imatge</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="1820000">image bank<nouns>
-			<translations>
-				<translation catagory="computers" termcat="true" gender="m">banc d'imatges</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="871000">image map<nouns>
-			<translations>
-				<translation catagory="computers" gender="f">mapa d'imatge</translation>
-			</translations>
-		</nouns>
+                <expressions>image bank
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="m">banc d'imatges</translation>
+                    </translations>
+                </expressions>
+                <expressions>image map
+                    <translations>
+                        <translation catagory="computers" gender="f">mapa d'imatge</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="941000">imaginable<adjectives>
 			<translations>
@@ -808,45 +806,51 @@
 	</Entry>
 <Entry frequency="2510000">immune system<nouns>
 			<translations>
-				<translation gender="m">sistema immunitari</translation>
+				<translation catagory="medical" gender="m">sistema immunitari</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="505000">immunisation<nouns>
 			<translations>
-				<translation local="gb" gender="ffullform">immunització<otherlocal>immunization</otherlocal></translation>
+				<translation local="gb" catagory="medical" gender="ffullform">immunització<otherlocal>immunization</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="328000">immunise<verbs>
 			<translations><date>1007</date>
-				<translation local="gb">immunitzar<otherlocal>immunize</otherlocal></translation>
+				<translation catagory="medical" local="gb">immunitzar<otherlocal>immunize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="21900000">immunity<nouns>
 			<translations><date>1007</date>
-				<translation gender="ffullform">immunitat</translation>
+				<translation catagory="medical" gender="ffullform">immunitat</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="2020000">immunization<nouns>
 			<translations>
-				<translation local="us" gender="ffullform">immunització<otherlocal>immunisation</otherlocal></translation>
+				<translation local="us" catagory="medical" gender="ffullform">immunització<otherlocal>immunisation</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="1210000">immunize<verbs>
 			<translations><date>1007</date>
-				<translation>immunitzar</translation>
+				<translation catagory="medical">immunitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="22600000">immunology<nouns>
 			<translations><date>1007</date>
-				<translation gender="ffullform">immunologia</translation>
+				<translation catagory="medical" gender="ffullform">immunologia</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="195000">immure<verbs>
+			<translations><date>1008</date>
+				<translation register="literary">recloure</translation>
+			</translations>
+		</verbs>
 	</Entry>
 <Entry frequency="3600000">immutable<adjectives>
 			<translations><date>1007</date>
@@ -3232,6 +3236,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="13100000">inordinate<adjectives>
+                            <translations><date>1108</date>
+				<translation register="formal">desorbitant / excessiu</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="6250000">inorganic<adjectives>
 			<translations>
 				<translation catagory="chemistry">inorgànic</translation>
@@ -5295,17 +5305,22 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="32600000">irrigation<nouns>
-			<translations>
+<Entry frequency="21000000">irrigation<nouns>
+                        <translations><date>1108</date>
+                            <grouptranslation>
 				<translation gender="ffullform">irrigació</translation>
+                                <translation gender="m">regatge</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="255000">irrigation channel<nouns>
-			<translations>
-				<translation gender="f">sèquia</translation>
-			</translations>
-		</nouns>
+                <expressions>irrigation channel
+                    <translations>
+                        <grouptranslation>
+                            <translation gender="m">canal de regatge / rec</translation>
+                            <translation gender="f">séquia</translation>
+                        </grouptranslation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2090000">irritable<adjectives>
 			<translations>

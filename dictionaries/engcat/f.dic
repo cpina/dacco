@@ -1230,6 +1230,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="7190000">fawn<nouns>
+                            <translations><date>1108</date>
+				<translation catagory="animal-animal" gender="m">cervatell</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>adular / llepar</translation>
+                        <translation>(~ on / over somebody) llepar-li el cul a algú</translation>
+                    </translations>
+                </verbs>
+	</Entry>
 <Entry frequency="201000000">fax<nouns>
                             <translations><date>1007</date>
 				<translation gender="m">fax<plural>faxes</plural>
@@ -1818,6 +1830,12 @@
 				<translation gender="m">festival</translation>
 			</translations>
 		</nouns>
+	</Entry>
+          <Entry frequency="704000">festoon<verbs>
+			<translations><date>1108</date>
+				<translation>engalanar<example>At Christmas, their house is always &lt;b&gt;festooned&lt;/b&gt; with lights and decorations.</example><catnote>Aquest verb es troba més sovint en veu passiva.</catnote></translation>
+			</translations>
+		</verbs>
 	</Entry>
 <Entry frequency="3020000">fetal<adjectives>
 			<translations>
@@ -4432,7 +4450,7 @@
 	</Entry>
 <Entry frequency="104000000">force<nouns>
 			<translations>
-				<translation gender="f">força<engexamp>In force</engexamp><catexamp>Vigent</catexamp></translation>
+				<translation gender="f">força</translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -4440,6 +4458,11 @@
 				<translation>obligar a algú a fer una cosa / forçar</translation>
 			</translations>
 		</verbs>
+                <expressions>in force
+                    <translations>
+                        <translation>vigent</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="311000">forced labor<nouns>
 			<translations>
@@ -4584,12 +4607,11 @@
 				<translation>forense</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="169000">forensic scientist<nouns>
-			<translations>
-				<translation gender="mf">forense</translation>
-			</translations>
-		</nouns>
+                <expressions>forensic scientist
+                    <translations>
+                        <translation catagory="work-job" gender="mf">forense</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="443000">foresee<verbs>
 			<past>foresaw</past>
@@ -4608,7 +4630,7 @@
 	</Entry>
 <Entry frequency="1890000">foreskin<nouns>
 			<translations><date>0807</date>
-				<translation gender="m">prepuci / capoll</translation>
+				<translation catagory="body" gender="m">prepuci / capoll</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4698,7 +4720,12 @@
                                 <translation>descuidar-se<engexamp>I forgot to grab my keys</engexamp><catexamp>Me n'he descuidat d'agafar les claus</catexamp></translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>forget about<translations><translation intransitive="true">oblidar-se de</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>forget about
+                    <translations>
+                        <translation intransitive="true">oblidar-se de</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="1240000">forgetful<adjectives>
 			<translations>
 				<translation>oblidós / oblidadís</translation>

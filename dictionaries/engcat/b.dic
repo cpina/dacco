@@ -1104,6 +1104,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+        	<Entry frequency="2150000">barbell<nouns>
+			<translations><date>1108</date>
+                            <grouptranslation catagory="sports">
+                                <translation gender="mpl">halters</translation>
+                                <translation gender="f">barra</translation>
+                            </grouptranslation>
+		</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="700000">barbiturate<nouns>
 			<translations>
 				<translation gender="m">barbitúric</translation>
@@ -4572,7 +4581,7 @@
 	</Entry>
 <Entry frequency="3240000">blizzard<nouns>
 			<translations>
-				<translation gender="f">tempesta de neu</translation>
+				<translation catagory="weather" gender="f">tempesta de neu</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4603,6 +4612,12 @@
                                 <translation gender="m">embús</translation>
 				<translation gender="f">obstrucció<synonyms>obstruction</synonyms></translation>
                                 </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2500000">blockbuster<nouns>
+                            <translations><date>1108</date>
+				<translation gender="m">gran èxit (de taquilla, de vendes)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5184,6 +5199,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="503000">boffin<nouns>
+                        <translations><date>1108</date>
+                            <translation register="colloquial" local="gb" gender="mf">científic</translation>
+                            <translation register="colloquial" local="gb" gender="mf">estudiós</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="155000">boffo<adjectives>
                             <translations><date>1108</date>
 				<translation local="us">exitós / d'èxit / (film, show) taquiller</translation>
@@ -5212,7 +5234,7 @@
             </phrasalverbs>
                 <exclamations>bog off
                 <translations>
-                <translation register="vulgar">fot el camp!<synonyms>sod off</synonyms></translation></translations></exclamations>
+                <translation register="vulgar">fot el camp!<synonyms>sod off, bugger off</synonyms></translation></translations></exclamations>
 	</Entry>
 <Entry frequency="755000">bogeyman<nouns>
 			<translations>
@@ -5226,12 +5248,11 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="3370">bog off<exclamations>
-			<translations>
-				<translation register="slang" local="gb">fot el camp!<synonyms>sod off, bugger off</synonyms>
-				</translation>
+<Entry frequency="10200000">bogus<adjectives>
+                            <translations><date>1108</date>
+				<translation>fals / fraudulent</translation>
 			</translations>
-		</exclamations>
+		</adjectives>
 	</Entry>
 <Entry frequency="9760000">bohemian<nouns>
 			<translations><date>0507</date>

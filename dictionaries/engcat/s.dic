@@ -4175,6 +4175,12 @@
 		</adverbs>
 
 	</Entry>
+        <Entry frequency="5410000">seer<nouns>
+                            <translations><date>1108</date>
+				<translation register="literary" gender="mf">vident / profeta</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="1350000">seesaw<nouns>
 
                             <translations><date>1008</date>
@@ -10884,7 +10890,7 @@
 
 	</Entry><Entry frequency="48800000">slight<adjectives>
 
-			<translations>
+                            <translations><date>1108</date>
 
 				<translation>lleuger / petit<engexamp>A slight increase</engexamp><catexamp>Un lleuger increment</catexamp></translation>
 
@@ -10893,7 +10899,11 @@
 			</translations>
 
 		</adjectives>
-
+                <verbs>
+                    <translations>
+                        <translation>desairar / menystenir</translation>
+                    </translations>
+                </verbs>
 	</Entry><Entry frequency="14700000">slightly<adverbs>
 
 			<translations>
@@ -11216,12 +11226,13 @@
 
                 <translation>pegar<example>Frankie lost his temper and &lt;b&gt;slugged&lt;/b&gt; the man in the mouth.</example></translation></translations></verbs>
 
-	</Entry><Entry frequency="6440000">sluice<nouns>
+	</Entry><Entry frequency="1380000">sluice<nouns>
 
-			<translations><date>0307</date>
-
-				<translation termcat="energy" gender="f">guia</translation>
-
+			<translations><date>1108</date>
+                                <grouptranslation>
+				<translation gender="m">rec / canal de regatge</translation>
+                                <translation gender="f">séquia</translation>
+                                </grouptranslation>
 			</translations>
 
 		</nouns>
@@ -17925,7 +17936,25 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="1580000">St Andrews<nouns>
+	</Entry>
+        <Entry frequency="68000000">standing<nouns>
+                            <translations><date>1108</date>
+                                <grouptranslation>
+                                <translation gender="m">predicament</translation>
+                                <translation gender="f">reputació / fama<synonyms>reputation, status</synonyms><example>The witnesses were men of unquestioned &lt;b&gt;standing&lt;/b&gt; in their community.</example></translation>
+                                </grouptranslation>
+                                <translation gender="f">durada<example>Robert Mugabe is a tyrant of long &lt;b&gt;standing&lt;/b&gt;.</example><example>Peter Jackson is a freelance illustrator of 15 years &lt;b&gt;standing&lt;/b&gt;.</example></translation>
+                                <translation sourceplural="standings" gender="f">classificació<example>Hamilton went into the Brazilian Grand Prix with a seven point lead over Massa in the drivers' &lt;b&gt;standings&lt;/b&gt;.</example></translation>
+		</translations>
+		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>dempeus<engexamp>Standing position</engexamp><catexamp>Posició dempeus</catexamp></translation>
+                        <translation>fix / invariable<engexamp>Standing charge</engexamp><catexamp>Quota de servei</catexamp></translation>
+                    </translations>
+                </adjectives>
+	</Entry>
+        <Entry frequency="1580000">St Andrews<nouns>
 			<translations>
                                 <translation catagory="sports-event-football-grounds, encyclopaedic" local="gb">nom de l'estadi de l'equip de futbol Birmingham City FC</translation>
                                 <translation catagory="education, encyclopaedic" local="gb">nom d'una de les universitats més velles d'Escòcia i la ciutat en la què es troba aquesta universitat</translation>
@@ -18651,22 +18680,19 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="2600000">steep<adjectives>
-
-			<translations>
-
-				<translation>escarpat<engnote>'Escarpat' means 'steep' in the sense 'a steep mountain'.</engnote>
-
-				</translation>
-
-				<translation>alt<engnote>'Alt' means 'steep' as in 'a steep price'.</engnote>
-
-				</translation>
-
+	</Entry><Entry frequency="22900000">steep<adjectives>
+                            <translations><date>1108</date>
+				<translation>(slope) escarpat</translation>
+				<translation>(fall / rise) abrupte / dràstic</translation>
+                                <translation register="colloquial">(price) car<example>$3600 a month to rent a two-bedroomed house seems &lt;b&gt;steep&lt;/b&gt; to me.</example></translation>
 			</translations>
-
 		</adjectives>
-
+                <verbs>
+                    <translations>
+                        <translation>(clothes) remullar</translation>
+                        <translation>(food) macerar</translation>
+                    </translations>
+                </verbs>
 	</Entry><Entry frequency="3240000">steeplechase<nouns>
 			<translations><date>0408</date>
 				<translation catagory="sports-event-athletics" gender="f">cursa d'obstacles</translation>
@@ -20042,7 +20068,19 @@ s
 
                 <translation>esforçar-se (per fer alguna cosa)</translation></translations></verbs>
 
-	</Entry><Entry frequency="15800">Straits of Gibraltar<nouns>
+	</Entry>
+        	<Entry frequency="671000">straitjacket<nouns>
+
+			<translations><date>1108</date>
+
+				<translation gender="f">camisa de força</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="15800">Straits of Gibraltar<nouns>
 
 			<translations>
 
