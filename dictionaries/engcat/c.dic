@@ -1952,19 +1952,19 @@
             </translations>
         </expressions>
     </Entry>
-<Entry frequency="12500000">cash<nouns>
-        <translations>
-            <translation gender="m">efectiu</translation>
-        </translations>
-    </nouns>
-        <expressions>in cash
+    <Entry frequency="12500000">cash<nouns>
             <translations>
-                <translation catagory="financial">en metàl·lic / en efectiu</translation>
+                <translation catagory="financial" gender="mpl">diners en efectiu</translation>
             </translations>
-        </expressions>
+        </nouns>
         <expressions>cash in hand
             <translations>
                 <translation local="gb" catagory="financial">en metàl·lic / en efectiu<example>If you are paid &lt;b&gt;cash in hand&lt;/b&gt;, your employer might not be paying tax on your behalf.</example></translation>
+            </translations>
+        </expressions>
+        <expressions>in cash
+            <translations>
+                <translation catagory="financial">en metàl·lic / en efectiu</translation>
             </translations>
         </expressions>
         <phrasalverbs>cash in
@@ -1972,9 +1972,9 @@
                 <translation catagory="financial">convertir (una inversió / unes fitxes) a diners en metàl·lic</translation>
             </translations>
         </phrasalverbs>
-        <phrasalverbs>cash in (on something)
+        <phrasalverbs>cash in on
             <translations>
-                <translation>aprofitar-se d'una oportunitat per a treure'n diners<example>Starbucks were accused of &lt;b&gt;cashing in on&lt;/b&gt; the Asian tsunami disaster.</example></translation>
+                <translation intransitive="true">aprofitar (una circumstància per a omplir la butxaca)<example>Starbucks were accused of &lt;b&gt;cashing in on&lt;/b&gt; the Asian tsunami disaster.</example></translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>cash out
@@ -1982,7 +1982,13 @@
                 <translation catagory="financial">convertir (una inversió) a diners en metàl·lic<example>I &lt;b&gt;cashed out&lt;/b&gt; in 2004 and am renting for a couple of years.</example></translation>
             </translations>
         </phrasalverbs>
-    <phrasalverbs>cash in on<translations><translation intransitive="true">aprofitar (una circumstància per a omplir la butxaca)</translation></translations></phrasalverbs><phrasalverbs>cash up<translations><translation intransitive="true">1 sumar (p.e., una botiga) els diners que hi queda quan plega 2 aprovisionar-se de diners en efectiu</translation></translations></phrasalverbs></Entry>
+        <phrasalverbs>cash up
+            <translations>
+                <translation intransitive="true">sumar (p.e., una botiga) els diners que hi queda quan plega</translation>
+                <translation intransitive="true">aprovisionar-se de diners en efectiu</translation>
+            </translations>
+        </phrasalverbs>
+    </Entry>
 <Entry frequency="22000000">cash flow<nouns>
         <translations>
             <translation catagory="financial" gender="m">flux de caixa</translation>
@@ -9401,6 +9407,22 @@
             <translation>conscientment</translation>
         </translations>
     </adverbs>
+    </Entry>
+<Entry frequency="31400000">consciousness<nouns>
+        <translations><date>1108</date>
+            <translation gender="f">consciència</translation>
+        </translations>
+    </nouns>
+        <expressions>lose consciousness
+            <translations>
+                <translation>perdre el coneixement / desmaiar-se</translation>
+            </translations>
+        </expressions>
+        <expressions>regain consciousness
+            <translations>
+                <translation>recobrar els sentits / tornar en si</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="2700000">consecrate<verbs>
         <translations>
