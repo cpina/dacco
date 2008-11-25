@@ -2909,6 +2909,12 @@
       </translations>
     </nouns>
   </Entry>
+  <Entry frequency="6770">titola<nouns>
+                            <translations><date>1108</date>
+				<translation register="colloquial" gender="f">willy (Br.) / wiener (Am.)</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="641" >titot<nouns>
       <translations><date>1105</date>
         <translation disambiguate="animal-animal" gender="m" >turkey<synonyms>gall dindi</synonyms></translation>
@@ -2935,19 +2941,20 @@
           </translations>
       </verbs>
   </Entry>
-  <Entry frequency="250000">titular<nouns>
-      <translations><date>0505</date>
-        <translation catagory="media-press" gender="m">headline</translation>
-        <translation gender="m">holder / owner</translation>
-        <translation catagory="sports" gender="m" >first-team player</translation>
+  <Entry frequency="1250000">titular<nouns>
+      <translations><date>1108</date>
+        <translation gender="m">headline</translation>
+        <translation gender="mf">holder / owner</translation>
+        <translation disambiguate="sports" gender="mf">first-team player</translation>
       </translations>
     </nouns>
-  </Entry>
-  <Entry frequency="5270">titular-se<verbs conj="regular">
-      <translations><date>0505</date>
-        <translation>to get a qualification/degree in (something)</translation>
-        <translation>to be entitled</translation>
-      </translations>
+    <verbs>
+        <translations>
+            <translation>to call (a book / a play) / to give (a book / a play..) a title<catexamp>El seu llibre anterior el va titular "Midas Touch".</catexamp><engexamp>He called his last book "Midas Touch".</engexamp><catnote>També es diu 'entitle' però sobretot en veu passiva (p.e. 'The book is entitled "Midas Touch"').</catnote></translation>
+            <translation reflexive="titular-se">to be called / to be entitled (formal)<catexamp>El llibre es titula "Midas Touch".</catexamp><engexamp>The book is called "Midas Touch".</engexamp></translation>
+            <translation>to confer a title on (somebody)</translation>
+            <translation reflexive="titular-se">to get a qualification (or degree) in (something)<example>&lt;b&gt;Es va titular&lt;/b&gt; com a arquitecte.</example></translation>
+            </translations>
     </verbs>
   </Entry>
   <Entry frequency="30500" >titulat<adjectives>

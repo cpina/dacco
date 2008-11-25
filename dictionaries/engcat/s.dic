@@ -3355,9 +3355,9 @@
 		</nouns>
 	</Entry><Entry frequency="115000">SDMA<engacro>Space Division Multiple Access</engacro>
 
-        <acronyms><date>1007</date>
+        <acronyms>
 
-            <translations>
+            <translations><date>1007</date>
 
                 <translation termcat="telecom" gender="m">SDMA<catacro>accés múltiple per divisió d'espai</catacro></translation>
 
@@ -3456,7 +3456,8 @@
 
 		</expressions>
 
-	<phrasalverbs>seal off<translations><translation transitive="true">tancar (sobretot una àrea, prohibint l'entrada)</translation></translations></phrasalverbs></Entry><Entry frequency="45300">sealion<nouns>
+	<phrasalverbs>seal off<translations><translation transitive="true">tancar (sobretot una àrea, prohibint l'entrada)</translation></translations></phrasalverbs></Entry>
+        <Entry frequency="45300">sealion<nouns>
 
 			<translations>
 
@@ -3466,7 +3467,19 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="639000000">search<verbs>
+	</Entry>
+        <Entry frequency="2390000">seance<nouns>
+
+                            <translations><date>1108</date>
+
+				<translation gender="f">sessió d'espiritisme</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="639000000">search<verbs>
 
 			<translations>
 
@@ -6100,6 +6113,12 @@
 				<translation gender="m">xamanisme</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="2630000">shamble<verbs>
+                             <translations><date>1108</date>
+				<translation>caminar arrossegant els peus</translation>
+                            </translations>
+		</verbs>
 	</Entry>
         <Entry frequency="7980000">shame<nouns>
 
@@ -10779,7 +10798,23 @@
 
 		</adjectives>
 
-	</Entry><Entry frequency="3680000">sleeve<nouns>
+	</Entry>
+          <Entry frequency="2000000">sleet<nouns>
+
+                            <translations><date>1108</date>
+
+				<translation catagory="weather" gender="f">aiguaneu</translation>
+
+			</translations>
+
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation catagory="weather">caure aiguaneu</translation>
+                    </translations>
+                </verbs>
+	</Entry>
+        <Entry frequency="3680000">sleeve<nouns>
 
 			<translations>
 
@@ -14614,9 +14649,9 @@
 
 		</adverbs>
 
-	</Entry><Entry frequency="18600000">spark<nouns>
+	</Entry><Entry frequency="41600000">spark<nouns>
 
-			<translations>
+                            <translations><date>1108</date>
 
 				<translation gender="f">espurna / guspira</translation>
 
@@ -14625,11 +14660,18 @@
 		</nouns>
 
                 <verbs>
-
+                    
+                    <translations>
+                        
+                        <translation>tirar espurnes / espurnejar / guspirejar</translation>
+                        <translation>desencadenar<synonyms>trigger</synonyms></translation>
+                    </translations>
+                </verbs>
+            <phrasalverbs>spark up
                 <translations>
-
-                <translation>tirar espurnes / espurnejar / guspirejar</translation></translations></verbs>
-
+                    <translation local="gb">començar (una conversa, una discussió, una amistat)</translation>
+                </translations>
+            </phrasalverbs>
 	</Entry><Entry frequency="1090000">sparkle<verbs>
 
 			<translations>
@@ -15779,7 +15821,9 @@ s
 
 		</adjectives>
 
-	</Entry><Entry frequency="5660000">spit<verbs>
+	</Entry>
+              
+        <Entry frequency="5660000">spit<verbs>
 
 			<past>spat</past>
 
@@ -22392,11 +22436,11 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="25300000">suitable<adjectives>
+	</Entry><Entry frequency="138000000">suitable<adjectives>
 
-			<translations>
+                            <translations><date>1108</date>
 
-				<translation>adient / apropriat / apte / convenient / oportú</translation>
+				<translation>idoni / adient / apropriat / apte / convenient / oportú</translation>
 
 			</translations>
 
@@ -23855,7 +23899,14 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="23800000">swallow<verbs>
+	</Entry>
+                           <Entry frequency="29100">SWALK<engacro>Sealed With A Loving Kiss</engacro><acronyms>
+                               <translations><date>1108</date>
+				<translation>segellat amb un petó amorós<catnote>Acrònim que es troba en les cartes d'amor.</catnote></translation>
+			</translations>
+		</acronyms>
+	</Entry>
+        <Entry frequency="23800000">swallow<verbs>
 
                             <translations><date>1008</date>
 

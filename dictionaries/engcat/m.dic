@@ -5243,12 +5243,11 @@
 				<translation gender="mpl">diners</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="819000">money laundering<nouns>
-			<translations>
-				<translation gender="m">blanqueig de diners / blanqueig de capitals</translation>
-				</translations>
-		</nouns>
+                <expressions>money laundering
+                    <translations>
+                        <translation catagory="financial" gender="m">blanqueig de diners / blanqueig de capitals</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3320000">Mongolia<nouns>
 			<translations>
@@ -5259,6 +5258,13 @@
 <Entry frequency="6710">mongolism<nouns>
 			<translations>
 				<translation register="dated" gender="m">mongolisme</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2130000">mongrel<nouns>
+                            <translations><date>1108</date>
+				<translation catagory="animal" gender="m">gos mestís<synonyms>mutt</synonyms></translation>
+                                <translation local="au" gender="mf">cabró / malparit</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7060,6 +7066,13 @@
 <Entry frequency="409000">mutism<nouns>
 			<translations><date>0406</date>
 				<translation catagory="medical" gender="m">mutisme</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="6590000">mutt<nouns>
+                            <translations><date>1108</date>
+				<translation catagory="animal" gender="m">gos mestís<synonyms>mongrel</synonyms></translation>
+                                <translation gender="mf">idiota</translation>
 			</translations>
 		</nouns>
 	</Entry>

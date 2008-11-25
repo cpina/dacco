@@ -134,7 +134,14 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="5580000">waiver<nouns>
+	</Entry>
+        <Entry frequency="8570000">waive<verbs>
+                            <translations><date>1108</date>
+				<translation>renunciar a<example>The suspect &lt;b&gt;waived&lt;/b&gt; his rights to silence and an attorney.</example></translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="5580000">waiver<nouns>
 			<translations>
 				<translation gender="f">exempció</translation>
 			</translations>
@@ -356,8 +363,8 @@
 				<translation catagory="transport" gender="f">passarel·la</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="25000000">wall<nouns>
-			<translations>
+	</Entry><Entry frequency="311000000">wall<nouns>
+                            <translations><date>1108</date>
 				<translation catagory="household" gender="f">paret<catnote>L'expressió col·loquial 'It's like banging your head against a (brick) wall' o 'I/You/He might as well bang my/your/his head against a brick wall' s'utilitza molt sovint per significar que una acció és inútil (per exemple: 'Being over 45 and trying to find a job is like banging your head against a brick wall', 'There's no point trying to reason with a teenager.  It's like banging your head against a wall' o 'They tried explaining to the boss that his idea was a bad one but in the end they might as well have banged their heads against a brick wall for all the notice he took of them').</catnote>
 				</translation>
 				<grouptranslation>
@@ -376,6 +383,11 @@
                 <phrasalverbs>wall up
                 <translations>
                 <translation>emmurallar</translation></translations></phrasalverbs>
+                <expressions>wall bars
+                    <translations>
+                        <translation disambiguate="sports-event-gymnastics" gender="f">espatllera</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="3500000">wallaby<nouns>
 			<translations>
 				<translation catagory="animal-animal" flickr="http://static.flickr.com/55/114238392_5dd29c5870.jpg" picture="http://www.flickr.com/photos/stonefaction/114238392/" gender="m">ualabi<plural>wallabies</plural></translation>
@@ -1473,7 +1485,14 @@
 				<translation catagory="nationality-europe" gender="m">gal·lès</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="417000">werewolf<nouns>
+                </Entry>
+                <Entry frequency="1650000">welter<nouns>
+                            <translations><date>1108</date>
+				<translation register="formal">pilot<engexamp>A welter of books</engexamp><catexamp>Un pilot de llibres</catexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
+                <Entry frequency="417000">werewolf<nouns>
 			<translations>
 				<translation gender="m">home llop<plural>werewolves</plural>
 				</translation>
@@ -2016,6 +2035,13 @@
 			</translations>
 		</adverbs>
 	</Entry>
+        <Entry frequency="14500000">wiener<nouns>
+                            <translations><date>1108</date>
+				<translation catagory="food" local="us" gender="f">salsitxa de Frankfurt</translation>
+                                <translation catagory="body" local="us" register="slang" gender="f">titola<catnote>'Wiener' és una paraula infantívola.</catnote><otherlocal>willy</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="17800000">wife<nouns>
 			<translations>
 				<translation catagory="family" gender="f">dona / muller / esposa<plural>wives</plural></translation>
@@ -2026,7 +2052,13 @@
 				<translation gender="f">perruca</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>wig out<translations><translation transitive="true">(col·loq.) tornar boig (algú)</translation><translation intransitive="true">(col·loq.) tornar-se boig</translation></translations></phrasalverbs></Entry><Entry frequency="3720000">wigwam<nouns>
+                <phrasalverbs>wig out
+                    <translations>
+                        <translation register="colloquial" transitive="true">tornar boig (algú)</translation>
+                        <translation register="colloquial" intransitive="true">tornar-se boig</translation>
+                    </translations>
+                </phrasalverbs>
+</Entry><Entry frequency="3720000">wigwam<nouns>
 			<translations><date>0907</date>
 				<translation gender="f">tenda índia (de forma cònica)<synonyms>te(e)pee</synonyms></translation>
 			</translations>
@@ -2114,7 +2146,7 @@
 		</nouns>
 	</Entry><Entry frequency="300000">willy<nouns>
 			<translations>
-				<translation local="gb" register="slang" gender="f">tita<plural>willies</plural><catnote>'Willy' és una paraula infantívol.</catnote></translation>
+				<translation local="gb" register="slang" gender="f">titola<plural>willies</plural><catnote>'Willy' és una paraula infantívola.</catnote><otherlocal>wiener</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="396000">willy-nilly<adverbs>
