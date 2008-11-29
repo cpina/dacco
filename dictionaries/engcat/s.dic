@@ -980,7 +980,19 @@
 
 		</adjectives>
 
-	</Entry><Entry frequency="52300">sanitary napkin<nouns>
+	</Entry>
+        <Entry frequency="3850000">sanguine<adjectives>
+
+                            <translations><date>1108</date>
+
+				<translation register="formal">optimista<synonyms>optimistic</synonyms></translation>
+
+			</translations>
+
+		</adjectives>
+
+	</Entry>
+        <Entry frequency="52300">sanitary napkin<nouns>
 
 			<translations>
 
@@ -1710,9 +1722,9 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="9390000">scale<nouns>
+	</Entry><Entry frequency="218000000">scale<nouns>
 
-			<translations><date>0707</date>
+			<translations><date>1108</date>
 
                         <grouptranslation>
 
@@ -1723,7 +1735,7 @@
                         </grouptranslation>
 
                             <translation catagory="animal" gender="f">escama</translation>
-
+                            <translation local="us" gender="f">balança<otherlocal>scales</otherlocal></translation>
 			</translations>
 
 		</nouns>
@@ -1750,14 +1762,18 @@
                 </Entry>
                 <Entry frequency="4520000">scales<nouns>
 
-			<translations>
+                            <translations><date>1108</date>
 
 				<translation gender="f">balança</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>tip the scales
+                    <translations>
+                        <translation>fer caure / inclinar / decantar la balança</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="1640000">scallion<nouns>
 
 			<translations>
@@ -3566,27 +3582,34 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="39300000">season<nouns>
-
-			<translations>
-
-				<translation catagory="time" gender="f">temporada</translation>
-
+	</Entry><Entry frequency="327000000">season<nouns>
+                        <translations><date>1108</date>
+                            <translation gender="f">estació (de l'any)</translation>
+				<translation gender="f">temporada</translation>
 			</translations>
-
 		</nouns>
-
 		<verbs>
-
 			<translations>
-
 				<translation catagory="food">salpebrar / assaonar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="53900000">seasonal<adjectives>
+
+                            <translations><date>1108</date>
+
+				<translation>estacional</translation>
 
 			</translations>
 
-		</verbs>
-
-	</Entry><Entry frequency="659000">seasonality<nouns>
+		</adjectives>
+                <expressions>Seasonal Affective Disorder (SAD)
+                    <translations>
+                        <translation catagory="medical-illness" gender="m">trastorn afectiu estacional</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+     <Entry frequency="659000">seasonality<nouns>
 
 			<translations>
 
@@ -4402,7 +4425,30 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="1190000">self pity<nouns>
+	</Entry>
+           <Entry frequency="2660000">selfless<adjectives>
+
+                            <translations><date>1108</date>
+
+				<translation>desinteressat</translation>
+
+			</translations>
+
+		</adjectives>
+
+	</Entry>
+           <Entry frequency="1170000">selflessly<adverbs>
+
+                            <translations><date>1108</date>
+
+				<translation>de manera (o forma) desinteressada</translation>
+
+			</translations>
+
+		</adverbs>
+
+	</Entry>
+        <Entry frequency="1190000">self pity<nouns>
 
 			<translations>
 
@@ -11261,7 +11307,19 @@
 
                 <translation>pegar<example>Frankie lost his temper and &lt;b&gt;slugged&lt;/b&gt; the man in the mouth.</example></translation></translations></verbs>
 
-	</Entry><Entry frequency="1380000">sluice<nouns>
+	</Entry>
+        <Entry frequency="1340000">sluggish<adjectives>
+
+			<translations>
+
+				<translation>lent</translation>
+
+			</translations>
+
+		</adjectives>
+
+	</Entry>
+        <Entry frequency="1380000">sluice<nouns>
 
 			<translations><date>1108</date>
                                 <grouptranslation>
@@ -11295,16 +11353,21 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="1340000">sluggish<adjectives>
+	</Entry>
+        <Entry frequency="7100000">slumber<nouns>
 
-			<translations>
+                            <translations><date>1108</date>
 
-				<translation>lent</translation>
+				<translation register="literary" gender="m">son</translation>
 
 			</translations>
 
-		</adjectives>
-
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation register="literary">dormir</translation>
+                    </translations>
+                </verbs>
 	</Entry>
 <Entry frequency="10400000">slump<verbs>
                             <translations><date>1008</date>
@@ -11755,9 +11818,9 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="208000000">smooth<adjectives>
+	</Entry><Entry frequency="120000000">smooth<adjectives>
 
-                            <translations><date>1007</date>
+                            <translations><date>1108</date>
 
 				<translation>suau</translation>
 
@@ -11808,7 +11871,7 @@
 
                     <translations>
 
-                        <translation>pal·liar</translation>
+                        <translation>pal·liar / llimar</translation>
 
                     </translations>
 
@@ -12100,9 +12163,9 @@
 
 		</verbs>
 
-	</Entry><Entry frequency="2250000">snip<verbs double="true">
+	</Entry><Entry frequency="7660000">snip<verbs double="true">
 
-			<translations><date>0807</date>
+			<translations><date>1108</date>
 
 				<translation>tallar<catnote>(sobretot amb tisores).</catnote></translation>
 
@@ -12119,7 +12182,12 @@
                     </translations>
 
                     </phrasalverbs>
-
+                    <nouns>
+                        <translations>
+                            <translation gender="m">tall (fet amb tisores)</translation>
+                            <translation sourceplural="a snip" local="gb" register="colloquial">una ganga<otherlocal>a steal</otherlocal><example>At £20 that coat is &lt;b&gt;a snip&lt;/b&gt;!</example></translation>
+                        </translations>
+                    </nouns>
 	</Entry><Entry frequency="1360000">sniper<nouns>
 
 			<translations>
@@ -12204,11 +12272,34 @@
 
                 <translation gender="m">ronc</translation></translations></nouns>
 
-	</Entry><Entry frequency="1440000">snorkeling<nouns>
+	</Entry>
+<Entry frequency="4810000">snoring<nouns>
+
+			<translations><date>1108</date>
+
+				<translation gender="mpl">roncs<example>His &lt;b&gt;snoring&lt;/b&gt; was driving his poor wife mad.</example></translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="4200000">snorkel<nouns>
+
+			<translations><date>1007</date>
+
+				<translation gender="m">tub respirador</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="1440000">snorkeling<nouns>
 
 			<translations>
 
-				<translation catagory="sports-event" local="us" gender="m">busseig amb tub / submarinisme a pulmó lliure</translation>
+				<translation catagory="sports-event" local="us" gender="ffullform">immersió lleugera<otherlocal>snorkelling</otherlocal></translation>
 
 			</translations>
 
@@ -12218,7 +12309,7 @@
 
 			<translations>
 
-				<translation catagory="sports-event" local="gb" gender="m">busseig amb tub / submarinisme a pulmó lliure<otherlocal>snorkeling</otherlocal></translation>
+				<translation catagory="sports-event" local="gb" gender="ffullform">immersió lleugera<otherlocal>snorkeling</otherlocal></translation>
 
 			</translations>
 
@@ -13322,7 +13413,30 @@
 
 		</phrasalverbs>
 
-	</Entry><Entry frequency="8150000">sole<nouns>
+	</Entry>
+        <Entry frequency="304000">soldierly<adjectives>
+
+			<translations><date>1108</date>
+
+				<translation>soldadesc</translation>
+
+			</translations>
+
+		</adjectives>
+
+	</Entry>
+<Entry frequency="707000">soldiery<nouns>
+
+			<translations><date>1108</date>
+
+				<translation register="dated" gender="f">soldadesca</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="8150000">sole<nouns>
 
 			<translations>
 
@@ -24220,15 +24334,15 @@ s
 
 		</adjectives>
 
-	</Entry><Entry frequency="57400000">sweep<verbs>
+	</Entry><Entry frequency="25600000">sweep<verbs>
 
 			<past>swept</past>
 
 			<participle>swept</participle>
 
-                            <translations><date>1007</date>
+                            <translations><date>1108</date>
 
-				<translation>escombrar</translation>
+				<translation>escombrar / agranar</translation>
 
 			</translations>
 
@@ -24549,9 +24663,9 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="7130000">swing<nouns>
+	</Entry><Entry frequency="88500000">swing<nouns>
 
-			<translations>
+                            <translations><date>1108</date>
 
 				<translation gender="m">gronxador</translation>
 
@@ -24574,12 +24688,16 @@ s
 			</translations>
 
 		</verbs>
-
+                <expressions>swing the balance
+                    <translations>
+                        <translation>fer caure / inclinar / decantar la balança<synonyms>tip the balance, tip the scales</synonyms></translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="500000">swinger<nouns>
 
 			<translations>
 
-				<translation register="slang">-<catnote>Swingers són matrimonis que, amb el consentiment dels dos cònjuges, mantenen relacions sexuals amb altres persones (molt sovint amb altres matrimonis).</catnote>
+				<translation notforeng="TRUE" register="slang">-<catnote>Swingers són matrimonis que, amb el consentiment dels dos cònjuges, mantenen relacions sexuals amb altres persones (molt sovint amb altres matrimonis).</catnote>
 
 				</translation>
 

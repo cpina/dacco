@@ -2742,9 +2742,9 @@
                                 <translation beforenoun="true">de fusta</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="131000">woodcutter<nouns>
-			<translations>
-				<translation catagory="work-job" gender="mf">llenyataire</translation>
+	</Entry><Entry frequency="392000">woodcutter<nouns>
+                            <translations><date>1108</date>
+				<translation catagory="work-job" gender="mf">llenyataire / abatedor / picador / tallador<synonyms>lumberjack, wood(s)man, logger</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2520000">wooded<adjectives>
@@ -2763,9 +2763,21 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="3880000">woodman<nouns>
+                            <translations><date>1108</date>
+				<translation catagory="work-job" gender="mf">llenyataire / abatedor / picador / tallador<synonyms>lumberjack, logger</synonyms><catnote>També es diu 'woodsman'.</catnote><plural>woodmen</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="2190000">woodpecker<nouns>
 			<translations><date>0708</date>
 				<translation catagory="animal-bird" gender="m">picot</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="1130000">woodsman<nouns>
+                            <translations><date>1108</date>
+				<translation catagory="work-job" gender="mf">llenyataire / abatedor / picador / tallador<synonyms>lumberjack, logger</synonyms><catnote>També es diu 'woodman'.</catnote><plural>woodsmen</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3112,7 +3124,10 @@
 		</verbs>
                 <nouns>
                 <translations>
-                <translation catagory="religious" gender="m">culte</translation>
+                    <grouptranslation catagory="religious">
+                        <translation gender="m">culte</translation>
+                        <translation gender="f">adoració</translation>
+                    </grouptranslation>
             </translations>
         </nouns>
             <expressions>place of worship

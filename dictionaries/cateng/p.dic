@@ -2407,11 +2407,21 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="41700">pedra<nouns>
-			<translations>
+	<Entry frequency="948000">pedra<nouns>
+                            <translations><date>1108</date>
 				<translation gender="f">stone</translation>
 			</translations>
 		</nouns>
+                <expressions>pedra filosofal
+                    <translations>
+                        <translation gender="f">philosopher's stone</translation>
+                    </translations>
+                </expressions>
+                <expressions>pedra de toc
+                    <translations>
+                        <translation gender="f">touchstone</translation>
+                    </translations>
+                </expressions>
                 <expressions>quedar-se de pedra
                 <translations>
                 <translation>to be (left) speechless / stupefied<example>De pedra &lt;b&gt;m'he quedat&lt;/b&gt; amb la roda de premsa d'en Rajoy.</example></translation>
@@ -2423,13 +2433,7 @@
                 </translations>
                 </expressions>
 	</Entry>
-        <Entry frequency="300">pedra filosofal<nouns>
-			<translations><date>0605</date>
-				<translation gender="f">philosopher's stone</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="0">pedralbí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Pedralba</translation></translations></nouns><adjectives><translations><translation>relating to Pedralba or its people<plural>pedralbins</plural><fems>pedralbina</fems></translation></translations></adjectives></Entry>
+        <Entry frequency="0">pedralbí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Pedralba</translation></translations></nouns><adjectives><translations><translation>relating to Pedralba or its people<plural>pedralbins</plural><fems>pedralbina</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="859">pedregar<verbs conj="GtoGU">
 			<translations><date>0505</date>
 				<translation>to hail</translation>
@@ -2850,6 +2854,12 @@
 	<Entry frequency="2000">pentàgon<nouns>
 			<translations>
 				<translation gender="m">pentagon</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="22000">pentagrama<nouns>
+                            <translations><date>1108</date>
+				<translation disambiguate="entertainment-music" gender="m">stave (Br.) / staff (Am.)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3849,6 +3859,19 @@
 			</translations>
 		</nouns>
 	</Entry>
+           <Entry frequency="80200">pesquer<adjectives>
+            <translations><date>1108</date>
+                <translation>fishing</translation>
+            </translations>
+        </adjectives>
+        <nouns>
+            <translations>
+                <translation gender="m">fishing boat</translation>
+                <translation feminine="pesquera" gender="f">fishing</translation>
+                <translation feminine="pesquera" gender="f">fishing grounds / fishery</translation>
+            </translations>
+        </nouns>
+    </Entry>
 	<Entry frequency="5080">pessebre<nouns>
 			<translations>
 				<translation picture="http://photos4.flickr.com/5347101_5276c34b07.jpg" flickr="http://www.flickr.com/photos/friviere/5347101/" gender="m">(model) nativity scene</translation>
@@ -4140,6 +4163,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="9490">picador<nouns>
+                            <translations><date>1108</date>
+                            <translation catagory="work-job" gender="m / f">stonemason<synonyms>picapedrer</synonyms></translation>
+				<translation catagory="work-job" gender="m / f">logger / lumberjack / wood(s)man / woodcutter<synonyms>llenyataire, abatedor, tallador</synonyms><fems>picadora</fems></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="0">picaforter<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Can Picafort</translation></translations></nouns><adjectives><translations><translation>relating to Can Picafort or its people<fems>picafortera</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="2500">picant<adjectives>
 			<translations>
@@ -4148,7 +4178,13 @@
 		</adjectives>
 	</Entry>
 <Entry frequency="0">picanyer<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Picanya</translation></translations></nouns><adjectives><translations><translation>relating to Picanya or its people<fems>picanyera</fems></translation></translations></adjectives></Entry>
-	<Entry frequency="100000">picar<verbs conj="CtoQU">
+ <Entry frequency="141000">picapedrer<nouns>
+                            <translations><date>1108</date>
+				<translation catagory="work-job" gender="m / f">stonemason<fems>picapedrera</fems><synonyms>picador</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>	
+<Entry frequency="100000">picar<verbs conj="CtoQU">
 			<translations><date>0307</date>
 				<translation>to bite<engnote>'Picar' means for an insect to bite (i.e. 'I was bitten by mosquitos').  To bite as in an animal such as a dog biting would be 'mossegar'</engnote>
 				</translation>
@@ -5934,7 +5970,7 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="110000">política<nouns>
+	<Entry frequency="110se i000">política<nouns>
 			<translations>
 				<translation catagory="politics" gender="f">politics</translation>
 				<translation gender="f">policy<catexamp>Posar la política de partit per davant de la política d'estat</catexamp><engexamp>To put politics before policy</engexamp><femplural>polítiques</femplural>
@@ -6175,10 +6211,10 @@
 		</nouns>
 	</Entry>
         <Entry frequency="28700">ponderació<nouns>
-			<translations><date>0306</date>
+			<translations><date>1108</date>
                             <translation gender="f">weighting / adjustment<example>L'examen final te una &lt;b&gt;ponderació&lt;/b&gt; residual entre el 19% i el 100%.</example><example>Total de vots (sense i amb &lt;b&gt;ponderació&lt;/b&gt;) per candidats.</example></translation>
                             <translation gender="f">balance</translation>
-                            <translation gender="f">consideration</translation>
+                            <translation gender="f">consideration / deliberation</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -8475,6 +8511,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="11500">promontori<nouns>
+                <translations><date>1108</date>
+                    <translation gender="m">promontory / headland</translation>
+                </translations>
+            </nouns>
+        </Entry>
 	<Entry frequency="186000">promoure<verbs conj="irregular13">
 			<translations><date>0705</date>
 				<translation>to promote</translation>
@@ -8498,6 +8540,12 @@
 				<translation disambiguate="legal" gender="f">enactment</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="14200">promulgar<verbs conj="GtoGU">
+			<translations><date>1108</date>
+				<translation disambiguate="legal" transitive="true">to enact</translation>
+			</translations>
+		</verbs>
 	</Entry>
 	<Entry frequency="12600">pronòstic<nouns>
 			<translations><date>0705</date>
@@ -8571,6 +8619,21 @@
 				<translation>to spread</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="11500">propens<adjectives>
+
+			<translations><date>1108</date>
+
+				<translation>inclined<plural>propensos</plural><fems>propensa</fems></translation>
+
+			</translations>
+
+		</adjectives>
+                <expressions>ser propens a
+                    <translations>
+                        <translation>to be apt to / to be inclined to / to have a propensity to (o for)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="622">propensió<nouns>
 			<translations><date>0305</date>
@@ -8663,63 +8726,63 @@
                 <translations>
                 <translation>about / regarding / as regards</translation></translations></expressions>
 	</Entry>
-	<Entry frequency="1530000">proposta<nouns>
-			<translations><date>0705</date>
+	<Entry frequency="2560000">proposta<nouns>
+			<translations><date>1108</date>
 				<translation gender="f">proposal</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="7270">propugnar<verbs conj="regular">
-			<translations><date>0705</date>
+	<Entry frequency="52300">propugnar<verbs conj="regular">
+			<translations><date>1108</date>
 				<translation>to suggest / to put forward</translation>
 			</translations>
 		</verbs>
 	</Entry>
-        <Entry frequency="66400">pròrroga<nouns>
+        <Entry frequency="219000">pròrroga<nouns>
 			<translations><date>0106</date>
 				<translation disambiguate="sports" gender="f">extra time / overtime<catnote>Futbol americà = 'overtime'</catnote></translation>
                                 <translation gender="f">extension<plural>pròrrogues</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="24600">prosa<nouns>
-			<translations><date>0705</date>
+	<Entry frequency="216000">prosa<nouns>
+			<translations><date>1108</date>
 				<translation gender="f">prose</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="5770">pròsper<adjectives>
-			<translations><date>0705</date>
-				<translation>prosperous<fems>pròspera</fems></translation>
+	<Entry frequency="357705700">pròsper<adjectives>
+			<translations><date>1108</date>
+				<translation>prosperous / affluent<fems>pròspera</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
-        <Entry frequency="60400">prosperitat<nouns>
-			<translations><date>0806</date>
-				<translation gender="f">prosperity</translation>
+        <Entry frequency="203000">prosperitat<nouns>
+			<translations><date>1108</date>
+				<translation gender="f">prosperity / affluence</translation>
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="1440">pròstata<nouns>
-			<translations><date>0505</date>
+        <Entry frequency="20400">pròstata<nouns>
+			<translations><date>1108</date>
 				<translation gender="f">prostate<catexamp>Càncer de pròstata</catexamp><engexamp>Prostate cancer</engexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
-         <Entry frequency="2190">prostíbul<nouns>
-			<translations><date>0705</date>
+         <Entry frequency="25100">prostíbul<nouns>
+			<translations><date>1108</date>
 				<translation gender="m">brothel</translation>
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="3570">prostitució<nouns>
-			<translations><date>0405</date>
+        <Entry frequency="164000">prostitució<nouns>
+			<translations><date>1108</date>
 				<translation gender="f">prostitution</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="4300">prostituta<nouns>
-			<translations><date>0705</date>
+	<Entry frequency="72700">prostituta<nouns>
+			<translations><date>1108</date>
 				<translation gender="m / f">prostitute</translation>
 			</translations>
 		</nouns>
@@ -8737,14 +8800,14 @@
 			</translations>
 		</nouns>
 	</Entry> 
-        <Entry frequency="97200">protagonista<nouns>
-			<translations><date>0305</date>
+        <Entry frequency="510000">protagonista<nouns>
+			<translations><date>1108</date>
 				<translation gender="m / f">main character / protagonist</translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="320000">protecció<nouns>
-			<translations><date>0705</date>
+	<Entry frequency="2510000">protecció<nouns>
+			<translations><date>1108</date>
 				<translation gender="f">protection<plural>proteccions</plural>
 				</translation>
 			</translations>

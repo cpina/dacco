@@ -805,14 +805,33 @@
 		</adverbs>
 	</Entry>
 <Entry frequency="15600000">late<adjectives>
-			<translations>
-				<translation>tard</translation>
+                            <translations><date>1108</date>
+				<translation>tard<engexamp>I'm late</engexamp><catexamp>Arribo tard</catexamp><engexamp>The meeting ended late</engexamp><catexamp>La reunió acabà tard</catexamp><engexamp>In the late sixties</engexamp><catexamp>A final dels anys seixanta</catexamp></translation>
+                                <translation>dels últims<engexamp>I caught a late flight</engexamp><catexamp>Vaig agafar un dels últims vols (del dia)</catexamp></translation>
+                                <translation>tardà</translation>
+                                <translation>difunt<engexamp>Her late husband</engexamp><catexamp>El seu marit difunt</catexamp></translation>
 			</translations>
 		</adjectives>
+                <adverbs>
+                    <translations>
+                        <translation>tard</translation>
+                        <translation>cap al final (i sentits afins)<engexamp>I got back from Milan late in September</engexamp><catexamp>Vaig tornar de Milà cap a finals de setembre</catexamp></translation>
+                        </translations>
+                </adverbs>
+                <expressions>late in the day
+                    <translations>
+                        <translation>massa tard</translation>
+                    </translations>
+                </expressions>
                 <expressions>better late than never
                         <translations>
                              <translation>més val tard que mai</translation>
                         </translations>
+                </expressions>
+                <expressions>of late
+                    <translations>
+                        <translation register="formal">darrerament<synonyms>lately</synonyms></translation>                    
+                    </translations>
                 </expressions>
 	</Entry>
 <Entry frequency="2280000">lately<adverbs>
@@ -2683,6 +2702,13 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="35600000">likewise<adverbs>
+                            <translations><date>1108</date>
+				<translation>igualment</translation>
+                                <translation>també / així mateix</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 <Entry frequency="5000000">liking<nouns>
 			<translations>
 				<translation gender="m">gust</translation>
@@ -3105,6 +3131,23 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1800000">litmus<nouns>
+                            <translations><date>1108</date>
+				<translation catagory="chemistry" gender="m">tornassol</translation>
+			</translations>
+		</nouns>
+                <expressions>litmus paper
+                    <translations>
+                        <translation catagory="chemistry" gender="m">paper de tornassol</translation>
+                    </translations>
+                </expressions>
+                <expressions>litmus test
+                    <translations>
+                        <translation disambiguate="chemistry" gender="f">prova d'acidesa / prova de tornassol</translation>
+                        <translation gender="f">(fig.) prova de foc</translation>
+                    </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="2610000">litter<nouns>
 			<translations>
 				<translation gender="fpl">escombraries<engnote>'Escombraries' means 'litter' in the sense 'rubbish'.</engnote>
@@ -3426,6 +3469,12 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
+	</Entry>
+        <Entry frequency="7820000">logger<nouns>
+                            <translations><date>1108</date>
+				<translation gender="mf">llenyataire / abatedor / picador / tallador<synonyms>wood(s)man, lumberjack</synonyms></translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="15400000">logic<nouns>
 			<translations>
@@ -4201,6 +4250,12 @@
                 </translations>
             </nouns>
         </Entry>
+        <Entry frequency="1850000">lumberjack<nouns>
+                            <translations><date>1108</date>
+				<translation gender="m">llenyataire / abatedor / picador / tallador<synonyms>wood(s)man, logger</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="2260000">luminance<nouns>
 			<translations><date>1007</date>
 				<translation termcat="telecom" gender="f">luminància</translation>

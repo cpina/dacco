@@ -161,9 +161,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="2600000">damask<nouns>
+                            <translations><date>1108</date>
+				<translation catagory="material" gender="m">domàs</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="2130000">dame<nouns>
 			<translations>
-				<translation local="gb">Títol honorífic britànic atorgat a les dones</translation>
+				<translation local="gb">títol honorífic britànic atorgat a les dones</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1689,6 +1695,13 @@
 			</translations>
 		</adverbs>
 	</Entry>
+        <Entry frequency="4570000">deliberation<nouns>
+			<translations><date>1108</date>
+				<translation gender="f">deliberació</translation>
+                                <translation gender="f">ponderació / moderació</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="9450000">delicate<adjectives>
 			<translations>
 				<translation>delicat</translation>
@@ -2584,14 +2597,15 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="425000000">design<verbs>
-			<translations>
+<Entry frequency="1120000000">design<verbs>
+                            <translations><date>1108</date>
 				<translation>dissenyar</translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
 				<translation gender="m">disseny</translation>
+                                <translation gender="m">designi / propòsit</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2637,12 +2651,11 @@
 				<translation disambiguate="computers" gender="m" termcat="true">escriptori</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="3650000">desktop publishing<nouns>
-			<translations>
-				<translation catagory="computers" termcat="true" gender="f">autoedició</translation>
-			</translations>
-		</nouns>
+                <expressions>desktop publishing
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="f">autoedició</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1840000">despair<verbs>
 			<translations>
@@ -2764,6 +2777,17 @@
 				<translation gender="m">destí</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="4330000">destitute<adjectives>
+                            <translations><date>1108</date>
+				<translation>indigent</translation>
+			</translations>
+		</adjectives>
+                <expressions>destitute of (something)
+                    <translations>
+                        <translation register="formal">mancat de / privat de</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="107000000">destroy<verbs>
 			<translations>
@@ -3955,9 +3979,12 @@
 			</translations>
 		</verbs>
 	<phrasalverbs>disagree with<translations><translation intransitive="true">no estar d'acord amb</translation></translations></phrasalverbs></Entry>
-<Entry frequency="2890000">disagreement<nouns>
+<Entry frequency="9480000">disagreement<nouns>
 			<translations>
+                            <grouptranslation>
 				<translation gender="m">desacord</translation>
+                                <translation gender="f">desavinença</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4851,6 +4878,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="5910000">disseminate<verbs>
+			<translations><date>1108</date>
+				<translation transitive="true">disseminar / divulgar</translation>
+			</translations>
+		</verbs>
+	</Entry>	
+        <Entry frequency="15900000">dissemination<nouns>
+			<translations><date>1108</date>
+				<translation gender="f">disseminació / divulgació</translation>
+			</translations>
+		</nouns>
+	</Entry>	
 <Entry frequency="192000">dissension<nouns>
 			<translations>
 				<translation gender="f">dissensió</translation>

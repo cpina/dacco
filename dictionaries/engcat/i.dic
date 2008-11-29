@@ -572,6 +572,12 @@
                 </translations>
                 </nouns>
 	</Entry>
+        <Entry frequency="190000">ill-judged<adjectives>
+                            <translations><date>1108</date>
+				<translation register="formal">imprudent</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="15600000">illness<nouns>
 			<translations>
 				<translation gender="f">malaltia</translation>
@@ -2513,9 +2519,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="6740000">ineffective<adjectives>
-			<translations>
-				<translation>ineficaç</translation>
+<Entry frequency="11900000">ineffective<adjectives>
+                            <translations><date>1108</date>
+				<translation>ineficaç / inútil<synonyms>ineffectual</synonyms></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2524,6 +2530,12 @@
 				<translation gender="ffullform">ineficàcia</translation>
 			</translations>
 		</nouns>
+	</Entry>
+<Entry frequency="2470000">ineffectual<adjectives>
+                            <translations><date>1108</date>
+				<translation>ineficaç / inútil<synonyms>ineffective</synonyms></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="9140000">inefficient<adjectives>
                             <translations><date>1008</date>
@@ -2740,6 +2752,13 @@
 				<translation catagory="medical" gender="ffullform">infermeria</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="9630000">inflame<verbs>
+                            <translations><date>1108</date>
+				<translation>encendre / enardir</translation>
+                                <translation>exacerbar / agreujar</translation>
+			</translations>
+		</verbs>
 	</Entry>
 <Entry frequency="3170000">inflammable<adjectives>
 			<translations><date>0907</date>
@@ -4006,9 +4025,10 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="19800000">intensity<nouns>
-			<translations>
+<Entry frequency="48700000">intensity<nouns>
+                            <translations><date>1108</date>
 				<translation gender="ffullform">intensitat</translation>
+                                <translation gender="f">vivor</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5718,13 +5738,27 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="212000000">issue<nouns>
-			<translations>
-				<grouptranslation><translation gender="m">assumpte</translation>
-                                            <translation gender="f">qüestió</translation><engnote>'Assumpte' and 'qüestió' mean 'issue' as in 'subject' or 'question'.</engnote></grouptranslation>
-                                        <translation gender="m">número / exemplar<engnote>'Número' and 'exemplar' mean 'issue' as in 'the latest issue of Rolling Stone / Vogue / Time magazine etc.'</engnote></translation>
+        <Entry frequency="15900000">issuance<nouns>
+                            <translations><date>1108</date>
+				<translation disambiguate="financial" gender="f">(tec.) expedició</translation>
 			</translations>
 		</nouns>
+	</Entry>
+<Entry frequency="513000000">issue<nouns>
+                            <translations><date>1108</date>
+				<grouptranslation><translation gender="m">(topic) assumpte</translation>
+                                            <translation gender="f">qüestió</translation></grouptranslation>
+                                        <translation gender="m">(newspaper, magazine) número / exemplar</translation>
+                                        <translation gender="f">(shares, currency) expedició</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                       <translation>expedir</translation>
+                       <translation>decretar</translation>
+                       <translation>publicar / editar</translation>
+                       </translations>
+                </verbs>
 	</Entry>
 <Entry frequency="7370000">isthmus<nouns>
 			<translations>

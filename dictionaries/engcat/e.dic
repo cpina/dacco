@@ -934,15 +934,14 @@
 	</Entry>
 <Entry frequency="60700000">effective<adjectives>
 			<translations>
-				<translation>eficaç</translation>
+				<translation>eficaç<synonyms>effectual</synonyms></translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="304">effective edge length<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding, sports-event-skateboarding" termcat="true" gender="m">cantell efectiu<synonyms>running length</synonyms></translation>
-			</translations>
-		</nouns>
+                <expressions>effective edge length
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding, sports-event-skateboarding" termcat="true" gender="m">cantell efectiu<synonyms>running length</synonyms></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="26100000">effectively<adverbs>
 			<translations>
@@ -958,6 +957,12 @@
 				<translation gender="f">eficàcia</translation>
 			</translations>
 		</nouns>
+	</Entry>
+         <Entry frequency="3100000">effectual<adjectives>
+                            <translations><date>1108</date>
+				<translation>eficaç<synonyms>effective</synonyms></translation>
+			</translations>
+		</adjectives>
 	</Entry>
         <Entry frequency="1500000">effeminate<adjectives>
                             <translations><date>0908</date>
@@ -2065,6 +2070,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="6530000">eminence<nouns>
+                <translations><date>1108</date>
+                    <translation register="formal" gender="f">eminència<engexamp>His / Your Eminence</engexamp><catexamp>Sa Eminència</catexamp></translation>
+                    <translation register="dated" gender="m">promontori</translation>
+                </translations>
+            </nouns>
+            <expressions>eminence grise
+                <translations>
+                    <translation gender="f">eminència grisa</translation>
+                </translations>
+            </expressions>
+        </Entry>
 <Entry frequency="311000">emir<nouns>
 			<translations>
 				<translation gender="m">emir</translation>
@@ -2268,9 +2285,21 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="398000000">emulate<verbs>
+			<translations><date>1108</date>
+				<translation transitive="true">emular</translation>
+			</translations>
+		</verbs>
+	</Entry>
 <Entry frequency="398000000">enable<verbs>
 			<translations><date>1007</date>
-				<translation>habilitar / permetre</translation>
+				<translation transitive="true">habilitar / permetre</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="21900000">enact<verbs>
+			<translations><date>1108</date>
+				<translation disambiguate="legal" transitive="true">promulgar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2355,6 +2384,13 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="1480000">encroach<verbs>
+                            <translations><date>1108</date>
+				<translation intransitive="true">(~ on / upon) envair</translation>
+                                <translation intransitive="true">extralimitar-se / ultrapassar(-se)</translation>
+			</translations>
+		</verbs>
+	</Entry>
 <Entry frequency="6970000">encrypt<verbs>
 			<translations><date>0507</date>
 				<translation>xifrar / encriptar<engnote>Until 2007 'encriptar' was considered an Anglicism and the only accepted translation of 'encrypt' was 'xifrar'.</engnote></translation>
@@ -2387,8 +2423,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="335000000">end<nouns>
-			<translations>
+<Entry frequency="1160000000">end<nouns>
+                            <translations><date>1108</date>
 				<translation gender="f">fi</translation>
                                 <translation gender="fpl">acaballes</translation>
                                 <translation gender="m">acabament</translation>
@@ -2426,6 +2462,11 @@
                <translation gender="m">atzucac</translation>
                </translations>
                </expressions>
+                   <expressions>put an end to (something)
+                       <translations>
+                           <translation>posar fi a (alguna cosa)</translation>
+                       </translations>
+                   </expressions>
                </Entry>
 <Entry frequency="17500000">endanger<verbs>
 			<translations>
@@ -3685,6 +3726,12 @@
 				<translation gender="m">espionatge</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="2410000">espouse<verbs>
+                            <translations><date>1108</date>
+				<translation register="formal">adherir-se a (una causa, una idea)</translation>
+			</translations>
+		</verbs>
 	</Entry>
 <Entry frequency="7530000">essay<nouns>
 			<translations>
