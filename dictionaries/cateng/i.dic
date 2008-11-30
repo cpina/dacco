@@ -4168,6 +4168,22 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="1940000">ínterim<nouns>
+                            <translations><date>1108</date>
+				<translation>interim</translation>
+			</translations>
+		</nouns>
+                <adverbs>
+                    <translations>
+                        <translation>in the interim / in the meantime<synonyms>en l'endemig</synonyms><engnote>The Gran Diccionari de Llengua Catalana and the Diccionari de l'IEC both mark 'ínterim' as an adverb. The Diccionari Català-Valencià-Balear marks it as a noun. Here we mark it as both to cover all uses.</engnote></translation>
+                    </translations>
+                </adverbs>
+                <expressions>en l'ínterim
+                    <translations>
+                        <translation>in the interim / in the meantime<synonyms>en l'endemig</synonyms></translation>
+                    </translations>
+                </expressions>
+	</Entry>
 	<Entry frequency="142000">interior<adjectives>
 			<translations>
 				<translation>inside / interior / inner</translation>
@@ -4408,15 +4424,14 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>intervenció quirúrgica
+                    <translations>
+                        <translation catagory="medical" gender="ffullform">operation<plural>intervencions quirúrgiques</plural>
+                        </translation>
+                    </translations>
+                </expressions>
 	</Entry>
-	<Entry frequency="1920">intervenció quirúrgica<nouns>
-			<translations>
-				<translation catagory="medical" gender="ffullform">operation<plural>intervencions quirúrgiques</plural>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="33400">intervenir<verbs conj="irregular26">
+		<Entry frequency="33400">intervenir<verbs conj="irregular26">
 			<translations>
 				<translation>to intervene</translation>
 			</translations>
@@ -5029,6 +5044,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="7020">ioruba<nouns>
+                <translations><date>1108</date>
+                    <translation catagory="linguistics" gender="mfullform">Yoruba</translation>
+                </translations>  
+            </nouns>
+	</Entry> 
 	<Entry frequency="1040">iot<nouns>
 			<translations>
 				<translation catagory="transport-mode, sports-event-yachting" gender="mfullform">yacht</translation>

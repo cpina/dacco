@@ -188,18 +188,20 @@
 
 	</Entry><Entry frequency="1480000">sad<adjectives>
 
-			<translations>
+                            <translations><date>1108</date>
 
 				<translation>trist<synonyms>unhappy</synonyms>
 
 				</translation>
 
 				<translation register="colloquial">patètic</translation>
-
+                                </translations>
+                                </adjectives>
+                                <nouns>
+                                    <translations>
+                                  <translation capitalized="SAD" catagory="medical-illness" gender="m">trastorn afectiu estacional<catnote>'Seasonal Affective Disorder'.</catnote></translation>
 			</translations>
-
-		</adjectives>
-
+		</nouns>
 	</Entry><Entry frequency="608000">sadden<verbs>
 
 			<translations>
@@ -17417,7 +17419,30 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="18800000">stability<nouns>
+	</Entry>
+         <Entry frequency="2820000">stabilisation<nouns>
+
+                            <translations><date>1108</date>
+
+				<translation local="gb" gender="f">estabilització<otherlocal>stabilization</otherlocal></translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+            <Entry frequency="1940000">stabilise<verbs>
+
+                            <translations><date>1108</date>
+
+				<translation local="gb">estabilitzar<otherlocal>stabilize</otherlocal></translation>
+
+			</translations>
+
+		</verbs>
+
+	</Entry>
+        <Entry frequency="18800000">stability<nouns>
 
 			<translations>
 
@@ -17429,7 +17454,30 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="16600000">stable<nouns>
+	</Entry>
+         <Entry frequency="13500000">stabilization<nouns>
+
+                            <translations><date>1108</date>
+
+				<translation gender="f">estabilització</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+         <Entry frequency="9920000">stabilize<verbs>
+
+                            <translations><date>1108</date>
+
+				<translation>estabilitzar</translation>
+
+			</translations>
+
+		</verbs>
+
+	</Entry>
+        <Entry frequency="16600000">stable<nouns>
 
 			<translations>
 
@@ -23600,13 +23648,14 @@ s
 
 	</Entry>
         <Entry frequency="34500000">surplus<adjectives>
-            <translations><date>1008</date>
+            <translations><date>1108</date>
             <translation>sobrer</translation>
         </translations>
     </adjectives>
     <nouns>
         <translations>
             <translation gender="m">excedent</translation>
+            <translation disambiguate="financial" gender="m">superàvit</translation>
         </translations>
         </nouns>
     </Entry>
