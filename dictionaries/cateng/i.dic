@@ -705,6 +705,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="14500">imitador<nouns>
+                            <translations><date>1108</date>
+				<translation gender="m / f">imitator</translation>
+                                <translation gender="m / f">copycat<fems>imitadora</fems></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="4920">imitar<verbs conj="regular">
 			<translations>
 				<translation>to imitate / to ape</translation>
@@ -4184,19 +4191,23 @@
                     </translations>
                 </expressions>
 	</Entry>
-	<Entry frequency="142000">interior<adjectives>
-			<translations>
+	<Entry frequency="5210000">interior<adjectives>
+                            <translations><date>1208</date>
 				<translation>inside / interior / inner</translation>
                                 <translation>indoor</translation>
+                                <translation>inland</translation>
 			</translations>
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation gender="m">inside / interior<catexamp>Ministre d'Interior</catexamp>
-					<engexamp>Interior Minister (Am.) / Home Office Minister (Br.)</engexamp>
-				</translation>
+				<translation gender="m">inside / interior</translation>
 			</translations>
 		</nouns>
+                <expressions>ministre d'Interior
+                    <translations>
+                        <translation catagory="politics" gender="m / f">Interior Minister (Am.) / Home Office Minister (Br.)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="5850">interiorisme<nouns>
 			<translations>
@@ -4424,15 +4435,14 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>intervenció quirúrgica
+                    <translations>
+                        <translation catagory="medical" gender="ffullform">operation<plural>intervencions quirúrgiques</plural>
+                        </translation>
+                    </translations>
+                </expressions>
 	</Entry>
-	<Entry frequency="1920">intervenció quirúrgica<nouns>
-			<translations>
-				<translation catagory="medical" gender="ffullform">operation<plural>intervencions quirúrgiques</plural>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="33400">intervenir<verbs conj="irregular26">
+		<Entry frequency="33400">intervenir<verbs conj="irregular26">
 			<translations>
 				<translation>to intervene</translation>
 			</translations>
@@ -4714,8 +4724,9 @@
 		</nouns>
 	</Entry>
 	<Entry frequency="6440">inundar<verbs conj="regular">
-			<translations>
+                            <translations><date>1108</date>
 				<translation>to flood</translation>
+                                <translation>(fig.) to deluge / to inundate</translation>
 			</translations>
 		</verbs>
 	</Entry>

@@ -6393,14 +6393,14 @@
     </Entry>
 <Entry frequency="37000000">coast<nouns>
         <translations>
-            <grouptranslation><translation gender="m">litoral</translation>
+            <grouptranslation catagory="geography"><translation gender="m">litoral</translation>
                 <translation gender="f">costa</translation></grouptranslation>
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="27100000">coastal<adjectives>
-        <translations>
-            <translation>litoral</translation>
+<Entry frequency="46800000">coastal<adjectives>
+        <translations><date>1208</date>
+            <translation catagory="geography">costaner / litoral</translation>
         </translations>
     </adjectives>
     </Entry>
@@ -8038,14 +8038,15 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="174000000">compact<adjectives>
-        <translations><date>0908</date>
+<Entry frequency="13100000">compact<adjectives>
+        <translations><date>1108</date>
             <translation>compacte</translation>
         </translations>
     </adjectives>
         <nouns>
             <translations>
                 <translation catagory="transport" gender="m">(cotxe) compacte</translation>
+                <translation register="formal" gender="f">aliança</translation>
             </translations>
         </nouns>
         <expressions>compact disc
@@ -10947,6 +10948,12 @@
             </translations>
         </verbs>
     </Entry>
+     <Entry frequency="2760000">copycat<nouns>
+                            <translations><date>1108</date>
+				<translation gender="mf">imitador / copiador / mona / imitamones / copieta / copiamones<engnote>Imitamones, copieta and copiamones don't appear in Catalan monolingual dictionaries but they are used in Catalan. We provide them here because imitador and copiador are of a higher register than copycat.</engnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
     <Entry frequency="825000">copyist<nouns>
             <translations><date>0808</date>
             <translation catagory="work-job" gender="mf">copista</translation>
