@@ -6190,7 +6190,7 @@
 	</Entry>
 <Entry frequency="535000">Down Syndrome<nouns>
 			<translations>
-				<translation gender="m">Síndrome de Down</translation>
+				<translation catagory="medical-illness" gender="m">Síndrome de Down</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6200,10 +6200,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="958000">down-to-earth<adjectives>
-			<translations>
-				<translation>que té els peus a terra / realista / pràctic<synonyms>practical</synonyms>
-				</translation>
+<Entry frequency="9240000">down-to-earth<adjectives>
+                            <translations><date>1208</date>
+				<translation>que toca de peus a terra / realista / pràctic<synonyms>practical</synonyms></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -7499,7 +7498,12 @@
 				<translation>treure la pols</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>dust off<translations><translation transitive="true">tornar a fer servir, sobretot després d'un temps de desús</translation></translations></phrasalverbs></Entry>
+	<phrasalverbs>dust off
+            <translations>
+                <translation transitive="true">tornar a fer servir, sobretot després d'un temps de desús</translation>
+            </translations>
+        </phrasalverbs>
+    </Entry>
 <Entry frequency="1600000">dust cover<nouns>
 			<translations>
 				<translation gender="f">funda</translation>
@@ -7511,6 +7515,12 @@
 				<translation gender="f">funda<synonyms>dust cover</synonyms></translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="17500000">dusty<adjectives>
+                            <translations><date>1208</date>
+				<translation>empolsegat</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="11200000">Dutch<nouns>
 			<translations>

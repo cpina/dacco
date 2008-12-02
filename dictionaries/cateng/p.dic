@@ -2244,6 +2244,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="19400">paulatinament<adverbs>
+                            <translations><date>1208</date>
+				<translation>slowly<engnote>Warning: this is a 'castellanisme'.</engnote><catnote>(Castellanisme).</catnote></translation>
+			</translations>
+		</adverbs>
+	</Entry>
 	<Entry frequency="7080">pausa<nouns>
 			<translations>
 				<translation gender="f">pause<catexamp>Pausa publicitària</catexamp><engexamp>Commercial break</engexamp></translation>
@@ -8821,9 +8827,14 @@
 	</Entry>
         <Entry frequency="20400">pròstata<nouns>
 			<translations><date>1108</date>
-				<translation gender="f">prostate<catexamp>Càncer de pròstata</catexamp><engexamp>Prostate cancer</engexamp></translation>
+				<translation catagory="body" gender="f">prostate</translation>
 			</translations>
 		</nouns>
+                <expressions>càncer de pròstata
+                    <translations>
+                        <translation catagory="medical-illness" gender="m">prostate cancer</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="25100">prostíbul<nouns>
 			<translations><date>1108</date>
@@ -8837,9 +8848,19 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="72700">prostituta<nouns>
+ <Entry frequency="164000">prostituir<verbs conj="irregular2">
+			<translations><date>1208</date>
+				<translation transitive="true">to sell (force, push..) (somebody) into prostitution</translation>
+                                <translation transitive="true">(fig.) to prostitute</translation>
+                                <translation reflexive="prostituir-se">to go on the game (Br.) / to prostitute yourself</translation>
+                                <translation reflexive="prostituir-se">(fig.) to prostitute yourself</translation>
+			</translations>
+		</verbs>
+	</Entry>
+	<Entry frequency="73900">prostitut<nouns>
 			<translations><date>1108</date>
-				<translation gender="m / f">prostitute</translation>
+				<translation gender="m">(male) prostitute</translation>
+                                <translation feminine="prostituta" gender="f">prostitute</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -9703,6 +9724,12 @@
                         <translation>more</translation>
                     </translations>
                 </adverbs>
+	</Entry>
+                <Entry frequency="674">pusil·lànime<adjectives>
+			<translations><date>1005</date>
+				<translation>pusillanimous (formal) / faint-hearted</translation>
+			</translations>
+		</adjectives>
 	</Entry>
         <Entry frequency="238">pústula<nouns>
 			<translations><date>1005</date>
