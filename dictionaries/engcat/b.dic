@@ -1863,7 +1863,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="25600000">bear<nouns>
+<Entry frequency="190000000">bear<nouns>
 			<translations><date>0707</date>
 				<translation catagory="animal-animal" gender="m">ós</translation>
 			</translations>
@@ -1876,22 +1876,38 @@
 				</translation>
 			</translations>
 		</verbs>
+                                <phrasalverbs>bear with
+                    <translations>
+                        <translation intransitive="true">tenir paciència amb</translation>
+                    </translations>
+                </phrasalverbs>
 		<expressions>bear in mind
 			<translations>
 				<translation>tenir present / tenir en compte</translation>
 			</translations>
 		</expressions>
-                <phrasalverbs>bear with
+                <expressions>bear market
                     <translations>
-                        <translation intransitive="true">tenir paciència amb</translation>
+                        <translation disambiguate="financial" gender="m">mercat baixista / mercat a la baixa<synonyms>bearish market</synonyms></translation>
                     </translations>
-                </phrasalverbs>
+                </expressions>
         </Entry>
 <Entry frequency="4090000">beard<nouns>
 			<translations>
 				<translation catagory="body" gender="f">barba</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="2960000">bearish<adjectives>
+                            <translations><date>1208</date>
+				<translation disambiguate="financial">baixista / a la baixa</translation>
+			</translations>
+		</adjectives>
+                <expressions>bearish market
+                    <translations>
+                        <translation disambiguate="financial" gender="m">mercat baixista / mercat a la baixa</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="32000000">beast<nouns>
 			<translations>
@@ -7994,12 +8010,17 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="13800000">bull<nouns>
-			<translations>
+<Entry frequency="80100000">bull<nouns>
+                            <translations><date>1208</date>
 				<translation disambiguate="animal-animal" gender="m">toro / brau</translation>
                                 <translation register="slang" gender="fpl">bestieses<catnote>Abreviatura de 'bullshit'.</catnote></translation>
 			</translations>
 		</nouns>
+                <expressions>bull market
+                    <translations>
+                        <translation disambiguate="financial" gender="m">mercat alcista / mercat a l'alça<synonyms>bullish market</synonyms></translation>
+                    </translations>
+                </expressions>
                 <expressions>like a bull in a china shop
                 <translations>
                 <translation>com un elefant en una terrisseria / com un elefant en una cristalleria</translation>
@@ -8068,6 +8089,18 @@
 				<translation>or o plata en lingots<catnote>Es parla de 'gold bullion' o 'silver bullion'. 'Bullion' és un nom incomptable, no és un lingot.</catnote><example>Gold &lt;b&gt;bullion&lt;/b&gt; is an attractive asset.</example></translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="4980000">bullish<adjectives>
+                            <translations><date>1208</date>
+				<translation disambiguate="financial">alcista / a l'alça</translation>
+                                <translation>optimista</translation>
+			</translations>
+		</adjectives>
+                <expressions>bullish market
+                    <translations>
+                        <translation disambiguate="financial" gender="m">mercat alcista / mercat a l'alça<synonyms>bull market</synonyms></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2950000">bullock<nouns>
 			<translations>
