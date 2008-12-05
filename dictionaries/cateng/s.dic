@@ -1063,21 +1063,34 @@
 	</Entry>
 	<Entry frequency="136000">sector<nouns>
 			<translations>
-				<translation gender="m">sector<catexamp>Sector primari</catexamp><engexamp>Primary sector</engexamp><catexamp>Sector secundari</catexamp><engexamp>Secondary sector</engexamp><catexamp>Sector terciari</catexamp><engexamp>Tertiary sector / service sector</engexamp></translation>
+				<translation gender="m">sector</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="6290">sector privat<nouns>
-			<translations>
-				<translation gender="m">private sector</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="11500">sector públic<nouns>
-			<translations>
-				<translation gender="m">public sector</translation>
-			</translations>
-		</nouns>
+                <expressions>sector primari
+                    <translations>
+                        <translation gender="m">primary sector</translation>
+                    </translations>
+                </expressions>
+                <expressions>sector privat
+                    <translations>
+                        <translation gender="m">private sector</translation>
+                    </translations>
+                </expressions>
+                <expressions>sector públic
+                    <translations>
+                        <translation gender="m">public sector</translation>
+                    </translations>
+                </expressions>
+                <expressions>sector secundari
+                    <translations>
+                        <translation gender="m">secondary sector</translation>
+                    </translations>
+                </expressions>
+                <expressions>sector terciari
+                    <translations>
+                        <translation gender="m">tertiary (or service) sector</translation>
+                    </translations>
+                </expressions>
 	</Entry>
           <Entry frequency="43000">secular<adjectives>
 			<translations><date>0406</date>
@@ -1096,6 +1109,12 @@
 				<translation gender="f">secularization / secularisation (Br.)</translation>
 			</translations>
                 </nouns>
+	</Entry>
+       <Entry frequency="90300">secundar<verbs conj="regular">
+			<translations><date>1208</date>
+				<translation>to support</translation>
+			</translations>
+                </verbs>
 	</Entry>
 	<Entry frequency="37800">secundari<adjectives>
 			<translations>
@@ -4099,6 +4118,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+         <Entry frequency="13400">sotmetiment<nouns>
+                            <translations><date>1208</date>
+				<translation gender="m">subjection</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="50700">sotmetre<verbs conj="irregular4">
 			<translations>
 				<translation>to subject</translation>
@@ -4221,6 +4246,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="4350">súbdit<nouns>
+			<translations><date>0505</date>
+				<translation gender="m / f">subject<engexamp>British subject</engexamp><catexamp>Súbdit britànic</catexamp><engnote>'Súbdit' means 'subject' of a monarch, state or authority.</engnote><fems>súbdita</fems></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="359">subducció<nouns>
                             <translations><date>1107</date>
 				<translation gender="f">subduction</translation>
@@ -4246,17 +4277,17 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="4350">súbdit<nouns>
-			<translations><date>0505</date>
-				<translation gender="m / f">subject<engexamp>British subject</engexamp><catexamp>Súbdit britànic</catexamp><engnote>'Súbdit' means 'subject' of a monarch, state or authority.</engnote><fems>súbdita</fems></translation>
-			</translations>
-		</nouns>
-	</Entry>
         <Entry frequency="3700">subjacent<adjectives>
 			<translations><date>0405</date>
 				<translation>underlying</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="86600">subjecció<nouns>
+                            <translations><date>1208</date>
+				<translation gender="f">subjection</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="4670">subjectar<verbs conj="regular">
 			<translations><date>0305</date>
@@ -4801,6 +4832,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="1680">superpoblat<adjectives>
+                 <translations><date>1208</date>
+                    <translation>overpopulated<fems>superpoblada</fems></translation>
+                </translations>
+            </adjectives>
+        </Entry>
         <Entry frequency="11200">superposar<verbs conj="regular">
 			<translations><date>1205</date>
 				<translation>to overlap</translation>
@@ -4876,12 +4913,17 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="367000">suport<nouns>
-			<translations>
-				<translation gender="m">support</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <Entry frequency="3380000">suport<nouns>
+                <translations><date>1208</date>
+                    <translation gender="m">support</translation>
+                </translations>
+            </nouns>
+            <expressions>donar suport a
+                <translations>
+                    <translation>to support</translation>
+                </translations>
+            </expressions>
+        </Entry>
 	<Entry frequency="41900">suportar<verbs conj="regular">
 			<translations>
 				<translation>to support</translation>

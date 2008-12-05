@@ -3885,16 +3885,12 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="3870000">secretly<adverbs>
-
-			<translations>
-
+	</Entry><Entry frequency="16600000">secretly<adverbs>
+                            <translations><date>1208</date>
 				<translation>secretament</translation>
-
+                                <translation>d'amagat / d'amagatotis</translation>
 			</translations>
-
 		</adverbs>
-
 	</Entry><Entry frequency="1780000">secret service<nouns>
 
 			<translations>
@@ -10550,7 +10546,7 @@
 
 			<translations>
 
-				<translation>donar una bufetada (o plantofada) a algú</translation>
+				<translation>donar una bufetada (o plantofada o  galtada) a algú</translation>
 
 			</translations>
 
@@ -10564,7 +10560,7 @@
 
 			<translations>
 
-				<translation gender="f">bufetada / plantofada<catnote>L'expressió col·loquial 'Do you want a slap?' - 'Vols una bufetada?', no té un sentit literal (és clar que ningú no vol que li doni una bufetada!), sinó que vol dir 'Si no deixes de fer això sí que et donaré una bufetada' o 'Si em parles així una altra vegada, et donaré una bufetada'.</catnote></translation>
+				<translation gender="f">bufetada / plantofada / galtada<catnote>L'expressió col·loquial 'Do you want a slap?' - 'Vols una bufetada?', no té un sentit literal (és clar que ningú no vol que li doni una bufetada!), sinó que vol dir 'Si no deixes de fer això sí que et donaré una bufetada' o 'Si em parles així una altra vegada, et donaré una bufetada'.</catnote></translation>
 
 				<translation register="slang" gender="m">maquillatge<example>Just let me put a bit of &lt;b&gt;slap&lt;/b&gt; on before we go out</example>
 
@@ -11459,11 +11455,16 @@
 		</nouns>
 
 	</Entry>
-        <Entry frequency="13900000">sly<adjectives>
-                            <translations><date>0908</date>
+        <Entry frequency="12400000">sly<adjectives>
+                            <translations><date>1208</date>
                                 <translation>murri</translation>
 			</translations>
 		</adjectives>
+                <expressions>on the sly
+                    <translations>
+                        <translation>d'amagat / d'amagatotis</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="21200000">smack<nouns>
 
@@ -12608,9 +12609,9 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="662000000">so<adverbs>
+	</Entry><Entry frequency="11190000000">so<adverbs>
 
-			<translations>
+                            <translations><date>1208</date>
 
 				<translation>tan</translation>
 
@@ -12621,7 +12622,11 @@
 			</translations>
 
 		</adverbs>
-
+                <expressions>and so on (and so forth)
+                    <translations>
+                        <translation>i la resta / etcètera</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="21800000">soak<verbs>
 
                             <translations><date>1007</date>
@@ -16618,28 +16623,31 @@ s
                 </translations>
 
                 </verbs>
-
-                <expressions>a spot of (something)
-
-                <translations>
-
-                <translation register="colloquial" local="gb">una mica de</translation>
-
-                </translations>
-
-                </expressions>
-
                 <expressions>spots of (something)
-
-                <translations>
-
-                <translation>gotes de<engexamp>Spots of rain</engexamp><catexamp>(Unes poques) gotes de pluja</catexamp></translation>
-
-                </translations>
-
+                    
+                    <translations>
+                        
+                        <translation>gotes de<engexamp>Spots of rain</engexamp><catexamp>(Unes poques) gotes de pluja</catexamp></translation>
+                        
+                    </translations>
+                    
                 </expressions>
-
-	</Entry><Entry frequency="5400000">spouse<nouns>
+                <expressions>a spot of (something)
+                    
+                    <translations>
+                        
+                        <translation register="colloquial" local="gb">una mica de<example>He got into &lt;b&gt;a spot of&lt;/b&gt; bother with the police.</example><example>Would you like &lt;b&gt;a spot of&lt;/b&gt; lunch?</example></translation>
+                        
+                    </translations>
+                    
+                </expressions>
+                <expressions>on the spot
+                    <translations>
+                        <translation>a l'acte / immediatament</translation>
+                        <translation>sobre el terreny</translation>
+                    </translations>
+                </expressions>
+              	</Entry><Entry frequency="5400000">spouse<nouns>
 
 			<translations>
 
@@ -21731,10 +21739,10 @@ s
 		</nouns>
 
 	</Entry><Entry frequency="153000000">subject<nouns>
-			<translations>
-				<translation catagory="work" gender="f">assignatura<engnote>'Assignatura' means 'subject' as in 'school subject / lesson'.</engnote></translation>
-				<translation gender="m">tema / assumpte<engnote>'Tema' and 'assumpte' mean 'subject' as in 'topic'.</engnote></translation>
-                                <translation gender="mf">subdit<engnote>'Subdit' means 'subject' in the sense 'all the king's subjects'.</engnote></translation>
+                            <translations><date>1208</date>
+				<translation catagory="work" gender="f">(school) assignatura</translation>
+				<translation gender="m">(topic) tema / assumpte</translation>
+                                <translation gender="mf">(of a monarchy) súbdit</translation>
 			</translations>
 		</nouns>
 		<verbs>
@@ -21742,7 +21750,21 @@ s
 				<translation>sotmetre (algú) a (alguna cosa)</translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="1170000">subjunctive<nouns>
+	</Entry>
+          <Entry frequency="1170000">subjection<nouns>
+
+                            <translations><date>1208</date>
+                                <grouptranslation>
+                                    <translation gender="f">servitud / subjecció</translation>
+                                    <translation gender="m">sotmetiment</translation>
+                                </grouptranslation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="1170000">subjunctive<nouns>
 
 			<translations>
 
@@ -23402,16 +23424,13 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="463000000">support<verbs>
+	</Entry><Entry frequency="1090000000">support<verbs>
 
-			<translations>
+                            <translations><date>1208</date>
 
-				<translation>recolzar</translation>
-
-				<translation>suportar</translation>
-
+				<translation>donar suport a / fer costat a / secundar</translation>
+                                <translation>mantenir</translation>
                                 <translation>sostenir</translation>
-
 			</translations>
 
 		</verbs>
@@ -23419,13 +23438,10 @@ s
 		<nouns>
 
 			<translations>
-
-				<translation gender="m">recolzament</translation>
-
-				<translation gender="m">suport</translation>
-
-                                <translation gender="f">adhesió</translation>
-
+                            <grouptranslation>
+                                <translation gender="m">suport / sosteniment</translation>
+                                <translation gender="f">ajuda</translation>
+                            </grouptranslation>
 			</translations>
 
 		</nouns>

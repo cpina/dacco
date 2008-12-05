@@ -4056,13 +4056,23 @@
 		</adjectives>
 	</Entry>
 <Entry frequency="77300000">ground<nouns>
-			<translations>
+                            <translations><date>1208</date>
 				<grouptranslation><translation gender="f">terra</translation>
 					<translation gender="m">terreny</translation></grouptranslation>
 				<translation disambiguate="sports" gender="m">estadi</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>ground out<translations><translation intransitive="true">en beisbol, fallar batent la bola per terra</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>ground out
+                    <translations>
+                        <translation intransitive="true">(beisbol) fallar batent la bola per terra</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>on the ground
+                    <translations>
+                        <translation>sobre el terreny<synonyms>on the spot</synonyms></translation>
+                    </translations>
+                </expressions>
+            </Entry>
 <Entry frequency="842000">groundbreaking<adjectives>
              <translations><date>0408</date>
                  <translation>trencador / innovador</translation>
@@ -4148,6 +4158,12 @@
 			<translations>
 				<translation gender="m">creixement</translation>
                                 <translation gender="f">crescuda</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="5850000">grudge<nouns>
+			<translations><date>1208</date>
+				<translation gender="m">resentiment / rancor</translation>
 			</translations>
 		</nouns>
 	</Entry>

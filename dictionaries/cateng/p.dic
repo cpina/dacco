@@ -4350,7 +4350,7 @@
                             <translations><date>1108</date>
 				<translation catagory="work-job, transport" gender="m">pilot</translation>
 				<translation catagory="sports" gender="m">(racing) driver</translation>
-                                <translation catagory="sports-event-cycling, sports-event-athletics" gender="m">pack / field<catnote>També es diu 'peloton' (del francès) en el món del ciclisme.</catnote></translation>
+                                <translation catagory="sports-event-cycling, sports-event-athletics" gender="m">pack<catnote>També es diu 'peloton' (del francès) en el món del ciclisme.</catnote></translation>
                                 <translation gender="m">jumble</translation>
 			</translations>
 		</nouns>
@@ -5056,9 +5056,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-            <Entry frequency="561">plantofada<nouns>
-			<translations><date>1106</date>
-				<translation gender="f">slap</translation>
+            <Entry frequency="3740">plantofada<nouns>
+			<translations><date>1208</date>
+				<translation gender="f">slap<synonyms>bufetada, galtada</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5404,14 +5404,18 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>pluja àcida
+                    <translations>
+                        <translation gender="f">acid rain</translation>
+                    </translations>
+                </expressions>
+                <expressions>pluja d'idees
+                    <translations>
+                        <translation gender="f">brainstorming</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-         <Entry frequency="2500">pluja d'idees<nouns>
-      <translations><date>0805</date>
-        <translation gender="f">brainstorming</translation>
-      </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="25400">plujós<adjectives>
+        <Entry frequency="25400">plujós<adjectives>
 			<translations><date>0806</date>
 				<translation catagory="weather">rainy<plural>plujosos</plural><fems>plujosa</fems></translation>
 			</translations>
@@ -5514,7 +5518,8 @@
 	</Entry>
          <Entry frequency="64200">pluvial<adjectives>
 			<translations><date>0406</date>
-				<translation catagory="weather">pluvial / rain<catexamp>Aigua pluvial</catexamp><engexamp>Rain water</engexamp></translation>
+				<translation catagory="weather">rain / pluvial<catexamp>Aigües pluvials</catexamp><engexamp>Rain water</engexamp></translation>
+                                <translation disambiguate="geography">pluvial</translation>
                                 </translations>
 		</adjectives>
 	</Entry>
@@ -5609,12 +5614,37 @@
 		</nouns>
 	</Entry>
 <Entry frequency="0">poblà<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from la Pobla d’Arenós (or Pobla de Sant Miquel or Pobla de Vallbona or Pobla del Duc or Pobla de Farnals)</translation></translations></nouns><adjectives><translations><translation>relating to la Pobla d’Arenós (or Pobla de Sant Miquel or Pobla de Vallbona or Pobla del Duc or Pobla de Farnals) or its people<plural>poblans</plural><fems>poblana</fems></translation></translations></adjectives></Entry>
-	<Entry frequency="126000">població<nouns>
-			<translations>
+	<Entry frequency="6240000">població<nouns>
+                            <translations><date>1208</date>
 				<translation gender="f">population<plural>poblacions</plural>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>població rural
+                    <translations>
+                        <translation gender="f">rural population</translation>
+                    </translations>
+                </expressions>
+                <expressions>població urbana
+                    <translations>
+                        <translation gender="f">urban population</translation>
+                    </translations>
+                </expressions>
+                <expressions>creixement de població
+                    <translations>
+                        <translation gender="m">population growth</translation>
+                    </translations>
+                </expressions>
+                <expressions>densitat de població
+                    <translations>
+                        <translation gender="f">population density</translation>
+                    </translations>
+                </expressions>
+                <expressions>piràmide de població
+                    <translations>
+                        <translation gender="m">population pyramid</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="17500">poblar<verbs conj="regular">
             
@@ -7199,9 +7229,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="26800">predir<verbs conj="irregular18">
+	<Entry frequency="60700">predir<verbs conj="irregular18">
 			<translations><date>0306</date>
-				<translation>to predict</translation>
+				<translation>to predict / to foretell (liter.)</translation>
 			</translations>
 		</verbs>
 	</Entry>

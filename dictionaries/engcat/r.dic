@@ -760,12 +760,13 @@
 		</nouns>
 
 	</Entry>
-<Entry frequency="17200000">rainforest<nouns>
+<Entry frequency="9870000">rainforest<nouns>
 
-			<translations>
-
-				<translation gender="f">selva tropical</translation>
-
+                            <translations><date>1208</date>
+                                <grouptranslation>
+                                    <translation gender="f">selva pluvial</translation>
+                                    <translation gender="m">bosc tropical (humit)</translation>
+                                </grouptranslation>
 			</translations>
 
 		</nouns>
@@ -1392,9 +1393,9 @@
 			</translations>
 		</nouns>
 	<phrasalverbs>ratchet up<translations><translation transitive="true">augmentar</translation></translations></phrasalverbs></Entry>
-<Entry frequency="116000000">rate<nouns>
+<Entry frequency="731000000">rate<nouns>
 
-			<translations>
+                            <translations><date>1208</date>
 
 				<translation gender="f">raó<engexamp>At a rate of ten people per hour</engexamp>
 
@@ -1402,23 +1403,11 @@
 
 				</translation>
 
-				<translation disambiguate="financial" gender="m">tipus<engexamp>Interest rate</engexamp>
+				<translation disambiguate="financial" gender="m">tipus</translation>
 
-					<catexamp>Tipus d'interès</catexamp>
+				<translation gender="f">tarifa</translation>
 
-					<engexamp>Exchange rate</engexamp>
-
-					<catexamp>Tipus de canvi</catexamp>
-
-				</translation>
-
-				<translation gender="f">tarifa<engexamp>Flat rate</engexamp>
-
-					<catexamp>Tarifa plana</catexamp>
-
-				</translation>
-
-                                <translation gender="f">taxa<engexamp>Birth rate</engexamp><catexamp>Taxa de natalitat</catexamp></translation>
+                                <translation gender="f">taxa</translation>
 
 			</translations>
 
@@ -1433,7 +1422,36 @@
 			</translations>
 
 		</verbs>
-
+                <expressions>birth rate
+                    <translations>
+                        <translation gender="f">taxa de natalitat</translation>
+                    </translations>
+                </expressions>
+                <expressions>death (or mortality) rate
+                    <translations>
+                        <translation gender="f">taxa de mortalitat</translation>
+                    </translations>
+                </expressions>
+                <expressions>exchange rate
+                    <translations>
+                        <translation catagory="financial" gender="m">tipus de canvi</translation>
+                    </translations>
+                </expressions>
+                <expressions>fertility rate
+                    <translations>
+                        <translation gender="f">taxa de fertilitat</translation>
+                    </translations>
+                </expressions>
+                <expressions>flat rate
+                    <translations>
+                        <translation gender="f">tarifa plana</translation>
+                    </translations>
+                </expressions>
+                <expressions>interest rate
+                    <translations>
+                        <translation catagory="financial" gender="m">tipus d'interès</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="36400000">rather<adverbs>
 
@@ -2812,7 +2830,32 @@
 
                         </phrasalverbs>
 
-	<phrasalverbs>reckon without<translations><translation intransitive="true">no comptar amb</translation></translations></phrasalverbs></Entry>
+                        <phrasalverbs>reckon without
+                            <translations>
+                                <translation intransitive="true">no comptar amb</translation>
+                            </translations>
+                        </phrasalverbs>
+                    </Entry>
+                    <Entry frequency="8920000">reckoning<nouns>
+
+                            <translations><date>1208</date>
+
+				<translation gender="m">càlcul</translation>
+
+			</translations>
+
+		</nouns>
+                <expressions>by my reckoning
+                    <translations>
+                        <translation>segons els meus càlculs</translation>
+                    </translations>
+                </expressions>
+                <expressions>final reckoning (or day of reckoning)
+                    <translations>
+                        <translation gender="f">hora de la veritat</translation>
+                    </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="6250">reclaimed wood<nouns>
 
 			<translations>
@@ -3000,33 +3043,19 @@
 				</translation>
 
                                 <translation disambiguate="legal" gender="m">expedient</translation>
-
-				<translation gender="m">rècord<engnote>'Rècord' means 'record' as in 'world record'.</engnote>
-
-					<engexamp>To beat the world record</engexamp>
-
-					<catexamp>Batre el rècord mundial</catexamp>
-
-				</translation>
-
+                                <grouptranslation disambiguate="sports">
+                                    <translation gender="m">rècord</translation>
+                                    <translation gender="f">plusmarca<engexamp>To beat the world record</engexamp><catexamp>Batre el rècord (o la plusmarca) mundial</catexamp></translation>
+                                </grouptranslation>
                                 <translation gender="m">registre</translation>
-
                                 <translation gender="f">constància</translation>
-
 			</translations>
-
 		</nouns>
-
 		<adjectives>
-
 			<translations>
-
 				<translation>rècord</translation>
-
 			</translations>
-
 		</adjectives>
-
 	</Entry>
 <Entry frequency="783000">recordable<adjectives>
 
@@ -6698,8 +6727,12 @@
 			</translations>
 
 		</expressions>
-
-	<phrasalverbs>rest upon<translations><translation intransitive="true">dependre de</translation></translations></phrasalverbs></Entry>
+                  <phrasalverbs>rest upon
+                    <translations>
+                        <translation intransitive="true">dependre de</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
         <Entry frequency="25200000">restart<verbs>
                             <translations><date>1008</date>
 				<translation catagory="computers" termcat="true">reiniciar</translation>

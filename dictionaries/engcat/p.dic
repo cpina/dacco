@@ -84,12 +84,13 @@
 
 	</Entry>
 <Entry frequency="47600000">pack<nouns>
-			<translations><date>0408</date>
+			<translations><date>1208</date>
 				<translation gender="m">paquet</translation>
 				<translation gender="f">motxilla<engnote>'Motxilla' means 'pack' in the sense 'backpack'.</engnote></translation>
                                 <translation local="gb" gender="f">baralla<engnote>'Baralla' means 'pack' in the sense 'pack of cards'.</engnote><otherlocal>deck</otherlocal></translation>
 				<translation catagory="animal" gender="m">ramat<engnote>'Ramat' means 'pack' in the sense 'a pack of wolves'.</engnote></translation>
 				<translation gender="m">grup</translation>
+                                <translation disambiguate="sports" gender="m">pilot</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -4809,6 +4810,12 @@
         <Entry frequency="30000">Peleus<nouns>
           <translations><date>1008</date>   
               <translation catagory="encyclopaedic">Peleu</translation>
+          </translations>            
+      </nouns>        
+  </Entry>
+ <Entry frequency="291000">peloton<nouns>
+          <translations><date>1208</date>   
+              <translation catagory="sports-event-cycling" gender="m">(ciclisme) pilot<synonyms>pack</synonyms></translation>
           </translations>            
       </nouns>        
   </Entry>
@@ -12020,28 +12027,39 @@
 		</verbs>
 
 	</Entry>
-<Entry frequency="39300000">pool<nouns>
-
-			<translations>
-
+<Entry frequency="274000000">pool<nouns>
+                            <translations><date>1208</date>
 				<translation disambiguate="sports-event-swimming" gender="f">piscina</translation>
-
                                 <translation gender="m">estany</translation>
-
                                 <translation disambiguate="sports-event" gender="m">billar americà</translation>
-
                                 <translation gender="m">bassal</translation>
-
 			</translations>
-
 		</nouns>
-
-                <verbs>
-
-                <translations>
-
-                <translation>mancomunar</translation></translations></verbs>
-
+                <verbs>                   
+                    <translations>                        
+                        <translation>mancomunar</translation>
+                    </translations>
+                </verbs>
+                <expressions>heated pool
+                    <translations>
+                        <translation gender="f">piscina climatitzada</translation>
+                    </translations>
+                </expressions>
+                <expressions>indoor pool
+                    <translations>
+                        <translation gender="f">piscina coberta</translation>
+                    </translations>
+                </expressions>
+                <expressions>outdoor pool
+                    <translations>
+                        <translation gender="f">piscina a l'aire lliure</translation>
+                    </translations>
+                </expressions>
+                <expressions>swimming pool
+                    <translations>
+                        <translationg gender="f">piscina</translationg>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="11400000">poop<nouns>
 
@@ -12250,16 +12268,36 @@
         </verbs>
         
     </Entry>
-<Entry frequency="41700000">population<nouns>
-
-			<translations>
-
+<Entry frequency="179000000">population<nouns>
+                            <translations><date>1208</date>
 				<translation gender="f">població</translation>
-
 			</translations>
-
 		</nouns>
-
+                <expressions>population density
+                    <translations>
+                        <translation gender="f">densitat de població</translation>
+                    </translations>
+                </expressions>
+                <expressions>population growth
+                    <translations>
+                        <translation gender="m">creixement de població</translation>
+                    </translations>
+                </expressions>
+                <expressions>population pyramid
+                    <translations>
+                        <translation gender="m">piràmide de població</translation>
+                    </translations>
+                </expressions>
+                <expressions>rural population
+                    <translations>
+                        <translation gender="f">població rural</translation>
+                    </translations>
+                </expressions>
+                <expressions>urban population
+                    <translations>
+                        <translation gender="f">població urbana</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="4640000">populous<adjectives>            
             <translations><date>1108</date>                
