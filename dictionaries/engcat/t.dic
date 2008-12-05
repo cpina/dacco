@@ -480,9 +480,12 @@
                         <translation gender="f">guatlla (colloq.)</translation>
                     </translations>
                 </expressions>
-	</Entry><Entry frequency="46200000">talent<nouns>
-			<translations>
-				<translation gender="m">talent</translation>
+	</Entry><Entry frequency="117000000">talent<nouns>
+                            <translations><date>1208</date>
+                            <grouptranslation>
+				<translation gender="m">talent / dot</translation>
+                                <translation gender="f">aptitud</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="22600000">talented<adjectives>
@@ -594,6 +597,11 @@
                         <translation>en converses amb</translation>
                     </translations>
                 </expressions>
+                <expressions>know what (you are / he is ..) talking about
+                    <translations>
+                        <translation>dir una cosa per experiència<engexamp>He knows what he's talking about</engexamp><catexamp>Ho diu per experiència</catexamp></translation>
+                    </translations>
+                </expressions>
             </Entry>
              <Entry frequency="4360000">talkative<adjectives>
                             <translations><date>1008</date>
@@ -611,7 +619,15 @@
                         <translation gender="f">guatlla</translation>
                     </translations>
                 </expressions>
-	</Entry><Entry frequency="3500000">tambourine<nouns>
+	</Entry>
+        <Entry frequency="14600000">tally<verbs ie="true">
+                            <translations><date>1208</date>
+				<translation transitive="true">calcular</translation>
+                                <translation intransitive="true">encaixar / coincidir</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="3500000">tambourine<nouns>
                             <translations><date>0708</date>
 				<translation catagory="entertainment-music-instrument" gender="f">pandereta</translation>
 			</translations>
@@ -828,7 +844,14 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="2180000">tarot<nouns>
+	</Entry>
+        <Entry frequency="2850000">tarnish<verbs>
+                            <translations><date>1208</date>
+				<translation>desllustrar / entelar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="2180000">tarot<nouns>
 			<translations>
 				<translation gender="m">tarot</translation>
 			</translations>
@@ -839,18 +862,29 @@
                     </translations>
                 </expressions>
 	</Entry>
+        <Entry frequency="2080000">tarry<verbs ie="true">
+                            <translations><date>1208</date>
+				<translation register="literary">fer temps / matar el temps</translation>
+			</translations>
+		</verbs>
+	</Entry>
           <Entry frequency="5090000">tartan<nouns>
                             <translations><date>1008</date>
 				<translation gender="m">tartà</translation>
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="43200000">task<nouns>
-			<translations>
+        <Entry frequency="370000000">task<nouns>
+                            <translations><date>1208</date>
 				<translation gender="f">tasca</translation>
                                 <translation gender="m">quefer</translation>
 			</translations>
 		</nouns>
+                <expressions>take (someone) to task (over something)
+                    <translations>
+                        <translation>renyar (algú) (per alguna cosa)</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="319000">taskbar<nouns>
 			<translations>
 				<translation catagory="computers" termcat="true" gender="f">barra de tasques</translation>
@@ -904,7 +938,7 @@
 				<translation gender="m">gust / sabor / tast</translation>
 			</translations>
 		</nouns>
-                </Entry><Entry frequency="3570000">tasting<nouns>
+                             </Entry><Entry frequency="3570000">tasting<nouns>
 			<translations>
 				<translation gender="m">tast</translation>
 			</translations>
@@ -972,6 +1006,11 @@
                         <translation catagory="financial" gender="m">paradís fiscal</translation>
                     </translations>
                 </expressions>
+                <expressions>tax return
+                    <translations>
+                        <translation catagory="financial" gender="f">declaració de la renda</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="116000000">taxi<nouns>
 			<translations><date>1007</date>
@@ -1032,7 +1071,7 @@
 			<past>taught</past>
 			<participle>taught</participle>
 			<translations>
-				<translation catagory="work">ensenyar<engexamp>To teach someone to do something</engexamp>
+				<translation catagory="work">ensenyar / instruir<engexamp>To teach someone to do something</engexamp>
 					<catexamp>Ensenyar a algú a fer alguna cosa</catexamp>
 				</translation>
 			</translations>
@@ -1183,7 +1222,14 @@
 				<translation>(novel·la, pel·lícula o cançó) lacrimògena<example>The film Philadelphia is a real &lt;b&gt;tear jerker&lt;/b&gt;.</example></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="4560000">tease<verbs>
+	</Entry>
+        <Entry frequency="251000">tear-stained<adjectives>
+                            <translations><date>1208</date>
+				<translation>banyat de llàgrimes</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="4560000">tease<verbs>
                             <translations><date>1007</date>
 				<translation>prendre el pèl</translation>
 			</translations>
@@ -1578,6 +1624,13 @@
                 <translations>
                 <translation>renyar algú</translation></translations></phrasalverbs>
 	</Entry>
+        <Entry frequency="3810000">telltale<adjectives>
+                            <translations><date>1208</date>
+				<translation>delator</translation>
+                                <translation>(evidence) inculpatori</translation>
+			</translations>
+		</adjectives>
+	</Entry>
         <Entry frequency="996000">tellurium<nouns>
                             <translations><date>0508</date>
 				<translation catagory="chemistry" gender="m">tel·luri / tel·lur</translation>
@@ -1703,10 +1756,12 @@
                                 <translation>atendre</translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="5790000">tendency<nouns>
-			<translations>
-				<translation gender="f">tendència<plural>tendencies</plural>
-				</translation>
+	</Entry><Entry frequency="38300000">tendency<nouns>
+                        <translations><date>1208</date>
+                            <grouptranslation>
+                                <translation gender="f">tendència / predisposició</translation>
+                                <translation gender="m">tirat<plural>tendencies</plural></translation>
+                            </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="55800000">tender<adjectives>
@@ -1913,8 +1968,8 @@
 		</adverbs>
 	</Entry>
          <Entry frequency="8470000">terrifying<adjectives>
-                            <translations><date>1008</date>
-				<translation>esgarrifós</translation>
+                            <translations><date>1208</date>
+				<translation>terrorífic / horripilant / esgarrifós</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2244,9 +2299,10 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="9090000">theatrical<adjectives>
-			<translations>
+	</Entry><Entry frequency="23600000">theatrical<adjectives>
+                            <translations><date>1208</date>
 				<translation>teatral</translation>
+                                <translation>(behaviour) histriònic</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="29800000">theft<nouns>
