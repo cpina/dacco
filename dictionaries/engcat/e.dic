@@ -1186,31 +1186,53 @@
 	</Entry>
 <Entry frequency="91400000">eight<nouns>
 			<translations>
-				<translation>vuit</translation>
+				<translation catagory="number-cardinal" gender="m">>vuit</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="2560000">eighteen<nouns>
 			<translations>
-				<translation>divuit</translation>
+				<translation catagory="number-cardinal" gender="m">divuit</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="5850000">eighteenth<adjectives>
-			<translations>
-				<translation catagory="number-ordinal">divuitè</translation>
+<Entry frequency="18100000">eighteenth<nouns>
+                            <translations><date>1208</date>
+				<translation catagory="number-ordinal" gender="mf">divuitè</translation>
 			</translations>
-		</adjectives>
+		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>divuitè</translation>
+                    </translations>
+                </adjectives>
 	</Entry>
-<Entry frequency="5220000">eighth<adjectives>
-			<translations>
-				<translation>vuitè</translation>
+<Entry frequency="39200000">eighth<nouns>
+                            <translations><date>1208</date>
+				<translation catagory="number-ordinal" gender="mf">vuitè</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>vuitè</translation>
+                    </translations>
+                </adjectives>
+	</Entry>
+        <Entry frequency="915000">eightieth<adjectives>
+                            <translations><date>1208</date>
+				<translation catagory="number-ordinal" gender="mf">vuitantè</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="m">(1/80) vuitantè</translation>
+                        </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="2880000">eighty<nouns>
 			<translations>
-				<translation>vuitanta<catnote>'The eighties' vol dir 'Els (anys) vuitanta'.  Si es parla d'una persona i es diu 'He's in his eighties', vol dir que té entre 80 i 89 anys.</catnote>
+				<translation catagory="number-cardinal">vuitanta</translation>
+                                <translation sourceplural="the eighties" gender="mpl">(anys) vuitanta<catnote>Si es parla d'una persona i es diu 'He's in his eighties', vol dir que té entre 80 i 89 anys.</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -3054,6 +3076,15 @@
 				<translation>sepultar / enterrar / inhumar</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="10400000">entourage<nouns>
+                            <translations><date>1208</date>
+                                <grouptranslation>
+                                    <translation gender="f">comitiva</translation>
+                                    <translation gender="m">seguici<synonyms>retinue</synonyms></translation>
+                                </grouptranslation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="2430000">entrails<nouns>
 			<translations>
