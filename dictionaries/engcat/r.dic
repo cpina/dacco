@@ -642,18 +642,11 @@
 			</translations>
 
 		</nouns>
-
-	</Entry>
-<Entry frequency="137000">railroad tie<nouns>
-
-			<translations>
-
-				<translation catagory="transport" local="us" gender="f">travessa<otherlocal>sleeper</otherlocal></translation>
-
-			</translations>
-
-		</nouns>
-
+                <expressions>railroad tie
+                    <translations>
+                        <translation catagory="transport" local="us" gender="f">travessa<otherlocal>sleeper</otherlocal></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="6000000">railway<nouns>
 
@@ -674,9 +667,7 @@
 
 			<translations>
 
-				<translation catagory="weather">ploure<catnote>En molts diccionaris anglesos veuràs la locució 'it's raining cats and dogs' que vol dir que plou molt fort, però, aquesta locució no és molt freqüent al parlar de cada dia.  Més habitual seria una de les expressions següents: 'it's pouring down', 'it's throwing it down', 'it's tossing it down', 'it's chucking it down' o 'it's pissing it down' (aquesta última, és clar, és una mica vulgar, però s'utilitza molt...)</catnote>
-
-				</translation>
+				<translation catagory="weather">ploure</translation>
 
 			</translations>
 
@@ -684,7 +675,7 @@
 
 		<phrasalverbs>be rained off
 			<translations>
-				<translation>ser anul·lat (un esdevinament) a causa de la pluja</translation>
+				<translation intransitive="true">ser anul·lat (un esdevinament) a causa de la pluja</translation>
 			</translations>
 		</phrasalverbs>
                 <phrasalverbs>be rained out
@@ -701,7 +692,11 @@
 			</translations>
 
 		</nouns>
-
+                <expressions>rain cats and dogs
+                    <translations>
+                        <translation>ploure a bots i barrals<catnote>Aquesta locució no se sent molt en el parlar quotidià.  Més habitual seria una de les expressions següents: 'it's pouring down', 'it's throwing it down', 'it's tossing it down', 'it's chucking it down' o 'it's pissing it down' (aquesta última, és clar, és una mica vulgar, però s'utilitza molt...).</catnote></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="5270000">rainbow<nouns>
 
@@ -8800,6 +8795,13 @@
                         <translation catagory="transport" gender="f">seguretat viària</translation>                        
                     </translations>                   
                 </expressions>
+	</Entry>
+        <Entry frequency="2160000">roadblock<nouns>
+                            <translations><date>1208</date>
+				<translation catagory="transport" gender="m">control de carretera</translation>
+                                <translation local="us" gender="m">obstacle</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="585000">roadworks<nouns>
 
