@@ -3869,46 +3869,61 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="1750000">grin<verbs double="true">
-			<translations>
-				<translation>somriure (d'orella a orella)</translation>
-			</translations>
-		</verbs>
-		<nouns>
-			<translations>
-				<translation gender="m">gran somriure / somriure (d'orella a orella)</translation>
-			</translations>
-		</nouns>
-	<phrasalverbs>grin at<translations><translation intransitive="true">somriure (ensenyant les dents) a</translation></translations></phrasalverbs></Entry>
-<Entry frequency="3250000">grind<verbs>
+        <Entry frequency="1750000">grin<verbs double="true">
+                <translations>
+                    <translation>somriure (d'orella a orella)</translation>
+                </translations>
+            </verbs>
+            <phrasalverbs>grin at
+                <translations>
+                    <translation intransitive="true">somriure (ensenyant les dents) a</translation>
+                </translations>
+            </phrasalverbs>
+            <nouns>
+                <translations>
+                    <translation gender="m">gran somriure / somriure (d'orella a orella)</translation>
+                </translations>
+            </nouns>
+        </Entry>
+        <Entry frequency="3250000">grind<verbs>
         <past>ground</past>
         <participle>ground</participle>
-			<translations>
-				<translation>moldre<engnote>'Moldre' menas 'to grind' as in 'to grind coffee'.</engnote></translation>
-                                <translation>picar<engnote>'Picar' means 'to grind' in the sense 'to grind meat' (to mince).</engnote></translation>
-                                <translation>afilar<engnote>'Afilar' means 'to grind' in the sense 'to grind a knife'.</engnote></translation>
-                                <translation>escarritxar<engnote>'Escarritxar' means 'to grind' in the sense 'to grind your teeth'. The sound made when you do this is an 'escarritx'.</engnote></translation>
-			</translations>
-		</verbs>
-                <nouns>
-                <translations>
-                <translation gender="m">rotllo / treball pesat o avorrit</translation></translations></nouns>
-	<phrasalverbs>grind out<translations><translation transitive="true">produir (una cosa) amb dificultat</translation></translations></phrasalverbs></Entry>
-<Entry frequency="3720000">grip<verbs double="true">
-			<translations>
+        <translations>
+        <translation>(coffee) moldre</translation>
+        <translation>(meat) picar</translation>
+        <translation>(knife) afilar</translation>
+        <translation>(teeth) escarritxar<engnote>The noise made when you grind your teeth is an 'escarritx'.</engnote></translation>
+        </translations>
+        </verbs>
+        <phrasalverbs>grind out
+            <translations>
+                <translation transitive="true">produir (una cosa) amb dificultat</translation>
+            </translations>
+        </phrasalverbs>
+        <nouns>
+            <translations>
+                <translation gender="m">rotllo / treball pesat o avorrit</translation>
+            </translations>
+        </nouns>
+        </Entry>
+<Entry frequency="61300000">grip<verbs double="true">
+                            <translations><date>1208</date>
 				<translation>agafar</translation>
+                                <translation>corprendre</translation>
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="6910000">gripe<verbs>
-			<translations>
-				<translation register="colloquial">queixar-se</translation>
-			</translations>
-		</verbs>
-                <nouns>
+        <Entry frequency="6910000">gripe<verbs>
                 <translations>
-                <translation register="colloquial" gender="f">queixa</translation></translations></nouns>
-	</Entry>
+                    <translation register="colloquial">queixar-se</translation>
+                </translations>
+            </verbs>
+            <nouns>
+                <translations>
+                    <translation register="colloquial" gender="f">queixa</translation>
+                </translations>
+            </nouns>
+        </Entry>
 <Entry frequency="220000">gripping<adjectives>
 			<translations>
 				<translation>fascinant / captivant</translation>
@@ -3921,28 +3936,28 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="15200000">grit<nouns>
-			<translations>
-				<translation gender="f">sorra / arena</translation>
-                                <translation gender="m">coratge (per a fer alguna cosa difícil o desagradable)</translation>
-			</translations>
-		</nouns>
-                <verbs double="true">
+        <Entry frequency="15200000">grit<nouns>
                 <translations>
-                <translation>escampar sal, sorra o grava en una carretera coberta de gel</translation>
+                    <translation gender="f">sorra / arena</translation>
+                    <translation gender="m">coratge (per a fer alguna cosa difícil o desagradable)</translation>
                 </translations>
-                </verbs>
-                <expressions>grit your teeth
+            </nouns>
+            <verbs double="true">
                 <translations>
-                <translation>prèmer fort les dents de dalt contra les de baix</translation>
+                    <translation>escampar sal, sorra o grava en una carretera coberta de gel</translation>
                 </translations>
-                </expressions>
-                <expressions>have grit
-                    <translations>
-                        <translation>tenir pebrots / tenir fetge</translation>
-                    </translations>
-                </expressions>
-	</Entry>
+            </verbs>
+            <expressions>grit your teeth
+                <translations>
+                    <translation>prèmer fort les dents de dalt contra les de baix</translation>
+                </translations>
+            </expressions>
+            <expressions>have grit
+                <translations>
+                    <translation>tenir pebrots / tenir fetge</translation>
+                </translations>
+            </expressions>
+        </Entry>
 <Entry frequency="14700000">gritty<adjectives>
 			<translations>
 				<translation>arenós / sorrenc</translation>
