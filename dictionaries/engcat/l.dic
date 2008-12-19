@@ -1898,11 +1898,16 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="5860000">lemon<nouns>
-			<translations>
+<Entry frequency="50200000">lemon<nouns>
+                            <translations><date>1208</date>
 				<translation gender="f">llimona</translation>
 			</translations>
 		</nouns>
+                <expressions>lemon tree
+                    <translations>
+                        <translation catagory="plants-tree" gender="m">llimoner</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="666000">lemonade<nouns>
 			<translations>
@@ -4405,11 +4410,8 @@
 <Entry frequency="7480000">lump<nouns>
 			<translations>
 				<translation gender="m">bony / nyanyo</translation>
-				<translation gender="m">terròs<engexamp>Sugar lump</engexamp><catexamp>Terròs de sucre</catexamp></translation>
-				<translation gender="m">grumoll
-				<engexamp>A lump in the throat</engexamp><catexamp>Un nus a la gola</catexamp>
-				<engexamp>They paid me a lump sum</engexamp><catexamp>Em van pagar tot de cop</catexamp>
-				</translation>
+				<translation gender="m">terròs</translation>
+				<translation gender="m">grumoll</translation>
 				<translation register="slang" local="gb" gender="m">babau i mandrós</translation>
 			</translations>
 		</nouns>
@@ -4418,8 +4420,26 @@
 				</translation>
 			</translations>
 		</expressions>
-                <phrasalverbs>lump (something) together<translations>
-                <translation>agrupar (indiscriminadament)</translation></translations></phrasalverbs>
+                <expressions>a lump in the throat
+                    <translations>
+                        <translation>un nus a la gola</translation>
+                    </translations>
+                </expressions>
+                <expressions>pay (someone) a lump sum
+                    <translations>
+                        <translation>pagar (algú) tot de cop</translation>
+                    </translations>
+                </expressions>
+                <expressions>sugar lump
+                    <translations>
+                        <translation catagory="food" gender="m">terròs de sucre</translation>
+                    </translations>
+                </expressions>
+                <phrasalverbs>lump (something) together
+                    <translations>
+                        <translation>agrupar (indiscriminadament)</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
 <Entry frequency="20200000">lunar<adjectives>
 			<translations>
@@ -4429,22 +4449,26 @@
 	</Entry>
 <Entry frequency="12800000">lunch<nouns>
 			<translations>
-				<translation gender="m">dinar<engexamp>To have lunch</engexamp><catexamp>Dinar</catexamp><plural>lunches</plural>
+				<translation catagory="food" gender="m">dinar<plural>lunches</plural>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>to have lunch
+                    <translations>
+                        <translation catagory="food">dinar</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="7030000">lung<nouns>
 			<translations>
-				<translation gender="m">pulmó</translation>
+				<translation catagory="body" gender="m">pulmó</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="1740000">lung cancer<nouns>
-			<translations>
-				<translation gender="m">càncer de pulmó</translation>
-			</translations>
-		</nouns>
+                <expressions>lung cancer
+                    <translations>
+                        <translation catagory="medical" gender="m">càncer de pulmó</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2640000">lure<nouns>
 			<translations>
@@ -4561,17 +4585,25 @@
 <Entry frequency="6130000">lymph<nouns>
 			<translations>
 				<translation catagory="biology" gender="f">limfa</translation>
-                                <translation catagory="biology" beforenoun="true">limfàtic<engexamp>Lymph nodes</engexamp><catexamp>Ganglis limfàtics</catexamp></translation>
+                                <translation catagory="biology" beforenoun="true">limfàtic</translation>
 			</translations>
 		</nouns>
+                <expressions>lymph nodes
+                    <translations>
+                        <translation catagory="body" gender="mpl">ganglis limfàtics</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="266000">lymphatic<adjectives>
 			<translations>
-				<translation>limfàtic<engexamp>Lymphatic system</engexamp>
-					<catexamp>Sistema limfàtic</catexamp>
-				</translation>
+				<translation>limfàtic</translation>
 			</translations>
 		</adjectives>
+                <expressions>lymphatic system
+                    <translations>
+                        <translation gender="m">sistema limfàtic</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="7370000">lymphocyte<nouns>
 			<translations>

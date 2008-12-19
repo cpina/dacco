@@ -4806,6 +4806,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="1790000">bloodstained<adjectives>
+			<translations><date>1208</date>
+				<translation>tacat de sang / ensagnat / ensangonat</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="728000">bloodsucker<nouns>
 			<translations>
 				<translation gender="f">sangonera</translation>
@@ -4818,13 +4824,19 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="3550000">bloody<adjectives>
-			<translations>
-				<translation>sagnant / cruent</translation>
-				<translation register="slang">maleït</translation>
-			</translations>
-		</adjectives>
-	</Entry>
+        <Entry frequency="3550000">bloody<adjectives>
+                <translations><date>1208</date>
+                    <translation>ensagnat / ensangonat<engnote>'Ensagnat' and 'ensangonat' mean 'bloody' in the sense 'covered in blood'.</engnote></translation>
+                    <translation register="slang">maleït</translation>
+                    <translation>cruent<engnote>'Cruent' means 'bloody' in the sense 'involving the spilling of blood' (a bloody battle, a bloody sacrifice).</engnote></translation>
+                </translations>
+            </adjectives>
+            <verbs ie="true">
+                <translations>
+                    <translation>ensagnar / ensangonar</translation>
+                </translations>
+            </verbs>
+        </Entry>
 <Entry frequency="6190000">bloom<nouns>
 			<translations>
 				<translation gender="f">flor</translation>
@@ -8264,9 +8276,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="144000000">bundle<nouns>
-			<translations>
-				<translation gender="m">feix</translation>
+<Entry frequency="46000000">bundle<nouns>
+                            <translations><date>1208</date>
+				<translation gender="m">feix / manat</translation>
 			</translations>
 		</nouns>
                 <phrasalverbs>bundle up
@@ -8275,6 +8287,11 @@
                 <translation>abrigar-se bé</translation>
                 </translations>
                 </phrasalverbs>
+                <expressions>be a bundle of nerves
+                    <translations>
+                        <translation>ésser un manat de nervis<synonyms>be a bag of nerves</synonyms></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="163000">bungee jump<nouns>
 			<translations>

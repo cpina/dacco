@@ -8,12 +8,12 @@
 		</nouns>
                 <expressions>mà de morter
                 <translations>
-                <translation gender="f">pestle</translation>
+                <translation catagory="household-room-kitchen" gender="f">pestle</translation>
                 </translations>
                 </expressions>
                 <expressions>mà d'obra
                 <translations>
-                <translation gender="f">workforce</translation>
+                <translation catagory="work" gender="f">workforce</translation>
                 </translations>
                 </expressions>
                 <expressions>a mà
@@ -131,21 +131,7 @@
 			</translations>
 		</nouns>
 	</Entry>         
-        	<Entry frequency="136">mà de morter<nouns>
-			<translations><date>0605</date>
-				<translation gender="f">pestle<plural>mans de morter</plural>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        	<Entry frequency="6370">mà d'obra<nouns>
-			<translations>
-				<translation catagory="work" gender="f">workforce<plural>mans d'obra</plural>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="328">madrastra<nouns>
+        	<Entry frequency="328">madrastra<nouns>
 			<translations>
 				<translation catagory="family" gender="f">stepmother</translation>
 			</translations>
@@ -286,18 +272,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="120000">magnètic<adjectives>
-			<translations><date>0708</date>
-				<translation>magnetic<fems>magnètica</fems><femplural>magnètiques</femplural>
-				</translation>
-			</translations>
-		</adjectives>
-<expressions>camp magnètic
-<translations>
-<translation gender="m">magnetic field</translation>
-</translations>
-</expressions>
-	</Entry>
+        <Entry frequency="120000">magnètic<adjectives>
+                <translations><date>0708</date>
+                    <translation>magnetic<fems>magnètica</fems><femplural>magnètiques</femplural>
+                    </translation>
+                </translations>
+            </adjectives>
+            <expressions>camp magnètic
+                <translations>
+                    <translation gender="m">magnetic field</translation>
+                </translations>
+            </expressions>
+        </Entry>
 	<Entry frequency="1510">magnetisme<nouns>
 			<translations>
 				<translation gender="m">magnetism</translation>
@@ -322,12 +308,12 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="43">magnetopausa<nouns>
-			<translations><date>0708</date>
-                                    <translation catagory="astronomy" gender="f">magnetopause</translation>
-			</translations>
-		</nouns>
-	</Entry>
+                   <Entry frequency="43">magnetopausa<nouns>
+                           <translations><date>0708</date>
+                               <translation catagory="astronomy" gender="f">magnetopause</translation>
+                           </translations>
+                       </nouns>
+                   </Entry>
                    <Entry frequency="52">magnetoresistència<nouns>
 			<translations><date>1007</date>
 				<translation termcat="telecom" gender="f">magnetoresistance</translation>
@@ -583,44 +569,52 @@
 		</adjectives>
 	</Entry>
 	<Entry frequency="55300">malaltia<nouns>
-			<translations>
-				<translation catagory="medical" gender="f">illness<catexamp>Malaltia degenerativa</catexamp>
-					<engexamp>Degenerative illness</engexamp>
-				</translation>
+                            <translations><date>1208</date>
+				<translation catagory="medical" gender="f">illness / disease</translation>
 			</translations>
 		</nouns>
+                <expressions>malaltia d'Addison
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">Addison's (disease)</translation>
+                    </translations>
+                </expressions>
+                <expressions>malaltia d'Alzheimer
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">Alzheimer's (disease)</translation>
+                    </translations>
+                </expressions>
+                <expressions>malaltia de Creutzfeldt-Jakob
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">Creutzfeldt-Jakob disease / CJD</translation>
+                    </translations>
+                </expressions>
+                <expressions>malaltia de Crohn
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">Crohn's (disease)</translation>
+                    </translations>
+                </expressions>
+                <expressions>malaltia degenerativa
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">degenerative illness</translation>
+                    </translations>
+                </expressions>
+                <expressions>malaltia de Hodgkin
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">Hodgkin's (disease)</translation>
+                    </translations>
+                </expressions>
+                <expressions>malaltia de Parkinson
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">Parkinson's (disease)<catexamp>La malaltia de Parkinson és un trastorn neurològic freqüent</catexamp><engexamp>Parkinson's is a common neurological disorder</engexamp></translation>
+                    </translations>
+                </expressions>
+                <expressions>malaltia mental
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">mental illness</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-          <Entry frequency="161">malaltia d'Addison<nouns>
-			<translations><date>0407</date>
-				<translation termcat="medical" gender="f">Addison's disease</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="886">malaltia d'Alzheimer<nouns>
-			<translations>
-				<translation catagory="medical-illness" gender="f">Alzheimer's (disease)</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="263">malaltia de Crohn<nouns>
-			<translations><date>0806</date>
-				<translation catagory="medical-illness" gender="f">Crohn's disease</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        	<Entry frequency="247">malaltia de Hodgkin<nouns>
-			<translations><date>1205</date>
-				<translation catagory="medical-illness" gender="f">Hodgkin's disease</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="486">malaltia de Parkinson<nouns>
-			<translations>
-				<translation catagory="medical-illness" gender="f">Parkinson's (disease)</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="26800">malaltís<adjectives>
+       <Entry frequency="26800">malaltís<adjectives>
 			<translations><date>0406</date>
 				<translation catagory="medical">sickly<fems>malaltissa</fems><plural>malaltissos</plural></translation>
 			</translations>
@@ -1021,6 +1015,22 @@
                                 <translation>to lead<synonyms>dirigir</synonyms></translation>
 			</translations>
 		</verbs>
+	</Entry>
+<Entry frequency="54500">manat<nouns>
+                            <translations><date>1208</date>
+				<translation gender="m">bundle</translation>
+			</translations>
+		</nouns>
+                <expressions>a manats
+                    <translations>
+                        <translation>in abundance</translation>
+                    </translations>
+                </expressions>
+                <expressions>ésser un manat de nervis
+                    <translations>
+                        <translation>to be a bundle (or bag) of nerves</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="170">manc<adjectives>
 			<translations>
@@ -4807,6 +4817,19 @@
 				<translation gender="m">myth</translation>
 			</translations>
 		</nouns>
+	</Entry>
+           <Entry frequency="24600">mitger<adjectives>
+                            <translations><date>1208</date>
+				<translation>central</translation>
+                                <translation>shared<catexamp>Paret mitgera</catexamp><engexamp>Party wall</engexamp></translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="m">measurement of wine equivalent to approximately 7.5 litres (or 8 'porrons')</translation>
+                        <translation gender="m / f">stocking maker / stocking seller<fems>mitgera</fems></translation>
+                    </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="700">mitges<nouns>
 			<translations>
