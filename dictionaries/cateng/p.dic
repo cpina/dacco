@@ -275,9 +275,14 @@
                                 <translation gender="m">pole</translation>
                                 <translation gender="m">stake</translation>
                                 <translation gender="m">mast</translation>
-                                <translation disambiguate="sports" gender="m">post<catexamp>Pal de la porteria</catexamp><engexamp>Goalpost</engexamp></translation>
+                                <translation disambiguate="sports" gender="m">post</translation>
                             </translations>
 		</nouns>
+                <expressions>pal de la porteria
+                    <translations>
+                        <translation catagory="sports" gender="m">goalpost</translation>
+                    </translations>
+                </expressions>
 	</Entry>       
         <Entry frequency="9080">pala<nouns>
 			<translations><date>0805</date>
@@ -946,15 +951,22 @@
 			</translations>
 		</nouns>
 	</Entry>
-          <Entry frequency="469">papista<adjectives>
-			<translations><date>1OO5</date>
-				<translation catagory="religious">papist<catexamp>Esser més papista que el Papa</catexamp><engexamp>To be overly zealous</engexamp></translation>
-			</translations>
-		</adjectives>
-                <nouns>
+        <Entry frequency="469">papista<adjectives>
+                <translations><date>1OO5</date>
+                    <translation catagory="religious">papist</translation>
+                </translations>
+            </adjectives>
+            <nouns>
                 <translations>
-                <translation catagory="religious" gender="m / f">papist</translation></translations></nouns>
-	</Entry>
+                    <translation catagory="religious" gender="m / f">papist</translation>
+                </translations>
+            </nouns>
+            <expressions>ésser més papista que el Papa
+                <translations>
+                    <translation>to be overly zealous</translation>
+                </translations>
+            </expressions>
+        </Entry>
         <Entry frequency="23">papovavirus<nouns>
 			<translations><date>1005</date>
 				<translation catagory="biology" gender="m">papovavirus</translation>
@@ -1006,9 +1018,14 @@
 	</Entry>
           <Entry frequency="73700">parabòlic<adjectives>
 			<translations><date>1006</date>
-				<translation catagory="maths">parabolic<catexamp>Antena parabòlica</catexamp><engexamp>Satellite dish</engexamp><fems>parabòlica</fems><femplural>parabòliques</femplural></translation>
+				<translation catagory="maths">parabolic<fems>parabòlica</fems><femplural>parabòliques</femplural></translation>
 			</translations>
           </adjectives>
+            <expressions>antena parabòlica
+                <translations>
+                    <translation gender="f">(satellite) dish</translation>
+                </translations>
+            </expressions>
 	</Entry>
 	<Entry frequency="1130">parabrisa<nouns>
 			<translations><date>0805</date>
@@ -1073,11 +1090,14 @@
 	</Entry>
 	<Entry frequency="6340">parador<nouns>
 			<translations><date>0605</date>
-				<translation gender="m">roadside inn
-					<catexamp>Parador nacional</catexamp><engexamp>State-run hotel</engexamp>
-				</translation>
+				<translation gender="m">roadside inn</translation>
 			</translations>
 		</nouns>
+                <expressions>parador nacional
+                    <translations>
+                        <translation gender="m">state-run hotel</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="13700">paradoxa<nouns>
 			<translations><date>0805</date>
@@ -1139,15 +1159,14 @@
 	</Entry>
 	<Entry frequency="6740">paràlisi<nouns>
 			<translations><date>0805</date>
-				<translation catagory="medical-illness" gender="f">paralysis / palsy<catexamp>Paràlisi cerebral</catexamp><engexamp>Cerebral palsy</engexamp></translation>
+				<translation catagory="medical-illness" gender="f">paralysis / palsy</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="783">paràlisi cerebral<nouns>
-			<translations><date>0805</date>
-				<translation catagory="medical-illness" gender="f">cerebral palsy</translation>
-			</translations>
-		</nouns>
+                <expressions>paràlisi cerebral
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">cerebral palsy</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="6130">paralitzat<adjectives>
 			<translations><date>0805</date>
@@ -1212,24 +1231,54 @@
 				<translation>to stop</translation>
                                 <translation>to stay<catexamp>On pares quan vas a Figueres?</catexamp><engexamp>Where are you staying / where will you be staying when you go to Figueres?</engexamp></translation>
                                 <translation>to end up<catexamp>La pilota va anar a parar al carrer</catexamp><engexamp>The ball ended up in the street</engexamp><catexamp>No sé com això ha anat a parar a parar a les seves mans</catexamp><engexamp>I don't know how that ended up in his hands / I don't know how he got ahold (Am.) / hold (Br.) of that.</engexamp><catexamp>Noi, si continues així, pararàs boig!</catexamp><engexamp>(Man!) If you go on like that you'll end up (going) crazy (Am.) / mad (Br.)</engexamp></translation>
-                                <translation>to set (up) / to pitch / to lay<catexamp>Parar la taula</catexamp><engexamp>To set the table / to lay the table</engexamp><catexamp>Parar tenda</catexamp><engexamp>To pitch / set up a tent</engexamp><catexamp>Parar una trampa</catexamp><engexamp>To set a trap</engexamp><catexamp>Parar esment / compte</catexamp><engexamp>To pay attention</engexamp></translation>
-                                <translation>to hold out<catexamp>Parar la mà</catexamp><engexamp>To hold your hand out / to beg</engexamp><catexamp>T'haig d'explicar una història increïble! Para l'orella!</catexamp><engexamp>I (simply) must tell you an incredible story! Listen (up)!</engexamp></translation>
+                                <translation>to set (up) / to pitch / to lay</translation>
+                                <translation>to hold out</translation>
 			</translations>
 		</verbs>
-                <expressions>parar atenció (a)
+                <expressions>parar atenció
                 <translations>
-                <translation>to pay attention (to)<synonyms>prestar atenció (a), parar esment (a)</synonyms></translation>
+                <translation>to pay attention</translation>
                 </translations>
                 </expressions>
-                <expressions>parar esment (a)
+                <expressions>parar compte
+                    <translations>
+                        <translation>to pay attention</translation>
+                    </translations>
+                </expressions>
+                <expressions>parar esment
                 <translations>
-                <translation>to pay attention (to)<synonyms>prestar atenció (a), parar atenció (a)</synonyms></translation>
+                <translation>to pay attention</translation>
                 </translations>
+                </expressions>
+                <expressions>parar la mà
+                    <translations>
+                        <translation>to hold your hand out / to beg</translation>
+                    </translations>
+                </expressions>
+                  <expressions>parar l'orella
+                    <translations>
+                        <translation>to listen (up)<catexamp>T'haig d'explicar una història increïble! Para l'orella!</catexamp><engexamp>I (simply) must tell you an incredible story! Listen (up)!</engexamp></translation>
+                    </translations>
                 </expressions>
                 <expressions>parar els peus a algú
                 <translations>
-                <translation>to stop someone in their tracks<example>La seva obligació era &lt;b&gt;parar els peus a&lt;/b&gt; les multinacionals i no pas pressionar els treballadors/es.</example></translation>
+                <translation>to stop somebody in their tracks<example>La seva obligació era &lt;b&gt;parar els peus a&lt;/b&gt; les multinacionals i no pas pressionar els treballadors/es.</example></translation>
                 </translations>
+                </expressions>
+                <expressions>parar la taula
+                    <translations>
+                        <translation>to set (or lay) the table</translation>
+                    </translations>
+                </expressions>
+                <expressions>parar tenda
+                    <translations>
+                        <translation>to pitch (or set up) a tent</translation>
+                    </translations>
+                </expressions>
+                <expressions>parar una trampa
+                    <translations>
+                        <translation>to set a trap</translation>
+                    </translations>
                 </expressions>
 	</Entry>
              <Entry frequency="9640">paràsit<nouns>
@@ -1400,11 +1449,14 @@
 	</Entry>
 	<Entry frequency="24800">parer<nouns>
 			<translations><date>0505</date>
-				<translation gender="m">mind / opinion
-					<catexamp>Al meu parer</catexamp><engexamp>In my opinion / from my point of view</engexamp>
-				</translation>
+				<translation gender="m">mind / opinion</translation>
 			</translations>
 		</nouns>
+                <expressions>al meu parer
+                    <translations>
+                        <translation>in my opinion / from my point of view</translation>
+                    </translations>
+                </expressions>
 	</Entry>	
         <Entry frequency="108">parèsia<nouns>
 			<translations><date>0607</date>
@@ -1721,24 +1773,32 @@
 	</Entry>
 	<Entry frequency="963000">pas<nouns>
 			<translations><date>0805</date>
-				<translation gender="m">step<catexamp>Cedir el pas</catexamp><engexamp>To give way</engexamp></translation>
-                                <translation gender="m">pace<catexamp>A pas de caragol</catexamp><engexamp>At a snail's pace</engexamp><plural>passos</plural></translation>
+				<translation gender="m">step</translation>
+                                <translation gender="m">pace<plural>passos</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>pas a nivell
+                    <translations>
+                        <translation catagory="transport">level crossing (Br.) / grade crossing (Am.)</translation>
+                    </translations>
+                </expressions>
+                <expressions>pas de vianants
+                    <translations>
+                        <translation catagory="transport" gender="m">pedestrian crossing</translation>
+                    </translations>
+                </expressions>
+                <expressions>a pas de caragol
+                    <translations>
+                        <translation>at a snail's pace</translation>
+                    </translations>
+                </expressions>
+                <expressions>cedir el pas
+                    <translations>
+                        <translation>to give way</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-	<Entry frequency="700">pas a nivell<nouns>
-			<translations><date>0805</date>
-				<translation catagory="transport">level crossing (Br.) / grade crossing (Am.)</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="4040">pas de vianants<nouns>
-			<translations><date>0805</date>
-				<translation catagory="transport" gender="m">pedestrian crossing</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        	<Entry frequency="511000">Pasqua<nouns>
+	      	<Entry frequency="511000">Pasqua<nouns>
 			<translations><date>0408</date>
 				<translation gender="f">Easter<catexamp>Pasqua jueva</catexamp><engexamp>Passover</engexamp></translation>
 			</translations>
@@ -1776,9 +1836,7 @@
 				</translation>
 				<translation>to move (on to)<example>Catalunya derrota Andorra i &lt;b&gt;passa&lt;/b&gt; a la final contra Anglaterra.</example>
 				</translation>
-				<translation>to go by<catexamp>Com passa el temps!</catexamp>
-					<engexamp>How time flies!</engexamp>
-				</translation>
+				<translation>to go by</translation>
 			</translations>
 		</verbs>
                 <expressions>passar amb (alguna cosa)
@@ -1794,6 +1852,11 @@
                  <expressions>passar-s'ho bé
                     <translations>
                         <translation>to have fun / to enjoy yourself</translation>
+                    </translations>
+                </expressions>
+                <expressions>com passa el temps
+                    <translations>
+                        <translation>how time flies</translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -1917,12 +1980,16 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="374">pasta de full<nouns>
-			<translations>
-				<translation catagory="food">puff pastry</translation>
-			</translations>
-		</nouns>
+                <expressions>pasta de dents
+                    <translations>
+                        <translation catagory="household-room-bathroom" gender="f">toothpaste</translation>
+                    </translations>
+                </expressions>
+                <expressions>pasta de full
+                    <translations>
+                        <translation catagory="food">puff pastry</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="2110">pastanaga<nouns>
 			<translations>
@@ -2035,9 +2102,14 @@
 <Entry frequency="0">paterner<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Paterna</translation></translations></nouns><adjectives><translations><translation>relating to Paterna or its people<fems>paternera</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="1890">paternitat<nouns>
 			<translations>
-				<translation gender="f">paternity<catexamp>Permís de paternitat</catexamp><engexamp>Paternity leave</engexamp></translation>
+				<translation gender="f">paternity</translation>
 			</translations>
 		</nouns>
+                <expressions>permís de paternitat
+                    <translations>
+                        <translation catagory="work" gender="m">paternity leave</translation>
+                    </translations>
+                </expressions>
 	</Entry>
            <Entry frequency="35900">patge<nouns>
 			<translations><date>0107</date>
@@ -2091,20 +2163,31 @@
 	</Entry>
 	<Entry frequency="96000">patinar<verbs conj="regular">
 			<translations><date>0708</date>
-				<translation>to skate<catexamp>Patinar sobre gel</catexamp>
-					<engexamp>To ice skate</engexamp>
-				</translation>
+				<translation>to skate</translation>
                                 <translation>to skid</translation>
 			</translations>
 		</verbs>
+                <expressions>patinar sobre gel
+                    <translations>
+                        <translation catagory="sports">to ice skate</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="375000">patinatge<nouns>
 			<translations><date>0408</date>
-				<translation catagory="sports-event" gender="m">skating<catexamp>Patinatge sobre gel</catexamp>
-					<engexamp>Ice skating</engexamp><catexamp>Patinatge artístic</catexamp><engexamp>Figure skating</engexamp>
-				</translation>
+				<translation catagory="sports-event" gender="m">skating</translation>
 			</translations>
 		</nouns>
+                <expressions>patinatge artístic
+                    <translations>
+                        <translation catagory="sports-event" gender="m">figure skating</translation>
+                    </translations>
+                </expressions>
+                <expressions>patinatge sobre gel
+                    <translations>
+                        <translation catagory="sports-event" gender="m">ice skating</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="5360">patinet<nouns>
 			<translations><date>0605</date>
@@ -2269,15 +2352,14 @@
 	</Entry>
 	<Entry frequency="7080">pausa<nouns>
 			<translations>
-				<translation gender="f">pause<catexamp>Pausa publicitària</catexamp><engexamp>Commercial break</engexamp></translation>
+				<translation gender="f">pause</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="206">pausa publicitària<nouns>
-			<translations><date>0306</date>
-				<translation gender="f">commercial break</translation>
-			</translations>
-		</nouns>
+                <expressions>pausa publicitària
+                    <translations>
+                        <translation gender="f">commercial break</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="136000">pauta<nouns>
 			<translations><date>1205</date>
@@ -6564,11 +6646,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="439000">porta<nouns>
-			<translations><date>0405</date>
-				<translation gender="f">door<catexamp>A porta tancada</catexamp><engexamp>Behind closed doors</engexamp></translation>
-			</translations>
+	<Entry frequency="3120000">porta<nouns>
+			<translations><date>1208</date>
+				<translation gender="f">door</translation>
+                                <translation gender="f">(obertura deixada en una paret) doorway</translation>
+                            </translations>
 		</nouns>
+                <expressions>a porta tancada
+                    <translations>
+                        <translation>behind closed doors</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="230">portaavions<nouns>
 			<translations>
@@ -6614,13 +6702,16 @@
 	</Entry>
 	<Entry frequency="5000000">portar<verbs conj="regular">
                             <translations><date>0508</date>
-				<translation>to take / carry / to bring<catexamp>Portar a</catexamp>
-					<engexamp>To lead to</engexamp>
-				</translation>
+				<translation>to take / carry / to bring</translation>
 				<translation catagory="clothes">to wear</translation>
                                 <translation reflexive="portar-se">to behave<example>Què &lt;b&gt;t'has portat&lt;/b&gt; bé?</example><example>&lt;b&gt;T'has portat&lt;/b&gt; malament, et castigaré.</example><catexamp>Portar-se malament</catexamp><engexamp>To misbehave</engexamp></translation>
 			</translations>
 		</verbs>
+                <expressions>portar a
+                    <translations>
+                        <translation>to lead to</translation>
+                    </translations>
+                </expressions>
                 <expressions>portar (en cotxe)
                 <translations>
                 <translation>to give somebody a lift<catexamp>Em pots portar, si us plau?</catexamp><engexamp>Could you give me a lift, please?</engexamp><catexamp>Et portarem (en cotxe) a la oficina</catexamp><engexamp>We can give you a lift to the office</engexamp></translation>
@@ -6920,14 +7011,21 @@
 			</translations>
 		</adjectives>
 	</Entry>
-        <Entry frequency="498">postpart<adjectives>
-			<translations><date>0805</date>
-				<translation catagory="medical">postnatal (Br.) / postpartum (Am.)<catexamp>Depressió postpart</catexamp><engexamp>Postnatal (Br.) / postpartum (Am.) depression</engexamp></translation>
+        <Entry frequency="20200">postpart<adjectives>
+			<translations><date>1208</date>
+				<translation catagory="medical">postnatal (Br.) / postpartum (Am.)</translation>
 			</translations>
 		</adjectives>
                 <nouns>
-                <translations>
-                <translation catagory="medical" gender="m">postnatal (Br.) / postpartum (Am.) period</translation></translations></nouns>
+                    <translations>
+                        <translation catagory="medical" gender="m">postnatal period (Br.) / postpartum period (Am.)</translation>
+                    </translations>
+                </nouns>
+                <expressions>depressió postpart
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">postnatal depression (Br.) / postpartum depression (Am.)</translation> 
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="900">postrar<verbs conj="regular">
             <translations><date>1008</date>
@@ -6989,9 +7087,14 @@
 	</Entry>
         <Entry frequency="220000">potable<adjectives>
 			<translations><date>1206</date>
-				<translation>potable (formal)<catexamp>Aigua potable</catexamp><engexamp>Drinking water / potable water (formal)</engexamp></translation>
+				<translation>potable (formal)</translation>
 			</translations>
 		</adjectives>
+                <expressions>aigua potable
+                    <translations>
+                        <translation gender="f">drinking water / (formal) potable water</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="538">potassa<nouns>
 			<translations><date>1205</date>
@@ -7078,12 +7181,14 @@
 	</Entry>
 	<Entry frequency="70000">pràctica<nouns>
 			<translations>
-				<translation gender="f">practice<plural>pràctiques</plural>
-					<catexamp>En teoria ... a la pràctica</catexamp>
-					<engexamp>In theory ... in practice</engexamp>
-				</translation>
+				<translation gender="f">practice<plural>pràctiques</plural></translation>
                                 <translation sourceplural="pràctiques" termcat="true" gender="fpl">training period</translation>
                                 <translation sourceplural="pràctiques" termcat="true" gender="fpl">internship</translation></translations></nouns>
+                                <expressions>a la pràctica
+                                    <translations>
+                                        <translation>in practice<catexamp>En teoria...a la pràctica</catexamp><engexamp>In theory...in practice</engexamp></translation>
+                                    </translations>
+                                </expressions>
 	</Entry>
         <Entry frequency="448000">pràcticament<adverbs>
 			<translations><date>0506</date>
@@ -7239,9 +7344,14 @@
 	</Entry>
         <Entry frequency="38400">precisió<nouns>
 			<translations><date>0505</date>
-				<translation gender="f">precision / accuracy<catexamp>Amb precisió</catexamp><engexamp>Accurately / precisely</engexamp></translation>
+				<translation gender="f">precision / accuracy</translation>
 			</translations>
 		</nouns>
+                <expressions>amb precisió
+                    <translations>
+                        <translation>accurately / precisely</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="5220">precoç<adjectives>
 			<translations>
@@ -7509,14 +7619,21 @@
 	</Entry>
 	<Entry frequency="88700">prendre<verbs conj="irregular6">
 			<translations>
-				<translation>to take<catexamp>Prendre una decisió</catexamp><engexamp>To take a decision</engexamp></translation>
-                                <translation>to have<catexamp>Prendre un café</catexamp><engexamp>To have a coffee</engexamp><catexamp>Prendre un entrepà</catexamp><engexamp>To have a sandwich</engexamp></translation>
+				<translation>to take</translation>
+                                <translation>to have<catexamp>Prendre un cafè</catexamp><engexamp>To have a coffee</engexamp><catexamp>Prendre un entrepà</catexamp><engexamp>To have a sandwich</engexamp></translation>
                                 <translation>to catch</translation>
 			</translations>
 		</verbs>
                 <expressions>prendre el sol
                 <translations>
-                <translation>to sunbathe</translation></translations></expressions>
+                <translation>to sunbathe</translation>
+            </translations>
+        </expressions>
+            <expressions>prendre una decisió
+                <translations>
+                    <translation>to take a decision</translation>
+                </translations>
+            </expressions>
 	</Entry>
 	<Entry frequency="24500">preocupació<nouns>
 			<translations>
@@ -7727,11 +7844,14 @@
 	</Entry>
 	<Entry frequency="4970">presoner<nouns>
 			<translations>
-				<translation gender="m / f">prisoner<catexamp>Presoner de guerra</catexamp>
-					<engexamp>Prisoner of war</engexamp>
-				</translation>
+				<translation gender="m / f">prisoner</translation>
 			</translations>
 		</nouns>
+                <expressions>presoner de guerra
+                    <translations>
+                        <translation gender="m / f">prisoner of war (POW)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="14300">pressa<nouns>
 			<translations>
@@ -7767,11 +7887,14 @@
 	</Entry>
 	<Entry frequency="35600">prestar<verbs conj="regular">
 			<translations>
-				<translation catagory="financial">to lend<catexamp>Prestar atenció a</catexamp>
-					<engexamp>To pay attention to</engexamp>
-				</translation>
+				<translation catagory="financial">to lend</translation>
 			</translations>
 		</verbs>
+                <expressions>prestar atenció a
+                    <translations>
+                        <translation>to pay attention to</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="12900">prestador<nouns>
                             <translations><date>1008</date>
@@ -7882,14 +8005,19 @@
 	</Entry>
 	<Entry frequency="18600">preventiu<adjectives>
 			<translations>
-				<translation>preventive<catexamp>Medicina preventiva</catexamp>
-					<engexamp>Preventive medicine</engexamp>
-					<catexamp>Mesura preventiva</catexamp>
-					<engexamp>Preventive measure</engexamp>
-					<fems>preventiva</fems>
-				</translation>
+				<translation>preventive<fems>preventiva</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>medicina preventiva
+                    <translations>
+                        <translation catagory="medical" gender="f">preventive medicine</translation>
+                    </translations>
+                </expressions>
+                <expressions>mesura preventiva
+                    <translations>
+                        <translation gender="f">preventive measure</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="96700">preveure<verbs conj="irregular29">
 			<translations>
@@ -7926,19 +8054,19 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="28300">prim<adjectives>
-			<translations>
-				<translation>thin / slim<catnote>La paraula 'slim' té connotacions positives. Si dius a una persona 'You are very slim' aquesta persona estarà molt contenta. 'Thin' pot ser una paraula neutral o pot tenir connotacions negatives (depén del context).</catnote>
-				</translation>
-                                <translation>first<catexamp>Matèries primes</catexamp><engexamp>Raw materials</engexamp><fems>prima</fems></translation>
-			</translations>
-		</adjectives>
-                <expressions>filar prim
-                <translations>
-                <translation>to quibble / to split hairs / to nitpick<synonyms>primfilar, subtilitzar</synonyms></translation>
-                </translations>
-                </expressions>
-	</Entry>
+                <Entry frequency="28300">prim<adjectives>
+                        <translations>
+                            <translation>thin / slim<catnote>La paraula 'slim' té connotacions positives. Si dius a una persona 'You are very slim' aquesta persona estarà molt contenta. 'Thin' pot ser una paraula neutral o pot tenir connotacions negatives (depén del context).</catnote>
+                            </translation>
+                            <translation>first<fems>prima</fems></translation>
+                        </translations>
+                    </adjectives>
+                    <expressions>filar prim
+                        <translations>
+                            <translation>to quibble / to split hairs / to nitpick<synonyms>primfilar, subtilitzar</synonyms></translation>
+                        </translations>
+                    </expressions>
+                </Entry>
                 <Entry frequency="18000">prima<nouns>
 			<translations><date>0805</date>
 				<translation gender="f">bonus</translation>
@@ -8065,10 +8193,15 @@
 	</Entry>
 	<Entry frequency="1340000">principi<nouns>
 			<translations><date>1008</date>
-				<translation gender="m">beginning / start<catexamp>Des del principi</catexamp><engexamp>From the start / from the beginning / from the word go / from the get-go</engexamp></translation>
+				<translation gender="m">beginning / start</translation>
                                 <translation gender="m">tenet / principle</translation>
 			</translations>
 		</nouns>
+                <expressions>des del principi
+                    <translations>
+                        <translation>from the start / from the beginning / from the word go / from the get-go</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="77900">principiant<nouns>
 			<translations><date>0405</date>
@@ -8170,9 +8303,14 @@
 		</prepositions>
                 <nouns>
                     <translations>
-                        <translation gender="m">pro<catexamp>Els pros i els contres</catexamp><engexamp>The pros and cons</engexamp></translation>
+                        <translation gender="m">pro</translation>
                         </translations>
                         </nouns>
+                        <expressions>els pros i els contres
+                            <translations>
+                                <translation>the pros and cons</translation>
+                            </translations>
+                        </expressions>
 	</Entry>
         <Entry frequency="28500">proa<nouns>
 			<translations><date>0605</date>
@@ -8249,11 +8387,14 @@
 	</Entry>
 	<Entry frequency="8650">processador<nouns>
 			<translations>
-				<translation gender="m">processor<catexamp>Processador de textos</catexamp>
-					<engexamp>Word processor</engexamp>
-				</translation>
+				<translation catagory="computers" gender="m">processor</translation>
 			</translations>
 		</nouns>
+                <expressions>processador de textos
+                    <translations>
+                        <translation catagory="computers" gender="m">word processor</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="8020">processar<verbs conj="regular">
 			<translations>
@@ -8739,11 +8880,7 @@
 	<Entry frequency="36400">pronunciar<verbs conj="irregular1">
 			<translations><date>0705</date>
 				<translation>to pronounce</translation>
-				<translation>to give<catexamp>Pronunciar una conferència</catexamp>
-					<engexamp>To give a lecture</engexamp>
-					<catexamp>Pronunciar un discurs</catexamp>
-					<engexamp>To give a talk / speech</engexamp>
-				</translation>
+				<translation>(discurs, conferència..) to give</translation>
 				<translation>to pass sentence</translation>
 				<translation>to speak out<catexamp>Pronunciar-se sobre alguna cosa</catexamp>
 					<engexamp>To speak out about / to speak publically about something</engexamp>
@@ -8754,23 +8891,33 @@
 				</translation>
 			</translations>
 		</verbs>
-	</Entry>
-	<Entry frequency="522000">prop<adverbs>
-            <translations><date>0408</date>
-                <translation>near</translation>
-                    </translations>
+              	</Entry>
+                <Entry frequency="522000">prop<adverbs>
+                        <translations><date>0408</date>
+                            <translation>near</translation>
+                        </translations>
                     </adverbs>
                     <prepositions>
-			<translations>
-				<translation>near<catexamp>A prop de</catexamp>
-					<engexamp>Near (to)</engexamp>
-                                        <catexamp>A prop</catexamp><engexamp>Near / close</engexamp>
-					<catexamp>Prop de</catexamp>
-					<engexamp>Nearly / almost / close on (or to)</engexamp>
-				</translation>
-			</translations>
-		</prepositions>
-	</Entry>
+                        <translations>
+                            <translation>near</translation>
+                        </translations>
+                    </prepositions>
+                    <expressions>prop de
+                        <translations>
+                            <translation>nearly / almost / close on / close to</translation>
+                        </translations>
+                    </expressions>
+                    <expressions>a prop
+                        <translations>
+                            <translation>near / close</translation>
+                        </translations>
+                    </expressions>
+                    <expressions>a prop de
+                        <translations>
+                            <translation>near (to)</translation>
+                        </translations>
+                    </expressions>
+                </Entry>
                 <Entry frequency="7430">propagació<nouns>
 			<translations><date>0305</date>
 				<translation gender="f">propagation</translation>
@@ -8826,10 +8973,15 @@
 	</Entry>
 	<Entry frequency="1090000">propietat<nouns>
 			<translations><date>0408</date>
-				<translation gender="f">property / ownership<catexamp>Programari de propietat</catexamp><engexamp>Proprietary / commercial software</engexamp></translation>
+				<translation gender="f">property / ownership</translation>
                                 <translation gender="f">estate</translation>
 			</translations>
 		</nouns>
+                <expressions>programari de propietat
+                    <translations>
+                        <translation catagory="computers" gender="m">proprietary (or commercial) software</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="3680">propina<nouns>
 			<translations><date>0705</date>
@@ -9083,10 +9235,15 @@
 	</Entry>
 	<Entry frequency="327000">prova<nouns>
 			<translations><date>0705</date>
-				<translation gender="f">test<catexamp>(Període) de proves</catexamp><engexamp>Probationary (period)</engexamp></translation>
+				<translation gender="f">test</translation>
 				<translation gender="f">proof / evidence</translation>
 			</translations>
 		</nouns>
+                <expressions>període de proves
+                    <translations>
+                        <translation gender="m">probationary period</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="80000">provar<verbs conj="regular">
 			<translations><date>0705</date>
@@ -9346,11 +9503,11 @@
 	</Entry>
 	<Entry frequency="21400">publicitari<adjectives>
 			<translations>
-				<translation>advertising<catexamp>Pausa publicitària</catexamp><engexamp>Commercial break</engexamp><fems>publicitària</fems>
+				<translation>advertising<fems>publicitària</fems>
 				</translation>
 			</translations>
 		</adjectives>
-	</Entry>
+              	</Entry>
 	<Entry frequency="80300">publicitat<nouns>
 			<translations>
 				<translation gender="f">advertising</translation>
@@ -9492,35 +9649,80 @@
   </Entry>
         <Entry frequency="3220">punció<nouns>
 			<translations><date>0408</date>
-				<translation disambiguate="medical" gender="f">puncture<catexamp>Punció lumbar</catexamp><engexamp>Lumbar puncture</engexamp><plural>puncions</plural></translation>
+				<translation disambiguate="medical" gender="f">puncture<plural>puncions</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>punció lumbar
+                    <translations>
+                        <translation catagory="medical" gender="f">lumbar puncture</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="553000">punt<nouns>
                             <translations><date>0508</date>
 				<translation gender="m">point</translation>
-                                <translation catagory="linguistics" gender="m">full stop (Br.) / period (Am.)<catexamp>Punt i coma</catexamp><engexamp>Semi colon</engexamp><catexamp>Dos punts</catexamp><engexamp>Colon</engexamp><catexamp>Punts suspensius</catexamp><engexamp>Ellipsis</engexamp></translation>
-                                <translation gender="m">dot<catexamp>Punt volat</catexamp><engexamp>Middle dot</engexamp></translation>
+                                <translation catagory="linguistics" gender="m">full stop (Br.) / period (Am.)</translation>
+                                <translation gender="m">dot</translation>
                             </translations>
 		</nouns>
+                     <expressions>punt de control
+                         <translations>
+                             <translation gender="m">checkpoint</translation>
+                         </translations>
+                     </expressions>
                      <expressions>punt d'ebullició
                     <translations>
-                        <translation>boiling point</translation>
+                        <translation gender="m">boiling point</translation>
+                    </translations>
+                </expressions>
+                <expressions>punt de fusió
+                    <translations>
+                        <translation gender="m">melting point</translation>
+                    </translations>
+                </expressions>
+                <expressions>punt de ruptura
+                    <translations>
+                        <translation catagory="computers-programming" termcat="true" gender="m">breakpoint</translation>
                     </translations>
                 </expressions>
                 <expressions>punt de venda
                     <translations>
-                        <translation>point of sale</translation>
+                        <translation gender="m">point of sale<catexamp>Terminal punt de venda (TPV)</catexamp><engexamp>Point of sale terminal / POS terminal</engexamp></translation>
                     </translations>
                 </expressions>
                 <expressions>punt de vista
                     <translations>
-                        <translation>point of view</translation>
+                        <translation gender="m">point of view</translation>
                     </translations>
                 </expressions>
                 <expressions>punt final
                     <translations>
-                        <translation>the very end</translation>
+                        <translation gender="m">the very end</translation>
+                    </translations>
+                </expressions>
+                <expressions>punt G
+                    <translations>
+                        <translation gender="m">G spot</translation>
+                    </translations>
+                </expressions>
+                <expressions>punt i coma
+                    <translations>
+                        <translation gender="m">semi colon</translation>
+                    </translations>
+                </expressions>
+                <expressions>punts suspensius
+                    <translations>
+                        <translation>ellipsis</translation>
+                    </translations>
+                </expressions>
+                <expressions>punt volat
+                    <translations>
+                        <translation gender="m">middle dot</translation>
+                    </translations>
+                </expressions>
+                <expressions>dos punts
+                    <translations>
+                        <translation>colon</translation>
                     </translations>
                 </expressions>
                 <expressions>en punt
@@ -9528,7 +9730,7 @@
                         <translation>on the dot</translation>
                     </translations>
                 </expressions>
-                <expressions>...i punt
+                <expressions>i punt
                     <translations>
                         <translation>full stop (Br.) / period (Am.) / end of story</translation>
                     </translations>
@@ -9557,43 +9759,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="17600">punt de control<nouns>
-			<translations><date>0806</date>
-				<translation gender="m">checkpoint</translation>
-			</translations>
-		</nouns>
-	</Entry>
-                <Entry frequency="441">punt d'ebullició<nouns>
-			<translations><date>0805</date>
-				<translation gender="m">boiling point</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="633">punt de fusió<nouns>
-			<translations><date>0307</date>
-				<translation gender="m">melting point</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="1200">punt de ruptura<nouns>
-                             <translations><date>1107</date>
-                                 <translation catagory="computers-programming" termcat="true" gender="m">breakpoint</translation>
-                        </translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="37300">punt de venda<nouns>
-			<translations><date>1205</date>
-				<translation gender="m">point of sale<catexamp>Terminal punt de venda (TPV)</catexamp><engexamp>Point of sale terminal / POS terminal</engexamp></translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="60500">punt de vista<nouns>
-			<translations>
-				<translation gender="m">point of view</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="2860">punter<nouns>
+      	<Entry frequency="2860">punter<nouns>
 			<translations>
 				<translation catagory="computers" termcat="true" gender="m">pointer<synonyms>busca</synonyms></translation>
 			</translations>
@@ -9618,18 +9784,17 @@
                 </translations>
                 </expressions>
 	</Entry>
-        <Entry frequency="1670">punt G<nouns>
-			<translations><date>1007</date>
-				<translation gender="m">G spot</translation>
-			</translations>
-		</nouns>
-	</Entry>
          <Entry frequency="439000">puntuació<nouns>
 			<translations><date>0807</date>
-				<translation disambiguate="linguistics" gender="f">punctuation<catexamp>Signe de puntuació</catexamp><engexamp>Punctuation mark</engexamp></translation>
+				<translation disambiguate="linguistics" gender="f">punctuation</translation>
                                 <translation gender="f">score<plural>puntuacions</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>signe de puntuació
+                    <translations>
+                        <translation catagory="m">punctuation mark</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="890000">puntual<adjectives>
 			<translations><date>0408</date>
@@ -9675,22 +9840,26 @@
 	<Entry frequency="827">punxada<nouns>
 			<translations>
 				<translation catagory="transport" gender="f">puncture / flat</translation>
-				<translation catagory="medical" gender="f">jab<catexamp>Punxada accidental</catexamp>
-					<engexamp>Needle stick (injury)</engexamp>
-				</translation>
+				<translation catagory="medical" gender="f">jab</translation>
 			</translations>
 		</nouns>
+                <expressions>punxada accidental
+                    <translations>
+                        <translation disambiguate="medical" gender="f">needle stick (injury)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="7490">punxar<verbs conj="regular">
 			<translations><date>0405</date>
-				<translation>to prick</translation>
-                                <translation>to burst / to pop</translation>
-                                <translation catagory="medical" register="colloquial">to give somebody an injection / to inject<catexamp>Injectar-se (droga)</catexamp><engexamp>To inject (drugs)</engexamp></translation>
-                                <translation>to get a puncture / to get a flat tyre (Br.) / tire (Am.)<example>Hem &lt;b&gt;punxat&lt;/b&gt; a mitja collada de Toses.</example></translation>
-                                <translation>to bug / to tap</translation>
-                                <translation>to play<engnote>'Punxar' means 'to play' in the sense 'to play a record'.</engnote></translation>
-                                <translation>to egg somebody on / to needle</translation>
+				<translation transitive="true">to prick</translation>
+                                <translation transitive="true">to burst / to pop</translation>
+                                <translation catagory="medical" register="colloquial" transitive="true">to give somebody an injection / to inject</translation>
+                                <translation intransitive="true">to get a puncture / to get a flat tyre (Br.) / tire (Am.)<example>Hem &lt;b&gt;punxat&lt;/b&gt; a mitja collada de Toses.</example></translation>
+                                <translation transitive="true">to bug / to tap</translation>
+                                <translation>(disc, cinta..) to play<engnote>'Punxar' means 'to play' in the sense 'to play a record (or a tape)'.</engnote></translation>
+                                <translation transitive="true">to egg somebody on / to needle</translation>
                                 <translation>to prickle</translation>
+                                <translation reflexive="punxar-se">to shoot up / to inject (drugs)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -9735,7 +9904,7 @@
 	</Entry>
         <Entry frequency="23100">punyeter<adjectives>
 			<translations><date>0406</date>
-				<translation>bloody / damned<engnote>Unlike the English translations, 'punyeter' can be used as an adjective or a noun, but not as an adverb</engnote><catexamp>Com que ningú em fa punyeter cas...</catexamp><engexamp>Since nobody pays me any bloody attention</engexamp><fems>punyetera</fems></translation>
+				<translation>bloody / damned<engnote>Unlike the English translations, 'punyeter' can be used as an adjective or a noun, but not as an adverb</engnote><catexamp>Com que ningú em fa punyeter cas...</catexamp><engexamp>Since nobody pays me any bloody attention...</engexamp><fems>punyetera</fems></translation>
 			<translation>clever / cunning<example>Roger Gutiérrez es el fill periodista de l'Àngels. Divertit, llest, &lt;b&gt;punyeter&lt;/b&gt;, irònic, despistat, atractiu i amb molt encant personal...</example></translation>
                                 </translations>
 		</adjectives>

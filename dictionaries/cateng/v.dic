@@ -1336,9 +1336,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="10600">vessar<verbs conj="regular">
-			<translations><date>0305</date>
-				<translation>to spill<example>Va omplir massa el dipòsit del cotxe i a les corbes li &lt;b&gt;vessava&lt;/b&gt;.</example></translation>
+        <Entry frequency="43900">vessar<verbs conj="regular">
+			<translations><date>1208</date>
+				<translation intransitive="true">to spill<example>Va omplir massa el dipòsit del cotxe i a les corbes li &lt;b&gt;vessava&lt;/b&gt;.</example></translation>
+                                <translation transitive="true">to spill</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2886,16 +2887,24 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="52600">vora<nouns>
-			<translations><date>0305</date>
-				<translation gender="f">edge / side
-					<catexamp>A la vora</catexamp><engexamp>Near</engexamp>
-					<catexamp>A la vora del mar</catexamp><engexamp>At the seaside</engexamp>
-				</translation>
+        <Entry frequency="179000">vora<nouns>
+			<translations><date>1208</date>
+				<translation gender="f">edge / side</translation>
+                                <translation gender="f">(gos, tassa..) brim</translation>
                                 <translation gender="f">(river)bank</translation>
-				<translation gender="f">hem</translation>
+				<translation gender="f">(roba) hem</translation>
 			</translations>
 		</nouns>
+                <expressions>a la vora
+                    <translations>
+                        <translation>near</translation>
+                    </translations>
+                </expressions>
+                <expressions>a la vora del mar
+                    <translations>
+                        <translation>at the seaside</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="682">voraç<adjectives>
 			<translations><date>0706</date>
@@ -2937,7 +2946,7 @@
 	</Entry>
 	<Entry frequency="25100">vosaltres<pronouns>
 			<translations>
-				<translation>you<engnote>'Vosaltres' is the singular, familiar form of 'you'.</engnote></translation>
+				<translation>you<engnote>'Vosaltres' is the plural, familiar form of 'you'.</engnote></translation>
 			</translations>
 		</pronouns>
 	</Entry>
