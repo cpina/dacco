@@ -178,7 +178,7 @@
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="expressions">
-		<xsl:if test="count(translations/translation[@noteng='TRUE'])>0">
+		<xsl:if test="count(translations/translation[@noteng='TRUE'])=0 or count(/translations/translation[@noteng='TRUE'])!=count(translations/translation)">
 			<br/>
 			<span class="pos"> expr </span>
 			<span class="phr">
