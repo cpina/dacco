@@ -975,7 +975,7 @@
 	</Entry>
 	<Entry frequency="290">lladrar<verbs conj="regular">
 			<translations>
-				<translation>to bark</translation>
+				<translation catagory="animal">to bark</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -995,6 +995,13 @@
 	<Entry frequency="467">lladregot<nouns>
 			<translations>
 				<translation gender="m / f">petty thief<fems>lladregota</fems></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="1440">lladronici<nouns>
+                            <translations><date>1208</date>
+				<translation gender="m">theft / larceny (Am.)</translation>
+                                <translation gender="m">(series of) thefts<example>És fàcil deduir el volum del &lt;b&gt;lladronici&lt;/b&gt; comès durant els anys del seu govern.</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2321,21 +2328,33 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="61900">llum<nouns>
-			<translations>
+	<Entry frequency="2030000">llum<nouns>
+			<translations><date>1208</date>
 				<translation catagory="household" gender="f">light / lamp</translation>
 			</translations>
 		</nouns>
                 <expressions>llum antiboira
                 <translations>
-                <translation>fog light</translation>
+                <translation catagory="transports" gender="f">fog light</translation>
                 </translations>
+                </expressions>
+                <expressions>llum d'oli
+                    <translations>
+                        <translation gender="f">oil lamp<synonyms>llumenera</synonyms></translation>
+                    </translations>
                 </expressions>
                 <expressions>Segle de les Llums
                 <translations>
                 <translation gender="m">The Age of Enlightenment</translation>
                 </translations>
                 </expressions>
+	</Entry>
+                <Entry frequency="67300">llumenera<nouns>
+                            <translations><date>1208</date>
+                            <translation gender="f">oil lamp<synonyms>llum d'oli</synonyms></translation>
+				<translation gender="f">(fig.) luminary</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="28200">llumí<nouns>
 			<translations><date>0907</date>

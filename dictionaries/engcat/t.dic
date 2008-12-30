@@ -738,9 +738,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="8300000">tantrum<nouns>
-			<translations>
-				<translation gender="f">rebequeria<synonyms>paddy, hissy fit</synonyms></translation>
+        <Entry frequency="3110000">tantrum<nouns>
+                            <translations><date>1208</date>
+				<translation gender="f">marraneria / rabiola / enrabiada<synonyms>paddy, hissy fit</synonyms></translation>
 			</translations>
 		</nouns>
 </Entry><Entry frequency="5780000">Tanzania<nouns>
@@ -3303,7 +3303,7 @@
                 </adjectives>
 	</Entry><Entry frequency="153000000">tie<nouns>
                             <translations><date>1007</date>
-				<translation catagory="clothes" gender="f">corbata</translation>
+				<translation disambiguate="clothes" gender="f">corbata</translation>
 				<translation catagory="sports" gender="m">empat</translation>
 				<translation gender="m">lligam</translation>
 			</translations>
@@ -3352,7 +3352,26 @@
                         <translation intransitive="true">estar ocupat<example>I'm sorry but I'm a bit &lt;b&gt;tied up&lt;/b&gt; at the moment, could I call you back later?</example></translation>
                     </translations>
                 </phrasalverbs>
-	</Entry><Entry frequency="7790000">tiger<nouns>
+	</Entry>
+                <Entry frequency="57300000">tier<nouns>
+                            <translations><date>1208</date>
+				<translation gender="f">fila</translation>
+                                <translation gender="m">(cake) pis</translation>
+                                <translation gender="m">nivell</translation>
+			</translations>
+		</nouns>
+                <expressions>top-tier
+                    <translations>
+                        <translation>de primera categoria</translation>
+                    </translations>
+                </expressions>
+                <expressions>two-tier
+                    <translations>
+                        <translation>de dos nivells / dual</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="7790000">tiger<nouns>
 			<translations>
 				<translation catagory="animal-animal" gender="m">tigre<engexamp>Female tiger</engexamp><catexamp>Tigressa</catexamp></translation>
 			</translations>
@@ -6648,6 +6667,21 @@
                 <translation register="dated">anar a dormir<synonyms>go to bed</synonyms></translation>
                 </translations>
                 </phrasalverbs>
+                <phrasalverbs>turn (somebody) in
+                    <translations>
+                        <translation register="colloquial">delatar</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>turn (something) in
+                    <translations>
+                        <translation local="us">entregar<example>Phil hasn't &lt;b&gt;turned in&lt;/b&gt; his homework yet.</example><otherlocal>hand in</otherlocal></translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>turn (yourself) in
+                    <translations>
+                        <translation>lliurar-se / entregar-se</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>turn inside out
                     <translations>
                         <translation transitive="true">girar (al revés)</translation>
@@ -6989,11 +7023,6 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="400000">two-tier<adjectives>
-			<translations>
-				<translation>dual</translation>
-			</translations>
-		</adjectives>
 	</Entry><Entry frequency="7000000">tycoon<nouns>
 			<translations>
 				<translation gender="m">magnat<synonyms>magnate</synonyms></translation>

@@ -1950,13 +1950,18 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="253000000">case<nouns>
-        <translations>
-            <translation gender="m">cas</translation>
-            <translation gender="f">maleta<engnote>'Maleta' means 'case' as in 'suitcase'.</engnote><synonyms>suitcase</synonyms></translation>
-            <translation gender="m">estoig<engnote>'Estoig' means a small 'case' such as a pencil case or a jewellery case.</engnote></translation>
-        </translations>
-    </nouns>
+    <Entry frequency="1150000000">case<nouns>
+            <translations><date>1208</date>
+                <translation gender="m">cas</translation>
+                <translation gender="f">maleta<engnote>'Maleta' means 'case' as in 'suitcase'.</engnote><synonyms>suitcase</synonyms></translation>
+                <translation gender="m">estoig<engnote>'Estoig' means a small 'case' such as a pencil case or a jewellery case.</engnote></translation>
+            </translations>
+        </nouns>
+        <expressions>in any case
+            <translations>
+                <translation>en tot cas</translation>
+            </translations>
+        </expressions>
         <expressions>just in case
             <translations>
                 <translation>per si de cas</translation>
@@ -3342,7 +3347,7 @@
                 <translation gender="m">canal</translation></grouptranslation>
         </translations>
     </nouns>
-        <verbs>
+        <verbs double="true">
         <translations>
         <translation>canalitzar</translation></translations></verbs>
     </Entry>
@@ -6633,33 +6638,36 @@
     </Entry>
 <Entry frequency="4250000">cod<nouns>
         <translations>
-            <translation gender="m">bacallà</translation>
+            <translation catagory="animal-fish, food-fish" gender="m">bacallà</translation>
         </translations>
     </nouns>
+    </Entry>
+    <Entry frequency="554000">coddle<verbs>
+            <translations><date>1208</date>
+                <translation>aviciar</translation>
+            </translations>
+        </verbs>
     </Entry>
 <Entry frequency="128000000">code<nouns>
         <translations>
             <translation termcat="true" gender="m">codi</translation>
         </translations>
     </nouns>
-    </Entry>
-<Entry frequency="1640000">code division multiple access<nouns>
-        <translations>
-            <translation disambiguate="computers" termcat="true" gender="m">accés múltiple per divisió de codi</translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="2070000">code of conduct<nouns>
-        <translations>
-            <translation gender="m">codi de conducta</translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="1580000">code of ethics<nouns>
-        <translations>
-            <translation gender="m">codi ètic</translation>
-        </translations>
-    </nouns>
+        <expressions>code division multiple access
+            <translations>
+                <translation disambiguate="computers" termcat="true" gender="m">accés múltiple per divisió de codi</translation>
+            </translations>
+        </expressions>
+        <expressions>code of conduct
+            <translations>
+                <translation gender="m">codi de conducta</translation>
+            </translations>
+        </expressions>
+        <expressions>code of ethics
+            <translations>
+                <translation gender="m">codi ètic</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="1240000">codify<verbs ie="true">
         <translations>
