@@ -1646,12 +1646,21 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="6320">Ginebra<nouns>
-			<translations>
-				<translation disambiguate="city-europe-switzerland" gender="f">Geneva<catexamp>Convenció de Ginebra</catexamp>
-					<engexamp>Geneva Convention</engexamp>
-				</translation>
-				<translation disambiguate="food-drink" gender="f">gin</translation>
+        <Entry frequency="6320">Ginebra<nouns>
+                <translations>
+                    <translation disambiguate="city-europe-switzerland" gender="f">Geneva</translation>
+                    <translation disambiguate="food-drink" gender="f">gin</translation>
+                </translations>
+            </nouns>
+            <expressions>Convenció de Ginebra
+                <translations>
+                    <translation catagory="politics" gender="f">Geneva Convention</translation>
+                </translations>
+            </expressions>
+        </Entry>
+        <Entry frequency="38200">ginebre<nouns>
+                            <translations><date>1208</date>
+				<translation catagory="plants" gender="m">juniper (juniperis communis)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1863,9 +1872,14 @@
 	</Entry>
          <Entry frequency="136">glicèmic<adjectives>
 			<translations><date>0408</date>
-				<translation>glycemic / glycaemic<catexamp>Index glicèmic</catexamp><engexamp>Glycemic (o glycaemic) index</engexamp><engnote>Also written glucèmic</engnote><fems>glicèmica</fems><femplural>glicèmiques</femplural></translation>
+				<translation>glycemic / glycaemic<engnote>Also written glucèmic</engnote><fems>glicèmica</fems><femplural>glicèmiques</femplural></translation>
 			</translations>
 		</adjectives>
+                <expressions>índex glicèmic
+                    <translations>
+                        <translation catagory="medical" gender="m">glycemic (o glycaemic) index</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="341">glicerina<nouns>
 			<translations>
@@ -1894,9 +1908,19 @@
 	</Entry>
         <Entry frequency="459">glòbul<nouns>
 			<translations><date>0405</date>
-				<translation gender="m">globule<catexamp>Glòbul vermell</catexamp><engexamp>Red blood cell</engexamp><catexamp>Glòbul blanc</catexamp><engexamp>White blood cell</engexamp></translation>
+				<translation gender="m">globule</translation>
 			</translations>
 		</nouns>
+                <expressions>glòbul blanc
+                    <translations>
+                        <translation catagory="body" gender="m">white blood cell</translation>
+                    </translations>
+                </expressions>
+                <expressions>glòbul vermell
+                    <translations>
+                        <translation catagory="body" gender="m">red blood cell</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="216">glòbul blanc<nouns>
 			<translations><date>1205</date>
@@ -1982,9 +2006,14 @@
 	</Entry>
          <Entry frequency="681">glucèmic<adjectives>
 			<translations><date>0408</date>
-				<translation>glycemic / glycaemic<catexamp>Index glucèmic</catexamp><engexamp>Glycemic (o glycaemic) index</engexamp><engnote>Also written glicèmic</engnote><fems>glucèmica</fems><femplural>glucèmiques</femplural></translation>
+				<translation>glycemic / glycaemic<engnote>Also written glicèmic</engnote><fems>glucèmica</fems><femplural>glucèmiques</femplural></translation>
 			</translations>
 		</adjectives>
+                <expressions>índex glucèmic
+                    <translations>
+                        <translation catagory="medical" gender="m">glycemic (o glycaemic) index</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="4240">glúcid<nouns>
 			<translations><date>0505</date>
@@ -2000,11 +2029,14 @@
 	</Entry>
 	<Entry frequency="509">gluten<nouns>
 			<translations>
-				<translation catagory="food" gender="m">gluten<catexamp>Sense gluten</catexamp>
-					<engexamp>Gluten-free</engexamp>
-				</translation>
+				<translation catagory="food" gender="m">gluten</translation>
 			</translations>
 		</nouns>
+                <expressions>sense gluten
+                    <translations>
+                        <translation catagory="food">gluten-free</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="156">GNC<catacro>Gas Natural Comprimit</catacro>
 			<acronyms><translations><date>0307</date>
@@ -2084,21 +2116,24 @@
 	<Entry frequency="18000">golf<nouns>
 			<translations>
 				<translation catagory="sports-event" gender="m">golf</translation>
-				<translation gender="m">gulf<catexamp>Golf Pèrsic</catexamp>
-					<engexamp>Persian Gulf</engexamp>
-					<catexamp>Golf de Mèxic</catexamp>
-					<engexamp>Gulf of Mexico</engexamp>
-					<catexamp>Guerra del Golf</catexamp>
-					<engexamp>Gulf War</engexamp>
-				</translation>
+				<translation gender="m">gulf</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        	<Entry frequency="363">Golf de Mèxic<nouns>
-			<translations><date>0805</date>
-				<translation catagory="geography" gender="m">Gulf of Mexico</translation>
-			</translations>
-		</nouns>
+                <expressions>Golf de Mèxic
+                    <translations>
+                        <translation catagory="geography" gender="m">Gulf of Mexico</translation>
+                    </translations>
+                </expressions>
+                <expressions>Golf Pèrsic
+                    <translations>
+                        <translation catagory="geography" gender="m">Persian Gulf</translation>
+                    </translations>
+                </expressions>
+                <expressions>guerra del Golf
+                    <translations>
+                        <translation gender="f">Gulf War</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="5610">golfes<nouns>
 			<translations><date>0705</date>
@@ -2302,9 +2337,14 @@
 	</Entry>
         <Entry frequency="14400">governamental<adjectives>
 			<translations>
-				<translation catagory="politics">governmental / government<catexamp>Organitzacions no governamentals</catexamp><engexamp>Non-governmental organizations (Am.) / organisations (Br.)</engexamp><catexamp>Segons fonts governamentals...</catexamp><engexamp>According to government sources...</engexamp></translation>
+				<translation catagory="politics">governmental / government<catexamp>Segons fonts governamentals...</catexamp><engexamp>According to government sources...</engexamp></translation>
 			</translations>
 		</adjectives>
+                <expressions>organització no governamental
+                    <translations>
+                        <translation gender="f">non-governmental organization / non-governmental organisation (Br.) / NGO</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="15400">governar<verbs conj="regular">
 			<translations>
@@ -2312,27 +2352,42 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="231000">GPS<catacro>Sistema de Posicionament Global</catacro>
-		<nouns>
-			<translations><date>0408</date>
-				<translation catagory="geography" gender="m">GPS<engacro>Global Positioning System</engacro><catexamp>Aparell de GPS</catexamp><engexamp>GPS unit (or device)</engexamp>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="14000">gra<nouns>
-			<translations>
-				<translation gender="m">grain</translation>
-                                <translation gender="m">spot / pimple</translation>
-                                <translation gender="m">bean<catexamp>Gra de cafè</catexamp><engexamp>Coffee bean</engexamp></translation>
-                                <translation gender="m">clove<catexamp>Un gra d'all</catexamp><engexamp>A clove of garlic</engexamp></translation>
-                                <translation gender="m">bead<plural>grans</plural></translation>
-			</translations>
-		</nouns>
-                <expressions>anar al gra
+        <Entry frequency="231000">GPS<catacro>Sistema de Posicionament Global</catacro>
+            <nouns><translations><date>0408</date>
+                    <translation catagory="geography" gender="m">GPS<engacro>Global Positioning System</engacro></translation>
+                </translations>
+            </nouns>
+            <expressions>aparell de GPS
                 <translations>
-                <translation>to get straight to the point / to cut to the chase</translation></translations></expressions>
-	</Entry>
+                    <translation gender="m">GPS unit / GPS device</translation>
+                </translations>
+            </expressions>
+        </Entry>
+        <Entry frequency="14000">gra<nouns>
+                <translations>
+                    <translation gender="m">grain</translation>
+                    <translation gender="m">spot / pimple</translation>
+                    <translation gender="m">bean</translation>
+                    <translation gender="m">clove</translation>
+                    <translation gender="m">bead<plural>grans</plural></translation>
+                </translations>
+            </nouns>
+            <expressions>gra d'all
+                <translations>
+                    <translation catagory="food" gender="m">clove of garlic</translation>
+                </translations>
+            </expressions>
+            <expressions>gra de cafè
+                <translations>
+                    <translation catagory="food" gender="m">coffee bean</translation>
+                </translations>
+            </expressions>
+            <expressions>anar al gra
+                <translations>
+                    <translation>to get straight to the point / to cut to the chase</translation>
+                </translations>
+            </expressions>
+        </Entry>
         <Entry frequency="1440">gràcia<nouns>
 			<translations><date>0206</date>
 				<translation gender="f">grace</translation>
@@ -2340,13 +2395,18 @@
                                 <translation gender="f">style</translation>
                                 <translation gender="f">wit</translation>
                                 <translation gender="f">fun</translation>
-                                <translation sourceplural="gràcies" gender="fpl">thanks<catexamp>Donar-li les gràcies a algú</catexamp><engexamp>To thank someone</engexamp></translation>
+                                <translation sourceplural="gràcies" gender="fpl">thanks</translation>
 			</translations>
 		</nouns>
                 <expressions>cop de gràcia
                 <translations>
                 <translation gender="m">coup de grâce</translation>
                 </translations>
+                </expressions>
+                <expressions>donar les gràcies a
+                    <translations>
+                        <translation>to thank</translation>
+                    </translations>
                 </expressions>
                 <expressions>no fer gràcia
                 <translations>
@@ -2410,9 +2470,14 @@
 		</nouns>
                 <adjectives>
                 <translations>
-                <translation>graphic / graphical<fems>gràfica</fems><femplural>gràfiques</femplural><catexamp>Interfície gràfica d'usuari</catexamp><engexamp>Graphical user interface (GUI)</engexamp></translation>
+                <translation>graphic / graphical<fems>gràfica</fems><femplural>gràfiques</femplural></translation>
                 </translations>
                 </adjectives>
+                <expressions>interfície gràfica d'usuari
+                    <translations>
+                        <translation catagory="computers" gender="f">graphical user interface (GUI)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="560">grafits<nouns>
 			<translations>
@@ -2460,11 +2525,14 @@
 	</Entry>
 	<Entry frequency="6750">gramatical<adjectives>
 			<translations>
-				<translation>grammatical<catexamp>Corrector gramatical</catexamp>
-					<engexamp>Grammar checker</engexamp>
-				</translation>
+				<translation>grammatical</translation>
 			</translations>
 		</adjectives>
+                <expressions>corrector gramatical
+                    <translations><date>1208</date>
+                        <translation gender="m">grammar checker</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="158">gramòfon<nouns>
 			<translations>
@@ -2660,13 +2728,18 @@
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation gender="m">liking<catexamp>No és del meu grat</catexamp><engexamp>It's not to my liking</engexamp></translation>
+                <translation gender="m">liking</translation>
                 </translations>
                 </nouns>
                 <expressions>de bon grat
                 <translations>
                 <translation>willingly</translation>
                 </translations>
+                </expressions>
+                <expressions>no ésser del (meu, seu, teu...) grat
+                    <translations>
+                        <translation>to not be to (my, his, your...) liking</translation>
+                    </translations>
                 </expressions>
 	</Entry>
 	<Entry frequency="1430">gratacel<nouns>
@@ -3090,15 +3163,14 @@
 	</Entry>
 	<Entry frequency="254000">grup<nouns>
 			<translations>
-				<translation gender="m">group<catexamp>Grup de pressió</catexamp><engexamp>Pressure group</engexamp></translation>
+				<translation gender="m">group</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="13300">grup de pressió<nouns>
-			<translations><date>1105</date>
-				<translation catagory="politics" gender="m">pressure group</translation>
-			</translations>
-		</nouns>
+                <expressions>grup de pressió
+                    <translations>
+                        <translation catagory="politics" gender="m">pressure group</translation>
+                    </translations>
+                </expressions>
 	</Entry>
       <Entry frequency="615">gruta<nouns>
 			<translations><date>0106</date>
@@ -3156,13 +3228,16 @@
 	</Entry>
 	<Entry frequency="1800">gual<nouns>
 			<translations>
-				<translation gender="m">access / entrance<catexamp>Gual permanent</catexamp>
-					<engexamp>24 hour access</engexamp>
-				</translation>
+				<translation gender="m">access / entrance</translation>
 				<translation gender="m">ford<engnote>'Gual' means 'ford' as in 'river crossing'</engnote>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>gual permanent
+                    <translations>
+                        <translation>24 hour access</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="4080">guant<nouns>
 			<translations>
@@ -3490,7 +3565,7 @@
 	</Entry>
         <Entry frequency="794">guipar<verbs conj="regular">
 			<translations><date>0306</date>
-				<translation>to suss somebody out (Br.) / to have got somebody sussed (Br.)<catexamp>T'he filat</catexamp><engexamp>I've got you sussed</engexamp></translation>
+				<translation>to suss somebody out (Br.) / to have got somebody sussed (Br.)</translation>
 			</translations>
 		</verbs>
                 <expressions>guipar-hi
