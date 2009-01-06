@@ -162,11 +162,17 @@
                     </translations>
                 </expressions>
 	</Entry>
-	<Entry frequency="55400">pagar<verbs conj="GtoGU">
+	<Entry frequency="1670000">pagar<verbs conj="GtoGU">
 			<translations>
-				<translation catagory="financial">to pay</translation>
+				<translation catagory="financial" transitive="true">to pay</translation>
+                                <translation transitive="true">to pay for</translation>
 			</translations>
 		</verbs>
+                <expressions>qui paga mana
+                    <translations>
+                        <translation>he who pays the piper calls the tune</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="27000">pagès<nouns>
 			<translations>
@@ -2968,8 +2974,11 @@
 		</nouns>
 	</Entry>
 	<Entry frequency="78600">pensar<verbs conj="regular">
-			<translations>
+                            <translations><date>0109</date>
 				<translation>to think</translation>
+                                <translation>(~ en) [have in mind] to think (about) / to think (of)</translation>
+                                <translation>(~ de) [opinion] to think (about) / to think (of)</translation>
+                                <translation>(~ a) to remember / to not forget</translation>
 			</translations>
 		</verbs>
                 <expressions>pensar s'ho dues vegades abans de (+infinitiu)
@@ -4320,9 +4329,9 @@
                     </translations>
                 </expressions>
 	</Entry>
-        	<Entry frequency="1380">picabaralla<nouns>
-			<translations><date>0605</date>
-				<translation gender="f">argument / quarrel / dispute</translation>
+        	<Entry frequency="46800">picabaralla<nouns>
+			<translations><date>0109</date>
+				<translation gender="f">argument / quarrel / dispute / (entre polítics) skirmish</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7523,9 +7532,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="40000">preguntar<verbs conj="regular">
-			<translations>
+	<Entry frequency="800000">preguntar<verbs conj="regular">
+                            <translations><date>0109</date>
 				<translation>to ask</translation>
+                                <translation>(~ per algú) to ask about (someone)</translation>
 			</translations>
 		</verbs>
 	</Entry>
