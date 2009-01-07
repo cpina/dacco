@@ -56,9 +56,19 @@
 	</Entry>
         <Entry frequency="997000">laboral<adjectives>
                             <translations><date>1007</date>
-				<translation>labor (Am.) / labour (Br.) / work<catexamp>Relacions laborals</catexamp><engexamp>Labo(u)r relations</engexamp><catexamp>Salut laboral</catexamp><engexamp>Health at work</engexamp></translation>
+				<translation>labor (Am.) / labour (Br.) / work</translation>
 			</translations>
 		</adjectives>
+                <expressions>relacions laborals
+                    <translations>
+                        <translation catagory="work" gender="fpl">labour relations (Br.) / labor relations (Am.)</translation>
+                    </translations>
+                </expressions>
+                <expressions>salut laboral
+                    <translations>
+                        <translation catagory="work" gender="f">occupational health / health at work</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="60200">laboratori<nouns>
 			<translations>
@@ -68,11 +78,14 @@
 	</Entry>
 	<Entry frequency="1210">laborista<adjectives>
 			<translations>
-				<translation catagory="work">labour<catexamp>Partit laborista</catexamp>
-					<engexamp>Labour party</engexamp>
-				</translation>
+				<translation catagory="work">labour</translation>
 			</translations>
 		</adjectives>
+                <expressions>partit laborista
+                    <translations>
+                        <translation catagory="politics" gender="m">labour party</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="5750">laca<nouns>
                             <translations><date>1007</date>
@@ -94,15 +107,25 @@
   </Entry>
         <Entry frequency="705">lacrimal<adjectives>
                             <translations><date>1007</date>
-				<translation>lacrimal / lachrymal<catexamp>L'aparell lacrimal</catexamp><engexamp>Lacrimal (or lachrymal) apparatus</engexamp></translation>
+				<translation>lacrimal / lachrymal</translation>
 			</translations>
 		</adjectives>
+                <expressions>aparell lacrimal
+                    <translations>
+                        <translation catagory="body" gender="m">lacrimal (o lachrymal) apparatus</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="1970">lacrimogen<adjectives>
                             <translations><date>1007</date>
-				<translation>that causes tears<catexamp>Gas lacrimogen</catexamp><engexamp>Tear gas</engexamp><catexamp>Una pel·lícula (o una novel·la o una cançó) lacrimògena</catexamp><engexamp>A tear jerker</engexamp><plural>lacrimògens</plural><fems>lacrimògena</fems></translation>
+				<translation>that causes tears<catexamp>Una pel·lícula (o una novel·la o una cançó) lacrimògena</catexamp><engexamp>A tear jerker</engexamp><plural>lacrimògens</plural><fems>lacrimògena</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>gas lacrimogen
+                    <translations>
+                        <translation gender="m">tear gas</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="16400">lactància<nouns>
                             <translations><date>1007</date>
@@ -275,10 +298,10 @@
                 </Entry>
                   <Entry frequency="51400">latent<adjectives>
 			<translations><date>0307</date>
-				<translation>latent<catexamp>Calor latent</catexamp><engexamp>Latent heat</engexamp></translation>
+				<translation>latent</translation>
 			</translations>
 		</adjectives>
-	</Entry>
+               	</Entry>
 	<Entry frequency="16100">lateral<adjectives>
 			<translations>
 				<translation>side / lateral</translation>
@@ -437,12 +460,27 @@
 	</Entry>
         	<Entry frequency="297000">lent<nouns>
 			<translations><date>1005</date>
-				<translation gender="f">lens<catexamp>Lent de contacte</catexamp><engexamp>Contact lens</engexamp></translation>
+				<translation gender="f">lens</translation>
 			</translations>
 		</nouns>
                 <adverbs>
                 <translations>
                 <translation>slow</translation></translations></adverbs>
+                <expressions>lent de contacte
+                    <translations>
+                        <translation gender="f">contact (lens)</translation>
+                    </translations>
+                </expressions>
+                <expressions>lent de contacte tova
+                    <translations>
+                        <translation gender="f">soft contact (lens)</translation>
+                    </translations>
+                </expressions>
+                <expressions>lent de contacte rígida
+                    <translations>
+                        <translation gender="f">hard contact (lens)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="7740">lentament<adverbs>
 			<translations>
@@ -450,13 +488,7 @@
 			</translations>
 		</adverbs>
 	</Entry>
-        	<Entry frequency="813">lent de contacte<nouns>
-			<translations><date>1005</date>
-				<translation gender="f">contact lens<catexamp>Lents de contacte toves</catexamp><engexamp>Soft contact lenses</engexamp><catexamp>Lents de contacte rígides</catexamp><engexamp>Hard contact lenses</engexamp></translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="18600">lentitud<nouns>
+        	 <Entry frequency="18600">lentitud<nouns>
 			<translations><date>0106</date>
 				<translation gender="f">slowness</translation>
 			</translations>
@@ -497,9 +529,8 @@
 	</Entry>
 	<Entry frequency="2570">lesionar<verbs conj="regular">
 			<translations>
-				<translation>to injure<catexamp>Lesionar-se</catexamp>
-					<engexamp>To injure yourself</engexamp>
-				</translation>
+				<translation>to injure</translation>
+                                <translation reflexive="lesionar-se">to injure yourself</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -662,9 +693,14 @@
          <Entry frequency="963">limfàtic<adjectives>
 			<translations><date>1205</date>
 				<translation catagory="biology">lymphatic</translation>
-                                <translation catagory="biology">lymph<catexamp>Ganglis limfàtics</catexamp><engexamp>Lymph nodes</engexamp><fems>limfàtica</fems><femplural>limfàtiques</femplural></translation>
+                                <translation catagory="biology">lymph<fems>limfàtica</fems><femplural>limfàtiques</femplural></translation>
 			</translations>
 		</adjectives>
+                <expressions>gangli limfàtic
+                    <translations>
+                        <translation gender="m">lymph node</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="531">limfòcit<nouns>
 			<translations><date>1205</date>
@@ -674,10 +710,15 @@
 	</Entry>
                 <Entry frequency="193000">límit<nouns>
 			<translations><date>0805</date>
-                        <translation gender="m">limit<catexamp>Límit d'edat</catexamp><engexamp>Age limit</engexamp></translation>
+                        <translation gender="m">limit</translation>
 				<translation gender="m">border / boundary</translation>
 			</translations>
 		</nouns>
+                <expressions>límit d'edat
+                    <translations>
+                        <translation gender="m">age limit</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="35400">limitació<nouns>
 			<translations>
@@ -1095,27 +1136,41 @@
 	</Entry>
 	<Entry frequency="865">llampec<nouns>
 			<translations>
-				<translation catagory="weather" gender="m">lightning<catexamp>Com un llampec</catexamp>
-					<engexamp>Quick as a flash / wink</engexamp>
-				</translation>
+				<translation catagory="weather" gender="m">lightning</translation>
 			</translations>
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>lightning<catexamp>Guerra llampec</catexamp>
-					<engexamp>Lightning war / blitzkrieg</engexamp>
-				</translation>
-				<translation>whistle-stop<catexamp>Una visita llampec</catexamp>
-					<engexamp>A whistle-stop visit</engexamp>
-				</translation>
+				<translation>lightning</translation>
+				<translation>whistle-stop</translation>
 			</translations>
 		</adjectives>
+                <expressions>com un llampec
+                    <translations>
+                        <translation>quick as a flash (o wink)</translation>
+                    </translations>
+                </expressions>
+                <expressions>guerra llampec
+                    <translations>
+                        <translation gender="f">lightning war / blitzkrieg</translation>
+                    </translations>
+                </expressions>
+                <expressions>visita llampec
+                    <translations>
+                        <translation gender="f">whistle-stop visit</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="10200">llana<nouns>
 			<translations>
-				<translation gender="f">wool<catexamp>De llana</catexamp><engexamp>Woolly / woollen / wool</engexamp></translation>
+				<translation gender="f">wool</translation>
 			</translations>
 		</nouns>
+                <expressions>de llana
+                    <translations>
+                        <translation>woolly / woolen / wool</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="700">llança<nouns>
 			<translations>
@@ -1133,12 +1188,30 @@
 	<Entry frequency="24700">llançador<nouns>
 			<translations><date>0408</date>
 				<translation catagory="sports-event-basketball" gender="m / f">shooter</translation>
-				<translation catagory="sports-event-athletics" gender="m / f">thrower<catexamp>Llançador de disc / javelina / martell</catexamp>
-					<engexamp>Discus / javelin / hammer thrower</engexamp><catexamp>Llançador de pes</catexamp><engexamp>Shot putter</engexamp>
-				</translation>
+				<translation catagory="sports-event-athletics" gender="m / f">thrower</translation>
 				<translation catagory="sports-event-baseball" gender="m / f">pitcher<fems>llançadora</fems></translation>
 			</translations>
 		</nouns>
+                <expressions>llançador de disc
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="m / f">discus thrower</translation>
+                    </translations>
+                </expressions>
+                <expressions>llançador de javelina
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="m / f">javelin thrower</translation>
+                    </translations>
+                </expressions>
+                <expressions>llançador de martell
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="m / f">hammer thrower</translation>
+                    </translations>
+                </expressions>
+                <expressions>llançador de pes
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="m / f">shot putter</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="249">llançagranades<nouns>
 			<translations>
@@ -1149,9 +1222,29 @@
 	<Entry frequency="109000">llançament<nouns>
 			<translations><date>0408</date>
 				<translation gender="m">launch / release</translation>
-				<translation disambiguate="sports-event-athletics" gender="m">throw<catexamp>Llançament de pes</catexamp><engexamp>Shot (put)</engexamp><catexamp>Llançament de disc</catexamp><engexamp>Discus</engexamp><catexamp>Llançament de javelina</catexamp><engexamp>Javelin</engexamp><catexamp>Llançament de martell</catexamp><engexamp>Hammer (throw)</engexamp></translation>
+				<translation disambiguate="sports-event-athletics" gender="m">throw</translation>
 			</translations>
 		</nouns>
+                <expressions>llançament de disc
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="m">discus</translation>
+                    </translations>
+                </expressions>
+                <expressions>llançament de javelina
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="m">javelin</translation>
+                    </translations>
+                </expressions>
+                <expressions>llançament de martell
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="m">hammer (throw)</translation>
+                    </translations>
+                </expressions>
+                <expressions>llançament de pes
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="m">shot (put)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="42">llançamíssils<nouns>
 			<translations>
@@ -1203,9 +1296,14 @@
 	</Entry>
         <Entry frequency="26100">llanut<adjectives>
 			<translations><date>0407</date>
-				<translation>woolly<catexamp>Mamut llanut</catexamp><engexamp>Woolly mammoth</engexamp><fems>llanuda</fems></translation>
+				<translation>woolly<fems>llanuda</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>mamut llanut
+                    <translations>
+                        <translation catagory="animal-animal" gender="m">woolly mammoth</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="768">llanxa<nouns>
 			<translations>
@@ -1216,9 +1314,14 @@
 	</Entry>
 	<Entry frequency="6840">llapis<nouns>
 			<translations>
-				<translation gender="m">pencil<plural>llapis</plural><catexamp>Llapis de color</catexamp><engexamp>Coloured (Br.) / colored (Am.) pencil</engexamp></translation>
+				<translation gender="m">pencil<plural>llapis</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>llapis de color
+                    <translations>
+                        <translation gender="m">coloured pencil (Br.) / colored pencil (Am.)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="49300">llar<nouns>
 			<translations>
@@ -1295,11 +1398,14 @@
 	</Entry>
 	<Entry frequency="18900">llàstima<nouns>
 			<translations>
-				<translation gender="f">pity / shame<catexamp>(Quina) llàstima!</catexamp>
-					<engexamp>What a shame / pity!</engexamp>
-				</translation>
+				<translation gender="f">pity / shame</translation>
 			</translations>
 		</nouns>
+                <expressions>quina llàstima
+                    <translations>
+                        <translation>what a shame (o pity)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="687">llastimós<adjectives>
 			<translations>
@@ -1705,7 +1811,7 @@
 	</Entry>
         <Entry frequency="18200">lleter<adjectives>
 			<translations><date>0408</date>
-				<translation>dairy / milk(-producing)<catexamp>Vaca lletera</catexamp><engexamp>Dairy cow</engexamp><fems>lletera</fems></translation>
+				<translation>dairy / milk(-producing)<fems>lletera</fems></translation>
 			</translations>
 		</adjectives>
                 <nouns>
@@ -1713,6 +1819,11 @@
                         <translation catagory="work-job" gender="m / f">milkman (home que ven i reparteix llet a domicili) / milkwoman (dona...) / dairy farmer / milk producer</translation>
                     </translations>
                 </nouns>
+                <expressions>vaca lletera
+                    <translations>
+                        <translation catagory="animal" gender="f">dairy cow</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="747">lleteria<nouns>
 			<translations><date>0408</date>
@@ -1906,11 +2017,16 @@
 	</Entry>
         <Entry frequency="651000">lliga<nouns>
 			<translations><date>0406</date>
-				<translation disambiguate="sports" gender="f">league<catexamp>Lliga de campions</catexamp><engexamp>Champions league</engexamp></translation>
+				<translation disambiguate="sports" gender="f">league</translation>
                                 <translation gender="f">alliance</translation>
                                 <translation gender="f">alloy</translation>
 			</translations>
 		</nouns>
+                <expressions>lliga de campions
+                    <translations>
+                        <translation catagory="sports-event-football" gender="f">Champion's League</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="1180">lligabosc<nouns>
 			<translations><date>0108</date>
@@ -1990,9 +2106,14 @@
 	</Entry>
         <Entry frequency="11000">llinatge<nouns>
 			<translations><date>0605</date>
-				<translation gender="m">lineage / ancestry / family<catexamp>Llinatge humà</catexamp><engexamp>Human race / mankind</engexamp></translation>
+				<translation gender="m">lineage / ancestry / family</translation>
 			</translations>
 		</nouns>
+                <expressions>llinatge humà
+                    <translations>
+                        <translation gender="m">human race / mankind</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="29000">llindar<nouns>
 			<translations><date>0605</date>
@@ -2055,17 +2176,21 @@
 	</Entry>
 	<Entry frequency="20400">llit<nouns>
 			<translations>
-				<translation catagory="household-room-bedroom" gender="f">bed<catexamp>Roba de llit</catexamp><engexamp>Bed clothes / bed linen</engexamp></translation>
+				<translation catagory="household-room-bedroom" gender="f">bed</translation>
 			</translations>
 		</nouns>
+                <expressions>llit de matrimoni
+                    <translations>
+                        <translation catagory="household-room-bedroom" gender="m">double bed</translation>
+                    </translations>
+                </expressions>
+                <expressions>roba de llit
+                    <translations>
+                        <translation catagory="household-room-bedroom" gender="f">bedclothes / bed linen</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="1050">llit de matrimoni<nouns>
-			<translations><date>0405</date>
-				<translation catagory="household-room-bedroom" gender="m">double bed</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="17600">llitera<nouns>
+         <Entry frequency="17600">llitera<nouns>
 			<translations><date>1205</date>
 				<translation gender="f">bunk bed</translation>
                                 <translation disambiguate="medical" gender="f">stretcher</translation>
@@ -2627,11 +2752,19 @@
 	</Entry>
 	<Entry frequency="20100">lucre<nouns>
 			<translations>
-				<translation catagory="financial" gender="m">profit<catexamp>Organització sense ànim / afany de lucre</catexamp>
-					<engexamp>Not-for-profit organization</engexamp>
-				</translation>
+				<translation catagory="financial" gender="m">profit</translation>
 			</translations>
 		</nouns>
+                <expressions>organització sense afany de lucre
+                    <translations>
+                        <translation gender="f">not-for-profit organization</translation>
+                    </translations>
+                </expressions>
+                <expressions>organització sense ànim de lucre
+                    <translations>
+                        <translation gender="f">not-for-profit organization</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="23400">lúdic<adjectives>
 			<translations>
@@ -2666,9 +2799,14 @@
 	</Entry>
         <Entry frequency="11400">lunar<adjectives>
 			<translations><date>0106</date>
-				<translation catagory="astronomy">lunar<catexamp>Superfície lunar</catexamp><engexamp>Lunar surface</engexamp></translation>
+				<translation catagory="astronomy">lunar</translation>
 			</translations>
 		</adjectives>
+                <expressions>superfície lunar
+                    <translations>
+                        <translation gender="m">lunar surface</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="1500">lustre<nouns>
 			<translations><date>0906</date>
@@ -2690,9 +2828,14 @@
 	</Entry>
         <Entry frequency="195000">luxe<nouns>
 			<translations><date>0408</date>
-				<translation gender="m">luxury<catexamp>De luxe</catexamp><engexamp>Luxurious / luxury</engexamp></translation>
+				<translation gender="m">luxury</translation>
 			</translations>
 		</nouns>
+                <expressions>de luxe
+                    <translations>
+                        <translation>luxurious / luxury</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="5480">Luxemburg<nouns>
 			<translations>

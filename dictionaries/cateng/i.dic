@@ -372,9 +372,14 @@
 	</Entry>
             <Entry frequency="939">ignot<adjectives>
 			<translations><date>0107</date>
-				<translation>unknown / uncharted<catexamp>Terra ignota</catexamp><engexamp>Terra incognita (uncharted land)</engexamp><catexamp>Per alguna ignota raó</catexamp><engexamp>For some unknown reason</engexamp><fems>ignota</fems></translation>
+				<translation>unknown / uncharted<catexamp>Per alguna ignota raó</catexamp><engexamp>For some unknown reason</engexamp><fems>ignota</fems></translation>
                             </translations>
 		</adjectives>
+                <expressions>terra ignota
+                    <translations>
+                        <translation gender="f">terra incognita / unchartered land</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="78600">igual<adjectives>
                             <translations><date>0607</date>
@@ -808,9 +813,14 @@
 	</Entry>
         <Entry frequency="446000">immoble<nouns>
 			<translations><date>0206</date>
-				<translation gender="m">building / property<catexamp>Béns immobles</catexamp><engexamp>Real estate / realty / property</engexamp></translation>
+				<translation gender="m">building / property</translation>
 			</translations>
 		</nouns>
+                <expressions>béns immobles
+                    <translations>
+                        <translation gender="mpl">real estate / realty / property</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="50600">immoral<adjectives>
                             <translations><date>0808</date>
@@ -862,9 +872,14 @@
 	</Entry>
         <Entry frequency="8590">immune<adjectives>
 			<translations><date>1007</date>
-				<translation catagory="medical">immune<catexamp>Sistema immune</catexamp><engexamp>Immune system</engexamp></translation>
+				<translation catagory="medical">immune</translation>
 			</translations>
 		</adjectives>
+                <expressions>sistema immune
+                    <translations>
+                        <translation catagory="medical" gender="m">immune system</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="3920">immunitari<adjectives>
 			<translations><date>1007</date>
@@ -916,11 +931,14 @@
 	</Entry>
 	<Entry frequency="1430">impacient<adjectives>
 			<translations>
-				<translation>impatient<catexamp>Estar impacient per fer alguna cosa</catexamp>
-					<engexamp>To be impatient to do something</engexamp>
-				</translation>
+				<translation>impatient</translation>
 			</translations>
 		</adjectives>
+                <expressions>estar impacient per (fer alguna cosa)
+                    <translations>
+                        <translation>to be impatient to (do something)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="5150">impactant<adjectives>
 			<translations>
@@ -1264,7 +1282,8 @@
 		</adjectives>
                 <nouns>
                     <translations>
-                        <translation gender="m">leaflet<catexamp>Impresos</catexamp><engexamp>Printed matter / printed material</engexamp></translation>
+                        <translation gender="m">leaflet</translation>
+                        <translation sourceplural="impresos" gender="mpl">printed matter / printed material</translation>
                         </translations>
                         </nouns>
 	</Entry>
@@ -1621,7 +1640,7 @@
 	</Entry>
         <Entry frequency="14400">incendiari<adjectives>
 			<translations><date>0806</date>
-				<translation>incendiary<catexamp>Artefacte incendiari</catexamp><engexamp>Incendiary device</engexamp><fems>incendiària</fems></translation>
+				<translation>incendiary<fems>incendiària</fems></translation>
                                 <translation>inflammatory / incendiary</translation>
 			</translations>
         </adjectives>
@@ -1630,6 +1649,11 @@
                 <translation gender="m / f">arsonist</translation>
             </translations>
         </nouns>
+            <expressions>artefacte incendiari
+                <translations>
+                    <translation gender="m">incendiary device</translation>
+                </translations>
+            </expressions>
 	</Entry>
         <Entry frequency="163000">incentiu<nouns>
 			<translations><date>0506</date>
@@ -2366,11 +2390,14 @@
 	</Entry>
 	<Entry frequency="6630">inducció<nouns>
 			<translations>
-				<translation catagory="physics" gender="ffullform">induction<catexamp>Inducció electromagnètica</catexamp>
-					<engexamp>Electromagnetic induction</engexamp>
-				</translation>
+				<translation catagory="physics" gender="ffullform">induction</translation>
 			</translations>
 		</nouns>
+                <expressions>inducció electromagnètica
+                    <translations>
+                        <translation gender="f">electromagnetic induction</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="29900">induir<verbs conj="irregular2">
 			<translations><date>0708</date>
@@ -2612,13 +2639,19 @@
 	<Entry frequency="4230">infart<nouns>
 			<translations>
 				<translation catagory="medical" gender="m">heart attack</translation>
-				<translation catagory="medical" gender="m">infarction<catexamp>Infart cerebral</catexamp>
-					<engexamp>Stroke</engexamp>
-					<catexamp>Infart (de miocardi)</catexamp>
-					<engexamp>Myocardial infarction / heart attack</engexamp>
-				</translation>
+				<translation catagory="medical" gender="m">infarction</translation>
 			</translations>
 		</nouns>
+                <expressions>infart cerebral
+                    <translations>
+                        <translation catagory="medical" gender="m">stroke</translation>
+                    </translations>
+                </expressions>
+                <expressions>infart de miocardi
+                    <translations>
+                        <translation catagory="medical" gender="m">myocardial infarction / heart attack</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="648">infatigable<adjectives>
 			<translations><date>1205</date>
@@ -2679,11 +2712,14 @@
 	</Entry>
 	<Entry frequency="4450">inferioritat<nouns>
 			<translations>
-				<translation gender="ffullform">inferiority<catexamp>Complex d'inferioritat</catexamp>
-					<engexamp>Inferiority complex</engexamp>
-				</translation>
+				<translation gender="ffullform">inferiority</translation>
 			</translations>
 		</nouns>
+                <expressions>complex d'inferioritat
+                    <translations>
+                        <translation gender="f">inferiority complex</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="14200000">infermer<nouns>
 			<translations>
@@ -2807,9 +2843,14 @@
 	</Entry>
         <Entry frequency="13500000">informació<nouns>
 			<translations><date>0606</date>
-				<translation gender="ffullform">information<catexamp>Una informació</catexamp><engexamp>A piece of information</engexamp><plural>informacions</plural></translation>
+				<translation gender="ffullform">information<plural>informacions</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>una informació
+                    <translations>
+                        <translation>a piece of information</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="18000">informal<adjectives>
 			<translations><date>0805</date>
@@ -2819,7 +2860,8 @@
 	</Entry>
         <Entry frequency="242000">informar<verbs conj="regular">
 			<translations><date>0605</date>
-				<translation>to tell / to inform<catexamp>Informar-se de</catexamp><engexamp>To find out about</engexamp></translation>
+				<translation>to tell / to inform</translation>
+                                <translation reflexive="informar-se">(~ de) to find out about</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2963,9 +3005,8 @@
 	<Entry frequency="140000">ingrés<nouns>
 			<translations><date>0505</date>
 				<translation gender="m">entry / admission<plural>ingressos</plural></translation>
-				<translation catagory="financial" gender="m">deposit
-				<catexamp>ingressos</catexamp><engexamp>income</engexamp>
-        </translation>
+				<translation catagory="financial" gender="m">deposit</translation>
+                                <translation catagory="financial, work" sourceplural="ingressos" gender="mpl">income</translation>
 			</translations>
 		</nouns>
 	</Entry>	
@@ -3112,9 +3153,7 @@
 	</Entry>
 	<Entry frequency="179000">inicial<adjectives>
 			<translations>
-				<translation>initial<catexamp>Pàgina inicial</catexamp>
-					<engexamp>Home page</engexamp>
-				</translation>
+				<translation>initial</translation>
 				<translation>beginners' / elementary / basic</translation>
 			</translations>
 		</adjectives>
@@ -3123,6 +3162,11 @@
 				<translation gender="ffullform">initial</translation>
 			</translations>
 		</nouns>
+                <expressions>pàgina inicial
+                    <translations>
+                        <translation catagory="computers" gender="f">homepage</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="72800">inicialment<adverbs>
 			<translations><date>0305</date>
@@ -3366,11 +3410,20 @@
 	</Entry>
 	<Entry frequency="11600">inrevés<nouns>
 			<translations><date>0505</date>
-				<translation gender="m">back / reverse<catexamp>a (o de) l'inrevés</catexamp>
-					<engexamp>back to front / backwards</engexamp><plural>inrevessos</plural>
+				<translation gender="m">back / reverse<plural>inrevessos</plural>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>a l'inrevés
+                    <translations>
+                        <translation>back to front / backwards</translation>
+                    </translations>
+                </expressions>
+                <expressions>de l'inrevés
+                    <translations>
+                        <translation>back to front / backwards</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="735">insaciable<adjectives>
 			<translations>
@@ -3430,11 +3483,14 @@
 	</Entry>
 	<Entry frequency="782">inseminació<nouns>
 			<translations>
-				<translation gender="ffullform">insemination<catexamp>Inseminació artificial</catexamp>
-					<engexamp>Artificial insemination</engexamp>
-				</translation>
+				<translation gender="ffullform">insemination</translation>
 			</translations>
 		</nouns>
+                <expressions>inseminació artificial
+                    <translations>
+                        <translation catagory="medical" gender="ffullform">artificial insemination</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         	<Entry frequency="1270">insensibilitat<nouns>
 			<translations><date>0106</date>
@@ -3657,11 +3713,14 @@
 	</Entry>
 	<Entry frequency="238000">instal·lació<nouns>
 			<translations>
-				<translation gender="ffullform">installation<catexamp>Instal·lacions esportives</catexamp>
-					<engexamp>Sporting facilities</engexamp>
-				</translation>
+				<translation gender="ffullform">installation</translation>
 			</translations>
 		</nouns>
+                <expressions>instal·lacions esportives
+                    <translations>
+                        <translation catagory="sports" gender="fpl">sporting facilities</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="55000">instal·lar<verbs conj="regular">
 			<translations>
@@ -3690,12 +3749,14 @@
 	</Entry>
 	<Entry frequency="13600">instantani<adjectives>
 			<translations>
-				<translation>instantaneous / instant<catexamp>Missatgeria instantània</catexamp>
-					<engexamp>Instant messaging</engexamp>
-					<fems>instantània</fems>
-				</translation>
+				<translation>instantaneous / instant<fems>instantània</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>missatgeria instantània
+                    <translations>
+                        <translation catagory="computers" gender="f">instant messaging / IM</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="4940">instantània<nouns>
 			<translations><date>0505</date>
@@ -3816,9 +3877,24 @@
 	</Entry>
         <Entry frequency="12100">insuficiència<nouns>
 			<translations><date>0505</date>
-				<translation catagory="medical" gender="ffullform">failure / insufficiency<catexamp>Insuficièncica renal</catexamp><engexamp>Kidney failure</engexamp><catexamp>Insuficiència cardíaca</catexamp><engexamp>Heart failure</engexamp></translation>
+				<translation catagory="medical" gender="ffullform">failure / insufficiency</translation>
 			</translations>
 		</nouns>
+                 <expressions>insuficiència cardíaca
+                    <translations>
+                        <translation catagory="medical-illness" gender="ffullform">heart failure</translation>
+                    </translations>
+                </expressions>
+                <expressions>insuficiència hepàtica
+                    <translations>
+                        <translation catagory="medical-illness" gender="ffullform">liver failure</translation>
+                    </translations>
+                </expressions>
+                <expressions>insuficiència renal
+                    <translations>
+                        <translation catagory="medical-illness" gender="ffullform">kidney failure</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="16700">insuficient<adjectives>
 			<translations>
@@ -3896,11 +3972,14 @@
 	</Entry>
 	<Entry frequency="104000">integral<adjectives>
 			<translations>
-				<translation>integral / whole / complete<catexamp>Pa integral</catexamp>
-					<engexamp>Wholemeal bread</engexamp>
-				</translation>
+				<translation>integral / whole / complete</translation>
 			</translations>
 		</adjectives>
+                <expressions>pa integral
+                    <translations>
+                        <translation catagory="food" gender="m">wholemeal bread</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="37000">íntegrament<adverbs>
 			<translations><date>0505</date>
@@ -3953,19 +4032,16 @@
 	</Entry>
 	<Entry frequency="38000">intel·ligència<nouns>
 			<translations>
-				<translation gender="ffullform">intelligence<catexamp>Intel·ligència artificial (IA)</catexamp>
-					<engexamp>Artificial intelligence (AI)</engexamp>
-				</translation>
+				<translation gender="ffullform">intelligence</translation>
 			</translations>
 		</nouns>
+                <expressions>intel·ligència artificial
+                    <translations>
+                        <translation catagory="computers" gender="ffullform">artificial intelligence / AI</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        	<Entry frequency="840">intel·ligència artificial<nouns>
-			<translations><date>0805</date>
-				<translation gender="f">artificial intelligence</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="13200">intel·ligent<adjectives>
+        	<Entry frequency="13200">intel·ligent<adjectives>
 			<translations>
 				<translation>intelligent</translation>
 			</translations>
@@ -4098,9 +4174,14 @@
 	</Entry>
 	<Entry frequency="1200000">intercanvi<nouns>
                             <translations><date>1108</date>
-				<translation gender="m">exchange / swap / reversal<catexamp>Intercanvi de papers</catexamp><engexamp>Role reversal</engexamp></translation>
+				<translation gender="m">exchange / swap / reversal</translation>
 			</translations>
 		</nouns>
+                <expressions>intercanvi de papers
+                    <translations>
+                        <translation gender="m">role reversal</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="929">intercanviable<adjectives>
 			<translations>
@@ -4358,20 +4439,17 @@
 				<translation catagory="work-job" gender="m / f">interpreter</translation>
 			</translations>
 		</nouns>
+                <expressions>intèrpret d'ordres
+                    <translations>
+                        <translation catagory="computers" gender="m">command line / DOS prompt</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="117000">interpretació<nouns>
 			<translations>
-				<translation catagory="work-field" gender="ffullform">interpreting<catexamp>Traducció i interpretació</catexamp>
-					<engexamp>Translation and interpreting</engexamp>
-				</translation>
+				<translation catagory="work-field" gender="ffullform">interpreting</translation>
 				<translation gender="ffullform">interpretation<plural>interpretacions</plural>
 				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="149">intèrpret d'ordres<nouns>
-			<translations>
-				<translation catagory="computers" gender="m">command line / DOS prompt</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4389,15 +4467,17 @@
 		</nouns>
 	</Entry>
 	<Entry frequency="608">interrogació<nouns>
-			<translations><date>0305</date>
-				<translation gender="ffullform">question<plural>interrogacions</plural>
-					<catexamp>Signe d'interrogació / Interrogació</catexamp>
-					<engexamp>Question mark</engexamp>
-				</translation>
-				<translation gender="ffullform">interrogation<plural>interrogacions</plural>
-				</translation>
-			</translations>
+                    <translations><date>0305</date>
+                        <translation gender="ffullform">questioning</translation>
+                        <translation gender="ffullform">interrogation</translation>
+                        <translation gender="ffullform">question mark<plural>interrogacions</plural></translation>
+                    </translations>
 		</nouns>
+                <expressions>signe d'interrogació
+                    <translations>
+                        <translation catagory="linguistics" gender="m">question mark</translation>
+                    </translations>
+                </expressions>
 	</Entry>
  <Entry frequency="70700">interrogant<adjectives>
 			<translations><date>0408</date>
@@ -4495,14 +4575,19 @@
 	</Entry>
 	<Entry frequency="968">intestí<nouns>
 			<translations>
-				<translation catagory="body-internal" gender="m">intestine<catexamp>Intestí prim</catexamp>
-					<engexamp>Small intestine</engexamp>
-					<catexamp>Intestí gros</catexamp>
-					<engexamp>Large intestine / bowel</engexamp>
-					<plural>intestins</plural>
-				</translation>
+				<translation catagory="body-internal" gender="m">intestine<plural>intestins</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>intestí gros
+                    <translations>
+                        <translation catagory="body" gender="m">large intestine / bowel</translation>
+                    </translations>
+                </expressions>
+                <expressions>intestí prim
+                    <translations>
+                        <translation catagory="body" gender="m">small intestine</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="4750">intestinal<adjectives>
 			<translations>
@@ -4512,10 +4597,14 @@
 	</Entry>
 	<Entry frequency="21700">íntim<adjectives>
 			<translations>
-				<translation>intimate / close<catexamp>Amics íntims</catexamp><engexamp>Close friends</engexamp><fems>íntima</fems>
-				</translation>
+				<translation>intimate / close<fems>íntima</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>amics íntims
+                    <translations>
+                        <translation gender="mpl">close friends</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="47200">íntimament<adverbs>
 			<translations><date>0606</date>
@@ -4693,6 +4782,13 @@
 				</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="116000">intró<nouns>
+                            <translations><date>0109</date>
+				<translation catagory="biology" gender="m">intron<plural>introns</plural>
+				</translation>
+			</translations>
+		</nouns>
 	</Entry>
 	<Entry frequency="209000">introducció<nouns>
 			<translations>
@@ -5030,9 +5126,8 @@
 	</Entry>
 	<Entry frequency="12800">involucrar<verbs conj="regular">
 			<translations>
-				<translation>to involve<catexamp>Involucra't!</catexamp>
-					<engexamp>Get involved!</engexamp>
-				</translation>
+				<translation>to involve</translation>
+                                <translation reflexive="involucrar-se">to get involved<catexamp>Involucra't!</catexamp><engexamp>Get involved!</engexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5540,9 +5635,19 @@
 	</Entry>
         <Entry frequency="56">irrotacional<adjectives>
 			<translations><date>1205</date>
-				<translation disambiguate="maths">irrotational<catexamp>Flux irrotacional</catexamp><engexamp>Irrotational flow</engexamp><catexamp>Camp irrotacional</catexamp><engexamp>Irrotational field</engexamp></translation>
+				<translation disambiguate="maths">irrotational</translation>
 			</translations>
 		</adjectives>
+                <expressions>camp irrotacional
+                    <translations>
+                        <translation gender="m">irrotational field</translation>
+                    </translations>
+                </expressions>
+                <expressions>flux irrotacional
+                    <translations>
+                        <translation gender="m">irrotational flow</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="5770">irrupció<nouns>
 			<translations>
@@ -5794,9 +5899,14 @@
 	</Entry>
         <Entry frequency="217">isòsceles<adjectives>
 			<translations><date>1205</date>
-				<translation catagory="maths">isosceles<catexamp>Triangle isòsceles</catexamp><engexamp>Isosceles triangle</engexamp></translation>
+				<translation catagory="maths">isosceles</translation>
 			</translations>
 		</adjectives>
+                <expressions>triangle isòsceles
+                    <translations>
+                        <translation gender="m">isosceles triangle</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="336">isoterm<adjectives>
 			<translations><date>1205</date>
@@ -6040,8 +6150,13 @@
 	</Entry>
          <Entry frequency="16000">ixent<adjectives>
 			<translations><date>1205</date>
-				<translation>rising<catexamp>Sol ixent</catexamp><engexamp>Rising sun</engexamp></translation>
+				<translation>rising</translation>
 			</translations>
 		</adjectives>
+                <expressions>sol ixent
+                    <translations>
+                        <translation gender="m">rising sun</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 </dictionary>

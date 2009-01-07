@@ -1526,11 +1526,14 @@
 <Entry frequency="0">semperenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Sempere </translation></translations></nouns><adjectives><translations><translation>relating to Sempere  or its people<fems>semperenca</fems><femplural>semperenques</femplural></translation></translations></adjectives></Entry>
 	<Entry frequency="180000">sempre<adverbs>
 			<translations>
-				<translation>always<catexamp>sempre que </catexamp>
-					<engexamp>as long as / provided</engexamp>
-				</translation>
+				<translation>always</translation>
 			</translations>
 		</adverbs>
+                <expressions>sempre que
+                    <translations>
+                        <translation>(~ + subjunctive) as long as / so long as / provided</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="10700">senador<nouns>
 			<translations><date>0505</date>
@@ -1894,9 +1897,19 @@
 	</Entry>
         <Entry frequency="559">sèptic<adjectives>
 			<translations>
-				<translation>septic<catexamp>Xoc sèptic</catexamp><engexamp>Septic shock</engexamp><catexamp>Fossa sèptica</catexamp><engexamp>Septic tank</engexamp><fems>sèptica</fems><femplural>sèptiques</femplural></translation>
+				<translation>septic<fems>sèptica</fems><femplural>sèptiques</femplural></translation>
 			</translations>
 		</adjectives>
+                <expressions>fossa sèptica
+                    <translations>
+                        <translation gender="f">septic tank</translation>
+                    </translations>
+                </expressions>
+                <expressions>xoc sèptic
+                    <translations>
+                        <translation catagory="medical" gender="m">septic shock</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="346">septicèmia<nouns>
 			<translations><date>1205</date>
@@ -2141,11 +2154,14 @@
 				<translation>to be used<example>La xarxa &lt;b&gt;serveix&lt;/b&gt; per trobar feina.</example>
 					<example>Aquest web &lt;b&gt;serveix&lt;/b&gt; per fomentar l'intercanvi d'idees i experiències.</example>
 					<example>Els gràfics ens poden &lt;b&gt;servir&lt;/b&gt; per a permetre'ns comprendre millor la informació que ens donen en forma de números en una taula.</example>
-					<catexamp>Fer servir alguna cosa</catexamp>
-					<engexamp>To use something</engexamp>
 				</translation>
 			</translations>
 		</verbs>
+                <expressions>fer servir
+                    <translations>
+                        <translation>to use</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="44000">servitud<nouns>
                             <translations><date>1008</date>
@@ -2157,12 +2173,15 @@
 	<Entry frequency="69200">set<nouns>
 			<translations>
 				<translation disambiguate="number-cardinal" gender="m">seven</translation>
-				<translation gender="f">thirst<catexamp>Tenir set</catexamp>
-					<engexamp>To be thirsty</engexamp>
-				</translation>
+				<translation gender="f">thirst</translation>
                                 <translation disambiguate="sports-event-tennis" gender="m">set</translation>
 			</translations>
 		</nouns>
+                <expressions>tenir set
+                    <translations>
+                        <translation>to be thirsty</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="0">setaigüer<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Setaigües</translation></translations></nouns><adjectives><translations><translation>relating to Setaigües or its people<fems>setaigüera</fems></translation></translations></adjectives></Entry>
         <Entry frequency="15200">setciències<nouns>
@@ -2198,9 +2217,14 @@
 	</Entry>	
 	<Entry frequency="2330000">setmanal<adjectives>
 			<translations><date>0408</date>
-				<translation>weekly<catexamp>Paga setmanal</catexamp><engexamp>(Weekly) pocket money (Br.) / allowance (Am.)</engexamp></translation>
+				<translation>weekly</translation>
 			</translations>
 		</adjectives>
+                <expressions>paga setmanal
+                    <translations>
+                        <translation gender="f">(weekly) pocket money (Br.) / allowance (Am.)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="2550">setmana que ve<nouns>
 			<translations>
@@ -2247,9 +2271,14 @@
 				<translation gender="f">headquarters<catexamp>La seu de l'ONU és a Nova York</catexamp><engexamp>UN headquarters are in New York</engexamp></translation>
 				<translation gender="f">venue<catexamp>Hanover va ser la seu de la Expo 2000</catexamp><engexamp>Hanover was the venue for the 2000 World Fair</engexamp></translation>
 				<translation gender="f">seat<catexamp>La seu de govern</catexamp><engexamp>The Seat of Government</engexamp></translation>
-				<translation gender="f">see<catexamp>La Santa Seu</catexamp><engexamp>The Holy See</engexamp></translation>
+				<translation gender="f">see</translation>
 			</translations>
 		</nouns>
+                <expressions>la Santa Seu
+                    <translations>
+                        <translation catagory="religious">the Holy See</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="262">sèu<nouns>
 			<translations><date>1208</date>
@@ -2366,9 +2395,14 @@
         <Entry frequency="5060">sidral<nouns>
 			<translations><date>0905</date>
 				<translation gender="m">sherbet</translation>
-                                <translation register="colloquial" gender="m">fuss<catexamp>Muntar un sidral</catexamp><engexamp>To make a fuss</engexamp></translation>
+                                <translation register="colloquial" gender="m">fuss</translation>
 			</translations>
 		</nouns>
+                <expressions>muntar un sidral
+                    <translations>
+                        <translation>to make a fuss</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="5140">si et plau<expressions>
 			<translations>
@@ -2599,9 +2633,14 @@
 	</Entry>
         	<Entry frequency="52600">simulador<nouns>
 			<translations><date>0806</date>
-				<translation gender="m">simulator<catexamp>Simulador de vol</catexamp><engexamp>Flight simulator</engexamp></translation>
+				<translation gender="m">simulator</translation>
 			</translations>
 		</nouns>
+                <expressions>simulador de vol
+                    <translations>
+                        <translation gender="m">flight simulator</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         	<Entry frequency="56500">simular<verbs conj="regular">
 			<translations><date>0806</date>
@@ -2633,10 +2672,19 @@
         <Entry frequency="12500">sincer<adjectives>
 			<translations><date>1105</date>
 				<translation>sincere</translation>
-                                <translation>honest / frank<catexamp>Per ser sincer...</catexamp><engexamp>To be frank / honest...</engexamp><catexamp>Si he de ser sincer...</catexamp><engexamp>If I'm honest / to be honest...</engexamp><fems>sincera</fems>
-				</translation>
+                                <translation>honest / frank<fems>sincera</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>si he de ser sincer
+                    <translations>
+                        <translation>if I'm honest / to be honest</translation>
+                    </translations>
+                </expressions>
+                <expressions>per ser sincer
+                    <translations>
+                        <translation>to be honest / to be frank</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="20500">sinceritat<nouns>
 			<translations><date>1105</date>
@@ -2754,9 +2802,14 @@
 	</Entry>
           <Entry frequency="1310">singlot<nouns>
 			<translations><date>0806</date>
-				<translation gender="m">hiccup / hiccough<catexamp>Tenir singlot</catexamp><engexamp>To have (got) (the) hiccups</engexamp></translation>
+				<translation gender="m">hiccup / hiccough</translation>
 			</translations>
 		</nouns>
+                <expressions>tenir singlot
+                    <translations>
+                        <translation>to have (got) (the) hiccups</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="183000">singular<adjectives>
 			<translations><date>1205</date>
@@ -3104,9 +3157,14 @@
 	</Entry>
          <Entry frequency="245">sobreabundància<nouns>
 			<translations><date>0406</date>
-				<translation gender="f">overabundance / oversupply / glut<catexamp>Sobreabundància informativa</catexamp><engexamp>Information overload</engexamp></translation>
+				<translation gender="f">overabundance / oversupply / glut</translation>
 			</translations>
 		</nouns>
+                <expressions>sobreabundància informativa
+                    <translations>
+                        <translation gender="f">information overload</translation>
+                    </translations>
+                </expressions>
 	</Entry>
           <Entry frequency="32900">sobrecàrrega<nouns>
 			<translations><date>0307</date>
@@ -3254,9 +3312,14 @@
 	</Entry>
 	<Entry frequency="3060000">social<adjectives>
 			<translations><date>0406</date>
-				<translation>social<catexamp>Serveis socials</catexamp><engexamp>Social services</engexamp></translation>
+				<translation>social</translation>
 			</translations>
 		</adjectives>
+                <expressions>serveis socials
+                    <translations>
+                        <translation gender="mpl">social services</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1690">socialdemòcrata<nouns>
 			<translations>
@@ -3431,15 +3494,35 @@
 	</Entry>
         <Entry frequency="322">soia<nouns>
 			<translations><date>0405</date>
-				<translation catagory="food" gender="f">soy / soya<engnote>The official Catalan term for 'soy(a)' is 'soia'. However, the Spanish 'soja' is also very widely used in Catalan.</engnote><catexamp>Llet de soia</catexamp><engexamp>Soya milk (Br.) / soy milk (Am. / Aus.)</engexamp><catexamp>Salsa de soia</catexamp><engexamp>Soy sauce</engexamp></translation>
+				<translation catagory="food" gender="f">soy / soya<engnote>The official Catalan term for 'soy(a)' is 'soia'. However, the Spanish 'soja' is also very widely used in Catalan.</engnote></translation>
 			</translations>
 		</nouns>
+                <expressions>llet de soia
+                    <translations>
+                        <translation catagory="food-drink" gender="m">soya milk (Br.) / soy milk (Am.) (Aus.)</translation>
+                    </translations>
+                </expressions>
+                <expressions>salsa de soia
+                    <translations>
+                        <translation catagory="food" gender="f">soy sauce</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="275000">soja<nouns>
 			<translations><date>1206</date>
-				<translation catagory="food" gender="f">soy / soya<catexamp>Llet de soja</catexamp><engexamp>Soya milk (Br.) / soy milk (Am. / Aus.)</engexamp><catexamp>Salsa de soja</catexamp><engexamp>Soy sauce</engexamp></translation>
+				<translation catagory="food" gender="f">soy / soya</translation>
 			</translations>
 		</nouns>
+                <expressions>llet de soja
+                    <translations>
+                        <translation catagory="food-drink" gender="m">soya milk (Br.) / soy milk (Am.) (Aus.)</translation>
+                    </translations>
+                </expressions>
+                <expressions>salsa de soja
+                    <translations>
+                        <translation catagory="food" gender="f">soy sauce</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="420">sojorn<nouns>
 			<translations><date>1205</date>
@@ -3584,10 +3667,7 @@
 	</Entry>
 	<Entry frequency="109000">solitari<adjectives>
                             <translations><date>1007</date>
-				<translation>solitary<catexamp>en solitari</catexamp>
-					<engexamp>alone / solo</engexamp>
-					<fems>solitària</fems>
-				</translation>
+				<translation>solitary<fems>solitària</fems></translation>
 			</translations>
 		</adjectives>
                 <nouns>
@@ -3597,6 +3677,11 @@
                         <translation catagory="medical" gender="m">tapeworm<catnote>(cuc solitari)</catnote><synonyms>tènia</synonyms></translation>
                         </translations>
                         </nouns>
+                        <expressions>en solitari
+                            <translations>
+                                <translation>alone / solo</translation>
+                            </translations>
+                        </expressions>
 	</Entry>
         <Entry frequency="550">soll<nouns>
                             <translations><date>0808</date>
@@ -3632,9 +3717,19 @@
 	</Entry>
         <Entry frequency="20400">solstici<nouns>
 			<translations><date>0406</date>
-				<translation gender="m">solstice<catexamp>Solstici d'estiu</catexamp><engexamp>Summer solstice</engexamp><catexamp>Solstici d'hivern</catexamp><engexamp>Winter solstice</engexamp></translation>
+				<translation gender="m">solstice</translation>
 			</translations>
 		</nouns>
+                <expressions>solstici d'estiu
+                    <translations>
+                        <translation gender="m">summer solstice</translation>
+                    </translations>
+                </expressions>
+                <expressions>solstici d'hivern
+                    <translations>
+                        <translation gender="m">winter solstice</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="226">solsticial<adjectives>
 			<translations><date>0406</date>
@@ -3812,10 +3907,20 @@
     </Entry>
          <Entry frequency="129000">sonor<adjectives>
 			<translations><date>1205</date>
-                        <translation>sound<catexamp>Efectes sonors</catexamp><engexamp>Sound effects</engexamp><catexamp>Banda sonora</catexamp><engexamp>Soundtrack</engexamp></translation>
+                        <translation>sound</translation>
 				<translation disambiguate="linguistics">voiced<fems>sonora</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>banda sonora
+                    <translations>
+                        <translation gender="f">soundtrack</translation>
+                    </translations>
+                </expressions>
+                <expressions>efecte sonor
+                    <translations>
+                        <translation gender="m">sound effect</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="6500">sopa<nouns>
 			<translations>

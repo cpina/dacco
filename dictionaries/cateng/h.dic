@@ -2,9 +2,14 @@
 <dictionary>
 	<Entry frequency="41000">hàbil<adjectives>
 			<translations><date>0505</date>
-				<translation>skilful (Br.) / skillful (Am.)<catexamp>Dia hàbil</catexamp><engexamp>Working day / workday / business day / weekday</engexamp><example>És molt decidit i lluitador a més de ser molt &lt;b&gt;hàbil&lt;/b&gt; manejant la pilota.</example></translation>
+				<translation>skilful (Br.) / skillful (Am.)<example>És molt decidit i lluitador a més de ser molt &lt;b&gt;hàbil&lt;/b&gt; manejant la pilota.</example></translation>
 			</translations>
 		</adjectives>
+                <expressions>dia hàbil
+                    <translations>
+                        <translation gender="m">working day / workday / business day / weekday</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="47100">habilitar<verbs conj="regular">
 			<translations><date>0106</date>
@@ -124,11 +129,14 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation gender="m">halogenous / halogen
-					  <catexamp>Bombeta halògena</catexamp><engexamp>Halogen light bulb</engexamp><fems>halògena</fems>
-				</translation>
+				<translation gender="m">halogenous / halogen</translation>
 			</translations>
 		</adjectives>
+                <expressions>bombeta halògena
+                    <translations>
+                        <translation gender="f">halogen bulb</translation>
+                    </translations>
+                </expressions>
 	</Entry>	
           <Entry frequency="684">halogenur<nouns>
 			<translations><date>0507</date>
@@ -261,6 +269,11 @@
                 <translation>to have to / must<catexamp>Què haig de fer?</catexamp><engexamp>What do I have to do?</engexamp><catexamp>Has de respondre a una selecció de preguntes</catexamp><engexamp>You have to (o you must) answer a series of questions</engexamp></translation>
                 </translations>
                 </expressions>
+                <expressions>hi ha
+                    <translations>
+                        <translation>there is / there are</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="327">hawaià<nouns>
 			<translations><date>0305</date>
@@ -320,11 +333,14 @@
 	</Entry>
 	<Entry frequency="3530">helicòpter<nouns>
 			<translations>
-				<translation catagory="transport-mode" gender="m">helicopter / chopper (argot)<catexamp>Helicòpter de combat</catexamp>
-					<engexamp>Helicopter gunship</engexamp>
-				</translation>
+				<translation catagory="transport-mode" gender="m">helicopter / chopper (argot)</translation>
 			</translations>
 		</nouns>
+                <expressions>helicòpter de combat
+                    <translations>
+                        <translation catagory="transport-mode" gender="m">helicopter gunship</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="117">heliògraf<nouns>
 			<translations><date>0307</date>
@@ -438,9 +454,7 @@
 	</Entry>
 	<Entry frequency="2050">hepàtic<adjectives>
 			<translations>
-				<translation catagory="medical">hepatic / liver<catexamp>Insuficiència hepàtica</catexamp>
-					<engexamp>Liver failure</engexamp><fems>hèptica</fems><femplural>hèptiques</femplural>
-				</translation>
+				<translation catagory="medical">hepatic / liver<fems>hèptica</fems><femplural>hèptiques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -720,9 +734,14 @@
 	</Entry>
          <Entry frequency="99">hidrogencarbonat<nouns>
 			<translations><date>0707</date>
-				<translation catagory="chemistry" gender="m">bicarbonate<catexamp>Hidrogencarbonat de sodi</catexamp><engexamp>Sodium bicarbonate</engexamp></translation>
+				<translation catagory="chemistry" gender="m">bicarbonate</translation>
 			</translations>
 		</nouns>
+                <expressions>hidrogencarbonat de sodi
+                    <translations>
+                        <translation catagory="chemistry" gender="m">sodium bicarbonate</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="4390">hidrogeologia<nouns>
                             <translations><date>0908</date>
@@ -763,25 +782,25 @@
 	</Entry>
 	<Entry frequency="4380">higiènic<adjectives>
 			<translations>
-				<translation>hygienic<catexamp>Paper higiènic</catexamp>
-					<engexamp>Toilet paper (Br.) / Bath(room) tissue (Am.)</engexamp><fems>higiènica</fems><femplural>higièniques</femplural>
-				</translation>
+				<translation>hygienic<fems>higiènica</fems><femplural>higièniques</femplural></translation>
 			</translations>
 		</adjectives>
+                <expressions>paper higiènic
+                    <translations>
+                        <translation catagory="household-room-bathroom" gender="m">toilet paper</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="378">higienista<nouns>
 			<translations>
-				<translation catagory="work-job" gender="m">hygienist<catexamp>Higienista dental</catexamp>
-					<engexamp>Dental hygienist</engexamp>
-				</translation>
+				<translation catagory="work-job" gender="m">hygienist</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="297000">hi ha<verbs>
-			<translations>
-				<translation>there is</translation>
-			</translations>
-		</verbs>
+                <expressions>higienista dental
+                    <translations>
+                        <translation catagory="work-job" gender="m / f">dental hygienist</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="14200">Himàlaia<nouns>
 			<translations><date>0406</date>
@@ -792,9 +811,14 @@
 	<Entry frequency="18100">himne<nouns>
 			<translations><date>0805</date>
                         <translation disambiguate="religious" gender="m">hymn</translation>
-				<translation gender="m">anthem<catexamp>Himne nacional</catexamp><engexamp>National anthem</engexamp></translation>
+				<translation gender="m">anthem</translation>
 			</translations>
 		</nouns>
+                <expressions>himne nacional
+                    <translations>
+                        <translation gender="m">national anthem</translation>
+                    </translations>
+                </expressions>
 	</Entry>
                 <Entry frequency="14800">hindi<nouns>
 			<translations><date>0305</date>
@@ -1143,14 +1167,21 @@
 	</Entry>
 	<Entry frequency="89200">hisenda<nouns>
 			<translations><date>0505</date>
-				<translation gender="f">Treasury
-					<catexamp>Hisenda pública</catexamp><engexamp>Public funds / public finances</engexamp>
-					<catexamp>Ministeri d'Hisenda</catexamp><engexamp>Exchequer (Br.) / Treasury (Am.)</engexamp>
-				</translation>
+				<translation catagory="financial" gender="f">Treasury</translation>
 				<translation gender="f">estate (Br.) / ranch (Am.)</translation>
 				<translation gender="f">wealth / properties</translation>
 			</translations>
 		</nouns>
+                <expressions>hisenda pública
+                    <translations>
+                        <translation catagory="financial" gender="f">public funds / public finances</translation>
+                    </translations>
+                </expressions>
+                <expressions>ministeri d'Hisenda
+                    <translations>
+                        <translation catagory="financial, politics" gender="m">Exchequer (Br.) / Treasury (Am.)</translation>
+                    </translations>
+                </expressions>
 	</Entry>	
 	<Entry frequency="3960">hispà<adjectives>
 			<translations><date>0505</date>
@@ -1250,9 +1281,14 @@
 	</Entry>
                 <Entry frequency="9810">hivernacle<nouns>
 			<translations><date>0305</date>
-				<translation gender="m">greenhouse<catexamp>L'efecte hivernacle</catexamp><engexamp>The Greenhouse Effect</engexamp></translation>
+				<translation gender="m">greenhouse</translation>
 			</translations>
 		</nouns>
+                <expressions>efecte hivernacle
+                    <translations>
+                        <translation gender="m">greenhouse effect</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="96">HMM<catacro>model ocult de Markov</catacro>
         <acronyms>
@@ -1263,9 +1299,29 @@
 	</Entry>
         <Entry frequency="46900">hoquei<nouns>
 			<translations>
-				<translation catagory="sports-event" gender="m">hockey<catexamp>Hoquei (sobre) patins</catexamp><engexamp>Roller hockey</engexamp><catexamp>Hoquei (sobre) gel</catexamp><engexamp>Ice hockey</engexamp></translation>
+				<translation catagory="sports-event" gender="m">hockey</translation>
 			</translations>
 		</nouns>
+                <expressions>hoquei gel
+                    <translations>
+                        <translation catagory="sports-event" gender="m">ice hockey</translation>
+                    </translations>
+                </expressions>
+                <expressions>hoquei sobre gel
+                    <translations>
+                        <translation catagory="sports-event" gender="m">ice hockey</translation>
+                    </translations>
+                </expressions>
+                <expressions>hoquei patins
+                    <translations>
+                        <translation catagory="sports-event" gender="m">roller hockey</translation>
+                    </translations>
+                </expressions>
+                <expressions>hoquei sobre patins
+                    <translations>
+                        <translation catagory="sports-event" gender="m">roller hockey</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="27100">hola<exclamations>
 			<translations>
@@ -1293,12 +1349,14 @@
 	</Entry> 
 	<Entry frequency="65000">hom<pronouns>
 			<translations><date>0505</date>
-				<translation><catexamp>Hom diu que ...</catexamp><engexamp>It's said that ... / People say that ...</engexamp>
-					<example>Antigament &lt;b&gt;hom&lt;/b&gt; creia que el Sol girava al voltant de la Terra.</example>
-					<example>Són casos en què &lt;b&gt;hom&lt;/b&gt; no sap què fer.</example>
-				</translation>
+				<translation>one<example>Antigament &lt;b&gt;hom&lt;/b&gt; creia que el Sol girava al voltant de la Terra.</example><example>Són casos en què &lt;b&gt;hom&lt;/b&gt; no sap què fer.</example></translation>
 			</translations>
 		</pronouns>
+                <expressions>hom diu que
+                    <translations>
+                        <translation>it is said that / people say that</translation>
+                    </translations>
+                </expressions>
 	</Entry>	
 	<Entry frequency="223000">home<nouns>
 			<translations><date>0805</date>
@@ -1392,9 +1450,14 @@
 	</Entry>
 <Entry frequency="268">homoparental<adjectives>
 			<translations>
-				<translation>same-sex<catexamp>Famílies monoparentals</catexamp><engexamp>Same-sex families</engexamp></translation>
+				<translation>same-sex</translation>
 			</translations>
 		</adjectives>
+                <expressions>família homoparental
+                    <translations>
+                        <translation gender="f">same-sex family</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="15700">homosexual<adjectives>
 			<translations><date>0505</date>
@@ -1499,19 +1562,38 @@
 	</Entry>
 	<Entry frequency="231000">hora<nouns>
 			<translations>
-				<translation catagory="time" gender="f">hour<catexamp>A primera hora del matí</catexamp>
-					<engexamp>First thing in the morning</engexamp><catexamp>A l'hora de (+infinitiu)</catexamp><engexamp>When (+gerundi)</engexamp>
-					<catexamp>Hora local</catexamp>
-					<engexamp>Local time</engexamp>
-					<catexamp>Hora punta</catexamp>
-					<engexamp>Rush hour / peak period</engexamp>
-				</translation>
+				<translation catagory="time" gender="f">hour</translation>
 			</translations>
 		</nouns>
+                <expressions>hora local
+                    <translations>
+                        <translation gender="f">local time</translation>
+                    </translations>
+                </expressions>
+                <expressions>hora punta
+                    <translations>
+                        <translation gender="f">rush hour / peak period</translation>
+                    </translations>
+                </expressions>
+                <expressions>hora vall
+                    <translations>
+                        <translation gender="f">off-peak period</translation>
+                    </translations>
+                </expressions>
                 <expressions>a hores d'ara
                 <translations>
                 <translation>at the moment / at present / by now<example>&lt;b&gt;A hores d'ara&lt;/b&gt; el codi encara no està disponible, però s'anuncia que es publicarà aviat.</example><example>&lt;b&gt;A hores d'ara&lt;/b&gt; ja deuen ser a la frontera.</example></translation>
                 </translations>
+                </expressions>
+                <expressions>a l'hora de (+ infinitiu)
+                    <translations>
+                        <translation>when (+gerund)<catexamp>A l'hora de comprar un cotxe...</catexamp><engexamp>When buying a car...</engexamp></translation>
+                    </translations>
+                </expressions>
+                <expressions>a primera hora del matí
+                    <translations>
+                        <translation>first thing in the morning</translation>
+                    </translations>
                 </expressions>
                 <expressions>d'hora
                 <translations>
@@ -1525,32 +1607,19 @@
                 </translations>
                 </expressions>
 	</Entry>
-	<Entry frequency="591">hora punta<nouns>
-			<translations>
-				<translation gender="f">rush hour / peak period</translation>
-			</translations>
-		</nouns>
-	</Entry>
 	<Entry frequency="134000">horari<nouns>
 			<translations>
 				<translation gender="m">timetable</translation>
-                                <translation gender="m">schedule<catexamp>Horari de treball</catexamp><engexamp>Work schedule</engexamp></translation>
+                                <translation gender="m">schedule</translation>
 			</translations>
 		</nouns>
+                <expressions>horari de treball
+                    <translations>
+                        <translation catagory="work" gender="m">work schedule</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="4530000">horari de treball<nouns>
-			<translations><date>1105</date>
-				<translation gender="m">work schedule</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="133">hora vall<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">off-peak period</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="690">horda<nouns>
+            <Entry frequency="690">horda<nouns>
 			<translations><date>0905</date>
 				<translation gender="f">horde</translation>
 			</translations>
@@ -1644,9 +1713,14 @@
 	</Entry>
                 <Entry frequency="25300">horticultura<nouns>
 			<translations><date>1006</date>
-				<translation gender="f">horticulture<catexamp>D'horticultura</catexamp><engexamp>Horticultural</engexamp></translation>
+				<translation catagory="plants" gender="f">horticulture</translation>
 			</translations>
 		</nouns>
+                <expressions>d'horticultura
+                    <translations>
+                        <translation catagory="plants">horticultural</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="588">hospici<nouns>
 			<translations>
@@ -1701,7 +1775,7 @@
 			<translations><date>0505</date>
 				<translation gender="m / f">guest</translation>
 				<translation gender="m / f">host<fems>hostessa</fems>
-					<catexamp>Malaltia de l'empelt contra l'hoste</catexamp><engexamp>Graft versus host disease </engexamp>
+					<catexamp>Malaltia de l'empelt contra l'hoste</catexamp><engexamp>Graft versus host disease</engexamp>
 					<catexamp>Cèl·lula hoste</catexamp><engexamp>Host cell</engexamp>
 				</translation>
                                 <translation feminine="hostessa" gender="f">air hostess / stewardess / flight attendant</translation>
@@ -1763,9 +1837,14 @@
 	</Entry>
         <Entry frequency="8780">humanitari<adjectives>
 			<translations>
-				<translation>humanitarian<catexamp>Ajuda humanitària</catexamp><engexamp>Humanitarian aid</engexamp><fems>humanitària</fems></translation>
+				<translation>humanitarian<fems>humanitària</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>ajuda humanitària
+                    <translations>
+                        <translation gender="f">humanitarian aid</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="44800">humanitat<nouns>
 			<translations>
