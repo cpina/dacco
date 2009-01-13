@@ -1012,7 +1012,7 @@
                     </translations>
                 </expressions>
 	</Entry>
-        <Entry frequency="116000000">taxi<nouns>
+                       <Entry frequency="116000000">taxi<nouns>
 			<translations><date>1007</date>
 				<translation catagory="transport-mode" gender="m">taxi<synonyms>cab (Am.)</synonyms></translation>
 			</translations>
@@ -3502,7 +3502,7 @@
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="361000000">time<nouns>
-                            <translations><date>1008</date>
+                            <translations><date>0109</date>
 				<translation catagory="time" gender="m">temps</translation>
 				<grouptranslation>
 					<translation gender="f">vegada</translation>
@@ -3535,6 +3535,11 @@
                 <expressions>at the same time
                     <translations>
                         <translation>alhora / al mateix temps</translation>
+                    </translations>
+                </expressions>
+                <expressions>for the time being
+                    <translations>
+                        <translation>ara per ara</translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -5089,12 +5094,23 @@
 		</nouns>
 	</Entry><Entry frequency="108000000">training<nouns>
 			<translations>
-				<translation catagory="work" gender="f">formació<engexamp>In-house training</engexamp><catexamp>Formació a l'empresa</catexamp><engexamp>Customized training</engexamp><catexamp>Formació a mida</catexamp></translation>
+				<translation catagory="work" gender="f">formació</translation>
 				<translation gender="m">entrenament</translation>
                                 <translation gender="f">orientació</translation>
 			</translations>
 		</nouns>
+                <expressions>customized training
+                    <translations>
+                        <translation gender="f">formació a mida</translation>
+                    </translations>
+                </expressions>
+                <expressions>in-house training
+                    <translations>
+                        <translation gender="f">formació a l'empresa</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="1670000">trait<nouns>
+            
 			<translations>
 				<translation gender="m">tret</translation>
 			</translations>

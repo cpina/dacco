@@ -799,9 +799,24 @@
 				<translation gender="f">mort</translation>
 			</translations>
 		</nouns>
+                <expressions>death metal
+                    <translations>
+                        <translation catagory="entertainment-music" gender="m">metall extrem</translation>
+                    </translations>
+                </expressions>
+                <expressions>death penalty
+                    <translations>
+                        <translation gender="f">pena de mort</translation>
+                    </translations>
+                </expressions>
                 <expressions>death sentence
                     <translations>
                         <translation gender="f">sentència de mort</translation>
+                    </translations>
+                </expressions>
+                <expressions>death squad
+                    <translations>
+                        <translation gender="m">esquadró de la mort</translation>
                     </translations>
                 </expressions>
                 <expressions>death threat
@@ -809,30 +824,11 @@
                     <translation gender="f">amenaça de mort</translation>
 			</translations>
 		</expressions>
-	</Entry>
-<Entry frequency="770000">death metal<nouns>
-			<translations>
-				<translation gender="m">metall extrem</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="2100000">death penalty<nouns>
-			<translations>
-				<translation gender="f">pena de mort</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="513000">death squad<nouns>
-			<translations>
-				<translation gender="m">esquadró de la mort</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="520000">death toll<nouns>
-			<translations>
-				<translation gender="f">xifra de víctimes mortals</translation>
-			</translations>
-		</nouns>
+                <expressions>death toll
+                    <translations>
+                        <translation gender="f">xifra de víctimes mortals</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="55900000">debate<nouns>
 			<translations>
@@ -884,6 +880,13 @@
                         <translations><date>0508</date>
                             <grouptranslation catagory="computers-programming" termcat="true"><translation gender="f">depuració</translation>
 				<translation gender="m">desbrossament</translation></grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="79700000">debut<nouns>
+                            <translations><date>0109</date>
+				<translation gender="m">debut</translation>
+                                <translation gender="f">estrena</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1533,6 +1536,12 @@
 <Entry frequency="2470000">deform<verbs>
 			<translations>
 				<translation>deformar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="2770000">defray<verbs>
+                            <translations><date>0109</date>
+				<translation register="formal" catagory="financial">sufragar</translation>
 			</translations>
 		</verbs>
 	</Entry>
