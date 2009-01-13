@@ -1677,13 +1677,21 @@
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="7980000">carriage<nouns>
-        <translations>
-            <translation catagory="transport" gender="m">vagó<engnote>'Vagó' means 'carriage' as in 'train carriage'.</engnote></translation>
-            <translation catagory="transport-mode" gender="m">carruatge<engnote>'Carruatge' means 'carriage' as in 'horse-drawn carriage'.</engnote></translation>
-            <translation gender="m">carro<engexamp>Carriage return</engexamp><catexamp>Retorn de carro</catexamp></translation>
+<Entry frequency="27500000">carriage<nouns>
+        <translations><date>0109</date>
+            <translation catagory="transport" gender="m">(train) vagó</translation>
+                <grouptranslation catagory="transport-mode">
+                    <translation gender="m">(horse-drawn vehicle) carruatge</translation>
+                    <translation gender="f">carrossa</translation>
+                </grouptranslation>
+                <translation gender="m">(typewriter) carro</translation>
         </translations>
     </nouns>
+    <expressions>carriage return
+        <translations>
+            <translation gender="m">retorn de carro</translation>
+        </translations>
+    </expressions>        
     </Entry>
 <Entry frequency="8020000">carrier<nouns>
         <translations><date>0808</date>

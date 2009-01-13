@@ -411,24 +411,32 @@
 				<translation catagory="sports-event" gender="f">swimming</translation>
 			</translations>
 		</nouns>
+                <expressions>natació sincronitzada
+                    <translations>
+                        <translation catagory="sports-event" gender="f">synchronized swimming</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-	<Entry frequency="820">natació sincronitzada<nouns>
-			<translations>
-				<translation catagory="sports-event" gender="f">synchronized swimming</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="9020">natal<adjectives>
-			<translations>
-				<translation>home / birth<catexamp>Terra natal</catexamp>
-					<engexamp>Homeland / land of (his / her) birth</engexamp>
-					<catexamp>Ciutat natal</catexamp>
-					<engexamp>Home town</engexamp>
-					<catexamp>La casa natal d'algú</catexamp>
-					<engexamp>Someone's childhood home / The house someone was born in</engexamp>
-				</translation>
+	<Entry frequency="129000">natal<adjectives>
+                            <translations><date>0109</date>
+				<translation>home / birth</translation>
 			</translations>
 		</adjectives>
+                <expressions>casa natal
+                    <translations>
+                        <translation gender="f">childhood home / house someone was born in</translation>
+                    </translations>
+                </expressions>
+                <expressions>ciutat natal
+                    <translations>
+                        <translation gender="f">hometown</translation>
+                    </translations>
+                </expressions>
+                <expressions>terra natal
+                    <translations>
+                        <translation gender="f">homeland / land of someone's birth</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="723">natalici<nouns>
 			<translations>
@@ -438,13 +446,19 @@
 	</Entry>
 	<Entry frequency="8760">natalitat<nouns>
 			<translations>
-				<translation gender="f">birth<catexamp>Control de natalitat</catexamp>
-					<engexamp>Birth control</engexamp>
-					<catexamp>Taxa de natalitat</catexamp>
-					<engexamp>Birth rate</engexamp>
-				</translation>
+				<translation gender="f">birth</translation>
 			</translations>
 		</nouns>
+                <expressions>control de natalitat
+                    <translations>
+                        <translation gender="m">birth control</translation>
+                    </translations>
+                </expressions>
+                <expressions>taxa de natalitat
+                    <translations>
+                        <translation gender="f">birth rate</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="7770">natiu<adjectives>
 			<translations>
@@ -541,12 +555,11 @@
 				<translation disambiguate="religious" gender="f">nave</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="771">nau espacial<nouns>
-			<translations>
-				<translation catagory="transport-mode" gender="f">spaceship</translation>
-			</translations>
-		</nouns>
+                <expressions>nau espacial
+                    <translations>
+                        <translation catagory="transport-mode" gender="f">spaceship</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="820">nàufrag<nouns>
 			<translations>
@@ -588,7 +601,17 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="0">navaixer<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Navaixes</translation></translations></nouns><adjectives><translations><translation>relating to Navaixes or its people<fems>navaixera</fems></translation></translations></adjectives></Entry>
+<Entry frequency="68">navaixer<nouns>
+        <translations><date>0109</date>
+        <translation catagory="geography" gender="m / f">(person / people) from Navaixes</translation>
+    </translations>
+</nouns>
+<adjectives>
+    <translations>
+        <translation>relating to Navaixes or its people<fems>navaixera</fems></translation>
+    </translations>
+</adjectives>
+</Entry>
 	<Entry frequency="14700">naval<adjectives>
 			<translations><date>0605</date>
 				<translation>naval / ship<catexamp>Construcció naval</catexamp>
@@ -616,7 +639,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="0">navarresí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Navarrés</translation></translations></nouns><adjectives><translations><translation>relating to Navarrés or its people<plural>navarresins</plural><fems>navarresina</fems></translation></translations></adjectives></Entry>
+<Entry frequency="79">navarresí<nouns>
+    <translations><date>0109</date>
+        <translation catagory="geography" gender="m / f">(person / people) from Navarrés</translation>
+    </translations>
+</nouns>
+<adjectives>
+    <translations>
+        <translation>relating to Navarrés or its people<plural>navarresins</plural><fems>navarresina</fems></translation>
+    </translations>
+</adjectives>
+</Entry>
 	<Entry frequency="514">navegabilitat<nouns>
 			<translations><date>0605</date>
 				<translation gender="f">navigablity</translation>
