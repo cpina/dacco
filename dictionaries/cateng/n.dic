@@ -961,12 +961,14 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>slave<catexamp>Vaixell negrer</catexamp>
-					<engexamp>Slave ship</engexamp>
-					<fems>negrera</fems>
-				</translation>
+				<translation>slave<fems>negrera</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>vaixell negrer
+                    <translations>
+                        <translation gender="m">slave ship</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="8150">negreta<nouns>
 			<translations>
@@ -1171,13 +1173,14 @@
 	</Entry>
 	<Entry frequency="12000">nerviós<adjectives>
 			<translations>
-				<translation>nervous<catexamp>Sistema nerviós</catexamp>
-					<engexamp>Nervous system</engexamp>
-					<fems>nerviosa</fems>
-					<plural>nerviosos</plural>
-				</translation>
+				<translation>nervous<fems>nerviosa</fems><plural>nerviosos</plural></translation>
 			</translations>
 		</adjectives>
+                <expressions>sistema nerviós
+                    <translations>
+                        <translation catagory="body" gender="m">nervous system</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1340">nerviosisme<nouns>
 			<translations>
@@ -1207,8 +1210,7 @@
 	<Entry frequency="220000">net<adjectives>
 			<translations>
 				<translation>clean</translation>
-				<translation catagory="financial">net<engnote>net means 'net' in the financial sense as in 'net earnings > earnings after tax'</engnote><fems>neta</fems>
-				</translation>
+				<translation disambiguate="financial">net<fems>neta</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1236,17 +1238,16 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>neteja ètnica
+                    <translations>
+                        <translation gender="f">ethnic cleansing</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="30">netejada<nouns>
 			<translations>
 				<translation gender="f">cleaning<synonyms>neteja</synonyms>
 				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="531">neteja ètnica<nouns>
-			<translations>
-				<translation gender="f">ethnic cleansing</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1279,11 +1280,14 @@
 	</Entry>
 	<Entry frequency="982">neural<adjectives>
 			<translations>
-				<translation>neural<catexamp>Xarxes neurals</catexamp>
-					<engexamp>Neural networks</engexamp>
-				</translation>
+				<translation>neural</translation>
 			</translations>
 		</adjectives>
+                <expressions>xarxa neural
+                    <translations>
+                        <translation gender="f">neural network</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="83">neuràlgia<nouns>
 			<translations>
@@ -1293,11 +1297,14 @@
 	</Entry>
 	<Entry frequency="855">neuràlgic<adjectives>
 			<translations>
-				<translation>neuralgic<catexamp>Punt neuràlgic</catexamp>
-					<engexamp>Nerve centre (Br.) / nerve center (Am.)</engexamp><fems>neuràlgica</fems><femplural>neuràlgiques</femplural>
-				</translation>
+                                    <translation>neuralgic<fems>neuràlgica</fems><femplural>neuràlgiques</femplural></translation>
 			</translations>
 		</adjectives>
+                <expressions>punt neuràlgic
+                    <translations>
+                        <translation catagory="biology" gender="m">nerve centre (Br.) / nerve center (Am.)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1700">neurobiologia<nouns>
 			<translations>
@@ -1490,7 +1497,7 @@
 	</Entry>
 	<Entry frequency="2050">niar<verbs conj="irregular1">
 			<translations>
-				<translation catagory="animal">to nest / to build a nest<synonyms>nidificar</synonyms>
+				<translation intransitive="true" catagory="animal">to nest / to build a nest<synonyms>nidificar</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -1557,7 +1564,7 @@
 	</Entry>
 	<Entry frequency="463">nidificar<verbs conj="CtoQU">
 			<translations>
-				<translation catagory="animal">to nest / to build a nest<synonyms>niar</synonyms>
+				<translation intransitive="true" catagory="animal">to nest / to build a nest<synonyms>niar</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -1723,11 +1730,19 @@
 	</Entry>
 	<Entry frequency="9930">nitrogen<nouns>
 			<translations>
-				<translation catagory="chemistry" gender="m">nitrogen<catexamp>Diòxid de nitrogen</catexamp>
-					<engexamp>Nitrogen dioxide</engexamp>
-				</translation>
+				<translation catagory="chemistry" gender="m">nitrogen</translation>
 			</translations>
 		</nouns>
+                <expressions>diòxid de nitrogen
+                    <translations>
+                        <translation catagory="chemistry" gender="m">nitrogen dioxide</translation>
+                    </translations>
+                </expressions>
+                <expressions>monòxid de nitrogen
+                    <translations>
+                        <translation catagory="chemistry" gender="m">nitrogen monoxide</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="115">nitroglicerina<nouns>
 			<translations>
@@ -1866,9 +1881,14 @@
 	</Entry>
         <Entry frequency="259">nodal<adjectives>
 			<translations><date>1205</date>
-				<translation>nodal<catexamp>Punt nodal</catexamp><engexamp>Nodal point</engexamp></translation>
+				<translation>nodal</translation>
 			</translations>
 		</adjectives>
+                <expressions>punt nodal
+                    <translations>
+                        <translation gender="m">nodal point</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="220000">node<nouns>
 			<translations><date>1205</date>
@@ -1909,7 +1929,7 @@
 	</Entry> 
 	<Entry frequency="991">nogensmenys<adverbs>
 			<translations>
-				<translation>however, nevertheless, in spite of (this)</translation>
+				<translation>however / nevertheless / in spite of (this)</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -1952,7 +1972,7 @@
 	</Entry>
 	<Entry frequency="15600000">nom<nouns>
                             <translations><date>1208</date>
-				<translation gender="m">name<catexamp>Nom de pila</catexamp><engexamp>First name / Christian name</engexamp></translation>
+				<translation gender="m">name</translation>
 			</translations>
 		</nouns>
                 <expressions>nom de fonts
@@ -2110,7 +2130,7 @@
 	</Entry>
         <Entry frequency="1650000">norantè<adjectives>
 			<translations><date>1205</date>
-				<translation>ninetieth<fems>norantena</fems></translation>
+				<translation catagory="number-ordinal">ninetieth<fems>norantena</fems></translation>
 			</translations>
 		</adjectives>
                 <nouns>
