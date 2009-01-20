@@ -351,7 +351,14 @@
 				<translation>poc / gens clar</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="1450000">uncomfortable<adjectives>
+	</Entry>
+        <Entry frequency="606000">unclog<verbs double="true">
+                        <translations><date>0109</date>
+                            <translation>desembossar / desembussar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="1450000">uncomfortable<adjectives>
 			<translations>
 				<translation>incòmode</translation>
 			</translations>
@@ -1553,9 +1560,14 @@
 	</Entry>
           <Entry frequency="2530000">unwavering<adjectives>
 			<translations><date>1108</date>
-				<translation>ferm<engexamp>Unwavering support</engexamp><catexamp>Suport ferm</catexamp></translation>
+				<translation>ferm</translation>
 			</translations>
 		</adjectives>
+                <expressions>unwavering support
+                    <translations>
+                        <translation gender="m">suport ferm</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="116000">unwillingly<adverbs>
 			<translations>
@@ -1600,6 +1612,11 @@
 				<translation>amunt</translation>
 			</translations>
 		</adverbs>
+                  <expressions>be up yourself
+                <translations>
+                    <translation register="slang" local="gb">ser arrogant / presumit<example>&lt;b&gt;He's so up himself&lt;/b&gt; he thinks he can have anyone. He thinks he's God's gift to this world!</example><example>The waiters &lt;b&gt;are really up themselves&lt;/b&gt; at that restaurant and only choose to serve you if they like the look of you.</example></translation>
+                </translations>
+                </expressions>
                 <expressions>get up
                 <translations>
                 <translation>llevar-se</translation></translations></expressions>
@@ -1608,19 +1625,16 @@
                 <translation register="slang">què s'hi cou?<synonyms>what's happening, what gives, what's cooking</synonyms></translation>
                 </translations>
                 </expressions>
-                <expressions>be up yourself
-                <translations>
-                    <translation register="slang" local="gb">ser arrogant / presumit<example>&lt;b&gt;He's so up himself&lt;/b&gt; he thinks he can have anyone. He thinks he's God's gift to this world!</example><example>The waiters &lt;b&gt;are really up themselves&lt;/b&gt; at that restaurant and only choose to serve you if they like the look of you.</example></translation>
-                </translations>
-                </expressions>
 	</Entry><Entry frequency="10200000">upbeat<adjectives>
 			<translations>
 				<translation>optimista / alegre</translation>
 			</translations>
 		</adjectives>
                 <nouns>
-                <translations>
-                <translation catagory="entertainment-music" gender="m">contratemps / anacrusi</translation></translations></nouns>
+                    <translations>
+                        <translation catagory="entertainment-music" gender="m">contratemps / anacrusi</translation>
+                    </translations>
+                </nouns>
 	</Entry><Entry frequency="7760000">upbringing<nouns>
 			<translations><date>0408</date>
 				<translation gender="f">educació</translation>

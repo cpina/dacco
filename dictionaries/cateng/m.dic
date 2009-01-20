@@ -459,6 +459,39 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="9910000">major<adjectives>
+                            <translations><date>0109</date>
+                                <translation>bigger / larger / greater / older<catexamp>Els majors de 65 anys</catexamp><engexamp>The over 65s</engexamp></translation>
+                            <translation>biggest / largest / greatest / oldest<catexamp>El major experiment de la història</catexamp><engexamp>The biggest experiment in history</engexamp></translation>
+				<translation>main</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="m">major</translation>
+                    </translations>
+                </nouns>
+                <expressions>major d'edat
+                    <translations>
+                        <translation>adult / grown-up / of (legal) age</translation>
+                    </translations>
+                </expressions>
+                <expressions>al major
+                    <translations>
+                        <translation>wholesale</translation>
+                    </translations>
+                </expressions>
+                <expressions>carrer major
+                    <translations>
+                        <translation gender="m">high street</translation>
+                    </translations>
+                </expressions>
+                <expressions>la major part
+                    <translations>
+                        <translation>most (of) / the majority (of)</translation>
+                    </translations>
+                </expressions>
+	</Entry>
         <Entry frequency="891">majordom<nouns>
 			<translations><date>0805</date>
 				<translation catagory="work-job" gender="m">butler</translation>
@@ -2101,9 +2134,15 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="164000">massacrar<verbs conj="regular">
+                            <translations><date>0109</date>
+				<translation>to massacre</translation>
+			</translations>
+		</verbs>
+	</Entry>
 	<Entry frequency="1810">massacre<nouns>
 			<translations>
-				<translation catagory="topicalissues-war" gender="f">massacre</translation>
+				<translation gender="f">massacre</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3309,27 +3348,41 @@
 				<translation catagory="computers" gender="m">menu</translation>
 			</translations>
 		</nouns>
+                <expressions>menú emergent
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="m">pop-up menu</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="93">menú emergent<nouns>
-			<translations>
-				<translation catagory="computers" termcat="true" gender="m">pop-up menu</translation>
+             <Entry frequency="63">menudista<nouns>
+                            <translations><date>0109</date>
+				<translation gender="m / f">retailer<synonyms>detallista</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="10700">menut<adjectives>
-			<translations>
-				<translation>small<fems>menuda</fems>
-				</translation>
+       	<Entry frequency="275000">menut<adjectives>
+                            <translations><date>0109</date>
+				<translation>small / tiny</translation>
+                                <translation>trivial / unimportant<fems>menuda</fems></translation>
 			</translations>
 		</adjectives>
-                <expressions>a la menuda
-                <translations>
-                <translation>retail<synonyms>al detall</synonyms></translation></translations></expressions>
                 <nouns>
                     <translations>
-                        <translation catagory="food" gender="mpl">offal / giblets (d'un ocell)</translation>
+                        <translation gender="m / f">kid</translation>
+                        <translation disambiguate="financial" gender="mpl">small change / loose change</translation>
+                        <translation disambiguate="food" gender="mpl">offal / (d'un ocell) giblets</translation>
                     </translations>
                 </nouns>
+                <expressions>a la menuda
+                    <translations>
+                        <translation>retail<synonyms>al detall</synonyms></translation>
+                    </translations>
+                </expressions>
+                <expressions>per menut
+                    <translations>
+                        <translation>in (some) detail</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="105000">menys<adjectives>
 			<translations>
