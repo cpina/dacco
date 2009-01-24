@@ -535,11 +535,31 @@
                 <nouns>
                 <translations>
                 <translation gender="m">evil<catexamp>Més enllà del bé i del mal</catexamp><engexamp>Beyond good and evil</engexamp></translation>
-                <translation gender="m">pain / ache<catexamp>Mal d'esquena</catexamp><engexamp>Backache / back pain</engexamp><catexamp>Mal de cap</catexamp><engexamp>Headache</engexamp><catexamp>Mal de panxa</catexamp><engexamp>Stomach ache / tummy ache / bellyache</engexamp></translation>
-                <translation gender="m">disease / illness<catexamp>El mal de les vaques bogues</catexamp><engexamp>Mad cow disease</engexamp></translation>
-                <translation gender="m">wound / injury<example>Tinc un &lt;b&gt;mal&lt;/b&gt; al dit</example></translation>
+                <translation gender="m">pain / ache</translation>
+                <translation gender="m">disease / illness</translation>
+                <translation gender="m">wound / injury<example>Tinc un &lt;b&gt;mal&lt;/b&gt; al dit.</example></translation>
                 </translations>
                 </nouns>
+                <expressions>mal de cap
+                    <translations>
+                        <translation catagory="medical" gender="m">headache</translation>
+                    </translations>
+                </expressions>
+                <expressions>mal d'esquena
+                    <translations>
+                        <translation catagory="medical" gender="m">backache / back pain</translation>
+                    </translations>
+                </expressions>
+                <expressions>mal de panxa
+                    <translations>
+                        <translation catagory="medical" gender="m">stomach ache / tummy ache / belly ache</translation>
+                    </translations>
+                </expressions>
+                <expressions>mal de les vaques bogues
+                    <translations>
+                        <translation catagory="medical-illness" gender="m">mad cow disease</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="564">malabarista<nouns>
 			<translations>
@@ -636,17 +656,17 @@
                         <translation catagory="medical-illness" gender="f">Hodgkin's (disease)</translation>
                     </translations>
                 </expressions>
+                 <expressions>malaltia mental
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">mental illness</translation>
+                    </translations>
+                </expressions>
                 <expressions>malaltia de Parkinson
                     <translations>
                         <translation catagory="medical-illness" gender="f">Parkinson's (disease)<catexamp>La malaltia de Parkinson és un trastorn neurològic freqüent</catexamp><engexamp>Parkinson's is a common neurological disorder</engexamp></translation>
                     </translations>
                 </expressions>
-                <expressions>malaltia mental
-                    <translations>
-                        <translation catagory="medical-illness" gender="f">mental illness</translation>
-                    </translations>
-                </expressions>
-	</Entry>
+               	</Entry>
        <Entry frequency="26800">malaltís<adjectives>
 			<translations><date>0406</date>
 				<translation catagory="medical">sickly<fems>malaltissa</fems><plural>malaltissos</plural></translation>
@@ -921,7 +941,7 @@
 	</Entry>
         <Entry frequency="650">malpensar<verbs conj="regular">
 			<translations><date>0807</date>
-				<translation>to think badly (o ill)<catexamp>Malpensar d'algú</catexamp><engexamp>To think badly of somebody</engexamp></translation>
+				<translation>(~ de) to think badly (of) / to think ill (of)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1037,10 +1057,15 @@
 	</Entry>
 	<Entry frequency="4020">manament<nouns>
 			<translations>
-				<translation disambiguate="religious" gender="m">commandment<catexamp>Els Deu Manaments</catexamp><engexamp>The Ten Commandments</engexamp></translation>
+				<translation disambiguate="religious" gender="m">commandment</translation>
 				<translation catagory="legal" gender="m">order</translation>
 			</translations>
 		</nouns>
+                <expressions>els Deu Manaments
+                    <translations>
+                        <translation catagory="religious">the Ten Commandments</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="549000">manar<verbs conj="regular">
 			<translations><date>1007</date>
@@ -1136,9 +1161,19 @@
 	</Entry>
         <Entry frequency="169000">mandra<nouns>
 			<translations><date>0907</date>
-				<translation gender="f">laziness / idleness<catexamp>Tinc mandra</catexamp><engexamp>I can't be bothered</engexamp><catexamp>Em fa mandra</catexamp><engexamp>It's too much effort</engexamp><synonyms>peresa</synonyms></translation>
+				<translation gender="f">laziness / idleness<catexamp>Em fa mandra</catexamp><engexamp>It's too much effort</engexamp><synonyms>peresa</synonyms></translation>
 			</translations>
 		</nouns>
+                <expressions>fer mandra a (algú)
+                    <translations>
+                        <translation>to be too much effort<catexamp>M'hauria de dutxar.. però em fa mandra</catexamp><engexamp>I should have a shower but it's too much effort</engexamp></translation>
+                    </translations>
+                </expressions>
+                <expressions>tenir mandra
+                    <translations>
+                        <translation>to not be bothered<catexamp>Tinc mandra</catexamp><engexamp>I can't be bothered</engexamp></translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="145">mandrejar<verbs conj="JtoG">
 			<translations><date>0206</date>
@@ -1633,11 +1668,14 @@
 	</Entry>
 	<Entry frequency="222">mareomotriu<adjectives>
 			<translations>
-				<translation>tidal<catexamp>Energia mareomotriu</catexamp>
-					<engexamp>Tidal power</engexamp>
-				</translation>
+				<translation>tidal</translation>
 			</translations>
 		</adjectives>
+                <expressions>energia mareomotriu
+                    <translations>
+                        <translation gender="f">tidal power</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1500">maresme<nouns>
 			<translations>
@@ -1702,10 +1740,14 @@
 	<Entry frequency="1040000">marí<adjectives>
 			<translations><date>0708</date>
 				<translation>sea / marine<fems>marina</fems>
-					<plural>marins</plural><catexamp>Animals marins</catexamp><engexamp>Sea creatures</engexamp>
-				</translation>
+					<plural>marins</plural></translation>
 			</translations>
 		</adjectives>
+                <expressions>animal marí
+                    <translations>
+                        <translation catagory="animal" gender="m">sea creature</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="0">mariando<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Maria de la Salut</translation></translations></nouns><adjectives><translations><translation>relating to Maria de la Salut or its people<fems>marianda</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="201">maridar<verbs conj="regular">
@@ -1735,9 +1777,14 @@
 	</Entry>
 	<Entry frequency="9000">marina<nouns>
 			<translations>
-				<translation gender="f">navy<catexamp>Marina mercant</catexamp><engexamp>Merchant navy</engexamp></translation>
+				<translation gender="f">navy</translation>
 			</translations>
 		</nouns>
+                <expressions>marina mercant
+                    <translations>
+                        <translation gender="f">merchant navy</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="2220">marinada<nouns>
 			<translations><date>0506</date>
@@ -2118,14 +2165,15 @@
 		</nouns>
 	</Entry>
 	<Entry frequency="78400">massa<adjectives>
-			<translations>
-				<translation>too many</translation>
+                            <translations><date>0109</date>
+				<translation>(noms comptables) too many<catexamp>Massa persones</catexamp><engexamp>Too many people</engexamp></translation>
+                                <translation>(noms de massa) too much<catexamp>Massa soroll</catexamp><engexamp>Too much noise</engexamp></translation>
 			</translations>
 		</adjectives>
 		<adverbs>
 			<translations>
                             <translation>overly / too<catexamp>Massa tard</catexamp><engexamp>Too late</engexamp><catexamp>Massa complicat</catexamp><engexamp>Too (or overly) complicated</engexamp></translation>
-				<translation>too much (or many)<catexamp>Massa soroll</catexamp><engexamp>Too much noise</engexamp><catexamp>Massa persones</catexamp><engexamp>Too many people</engexamp></translation>
+                            <translation>too much<catexamp>Et preocupes massa</catexamp><engexamp>You worry too much</engexamp></translation>
 			</translations>
 		</adverbs>
         <nouns>
@@ -2133,6 +2181,11 @@
 				<translation gender="f">mass</translation>
 			</translations>
 		</nouns>
+                <expressions>massa crítica
+                    <translations>
+                        <translation gender="f">critical mass</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="164000">massacrar<verbs conj="regular">
                             <translations><date>0109</date>
@@ -3153,7 +3206,7 @@
 	</Entry>
         <Entry frequency="556">meninge<nouns>
 			<translations><date>1007</date>
-				<translation catagory="body" gender="m">meninx<catexamp>Meninges</catexamp><engexamp>Meninges</engexamp></translation>
+				<translation catagory="body" gender="m">meninx / (pl.) meninges</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4581,12 +4634,14 @@
 	</Entry>
 	<Entry frequency="24600">minoritari<adjectives>
 			<translations>
-				<translation>minority<fems>minoritària</fems>
-					<catexamp>Llengües minoritàries</catexamp>
-					<engexamp>Minority languages</engexamp>
-				</translation>
+				<translation>minority<fems>minoritària</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>llengua minoritària
+                    <translations>
+                        <translation catagory="linguistics" gender="f">minority language</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="726">minotaure<nouns>
 			<translations>
@@ -4934,7 +4989,7 @@
                         <translation gender="m / f">stocking maker / stocking seller<fems>mitgera</fems></translation>
                     </translations>
                 </nouns>
-	</Entry>
+                </Entry>
 	<Entry frequency="700">mitges<nouns>
 			<translations>
 				<translation catagory="clothes" gender="fpl">tights</translation>
@@ -5566,9 +5621,14 @@
 	</Entry>
         <Entry frequency="598">moniato<nouns>
 			<translations><date>0106</date>
-				<translation catagory="food-vegetable" gender="m">yam / sweet potato<catexamp>Ser (algú) un moniato</catexamp><engexamp>To be a fool / idiot</engexamp></translation>
+				<translation catagory="food-vegetable" gender="m">yam / sweet potato</translation>
 			</translations>
 		</nouns>
+                <expressions>ser un moniato
+                    <translations>
+                        <translation>to be a fool (or idiot)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="207000">monitor<nouns>
 			<translations><date>0408</date>
@@ -5893,9 +5953,14 @@
 	</Entry>
          <Entry frequency="725">morrut<nouns>
 			<translations><date>1206</date>
-				<translation catagory="animal-insect" gender="m">weevil<catexamp>Morrut roig de la palmera</catexamp><engexamp>Red palm weevil</engexamp></translation>
+				<translation catagory="animal-insect" gender="m">weevil</translation>
 			</translations>
 		</nouns>
+                <expressions>morrut roig de la palmera
+                    <translations>
+                        <translation catagory="animal-insect" gender="m">red palm weevil</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="127">morsa<nouns>
 			<translations><date>0405</date>

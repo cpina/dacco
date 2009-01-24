@@ -1922,7 +1922,7 @@
                 </phrasalverbs>
                 <phrasalverbs>give in
                     <translations>
-                        <translation>rendir-se / cedir<example>I &lt;b&gt;give in&lt;/b&gt;. What's the answer?</example></translation>
+                        <translation intransitive="true">rendir-se / cedir<example>I &lt;b&gt;give in&lt;/b&gt;. What's the answer?</example></translation>
                     </translations>
                 </phrasalverbs>
                 <phrasalverbs>give of
@@ -1942,16 +1942,12 @@
                 </phrasalverbs>
                 <phrasalverbs>give out
                 <translations>
-                    <translation>deixar de funcionar<example>I was 100m from the finishing line when my legs &lt;b&gt;gave out&lt;/b&gt;.</example></translation>
-                    <translation>exhaurir-se<example>The soldiers continued to resist until their ammunition &lt;b&gt;gave out&lt;/b&gt;.</example></translation>
+                    <translation intransitive="true">deixar de funcionar<example>I was 100m from the finishing line when my legs &lt;b&gt;gave out&lt;/b&gt;.</example></translation>
+                    <translation intransitive="true">exhaurir-se<example>The soldiers continued to resist until their ammunition &lt;b&gt;gave out&lt;/b&gt;.</example></translation>
+                    <translation transitive="true">repartir<synonyms>hand out</synonyms><example>At the party, they &lt;b&gt;gave out&lt;/b&gt; disposable cameras to all their guests.</example></translation>
                 </translations>
                 </phrasalverbs>
-                <phrasalverbs>give (something) out
-                <translations>
-                    <translation>repartir<synonyms>hand out</synonyms><example>At the party, they &lt;b&gt;gave out&lt;/b&gt; disposable cameras to all their guests.</example></translation>
-                </translations>
-                </phrasalverbs>
-                <phrasalverbs>give over
+               <phrasalverbs>give over
                 <translations>
                     <translation>parar (de fer alguna cosa)<example>Rebecca! &lt;b&gt;Give over&lt;/b&gt; annoying your brother!</example></translation>
                 </translations>
@@ -1960,24 +1956,20 @@
                 <translations>
                 <translation>cedir<example>I &lt;b&gt;give up&lt;/b&gt;, you win!</example></translation>
                 <translation>abandonar / renunciar / desistir / deixar</translation>
+                <translation>deixar de / desenganxar-se<engexamp>To give up smoking</engexamp><catexamp>Deixar de fumar</catexamp><engexamp>To give up drugs</engexamp><catexamp>Desenganxar-se de la droga</catexamp><example>He wants you to &lt;b&gt;give up&lt;/b&gt; smoking.</example></translation>
                 </translations>
                 </phrasalverbs>
-                <phrasalverbs>give (something) up
-                <translations>
-                    <translation>deixar de / desenganxar-se<engexamp>To give up smoking</engexamp><catexamp>Deixar de fumar</catexamp><engexamp>To give up drugs</engexamp><catexamp>Desenganxar-se de la droga</catexamp><example>He wants you to &lt;b&gt;give up&lt;/b&gt; smoking.</example></translation>
-                    </translations>
-                </phrasalverbs>
-                <phrasalverbs>give (yourself) up to
+                 <phrasalverbs>give yourself up to
                     <translations>
                     <translation intransitive="true">abandonar-se a</translation>
                     <translation intransitive="true">lliurar-se a (una autoritat)</translation>
                 </translations>
             </phrasalverbs>
-                <phrasalverbs>give way
+                <expressions>give way
                     <translations>
                         <translation>cedir el pas</translation>
                     </translations>
-                </phrasalverbs>
+                </expressions>
                   <expressions>give it up for (someone / something)
                 <translations>
                     <translation local="us">aplaudir<example>Ladies and gentlemen, please &lt;b&gt;give it up for&lt;/b&gt; tonight's guest Will Smith!</example></translation>
@@ -3876,9 +3868,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="2740000">grievance<nouns>
-			<translations>
-				<translation gender="m">greuge</translation>
+<Entry frequency="6420000">grievance<nouns>
+                            <translations><date>0109</date>
+				<translation gender="f">queixa</translation>
 			</translations>
 		</nouns>
 	</Entry>

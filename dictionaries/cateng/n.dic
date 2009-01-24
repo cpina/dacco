@@ -8,12 +8,14 @@
 	</Entry>
 	<Entry frequency="40400">nació<nouns>
 			<translations>
-				<translation gender="f">nation<catexamp>Nacions Unides</catexamp>
-					<engexamp>United Nations</engexamp>
-					<plural>nacions</plural>
-				</translation>
+				<translation gender="f">nation<plural>nacions</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>Nacions Unides
+                    <translations>
+                        <translation catagory="politics" gender="fpl">United Nations</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="587000">nacional<adjectives>
 			<translations><date>0408</date>
@@ -62,13 +64,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="14500">Nacions Unides<nouns>
-			<translations>
-				<translation catagory="politics" gender="f">United Nations</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="500">nacra<nouns>
+	<Entry frequency="500">nacra<nouns>
                             <translations><date>0708</date>
                                 <translation catagory="entertainment-music" gender="m">naker<engnote>A 'naker' is a small drum of Middle-Eastern origin.</engnote></translation>
 			</translations>
@@ -210,6 +206,17 @@
 				<translation catagory="country-africa" gender="f">Namibia</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="750">namibià<nouns>
+			<translations><date>0109</date>
+				<translation catagory="nationality-africa" gender="m / f">Namibian</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>Namibian<fems>namibiana</fems><plural>namibians</plural></translation>
+                    </translations>
+                </adjectives>
 	</Entry>
 	<Entry frequency="26200">nan<nouns>
 			<translations><date>0905</date>
@@ -476,7 +483,7 @@
 	</Entry>
 	<Entry frequency="4620">natja<nouns>
 			<translations><date>1007</date>
-				<translation catagory="body" gender="f">buttock / bum cheek (slang)<plural>natges</plural>
+				<translation catagory="body" gender="f">buttock / (argot) bum cheek<plural>natges</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -601,24 +608,27 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="68">navaixer<nouns>
-        <translations><date>0109</date>
-        <translation catagory="geography" gender="m / f">(person / people) from Navaixes</translation>
-    </translations>
-</nouns>
-<adjectives>
-    <translations>
-        <translation>relating to Navaixes or its people<fems>navaixera</fems></translation>
-    </translations>
-</adjectives>
-</Entry>
+        <Entry frequency="68">navaixer<nouns>
+                <translations><date>0109</date>
+                    <translation catagory="geography" gender="m / f">(person / people) from Navaixes</translation>
+                </translations>
+            </nouns>
+            <adjectives>
+                <translations>
+                    <translation>relating to Navaixes or its people<fems>navaixera</fems></translation>
+                </translations>
+            </adjectives>
+        </Entry>
 	<Entry frequency="14700">naval<adjectives>
 			<translations><date>0605</date>
-				<translation>naval / ship<catexamp>Construcció naval</catexamp>
-					<engexamp>Shipbuilding</engexamp>
-				</translation>
+				<translation>naval / ship</translation>
 			</translations>
 		</adjectives>
+                <expressions>construcció naval
+                    <translations>
+                        <translation gender="f">shipbuilding</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="809">navalla<nouns>
 			<translations><date>0605</date>
@@ -639,17 +649,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="79">navarresí<nouns>
-    <translations><date>0109</date>
-        <translation catagory="geography" gender="m / f">(person / people) from Navarrés</translation>
-    </translations>
-</nouns>
-<adjectives>
-    <translations>
-        <translation>relating to Navarrés or its people<plural>navarresins</plural><fems>navarresina</fems></translation>
-    </translations>
-</adjectives>
-</Entry>
+        <Entry frequency="79">navarresí<nouns>
+                <translations><date>0109</date>
+                    <translation catagory="geography" gender="m / f">(person / people) from Navarrés</translation>
+                </translations>
+            </nouns>
+            <adjectives>
+                <translations>
+                    <translation>relating to Navarrés or its people<plural>navarresins</plural><fems>navarresina</fems></translation>
+                </translations>
+            </adjectives>
+        </Entry>
 	<Entry frequency="514">navegabilitat<nouns>
 			<translations><date>0605</date>
 				<translation gender="f">navigablity</translation>
