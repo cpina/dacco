@@ -6121,6 +6121,21 @@
                                 <translation disambiguate="geography" gender="m">front<engexamp>Warm front</engexamp><catexamp>Front càlid</catexamp><engexamp>Cold front</engexamp><catexamp>Front fred</catexamp></translation>
 			</translations>
 		</nouns>
+                <expressions>front hand
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">mà de davant</translation>
+                    </translations>
+                </expressions>
+                <expressions>front page
+                    <translations>
+                        <translation gender="f">portada</translation>
+                    </translations>
+                </expressions>
+                <expressions>front seat
+                    <translations>
+                        <translation catagory="transport" gender="m">seient del davant / seient davanter</translation>
+                    </translations>
+                </expressions>
                 <expressions>in front
                 <translations>
                 <translation>davant</translation>
@@ -6131,12 +6146,6 @@
                 <translation>davant de</translation>
                 </translations>
                 </expressions>
-	</Entry>
-<Entry frequency="241000">front hand<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">mà de davant</translation>
-			</translations>
-		</nouns>
 	</Entry>
 <Entry frequency="161000000">frontier<nouns>
 			<translations>
@@ -6150,41 +6159,26 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="58600000">front page<nouns>
-			<translations>
-				<translation gender="f">portada</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="407000">front seat<nouns>
-			<translations>
-				<translation gender="m">seient del davant / seient davanter</translation>
-			</translations>
-		</nouns>
-	</Entry>
 <Entry frequency="877000">frontside<nouns>
 			<translations>
 				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">costat de puntes<synonyms>toe side</synonyms></translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="30800">frontside air<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">aeri de puntes</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="201">frontside edge<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" gender="m">cantell de puntes</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="542">frontside wall<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">paret de puntes</translation>
-			</translations>
-		</nouns>
+                <expressions>frontside air
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">aeri de puntes</translation>
+                    </translations>
+                </expressions>
+                <expressions>frontside edge
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding" gender="m">cantell de puntes</translation>
+                    </translations>
+                </expressions>
+                <expressions>frontside wall
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">paret de puntes</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3260000">frost<nouns>
 			<translations>
@@ -6243,12 +6237,17 @@
 <Entry frequency="23400000">fruit<nouns>
                             <translations><date>0608</date>
 				<translation gender="f">fruita</translation>
-                                <translation beforenoun="true">fruiter<engexamp>Fruit trees</engexamp><catexamp>Arbres fruiters</catexamp></translation>
+                                <translation beforenoun="true">fruiter</translation>
 			</translations>
 		</nouns>
-                <expressions>to bear (or produce) fruit
+                <expressions>fruit tree
                     <translations>
-                        <translation catagory="plants">fructificar</translation>
+                        <translation catagory="plants-tree" gender="m">arbre fruiter</translation>
+                    </translations>
+                </expressions>
+                <expressions>bear fruit
+                    <translations>
+                        <translation catagory="plants">fructificar<synonyms>produce fruit</synonyms></translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -6307,12 +6306,11 @@
 				<translation gender="m">FTP<catacro>Protocol de transferència de fitxers</catacro><engexamp>Anonymous FTP</engexamp><catexamp>FTP anònim</catexamp><engexamp>FTP server</engexamp><catexamp>Servidor FTP</catexamp></translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="">FTP server<nouns>
-			<translations>
-				<translation catagory="computers" termcat="true" gender="m">servidor FTP</translation>
-			</translations>
-		</nouns>
+                <expressions>FTP server
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="m">servidor FTP</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="28000000">fuck<verbs>
                             <translations><date>0807</date>
@@ -6371,12 +6369,11 @@
 				<translation gender="m">combustible</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="2580000">fuel cell<nouns>
-			<translations>
-				<translation gender="f">pila de combustible / cèl·lula de combustible</translation>
-			</translations>
-		</nouns>
+                <expressions>fuel cell
+                    <translations>
+                        <translation gender="f">pila de combustible / cèl·lula de combustible</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="21400000">fugitive<nouns>
 			<translations>
@@ -6433,22 +6430,19 @@
                                 <translation>tip<engnote>'Tip' means 'full' in the sense 'can't eat any more'.</engnote></translation>
 			</translations>
 		</adjectives>
+                <expressions>full bath
+                    <translations>
+                        <translation>bany complet</translation>
+                    </translations>
+                </expressions>
+                <expressions>full fat milk
+                    <translations>
+                        <translation local="us" catagory="food-drink" gender="f">llet sencera<otherlocal>whole milk</otherlocal>
+                        </translation>
+                    </translations>
+                </expressions>
                 <expressions>full to the brim<translations><translation>ple a vessar</translation></translations></expressions>
                 <expressions>full to bursting<translations><translation>ple a vessar</translation></translations></expressions>
-	</Entry>
-<Entry frequency="209000">full bath<nouns>
-			<translations>
-				<translation>bany complet<engnote>'Bany complet' means 'full bath' in the sense of bathroom with bath, shower, toilet etc.</engnote>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="4280">full fat milk<nouns>
-			<translations>
-				<translation local="us" gender="f">llet sencera<otherlocal>whole milk</otherlocal>
-				</translation>
-			</translations>
-		</nouns>
 	</Entry>
 <Entry frequency="4070000">fullness<nouns>
 			<translations>
@@ -6480,13 +6474,25 @@
 			</translations>
 		</adverbs>
 	</Entry>
-<Entry frequency="1380000">fumble<nouns>
-                            <translations><date>1107</date>
-				<translation disambiguate="sports-event-americanfootball" termcat="true" gender="f">(futbol americà) pèrdua de pilota</translation>
-                                <translation disambiguate="sports-event-basketball" termcat="true" gender="m">(basquetbol) fumble</translation>
+        <Entry frequency="4280000">fulminate<verbs>
+                            <translations><date>0109</date>
+				<translation>fulminar</translation>
+                                <translation>(~ against) atacar / criticar / denunciar / fulminar</translation>
 			</translations>
-		</nouns>
-	<phrasalverbs>fumble around<translations><translation intransitive="true">forfollar</translation></translations></phrasalverbs></Entry>
+		</verbs>
+	</Entry>
+        <Entry frequency="1380000">fumble<nouns>
+                <translations><date>1107</date>
+                    <translation disambiguate="sports-event-americanfootball" termcat="true" gender="f">(futbol americà) pèrdua de pilota</translation>
+                    <translation disambiguate="sports-event-basketball" termcat="true" gender="m">(basquetbol) fumble</translation>
+                </translations>
+            </nouns>
+            <phrasalverbs>fumble around
+                <translations>
+                    <translation intransitive="true">forfollar</translation>
+                </translations>
+            </phrasalverbs>
+        </Entry>
 <Entry frequency="86100000">fun<adjectives>
 			<translations>
 				<translation>divertit</translation>

@@ -1883,11 +1883,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="4150">inconscient<adjectives>
-			<translations>
+	<Entry frequency="109000">inconscient<adjectives>
+                            <translations><date>0109</date>
 				<translation>unconscious</translation>
+                                <translation>thoughtless</translation>
 			</translations>
 		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="m">the unconscious</translation>
+                        <translation gender="m / f">thoughtless (man, woman, person..)</translation>
+                    </translations>
+                </nouns>
 	</Entry>
 	<Entry frequency="102000">inconstitucional<adjectives>
 			<translations><date>0905</date>
@@ -4030,12 +4037,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="652">intel·lectualitat<nouns>
-			<translations><date>0106</date>
-				<translation gender="f">intelligentsia<catnote>(Tots els intel·lectuals d'una societat)</catnote></translation>
-                                <translation gender="f">intellectuality<catnote>(Qualitat d'intel·lectual)</catnote></translation>
+        <Entry frequency="19400">intel·lectualitat<nouns>
+			<translations><date>0109</date>
+				<translation gender="f">(tots els intel·lectuals d'una societat) intelligentsia</translation>
+                                <translation gender="f">(qualitat d'intel·lectual) intellectuality</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="23500">intel·lectualment<adverbs>
+                            <translations><date>0109</date>
+				<translation>intellectually</translation>
+			</translations>
+		</adverbs>
 	</Entry>
 	<Entry frequency="38000">intel·ligència<nouns>
 			<translations>
@@ -4134,13 +4147,12 @@
 				<translation gender="ffullform">intensity</translation>
 			</translations>
 		</nouns>
+                <expressions>intensitat de corrent
+                    <translations>
+                        <translation termcat="energy" gender="ffullform">current intensity</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-          <Entry frequency="288">intensitat de corrent<nouns>
-        <translations><date>0307</date>
-            <translation termcat="energy" gender="ffullform">current intensity</translation>
-        </translations>
-    </nouns>
-    </Entry>
 	<Entry frequency="36800">intensiu<adjectives>
 			<translations>
 				<translation>intensive<fems>intensiva</fems>
@@ -4153,14 +4165,13 @@
 				<translation gender="m">attempt</translation>
 			</translations>
 		</nouns>
+                <expressions>intent d'homicidi
+                    <translations>
+                        <translation gender="m">attempted murder (Br.) / attempted homicide (Am.)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="130">intent d'homicidi<nouns>
-			<translations><date>0605</date>
-				<translation gender="m">attempted murder</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="178000">intentar<verbs conj="regular">
+      	<Entry frequency="178000">intentar<verbs conj="regular">
 			<translations><date>0605</date>
 				<translation>to try</translation>
 			</translations>
@@ -6131,7 +6142,7 @@
 	<Entry frequency="50700">IVA<catacro>Impost sobre el Valor Afegit</catacro>
 		<nouns>
 			<translations>
-				<translation gender="m">VAT<engacro>Value Added Tax</engacro>
+				<translation catagory="financial" gender="m">VAT<engacro>Value Added Tax</engacro>
 				</translation>
 			</translations>
 		</nouns>

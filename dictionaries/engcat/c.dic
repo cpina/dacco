@@ -1561,6 +1561,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="124000">cariogenic<adjectives>
+                                    <translations><date>0109</date>
+                                        <translation>cariogen</translation>
+                                    </translations>
+                                </adjectives>
+                            </Entry>
 <Entry frequency="144000">carjacking<nouns>
         <translations>
             <translation gender="m">robatori d'un cotxe (amb força)</translation>
@@ -9761,6 +9767,16 @@
         </translations>
     </verbs>
     </Entry>
+    <Entry frequency="1060000">consonance<nouns>
+            <translations><date>0109</date>
+                <translation disambiguate="entertainment-music" gender="f">consonància</translation>
+                <grouptranslation register="formal">
+                    <translation gender="f">consonància</translation>
+                    <translation gender="m">acord</translation>
+                </grouptranslation>
+            </translations>
+        </nouns>
+    </Entry>
 <Entry frequency="201000">consonant<nouns>
         <translations>
             <translation gender="f">consonant</translation>
@@ -10408,8 +10424,8 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="236000000">control<verbs>
-        <translations>
+<Entry frequency="236000000">control<verbs double="true">
+        <translations><date>0109</date>
             <translation>controlar</translation>
         </translations>
     </verbs>
@@ -10426,6 +10442,12 @@
         <expressions>control structure
             <translations>
                 <translation catagory="computers-programming" gender="f">estructura de control</translation>
+            </translations>
+        </expressions>
+        <expressions>lose control
+            <translations>
+                <translation>(of yourself) descontrolar-se / perdre el control<example>When I saw her with another man I &lt;b&gt;lost control&lt;/b&gt; and shot them both.</example></translation>
+                <translation>(of something) perdre el control (de)<engexamp>He lost control of the car</engexamp><catexamp>Va perdre el control del cotxe</catexamp></translation>            
             </translations>
         </expressions>
     </Entry>

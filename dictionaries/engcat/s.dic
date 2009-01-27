@@ -6141,10 +6141,11 @@
 	</Entry><Entry frequency="145000000">shake<verbs>
 			<past>shook</past>
 			<participle>shaken</participle>
-                            <translations><date>1008</date>
+                            <translations><date>0109</date>
 				<translation transitive="true">sacsejar</translation>
 				<translation transitive="true">(fer) trontollar</translation>
                                 <translation transitive="true">agitar</translation>
+                                <translation transitive="true">espolsar<engnote>'Espolsar' means 'to shake something in order to make something fall off it' (e.g. 'to shake an apple tree to make the apples fall off').</engnote></translation>
                                 <translation transitive="true">estremir</translation>
                                 <translation intransitive="true">trontollar</translation>
                                 <translation intransitive="true">estremir-se</translation>
@@ -14009,23 +14010,28 @@
         </translations>
     </nouns>
     </Entry>
-      <Entry frequency="86300000">soon<adverbs>
-
-			<translations>
-
-				<translation>aviat / properament / pròximament</translation>
-
-                                <translation>d'hora</translation>
-
-			</translations>
-
-		</adverbs>
-                <expressions>sooner or later
-                    <translations>
-                        <translation>tard o d'hora</translation>
-                    </translations>
-                </expressions>
-	</Entry>
+        <Entry frequency="719000000">soon<adverbs>
+                
+                <translations><date>0109</date>
+                    
+                    <translation>aviat / properament / pròximament</translation>
+                    
+                    <translation>d'hora</translation>
+                    
+                </translations>
+                
+            </adverbs>
+            <expressions>sooner or later
+                <translations>
+                    <translation>tard o d'hora</translation>
+                </translations>
+            </expressions>
+            <expressions>as soon as possible
+                <translations>
+                    <translation>com més aviat millor / tan aviat com sigui possible / al més aviat possible</translation>
+                </translations>
+            </expressions>
+        </Entry>
         <Entry frequency="1140000">soot<nouns>
 
 			<translations>
@@ -16912,17 +16918,10 @@ s
 
 			<translations><date>0408</date>
 
-				<translation>difondre / propagar / disseminar<engnote>These verbs mean 'to spread' in the sense 'to spread news / gossip / a virus'.</engnote>
-
-				</translation>
-
-				<translation>untar<engnote>'Untar' means 'to spread' in the sense 'to spread butter on bread'.</engnote>
-
-				</translation>
-
-                                <translation>expandir(-se)</translation>
-
-                                <translation>transmetre's<example>Measles is a disease which is &lt;b&gt;spread&lt;/b&gt; very easily.</example></translation>
+				<translation transitive="true">difondre / expandir / propagar / disseminar / esbombar / divulgar / escampar / propalar</translation>
+                                <translation intransitive="true">difondre's / expandir-se / propagar-se / disseminar-se / esbombar-se / divulgar-se / escampar-se</translation>
+				<translation transitive="true">(butter) untar</translation>
+                                <translation intransitive="true">transmetre's<example>Measles is a disease which is &lt;b&gt;spread&lt;/b&gt; very easily.</example></translation>
 
 			</translations>
 
@@ -18043,7 +18042,7 @@ s
                             <translations><date>0109</date>
 				<translation>(food) ranci / passat</translation>
                                 <translation>(air) viciat</translation>
-                                <translation>(lacking new ideas) vell / gastat</translation>
+                                <translation>(lacking new ideas) vell / gastat<example>The &lt;b&gt;stale&lt;/b&gt; political arguments that have consumed us for so long no longer apply.</example></translation>
 		</translations>
 		</adjectives>
 	</Entry>

@@ -1890,7 +1890,7 @@
         </Entry>
         <Entry frequency="607">marrec<nouns>
 			<translations><date>0505</date>
-				<translation catagory="animal-animal" gender="m">lamb</translation>
+				<translation disambiguate="animal-animal" gender="m">lamb</translation>
                                 <translation gender="m">kid</translation>
 			</translations>
 		</nouns>
@@ -2167,13 +2167,13 @@
 	<Entry frequency="78400">massa<adjectives>
                             <translations><date>0109</date>
 				<translation>(noms comptables) too many<catexamp>Massa persones</catexamp><engexamp>Too many people</engexamp></translation>
-                                <translation>(noms de massa) too much<catexamp>Massa soroll</catexamp><engexamp>Too much noise</engexamp></translation>
+                                <translation>(noms no comptables) too much<catexamp>Massa soroll</catexamp><engexamp>Too much noise</engexamp></translation>
 			</translations>
 		</adjectives>
 		<adverbs>
 			<translations>
-                            <translation>overly / too<catexamp>Massa tard</catexamp><engexamp>Too late</engexamp><catexamp>Massa complicat</catexamp><engexamp>Too (or overly) complicated</engexamp></translation>
-                            <translation>too much<catexamp>Et preocupes massa</catexamp><engexamp>You worry too much</engexamp></translation>
+                            <translation>(modificant adv. i adj.) too<catexamp>Massa tard</catexamp><engexamp>Too late</engexamp></translation>
+                            <translation>(modificant verbs) too much<catexamp>Et preocupes massa</catexamp><engexamp>You worry too much</engexamp></translation>
 			</translations>
 		</adverbs>
         <nouns>
@@ -4888,9 +4888,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="2940">missatger<nouns>
-			<translations>
-				<translation gender="m / f">messenger<fems>missatgera</fems></translation>
+	<Entry frequency="8780000">missatger<nouns>
+                            <translations><date>0109</date>
+				<translation gender="m / f">messenger</translation>
+                                <translation gender="m / f">herald<fems>missatgera</fems></translation>
 			</translations>
 		</nouns>
 	</Entry>
