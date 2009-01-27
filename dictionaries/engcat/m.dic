@@ -745,7 +745,7 @@
 	</Entry>
 <Entry frequency="20500">makeweight<nouns>
 			<translations><date>1108</date>
-				<translation gender="f">torna<catnote>Aquesta paraula també s'utilitza en sentit figuratiu: p.e. 'The Daily Star says United offered Giggs as a makeweight in their attempt to sign Owen from Real Madrid'.</catnote></translation>
+				<translation gender="f">torna<catnote>Aquesta paraula també s'utilitza en sentit figurat: p.e. 'The Daily Star says United offered Giggs as a makeweight in their attempt to sign Owen from Real Madrid'.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1286,6 +1286,12 @@
                     </translations>
                 </expressions>
 	</Entry>
+<Entry frequency="563000">mar<verbs double="true">
+                            <translations><date>0109</date>
+				<translation register="formal">espatllar / fer malbé<catnote>Aquest verb s'usa sobretot en sentit figurat, quan es parla d'objectes abstractes.</catnote><example>Rude hotel employees &lt;b&gt;marred&lt;/b&gt; our visit to Barcelona.</example></translation>
+			</translations>
+		</verbs>
+	</Entry>
               <Entry frequency="1620000">maraca<nouns>
 			<translations><date>0708</date>
                         <translation catagory="entertainment-music-instrument" gender="f">maraca</translation>
@@ -1300,7 +1306,7 @@
 	</Entry>
 <Entry frequency="563000">Marathi<nouns>
 			<translations>
-				<translation gender="m">marathi</translation>
+				<translation catagory="linguistics" gender="m">marathi</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1500,13 +1506,19 @@
 		</nouns>
                 <expressions>market economy
                 <translations>
-                <translation>economia de mercat</translation></translations></expressions>
-	</Entry>
-<Entry frequency="7730000">market economy<nouns>
-			<translations>
-				<translation catagory="financial" gender="f">economia de mercat<plural>market economies</plural></translation>
-			</translations>
-		</nouns>
+                <translation gender="f">economia de mercat</translation>
+            </translations>
+        </expressions>
+            <expressions>market share
+                <translations>
+                    <translation gender="f">quota de mercat</translation>
+                </translations>
+            </expressions>
+            <expressions>market stability
+                <translations>
+                    <translation gender="m">equilibri del mercat</translation>
+                </translations>
+            </expressions>
 	</Entry>
 <Entry frequency="72800000">marketing<nouns>
 			<translations>
@@ -1514,21 +1526,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="3500000">market share<nouns>
-			<translations>
-				<translation gender="f">quota de mercat</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="17000">market stability<nouns>
-			<translations>
-				<translation gender="m">equilibri del mercat</translation>
-			</translations>
-		</nouns>
-	</Entry>
 <Entry frequency="279000">marmalade<nouns>
 			<translations>
-				<translation gender="f">melmelada<catnote>En anglès fem una distinció entre la melmelada feta amb cítrics (marmalade) i la melmelada feta amb qualsevol altra fruita (jam).</catnote>
+				<translation catagory="food" gender="f">melmelada<catnote>En anglès fem una distinció entre la melmelada feta amb cítrics (marmalade) i la melmelada feta amb qualsevol altra fruita (jam).</catnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -1541,7 +1541,7 @@
 	</Entry>
 <Entry frequency="246000">Marrakech<nouns>
 			<translations>
-				<translation gender="m">Marràqueix</translation>
+				<translation catagory="city-africa-morocco" gender="m">Marràqueix</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1574,13 +1574,13 @@
 	</Entry>
 <Entry frequency="7790000">Mars<nouns>
 			<translations>
-				<translation gender="m">Mart</translation>
+				<translation catagory="astronomy" gender="m">Mart</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="330000">Marseilles<nouns>
 			<translations>
-				<translation gender="f">Marsella</translation>
+				<translation catagory="city-europe-france" gender="f">Marsella</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1592,16 +1592,15 @@
                             </grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>marsh harrier
+                    <translations>
+                        <translation catagory="animal-bird" gender="f">arpella</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="992000">marshal<nouns>
 			<translations>
 				<translation gender="m">mariscal</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="381000">marsh harrier<nouns>
-			<translations>
-				<translation catagory="animal-bird" gender="f">arpella</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1620,17 +1619,21 @@
                 <translations>
                 <translation catagory="animal">marsupial</translation></translations></adjectives>
 	</Entry>
-<Entry frequency="3800000">martial arts<nouns>
-			<translations>
-				<translation gender="fpl">arts marcials</translation>
+        <Entry frequency="63000000">martial<adjectives>
+                            <translations><date>0109</date>
+				<translation register="formal" beforenoun="true">marcial</translation>
 			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="586000">martial law<nouns>
-			<translations>
-				<translation catagory="legal" gender="f">llei marcial</translation>
-			</translations>
-		</nouns>
+		</adjectives>
+                <expressions>martial arts
+                    <translations>
+                        <translation catagory="sports" gender="fpl">arts marcials</translation>
+                    </translations>
+                </expressions>
+                <expressions>martial law
+                    <translations>
+                        <translation gender="f">llei marcial</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="691000">Martian<nouns>
 			<translations>
@@ -1645,13 +1648,13 @@
 	</Entry>
 <Entry frequency="2110000">martyr<nouns>
 			<translations>
-				<translation gender="mf">màrtir</translation>
+				<translation catagory="religious" gender="mf">màrtir</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="192000">martyrdom<nouns>
 			<translations>
-				<translation gender="m">martiri</translation>
+				<translation catagory="religious" gender="m">martiri</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1669,13 +1672,13 @@
 	</Entry>
 <Entry frequency="815000">Marxism<nouns>
 			<translations>
-				<translation gender="m">marxisme</translation>
+				<translation catagory="politics" gender="m">marxisme</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="716000">Marxist<nouns>
 			<translations>
-				<translation gender="mf">marxista</translation>
+				<translation catagory="politics" gender="mf">marxista</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -1686,19 +1689,19 @@
 	</Entry>
 <Entry frequency="594000">Mary Janes<nouns>
 			<translations>
-				<translation local="us" gender="fpl">mercenetes<catnote>Les sabates Mary Jane són una mena de sabates calçades per adolescents o nenes. Són de tacó baix, sense canya, de punta rodona tancada i una tira de tancament de l'empenya. Sovint són fetes de xarol negre.</catnote></translation>
+				<translation local="us" catagory="clothes" gender="fpl">mercenetes<catnote>Les sabates Mary Jane són una mena de sabates calçades per adolescents o nenes. Són de tacó baix, sense canya, de punta rodona tancada i una tira de tancament de l'empenya. Sovint són fetes de xarol negre.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="231000">marzipan<nouns>
 			<translations>
-				<translation gender="m">massapà</translation>
+				<translation catagory="food" gender="m">massapà</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="232000">mascarpone<nouns>
 			<translations>
-				<translation gender="m">mascarpone</translation>
+				<translation catagory="food-dairy" gender="m">mascarpone</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1781,6 +1784,11 @@
                 <translation>multitudinari<engexamp>Mass demo</engexamp><catexamp>Manifestació multitudinària</catexamp></translation>
                 </translations>
                 </adjectives>
+                <expressions>mass grave
+                    <translations>
+                        <translation gender="f">fosa comuna</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="25400000">massacre<nouns>
                             <translations><date>0109</date>
@@ -1812,12 +1820,6 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="575000">mass grave<nouns>
-			<translations>
-				<translation gender="f">fosa comuna</translation>
-			</translations>
-		</nouns>
-                </Entry>
 <Entry frequency="490000">massif<nouns>
                             <translations><date>0508</date>
 				<translation catagory="geography" gender="m">massís</translation>
@@ -1847,16 +1849,15 @@
 				<translation gender="m">pal</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="1560000">mast cell<nouns>
-			<translations>
-				<translation catagory="biology" gender="m">mastòcit</translation>
-			</translations>
-		</nouns>
+                <expressions>mast cell
+                    <translations>
+                        <translation catagory="biology" gender="m">mastòcit</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="576000">mastectomy<nouns>
 			<translations>
-				<translation gender="f">mastectomia<plural>mastectomies</plural></translation>
+				<translation catagory="medical-treatment" gender="f">mastectomia<plural>mastectomies</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1947,8 +1948,10 @@
 			</translations>
 		</nouns>
                 <adjectives>
-                <translations>
-                <translation>material</translation></translations></adjectives>
+                    <translations>
+                        <translation>material</translation>
+                    </translations>
+                </adjectives>
                 <expressions>raw material
                     <translations>
                         <translation gender="f">primera matèria</translation>
@@ -1983,12 +1986,11 @@
 				<translation gender="f">maternitat</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="409000">maternity leave<nouns>
-			<translations>
-				<translation gender="m">permís de maternitat</translation>
-			</translations>
-		</nouns>
+                <expressions>maternity leave
+                    <translations>
+                        <translation catagory="work" gender="m">permís de maternitat</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="33600000">math<nouns>
 			<translations>
@@ -1999,7 +2001,7 @@
 	</Entry>
 <Entry frequency="2560000">mathematician<nouns>
 			<translations>
-				<translation gender="mf">matemàtic</translation>
+				<translation catagory="work-job" gender="mf">matemàtic</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2065,39 +2067,39 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="89000000">matter<nouns>
-			<translations>
-                        <grouptranslation><translation gender="m">assumpte</translation>
-                                <translation gender="f">qüestió</translation><engexamp>This is an important matter</engexamp><catexamp>Aquest és un assumpte important</catexamp><engexamp>It's only a matter of time before (x does y)</engexamp><catexamp>Només és qüestió de temps que (x faci y)</catexamp><engexamp>Free software is a matter of principle</engexamp><catexamp>El programari lliure és qüestió de principis</catexamp></grouptranslation>
-                                <translation gender="m">material</translation>
-			</translations>
-		</nouns>
-		<verbs>
-			<translations>
-				<translation>importar<engexamp>It doesn't matter</engexamp><catexamp>No importa</catexamp></translation>
-			</translations>
-		</verbs>
-                <expressions>as a matter of fact
+        <Entry frequency="89000000">matter<nouns>
                 <translations>
-                <translation>de fet / efectivament</translation>
+                    <grouptranslation><translation gender="m">assumpte</translation>
+                    <translation gender="f">qüestió</translation><engexamp>This is an important matter</engexamp><catexamp>Aquest és un assumpte important</catexamp><engexamp>It's only a matter of time before (x does y)</engexamp><catexamp>Només és qüestió de temps que (x faci y)</catexamp><engexamp>Free software is a matter of principle</engexamp><catexamp>El programari lliure és qüestió de principis</catexamp></grouptranslation>
+                    <translation gender="m">material</translation>
                 </translations>
-                </expressions>
-                <expressions>be the matter
+            </nouns>
+            <verbs>
                 <translations>
-                <translation>-<engexamp>What's the matter with Joan?</engexamp><catexamp>Què li passa a en Joan?</catexamp></translation>
+                    <translation>importar<engexamp>It doesn't matter</engexamp><catexamp>No importa</catexamp></translation>
                 </translations>
-                </expressions>
-                <expressions>printed matter
-                    <translations>
-                        <translation gender="m">material imprès</translation>
-                    </translations>
-                </expressions>
-                <expressions>reading matter
-                    <translations>
-                        <translation gender="m">material de lectura</translation>
-                    </translations>
-                </expressions>
-	</Entry>
+            </verbs>
+            <expressions>as a matter of fact
+                <translations>
+                    <translation>de fet / efectivament</translation>
+                </translations>
+            </expressions>
+            <expressions>be the matter
+                <translations>
+                    <translation>-<engexamp>What's the matter with Joan?</engexamp><catexamp>Què li passa a en Joan?</catexamp></translation>
+                </translations>
+            </expressions>
+            <expressions>printed matter
+                <translations>
+                    <translation gender="m">material imprès</translation>
+                </translations>
+            </expressions>
+            <expressions>reading matter
+                <translations>
+                    <translation gender="m">material de lectura</translation>
+                </translations>
+            </expressions>
+        </Entry>
 <Entry frequency="7950000">mattress<nouns>
 			<translations>
 				<translation catagory="household-room-bedroom" gender="m">matalàs<plural>mattresses</plural>
@@ -2134,15 +2136,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="749000">Mauritanian<adjectives>
-			<translations>
-				<translation>maurità</translation>
-			</translations>
-		</adjectives>
-                <nouns>
+        <Entry frequency="749000">Mauritanian<adjectives>
                 <translations>
-                <translation catagory="nationality-africa" gender="mf">maurità</translation></translations></nouns>
-	</Entry>
+                    <translation>maurità</translation>
+                </translations>
+            </adjectives>
+            <nouns>
+                <translations>
+                    <translation catagory="nationality-africa" gender="mf">maurità</translation>
+                </translations>
+            </nouns>
+        </Entry>
 <Entry frequency="5420000">Mauritius<nouns>
 			<translations>
 				<translation catagory="country-africa" gender="m">Maurici</translation>
@@ -2190,22 +2194,22 @@
 	</Entry>
 <Entry frequency="750000000">May<nouns>
 			<translations><date>0907</date>
-				<translation gender="m">maig</translation>
+				<translation catagory="time-month" gender="m">maig</translation>
 			</translations>
 		</nouns>
                 </Entry>
-<Entry frequency="352000000">may<verbs>
-			<translations><date>0508</date>
-				<translation><engexamp>May I go now?</engexamp><catexamp>Puc anar-me'n ara? / puc marxar ara?</catexamp><engexamp>He may do it later</engexamp><catexamp>És possible que ho faci més tard</catexamp><catnote>'May' és un verb auxiliar que denota possibilitat o permissió. En el cas de la permissió (per ex: 'May I go now?'), és molt important notar que molts angloparlants avui dia no utilitzaríem la paraula 'may' (sobretot en la llengua parlada) sinó que substituiríem 'can' ('Can I go now?').</catnote>
-				</translation>
-			</translations>
-		</verbs>
-                <expressions>be that as it may
-                <translations>
-                <translation>sigui com sigui</translation>
-                </translations>
-                </expressions>
-	</Entry>
+                <Entry frequency="352000000">may<verbs>
+                        <translations><date>0508</date>
+                            <translation><engexamp>May I go now?</engexamp><catexamp>Puc anar-me'n ara? / puc marxar ara?</catexamp><engexamp>He may do it later</engexamp><catexamp>És possible que ho faci més tard</catexamp><catnote>'May' és un verb auxiliar que denota possibilitat o permissió. En el cas de la permissió (per ex: 'May I go now?'), és molt important notar que molts angloparlants avui dia no utilitzaríem la paraula 'may' (sobretot en la llengua parlada) sinó que substituiríem 'can' ('Can I go now?').</catnote>
+                            </translation>
+                        </translations>
+                    </verbs>
+                    <expressions>be that as it may
+                        <translations>
+                            <translation>sigui com sigui</translation>
+                        </translations>
+                    </expressions>
+                </Entry>
 <Entry frequency="11400000">maybe<adverbs>
 			<translations>
 				<translation>potser<synonyms>perhaps</synonyms>
@@ -2221,13 +2225,13 @@
 	</Entry>
 <Entry frequency="350000">mayo<nouns>
 			<translations>
-				<translation register="colloquial" gender="f">maionesa</translation>
+				<translation catagory="food" register="colloquial" gender="f">maionesa</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="638000">mayonnaise<nouns>
 			<translations>
-				<translation gender="f">maionesa</translation>
+				<translation catagory="food" gender="f">maionesa</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2270,32 +2274,36 @@
 	</Entry>
 <Entry frequency="13700000">meal<nouns>
 			<translations>
-				<translation gender="m">àpat</translation>
+				<translation catagory="food" gender="m">àpat</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="400000000">mean<verbs>
-			<past>meant</past>
-			<participle>meant</participle>
-                            <translations><date>1208</date>
-				<translation>significar / voler dir</translation>
-				<translation>suposar</translation>
-                                <translation>pretendre<synonyms>intend</synonyms></translation>
-			</translations>
-		</verbs>
-		<adjectives>
-			<translations>
-				<translation>avar / mesquí / garrepa<engnote>'Avar', 'mesquí' and 'garrepa' mean 'mean' as in 'miserly'.</engnote>
-					<synonyms>greedy, penny-pinching</synonyms>
-				</translation>
-				<translation>antipàtic<engnote>'Antipàtic' means 'mean' as in 'unkind'.</engnote>
-					<synonyms>nasty</synonyms>
-				</translation>
-                                <translation>cruel</translation>
-                                <translation>gran / bo / hàbil / talentós<example>Her grandmother makes a &lt;b&gt;mean&lt;/b&gt; pumpkin pie.</example><example>My brother doesn't just play drums, he's a &lt;b&gt;mean&lt;/b&gt; guitarist too.</example></translation>
-			</translations>
-		</adjectives>
-	</Entry>
+        <Entry frequency="400000000">mean<verbs>
+                <past>meant</past>
+                <participle>meant</participle>
+                <translations><date>1208</date>
+                    <translation>significar / voler dir</translation>
+                    <translation>suposar</translation>
+                    <translation>pretendre<synonyms>intend</synonyms></translation>
+                </translations>
+            </verbs>
+            <adjectives>
+                <translations>
+                    <translation>(miserly) avar / mesquí / garrepa<synonyms>penny-pinching, miserly</synonyms>
+                    </translation>
+                    <translation>(unkind) antipàtic / cruel<synonyms>nasty</synonyms></translation>
+                    <translation>(good, talented) gran / bo / hàbil / talentós<example>Her grandmother makes a &lt;b&gt;mean&lt;/b&gt; pumpkin pie.</example><example>My brother doesn't just play drums, he's a &lt;b&gt;mean&lt;/b&gt; guitarist too.</example></translation>
+                </translations>
+            </adjectives>
+            <nouns>
+                <translations>
+                    <grouptranslation disambiguate="maths">
+                        <translation gender="f">mitjana / quantitat mitjana</translation>
+                        <translation gender="m">terme mitjà / valor mitjà</translation>
+                    </grouptranslation>
+                </translations>
+            </nouns>
+        </Entry>
 <Entry frequency="983000">meander<nouns>
 			<translations>
 				<translation catagory="geography" gender="m">meandre</translation>
@@ -2304,9 +2312,10 @@
 	</Entry>
 <Entry frequency="13900000">meaning<nouns>
 			<translations>
-				<translation gender="m">sentit</translation>
-                                <translation gender="f">accepció</translation>
-                                <translation gender="f">significació</translation>
+                            <grouptranslation>
+                                <translation gender="m">sentit / significat</translation>
+                                <translation gender="f">accepció / significació</translation>
+                            </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2326,6 +2335,12 @@
 			<translations>
 				<translation gender="f">mesquinesa / gasiveria</translation>
                                 <translation gender="f">crueltat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+              <Entry frequency="75000000">means<nouns>
+                            <translations><date>0109</date>
+				 <translation gender="m">mitjà<engexamp>The end justifies the means</engexamp><catexamp>El fi justifica els mitjans</catexamp><engexamp>Means of transport</engexamp><catexamp>Mitjà (o mitjans) de transport</catexamp><plural>means</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2363,36 +2378,36 @@
 	</Entry>
 <Entry frequency="858000">measles<nouns>
 			<translations>
-				<translation gender="m">xarampió</translation>
+				<translation catagory="medical-illness" gender="m">xarampió</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="276000000">measure<nouns>
-                            <translations><date>1007</date>
-				<translation gender="f">mesura</translation>
-			</translations>
-		</nouns>
-		<verbs>
-			<translations>
-				<translation>mesurar</translation>
-			</translations>
-		</verbs>
-                <phrasalverbs>measure up
+        <Entry frequency="276000000">measure<nouns>
+                <translations><date>1007</date>
+                    <translation gender="f">mesura</translation>
+                </translations>
+            </nouns>
+            <verbs>
+                <translations>
+                    <translation>mesurar</translation>
+                </translations>
+            </verbs>
+            <phrasalverbs>measure out
+                <translations>
+                    <translation transitive="true">distribuir d'una manera mesurada</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>measure up
                 <translations>
                     <translation>ser prou bo / estar a l'alçada</translation>
-                    </translations>
-                    </phrasalverbs>
-                <phrasalverbs>measure out
-                    <translations>
-                        <translation transitive="true">distribuir d'una manera mesurada</translation>
-                    </translations>
-                </phrasalverbs>
-                <phrasalverbs>measure up to
-                    <translations>
-                        <translation intransitive="true">estar a l'alçada de</translation>
-                    </translations>
-                </phrasalverbs>
-            </Entry>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>measure up to
+                <translations>
+                    <translation intransitive="true">estar a l'alçada de</translation>
+                </translations>
+            </phrasalverbs>
+        </Entry>
 <Entry frequency="61600000">measurement<nouns>
 			<translations>
                         <grouptranslation><translation gender="f">mesura</translation>
@@ -2403,19 +2418,19 @@
 	</Entry>
 <Entry frequency="10700000">meat<nouns>
 			<translations>
-				<translation gender="f">carn</translation>
+				<translation catagory="food" gender="f">carn</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="338000">meatballs<nouns>
 			<translations>
-				<translation gender="fpl">mandonguilles</translation>
+				<translation catagory="food" gender="fpl">mandonguilles</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="8870000">mechanic<nouns>
 			<translations>
-				<translation gender="mf">mecànic</translation>
+				<translation catagory="work-job" gender="mf">mecànic</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2521,7 +2536,7 @@
 				<translation>interferir / ficar-hi el nas</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>meddle with<translations><translation intransitive="true">remenar, grapejar</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>meddle with<translations><translation intransitive="true">remenar, grapejar</translation></translations></phrasalverbs></Entry>
 <Entry frequency="167000000">media<nouns>
 			<translations>
 				<translation gender="mpl">mitjans de comunicació</translation>
@@ -2582,12 +2597,11 @@
 			<translation gender="f">medicina<engnote>'Medicina' refers to the field of medicine.</engnote></translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="959000">medicine cabinet<nouns>
-			<translations>
-				<translation catagory="medical" gender="f">farmaciola</translation>
-			</translations>
-		</nouns>
+                <expressions>medicine cabinet
+                    <translations>
+                        <translation catagory="medical" gender="f">farmaciola</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="6550000">medieval<adjectives>
 			<translations>
@@ -2626,21 +2640,20 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation gender="f">Mediterrània</translation>
+				<translation catagory="geography-europe" gender="f">Mediterrània</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="2170000">Mediterranean Sea<nouns>
 			<translations>
-				<translation gender="f">mar Mediterrània</translation>
+				<translation catagory="geography-europe" gender="f">mar Mediterrània</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="44100000">medium<nouns>
 			<translations>
 				<translation gender="m">medi</translation>
-				<translation gender="m">mitjà</translation>
-				<translation gender="mf">mèdium<engnote>'Mèdium' means 'medium' in the sense 'person who speaks to the dead'.</engnote></translation>
+				<translation gender="mf">(clairvoyant) mèdium</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -5185,17 +5198,15 @@
 	</Entry>
 <Entry frequency="523000">molasses<nouns>
 			<translations>
-				<translation local="us" gender="f">melassa<otherlocal>treacle</otherlocal></translation>
+				<translation catagory="food" local="us" gender="f">melassa<otherlocal>treacle</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="1890000">mold<nouns>
 			<translations><date>0408</date>
-				<translation local="us" gender="m">motlle<engnote>'Motlle' means 'mold' in the sense 'fill the mold with plaster'.</engnote>
-					<otherlocal>mould</otherlocal>
-				</translation>
+				<translation local="us" gender="m">motlle<engnote>(Hollow container).</engnote><otherlocal>mould</otherlocal></translation>
                                 <grouptranslation local="us"><translation gender="m">florit</translation>
-                                <translation gender="m">floridura</translation><engnote>'Florit' and 'floridura' mean 'mold' in the sense 'fungus'.</engnote></grouptranslation>
+                                <translation gender="m">floridura</translation><engnote>(Fungus).</engnote></grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5244,8 +5255,7 @@
 	</Entry>
 <Entry frequency="1860">Molinueux Stadium<nouns>
 			<translations>
-				<translation catagory="sports, encyclopaedic" noteng="TRUE" local="gb">-<catnote>Molinueux Stadium és el nom de l'estadi de l'equip de futbol Wolverhampton Wanderers.</catnote>
-				</translation>
+				<translation catagory="sports, encyclopaedic" local="gb">nom de l'estadi de l'equip de futbol Wolverhampton Wanderers</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5300,50 +5310,50 @@
 	</Entry>
 <Entry frequency="5450000">Monaco<nouns>
 			<translations>
-				<translation gender="m">Mònaco</translation>
+				<translation catagory="geography-europe" gender="m">Mònaco</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="1440000">monarch<nouns>
 			<translations>
-				<translation gender="mf">monarca</translation>
+				<translation catagory="monarchy" gender="mf">monarca</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="49300">monarchical<adjectives>
 			<translations>
-				<translation>monàrquic</translation>
+				<translation catagory="monarchy">monàrquic</translation>
 			</translations>
 		</adjectives>
 	</Entry>
 <Entry frequency="880000">monarchy<nouns>
 			<translations>
-				<translation gender="f">monarquia<plural>monarchies</plural>
+				<translation catagory="monarchy" gender="f">monarquia<plural>monarchies</plural>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="1590000">monastery<nouns>
 			<translations>
-				<translation gender="m">monestir</translation>
+				<translation catagory="religious" gender="m">monestir</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="3510000">monastic<adjectives>
               <translations><date>1107</date>
-            <translation>monàstic</translation>
+            <translation catagory="religious">monàstic</translation>
         </translations>
     </adjectives>
     </Entry>
 <Entry frequency="72800000">Monday<nouns>
 			<translations>
-				<translation gender="m">dilluns</translation>
+				<translation catagory="time-dayOfWeek" gender="m">dilluns</translation>
 			</translations>
 		</nouns>
 	</Entry> 
 <Entry frequency="175000000">money<nouns>
 			<translations>
-				<translation gender="mpl">diners</translation>
+				<translation catagory="financial" gender="mpl">diners</translation>
 			</translations>
 		</nouns>
                 <expressions>money laundering
