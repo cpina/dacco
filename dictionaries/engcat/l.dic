@@ -756,8 +756,9 @@
 		</nouns>
 	</Entry>
 <Entry frequency="280000000">last<adjectives>
-			<translations>
+                            <translations><date>0109</date>
 				<translation>últim / darrer</translation>
+                                <translation>passat<engexamp>Last Tuesday</engexamp><catexamp>Dimarts passat</catexamp><engexamp>Last year</engexamp><catexamp>L'any passat</catexamp></translation>
 			</translations>
 		</adjectives>
 		<verbs>
@@ -765,48 +766,31 @@
 				<translation>durar</translation>
 			</translations>
 		</verbs>
+                <expressions>last name
+                    <translations>
+                        <translation gender="m">cognom<synonyms>surname</synonyms></translation>
+                    </translations>
+                </expressions>
+                <expressions>last night
+                    <translations>
+                        <translation>anit</translation>
+                    </translations>
+                </expressions>
+                <expressions>last orders
+                    <translations>
+                        <translation noteng="TRUE">-<catnote>Tots els 'pubs' de l'Anglaterra tanquen les portes a les onze de la nit.  Uns deu minuts abans de les onze, el cambrer o la cambrera 'calls last orders'.  Tradicionalment la cambrera toca una petita campana que es troba al bar per cridar l'atenció de tots i diu les paraules següents 'Time gentlemen please!'.  Això vol dir 'si vols comprar una altra beguda, has de fer-ho ara mateix perquè no podem servir begudes després de les onze').</catnote>
+                        </translation>
+                    </translations>
+                </expressions>
+                <expressions>last sixteen
+                    <translations>
+                        <translation disambiguate="sports" gender="mpl">vuitens</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="616000">lastly<adverbs>
 			<translations>
 				<translation>en fi</translation>
-			</translations>
-		</adverbs>
-	</Entry>
-<Entry frequency="17200000">last name<nouns>
-			<translations>
-				<translation gender="m">cognom<synonyms>surname</synonyms>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="5910000">last night<adverbs>
-			<translations>
-				<translation>anit</translation>
-			</translations>
-		</adverbs>
-	</Entry>
-<Entry frequency="10000">last orders<nouns>
-			<translations>
-				<translation noteng="TRUE">-<catnote>Tots els 'pubs' de l'Anglaterra tanquen les portes a les onze de la nit.  Uns deu minuts abans de les onze, el cambrer o la cambrera 'calls last orders'.  Tradicionalment la cambrera toca una petita campana que es troba al bar per cridar l'atenció de tots i diu les paraules següents 'Time gentlemen please!'.  Això vol dir 'si vols comprar una altra beguda, has de fer-ho ara mateix perquè no podem servir begudes després de les onze').</catnote>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="40700">last sixteen<nouns>
-			<translations>
-				<translation disambiguate="sports" gender="mpl">vuitens</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="9580000">last week<adverbs>
-			<translations>
-				<translation gender="f">setmana passada</translation>
-			</translations>
-		</adverbs>
-	</Entry>
-<Entry frequency="13800000">last year<adverbs>
-			<translations>
-				<translation gender="m">any passat</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -842,45 +826,42 @@
 	</Entry>
 <Entry frequency="2280000">lately<adverbs>
 			<translations>
-				<translation>últimament / darrerament</translation>
+				<translation>últimament / darrerament<synonyms>of late</synonyms></translation>
 			</translations>
 		</adverbs>
 	</Entry>
-<Entry frequency="1390000">latent<adjectives>
-			<translations><date>0307</date>
-				<translation>latent</translation>
-			</translations>
-		</adjectives>
-	</Entry>
-<Entry frequency="1080000">latent heat<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">calor latent</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <Entry frequency="1390000">latent<adjectives>
+                <translations><date>0307</date>
+                    <translation>latent</translation>
+                </translations>
+            </adjectives>
+            <expressions>latent heat
+                <translations>
+                    <translation termcat="energy" gender="m">calor latent</translation>
+                </translations>
+            </expressions>
+        </Entry>
 <Entry frequency="204000000">later<adverbs>
 			<translations>
 				<translation>més tard / posteriorment</translation>
 			</translations>
 		</adverbs>
-	</Entry>
-<Entry frequency="2030000">later on<adverbs>
-			<translations>
-				<translation>més tard / posteriorment</translation>
-			</translations>
-		</adverbs>
+                <expressions>later on
+                    <translations>
+                        <translation>més tard / posteriorment</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="36700000">latest<adjectives>
 			<translations>
 				<translation>el més nou / l'últim</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="40200000">latest news<nouns>
-			<translations>
-				<translation gender="fpl">últimes notícies</translation>
-			</translations>
-		</nouns>
+                <expressions>latest news
+                    <translations>
+                        <translation gender="fpl">últimes notícies</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2090000">latex<nouns>
 			<translations><date>0408</date>
@@ -890,7 +871,7 @@
 	</Entry>
 <Entry frequency="24000000">Latin<nouns>
 			<translations>
-				<translation gender="m">llatí</translation>
+				<translation catagory="language" gender="m">llatí</translation>
 			</translations>
 		</nouns>
 		<adjectives>
