@@ -4482,8 +4482,9 @@
 <Entry frequency="869000">bleed<verbs>
 			<past>bled</past>
 			<participle>bled</participle>
-			<translations>
-				<translation>sagnar</translation>
+                            <translations><date>0109</date>
+				<translation intransitive="true">sagnar</translation>
+                                <translation transitive="true">sagnar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4793,32 +4794,45 @@
 				<translation>sanguini</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="337000">blood bank<nouns>
-			<translations>
-				<translation gender="m">banc de sang</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="58900">blood bath<nouns>
-			<translations>
-				<translation gender="m">bany de sang</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="8900000">blood cell<nouns>
-			<translations>
-				<translation catagory="biology" gender="m">glòbul de la sang</translation>
-			</translations>
-		</nouns>
-                <expressions>red blood cells
+                <expressions>blood bank
                     <translations>
-                        <translation catagory="biology" gender="mpl">glòbuls vermells</translation>
+                        <translation gender="m">banc de sang</translation>
                     </translations>
                 </expressions>
-                <expressions>white blood cells
+                <expressions>blood bath
                     <translations>
-                        <translation catagory="biology" gender="mpl">glòbuls blancs</translation>
+                        <translation gender="m">bany de sang</translation>
+                    </translations>
+                </expressions>
+                <expressions>blood cell
+                    <translations>
+                        <translation catagory="biology" gender="m">glòbul de la sang</translation>
+                    </translations>
+                </expressions>
+                <expressions>red blood cell
+                    <translations>
+                        <translation catagory="biology" gender="m">glòbul vermell</translation>
+                    </translations>
+                </expressions>
+                <expressions>white blood cell
+                    <translations>
+                        <translation catagory="biology" gender="m">glòbul blanc</translation>
+                    </translations>
+                </expressions>
+                <expressions>blood donor
+                    <translations>
+                        <translation gender="mf">donant de sang</translation>
+                    </translations>
+                </expressions>
+                <expressions>blood drive
+                    <translations>
+                        <translation catagory="medical" gender="f">campanya de donació (o recollida) de sang<catnote>Quan hi ha una manca de donacions de sang, els hospitals / centres mèdics fan un 'blood drive'.  Això significa que munten cubicles temporaris a un lloc de reunió comunitària (per exemple en una església o en un centre comercial) i fan una crida pública a tothom perquè facin donacions de sang.</catnote>
+                        </translation>
+                    </translations>
+                </expressions>
+                <expressions>blood transfusion
+                    <translations>
+                        <translation gender="f">transfusió de sang</translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -4827,19 +4841,6 @@
 				<translation>esgarrifós<engexamp>A bloodcurdling cry</engexamp><catexamp>Un crit esgarrifós</catexamp></translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="1610000">blood donor<nouns>
-			<translations>
-				<translation catagory="medical" gender="m">donant de sang</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="257000">blood drive<nouns>
-			<translations>
-				<translation catagory="medical" gender="f">campanya de donació (o recollida) de sang<catnote>Quan hi ha una manca de donacions de sang, els hospitals / centres mèdics fan un 'blood drive'.  Això significa que munten cubicles temporaris a un lloc de reunió comunitària (per exemple en una església o en un centre comercial) i fan una crida pública a tothom perquè facin donacions de sang.</catnote>
-				</translation>
-			</translations>
-		</nouns>
 	</Entry>
          <Entry frequency="1790000">bloodstained<adjectives>
 			<translations><date>1208</date>
@@ -4850,12 +4851,6 @@
 <Entry frequency="728000">bloodsucker<nouns>
 			<translations>
 				<translation gender="f">sangonera</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="470000">blood transfusion<nouns>
-			<translations>
-				<translation gender="f">transfusió de sang</translation>
 			</translations>
 		</nouns>
 	</Entry>

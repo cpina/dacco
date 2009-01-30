@@ -100,7 +100,7 @@
 	</Entry>
 <Entry frequency="299000">mackerel<nouns>
 			<translations>
-				<translation gender="m">verat</translation>
+				<translation catagory="animal-fish, food-fish" gender="m">verat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -139,6 +139,20 @@
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>mad cow disease
+			<translations>
+				<translation catagory="medical-illness" register="colloquial" gender="f">malaltia de les vaques boges</translation>
+			</translations>
+		</expressions>
+                <expressions>mad house
+			<translations>
+				<grouptranslation>
+					<translation gender="m">manicomi</translation>
+					<translation gender="f">bogeria</translation>
+					<catnote>Avui dia, aquesta paraula s'utilitza només amb sentit figuratiu (per exemple: 'You don't want to work here, it's a madhouse!').</catnote>
+				</grouptranslation>
+			</translations>
+		</expressions>
                 <expressions>hopping mad
                 <translations>
                 <translation register="colloquial">enfurismat</translation>
@@ -168,18 +182,6 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="225000">mad cow disease<nouns>
-			<translations>
-				<translation catagory="medical-illness" register="colloquial" gender="f">malaltia de les vaques boges</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="40000">made-for-television movie<nouns>
-			<translations>
-				<translation gender="m">telefilm</translation>
-			</translations>
-		</nouns>
-	</Entry>
 <Entry frequency="14300">Madejski Stadium<nouns>
 			<translations>
 				<translation catagory="sports, encyclopaedic" local="gb">nom de l'estadi de l'equip de futbol Reading FC</translation>
@@ -207,16 +209,6 @@
 				</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="42700">mad house<nouns>
-			<translations>
-				<grouptranslation>
-					<translation gender="m">manicomi</translation>
-					<translation gender="f">bogeria</translation>
-					<catnote>Avui dia, aquesta paraula s'utilitza només amb sentit figuratiu (per exemple: 'You don't want to work here, it's a madhouse!').</catnote>
-				</grouptranslation>
-			</translations>
-		</nouns>
 	</Entry>
 <Entry frequency="9830000">madness<nouns>
 			<translations>
@@ -6517,6 +6509,11 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>made-for-television movie
+			<translations>
+				<translation gender="m">telefilm</translation>
+			</translations>
+		</expressions>
 	</Entry>
 <Entry frequency="5000000">moving<adjectives>
 			<translations>
