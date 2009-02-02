@@ -1658,20 +1658,35 @@
 
 	</Entry>
         <Entry frequency="20600000">say<verbs>
-
-			<past>said</past>
-
-			<participle>said</participle>
-
-			<translations>
-
-				<translation>dir</translation>
-
-			</translations>
-
-		</verbs>
-
-	</Entry><Entry frequency="605000000">saying<nouns>
+                
+                <past>said</past>
+                
+                <participle>said</participle>
+                
+                <translations><date>0209</date>
+                    
+                    <translation>dir</translation>
+                    
+                </translations>
+                
+            </verbs>
+            <expressions>it goes without saying
+                <translations>
+                    <translation>no cal dir...</translation>
+                </translations>
+            </expressions>
+            <expressions>let's say
+                <translations>
+                    <translation>diguem-ne</translation>
+                </translations>
+            </expressions>
+            <expressions>not say a word
+                <translations>
+                    <translation>no dir ni piu</translation>
+                </translations>
+            </expressions>
+        </Entry>
+        <Entry frequency="605000000">saying<nouns>
 
 			<translations>
 
@@ -14882,17 +14897,11 @@
 			</translations>
 
 		</adjectives>
-
-	</Entry><Entry frequency="139000">Spanish speaker<nouns>
-
-			<translations>
-
-				<translation gender="mf">castellanoparlant</translation>
-
-			</translations>
-
-		</nouns>
-
+                <expressions>Spanish speaker
+<translations>
+<translation catagory="mf">castellanoparlant</translation>
+</translations>
+</expressions>
 	</Entry><Entry frequency="16300000">spank<nouns>
 
                             <translations><date>1007</date>
@@ -15091,13 +15100,13 @@
 
 		</verbs>
 
-	</Entry><Entry frequency="437000000">speak<verbs>
+	</Entry><Entry frequency="365000000">speak<verbs>
 
 			<past>spoke</past>
 
 			<participle>spoken</participle>
 
-                            <translations><date>1007</date>
+                            <translations><date>0109</date>
 
 				<translation>parlar</translation>
 
@@ -15168,6 +15177,11 @@
                 <translation intransitive="true">parlar amb</translation>
             </translations>
         </phrasalverbs>
+<expressions>so to speak
+<translations>
+<translation>com aquell qui diu</translation>
+</translations>
+</expressions>
     </Entry>
     <Entry frequency="28700000">speaker<nouns>
 
@@ -16871,7 +16885,9 @@ s
 
                 <translations>
 
-                <translation register="slang" local="gb">espatllat</translation></translations></expressions>
+                <translation register="slang" local="gb">espatllat</translation>
+            </translations>
+        </expressions>
 
 	</Entry><Entry frequency="337000">sprain<verbs>
 
