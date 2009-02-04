@@ -1351,9 +1351,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="17400">featherbrain<nouns>
-			<translations>
-				<translation gender="mf">baliga-balaga</translation>
+<Entry frequency="42200">featherbrain<nouns>
+			<translations><date>0209</date>
+				<translation gender="mf">baliga-balaga / taral·lirot</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3834,12 +3834,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="848000">Floridian<nouns>
-			<translations>
-				<translation gender="mf">habitant de l'estat de Florida</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <Entry frequency="848000">Floridian<nouns>
+                <translations>
+                    <translation gender="mf">habitant de l'estat de Florida</translation>
+                </translations>
+            </nouns>
+            <adjectives>
+                <translations>
+                    <translation>de l'estat de Florida</translation>
+                </translations>
+            </adjectives>
+        </Entry>
 <Entry frequency="2540000">florist<nouns>
 			<translations><date>0508</date>
 				<translation catagory="work-job" gender="mf">florista</translation>
@@ -5083,27 +5088,38 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="1170000">fortunately<adverbs>
-			<translations>
-				<translation>afortunadament / sortosament / per sort<synonyms>luckily</synonyms>
+<Entry frequency="36000000">fortunately<adverbs>
+                            <translations><date>0209</date>
+				<translation>afortunadament / per fortuna / sortosament / per sort<synonyms>luckily</synonyms>
 				</translation>
 			</translations>
 		</adverbs>
 	</Entry>
-<Entry frequency="15000000">fortune<nouns>
-			<translations><date>1008</date>
-					<translation gender="f">fortuna / sort
-					<engnote>'Fortuna' and 'sort' mean 'fortune' as in 'luck'.</engnote>
-  				</translation>
-	  			<translation gender="f">fortuna<engnote>'Fortuna' means 'fortune' as in 'lots of money'.</engnote>
-				</translation>
-				<translation gender="m">destí<engnote>'Destí' means 'fortune' as in 'destiny'.</engnote>
-				</translation>
-			</translations>
-		</nouns>
+            <Entry frequency="89700000">fortune<nouns>
+                    <translations><date>0209</date>
+                        <translation gender="f">(luck) fortuna / sort</translation>
+                        <translation gender="f">(lots of money) fortuna</translation>
+                        <translation gender="m">(destiny) destí</translation>
+                    </translations>
+                </nouns>
+                <expressions>be worth a fortune
+                    <translations>
+                        <translation>valer una fortuna</translation>
+                    </translations>
+                </expressions>
                 <expressions>cost a fortune
                     <translations>
-                        <translation>costar un ronyó / ull de la cara<synonyms>cost an arm and a leg, cost a bomb</synonyms></translation>
+                        <translation>costar una fortuna (or un ronyó or un ull de la cara)<synonyms>cost an arm and a leg, cost a bomb</synonyms></translation>
+                    </translations>
+                </expressions>
+                <expressions>make your fortune
+                    <translations>
+                        <translation>fer fortuna</translation>
+                    </translations>
+                </expressions>
+                <expressions>pay a fortune
+                    <translations>
+                        <translation>pagar una fortuna</translation>
                     </translations>
                 </expressions>
 	</Entry>

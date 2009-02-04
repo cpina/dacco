@@ -2128,12 +2128,13 @@
 
 		</verbs>
 
-	</Entry><Entry frequency="302000">scatterbrain<nouns>
+	</Entry><Entry frequency="280000">scatterbrain<nouns>
 
-                            <translations><date>1007</date>
-
-				<translation gender="mf">baliga-balaga / tabalot</translation>
-
+                            <translations><date>0109</date>
+                                <grouptranslation>
+                                    <translation gender="mf">baliga-balaga</translation>
+                                    <translation gender="m">tabalot / taral·lirot</translation>
+                                </grouptranslation>
 			</translations>
 
 		</nouns>
@@ -2479,9 +2480,14 @@
 			</translations>
 
 		</nouns>
-                <expressions>keep (o stay) schtum
+                <expressions>keep schtum
                     <translations>
                         <translation local="gb" register="slang">callar / negar-se a parlar<example>J K Rowling is &lt;b&gt;keeping schtum&lt;/b&gt; about which character will be killed off in the last Harry Potter book.</example></translation> 
+                    </translations>
+                </expressions>
+                <expressions>stay schtum
+                    <translations>
+                        <translation local="gb" register="slang">callar / negar-se a parlar<example>J K Rowling is &lt;b&gt;staying schtum&lt;/b&gt; about which character will be killed off in the last Harry Potter book.</example></translation> 
                     </translations>
                 </expressions>
 	</Entry><Entry frequency="226000000">science<nouns>
@@ -2504,7 +2510,30 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="41500000">scientist<nouns>
+	</Entry>
+        <Entry frequency="207000000">scientific<adjectives>
+
+                            <translations><date>0209</date>
+
+				<translation>científic</translation>
+
+			</translations>
+
+		</adjectives>
+
+	</Entry>
+         <Entry frequency="11300000">scientifically<adverbs>
+
+                            <translations><date>0209</date>
+
+				<translation>científicament</translation>
+
+			</translations>
+
+		</adverbs>
+
+	</Entry>
+        <Entry frequency="41500000">scientist<nouns>
 
 			<translations>
 
@@ -14748,12 +14777,13 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="302000">space-case<nouns>
+	</Entry><Entry frequency="284000">space-case<nouns>
 
-			<translations>
-
-				<translation local="us" register="colloquial" gender="mf">baliga-balaga</translation>
-
+                        <translations><date>0209</date>
+                            <grouptranslation local="us" register="colloquial">
+                                <translation gender="mf">baliga-balaga</translation>
+                                <translation gender="m">taral·lirot</translation>
+                            </grouptranslation>
 			</translations>
 
 		</nouns>
@@ -21126,9 +21156,9 @@ s
 
 		</adjectives>
 
-	</Entry><Entry frequency="301000000">strike<nouns>
+	</Entry><Entry frequency="171000000">strike<nouns>
 
-                            <translations><date>1007</date>
+                            <translations><date>0209</date>
 
 				<translation catagory="work" gender="f">vaga<engexamp>Hunger strike</engexamp><catexamp>Vaga de fam</catexamp><engexamp>Wildcat strike</engexamp><catexamp>Vaga salvatge</catexamp></translation>
 
@@ -21137,11 +21167,12 @@ s
 		</nouns>
 
 		<verbs>
-
+                <past>struck</past>
+                <participle>struck</participle>
 			<translations>
 
 				<translation>colpejar</translation>
-
+                                <translation>(clock) tocar</translation>
 			</translations>
 
 		</verbs>

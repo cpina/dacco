@@ -688,18 +688,41 @@
 				</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>wash away
+                    <translations>
+                        <translation intransitive="true">esllavissar-se</translation>
+                        <translation transitive="true">treure o fer desaparèixer per l'acció de l'aigua</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>wash down
+                    <translations>
+                        <translation transitive="true">rentar</translation>
+                        <translation transitive="true">fer passar (un menjar amb un líquid)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>wash off
+                    <translations>
+                        <translation transitive="true">treure de la superfície (d'una cosa) rentant</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>wash out
+                    <translations>
+                        <translation transitive="true">rentar l'interior (d'una cosa)</translation>
+                        <translation transitive="true">fer descolorir rentant</translation>
+                    </translations>
+                </phrasalverbs>
 		<phrasalverbs>wash up
 			<translations>
-				<translation>rentar plats<synonyms>do the washing up, do the dishes</synonyms>
-				</translation>
+				<translation>rentar plats<synonyms>do the washing up, do the dishes</synonyms></translation>
 			</translations>
 		</phrasalverbs>
-	<phrasalverbs>wash away<translations><translation intransitive="true">esllavissar-se</translation><translation transitive="true">treure o fer desaparèixer per l'acció de l'aigua</translation></translations></phrasalverbs><phrasalverbs>wash down<translations><translation transitive="true">rentar</translation><translation transitive="true">fer passar (un menjar amb un líquid)</translation></translations></phrasalverbs><phrasalverbs>wash off<translations><translation transitive="true">treure de la superfície (d'una cosa) rentant</translation></translations></phrasalverbs><phrasalverbs>wash out<translations><translation transitive="true">1 rentar l'interior (d'una cosa) 2 fer descolorir rentant</translation></translations></phrasalverbs></Entry><Entry frequency="54100">wash bag<nouns>
-			<translations>
-				<translation gender="m">necesser</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="290000">washbasin<nouns>
+                <expressions>wash bag
+                    <translations>
+                        <translation gender="m">necesser</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="290000">washbasin<nouns>
 			<translations>
 				<translation gender="m">lavabo / rentamans</translation>
 			</translations>
@@ -718,35 +741,37 @@
                             <translation catagory="clothes" gender="f">roba neta<example>The sky turned black and it started to spot with rain so Linda ran outside to bring the &lt;b&gt;washing&lt;/b&gt; in off the line</example><catnote>La paraula 'washing' pot significar o bé la roba bruta (abans de rentar-la) o bé la roba neta (després de rentar-la), però si es vol distinguir entre les dues es pot dir 'dirty washing' o 'clean washing'.</catnote></translation>	
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="61400">washing line<nouns>
-			<translations>
-				<translation local="gb" gender="m">estenedor<synonyms>clothes line (Br.) / line</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="835000">washing machine<nouns>
-			<translations>
-				<translation catagory="household-room-kitchen" gender="f">rentadora</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="338000">Washingtonian<nouns>
-			<translations>
+                <expressions>washing line
+                    <translations>
+                        <translation local="gb" gender="m">estenedor<synonyms>clothes line (Br.) / line</synonyms></translation>
+                    </translations>
+                </expressions>
+                <expressions>washing machine
+                    <translations>
+                        <translation catagory="household-room-kitchen" gender="f">rentadora</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="720000">Washingtonian<nouns>
+                            <translations><date>0209</date>
 				<translation gender="mf">habitant de Washington D.C</translation>
                                 <translation gender="mf">habitant de l'estat de Washington</translation>
 			</translations>
 		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>de l'estat de Washington</translation>
+                        <translation>de Washington D.C</translation>
+                    </translations>
+                </adjectives>
 	</Entry><Entry frequency="789000">wasp<nouns>
 			<translations>
 				<translation catagory="animal-insect" gender="f">vespa<engexamp>Wasps' nest</engexamp><catexamp>Vesper</catexamp></translation>
+                                <translation register="slang" capitalized="WASP" local="us" noteng="TRUE">-<catnote>L'acrònim WASP (White, Anglo-Saxon, Protestant) refereix al grup que tradicionalment ha estat el més poderós i influent de la societat nord-americana. L'acrònim s'utilitza sobretot en sentit despectiu.</catnote></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="5000">WASP<engacro>White Anglo-Saxon Protestant</engacro>
-		<acronyms>
-			<translations>
-				<translation register="slang" local="us" noteng="TRUE">-<catnote>L'acrònim WASP (blanc, anglo-saxó, protestant)refereix al grup que tradicionalment és el més poderós i influent de la societat nord-americana. L'acrònim s'utilitza sobretot en sentit despectiu.</catnote>
-				</translation>
-			</translations>
-		</acronyms>
-	</Entry><Entry frequency="20800000">waste<verbs>
+	</Entry>
+        <Entry frequency="20800000">waste<verbs>
 			<translations>
 				<translation>malgastar / malbaratar</translation>
 			</translations>
@@ -761,27 +786,29 @@
                                 <translation termcat="energy" gender="f">deixalla</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="187000">waste bin<nouns>
-			<translations>
-				<translation gender="m">cubell de les escombraries</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="1080000">waste heat<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">calor residual</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="119000">waste heat boiler<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">caldera de recuperació</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="198000">waste of space<nouns>
-			<translations>
-				<translation gender="mf">inútil</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="40900">wastepaper basket<nouns>
+                <expressions>waste bin
+                    <translations>
+                        <translation gender="m">cubell de les escombraries</translation>
+                        <translation gender="f">paperera</translation>
+                    </translations>
+                </expressions>
+                <expressions>waste heat
+                    <translations>
+                        <translation termcat="energy" gender="m">calor residual</translation>
+                    </translations>
+                </expressions>
+                <expressions>waste heat boiler
+                    <translations>
+                        <translation termcat="energy" gender="f">caldera de recuperació</translation>
+                    </translations>
+                </expressions>
+                <expressions>waste of space
+                    <translations>
+                        <translation gender="mf">inútil</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+       <Entry frequency="40900">wastepaper basket<nouns>
 			<translations>
 				<translation gender="f">paperera</translation>
 			</translations>
@@ -799,20 +826,27 @@
 				<translation termcat="medical" gender="f">caquèxia</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="53500000">watch<verbs>
-			<translations>
-				<translation>mirar / veure</translation>
-                                <translation>vigilar</translation>
-			</translations>
-		</verbs>
-		<nouns>
+	</Entry><Entry frequency="53500000">watch
+        <nouns>
 			<translations>
 				<translation catagory="clothes-accessories" gender="m">rellotge<plural>watches</plural>
 				</translation>
                                 <translation gender="f">guàrdia</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>watch over<translations><translation intransitive="true">vigilar</translation></translations></phrasalverbs></Entry><Entry frequency="2050000">watchtower<nouns>
+                <verbs>
+			<translations>
+				<translation>mirar / veure</translation>
+                                <translation>vigilar</translation>
+			</translations>
+		</verbs>
+		<phrasalverbs>watch over
+                    <translations>
+                        <translation intransitive="true">vigilar</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="2050000">watchtower<nouns>
 			<translations>
 				<translation gender="f">talaia<synonyms>lookout</synonyms></translation>
 			</translations>
@@ -851,6 +885,11 @@
                 <expressions>water jump
                     <translations>
                         <translation disambiguate="sports" gender="m">rial</translation>
+                    </translations>
+                </expressions>
+                <expressions>water sports
+                    <translations>
+                        <translation catagory="sports" gender="mpl">esports aquàtics</translation>
                     </translations>
                 </expressions>
                 <expressions>water year
@@ -934,12 +973,8 @@
 				<translation catagory="sports-event" gender="m">esquí nàutic</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1150000">water sports<nouns>
-			<translations>
-				<translation catagory="sports" gender="mpl">esports aquàtics</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="247000000">wave<nouns>
+	</Entry>
+        <Entry frequency="247000000">wave<nouns>
                             <translations><date>1007</date>
 				<translation gender="f">onada<engexamp>A wave of refugees</engexamp><catexamp>Una onada de refugiats</catexamp></translation>
 				<translation gender="f">ona<engexamp>Sound wave</engexamp><catexamp>Ona sonora</catexamp></translation>
@@ -948,8 +983,8 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>saludar algú amb la mà</translation>
-                                <translation>agitar</translation>
+				<translation intransitive="true">saludar algú amb la mà</translation>
+                                <translation transitive="true">agitar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>wave off
@@ -957,7 +992,13 @@
                         <translation>acomiadar (algú) fent signes amb la mà</translation>
                     </translations>
                 </phrasalverbs>
-	<phrasalverbs>wave to<translations><translation intransitive="true">fer senyals amb la mà a</translation></translations></phrasalverbs></Entry><Entry frequency="19000000">wavelength<nouns>
+                 <phrasalverbs>wave to
+                    <translations>
+                        <translation intransitive="true">fer senyals amb la mà a</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="19000000">wavelength<nouns>
 			<translations><date>1007</date>
 				<translation termcat="true" gender="f">longitud d'ona</translation>
 			</translations>
@@ -979,12 +1020,13 @@
 				<translation>fregar els terres de fusta amb cera per tal de protegir-los</translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="1590000">wax museum<nouns>
-			<translations>
-				<translation gender="m">museu de cera<synonyms>waxwork(s) museum</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="569000">waxwork<nouns>
+                <expressions>wax museum
+                    <translations>
+                        <translation gender="m">museu de cera<synonyms>waxwork(s) museum</synonyms></translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="569000">waxwork<nouns>
 			<translations><date>0206</date>
 				<translation gender="f">figura de cera<engexamp>Waxwork(s) museum</engexamp><catexamp>Museu de cera</catexamp></translation>
 			</translations>
@@ -1112,12 +1154,17 @@
 				</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="1500000">weasel<nouns>
-			<translations><date>0507</date>
-				<translation catagory="animal-animal" gender="f">mostela</translation>
-			</translations>
-		</nouns>
-	<phrasalverbs>weasel out of<translations><translation intransitive="true">(col·loq.) retirar-se d'(una situació) d'una manera poc honesta o covarda</translation></translations></phrasalverbs></Entry>
+            </Entry><Entry frequency="1500000">weasel<nouns>
+                    <translations><date>0507</date>
+                        <translation catagory="animal-animal" gender="f">mostela</translation>
+                    </translations>
+                </nouns>
+                <phrasalverbs>weasel out of
+                    <translations>
+                        <translation register="colloquial" intransitive="true">retirar-se d'(una situació) d'una manera poc honesta o covarda</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
         <Entry frequency="374000000">weather<nouns>
                             <translations><date>1008</date>
 				<translation catagory="weather" gender="m">temps</translation>
@@ -1163,30 +1210,37 @@
 				<translation catagory="work-job" gender="m">home del temps<plural>weathermen</plural></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="6490000">weave<verbs>
-         <participle>woven</participle>
-         <translations>
-         <translation>teixir</translation>
-         <translation>entrellaçar</translation></translations></verbs><nouns>
-			<translations>
+            </Entry><Entry frequency="6490000">weave<verbs>
+                    <participle>woven</participle>
+                    <translations>
+                        <translation>teixir</translation>
+                <translation>entrellaçar</translation></translations></verbs><nouns>
+                    <translations>
                         <grouptranslation>
-				<translation gender="m">teixit</translation>
-                                <translation gender="f">textura</translation>
-                                </grouptranslation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="9380000000">web<nouns>
+                            <translation gender="m">teixit</translation>
+                            <translation gender="f">textura</translation>
+                        </grouptranslation>
+                    </translations>
+                </nouns>
+            </Entry>
+        <Entry frequency="9380000000">web<nouns>
 			<translations>
                         <translation disambiguate="computers" termcat="true" gender="m">web</translation>
 				<translation gender="f">teranyina</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="40300000">web browser<nouns>
-			<translations>
-                        <translation disambiguate="computers" termcat="true" gender="m">navegador</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="9450000">webcam<nouns>
+                <expressions>web browser
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="m">navegador</translation>
+                    </translations>
+                </expressions>
+                <expressions>web page
+                    <translations>
+                        <translation termcat="true" catagory="computers" gender="f">pàgina web</translation>
+                    </translations>
+                </expressions>
+               	</Entry>
+        <Entry frequency="9450000">webcam<nouns>
 			<translations><date>0408</date>
                         <translation catagory="computers" termcat="true" gender="m">càmera web</translation>
 			</translations>
@@ -1205,12 +1259,8 @@
 				<translation termcat="true" catagory="computers, work-job" gender="mf">administrador de webs</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="48600000">web page<nouns>
-			<translations>
-				<translation termcat="true" catagory="computers" gender="f">pàgina web</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="22000000">webring<nouns>
+	</Entry>
+        <Entry frequency="22000000">webring<nouns>
 			<translations>
 				<translation catagory="computers-internet" termcat="true" gender="f">anella de webs</translation>
 			</translations>
@@ -1220,23 +1270,20 @@
 				<translation termcat="true" catagory="computers" gender="m">lloc web<synonyms>site</synonyms></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="2680000000">web site<nouns>
-			<translations>
-				<translation termcat="true" catagory="computers" gender="m">lloc web<synonyms>site</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="18000000">wedding<nouns>
+	</Entry>
+        <Entry frequency="18000000">wedding<nouns>
 			<translations>
 				<translation gender="f">boda</translation>
                                 <translation gender="fpl">noces</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="3540">wedding tackle<nouns>
-			<translations>
-				<translation register="humorous" gender="mpl">genitals masculins</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="4210000">wedge<nouns>
+                <expressions>wedding tackle
+                    <translations>
+                        <translation register="humorous" gender="mpl">genitals (masculins)</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="4210000">wedge<nouns>
 			<translations>
 				<translation gender="f">falca</translation>
 			</translations>
@@ -1253,8 +1300,7 @@
 		</verbs>
 		<adjectives>
 			<translations>
-				<translation register="dialectal">petit<catnote>Els escocesos utilitzen l'adjectiu 'wee' on a l'anglès estàndard diríem 'little / small'.</catnote>
-				</translation>
+				<translation register="dialectal">petit</translation>
 			</translations>
 		</adjectives>
 		<nouns>
@@ -1263,18 +1309,24 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="21300000">weed<nouns>
-			<translations><date>0308</date>
-				<translation catagory="household-room-garden" gender="f">mala herba</translation>
-                                <translation register="colloquial" gender="m">haixix</translation>
-                            </translations>
-		</nouns>
-		<verbs>
-			<translations>
-				<translation catagory="household-room-garden">treure les males herbes</translation>
-			</translations>
-		</verbs>
-	<phrasalverbs>weed out<translations><translation transitive="true">remoure seleccionant el que no es vol</translation></translations></phrasalverbs></Entry><Entry frequency="127000000">week<nouns>
+            </Entry><Entry frequency="21300000">weed<nouns>
+                    <translations><date>0308</date>
+                        <translation catagory="household-room-garden" gender="f">mala herba</translation>
+                        <translation register="colloquial" gender="m">haixix</translation>
+                    </translations>
+                </nouns>
+                <verbs>
+                    <translations>
+                        <translation catagory="household-room-garden">treure les males herbes</translation>
+                    </translations>
+                </verbs>
+                <phrasalverbs>weed out
+                    <translations>
+                        <translation transitive="true">remoure seleccionant el que no es vol</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+            <Entry frequency="127000000">week<nouns>
 			<translations>
 				<translation catagory="time" gender="f">setmana<engexamp>Next week</engexamp><catexamp>La setmana que ve / la setmana vinent</catexamp><engexamp>Last week</engexamp><catexamp>La setmana passada</catexamp></translation>
 			</translations>
@@ -1284,21 +1336,24 @@
 				<translation catagory="time" gender="m">cap de setmana</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="42100000">weekly<adverbs>
-			<translations>
-				<translation catagory="time">cada setmana<synonyms>every week</synonyms>
-				</translation>
-			</translations>
-		</adverbs>
-		<adjectives>
-			<translations>
-				<translation catagory="time">setmanal</translation>
-			</translations>
-		</adjectives>
+            </Entry><Entry frequency="42100000">weekly<adverbs>
+                    <translations>
+                        <translation catagory="time">cada setmana<synonyms>every week</synonyms>
+                        </translation>
+                    </translations>
+                </adverbs>
+                <adjectives>
+                    <translations>
+                        <translation catagory="time">setmanal</translation>
+                    </translations>
+                </adjectives>
                 <nouns>
-                <translations>
-                <translation gender="m">setmanal<plural>weeklies</plural></translation></translations></nouns>
-	</Entry><Entry frequency="461000">weep<verbs>
+                    <translations>
+                        <translation gender="m">setmanal<plural>weeklies</plural></translation>
+                    </translations>
+                </nouns>
+            </Entry>
+        <Entry frequency="461000">weep<verbs>
 			<past>wept</past>
 			<participle>wept</participle>
 			<translations>
