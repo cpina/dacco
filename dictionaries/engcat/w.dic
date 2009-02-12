@@ -1408,7 +1408,14 @@
                         <translation disambiguate="maths">ponderar<engexamp>Weighted average</engexamp><catexamp>Mitjana ponderada</catexamp></translation>
                     </translations>
                 </verbs>
-	</Entry><Entry frequency="364000">weightlifting<nouns>
+	</Entry>
+        <Entry frequency="647000">weightlifter<nouns>
+			<translations><date>0209</date>
+                                <translation gender="m / f">aixecador / halterofilista</translation>
+                            </translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="364000">weightlifting<nouns>
 			<translations>
 				<translation catagory="sports-event" gender="f">halterofília</translation>
 			</translations>
@@ -2003,11 +2010,21 @@
 				<translation>completament / amb entusiasme</translation>
 			</translations>
 		</adverbs>
-	</Entry><Entry frequency="15100">wholemeal bread<nouns>
-			<translations>
-				<translation catagory="food" gender="m">pa integral</translation>
+	</Entry><Entry frequency="1550000">wholemeal<adjectives>
+                            <translations><date>0209</date>
+				<translation local="gb" catagory="food">(pa, farina..) integral<synonyms>wholewheat</synonyms></translation>
 			</translations>
-		</nouns>
+		</adjectives>
+                    <expressions>wholemeal bread
+                        <translations>
+                            <translation catagory="food" gender="m">pa integral</translation>
+                        </translations>
+                    </expressions>
+                    <expressions>wholemeal flour
+                        <translations>
+                            <translation catagory="food" gender="f">farina integral</translation>
+                        </translations>
+                    </expressions>
                 </Entry>
                 <Entry frequency="160000000">wholesale<nouns>
                         <translations><date>0109</date>
@@ -2032,6 +2049,22 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="13800000">wholewheat<adjectives>
+                            <translations><date>0209</date>
+				<translation catagory="food">(pa, farina..) integral<synonyms>wholemeal (Br.)</synonyms></translation>
+			</translations>
+		</adjectives>
+                    <expressions>wholewheat bread
+                        <translations>
+                            <translation catagory="food" gender="m">pa integral</translation>
+                        </translations>
+                    </expressions>
+                    <expressions>wholewheat flour
+                        <translations>
+                            <translation catagory="food" gender="f">farina integral</translation>
+                        </translations>
+                    </expressions>
+                </Entry>
         <Entry frequency="184000000">whom<pronouns>
                             <translations><date>0908</date>
                                 <translation register="formal">qui</translation>
@@ -2198,27 +2231,34 @@
 				</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="8480000">wild card<nouns><mistakes>wildcard</mistakes>
-			<translations><date>0907</date>
-				<translation termcat="true" disambiguate="sports-event-tennis" gender="m">wild card<engnote>(tennis)</engnote><catnote>(tennis)</catnote></translation>
-                                <translation termcat="true" disambiguate="computers" gender="m">comodí</translation>
-                                <translation gender="m">imponderable</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="186000">wildcat strike<nouns>
-			<translations>
-				<translation gender="f">vaga salvatge</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="848000">wildebeest<nouns>
+                <expressions>wild card
+                    <translations><date>0907</date>
+                        <translation termcat="true" disambiguate="sports-event-tennis" gender="m">wild card<engnote>(tennis)</engnote><catnote>(tennis)</catnote></translation>
+                        <translation termcat="true" disambiguate="computers" gender="m">comodí</translation>
+                        <translation gender="m">imponderable</translation>
+                    </translations>
+                </expressions>
+                <expressions>wild goose chase
+                    <translations>
+                        <translation gender="f">caça de dracs / caça de gambosins / caça de grills<example>The Bush administration's search for Iraq's 'weapons of mass destruction' would appear to be little more than a &lt;b&gt;wild goose chase&lt;/b&gt;</example>
+                        </translation>
+                    </translations>
+                </expressions>
+            </Entry>
+            <Entry frequency="7820000">wildcat<nouns>
+                <translations>
+                    <translation catagory="animal" gender="m">gat salvatge</translation>
+                </translations>
+                </nouns>
+                <expressions>wildcat strike
+                    <translations>
+                        <translation gender="f">vaga salvatge</translation>
+                    </translations>
+                </expressions>
+            </Entry>
+        <Entry frequency="848000">wildebeest<nouns>
 			<translations><date>0507</date>
 				<translation catagory="animal-animal" gender="m">nyu<synonyms>gnu</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="53200">wild goose chase<nouns>
-			<translations>
-				<translation gender="f">caça de dracs / caça de gambosins / caça de grills<example>The Bush administration's search for Iraq's 'weapons of mass destruction' would appear to be little more than a &lt;b&gt;wild goose chase&lt;/b&gt;</example>
-				</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2745,12 +2785,13 @@
 				<translation>presenciar</translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="75800">witness box<nouns>
-			<translations>
-				<translation gender="f">estrada</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="1280000">witty<adjectives>
+                <expressions>witness box
+                    <translations>
+                        <translation gender="f">estrada</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="1280000">witty<adjectives>
 			<translations>
 				<translation>agut (divertit i llest alhora)</translation>
 			</translations>
