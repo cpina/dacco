@@ -3771,16 +3771,11 @@
 <Entry frequency="950000">greengrocer<nouns>
                             <translations><date>1008</date>
 				<translation catagory="work-job" gender="mf">verdulaire / verdurer</translation>
+                                <translation sourceplural="greengrocer's" gender="f">verdureria</translation>
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="48900">greengrocer's<nouns>
-                            <translations><date>1008</date>
-				<translation gender="f">verdureria</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="5660000">greenhouse<nouns>
+       <Entry frequency="5660000">greenhouse<nouns>
 			<translations>
 				<translation gender="m">hivernacle</translation>
 			</translations>
@@ -3844,12 +3839,11 @@
 				<translation gender="f">granada</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="435000">grenade launcher<nouns>
-			<translations>
-				<translation gender="m">llançagranades</translation>
-			</translations>
-		</nouns>
+                <expressions>grenade launcher
+                    <translations>
+                        <translation gender="m">llançagranades</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="9010000">grey<adjectives>
 			<translations>
@@ -4192,6 +4186,13 @@
 <Entry frequency="2960000">grouse<verbs>
 			<translations>
 				<translation register="colloquial">grunyir / rondinar<synonyms>grumble</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="699000">grovel<verbs>
+                            <translations><date>0209</date>
+				<translation>humiliar-se</translation>
+                                <translation>arrossegar-se (als peus d'algú)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4733,6 +4734,17 @@
 				<translation register="slang" local="gb">molt decebut<example>When he told me I hadn't made the team, I was &lt;b&gt;gutted&lt;/b&gt;.</example></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="423">gutter<nouns>
+                            <translations><date>0209</date>
+                                <grouptranslation>
+                                    <translation gender="f">canal</translation>
+                                    <translation gender="m">canaló</translation>
+                                </grouptranslation>
+                                <translation gender="f">cuneta</translation>
+                                <translation sourceplural="the gutter" gender="mpl">barris baixos</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="38100000">guy<nouns>
 			<translations>
