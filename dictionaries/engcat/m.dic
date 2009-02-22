@@ -1353,14 +1353,14 @@
 <Entry frequency="20000">mare<nouns>
 			<translations>
                         <translation disambiguate="amimal" gender="f">egua / euga</translation>
-				<translation register="slang" local="gb" gender="m">mal son<catnote>Mare és una abreviació de la paraula 'nightmare', però cal notar que mentre que la paraula 'nightmare' s'utilitza tant amb sentit literal ('Johnny had a nightmare in which he was being chased by monsters') com amb un sentit més figuratiu ('The match was a real nightmare, we lost 5-0'), l'abreviació 'mare' només s'utilitza amb sentit figuratiu.  No es pot dir 'Johnny had a mare in which he was being chased by monsters' però sí que es pot dir 'The match was a real mare. We lost 3-0'.</catnote>
+				<translation register="slang" local="gb" gender="m">malson<catnote>Mare és una abreviació de la paraula 'nightmare', però cal notar que mentre que la paraula 'nightmare' s'utilitza tant en sentit literal ('Johnny had a nightmare in which he was being chased by monsters') com en sentit figuratiu ('The match was a real nightmare, we lost 5-0'), l'abreviació 'mare' només s'utilitza amb sentit figuratiu.  No es pot dir 'Johnny had a mare in which he was being chased by monsters' però sí que es pot dir 'The match was a real mare. We lost 3-0'.</catnote>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="489000">margarine<nouns>
 			<translations>
-				<translation gender="f">margarina</translation>
+				<translation catagory="food" gender="f">margarina</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1453,39 +1453,44 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="1290000000">mark<nouns>
-                            <translations><date>0907</date>
-				<translation gender="f">taca<engnote>'Taca' means 'mark' as in 'a stain'.</engnote>
-					<synonyms>stain</synonyms>
-				</translation>
-				<translation gender="f">empremta<engnote>'Empremta' means 'mark' in the sense 'trace'.</engnote>
-					<engexamp>To leave a mark</engexamp>
-					<catexamp>Deixar una empremta</catexamp>
-					<synonyms>trace</synonyms>
-				</translation>
-                                <translation disambiguate="education" local="gb" gender="f">qualificació<engnote>'Qualificació' means 'mark' in the sense 'grade'.</engnote><otherlocal>grade</otherlocal></translation>
-                                <translation disambiguate="financial" capitalized="Mark" gender="m">marc</translation>
-			</translations>
-		</nouns>
-                <verbs>
-                    <translations>
-                        <translation disambiguate="sports-event-football">marcar</translation>
-                        <translation>tacar<synonyms>stain</synonyms></translation>
-                    </translations>
-                </verbs>
-                <phrasalverbs>mark down
+        <Entry frequency="1290000000">mark<nouns>
+                <translations><date>0907</date>
+                    <translation gender="f">taca<engnote>'Taca' means 'mark' as in 'a stain'.</engnote>
+                        <synonyms>stain</synonyms>
+                    </translation>
+                    <translation gender="f">empremta<engnote>'Empremta' means 'mark' in the sense 'trace'.</engnote>
+                        <engexamp>To leave a mark</engexamp>
+                        <catexamp>Deixar una empremta</catexamp>
+                        <synonyms>trace</synonyms>
+                    </translation>
+                    <translation disambiguate="education" local="gb" gender="f">qualificació<engnote>'Qualificació' means 'mark' in the sense 'grade'.</engnote><otherlocal>grade</otherlocal></translation>
+                    <translation disambiguate="financial" capitalized="Mark" gender="m">marc</translation>
+                </translations>
+            </nouns>
+            <verbs>
+                <translations>
+                    <translation disambiguate="sports-event-football">marcar</translation>
+                    <translation>tacar<synonyms>stain</synonyms></translation>
+                </translations>
+            </verbs>
+            <phrasalverbs>mark down
                 <translations>
                     <translation>abaixar el preu</translation>
                     <translation>donar a un alumne una marca més baixa</translation>
-                    </translations>
-                    </phrasalverbs>
-                    <phrasalverbs>mark up
-                    <translations>
-                        <translation>pujar el preu</translation>
-                        <translation>preparar (un text) per a publicació</translation>
-                    </translations>
-                    </phrasalverbs>
-	<phrasalverbs>mark off<translations><translation transitive="true">assenyalar, marcar</translation></translations></phrasalverbs></Entry>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>mark off
+                <translations>
+                    <translation transitive="true">assenyalar / marcar</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>mark up
+                <translations>
+                    <translation>pujar el preu</translation>
+                    <translation>preparar (un text) per a publicació</translation>
+                </translations>
+            </phrasalverbs>
+        </Entry>
 <Entry frequency="13300000">marker<nouns>
 			<translations>
 				<translation gender="m">retolador</translation>
@@ -1554,7 +1559,7 @@
 			<translations>
 				<translation gender="f">medul·la</translation>
 				<translation gender="m">moll (de l'os)</translation>
-				<translation gender="m">carbassó</translation>
+				<translation disambiguate="food" gender="m">carbassó</translation>
 			</translations>
 		</nouns>
 	</Entry>

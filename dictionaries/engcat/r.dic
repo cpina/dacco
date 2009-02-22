@@ -5639,29 +5639,22 @@
 		</verbs>
 
 	</Entry>
-<Entry frequency="19100000">repeat<verbs>
-
-			<translations>
-
-				<translation>repetir</translation>
-
-			</translations>
-
-		</verbs>
-
-		<nouns>
-
-			<translations>
-
-				<translation gender="f">reemissió<engnote>'Reemissió' means 'repeat' as in a tv program that is rebroadcast.</engnote>
-
-				</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry>
+        <Entry frequency="19100000">repeat<verbs>                
+                <translations>                    
+                    <translation>repetir</translation>                    
+                </translations>                
+            </verbs>            
+            <nouns>               
+                <translations>                    
+                    <translation gender="f">reemissió<engnote>'Reemissió' means 'repeat' as in a tv program that is rebroadcast.</engnote></translation>                    
+                </translations>                
+            </nouns>
+            <expressions>repeat offender
+                <translations>                    
+                    <translation gender="mf">reincident</translation>                    
+                </translations>                
+            </expressions>            
+        </Entry>
 <Entry frequency="18100000">repeatedly<adverbs>
 
 			<translations>
@@ -5678,17 +5671,6 @@
 				<translation termcat="internet" catagory="computers" gender="m">repetidor</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="2210000">repeat offender<nouns>
-
-			<translations>
-
-				<translation gender="mf">reincident</translation>
-
-			</translations>
-
-		</nouns>
-
 	</Entry>
 <Entry frequency="1890000">repel<verbs double="true">
 
@@ -5718,23 +5700,25 @@
                 <translation>repel·lent</translation></translations></adjectives>
 
 	</Entry>
-<Entry frequency="1930000">repellent<nouns>
-
-			<translations>
-
-				<translation gender="m">repel·lent</translation>
-
-			</translations>
-
-		</nouns>
-
-                <adjectives>
-
+        <Entry frequency="1930000">repellent<nouns>
+                
                 <translations>
-
-                <translation>repel·lent</translation></translations></adjectives>
-
-	</Entry>
+                    
+                    <translation gender="m">repel·lent</translation>
+                    
+                </translations>
+                
+            </nouns>
+            
+            <adjectives>
+                
+                <translations>
+                    
+                    <translation>repel·lent</translation>
+                </translations>
+            </adjectives>
+            
+        </Entry>
 <Entry frequency="15000000">repent<verbs>
 
 			<translations>
@@ -5783,7 +5767,7 @@
 
 			<translations>
 
-				<translation>reemplaçar / substituir<engexamp>To replace A with B</engexamp><catexamp>Substituir A per B / reemplaçar A per B</catexamp></translation>
+				<translation>(~ X with Y) reemplaçar / substituir (X per Y)</translation>
 
 			</translations>
 
@@ -5863,19 +5847,9 @@
 
 			<translations>
 
-				<translation gender="m">informe<engnote>'Report' has more than one possibility in Catalan. 'Informe' is like the kind of report you write at work or school, 'reportatge' is more like a television or radio report (i.e. 'next we have a report from Dermot Monaghan, our correspondent  in Cuba').</engnote>
+                                <translation gender="m">informe<engexamp>To write a report on ...</engexamp><catexamp>Elaborar un informe sobre ....</catexamp></translation>
 
-					<engexamp>To write a report on ...</engexamp>
-
-					<catexamp>Elaborar un informe sobre ....</catexamp>
-
-				</translation>
-
-				<translation gender="m">reportatge<engexamp>A report by Carol López</engexamp>
-
-					<catexamp>Un reportatge de Carol López</catexamp>
-
-				</translation>
+				<translation gender="m">reportatge<engexamp>A report by Dermot Monaghan</engexamp><catexamp>Un reportatge de Dermot Monaghan</catexamp></translation>
 
 			</translations>
 
@@ -5948,40 +5922,44 @@
 		</adjectives>
 
 	</Entry>
-<Entry frequency="702000">reprieve<nouns>
-
-			<translations>
-
-				<translation gender="m">indult</translation>
-
-			</translations>
-
-		</nouns>
-
-                <verbs>
-
+        <Entry frequency="702000">reprieve<nouns>
+                
                 <translations>
-
-                <translation>indultar</translation></translations></verbs>
-
-	</Entry>
-<Entry frequency="1370000">reprimand<nouns>
-
-			<translations>
-
-				<translation gender="f">amonestació / admonició</translation>
-
-			</translations>
-
-		</nouns>
-
-                <verbs>
-
+                    
+                    <translation gender="m">indult</translation>
+                    
+                </translations>
+                
+            </nouns>
+            
+            <verbs>
+                
                 <translations>
-
-                <translation>amonestar</translation></translations></verbs>
-
-	</Entry>
+                    
+                    <translation>indultar</translation>
+                </translations>
+            </verbs>
+            
+        </Entry>
+        <Entry frequency="1370000">reprimand<nouns>
+                
+                <translations>
+                    
+                    <translation gender="f">amonestació / admonició</translation>
+                    
+                </translations>
+                
+            </nouns>
+            
+            <verbs>
+                
+                <translations>
+                    
+                    <translation>amonestar</translation>
+                </translations>
+            </verbs>
+            
+        </Entry>
 <Entry frequency="487000">reprisal<nouns>
 
 			<translations>
@@ -5993,23 +5971,25 @@
 		</nouns>
 
 	</Entry>
-<Entry frequency="329000">reproach<verbs>
-
-			<translations>
-
-				<translation register="formal">reprotxar / reganyar</translation>
-
-			</translations>
-
-		</verbs>
-
-                <nouns>
-
+        <Entry frequency="329000">reproach<verbs>
+                
                 <translations>
-
-                <translation register="formal" gender="m">reprotxe / regany</translation></translations></nouns>
-
-	</Entry>
+                    
+                    <translation register="formal">reprotxar / reganyar</translation>
+                    
+                </translations>
+                
+            </verbs>
+            
+            <nouns>
+                
+                <translations>
+                    
+                    <translation register="formal" gender="m">reprotxe / regany</translation>
+                </translations>
+            </nouns>
+            
+        </Entry>
 <Entry frequency="20100000">reproduce<verbs>
 
 			<translations>
@@ -6243,6 +6223,17 @@
 			<translations>
 
 				<translation gender="m">rescat</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="2200000">rescuer<nouns>
+
+                            <translations><date>0209</date>
+
+				<translation gender="mf">rescatador</translation>
 
 			</translations>
 
