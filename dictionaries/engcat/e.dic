@@ -4901,6 +4901,12 @@
                 </translations>
                 </verbs>
 	</Entry>
+                <Entry frequency="2980000">exhale<verbs>
+                            <translations><date>0209</date>
+				<translation intransitive="true">expirar</translation>
+			</translations>
+		</verbs>
+	</Entry>
 <Entry frequency="20600000">exert<verbs>
 			<translations>
                         <translation>exercir<engexamp>The Sun exerts a strong gravitational pull on the planets</engexamp><catexamp>El Sol exerceix una forta atracció gravitatòria sobre els planetes</catexamp></translation>
@@ -5227,29 +5233,35 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="5990000">expiration<nouns>
+<Entry frequency="78100000">expiration<nouns>
 			<translations><date>0607</date>
-				<translation local="us" gender="f">caducitat<otherlocal>expiry</otherlocal></translation>
+				<translation local="us" gender="f">expiració / caducitat<otherlocal>expiry</otherlocal></translation>
 			</translations>
 		</nouns>
+                <expressions>expiration date
+                    <translations>
+                        <translation local="us" gender="f">data de caducitat<synonyms>best before date</synonyms><otherlocal>expiry date, use-by date</otherlocal></translation>
+                    </translations>
+                </expressions>
 	</Entry>
-<Entry frequency="9210000">expiration date<nouns>
-			<translations>
-				<translation local="us" gender="f">data de caducitat<synonyms>best before date / expiry date (Br.) / use-by date (Br.)</synonyms></translation>
+                <Entry frequency="69100000">expire<verbs>
+                            <translations><date>0209</date>
+				<translation>(a contract, an agreement..) caducar / vèncer / expirar</translation>
+                                <translation>(a mandate) expirar / acabar</translation>
+                                <translation register="literary">(a person) expirar / morir</translation>
 			</translations>
-		</nouns>
+		</verbs>
 	</Entry>
 <Entry frequency="2150000">expiry<nouns>
 			<translations><date>0607</date>
-				<translation local="gb" gender="f">caducitat<otherlocal>expiration</otherlocal></translation>
+				<translation local="gb" gender="f">expiració / caducitat<otherlocal>expiration</otherlocal></translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="1810000">expiry date<nouns>
-			<translations>
-				<translation local="gb" gender="f">data de caducitat<synonyms>best before date / expiration date (Am.) / use-by date (Br.)</synonyms></translation>
-			</translations>
-		</nouns>
+                <expressions>expiry date
+                    <translations>
+                        <translation local="gb" gender="f">data de caducitat<otherlocal>expiration date</otherlocal><synonyms>best before date, use-by date</synonyms></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="55900000">explain<verbs>
 			<translations>

@@ -1115,7 +1115,7 @@
 	</Entry>
 <Entry frequency="2370000">fatten<verbs>
 			<translations><date>0807</date>
-				<translation>engreixar</translation>
+				<translation transitive="true">engreixar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>fatten up
@@ -1481,6 +1481,11 @@
                             <translation transitive="true">alimentar (del tot)</translation>
                         </translations>
                     </phrasalverbs>
+                    <expressions>feed water
+                        <translations>
+                            <translation gender="f">aigua d'alimentació</translation>
+                        </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="3170000000">feedback<nouns>
 			<translations>
@@ -1493,13 +1498,13 @@
 	</Entry>
 <Entry frequency="5000000">feeding<nouns>
 			<translations>
-				<translation gender="f">alimentació<engexamp>Breastfeeding</engexamp><catexamp>Alletament matern</catexamp></translation>
+				<translation gender="f">alimentació</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="670000">feed water<nouns>
-			<translations><date>0307</date>
-				<translation gender="f">aigua d'alimentació</translation>
+        <Entry frequency="68000000">feedlot<nouns>
+                            <translations><date>0209</date>
+				<translation local="us" gender="f">granja d'engreix<synonyms>CAFO (concentrated animal feeding operation) (Am.), factory farm</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>

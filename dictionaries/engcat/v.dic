@@ -100,7 +100,14 @@
 				<translation gender="f">vanaglòria</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="3480000">Valencia<nouns>
+	</Entry>
+        <Entry frequency="884000">valedictory<adjectives>
+			<translations><date>0209</date>
+				<translation register="formal">de comiat<engexamp>Valedictory speech</engexamp><catexamp>Discurs de comiat</catexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="3480000">Valencia<nouns>
 			<translations>
 				<translation catagory="geography" gender="f">València</translation>
 			</translations>
@@ -1317,15 +1324,23 @@
                                 <translation gender="m">missatge de veu<example>My &lt;b&gt;voice mails&lt;/b&gt; are automatically deleted after 30 days.</example></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="50000000">void<nouns>
-			<translations>
-				<translation gender="m">buit</translation>
-			</translations>
-		</nouns>
+            </Entry><Entry frequency="74400000">void<nouns>
+                    <translations><date>0209</date>
+                        <translation gender="m">buit</translation>
+                    </translations>
+                </nouns>
                 <adjectives>
-                <translations>
-                <translation>nul</translation></translations></adjectives>
-	</Entry><Entry frequency="5890000">volatile<adjectives>
+                    <translations>
+                        <translation>nul</translation>
+                    </translations>
+                </adjectives>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">invalidar<synonyms>nullify</synonyms></translation>
+                    </translations>
+                </verbs>
+            </Entry>
+        <Entry frequency="5890000">volatile<adjectives>
 			<translations>
 				<translation>volàtil</translation>
 			</translations>

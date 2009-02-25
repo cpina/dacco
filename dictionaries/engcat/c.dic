@@ -220,6 +220,12 @@
         </translations>
     </nouns>
     </Entry>
+     <Entry frequency="245000">CAFO<engacro>Concentrated Animal Feeding Operation</engacro><nouns>
+                            <translations><date>0209</date>
+				<translation local="us" gender="f">granja d'engreix<synonyms>feedlot (Am.), factory farm</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="12400000">cage<nouns>
         <translations>
             <translation catagory="animal" gender="f">gàbia</translation>
@@ -1709,6 +1715,7 @@
         <translations><date>0808</date>
             <translation disambiguate="medical" gender="m">portador</translation>
             <translation gender="m">transportador</translation>
+            <translation gender="f">empresa de transport</translation>
             <translation local="gb" register="colloquial" gender="f">bossa de plàstic<catnote>'Carrier (bag)' no es diu en anglès americà ni en anglès australià.</catnote><otherlocal>plastic bag</otherlocal>
             </translation>
         </translations>
@@ -3603,16 +3610,28 @@
             </translations>
         </phrasalverbs>
     </Entry>
-<Entry frequency="48400000">charter<nouns>
-        <translations>
-            <translation catagory="transport" gender="m">xàrter</translation>
-        </translations>
-    </nouns>
+    <Entry frequency="89500000">charter<nouns>
+            <translations><date>0209</date>
+                <translation catagory="transport" gender="m">xàrter</translation>
+            </translations>
+        </nouns>
+        <verbs>
+            <translations>
+                <translation>noliejar / llogar</translation>
+            </translations>
+        </verbs>
         <expressions>charter flight
             <translations>
                 <translation catagory="transport" gender="m">vol xàrter</translation>
             </translations>
         </expressions>
+    </Entry>
+    <Entry frequency="22900000" >chartered<adjectives>
+            <translations><date>0209</date>
+                <translation local="gb">col·legiat / jurat<engexamp>Chartered accountant</engexamp><catexamp>Censor jurat de comptes</catexamp></translation>
+                <translation>(vehicle, boat) llogat / noliegat</translation>
+            </translations>
+        </adjectives>
     </Entry>
 <Entry frequency="11800000">chase<verbs>
         <translations>

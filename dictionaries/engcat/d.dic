@@ -1813,17 +1813,29 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="947000">delinquency<nouns>
+<Entry frequency="7490000">delinquency<nouns>
 			<translations>
 				<translation gender="f">delinqüència</translation>
+                                <translation disambiguate="financial" gender="f">morositat</translation>
 			</translations>
 		</nouns>
+                <expressions>delinquency rate
+                    <translations>
+                        <translation disambiguate="financial" gender="f">taxa de morositat</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-<Entry frequency="1350000">delinquent<nouns>
-			<translations>
-				<translation gender="mf">delinqüent</translation>
+<Entry frequency="11200000">delinquent<nouns>
+                            <translations><date>0209</date>
+				<translation gender="mf">delinqüent<engexamp>Delinquent children</engexamp><catexamp>Menors delinqüents</catexamp></translation>
 			</translations>
 		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>delictiu / delictuós<engexamp>Delinquent act</engexamp><catexamp>Acte delictuós</catexamp><engexamp>Delinquent behaviour (Br.) / behavior (Am.)</engexamp><catexamp>Comportament delictiu</catexamp></translation>
+                        <translation disambiguate="financial">morós</translation>
+                    </translations>
+                </adjectives>
 	</Entry>
 <Entry frequency="6430000">delirious<adjectives>
 			<translations>
@@ -3328,29 +3340,32 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="21100000">dialog<nouns>
-			<translations>
-				<translation gender="m" local="us">diàleg<otherlocal>dialogue</otherlocal>
-				</translation>
+<Entry frequency="237000000">dialog<nouns>
+                        <translations><date>0209</date>
+                            <grouptranslation local="us">
+                                <translation gender="m">diàleg</translation>
+                                <translation gender="ffullform">interlocució<otherlocal>dialogue</otherlocal></translation>
+                            </grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>dialog box
+                    <translations>
+                        <translation termcat="true" catagory="computers" gender="m">quadre de diàleg</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-<Entry frequency="2820000">dialog box<nouns>
+<Entry frequency="72600000">dialogue<nouns>
 			<translations>
-				<translation gender="m" termcat="true">quadre de diàleg</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="21100000">dialogue<nouns>
-			<translations>
-				<translation gender="m" local="gb">diàleg<otherlocal>dialog</otherlocal>
-				</translation>
+                            <grouptranslation local="gb">
+                                <translation gender="m">diàleg</translation>
+                                <translation gender="ffullform">interlocució<otherlocal>dialog</otherlocal></translation>
+                            </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="2700000">dialysis<nouns>
 			<translations>
-				<translation gender="f">diàlisi</translation>
+				<translation catagory="medical-treatment" gender="f">diàlisi</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6473,9 +6488,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="7850000">drag<verbs double="true">
-			<translations>
-				<translation>arrossegar</translation>
+<Entry frequency="105000000">drag<verbs double="true">
+                            <translations><date>0209</date>
+				<translation transitive="true">arrossegar</translation>
 			</translations>
 		</verbs>
 	<phrasalverbs>drag out
@@ -6484,6 +6499,11 @@
             <translation transitive="true">prolongar</translation>
         </translations>
     </phrasalverbs>
+    <expressions>drag and drop
+        <translations>
+            <translation disambiguate="computers">arrossegar i deixar anar</translation>
+        </translations>
+    </expressions>
 </Entry>
 <Entry frequency="8850000">dragon<nouns>
 			<translations>

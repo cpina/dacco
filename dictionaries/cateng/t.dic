@@ -1298,6 +1298,12 @@
       </translations>
     </nouns>
   </Entry>
+  <Entry frequency="66300" >telegrama<nouns>
+          <translations><date>0209</date>
+              <translation gender="m" >telegram / wire (col·loq) (Am.)</translation>
+          </translations>
+      </nouns>
+  </Entry>
   <Entry frequency="25100" >telemàtic<adjectives>
       <translations>
         <translation>telematic<fems>telemàtica</fems><femplural>telemàtiques</femplural></translation>
@@ -2332,6 +2338,12 @@
             <translation catagory="religious" gender="m">New Testament</translation>
         </translations>
     </expressions>
+  </Entry>
+  <Entry frequency="858">testarrut<adjectives>
+          <translations><date>0209</date>
+              <translation>stubborn / headstrong / wilful (Br.) / willful (Am.)<synonyms>tossut, caparrut</synonyms></translation>
+          </translations>
+      </adjectives>
   </Entry>
   <Entry frequency="925" >testicle<nouns>
       <translations>
@@ -3733,6 +3745,11 @@
         <translation catagory="medical" gender="f" >cough</translation>
       </translations>
     </nouns>
+    <expressions>tos ferina
+        <translations>
+            <translation catagory="medical-illness" gender="f" >whooping cough</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="295" >tosc<adjectives>
       <translations>
@@ -3754,34 +3771,48 @@
       </translations>
     </nouns>
   </Entry>
-  <Entry frequency="142" >tos ferina<nouns>
-      <translations>
-        <translation catagory="medical-illness" gender="f" >whooping cough</translation>
-      </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="8730" >tossir<verbs conj="irregular54">
+   <Entry frequency="8730" >tossir<verbs conj="irregular54">
       <translations><date>0605</date>
         <translation intransitive="true" >to cough</translation>
       </translations>
     </verbs>
   </Entry>
-  <Entry frequency="1560" >tossut<adjectives>
-      <translations>
-        <translation>stubborn<fems>tossuda</fems></translation>
+  <Entry frequency="61200" >tossut<adjectives>
+          <translations><date>0209</date>
+        <translation>stubborn / headstrong / wilful (Br.) / willful (Am.)<fems>tossuda</fems></translation>
       </translations>
     </adjectives>
   </Entry>
   <Entry frequency="598000" >tot<adjectives>
-      <translations>
-        <translation>all / every<fems>tota</fems></translation>
-      </translations>
-    </adjectives>
-    <expressions>del tot
-    <translations>
-    <translation>completely</translation>
-    </translations>
-    </expressions>
+          <translations>
+              <translation>all / every<fems>tota</fems></translation>
+          </translations>
+      </adjectives>
+      <expressions>tot i així
+          <translations>
+              <translation>even so</translation>
+          </translations>
+      </expressions>
+      <expressions>tot i que
+          <translations>
+              <translation>even though</translation>
+          </translations>
+      </expressions>
+      <expressions>tot seguit
+          <translations>
+              <translation>next / then</translation>
+          </translations>
+      </expressions>
+      <expressions>Tots Sants
+          <translations>
+              <translation>All Saints (Day)</translation>
+          </translations>
+      </expressions>
+      <expressions>del tot
+          <translations>
+              <translation>completely</translation>
+          </translations>
+      </expressions>
   </Entry>
   <Entry frequency="537000" >total<adjectives>
       <translations>
@@ -3832,18 +3863,6 @@
       </translations>
     </adverbs>
   </Entry>
-  <Entry frequency="14100" >tot i així<adverbs>
-      <translations>
-        <translation>even so</translation>
-      </translations>
-    </adverbs>
-  </Entry>
-  <Entry frequency="193000" >tot i que<adverbs>
-      <translations>
-        <translation>even though</translation>
-      </translations>
-    </adverbs>
-  </Entry>
   <Entry frequency="853" >totpoderós<adjectives>
       <translations>
         <translation>all-powerful / omnipotent<plural>totpoderosos</plural>
@@ -3852,18 +3871,6 @@
       </translations>
     </adjectives>
   </Entry>
-  <Entry frequency="3420" >Tots Sants<nouns>
-      <translations>
-        <translation>All Saints (Day)</translation>
-      </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="65500" >tot seguit<adverbs>
-      <translations>
-        <translation>next / then</translation>
-      </translations>
-    </adverbs>
-  </Entry>
   <Entry frequency="1730" >totxo<nouns>
       <translations>
         <translation gender="m" >brick</translation>
@@ -3871,23 +3878,21 @@
     </nouns>
   </Entry>
   <Entry frequency="32300" >tou<adjectives>
-      <translations>
-        <translation>soft<fems>tova</fems>
-        </translation>
-      </translations>
-    </adjectives>
-  </Entry>
-  <Entry frequency="1730" >tou de la cama<nouns>
-      <translations>
-        <translation gender="m" >calf<synonyms>panxell</synonyms></translation>
-      </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="1730" >tou del dit<nouns>
-      <translations>
-        <translation gender="m" >fingertip</translation>
-      </translations>
-    </nouns>
+          <translations>
+              <translation>soft<fems>tova</fems>
+              </translation>
+          </translations>
+      </adjectives>
+      <expressions>tou de la cama
+          <translations>
+              <translation catagory="body" gender="m">calf<synonyms>panxell</synonyms></translation>
+          </translations>
+      </expressions>
+      <expressions>tou del dit
+          <translations>
+              <translation catagory="body" gender="m">fingertip</translation>
+          </translations>
+      </expressions>
   </Entry>
 <Entry frequency="0">touer<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Tous</translation></translations></nouns><adjectives><translations><translation>relating to Tous or its people<fems>touera</fems></translation></translations></adjectives></Entry>
   <Entry frequency="385" >tovalla<nouns>
@@ -3930,13 +3935,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-  <Entry frequency="9720" >tòxic<adjectives>
-      <translations>
-        <translation>toxic<fems>tòxica</fems><femplural>tòxiques</femplural>
-        </translation>
-      </translations>
-    </adjectives>
-  </Entry>
+        <Entry frequency="9720" >tòxic<adjectives>
+                <translations>
+                    <translation>toxic<fems>tòxica</fems><femplural>tòxiques</femplural>
+                    </translation>
+                </translations>
+            </adjectives>
+        </Entry>
   <Entry frequency="6620" >toxicitat<nouns>
       <translations>
         <translation gender="f" >toxicity</translation>
@@ -4026,10 +4031,10 @@
     </adjectives>
   </Entry>
   <Entry frequency="73200" >tractament<nouns>
-      <translations>
-        <translation catagory="medical" gender="m" >treatment</translation>
-      </translations>
-    </nouns>
+          <translations>
+              <translation catagory="medical" gender="m" >treatment</translation>
+          </translations>
+      </nouns>
   </Entry>
   <Entry frequency="120000" >tractar<verbs conj="regular" >
           <translations><date>0109</date>
@@ -4077,17 +4082,17 @@
       </translations>
     </nouns>
   </Entry>
-  <Entry frequency="20500" >traductor<nouns>
-      <translations>
-        <translation catagory="work-job" gender="m / f" >translator<fems>traductora</fems></translation>
-      </translations>
-    </nouns>
-    <expressions>traductor automàtic
-        <translations>
-            <translation catagory="linguistics" gender="m">automatic translator</translation>
-        </translations>
-    </expressions>
-  </Entry>
+        <Entry frequency="20500" >traductor<nouns>
+                <translations>
+                    <translation catagory="work-job" gender="m / f" >translator<fems>traductora</fems></translation>
+                </translations>
+            </nouns>
+            <expressions>traductor automàtic
+                <translations>
+                    <translation catagory="linguistics" gender="m">automatic translator</translation>
+                </translations>
+            </expressions>
+        </Entry>
    	<Entry frequency="27700" >traduir<verbs conj="irregular2" >
       <translations>
         <translation>to translate</translation>
@@ -4097,14 +4102,20 @@
   <Entry frequency="32400" >tràfic<nouns>
       <translations>
         <translation gender="m" >trade</translation>
-        <translation gender="m" >smuggling / trafficking / dealing<catexamp>Tràfic de drogues</catexamp>
-          <engexamp>Drug smuggling / trafficking / dealing</engexamp>
-          <catexamp>Tràfic de persones</catexamp>
-          <engexamp>People smuggling / trafficking</engexamp>
-        </translation>
+        <translation gender="m" >smuggling / trafficking / dealing </translation>
         <translation gender="m">traffic<engnote>'Tràfic' means 'traffic' in the sense 'illegal trade' (i.e. 'arms traffic', 'drug traffic')</engnote></translation>
       </translations>
     </nouns>
+    <expressions>tràfic de drogues
+        <translations>
+            <translation gender="m">drug smuggling (or trafficking or dealing)</translation>
+        </translations>
+    </expressions>
+    <expressions>tràfic de persones
+        <translations>
+            <translation gender="m">people smuggling (or trafficking)</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="1840" >traficant<nouns>
       <translations>
@@ -4192,16 +4203,16 @@
   </Entry>
   <Entry frequency="43500" >trair<verbs conj="irregular2" >
           <translations><date>1208</date>
-        <translation transitive="true">to betray</translation>
-        <translation transitive="true">to give away</translation>
-      </translations>
-    </verbs>
+              <translation transitive="true">to betray</translation>
+              <translation transitive="true">to give away</translation>
+          </translations>
+      </verbs>
   </Entry>
   <Entry frequency="9080" >trajecte<nouns>
-      <translations>
-        <translation gender="m" >journey / route</translation>
-      </translations>
-    </nouns>
+          <translations>
+              <translation gender="m" >journey / route</translation>
+          </translations>
+      </nouns>
   </Entry>
   <Entry frequency="28600" >trajectòria<nouns>
       <translations>
@@ -4227,9 +4238,9 @@
       </translations>
     </nouns>
   </Entry>
-  <Entry frequency="37500" >trametre<verbs conj="irregular4" >
-      <translations>
-        <translation>to send</translation>
+  <Entry frequency="512000" >trametre<verbs conj="irregular4" >
+          <translations><date>0209</date>
+        <translation transitive="true">to send / to dispatch (formal)</translation>
       </translations>
     </verbs>
   </Entry>
@@ -4241,7 +4252,7 @@
   </Entry>
   <Entry frequency="44400" >tramitar<verbs conj="regular" >
       <translations>
-        <translation>to process</translation>
+        <translation transitive="true">to process</translation>
       </translations>
     </verbs>
   </Entry>
@@ -4286,7 +4297,7 @@
   <Entry frequency="148" >tramviari<adjectives>
       <translations>
         <translation catagory="transport" >tram (Br.) / streetcar (Am.)<catexamp>Línia tramviària</catexamp>
-          <engexamp>Tram / streetcar line</engexamp>
+          <engexamp>Tram line (Br.) / streetcar line (Am.)</engexamp>
           <fems>tramviària</fems>
         </translation>
       </translations>
@@ -4314,8 +4325,7 @@
   </Entry>
   <Entry frequency="4720" >tranquil·litzant<nouns>
       <translations>
-        <translation catagory="medical-treatment" gender="m" >tranquiliser (Br.) / tranquilizer (Am.)</translation>
-        <translation catagory="medical-treatment" gender="m" register="slang" >tranq</translation>
+        <translation catagory="medical-treatment" gender="m" >tranquiliser (Br.) / tranquilizer (Am.) / tranq (argot)</translation>
       </translations>
     </nouns>
     <adjectives>
@@ -4361,12 +4371,15 @@
   </Entry>
   <Entry frequency="709" >transbordador<nouns>
       <translations>
-        <translation catagory="transport" gender="m" >shuttle<catexamp>Transbordador espacial</catexamp>
-          <engexamp>Space shuttle</engexamp>
-        </translation>
+        <translation catagory="transport" gender="m" >shuttle</translation>
         <translation catagory="transport" gender="m" >ferry</translation>
       </translations>
     </nouns>
+    <expressions>transbordador espacial
+        <translaitons>
+            <translation catagory="transport" gender="m">space shuttle</translation>
+        </translaitons>
+    </expressions>
   </Entry>
   <Entry frequency="22600" >transcendència<nouns>
       <translations>
@@ -4395,11 +4408,8 @@
   </Entry>
   <Entry frequency="6390" >transcórrer<verbs conj="irregular33" >
       <translations>
-        <translation>to elapse / to pass</translation>
-        <translation>to take place</translation>
-        <translation>to pass off<catexamp>La protesta va transcórrer sense incidents.</catexamp>
-          <engexamp>The protest passed off without incident</engexamp>
-        </translation>
+        <translation intransitive="true">to elapse / to pass</translation>
+        <translation intransitive="true">to take place / to pass off<catexamp>La protesta va transcórrer sense incidents.</catexamp><engexamp>The protest passed off without incident</engexamp></translation>
       </translations>
     </verbs>
   </Entry>
@@ -4411,7 +4421,7 @@
   </Entry>
   <Entry frequency="6630" >transcriure<verbs conj="irregular20" >
       <translations>
-        <translation>to transcribe</translation>
+        <translation transitive="true">to transcribe</translation>
       </translations>
     </verbs>
   </Entry>
