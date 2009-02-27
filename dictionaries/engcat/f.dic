@@ -173,18 +173,28 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="77500000">factor<nouns>
-			<translations>
-				<translation gender="m">factor</translation>
-			</translations>
-		</nouns>
-	<phrasalverbs>factor in<translations><translation transitive="true">incloure (alguna cosa o quantitat) quan es fa un compte o càlcul</translation></translations></phrasalverbs></Entry>
-<Entry frequency="11700000">factory<nouns>
-			<translations>
+        <Entry frequency="77500000">factor<nouns>
+                <translations>
+                    <translation gender="m">factor</translation>
+                </translations>
+            </nouns>
+            <phrasalverbs>factor in
+                <translations>
+                    <translation transitive="true">incloure (alguna cosa o quantitat) quan es fa un compte o càlcul</translation>
+                </translations>
+            </phrasalverbs>
+        </Entry>
+<Entry frequency="212000000">factory<nouns>
+                            <translations><date>0209</date>
 				<translation gender="f">fàbrica<plural>factories</plural>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>factory farming
+                    <translations>
+                        <translation catagory="animal" gender="f">ramaderia intensiva</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2810000">factual<adjectives>
 			<translations>
@@ -213,12 +223,17 @@
 	</Entry>
 <Entry frequency="4270000">fade<verbs>
 			<translations>
-				<translation>descolorir-se<engnote>'Descolorir-se' means 'to fade' as in bright colours becoming more washed out.</engnote>
+				<translation intransitive="true">descolorir-se<engnote>'Descolorir-se' means 'to fade' as in bright colours becoming more washed out.</engnote>
 				</translation>
-				<translation>desaparèixer (a poc a poc)</translation>
+				<translation intransitive="true">desaparèixer (a poc a poc)</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>fade out<translations><translation intransitive="true">desaparèixer gradualment</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>fade out
+                    <translations>
+                        <translation intransitive="true">desaparèixer gradualment</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="585000">faeces<nouns>
 			<translations>
                             <grouptranslation register="formal" local="gb">
@@ -255,59 +270,59 @@
                     </translations>
                 </nouns>
 	</Entry>
-<Entry frequency="29300000">failure<nouns>
-                            <translations><date>0808</date>
-				<translation gender="m">fracàs</translation>
-				<translation disambiguate="medical" gender="ffullform">insuficiència / aturada</translation>
-                                <translation gender="f">avaria</translation>
-                                <translation gender="f">fallada</translation>
-			</translations>
-		</nouns>
-                <expressions>failure load
+        <Entry frequency="29300000">failure<nouns>
+                <translations><date>0808</date>
+                    <translation gender="m">fracàs</translation>
+                    <translation disambiguate="medical" gender="ffullform">insuficiència / aturada</translation>
+                    <translation gender="f">avaria</translation>
+                    <translation gender="f">fallada</translation>
+                </translations>
+            </nouns>
+            <expressions>failure load
                 <translations>
                     <translation termcat="energy" gender="f">càrrega de ruptura</translation>
-                    </translations>
-                    </expressions>
-                    <expressions>brake failure
-                    <translations>
-                        <translation gender="f">avaria dels frens</translation>
-                        </translations>
-                        </expressions>
-                        <expressions>heart failure
-                        <translations>
-                            <grouptranslation catagory="medical-illness">
+                </translations>
+            </expressions>
+            <expressions>brake failure
+                <translations>
+                    <translation gender="f">avaria dels frens</translation>
+                </translations>
+            </expressions>
+            <expressions>heart failure
+                <translations>
+                    <grouptranslation catagory="medical-illness">
                         <translation gender="ffullform">insuficiència cardíaca</translation>
                         <translation gender="f">aturada cardíaca</translation>
-                        </grouptranslation>
-                        </translations>
-                        </expressions>
-                        <expressions>kidney failure
-                        <translations>
-                            <translation catagory="medical-illness" gender="ffullform">insuficiència renal</translation>
-                            </translations>
-                            </expressions>
-	</Entry>
-<Entry frequency="26000000">faint<verbs>
-                            <translations><date>0209</date>
-				<translation intransitive="true">desmaiar-se<synonyms>pass out</synonyms></translation>
-			</translations>
-		</verbs>
-		<adjectives>
-			<translations>
-				<translation>feble</translation>
-			</translations>
-		</adjectives>
-                <nouns>
-                    <translations>
-                        <translation gender="m">esvaïment</translation>
-                    </translations>
-                </nouns>
-                <expressions>not have the faintest (idea)
-                    <translations>
-                        <translation register="colloquial">no tenir ni idea</translation>
-                    </translations>
-                </expressions>
-	</Entry>
+                    </grouptranslation>
+                </translations>
+            </expressions>
+            <expressions>kidney failure
+                <translations>
+                    <translation catagory="medical-illness" gender="ffullform">insuficiència renal</translation>
+                </translations>
+            </expressions>
+        </Entry>
+        <Entry frequency="26000000">faint<verbs>
+                <translations><date>0209</date>
+                    <translation intransitive="true">desmaiar-se<synonyms>pass out</synonyms></translation>
+                </translations>
+            </verbs>
+            <adjectives>
+                <translations>
+                    <translation>feble</translation>
+                </translations>
+            </adjectives>
+            <nouns>
+                <translations>
+                    <translation gender="m">esvaïment</translation>
+                </translations>
+            </nouns>
+            <expressions>not have the faintest (idea)
+                <translations>
+                    <translation register="colloquial">no tenir ni idea</translation>
+                </translations>
+            </expressions>
+        </Entry>
         <Entry frequency="828000">faint-hearted<adjectives>
                             <translations><date>1208</date>
 				<translation>pusil·lànime</translation>
@@ -2235,6 +2250,13 @@
 				<translation catagory="plant-tree" gender="f">figuera</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="5270000">figurative<adjectives>
+                            <translations><date>0209</date>
+				<translation disambiguate="linguistics">figurat</translation>
+                                <translation>figuratiu<engexamp>Figurative art</engexamp><catexamp>Art figuratiu</catexamp><engexamp>Figurative painting</engexamp><catexamp>Pintura figurativa</catexamp><engexamp>Figurative sculpture</engexamp><catexamp>Escultura figurativa</catexamp></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="64900000">figure<nouns>
 			<translations><date>0408</date>

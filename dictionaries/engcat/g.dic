@@ -639,22 +639,19 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="12500000">gate<nouns>
-			<translations>
+<Entry frequency="197000000">gate<nouns>
+                            <translations><date>0209</date>
 				<grouptranslation><translation gender="f">porta</translation>
-					<translation gender="m">reixat</translation></grouptranslation>
-				<translation disambiguate="sports" noteng="TRUE">-<catnote>En el sentit esportiu 'gate' vol dir o bé el número de persones que assisteixen a un partit o bé els diners que fan un club esportiu com a resultat de la venda de les entrades d'un partit.  En aquest últim sentit, també es pot dir 'gate money'.</catnote>
-					<example>The club have announced that a percentage of tonight's &lt;b&gt;gate&lt;/b&gt; will go to a local hospital charity.</example>
-					<example>The club is expecting a &lt;b&gt;gate&lt;/b&gt; of around 45,000 for tomorrow's clash with Manchester United.</example>
-				</translation>
+					<translation gender="m">reixat</translation>
+                                    </grouptranslation>
+				<translation disambiguate="sports" gender="f">taquilla<example>The club have announced that a percentage of tonight's &lt;b&gt;gate&lt;/b&gt; will go to a local hospital charity.</example><example>The club is expecting a &lt;b&gt;gate&lt;/b&gt; of around 45,000 for tomorrow's clash with Manchester United.</example></translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="680">gate line<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">línia de porta</translation>
-			</translations>
-		</nouns>
+                <expressions>gate line
+                    <translations>
+                        <translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">línia de porta</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="9110000">gather<verbs>
 			<translations>
@@ -832,12 +829,33 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="32000000">gene<nouns>
-			<translations>
-				<translation catagory="biology" gender="m">gen</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <Entry frequency="147000000">gene<nouns>
+                <translations><date>0209</date>
+                    <translation catagory="biology" gender="m">gen</translation>
+                    <translation catagory="biology" beforenoun="true">gènic / genètic<engnote>'Gènic' means 'related to genes', 'genètic' means 'related to genetics', where we use 'gene' before a noun, Catalans use either 'gènic' or 'genètic' after the noun.</engnote></translation>
+                </translations>
+            </nouns>
+            <expressions>gene expression
+                <translations>
+                    <translation catagory="biology" gender="f">expressió gènica (o genètica)</translation>
+                </translations>
+            </expressions>
+            <expressions>gene flow
+                <translations>
+                    <translation catagory="biology" gender="m">flux gènic (o genètic)</translation>
+                </translations>
+            </expressions>
+            <expressions>gene pool
+                <translations>
+                    <translation catagory="biology" gender="m">patrimoni gènic (o genètic)</translation>
+                </translations>
+            </expressions>
+            <expressions>gene therapy
+                <translations>
+                    <translation catagory="biology" gender="f">teràpia gènica (o genètica)</translation>
+                </translations> 
+            </expressions>
+        </Entry>
 <Entry frequency="639000">genealogical<adjectives>
 			<translations><date>0408</date>
 				<translation>genealògic</translation>
