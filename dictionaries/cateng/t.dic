@@ -654,9 +654,10 @@
     </nouns>
   </Entry>
   <Entry frequency="13400" >taquilla<nouns>
-      <translations>
-        <translation catagory="entertainment" gender="f" >ticket office</translation>
-        <translation catagory="entertainment" gender="f">box office</translation>
+          <translations><date>0209</date>
+        <translation catagory="entertainment" gender="f" >ticket office / box office</translation>
+        <translation disambiguate="sports" gender="f">gate</translation>
+        <translation gender="f">takings</translation>
       </translations>
     </nouns>
   </Entry>
@@ -4477,20 +4478,18 @@
         </translation>
       </translations>
     </nouns>
+    <expressions>transfusió de sang
+        <translations>
+            <translation catagory="medical" gender="f">blood transfusion</translation>
+        </translations>
+    </expressions>
+    <expressions>transfusió sanguínia
+        <translations>
+            <translation catagory="medical" gender="f">blood transfusion</translation>
+        </translations>
+    </expressions>
   </Entry>
-  <Entry frequency="372">transfusió de sang<nouns>
-			<translations><date>0805</date>
-				<translation catagory="medical" gender="f">blood transfusion<synonyms>transfusió sanguínia</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="227">transfusió sanguínia<nouns>
-			<translations><date>0805</date>
-				<translation catagory="medical" gender="f">blood transfusion<synonyms>transfusió de sang</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
-  <Entry frequency="678" >transgredir<verbs conj="inceptive" >
+   <Entry frequency="678" >transgredir<verbs conj="inceptive" >
       <translations>
         <translation>to break (a law / a rule)</translation>
         <translation>to transgress</translation>
