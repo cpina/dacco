@@ -1083,19 +1083,16 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="472000">law degree<nouns>
-			<translations>
-				<translation gender="f">llicenciatura de dret</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="198000">law faculty<nouns>
-			<translations>
-				<translation gender="f">facultat de dret<plural>law faculties</plural>
-				</translation>
-			</translations>
-		</nouns>
+                <expressions>law degree
+                    <translations>
+                        <translation gender="f">llicenciatura de dret</translation>
+                    </translations>
+                </expressions>
+                <expressions>law faculty
+                    <translations>
+                        <translation gender="f">facultat de dret</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="754000">lawful<adjectives>
 			<translations><date>0408</date>
@@ -1114,12 +1111,11 @@
 				<translation gender="f">gespa</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="390000">lawn mower<nouns>
-			<translations>
-				<translation gender="m">tallagespa</translation>
-			</translations>
-		</nouns>
+                <expressions>lawn mower
+                    <translations>
+                        <translation gender="m">tallagespa</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="230000">lawrencium<nouns>
                             <translations><date>0508</date>
@@ -1147,7 +1143,7 @@
 	</Entry>
 <Entry frequency="339000">laxative<nouns>
 			<translations>
-				<translation gender="m">laxant</translation>
+				<translation catagory="medical-treatment" gender="m">laxant</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1163,105 +1159,105 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="270000000">lay<adjectives>
-			<translations><date>1007</date>
-				<translation>laic / seglar</translation>
-			</translations>
-		</adjectives>
-		<verbs>
-			<past>laid</past>
-			<participle>laid</participle>
-			<translations>
-				<translation>col·locar / posar / situar</translation>
-				<translation>posar (ous)</translation>
-			</translations>
-		</verbs>
-		<phrasalverbs>lay about
+        <Entry frequency="270000000">lay<adjectives>
+                <translations><date>1007</date>
+                    <translation>laic / seglar</translation>
+                </translations>
+            </adjectives>
+            <verbs>
+                <past>laid</past>
+                <participle>laid</participle>
+                <translations>
+                    <translation>col·locar / posar / situar</translation>
+                    <translation>posar (ous)</translation>
+                </translations>
+            </verbs>
+            <phrasalverbs>lay about
                 <translations>
                     <translation transitive="true">repartir cops a tort i a dret</translation>
                 </translations>
             </phrasalverbs>
-                <phrasalverbs>lay aside
-			<translations>
-				<translation>estalviar</translation>
-				<translation>apartar / deixar a banda</translation>
-			</translations>
-		</phrasalverbs>
-                <phrasalverbs>lay away
+            <phrasalverbs>lay aside
+                <translations>
+                    <translation>estalviar</translation>
+                    <translation>apartar / deixar a banda</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>lay away
                 <translations>
                     <translation transitive="true">guardar (alguna cosa) per al futur</translation>
                     <translation>guardar (una cosa) temporalment abans de lliurar-la</translation>
-            </translations>
-        </phrasalverbs>
-        <phrasalverbs>lay by
-        <translations>
-            <translation transitive="true">deixar o posar a part</translation>
-    </translations>
-</phrasalverbs>
-		<phrasalverbs>lay down
-			<translations>
-				<translation>deposar (les armes)</translation>
-				<translation>establir / fixar / determinar</translation>
-			</translations>
-		</phrasalverbs>
-                <phrasalverbs>lay for
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>lay by
+                <translations>
+                    <translation transitive="true">deixar o posar a part</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>lay down
+                <translations>
+                    <translation>deposar (les armes)</translation>
+                    <translation>establir / fixar / determinar</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>lay for
                 <translations>
                     <translation intransitive="true">esperar (algú) (per atacar-lo)</translation>
-            </translations>
-        </phrasalverbs>
-		<phrasalverbs>lay in
-			<translations>
-				<translation>(supplies / food) proveir-se</translation>
-			</translations>
-		</phrasalverbs>
-		<phrasalverbs>lay into
-			<translations>
-				<translation register="colloquial">atacar / escometre / agredir</translation>
-			</translations>
-		</phrasalverbs>
-		<phrasalverbs>lay off
-			<translations>
-				<translation>acomiadar</translation>
-				<translation register="colloquial">deixar en pau</translation>
-			</translations>
-		</phrasalverbs>
-		<phrasalverbs>lay on
-			<translations>
-				<translation>proporcionar / subministrar / proveir</translation>
-			</translations>
-		</phrasalverbs>
-		<phrasalverbs>lay out
-			<translations>
-				<translation>presentar / disposar / distribuir / col·locar</translation>
-			</translations>
-		</phrasalverbs>
-                <phrasalverbs>lay over
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>lay in
+                <translations>
+                    <translation>(supplies / food) proveir-se</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>lay into
+                <translations>
+                    <translation register="colloquial">atacar / escometre / agredir</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>lay off
+                <translations>
+                    <translation>acomiadar</translation>
+                    <translation register="colloquial">deixar en pau</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>lay on
+                <translations>
+                    <translation>proporcionar / subministrar / proveir</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>lay out
+                <translations>
+                    <translation>presentar / disposar / distribuir / col·locar</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>lay over
                 <translations>
                     <translation intransitive="true">fer una pausa, sovint involuntari, en un viatge</translation>
-            </translations>
-        </phrasalverbs>
-        <phrasalverbs>lay to
-        <translations>
-            <translation intransitive="true">en la nàutica, fer parar un veler, dirigint-se cap al vent</translation>
-    </translations>
-</phrasalverbs>
-                <phrasalverbs>lay up
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>lay to
+                <translations>
+                    <translation intransitive="true">en la nàutica, fer parar un veler, dirigint-se cap al vent</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>lay up
                 <translations>
                     <translation>emmagatzemar (p.e. proveïments)</translation>
                     <translation>causar d'haver de fer llit</translation>
-                    </translations>
-                    </phrasalverbs>
-                    <phrasalverbs>be laid up
-                    <translations>
-                        <translation intransitive="true">fer llit (estar allitat)</translation>
                 </translations>
-                </phrasalverbs>
-                <phrasalverbs>get laid
-                    <translations>
-                        <translation register="vulgar">follar / cardar<example>Tony &lt;b&gt;got laid&lt;/b&gt; last night. You could tell by the ridiculous grin he had on his face at breakfast this morning.</example></translation>
-                    </translations>
-                </phrasalverbs>
-	</Entry>
+            </phrasalverbs>
+            <phrasalverbs>be laid up
+                <translations>
+                    <translation intransitive="true">fer llit (estar allitat)</translation>
+                </translations>
+            </phrasalverbs>
+            <expressions>get laid
+                <translations>
+                    <translation register="vulgar">follar / cardar<example>Tony &lt;b&gt;got laid&lt;/b&gt; last night. You could tell by the ridiculous grin he had on his face at breakfast this morning.</example></translation>
+                </translations>
+            </expressions>
+        </Entry>
 <Entry frequency="96200">layabout<nouns>
 			<translations>
 				<translation gender="mf">mandrós / gandul</translation>
@@ -1272,7 +1268,7 @@
 			<translations>
 				<translation local="gb" gender="f">zona d'estacionament</translation>
 				<translation local="gb" gender="f">àrea de descans</translation>
-				<translation local="au" gender="f">forma de pagament en botigues: es paga un dipòsit, i la tenda reserva l'article, fins que es pagui</translation>
+				<translation local="au" gender="f">forma de pagament en botigues: es paga un dipòsit, i la botiga reserva l'article, fins que es pagui</translation>
 			</translations>
 		</nouns>
 	</Entry>

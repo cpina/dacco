@@ -3906,26 +3906,31 @@
 			</translations>
 		</acronyms>
 	</Entry>
-<Entry frequency="13000000">dinner<nouns>
-			<translations>
-				<translation catagory="food" gender="m">sopar</translation>
-			</translations>
-		</nouns>
-                <expressions>have dinner
-                    <translations>
-                        <translation catagory="food">sopar</translation>
-                    </translations>
-                </expressions>
-	</Entry>
+        <Entry frequency="166000000">dinner<nouns>
+                <translations><date>0309</date>
+                    <translation catagory="food" gender="m">sopar</translation>
+                </translations>
+            </nouns>
+            <expressions>dinner jacket
+                <translations>
+                    <translation local="gb" catagory="clothes" gender="m">esmòquing<synonyms>tuxedo, tux (col·loq)</synonyms></translation>
+                </translations>
+            </expressions>
+            <expressions>have dinner
+                <translations>
+                    <translation catagory="food">sopar</translation>
+                </translations>
+            </expressions>
+        </Entry>
 <Entry frequency="890000">dino<nouns>
 			<translations><date>0408</date>
-				<translation register="colloquial" gender="m">dinosaure</translation>
+				<translation catagory="animal" register="colloquial" gender="m">dinosaure</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="17200000">dinosaur<nouns>
 			<translations>
-				<translation gender="m">dinosaure</translation>
+				<translation catagory="animal" gender="m">dinosaure</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3946,7 +3951,7 @@
 	</Entry>
 <Entry frequency="829000">diocese<nouns>
 			<translations>
-				<translation gender="f">diòcesi</translation>
+				<translation catagory="religious" gender="f">diòcesi</translation>
 			</translations>
 		</nouns>
 	</Entry>
