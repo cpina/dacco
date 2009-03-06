@@ -3167,13 +3167,7 @@
           </translations>
       </expressions>
   </Entry>
- <Entry frequency="715">toc de queda<nouns>
-			<translations><date>1105</date>
-				<translation gender="m">curfew</translation>
-			</translations>
-		</nouns>
-	</Entry>
-          <Entry frequency="21">tocoginecòleg<nouns>
+           <Entry frequency="21">tocoginecòleg<nouns>
 			<translations><date>0805</date>
 				<translation catagory="medical-job, work-job" gender="m / f">OBGYN<fems>tocoginecòloga</fems><femplural>tocoginecòlogues</femplural></translation>
 			</translations>
@@ -3224,11 +3218,10 @@
       </translations>
     </nouns>
   </Entry>
-  <Entry frequency="836" >toga<nouns>
-      <translations>
-        <translation gender="f" >gown</translation>
-        <translation gender="f" >toga<plural>togues</plural>
-        </translation>
+  <Entry frequency="22700" >toga<nouns>
+          <translations><date>0309</date>
+        <translation catagory="clothes" gender="f" >gown / robe<catnote>(Portat pels jutges, professors universitaris, advocats..)</catnote></translation>
+        <translation catagory="clothes" gender="f" >toga<catnote>(Portat pels ciutadans romans).</catnote><plural>togues</plural></translation>
       </translations>
     </nouns>
   </Entry>
@@ -3301,7 +3294,7 @@
   </Entry>
  <Entry frequency="2790" >tomàtiga<nouns>
          <translations><date>1007</date>
-        <translation catagory="food-fruit, food-vegetable" gender="f" >tomato<plural>tomàtigues</plural><engnote>This word is Mallorcan</engnote></translation>
+        <translation catagory="food-fruit, food-vegetable" gender="f" >tomato<plural>tomàtigues</plural><engnote>This word is Mallorcan.</engnote></translation>
       </translations>
     </nouns>
   </Entry>
@@ -3312,16 +3305,22 @@
       </translations>
     </nouns>
   </Entry>
-  <Entry frequency="4270" >tomba<nouns>
-      <translations>
+  <Entry frequency="336000" >tomba<nouns>
+          <translations><date>0309</date>
         <translation gender="f" >tomb</translation>
       </translations>
     </nouns>
+    <expressions>del bressol a la tomba
+        <translations>
+            <translation>from the cradle to the grave</translation>
+        </translations>
+    </expressions>
   </Entry>
-  <Entry frequency="2420" >tombar<verbs conj="regular" >
-      <translations>
-        <translation>to turn</translation>
-        <translation>to knock down</translation>
+  <Entry frequency="317000" >tombar<verbs conj="regular" >
+          <translations><date>0309</date>
+        <translation transitive="true">to turn</translation>
+        <translation intransitive="true">to turn</translation>
+        <translation transitive="true">to knock down</translation>
       </translations>
     </verbs>
   </Entry>
@@ -3685,13 +3684,15 @@
     </nouns>
   </Entry>
   <Entry frequency="3500" >tort<adjectives>
-      <translations>
-        <translation>bent / twisted / crooked / wonky / skew-whiff<fems>torta</fems></translation>
-      </translations>
-    </adjectives>
-    <expressions>a tort i a dret
-    <translations>
-    <translation>without thinking / willy nilly / indiscriminately</translation></translations></expressions>
+          <translations>
+              <translation>bent / twisted / crooked / wonky / skew-whiff<fems>torta</fems></translation>
+          </translations>
+      </adjectives>
+      <expressions>a tort i a dret
+          <translations>
+              <translation>without thinking / willy nilly / indiscriminately</translation>
+          </translations>
+      </expressions>
   </Entry>
   <Entry frequency="841" >tortosí<adjectives>
       <translations><date>0905</date>
@@ -3702,12 +3703,46 @@
       </translations>
     </nouns>
   </Entry>
-  <Entry frequency="74400" >tortuga<nouns>
-          <translations><date>0508</date>
-        <translation catagory="animal-animal" >turtle<catexamp>Tortuga (marina)</catexamp>
-        <engexamp>(Sea) turtle</engexamp><catexamp>Tortuga (d'aigua dolça)</catexamp><engexamp>Terrapin (Br.) / slider (Am.) / turtle (Br. i Aus.)</engexamp><catexamp>Tortuga (terrestre)</catexamp><engexamp>Tortoise (Br. i Aus.) / (box) turtle (Am.)</engexamp><plural>tortugues</plural></translation>
-      </translations>
-    </nouns>
+  <Entry frequency="1480000" >tortuga<nouns>
+          <translations><date>0309</date>
+              <translation catagory="animal-animal" >turtle<plural>tortugues</plural></translation>
+          </translations>
+      </nouns>
+      <expressions>tortuga d'aigua dolça
+          <translations>
+              <translation catagory="animal-animal" gender="f">terrapin (Br.) / slider (Am.) / turtle (Br. i Aus.)</translation>
+          </translations>
+      </expressions>
+      <expressions>tortuga babaua
+          <translations>
+              <translation catagory="animal-animal" gender="f">loggerhead turtle</translation>
+          </translations>
+      </expressions>
+      <expressions>tortuga careta
+          <translations>
+              <translation catagory="animal-animal" gender="f">loggerhead turtle</translation>
+          </translations>
+      </expressions>
+      <expressions>tortuga llaüt
+          <translations>
+              <translation catagory="animal-animal" gender="f">leatherback turtle</translation>
+          </translations>
+      </expressions>
+      <expressions>tortuga marina
+          <translations>
+              <translation catagory="animal-animal" gender="f">(sea) turtle</translation>
+          </translations>
+      </expressions>
+      <expressions>tortuga terrestre
+          <translations>
+              <translation catagory="animal-animal" gender="f">tortoise (Br. i Aus.) / (box) turtle (Am.)</translation>
+          </translations>
+      </expressions>
+      <expressions>tortuga verda
+          <translations>
+              <translation catagory="animal-animal" gender="f">green turtle</translation>
+          </translations>
+      </expressions>
   </Entry>
   <Entry frequency="6660">tortuós<adjectives>
         <translations><date>1008</date>
@@ -3768,13 +3803,13 @@
   </Entry>
   <Entry frequency="4670" >Toscana<nouns>
       <translations>
-        <translation gender="f" >Tuscany</translation>
+        <translation catagory="geography" gender="f" >Tuscany</translation>
       </translations>
     </nouns>
   </Entry>
    <Entry frequency="8730" >tossir<verbs conj="irregular54">
       <translations><date>0605</date>
-        <translation intransitive="true" >to cough</translation>
+        <translation catagory="medical" intransitive="true" >to cough</translation>
       </translations>
     </verbs>
   </Entry>
@@ -3822,9 +3857,14 @@
     </adjectives>
     <nouns>
       <translations>
-        <translation gender="m" >total<catexamp>En total</catexamp><engexamp>Altogether / in total</engexamp></translation>
+        <translation gender="m" >total</translation>
       </translations>
     </nouns>
+    <expressions>en total
+        <translations>
+            <translation>altogether / in total</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="5350" >totalitari<adjectives>
       <translations>
@@ -4076,6 +4116,12 @@
       </translations>
     </adjectives>
   </Entry>
+  <Entry frequency="284000" >tradicionalment<adverbs>
+          <translations><date>0309</date>
+              <translation>traditionally</translation>
+          </translations>
+      </adverbs>
+  </Entry>
   <Entry frequency="56300" >traducció<nouns>
       <translations>
         <translation catagory="work-field" gender="f" >translation<plural>traduccions</plural>
@@ -4085,7 +4131,7 @@
   </Entry>
         <Entry frequency="20500" >traductor<nouns>
                 <translations>
-                    <translation catagory="work-job" gender="m / f" >translator<fems>traductora</fems></translation>
+                    <translation catagory="work-job, linguistics" gender="m / f" >translator<fems>traductora</fems></translation>
                 </translations>
             </nouns>
             <expressions>traductor automàtic
@@ -4096,7 +4142,7 @@
         </Entry>
    	<Entry frequency="27700" >traduir<verbs conj="irregular2" >
       <translations>
-        <translation>to translate</translation>
+        <translation catagory="linguistics">to translate</translation>
       </translations>
     </verbs>
   </Entry>
@@ -4224,13 +4270,16 @@
   <Entry frequency="28200" >tram<nouns>
       <translations>
         <translation gender="m" >section</translation>
-        <translation gender="m" >group<catexamp>Tram d'edat</catexamp>
-          <engexamp>Age group</engexamp>
-        </translation>
+        <translation gender="m" >group</translation>
         <translation catagory="transport" gender="m" >flight</translation>
         <translation catagory="transport-mode" gender="m" >tram (Br.) / streetcar (Am.)</translation>
       </translations>
     </nouns>
+    <expressions>tram d'edat
+        <translations>
+            <translation gender="m">age group</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="34000" >tramesa<nouns>
       <translations>
@@ -4697,11 +4746,11 @@
       </translations>
     </adjectives>
   </Entry>
-  <Entry frequency="220" >transvestit<nouns>
-      <translations>
-        <translation>transvestite</translation>
-      </translations>
-    </nouns>
+  <Entry frequency="13800" >transvestit<nouns>
+          <translations><date>0309</date>
+              <translation gender="m / f">transvestite<fems>transvestida</fems></translation>
+          </translations>
+      </nouns>
   </Entry>
   <Entry frequency="1030" >trapella<nouns>
       <translations>
@@ -4727,12 +4776,11 @@
       </translations>
     </nouns>
   </Entry>
-  <Entry frequency="535" >tràquea<nouns>
-      <translations>
-        <translation catagory="body" gender="f" >windpipe</translation>
-        <translation catagory="medical" gender="f" >trachea</translation>
-      </translations>
-    </nouns>
+  <Entry frequency="2440" >tràquea<nouns>
+          <translations><date>0309</date>
+              <translation catagory="body" gender="f" >windpipe / (med.) trachea</translation>
+          </translations>
+      </nouns>
   </Entry>
   <Entry frequency="33900" >trasbals<nouns>
       <translations><date>0109</date>
@@ -4753,6 +4801,12 @@
         <translation>to move</translation>
       </translations>
     </verbs>
+  </Entry>
+  <Entry frequency="131000" >trasllat<nouns>
+          <translations><date>0309</date>
+              <translation gender="m">move</translation>
+          </translations>
+      </nouns>
   </Entry>
   <Entry frequency="23400" >traspàs<nouns>
       <translations>

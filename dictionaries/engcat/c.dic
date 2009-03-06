@@ -4715,6 +4715,12 @@
             </translations>
         </expressions>
     </Entry>
+    <Entry frequency="1640000">chomp<verbs>
+			<translations><date>0309</date>
+				<translation register="colloquial">mastegar<synonyms>munch</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>
 <Entry frequency="39200">chook<nouns>
         <translations>
             <translation register="colloquial" local="au" gender="f">gallina</translation>
@@ -12313,8 +12319,8 @@
             </translations>
         </verbs>
     </Entry>
-<Entry frequency="2080000">cradle<nouns>
-        <translations>
+<Entry frequency="27900000">cradle<nouns>
+        <translations><date>0309</date>
             <translation gender="m">bressol<engnote>'Bressol' can mean both 'cradle' in the literal sense (i.e. 'baby's bed') and in the figurative sense 'Rome is considered by many to be  the cradle of civilization'.</engnote>
             </translation>
             <translation disambiguate="computers" termcat="true" gender="f">base de connexió</translation>
@@ -12325,12 +12331,16 @@
                 <translation>bressolar</translation>
             </translations>
         </verbs>
-    </Entry>
-<Entry frequency="1480">cradle snatcher<nouns>
-        <translations>
-            <translation register="slang">home / dona que té relacions sexuals amb una dona / un home molt més jove que ell / ella</translation>
-        </translations>
-    </nouns>
+        <expressions>cradle snatcher
+            <translations>
+                <translation register="slang">home (o dona) que té relacions sexuals amb una dona (o un home) molt més jove que ell (o ella)</translation>
+            </translations>
+        </expressions>
+        <expressions>from the cradle to the grave
+            <translations>
+                <translation>del bressol a la tomba</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="19700000">craft<nouns>
         <translations>
@@ -12376,9 +12386,10 @@
             </translations>
         </nouns>
     </Entry>
-<Entry frequency="2620000">crane<nouns>
-        <translations>
+<Entry frequency="77900000">crane<nouns>
+        <translations><date>0309</date>
             <translation gender="f">grua</translation>
+            <translation disambiguate="animal-bird" gender="f">grua</translation>
         </translations>
     </nouns>
     </Entry>
@@ -12411,7 +12422,7 @@
             </translations>
         </adjectives>
     </Entry>
-<Entry frequency="19600000">crap<nouns>
+    <Entry frequency="19600000">crap<nouns>
             <translations><date>0807</date>
                 <translation register="vulgar" gender="f">merda<example>You can't expect me to eat that &lt;b&gt;crap&lt;/b&gt;! It smells horrible!</example>
                     <example>What's all this &lt;b&gt;crap&lt;/b&gt; doing on the middle of the table?</example>
@@ -12433,19 +12444,24 @@
             </translations>
         </adjectives>
         <verbs double="true">
-        <translations>
-            <translation register="vulgar">cagar<synonyms>shit</synonyms></translation>
-        </translations>
+            <translations>
+                <translation register="vulgar">cagar<synonyms>shit</synonyms></translation>
+            </translations>
         </verbs>
         <phrasalverbs>crap out
-        <translations>
-            <translation register="vulgar" local="us">fallar / no complir un compromís / perdre el coratge</translation>
-        </translations>
+            <translations>
+                <translation register="vulgar" local="us">fallar / no complir un compromís / perdre el coratge</translation>
+            </translations>
         </phrasalverbs>
-    <phrasalverbs>crap up<translations><translation transitive="true">(vulg.) (am.) espatllar</translation></translations></phrasalverbs></Entry>
+        <phrasalverbs>crap up
+            <translations>
+                <translation register="vulgar" local="us" transitive="true">espatllar</translation>
+            </translations>
+        </phrasalverbs>
+    </Entry>
 <Entry frequency="2490000">crappy<adjectives>
 			<translations><date>1007</date>
-				<translation register="slang">de pacotilla / barroer</translation>
+				<translation register="slang">de pacotilla / barroer<example>My parents went on holiday to Estartit and all they bought me was this &lt;b&gt;crappy&lt;/b&gt; t-shirt.</example></translation>
 			</translations>
 		</adjectives>
 	</Entry>
