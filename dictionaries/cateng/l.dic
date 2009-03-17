@@ -368,27 +368,26 @@
 			<translations>
 				<translation gender="m / f">reader</translation>
                                 <translation disambiguate="education" gender="m / f">language assistant<fems>lectora</fems></translation>
+                                <translation gender="m">player</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="575">lector de CD<nouns>
-			<translations><date>0405</date>
-				<translation gender="m">CD player</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="209">lector de DVD<nouns>
-			<translations><date>0405</date>
-				<translation gender="m">DVD player</translation>
-			</translations>
-		</nouns>
+                <expressions>lector de CD
+                    <translations>
+                        <translation gender="m">CD player</translation>
+                    </translations>
+                </expressions>
+                <expressions>lector de DVD
+                    <translations>
+                        <translation gender="m">DVD player</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="1950000">lectura<nouns>
 			<translations><date>0806</date>
 				<translation gender="f">reading</translation>
 			</translations>
 		</nouns>
-	</Entry>lect
+	</Entry>
         <Entry frequency="962000">legal<adjectives>
 			<translations><date>0405</date>
 				<translation catagory="legal">legal</translation>
@@ -476,30 +475,32 @@
 			</translations>
 		</nouns>
 	</Entry>
-        	<Entry frequency="297000">lent<nouns>
-			<translations><date>1005</date>
-				<translation gender="f">lens</translation>
-			</translations>
-		</nouns>
-                <adverbs>
+        <Entry frequency="297000">lent<nouns>
+                <translations><date>1005</date>
+                    <translation gender="f">lens</translation>
+                </translations>
+            </nouns>
+            <adverbs>
                 <translations>
-                <translation>slow</translation></translations></adverbs>
-                <expressions>lent de contacte
-                    <translations>
-                        <translation gender="f">contact (lens)</translation>
-                    </translations>
-                </expressions>
-                <expressions>lent de contacte tova
-                    <translations>
-                        <translation gender="f">soft contact (lens)</translation>
-                    </translations>
-                </expressions>
-                <expressions>lent de contacte rígida
-                    <translations>
-                        <translation gender="f">hard contact (lens)</translation>
-                    </translations>
-                </expressions>
-	</Entry>
+                    <translation>slow</translation>
+                </translations>
+            </adverbs>
+            <expressions>lent de contacte
+                <translations>
+                    <translation gender="f">contact (lens)</translation>
+                </translations>
+            </expressions>
+            <expressions>lent de contacte rígida
+                <translations>
+                    <translation gender="f">hard contact (lens)</translation>
+                </translations>
+            </expressions>
+            <expressions>lent de contacte tova
+                <translations>
+                    <translation gender="f">soft contact (lens)</translation>
+                </translations>
+            </expressions>
+        </Entry>
 	<Entry frequency="7740">lentament<adverbs>
 			<translations>
 				<translation>slowly</translation>
@@ -518,11 +519,16 @@
 			</translations>
 		</nouns>
 	</Entry>
-                <Entry frequency="688">leprós<nouns>
-			<translations><date>0705</date>
-				<translation catagory="medical" gender="mf">leper<plural>leprosos</plural><fems>leprosa</fems></translation>
+                <Entry frequency="10400">leprós<nouns>
+			<translations><date>0309</date>
+				<translation catagory="medical" gender="mf">leper</translation>
 			</translations>
 		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>leprous<plural>leprosos</plural><fems>leprosa</fems></translation>
+                    </translations>
+                </adjectives>
 	</Entry>
 	<Entry frequency="3150">lesbiana<nouns>
 			<translations>
@@ -581,14 +587,16 @@
 		</nouns>
 	</Entry>
                 <Entry frequency="24900">lèxic<adjectives>
-			<translations><date>0505</date>
-                        <translation catagory="linguistics">lexical<fems>lèxica</fems><femplural>lèxiques</femplural></translation>
-			</translations>
-		</adjectives>
-                <nouns>
-                <translations>
-                <translation catagory="linguistics" gender="m">lexicon</translation></translations></nouns>
-	</Entry>
+                        <translations><date>0505</date>
+                            <translation catagory="linguistics">lexical<fems>lèxica</fems><femplural>lèxiques</femplural></translation>
+                        </translations>
+                    </adjectives>
+                    <nouns>
+                        <translations>
+                            <translation catagory="linguistics" gender="m">lexicon</translation>
+                        </translations>
+                    </nouns>
+                </Entry>
                 <Entry frequency="444">lexicògraf<nouns>
 			<translations><date>0705</date>
 				<translation catagory="linguistics" gender="mf">lexicographer<fems>lexicògrafa</fems></translation>
@@ -619,6 +627,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="30200">libanès<nouns>
+                <translations><date>0309</date>
+                    <translation catagory="nationality-asia" gender="m / f">Lebanese (man / woman / child / person..) / the Lebanese (pl.)</translation>
+                </translations>
+            </nouns>
+            <adjectives>
+                <translations>
+                    <translation>Lebanese<plural>libanesos</plural><fems>libanesa</fems></translation>
+                </translations>
+            </adjectives>
+        </Entry>
 	<Entry frequency="305">libèl·lula<nouns>
 			<translations>
 				<translation catagory="animal-insect" gender="f">dragonfly</translation>
@@ -626,16 +645,16 @@
 		</nouns>
 	</Entry>
         <Entry frequency="82200">liberal<adjectives>
-			<translations><date>0106</date>
-				<translation>liberal</translation>
-			</translations>
-		</adjectives>
-                <nouns>
-                <translations>
-                <translation catagory="politics" gender="m / f">liberal</translation>
+                <translations><date>0106</date>
+                    <translation>liberal</translation>
                 </translations>
-                </nouns>
-	</Entry>
+            </adjectives>
+            <nouns>
+                <translations>
+                    <translation catagory="politics" gender="m / f">liberal</translation>
+                </translations>
+            </nouns>
+        </Entry>
         <Entry frequency="21100">liberalisme<nouns>
 			<translations><date>0106</date>
 				<translation catagory="politics" gender="m">liberalism</translation>
@@ -647,6 +666,28 @@
 				<translation catagory="country-africa">Liberia</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="24000">liberià<nouns>
+                <translations><date>0309</date>
+                    <translation catagory="nationality-africa" gender="m / f">Liberian</translation>
+                </translations>
+            </nouns>
+            <adjectives>
+                <translations>
+                    <translation>Liberian<plural>liberians</plural><fems>liberiana</fems></translation>
+                </translations>
+            </adjectives>
+        </Entry>
+        <Entry frequency="14000">libi<nouns>
+                            <translations><date>0309</date>
+				<translation catagory="nationality-africa" gender="m / f">Libyan</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>Libyan<fems>líbia</fems></translation>
+                        </translations>
+                </adjectives>
 	</Entry>
 	<Entry frequency="1440">Líbia<nouns>
 			<translations>
@@ -674,7 +715,7 @@
 	</Entry>
 	<Entry frequency="22200">liderar<verbs conj="regular">
 			<translations><date>0505</date>
-				<translation>to lead</translation>
+				<translation transitive="true">to lead</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -696,12 +737,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="2350">lila<adjectives>
-			<translations>
-				<translation catagory="colour">lilac</translation>
-			</translations>
-		</adjectives>
-	</Entry>
+        <Entry frequency="122000">lila<adjectives>
+                <translations><date>0309</date>
+                    <translation catagory="colour">lilac</translation>
+                </translations>
+            </adjectives>
+            <nouns>
+                <translations>
+                    <translation gender="m">lilac</translation>
+                </translations>
+            </nouns>
+        </Entry>
          <Entry frequency="297">limfa<nouns>
 			<translations><date>1205</date>
 				<translation catagory="biology" gender="f">lymph</translation>
@@ -748,7 +794,7 @@
 	<Entry frequency="50600">limitar<verbs conj="regular">
 			<translations>
 				<translation>to limit</translation>
-                                <translation>(limitar amb) to border on</translation>
+                                <translation>(~ amb) to border on</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -807,36 +853,32 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="496000">línia<nouns>
-			<translations><date>0705</date>
-				<translation gender="f">line</translation>
-			</translations>
-		</nouns>
-                <expressions>en línia
-                <translations>
-                <translation catagory="computers-internet">online</translation>
+        <Entry frequency="496000">línia<nouns>
+                <translations><date>0705</date>
+                    <translation gender="f">line</translation>
                 </translations>
-                </expressions>
-	</Entry>	
-        <Entry frequency="3750">línia aèria<nouns>
-			<translations>
-				<date>0705</date>
-				<translation catagory="transport" gender="f">airline</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="11700">línia d'arribada<nouns>
-			<translations><date>0408</date>
-				<translation catagory="sports" gender="f">finishing line</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="13000">línia de sortida<nouns>
-			<translations><date>0408</date>
-				<translation catagory="sports" gender="f">starting line</translation>
-			</translations>
-		</nouns>
-	</Entry>
+            </nouns>
+            <expressions>línia aèria
+                <translations>
+                    <translation catagory="transport" gender="f">airline</translation>
+                </translations>
+            </expressions>
+            <expressions>línia d'arribada
+                <translations>
+                    <translation catagory="sports" gender="f">finish line / finishing line</translation>
+                </translations>
+            </expressions>
+            <expressions>línia de sortida
+                <translations>
+                    <translation catagory="sports" gender="f">starting line</translation>
+                </translations>
+            </expressions>
+            <expressions>en línia
+                <translations>
+                    <translation catagory="computers-internet">online</translation>
+                </translations>
+            </expressions>
+        </Entry>	
   <Entry frequency="2270">linuxer<nouns>
                             <translations><date>1007</date>
                                 <translation catagory="computers" gender="m / f">Linux enthusiast</translation>
@@ -862,7 +904,7 @@
 	</Entry>
   <Entry frequency="637">linxar<verbs conj="regular">
                             <translations><date>1007</date>
-                                <translation>to lynch</translation>
+                                <translation transitive="true">to lynch</translation>
 			</translations>
 		</verbs>
 	</Entry>

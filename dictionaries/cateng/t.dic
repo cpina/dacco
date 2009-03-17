@@ -4495,7 +4495,7 @@
   </Entry>
   <Entry frequency="8530" >transferir<verbs conj="inceptive" >
       <translations>
-        <translation>to transfer</translation>
+        <translation transitive="true">to transfer</translation>
       </translations>
     </verbs>
   </Entry>
@@ -4508,7 +4508,9 @@
   </Entry>
   <Entry frequency="29700" >transformar<verbs conj="regular" >
       <translations>
-        <translation>to transform</translation>
+        <translation transitive="true">to transform</translation>
+        <translation transitive="true">to turn (something) into (something else)</translation>
+        <translation reflexive="transformar-se">to turn into (something)</translation>
       </translations>
     </verbs>
   </Entry>
@@ -4521,10 +4523,7 @@
   </Entry>
   <Entry frequency="3410" >transfusió<nouns>
       <translations>
-        <translation catagory="medical" gender="f" >tranfusion<plural>transfusions</plural>
-          <catexamp>Transfusió de sang / transfusió sanguínia</catexamp>
-          <engexamp>Blood transfusion</engexamp>
-        </translation>
+          <translation catagory="medical" gender="f" >tranfusion<plural>transfusions</plural></translation>
       </translations>
     </nouns>
     <expressions>transfusió de sang
@@ -4537,6 +4536,12 @@
             <translation catagory="medical" gender="f">blood transfusion</translation>
         </translations>
     </expressions>
+  </Entry>
+  <Entry frequency="207000" >transgènic<adjectives>
+          <translations><date>0309</date>
+              <translation catagory="biology">transgenic<fems>transgènica</fems><femplural>transgèniques</femplural></translation>
+          </translations>
+      </adjectives>
   </Entry>
    <Entry frequency="678" >transgredir<verbs conj="inceptive" >
       <translations>

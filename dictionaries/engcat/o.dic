@@ -37,14 +37,10 @@
 <Entry frequency="7830000">oat<nouns>
 			<translations><date>1008</date>
 				<translation sourceplural="oats" gender="f">civada / avena</translation>
+                                <translation beforenoun="true">de civada / d'avena<engexamp>Oat flakes</engexamp><catexamp>Flocs de civada</catexamp></translation>
 			</translations>
 		</nouns>
-                <adjectives>
-                    <translations>
-                        <translation beforenoun="true">de civada / d'avena<engexamp>Oat flakes</engexamp><catexamp>Flocs de civada</catexamp></translation>
-                    </translations>
-                </adjectives>
-                <expressions>feel your oats
+                 <expressions>feel your oats
                     <translations>
                         <translation local="us">estar (o sentir-se) de vena</translation>
                         <translation local="us">sentir-se important / sentir-se algú</translation>
@@ -701,12 +697,11 @@
 				<translation>de</translation>
 			</translations>
 		</prepositions>
-	</Entry>
-<Entry frequency="13700000">of course<expressions>
-			<translations>
-				<translation>és clar</translation>
-			</translations>
-		</expressions>
+                <expressions>of course
+                    <translations>
+                        <translation>és clar</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="26200000">off<adverbs>
                         <translations><date>0508</date>
@@ -717,16 +712,20 @@
                             <translation>minvant, desapareixent<engexamp>The pain is wearing off</engexamp><catexamp>El dolor està minvant</catexamp><engexamp>They've finished off the beer</engexamp><catexamp>S'han begut tota la cervesa</catexamp></translation>
 			</translations>
 		</adverbs>
+                <expressions>on the off chance
+                    <translations>
+                        <translation>per si de cas / per atzar<example>The sun was shining, but I brought an umbrella &lt;b&gt;on the off chance&lt;/b&gt; that it might rain.</example></translation>
+                    </translations>
+                </expressions>
+                <expressions>off colour
+                    <translations>
+                        <translation catagory="medical" register="colloquial" local="gb">malalt<example>You look a little &lt;b&gt;off colour&lt;/b&gt; today.</example></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1430000">offal<nouns>
 			<translations>
 				<translation catagory="food" gender="mpl">menuts</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="742000">off chance<nouns>
-			<translations>
-				<translation>paraules utilitzades en l'expressió 'on the off chance'<engexamp>On the off chance</engexamp><catexamp>Per si de cas / per atzar</catexamp><example>The sun was shining, but I brought an umbrella &lt;b&gt;on the off chance&lt;/b&gt; that it might rain.</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -736,18 +735,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="14000">off colour<adjectives>
-			<translations>
-				<translation catagory="medical" register="colloquial" local="gb">malalt<example>You look a little &lt;b&gt;off colour&lt;/b&gt; today</example></translation>
-			</translations>
-		</adjectives>
-	</Entry>
 <Entry frequency="14900000">offence<nouns>
-                            <translations><date>1108</date>
-				<translation gender="f">ofensa</translation>
+                            <translations><date>0309</date>
+				<translation local="gb" gender="f">ofensa</translation>
+                                <translation local="gb" gender="m">crim / delicte<otherlocal>offense</otherlocal></translation>
 			</translations>
 		</nouns>
-                <expressions>cause (o give) offence
+                <expressions>cause offence
+                    <translations>
+                        <translation>ofendre</translation>
+                    </translations>
+                </expressions>
+                <expressions>give offence
                     <translations>
                         <translation>ofendre</translation>
                     </translations>
@@ -764,6 +763,30 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="37700000">offense<nouns>
+                            <translations><date>0309</date>
+				<translation local="us" gender="f">ofensa</translation>
+                                <translation local="us" gender="m">crim / delicte<otherlocal>offence</otherlocal></translation>
+                                <translation local="us" catagory="sports" gender="m">joc atacant</translation>
+                                <translation local="us" catagory="sports" gender="mpl">jugadors atacants</translation>
+			</translations>
+		</nouns>
+                <expressions>cause offense
+                    <translations>
+                        <translation>ofendre</translation>
+                    </translations>
+                </expressions>
+                <expressions>give offense
+                    <translations>
+                        <translation>ofendre</translation>
+                    </translations>
+                </expressions>
+                <expressions>take offense (at something)
+                <translations>
+                <translation>ofendre's (per alguna cosa)</translation>
+                </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="8600000">offensive<adjectives>
 			<translations>
 				<translation>ofensiu</translation>
@@ -771,14 +794,17 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation gender="f">ofensiva<engexamp>To go on the offensive</engexamp>
-					<catexamp>Passar a l'ofensiva</catexamp>
-				</translation>
+				<translation gender="f">ofensiva</translation>
 			</translations>
 		</nouns>
                 <expressions>offensive foul
                     <translations>
                         <translation catagory="sports" termcat="true" gender="f">falta personal en atac / personal en atac</translation>
+                    </translations>
+                </expressions>
+                <expressions>go on the offensive
+                    <translations>
+                        <translation>passar a l'ofensiva</translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -1683,9 +1709,14 @@
                             </Entry>
                             <Entry frequency="79900000">opinion<nouns>
                                     <translations>
-                                        <translation gender="f">opinió<engexamp>In my opinion...</engexamp><catexamp>Al meu parer...</catexamp></translation>
+                                        <translation gender="f">opinió</translation>
                                     </translations>
                                 </nouns>
+                                <expressions>in my opinion
+                                    <translations>
+                                        <translation>al meu parer</translation>
+                                    </translations>
+                                </expressions>
                             </Entry>
                             <Entry frequency="1520000">opinion poll<nouns>
                                     <translations>
@@ -1767,14 +1798,17 @@
                                     </translations>
                                 </adjectives>
                             </Entry>
-                            <Entry frequency="13900000">opposition<nouns>
-                                    <translations>
+                            <Entry frequency="84600000">opposition<nouns>
+                                    <translations><date>0309</date>
                                         <translation gender="f">oposició</translation>
+                                        <translation beforenoun="true">opositor</translation>
                                     </translations>
                                 </nouns>
-                                <adjectives>
+                                <expressions>opposition candidate
                                     <translations>
-                                <translation catagory="politics">opositor<catexamp>Candidat opositor</catexamp><engexamp>Opposition candidate</engexamp></translation></translations></adjectives>
+                                        <translation catagory="politics" gender="mf">candidat opositor</translation>
+                                    </translations>
+                                </expressions>
                             </Entry>
                             <Entry frequency="3590000">oppress<verbs>
                                     <translations>
@@ -1823,24 +1857,30 @@
                             </Entry>
                             <Entry frequency="8040000">optic<adjectives>
                                     <translations>
-                                        <translation>òptic<engexamp>Optic nerve</engexamp><catexamp>Nervi òptic</catexamp></translation>
+                                        <translation>òptic</translation>
                                     </translations>
                                 </adjectives>
                                 <nouns>
                                     <translations>
-                                <translation sourceplural="optics" gender="f">òptica</translation></translations></nouns>
+                                <translation sourceplural="optics" gender="f">òptica</translation>
+                            </translations>
+                        </nouns>
+                                <expressions>optic nerve
+                                    <translations>
+                                        <translation catagory="body" gender="m">nervi òptic</translation>
+                                    </translations>
+                                </expressions>
                             </Entry>
                             <Entry frequency="49300000">optical<adjectives>
                                     <translations>
                                         <translation>òptic</translation>
                                     </translations>
                                 </adjectives>
-                            </Entry>
-                            <Entry frequency="2070000">optical amplifier<nouns>
+                                <expressions>optical amplifier
                                     <translations>
                                         <translation catagory="computers" termcat="true" gender="m">amplificador òptic</translation>
                                     </translations>
-                                </nouns>
+                                </expressions>
                             </Entry>
                             <Entry frequency="4170000">optimisation<nouns>
                                     <translations>
@@ -1923,9 +1963,14 @@
                             <Entry frequency="15200000">oral<adjectives>
                                     <translations>
                                         <translation>oral</translation>
-                                        <translation disambiguate="body">oral / bucal<engexamp>Oral cavity</engexamp><catexamp>Cavitat bucal / oral</catexamp></translation>
+                                        <translation disambiguate="body">oral / bucal</translation>
                                     </translations>
                                 </adjectives>
+                                <expressions>oral cavity
+                                    <translations>
+                                        <translation catagory="body" gender="f">cavitat bucal (o oral)</translation>
+                                    </translations>
+                                </expressions>
                             </Entry>
                             <Entry frequency="15000000">orange<nouns>
                                     <translations>
@@ -1937,6 +1982,11 @@
                                         <translation catagory="colour">taronja</translation>
                                     </translations>
                                 </adjectives>
+                                <expressions>orange tree
+                                    <translations>
+                                        <translation catagory="plants-tree" gender="m">taronger</translation>
+                                    </translations>
+                                </expressions>
                             </Entry>
                             <Entry frequency="1510000">orange juice<nouns>
                                     <translations>
@@ -1944,13 +1994,7 @@
                                     </translations>
                                 </nouns>
                             </Entry>
-                            <Entry frequency="438000">orange tree<nouns>
-                                    <translations>
-                                        <translation catagory="plant-tree" gender="m">taronger</translation>
-                                    </translations>
-                                </nouns>
-                            </Entry>
-                            <Entry frequency="665000">orangutan<nouns>
+                                <Entry frequency="665000">orangutan<nouns>
                                     <translations>
                                         <translation catagory="animal-animal" gender="m">orangutan</translation>
                                     </translations>
@@ -1973,7 +2017,7 @@
                             </Entry>
                             <Entry frequency="2020000">orchard<nouns>
                                     <translations>
-                                        <translation gender="m">hort</translation>
+                                        <translation catagory="agriculture" gender="m">hort</translation>
                                     </translations>
                                 </nouns>
                             </Entry>
@@ -1997,11 +2041,11 @@
                             </Entry>
                             <Entry frequency="4970000">orchid<nouns>
                                     <translations>
-                                        <translation catagory="plant-flower" gender="f">orquídia</translation>
+                                        <translation catagory="plants-flower" gender="f">orquídia</translation>
                                     </translations>
                                 </nouns>
                             </Entry>
- <Entry frequency="7330000">ordeal<nouns>
+                            <Entry frequency="7330000">ordeal<nouns>
                                     <translations><date>0708</date>
                                         <translation gender="m">calvari</translation>
                                     </translations>
@@ -2095,7 +2139,7 @@
                             </Entry>
                             <Entry frequency="123000000">organic<adjectives>
                                     <translations><date>0708</date>
-                                        <translation>ecològic<engexamp>Organic flour</engexamp><catexamp>Farina ecològica</catexamp></translation>
+                                        <translation>ecològic</translation>
                                         <translation>orgànic</translation>
                                     </translations>
                                 </adjectives>
@@ -2249,9 +2293,14 @@
                             </Entry>
                             <Entry frequency="201000">orientation<nouns>
                                     <translations>
-                                        <translation gender="f">orientació<engexamp>Sexual orientation</engexamp><catexamp>Orientació sexual</catexamp></translation>
+                                        <translation gender="f">orientació</translation>
                                     </translations>
                                 </nouns>
+                                <expressions>sexual orientation
+                                    <translations>
+                                        <translation gender="f">orientació sexual</translation>
+                                    </translations>
+                                </expressions>
                             </Entry>
                             <Entry frequency="830000">orifice<nouns>
                                     <translations>
@@ -2440,9 +2489,14 @@
                             </Entry>
                             <Entry frequency="1980000">osmotic<adjectives>
                                     <translations><date>0707</date>
-                                        <translation catagory="biology">osmòtic<engexamp>Osmotic pressure</engexamp><catexamp>Pressió osmòtica</catexamp></translation>
+                                        <translation catagory="biology">osmòtic</translation>
                                     </translations>
                                 </adjectives>
+                                <expressions>osmotic pressure
+                                    <translations>
+                                        <translation gender="f">pressió osmòtica</translation>
+                                    </translations>
+                                </expressions>
                             </Entry>
                             <Entry frequency="1610000">osprey<nouns>
                                     <translations>
@@ -2865,12 +2919,14 @@
 	</Entry>
 <Entry frequency="1380000">outset<nouns>
 			<translations>
-				<translation gender="m">començament<engexamp>From the outset</engexamp>
-					<catexamp>Des del començament</catexamp>
-					<synonyms>beginning, start</synonyms>
-				</translation>
+				<translation gender="m">començament<synonyms>beginning, start</synonyms></translation>
 			</translations>
 		</nouns>
+                <expressions>from the outset
+                    <translations>
+                        <translation>des del començament</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="41800000">outside<adverbs>
 			<translations>
@@ -2926,9 +2982,14 @@
 	</Entry>
 <Entry frequency="3760000">ovarian<adjectives>
 			<translations>
-				<translation>ovàric<engexamp>Ovarian cancer</engexamp><catexamp>Càncer d'ovari</catexamp></translation>
+				<translation>ovàric</translation>
 			</translations>
 		</adjectives>
+                <expressions>ovarian cancer
+                    <translations>
+                        <translation catagory="medical-illness" gender="m">càncer d'ovari</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="443000">ovary<nouns>
 			<translations>

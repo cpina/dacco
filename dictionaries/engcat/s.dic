@@ -11497,6 +11497,12 @@
                         </translations>
                     </phrasalverbs>
                 </Entry>
+                <Entry frequency="10900000">slowdown<nouns>
+                        <translations><date>0309</date>
+                            <translation gender="m">alentiment</translation>
+                        </translations>
+                    </nouns>
+                </Entry>
         <Entry frequency="12800000">slowly<adverbs>
 
 			<translations>
@@ -20343,8 +20349,10 @@ s
 
                             <translations><date>0508</date>
 
-				<translation>aturar / parar</translation>
-
+				<translation transitive="true">aturar / parar</translation>
+                                <translation intransitive="true">aturar-se / parar-se</translation>
+                                <translation transitive="true">tapar / embussar<example>He &lt;b&gt;stopped&lt;/b&gt; his ears with his fingers and ran away.</example><catnote>També es diu 'to stop up'.</catnote></translation>
+                                <translation intransitive="true">aturar<example>I'll be &lt;b&gt;stopping&lt;/b&gt; in Barcelona for two days on my way back from Lisbon.</example></translation>
 			</translations>
 
 		</verbs>
@@ -20392,8 +20400,6 @@ s
                     <translations>
 
                         <translation>tapar / embussar</translation>
-
-                        <translation>tapar-se / embussar-se</translation>
 
                     </translations>
 

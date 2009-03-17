@@ -281,15 +281,20 @@
     </Entry>
 <Entry frequency="580000">calcify<verbs ie="true">
 			<translations><date>1007</date>
-				<translation catagory="chemistry">calcificar</translation>
+				<translation catagory="chemistry" transitive="true">calcificar</translation>
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="5040000">calcium<nouns>
-        <translations>
-            <translation gender="m">calci</translation>
+<Entry frequency="70200000">calcium<nouns>
+        <translations><date>0309</date>
+            <translation catagory="chemistry" gender="m">calci</translation>
         </translations>
     </nouns>
+        <expressions>calcium hydroxide
+            <translations>
+                <translation catagory="chemistry" gender="m">hidròxid de calci</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="31000000">calculate<verbs>
         <translations>
@@ -12459,9 +12464,10 @@
             </translations>
         </phrasalverbs>
     </Entry>
-<Entry frequency="2490000">crappy<adjectives>
-			<translations><date>1007</date>
+<Entry frequency="13100000">crappy<adjectives>
+			<translations><date>0309</date>
 				<translation register="slang">de pacotilla / barroer<example>My parents went on holiday to Estartit and all they bought me was this &lt;b&gt;crappy&lt;/b&gt; t-shirt.</example></translation>
+                                <translation register="slang">fet(a) merda<example>I feel really &lt;b&gt;crappy&lt;/b&gt; today. My tired and my neck hurts.</example></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -12670,6 +12676,12 @@
         </translations>
     </nouns>
     </Entry>
+      <Entry frequency="15800000">creditor<nouns>
+			<translations><date>0309</date>
+				<translation gender="mf">creditor</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="14700000">credits<nouns>
         <translations>
             <translation gender="mpl">crèdits</translation>
@@ -12891,13 +12903,13 @@
 	</Entry>
 <Entry frequency="84000">criminologist<nouns>
         <translations>
-            <translation gender="mf">criminòleg</translation>
+            <translation catagory="work-job" gender="mf">criminòleg</translation>
         </translations>
     </nouns>
     </Entry>
 <Entry frequency="1080000">criminology<nouns>
         <translations>
-            <translation gender="f">criminologia</translation>
+            <translation catagory="work-field" gender="f">criminologia</translation>
         </translations>
     </nouns>
     </Entry>
@@ -12908,7 +12920,7 @@
     </adjectives>
     <nouns>
         <translations>
-            <translation gender="m">carmesí</translation>
+            <translation catagory="colour" gender="m">carmesí</translation>
         </translations>
     </nouns>
     </Entry>
@@ -13080,7 +13092,7 @@
 <Entry frequency="79900000">crop<nouns>
         <translations><date>1007</date>
             <translation gender="f">collita</translation>
-            <translation disambiguate="animal" gender="m">pedrer<engnote>'Pedrer' means 'crop' in the sense 'pouch in a bird's gullet where food is prepared for digestion.</engnote></translation>
+            <translation catagory="animal" gender="m">pedrer<engnote>'Pedrer' means 'crop' in the sense 'pouch in a bird's gullet where food is prepared for digestion.</engnote></translation>
         </translations>
     </nouns>
     <verbs double="true">

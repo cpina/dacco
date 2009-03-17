@@ -1292,17 +1292,22 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="229000">laze<phrasalverbs>laze about
-        <translations>
-        <translation>gandulejar / mandrejar</translation>
-        </translations>
-        </phrasalverbs>
-        <phrasalverbs>laze around
-			<translations>
-				<translation>gandulejar / mandrejar</translation>
-			</translations>
-		</phrasalverbs>
-	</Entry>
+        <Entry frequency="53100000">laze<verbs>
+                <translations><date>0309</date>
+                    <translation>gandulejar / mandrejar</translation>
+                </translations>
+            </verbs>
+            <phrasalverbs>laze about
+                <translations>
+                    <translation>gandulejar / mandrejar</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>laze around
+                <translations>
+                    <translation>gandulejar / mandrejar</translation>
+                </translations>
+            </phrasalverbs>
+        </Entry>
 <Entry frequency="650000">lazily<adverbs>
 			<translations>
 				<translation>mandrosament</translation>
@@ -1336,7 +1341,7 @@
 <Entry frequency="708000">LEA<engacro>Local Education Authority</engacro>
 		<nouns>
 			<translations>
-				<translation noteng="TRUE" local="gb">organisme d'administració local que gestiona els assumptes escolars</translation>
+				<translation local="gb">organisme d'administració local que gestiona els assumptes escolars</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1367,13 +1372,9 @@
                         <engnote>Plom means lead as in 'heavy grey lump of metal'.</engnote>
                     </translation>
                     <translation gender="f">mina de llapis<engnote>'Mina de llapis' means 'lead' as in the stuff you put in your pencil.</engnote></translation>
+                    <translation gender="mf">líder</translation>
                 </translations>
             </nouns>
-            <adjectives>
-                <translations>
-                    <translation>líder</translation>
-                </translations>
-            </adjectives>
             <phrasalverbs>lead up to
                 <translations>
                     <translation intransitive="true">precedir</translation>
@@ -2656,7 +2657,7 @@
 	</Entry>
 <Entry frequency="2400000">lighthouse<nouns>
 			<translations>
-				<translation gender="m">far</translation>
+                                    <translation gender="m">far</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3540,6 +3541,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+          <Entry frequency="291000">locavore<nouns>
+                            <translations><date>0309</date>
+				<translation>persona que només menja aliments de fonts locals (generalment els que es produeixen en un radi de 100 milles o sigui 160 quilòmetres)</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="14100000">loch<nouns>
 			<translations>
 				<translation catagory="geography" register="dialect" gender="m">llac<catnote>(en Escòcia)</catnote></translation>
@@ -3670,14 +3677,6 @@
 			</translations>
 		</adverbs>
 	</Entry>
-<Entry frequency="54200000">log in<verbs double="true">
-			<translations>
-				<translation catagory="computers" termcat="true">iniciar una sessió</translation>
-				<translation catagory="computers">entrar (en un sistema informàtic)<synonyms>log on</synonyms>
-				</translation>
-			</translations>
-		</verbs>
-	</Entry>
 <Entry frequency="26800000">logistic<adjectives>
 			<translations>
 				<translation>logístic</translation>
@@ -3692,30 +3691,6 @@
 				<translation>logístic</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="710000">log off<verbs double="true">
-			<translations>
-				<translation catagory="computers" termcat="true">finalitzar una sessiór</translation>
-				<translation catagory="computers">sortir<synonyms>log out</synonyms>
-				</translation>
-			</translations>
-		</verbs>
-	</Entry>
-<Entry frequency="5310000">log on<verbs double="true">
-			<translations>
-				<translation catagory="computers" termcat="true">iniciar una sessió</translation>
-				<translation catagory="computers">entrar<synonyms>log in</synonyms>
-				</translation>
-			</translations>
-		</verbs>
-	</Entry>
-<Entry frequency="2010000">log out<verbs double="true">
-			<translations>
-				<translation catagory="computers" termcat="true">finalitzar una sessió</translation>
-				<translation catagory="computers">sortir<synonyms>log off</synonyms>
-				</translation>
-			</translations>
-		</verbs>
 	</Entry>
 <Entry frequency="131000000">logo<nouns>
 			<translations>
@@ -3732,6 +3707,12 @@
 <Entry frequency="174000">loiter<verbs>
 			<translations>
 				<translation>gandulejar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+       <Entry frequency="2590000">loll<verbs>
+                            <translations><date>0309</date>
+				<translation>arrepapar-se / escarxofar-se<engnote>These two verbs mean specifically to loll (or lounge) in a chair.</engnote></translation>
 			</translations>
 		</verbs>
 	</Entry>

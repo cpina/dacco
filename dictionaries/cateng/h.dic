@@ -326,9 +326,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="967">hèlice<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">propeller</translation>
+        <Entry frequency="4890">hèlice<nouns>
+			<translations><date>0309</date>
+                        <translation gender="m">helix</translation>
+				<translation gender="m">(d'un vaixell, d'una aeronau..) propeller<engnote>Also, more frequently, written 'hèlix'.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -361,9 +362,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="1150">hèlix<nouns>
-			<translations><date>0505</date>
-				<translation gender="f">helix / propeller</translation>
+	<Entry frequency="167000">hèlix<nouns>
+			<translations><date>0309</date>
+				<translation gender="f">helix</translation>
+                                <translation gender="f">(d'un vaixell, d'una aeronau..) propeller<engnote>Also, less frequently, written 'hèlice'.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>	
@@ -498,13 +500,13 @@
 <Entry frequency="0">herbessenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Herbers</translation></translations></nouns><adjectives><translations><translation>relating to Herbers or its people<fems>herbessenca</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="1270">herbicida<nouns>
 			<translations><date>0505</date>
-				<translation gender="m">herbicide</translation>
+				<translation catagory="agriculture" gender="m">herbicide</translation>
 			</translations>
 		</nouns>
 	</Entry>	
 	<Entry frequency="762">herbívor<nouns>
 			<translations><date>0505</date>
-				<translation gender="m / f">herbivore<fems>herbívora</fems></translation>
+				<translation catagory="animal" gender="m / f">herbivore<fems>herbívora</fems></translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -532,9 +534,11 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="3970">heretar<verbs conj="regular"><mistakes>heredar</mistakes>
-			<translations>
-				<translation>to inherit / to come into (money / property)</translation>
+	<Entry frequency="32100">heretar<verbs conj="regular"><mistakes>heredar</mistakes>
+                            <translations><date>0309</date>
+				<translation transitive="true">(propietat, diners..) to inherit / to come into (money or property)</translation>
+                                <translation transitive="true">(característiques) to inherit</translation>
+                                <translation reflexive="heretar-se">to be inherited</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -564,7 +568,7 @@
 	</Entry>
 	<Entry frequency="1450">hermètic<adjectives>
 			<translations>
-				<translation>airtight / hermetic<fems>hermètica</fems><femplural>hermètiques</femplural></translation>
+				<translation>airtight / [tec.] hermetic<fems>hermètica</fems><femplural>hermètiques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -592,15 +596,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="870">heroína<nouns>
-			<translations><date>0505</date>
-				<translation gender="f">heroin</translation>
-			</translations>
-		</nouns>
-	</Entry>
-         <Entry frequency="5640">heroïna<nouns>
-			<translations><date>0505</date>
+         <Entry frequency="50900">heroïna<nouns>
+			<translations><date>0309</date>
 				<translation gender="f">heroine</translation>
+                                <translation gender="f">(droga) heroin</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -671,7 +670,7 @@
 	</Entry>
 	<Entry frequency="10100">heura<nouns>
 			<translations><date>0505</date>
-				<translation gender="f">ivy</translation>
+				<translation catagory="plants" gender="f">ivy</translation>
 			</translations>
 		</nouns>
 	</Entry>	
@@ -709,9 +708,15 @@
                     </translations>
                 </expressions>
 	</Entry>
+            <Entry frequency="23800">hidratació<nouns>
+			<translations><date>0309</date>
+				<translation gender="f">hydration</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="650">hidratar<verbs conj="regular">
 			<translations><date>0505</date>
-				<translation>to hydrate / to moisturize</translation>
+				<translation transitive="true">to hydrate / to moisturize</translation>
 			</translations>
 		</verbs>
 	</Entry>
