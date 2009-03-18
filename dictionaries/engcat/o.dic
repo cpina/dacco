@@ -767,8 +767,8 @@
                             <translations><date>0309</date>
 				<translation local="us" gender="f">ofensa</translation>
                                 <translation local="us" gender="m">crim / delicte<otherlocal>offence</otherlocal></translation>
-                                <translation local="us" catagory="sports" gender="m">joc atacant</translation>
-                                <translation local="us" catagory="sports" gender="mpl">jugadors atacants</translation>
+                                <translation local="us" catagory="sports" gender="m">joc ofensiu</translation>
+                                <translation local="us" catagory="sports" gender="mpl">jugadors ofensius</translation>
 			</translations>
 		</nouns>
                 <expressions>cause offense
@@ -1724,11 +1724,21 @@
                                     </translations>
                                 </nouns>
                             </Entry>
-                            <Entry frequency="1160000">opium<nouns>
-                                    <translations>
+                            <Entry frequency="10200000">opium<nouns>
+                                    <translations><date>0309</date>
                                         <translation gender="m">opi</translation>
                                     </translations>
                                 </nouns>
+                                <expressions>opium addict
+                                    <translations>
+                                        <translation gender="mf">opiòman</translation>
+                                    </translations>
+                                </expressions>
+                                <expressions>opium addiction
+                                    <translations>
+                                        <translation gender="f">opiomania</translation>
+                                    </translations>
+                                </expressions>
                             </Entry>
                             <Entry frequency="1690000">opossum<nouns>
                                     <translations>
@@ -1960,12 +1970,17 @@
                                     </translations>
                                 </nouns>
                             </Entry>
-                            <Entry frequency="15200000">oral<adjectives>
-                                    <translations>
+                            <Entry frequency="153000000">oral<adjectives>
+                                    <translations><date>0309</date>
                                         <translation>oral</translation>
                                         <translation disambiguate="body">oral / bucal</translation>
                                     </translations>
                                 </adjectives>
+                                <nouns>
+                                    <translations>
+                                        <translation catagory="education" gender="m">examen oral</translation>
+                                    </translations>
+                                </nouns>
                                 <expressions>oral cavity
                                     <translations>
                                         <translation catagory="body" gender="f">cavitat bucal (o oral)</translation>

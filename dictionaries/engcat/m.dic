@@ -1203,18 +1203,23 @@
 	</Entry>
 <Entry frequency="850000">manslaughter<nouns>
 			<translations>
-				<translation gender="m">homicidi imprudent / culpós</translation>
+				<translation gender="m">homicidi imprudent (o culpós)</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="42800000">manual<nouns>
-			<translations>
+<Entry frequency="315000000">manual<nouns>
+                            <translations><date>0309</date>
 				<translation gender="m">manual</translation>
 				<translation disambiguate="transport" local="gb" gender="m">(cotxe) amb marxes / canvi manual<example>Is your car a &lt;b&gt;manual&lt;/b&gt; or an automatic?</example>
 					<otherlocal>stick shift</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>manual</translation>
+                        </translations>
+                </adjectives>
 	</Entry>
 <Entry frequency="10100000">manually<adverbs>
 			<translations>
@@ -3818,6 +3823,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="2170000">middling<adjectives>
+                            <translations><date>0309</date>
+				<translation>regular / mediocre<example>The Reader: Oscar-worthy epic or &lt;b&gt;middling&lt;/b&gt; movie?</example></translation>
+			</translations>
+		</adjectives>
+                <expressions>fair to middling
+                    <translations>
+                        <translation>regular / mediocre<example>A: How are you today? B: &lt;b&gt;Fair to middling&lt;/b&gt;.</example></translation>
+                    </translations>
+                </expressions>
+	</Entry>
           <Entry frequency="5040000">midfield<nouns>
                   <translations><date>0908</date>
         <translation catagory="sports-event-football" gender="m">centre del camp / mig camp</translation>
@@ -5413,14 +5429,19 @@
 			</translations>
 		</nouns>
 	</Entry> 
-<Entry frequency="175000000">money<nouns>
-			<translations>
+<Entry frequency="44300000">money<nouns>
+                            <translations><date>0309</date>
 				<translation catagory="financial" gender="mpl">diners</translation>
 			</translations>
 		</nouns>
                 <expressions>money laundering
                     <translations>
                         <translation catagory="financial" gender="m">blanqueig de diners / blanqueig de capitals</translation>
+                    </translations>
+                </expressions>
+                <expressions>on the money
+                    <translations>
+                        <translation>exacte / correcte</translation>
                     </translations>
                 </expressions>
 	</Entry>
