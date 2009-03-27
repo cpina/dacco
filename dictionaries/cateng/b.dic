@@ -1977,35 +1977,37 @@
 		</nouns>
 	</Entry>
         <Entry frequency="19100">bestiar<nouns>
-			<translations><date>0805</date>
-				<translation catagory="animal" gender="m">livestock</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="567">bestiar boví<nouns>
-			<translations><date>0805</date>
-				<translation catagory="animal" gender="m">cattle</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="152">bestiar cabrum<nouns>
-			<translations><date>0805</date>
-				<translation catagory="animal" gender="m">goats</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="810">bestiar oví<nouns>
-			<translations><date>0805</date>
-				<translation catagory="animal" gender="m">sheep</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="787">bestiar porcí<nouns>
-			<translations><date>0805</date>
-				<translation catagory="animal" gender="m">pigs / swine</translation>
-			</translations>
-		</nouns>
-	</Entry>
+                <translations><date>0805</date>
+                    <translation catagory="animal" gender="m">livestock</translation>
+                </translations>
+            </nouns>
+            <expressions>bestiar boví
+                <translations>
+                    <translation catagory="animal" gender="m">cattle</translation>
+                </translations>
+            </expressions>
+            <expressions>bestiar cabrum
+                <translations>
+                    <translation catagory="animal" gender="m">goats</translation>
+                </translations>
+            </expressions>
+            <expressions>bestiar oví
+                <translations>
+                    <translation catagory="animal" gender="m">sheep</translation>
+                </translations>
+            </expressions>
+            <expressions>bestiar porcí
+                <translations>
+                    <translation catagory="animal" gender="m">pigs / swine</translation>
+                </translations>
+            </expressions>
+        </Entry>
+         <Entry frequency="91800">bestiari<nouns>
+                <translations><date>0309</date>
+                    <translation gender="m">bestiary</translation>
+                </translations>
+            </nouns>
+        </Entry>
         <Entry frequency="12800">bestreta<nouns>
                             <translations><date>1007</date>
 				<translation catagory="financial" gender="f">deposit / advance fee</translation>
@@ -2023,7 +2025,7 @@
 <Entry frequency="0">betxinenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Betxí</translation></translations></nouns><adjectives><translations><translation>relating to Betxí or its people<fems>betxinenca</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="13800" hasSound="true">beure<verbs conj="irregular13">
 			<translations>
-				<translation>to drink</translation>
+				<translation transitive="true">to drink</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2271,6 +2273,12 @@
           <Entry frequency="84">bioalcohol<nouns>
 			<translations><date>0307</date>
 				<translation termcat="energy" gender="m">bioalcohol</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="459">bioassaig<nouns>
+			<translations><date>0309</date>
+				<translation catagory="biology" gender="m">bioassay<plural>bioassajos</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>

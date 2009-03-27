@@ -2992,6 +2992,12 @@
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>best of British
+                    <translations>
+                        <translation local="gb">molta sort!<synonyms>good luck</synonyms>
+                        </translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="136000">best before date<nouns>
 			<translations>
@@ -3005,14 +3011,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="5000">best of British<exclamations>
-			<translations>
-				<translation local="gb">molta sort!<synonyms>good luck</synonyms>
-				</translation>
-			</translations>
-		</exclamations>
-	</Entry>
-<Entry frequency="7250000">bet<verbs>
+         <Entry frequency="932000">bestiary<nouns>
+                <translations><date>0309</date>
+                    <translation gender="m">bestiari</translation>
+                </translations>
+            </nouns>
+        </Entry>
+       <Entry frequency="7250000">bet<verbs>
 			<past>bet</past>
 			<participle>bet</participle>
 			<gerund>betting</gerund>
@@ -3031,8 +3036,8 @@
             </Entry>
 <Entry frequency="1770000">betray<verbs>
 			<translations>
-				<translation>trair</translation>
-                                <translation>delatar</translation>
+				<translation transitive="true">trair</translation>
+                                <translation transitive="true">delatar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3044,7 +3049,7 @@
 	</Entry>
 <Entry frequency="131000000">better<verbs>
 			<translations>
-				<translation>millorar</translation>
+				<translation transitive="true">millorar</translation>
 			</translations>
 		</verbs>
 		<adjectives>
@@ -3562,6 +3567,12 @@
 <Entry frequency="10900">bioalcohol<nouns>
 			<translations><date>0307</date>
 				<translation termcat="energy" gender="m">bioalcohol</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="2190000">bioassay<nouns>
+			<translations><date>0309</date>
+				<translation catagory="biology" gender="m">bioassaig</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6271,7 +6282,7 @@
 	</Entry>
 <Entry frequency="418000">bouncer<nouns>
 			<translations>
-				<translation gender="mf">segurata<synonyms>doorman</synonyms>
+				<translation catagory="work-job" gender="mf">segurata<synonyms>doorman</synonyms>
 				</translation>
 			</translations>
 		</nouns>
@@ -6322,7 +6333,7 @@
 	</Entry>
 <Entry frequency="1770000">bovine<adjectives>
 			<translations>
-				<translation>boví</translation>
+				<translation catagory="animal">boví</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -6379,7 +6390,7 @@
             </Entry>
 <Entry frequency="461000">bow tie<nouns>
 			<translations>
-                        <grouptranslation><translation gender="f">corbata de llacet</translation>
+                        <grouptranslation catagory="clothes"><translation gender="f">corbata de llacet</translation>
                                 <translation gender="m">corbatí</translation></grouptranslation>
 			</translations>
 		</nouns>
@@ -6459,8 +6470,7 @@
 	</Entry>
 <Entry frequency="32600">boy racer<nouns>
 			<translations>
-				<translation register="slang">un d'aquells joves a qui els agrada conduir molt ràpid (i que generalment tenen un equip de música molt poderós instal·lat al cotxe...)
-				</translation>
+				<translation register="slang">un d'aquells joves a qui els agrada conduir molt ràpid (i que generalment tenen un equip de música molt poderós instal·lat al cotxe...)</translation>
 			</translations>
 		</nouns>
 	</Entry>

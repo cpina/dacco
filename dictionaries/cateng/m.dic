@@ -1176,9 +1176,9 @@
                     </translations>
                 </expressions>
 	</Entry>
-        <Entry frequency="145">mandrejar<verbs conj="JtoG">
-			<translations><date>0206</date>
-				<translation>to laze about / to laze around<synonyms>gandulejar</synonyms></translation>
+        <Entry frequency="3810">mandrejar<verbs conj="JtoG">
+			<translations><date>0309</date>
+				<translation>to laze around (or about) / to lounge around (or about)<synonyms>gandulejar</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry> 
@@ -1216,11 +1216,12 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="1150">manegar<verbs conj="GtoGU">
-			<translations><date>0806</date>
-				<translation>to put a handle on</translation>
-                                <translation>to fix (up) / to adjust</translation>
-                                <translation>to sort out</translation>
+        <Entry frequency="213000">manegar<verbs conj="GtoGU">
+			<translations><date>0309</date>
+				<translation transitive="true">to put a handle on</translation>
+                                <translation transitive="true">to fix (up) / to adjust</translation>
+                                <translation transitive="true">to sort out</translation>
+                                <translation reflexive="manegar-se">to manage</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1292,8 +1293,10 @@
 		</nouns>
 	</Entry>
 	<Entry frequency="57100">manifestar<verbs conj="regular">
-			<translations>
-				<translation>to demonstrate</translation>
+                            <translations><date>0309</date>
+				<translation transitive="true">to demonstrate / to show</translation>
+                                <translation reflexive="manifestar-se">to reveal yourself</translation>
+                                <translation reflexive="manifestar-se">to demonstrate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3681,15 +3684,15 @@
                 <expressions>a més a més
                 <translations>
                 <translation>furthermore / what is more / in addition / besides</translation></translations></expressions>
+                <expressions>a més a més de
+                <translations>
+                <translation>in addition to / as well as / besides</translation></translations></expressions>
                 <expressions>a més de
                     <translations>
                         <translation>in addition to / as well as / besides</translation>
                     </translations>
                 </expressions>
-                <expressions>a més a més de
-                <translations>
-                <translation>in addition to / as well as / besides</translation></translations></expressions>
-                <expressions>més o menys
+                 <expressions>més o menys
                     <translations><translation>more or less / around / about</translation>
                     </translations>
                 </expressions>
@@ -4498,7 +4501,8 @@
 	</Entry>
 	<Entry frequency="5700000">millorar<verbs conj="regular">
                             <translations><date>0209</date>
-				<translation>to improve / to better / to boost</translation>
+				<translation transitive="true">to improve / to better / to boost</translation>
+                                <translation intransitive="true">to improve</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4517,7 +4521,7 @@
 	</Entry>
 	<Entry frequency="901">mimar<verbs conj="regular">
 			<translations>
-				<translation>to mimic / to imitate</translation>
+				<translation transitive="true">to mimic / to imitate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4708,12 +4712,12 @@
 				<translation>minuscule / tiny<fems>minúscula</fems></translation>
 			</translations>
 		</adjectives>
-	</Entry>
-	<Entry frequency="11400">minúscula<nouns>
-			<translations>
-				<translation gender="f">lower case letter</translation>
-			</translations>
-		</nouns>
+                <nouns>
+                    <translations>
+                        <translation feminine="minúscula" gender="f">lower case letter</translation>
+                    </translations>
+                </nouns>
+                    
 	</Entry>
 	<Entry frequency="18300">minusvàlid<adjectives>
 			<translations>
@@ -4735,9 +4739,9 @@
 	</Entry>
 	<Entry frequency="14100">minvar<verbs conj="regular">
 			<translations>
-				<translation>to decrease / to lessen / to reduce / to lower</translation>
-				<translation>to die down / to abate / to let up / to subside</translation>
-                                <translation>to wane</translation>
+				<translation transitive="true">to decrease / to lessen / to reduce / to lower</translation>
+				<translation intransitive="true">to die down / to abate / to let up / to subside</translation>
+                                <translation intransitive="true">to wane</translation>
 			</translations>
 		</verbs>
 	</Entry>
