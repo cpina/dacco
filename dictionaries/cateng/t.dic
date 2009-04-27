@@ -2,11 +2,14 @@
 <dictionary>
   <Entry frequency="24400" >tabac<nouns>
       <translations>
-        <translation catagory="topicalissues-smoking" gender="m" >tobacco<catexamp>Fum de tabac</catexamp>
-          <engexamp>Tobacco smoke</engexamp>
-        </translation>
+        <translation gender="m" >tobacco</translation>
       </translations>
     </nouns>
+    <expressions>fum de tabac
+        <translations>
+            <translation gender="m">cigarette smoke</translation>
+        </translations>
+    </expressions>
   </Entry>
     <Entry frequency="20500">tabal<nouns>
                     <translations><date>0708</date>
@@ -99,9 +102,14 @@
   </Entry>
   	<Entry frequency="4480">tacó<nouns>
 			<translations><date>1007</date>
-				<translation catagory="clothes" gender="m">heel<catexamp>Tacons alts</catexamp><engexamp>(High) heels</engexamp><plural>tacons</plural></translation>
+				<translation catagory="clothes" gender="m">heel<plural>tacons</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>tacons alts
+                    <translations>
+                        <translation catagory="clothes" gender="mpl">(high) heels</translation>
+                    </translations>
+                </expressions>
 	</Entry>
   <Entry frequency="178" >tacògraf<nouns>
       <translations>
@@ -113,7 +121,7 @@
   <Entry frequency="82" >tacòmetre<nouns>
       <translations>
         <date>0305</date>
-        <translation>tachometer</translation>
+        <translation gender="m">tachometer</translation>
       </translations>
     </nouns>
   </Entry>
@@ -490,12 +498,15 @@
   </Entry>
   <Entry frequency="35000" >tanca<nouns>
       <translations>
-        <translation gender="f" >fence<catexamp>Tanca publicitària</catexamp>
-          <engexamp>Billboard / hoarding (Br.)</engexamp>
-        </translation>
+        <translation gender="f" >fence</translation>
         <translation disambiguate="sports-event-athletics" gender="f" >hurdle</translation>
       </translations>
     </nouns>
+    <expressions>tanca publicitària
+        <translations>
+            <translation gender="f">billboard / hoarding (Br.)</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="54200" >tancament<nouns>
       <translations>
@@ -875,21 +886,22 @@
 	</Entry>
   <Entry frequency="102000" >tasca<nouns>
       <translations>
-        <translation catagory="work" gender="f" >task<catexamp>Barra de tasques</catexamp>
-          <engexamp>Taskbar</engexamp>
-          <plural>tasques</plural>
-        </translation>
+        <translation catagory="work" gender="f" >task<plural>tasques</plural></translation>
       </translations>
     </nouns>
+    <expressions>barra de tasques
+        <translations>
+            <translation catagory="computers" gender="f">taskbar</translation>
+        </translations>
+    </expressions>
+    <expressions>tasca domèstica
+        <translations>
+            <translation gender="f" >(household) chore<plural>tasques domèstiques</plural>
+            </translation>
+        </translations>
+    </expressions>
   </Entry>
-   <Entry frequency="582" >tasca domèstica<nouns>
-      <translations><date>0805</date>
-        <translation gender="f" >(household) chore<plural>tasques domèstiques</plural>
-        </translation>
-      </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="2780" >tassa<nouns>
+   <Entry frequency="2780" >tassa<nouns>
       <translations>
         <translation catagory="household-room-kitchen-crockery" gender="f" >cup</translation>
       </translations>
@@ -946,12 +958,15 @@
         <date>0305</date>
         <translation gender="m" >counter<example>La mestressa de la botiga passava tot el dia rere el &lt;b>taulell&lt;/b>.</example>
         </translation>
-        <translation gender="m" >board<catexamp>Taulell d'anuncis</catexamp>
-          <engexamp>Notice board</engexamp>
-        </translation>
+        <translation gender="m" >board</translation>
         <translation catagory="computers" gender="m" >panel</translation>
       </translations>
     </nouns>
+    <expressions>taulell d'anuncis
+        <translations>
+            <translation gender="m">notice board</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="1240000" >tauler<nouns>
       <translations><date>1107</date>
@@ -1383,21 +1398,26 @@
   </Entry>
   <Entry frequency="68600" >televisió<nouns>
       <translations>
-        <translation catagory="entertainment" gender="f" >television / tv<catexamp>Canal de televisió</catexamp>
-          <engexamp>Television channel</engexamp>
-          <plural>televisions</plural>
-        </translation>
+        <translation catagory="entertainment" gender="f" >television / tv<plural>televisions</plural></translation>
       </translations>
     </nouns>
+    <expressions>canal de televisió
+        <translations>
+            <translation gender="m">television channel<synonyms>canal televisiu</synonyms></translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="22200" >televisiu<adjectives>
       <translations>
-        <translation>television / televisual<catexamp>Canal televisiu</catexamp>
-          <engexamp>Television channel</engexamp>
-          <fems>televisiva</fems>
+        <translation>television / televisual<fems>televisiva</fems>
         </translation>
       </translations>
     </adjectives>
+    <expressions>canal televisiu
+        <translations>
+            <translation gender="m">television channel<synonyms>canal de televisió</synonyms></translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="3800" >televisor<nouns>
       <translations>
@@ -1427,12 +1447,15 @@
   <Entry frequency="5370" >teló<nouns>
       <translations>
         <translation gender="m" >curtain<plural>telons</plural>
-          <catexamp>Teló d'acer</catexamp>
-          <engexamp>Iron curtain</engexamp>
-          <engnote>'Teló' means 'curtain' in the theatre sense (i.e. 'they lowered the curtain to signal the end of the first act').</engnote>
+         <engnote>'Teló' means 'curtain' in the theatre sense (i.e. 'they lowered the curtain to signal the end of the first act').</engnote>
         </translation>
       </translations>
     </nouns>
+    <expressions>teló d'acer
+        <translations>
+            <translation gender="m">iron curtain</translation>
+        </translations>
+    </expressions>
   </Entry>
    	<Entry frequency="591">teló de fons<nouns>
 			<translations><date>0805</date>
@@ -1644,11 +1667,14 @@
   </Entry>
   <Entry frequency="5060" >temptativa<nouns>
       <translations>
-        <translation gender="f" >attempt<catexamp>Temptativa de robatori</catexamp>
-          <engexamp>Attempted robbery</engexamp>
-        </translation>
+        <translation gender="f" >attempt</translation>
       </translations>
     </nouns>
+    <expressions>temptativa de robatori
+        <translations>
+            <translation gender="f">attempted robbery</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="1460" >tempteig<nouns>
       <translations>
@@ -1682,12 +1708,11 @@
         <translation gender="f" >tent</translation>
       </translations>
     </nouns>
-  </Entry>
-  <Entry frequency="732" >tenda de campanya<nouns>
-      <translations>
-        <translation gender="f" >tent</translation>
-      </translations>
-    </nouns>
+    <expressions>tenda de campanya
+        <translations>
+            <translation gender="f">tent</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="584">tendal<nouns>
       <translations><date>0505</date>
@@ -1703,9 +1728,7 @@
   </Entry>
   <Entry frequency="18000" >tendir<verbs conj="inceptive" >
       <translations>
-        <translation>tend<catexamp>Tendir a</catexamp>
-          <engexamp>To tend to</engexamp>
-        </translation>
+        <translation>(~ a) to tend (to)</translation>
       </translations>
     </verbs>
   </Entry>
@@ -1836,11 +1859,14 @@
   </Entry>
   <Entry frequency="4600" >teorema<nouns>
       <translations>
-        <translation catagory="maths" gender="m" >theorem<catexamp>Teorema de Pitàgores</catexamp>
-          <engexamp>Pythagoras' theorem</engexamp>
-        </translation>
+        <translation catagory="maths" gender="m" >theorem</translation>
       </translations>
     </nouns>
+    <expressions>teorema de Pitàgores
+        <translations>
+            <translation catagory="maths" gender="m">Pythagoras' theorum</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="58300" >teoria<nouns>
       <translations>
@@ -1931,17 +1957,25 @@
   </Entry>
    <Entry frequency="1110" >tercermundista<adjectives>
       <translations>
-        <translation>Third World<catexamp>Països tercermundistes</catexamp>
-          <engexamp>Third World countries</engexamp>
-        </translation>
+        <translation>Third-World</translation>
       </translations>
     </adjectives>
+    <expressions>països tercermundistes
+        <translations>
+            <translation gender="mpl">Third-World countries</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="33500">terciari<adjectives>
 			<translations><date>1205</date>
-				<translation>terciari<catexamp>Sector terciari</catexamp><engexamp>Tertiary sector</engexamp><fems>terciària</fems></translation>
+				<translation>terciari<fems>terciària</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>sector terciari
+                    <translations>
+                        <translation gender="m">tertiary sector</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="0">teresà<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Teresa (or Teresa de Cofrents)</translation></translations></nouns><adjectives><translations><translation>relating to Teresa (or Teresa de Cofrents) or its people<plural>teresans</plural><fems>teresana</fems></translation></translations></adjectives></Entry>
             <Entry frequency="1150">tergiversació<nouns>
@@ -1958,9 +1992,14 @@
   </Entry>
   <Entry frequency="91">teriyaki<nouns>
 			<translations><date>0905</date>
-				<translation catagory="food" gender="m">teriyaki<catexamp>Salsa teriyaki</catexamp><engexamp>Teriyaki sauce</engexamp></translation>
+				<translation catagory="food" gender="m">teriyaki</translation>
 			</translations>
 		</nouns>
+                <expressions>salsa teriyaki
+                    <translations>
+                        <translation catagory="food" gender="f">teriyaki sauce</translation>
+                    </translations>
+                </expressions>
 	</Entry>
   <Entry frequency="2380" >termal<adjectives>
       <translations>
@@ -2604,11 +2643,14 @@
   </Entry>
   <Entry frequency="121" >tifoide<adjectives>
       <translations>
-        <translation catagory="medical" >typhoid<catexamp>Febre tifoide</catexamp>
-          <engexamp>Typhoid fever</engexamp>
-        </translation>
+        <translation catagory="medical" >typhoid</translation>
       </translations>
     </adjectives>
+    <expressions>febre tifoide
+        <translations>
+            <translation catagory="medical-illness" gender="f">Typhoid fever</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="398" >tifus<nouns>
       <translations>
@@ -2656,10 +2698,15 @@
 	</Entry>
   <Entry frequency="59950">timbre<nouns>
 			<translations><date>0806</date>
-				<translation gender="m">bell<catexamp>Timbre de la porta</catexamp><engexamp>Doorbell</engexamp></translation>
+				<translation gender="m">bell</translation>
                                 <translation gender="m">timbre</translation>
 			</translations>
 		</nouns>
+                <expressions>timbre de la porta
+                    <translations>
+                        <translation gender="m">doorbell</translation>
+                    </translations>
+                </expressions>
 	</Entry>
   <Entry frequency="9430" >tímid<adjectives>
       <translations>
@@ -2923,11 +2970,14 @@
     </nouns>
     <adjectives>
       <translations>
-        <translation>thyroid<catexamp>Glàndula tiroide</catexamp>
-          <engexamp>Thyroid gland</engexamp>
-        </translation>
+        <translation>thyroid</translation>
       </translations>
     </adjectives>
+    <expressions>glàndula tiroide
+        <translations>
+            <translation catagory="body" gender="f">thyroid gland</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="125" >tirolès<adjectives>
       <translations>
@@ -3464,11 +3514,15 @@
 </Entry>
   <Entry frequency="3670" >toràcic<adjectives>
       <translations>
-        <translation catagory="medical" >thoracic<catexamp>Cirurgia toràcica</catexamp>
-          <engexamp>Thoracic surgery</engexamp><fems>toràcica</fems><femplural>toràciques</femplural>
+        <translation catagory="medical" >thoracic<fems>toràcica</fems><femplural>toràciques</femplural>
         </translation>
       </translations>
     </adjectives>
+    <expressions>cirurgia toràcica
+        <translations>
+            <translation catagory="medical" gender="f">thoracic surgery</translation>
+        </translations>
+    </expressions>
   </Entry>
 <Entry frequency="0">toraser<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Toràs</translation></translations></nouns><adjectives><translations><translation>relating to Toràs or its people<fems>torasera</fems></translation></translations></adjectives></Entry>
   <Entry frequency="713" >tòrax<nouns>
@@ -4644,12 +4698,14 @@
   </Entry>
   <Entry frequency="73400" >transmissió<nouns>
       <translations>
-        <translation gender="f" >transmission / broadcast<catexamp>Malaltia de transmissió sexual (MTS)</catexamp>
-          <engexamp>Sexually transmitted disease (STD)</engexamp>
-          <plural>transmissions</plural>
-        </translation>
+        <translation gender="f" >transmission / broadcast<plural>transmissions</plural></translation>
       </translations>
     </nouns>
+    <expressions>malaltia de transmissió sexual (MTS)
+        <translations>
+            <translation catagory="medical-illness" gender="f">sexually-transmitted disease (STD)</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="7300" >transmissor<nouns>
       <translations>
@@ -4883,17 +4939,14 @@
 	</Entry>
   <Entry frequency="830" >trastocar<verbs conj="CtoQU" >
       <translations>
-        <translation>to send s.o. mad / crazy<catexamp>Trastocar-se</catexamp>
-          <engexamp>To go mad / crazy</engexamp>
-        </translation>
+        <translation>to send s.o. mad / crazy</translation>
+        <translation reflexive="trastocar-se">to go mad (or crazy)</translation>
       </translations>
     </verbs>
   </Entry>
   <Entry frequency="30000" >trastorn<nouns>
       <translations>
-        <translation gender="m" >upset / disorder<catexamp>Trastorn alimentari</catexamp>
-          <engexamp>Eating disorder</engexamp>
-        </translation>
+        <translation gender="m" >upset / disorder</translation>
       </translations>
     </nouns>
     <expressions>trastorn alimentari
@@ -5040,14 +5093,20 @@
   </Entry>
   <Entry frequency="455" >trempat<adjectives>
       <translations>
-        <translation register="slang" >sexually excited<catexamp>Estar trempat</catexamp>
-          <engexamp>To have a hard-on</engexamp>
-        </translation>
-        <translation>cheerful<catexamp>Ser trempat</catexamp>
-          <engexamp>To be cheerful</engexamp><fems>trempada</fems>
-        </translation>
+        <translation register="slang" >sexually excited</translation>
+        <translation>cheerful<fems>trempada</fems></translation>
       </translations>
     </adjectives>
+    <expressions>estar trempat
+        <translations>
+            <translation register="slang">to have a hard-on</translation>
+        </translations>
+    </expressions>
+    <expressions>ser trempat
+        <translations>
+            <translation>to be cheerful</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="34300" >tren<nouns>
       <translations>
