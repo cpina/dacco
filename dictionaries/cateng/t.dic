@@ -4807,15 +4807,17 @@
       </translations>
     </verbs>
   </Entry>
-  <Entry frequency="32800" >traslladar<verbs conj="regular" >
+  <Entry frequency="575000" >traslladar<verbs conj="regular" >
       <translations>
-        <translation>to move</translation>
+        <translation transitive="true">to move</translation>
+        <translation transitive="true">to transfer</translation>
       </translations>
     </verbs>
   </Entry>
   <Entry frequency="131000" >trasllat<nouns>
-          <translations><date>0309</date>
+          <translations><date>0409</date>
               <translation gender="m">move</translation>
+              <translation gender="m">transfer</translation>
           </translations>
       </nouns>
   </Entry>
@@ -4835,20 +4837,34 @@
   </Entry>
   <Entry frequency="3270" >trasplantament<nouns>
       <translations>
-        <translation catagory="medical-treatment" gender="m" >transplant<catexamp>Trasplantament de cor / trasplantament cardíac</catexamp>
-          <engexamp>Heart transplant</engexamp>
-          <catexamp>Trasplantament renal</catexamp>
-          <engexamp>Kidney transplant</engexamp>
-          <catexamp>Trasplantament pulmonar</catexamp>
-          <engexamp>Lung transplant</engexamp>
-        </translation>
+        <translation catagory="medical" gender="m" >transplant</translation>
       </translations>
     </nouns>
+    <expressions>trasplantament cardíac
+        <translations>
+            <translation catagory="medical" gender="m">heart transplant</translation>
+        </translations>
+    </expressions>
+    <expressions>trasplantament de cor
+        <translations>
+            <translation catagory="medical" gender="m">heart transplant</translation>
+        </translations>
+    </expressions>
+    <expressions>trasplantament pulmonar
+        <translations>
+            <translation catagory="medical" gender="m">lung transplant</translation>
+        </translations>
+    </expressions>
+    <expressions>trasplantament renal
+        <translations>
+            <translation catagory="medical" gender="m">kidney transplant</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="1040" >trasplantar<verbs conj="regular" >
       <translations>
-        <translation catagory="medical-treatment" >to transplant</translation>
-        <translation catagory="plants" >to transplant</translation>
+        <translation disambiguate="medical" >to transplant</translation>
+        <translation disambiguate="plants" >to transplant</translation>
       </translations>
     </verbs>
   </Entry>
@@ -4880,19 +4896,17 @@
         </translation>
       </translations>
     </nouns>
+    <expressions>trastorn alimentari
+        <translations>
+            <translation catagory="medical-illness" gender="m">eating disorder</translation>
+        </translations>
+    </expressions>
+    <expressions>trastorn bipolar
+        <translations>
+            <translation catagory="medical-illness" gender="m">bipolar disorder</translation>
+        </translations>
+    </expressions>
   </Entry>
-        	<Entry frequency="4040">trastorn alimentari<nouns>
-			<translations><date>0805</date>
-				<translation catagory="medical-illness" gender="m">eating disorder</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        	<Entry frequency="320">trastorn bipolar<nouns>
-			<translations><date>0805</date>
-				<translation catagory="medical-illness" gender="m">bipolar disorder</translation>
-			</translations>
-		</nouns>
-	</Entry>
   <Entry frequency="3480" >trau<nouns>
       <translations>
       <translation gender="m">buttonhole</translation>
@@ -4956,6 +4970,11 @@
         <translation catagory="work" gender="m" >work</translation>
       </translations>
     </nouns>
+    <expressions>treball temporal
+        <translations>
+            <translation gender="m">temp work</translation>
+        </translations>
+    </expressions>
     <expressions>descripció del lloc de treball
         <translations>
             <translation gender="f">job description</translation>
@@ -4964,11 +4983,6 @@
     <expressions>empresa de treball temporal
         <translations>
             <translation gender="f">temp agency</translation>
-        </translations>
-    </expressions>
-    <expressions>treball temporal
-        <translations>
-            <translation gender="m">temp work</translation>
         </translations>
     </expressions>
   </Entry>
@@ -5040,6 +5054,11 @@
         <translation catagory="transport-mode" gender="m" >train</translation>
       </translations>
     </nouns>
+    <expressions>tren d'aterratge
+        <translations>
+            <translation catagory="transport" gender="m">landing gear</translation>
+        </translations>
+    </expressions>
   </Entry>
    <Entry frequency="1800" >trena<nouns>
       <translations>
@@ -5097,13 +5116,7 @@
       </translations>
     </adjectives>
   </Entry>
-   <Entry frequency="237">tren d'aterratge<nouns>
-			<translations><date>0905</date>
-				<translation catagory="transport" gender="m">landing gear</translation>
-			</translations>
-		</nouns>
-	</Entry>
-  <Entry frequency="31400" >trenta<nouns>
+    <Entry frequency="31400" >trenta<nouns>
       <translations>
         <translation catagory="number-cardinal" >thirty</translation>
       </translations>
@@ -5137,7 +5150,7 @@
 	</Entry>
          <Entry frequency="923">trepanació<nouns>
 			<translations><date>1008</date>
-				<translation gender="f">trepanation / trepanning<plural>trepanacions</plural></translation>
+				<translation gender="f">trepanation / trepanning</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5159,15 +5172,18 @@
   </Entry>
   <Entry frequency="63700" >trepitjar<verbs conj="JtoG" >
       <translations><date>0807</date>
-        <translation>to tread<catexamp>Trepitjar raïm</catexamp>
-          <engexamp>To tread grapes</engexamp>
-        </translation>
+        <translation>to tread</translation>
         <translation>to step on<catexamp>Trepitjar el pedal de l'accelerador</catexamp>
-          <engexamp>To step on the accelerator / gas</engexamp>
+          <engexamp>To step on the accelerator / gas (Am.)</engexamp>
         </translation>
         <translation>to set foot in<example>Tothom coneix que molts d'aquests assessors no &lt;b&gt;trepitgen&lt;/b&gt; la Diputació en tot el mandat.</example></translation>
       </translations>
     </verbs>
+    <expressions>trepitjar raïm
+        <translations>
+            <translation>to tread grapes</translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="351000" >tres<nouns>
       <translations>
@@ -5240,14 +5256,13 @@
         <translation catagory="maths" >triangle</translation>
       </translations>
     </nouns>
+    <expressions>Triangle de les Bermudes
+        <translations>
+            <translation gender="m" >Bermuda Triangle</translation>
+        </translations>
+    </expressions>
   </Entry>
-  <Entry frequency="247" >Triangle de les Bermudes<nouns>
-      <translations>
-        <translation gender="m" >Bermuda Triangle</translation>
-      </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="60000" >triar<verbs conj="irregular1" >
+   <Entry frequency="60000" >triar<verbs conj="irregular1" >
       <translations>
         <translation>to choose</translation>
         <translation>to select (by screening, sifting or cleaning)</translation>
@@ -5416,14 +5431,13 @@
         <translation>triple</translation>
       </translations>
     </adjectives>
+    <expressions>triple salt
+        <translations>
+            <translation catagory="sports-event-athletics" gender="m">triple jump</translation>
+        </translations>
+    </expressions>
   </Entry>
-  <Entry frequency="397">triple salt<nouns>
-			<translations><date>0805</date>
-				<translation catagory="sports-event-athletics" gender="m">triple jump</translation>
-			</translations>
-		</nouns>
-	</Entry>
-  <Entry frequency="2100" >triplicar<verbs conj="CtoQU" >
+   <Entry frequency="2100" >triplicar<verbs conj="CtoQU" >
       <translations>
         <translation>to triple</translation>
       </translations>
@@ -5464,7 +5478,7 @@
   <Entry frequency="21900" >trist<adjectives>
       <translations>
         <date>0305</date>
-        <translation catagory="emotion-negative" >sad<fems>trista</fems></translation>
+        <translation>sad<fems>trista</fems></translation>
       </translations>
     </adjectives>
     <nouns>
@@ -5740,14 +5754,13 @@
 	<translation catagory="telephone" gender="f" >(telephone) call<synonyms>telefonada</synonyms></translation>
       </translations>
     </nouns>
+    <expressions>trucada en espera
+        <translations>
+            <translation catagory="telephone" gender="f">call waiting</translation>
+        </translations>
+    </expressions>
   </Entry>
-          <Entry frequency="187">trucada en espera<nouns>
-			<translations><date>0805</date>
-				<translation catagory="telephone" gender="f">call waiting</translation>
-			</translations>
-		</nouns>
-	</Entry>
-  <Entry frequency="17400" >trucar<verbs conj="CtoQU" >
+        <Entry frequency="17400" >trucar<verbs conj="CtoQU" >
       <translations>
         <translation catagory="telephone" >to call / to phone / to ring<synonyms>telefonar</synonyms></translation>
       </translations>
@@ -5863,12 +5876,11 @@
         <translation gender="m" >tunnel</translation>
       </translations>
     </nouns>
-  </Entry>
-  <Entry frequency="166" >túnel carpià<nouns>
-      <translations><date>0306</date>
-        <translation gender="m" >carpal tunnel<catexamp>Síndrome del túnel carpià</catexamp><engexamp>Carpal tunnel syndrome</engexamp></translation>
-      </translations>
-    </nouns>
+    <expressions>túnel carpià
+        <translations>
+            <translation gender="m" >carpal tunnel<catexamp>Síndrome del túnel carpià</catexamp><engexamp>Carpal tunnel syndrome</engexamp></translation>
+        </translations>
+    </expressions>
   </Entry>
   <Entry frequency="146" >tungstè<nouns>
       <translations>
@@ -5912,42 +5924,40 @@
 				<translation gender="f">turbine</translation>
 			</translations>
 		</nouns>
+                <expressions>turbina de gas
+                    <translations>
+                        <translation termcat="energy" gender="f">gas turbine</translation>
+                    </translations>
+                </expressions>
+                <expressions>turbina de vapor
+                    <translations>
+                        <translation termcat="energy" gender="f">steam turbine</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-         <Entry frequency="348">turbina de gas<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">gas turbine</translation>
-			</translations>
-		</nouns>
-	</Entry>
-         <Entry frequency="283">turbina de vapor<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">steam turbine</translation>
-			</translations>
-		</nouns>
-	</Entry>
-  <Entry frequency="542" >turbulència<nouns>
-      <translations>
-        <translation gender="f" >turbulence</translation>
-      </translations>
-    </nouns>
-  </Entry>
+        <Entry frequency="542" >turbulència<nouns>
+                <translations>
+                    <translation gender="f" >turbulence</translation>
+                </translations>
+            </nouns>
+        </Entry>
   <Entry frequency="7980" >turc<nouns>
-      <translations>
-        <translation catagory="language" gender="m" >Turkish</translation>
-        <translation catagory="nationality-europe, nationality-asia" gender="m / f" >Turk</translation>
-      </translations>
-    </nouns>
-    <adjectives>
-      <translations>
-        <translation>Turkish<fems>turca</fems><femplural>turques</femplural>
-        </translation>
-      </translations>
-    </adjectives>
-    <expressions>cap de turc
-    <translations>
-    <translation gender="m">scapegoat<example>Balbás acusa els dirigents del PSOE d'utilitzar-lo com a &lt;b&gt;cap de turc&lt;/b&gt;.</example><example>Al professor el van fer servir de &lt;b&gt;cap de turc&lt;/b&gt; per distraure l'atenció de l'opinió pública francesa de les sospites de col·laboracionisme de Renault durant l'ocupació.</example><synonyms>boc expiatori</synonyms></translation>
-    </translations>
-    </expressions>
+          <translations>
+              <translation catagory="language" gender="m" >Turkish</translation>
+              <translation catagory="nationality-europe, nationality-asia" gender="m / f" >Turk</translation>
+          </translations>
+      </nouns>
+      <adjectives>
+          <translations>
+              <translation>Turkish<fems>turca</fems><femplural>turques</femplural>
+              </translation>
+          </translations>
+      </adjectives>
+      <expressions>cap de turc
+          <translations>
+              <translation gender="m">scapegoat<example>Balbás acusa els dirigents del PSOE d'utilitzar-lo com a &lt;b&gt;cap de turc&lt;/b&gt;.</example><example>Al professor el van fer servir de &lt;b&gt;cap de turc&lt;/b&gt; per distraure l'atenció de l'opinió pública francesa de les sospites de col·laboracionisme de Renault durant l'ocupació.</example><synonyms>boc expiatori</synonyms></translation>
+          </translations>
+      </expressions>
   </Entry>
   <Entry frequency="112000" >turisme<nouns>
       <translations>
@@ -6027,23 +6037,18 @@
   <Entry frequency="42700" >tutor<nouns>
       <translations>
         <date>0305</date>
-        <translation gender="m / f" >guardian<catexamp>Tutor legal</catexamp>
-          <engexamp>Legal guardian</engexamp>
-        </translation>
+        <translation gender="m / f" >guardian</translation>
         <translation catagory="education" gender="m / f" >tutor<fems>tutora</fems>
         </translation>
       </translations>
     </nouns>
+    <expressions>tutor legal
+        <translations>
+            <translation gender="m / f">legal guardian</translation>
+        </translations>
+    </expressions>
   </Entry>
-  <Entry frequency="601" >tutor legal<nouns>
-      <translations>
-        <date>0305</date>
-        <translation gender="m / f" >legal guardian<fems>tutora legal</fems>
-        </translation>
-      </translations>
-    </nouns>
-  </Entry>
-  <Entry frequency="56" >TVP<catacro>Trombosi Venosa Profunda</catacro>
+   <Entry frequency="56" >TVP<catacro>Trombosi Venosa Profunda</catacro>
     <nouns>
       <translations>
         <translation catagory="medical-illness" gender="f" >DVT<engacro>Deep Veined Thrombosis</engacro>
