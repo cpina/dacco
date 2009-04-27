@@ -8159,25 +8159,19 @@
 
 			<translations>
 
-				<translation>estripar	</translation>
+				<translation>estripar</translation>
 
 			</translations>
 
 		</verbs>
-
-	</Entry><Entry frequency="44400">shredded cheese<nouns>
-
-			<translations>
-
-				<translation catagory="food-dairy" local="us" gender="m">formatge ratllat<otherlocal>grated cheese</otherlocal>
-
-				</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="612000">shriek<nouns>
+                <expressions>shredded cheese
+                    <translations>                        
+                        <translation catagory="food" local="us" gender="m">formatge ratllat<otherlocal>grated cheese</otherlocal>                            
+                        </translation>                        
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="612000">shriek<nouns>
 
 			<translations>
 
@@ -8231,7 +8225,13 @@
 
 		</nouns>
 
-	<phrasalverbs>shrink from<translations><translation intransitive="true">evitar (amb recel)</translation></translations></phrasalverbs></Entry><Entry frequency="1080000">shrivel<verbs double="true">
+            <phrasalverbs>shrink from
+                <translations>
+                    <translation intransitive="true">evitar (amb recel)</translation>
+                </translations>
+            </phrasalverbs>
+        </Entry>
+        <Entry frequency="1080000">shrivel<verbs double="true">
 
 			<translations>
 
@@ -8332,14 +8332,14 @@
 	</Entry>
          <Entry frequency="28700000">shuffle<verbs>
                             <translations><date>1108</date>
-				<translation>arrossegar els peus</translation>
-                                <translation>(cards) barrejar / escartejar / barallar</translation>
+				<translation intransitive="true">arrossegar els peus</translation>
+                                <translation transitive="true">(cards) barrejar / escartejar / barallar</translation>
 			</translations>
 		</verbs>
 	</Entry>
          <Entry frequency="8150000">shun<verbs double="true">
                             <translations><date>1008</date>
-				<translation>evitar / defugir</translation>
+				<translation transitive="true">evitar / defugir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -8368,52 +8368,51 @@
                 <translation>tancat</translation>
 
                 <translation>cluc<engnote>'Cluc' means shut when referring to eyes (amb els ulls clucs - with his eyes shut).</engnote></translation></translations></adjectives>
-
+                <phrasalverbs>shut away
+                    <translations>
+                        <translation transitive="true">desar (una cosa), sobretot perquè ningú no hi tingui accés</translation>
+                        <translation transitive="true">tancar, sobretot a la presó</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>shut down
 
                     <translations>
 
-                        <translation catagory="computers">aturar (un ordinador)</translation>
+                        <translation catagory="computers" transitive="true">aturar (un ordinador)</translation>
 
-                        <translation>aturar-se (un ordinador)</translation>
+                        <translation intransitive="true">aturar-se (un ordinador)</translation>
 
                         <translation>tancar permanentment (una empresa)</translation>
 
                     </translations>
 
                 </phrasalverbs>
-
+                <phrasalverbs>shut in
+                    <translations>
+                        <translation transitive="true">tancar (a dins)</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>shut off
 
                     <translations>
 
-                        <translation>tancar<example>If the frying pan catches fire while we're cooking, we should immediately &lt;b&gt;shut off&lt;/b&gt; the gas.</example></translation>
+                        <translation transitive="true">tancar<example>If the frying pan catches fire while we're cooking, we should immediately &lt;b&gt;shut off&lt;/b&gt; the gas.</example></translation>
 
                     </translations>
 
                 </phrasalverbs>
-
+                <phrasalverbs>shut out
+                    <translations>
+                        <translation transitive="true">tancar fora, negar l'entrada (a algú)</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>shut up
-
                     <translations>
-
-                        <translation>callar</translation>
-
+                        <translation intransitive="true">callar</translation>
+                        <translation transitive="transitive">fer callar (algú)</translation>
                     </translations>
-
                 </phrasalverbs>
-
-                <phrasalverbs>shut (somebody) up
-
-                    <translations>
-
-                        <translation>fer callar (algú)</translation>
-
-                    </translations>
-
-                </phrasalverbs>
-
-	<phrasalverbs>shut away<translations><translation transitive="true">1 desar (una cosa), sobretot perquè ningú no hi tingui accés 2 tancar, sobretot a la presó</translation></translations></phrasalverbs><phrasalverbs>shut in<translations><translation transitive="true">tancar (a dins)</translation></translations></phrasalverbs><phrasalverbs>shut out<translations><translation transitive="true">tancar fora, negar l'entrada (a algú)</translation></translations></phrasalverbs></Entry><Entry frequency="12400000">shutter<nouns>
+	</Entry><Entry frequency="12400000">shutter<nouns>
 
 			<translations>
 
@@ -8446,7 +8445,7 @@
 
                     <translations>
 
-                        <translation>evitar amb recel</translation>
+                        <translation transitive="true">evitar amb recel</translation>
 
                     </translations>
 
@@ -8486,7 +8485,7 @@
 
 			<translations><date>0308</date>
 
-                            <translation catagory="medical">malalt<engexamp>I feel sick</engexamp><catexamp>Tinc nàusees / estic marejat</catexamp><engexamp>To be sick</engexamp><catexamp>Estar malalt (Am.) / vomitar (Br.)</catexamp><engexamp>To be sick of (something)</engexamp><catexamp>Estar fart d'(alguna cosa)</catexamp><engexamp>To get sick (Am.)</engexamp><catexamp>Emmalaltir(-se)</catexamp><synonyms>ill</synonyms></translation>
+                            <translation catagory="medical">malalt<synonyms>ill</synonyms></translation>
 
 				<translation>es diu d'una persona a qui li agrada la crueltat i veure sofrir a la gent</translation>
 
@@ -8498,12 +8497,32 @@
 
                 <translations>
 
-                <translation local="gb" register="colloquial">vòmit<otherlocal>vomit</otherlocal></translation>
+                <translation local="gb" register="colloquial" gender="m">vòmit<otherlocal>vomit</otherlocal></translation>
 
                 </translations>
 
                 </nouns>
-
+                <expressions>be sick
+                    <translations>
+                        <translation>vomitar</translation>
+                        <translation local="us">estar malalt</translation>
+                    </translations>
+                </expressions>
+                <expressions>be sick of
+                    <translations>
+                        <translation>estar fart de</translation>
+                    </translations>
+                </expressions>
+                <expressions>feel sick
+                    <translations>
+                        <translation>tenir nàusees / estar marejat</translation>
+                    </translations>
+                </expressions>
+                <expressions>get sick
+                    <translations>
+                        <translation local="us">emmalaltir(-se)</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="15300">sickie<nouns>
 
 			<translations>
@@ -8571,6 +8590,11 @@
                         <translation intransitive="true">declarar-se en favor de</translation>
                     </translations>
                 </phrasalverbs>
+                <expressions>side effects
+                    <translations>                        
+                        <translation catagory="medical" gender="mpl">efectes adversos / efectes secundaris</translation>                        
+                    </translations>
+                </expressions>
             </Entry>
             <Entry frequency="3470000">sidebar<nouns>
 
@@ -8589,23 +8613,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="4930000">side effects<nouns>
-
-			<translations>
-
-				<translation catagory="medical">
-
-					<translation gender="mpl">efectes adversos</translation>
-
-					<translation gender="mpl">efectes secundaris</translation>
-
-				</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="2020000">sideline<nouns>
+        <Entry frequency="2020000">sideline<nouns>
 
 			<translations>
 
@@ -8721,7 +8729,7 @@
 
 			<translations>
 
-				<translation>garbellar / tamisar</translation>
+				<translation transitive="true">garbellar / tamisar</translation>
 
 			</translations>
 
@@ -8731,7 +8739,7 @@
 
 			<translations>
 
-				<translation>sospirar</translation>
+				<translation intransitive="true">sospirar</translation>
 
 			</translations>
 
@@ -8751,15 +8759,8 @@
 
 			<translations>
 
-				<translation gender="f">vista<engexamp>To lose sight of something</engexamp>
-
-					<catexamp>Perdre de vista alguna cosa</catexamp>
-
-					<engexamp>To lose sight of the fact that...</engexamp>
-
-					<catexamp>Perdre de vista que...</catexamp>
-
-				</translation>
+				<translation gender="f">vista</translation>
+                                <translation sourceplural="sights" gender="mpl">llocs d'interès (turístic)</translation>
 
 			</translations>
 
@@ -8769,23 +8770,23 @@
 
                 <translations>
 
-                <translation>distingir / albirar</translation>
+                <translation transitive="true">distingir / albirar</translation>
 
                 </translations>
 
                 </verbs>
-
-	</Entry><Entry frequency="2000000">sights<nouns>
-
-			<translations>
-
-				<translation gender="mpl">llocs d'interès (turístic)</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="1790000">sightseeing<nouns>
+                <expressions>lose sight of (something)
+                    <translations>
+                        <translation>perdre de vista (alguna cosa)</translation>
+                    </translations>
+                </expressions>
+                <expressions>lose sight of the fact that...
+                <translations>
+                    <translation>perdre de vista que...</translation>
+                </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="1790000">sightseeing<nouns>
 
 			<translations>
 
@@ -8799,9 +8800,9 @@
 
                             <translations><date>1007</date>
 
-				<translation>firmar / signar</translation>
+				<translation transitive="true">firmar / signar</translation>
 
-				<translation catagory="sports-event-football">fitxar</translation>
+				<translation transitive="true" disambiguate="sports-event-football">fitxar<engexamp>To sign for</engexamp><catexamp>Fitxar per</catexamp></translation>
 
 			</translations>
 
@@ -8952,7 +8953,7 @@
 
 			<translations>
 
-				<translation gender="m">llenguatge de signes</translation>
+				<translation catagory="linguistics" gender="f">llengua de signes</translation>
 
 			</translations>
 

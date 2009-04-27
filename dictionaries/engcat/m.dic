@@ -1074,18 +1074,23 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="130000">manic depression<nouns>
-			<translations>
-				<translation gender="f">psicosi maníaco-depressiva</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="135000">manic depressive<nouns>
-			<translations>
-				<translation gender="mf">maníac(o)-depressiu</translation>
-			</translations>
-		</nouns>
-	</Entry>
+            <Entry frequency="10100000">manic<adjectives>
+                    <translations><date>0409</date>
+                        <translation register="colloquial">frenètic<synonyms>hectic</synonyms></translation>
+                        <translation>(psicologia) maníac</translation>
+                    </translations>
+                </adjectives>
+                <expressions>manic depression
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">psicosi maníaco-depressiva</translation>
+                    </translations>
+                </expressions>
+                <expressions>manic depressive
+                    <translations>
+                        <translation catagory="medical" gender="mf">maníac(o)-depressiu</translation>
+                    </translations>
+                </expressions>
+	</Entry>  
 <Entry frequency="534000">manicure<nouns>
 			<translations>
 				<translation gender="f">manicura</translation>

@@ -475,6 +475,11 @@
                         <translation intransitive="true">datar de</translation>
                     </translations>
                 </phrasalverbs>
+                <expressions>date of birth
+                    <translations>
+                        <translation gender="f">data de naixement<synonyms>birth date</synonyms></translation>
+                    </translations>
+                </expressions>
                 <expressions>blind date
                     <translations>
                         <translation gender="f">cita a cegues</translation>
@@ -486,9 +491,9 @@
                 </translations>
                 </expressions>
             </Entry>
-<Entry frequency="8090000">date of birth<nouns>
-			<translations>
-				<translation gender="f">data de naixement<synonyms>birth date</synonyms></translation>
+<Entry frequency="4220000">datebook<nouns>
+                            <translations><date>0409</date>
+				<translation local="us" gender="f">agenda<otherlocal>diary</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -500,7 +505,7 @@
 	</Entry>
 <Entry frequency="272000">daughter-in-law<nouns>
 			<translations>
-                                    <translation gender="f">nora / jove<plural>daughters-in-law</plural></translation>
+                                    <translation catagory="family" gender="f">nora / jove<plural>daughters-in-law</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3438,19 +3443,29 @@
 	</Entry>
 <Entry frequency="1570000">diaphragm<nouns>
 			<translations>
-				<translation gender="m">diafragma</translation>
+				<translation catagory="body" gender="m">diafragma</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="5150000">diarrhea<nouns>
 			<translations>
-				<translation local="us" gender="f">diarrea<otherlocal>diarrhoea</otherlocal></translation>
+				<translation local="us" catagory="medical" gender="f">diarrea<otherlocal>diarrhoea</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="1910000">diarrhoea<nouns>
 			<translations>
-				<translation local="gb" gender="f">diarrea<otherlocal>diarrhea</otherlocal></translation>
+				<translation local="gb" catagory="medical" gender="f">diarrea<otherlocal>diarrhea</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="152000000">diary<nouns>
+                            <translations><date>0409</date>
+                                <grouptranslation local="gb">
+                                    <translation gender="f">agenda</translation>
+                                    <translation gender="m">diari / dietari</translation>
+                                </grouptranslation>
+                                <translation local="us" gender="m">diari / dietari<catnote>En anglès britànic, 'diary' vol dir 'llibre on hom anota els esdeveniments de cada dia' i 'llibre on hom anota els pensaments propis'.  En anglès americà només vol dir 'llibre on hom anota els pensaments propis'.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5829,6 +5844,22 @@
                 </translations>
                 </acronyms>
 	</Entry>
+              <Entry frequency="1500000">doldrums<nouns>
+
+                            <translations><date>0409</date>
+
+				<translation gender="fpl">calmes marines a l'equador</translation>
+
+			</translations>
+
+		</nouns>
+                <expressions>be in the doldrums
+                    <translations>
+                        <translation>(una persona) estar abatut / estar aixafat / estar fet pols / anar de capa caiguda / anar de baixa</translation>
+                        <translation>(l'economia, el mercat..) estar en calma / estar inactiu / anar de capa caiguda / anar de baixa</translation>
+                    </translations>
+                </expressions>
+	</Entry>  
 <Entry frequency="40000">dole<nouns>
 			<translations>
 				<translation gender="m" local="gb" register="colloquial">prestació d&apos;atur<engexamp>To be on the dole</engexamp>
