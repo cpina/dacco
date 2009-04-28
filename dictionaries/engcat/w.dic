@@ -2376,26 +2376,42 @@
                 <translation>arronsar-se (davant de / a l'hora de) / arronsar-se el melic (a algú)</translation>
                 </translations>
                 </phrasalverbs>
-	</Entry><Entry frequency="785000000">win<verbs>
-			<past>won</past>
-			<participle>won</participle>
-			<gerund>winning</gerund>
-                            <translations><date>1007</date>
-				<translation>guanyar / vèncer</translation>
-			</translations>
-		</verbs>
-                  <phrasalverbs>win over
+            </Entry><Entry frequency="785000000">win<verbs>
+                    <past>won</past>
+                    <participle>won</participle>
+                    <gerund>winning</gerund>
+                    <translations><date>1007</date>
+                        <translation>guanyar / vèncer</translation>
+                    </translations>
+                </verbs>
+                <phrasalverbs>win out
+                    <translations>
+                        <translation transitive="true">prevaler / tenir èxit</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>win over
                     <translations>
                         <translation>persuadir (algú) / guanyar el suport (d'algú)</translation>
                     </translations>
                 </phrasalverbs>
-		<nouns>
-			<translations>
-				<translation gender="f">victòria<synonyms>victory</synonyms>
-				</translation>
-			</translations>
-		</nouns>
-	<phrasalverbs>win out<translations><translation transitive="true">prevaler, tenir èxit</translation></translations></phrasalverbs><phrasalverbs>win round<translations><translation transitive="true">convèncer</translation></translations></phrasalverbs><phrasalverbs>win through<translations><translation intransitive="true">sortir-se'n</translation></translations></phrasalverbs></Entry><Entry frequency="377000000">wind<nouns>
+                <phrasalverbs>win round
+                    <translations>
+                        <translation transitive="true">convèncer</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>win through
+                    <translations>
+                        <translation intransitive="true">sortir-se'n</translation>
+                    </translations>
+                </phrasalverbs>
+                <nouns>
+                    <translations>
+                        <translation gender="f">victòria<synonyms>victory</synonyms>
+                        </translation>
+                    </translations>
+                </nouns>
+            </Entry>
+        <Entry frequency="377000000">wind<nouns>
                             <translations><date>1007</date>
 				<translation catagory="weather" gender="m">vent</translation>
 			</translations>
@@ -2498,25 +2514,27 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="27100">windscreen wiper<nouns>
-			<translations>
-				<translation catagory="transport" local="gb" gender="m">eixugaparabrisa<otherlocal>windshield wiper</otherlocal>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="793000">windshield<nouns>
+                <expressions>windscreen wiper
+                    <translations>
+                        <translation catagory="transport" local="gb" gender="m">eixugaparabrisa<otherlocal>windshield wiper</otherlocal>
+                        </translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="793000">windshield<nouns>
 			<translations>
 				<translation catagory="transport" local="us" gender="f">parabrisa<otherlocal>windscreen</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="132000">windshield wiper<nouns>
-			<translations>
-				<translation catagory="transport" local="us" gender="m">eixugaparabrisa<otherlocal>windscreen wipers</otherlocal>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="358000">windsurfer<nouns>
+                <expressions>windshield wiper
+                    <translations>
+                        <translation catagory="transport" local="us" gender="m">eixugaparabrisa<otherlocal>windscreen wipers</otherlocal>
+                        </translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="358000">windsurfer<nouns>
 			<translations>
                         <translation catagory="sports-event" termcat="true" gender="mf">surfista</translation>
 				<translation catagory="sports-event-windsurfing" gender="mf">windsurfista</translation>
@@ -2534,7 +2552,19 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="2320000">windy<adjectives>
+	</Entry>
+          <Entry frequency="4020000">windward<nouns>
+                            <translations><date>0409</date>
+				<translation gender="m">sobrevent</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>a sobrevent</translation>
+                        </translations>
+                </adjectives>
+	</Entry>
+        <Entry frequency="2320000">windy<adjectives>
 			<translations>
 				<translation catagory="weather">ventós</translation>
 			</translations>
