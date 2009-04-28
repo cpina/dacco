@@ -3481,6 +3481,12 @@
                             </translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="517000">scuttlebutt<nouns>
+			<translations><date>0409</date>
+				<translation local="us" register="slang" gender="m">xafardeig</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="115000">SDMA<engacro>Space Division Multiple Access</engacro>
 
         <acronyms>
@@ -15511,11 +15517,49 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="1160000">spectrophotometer<nouns>
+	</Entry>
+         <Entry frequency="18000000">spectrometer<nouns>
+
+                            <translations><date>0409</date>
+
+				<translation catagory="physics" gender="m">espectròmetre</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="1050000">spectrometric<adjectives>
+                
+                <translations><date>0409</date>
+                    
+                    <translation catagory="physics">espectromètric</translation>
+                    
+                </translations>
+                
+            </adjectives>
+            
+        </Entry>
+         <Entry frequency="6540000">spectrometry<nouns>
+
+                            <translations><date>0409</date>
+
+				<translation catagory="physics" gender="f">espectrometria</translation>
+
+			</translations>
+
+		</nouns>
+                <expressions>mass spectrometry
+                    <translations>
+                        <translation gender="f">espectrometria de masses</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="1160000">spectrophotometer<nouns>
 
 			<translations>
 
-				<translation gender="m">espectrofotòmetre</translation>
+				<translation catagory="physics" gender="m">espectrofotòmetre</translation>
 
 			</translations>
 
@@ -15525,7 +15569,7 @@
 
 			<translations>
 
-				<translation>espectrofotomètric</translation>
+				<translation catagory="physics">espectrofotomètric</translation>
 
 			</translations>
 
@@ -15535,7 +15579,7 @@
 
 			<translations>
 
-				<translation gender="f">espectrofotometria</translation>
+				<translation catagory="physics" gender="f">espectrofotometria</translation>
 
 			</translations>
 
@@ -15545,7 +15589,7 @@
 
 			<translations>
 
-				<translation gender="m">espectre</translation>
+				<translation catagory="physics" gender="m">espectre</translation>
 
 			</translations>
 

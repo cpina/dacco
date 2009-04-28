@@ -4346,9 +4346,9 @@
 		</adverbs>
 
 	</Entry>
-        <Entry frequency="41000000">regulate<verbs>
+        <Entry frequency="46600000">regulate<verbs>
 			<translations><date>0109</date>
-				<translation>reglar</translation>
+				<translation transitive="true">reglar / regular</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6383,6 +6383,19 @@
 		</nouns>
 
 	</Entry>
+        <Entry frequency="116000000">reset<verbs double="true">
+                <past>reset</past>
+                <participle>reset</participle>
+                <translations><date>0409</date>                    
+                    <translation disambiguate="computers" termcat="true">reinicialitzar</translation>                    
+                </translations>                
+            </verbs>
+            <nouns>
+                <translations>
+                    <translation disambiguate="computers" gender="f">reinicialització</translation>
+                </translations>
+            </nouns>
+        </Entry>
 <Entry frequency="2150000">reshuffle<nouns>
 
 			<translations>
@@ -6822,11 +6835,16 @@
                     </translations>
                 </phrasalverbs>
             </Entry>
-        <Entry frequency="25200000">restart<verbs>
-                            <translations><date>1008</date>
+        <Entry frequency="28900000">restart<verbs>
+                            <translations><date>0409</date>
 				<translation catagory="computers" termcat="true">reiniciar</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                    <translations>
+                        <translation catagory="computers" gender="f">reiniciació</translation>
+                        </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="35300000">restaurant<nouns>
 
@@ -7462,17 +7480,24 @@
 		</verbs>
 
 	</Entry>
-<Entry frequency="30400000">reveal<verbs>
+<Entry frequency="122000000">reveal<verbs>
+                        <translations><date>0409</date>
+                            <translation transitive="true">revelar</translation>
+				<translation transitive="true">desvelar / destapar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+      <Entry frequency="32100000">revealing<adjectives>
 
-			<translations>
+                            <translations><date>0409</date>
 
-				<translation>desvelar / destapar</translation>
+				<translation>revelador</translation>
 
 			</translations>
 
-		</verbs>
+		</adjectives>
 
-	</Entry>
+	</Entry>  
 <Entry frequency="632000">reveille<nouns>
 
 			<translations><date>1205</date>
