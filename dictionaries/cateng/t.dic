@@ -1543,9 +1543,9 @@
         </translations>
     </expressions>
   </Entry>
-  <Entry frequency="320000" >tempesta<nouns>
-      <translations><date>0708</date>
-        <translation catagory="weather" gender="f" >storm</translation>
+  <Entry frequency="273000" >tempesta<nouns>
+      <translations><date>0609</date>
+        <translation catagory="weather" gender="f" >storm / thunderstorm</translation>
       </translations>
     </nouns>
 <expressions>tempesta de neu
@@ -5752,6 +5752,12 @@
       </translations>
     </nouns>
   </Entry>
+  <Entry frequency="76100">tronada<nouns>
+          <translations><date>0609</date>
+              <translation catagory="weather" gender="f">thunderstorm</translation>
+          </translations>
+      </nouns>
+  </Entry>
   <Entry frequency="700" >tronar<verbs conj="irregular64" >
       <translations>
         <translation catagory="weather" >to thunder</translation>
@@ -5765,9 +5771,16 @@
       </translations>
     </nouns>
   </Entry>
-  <Entry frequency="1920" >trontollar<verbs conj="regular" >
-      <translations>
+   <Entry frequency="2140">trontoll<nouns>
+			<translations><date>0609</date>
+				<translation gender="m">lurch</translation>
+			</translations>
+		</nouns>
+	</Entry>
+  <Entry frequency="92100" >trontollar<verbs conj="regular" >
+          <translations><date>0609</date>
         <translation>to shake</translation>
+        <translation>to lurch</translation>
       </translations>
     </verbs>
   </Entry>

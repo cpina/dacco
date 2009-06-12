@@ -2703,18 +2703,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="10100" hasSound="true">blat<nouns>
-			<translations>
-				<translation catagory="food" gender="m">wheat</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="373000">blat de moro<nouns>
-			<translations><date>1206</date>
-				<translation gender="m">maize (Br.) / sweetcorn (Br.) / corn (Am.)</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <Entry frequency="7810000" hasSound="true">blat<nouns>
+                <translations><date>0609</date>
+                    <translation catagory="food" gender="m">wheat</translation>
+                </translations>
+            </nouns>
+            <expressions>blat de moro
+                <translations>
+                    <translation catagory="food" gender="m">sweetcorn (Br.) / corn (Am.) / maize (Br.)<synonyms>panís / dacsa (Val.)</synonyms></translation>
+                </translations>
+            </expressions>
+        </Entry>
 	<Entry frequency="124000" hasSound="true">blau<adjectives>
 			<translations><date>0805</date>
 				<translation catagory="colour">blue<fems>blava</fems>
@@ -3744,6 +3743,12 @@
                         <translation>Breton<plural>bretons</plural><fems>bretona</fems></translation>
                     </translations>
                 </adjectives>
+	</Entry>
+        <Entry frequency="24600">brètol<nouns>
+                            <translations><date>0609</date>
+                                <translation gender="m / f">villain<fems>brètola</fems><catnote>També hi ha les paraules 'rogue', 'scoundrel', 'rascal' i 'cad' però són una mica passades de moda.</catnote></translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="944">bretxa<nouns>
 			<translations><date>0505</date>
