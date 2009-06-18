@@ -1067,9 +1067,16 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="19800">barrina<nouns>           
+                <translations><date>0609</date>                
+                <translation gender="f">auger<synonyms>trebinella</synonyms></translation>                
+            </translations>            
+        </nouns>        
+    </Entry>
            <Entry frequency="25800">barrinar<verbs conj="regular">
-			<translations><date>1208</date>
+			<translations><date>0609</date>
                                 <translation>(vaixell) to scuttle</translation>
+                                <translation>to auger</translation>
                             </translations>
 		</verbs>
 	</Entry>
@@ -1125,24 +1132,28 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="123400" hasSound="true">base<nouns>
-			<translations>
+         <Entry frequency="22800">bàscula<nouns>
+                            <translations><date>0609</date>
+				<translation gender="f">bascule</translation>
+			</translations>
+		</nouns>            
+	</Entry>
+	<Entry frequency="5620000" hasSound="true">base<nouns>
+                            <translations><date>0609</date>
 				<translation gender="f">basis</translation>
 				<translation gender="f">base</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="55870" hasSound="true">base de dades<nouns>
-			<translations>
-				<translation catagory="computers" gender="f">database</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="772" hasSound="true">base de dades relacional<nouns>
-			<translations>
-				<translation catagory="computers" gender="f">relational database</translation>
-			</translations>
-		</nouns>
+                <expressions>base de dades
+                    <translations>
+                        <translation catagory="computers" gender="f">database</translation>
+                    </translations>
+                </expressions>
+                <expressions>base de dades relacional
+                    <translations>
+                        <translation catagory="computers" gender="f">relational database</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="124000" hasSound="true">bàsic<adjectives>
 			<translations>
@@ -4386,14 +4397,20 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="2750" hasSound="true">burlar<verbs conj="regular">
-			<translations>
+	<Entry frequency="83700" hasSound="true">burlar-se<verbs conj="regular">
+                            <translations><date>0609</date>
 				<translation>to make fun of<catexamp>Burlar-se d'algú</catexamp>
 					<engexamp>To make fun of someone</engexamp>
 				</translation>
 			</translations>
 		</verbs>
 	</Entry>
+         <Entry frequency="12400">burleta<nouns>            
+            <translations><date>0609</date>                
+                <translation gender="m / f">joker</translation>                
+            </translations>            
+        </nouns>        
+    </Entry>
 	<Entry frequency="2980" hasSound="true">burocràcia<nouns>
 			<translations>
 				<translation gender="f">bureaucracy</translation>
