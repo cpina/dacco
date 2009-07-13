@@ -3480,6 +3480,12 @@
       </translations>
     </nouns>
   </Entry>
+  <Entry frequency="1190000">epistolary<adjectives>
+                            <translations><date>0709</date>
+				<translation register="formal">epistolar</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="23600">epithalamus<nouns>
 			<translations><date>1007</date>
 				<translation catagory="biology" gender="m">epitàlem</translation>
@@ -4680,7 +4686,7 @@
 	</Entry>
 <Entry frequency="9640000">examine<verbs>
 			<translations>
-				<translation>examinar</translation>
+				<translation transitive="true">examinar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4698,9 +4704,14 @@
 	</Entry>
 <Entry frequency="5280000">exasperate<verbs>
 			<translations>
-				<translation>exasperar / exacerbar<engexamp>To become exasperated / to get exasperated</engexamp><catexamp>Exasperar-se / exacerbar-se</catexamp></translation>
+				<translation transitive="true">exasperar / exacerbar</translation>
 			</translations>
 		</verbs>
+                <expressions>to become (or get) exasperated
+                    <translations>
+                        <translation>exasperar-se / exacerbar-se</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1630000">exasperating<adjectives>
 			<translations>

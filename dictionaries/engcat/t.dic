@@ -2149,8 +2149,8 @@
 				<translation>terciari<engexamp>Tertiary sector</engexamp><catexamp>Sector terciari</catexamp></translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="734000000">test<nouns>
-                            <translations><date>1008</date>
+	</Entry><Entry frequency="1710000000">test<nouns>
+                            <translations><date>0709</date>
 				<grouptranslation>
 					<translation gender="f">prova</translation>
 					<translation gender="m">assaig</translation>
@@ -2160,6 +2160,7 @@
 		<verbs>
 			<translations>
 				<translation>provar</translation>
+                                <translation>verificar</translation>
 			</translations>
 		</verbs>
                 <expressions>test card
@@ -3097,7 +3098,19 @@
 				<translation catagory="body" gender="f">gola</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="2140000">throne<nouns>
+	</Entry>
+            <Entry frequency="6460000">thrombosis<nouns>
+			<translations><date>0709</date>
+				<translation catagory="medical" gender="f">trombosi</translation>
+			</translations>
+		</nouns>
+                <expressions>>deep vein thrombosis
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">trombosi venosa profunda</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="2140000">throne<nouns>
 			<translations>
 				<translation catagory="monarchy" gender="m">tron</translation>
 			</translations>
@@ -3607,10 +3620,26 @@
 		</nouns>
 	</Entry>
         <Entry frequency="44500000">tilt<verbs>
-			<translations>
-				<translation>escorar</translation>
+                            <translations><date>0709</date>
+				<translation transitive="true">inclinar</translation>
+                                <translation intransitive="true">inclinar-se</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                    <translations>
+                        <translation gender="ffullform">inclinació</translation>
+                        </translations>
+                </nouns>
+                <expressions>tilt at windmills
+                    <translations>
+                        <translation>lluitar contra molins de vent</translation>
+                    </translations>
+                </expressions>
+                <expressions>full tilt
+                    <translations>
+                        <translation>a tota velocitat / cames ajudeu-me<synonyms>full pelt</synonyms><example>He ran &lt;full tilt&lt;/b&gt; at the door and smashed it open.</example></translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="6850000">timber<nouns>
 			<translations><date>0507</date>
 				<translation gender="f">fusta (per a la construcció)</translation>
@@ -3730,7 +3759,20 @@
                                 <translation catagory="chemistry, material" gender="m">estany<engnote>'Estany' means 'tin' as in the material ('This is made of tin').</engnote></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="2060000">tinfoil<nouns>
+	</Entry>
+ <Entry frequency="1980000">tinder<nouns>
+                            <translations><date>0709</date>
+				<translation gender="f">esca</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="825000">tinderbox<nouns>
+                            <translations><date>0709</date>
+				<translation gender="m">polvorí</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2060000">tinfoil<nouns>
 			<translations>
 				<translation gender="m">paper d'alumini<synonyms>aluminum foil (Am.)</synonyms></translation>
 			</translations>

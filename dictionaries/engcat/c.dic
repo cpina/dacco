@@ -3923,7 +3923,7 @@
 <Entry frequency="5580000">check-up<nouns>
         <translations>
             <translation gender="f">revisió<example>I have a &lt;b&gt;check-up&lt;/b&gt; at the doctor's next week.</example><example>Can you remember when I have my next &lt;b&gt;check-up&lt;/b&gt; at the dentist's?</example></translation>
-        </translations>
+    </translations>
     </nouns>
     </Entry>
 <Entry frequency="675000">cheddar<nouns>
@@ -4464,11 +4464,16 @@
         </translations>
     </adjectives>
     </Entry>
-<Entry frequency="1170000">chimney<nouns>
-        <translations>
+<Entry frequency="16400000">chimney<nouns>
+        <translations><date>0709</date>
             <translation gender="f">xemeneia</translation>
         </translations>
     </nouns>
+        <expressions>chimney sweep
+            <translations>
+                <translation catagory="work-job" gender="mf">escura-xemeneies<synonyms>sweep</synonyms></translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="310000">chimp<nouns>
         <translations>
@@ -5298,6 +5303,12 @@
         </translations>
     </nouns>
     </Entry>
+     <Entry frequency="7430000">citizenry<nouns>
+                            <translations><date>0709</date>
+				<translation register="formal" gender="mpl">els ciutadans<example>An informed &lt;b&gt;citizenry&lt;/b&gt; is the only true repository of the public will.</example></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="2990000">citizenship<nouns>
         <translations>
             <translation gender="f">ciutadania</translation>
@@ -9317,7 +9328,7 @@
     </Entry>
 <Entry frequency="1150000">confiscate<verbs>
         <translations>
-            <translation>confiscar</translation>
+            <translation transitive="true">confiscar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -12341,6 +12352,13 @@
             </translations>
         </nouns>
     </Entry>
+    <Entry frequency="17500000">CPR<engacro>Cardiopulmonary Resuscitation</engacro>
+                <nouns>
+			<translations>
+				<translation catagory="medical" gender="f">reanimació cardiopulmonar / reanimació cardiorespiratòria / respiració assistida<engnote>'Reanimació cardiopulmonar' and 'reanimació cardiorespiratòria' are the terms recommended by Termcat but 'respiració assistida' is the more commonly used term.</engnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="2880000">crab<nouns>
         <translations>
             <translation catagory="animal-animal" gender="m">cranc</translation>
@@ -14312,6 +14330,22 @@
         </translations>
     </nouns>
     </Entry>
+      <Entry frequency="2500000">cut-out<nouns>
+			<translations><date>0709</date>
+				<translation gender="m">retallable</translation>
+			</translations>
+		</nouns>
+                <expressions>cut-out doll
+                    <translations>
+                        <translation gender="m">retallable</translation>
+                    </translations>
+                </expressions>
+                <expressions>cut-out figure
+                    <translations>
+                        <translation gender="m">retallable</translation>
+                    </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="251000">cut-price<adjectives>
         <translations>
             <translation>a preu reduït / barat</translation>
