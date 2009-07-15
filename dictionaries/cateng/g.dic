@@ -631,11 +631,41 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="38300">gas<nouns>
-			<translations>
-				<translation gender="m">gas</translation>
+	<Entry frequency="1200000">gas<nouns>
+                            <translations><date>0709</date>
+				<translation gender="m">gas<plural>gasos</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>gas inert
+                    <translations>
+                        <translation catagory="chemistry" gender="m">inert gas</translation>
+                    </translations>
+                </expressions>
+                <expressions>gas liquat del petroli
+                    <translations>
+                        <translation termcat="energy" gender="m">liquified petroleum gas (LPG)</translation>
+                    </translations>
+                </expressions>
+                <expressions>gas natural
+                    <translations>
+                        <translation termcat="energy" gender="m">natural gas</translation>
+                    </translations>
+                </expressions>
+                <expressions>gas natural comprimit
+                    <translations>
+                        <translation termcat="energy" gender="m">compressed natural gas (CNG)</translation>
+                    </translations>
+                </expressions>
+                <expressions>gas natural liquat
+                    <translations>
+                        <translation termcat="energy" gender="m">liquified natural gas (LNG)</translation>
+                    </translations>
+                </expressions>
+                <expressions>gas noble
+                    <translations>
+                        <translation catagory="chemistry" gender="m">noble gas</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="1010">gasa<nouns>
 			<translations>
@@ -656,13 +686,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="467">gas inert<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">inert gas<plural>gasos inerts</plural></translation>
-			</translations>
-		</nouns>
-	</Entry>
-                     <Entry frequency="410">gasiu<adjectives>
+        <Entry frequency="410">gasiu<adjectives>
 			<translations><date>0106</date>
 				<translation>mean / stingy / miserly / cheap (Am.)<fems>gasiva</fems></translation>
 			</translations>
@@ -676,36 +700,6 @@
                      <Entry frequency="315">gasiveria<nouns>
 			<translations><date>0106</date>
 				<translation gender="f">meanness<synonyms>mesquinesa</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="295">gas liquat del petroli<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">liquified petroleum gas (LPG)</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="135000">gas natural<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">natural gas</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="162">gas natural comprimit<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">compressed natural gas (CNG)</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="11200">gas natural liquat<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">liquified natural gas (LNG)</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="451">gas noble<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">noble gas<plural>gasos nobles</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -738,12 +732,11 @@
 				<translation gender="f">petrol (Br.) / gas (Am.)</translation>
 			</translations>
 		</nouns>
-	</Entry>
-                <Entry frequency="408">gasolina sense plom<nouns>
-			<translations><date>0805</date>
-				<translation gender="f">unleaded (petrol) (Br.) / unleaded gas (Am.)</translation>
-			</translations>
-		</nouns>
+                <expressions>gasolina sense plom
+                    <translations>
+                        <translation gender="f">unleaded (petrol) (Br.) / unleaded gas (Am.)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1930">gasolinera<nouns>
 			<translations>
@@ -910,13 +903,24 @@
 	</Entry>
 	<Entry frequency="10600">gel<nouns>
 			<translations>
-				<translation catagory="weather" gender="m">ice<catexamp>Trencar el gel</catexamp>
-					<engexamp>To break the ice</engexamp>
-					<catexamp>Patinatge sobre gel</catexamp>
-					<engexamp>Ice skating</engexamp>
-				</translation>
+				<translation catagory="weather" gender="m">ice</translation>
 			</translations>
 		</nouns>
+                <expressions>gel de bany
+                    <translations>
+                        <translation catagory="household-room-bathroom">bubble bath</translation>
+                    </translations>
+                </expressions>
+                <expressions>patinatge sobre gel
+                    <translations>
+                        <translation catagory="sports-event" gender="m">ice skating</translation>
+                    </translations>
+                </expressions>
+                <expressions>trencar el gel
+                    <translations>
+                        <translation>to break the ice</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="600">gelar<verbs conj="regular">
 			<translations>
@@ -947,13 +951,7 @@
 				<translation catagory="food" gender="f">gelatine</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        	<Entry frequency="97">gel de bany<nouns>
-			<translations><date>0805</date>
-				<translation catagory="household-room-bathroom">bubble bath</translation>
-			</translations>
-		</nouns>
-	</Entry>
+	</Entry>        	
 <Entry frequency="0">geldí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Geldo</translation></translations></nouns><adjectives><translations><translation>relating to Geldo or its people<plural>geldins</plural><fems>geldina</fems></translation></translations></adjectives></Entry>
         <Entry frequency="567">gèlid<adjectives>
 			<translations><date>0206</date>
@@ -1035,24 +1033,22 @@
 				<translation gender="f">generation</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="493">generació distribuïda<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">distributed generation</translation>
-			</translations>
-		</nouns>
+                <expressions>generació distribuïda
+                    <translations>
+                        <translation termcat="energy" gender="f">distributed generation</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="9210">generador<nouns>
 			<translations>
 				<translation gender="m">generator</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="702">generador de vapor<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">steam generator</translation>
-			</translations>
-		</nouns>
+                <expressions>generador de vapor
+                    <translations>
+                        <translation termcat="energy" gender="m">steam generator</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="415000">general<adjectives>
 			<translations>
@@ -1456,25 +1452,24 @@
                                 <translation catagory="family" sourceplural="germans" gender="mpl">brothers / brother and sister / siblings</translation>
 			</translations>
 		</nouns>
+                <expressions>germà bessó
+                    <translations>
+                        <translation catagory="family" gender="m">twin (brother)<plural>germans bessons</plural></translation>
+                    </translations>
+                </expressions>
+                <expressions>germana bessona
+                    <translations>
+                        <translation catagory="family" gender="f">twin (sister)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="5730">germà bessó<nouns>
-			<translations><date>0508</date>
-                            <translation catagory="family" gender="m">twin (brother)<plural>germans bessons</plural></translation>
-			</translations>
-		</nouns>
-	</Entry>
+       
 <Entry frequency="218000">germana<nouns>
 			<translations><date>0807</date>
 				<translation catagory="family" gender="f">sister</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="2450">germana bessona<nouns>
-			<translations><date>0508</date>
-				<translation catagory="family" gender="f">twin (sister)</translation>
-			</translations>
-		</nouns>
-	</Entry>        
+	</Entry>    
         	<Entry frequency="388">germanastra<nouns>
 			<translations><date>0807</date>
 				<translation catagory="family" gender="f">half sister</translation>
@@ -1488,13 +1483,8 @@
 				<translation catagory="family" gender="m">stepbrother</translation>
                                 <translation catagory="family" feminine="germanastra" gender="f">half sister</translation>
                                 <translation catagory="family" feminine="germanastra" gender="f">stepsister</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        	<Entry frequency="616">germanastres<nouns>
-			<translations><date>0807</date>
-				<translation catagory="family" gender="mpl">half brothers / half sisters / half siblings</translation>
-                                <translation catagory="family" gender="mpl">stepbrothers / stepsisters / stepsiblings</translation>
+                                <translation catagory="family" sourceplural="germanastres" gender="mpl">half brothers / half sisters / half siblings</translation>
+                                <translation catagory="family" sourceplural="germanastres" gender="mpl">stepbrothers / stepsisters / stepsiblings</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1607,20 +1597,18 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>gestió del coneixement
+                    <translations>
+                        <translation gender="f">knowledge management</translation>
+                    </translations>
+                </expressions>
+                <expressions>gestió de recursos humans
+                    <translations>
+                        <translation catagory="work" gender="f">human resource(s) management</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="23700">gestió del coneixement<nouns>
-			<translations><date>1105</date>
-				<translation gender="f">knowledge management</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="14800">gestió de recursos humans<nouns>
-			<translations><date>1105</date>
-				<translation catagory="work" gender="f">human resource(s) management</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="47000">gestionar<verbs conj="regular">
+      	<Entry frequency="47000">gestionar<verbs conj="regular">
 			<translations>
 				<translation catagory="work">to manage</translation>
 			</translations>
@@ -1632,12 +1620,11 @@
 				<translation disambiguate="computers" gender="m">manager</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="224">gestor de base de dades<nouns>
-			<translations>
-				<translation catagory="computers" gender="m">database manager</translation>
-			</translations>
-		</nouns>
+                <expressions>gestor de base de dades
+                    <translations>
+                        <translation catagory="computers" gender="m">database manager</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1190">Ghana<nouns>
 			<translations>
@@ -1708,12 +1695,11 @@
 				<translation catagory="sports-event" gender="f">gymnastics</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="1090">gimnàstica rítmica<nouns>
-			<translations>
-				<translation catagory="sports-event-gymnastics" gender="f">rhythmic gymnastics</translation>
-			</translations>
-		</nouns>
+                <expressions>gimnàstica rítmica
+                    <translations>
+                        <translation catagory="sports-event-gymnastics" gender="f">rhythmic gymnastics</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="6320">Ginebra<nouns>
                 <translations>
@@ -1990,18 +1976,6 @@
                         <translation catagory="body" gender="m">red blood cell</translation>
                     </translations>
                 </expressions>
-	</Entry>
-         <Entry frequency="216">glòbul blanc<nouns>
-			<translations><date>1205</date>
-				<translation catagory="biology" gender="m">white blood cell</translation>
-			</translations>
-		</nouns>
-	</Entry>
-         <Entry frequency="332">glòbul vermell<nouns>
-			<translations><date>1205</date>
-				<translation catagory="biology" gender="m">red blood cell</translation>
-			</translations>
-		</nouns>
 	</Entry>
 	<Entry frequency="7210">globus<nouns>
 			<translations>
@@ -2332,14 +2306,13 @@
 				<translation catagory="animal-animal" gender="m">puppy<synonyms>cadell (de gos)</synonyms></translation>
 			</translations>
 		</nouns>
+                <expressions>gosset de les praderies
+                    <translations>
+                        <translation catagory="animal-animal" gender="m">prairie dog</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="112">gosset de les praderies<nouns>
-                            <translations><date>0508</date>
-				<translation catagory="animal-animal" gender="m">prairie dog</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="6790">got<nouns>
+       	<Entry frequency="6790">got<nouns>
 			<translations>
 				<translation catagory="household-room-kitchen" gender="m">glass</translation>
 			</translations>
@@ -2874,22 +2847,28 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="346">gravadora de CD<nouns>
-			<translations>
-				<translation catagory="computers-hardware" gender="f">CD burner</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="218">gravadora de DVD<nouns>
-			<translations><date>0405</date>
-				<translation catagory="computers-hardware" gender="f">DVD burner</translation>
-			</translations>
-		</nouns>
+        <Entry frequency="346">gravador<nouns>
+                <translations><date>0709</date>
+                    <translation gender="m / f">engraver</translation>
+                    <translation feminine="gravadora" gender="f">recorder / burner</translation>
+                </translations>
+            </nouns>
+            <expressions>gravadora de CD
+                <translations>
+                    <translation catagory="computers" gender="f">CD burner / CD recorder</translation>
+                </translations>
+            </expressions>
+            <expressions>gravadora de DVD
+                <translations>
+                    <translation gender="f">DVD recorder</translation>
+                    <translation disambiguate="computers" gender="f">DVD burner / DVD recorder</translation>
+                </translations>
+            </expressions>
 	</Entry>
 	<Entry frequency="108000">gravar<verbs conj="regular">
                             <translations><date>0708</date>
 				<translation>to record</translation>
-				<translation catagory="computers">to burn</translation>
+				<translation disambiguate="computers">to burn / to record</translation>
                                 <translation disambiguate="financial">to tax<catexamp>Gravar el consum</catexamp><engexamp>To tax consumption</engexamp></translation>
 			</translations>
 		</verbs>
@@ -3531,18 +3510,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="80500">guerra<nouns>
-			<translations>
+	<Entry frequency="1840000">guerra<nouns>
+                            <translations><date>0709</date>
 				<translation gender="f">war</translation>
                                 <translation gender="f">warfare</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="18400">guerra civil<nouns>
-			<translations>
-				<translation gender="f">civil war</translation>
-			</translations>
-		</nouns>
+                <expressions>guerra civil
+                    <translations>
+                        <translation gender="f">civil war</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1340">guerriller<nouns>
 			<translations>

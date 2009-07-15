@@ -937,12 +937,11 @@
 				<translation catagory="medical" gender="f">hypertension</translation>
 			</translations>
 		</nouns>
-	</Entry>
-          <Entry frequency="18000">hipertensió arterial<nouns>
-			<translations><date>0407</date>
-				<translation termcat="medical" gender="f">arterial hypertension</translation>
-			</translations>
-		</nouns>
+                <expressions>hipertensió arterial
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">arterial hypertension</translation>
+                    </translations>
+                </expressions>
 	</Entry>
           <Entry frequency="316">hipertèrmia<nouns>
 			<translations><date>0407</date>
@@ -1376,24 +1375,27 @@
                                 <translation gender="m">man / bloke (Br.) / guy (Am.)</translation>
 			</translations>
 		</nouns>
+                <expressions>home de negocis
+                    <translations>
+                        <translation catagory="work-job" gender="m">businessman</translation>
+                    </translations>
+                </expressions>
+                <expressions>home del temps
+                    <translations>
+                        <translation catagory="work-job" gender="m">weatherman</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="751">home del temps<nouns>
-			<translations>
-				<translation catagory="work-job" gender="m">weatherman</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="1470">home de negocis<nouns>
-			<translations><date>0805</date>
-				<translation catagory="work-job" gender="m">businessman</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="30300">homenatge<nouns>
-			<translations>
+	<Entry frequency="1410000">homenatge<nouns>
+                            <translations><date>0709</date>
 				<translation gender="m">homage</translation>
 			</translations>
 		</nouns>
+                <expressions>retre homenatge a
+                    <translations>
+                        <translation>to pay homage to</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="2450000">homenatjar<verbs conj="JtoG">
                             <translations><date>0209</date>
@@ -1566,17 +1568,31 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="11700">hoquei<nouns>
-			<translations>
-				<translation catagory="sports-event" gender="m">hockey</translation>
+	<Entry frequency="432000">hoquei<nouns>
+                            <translations><date>0709</date>
+				<translation catagory="sports-event" gender="m">hockey / field hockey</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="4870">hoquei patins<nouns>
-			<translations>
-				<translation catagory="sports-event" gender="m">roller hockey</translation>
-			</translations>
-		</nouns>
+                <expressions>hoquei patins
+                    <translations>
+                        <translation catagory="sports-event" gender="m">roller hockey</translation>
+                    </translations>
+                </expressions>
+                <expressions>hoquei sala
+                    <translations>
+                        <translation catagory="sports-event" gender="m">indoor hockey</translation>
+                    </translations>
+                </expressions>
+                 <expressions>hoquei sobre gel
+                    <translations>
+                        <translation catagory="sports-event" gender="m">ice hockey</translation>
+                    </translations>
+                </expressions>
+                <expressions>hoquei sobre herba
+                    <translations>
+                        <translation catagory="sports-event" gender="m">field hockey / hockey</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="231000">hora<nouns>
 			<translations>
@@ -1955,12 +1971,11 @@
 				<translation catagory="work-job" gender="m / f">humorist</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="154">humorista gràfic<nouns>
-			<translations><date>0805</date>
-				<translation catagory="work-job" gender="m / f">cartoonist</translation>
-			</translations>
-		</nouns>
+                <expressions>humorista gràfic
+                    <translations>
+                        <translation catagory="work-job" gender="m / f">cartoonist</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="18600">humus<nouns>
 			<translations><date>1107</date>

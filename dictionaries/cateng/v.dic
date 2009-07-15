@@ -160,12 +160,11 @@
 				<translation catagory="transport-mode" gender="m">boat</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="1080">vaixell de guerra<nouns>
-			<translations><date>0505</date>
-				<translation gender="m">warship</translation>
-			</translations>
-		</nouns>
+                <expressions>vaixell de guerra
+                    <translations>
+                        <translation catagory="transport" gender="m">warship</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="826">vaixella<nouns>
 			<translations><date>0605</date>
@@ -534,12 +533,24 @@
 					<engexamp>Three times</engexamp>
 					<catexamp>Una vegada</catexamp><engexamp>Once</engexamp>
 					<catexamp>Dues vegades</catexamp><engexamp>Twice</engexamp>
-					<catexamp>Una altra vegada</catexamp><engexamp>Again</engexamp>
-					<catexamp>A la vegada</catexamp><engexamp>At the same time</engexamp>
-					<catexamp>Tal vegada</catexamp><engexamp>Perhaps</engexamp>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>a la vegada
+                    <translations>
+                        <translation>at the same time / at once</translation>
+                    </translations>
+                </expressions>
+                <expressions>una altra vegada
+                    <translations>
+                        <translation>again</translation>
+                    </translations>
+                </expressions>
+                <expressions>tal vegada
+                    <translations>
+                        <translation>perhaps</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="14200">vegetació<nouns>
 			<translations>
@@ -704,6 +715,11 @@
 				<translation catagory="body" gender="f">vein</translation>
 			</translations>
 		</nouns>
+                <expressions>venes varicoses
+                    <translations>
+                        <translation catagory="medical" gender="fpl">varicose veins<synonyms>varices</synonyms></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="3160">vencedor<nouns>
 			<translations>
@@ -778,12 +794,6 @@
 				<translation transitive="true">to venerate</translation>
 			</translations>
 		</verbs>
-	</Entry>
-         <Entry frequency="122">venes varicoses<nouns>
-			<translations><date>0306</date>
-				<translation catagory="medical" gender="fpl">varicose veins<synonyms>varices</synonyms></translation>
-			</translations>
-		</nouns>
 	</Entry>
 	<Entry frequency="122000">venir<verbs conj="irregular43">
 			<translations>
@@ -1048,18 +1058,18 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="268000">verge<nouns>
-			<translations><date>0208</date>
-				<translation gender="f">virgin</translation>
-                                <translation capitalized="Verge" catagory="zodiac" gender="f">Virgo</translation>
-			</translations>
-		</nouns>
-<adjectives>
-<translations>
-<translation>virgin</translation>
-</translations>
-</adjectives>
-	</Entry>
+        <Entry frequency="268000">verge<nouns>
+                <translations><date>0208</date>
+                    <translation gender="f">virgin</translation>
+                    <translation capitalized="Verge" catagory="zodiac" gender="f">Virgo</translation>
+                </translations>
+            </nouns>
+            <adjectives>
+                <translations>
+                    <translation>virgin</translation>
+                </translations>
+            </adjectives>
+        </Entry>
         <Entry frequency="0">vergerí<nouns>
             <translations>
                 <translation catagory="geography" gender="m / f">(person / people) from el Verger</translation>
@@ -1341,12 +1351,11 @@
 				<translation catagory="body" gender="f">vesicle</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="27">vesícula biliar<nouns>
-			<translations><date>0705</date>
-				<translation catagory="body" gender="f">gall bladder</translation>
-			</translations>
-		</nouns>
+                <expressions>vesícula biliar
+                    <translations>
+                        <translation catagory="body" gender="f">gall bladder</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="789">vespa<nouns>
 			<translations><date>0705</date>
@@ -1565,6 +1574,11 @@
                         <translation>via</translation>
                         </translations>
                 </prepositions>
+                <expressions>Via Làctia
+                    <translations>
+                        <translation catagory="astronomy" gender="f">Milky Way</translation>
+                    </translations>
+                </expressions>
                 <expressions>en via de
                 <translations>
                 <translation>in the middle of / in the process of</translation>
@@ -1595,12 +1609,6 @@
 			</translations>
 		</nouns>
 	</Entry>
-           <Entry frequency="579">Via Làctia<mistakes>Via Làctea</mistakes><nouns>
-			<translations><date>0106</date>
-				<translation catagory="astronomy" gender="f">Milky Way</translation>
-			</translations>
-		</nouns>
-	</Entry>	
 	<Entry frequency="11400">vianant<nouns>
 			<translations>
 				<translation gender="m / f">pedestrian<catexamp>Pas de vianants</catexamp>
@@ -1791,12 +1799,12 @@
 			</translations>
 		</nouns>
 	</Entry>
-          <Entry frequency="56200">videoclip<nouns>
-      <translations><date>0606</date>
-        <translation gender="m">video clip</translation>
-      </translations>
-    </nouns>
-  </Entry>
+        <Entry frequency="56200">videoclip<nouns>
+                <translations><date>0606</date>
+                    <translation gender="m">video clip</translation>
+                </translations>
+            </nouns>
+        </Entry>
   <Entry frequency="631000">videojoc<nouns>
 			<translations><date>0408</date>
 				<translation gender="m">video game</translation>
@@ -1899,21 +1907,21 @@
 		</nouns>
 	</Entry>	
         <Entry frequency="54000">vigor<nouns>
-			<translations><date>0405</date>
-				<translation gender="m">vigour (Br.) / vigor (Am.)</translation>
-                        </translations>
-		</nouns>
-                <expressions>en vigor
-                <translations>
-                <translation>in force</translation>
+                <translations><date>0405</date>
+                    <translation gender="m">vigour (Br.) / vigor (Am.)</translation>
                 </translations>
-                </expressions>
-                <expressions>entrar en vigor
+            </nouns>
+            <expressions>en vigor
                 <translations>
-                <translation>to take effect / to come into effect</translation>
+                    <translation>in force</translation>
                 </translations>
-                </expressions>
-	</Entry>
+            </expressions>
+            <expressions>entrar en vigor
+                <translations>
+                    <translation>to take effect / to come into effect</translation>
+                </translations>
+            </expressions>
+        </Entry>
 	<Entry frequency="700">vigorós<adjectives>
 			<translations><date>0705</date>
 				<translation>vigorous</translation>
@@ -2023,15 +2031,14 @@
 	</Entry>
 	<Entry frequency="3290">vinagre<nouns>
 			<translations>
-				<translation catagory="food-condiment" gender="m">vinegar</translation>
+				<translation catagory="food" gender="m">vinegar</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="115">vinagre de xerès<nouns>
-			<translations>
-				<translation catagory="food-condiment" gender="m">sherry vinegar</translation>
-			</translations>
-		</nouns>
+                <expressions>vinagre de xerès
+                    <translations>
+                        <translation catagory="food" gender="m">sherry vinegar</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="951">vinagreta<nouns>
 			<translations>
@@ -2280,12 +2287,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="9800">virilitat<nouns>
-			<translations><date>0408</date>
-				<translation gender="f">virility</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <Entry frequency="9800">virilitat<nouns>
+                <translations><date>0408</date>
+                    <translation gender="f">virility</translation>
+                </translations>
+            </nouns>
+        </Entry>
          <Entry frequency="376">virolat<adjectives>
 			<translations><date>1105</date>
 				<translation>variegated<fems>virolada</fems></translation>
@@ -2338,18 +2345,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="628">viscós<adjectives>
-			<translations><date>0705</date>
-				<translation>viscous</translation>
-			</translations>
-		</adjectives>
-	</Entry>
-<Entry frequency="7560">viscositat<nouns>
-        <translations><date>0708</date>
-            <translation catagory="chemistry" gender="f">viscosity</translation>
-        </translations>
-    </nouns>
-    </Entry>
+        <Entry frequency="628">viscós<adjectives>
+                <translations><date>0705</date>
+                    <translation>viscous</translation>
+                </translations>
+            </adjectives>
+        </Entry>
+        <Entry frequency="7560">viscositat<nouns>
+                <translations><date>0708</date>
+                    <translation catagory="chemistry" gender="f">viscosity</translation>
+                </translations>
+            </nouns>
+        </Entry>
 	<Entry frequency="533">visera<nouns>
 			<translations><date>0705</date>
 				<translation gender="f">visor</translation>
@@ -2434,14 +2441,18 @@
                     </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="0">vistabellà<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vistabella del Maestrat</translation></translations></nouns><adjectives><translations><translation>relating to Vistabella del Maestrat or its people<plural>vistabellans</plural><fems>vistabellana</fems></translation></translations></adjectives></Entry>
-        <Entry frequency="1500">vista d'ocell<nouns>
-			<translations><date>0206</date>
-				<translation gender="f">bird's eye view<catexamp>Barcelona a vista d'ocell</catexamp><engexamp>A bird's eye view of Barcelona</engexamp></translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="34300">vistiplau<nouns>
+        <Entry frequency="110">vistabellà<nouns>
+                <translations><date>0709</date>
+                    <translation catagory="geography" gender="m / f">(person / people) from Vistabella del Maestrat</translation>
+                </translations>
+            </nouns>
+            <adjectives>
+                <translations>
+                    <translation>relating to Vistabella del Maestrat or its people<plural>vistabellans</plural><fems>vistabellana</fems></translation>
+                </translations>
+            </adjectives>
+        </Entry>
+           <Entry frequency="34300">vistiplau<nouns>
 			<translations><date>1205</date>
 				<translation gender="m">approval / permission / authorization / authorisation (Br.)<example>Gasol no ha donat el seu &lt;b&gt;vistiplau&lt;/b&gt; a l'ús de la seva imatge.</example></translation>
 			</translations>
@@ -2696,11 +2707,28 @@
 			</translations>
 		</verbs>
 	</Entry>
-        <Entry frequency="50000">vol<nouns>
-			<translations>
+        <Entry frequency="7490000">vol<nouns>
+                            <translations><date>0709</date>
 				<translation catagory="transport" gender="m">flight</translation>
 			</translations>
 		</nouns>
+                <expressions>vol biplaça
+                    <translations>
+                        <translation gender="m">tandem flight</translation>
+                    </translations>
+                </expressions>
+                <expressions>aixecar el vol
+                    <translations>
+                        <translation>to fly off</translation>
+                        <translation>(fig.) to take flight</translation>
+                    </translations>
+                </expressions>
+                <expressions>alçar el vol
+                    <translations>
+                        <translation>to fly off</translation>
+                        <translation>(fig.) to take flight</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="7470">volada<nouns>
 			<translations><date>0605</date>
@@ -2747,12 +2775,6 @@
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="161">vol biplaça<nouns>
-			<translations>
-				<translation gender="m">tandem flight</translation>
-			</translations>
-		</nouns>
-	</Entry>
 	<Entry frequency="9710">volcà<nouns>
 			<translations>
 				<translation catagory="naturaldisaster" gender="m">volcano<plural>volcans</plural></translation>
@@ -2770,18 +2792,22 @@
 				<translation catagory="sports-event" gender="m">volleyball</translation>
 			</translations>
 		</nouns>
+                <expressions>vòlei platja
+                    <translations>
+                        <translation catagory="sports-event" gender="m">beach volleyball<synonyms>voleibol de platja</synonyms></translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="751">vòlei platja<nouns>
-			<translations><date>1206</date>
-				<translation catagory="sports-event" gender="m">beach volleyball<synonyms>voleibol de platja</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="12000">voleibol<nouns>
+        <Entry frequency="12000">voleibol<nouns>
 			<translations><date>0805</date>
-				<translation catagory="sports-event" gender="m">volleyball<catexamp>Voleibol de platja</catexamp><engexamp>Beach volleyball</engexamp></translation>
+				<translation catagory="sports-event" gender="m">volleyball</translation>
 			</translations>
 		</nouns>
+                <expressions>voleibol de platja
+                    <translations>
+                        <translation catagory="sports-event" gender="m">beach volleyball<synonyms>vòlei de platja</synonyms></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="500000">voler<verbs conj="irregular45">
 			<translations><date>0805</date>
@@ -2855,17 +2881,16 @@
 				<translation gender="m">volume</translation>
 			</translations>
 		</nouns>
+                <expressions>volum de negoci
+                    <translations>
+                        <translation catagory="financial" gender="m">turnover</translation>
+                    </translations>
+                </expressions>
                 <expressions>a tot volum
                 <translations>
                 <translation>full blast</translation>
                 </translations>
                 </expressions>
-	</Entry>
-        <Entry frequency="28700">volum de negoci<nouns>
-			<translations><date>0106</date>
-				<translation catagory="financial" gender="m">turnover</translation>
-			</translations>
-		</nouns>
 	</Entry>
 	<Entry frequency="4980">volumètric<adjectives>
 			<translations>

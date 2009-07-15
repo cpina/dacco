@@ -528,18 +528,21 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="3100">Oceà Atlàntic<nouns>
+                <expressions>Oceà Atlàntic
 			<translations>
 				<translation gender="m">Atlantic (Ocean)</translation>
 			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="326">Oceà Índic<nouns>
-			<translations>
-				<translation gender="m">Indian Ocean</translation>
-			</translations>
-		</nouns>
+		</expressions>
+                <expressions>Oceà Índic
+                    <translations>
+                        <translation gender="m">Indian Ocean</translation>
+                    </translations>
+                </expressions>
+                <expressions>Oceà Pacífic
+                    <translations>
+                        <translation gender="m">Pacific (Ocean)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="2860">Oceania<nouns>
 			<translations>
@@ -563,12 +566,6 @@
 	<Entry frequency="843">oceanografia<nouns>
 			<translations>
 				<translation catagory="work-field" gender="f">oceanography</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="974">Oceà Pacífic<nouns>
-			<translations>
-				<translation gender="m">Pacific (Ocean)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2261,15 +2258,24 @@
 	</Entry>
 	<Entry frequency="19600">orient<nouns>
 			<translations>
-				<translation gender="m">East / Orient<catexamp>Pròxim Orient</catexamp>
-					<engexamp>Middle East / Near East</engexamp>
-					<catexamp>Orient Mitjà</catexamp>
-					<engexamp>Middle East</engexamp>
-					<catexamp>Extrem Orient</catexamp>
-					<engexamp>Far East</engexamp>
-				</translation>
+				<translation gender="m">East / Orient</translation>
 			</translations>
 		</nouns>
+                <expressions>Orient Mitjà
+                    <translations>
+                        <translation catagory="region-asia" gender="m">Middle East</translation>
+                    </translations>
+                </expressions>
+                <expressions>Extrem Orient
+                    <translations>
+                        <translation catagory="region-asia" gender="m">Far East</translation>
+                    </translations>
+                </expressions>
+                <expressions>Pròxim Orient
+                    <translations>
+                        <translation catagory="region-asia" gender="m">Middle East</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="57800">orientació<nouns>
 			<translations>

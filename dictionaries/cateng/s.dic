@@ -305,12 +305,11 @@
 				<translation catagory="geography" gender="m">Sahara (desert)</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="12200">Sàhara Occidental<nouns>
-			<translations><date>1205</date>
-				<translation catagory="geography-country" gender="m">Western Sahara</translation>
-			</translations>
-		</nouns>
+                <expressions>Sàhara Occidental
+                    <translations>
+                        <translation catagory="geography-country-africa" gender="m">Western Sahara</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="0">saixenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Saix</translation></translations></nouns><adjectives><translations><translation>relating to Saix or its people<fems>saixenca</fems><femplural>saixenques</femplural></translation></translations></adjectives></Entry>
         <Entry frequency="362">sake<nouns>
@@ -4048,14 +4047,13 @@
 				<translation catagory="food" gender="f">soup</translation>
 			</translations>
 		</nouns>
+                <expressions>sopa de lletres
+                    <translations>
+                        <translation gender="f">word search</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="1520">sopa de lletres<nouns>
-			<translations><date>0505</date>
-				<translation gender="f">word search</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="30000">sopar<verbs conj="regular">
+      	<Entry frequency="30000">sopar<verbs conj="regular">
 			<translations>
 				<translation catagory="food">to have dinner</translation>
 			</translations>
@@ -4144,12 +4142,11 @@
 				<translation gender="m">noise</translation>
 			</translations>
 		</nouns>
-	</Entry>
-                <Entry frequency="225">soroll blanc<nouns>
-			<translations><date>1007</date>
-				<translation termcat="telecom" gender="m">white noise</translation>
-			</translations>
-		</nouns>
+                <expressions>soroll blanc
+                    <translations>
+                        <translation termcat="telecom" gender="m">white noise</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="2400">sorollós<adjectives>
 			<translations>
@@ -4460,23 +4457,23 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="950000">sou<nouns>
-			<translations><date>0109</date>
-				<translation catagory="financial, work" gender="m">wage / pay / salary</translation>
-<translation catagory="financial" sourceplural="sous" gender="mpl">money</translation>
-			</translations>
-		</nouns>
-<expressions>per quins cinc sous
-<translations>
-<translation>why the heck?</translation>
-</translations>
-</expressions>
-<expressions>per quins set sous
-<translations>
-<translation>why the heck?</translation>
-</translations>
-</expressions>
-	</Entry>	
+        <Entry frequency="950000">sou<nouns>
+                <translations><date>0109</date>
+                    <translation catagory="financial, work" gender="m">wage / pay / salary</translation>
+                    <translation catagory="financial" sourceplural="sous" gender="mpl">money</translation>
+                </translations>
+            </nouns>
+            <expressions>per quins cinc sous
+                <translations>
+                    <translation>why the heck?</translation>
+                </translations>
+            </expressions>
+            <expressions>per quins set sous
+                <translations>
+                    <translation>why the heck?</translation>
+                </translations>
+            </expressions>
+        </Entry>	
 	<Entry frequency="63000">sovint<adverbs>
 			<translations>
 				<translation>often</translation>

@@ -879,7 +879,7 @@
                 </translations>
             </expressions>
         </Entry>	
-  <Entry frequency="2270">linuxer<nouns>
+       <Entry frequency="2270">linuxer<nouns>
                             <translations><date>1007</date>
                                 <translation catagory="computers" gender="m / f">Linux enthusiast</translation>
 			</translations>
@@ -1388,22 +1388,20 @@
 				<translation gender="f">home</translation>
 			</translations>
 		</nouns>
+                <expressions>llar de foc
+                    <translations>
+                        <translation catagory="household-room-livingroom" gender="f">fireplace</translation>
+                    </translations>
+                </expressions>
+                <expressions>llar d'infants
+                    <translations>
+                        <translation catagory="education" gender="f">day care / playschool (Br.) / nursery (school) (Br.) / pre-K (Am.)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="444">llard<nouns>
 			<translations>
 				<translation catagory="food" gender="m">lard</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="2900">llar de foc<nouns>
-			<translations>
-				<translation catagory="household-room-livingroom" gender="f">fireplace</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="6260">llar d'infants<nouns>
-			<translations>
-				<translation gender="f">crèche / day care / playschool / nursery (school) (Br.) / kindergarten (Am. / Aus.)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1688,59 +1686,52 @@
 				<translation disambiguate="linguistics" gender="f">language<plural>llengües</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>llengua materna
+                    <translations>
+                        <translation catagory="linguistics" gender="f">mother tongue<plural>llengües maternes</plural></translation>
+                    </translations>
+                </expressions>
                 <expressions>no tenir pèls a la llengua
                 <translations>
                     <translation>to not mince words</translation>
                     </translations>
                     </expressions>
 	</Entry>
-                <Entry frequency="5760">llengua materna<nouns>
-			<translations><date>0605</date>
-				<translation catagory="linguistics" gender="f">mother tongue<plural>llengües maternes</plural></translation>
-			</translations>
-		</nouns>
-	</Entry>
 	<Entry frequency="60300">llenguatge<nouns>
 			<translations>
 				<translation gender="m">language</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        	<Entry frequency="820">llenguatge d'alt nivell<nouns>
-			<translations><date>1007</date>
-				<translation disambiguate="computers" termcat="true" gender="m">high-level language</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        	<Entry frequency="61">llenguatge d'assemblador<nouns>
-			<translations><date>1007</date>
-				<translation disambiguate="computers" termcat="true" gender="m">assembly language</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        	<Entry frequency="487">llenguatge de baix nivell<nouns>
-			<translations><date>1007</date>
-				<translation disambiguate="computers" termcat="true" gender="m">low-level language</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        	<Entry frequency="164">llenguatge de màquina<nouns>
-			<translations><date>1007</date>
-				<translation catagory="computers" termcat="true" gender="m">machine code</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="5220">llenguatge de programació<nouns>
-			<translations>
-				<translation catagory="computers-programming" gender="m">programming language</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        	<Entry frequency="897">llenguatge script<nouns>
-			<translations><date>1007</date>
-				<translation disambiguate="computers" termcat="true" gender="m">scripting language</translation>
-			</translations>
-		</nouns>
+                <expressions>llenguatge d'alt nivell
+                    <translations>
+                        <translation disambiguate="computers" termcat="true" gender="m">high-level language</translation>
+                    </translations>
+                </expressions>
+                <expressions>llenguatge d'assemblador
+                    <translations>
+                        <translation disambiguate="computers" termcat="true" gender="m">assembly language</translation>
+                    </translations>
+                </expressions>
+                <expressions>llenguatge de baix nivell
+                    <translations>
+                        <translation disambiguate="computers" termcat="true" gender="m">low-level language</translation>
+                    </translations>
+                </expressions>
+                <expressions>llenguatge de màquina
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="m">machine code</translation>
+                    </translations>
+                </expressions>
+                <expressions>llenguatge de programació
+                    <translations>
+                        <translation catagory="computers-programming" gender="m">programming language</translation>
+                    </translations>
+                </expressions>
+                <expressions>llenguatge script
+                    <translations>
+                        <translation disambiguate="computers" termcat="true" gender="m">scripting language</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="5420">llengüeta<nouns>
                             <translations><date>0708</date>
@@ -2006,36 +1997,32 @@
 				<translation gender="f">freedom</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="516">llibertat civil<nouns>
-			<translations><date>0605</date>
-				<translation gender="f">civil liberty</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="226">llibertat vigilada<nouns>
-			<translations><date>0605</date>
-				<translation gender="f">probation</translation>
-			</translations>
-		</nouns>
+                <expressions>llibertat civil
+                    <translations>
+                        <translation gender="f">civil liberty</translation>
+                    </translations>
+                </expressions>
+                <expressions>llibertat vigilada
+                    <translations>
+                        <translation catagory="legal" gender="f">probation</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="880000">llibre<nouns>
 			<translations><date>0605</date>
 				<translation gender="m">book</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="63000">llibre de text<nouns>
-			<translations><date>0106</date>
-				<translation catagory="education" gender="m">textbook</translation>
-			</translations>
-		</nouns>
-	</Entry>
-         <Entry frequency="432">llibre d'incidències<nouns>
-			<translations><date>1205</date>
-				<translation catagory="work" termcat="true" gender="m">logbook</translation>
-			</translations>
-		</nouns>
+                <expressions>llibre d'incidències
+                    <translations>
+                        <translation catagory="work" termcat="true" gender="m">logbook</translation>
+                    </translations>
+                </expressions>
+                <expressions>llibre de text
+                    <translations>
+                        <translation catagory="education" gender="m">textbook</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="247000">llibreria<nouns>
 			<translations><date>0605</date>
@@ -2043,12 +2030,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="1410">llibreta d'adreces<nouns>
-			<translations><date>0705</date>
-				<translation catagory="computers" gender="f">address book</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <Entry frequency="136000">llibreta<nouns>
+                <translations><date>0709</date>
+                    <translation gender="f">notebook</translation>
+                </translations>
+            </nouns>
+            <expressions>llibreta d'adreces
+                <translations>
+                    <translation catagory="computers" gender="f">address book</translation>
+                </translations>
+            </expressions>
+        </Entry>
            <Entry frequency="114000">llibreter<nouns>
 			<translations><date>0306</date>
 				<translation catagory="work-job" gender="m / f">bookseller<fems>llibretera</fems></translation>
@@ -2691,22 +2683,18 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>lògica borrosa
+                    <translations>
+                        <translation gender="f">fuzzy logic</translation>
+                    </translations>
+                </expressions>
+                <expressions>lògica difusa
+                    <translations>
+                        <translation gender="f">fuzzy logic</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="584">lògica borrosa<nouns>
-			<translations><date>0907</date>
-				<translation gender="f">fuzzy logic<synonyms>lògica difusa</synonyms>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="765">lògica difusa<nouns>
-			<translations><date>0907</date>
-				<translation gender="f">fuzzy logic<synonyms>lògica borrosa</synonyms>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="5750">logístic<adjectives>
+     	<Entry frequency="5750">logístic<adjectives>
 			<translations>
 				<translation>logistic / logistical<fems>logística</fems><femplural>logístiques</femplural></translation>
 			</translations>
@@ -2765,6 +2753,11 @@
                                 <translation disambiguate="geography" gender="f">longitude</translation>
 			</translations>
 		</nouns>
+                <expressions>longitud d'ona
+                    <translations>
+                        <translation gender="f">wavelength</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="24400">longitudinal<adjectives>
 			<translations><date>0408</date>
@@ -2777,12 +2770,6 @@
 				<translation>lengthwise / lengthways<synonyms>al llarg</synonyms></translation>
 			</translations>
 		</adverbs>
-	</Entry>
-           <Entry frequency="4530">longitud d'ona<nouns>
-			<translations><date>1007</date>
-				<translation termcat="true" gender="f">wavelength</translation>
-			</translations>
-		</nouns>
 	</Entry>
         <Entry frequency="315">loquaç<adjectives>
 			<translations><date>0806</date>

@@ -658,8 +658,10 @@
 	</Entry>
 <Entry frequency="22100000">deadline<nouns>
 			<translations>
-				<translation gender="m">termini</translation>
-				<translation gender="f">data límit</translation>
+                            <grouptranslation>
+                                <translation gender="m">termini</translation>
+                                <translation gender="f">data límit</translation>
+                            </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6476,22 +6478,20 @@
                     </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="201000000">download<verbs>
-			<translations>
-				<translation termcat="true">baixar</translation>
-				<translation>descarregar</translation>
+<Entry frequency="1770000000">download<verbs>
+                            <translations><date>0709</date>
+				<translation termcat="true">baixar / descarregar</translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
-				<translation gender="f" termcat="true">baixada</translation>
-				<translation gender="f">descàrrega</translation>
+				<translation gender="f" termcat="true">baixada / descàrrega</translation>
 			</translations>
 		</nouns>
 	</Entry>
          <Entry frequency="1710000">downplay<verbs>
                             <translations><date>0808</date>
-				<translation>treure importància a</translation>
+				<translation transitive="true">treure importància a</translation>
 			</translations>
 		</verbs>
 	</Entry> 
@@ -6519,13 +6519,13 @@
 	</Entry>
 <Entry frequency="359000">downsize<verbs>
 			<translations>
-				<translation>retallar personal</translation>
+				<translation catagory="work" intransitive="true">retallar personal</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="698000">downsizing<nouns>
 			<translations>
-				<translation gender="f">retallada de personal</translation>
+				<translation catagory="work" gender="f">retallada de personal</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6551,7 +6551,7 @@
 	</Entry>
 <Entry frequency="551000">downtime<nouns>
 			<translations>
-				<translation catagory="computers" gender="m" termcat="true">temps d&apos;aturada</translation>
+				<translation catagory="computers" gender="m" termcat="true">temps d'aturada</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6563,7 +6563,7 @@
 	</Entry>
 <Entry frequency="15600000">downtown<adverbs>
 			<translations>
-				<translation local="us">al centre de la ciutat<otherlocal>city / town centre</otherlocal>
+				<translation local="us">al centre de la ciutat<otherlocal>city centre (Br.) / town centre (Br.)</otherlocal>
 				</translation>
 			</translations>
 		</adverbs>

@@ -331,11 +331,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="3630">balanç de situació<nouns>
-			<translations>
-				<translation catagory="financial" gender="m">balance sheet<plural>balanços de situació</plural></translation>
+        <Entry frequency="209000">balanç<nouns>
+                            <translations><date>0709</date>
+				<translation gender="m">balance</translation>
+                                <translation catagory="financial" gender="m">balance / balance sheet<plural>balanços</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>balanç de situació
+                    <translations>
+                        <translation catagory="financial" gender="m">balance sheet</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="160000" hasSound="true">balança<nouns>
                             <translations><date>1108</date>
@@ -713,6 +719,11 @@
 				<translation gender="m">bath</translation>
 			</translations>
 		</nouns>
+                <expressions>bany de sang
+                    <translations>
+                        <translation gender="m">blood bath</translation>
+                    </translations>
+                </expressions>
                 <expressions>bany Maria
                     <translations>
                         <translation gender="m">bain-Marie</translation>
@@ -756,25 +767,19 @@
 			</translations>
 		</verbs>
 	</Entry>
-        <Entry frequency="606">bany de sang<nouns>
-			<translations><date>0805</date>
-				<translation catagory="medical" gender="m">blood bath</translation>
-			</translations>
-		</nouns>
-	</Entry>
 	<Entry frequency="28500" hasSound="true">banyera<nouns>
 			<translations>
 				<translation catagory="household-room-bathroom" gender="f">bath / bathtub / tub</translation>
 			</translations>
 		</nouns>
+                <expressions>banyera d'hidromassatge
+                    <translations>
+                        <translation catagory="household-room-bathroom" gender="f">jacuzzi<synonyms>jacuzzi</synonyms>
+                        </translation>
+                    </translations>
+                </expressions>
 	</Entry>
-	<Entry frequency="206">banyera d'hidromassatge<nouns>
-			<translations>
-				<translation catagory="household-room-bathroom" gender="f">jacuzzi<synonyms>jacuzzi</synonyms>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="0">banyerí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Banyeres de Mariola</translation></translations></nouns><adjectives><translations><translation>relating to Banyeres de Mariola or its people<fems>banyerina</fems></translation></translations></adjectives></Entry>
+	<Entry frequency="0">banyerí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Banyeres de Mariola</translation></translations></nouns><adjectives><translations><translation>relating to Banyeres de Mariola or its people<fems>banyerina</fems></translation></translations></adjectives></Entry>
 <Entry frequency="0">banyerut<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Banyeres de Mariola</translation></translations></nouns><adjectives><translations><translation>relating to Banyeres de Mariola or its people<fems>banyeruda</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="1560">baptisme<nouns>
 			<translations>
@@ -1977,13 +1982,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-          <Entry frequency="299">bescanviador de calor<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="m">heat exchanger</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="839" hasSound="true">bescanviar<verbs conj="irregular1">
+          	<Entry frequency="839" hasSound="true">bescanviar<verbs conj="irregular1">
 			<translations>
 				<translation>to exchange</translation>
 			</translations>
@@ -3450,30 +3449,26 @@
 				<translation gender="f">bag</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="147">bossa d'aigua calenta<nouns>
-                            <translations><date>0508</date>
-				<translation gender="f">hot water bottle</translation>
-			</translations>
-		</nouns>
-	</Entry>
-         <Entry frequency="736">bossa d'escombraries<nouns>
-			<translations><date>0805</date>
-				<translation gender="f">bin bag (Br.) / bin liner (Br.) / trash bag (Am.)</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="292">bossa de mà<nouns>
-			<translations>
-				<translation catagory="clothes-accessories" gender="f">handbag (Br.) / purse (Am.)</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="935">bossa de plàstic<nouns>
-			<translations><date>0805</date>
-				<translation gender="m">plastic bag / carrier bag (Br.) / carrier (Br.)</translation>
-			</translations>
-		</nouns>
+                <expressions>bossa d'aigua calenta
+                    <translations>
+                        <translation gender="f">hot water bottle</translation>
+                    </translations>
+                </expressions>
+                <expressions>bossa d'escombraries
+                    <translations>
+                        <translation gender="f">bin bag (Br.) / bin liner (Br.) / trash bag (Am.) / garbage bag (Am.)</translation>
+                    </translations>
+                </expressions>
+                <expressions>bossa de mà
+                    <translations>
+                        <translation catagory="clothes-accessories" gender="f">handbag (Br.) / purse (Am.)</translation>
+                    </translations>
+                </expressions>
+                <expressions>bossa de plàstic
+                    <translations>
+                        <translation gender="m">plastic bag / carrier bag (Br.) / carrier (Br.)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="479000">bot<nouns>
 			<translations><date>0708</date>

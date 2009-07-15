@@ -220,6 +220,11 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>País de Gal·les
+                    <translations>
+                        <translation catagory="country-europe" gender="m">Wales</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1080">paisà<nouns>
 			<translations>
@@ -237,12 +242,6 @@
 			<translations><date>0605</date>
 				<translation gender="m">countryside</translation>
                                 <translation gender="m">landscape</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="488">País de Gal·les<nouns>
-			<translations><date>0605</date>
-				<translation catagory="country-europe" gender="m">Wales</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1855,9 +1854,14 @@
 	</Entry>
 	      	<Entry frequency="511000">Pasqua<nouns>
 			<translations><date>0408</date>
-				<translation gender="f">Easter<catexamp>Pasqua jueva</catexamp><engexamp>Passover</engexamp></translation>
+				<translation catagory="religious" gender="f">Easter</translation>
 			</translations>
 		</nouns>
+                <expressions>Pasqua jueva
+                    <translations>
+                        <translation catagory="religious" gender="f">Passover</translation>
+                    </translations>
+                </expressions>
                 <expressions>més content que unes pasqües
                 <translations>
                 <translation>as happy as a pig in shit / as happy as a sandboy / as happy as Larry</translation>
@@ -5202,7 +5206,7 @@
 		</nouns>
                 <expressions>plaça d'aparcament
                     <translations>
-                        <translation catagory="transport" gender="f">parking space / place<plural>places d'aparcament</plural></translation>
+                        <translation catagory="transport" gender="f">parking space / parking place<plural>places d'aparcament</plural></translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -9656,13 +9660,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="133000">pròxim<adjectives>
-			<translations><date>0705</date>
-				<translation>next</translation>
-                                <translation>close<fems>pròxima</fems></translation>
-			</translations>
-		</adjectives>
-	</Entry>
+        <Entry frequency="133000">pròxim<adjectives>
+                <translations><date>0705</date>
+                    <translation>next</translation>
+                    <translation>close<fems>pròxima</fems></translation>
+                </translations>
+            </adjectives>
+        </Entry>
 	<Entry frequency="7970">pròximament<adverbs>
 			<translations><date>0705</date>
 				<translation>soon</translation>
@@ -9675,13 +9679,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="7100">Pròxim Orient<nouns>
-			<translations><date>0705</date>
-				<translation catagory="region-asia" gender="m">Middle East</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="76400">prudència<nouns>
+	<Entry frequency="76400">prudència<nouns>
 			<translations><date>0506</date>
 				<translation gender="f">care / caution</translation>
 			</translations>
