@@ -329,6 +329,26 @@
 				<translation catagory="household-room" gender="f">living room</translation>
 			</translations>
 		</nouns>
+                <expressions>sala d'actes
+                    <translations>
+                        <translation gender="f">conference room</translation>
+                    </translations>
+                </expressions>
+                <expressions>sala de festes
+                    <translations>
+                        <translation catagory="entertainment" gender="f">nightclub / club</translation>
+                    </translations>
+                </expressions>
+                <expressions>sala de jocs
+                    <translations>
+                        <translation catagory="entertainment" gender="f">games room</translation>
+                    </translations>
+                </expressions>
+                <expressions>sala de televisió
+                    <translations>
+                        <translation catagory="entertainment" gender="f">TV room / TV lounge</translation>
+                    </translations>
+                </expressions>               
 	</Entry>
             <Entry frequency="1270">salabror<nouns>
 			<translations><date>0107</date>
@@ -341,30 +361,6 @@
 				<translation>salty / brackish<fems>salabrosa</fems><plural>salabrosos</plural></translation>
                             </translations>
 		</adjectives>
-	</Entry>
-        <Entry frequency="74300">sala d'actes<nouns>
-			<translations><date>1205</date>
-				<translation gender="f">conference room</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="687">sala de festes<nouns>
-			<translations>
-				<translation catagory="entertainment" gender="f">(night)club</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="509">sala de jocs<nouns>
-			<translations><date>1205</date>
-				<translation gender="f">games room</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="690">sala de televisió<nouns>
-			<translations><date>1205</date>
-				<translation gender="f">tv room / tv lounge</translation>
-			</translations>
-		</nouns>
 	</Entry>
         <Entry frequency="781">salamandra<nouns>
 			<translations><date>0106</date>
@@ -1057,12 +1053,11 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="3400">secretari d'Estat<nouns>
-			<translations>
-				<translation catagory="politics, work-job" gender="m">Secretary of State</translation>
-			</translations>
-		</nouns>
+                <expressions>secretari d'Estat
+                    <translations>
+                        <translation catagory="politics, work-job" gender="m">Secretary of State</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="27100">secretària<nouns>
 			<translations>
@@ -1307,11 +1302,16 @@
 			</translations>
 		</adverbs>
 	</Entry>
-	<Entry frequency="99">segregació racial<nouns>
-			<translations>
-				<translation gender="f">racial segregation</translation>
+	<Entry frequency="87700">segregació<nouns>
+                            <translations><date>0709</date>
+				<translation gender="f">segregation</translation>
 			</translations>
 		</nouns>
+                <expressions>segregació racial
+                    <translations>
+                        <translation gender="f">racial segregation</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="2550">segrest<nouns>
 			<translations>
@@ -1404,30 +1404,27 @@
 				<translation gender="f">security</translation>
 			</translations>
 		</nouns>
-	</Entry>
-         <Entry frequency="16500">seguretat informàtica<nouns>
-                <translations><date>0508</date>
-            <translation termcat="internet" catagory="computers" gender="f">computer security</translation>
-        </translations>
-    </nouns>
-    </Entry>
-	<Entry frequency="33100">seguretat social<nouns>
-			<translations>
-				<translation gender="f">social security</translation>
-			</translations>
-		</nouns>
+                <expressions>seguretat informàtica
+                    <translations>
+                        <translation termcat="internet" catagory="computers" gender="f">computer security</translation>
+                    </translations>
+                </expressions>
+                <expressions>seguretat social
+                    <translations>
+                        <translation gender="f">social security</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="6110">seient<nouns>
 			<translations>
 				<translation gender="m">seat</translation>
 			</translations>
 		</nouns>
-	</Entry>
-         	<Entry frequency="207">seient del darrere<nouns>
-			<translations><date>0805</date>
-				<translation gender="m">back seat</translation>
-			</translations>
-		</nouns>
+                <expressions>seient del darrere
+                    <translations>
+                        <translation gender="m">back seat</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="473">seitó<nouns>
 			<translations>
@@ -1785,18 +1782,17 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="109000">sentit<nouns>
-			<translations>
+	<Entry frequency="3290000">sentit<nouns>
+                            <translations><date>0709</date>
 				<translation gender="m">sense</translation>
 			</translations>
 		</nouns>
+                <expressions>sentit comú
+                    <translations>
+                        <translation gender="m">common sense</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-                       <Entry frequency="28800">sentit comú<nouns>
-      <translations><date>1005</date>
-        <translation gender="m">common sense</translation>
-      </translations>
-    </nouns>
-  </Entry>
 	<Entry frequency="14600">seny<nouns>
 			<translations>
 				<translation gender="m">(common) sense<engnote>Whilst the noun 'seny' roughly translates to 'common sense' in standard English, many would argue that 'common sense' does not cover all the subtleties of the Catalan word 'seny'.  A much closer equivalent would probably be the Scottish word 'nous' which implies more than simple common sense..</engnote>
@@ -2271,6 +2267,16 @@
 				<translation catagory="time" gender="f">week</translation>
 			</translations>
 		</nouns>
+                <expressions>setmana que ve
+                    <translations>
+                        <translation catagory="time" gender="f">next week</translation>
+                    </translations>
+                </expressions>
+                <expressions>setmana vinent
+                    <translations>
+                        <translation catagory="time" gender="f">next week</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="139">setmanada<nouns>
 			<translations><date>0505</date>
@@ -2290,21 +2296,9 @@
                     </translations>
                 </expressions>
 	</Entry>
-	<Entry frequency="2550">setmana que ve<nouns>
-			<translations>
-				<translation catagory="time" gender="f">next week</translation>
-			</translations>
-		</nouns>
-	</Entry>
         <Entry frequency="20000">setmanari<nouns>
 			<translations><date>0305</date>
 				<translation gender="m">weekly</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="2030">setmana vinent<nouns>
-			<translations>
-				<translation catagory="time" gender="f">next week</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2468,14 +2462,7 @@
                     </translations>
                 </expressions>
 	</Entry>
-	<Entry frequency="5140">si et plau<expressions>
-			<translations>
-				<translation>please<engnote>'Si et plau' is the familiar way of saying 'please' (to those you would use 'tu' with').</engnote>
-				</translation>
-			</translations>
-		</expressions>
-	</Entry>
-        <Entry frequency="369">sífilis<nouns>
+	        <Entry frequency="369">sífilis<nouns>
 			<translations><date>0305</date>
 				<translation catagory="medical-illness" gender="f">syphilis</translation>
 			</translations>
@@ -2515,14 +2502,13 @@
                                 <translation gender="m">signal</translation>
 			</translations>
 		</nouns>
+                <expressions>signe de puntuació
+                <translations>
+                    <translation catagory="linguistics" gender="m">punctuation mark</translation>
+                </translations>
+                </expressions>
 	</Entry>
-         <Entry frequency="18900">signe de puntuació<nouns>
-			<translations><date>0807</date>
-				<translation catagory="linguistics" gender="m">punctuation mark</translation>
-			</translations>
-		</nouns>
-	</Entry>
-         <Entry frequency="52100">significació<nouns>
+        <Entry frequency="52100">significació<nouns>
 			<translations><date>1205</date>
 				<translation gender="f">meaning</translation>
 			</translations>
@@ -2840,24 +2826,21 @@
 				<translation catagory="medical" gender="f">syndrome</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="18">síndrome d'Asperger<nouns>
-			<translations><date>0405</date>
-				<translation catagory="medical-illness" gender="f">Asperger's syndrome</translation>
-			</translations>
-		</nouns>
-	</Entry>
-          <Entry frequency="81">síndrome de Cushing<nouns>
-			<translations><date>0407</date>
-				<translation termcat="medical" gender="f">Cushing's syndrome</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="300">síndrome de fatiga crònica<nouns>
-			<translations><date>0805</date>
-				<translation catagory="medical-illness" gender="f">chronic fatigue syndrome</translation>
-			</translations>
-		</nouns>
+                <expressions>síndrome d'Asperger
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">Asperger's syndrome</translation>
+                    </translations>
+                </expressions>
+                <expressions>síndrome de Cushing
+                    <translations>
+                        <translation termcat="medical" gender="f">Cushing's syndrome</translation>
+                    </translations>
+                </expressions>
+                <expressions>síndrome de fatiga crònica
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">chronic fatigue syndrome</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="38200">sinergia<nouns>
 			<translations><date>0506</date>
@@ -3079,38 +3062,28 @@
 				<translation gender="m">system</translation>
 			</translations>
 		</nouns>
+                <expressions>sistema de gestió de base de dades
+                    <translations>
+                        <translation catagory="computers" gender="m">database management system</translation>
+                    </translations>
+                </expressions>
+                <expressions>sistema gestor de base de dades
+                    <translations>
+                        <translation catagory="computers" gender="m">database management system</translation>
+                    </translations>
+                </expressions>
+                <expressions>sistema operatiu
+                    <translations>
+                        <translation catagory="computers" gender="m" termcat="true">OS / operating system</translation>
+                    </translations>
+                </expressions>
+                <expressions>sistema solar
+                    <translations>
+                        <translation catagory="astronomy" gender="m">solar system</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="65">sistema de gestió de base de dades<nouns>
-			<translations><date>1205</date>
-				<translation catagory="computers" gender="m">database management system</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="72">sistema gestor de base de dades<nouns>
-			<translations><date>1205</date>
-				<translation catagory="computers" gender="m">database management system</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="693">sistema immunitari<nouns>
-			<translations>
-				<translation catagory="medical" gender="m">immune system</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="15600">sistema operatiu<nouns>
-			<translations>
-				<translation catagory="computers" gender="m" termcat="true">OS / operating system</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="3660">sistema solar<nouns>
-			<translations><date>0405</date>
-				<translation catagory="astronomy" gender="m">solar system</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="20900">sistemàtic<adjectives>
+  	<Entry frequency="20900">sistemàtic<adjectives>
 			<translations>
 				<translation>systematic<fems>sistemàtica</fems><femplural>sistemàtiques</femplural>
 				</translation>
@@ -3172,13 +3145,7 @@
                                 </translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="69500">si us plau<expressions><mistakes>siusplau</mistakes>
-			<translations>
-				<translation>please</translation>
-			</translations>
-		</expressions>
-	</Entry>
-<Entry frequency="555">sivella<nouns>
+	<Entry frequency="555">sivella<nouns>
 			<translations><date>0406</date>
 				<translation gender="f">buckle</translation>
 			</translations>
@@ -4844,6 +4811,16 @@
 				<translation catagory="food-drink" gender="m">juice</translation>
 			</translations>
 		</nouns>
+                <expressions>suc de llimona
+                    <translations>
+                        <translation catagory="food" gender="m">lemon juice</translation>
+                    </translations>
+                </expressions>
+                <expressions>suc de taronja
+                    <translations>
+                        <translation catagory="food-drink" gender="m">orange juice</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="0">sucainer<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Sucaina</translation></translations></nouns><adjectives><translations><translation>relating to Sucaina or its people<fems>sucainera</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="3030">sucar<verbs conj="CtoQU">
@@ -4892,29 +4869,16 @@
 			</translations>
 		</adjectives>
 	</Entry>
-        <Entry frequency="317">suc de llimona<nouns>
-			<translations><date>0405</date>
-				<translation catagory="food" gender="m">lemon juice</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="589">suc de taronja<nouns>
-			<translations><date>0405</date>
-				<translation catagory="food-drink" gender="m">orange juice</translation>
-			</translations>
-		</nouns>
-	</Entry>
 	<Entry frequency="24400">sucre<nouns>
 			<translations>
 				<translation catagory="food" gender="m">sugar</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="38">sucre moreno<nouns>
-			<translations>
-				<translation catagory="food" gender="m">brown sugar</translation>
-			</translations>
-		</nouns>
+                <expressions>sucre moreno
+                    <translations>
+                        <translation catagory="food" gender="m">brown sugar</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="8540">sucursal<nouns>
 			<translations>
@@ -4934,10 +4898,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="1490">sud africà<nouns>
+	<Entry frequency="1490">sud-africà<nouns>
 			<translations>
-				<translation catagory="nationality-africa" gender="m / f">South African<fems>sud africana</fems>
-					<plural>sud africans</plural>
+				<translation catagory="nationality-africa" gender="m / f">South African<fems>sud-africana</fems>
+					<plural>sud-africans</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -5048,17 +5012,16 @@
 				<translation gender="m">suicide</translation>
 			</translations>
 		</nouns>
+                <expressions>suïcidi assistit
+                    <translations>
+                        <translation gender="m">assisted suicide</translation>
+                    </translations>
+                </expressions>
                 <expressions>intent de suïcidi
                 <translations>
                     <translation>suicide attempt</translation>
                 </translations>
             </expressions>
-	</Entry>
-        <Entry frequency="351">suïcidi assistit<nouns>
-			<translations><date>0408</date>
-				<translation gender="m">assisted suicide</translation>
-			</translations>
-		</nouns>
 	</Entry>
 	<Entry frequency="33100">Suïssa<nouns>
 			<translations>

@@ -1037,12 +1037,11 @@
 				<translation gender="m">packet / package / parcel</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="367">paquet turístic<nouns>
-			<translations><date>1205</date>
-				<translation gender="m">package holiday</translation>
-			</translations>
-		</nouns>
+                <expressions>paquet turístic
+                    <translations>
+                        <translation gender="m">package holiday</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="162000">par<nouns>
                             <translations><date>1007</date>
@@ -3548,28 +3547,25 @@
 	</Entry>
 	<Entry frequency="81500">permís<nouns>
 			<translations><date>0805</date>
-				<translation gender="m">permit / permission / leave (formal)<catexamp>Permís de maternitat</catexamp><engexamp>Maternity leave</engexamp><catexamp>Permís de paternitat</catexamp><engexamp>Paternity leave</engexamp><plural>permisos</plural>
+				<translation gender="m">permit / permission / leave (formal)<plural>permisos</plural>
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-        <Entry frequency="1340">permís d'accés<nouns>
-			<translations><date>0805</date>
-				<translation catagory="computers" termcat="internet" gender="m">access permission</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="583">permís de maternitat<nouns>
-			<translations><date>0805</date>
-				<translation catagory="work" gender="m">maternity leave</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="279">permís de paternitat<nouns>
-			<translations><date>0805</date>
-				<translation catagory="work" gender="m">paternity leave</translation>
-			</translations>
-		</nouns>
+                <expressions>permís d'accés
+                    <translations>
+                        <translation catagory="computers-internet" termcat="true" gender="m">access permission</translation>
+                    </translations>
+                </expressions>
+                <expressions>permís de maternitat
+                    <translations>
+                        <translation catagory="work" gender="m">maternity leave</translation>
+                    </translations>
+                </expressions>
+                <expressions>permís de paternitat
+                    <translations>
+                        <translation catagory="work" gender="m">paternity leave</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="12900">permissiu<adjectives>
 			<translations><date>1205</date>
@@ -4328,17 +4324,16 @@
 	</Entry>
          <Entry frequency="74800">petjada<nouns>
 			<translations><date>0907</date>
-				<translation gender="f">footprint<catexamp>Petjada ecològica</catexamp><engexamp>Carbon footprint</engexamp></translation>
+				<translation gender="f">footprint</translation>
 			</translations>
 		</nouns>
+                <expressions>petjada ecològica
+                    <translations>
+                        <translation gender="f">carbon footprint</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="2190">petjada ecològica<nouns>
-			<translations><date>0907</date>
-				<translation gender="f">carbon footprint</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="5500">petó<nouns>
+    	<Entry frequency="5500">petó<nouns>
 			<translations>
 				<translation gender="m">kiss<plural>petons</plural>
 				</translation>
@@ -4694,35 +4689,31 @@
 	</Entry>
 	<Entry frequency="28900">píndola<nouns>
 			<translations>
-				<translation catagory="medical" gender="f">pill<catexamp>Píndola anticonceptiva</catexamp><engexamp>Birth-control pill</engexamp><catexamp>Prendre la píndola (anticonceptiva)</catexamp><engexamp>To be on the pill</engexamp></translation>
+				<translation catagory="medical" gender="f">pill</translation>
 			</translations>
 		</nouns>
+                <expressions>píndola anticonceptiva
+                    <translations>
+                        <translation catagory="medical" gender="f">birth-control pill / the pill<catexamp>Prendre la píndola (anticonceptiva)</catexamp><engexamp>To be on the pill</engexamp></translation>
+                    </translations>
+                </expressions>
+                <expressions>píndola del dia després
+                    <translations>
+                        <translation catagory="medical" gender="f">morning-after pill</translation>
+                    </translations>
+                </expressions>
+                <expressions>píndola de l'endemà
+                    <translations>
+                        <translation catagory="medical" gender="f">morning-after pill</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="247">píndola anticonceptiva<nouns>
-			<translations><date>0106</date>
-				<translation gender="f">birth-control pill / the pill</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="103">píndola del dia després<nouns>
-			<translations>
-				<translation catagory="medical" gender="f">morning-after pill</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="83">píndola de l'endemà<nouns>
-			<translations>
-				<translation catagory="medical" gender="f">morning-after pill</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="399000">pineda<nouns>
+           <Entry frequency="399000">pineda<nouns>
 			<translations><date>0107</date>
 				<translation catagory="plants" gender="f">pine forest</translation>
 			</translations>
 		</nouns>
 	</Entry>
-        
 <Entry frequency="0">pinenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Pina</translation></translations></nouns><adjectives><translations><translation>relating to Pina or its people<fems>pinenca</fems><femplural>pinenques</femplural></translation></translations></adjectives></Entry>
 <Entry frequency="0">piner<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Pina</translation></translations></nouns><adjectives><translations><translation>relating to Pina or its people<fems>pinera</fems></translation></translations></adjectives></Entry>
 <Entry frequency="0">pinetell<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Pinet</translation></translations></nouns><adjectives><translations><translation>relating to Pinet or its people<fems>pinetella</fems></translation></translations></adjectives></Entry>	
@@ -4996,46 +4987,44 @@
 			<translations><date>0505</date>
 				<translation gender="f">clue</translation>
 				<translation gender="f">trail<catexamp>Segueixen la pista de l'assassí</catexamp><engexamp>They are on the trail of the killer / they are on the killer's trail</engexamp></translation>
-				<translation gender="f">track
-					<catexamp>Pista de so</catexamp><engexamp>Sound track</engexamp>
-					<catexamp>Pista d'atletisme</catexamp><engexamp>Athletics track</engexamp>
-					<catexamp>Pista de tennis</catexamp><engexamp>Tennis court</engexamp>
-					<catexamp>Pista de gel/ patinatge</catexamp><engexamp>Ice rink / skating rink</engexamp>
-					<catexamp>Pista de ball</catexamp><engexamp>Dance floor </engexamp>
-					<catexamp>Pista d'aterratge</catexamp><engexamp>Runway / airstrip / landing strip</engexamp>
-				</translation>
+				<translation gender="f">track</translation>
 			</translations>
 		</nouns>
-	</Entry>
-         <Entry frequency="14700">pista d'aterratge<nouns>
-			<translations><date>0905</date>
-				<translation catagory="transport" gender="f">runway / airstrip / landing strip</translation>
-			</translations>
-		</nouns>
-	</Entry>
-                 <Entry frequency="2620">pista d'atletisme<nouns>
-			<translations><date>0905</date>
-				<translation catagory="sports-event-athletics" gender="f">athletics track</translation>
-			</translations>
-		</nouns>
-	</Entry>
-                 <Entry frequency="1090">pista de ball<nouns>
-			<translations><date>0905</date>
-				<translation gender="f">dance floor</translation>
-			</translations>
-		</nouns>
-	</Entry>
-         <Entry frequency="2470">pista de gel<nouns>
-			<translations><date>0905</date>
-				<translation catagory="sports-event-iceskating" gender="f">ice rink</translation>
-			</translations>
-		</nouns>
-	</Entry>
-                 <Entry frequency="910">pista de tennis<nouns>
-			<translations><date>0905</date>
-				<translation catagory="sports-event-tennis" gender="f">tennis court</translation>
-			</translations>
-		</nouns>
+                <expressions>pista d'aterratge
+                    <translations>
+                        <translation catagory="transport" gender="f">runway / airstrip / landing strip</translation>
+                    </translations>
+                </expressions>
+                <expressions>pista d'atletisme
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="f">athletics track</translation>
+                    </translations>
+                </expressions>
+                <expressions>pista de ball
+                    <translations>
+                        <translation gender="f">dance floor</translation>
+                    </translations>
+                </expressions>
+                <expressions>pista de gel
+                    <translations>
+                        <translation catagory="sports-event-iceskating" gender="f">ice rink</translation>
+                    </translations>
+                </expressions>
+                <expressions>pista de patinatge
+                    <translations>
+                        <translation catagory="sports" gender="f">skating rink</translation>
+                    </translations>
+                </expressions>
+                <expressions>pista de so
+                    <translations>
+                        <translation catagory="entertainment-music" gender="f">sound track</translation>
+                    </translations>
+                </expressions>
+                <expressions>pista de tennis
+                    <translations>
+                        <translation catagory="sports-event-tennis" gender="f">tennis court</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="292">pistatxo<nouns>
 			<translations>
@@ -5522,46 +5511,51 @@
 			</translations>
 		</nouns>
 	</Entry>
-         <Entry frequency="280000">plaure<verbs conj="irregular58">
-			<translations><date>0106</date>
-				<translation intransitive="true">to please</translation>
-			</translations>
-		</verbs>
-                <expressions>si us plau
-                <translations>
-                <translation>please</translation>
+        <Entry frequency="390000">plaure<verbs conj="irregular58">
+                <translations><date>0709</date>
+                    <translation intransitive="true">to please</translation>
                 </translations>
-                </expressions>
-	</Entry>
+            </verbs>
+            <expressions>si et plau
+                <translations>
+                    <translation>please<engnote>'Si et plau' is the familiar way of saying 'please' (to those you would use 'tu' with').</engnote></translation>
+                </translations>
+            </expressions>
+            <expressions>si us plau
+                <translations>
+                    <translation>please</translation>
+                </translations>
+            </expressions>
+        </Entry>
         <Entry frequency="642">plausible<adjectives>
 			<translations><date>0505</date>
 				<translation>plausible</translation>
 			</translations>
 		</adjectives>
 	</Entry>
-	<Entry frequency="111000">ple<adjectives>
-			<translations>
-				<translation>full<fems>plena</fems>
-					<plural>plens</plural>
-				</translation>
-			</translations>
-		</adjectives>
-                <expressions>ple a vessar
+        <Entry frequency="111000">ple<adjectives>
                 <translations>
-                <translation>full to the brim / full to bursting / (jam)-packed<plural>plens a vessar</plural><fems>plena a vessar</fems></translation></translations></expressions>
-                <expressions>ple com un ou
+                    <translation>full<fems>plena</fems>
+                        <plural>plens</plural>
+                    </translation>
+                </translations>
+            </adjectives>
+            <expressions>ple a vessar
                 <translations>
-                <translation>full to the brim / full to bursting / (jam)-packed<plural>plens com un ou</plural><fems>plena com un ou</fems></translation></translations></expressions>
-                <expressions>ple de gom a gom
+                    <translation>full to the brim / full to bursting / (jam)-packed</translation>
+                </translations>
+            </expressions>
+            <expressions>ple com un ou
                 <translations>
-                <translation>full to the brim / full to bursting / (jam)-packed<plural>plens de gom a gom</plural><fems>plena de gom a gom</fems></translation></translations></expressions>
-	</Entry>
-	<Entry frequency="747">ple a vessar<adjectives>
-			<translations>
-				<translation>full to the brim / full to bursting / (jam)-packed<fems>plena a vessar</fems><plural>plens a vessar</plural></translation>
-			</translations>
-		</adjectives>
-	</Entry>
+                    <translation>full to the brim / full to bursting / (jam)-packed</translation>
+                </translations>
+            </expressions>
+            <expressions>ple de gom a gom
+                <translations>
+                    <translation>full to the brim / full to bursting / (jam)-packed</translation>
+                </translations>
+            </expressions>
+        </Entry>
  	<Entry frequency="13600">plec<nouns>
 			<translations>
 				<translation gender="m">fold</translation>
@@ -6082,15 +6076,24 @@
 		</verbs>
 		<nouns>
 			<translations>
-				<translation gender="m">power<catexamp>En poder de</catexamp><engexamp>In the possession of</engexamp><catexamp>El Quart Poder</catexamp><engexamp>The Fourth Estate</engexamp></translation>
+				<translation gender="m">power</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="3100">poder adquisitiu<nouns>
-			<translations>
-				<translation gender="m">spending power</translation>
-			</translations>
-		</nouns>
+                <expressions>poder adquisitiu
+                    <translations>
+                        <translation gender="m">spending power</translation>
+                    </translations>
+                </expressions>
+                <expressions>el Quart Poder
+                    <translations>
+                        <translation>the Fourth Estate</translation>
+                    </translations>
+                </expressions>
+                <expressions>en poder de
+                    <translations>
+                        <translation>in the possession of</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="13100">poderós<adjectives>
 			<translations>
@@ -6430,12 +6433,11 @@
 				<translation>políticament</translation>
 			</translations>
 		</adverbs>
-	</Entry>
-          <Entry frequency="3680">políticament correcte<adjectives>
-			<translations><date>0705</date>
-				<translation>políticament correcte<fems>políticament correcta</fems></translation>
-			</translations>
-		</adjectives>
+                <expressions>políticament correcte
+                    <translations>
+                        <translation>politically correct</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="12700">politja<nouns>
 			<translations><date>0306</date>
@@ -6651,18 +6653,7 @@
                 </translations>
                 </expressions>
 	</Entry>
-        <Entry frequency="959">pompes fúnebres<nouns>
-			<translations><date>0306</date>
-				<translation gender="fpl">funeral ceremony</translation>
-			</translations>
-		</nouns>
-                <expressions>(servei / empresa / negoci) de pompes fúnebres
-                <translations>
-                <translation>funeral parlour (Br.) / funeral parlor (Am.) / funeral home</translation>
-                </translations>
-                </expressions>
-	</Entry> 
-	<Entry frequency="160">pòmul<nouns>
+        <Entry frequency="160">pòmul<nouns>
 			<translations>
 				<translation catagory="body" gender="m">cheekbone</translation>
 			</translations>
@@ -6794,6 +6785,11 @@
 				<translation catagory="animal-animal" gender="m">pig</translation>
 			</translations>
 		</nouns>
+                <expressions>porc formiguer
+                    <translations>
+                        <translation catagory="animal-animal" gender="m">aardvark</translation>
+                    </translations>
+                </expressions>
                 <expressions>cort de porcs
                     <translations>
                         <translation catagory="animal" gender="f">(pig)sty<synonyms>porquera, porcatera, porcellera, soll</synonyms></translation>
@@ -6818,13 +6814,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="84">porc formiguer<nouns>
-			<translations><date>0906</date>
-				<translation catagory="animal-animal" gender="m">aardvark</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="184000">porcí<adjectives>
+        <Entry frequency="184000">porcí<adjectives>
                             <translations><date>0908</date>
 				<translation catagory="animal">porcine (tec.) / pig<fems>porcina</fems><plural>porcins</plural></translation>
 			</translations>
@@ -6832,6 +6822,11 @@
                 <expressions>carn porcina
                     <translations>
                         <translation catagory="food-meat" gender="f">pork</translation>
+                    </translations>
+                </expressions>
+                <expressions>grip porcina
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">swine flu</translation>
                     </translations>
                 </expressions>
                 <expressions>pesta porcina
@@ -7206,11 +7201,18 @@
 			</translations>
 		</nouns>
                 </Entry>
-        <Entry frequency="28700">posta de sol<nouns>
-			<translations><date>1206</date>
-				<translation gender="f">sunset<synonyms>ocàs</synonyms></translation>
-			</translations>
-		</nouns>
+                <Entry frequency="219000">posta<nouns>
+                        <translations><date>0709</date>
+                        <translation gender="f">post</translation>
+                            <translation catagory="animal" gender="f">laying</translation>
+                            <translation gender="f">stake</translation>
+                        </translations>
+                    </nouns>
+                    <expressions>posta de sol
+                        <translations>
+                            <translation gender="f">sunset<synonyms>ocàs</synonyms></translation>
+                        </translations>
+                    </expressions>
 	</Entry>
 	<Entry frequency="62500">postal<nouns>
 			<translations>
@@ -8396,6 +8398,16 @@
                         <translation gender="m">first</translation>
                     </translations>
                 </nouns>
+                <expressions>primer ministre
+                    <translations>
+                        <translation catagory="politics" gender="m / f">prime minister<fems>primer ministra</fems></translation>
+                    </translations>
+                </expressions>
+                <expressions>primers auxilis
+                    <translations>
+                        <translation catagory="medical" gender="mpl">first aid</translation>
+                    </translations>
+                </expressions>
                 <expressions>a primers de
                 <translations>
                 <translation>at the beginning of<catexamp>A primers de juliol</catexamp><engexamp>At the beginning of July</engexamp></translation>
@@ -8413,20 +8425,7 @@
 			</translations>
 		</adverbs>
 	</Entry>
-	<Entry frequency="7200">primer ministre<nouns>
-			<translations><date>0405</date>
-				<translation catagory="politics" gender="m / f">prime minister<fems>primer ministra</fems>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="9360">primers auxilis<nouns>
-			<translations><date>0805</date>
-				<translation gender="mpl">first aid</translation>
-			</translations>
-		</nouns>
-	</Entry>
-                     <Entry frequency="207">primesa<nouns>
+        <Entry frequency="207">primesa<nouns>
 			<translations><date>0106</date>
 				<translation gender="f">thinness<synonyms>primor</synonyms></translation>
 			</translations>
@@ -10059,6 +10058,12 @@
                         <translation>ellipsis</translation>
                     </translations>
                 </expressions>
+                <expressions>punt verd
+                    <translations>
+                        <translation gender="m">recycling centre / tip<engnote>A 'punt verd' is a type of recycling centre where you can take recyclable household appliances (old computers / small electrical appliances etc.), reusable items (toner cartridges, clothes, shoes, small electrical appliances...) and special items that can't be disposed of with ordinary rubbish (batteries, oil, paint, aerosols etc.)</engnote>
+                        </translation>
+                    </translations>
+                </expressions>
                 <expressions>punt volat
                     <translations>
                         <translation gender="m">middle dot</translation>
@@ -10173,13 +10178,6 @@
                                 <translation>to score</translation>
                                 </translations>
 		</verbs>
-	</Entry>
-	<Entry frequency="873">punt verd<nouns>
-			<translations>
-				<translation gender="m">recycling centre / tip<engnote>A 'punt verd' is a type of recycling centre where you can take recyclable household appliances (old computers / small electrical appliances etc.), reusable items (toner cartridges, clothes, shoes, small electrical appliances...) and special items that can't be disposed of with ordinary rubbish (batteries, oil, paint, aerosols etc.)</engnote>
-				</translation>
-			</translations>
-		</nouns>
 	</Entry>
         <Entry frequency="92000">punxa<nouns>
 			<translations><date>0606</date>

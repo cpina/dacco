@@ -1410,12 +1410,11 @@
 				<translation catagory="food-dairy" gender="f">butter</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="80">mantega de cacau<nouns>
-			<translations>
-				<translation gender="f">cocoa butter</translation>
-			</translations>
-		</nouns>
+                <expressions>mantega de cacau
+                    <translations>
+                        <translation gender="f">cocoa butter</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="184000">manteniment<nouns>
 			<translations>
@@ -1500,12 +1499,11 @@
 				<translation gender="m">map</translation>
 			</translations>
 		</nouns>
-	</Entry>
-              	<Entry frequency="461">mapa de bits<nouns>
-			<translations><date>0805</date>
-				<translation catagory="computers" gender="f">bitmap</translation>
-			</translations>
-		</nouns>
+                <expressions>mapa de bits
+                    <translations>
+                        <translation catagory="computers" gender="f">bitmap</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="100">mapar<verbs conj="regular">
 			<translations>
@@ -2591,6 +2589,11 @@
                                 <translation gender="m">married couple</translation>
 			</translations>
 		</nouns>
+                <expressions>matrimoni homosexual
+                    <translations>
+                        <translation gender="m">same-sex marriage / gay marriage</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="4820">matrimonial<adjectives>
 			<translations>
@@ -2598,13 +2601,7 @@
 			</translations>
 		</adjectives>
 	</Entry>
-        <Entry frequency="588">matrimonis homosexuals<nouns>
-			<translations><date>0405</date>
-				<translation gender="mpl">gay marriage</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="9460">matriu<nouns>
+      	<Entry frequency="9460">matriu<nouns>
 			<translations>
 				<translation disambiguate="body" gender="f">womb</translation>
                                 <translation disambiguate="computers-programming" gender="f">array</translation>
@@ -2770,6 +2767,11 @@
 				<translation gender="m">medium</translation>
 			</translations>
 		</nouns>
+                <expressions>medi ambient
+                    <translations>
+                        <translation gender="m">environment</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="12700">mediació<nouns>
 			<translations>
@@ -2781,12 +2783,6 @@
 	<Entry frequency="4750">mediador<nouns>
 			<translations>
 				<translation gender="m / f">mediator<synonyms>mitjancer</synonyms><fems>mediadora</fems></translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="173000">medi ambient<nouns>
-			<translations>
-				<translation gender="m">environment</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2894,12 +2890,11 @@
 				<translation gender="f">marrow</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="483">medul·la òssia<nouns>
-			<translations>
-				<translation catagory="medical" gender="f">bone marrow</translation>
-			</translations>
-		</nouns>
+                <expressions>medul·la òssia
+                    <translations>
+                        <translation catagory="medical" gender="f">bone marrow</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1010">medusa<nouns>
 			<translations>
@@ -3139,31 +3134,28 @@
 				<translation gender="f">memory</translation>
 			</translations>
 		</nouns>
+                <expressions>memòria anual
+                    <translations>
+                        <translation gender="f">annual report</translation>
+                    </translations>
+                </expressions>
+                <expressions>memòria cau
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="f">cache</translation>
+                    </translations>
+                </expressions>
+                <expressions>memòria USB
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="f">USB flash drive / USB pen drive / USB stick</translation>
+                    </translations>
+                </expressions>
                 <expressions>saber (una cosa) de memòria
                     <translations>
                         <translation>to know (something) (off) by heart</translation> 
                     </translations>
                 </expressions>
 	</Entry>
-        <Entry frequency="14300">memòria anual<nouns>
-			<translations><date>0805</date>
-				<translation gender="f">annual report</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="472">memòria cau<nouns>
-			<translations>
-				<translation catagory="computers" termcat="true" gender="f">cache</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="2650">memòria USB<nouns>
-			<translations><date>1007</date>
-				<translation catagory="computers" termcat="true" gender="f">USB flash drive / USB pen drive / USB stick</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="1840">memoritzar<verbs conj="regular">
+       	<Entry frequency="1840">memoritzar<verbs conj="regular">
 			<translations>
 				<translation>to memorize</translation>
 			</translations>
@@ -3283,20 +3275,18 @@
 				<translation catagory="medical-illness" gender="f">meningitis</translation>
 			</translations>
 		</nouns>
+                <expressions>meningitis meningocòccia
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">meningococcal meningitis</translation>
+                    </translations>
+                </expressions>
+                <expresssions>meningitis pneumocòccia
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">pneumococcal meningitis</translation>                    
+                    </translations>
+                </expresssions>
 	</Entry>
-	<Entry frequency="26">meningitis meningocòccica<nouns>
-			<translations>
-				<translation catagory="medical-illness" gender="f">meningococcal meningitis</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="5">meningitis pneumocòccica<nouns>
-			<translations>
-				<translation catagory="medical-illness" gender="f">pneumococcal meningitis</translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="1710">menisc<nouns>
+	<Entry frequency="1710">menisc<nouns>
 			<translations><date>1007</date>
 				<translation gender="m">meniscus</translation>
 			</translations>
@@ -4045,12 +4035,11 @@
 				<translation gender="m">metre (Br.) / meter (Am.)</translation>
 			</translations>
 		</nouns>
-	</Entry>
-	<Entry frequency="24300">metre quadrat<nouns>
-			<translations><date>0605</date>
-				<translation gender="m">metre squared (Br.) / meter squared (Am.)</translation>
-			</translations>
-		</nouns>
+                <expressions>metre quadrat
+                    <translations>
+                        <translation gender="m">metre squared (Br.) / meter squared (Am.)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="59600">metro<nouns>
 			<translations><date>0605</date>
@@ -4508,6 +4497,12 @@
                                 <translation>best</translation>
 			</translations>
 		</adjectives>
+                <expressions>millor amic
+                    <translations>
+                        <translation gender="m / f">best friend<fems>millora amiga</fems><femplural>millors amigues</femplural>
+                        </translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="86500">millora<nouns>
 			<translations>
@@ -4515,13 +4510,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="4660">millor amic<nouns>
-			<translations><date>0805</date>
-				<translation gender="m / f">best friend<fems>millor amiga</fems><femplural>millors amigues</femplural></translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="5700000">millorar<verbs conj="regular">
+      	<Entry frequency="5700000">millorar<verbs conj="regular">
                             <translations><date>0209</date>
 				<translation transitive="true">to improve / to better / to boost</translation>
                                 <translation intransitive="true">to improve</translation>
@@ -5321,14 +5310,13 @@
 				<translation catagory="work-job" gender="m / f">model</translation>
 			</translations>
 		</nouns>
+                <expressions>model ocult de Markov
+                    <translations>
+                        <translation termcat="telecom" gender="m">hidden Markov model</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-           <Entry frequency="60">model ocult de Markov<nouns>
-			<translations><date>1007</date>
-				<translation termcat="telecom" gender="m">hidden Markov model</translation>
-			</translations>
-		</nouns>
-	</Entry>
-           <Entry frequency="9550">mòdem<nouns>
+        <Entry frequency="9550">mòdem<nouns>
 			<translations><date>1007</date>
 				<translation termcat="telecom" gender="m">modem</translation>
 			</translations>
@@ -5515,6 +5503,16 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>molí d'aigua
+                    <translations>
+                        <translation gender="m">watermill</translation>
+                    </translations>
+                </expressions>
+                <expressions>molí de vent
+                    <translations>
+                        <translation gender="m">windmill</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="887">molibdè<nouns>
                             <translations><date>0508</date>
@@ -5522,21 +5520,7 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="250">molí d'aigua<nouns>
-			<translations><date>1006</date>
-				<translation gender="m">watermill<plural>molins d'aigua</plural>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="1430">molí de vent<nouns>
-			<translations>
-				<translation gender="m">windmill<plural>molins de vent</plural>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-	<Entry frequency="3130">moliner<nouns>
+       	<Entry frequency="3130">moliner<nouns>
 			<translations>
 				<translation catagory="work-job" gender="m / f">miller<fems>molinera</fems></translation>
 			</translations>
