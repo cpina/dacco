@@ -981,22 +981,38 @@
 		</adjectives>
 	</Entry>
 	<Entry frequency="65700">sec<adjectives>
-			<translations>
-				<translation>dry<fems>seca</fems><femplural>seques</femplural>
-				</translation>
+                            <translations><date>0709</date>
+				<translation>dry</translation>
+                                <translation>dried<fems>seca</fems><femplural>seques</femplural></translation>
 			</translations>
 		</adjectives>
+                <expressions>en sec
+                    <translations>
+                        <translation>abruptly / suddenly</translation>
+                    </translations>
+                </expressions>
+                <expressions>paret seca
+                    <translations>
+                        <translation gender="f">drystone wall (Br.) / dry wall (Am.)</translation>
+                    </translations>
+                </expressions>   
+                <expressions>vi sec
+                    <translations>
+                        <translation catagory="food-drink" gender="m">dry wine</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-        <Entry frequency="1700000">secció<nouns>
-			<translations><date>0607</date>
-				<translation gender="f">section<plural>seccions</plural></translation>
+        <Entry frequency="3770000">secció<nouns>
+			<translations><date>0709</date>
+				<translation gender="f">section</translation>
+                                <translation gender="f">cutting up</translation>
 			</translations>
 		</nouns>
 	</Entry>
           <Entry frequency="777">seccionar<verbs>
 			<translations><date>0607</date>
-				<translation>to cut sth (up) / to cut sth (up) into pieces (or sections) / to divide sth into pieces (or sections)</translation>
-                                <translation>to dismember (un cadàver)</translation>
+				<translation transitive="true">to cut sth (up) / to cut sth (up) into pieces (or sections) / to divide sth into pieces (or sections)</translation>
+                                <translation transitive="true">to dismember (un cadàver)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1030,8 +1046,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="29800">secret<nouns>
-			<translations>
+	<Entry frequency="878000">secret<nouns>
+                            <translations><date>0709</date>
 				<translation gender="m">secret</translation>
 			</translations>
 		</nouns>
@@ -1040,6 +1056,32 @@
 				<translation>secret<fems>secreta</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>secret d'estat
+                    <translations>
+                        <translation gender="m">state secret</translation>
+                    </translations>
+                </expressions>
+                <expressions>en secret
+                    <translations>
+                        <translation>in secret / secretly</translation>
+                    </translations>
+                </expressions>
+                <expressions>guardar un secret
+                    <translations>
+                        <translation>to keep a secret</translation>
+                    </translations>
+                </expressions>
+                <expressions>policia secreta
+                    <translations>
+                        <translation gender="f">secret police</translation>
+                    </translations>
+                </expressions>                
+	</Entry>
+         <Entry frequency="17300">secretament<adverbs>
+			<translations><date>0708</date>
+				<translation>secretly</translation>
+			</translations>
+		</adverbs>
 	</Entry>
         <Entry frequency="3100">secretar<verbs conj="regular">
 			<translations><date>0408</date>
@@ -1128,7 +1170,7 @@
 	</Entry>
        <Entry frequency="90300">secundar<verbs conj="regular">
 			<translations><date>1208</date>
-				<translation>to support</translation>
+				<translation transitive="true">to support / to back</translation>
 			</translations>
                 </verbs>
 	</Entry>
@@ -1180,11 +1222,23 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="252">sedimentar<verbs conj="regular">
-			<translations><date>0505</date>
+        <Entry frequency="22500">sedimentar<verbs conj="regular">
+			<translations><date>0709</date>
 				<translation>to settle<synonyms>dipositar</synonyms></translation>
+                                <translation reflexive="sedimentar-se">to settle</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        <Entry frequency="7620">sedimentari<adjectives>
+                            <translations><date>0709</date>
+				<translation>sedimentary<fems>sedimentària</fems></translation>
+			</translations>
+		</adjectives>
+                <expressions>roca sedimentària
+                    <translations>
+                        <translation catagory="geography" gender="f">sedimentary rock</translation>
+                    </translations>
+                </expressions>
 	</Entry>
                 <Entry frequency="28400">seducció<nouns>
 			<translations><date>0707</date>
@@ -1219,7 +1273,7 @@
         <Entry frequency="550">segador<nouns>
 			<translations>
 				<translation catagory="work-job" gender="m / f">harvester</translation>
-                                <translation catagory="encyclopaedic" sourceplural="els Segadors">Catalan national anthemn<engnote>'Els Segadors' is the national anthemn of Catalonia.  Enter the following link in another window to listen: http://link.toolbot.com/segadors/8422.  The words are as follows: 'Catalunya, triomfant, tornarà a ser rica i plena!  Endarrera aquesta gent Tan ufana i tan superba! Bon cop de falç! Bon cop de falç, defensors de la terra! Bon cop de falç! Ara és hora, segadors! Ara és hora d'estar alerta! Per quan vingui un altre juny. Esmolem ben bé les eines! Bon cop de falç! Bon cop de falç, defensors de la terra! Bon cop de falç! Que tremoli l'enemic. En veient la nostra ensenya. Com fem caure espigues d'or, Quan convé seguem cadenes! Bon cop de falç! Bon cop de falç, defensors de la terra! Bon cop de falç!'</engnote>
+                                <translation catagory="encyclopaedic" sourceplural="els Segadors">Catalan national anthemn<engnote>'Els Segadors' is the national anthemn of Catalonia.  Enter the following link in another window to listen: http://link.toolbot.com/segadors/8422.  The words are as follows: 'Catalunya, triomfant, tornarà a ser rica i plena!  Endarrera aquesta gent tan ufana i tan superba! Bon cop de falç! Bon cop de falç, defensors de la terra! Bon cop de falç! Ara és hora, segadors! Ara és hora d'estar alerta! Per quan vingui un altre juny. Esmolem ben bé les eines! Bon cop de falç! Bon cop de falç, defensors de la terra! Bon cop de falç! Que tremoli l'enemic. En veient la nostra ensenya. Com fem caure espigues d'or, Quan convé seguem cadenes! Bon cop de falç! Bon cop de falç, defensors de la terra! Bon cop de falç!'</engnote>
 				</translation>
 			</translations>
 		</nouns>
@@ -2246,7 +2300,7 @@
 <Entry frequency="0">setaigüer<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Setaigües</translation></translations></nouns><adjectives><translations><translation>relating to Setaigües or its people<fems>setaigüera</fems></translation></translations></adjectives></Entry>
         <Entry frequency="15200">setciències<nouns>
 			<translations><date>0506</date>
-				<translation gender="mf">know-all / know-it-all</translation>
+				<translation gender="m / f">know-all / know-it-all</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2490,11 +2544,16 @@
 			</translations>
 		</verbs>
 	</Entry>
-        <Entry frequency="396000">signatura<nouns>
-			<translations><date>0106</date>
+        <Entry frequency="1310000">signatura<nouns>
+			<translations><date>0709</date>
 				<translation gender="f">signature</translation>
 			</translations>
 		</nouns>
+                <expressions>signatura electrònica
+                    <translations>
+                        <translation catagory="computers-internet" gender="f">electronic signature</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="379000">signe<nouns>
 			<translations><date>0807</date>
