@@ -6073,27 +6073,23 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="5340000">sewing<nouns>
-
-			<translations>
-
+	</Entry><Entry frequency="32100000">sewing<nouns>
+                            <translations><date>0709</date>
 				<translation gender="f">costura</translation>
-
 			</translations>
-
 		</nouns>
-
-	</Entry><Entry frequency="217000">sewing kit<nouns>
-
-			<translations>
-
-				<translation gender="m">cosidor / costurer</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="1010000000">sex<nouns>
+                <expressions>sewing kit
+                    <translations>
+                        <translation gender="m">cosidor / costurer</translation>
+                    </translations>
+                </expressions>
+                <expressions>sewing machine
+                    <translations>
+                        <translation gender="f">màquina de cosir</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="1010000000">sex<nouns>
 
 			<translations>
 
@@ -18815,18 +18811,13 @@ s
 			</translations>
 
 		</nouns>
-
-	</Entry><Entry frequency="88000">staple remover<nouns>
-
-			<translations>
-
-				<translation gender="m">llevagrapes</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="76700000">star<nouns>
+                <expressions>staple remover
+                    <translations>
+                        <translation gender="m">llevagrapes</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="76700000">star<nouns>
 
 			<translations>
 
@@ -18879,7 +18870,14 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="22200000">stare<verbs>
+	</Entry>
+         <Entry frequency="4560000">stardom<nouns>
+			<translations><date>0709</date>
+				<translation gender="f">fama</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="22200000">stare<verbs>
 
                             <translations><date>1007</date>
 
@@ -19407,17 +19405,16 @@ s
                 <translations>
 
                 <translation>entelar</translation></translations></phrasalverbs>
-
-	</Entry><Entry frequency="1150000">steam generator<nouns>
-
-			<translations><date>0307</date>
-
-				<translation termcat="energy" gender="m">generador de vapor</translation>
-
-			</translations>
-
-		</nouns>
-
+                <expressions>steam generator
+                    <translations>
+                        <translation termcat="energy" gender="m">generador de vapor</translation>
+                    </translations>
+                </expressions>
+                <expressions>steam turbine
+                    <translations>
+                        <translation termcat="energy" gender="f">turbina de vapor</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="1810000">steamroller<nouns>
 
 			<translations>
@@ -19428,17 +19425,8 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="1130000">steam turbine<nouns>
-
-			<translations><date>0307</date>
-
-				<translation termcat="energy" gender="f">turbina de vapor</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="168000">steatorrhea<nouns>
+	</Entry>
+        <Entry frequency="168000">steatorrhea<nouns>
 
 			<translations><date>0407</date>
 
@@ -19477,28 +19465,18 @@ s
 			</translations>
 
 		</nouns>
-
-	</Entry><Entry frequency="835000">steering column<nouns>
-
-			<translations>
-
-				<translation catagory="transport" gender="f">columna de direcció</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="588000">steering wheel<nouns>
-
-			<translations>
-
-				<translation catagory="transport" gender="m">volant</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="22900000">steep<adjectives>
+                <expressions>steering column
+                    <translations>
+                        <translation catagory="transport" gender="f">columna de direcció</translation>                        
+                    </translations>
+                </expressions>
+                <expressions>steering wheel
+                    <translations>                        
+                        <translation catagory="transport" gender="m">volant</translation>                        
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="22900000">steep<adjectives>
                             <translations><date>1108</date>
 				<translation>(slope) escarpat</translation>
 				<translation>(fall / rise) abrupte / dràstic</translation>
@@ -19533,7 +19511,19 @@ s
 
 		</verbs>
 
-	</Entry><Entry frequency="33000000">stem<nouns>
+	</Entry>
+        <Entry frequency="452000">stegosaurus<nouns>
+
+                            <translations><date>0709</date>
+
+				<translation gender="m">estegosaure<engnote>The Diccionari de l'Institut d'Estudis Catalans and the Diccionari de l'Enciclopèdia Catalana both give 'estegosaures' for 'stegosaurus' but popular usage is 'estegosaure'.</engnote></translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="33000000">stem<nouns>
 
                             <translations><date>1108</date>
 
@@ -21134,6 +21124,12 @@ s
 
 		</nouns>
 
+	</Entry>
+          <Entry frequency="5670000">stratify<verbs ie="true">
+			<translations><date>0709</date>
+				<translation transitive="true">estratificar</translation>
+			</translations>
+		</verbs>
 	</Entry>
         <Entry frequency="2680000">stratigraphy<nouns>
 
