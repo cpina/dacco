@@ -1166,11 +1166,21 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="3260000">fatty acid<nouns>
-			<translations>
-				<translation gender="m">àcid gras</translation>
+        <Entry frequency="25800000">fatty<adjectives>
+                            <translations><date>0709</date>
+				<translation>gras</translation>
 			</translations>
-		</nouns>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="mf">grassonet</translation>
+                    </translations>
+                </nouns>
+                <expressions>fatty acid
+                    <translations>
+                        <translation catagory="biology" gender="m">àcid gras</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="702000">faucet<nouns>
 			<translations>
@@ -3682,17 +3692,21 @@
                 </translations>
                 </nouns>
 	</Entry>
-<Entry frequency="38500000">flight<nouns>
-			<translations>
+<Entry frequency="189000000">flight<nouns>
+                            <translations><date>0709</date>
 				<translation gender="m">vol</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="329000">flight attendant<nouns>
-			<translations>
-				<translation gender="f">hostessa</translation>
-			</translations>
-		</nouns>
+                <expressions>flight attendant
+                    <translations>
+                        <translation gender="mf">auxiliar (de vol) / (fem.) hostessa (de vol)</translation>
+                    </translations>
+                </expressions>
+                <expressions>flight simulator
+                    <translations>
+                        <translation gender="m">simulador de vol</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="4140000">flimsy<adjectives>
                             <translations><date>1008</date>
@@ -3956,6 +3970,18 @@
                 </translations>
                 </verbs>
 	</Entry>
+        <Entry frequency="12400000">flourish<verbs>
+                <translations><date>0709</date>
+                    <translation>créixer vigorosament<example>I dug some fertiliser in around my rose bushes and now they are &lt;b&gt;flourishing&lt;/b&gt;.</example></translation>
+                    <translation>prosperar / florir</translation>
+                </translations>
+            </verbs>
+            <nouns>
+                <translations>
+                    <translation gender="f">floritura</translation>
+                </translations>
+            </nouns>
+        </Entry>
 <Entry frequency="13800000">flow<verbs>
 			<translations>
 				<translation>fluir</translation>
@@ -5497,6 +5523,20 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="6700000">frail<adjectives>
+                            <translations><date>0709</date>
+				<translation>dèbil / feble</translation>
+                                <translation>fràgil / trencadís</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+ <Entry frequency="2280000">frailty<nouns>
+                            <translations><date>0709</date>
+				<translation gender="f">debilitat / feblesa</translation>
+                                <translation gender="f">flaquesa</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="51200000">frame<nouns>
 			<translations><date>0408</date>
                         <translation gender="m">marc</translation>
@@ -5512,12 +5552,11 @@
                         <translation local="gb">declarar algú culpable d'una cosa que no ha fet<synonyms>fit up (Br.)</synonyms></translation>
                     </translations>
                 </verbs>
-	</Entry>
-<Entry frequency="425000">frame relay<nouns>
-                            <translations><date>0508</date>
-				<translation termcat="internet" catagory="computers" gender="m">relé de trama</translation>
-			</translations>
-		</nouns>
+                <expressions>frame relay
+                    <translations>
+                        <translation termcat="internet" catagory="computers" gender="m">relé de trama</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="10800000">framework<nouns>
 			<translations>
@@ -6476,9 +6515,9 @@
                     </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="21400000">fugitive<nouns>
-			<translations>
-				<translation gender="mf">fugitiu</translation>
+<Entry frequency="11600000">fugitive<nouns>
+                            <translations><date>0709</date>
+				<translation gender="mf">fugitiu / pròfug</translation>
 			</translations>
 		</nouns>
                 <adjectives>
