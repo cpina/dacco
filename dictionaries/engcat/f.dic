@@ -926,13 +926,13 @@
             </Entry>
 <Entry frequency="12700000">farmer<nouns>
 			<translations>
-			    <translation gender="mf">agricultor / granger</translation>
+			    <translation catagory="work-job" gender="mf">agricultor / granger</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="891000">farmhouse<nouns>
 			<translations>
-					<translation gender="f">masia / granja</translation>
+                            <translation gender="f">masia / granja</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -947,7 +947,7 @@
 	</Entry>
 <Entry frequency="369000">farmyard<nouns>
 			<translations>
-				<translation gender="m">corral</translation>
+				<translation catagory="animal" gender="m">corral</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -957,6 +957,17 @@
 				</translation>
 			</translations>
 		</nouns>
+	</Entry>
+                <Entry frequency="250000">farrow<verbs>
+                            <translations><date>0709</date>
+				<translation catagory="animal" intransitive="true">garrinar</translation>
+			</translations>
+		</verbs>
+                <nouns>
+                    <translations>
+                        <translation catagory="animal" gender="f">garrinada<synonyms>litter</synonyms></translation>
+                    </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="948000">Farsi<nouns>
 			<translations>
@@ -3191,6 +3202,12 @@
                                 <translation gender="f">instal·lació fixa (o permanent)<engexamp>Fixtures and fittings</engexamp><catexamp>Instal·lacions fixes (o permanents) i parament de la llar</catexamp></translation>
 			</translations>
 		</nouns>
+	</Entry>
+                <Entry frequency="2010000">fizzy<adjectives>
+                            <translations><date>0709</date>
+				<translation>gasós</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="2600000">fjord<nouns>
 			<translations>
