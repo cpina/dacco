@@ -455,11 +455,16 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="571">ganyota<nouns>
-			<translations><date>0705</date>
-				<translation gender="f">(mocking) face / grimace<catexamp>Fer ganyotes</catexamp><engexamp>To pull faces</engexamp><catexamp>Va fer una ganyota de menyspreu</catexamp><engexamp>She grimaced with contempt</engexamp></translation>
+	<Entry frequency="45500">ganyota<nouns>
+			<translations><date>0709</date>
+				<translation gender="f">(mocking) face / grimace / wince<catexamp>Va fer una ganyota de menyspreu</catexamp><engexamp>She grimaced with contempt</engexamp></translation>
 			</translations>
 		</nouns>
+                <expressions>fer ganyotes
+                    <translations>
+                        <translation>to pull faces</translation>
+                    </translations>
+                </expressions>
 	</Entry>	
 	<Entry frequency="72900">garantia<nouns>
 			<translations>
@@ -863,7 +868,7 @@
 	</Entry>
 	<Entry frequency="3370000">gaudir<verbs conj="inceptive">
                             <translations><date>0508</date>
-				<translation intransitive="true">to enjoy<catexamp>Gaudir d'una cosa</catexamp><engexamp>To enjoy something</engexamp></translation>
+				<translation intransitive="true">(~ de) to enjoy<catexamp>Gaudir d'una cosa</catexamp><engexamp>To enjoy something</engexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1024,9 +1029,14 @@
 	</Entry>
         <Entry frequency="60700">genealògic<adjectives>
 			<translations><date>0408</date>
-				<translation>genealogical<catexamp>Arbre genealògic</catexamp><engexamp>Family tree</engexamp><fems>genealògica</fems><femplural>genealògiques</femplural></translation>
+				<translation>genealogical<fems>genealògica</fems><femplural>genealògiques</femplural></translation>
 			</translations>
 		</adjectives>
+                <expressions>arbre genealògic
+                    <translations>
+                        <translation gender="m">family tree</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="486">genealogista<nouns>
 			<translations><date>0408</date>
@@ -1172,9 +1182,14 @@
 	</Entry>
         <Entry frequency="19600">gènic<adjectives>
                             <translations><date>0209</date>
-				<translation catagory="biology">gene<catexamp>Teràpia gènica</catexamp><engexamp>Gene therapy</engexamp><fems>gènica</fems><femplural>gèniques</femplural></translation>
+				<translation catagory="biology">gene<fems>gènica</fems><femplural>gèniques</femplural></translation>
 			</translations>
 		</adjectives>
+                <expressions>teràpia gènica
+                    <translations>
+                        <translation catagory="medical" gender="f">gene therapy</translation>
+                        </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1520">genitals<nouns>
 			<translations>
@@ -1231,11 +1246,14 @@
 	</Entry>
 	<Entry frequency="127000">gent<nouns>
 			<translations>
-				<translation gender="f">people<catexamp>Gent gran</catexamp>
-					<engexamp>Old people / pensioners</engexamp>
-				</translation>
+				<translation gender="f">people</translation>
 			</translations>
 		</nouns>
+                <expressions>gent gran
+                    <translations>
+                        <translation gender="f">old people / pensioners</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="17200">gentada<nouns>
 			<translations><date>0406</date>
@@ -1765,6 +1783,14 @@
          <Entry frequency="493">ginseng<nouns>
 			<translations><date>1006</date>
 				<translation gender="m">ginseng</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="55200">giny<nouns>
+                            <translations><date>0709</date>
+				<translation gender="m">device</translation>
+                                <translation gender="m">stratagem</translation>
+                                <translation disambiguate="computers" gender="m">widget</translation>
 			</translations>
 		</nouns>
 	</Entry>

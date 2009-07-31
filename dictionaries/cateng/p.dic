@@ -3031,9 +3031,14 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="18700">penjar<verbs conj="JtoG">
-			<translations>
-				<translation>to hang</translation>
+	<Entry frequency="206000">penjar<verbs conj="JtoG">
+                            <translations><date>0709</date>
+				<translation transitive="true">to hang</translation>
+                                <translation intransitive="true">to hang</translation>
+                                <translation disambiguate="computers-internet" transitive="true">to upload</translation>
+                                <translation reflexive="penjar-se">to hang yourself</translation>
+                                <translation transitive="true">to fail</translation>
+                                <translation catagory="telephone" transitive="true">to hang up<catexamp>Em va penjar el telèfon</catexamp><engexamp>He hung up on me</engexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3046,7 +3051,7 @@
 	</Entry>
 	<Entry frequency="200">Pennsilvània<nouns>
 			<translations>
-				<translation gender="f">Pennsylvania</translation>
+				<translation catagory="geography" gender="f">Pennsylvania</translation>
 			</translations>
 		</nouns>
 	</Entry>

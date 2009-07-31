@@ -464,12 +464,17 @@
 	</Entry>
         <Entry frequency="917">jurament<nouns>
 			<translations><date>0405</date>
-				<translation catagory="legal" gender="m">oath<catexamp>(Mentir) sota jurament</catexamp><engexamp>(To lie) under oath</engexamp></translation>
+				<translation catagory="legal" gender="m">oath</translation>
 			</translations>
 		</nouns>
                 <expressions>jurament hipocràtic
                     <translations>
-                        <translation gender="m">hippocratic oath</translation>
+                        <translation catagory="medical" gender="m">hippocratic oath</translation>
+                    </translations>
+                </expressions>
+                <expressions>(mentir) sota jurament
+                    <translations>
+                        <translation catagory="legal">(to lie) under oath</translation>
                     </translations>
                 </expressions>
 	</Entry>

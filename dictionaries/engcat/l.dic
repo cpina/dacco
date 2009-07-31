@@ -1081,30 +1081,41 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="116000000">law<nouns>
-			<translations>
-				<translation gender="f">llei<engnote>'Llei' means a 'law' as in 'there is a law against that kind of thing'.</engnote>
+<Entry frequency="815000000">law<nouns>
+                            <translations><date>0709</date>
+				<translation catagory="legal" gender="f">llei<engnote>'Llei' means a 'law' as in 'there is a law against that kind of thing'.</engnote>
 				</translation>
-				<translation gender="m">dret<engnote>'Dret' means 'law' as in the profession (i.e. he's studying law at university).</engnote>
+				<translation catagory="legal" gender="m">dret<engnote>'Dret' means 'law' as in the profession (i.e. he's studying law at university).</engnote>
 				</translation>
 			</translations>
 		</nouns>
                 <expressions>law degree
                     <translations>
-                        <translation gender="f">llicenciatura de dret</translation>
+                        <translation catagory="education, legal" gender="f">llicenciatura de dret</translation>
                     </translations>
                 </expressions>
                 <expressions>law faculty
                     <translations>
-                        <translation gender="f">facultat de dret</translation>
+                        <translation catagory="education, legal" gender="f">facultat de dret</translation>
+                    </translations>
+                </expressions>
+                <expressions>against the law
+                    <translations>
+                        <translation catagory="legal">il·legal</translation>
                     </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="754000">lawful<adjectives>
-			<translations><date>0408</date>
-				<translation catagory="legal">legal / legítim</translation>
+<Entry frequency="20900000">lawful<adjectives>
+			<translations><date>0709</date>
+				<translation catagory="legal" register="formal">legal / legítim<synonyms>legal</synonyms></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="6630000">lawfully<adverbs>
+			<translations><date>0709</date>
+				<translation catagory="legal" register="formal">legalment</translation>
+			</translations>
+		</adverbs>
 	</Entry>
 <Entry frequency="860000">lawmaker<nouns>
 			<translations><date>0408</date>

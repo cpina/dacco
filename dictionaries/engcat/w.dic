@@ -2217,7 +2217,14 @@
 				<translation>extens / estès / difós</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="1660000">widow<nouns>
+	</Entry>
+        <Entry frequency="174000000">widget<nouns>
+			<translations><date>0709</date>
+				<translation catagory="computers" gender="m">giny</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1660000">widow<nouns>
 			<translations><date>0408</date>
 				<translation gender="f">viuda / vídua</translation>
 			</translations>
@@ -2459,17 +2466,26 @@
                     </translations>
                 </nouns>
             </Entry>
-        <Entry frequency="377000000">wind<nouns>
-                            <translations><date>1007</date>
-				<translation catagory="weather" gender="m">vent</translation>
+            <Entry frequency="2990000">wince<nouns>
+                            <translations><date>0709</date>
+				<translation gender="f">ganyota (de dolor)</translation>
 			</translations>
 		</nouns>
-		<adjectives>
-			<translations>
-				<translation>eòlica</translation>
-			</translations>
-		</adjectives>
                 <verbs>
+                    <translations>
+                        <translation>fer una ganyota de dolor</translation>
+                        </translations>
+                </verbs>
+	</Entry>
+        <Entry frequency="251000000">wind<nouns>
+                            <translations><date>0709</date>
+				<translation catagory="weather" gender="m">vent</translation>
+                                <translation beforenoun="true">eòlic</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <past>wound</past>
+                    <partiple>wound</partiple>
                     <translations>
                         <translation>entortolligar</translation>
                     </translations>
