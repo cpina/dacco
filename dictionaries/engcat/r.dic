@@ -177,31 +177,48 @@
 		</nouns>
 
 	</Entry>
-<Entry frequency="102000000">rack<nouns>
-
-             <translations>
-
-				<translation><engexamp>Clothes rack</engexamp><catexamp>Penja-robes</catexamp><engexamp>Luggage rack</engexamp><catexamp>Portaequipatge</catexamp><engexamp>Magazine rack</engexamp><catexamp>Revister</catexamp><engexamp>Roof rack</engexamp><catexamp>Baca</catexamp><engexamp>Towel rack (Am.)</engexamp><catexamp>Tovalloler</catexamp></translation>
-
-                                <translation disambiguate="food-meat" gender="m">carré</translation>
-
-                                <translation sourceplural="the rack" gender="m">poltre</translation>
-
-			</translations>
-
-		</nouns>
-
-                <exclamations>rack off
-
+        <Entry frequency="102000000">rack<nouns>
                 <translations>
-
-                <translation local="au">vés-te'n a pastar fang!</translation>
-
+                    <translation disambiguate="food-meat" gender="m">carré</translation>
+                    <translation sourceplural="the rack" gender="m">poltre</translation>
                 </translations>
-
-                </exclamations>
-
-	<phrasalverbs>rack up<translations><translation register="colloquial" transitive="true">acumular punts (en una competitició)</translation></translations></phrasalverbs></Entry>
+            </nouns>
+            <expressions>clothes rack
+                <translations>
+                    <translation gender="m">penja-robes</translation>
+                </translations>
+            </expressions>
+            <expressions>luggage rack
+                <translations>
+                    <translation gender="m">portaequipatge</translation>
+                </translations>
+            </expressions>
+            <expressions>magazine rack
+                <translations>
+                    <translation gender="m">revister / porta-revistes</translation>
+                </translations>
+            </expressions>
+            <expressions>roof rack
+                <translations>
+                    <translation gender="f">baca</translation>
+                </translations>
+            </expressions>
+            <expressions>towel rack
+                <translations>
+                    <translation local="us" gender="m">tovalloler<otherlocal>towel rail</otherlocal></translation>
+                </translations>
+            </expressions>
+            <exclamations>rack off
+                <translations>
+                    <translation local="au">vés-te'n a pastar fang!</translation>
+                </translations>
+            </exclamations>
+            <phrasalverbs>rack up
+                <translations>
+                    <translation register="colloquial" transitive="true">acumular punts (en una competitició)</translation>
+                </translations>
+            </phrasalverbs>
+        </Entry>
 <Entry frequency="546000">racket<nouns>
 
 			<translations>
@@ -355,12 +372,16 @@
 
 				<translation gender="f">ràdio</translation>
 
-                                <translation beforenoun="true">radiofònic<engexamp>Radio program</engexamp><catexamp>Programa radiofònic</catexamp></translation>
+                                <translation beforenoun="true">radiofònic</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>radio program
+                    <translations>
+                        <translation gender="m">programa radiofònic</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3440000">radioactive<adjectives>
 
@@ -473,16 +494,16 @@
 
 			<translations>
 
-				<translation catagory="chemistry" gender="m">radó<engexamp>Radon gas</engexamp>
-
-					<catexamp>Gas radó</catexamp>
-
-				</translation>
+				<translation catagory="chemistry" gender="m">radó</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>radon gas
+                    <translations>
+                        <translation catagory="chemistry" gender="m">gas radó</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="325000">RAF<engacro>Royal Air Force</engacro>
 
@@ -591,11 +612,7 @@
 	</Entry>
 <Entry frequency="10600000">rail<nouns>
 			<translations>
-				<translation beforenoun="true" catagory="transport">ferroviari<engexamp>Rail disaster</engexamp>
-					<catexamp>Desastre ferroviari</catexamp>
-					<engexamp>Rail(way) tunnel</engexamp>
-					<catexamp>Túnel ferroviari</catexamp>
-				</translation>
+				<translation beforenoun="true" catagory="transport">ferroviari<engexamp>Rail(way) tunnel</engexamp><catexamp>Túnel ferroviari</catexamp></translation>
                                 <translation catagory="transport" gender="m">carril<engnote>'Carril' means the 'rail' on which a train runs.</engnote></translation>
 				<grouptranslation>
 					<translation gender="m">passamà</translation>
@@ -1037,13 +1054,14 @@
 
 	</Entry>
 <Entry frequency="455000000">range<nouns>
-                            <translations><date>0109</date>
+                            <translations><date>0709</date>
                                 <grouptranslation><translation gender="f">gamma</translation>
                                     <translation gender="m">ventall</translation></grouptranslation>
 				<translation catagory="household-room-kitchen" local="us" gender="f">cuina<otherlocal>cooker</otherlocal><synonyms>stove</synonyms></translation>
                                 <translation gender="m">marge / límit</translation>
-                                <translation catagory="geography" gender="f">(mountain range) serralada</translation>
+                                <translation disambiguate="geography" gender="f">(mountain range) serralada</translation>
                                 <translation gender="m">ranxo</translation>
+                                <translation disambiguate="entertainment-music" gender="f">tessitura</translation>
 			</translations>
 		</nouns>
               	</Entry>
@@ -1807,7 +1825,11 @@
 			</translations>
 
 		</verbs>
-
+                <phrasalverbs>reach for
+                <translations>
+                    <translation intransitive="true">allargar la mà per agafar</translation>
+                </translations>
+            </phrasalverbs>
                 <phrasalverbs>reach out
 
                 <translations>
@@ -1822,13 +1844,17 @@
 
 			<translations>
 
-				<translation gender="m">abast<engexamp>Within reach</engexamp><catexamp>A l'abast</catexamp></translation>
+				<translation gender="m">abast</translation>
 
 			</translations>
 
 		</nouns>
-
-	<phrasalverbs>reach for<translations><translation intransitive="true">allargar la mà per agafar</translation></translations></phrasalverbs></Entry>
+                <expressions>within reach
+                    <translations>
+                        <translation>a l'abast</translation>
+                    </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="6100000">react<verbs>
 
 			<translations>
@@ -1872,12 +1898,16 @@
 
 			<translations><date>0307</date>
 
-				<translation termcat="energy" gender="m">reactor<engexamp>Reactor vessel</engexamp><catexamp>Caixa del reactor</catexamp></translation>
+				<translation termcat="energy" gender="m">reactor</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>reactor vessel
+                    <translations>
+                        <translation gender="f">caixa del reactor</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2730000000">read<verbs>
 
@@ -2480,12 +2510,21 @@
 
                 <translations>
 
-                <translation catagory="sports" gender="m">rebot<engexamp>Offensive rebound</engexamp><catexamp>Rebot ofensiu</catexamp><engexamp>Defensive rebound</engexamp><catexamp>Rebot defensiu</catexamp></translation>
+                <translation catagory="sports" gender="m">rebot</translation>
 
                 </translations>
 
                 </nouns>
-
+                <expressions>defensive rebound
+                    <translations>
+                        <translation catagory="sports" gender="m">rebot defensiu</translation>
+                    </translations>
+                </expressions>
+                <expressions>offensive rebound
+                    <translations>
+                        <translation catagory="sports" gender="m">rebot ofensiu</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3840000">rebuild<verbs>
 
@@ -3610,12 +3649,19 @@
 
 			<translations>
 
-				<translation gender="f">reducció<engexamp>Reduction of costs</engexamp><catexamp>Reducció / abaratiment de costos</catexamp></translation>
+				<translation gender="f">reducció</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>reduction of costs
+                    <translations>
+                        <grouptranslation>
+                            <translation gender="f">reducció de costos</translation>
+                            <translation gender="m">abaratiment de costos</translation>
+                        </grouptranslation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4320000">redundant<adjectives>
 
@@ -3880,7 +3926,7 @@
 	</Entry>
 <Entry frequency="118000000">reflect<verbs>
                             <translations><date>0109</date>
-				<translation>reflectir<engexamp>To be reflected</engexamp><catexamp>Reflectir-se</catexamp></translation>
+				<translation>reflectir</translation>
                                 <translation>(think) reflexionar</translation>
 		</translations>
 		</verbs>
@@ -3894,6 +3940,11 @@
                 <translation>reflexionar sobre</translation>
                 </translations>
                 </phrasalverbs>
+                <expressions>be reflected
+                    <translations>
+                        <translation>reflectir-se</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="12900000">reflection<nouns>
 
@@ -3913,20 +3964,34 @@
 		</nouns>
                 <adjectives>
                     <translations>
-                        <translation beforenoun="true">reflex<engexamp>A reflex response</engexamp><catexamp>Una resposta reflexa</catexamp></translation>
+                        <translation beforenoun="true">reflex</translation>
                         </translations>
                 </adjectives>
+                <expressions>reflex action
+                    <translations>
+                        <translation gender="f">acció reflexa</translation>
+                    </translations>
+                </expressions>
+                <expressions>reflex response
+                    <translations>
+                        <translation gender="f">resposta reflexa</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="602000">reflexology<nouns>
 
 			<translations>
 
-				<translation gender="f">reflexologia<engexamp>Foot reflexology</engexamp><catexamp>Reflexologia podal</catexamp></translation>
+				<translation gender="f">reflexologia</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>foot reflexology
+                    <translations>
+                        <translation gender="f">reflexologia podal</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="8470000">reform<nouns>
 
@@ -3937,7 +4002,11 @@
 			</translations>
 
 		</nouns>
-
+                <expressions>reform school
+                    <translations>
+                        <translation gender="m">reformatori</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1910000">reformat<verbs double="true">
 
@@ -3948,17 +4017,6 @@
 			</translations>
 
 		</verbs>
-
-	</Entry>
-<Entry frequency="8470000">reform school<nouns>
-
-			<translations>
-
-				<translation gender="m">reformatori</translation>
-
-			</translations>
-
-		</nouns>
 
 	</Entry>
 <Entry frequency="6050000">refrain<nouns>
@@ -3972,27 +4030,27 @@
 		</nouns>
 
 	</Entry>
-<Entry frequency="95000000">refresh<verbs>
-
+        <Entry frequency="95000000">refresh<verbs>
+                
                 <translations>
-
-                <translation disambiguate="computers" termcat="true">actualitzar</translation>
-
+                    
+                    <translation disambiguate="computers" termcat="true">actualitzar</translation>
+                    
                 </translations>
-
-                </verbs>
-
-                <nouns>
-
-			<translations>
-
-				<translation disambiguate="computers" termcat="true" gender="f">actualització</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry>
+                
+            </verbs>
+            
+            <nouns>
+                
+                <translations>
+                    
+                    <translation disambiguate="computers" termcat="true" gender="f">actualització</translation>
+                    
+                </translations>
+                
+            </nouns>
+            
+        </Entry>
         <Entry frequency="7240000">refreshments<nouns>
 
 			<translations><date>0808</date>
@@ -4008,7 +4066,7 @@
 
 			<translations>
 
-				<translation>refrigerar</translation>
+				<translation transitive="true">refrigerar</translation>
 
 			</translations>
 
@@ -4094,7 +4152,7 @@
 	</Entry>
 <Entry frequency="17800000">refuse<verbs>
 			<translations>
-				<translation>negar<engexamp>To refuse to do something</engexamp><catexamp>Negar a fer alguna cosa</catexamp></translation>
+				<translation>(~ to) negar a</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -4102,19 +4160,11 @@
 				<translation gender="fpl">deixalles / escombraries<synonyms>rubbish, garbage (Am.), trash (Am.)</synonyms><catnote>'Refuse' és una paraula una mica formal. Es més habitual parlar de 'rubbish' en anglès britànic o 'garbage' / 'trash' en anglès americà.</catnote></translation>			
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="10900">refuse truck<nouns>
-
-			<translations>
-
-				<translation catagory="transport" local="us" gender="m">camió d'escombraries<otherlocal>bin lorry</otherlocal>
-
-				</translation>
-
-			</translations>
-
-		</nouns>
-
+                <expressions>refuse truck
+                    <translations>
+                        <translation catagory="transport" local="us" gender="m">camió d'escombraries<otherlocal>bin lorry</otherlocal></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="213000">refute<verbs>
 
@@ -4144,31 +4194,37 @@
 		</nouns>
 
 	</Entry>
-<Entry frequency="16100000">regard<nouns>
-
-			<translations>
-
-                        <translation gender="m">respecte<example>He has little &lt;b&gt;regard&lt;/b&gt; for the truth.</example></translation>
-
-				<translation gender="m">record<engexamp>Best regards</engexamp><catexamp>Amb els millors desitjos</catexamp></translation>
-
-			</translations>
-
-		</nouns>
-
-                <verbs>
-
+        <Entry frequency="16100000">regard<nouns>
+                
                 <translations>
+                    
+                    <translation gender="m">respecte<example>He has little &lt;b&gt;regard&lt;/b&gt; for the truth.</example></translation>
 
-                <translation>considerar<example>I don't &lt;b&gt;regard&lt;/b&gt; that as being significant.</example></translation></translations></verbs>
-
-                <expressions>as regards
-
+                    <translation sourceplural="regards" gender="mpl">records</translation>
+                    
+                </translations>
+                
+            </nouns>
+            
+            <verbs>
+                
                 <translations>
-
-                <translation>pel que fa a / pel que respecta a / tocant a</translation></translations></expressions>
-
-	</Entry>
+                    
+            <translation>considerar<example>I don't &lt;b&gt;regard&lt;/b&gt; that as being significant.</example></translation></translations></verbs>
+            
+            <expressions>as regards
+                
+                <translations>
+                    
+                    <translation>pel que fa a / pel que respecta a / tocant a</translation>
+                </translations>
+            </expressions>
+            <expressions>best regards
+                <translations>
+                    <translation>amb els millors desitjos</translation>
+                </translations>
+            </expressions>
+        </Entry>
 <Entry frequency="33400000">regarding<prepositions>
 
 			<translations>
@@ -4207,27 +4263,7 @@
 		</prepositions>
 
 	</Entry>
-<Entry frequency="3970000">regards<expressions>
 
-			<translations>
-
-				<translation>records / salutacions</translation>
-
-			</translations>
-
-		</expressions>
-
-		<expressions>as regards
-
-			<translations>
-
-				<translation>pel que fa a</translation>
-
-			</translations>
-
-		</expressions>
-
-	</Entry>
 <Entry frequency="151000">regasification<nouns>
 
 			<translations><date>0307</date>
@@ -5350,16 +5386,35 @@
 
 			<translations>
 
-                        <translation local="gb" gender="f">mudança<engexamp>Removal truck (o lorry)</engexamp><catexamp>Camió de mudances</catexamp><engexamp>Removal company</engexamp><catexamp>Empresa de mudances</catexamp></translation>
+                        <translation local="gb" gender="f">mudança</translation>
 
 				<translation gender="f">extracció<synonyms>extraction</synonyms></translation>
 
-                                <translation gender="f">eliminació<engexamp>Stain removal</engexamp><catexamp>Eliminació de taques</catexamp></translation>
+                                <translation gender="f">eliminació</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>removal company
+                    <translations>
+                        <translation gender="f">empresa de mudances</translation>
+                    </translations>
+                </expressions>
+                <expressions>removal truck
+                    <translations>
+                        <translation local="us" gender="f">camió  de mudances<otherlocal>removal van</otherlocal></translation>
+                    </translations>
+                </expressions>
+                <expressions>removal van
+                    <translations>
+                        <translation local="gb" gender="f">camió de mudances<otherlocal>removal truck</otherlocal></translation>
+                    </translations>
+                </expressions>
+                <expressions>stain removal
+                    <translations>
+                        <translation gender="f">eliminació de taques</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="15000000">remove<verbs>
 
@@ -5478,12 +5533,16 @@
 
 			<translations>
 
-				<translation>renovable<engexamp>Renewable energy</engexamp><catexamp>Energia renovable</catexamp></translation>
+				<translation>renovable</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>renewable energy
+                    <translations>
+                        <translation gender="f">energia renovable</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="747000">rennet<nouns>
                             <translations><date>0409</date>
@@ -5655,12 +5714,16 @@
 
 			<translations>
 
-				<translation>reparador<engexamp>Reparative surgery</engexamp><catexamp>Cirurgia reparadora</catexamp></translation>
+				<translation>reparador</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>reparative surgery
+                    <translations>
+                        <translation catagory="medical" gender="f">cirurgia reparadora</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="612000">repatriate<verbs>
 
@@ -6259,7 +6322,7 @@
 
 			<translations>
 
-				<translation gender="f">sol·licitud / petició / demanda<engexamp>Written request</engexamp><catexamp>Instància</catexamp></translation>
+				<translation gender="f">sol·licitud / petició / demanda</translation>
 
           			</translations>
 
@@ -6476,12 +6539,21 @@
 
 			<translations>
 
-				<translation gender="f">remodelació<engexamp>Cabinet (or ministerial) reshuffle</engexamp><catexamp>Remodelació ministerial</catexamp></translation>
+				<translation gender="f">remodelació</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>cabinet reshuffle
+                    <translations>
+                        <translation local="gb" catagory="politics" gender="f">remodelació ministerial</translation>
+                    </translations>
+                </expressions>
+                <expressions>ministerial reshuffle
+                    <translations>
+                        <translation catagory="politics" gender="f">remodelació ministerial</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="24100000">reside<verbs>
 
@@ -6729,18 +6801,18 @@
 
 			<translations>
 
-				<translation gender="m">respecte<engexamp>Mutual respect</engexamp>
-
-					<catexamp>Respecte mutu</catexamp>
-
-				</translation>
+				<translation gender="m">respecte</translation>
 
                                 <translation gender="m">mirament</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>mutual respect
+                    <translations>
+                        <translation gender="m">respecte mutu</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="155000">respectability<nouns>
 
@@ -7278,9 +7350,14 @@
 	</Entry>
           <Entry frequency="1460000">retaliatory<adjectives>
 			<translations><date>0808</date>
-				<translation>de represàlia<engexamp>Retaliatory measures</engexamp><catexamp>Mesures de represàlia</catexamp></translation>
+				<translation>de represàlia</translation>
 			</translations>
 		</adjectives>
+                <expressions>retaliatory measure
+                    <translations>
+                        <translation gender="f">mesura de represàlia</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="6980000">rethink<verbs>
              <past>rethought</past>
@@ -7494,7 +7571,7 @@
 
 				</translation>
 
-                                <translation disambiguate="computers" gender="m">retorn (de carro)<engexamp>Return key</engexamp><catexamp>Tecla retorn</catexamp></translation>
+                                <translation disambiguate="computers" gender="m">retorn (de carro)</translation>
                                 <translation local="gb" gender="m">bitllet d'anada i tornada<example>Two &lt;b&gt;returns&lt;/b&gt; to Brighton please.</example></translation>
 			</translations>
 
@@ -7519,6 +7596,11 @@
 			</translations>
 
 		</adjectives>
+                <expressions>return key
+                    <translations>
+                        <translation catagory="computers" gender="f">tecla retorn</translation>
+                    </translations>
+                </expressions>
                 <expressions>return match
                     <translations>
                         <translation catagory="sports" gender="m">partit de tornada</translation>
@@ -7666,10 +7748,15 @@
                                     <translation gender="ffullform">inversió</translation>
                                     <translation gender="m">capgirament</translation>
                                 </grouptranslation>
-                                <translation gender="m">intercanvi<engexamp>Role reversal</engexamp><catexamp>Intercanvi de papers</catexamp></translation>
+                                <translation gender="m">intercanvi</translation>
                                 <translation gender="f">(of a decision) revocació</translation>
 			</translations>
 		</nouns>
+                <expressions>role reversal
+                    <translations>
+                        <translation gender="m">intercanvi de papers</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="85900000">reverse<verbs>
 
@@ -8497,7 +8584,7 @@
 
 			<translations>
 
-				<translation>dret / destre<engexamp>Right hand</engexamp><catexamp>La mà dreta</catexamp></translation>
+				<translation>dret / destre<engexamp>Right hand</engexamp><catexamp>Mà dreta</catexamp></translation>
 
                                 <translation>correcte<synonyms>correct</synonyms></translation>
 
@@ -8549,12 +8636,16 @@
 
 			<translations><date>0308</date>
 
-                                <translation beforenoun="true">de dreta<engexamp>On the right-hand side</engexamp><catexamp>A la dreta</catexamp></translation>
+                                <translation beforenoun="true">de dreta</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>on the right-hand side
+                    <translations>
+                        <translation>a la dreta</translation>
+                    </translations>
+                </expressions>               
 	</Entry>
 <Entry frequency="10300000">rigid<adjectives>
 
@@ -8673,6 +8764,12 @@
 		</nouns>
 
 	</Entry>
+        <Entry frequency="920000">ringlet<nouns>
+                            <translations><date>0709</date>
+				<translation gender="m">rínxol</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="180000">ring pull<nouns>
 
 			<translations>
@@ -8737,12 +8834,24 @@
 
 				</translation>
 
-                                <translation beforenoun="true">antiavalots / antidisturbis<engexamp>Riot police</engexamp><catexamp>(Policies) antiavalots / antidisturbis</catexamp><engexamp>Riot gear</engexamp><catexamp>Material antiavalots</catexamp></translation>
+                                <translation beforenoun="true">antiavalots / antidisturbis</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>riot gear
+                    <translations>
+                        <translation gender="m">material antiavalots</translation>
+                    </translations>
+                </expressions>
+                <expressions>riot police
+                    <translations>
+                        <grouptranslation>
+                            <translation gender="mpl">antiavalots / antidisturbis</translation>
+                            <translation gender="fpl">policies antiavalots (o antidisturbis)</translation>
+                        </grouptranslation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3980000">rip<nouns>
 
@@ -9187,6 +9296,20 @@
 		</nouns>
 
 	</Entry>
+        <Entry frequency="30500000">robe<nouns>
+                            <translations><date>0709</date>
+				<translation gender="f">toga</translation>
+                                <translation gender="f">sotana<engnote>'Sotana' is the 'robe' a priest wears.</engnote></translation>
+                                <translation gender="m">barnús<engnote>'Barnús' means 'robe' in the sense 'bathrobe'.</engnote></translation>
+			</translations>
+
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation register="formal">vestir(-se)<example>Summer &lt;b&gt;robes&lt;/b&gt; the fields in green.</example><example>The fields were &lt;b&gt;robed&lt;/b&gt; in flowers.</example><example>Deacons and priests, &lt;b&gt;robed&lt;/b&gt; in white, swept out of the church.</example><catnote>(Normalment en veu passiva).</catnote></translation>
+                        </translations>
+                </verbs>
+	</Entry>
 <Entry frequency="92600000">robin<nouns>
 
                             <translations><date>0908</date>
@@ -9466,7 +9589,7 @@
 
 				<translation gender="m">rotllo / rodet</translation>
 
-				<translation gender="m">llista<engexamp>To call roll</engexamp><catexamp>Pasar llista</catexamp></translation>
+				<translation gender="m">llista<engexamp>Call roll</engexamp><catexamp>Passar llista</catexamp></translation>
 
 			</translations>
 
@@ -9634,16 +9757,16 @@
 
 			<translations>
 
-				<translation>romànic<engexamp>Romance languages</engexamp>
-
-					<catexamp>Llengües romàniques</catexamp>
-
-				</translation>
+				<translation>romànic</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>Romance language
+                    <translations>
+                        <translation catagory="linguistics" gender="f">llengua romànica</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="9420000">Romania<nouns>
 
@@ -10029,10 +10152,15 @@
 		</verbs>
                 <nouns>
                     <translations>
-                        <translation gender="f">podridura<engexamp>Dry rot</engexamp><catexamp>Podridura blanca (o seca)</catexamp></translation>
+                        <translation gender="f">podridura</translation>
                         <translation local="gb" register="dated" gender="fpl">bestieses<example>You do talk a lot of &lt;b&gt;rot&lt;/b&gt; sometimes!</example></translation>
                     </translations>
                 </nouns>
+                <expressions>dry rot
+                    <translations>
+                        <translation gender="f">podridura blanca (o seca)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="52300000">rotation<nouns>
 
@@ -10788,9 +10916,14 @@
 	</Entry>
          <Entry frequency="46400000">ruled<adjectives>
 			<translations><date>0709</date>
-				<translation>pautat<engexamp>Ruled paper</engexamp><catexamp>Paper pautat</catexamp><synonyms>lined</synonyms></translation>
+				<translation>pautat<synonyms>lined</synonyms></translation>
 			</translations>
 		</adjectives>
+                <expressions>ruled paper
+                    <translations>
+                        <translation gender="m">paper pautat</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1290000">ruler<nouns>
 
@@ -11097,10 +11230,7 @@
 
                             <translations><date>0608</date>
 
-				<translation catagory="sports-event-athletics" gender="mf">corredor<engexamp>Long-distance runner</engexamp>
-
-					<catexamp>Corredor de fons</catexamp><engexamp>Marathon runner</engexamp><catexamp>Corredor de marató</catexamp>
-				</translation>
+				<translation catagory="sports-event-athletics" gender="mf">corredor</translation>
                                 <translation gender="m">camí de taula</translation>
                                 <translation picture="http://farm1.static.flickr.com/129/366739741_5f04a349b0.jpg" flickr="http://www.flickr.com/photos/cryptik/366739741/" gender="f">catifa</translation>
                                 <translation gender="mf">contrabandista</translation>
@@ -11108,25 +11238,31 @@
 			</translations>
 
 		</nouns>
-
+                <expressions>long-distance runner
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="mf">corredor de fons</translation>
+                    </translations>
+                </expressions>
+                <expressions>marathon runner
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="mf">corredor de marató</translation>
+                    </translations>
+                </expressions>
+                <expressions>middle-distance runner
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="mf">migfondista / corredor de mig fons</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="14100000">running<adjectives>
 
 			<translations>
 
-				<translation>consecutiu<engexamp>For the fourth year running</engexamp>
-
-					<catexamp>Per quart any consecutiu</catexamp>
-
-				</translation>
+				<translation>consecutiu</translation>
 
 				<translation>continu</translation>
 
-				<translation>corrent<engexamp>Running water</engexamp>
-
-					<catexamp>Aigua corrent</catexamp>
-
-				</translation>
+				<translation>corrent</translation>
 
 			</translations>
 
@@ -11147,7 +11283,16 @@
 			</translations>
 
 		</nouns>
-
+                <expressions>running water
+                    <translations>
+                        <translation gender="f">aigua corrent</translation>
+                    </translations>
+                </expressions>
+                <expressions>for the (2nd, 3rd, 4th...) year running
+                    <translations>
+                        <translation>per (segon, tercer, quart..) any consecutiu</translation>
+                    </translations>
+                </expressions>
 		<expressions>in the running
 
 			<translations>
@@ -11412,6 +11557,21 @@
 
 		</nouns>
 
+	</Entry>
+        <Entry frequency="1340000">Rwandan<adjectives>
+
+                            <translations><date>0709</date>
+
+				<translation>rwandès</translation>
+
+			</translations>
+
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation catagory="nationality-africa" gender="mf">rwandès</translation>
+                    </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="3350000">rye<nouns>
 
