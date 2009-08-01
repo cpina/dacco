@@ -476,9 +476,7 @@
 
 			<translations>
 
-				<translation catagory="geography" gender="m">Sàhara<engexamp>Western Sahara</engexamp><catexamp>Sàhara Occidental</catexamp>
-
-				</translation>
+				<translation catagory="geography" gender="m">Sàhara</translation>
 
 			</translations>
 
@@ -690,9 +688,14 @@
 		</nouns>
 	</Entry><Entry frequency="2770000">salicylic<adjectives>
 			<translations><date>0408</date>
-                            <translation catagory="chemistry">salicílic<engexamp>Salicylic acid</engexamp><catexamp>àcid salicílic</catexamp><fems>salicílica</fems><femplural>salicíliques</femplural></translation>
+                            <translation catagory="chemistry">salicílic<fems>salicílica</fems><femplural>salicíliques</femplural></translation>
 			</translations>
 		</adjectives>
+                <expressions>salicylic acid
+                    <translations>
+                        <translation catagory="chemistry" gender="m">àcid salicílic</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="374000">salient<adjectives>
 
 			<translations>
@@ -877,12 +880,26 @@
 
 			<translations>
 
-				<translation>del mateix sexe<engexamp>Same-sex couples</engexamp><catexamp>Parelles del mateix sexe</catexamp><engexamp>Same-sex marriage</engexamp><catexamp>Matrimoni gai</catexamp><engexamp>Same-sex families</engexamp><catexamp>Famílies monoparentals</catexamp></translation>
+				<translation>del mateix sexe</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>same-sex couple
+                    <translations>
+                        <translation gender="f">parella del mateix sexe</translation>
+                    </translations>
+                </expressions>
+                <expressions>same-sex family
+                    <translations>
+                        <translation gender="f">família monoparental</translation>
+                    </translations>
+                </expressions>
+                <expressions>same-sex marriage
+                    <translations>
+                        <translation gender="m">matrimoni del mateix sexe</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="53000000">sample<nouns>
 
 			<translations>
@@ -956,12 +973,16 @@
 
 			<translations>
 
-				<translation catagory="animal-bird" gender="f">xivitona<engexamp>Common sandpiper</engexamp><catexamp>Xivitona vulgar</catexamp></translation>
+				<translation catagory="animal-bird" gender="f">xivitona</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>common sandpiper
+                    <translations>
+                        <translation catagory="animal-bird" gender="f">xivitona vulgar</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="885000">sandpit<nouns>
 
 			<translations><date>0508</date>
@@ -1372,12 +1393,16 @@
 
 			<translations>
 
-				<translation>saturat<engexamp>Saturated fats</engexamp><catexamp>Greixos saturats</catexamp></translation>
+				<translation>saturat</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>saturated fat
+                    <translations>
+                        <translation gender="m">greix saturat</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="39600000">Saturday<nouns>
 
 			<translations>
@@ -2628,7 +2653,7 @@
 
 			<translations>
 
-				<translation>burlar-se<engexamp>To scoff at something</engexamp><catexamp>Burlar-se d'alguna cosa</catexamp></translation>
+				<translation>(~ at) burlar-se (de)</translation>
 
                                 <translation local="gb" register="colloquial">engolir-se / menjar-se<example>'Where's that big packet of chocolate biscuits I bought last night?  You haven't &lt;b&gt;scoffed&lt;/b&gt; the lot already have you?'</example><otherlocal>scarf</otherlocal></translation>
 
@@ -2942,7 +2967,7 @@
 
 			<translations>
 
-				<translation gender="f">ferralla<engexamp>A scrap of...</engexamp><catexamp>Un tros de...</catexamp></translation>
+				<translation gender="f">ferralla</translation>
 
                                 <translation register="colloquial" gender="f">baralla</translation>
 
@@ -2954,8 +2979,19 @@
 
                 <translations>
 
-                <translation register="colloquial">barallar-se</translation></translations></verbs>
-
+                <translation register="colloquial">barallar-se</translation>
+            </translations>
+        </verbs>
+        <expressions>a scrap of ...
+            <translations>
+                <translation>un tros de ...</translation>
+            </translations>
+        </expressions>
+            <expressions>scrap metal
+                <translations>
+                    <translation gender="f">ferralla</translation>
+                </translations>
+            </expressions>
 	</Entry><Entry frequency="16400000">scrape<verbs>
 
                         <translations><date>1007</date>
@@ -3335,7 +3371,7 @@
 
 			<translations>
 
-				<translation>gorrejar<engexamp>To scrounge (off someone)</engexamp><catexamp>Gorrejar (d'algú)</catexamp></translation>
+				<translation>(~ off) gorrejar (de)</translation>
 
 			</translations>
 
@@ -3638,7 +3674,7 @@
 
 			<translations>
 
-				<translation catagory="food" gender="m">peix<engexamp>Seafood restaurant</engexamp><catexamp>Restaurant de peix (i marisc)</catexamp></translation>
+				<translation catagory="food" gender="m">marisc<engexamp>Seafood restaurant</engexamp><catexamp>Restaurant de (peix i) marisc</catexamp></translation>
 
 			</translations>
 
@@ -3908,12 +3944,16 @@
 
 			<translations>
 
-				<translation catagory="medical">seborreic<engexamp>Seborrheic dermatitis</engexamp><catexamp>Dermatitis seborreica</catexamp></translation>
+				<translation catagory="medical">seborreic</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>seborrheic dermatitis
+                    <translations>
+                        <translation catagory="medical-illness" gender="f">dermatitis seborreica</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="3470000">secession<nouns>
 
 			<translations><date>0607</date>
@@ -3944,15 +3984,20 @@
 
 		</adjectives>
 
-	</Entry><Entry frequency="66200000">secondary<adjectives>
+	</Entry><Entry frequency="172000000">secondary<adjectives>
 
-			<translations>
+                            <translations><date>0709</date>
 
 				<translation>secundari</translation>
 
 			</translations>
 
 		</adjectives>
+                    <expressions>secondary sector
+                        <translations>
+                            <translation gender="m">sector secundari</translation>
+                        </translations>
+                    </expressions>
              	</Entry>
                 <Entry frequency="3720000">secondary school<nouns>
 
@@ -4136,12 +4181,12 @@
 
 			<translations>
 
-				<translation gender="m">sector<engexamp>Primary sector</engexamp><catexamp>Sector primari</catexamp><engexamp>Secondary sector</engexamp><catexamp>Sector secundari</catexamp><engexamp>Tertiary sector</engexamp><catexamp>Sector terciari</catexamp></translation>
+				<translation gender="m">sector</translation>
 
 			</translations>
 
 		</nouns>
-
+             
 	</Entry><Entry frequency="42100000">secular<adjectives>
 
 			<translations>
@@ -4242,12 +4287,16 @@
 
 			<translations>
 
-				<translation>sedentari<engexamp>Sedentary lifestyle</engexamp><catexamp>Sedentarisme</catexamp></translation>
+				<translation>sedentari</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>sedentary lifestyle
+                    <translations>
+                        <translation gender="m">sedentarisme</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="7010000">sediment<nouns>
 
 			<translations>
@@ -4694,22 +4743,30 @@
 
                             <translations><date>0508</date>
 
-                            <translation local="gb">amb llevat<engexamp>Self-raising flour</engexamp><catexamp>Farina amb llevat</catexamp><otherlocal>self-rising</otherlocal></translation>
+                            <translation local="gb">amb llevat<otherlocal>self-rising</otherlocal></translation>
 
 			</translations>
 
 		</adjectives>
+                <expressions>self-raising flour
+                    <translations>
+                        <translation local="gb" catagory="food" gender="f">farina amb llevat<otherlocal>self-rising flour</otherlocal></translation>
+                    </translations>
+                </expressions>
+	</Entry><Entry frequency="185000">self-rising<adjectives>
 
-	</Entry><Entry frequency="357000">self rising<adjectives>
+                    <translations><date>0709</date>
 
-                    <translations><date>0508</date>
-
-                        <translation local="us">amb llevat<engexamp>Self-rising flour</engexamp><catexamp>Farina amb llevat</catexamp><otherlocal>self raising</otherlocal></translation>
+                        <translation local="us">amb llevat<otherlocal>self-raising</otherlocal></translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>self-rising flour
+                    <translations>
+                        <translation local="us" catagory="food" gender="f">farina amb llevat<otherlocal>self-raising flour</otherlocal></translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="744000">self-satisfied<adjectives>
 
 			<translations>
@@ -5087,18 +5144,16 @@
 
 			<translations>
 
-				<translation>sensible<engnote>False friend alert: 'Sensible' means 'sensitive' NOT 'sensible'.  Sensible is 'sensat'.</engnote>
-
-					<engexamp>Sensitive skin</engexamp>
-
-					<catexamp>Pell(s) sensible(s)</catexamp>
-
-				</translation>
+				<translation>sensible<engnote>False friend alert: 'Sensible' means 'sensitive' NOT 'sensible'.  Sensible is 'sensat'.</engnote></translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>sensitive skin
+                    <translations>
+                        <translation>pell(s) sensible(s)</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="6610000">sensitivity<nouns>
 
 			<translations>
@@ -5738,24 +5793,26 @@
 
 			<translations>
 
-				<translation catagory="food" gender="m">sèsam<engexamp>Sesame oil</engexamp>
-
-					<catexamp>Oli de sèsam</catexamp>
-
-					<engexamp>Sesame seeds</engexamp>
-
-					<catexamp>Llavors de sèsam</catexamp>
-
-					<engexamp>Sesame Street</engexamp>
-
-					<catexamp>Barri Sèsam</catexamp>
-
-				</translation>
+				<translation catagory="food" gender="m">sèsam</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>sesame oil
+                    <translations>
+                        <translation catagory="food" gender="m">oli de sèsam</translation>
+                    </translations>
+                </expressions>
+                <expressions>sesame seed
+                    <translations>
+                        <translation catagory="food" gender="f">llavor de sèsam</translation>
+                    </translations>
+                </expressions>
+                <expressions>Sesame Street
+                    <translations>
+                        <translation catagory="encyclopaedic" gender="m">Barri Sèsam</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="17400000">session<nouns>
 
 			<translations>
@@ -5945,14 +6002,18 @@
 
 				<translation gender="m">assentament</translation>
 
-                                <translation gender="m">acord<engexamp>Out-of-court settlement</engexamp><catexamp>Acord extrajudicial</catexamp></translation>
+                                <translation gender="m">acord</translation>
 
                                 <translation disambiguate="legal" gender="f">quitança</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>out-of-court settlement
+                    <translations>
+                        <translation catagory="legal" gender="m">acord extrajudicial</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="879000">settler<adjectives>
 
 			<translations>
@@ -7099,12 +7160,26 @@
 
 			<translations><date>0307</date>
 
-				<translation termcat="energy" gender="m">blindatge<engexamp>Biological shielding</engexamp><catexamp>Blindatge biològic</catexamp><engexamp>Lead shielding</engexamp><catexamp>Blindatge de plom</catexamp><engexamp>Magnetic shielding</engexamp><catexamp>Blindatge magnètic</catexamp></translation>
+				<translation termcat="energy" gender="m">blindatge</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>biological shielding
+                    <translations>
+                        <translation termcat="energy" gender="m">blindatge biològic</translation>
+                    </translations>
+                </expressions>
+                <expressions>lead shielding
+                    <translations>
+                        <translation termcat="energy" gender="m">blindatge de plom</translation>
+                    </translations>
+                </expressions>
+                <expressions>magnetic shielding
+                    <translations>
+                        <translation termcat="energy" gender="m">blindatge magnètic</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="8730000">shift<verbs>
 
 			<translations>
@@ -7327,12 +7402,16 @@
 
                                 <translation gender="fpl">despeses de transport<example>Free gifts! Just pay &lt;b&gt;shipping&lt;/b&gt;.</example></translation>
 
-                                <translation beforenoun="true">navegació / (marítim)<engexamp>Shipping forecast</engexamp><catexamp>Pronòstic marítim</catexamp></translation>
+                                <translation beforenoun="true">navegació / (marítim)</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>shipping forecast
+                    <translations>
+                        <translation gender="m">pronòstic marítim</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="277000">shipwreck<nouns>
 
 			<translations>
@@ -8217,39 +8296,35 @@
 
 			<translations>
 
-				<translation gender="f">dutxa<engexamp>To have / take a shower</engexamp>
-
-					<catexamp>Dutxar-se</catexamp>
-
-				</translation>
+				<translation gender="f">dutxa</translation>
 
                                 <translation disambiguate="weather" gender="m">ruixat / xàfec</translation>
 
 			</translations>
 
 		</nouns>
-
-	</Entry><Entry frequency="4360000">shower curtain<nouns>
-
-			<translations><date>1007</date>
-
-				<translation catagory="household-room-bathroom" gender="f">cortina de la dutxa</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="469000">shower gel<nouns>
-
-			<translations>
-
-				<translation catagory="household-room-bathroom" gender="m">gel de dutxa</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="1120000">showerhead<nouns>
+                <expressions>shower curtain
+                    <translations>                       
+                        <translation catagory="household-room-bathroom" gender="f">cortina de la dutxa</translation>                        
+                    </translations>
+                </expressions>
+                <expressions>shower gel
+                    <translations>                        
+                        <translation catagory="household-room-bathroom" gender="m">gel de dutxa</translation>                        
+                    </translations>
+                </expressions>
+                <expressions>have a shower
+                    <translations>
+                        <translation>dutxar-se</translation>
+                    </translations>
+                </expressions>
+                <expressions>take a shower
+                    <translations>
+                        <translation>dutxar-se</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+       <Entry frequency="1120000">showerhead<nouns>
 
 			<translations>
 
@@ -8938,7 +9013,7 @@
 
 				<translation transitive="true">firmar / signar</translation>
 
-				<translation transitive="true" disambiguate="sports-event-football">fitxar<engexamp>To sign for</engexamp><catexamp>Fitxar per</catexamp></translation>
+				<translation transitive="true" disambiguate="sports-event-football">(~ for) fitxar (per)</translation>
 
 			</translations>
 
@@ -9111,14 +9186,18 @@
 
 			<translations>
 
-				<translation gender="m">silenci<engexamp>A minute's silence</engexamp><catexamp>Un minut de silenci</catexamp></translation>
+				<translation gender="m">silenci</translation>
 
 			<translation gender="m">mutisme<engexamp>The response from the government has been silence</engexamp><catexamp>La resposta per part del govern ha estat de mutisme</catexamp></translation>
 
                                 </translations>
 
 		</nouns>
-
+                <expressions>a minute's silence
+                    <translations>
+                        <translation>un minut de silenci</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="9940000">silent<adjectives>
 
 			<translations>
@@ -9373,12 +9452,12 @@
 
 			<translations>
 
-				<translation gender="m">simulador<engexamp>Flight simulator</engexamp><catexamp>Simulador de vol</catexamp></translation>
+				<translation gender="m">simulador</translation>
 
 			</translations>
 
 		</nouns>
-
+              
 	</Entry><Entry frequency="5380000">simultaneous<adjectives>
 
 			<translations>
@@ -9451,17 +9530,22 @@
 
 			<translations>
 
-				<translation>sincerament<engexamp>Yours sincerely (Br.) / Sincerely yours (Am.)</engexamp>
-
-					<catexamp>Atentament / cordialment</catexamp>
-
-				</translation>
+				<translation>sincerament</translation>
 
 			</translations>
 
 		</adverbs>
-
-	</Entry><Entry frequency="327000">sinecure<nouns>
+                <expressions>sincerely yours
+                    <translations>
+                        <translation local="us">atentament / cordialment</translation>
+                    </translations>
+                </expressions>
+                <expressions>yours sincerely
+                    <translations>
+                        <translation local="gb">atentament / cordialment</translation>
+                    </translations>
+                </expressions>
+               	</Entry><Entry frequency="327000">sinecure<nouns>
 
 			<translations>
 
@@ -10033,12 +10117,16 @@
 
 			<translations>
 
-				<translation catagory="number-cardinal">setze<engexamp>Last sixteen</engexamp><catexamp>Vuitens</catexamp></translation>
+				<translation catagory="number-cardinal">setze</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>last sixteen
+                    <translations>
+                        <translation disambiguate="sports" gender="mpl">vuitens</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="376000">sixteenth<adjectives>
 
 			<translations>
@@ -10161,7 +10249,7 @@
 
 			<translations><date>0408</date>
 
-				<translation catagory="sports-event" gender="m">patinatge<engexamp>Ice skating</engexamp><catexamp>Patinatge sobre gel</catexamp><engexamp>Figure skating</engexamp><catexamp>Patinatge artístic</catexamp></translation>
+				<translation catagory="sports-event" gender="m">patinatge</translation>
 
 			</translations>
 
@@ -10515,7 +10603,7 @@
 
 			<translations>
 
-				<translation register="slang" local="gb">que no té diners<synonyms>broke, penniless</synonyms>
+				<translation register="slang" local="gb">que no té ni un duro<synonyms>broke, penniless</synonyms>
 
 					<engexamp>I'm skint</engexamp>
 
@@ -11169,12 +11257,16 @@
 
 			<translations>
 
-				<translation>sense dormir<engexamp>Sleepless nights</engexamp><catexamp>Nits sense dormir</catexamp></translation>
+				<translation>sense dormir</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>sleepless night
+                    <translations>
+                        <translation gender="f">nit sense dormir</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="835000">sleeplessness<nouns>
 
 			<translations>
@@ -11945,7 +12037,7 @@
 
                             <translations><date>1007</date>
 
-				<translation>intel·ligent / astut<engexamp>Smart Alec / smart ass</engexamp><catexamp>Espavilat</catexamp></translation>
+				<translation>intel·ligent / astut</translation>
 
 				<translation>elegant</translation>
 
@@ -11972,7 +12064,16 @@
                     </translations>
 
                 </phrasalverbs>
-
+                <expressions>smart Alec
+                    <translations>
+                        <translation gender="mf">espavilat</translation>
+                    </translations>
+                </expressions>
+                <expressions>smart ass
+                    <translations>
+                        <translation local="us" register="slang" gender="mf">espavilat</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="5630000">smash<verbs>
 
 			<translations><date>0308</date>
@@ -18774,10 +18875,20 @@ s
 		</nouns>
                 <adjectives>
                     <translations>
-                        <translation>dempeus<engexamp>Standing position</engexamp><catexamp>Posició dempeus</catexamp></translation>
-                        <translation>fix / invariable<engexamp>Standing charge</engexamp><catexamp>Quota de servei</catexamp></translation>
+                        <translation>dempeus</translation>
+                        <translation>fix / invariable</translation>
                     </translations>
                 </adjectives>
+                <expressions>standing charge
+                    <translations>
+                        <translation gender="f">quota de servei</translation>
+                    </translations>
+                </expressions>
+                <expressions>standing position
+                    <translations>
+                        <translation gender="f">posició dempeus</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="1580000">St Andrews<nouns>
 			<translations>
@@ -19472,7 +19583,7 @@ s
 
 			<translations>
 
-				<translation catagory="transport" gender="f">direcció<engexamp>Power steering</engexamp><catexamp>Direcció assistida</catexamp></translation>
+				<translation catagory="transport" gender="f">direcció</translation>
 
 			</translations>
 
@@ -19485,6 +19596,11 @@ s
                 <expressions>steering wheel
                     <translations>                        
                         <translation catagory="transport" gender="m">volant</translation>                        
+                    </translations>
+                </expressions>
+                <expressions>power steering
+                    <translations>
+                        <translation catagory="transport" gender="f">direcció assistida</translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -19828,7 +19944,7 @@ s
 	</Entry>
         <Entry frequency="76700000">sterling<nouns>
                             <translations><date>1208</date>
-				<translation catagory="financial" gender="f">lliura esterlina<engexamp>Pound sterling</engexamp><catexamp>Lliura esterlina</catexamp></translation>
+				<translation catagory="financial" gender="f">lliura esterlina</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -19836,6 +19952,11 @@ s
                         <translation register="formal">excel·lent<example>The builder did a &lt;b&gt;sterling job&lt;/b&gt; on our extension.</example></translation>
                     </translations>
                 </adjectives>
+                <expressions>pound sterling
+                    <translations>
+                        <translation gender="f">lliura esterlina</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="11800000">stern<adjectives>
 
