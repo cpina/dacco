@@ -5464,6 +5464,18 @@
 		</nouns>
 
 	</Entry>
+          <Entry frequency="26000000">sequel<nouns>
+
+			<translations><date>0809</date>
+
+				<translation gender="f">continuació<engexamp>'Dark Knight' is the sequel to 'Batman Begins'</engexamp><catexamp>'Dark Knight' és la continuació de 'Batman Begins'</catexamp></translation>
+                                <translation gender="f">seqüela</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
  <Entry frequency="122000000">sequence<nouns>
 			<translations><date>0708</date>
 				<translation gender="f">seqüència / successió</translation>
@@ -12682,12 +12694,16 @@
 
 			<translations>
 
-				<translation catagory="computers" gender="m">detector<engexamp>Sniffer dog</engexamp><catexamp>Gos detector</catexamp></translation>
+				<translation catagory="computers" gender="m">detector</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>sniffer dog
+                    <translations>
+                        <translation gender="m">gos detector</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="637000">snigger<verbs>
 
 			<translations>
@@ -13958,7 +13974,7 @@
 
 					<translation gender="mf">soldat</translation>
 
-					<translation gender="mf">militar<engexamp>Foot soldier</engexamp><catexamp>Peó</catexamp></translation>
+					<translation gender="mf">militar</translation>
 
 				</translation>
 
@@ -13977,7 +13993,11 @@
 			</translations>
 
 		</phrasalverbs>
-
+                <expressions>foot soldier
+                    <translations>
+                        <translation gender="m">peó</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="304000">soldierly<adjectives>
 
@@ -14053,11 +14073,16 @@
 
 			<translations>
 
-				<translation catagory="work-job" gender="mf">advocat<engexamp>Solicitors' office</engexamp><catexamp>Bufet (d'advocats)</catexamp></translation>
+				<translation catagory="work-job" gender="mf">advocat</translation>
 
 			</translations>
 
 		</nouns>
+                <expressions>solicitors' office
+                    <translations>
+                        <translation gender="m">bufet (d'advocats)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="29600000">solid<adjectives>
                             <translations><date>0508</date>
@@ -14128,12 +14153,21 @@
 
 			<translations><date>0406</date>
 
-				<translation gender="m">solstici<engexamp>Summer solstice</engexamp><catexamp>Solstici d'estiu</catexamp><engexamp>Winter solstice</engexamp><catexamp>Solstici d'hivern</catexamp></translation>
+				<translation gender="m">solstici</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>summer solstice
+                    <translations>
+                        <translation gender="m">solstici d'estiu</translation>
+                    </translations>
+                </expressions>
+                <expressions>winter solstice
+                    <translations>
+                        <translation gender="m">solstici d'hivern</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="33600">solstitial<adjectives>
 
 			<translations>
@@ -14642,59 +14676,58 @@
 	</Entry><Entry frequency="68400000">sound<nouns>
                             <translations><date>0408</date>
 				<translation gender="m">so</translation>
-
-                                <translation beforenoun="true">sonar<engexamp>Sound effects</engexamp><catexamp>Efectes sonars</catexamp><engexamp>Soundtrack</engexamp><catexamp>Banda sonora</catexamp></translation>
-
+                                <translation beforenoun="true">sonar</translation>
 			</translations>
-
 		</nouns>
-
                 <adjectives>
-
 			<translations>
-
 				<translation>sòlid / ferm</translation>
-
 				<translation>encertat / sensat<example>A &lt;b&gt;sound&lt;/b&gt; argument</example></translation>
-
 				<translation>contundent<engexamp>A sound defeat</engexamp><catexamp>Una derrota contundent</catexamp></translation>
-
-				<translation>sa<engexamp>Safe and sound</engexamp><catexamp>Sa i estalvi</catexamp></translation>
-
+				<translation>sa</translation>
 			</translations>
-
 		</adjectives>
-
                 <adverbs>
                     <translations>
                       <translation>profundament<engexamp>Sound asleep</engexamp><catexamp>Profundament adormit</catexamp></translation>
                   </translations>
                 </adverbs>
                 <verbs>
-
 			<translations>
-
 				<translation>sonar</translation>
-
 			</translations>
-
 		</verbs>
-
                 <phrasalverbs>sound off
-
                     <translations>
-
                         <translation>expressar-se enèrgicament</translation>
-
                     </translations>
-
                 </phrasalverbs>
-
                 <phrasalverbs>sound out
                     <translations>
                         <translation transitive="true">demanar (a algú) l'opinió</translation>
                     </translations>
                 </phrasalverbs>
+                <expressions>sound box
+                    <translations>
+                        <translation termcat="entertainment-music" gender="f">caixa de ressonància<plural>sound boxes</plural></translation>
+                    </translations>
+                </expressions>
+                <expressions>sound card
+                    <translations>
+                        <translation catagory="computers" termcat="true" gender="f">targeta de so</translation>                        
+                        <translation catagory="computers" gender="f">tarja de so</translation>
+                    </translations>
+                </expressions>
+                <expressions>sound effects
+                    <translations>
+                        <translation gender="mpl">efectes sonars</translation>
+                    </translations>
+                </expressions>
+                <expressions>safe and sound
+                    <translations>
+                        <translation>sa i estalvi</translation>
+                    </translations>
+                </expressions>
             </Entry>
         <Entry frequency="19100">soundboard<nouns>
                     <translations><date>0708</date>
@@ -14702,25 +14735,7 @@
                     </translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="348000">sound box<nouns>
-			<translations><date>0708</date>
-                            <translation termcat="entertainment-music" gender="f">caixa de ressonància<plural>sound boxes</plural></translation>
-			</translations>
-		</nouns>
-	</Entry>
-        <Entry frequency="2100000">sound card<nouns>
-
-			<translations>
-
-				<translation catagory="computers" termcat="true" gender="f">targeta de so</translation>
-
-                                <translation catagory="computers" gender="f">tarja de so</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="85000">soundproof<verbs>
+        <Entry frequency="85000">soundproof<verbs>
 
 			<translations>
 
@@ -15416,14 +15431,23 @@
 
                         <translation>espurnejant</translation>
 
-			<translation catagory="food-drink">escumós<engexamp>Sparkling wine</engexamp><catexamp>Vi escumós</catexamp></translation>
+			<translation catagory="food-drink">escumós</translation>
 
-                        <translation catagory="food-drink">amb gas<engexamp>Sparkling water</engexamp><catexamp>Aigua amb gas</catexamp><synonyms>fizzy</synonyms></translation>
+                            <translation catagory="food-drink">amb gas<synonyms>fizzy</synonyms></translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>sparkling water
+                    <translations>
+                        <translation catagory="food-drink" gender="f">aigua amb gas</translation>
+                    </translations>
+                </expressions>
+                <expressions>sparkling wine
+                    <translations>
+                        <translation catagory="food-drink" gender="m">vi escumós</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="1550000">sparrow<nouns>
 
 			<translations>
@@ -17410,7 +17434,7 @@ s
 
 				<translation catagory="time-season" gender="f">primavera<catnote>Hi ha dues expressions en anglès que signifiquen 'primavera': 'spring' i 'springtime'.  El primer és més habitual.  El segon es troba més en textos literaris.</catnote>
 
-					<engexamp>In (the) spring / In springtime</engexamp>
+					<engexamp>In (the) spring</engexamp>
 
 					<catexamp>A la primavera</catexamp>
 
@@ -17490,11 +17514,7 @@ s
 
 				</translation>
 
-				<translation catagory=" sports" gender="m">esprint<engexamp>Sprint finish</engexamp>
-
-					<catexamp>Esprint final</catexamp>
-
-					<engnote>'Esprint' refers to the actual process of sprinting (i.e. 'The Bulgarian won the marathon with an impressive sprint over the final 200m').</engnote>
+				<translation catagory="sports" gender="m">esprint<engnote>'Esprint' refers to the actual process of sprinting (i.e. 'The Bulgarian won the marathon with an impressive sprint over the final 200m').</engnote>
 
 				</translation>
 
@@ -17511,7 +17531,11 @@ s
 			</translations>
 
 		</verbs>
-
+                <expressions>sprint finish
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="m">esprint final</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="716000">sprinter<nouns>
 			<translations><date>0408</date>
 				<translation catagory="sports-event-athletics, sports-event-cycling" gender="mf">velocista</translation>
@@ -17839,12 +17863,16 @@ s
 
                         <translation>quadrat<engexamp>200 metres squared</engexamp><catexamp>Dos-cents metres quadrats</catexamp></translation>
 
-				<translation>quadriculat<engexamp>Squared paper</engexamp><catexamp>Paper quadriculat</catexamp></translation>
+				<translation>quadriculat</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>squared paper
+                    <translations>
+                        <translation gender="m">paper quadriculat</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="2620000">squash<nouns>
 
 			<translations>
@@ -18090,16 +18118,21 @@ s
 
 			<translations>
 
-				<translation>apunyalar / clavar una ganivetada (or ganivetades) a<engexamp>To stab somebody to death</engexamp>
-
-					<catexamp>Matar algú a ganivetades</catexamp><engexamp>Stab wound</engexamp><catexamp>Ganivetada</catexamp>
-
-				</translation>
+				<translation>apunyalar / clavar una ganivetada (or ganivetades) a</translation>
 
 			</translations>
 
 		</verbs>
-
+                <expressions>stab (somebody) to death
+                    <translations>
+                        <translation>matar (algú) a ganivetades</translation>
+                    </translations>
+                </expressions>
+                <expressions>stab wound
+                    <translations>
+                        <translation gender="f">ganivetada</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="8100000">stabbing<nouns>
 
 			<translations>
@@ -18132,6 +18165,12 @@ s
 
 		</verbs>
 
+	</Entry>
+          <Entry frequency="1020000">stabiliser<nouns>
+			<translations><date>0809</date>
+				<translation local="gb" gender="m">estabilitzador<otherlocal>stabilizer</otherlocal></translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="18800000">stability<nouns>
 
@@ -18167,6 +18206,12 @@ s
 
 		</verbs>
 
+	</Entry>
+          <Entry frequency="8970000">stabilizer<nouns>
+			<translations><date>0809</date>
+				<translation gender="m">estabilitzador</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="16600000">stable<nouns>
 
@@ -20028,12 +20073,12 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="1490000">steward<nouns>
+	</Entry><Entry frequency="12300000">steward<nouns>
 
-			<translations>
+                            <translations><date>0809</date>
 
-				<translation catagory="work-job, transport" gender="m">cambrer / auxiliar de vol<engexamp>Wine steward</engexamp><catexamp>Sommelier / somelier</catexamp><engnote>'Cambrer' or 'auxiliar de vol' mean 'steward' in the sense 'air steward' (male air hostess).</engnote></translation>
-
+				<translation catagory="work-job, transport" gender="mf">cambrer<catnote>En els vaixells i en els trens.</catnote></translation>
+                                <translation catagory="work-job, transport" register="dated" gender="mf">auxiliar de vol<synonyms>flight attendant</synonyms></translation>
                                 <translation catagory="sports-event-motorracing" gender="mf">jutge de cursa</translation>
 
                                 <translation catagory="work" gender="mf">delegat (sindical)</translation>
@@ -20043,8 +20088,20 @@ s
 			</translations>
 
 		</nouns>
-
-	</Entry><Entry frequency="21800000">stick<verbs>
+                <expressions>wine steward
+                    <translations>
+                        <translation gender="mf">sommelier</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="1980000">stewardess<nouns>
+                            <translations><date>0809</date>
+				<translation gender="f">cambrera<catnote>En els vaixells i en els trens.</catnote></translation>
+                                <translation catagory="work-job, transport" register="dated" gender="f">hostessa de vol<synonyms>flight attendant</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="21800000">stick<verbs>
 
 			<past>stuck</past>
 
@@ -20167,12 +20224,16 @@ s
 
 			<translations>
 
-				<translation register="vulgar" gender="f">erecció<engexamp>To get a stiffie</engexamp><catexamp>Trempar</catexamp></translation>
+				<translation register="vulgar" gender="f">erecció</translation>
 
 			</translations>
 
 		</nouns>
-
+                <expressions>get a stiffie
+                    <translations>
+                        <translation register="vulgar">trempar</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="5500000">stiffness<nouns>
 
 			<translations>
@@ -20400,9 +20461,14 @@ s
                 </phrasalverbs>
                 <nouns>
                     <translations>
-                        <translation gender="m">enrenou<engexamp>She caused a stir</engexamp><catexamp>Ella va provocar un enrenou</catexamp></translation>
+                        <translation gender="m">enrenou</translation>
                     </translations>
                 </nouns>
+                <expressions>cause a stir
+                    <translations>
+                        <translation>provocar un enrenou</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="1910000">stitch<nouns>
 
 			<translations>
