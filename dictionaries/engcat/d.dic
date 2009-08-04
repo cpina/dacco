@@ -1020,6 +1020,30 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1400000">decentralisation<nouns>
+                <translations><date>0809</date>
+                    <translation catagory="politics" local="gb" gender="f">descentralització<otherlocal>decentralization</otherlocal></translation>
+                </translations>
+            </nouns>
+	</Entry>
+<Entry frequency="200000">decentralise<verbs>
+                            <translations><date>0809</date>
+				<translation local="gb" catagory="politics" transitive="true">descentralitzar<otherlocal>decentralize</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="4420000">decentralization<nouns>
+                <translations><date>0809</date>
+                    <translation catagory="politics" gender="f">descentralització</translation>
+                </translations>
+            </nouns>
+	</Entry>
+<Entry frequency="500000">decentralize<verbs>
+                            <translations><date>0809</date>
+				<translation catagory="politics" transitive="true">descentralitzar</translation>
+			</translations>
+		</verbs>
+	</Entry>
 <Entry frequency="34900000">deception<nouns>
 			<translations>
 				<translation gender="m">engany</translation>
@@ -5761,46 +5785,76 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="22800000">do<verbs>
-			<thirdPresent>does</thirdPresent>
-			<past>did</past>
-			<participle>done</participle>
-			<gerund>doing</gerund>
-			<translations>
-				<translation>fer</translation>
-                                <translation>(verb auxiliar sense traducció)</translation>
-			</translations>
-		</verbs>
-                <phrasalverbs>do away with (somebody)
+        <Entry frequency="6340000000">do<verbs>
+                <thirdPresent>does</thirdPresent>
+                <past>did</past>
+                <participle>done</participle>
+                <gerund>doing</gerund>
+                <translations><date>0809</date>
+                    <translation>fer</translation>
+                    <translation>(verb auxiliar sense traducció)</translation>
+                </translations>
+            </verbs>
+            <phrasalverbs>do away with (somebody)
                 <translations>
                     <translation register="colloquial">matar (algú)</translation>
-                    </translations>
-                    </phrasalverbs>
-                <phrasalverbs>do away with (something)
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>do away with (something)
                 <translations>
                     <translation register="colloquial">suprimir / eliminar / abolir</translation>
                 </translations>
-                </phrasalverbs>
-                <phrasalverbs>do for
-                    <translations>
-                        <translation intransitive="true">fer feines de casa per a</translation>
-                    </translations>
-                </phrasalverbs>
-		<phrasalverbs>do (somebody) in<translations>
-				<translation>matar / assassinar</translation>
-				<translation>arruïnar / destrossar</translation>
-				<translation register="colloquial">esgotar del tot / fer cansar<example>Can I leave the washing up until this afternoon? I&apos;ve just finished my morning run and I&apos;m absolutely &lt;b&gt;done in&lt;/b&gt; at the moment.</example>
-				</translation>
-			</translations>
-		</phrasalverbs>
-                <phrasalverbs>do up
+            </phrasalverbs>
+            <phrasalverbs>do for
                 <translations>
-                <translation local="gb">rehabilitar / renovar</translation>
-                <translation disambiguate="clothes">cordar-se</translation>
-            <translation>embolcar</translation>
-        </translations>
-    </phrasalverbs>
-	<phrasalverbs>do out of<translations><translation intransitive="true">estafar (a algú, alguna cosa) (vegeu: cheat out of)</translation></translations></phrasalverbs><phrasalverbs>do over<translations><translation transitive="true">renovar, decorar de nou</translation></translations></phrasalverbs><phrasalverbs>do without<translations><translation intransitive="true">prescendir de</translation></translations></phrasalverbs></Entry>
+                    <translation intransitive="true">fer feines de casa per a</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>do (somebody) in<translations>
+                    <translation>matar / assassinar</translation>
+                    <translation>arruïnar / destrossar</translation>
+                    <translation register="colloquial">esgotar del tot / fer cansar<example>Can I leave the washing up until this afternoon? I&apos;ve just finished my morning run and I&apos;m absolutely &lt;b&gt;done in&lt;/b&gt; at the moment.</example>
+                    </translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>do out of
+                <translations>
+                    <translation intransitive="true">estafar (a algú, alguna cosa)</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>do over
+                <translations>
+                    <translation transitive="true">renovar, decorar de nou</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>do up
+                <translations>
+                    <translation local="gb">rehabilitar / renovar</translation>
+                    <translation disambiguate="clothes">cordar-se</translation>
+                    <translation>embolcar</translation>
+                </translations>
+            </phrasalverbs>
+            <phrasalverbs>do without
+                <translations>
+                    <translation intransitive="true">prescendir de</translation>
+                </translations>
+            </phrasalverbs>
+            <nouns>
+                <translations>
+                    <translation gender="f">festa / celebració<example>After the christening they had a big &lt;b&gt;do&lt;/b&gt; with all their family and friends.</example></translation>
+                    </translations>
+            </nouns>
+            <expressions>be to do with
+                <translations>
+                    <translation>tenir a veure amb</translation>
+                </translations>
+            </expressions>
+            <expressions>have to do with
+                <translations>
+                    <translation>tenir a veure amb</translation>
+                </translations>
+            </expressions>
+        </Entry>
 <Entry frequency="3270000">docile<adjectives>
 			<translations>
 				<translation>dòcil / mans / mansuet / manyac</translation>
