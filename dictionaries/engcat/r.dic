@@ -3844,25 +3844,30 @@
                             <translations><date>0709</date>
 
 				<translation catagory="sports" gender="mf">àrbitre</translation>
-
+                                <translation gender="mf">avaluador<engnote>Somebody who peer reviews an article for inclusion in an academic journal.</engnote><catnote>En una revista científica.</catnote></translation>
 			</translations>
 
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation catagory="sports">arbitrar</translation>
+                        <translation transitive="true" catagory="sports">arbitrar</translation>
                     </translations>
                     </verbs>
 	</Entry>
-<Entry frequency="526000000">reference<nouns>
+<Entry frequency="627000000">reference<nouns>
 
-                            <translations><date>0908</date>
+                            <translations><date>0809</date>
 
 				<translation gender="f">referència</translation>
 
 			</translations>
 
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">referenciar</translation>
+                    </translations>
+                </verbs>
                 <expressions>in (o with) reference to
                     <translations>
                         <translation>amb (or en) referència a</translation>
@@ -8818,27 +8823,24 @@
 		</verbs>
 
 	<phrasalverbs>rinse out<translations><translation transitive="true">esbaldir</translation></translations></phrasalverbs></Entry>
-<Entry frequency="2310000">riot<nouns>
+<Entry frequency="26300000">riot<nouns>
 
-			<translations>
+                            <translations><date>0809</date>
 
 				<translation gender="m">motí / avalot</translation>
 
-				<translation register="colloquial">molt divertit<example>You should have gone to Mark's party, it was a &lt;b&gt;riot&lt;/b&gt;!</example>
-
-					<example>A lot of people think that Robin Williams is a &lt;b&gt;riot&lt;/b&gt;, but personally I don't find him funny at all</example>
-
-					<synonyms>hoot</synonyms>
-
-					<catnote>Si es diu que alguna cosa és 'a riot', vol dir que és molt divertit.</catnote>
-
-				</translation>
+                                <translation sourceplural="a riot" register="colloquial">molt divertit<example>You should have gone to Mark's party, it was a &lt;b&gt;riot&lt;/b&gt;!</example><example>A lot of people think that Robin Williams is a &lt;b&gt;riot&lt;/b&gt;, but personally I don't find him funny at all.</example><synonyms>hoot</synonyms></translation>
 
                                 <translation beforenoun="true">antiavalots / antidisturbis</translation>
 
 			</translations>
 
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation intransitive="true">avalotar-se</translation>
+                    </translations>
+                </verbs>
                 <expressions>riot gear
                     <translations>
                         <translation gender="m">material antiavalots</translation>

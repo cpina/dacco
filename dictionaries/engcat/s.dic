@@ -19521,6 +19521,12 @@ s
                     </translations>
                 </phrasalverbs>
             </Entry>
+            <Entry frequency="5330000">steadfast<adjectives>
+			<translations><date>0809</date>
+				<translation>ferm</translation>
+			</translations>
+		</adjectives>
+	</Entry>
             <Entry frequency="3040000">steadily<adverbs>
 
 			<translations><date>0307</date>
@@ -25539,32 +25545,20 @@ s
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="12800000">sweet<adjectives>
-
-			<translations>
-
+        <Entry frequency="302000000">sweet<adjectives>
+                            <translations><date>0809</date>
 				<translation>dolç</translation>
-
+                                <translation>bonic / maco<example>His daughter is only 3. She's a &lt;b&gt;sweet&lt;/b&gt; little thing.</example></translation>
 			</translations>
-
 		</adjectives>
-
                 <nouns>
-
-                <translations>
-
-                <translation sourceplural="sweets">
-
-                <translation gender="mpl">dolços / bombons</translation>
-
-                <translation gender="fpl">llaminadures</translation>
-
-                </translation>
-
+                <translations>                    
+                    <grouptranslation local="gb">                        
+                        <translation gender="m">bombó</translation>
+                        <translation gender="fpl">llaminadura / llepolia<otherlocal>candy</otherlocal></translation>                        
+                    </grouptranslation>                    
                 </translations>
-
                 </nouns>
-
 	</Entry><Entry frequency="2510000">sweetcorn<nouns>
 
                             <translations><date>0609</date>
@@ -25585,7 +25579,18 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="5960000">sweetness<nouns>
+	</Entry>
+        <Entry frequency="1690000">sweetie<nouns>
+                <translations><date>0809</date>
+                    <grouptranslation local="gb">
+                        <translation gender="m">bombó</translation>
+                        <translation gender="f">llaminadura / llepolia<catnote>Mot infantívol.</catnote></translation>
+                    </grouptranslation>
+                    <translation gender="mf">tresor<synonyms>poppet, sweet pea, sweetie pie</synonyms><catnote>Mot usat principalment en parlar dels nens o dels animals domèstics.</catnote></translation>
+                </translations>
+            </nouns>
+	</Entry>
+        <Entry frequency="5960000">sweetness<nouns>
 
 			<translations>
 
@@ -25595,7 +25600,15 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="16900">sweet potato<nouns>
+	</Entry>
+        <Entry frequency="2170000">sweet pea<nouns>
+                <translations><date>0809</date>
+                    <translation disambiguate="plants-flower" gender="m">pèsol d'olor</translation>
+                    <translation gender="mf">tresor<catnote>Mot usat principalment en parlar als nens (o en parlar dels nens).</catnote><example>Are you OK &lt;b&gt;sweet pea&lt;/b&gt;?</example></translation>
+                </translations>               
+            </nouns>
+	</Entry>
+        <Entry frequency="16900">sweet potato<nouns>
 
 			<translations>
 

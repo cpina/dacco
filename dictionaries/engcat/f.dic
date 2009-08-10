@@ -51,6 +51,15 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="39500000">fabrication<nouns>
+                <translations><date>0809</date>
+                    <grouptranslation>
+                        <translation gender="ffullform">invenció</translation>
+                        <translation gender="m">invent<example>That's not true and he knows it. It's pure &lt;b&gt;fabrication&lt;/b&gt; on his part.</example></translation>
+                    </grouptranslation>
+                </translations>
+            </nouns>
+	</Entry>
 <Entry frequency="4050000">fabulous<adjectives>
 			<translations>
 				<translation>meravellós</translation>
@@ -4213,16 +4222,21 @@
 			</translations>
 		</nouns>
         </Entry>
-<Entry frequency="4460000">foam<nouns>
-			<translations>
+<Entry frequency="45300000">foam<nouns>
+                            <translations><date>0809</date>
 				<translation gender="f">escuma</translation>
 			</translations>
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>produir escuma</translation>
+				<translation intransitive="true">produir escuma</translation>
 			</translations>
 		</verbs>
+                <expressions>foam bath
+                    <translations>
+                        <translation gender="m">bany d'escuma</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2950000">focal point<nouns>
 			<translations>
@@ -5393,11 +5407,14 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="302000000">foundation<nouns>
-			<translations>
+<Entry frequency="254000000">foundation<nouns>
+                            <translations><date>0809</date>
 				<translation gender="m">fonament<engnote>'Fonament' means 'foundation' as in 'basis'.</engnote><synonyms>basis</synonyms></translation>
                                 <translation gender="f">fundació<engexamp>The Free Software Foundation</engexamp><catexamp>La Fundació pel Programari Lliure</catexamp></translation>
-                                <translation sourceplural="foundations" gender="mpl">fonaments</translation>
+                                <grouptranslation sourceplural="foundations">
+                                <translation gender="mpl">fonaments</translation>
+                                <translation gender="f">fonamentació</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
