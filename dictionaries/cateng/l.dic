@@ -249,6 +249,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="20500">laringitis<nouns>
+                            <translations><date>0809</date>
+				<translation catagory="medical-illness" gender="f">laryngitis</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="832">larva<nouns>
 			<translations>
 				<translation catagory="animal" gender="f">larva</translation>
@@ -260,6 +266,12 @@
 				<translation catagory="animal">larval</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+         <Entry frequency="7490">lasanya<nouns>
+                            <translations><date>0809</date>
+				<translation catagory="food" gender="f">lasagne / lasagna</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="10100">lasciu<adjectives>
 			<translations><date>0506</date>
@@ -279,41 +291,64 @@
 			</translations>
 		</nouns>
                 </Entry>
-<Entry frequency="108000">làser<nouns>
-			<translations><date>0708</date>
-				<translation gender="m">laser</translation>
-			</translations>
-		</nouns>
-<expressions>impressora làser
-<translations>
-<translation catagory="computers" gender="ffullform">laser printer</translation>
-</translations>
-</expressions>
-	</Entry>
+                <Entry frequency="108000">làser<nouns>
+                        <translations><date>0708</date>
+                            <translation gender="m">laser</translation>
+                        </translations>
+                    </nouns>
+                    <expressions>apuntador làser
+                        <translations>
+                            <translation gender="m">laser pointer</translation>
+                        </translations>
+                    </expressions>
+                    <expressions>impressora làser
+                        <translations>
+                            <translation catagory="computers" gender="ffullform">laser printer</translation>
+                        </translations>
+                    </expressions>
+                    <expressions>raig làser
+                        <translations>
+                            <translation gender="m">laser beam</translation>
+                        </translations>
+                    </expressions>
+                </Entry>
                    <Entry frequency="458">lassitud<nouns>
 			<translations><date>0907</date>
 				<translation gender="f">lassitude</translation>
 			</translations>
 		</nouns>
                 </Entry>
+                <Entry frequency="6790">latència<nouns>
+                            <translations><date>0809</date>
+				<translation gender="f">latency</translation>
+			</translations>
+		</nouns>
+	</Entry>
                   <Entry frequency="51400">latent<adjectives>
 			<translations><date>0307</date>
 				<translation>latent</translation>
 			</translations>
 		</adjectives>
                	</Entry>
-	<Entry frequency="16100">lateral<adjectives>
-			<translations>
+	<Entry frequency="392000">lateral<adjectives>
+                            <translations><date>0809</date>
 				<translation>side / lateral</translation>
+                                <translation disambiguate="linguistics">lateral</translation>
 			</translations>
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation catagory="sports-event-football" gender="m">winger</translation>
+				<translation disambiguate="sports-event-football" gender="m / f">winger</translation>
+                                <translation disambiguate="linguistics" gender="f">lateral (consonant)</translation>
 				<translation gender="mpl">wings<engnote>The plural form 'els laterals' refers to the 'wings' of a theatre</engnote>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>pensament lateral
+                    <translations>
+                        <translation gender="m">lateral thinking</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="9630">làtex<nouns>
 			<translations><date>0408</date>
@@ -2633,6 +2668,12 @@
 <Entry frequency="587">lobbista<nouns>
                             <translations><date>0209</date>
 				<translation catagory="politics" gender="m / f">lobbyist</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1140">lobotomia<nouns>
+                            <translations><date>0809</date>
+				<translation catagory="medical-treatment" gender="f">lobotomy</translation>
 			</translations>
 		</nouns>
 	</Entry>

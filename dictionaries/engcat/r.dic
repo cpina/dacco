@@ -746,7 +746,7 @@
 			</translations>
 
 		</nouns>
-                <expressions>rainbox lorikeet
+                <expressions>rainbow lorikeet
                     <translations>
                         <translation picture="http://farm1.static.flickr.com/108/299365657_41498a3f6b.jpg" flickr="http://www.flickr.com/photos/14516334@N00/299365657/" catagory="animal-bird" gender="f">cotorra arc iris<catnote>(Trichoglossus haematodus).</catnote></translation>                        
                     </translations>
@@ -830,7 +830,11 @@
 			</translations>
 
 		</adjectives>
-
+                <expressions>rainy season
+                    <translations>
+                        <translation catagory="weather" gender="f">estació de pluges</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="47900000">raise<nouns>
 
@@ -876,17 +880,22 @@
 		</nouns>
 
 	</Entry>
-<Entry frequency="622000">rake<nouns>
+<Entry frequency="12800000">rake<nouns>
 
-			<translations>
+                            <translations><date>0809</date>
 
-				<translation gender="m">rasclet</translation>
+				<translation gender="m">rasclet / rampí</translation>
 
 			</translations>
 
 		</nouns>
 
-	<phrasalverbs>rake up<translations><translation transitive="true">revifar (una historia, una baralla)</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>rake up
+                    <translations>
+                        <translation transitive="true">revifar (una historia, una baralla)</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
 <Entry frequency="7220000">rally<nouns>
 
 			<translations>
@@ -1136,7 +1145,10 @@
 		</verbs>
                 <nouns>
                     <translations>
-                        <translation gender="m">discurs violent</translation>
+                        <grouptranslation>
+                            <translation gender="f">diatriba</translation>
+                            <translation gender="m">discurs violent</translation>
+                        </grouptranslation>
                     </translations>
                 </nouns>
 	</Entry>
@@ -1172,6 +1184,17 @@
 			</translations>
 
 		</adjectives>
+
+	</Entry>
+         <Entry frequency="5890000">rapidity<nouns>
+
+			<translations><date>0809</date>
+
+                        <translation gender="f">rapidesa<synonyms>speed</synonyms></translation>
+
+			</translations>
+
+		</nouns>
 
 	</Entry>
 <Entry frequency="4830000">rapidly<adverbs>
@@ -1222,7 +1245,7 @@
 
 			<translations>
 
-				<translation gender="f">bona relació / bona entesa / compenetració</translation>
+				<translation gender="f">bona relació / bona entesa / compenetració / avinença</translation>
 
 			</translations>
 
@@ -1253,12 +1276,12 @@
 		</nouns>
 
 	</Entry>
-<Entry frequency="111000000">rare<adjectives>
+<Entry frequency="188000000">rare<adjectives>
 
-			<translations><date>0807</date>
+			<translations><date>0809</date>
 
 				<translation>rar</translation>
-
+                                <translation disambiguate="food">poc cuit</translation>
 			</translations>
 
 		</adjectives>
@@ -1595,7 +1618,16 @@
                 </translations>
 
                 </nouns>
-
+                <expressions>ration card
+                    <translations>
+                        <translation gender="f">cartilla de racionament</translation>
+                    </translations>
+                </expressions>
+                <expressions>ration coupon
+                    <translations>
+                        <translation gender="m">cupó de racionament</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="47100000">rational<adjectives>
 
@@ -1615,6 +1647,17 @@
 				<translation gender="f">lògica</translation>
 
                                 <translation gender="m">raonament</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="3500000">rationing<nouns>
+
+                            <translations><date>0809</date>
+
+                                <translation gender="m">racionament</translation>
 
 			</translations>
 

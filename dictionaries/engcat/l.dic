@@ -683,9 +683,27 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="888000">laryngitis<nouns>
+                            <translations><date>0809</date>
+				<translation catagory="medical-illness" gender="f">laringitis</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="247000">larynx<nouns>
 			<translations>
 				<translation catagory="body" gender="f">laringe<synonyms>voice box</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="3750000">lasagna<nouns>
+                            <translations><date>0809</date>
+				<translation catagory="food" gender="f">lasanya<catnote>També s'escriu 'lasagne'.</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="2040000">lasagne<nouns>
+                            <translations><date>0809</date>
+				<translation catagory="food" gender="f">lasanya<catnote>També s'escriu 'lasagna'.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -707,17 +725,27 @@
 			</translations>
 		</nouns>
                 </Entry>
-<Entry frequency="162000000">laser<nouns>
-			<translations><date>0708</date>
-				<translation gender="m">làser</translation>
-			</translations>
-		</nouns>
-<expressions>laser printer
-<translations>
-<translation catagory="computers" gender="ffullform">impressora làser</translation>
-</translations>
-</expressions>
-	</Entry>
+                <Entry frequency="162000000">laser<nouns>
+                        <translations><date>0708</date>
+                            <translation gender="m">làser</translation>
+                        </translations>
+                    </nouns>
+                    <expressions>laser beam
+                        <translations>
+                            <translation gender="m">raig làser</translation>
+                        </translations>
+                    </expressions>
+                    <expressions>laser pointer
+                        <translations>
+                            <translation gender="m">apuntador làser</translation>
+                        </translations>
+                    </expressions>
+                    <expressions>laser printer
+                        <translations>
+                            <translation catagory="computers" gender="ffullform">impressora làser</translation>
+                        </translations>
+                    </expressions>
+                </Entry>
  <Entry frequency="8210000">lash<verbs>
                             <translations><date>0808</date>
 				<translation>fuetejar</translation>
@@ -749,7 +777,7 @@
 	</Entry>
 <Entry frequency="422000">lass<nouns>
 			<translations>
-				<translation register="dialectal" local="gb" gender="f">noia<plural>lasses</plural>
+				<translation register="dialectal" local="gb" gender="f">noia / xicota<plural>lasses</plural>
 				</translation>
 			</translations>
 		</nouns>
@@ -794,6 +822,12 @@
                     </translations>
                 </expressions>
 	</Entry>
+        <Entry frequency="51500000">lasting<adjectives>
+                            <translations><date>0809</date>
+				<translation>durador</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="616000">lastly<adverbs>
 			<translations>
 				<translation>en fi</translation>
@@ -826,7 +860,7 @@
                 </expressions>
                 <expressions>of late
                     <translations>
-                        <translation register="formal">darrerament<synonyms>lately</synonyms></translation>                    
+                        <translation register="formal">darrerament / últimament<synonyms>lately</synonyms></translation>                    
                     </translations>
                 </expressions>
 	</Entry>
@@ -835,6 +869,13 @@
 				<translation>últimament / darrerament<synonyms>of late</synonyms></translation>
 			</translations>
 		</adverbs>
+	</Entry>
+        <Entry frequency="11800000">latency<nouns>
+                            <translations><date>0809</date>
+				<translation gender="f">latència</translation>
+                                <translation disambiguate="computers" gender="m">temps d'espera</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="1390000">latent<adjectives>
                 <translations><date>0307</date>
@@ -855,6 +896,27 @@
                 <expressions>later on
                     <translations>
                         <translation>més tard / posteriorment</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="46700000">lateral<adjectives>
+                            <translations><date>0809</date>
+				<translation beforenoun="true">lateral</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation disambiguate="linguistics" gender="f">lateral</translation>
+                    </translations>
+                </nouns>
+                <expressions>lateral consonant
+                    <translations>
+                        <translation catagory="linguistics" gender="f">lateral</translation>
+                    </translations>
+                </expressions>
+                <expressions>lateral thinking
+                    <translations>
+                        <translation gender="m">pensament lateral</translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -3572,6 +3634,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="2560000">loathsome<adjectives>
+                            <translations><date>0809</date>
+				<translation register="formal">odiós / repugnant / repulsiu</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="8480000">lobby<nouns>
 			<translations>
 				<translation gender="m">corredor</translation>
@@ -3588,6 +3656,12 @@
 <Entry frequency="8970000">lobe<nouns>
 			<translations><date>1007</date>
 				<translation termcat="telecom" gender="m">lòbul</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1550000">lobotomy<nouns>
+                            <translations><date>0809</date>
+				<translation catagory="medical-treatment" gender="f">lobotomia</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4250,7 +4324,7 @@
         </expressions>
                 <exclamations>get lost
                 <translations>
-                <translation>vés t'en a pastar fang!</translation>
+                <translation>vés-t'en a pastar fang!</translation>
                 </translations>
                 </exclamations>
 	</Entry>
