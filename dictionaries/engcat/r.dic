@@ -281,6 +281,17 @@
 		</nouns>
 
 	</Entry>
+        <Entry frequency="1950000">radian<nouns>
+
+                            <translations><date>0809</date>
+
+				<translation disambiguate="maths" gender="m">radian / radiant</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
 <Entry frequency="18300000">radiant<adjectives>
 
 			<translations><date>0609</date>
@@ -1629,16 +1640,20 @@
                     </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="47100000">rational<adjectives>
+<Entry frequency="40900000">rational<adjectives>
 
-			<translations>
+                            <translations><date>0809</date>
 
 				<translation>racional</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>rational number
+                    <translations>
+                        <translation disambiguate="maths" gender="m">nombre racional</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4390000">rationale<nouns>
 
@@ -1718,6 +1733,12 @@
 
 		</verbs>
 
+	</Entry>
+        <Entry frequency="4030000">rationally<adverbs>
+                            <translations><date>0809</date>
+				<translation>racionalment</translation>
+			</translations>
+		</adverbs>
 	</Entry>
         <Entry frequency="3500000">rationing<nouns>
 
@@ -2188,20 +2209,22 @@
 		</verbs>
 
 	</Entry>
-<Entry frequency="76500000">real<adjectives>
+<Entry frequency="1340000000">real<adjectives>
 
-			<translations>
+                            <translations><date>0809</date>
 
-				<translation>autèntic<synonyms>genuine</synonyms>
-
-				</translation>
-
+				<translation>autèntic<synonyms>genuine</synonyms></translation>
+                                <translation>real</translation>
                                 <translation>de debò<example>He's a &lt;b&gt;real&lt;/b&gt; idiot!</example></translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>real number
+                    <translations>
+                        <translation disambiguate="maths" gender="m">nombre real</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="14100000">real estate<nouns>
 
@@ -5304,6 +5327,16 @@
 		</verbs>
 
 	</Entry>
+        <Entry frequency="47300000">remainder<nouns>
+                <translations><date>0809</date>
+                    <translation gender="f">resta</translation>
+                    <grouptranslation disambiguate="maths">
+                        <translation gender="m">residu</translation>
+                        <translation gender="f">resta</translation>
+                    </grouptranslation>
+                </translations>
+            </nouns>
+        </Entry>
 <Entry frequency="1200000">remains<nouns>
 
 			<translations>
