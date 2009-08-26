@@ -2106,7 +2106,7 @@
 
 			<translations>
 
-				<translation>atemorir / espantar / esporuguir / espaordir<synonyms>frighten</synonyms>
+				<translation transitive="true">atemorir / espantar / esporuguir / espaordir / esglaiar<synonyms>frighten</synonyms>
 
 				</translation>
 
@@ -7555,22 +7555,23 @@
 
 	</Entry>
         <Entry frequency="2050000">shiver<verbs>
-
-        <translations>
-
-        <translation intransitive="true">tremolar</translation></translations></verbs>
-
-        <nouns>
-
-			<translations>
-
-				<translation gender="f">esgarrifança</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="37600000">shock<verbs>
+                
+                <translations>
+                    
+            <translation intransitive="true">tremolar</translation></translations></verbs>
+            
+            <nouns>
+                
+                <translations>
+                    
+                    <translation gender="f">esgarrifança</translation>
+                    
+                </translations>
+                
+            </nouns>
+            
+        </Entry>
+        <Entry frequency="37600000">shock<verbs>
 
         		<translations>
 
@@ -16464,6 +16465,12 @@
 		</nouns>
 
 	</Entry>
+         <Entry frequency="1350000">spigot<nouns>
+                <translations><date>0809</date>
+                    <translation local="us" gender="f">aixeta<synonyms>faucet (Am.), tap (Br.)</synonyms></translation>
+                </translations>
+            </nouns>
+        </Entry>
         <Entry frequency="79100000">spike<nouns>
 
 			<translations>
@@ -20494,7 +20501,28 @@ s
                         <translation gender="m">període<example>Presley's career was interrupted by a two-year &lt;b&gt;stint&lt;/b&gt; in the army.</example></translation>
                     </translations>
                 </nouns>
-	</Entry><Entry frequency="266000">stipule<nouns>
+	</Entry>
+        <Entry frequency="6700000">stipulation<nouns>
+                
+                <translations><date>0809</date>
+                    
+                    <translation gender="f">estipulació</translation>
+                    
+                </translations>
+                
+            </nouns>
+        </Entry>
+        <Entry frequency="11100000">stipulate<verbs>
+                
+                <translations><date>0809</date>
+                    
+                    <translation>estipular</translation>
+                    
+                </translations>
+                
+            </verbs>
+        </Entry>
+        <Entry frequency="266000">stipule<nouns>
 
 			<translations><date>1007</date>
 
@@ -22242,7 +22270,7 @@ s
 
                             <translations><date>0109</date>
 
-				<translation catagory="entertainment-music">(cast. rasguear)<catnote>Aquí donem un equivalent castellà perquè, almenys segons el nostre entendre, no existeix un verb català que correspongui al verb anglès 'to strum'.</catnote><engnote>At least as far as we're aware, there is no Catalan verb which approximates the English verb 'to strum'. For this reason we have chosen to give a Castilian 'equivalent' to make the meaning clear to Catalan speakers. FWIW, an English-speaker (and musician) on the Dacco team informs us that he uses the Catalan verb 'rascar' ('to scratch') and, in context, people understand what he means.</engnote></translation>
+				<translation catagory="entertainment-music">(cast. rasguear)<catnote>Aquí donem un equivalent castellà perquè, almenys segons el nostre entendre, no existeix un verb català que correspongui exactament al verb anglès 'to strum'.</catnote><engnote>At least as far as we're aware, there is no Catalan verb which approximates the English verb 'to strum'. For this reason we have chosen to give a Castilian 'equivalent' to make the meaning clear to Catalan speakers. FWIW, an English-speaker (and musician) on the Dacco team informs us that he uses the Catalan verb 'rascar' ('to scratch') and, in context, people understand what he means.</engnote></translation>
 
 			</translations>
 
