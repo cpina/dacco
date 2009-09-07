@@ -2947,6 +2947,17 @@
 		</nouns>
 
 	</Entry>
+<Entry frequency="11400000">recharge<verbs>
+
+                            <translations><date>0809</date>
+
+				<translation>recarregar</translation>
+
+			</translations>
+
+		</verbs>
+
+	</Entry>
 <Entry frequency="12300000">recipe<nouns>
 
 			<translations>
@@ -3841,16 +3852,31 @@
                     </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="4320000">redundant<adjectives>
+       <Entry frequency="10500000">redundancy<nouns>
 
-			<translations>
+                            <translations><date>0809</date>
 
+				<translation local="gb" catagory="work" gender="m">acomiadament (per falta de feina)</translation>
+                                <translation catagory="linguistics" gender="f">redundància</translation>
+			</translations>
+
+		</nouns>
+
+	</Entry>
+<Entry frequency="17200000">redundant<adjectives>
+
+                        <translations><date>0809</date>
+                            <translation local="gb" catagory="work">aturat / desocupat</translation>
 				<translation>redundant</translation>
 
 			</translations>
 
 		</adjectives>
-
+                <expressions>make (someone) redundant
+                    <translations>
+                        <translation>acomiadar (algú) (per falta de feina)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="73100000">reed<nouns>
 
@@ -4019,10 +4045,10 @@
 	</Entry>
 <Entry frequency="51100000">referee<nouns>
 
-                            <translations><date>0709</date>
+                            <translations><date>0809</date>
 
 				<translation catagory="sports" gender="mf">àrbitre</translation>
-                                <translation gender="mf">avaluador<engnote>Somebody who peer reviews an article for inclusion in an academic journal.</engnote><catnote>En una revista científica.</catnote></translation>
+                                <translation gender="mf">avalador</translation>
 			</translations>
 
 		</nouns>
@@ -4037,7 +4063,7 @@
                             <translations><date>0809</date>
 
 				<translation gender="f">referència</translation>
-
+                                <translation disambiguate="work" gender="m">aval</translation>
 			</translations>
 
 		</nouns>
@@ -5224,8 +5250,8 @@
 	</Entry>
 <Entry frequency="102000000">reload<verbs>
 
-        <translations>
-
+    <translations><date>0809</date>
+        <translation>recarregar<engnote>(A weapon)</engnote><catnote>(Una arma)</catnote></translation>
         <translation disambiguate="computers" termcat="true">actualitzar</translation>
 
         </translations>

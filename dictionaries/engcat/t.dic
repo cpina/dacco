@@ -1581,21 +1581,21 @@
 				</translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="4620000">telephone call<nouns>
-			<translations>
-				<translation catagory="telephone" gender="f">trucada / telefonada</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="1560000">telephone line<nouns>
-			<translations>
-				<translation catagory="telephone" gender="f">línia telefònica</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="951000">telephone operator<nouns>
-                            <translations><date>1007</date>
-				<translation catagory="telephone" termcat="true" local="us" gender="mf">operador<otherlocal>telephonist</otherlocal></translation>
-			</translations>
-		</nouns>
+                <expressions>telephone call
+                    <translations>
+                        <translation catagory="telephone" gender="f">trucada / telefonada</translation>
+                    </translations>
+                </expressions>
+                <expressions>telephone line
+                    <translations>
+                        <translation catagory="telephone" gender="f">línia telefònica</translation>
+                    </translations>
+                </expressions>
+                <expressions>telephone operator
+                    <translations>
+                        <translation catagory="telephone" termcat="true" local="us" gender="mf">operador<otherlocal>telephonist</otherlocal></translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="215000">telephonist<nouns>
                             <translations><date>1007</date>
 				<translation catagory="telephone, work-job" local="gb" gender="mf">operador<otherlocal>telephone operator</otherlocal></translation>
@@ -1635,23 +1635,24 @@
                                 <translation beforenoun="true">televisiu</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="323000">television channel<nouns>
-			<translations>
-				<translation catagory="entertainment" gender="m">canal de televisió</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="539000">television set<nouns>
-			<translations>
-				<translation catagory="entertainment" gender="m">televisor<engnote>Televisió refers to the medium of television, televisor is the word for 'television set'.</engnote>
-				</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="239000">television viewer<nouns>
-			<translations>
-				<translation gender="mf">televident / teleespectador</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="95100">televisual<adjectives>
+                <expressions>television channel
+                    <translations>
+                        <translation catagory="entertainment" gender="m">canal de televisió</translation>
+                    </translations>
+                </expressions>
+                <expressions>television set
+                    <translations>
+                        <translation catagory="entertainment" gender="m">televisor<engnote>Televisió refers to the medium of television, televisor is the word for 'television set'.</engnote>
+                        </translation>
+                    </translations>
+                </expressions>
+                <expressions>television viewer
+                    <translations>
+                        <translation gender="mf">televident / teleespectador</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+      <Entry frequency="95100">televisual<adjectives>
 			<translations>
 				<translation>televisiu</translation>
 			</translations>
@@ -4073,7 +4074,14 @@
 				<translation catagory="chemistry" gender="m">titani</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="19400000">title<nouns>
+	</Entry>
+         <Entry frequency="74500">titchy<adjectives>
+                            <translations><date>0909</date>
+				<translation local="gb" register="colloquial">minúscul / petitet</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="19400000">title<nouns>
 			<translations>
 				<translation gender="m">títol</translation>
 			</translations>
