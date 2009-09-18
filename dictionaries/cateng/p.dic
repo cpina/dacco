@@ -934,6 +934,11 @@
                         <translation gender="m">toilet paper</translation>
                     </translations>
                 </expressions>
+                <expressions>paper maixé
+                    <translations>
+                        <translation gender="m">papier mâché</translation>
+                    </translations>
+                </expressions>
                 <expressions>paper pintat
                     <translations>
                         <translation gender="m">wallpaper</translation>
@@ -1839,9 +1844,15 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="10900">parvulari<nouns>
-			<translations><date>0805</date>
-				<translation gender="m">nursery (school) (Br.) / kindergarten (Am.)</translation>
+        <Entry frequency="15000">pàrvul<nouns>
+                <translations><date>0909</date>
+                    <translation catagory="education" gender="m / f">preschooler / kindergartener (Am.)<fems>pàrvula</fems></translation>
+                </translations>
+            </nouns>
+        </Entry>
+	<Entry frequency="74900">parvulari<nouns>
+			<translations><date>0909</date>
+				<translation catagory="education" gender="m">nursery (school) (Br.) / preschool (Am.) / pre-K (Am.) / kindergarten (Am.)<catnote>A Anglaterra els nens van al 'nursery School' als 3 anys i a 'reception class' (el primer any de l'educació primària obligatòria) als 4 anys.  Als Estats Units, els nens van al 'preschool' (o 'pre-K') als 4 anys i al 'kindergarten' als 5 anys.  En la majoria dels estats, l'assistència al 'kindergarten' no és obligatòria però en alguns sí que ho és.</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1898,6 +1909,12 @@
 			<translations><date>0805</date>
 				<translation gender="m">passageway / corridor / aisle<plural>passadissos</plural>
 				</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="14800">passamà<nouns>
+                            <translations><date>0909</date>
+				<translation gender="m">handrail / rail<plural>passamans</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3587,6 +3604,12 @@
                 <translations>
                 <translation gender="m">perm</translation></translations></nouns>
 	</Entry>
+        <Entry frequency="98500">permanentment<adverbs>
+                            <translations><date>0909</date>
+				<translation>permanently</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 	<Entry frequency="798000">permetre<verbs conj="irregular4">
 			<translations><date>0805</date>
 				<translation>to allow</translation>
@@ -4042,10 +4065,12 @@
 			</translations>
 		</verbs>
 	</Entry>
-	<Entry frequency="56200">perspectiva<nouns>
-			<translations>
-				<translation gender="f">perspective</translation>
-                                <translation gender="f">prospect</translation>
+	<Entry frequency="466000">perspectiva<nouns>
+                            <translations><date>0909</date>
+				<translation gender="f">perspective<example>És una pintura plana, sense profunditat ni &lt;b&gt;perspectiva&lt;/b&gt;.</example></translation>
+                                <translation gender="f">view<example>Des de la Collada del Faig hi ha una bona &lt;b&gt;perspectiva&lt;/b&gt; del Pirineu Oriental.</example></translation>
+                                <translation gender="f">standpoint / viewpoint / stance<example>Tenim una &lt;b&gt;perspectiva&lt;/b&gt; diferent del treball que s'ha de fer des de l'escola.</example></translation>
+                                <translation gender="f">prospect<example>El club arrenca la temporada amb bones &lt;b&gt;perspectives&lt;/b&gt;.</example><example>El cel no anunciava bones &lt;b&gt;perspectives&lt;/b&gt;.</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
