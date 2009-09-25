@@ -6898,9 +6898,7 @@
 
 			<translations>
 
-				<translation register="colloquial">cansat / esgotat<example>I didn't wake up until two in the afternoon today because I was out clubbing 'til midnight last night and was absolutely &lt;b&gt;shattered&lt;/b&gt;.</example>
-
-				</translation>
+				<translation register="colloquial">esgotat<example>I didn't wake up until two in the afternoon today because I was out clubbing 'til midnight last night and was absolutely &lt;b&gt;shattered&lt;/b&gt;.</example><synonyms>dog-tired (col·loq.), beat (col·loq.), worn out, bushed (col·loq.), knackered (col·loq.) (Br.)</synonyms></translation>
 
 				<translation>molt sorprès i trastornat<example>Martin was absolutely &lt;b&gt;shattered&lt;/b&gt; when his wife told him that she was leaving him for another man.</example>
 
@@ -7203,7 +7201,14 @@
 
                     </verbs>
 
-	</Entry><Entry frequency="6510000">shepherd<nouns>
+	</Entry>
+          <Entry frequency="4350000">shenanigans<nouns>
+			<translations><date>0909</date>
+				<translation register="colloquial" gender="m">tripijoc</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="6510000">shepherd<nouns>
 
 			<translations>
 
@@ -8981,7 +8986,19 @@
 
 		</verbs>
 
-	</Entry><Entry frequency="3080000">sidewalk<nouns>
+	</Entry>
+                <Entry frequency="2690000">sidetrack<verbs>
+			<translations><date>0909</date>
+				<translation>desviar / distreure</translation>
+			</translations>
+		</verbs>
+                <expressions>get sidetracked
+                    <translations>
+                        <translation>divagar / distreure's</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="3080000">sidewalk<nouns>
 
 			<translations>
 
@@ -10991,11 +11008,11 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="1430000">slander<nouns>
+            </Entry><Entry frequency="5430000">slander<nouns>
 
-			<translations><date>0407</date>
+                            <translations><date>0909</date>
 
-				<translation catagory="legal" gender="f">calúmnia</translation>
+				<translation catagory="legal" gender="f">calúmnia / difamació<catnote>'Slander' vol dir 'difamació verbal'.  'Libel' vol dir 'escrit difamatori'.</catnote></translation>
 
 			</translations>
 
@@ -11005,17 +11022,17 @@
 
                     <translations>
 
-                        <translation catagory="legal">calumniar</translation>
+                        <translation catagory="legal">calumniar / difamar</translation>
 
                     </translations>
 
                 </verbs>
 
-	</Entry><Entry frequency="1200000">slanderous<adjectives>
+	</Entry><Entry frequency="1510000">slanderous<adjectives>
 
-			<translations><date>0407</date>
+			<translations><date>0909</date>
 
-				<translation>calumniós</translation>
+				<translation catagory="legal">calumniós / difamatori</translation>
 
 			</translations>
 
@@ -11670,17 +11687,24 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="20300000">slippery<adjectives>
+	</Entry><Entry frequency="11600000">slippery<adjectives>
 
-			<translations>
+                            <translations><date>0909</date>
 
-				<translation>esmunyedís</translation>
+				<translation>esmunyedís / lliscadís<synonyms>slippy</synonyms></translation>
 
 			</translations>
 
 		</adjectives>
 
-	</Entry><Entry frequency="1770000">slither<verbs>
+	</Entry>
+         <Entry frequency="782000">slippy<adjectives>
+			<translations><date>0909</date>
+				<translation>esmunyedís / lliscadís<synonyms>slippery</synonyms></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="1770000">slither<verbs>
 
 			<translations>
 
@@ -12655,14 +12679,11 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="11900000">snatch<verbs>
-
-                            <translations><date>0708</date>
-
-				<translation>arrencar / arrancar</translation>
-                                <translation>sostreure</translation>
+	</Entry><Entry frequency="12100000">snatch<verbs>
+                            <translations><date>0909</date>
+				<translation transitive="true">arrabassar</translation>
+                                <translation transitive="true">sostreure</translation>
 			</translations>
-
 		</verbs>
                 <nouns>
                     <translations>
@@ -19795,9 +19816,9 @@ s
                     </translations>
                 </expressions>
 	</Entry>
-        <Entry frequency="22900000">steep<adjectives>
-                            <translations><date>1108</date>
-				<translation>(slope) escarpat</translation>
+        <Entry frequency="27700000">steep<adjectives>
+                            <translations><date>0909</date>
+				<translation>(slope) escarpat / costerut</translation>
 				<translation>(fall / rise) abrupte / dràstic</translation>
                                 <translation register="colloquial">(price) car<example>$3600 a month to rent a two-bedroomed house seems &lt;b&gt;steep&lt;/b&gt; to me.</example></translation>
 			</translations>

@@ -1981,6 +1981,12 @@
 			</translations>
 		</adverbs>
 	</Entry>
+                <Entry frequency="5810000">legume<nouns>
+			<translations><date>0909</date>
+				<translation catagory="food" gender="m">llegum</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="10900000">leisure<nouns>
 			<translations>
 				<translation gender="m">oci / lleure</translation>
@@ -2366,10 +2372,21 @@
 		</nouns>
 	</Entry>
 <Entry frequency="353000">libel<nouns>
-			<translations>
-				<translation gender="f">difamació</translation>
+                            <translations><date>0909</date>
+				<translation catagory="legal" gender="f">difamació / calúmnia<catnote>'Libel' vol dir 'escrit difamatori'.  'Slander' vol dir 'difamació verbal'.</catnote></translation>
 			</translations>
 		</nouns>
+                <verbs double="true">
+                    <translations>
+                        <translation catagory="legal">difamar / calumniar</translation>
+                    </translations>
+                </verbs>
+	</Entry>
+        <Entry frequency="1010000">libellous<adjectives>
+                            <translations><date>0909</date>
+				<translation catagory="legal">difamatori / calumniós<synonyms>defamatory</synonyms></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="128000000">liberal<adjectives>
 			<translations>
@@ -3915,17 +3932,27 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="7640000">lollipop<nouns>
-			<translations>
+<Entry frequency="10600000">lollipop<nouns>
+                        <translations><date>0909</date>
                             <grouptranslation catagory="food"><translation gender="m">pirulí / xupa-xups</translation>
-                                <translation gender="f">piruleta</translation><synonyms>lolly</synonyms></grouptranslation>
+                                <translation gender="f">piruleta</translation><synonyms>lolly (Br.), sucker (Am.)</synonyms></grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>lollipop lady
+                    <translations>
+                        <translation local="gb" gender="f">dona que ajuda els escolars a travessar el carrer<otherlocal>crossing guard</otherlocal></translation>
+                    </translations>
+                </expressions>
+                <expressions>lollipop man
+                    <translations>
+                        <translation local="gb" gender="m">home que ajuda els escolars a travessar el carrer<otherlocal>crossing guard</otherlocal></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2910000">lolly<nouns>
 			<translations>
                             <grouptranslation disambiguate="food" local="gb"><translation gender="m">pirulí / xupa-xups</translation>
-                                <translation gender="f">piruleta</translation><synonyms>lollipop</synonyms></grouptranslation>
+                                    <translation gender="f">piruleta</translation><synonyms>lollipop</synonyms><otherlocal>sucker</otherlocal></grouptranslation>
                             <translation disambiguate="food" local="gb" gender="m">gelat de pal<otherlocal>popsicle</otherlocal><synonyms>ice lolly</synonyms><plural>lollies</plural></translation>
                             <translation disambiguate="financial" local="gb" register="dated" gender="f">pasta</translation>
 			</translations>
@@ -4014,18 +4041,6 @@
 				<translation gender="f">longevitat</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="1860000">long hair<nouns>
-			<translations>
-				<translation gender="mpl">cabells llargs</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="1340000">long haul<adjectives>
-			<translations>
-				<translation>de llarg recorregut<engexamp>Long haul flights</engexamp><catexamp>Vols de llarg recorregut</catexamp></translation>
-			</translations>
-		</adjectives>
 	</Entry>
 <Entry frequency="3480000">longing<nouns>
 			<translations>
@@ -4194,6 +4209,15 @@
 				<translation disambiguate="computers" termcat="true" gender="m">bucle</translation>
 				<translation gender="f">corba</translation>
                                 <translation catagory="transport" local="us" gender="f">(carretera de) circumval·lació<otherlocal>ring road</otherlocal><synonyms>beltway</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="3720000">loophole<nouns>
+                            <translations><date>0909</date>
+                                <grouptranslation>
+                                    <translation gender="f">llacuna</translation>
+                                    <translation gender="m">punt feble</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
