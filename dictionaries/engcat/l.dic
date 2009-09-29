@@ -2649,7 +2649,7 @@
 	</Entry>
 <Entry frequency="620000">life jacket<nouns>
 			<translations>
-				<translation gender="f">armilla salvavides</translation>
+				<translation gender="f">armilla salvavides<synonyms>life vest (Am.)</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2686,6 +2686,12 @@
         <Entry frequency="77300000">lifetime<nouns>
                             <translations><date>1108</date>
 				<translation gender="f">vida / durada d'una vida</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="372000">life vest<nouns>
+                            <translations><date>0909</date>
+				<translation local="us" gender="f">armilla salvavides<synonyms>life jacket</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3617,15 +3623,22 @@
                     </translations>
                 </nouns>
             </Entry>
-<Entry frequency="1870000">loaf<nouns>
-			<translations>
+        <Entry frequency="1870000">loaf<nouns>
+                            <translations><date>0909</date>
 				<translation disambiguate="food" gender="m">pa anglès / pa de motlle / pa<plural>loaves</plural></translation>
                                 <translation register="dialectal-cockney" disambiguate="body" gender="m">cap<catnote>Loaf (of bread) &gt; head.</catnote></translation>
 			</translations>
 		</nouns>
+                <phrasalverbs>loaf about
+                    <translations>
+                        <translation register="colloquial">gandulejar / mandrejar</translation>
+                    </translations>
+                </phrasalverbs>
                 <phrasalverbs>loaf around
-                <translations>
-                <translation>gandulejar / mandrejar</translation></translations></phrasalverbs>
+                    <translations>
+                        <translation register="colloquial">gandulejar / mandrejar</translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry>
 <Entry frequency="27800000">loan<nouns>
 			<translations>
@@ -3663,12 +3676,30 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="8480000">lobby<nouns>
-			<translations>
-				<translation gender="m">corredor</translation>
-                                <translation disambiguate="politics" gender="m">lobby / grup de pressió<plural>lobbies</plural></translation>
+            <Entry frequency="11400000">lob<verbs double="true">
+                    <translations><date>0909</date>
+                        <translation>llançar</translation>
+                        <translation disambiguate="sports-event-tennis, sports-event-badminton">fer un globus / fer un lob</translation>
+                    </translations>
+                </verbs>
+                <nouns>
+                    <translations>
+                        <translation disambiguate="sports-event-tennis, sports-event-badminton" termcat="true" gender="m">globus / lob</translation>
+                        <translation disambiguate="sports-event-basketball" termcat="true" gender="f">passada bombada<catnote>També es diu 'lob pass'.</catnote></translation>
+                    </translations>
+                </nouns>
+	</Entry>
+        <Entry frequency="8480000">lobby<nouns>
+                            <translations><date>0909</date>
+				<translation gender="m">vestíbul</translation>
+                                <translation disambiguate="politics" gender="m">lobby / grup de pressió<catnote>En anglès britànic, la paraula 'lobby' té connotacions una mica negatives.  Normalment, són els adversaris del grup o els periodistes els que fan ús de la paraula.  El substantiu s'utilitza sobretot en expressions que inclouen un modificador (per exemple: 'the environmental lobby', 'the nuclear lobby').  Normalment no s'utilitza genèricament o en plural.  L'expressió 'pressure group', per contra, no  les mateixes restriccions.</catnote><plural>lobbies</plural></translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation catagory="politics">fer pressió</translation>
+                    </translations>
+                </verbs>
 	</Entry>
         <Entry frequency="8910000">lobbyist<nouns>
                             <translations><date>0209</date>

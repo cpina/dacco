@@ -3734,16 +3734,33 @@
                 </adjectives>
 
 	</Entry>
-<Entry frequency="16900000">pathology<nouns>
+<Entry frequency="14300000">pathologist<nouns>
 
-			<translations>
+                            <translations><date>0909</date>
 
-				<translation gender="f">patologia</translation>
+				<translation catagory="work-job, medical" gender="mf">patòleg</translation>
 
 			</translations>
 
 		</nouns>
 
+	</Entry>
+<Entry frequency="16900000">pathology<nouns>
+
+			<translations>
+
+				<translation catagory="medical" gender="f">patologia</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+        <Entry frequency="31800000">pathway<nouns>
+                            <translations><date>0909</date>
+				<translation gender="m">camí / sender</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="3190000">patience<nouns>
 
@@ -3871,65 +3888,49 @@
         </nouns>
         
     </Entry>
-<Entry frequency="3030000">patrol<verbs double="true">
-
-			<translations>
-
+<Entry frequency="40200000">patrol<verbs double="true">
+                            <translations><date>0909</date>
 				<translation>patrullar</translation>
-
 			</translations>
-
 		</verbs>
-
+                <nouns>
+                    <translations>
+                        <translation gender="f">patrulla</translation>
+                    </translations>
+                </nouns>
+                <expressions>patrol car
+                    <translations>
+                        <translation catagory="transport" gender="m">cotxe patrulla</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-<Entry frequency="127000">patrol car<nouns>
-
-			<translations>
-
-				<translation catagory="transport" gender="m">cotxe patrulla</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry>
-<Entry frequency="18500000">patron<nouns>
-
-			<translations>
-
+<Entry frequency="43200000">patron<nouns>
+                            <translations><date>0909</date>
 				<translation gender="mf">mecenes</translation>
-
+                                <translation register="formal" gender="mf">client<example>(on a sign) Parking for patrons only.  All others will be towed away at owner's expense.</example></translation>
 			</translations>
-
 		</nouns>
-
+                <expressions>patron saint
+                    <translations>
+                        <translation gender="m">(sant) patró</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="7770000">patronage<nouns>
-
                             <translations><date>0808</date>
-
 				<translation gender="m">mecenatge</translation>
-
                                 <translation gender="m">clientelisme<example>Skyrocketing oil prices brought Mr Chávez a windfall that allowed him to build a strong social network based on &lt;b&gt;patronage&lt;/b&gt;.</example></translation>
-
                                 <translation local="us" register="formal" gender="m">suport (dels clients a una botiga)<otherlocal>custom</otherlocal><example>Thank you for your &lt;b&gt;patronage&lt;/b&gt;.</example></translation>
-
 			</translations>
-
 		</nouns>
-
 	</Entry>
-        <Entry frequency="854000">patronise<verbs>
-                
-                <translations>
-                    
+        <Entry frequency="854000">patronise<verbs>               
+                <translations>                    
                     <translation local="gb">tractar amb condescendència<example>Don't &lt;b&gt;patronise&lt;/b&gt; me, you smug little shit!</example></translation>
                     <translation local="gb">patrocinar<example>Elizabeth I &lt;b&gt;patronised&lt;/b&gt; the arts on a lavish scale.</example></translation>
                     <translation local="gb" register="formal">ser client de<example>Although its most loyal customers continued to &lt;b&gt;patronise&lt;/b&gt; the store, it gradually lost ground to bigger department stores.</example><otherlocal>patronize</otherlocal></translation>
-                </translations>
-                
-            </verbs>
-            
+                </translations>                
+            </verbs>            
         </Entry>
 <Entry frequency="1280000">patronising<adjectives>
 			<translations>
@@ -3946,28 +3947,17 @@
             </verbs>
         </Entry>
 <Entry frequency="1580000">patronizing<adjectives>
-
 			<translations>
-
 				<translation>condescendent</translation>
-
 			</translations>
-
 		</adjectives>
-
 	</Entry>
-<Entry frequency="33300000">pattern<nouns>
-
-			<translations>
-
-                        <grouptranslation><translation gender="m">patró</translation>
-
-                                <translation gender="f">plantilla</translation></grouptranslation>
-
-			</translations>
-
-		</nouns>
-
+        <Entry frequency="33300000">pattern<nouns>
+                <translations>
+                    <grouptranslation><translation gender="m">patró</translation>
+                    <translation gender="f">plantilla</translation></grouptranslation>
+                </translations>
+            </nouns>
 	</Entry>
          <Entry frequency="3000000">paucity<nouns>
                             <translations><date>0709</date>
@@ -6945,6 +6935,12 @@
 		</nouns>
 
 	</Entry>
+            <Entry frequency="4540000">pharynx<nouns>
+                    <translations><date>0909</date>
+                        <translation catagory="body" gender="f">faringe<plural>pharynges</plural></translation>
+                    </translations>
+                </nouns>
+            </Entry>
 <Entry frequency="13800000">phase<nouns>
 
 			<translations>
@@ -17331,15 +17327,15 @@
 		</nouns>
 
                 <phrasalverbs>prop up
-
-                <translations>
-
-                <translation>apuntalar / estintolar</translation>
-
-                <translation>donar suport (a algú / alguna cosa)</translation>
-
-                </translations>
-
+                    
+                    <translations>
+                        
+                        <translation>apuntalar / estintolar</translation>
+                        
+                        <translation>donar suport (a algú / alguna cosa)</translation>
+                        
+                    </translations>
+                    
                 </phrasalverbs>
                 <expressions>props to
                     <translations>

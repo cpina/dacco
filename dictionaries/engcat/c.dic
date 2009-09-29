@@ -9656,9 +9656,12 @@
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="6090000">congregation<nouns>
-        <translations>
-            <translation catagory="religious" gender="mpl">feligresos</translation>
+<Entry frequency="17600000">congregation<nouns>
+        <translations><date>0909</date>
+            <grouptranslation disambiguate="religious">
+                <translation gender="mpl">feligresos</translation>
+                <translation gender="f">feligresia</translation>
+            </grouptranslation>
             <translation gender="f">congregació<engexamp>Member of a congregation</engexamp><catexamp>Congregant</catexamp></translation>
         </translations>
     </nouns>
@@ -12774,7 +12777,7 @@
     </Entry>
 <Entry frequency="5280000">cranky<adjectives>
             <translations>
-                <translation>irritat / malhumorat / de mala llet</translation>
+                <translation>irritable / malhumorat / de mala llet</translation>
             </translations>
         </adjectives>
     </Entry>
@@ -12883,9 +12886,21 @@
             </translations>
         </nouns>
     </Entry>
+<Entry frequency="28800000">crawler<nouns>
+        <translations><date>0909</date>
+            <translation local="gb" register="colloquial" gender="mf">llepaculs / llepaire</translation>
+            <translation gender="mf">nen que gateja<example>My first child was a late &lt;b&gt;crawler&lt;/b&gt; but was walking by 11 months.</example></translation>
+        </translations>
+    </nouns>
+        <expressions>crawler lane
+            <translations>
+                <translation catagory="transport" local="gb" gender="m">carril lent</translation>
+            </translations>
+        </expressions>
+    </Entry>
 <Entry frequency="471000">crayfish<nouns>
         <translations>
-            <translation gender="m">cranc de riu<plural>crayfish / crayfishes</plural></translation>
+            <translation catagory="animal-sea" gender="m">cranc de riu<plural>crayfish / crayfishes</plural></translation>
         </translations>
     </nouns>
     </Entry>
