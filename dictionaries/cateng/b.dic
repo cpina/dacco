@@ -4022,14 +4022,24 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="20800" hasSound="true">broma<nouns>
-			<translations><date>0705</date>
+	<Entry frequency="420000" hasSound="true">broma<nouns>
+			<translations><date>1009</date>
 				<translation gender="f">joke</translation>
 				<translation gender="f">mist</translation>
 				<translation gender="f">foam</translation>
 				<translation gender="f">shipworm / teredo</translation>
 			</translations>
 		</nouns>
+                <expressions>de broma
+                    <translations>
+                        <translation>in jest</translation>
+                    </translations>
+                </expressions>
+                <expressions>fer broma
+                    <translations>
+                        <translation>to joke</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="98">bromatòleg<nouns>
                             <translations><date>1008</date>
@@ -4353,15 +4363,20 @@
                     </translations>
                 </expressions>
 	</Entry>
-        <Entry frequency="1330">bufó<nouns>
-        <translations><date>1105</date>
-        <translation gender="m">jester<plural>bufons</plural></translation></translations></nouns>
-        <adjectives>
-			<translations>
-				<translation>pretty / smart / cute<fems>bufona</fems></translation>
-			</translations>
-		</adjectives>
-	</Entry>
+                  <Entry frequency="20900">bufó<nouns>
+                          <translations><date>1009</date>
+                      <translation gender="m">jester<plural>bufons</plural></translation></translations></nouns>
+                      <adjectives>
+                          <translations>
+                              <translation>pretty / smart / cute<fems>bufona</fems><plural>bufons</plural></translation>
+                          </translations>
+                      </adjectives>
+                      <expressions>bufó de la cort
+                          <translations>
+                              <translation gender="m">court jester</translation>
+                          </translations>
+                      </expressions>
+                  </Entry>
                   <Entry frequency="2550">bufonada<nouns>
 			<translations><date>0909</date>
 				<translation sourceplural="bufonades" gender="fpl">antics / clowning around / messing around / fooling around</translation>
