@@ -8901,24 +8901,19 @@
 		</adjectives>
 
 	</Entry>
-<Entry frequency="89300000">pipe<nouns>
-
-                            <translations><date>0708</date>
-
-				<translation gender="m">tub<engnote>'Tub' means 'pipe' in the sense 'gas pipe'.</engnote>
-
-				</translation>
-
-				<translation gender="f">pipa<engnote>'Pipa' means 'pipe' in the sense 'to smoke a pipe'.</engnote>
-
-				</translation>
-                                <translation gender="f">barra vertical<engnote>'Barra vertical' means 'pipe' as in the symbol '|'.</engnote></translation>
-                                <translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">migtub<synonyms>halfpipe</synonyms></translation>
-
-			</translations>
-
-		</nouns>
-
+            <Entry frequency="94000000">pipe<nouns>
+                    <translations><date>1009</date>
+                        <translation gender="m">tub<engnote>'Tub' means 'pipe' in the sense 'gas pipe'.</engnote></translation>
+                        <translation gender="f">pipa<engnote>'Pipa' means 'pipe' in the sense 'to smoke a pipe'.</engnote></translation>
+                        <translation gender="f">barra vertical<engnote>'Barra vertical' means 'pipe' as in the symbol '|'.</engnote></translation>
+                        <translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">migtub<synonyms>halfpipe</synonyms></translation>
+                    </translations>
+                </nouns>
+                <phrasalverbs>pipe down
+                    <translations>
+                        <translation>fer menys soroll / callar<example>&lt;b&gt;Pipe down&lt;/b&gt; a bit will you kids?  My head is splitting.</example></translation>
+                    </translations>
+                </phrasalverbs>
 	<phrasalverbs>pipe up
             <translations>
                 <translation register="colloquial" intransitive="true">dir sobtadament</translation>
@@ -12162,27 +12157,41 @@
 
 	</Entry>
 <Entry frequency="40500000">polymer<nouns>
-
 			<translations><date>1007</date>
-
 				<translation gender="m">polímer</translation>
-
 			</translations>
-
 		</nouns>
-
 	</Entry>
-<Entry frequency="21600000">polynomial<nouns>
-
-			<translations>
-
-			<translation catagory="maths" gender="m">polinomi</translation>
-
+          <Entry frequency="580">polymerisation<nouns>
+			<translations><date>1009</date>
+				<translation local="gb" catagory="chemistry" gender="f">polimerització<otherlocal>polymerization</otherlocal></translation>
 			</translations>
-
 		</nouns>
-
 	</Entry>
+          <Entry frequency="180000">polymerise<verbs>
+			<translations><date>1009</date>
+				<translation local="gb" catagory="chemistry">polimeritzar<otherlocal>polymerize</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>
+          <Entry frequency="580">polymerization<nouns>
+			<translations><date>1009</date>
+				<translation catagory="chemistry" gender="f">polimerització</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="1860000">polymerize<verbs>
+			<translations><date>1009</date>
+				<translation catagory="chemistry">polimeritzar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="21600000">polynomial<nouns>
+                <translations>
+                    <translation catagory="maths" gender="m">polinomi</translation>
+                </translations>
+            </nouns>
+        </Entry>
 <Entry frequency="2010000">polyp<nouns>
 
 			<translations>
@@ -16563,6 +16572,17 @@
 		</adjectives>
 
 	</Entry>
+          <Entry frequency="19700000">prodigy<nouns>
+                            <translations><date>1009</date>
+				<translation gender="m">prodigi</translation>
+			</translations>
+		</nouns>
+                <expressions>child prodigy
+                    <translations>
+                        <translation gender="m">infant prodigi</translation>
+                    </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="16200000">produce<verbs>
 
 			<translations>
@@ -18264,26 +18284,34 @@
 
 	</Entry>
 <Entry frequency="7400000">psychology<nouns>
-
 			<translations>
-
 				<translation catagory="medical-field, work-field" gender="f">psicologia</translation>
-
 			</translations>
-
 		</nouns>
-
 	</Entry>
 <Entry frequency="180000">psychopath<nouns>
-
 			<translations>
-
 				<translation gender="mf">psicòpata</translation>
-
 			</translations>
-
 		</nouns>
-
+	</Entry>
+          <Entry frequency="434000">psychopathological<adjectives>
+			<translations><date>1009</date>
+				<translation catagory="medicine">psicopatològic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+          <Entry frequency="73100">psychopathologist<nouns>
+			<translations><date>1009</date>
+				<translation catagory="medicine-job, work-job" gender="mf">psicopatòleg</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="3180000">psychopathology<nouns>
+			<translations><date>1009</date>
+				<translation catagory="medicine-field" gender="f">psicopatologia</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="9190000">psychosis<nouns>
 
