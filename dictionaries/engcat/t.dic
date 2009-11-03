@@ -1134,7 +1134,7 @@
 		</acronyms>
 	</Entry><Entry frequency="8520000">tea<nouns>
 			<translations>
-                                <translation catagory="food-drink" gender="m">te<catnote>És probable que ja saps que el te (i no el café) és la beguda 'nacional' de la Gran Bretanya.  Però sabies que.... cada vegada que s'emet un episodi molt anticipat d'una de les dues telenovel·les més importants del país - Eastenders (Gent del Barri) o Coronation Street - la xarxa elèctrica experimenta problemes ja que, tan bon punt el programa s'hagi terminat, tots el televidents van a les seves cuines respectives per fer una tassa de te. Si et sembla mentira, t'aconsellem fer una cerca a Google (en anglès, és clar) amb les paraules claus - eastenders i "power surge"!</catnote></translation>
+                                <translation catagory="food-drink" gender="m">te<catnote>És probable que ja saps que el te (i no el cafè) és la beguda 'nacional' de la Gran Bretanya.  Però sabies que.... cada vegada que s'emet un episodi molt anticipat d'una de les dues telenovel·les més importants del país - Eastenders (Gent del Barri) o Coronation Street - la xarxa elèctrica experimenta problemes ja que, tan bon punt el programa s'hagi terminat, tots el televidents van a les seves cuines respectives per fer una tassa de te. Si et sembla mentira, t'aconsellem fer una cerca a Google (en anglès, és clar) amb les paraules claus - eastenders i "power surge"!</catnote></translation>
                                 <translation catagory="food" gender="m">berenar</translation>
 			</translations>
 		</nouns>
@@ -1300,7 +1300,14 @@
 				</translation>
 			</translations>
 		</phrasalverbs>
-               </Entry><Entry frequency="765000">tear jerker<nouns>
+               </Entry>
+               <Entry frequency="2340000">tearful<adjectives>
+                       <translations><date>1109</date>
+                           <translation>llagrimós / plorós</translation>
+                       </translations>
+                   </adjectives>
+               </Entry>
+               <Entry frequency="765000">tear jerker<nouns>
                             <translations><date>1007</date>
 				<translation>(novel·la, pel·lícula o cançó) lacrimògena<example>The film Philadelphia is a real &lt;b&gt;tear jerker&lt;/b&gt;.</example></translation>
 			</translations>
@@ -2130,6 +2137,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="10200000">terrified<adjectives>
+                <translations><date>1109</date>
+                    <translation>aterrit / atemorit</translation>
+                </translations>
+            </adjectives>
+        </Entry>
          <Entry frequency="9790000">terrify<verbs ie="true">
                             <translations><date>0809</date>
 				<translation transitive="true">aterrir / atemorir</translation>
@@ -5557,18 +5570,20 @@
 				<translation catagory="religious" gender="m">transsepte</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="14700000">transfer<nouns>
-			<translations>
+	</Entry><Entry frequency="270000000">transfer<nouns>
+                            <translations><date>1109</date>
 				<grouptranslation>
 					<translation gender="m">traspàs</translation>
 					<translation gender="f">transferència</translation>
 				</grouptranslation>
                                 <translation gender="f">cessió</translation>
+                                <translation disambiguate="transport" gender="m">transbordament</translation>
 			</translations>
 		</nouns>
 		<verbs double="true">
 			<translations>
 				<translation>transferir / traspassar</translation>
+                                <translation disambiguate="transport">transbordar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="5600000">transferable<adjectives>
@@ -7590,7 +7605,20 @@
 				<translation>tirànic</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="291000">tyrannosaur<nouns>
+	</Entry>
+         <Entry frequency="73900">tyrannise<verbs>
+                <translations><date>1109</date>
+                    <translation local="gb">tiranitzar<otherlocal>tyrannize</otherlocal></translation>
+                </translations>
+            </verbs>
+	</Entry>
+        <Entry frequency="503000">tyrannize<verbs>
+                <translations><date>1109</date>
+                    <translation>tiranitzar</translation>
+                </translations>
+            </verbs>
+	</Entry>
+        <Entry frequency="291000">tyrannosaur<nouns>
 			<translations>
 				<translation gender="m">tiranosaure<synonyms>tyrannosaurus</synonyms></translation>
 			</translations>
