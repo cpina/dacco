@@ -309,9 +309,17 @@
                     </translations>
                 </expressions>
 	</Entry>
+        <Entry frequency="2350000">valoració<nouns>
+                <translations><date>0110</date>
+                    <translation gender="f">appraisal</translation>
+                    <translation gender="f">rating</translation>
+                </translations>
+            </nouns>
+        </Entry>
 	<Entry frequency="62000">valorar<verbs conj="regular">
-			<translations>
-				<translation>to rate</translation>
+                            <translations><date>0110</date>
+				<translation transitive="true">to rate</translation>
+                                <translation transitive="true">to appraise</translation>
 			</translations>
 		</verbs>
 	</Entry>
