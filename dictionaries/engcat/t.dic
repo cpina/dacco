@@ -678,17 +678,18 @@
 				<translation gender="m">tampó</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="5990000">tandem<nouns>
-			<translations>
-				<translation catagory="transport-mode" gender="m">tàndem</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="25100">tandem flight<nouns>
-			<translations>
-				<translation gender="m">vol biplaça</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="1310000">tanga<nouns>
+                </Entry><Entry frequency="5990000">tandem<nouns>
+                        <translations>
+                            <translation catagory="transport-mode" gender="m">tàndem</translation>
+                        </translations>
+                    </nouns>
+                    <expressions>tandem flight
+                    <translations>
+                        <translation gender="m">vol biplaça</translation>
+                    </translations>
+                    </expressions>
+                </Entry>
+                <Entry frequency="1310000">tanga<nouns>
 			<translations>
 				<translation catagory="clothes" gender="f">tanga</translation>
 			</translations>
@@ -3207,15 +3208,33 @@
 				<translation catagory="monarchy" gender="m">tron</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="2110000">throttle<nouns>
-			<translations>
-				<translation catagory="transport" gender="m">accelerador</translation>
-			</translations>
-		</nouns>
+            </Entry><Entry frequency="15000000">throttle<nouns>
+                    <translations><date>0110</date>
+                        <translation catagory="transport" gender="m">accelerador</translation>
+                    </translations>
+                </nouns>
                 <verbs>
-                <translations>
-                <translation>estrangular</translation></translations></verbs>
-	</Entry><Entry frequency="228000000">through<prepositions>
+                    <translations>
+                        <translation>estrangular</translation>
+                    </translations>
+                </verbs>
+                <phrasalverbs>throttle back
+                    <translations>
+                        <translation>descelerar / desaccelerar / alçar (o aixecar) el peu de l'accelerador</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>throttle down
+                    <translations>
+                        <translation>descelerar / desaccelerar / alçar (o aixecar) el peu de l'accelerador</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>throttle up
+                    <translations>
+                        <translation>accelerar / trepitjar l'accelerador</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
+        <Entry frequency="228000000">through<prepositions>
 			<translations>
 				<translation>a través de</translation>
                                 <translation>mitjançant / per mitjà de</translation>
@@ -6420,7 +6439,15 @@
 				<translation local="gb">frivolitzar<otherlocal>trivialize</otherlocal><example>Yeadon's comments further &lt;b&gt;trivialise&lt;/b&gt; the already farcical NSW forest issue.</example></translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="1480000">trivialize<verbs>
+	</Entry>
+        <Entry frequency="641000">triviality<nouns>
+                <translations><date>0110</date>
+                    <translation gender="f">frivolitat / cosa de poca importància</translation>
+                    <translation gender="f">frivolitat</translation>
+                </translations>
+            </nouns>
+        </Entry>
+        <Entry frequency="1480000">trivialize<verbs>
 			<translations>
 				<translation>frivolitzar<example>Yeadon's comments further &lt;b&gt;trivialize&lt;/b&gt; the already farcical NSW forest issue.</example></translation>
 			</translations>
