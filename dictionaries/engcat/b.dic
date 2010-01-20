@@ -6119,6 +6119,11 @@
                         <translation catagory="work-job" gender="mf">artificier</translation>
                     </translations>
                 </expressions>
+                <expressions>bomb warning
+                    <translations>
+                        <translation gender="m">avís de bomba</translation>
+                    </translations>
+                </expressions>
                 <expressions>cost a bomb
                 <translations>
                 <translation>costar un ull de la cara / costar un ronyó<synonyms>cost an arm and a leg, cost a fortune</synonyms></translation></translations></expressions>
@@ -6144,15 +6149,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="24000">bomb disposal expert<nouns>
-			<translations>
-				<translation gender="mf">artificier<synonyms>bomb disposal officer</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="3670">bomb warning<nouns>
-			<translations>
-				<translation gender="m">avís de bomba</translation>
+  <Entry frequency="22200000">bomber<nouns>
+                            <translations><date>0110</date>
+				<translation gender="m">[avió] bombarder</translation>
+                                <translation gender="mf">terrorista (que posa bombes)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7587,11 +7587,25 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="7420000">breathing<nouns>
-			<translations>
+          <Entry frequency="2860000">breather<nouns>
+                            <translations><date>0110</date>
+                            <grouptranslation register="colloquial">
+				<translation gender="m">respir / descans</translation>
+                                <translation gender="f">pausa</translation>
+                                </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="40900000">breathing<nouns>
+                            <translations><date>0110</date>
 				<translation gender="f">respiració</translation>
 			</translations>
 		</nouns>
+                <expressions>
+                    <translations>
+                        <translation gender="m">respir / descans</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="21100000">bred<verbTense>
                 <translations><date>1109</date>
