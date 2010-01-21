@@ -7277,7 +7277,7 @@
 
 			<translations>
 
-				<translation catagory="body" register="colloquial" local="gb" gender="f">orella</translation>
+				<translation catagory="body" register="colloquial" local="gb" gender="f">orella<example>"Susan, a word in your &lt;b&gt;shell-like&lt;/b&gt; please".</example></translation>
 
 			</translations>
 
@@ -7308,7 +7308,7 @@
                                 <translation intransitive="true">refugiar-se</translation>
 
                                 <translation transitive="true">protegir</translation>
-
+                                <translation transitive="true">arrecerar</translation>
                                 <translation transitive="true">aixoplugar<engnote>'Aixoplugar' means 'to shelter (from the rain)'.</engnote></translation>
 
                                 <translation intransitive="true">aixoplugar-se</translation>
@@ -10330,7 +10330,7 @@
 		</nouns>
                 <expressions>stage a sit-in
                     <translations>
-                        <translation>fer una tancada</translation>
+                        <translation>organitzar una tancada</translation>
                     </translations>
                 </expressions>
 	</Entry><Entry frequency="415000">sitting room<nouns>
@@ -18694,23 +18694,29 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="37700000">stage<nouns>
-
-			<translations>
-
-				<translation gender="m">escenari<engnote>'Escenari' means 'stage' as in 'the area in a theatre where actors perform'.</engnote>
-
-				</translation>
-
-				<translation gender="f">etapa<engnote>'Etapa' means 'stage' in the sense 'stages 1, 2, 3, 4 etc.'</engnote>
-
-				</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry><Entry frequency="431000">stagger<verbs>
+            </Entry><Entry frequency="315000000">stage<nouns>
+                    
+                    <translations><date>0110</date>
+                        
+                        <translation gender="m">escenari<engnote>'Escenari' means 'stage' as in 'the area in a theatre where actors perform'.</engnote>
+                            
+                        </translation>
+                        
+                        <translation gender="f">etapa<engnote>'Etapa' means 'stage' in the sense 'stages 1, 2, 3, 4 etc.'</engnote>
+                            
+                        </translation>
+                        
+                    </translations>
+                    
+                </nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">escenificar</translation>
+                        <translation transitive="true">organitzar<engexamp>To stage a sit-in</engexamp><catexamp>Organitzar una tancada</catexamp><engexamp>To stage a strike</engexamp><catexamp>Organitzar una vaga</catexamp></translation>                       
+                    </translations>
+                </verbs>
+            </Entry>
+        <Entry frequency="431000">stagger<verbs>
 
 			<translations>
 
@@ -20102,7 +20108,16 @@ s
 			</translations>
 
 		</nouns>
-
+                <expressions>adult stem cell
+                    <translations>
+                        <translation catagory="biology" gender="f">cèl·lula mare adulta</translation>
+                    </translations>
+                </expressions>
+                <expressions>embryonic stem cell
+                    <translations>
+                        <translation catagory="biology" gender="f">cèl·lula mare embrionària</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="2970000">stench<nouns>                
                 <translations><date>0609</date>

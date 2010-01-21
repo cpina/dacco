@@ -6645,8 +6645,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="1130000">doublet<nouns>
+<Entry frequency="3540000">doublet<nouns>
 			<translations><date>0307</date>
+                        <translation disambiguate="clothes" gender="m">perpunt</translation>
 				<translation termcat="energy" gender="m">doblet</translation>
 			</translations>
 		</nouns>
@@ -7001,14 +7002,28 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="156000">dramatise<verbs>
-			<translations>
-				<translation local="gb">dramatitzar<otherlocal>dramatize</otherlocal></translation>
+<Entry frequency="336000">dramatisation<nouns>
+                            <translations><date>0110</date>
+				<translation local="gb" gender="f">escenificació<otherlocal>dramatization</otherlocal></translation>
 			</translations>
-		</verbs>
+		</nouns>
 	</Entry>
-<Entry frequency="699000">dramatize<verbs>
-			<translations>
+        <Entry frequency="380000">dramatise<verbs>
+                <translations><date>0110</date>
+                    <translation local="gb">escenificar</translation>
+                    <translation local="gb">dramatitzar<otherlocal>dramatize</otherlocal></translation>
+                </translations>
+            </verbs>
+        </Entry>
+        <Entry frequency="1270000">dramatization<nouns>
+                            <translations><date>0110</date>
+				<translation gender="f">escenificació</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="1760000">dramatize<verbs>
+                        <translations><date>0110</date>
+                            <translation local="us">escenificar</translation>
 				<translation local="us">dramatitzar<otherlocal>dramatise</otherlocal></translation>
 			</translations>
 		</verbs>
