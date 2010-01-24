@@ -6259,28 +6259,16 @@
 
 	</Entry>
 <Entry frequency="453000000">personal<adjectives>
-
 			<translations>
-
 				<translation>personal</translation>
-
 			</translations>
-
 		</adjectives>
-
-	</Entry>
-<Entry frequency="484000">personal foul<nouns>
-
-                            <translations><date>1107</date>
-
-				<translation catagory="sports" termcat="true" gender="f">falta personal</translation>
-
-                                <translation catagory="sports-event-basketball" termcat="true" gender="f">(basquetbol / waterpolo) personal / falta personal</translation>
-
-			</translations>
-
-		</nouns>
-
+                <expressions>personal foul
+                    <translations>                        
+                        <translation catagory="sports" termcat="true" gender="f">falta personal</translation>                        
+                        <translation catagory="sports-event-basketball" termcat="true" gender="f">[basquetbol / waterpolo] personal / falta personal</translation>                       
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="165000">personalism<nouns>
 			<translations><date>0808</date>
@@ -6295,47 +6283,23 @@
 		</adjectives>
 	</Entry>
 <Entry frequency="6460000">personality<nouns>
-
 			<translations>
-
-				<translation gender="f">personalitat<engnote>'Personalitat' means 'personality' as in 'he has a great personality'.</engnote>
-
-				</translation>
-
-				<translation gender="m">personatge (cèlebre)<engnote>'Personatge' means 'personality' as in '(famous) person'.</engnote>
-
-					<synonyms>celebrity</synonyms>
-
-					<plural>personalities</plural>
-
-				</translation>
-
+                                <translation gender="f">personalitat<engnote>'Personalitat' means 'personality' as in 'he has a great personality'.</engnote></translation>
+				<translation gender="m">personatge (cèlebre)<engnote>'Personatge' means 'personality' as in '(famous) person'.</engnote><synonyms>celebrity</synonyms><plural>personalities</plural></translation>
 			</translations>
-
 		</nouns>
-
 	</Entry>
 <Entry frequency="46200000">personally<adverbs>
-
 			<translations>
-
 				<translation>personalment</translation>
-
 			</translations>
-
 		</adverbs>
-
 	</Entry>
 <Entry frequency="443000">personal trainer<nouns>
-
 			<translations>
-
 				<translation catagory="sports" gender="mf">entrenador personal</translation>
-
 			</translations>
-
 		</nouns>
-
 	</Entry>
          <Entry frequency="1580000">personification<nouns>
                             <translations><date>1108</date>
@@ -6371,6 +6335,28 @@
 			</translations>
 
 		</nouns>
+
+	</Entry>
+         <Entry frequency="3890000">perspiration<nouns>
+
+                            <translations><date>0110</date>
+
+				<translation gender="f">perspiració / suor</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
+         <Entry frequency="495000">perspire<verbs>
+
+                            <translations><date>0110</date>
+
+				<translation intransitive="true">transpirar / suar</translation>
+
+			</translations>
+
+		</verbs>
 
 	</Entry>
 <Entry frequency="689000">persuade<verbs>
@@ -11180,26 +11166,26 @@
 		</nouns>
 
 	</Entry>
-<Entry frequency="14800000">pocket<nouns>
-
-			<translations>
-
+<Entry frequency="175000000">pocket<nouns>
+                            <translations><date>0110</date>
 				<translation catagory="clothes" gender="f">butxaca</translation>
-
 			</translations>
-
 		</nouns>
-
 		<adjectives>
-
 			<translations>
-
 				<translation>de butxaca</translation>
-
 			</translations>
-
 		</adjectives>
-
+                <expressions>pocket-size
+                    <translations>
+                        <translation>de butxaca</translation>
+                    </translations>
+                </expressions>
+                <expressions>pocket-sized
+                    <translations>
+                        <translation>de butxaca</translation>                    
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1790000">pocket money<nouns>
 
@@ -14649,23 +14635,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="2880000">prefab<nouns>
+<Entry frequency="2010000">prefab<nouns>
 
-			<translations>
+                            <translations><date>0110</date>
 
-				<translation gender="m">edifici prefabricat</translation>
+				<translation register="colloquial" gender="m">barracó</translation>
 
 			</translations>
 
 		</nouns>
 
-                <adjectives>
-
-                <translations>
-
-                <translation>prefabricat</translation></translations></adjectives>
-
-	</Entry>
+         	</Entry>
 <Entry frequency="33000000">prefer<verbs double="true">
 
 			<translations>
@@ -17357,6 +17337,53 @@
                     </translations>
                 </expressions>
 	</Entry>
+         <Entry frequency="1540000">pronominal<adjectives>
+                            <translations><date>0110</date>
+				<translation catagory="linguistics">pronominal</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+          <Entry frequency="15900000">pronoun<nouns>
+                            <translations><date>0110</date>
+				<translation catagory="linguistics" gender="m">pronom</translation>
+			</translations>
+		</nouns>
+                <expressions>demonstrative pronoun
+                    <translations>
+                        <translation catagory="linguistics" gender="m">pronom demostratiu</translation>
+                    </translations>
+                </expressions>
+                <expressions>indefinite pronoun
+                    <translations>
+                        <translation catagory="linguistics" gender="m">pronom indefinit</translation>
+                    </translations>
+                </expressions>
+                <expressions>interrogative pronoun
+                    <translations>
+                        <translation catagory="linguistics" gender="m">pronom interrogatiu</translation>
+                    </translations>
+                </expressions>
+                <expressions>personal pronoun
+                    <translations>
+                        <translation catagory="linguistics" gender="m">pronom personal</translation>
+                    </translations>
+                </expressions>
+                <expressions>possessive pronoun
+                    <translations>
+                        <translation catagory="linguistics" gender="m">pronom possessiu</translation>
+                    </translations>
+                </expressions>
+                <expressions>reflexive pronoun
+                    <translations>
+                        <translation catagory="linguistics" gender="m">pronom reflexiu</translation>
+                    </translations>
+                </expressions>
+                <expressions>relative pronoun
+                    <translations>
+                        <translation catagory="linguistics" gender="m">pronom relatiu</translation>
+                    </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="12600000">pronounce<verbs>
 
 			<translations>
@@ -18664,6 +18691,12 @@
                 <translation gender="f">autoedició</translation>
                 </translations>
                 </expressions>
+	</Entry>
+         <Entry frequency="3740000">puck<nouns>
+                            <translations><date>0110</date>
+				<translation catagory="sports-event-icehockey" gender="m">disc</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="2470000">pucker<verbs>
 
