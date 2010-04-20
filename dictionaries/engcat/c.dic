@@ -917,6 +917,11 @@
             <translation disambiguate="zodiac" gender="m">Cranc</translation>
         </translations>
     </nouns>
+     <expressions>cancer specialist
+        <translations>
+            <translation catagory="medical, work-job" gender="mf">oncòleg</translation>
+        </translations>
+    </expressions>
     <expressions>cancer treatment
         <translations>
             <translation catagory="medical" gender="m">tractament oncològic</translation>
@@ -956,12 +961,7 @@
         <translations>
             <translation catagory="medical-illness" gender="m">càncer de pròstata</translation>
         </translations>
-    </expressions>
-     <expressions>cancer specialist
-        <translations>
-            <translation catagory="medical, work-job" gender="mf">oncòleg</translation>
-        </translations>
-    </expressions>
+    </expressions>   
     </Entry>
 <Entry frequency="383000">cancerous<adjectives>
         <translations>
@@ -3846,7 +3846,7 @@
         </nouns>
         <verbs>
             <translations>
-                <translation>noliejar / llogar</translation>
+                <translation transitive="true">noliejar / llogar</translation>
             </translations>
         </verbs>
         <expressions>charter flight
@@ -3864,7 +3864,7 @@
     </Entry>
 <Entry frequency="11800000">chase<verbs>
         <translations>
-            <translation>perseguir<example>The dog &lt;b&gt;chased&lt;/b&gt; the cat up the tree</example>
+            <translation transitive="true">perseguir<example>The dog &lt;b&gt;chased&lt;/b&gt; the cat up the tree</example>
                 <example>The police &lt;b&gt;chased&lt;/b&gt; after the car because they believed it was stolen</example>
                 <example>Man United have revealed that David Beckham is currently being &lt;b&gt;chased&lt;/b&gt; by a number of European clubs</example>
                 <synonyms>pursue</synonyms>
@@ -3882,8 +3882,8 @@
     </Entry>
 <Entry frequency="56200000">chat<verbs double="true">
         <translations>
-            <translation>conversar / xerrar</translation>
-            <translation disambiguate="computers" termcat="true">fer un xat / fer (una) tertúlia / xatejar</translation>
+            <translation intransitive="true">conversar / xerrar</translation>
+            <translation disambiguate="computers" termcat="true" intransitive="true">fer un xat / fer (una) tertúlia / xatejar</translation>
         </translations>
     </verbs>
     <phrasalverbs>chat (someone) up
@@ -3914,8 +3914,8 @@
     </nouns>
         <verbs>
         <translations>
-        <translation>xerrar</translation>
-        <translation>petar<engnote>'Petar' means 'to chatter' as in 'his teeth were chattering'.</engnote></translation></translations></verbs>
+        <translation intransitive="true">xerrar</translation>
+        <translation intransitive="true">petar<engnote>'Petar' means 'to chatter' as in 'his teeth were chattering'.</engnote></translation></translations></verbs>
     </Entry>
 <Entry frequency="434000">chauffeur<nouns>
         <translations>
@@ -3977,7 +3977,7 @@
     </Entry>
 <Entry frequency="452000">cheapskate<nouns>
         <translations>
-            <translation register="slang" gender="mf">garrepa</translation>
+            <translation register="slang" gender="mf">garrepa<synonyms>miser, scrooge, skinflint, tightwad (Am.)</synonyms></translation>
         </translations>
     </nouns>
     </Entry>
@@ -9653,40 +9653,55 @@
         </translations>
     </phrasalverbs>
     </Entry>
-<Entry frequency="16800000">confidence<nouns>
-        <translations>
+<Entry frequency="193000000">confidence<nouns>
+        <translations><date>0410</date>
             <translation gender="f">confiança</translation>
         </translations>
     </nouns>
+        <expressions>confidence game
+            <translations>
+                <translation local="us" register="formal" gender="f">estafa<otherlocal>confidence trick</otherlocal><synonyms>con</synonyms></translation>
+            </translations>
+        </expressions>
+        <expressions>confidence trick
+            <translations>
+                <translation register="formal" gender="f">estafa<synonyms>confidence game (Am.) / con</synonyms></translation>
+            </translations>
+        </expressions>
+        <expressions>confidence trickster
+            <translations>
+                <translation register="formal" gender="mf">estafador<synonyms>conman</synonyms></translation>
+            </translations>
+        </expressions>
         <expressions>in confidence
             <translations>
                 <translation>confidencialment<synonyms>confidentially</synonyms></translation>
             </translations>
         </expressions>
+        <expressions>self confidence
+            <translations>
+                <translation gender="f">confiança en un mateix / seguretat d'un mateix</translation>
+            </translations>
+        </expressions>
     </Entry>
-<Entry frequency="38100">confidence game<nouns>
-        <translations>
-            <translation local="us" register="formal" gender="f">estafa<otherlocal>confidence trick</otherlocal><synonyms>con</synonyms></translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="26900">confidence trick<nouns>
-        <translations>
-            <translation register="formal" gender="f">estafa<synonyms>confidence game (Am.) / con</synonyms></translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="16100">confidence trickster<nouns>
-        <translations>
-            <translation register="formal" gender="mf">estafador<synonyms>conman</synonyms></translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="3130000">confident<adjectives>
-        <translations>
+<Entry frequency="63000000">confident<adjectives>
+        <translations><date>0410</date>
+            <translation>segur<engexamp>Self confident</engexamp><catexamp>Segur d'un mateix</catexamp></translation>
             <translation>confiat</translation>
         </translations>
     </adjectives>
+        <expressions>be confident of
+            <translations>
+                <translation>confiar en / tenir confiança en</translation>
+                <translation>estar segur de</translation>
+            </translations>
+        </expressions>
+        <expressions>be confident that
+            <translations>
+                <translation>confiar que / tenir confiança que</translation>
+                <translation>estar segur que</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="107000000">confidential<adjectives>
         <translations>
@@ -12691,12 +12706,17 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="104000000">course<nouns>
-        <translations><date>0308</date>
+    <Entry frequency="105000000">course<nouns>
+        <translations><date>0410</date>
             <translation gender="m">curs</translation>
             <translation gender="m">rumb</translation>
         </translations>
     </nouns>
+    <expressions>golf course
+        <translations>
+            <translation catagory="sports-event-golf" gender="m">camp de golf</translation>
+        </translations>
+    </expressions>
     <expressions>of course
     <translations>
         <translation>és clar</translation>

@@ -3371,7 +3371,7 @@
 	</Entry>
 <Entry frequency="53800">besiege<verbs>
 			<translations>
-				<translation>assetjar</translation>
+				<translation transitive="true">assetjar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3380,6 +3380,12 @@
 				<translation>assetjat</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="456000">besmirch<verbs>
+                            <translations><date>0410</date>
+				<translation transitive="true" register="formal">[sobretot la reputació d'algú] tacar / embrutar / danyar<synonyms>taint, smirch</synonyms></translation>
+			</translations>
+		</verbs>
 	</Entry>
 <Entry frequency="249000000">best<adjectives>
 			<translations>
@@ -5222,8 +5228,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="394000000">block<verbs>
-                            <translations><date>0609</date>
+<Entry frequency="445000000">block<verbs>
+                            <translations><date>0410</date>
 				<translation transitive="true">obstruir / estroncar / barrar</translation>
                                 <translation transitive="true">embussar / bloquejar</translation>
 			</translations>
@@ -5259,6 +5265,11 @@
                 <expressions>starting blocks
                     <translations>
                         <translation catagory="sports-event-athletics" gender="mpl">blocs de sortida</translation>
+                    </translations>
+                </expressions>
+                <expressions>stumbling block
+                    <translations>
+                        <translation gender="m">obstacle<synonyms>obstacle</synonyms></translation>
                     </translations>
                 </expressions>
             </Entry>
@@ -6930,22 +6941,38 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="11200000">bound<verbs>
-			<translations>
-				<translation>saltar</translation>
-			</translations>
-		</verbs>
-		<nouns>
-			<translations>
-				<translation gender="m">salt</translation>
-			</translations>
-		</nouns>
-                <verbTense>
-                    <translations>
-                        <translation>passat i participi passat del verb 'to bind'</translation>
-                    </translations>
-                </verbTense>
-	</Entry>
+        <Entry frequency="50000000">bound<verbs>
+                <translations><date>0410</date>
+                    <translation intransitive="true">saltar</translation>
+                </translations>
+            </verbs>
+            <nouns>
+                <translations>
+                    <translation gender="m">salt</translation>
+                    <translation sourceplural="bounds" gender="mpl">límits<engexamp>His generosity knows no bounds.</engexamp><catexamp>La seva generositat no té límits.</catexamp></translation>
+                </translations>
+            </nouns>
+            <verbTense>
+                <translations>
+                    <translation>passat i participi passat del verb 'to bind'</translation>
+                </translations>
+            </verbTense>
+            <expressions>be bound to
+                <translations>
+                    <translation>ser segur que<engexamp>It's bound to rain tomorrow.</engexamp><catexamp>(Ben) segur que plourà demà.</catexamp><engexamp>The week's bound to go quickly.</engexamp><catexamp>(Ben) segur que passarà ràpid la setmana.</catexamp></translation>
+                </translations>
+            </expressions>
+            <expressions>bound for ...
+                <translations>
+                    <translation>que va (o viatja) cap a ...<engexamp>Trains bound for Barcelona.</engexamp><catexamp>Trens que van cap a Barcelona.</catexamp><engexamp>Ships bound for Africa.</engexamp><catexamp>Vaixells que viatgen cap a Àfrica.</catexamp><engexamp>A group of pilgrims bound for Santiago de Compostela.</engexamp><catexamp>Un grup de pelegrins que viatgen cap a Santiago de Compostela.</catexamp></translation>
+                </translations>
+            </expressions>
+            <expressions>(x)-bound
+                <translations>
+                    <translation>cap a (x) / en direcció a (x)<engexamp>Barcelona-bound trains are running late.</engexamp><catexamp>Trens en direcció a Barcelona circulen amb retard.</catexamp><engexamp>I'm homeward bound.</engexamp><catexamp>Vaig (cap) a casa.</catexamp></translation>
+                </translations>
+            </expressions>                
+        </Entry>
 <Entry frequency="5860000">boundary<nouns>
 			<translations>
 				<translation gender="m">límit</translation>
