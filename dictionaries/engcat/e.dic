@@ -4743,6 +4743,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="5410000">ewe<nouns>
+                            <translations><date>0410</date>
+				<translation catagory="animal-animal" gender="f">ovella (femella)</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="20700">Ewood Park<nouns>
 			<translations>
 				<translation catagory="sports, encyclopaedic" local="gb">nom de l'estadi de l'equip de futbol Blackburn Rovers FC</translation>
@@ -5674,18 +5680,16 @@
 				<translation gender="f">pròrroga</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="3350000">extension cord<nouns>
-			<translations>
-				<translation gender="m">allargador<synonyms>extension lead</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="858000">extension lead<nouns>
-			<translations>
-				<translation gender="m">allargador<synonyms>extension cord</synonyms></translation>
-			</translations>
-		</nouns>
+                <expressions>extension cord
+                    <translations>
+                        <translation gender="m">allargador</translation>
+                    </translations>
+                </expressions>
+                <expressions>extension lead
+                    <translations>
+                        <translation gender="m">allargador<synonyms>extension cord</synonyms></translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="39400000">extensive<adjectives>
 			<translations>
