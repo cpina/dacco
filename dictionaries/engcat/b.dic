@@ -5135,6 +5135,16 @@
                     </translations>
                 </expressions>
 	</Entry>
+        <Entry frequency="2520000">blinder<nouns>
+			<translations><date>0510</date>
+                        <translation local="gb" register="colloquial">[a ~ of an x] un x espectacular<example>The band played a &lt;b&gt;blinder&lt;/b&gt; of a set.</example><example>Sunderland won the match with a &lt;b&gt;blinder&lt;/b&gt; of a goal by Darren Bent.</example></translation> 
+                            <grouptranslation sourceplural="blinders" local="us">
+                                <translation gender="mpl">aclucalls</translation>
+                                <translation gender="fpl">ulleres<otherlocal>blinkers</otherlocal></translation>
+                            </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="210000">blindly<adverbs>
 			<translations>
 				<translation>cegament / a cegues</translation>
@@ -5168,10 +5178,13 @@
                 <translations>
                 <translation>parpellejar</translation></translations></verbs>
 	</Entry>
-<Entry frequency="246000">blinker<nouns>
-			<translations>
-				<translation disambiguate="transport" register="colloquial" gender="m">intermitent</translation>
-                                <translation sourceplural="blinkers" disambiguate="animal" gender="fpl">ulleres<synonyms>blinders (Am.)</synonyms></translation>
+<Entry frequency="3020000">blinker<nouns>
+                                <translations><date>0510</date>
+                                    <translation disambiguate="transport" register="colloquial" gender="m">intermitent<synonyms>indicator</synonyms></translation>
+                                <grouptranslation sourceplural="blinkers">
+                                    <translation gender="mpl">aclucalls</translation>
+                                    <translation gender="fpl">ulleres<synonyms>blinders (Am.)</synonyms></translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5826,15 +5839,15 @@
                 </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="8630">boarding card<nouns>
+        <Entry frequency="31600">boarding bridge<nouns>
 			<translations>
-				<translation gender="f">targeta d'embarcament</translation>
+				<translation disambiguate="transport" gender="f">passarel·la<synonyms>jetway</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="31600">boarding bridge<nouns>
+<Entry frequency="8630">boarding card<nouns>
 			<translations>
-				<translation disambiguate="transport" gender="f">passarel·la<synonyms>jetway</synonyms></translation>
+				<translation gender="f">targeta d'embarcament</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5904,9 +5917,16 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="29300000">bod<nouns>
+                            <translations><date>0410</date>
+				<translation register="colloquial" gender="m">tipus / paio / manso / individu</translation>
+                                <translation register="colloquial" gender="m">cos</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="539000">bodice<nouns>
 			<translations>
-				<translation catagory="clothes" register="dated" gender="m">cosset</translation>
+				<translation catagory="clothes" gender="m">cosset</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -9292,6 +9312,12 @@
 			</translations>
 		</nouns>
 	<phrasalverbs>buoy up<translations><translation transitive="true">animar (algú), encoratjar-lo</translation></translations></phrasalverbs></Entry>
+        <Entry frequency="4410000">buoyancy<nouns>
+                            <translations><date>0410</date>
+				<translation>flotabilitat</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="210000">buoyant<adjectives>
 			<translations>
 				<translation>optimista</translation>
