@@ -5517,6 +5517,18 @@
 			</translations>
 		</adjectives>
 	</Entry>    
+        <Entry frequency="6130000">circumscribe<verbs>
+                            <translations><date>0510</date>
+				<translation register="formal">circumscriure</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="389000">circumscription<nouns>
+                            <translations><date>0510</date>
+				<translation register="formal" gender="f">circumscripció</translation>
+			</translations>
+		</nouns>
+	</Entry>
      <Entry frequency="1050000">circumspect<adjectives>
                             <translations><date>0808</date>
 				<translation>circumspecte</translation>
@@ -8379,13 +8391,25 @@
         </translations>
     </adjectives>
     </Entry>
-<Entry frequency="102000000">comic<nouns>
-        <translations>
-            <translation gender="m">còmic</translation>
+<Entry frequency="159000000">comic<nouns>
+        <translations><date>0510</date>
+            <grouptranslation>
+                <translation gender="m">còmic</translation>
+                <translation gender="ffullform">historieta</translation>
+            </grouptranslation>
             <translation gender="mf">còmic / comediant</translation>
         </translations>
     </nouns>
     </Entry>
+      <Entry frequency="5220000">comic strip<nouns>
+			<translations><date>0510</date>
+                            <grouptranslation>
+                                <translation gender="m">còmic</translation>
+                                <translation gender="ffullform">historieta</translation>
+                            </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="924000">comity<nouns>
         <translations><date>0209</date>
             <translation register="formal" gender="f">civilitat / cortesia</translation>
@@ -9894,24 +9918,22 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="7270000">congestion<nouns>
-        <translations>
-            <translation gender="f">congestió<engexamp>To ease congestion</engexamp><catexamp>Descongestionar</catexamp></translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="70500">congestion charge<nouns>
-        <translations>
-            <translation>peatge que es paga per poder entrar en una ciutat (el seu propòsit és reduir la congestió a la ciutat)</translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="39100">congestion charging<nouns>
-        <translations>
-            <translation>pla segons el qual les autoritats d'una ciutat cobren als vehicles que hi entren, en un intent de combatre la congestió a la ciutat</translation>
-        </translations>
-    </nouns>
-    </Entry>
+        <Entry frequency="7270000">congestion<nouns>
+                <translations>
+                    <translation gender="f">congestió<engexamp>To ease congestion</engexamp><catexamp>Descongestionar</catexamp></translation>
+                </translations>
+            </nouns>
+            <expressions>congestion charge
+                <translations>
+                    <translation>peatge que es paga per poder entrar en una ciutat (el seu propòsit és reduir la congestió a la ciutat)</translation>
+                </translations>
+            </expressions>
+            <expressions>congestion charging
+            <translations>
+                <translation>pla segons el qual les autoritats d'una ciutat cobren als vehicles que hi entren, en un intent de combatre la congestió a la ciutat</translation>
+            </translations>
+            </expressions>
+        </Entry>
 <Entry frequency="3800000">congestive<adjectives>
         <translations>
             <translation>congestiu<engexamp>Congestive heart failure</engexamp><catexamp>Insuficiència cardíaca congestiva</catexamp></translation>

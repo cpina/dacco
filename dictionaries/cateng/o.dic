@@ -347,12 +347,14 @@
 	</Entry>
 	<Entry frequency="1650">obsessiu<adjectives>
 			<translations>
-				<translation>obsessive<catexamp>Trastorn obsessiu compulsiu</catexamp>
-					<engexamp>Obsessive-compulsive disorder</engexamp>
-					<fems>obsessiva</fems>
-				</translation>
+				<translation>obsessive<fems>obsessiva</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>trastorn obsessiu compulsiu
+                    <translations>
+                        <translation catagory="medical-illness" gender="m">obsessive compulsive disorder (OCD)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="6550">obsolet<adjectives>
 			<translations>
@@ -483,12 +485,14 @@
 	</Entry>
 	<Entry frequency="55400">ocasió<nouns>
 			<translations>
-				<translation gender="f">occasion<plural>ocasions</plural>
-					<catexamp>(Vehicle / llibre) d'ocasió</catexamp>
-					<engexamp>Second-hand (car / book)</engexamp>
-				</translation>
+				<translation gender="f">occasion<plural>ocasions</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>d'ocasió
+                    <translations>
+                        <translation>second-hand</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="9530">ocasionar<verbs conj="regular">
 			<translations>
@@ -504,9 +508,7 @@
 	</Entry>
 	<Entry frequency="57400">occidental<adjectives>
 			<translations>
-				<translation>western<catexamp>Sàhara Occidental</catexamp>
-					<engexamp>Western Sahara</engexamp>
-				</translation>
+				<translation>western</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2118,18 +2120,26 @@
 			</translations>
 		</nouns>
 	</Entry>
-	<Entry frequency="2140">oreneta<nouns>
-			<translations>
-				<translation catagory="animal-bird" gender="f">swallow</translation>
+        <Entry frequency="10500">orellera<nouns>
+                            <translations><date>0510</date>
+				<translation gender="f">earflap</translation>
+                                <translation gender="f">earmuff</translation>
+                                <translation gender="f">ear defender / ear protector</translation>
+                                <translation gender="f">earpiece / earphone / earbud</translation>
 			</translations>
 		</nouns>
 	</Entry>
-                <Entry frequency="106">oreneta cuablanca<nouns>
-			<translations><date>0305</date>
-				<translation catagory="animal-bird" gender="f">house martin</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <Entry frequency="2140">oreneta<nouns>
+                <translations>
+                    <translation catagory="animal-bird" gender="f">swallow</translation>
+                </translations>
+            </nouns>
+            <expressions>oreneta cuablanca
+                <translations>
+                    <translation catagory="animal-bird" gender="f">house martin</translation>
+                </translations>
+            </expressions>
+        </Entry>
 	<Entry frequency="1320">orenga<nouns>
 			<translations>
 				<translation catagory="food-herb" gender="f">oregano</translation>
@@ -2210,11 +2220,15 @@
 	<Entry frequency="71700">organitzador<adjectives>
 			<translations>
 				<date>0205</date>
-				<translation>organising (Br.) / organizing (Am.)<catexamp>Comitè organitzador</catexamp>
-					<engexamp>Organising (Br.) / organizing (Am.) committee</engexamp><fems>organitzadora</fems>
+				<translation>organizing / organising (Br.)<fems>organitzadora</fems>
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>comitè organitzador
+                    <translations>
+                        <translation gender="m">organizing / organising (Br.) committee</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="114000">organitzar<verbs conj="regular">
 			<translations>
@@ -2352,11 +2366,14 @@
 	<Entry frequency="49000">orientar<verbs conj="regular">
 			<translations>
 				<date>0205</date>
-				<translation>to orientate<catexamp>Disseny orientat a objectes</catexamp>
-					<engexamp>Object-oriented design</engexamp>
-				</translation>
+				<translation>to orientate</translation>
 			</translations>
 		</verbs>
+                <expressions>disseny orientat a objectes
+                    <translations>
+                        <translation catagory="computers" gender="m">object-oriented design</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="796">orifici<nouns>
 			<translations>
@@ -2540,13 +2557,19 @@
 	</Entry>
 	<Entry frequency="3940">ortodox<adjectives>
 			<translations>
-				<translation>orthodox<catexamp>Església ortodoxa russa</catexamp>
-					<engexamp>Russian Orthodox Church</engexamp>
-					<catexamp>Jueu ortodox</catexamp>
-					<engexamp>Orthodox Jew</engexamp><fems>ortodoxa</fems>
-				</translation>
+				<translation>orthodox</translation>
 			</translations>
 		</adjectives>
+                <expressions>església ortodoxa russa
+                    <translations>
+                        <translation catagory="religion" gender="f">Russian orthodox church</translation>
+                    </translations>
+                </expressions>
+                <expressions>jueu ortodox
+                    <translations>
+                        <translation catagory="religion" gender="m / f">orthodox Jew</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1140">ortogonal<adjectives>
 			<translations>
@@ -2564,13 +2587,30 @@
 	</Entry>
 	<Entry frequency="5240">ortogràfic<adjectives>
 			<translations>
-				<translation>spelling<catexamp>Corrector ortogràfic</catexamp>
-					<engexamp>Spell checker</engexamp>
-					<catexamp>Errors ortogràfics / faltes ortogràfiques / errades ortogràfiques</catexamp>
-					<engexamp>Spelling mistakes</engexamp><fems>ortogràfica</fems><femplural>ortogràfiques</femplural>
+				<translation>spelling<fems>ortogràfica</fems><femplural>ortogràfiques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>corrector ortogràfic
+                    <translations>
+                        <translation catagory="computers" gender="m">spell checker</translation>
+                    </translations>
+                </expressions>
+                <expressions>errada ortogràfica
+                    <translations>
+                        <translation gender="f">spelling mistake</translation>
+                    </translations>
+                </expressions>
+                <expressions>error ortogràfic
+                    <translations>
+                        <translation gender="m">spelling mistake</translation>
+                    </translations>
+                </expressions>
+                <expressions>falta ortogràfica
+                    <translations>
+                        <translation gender="f">spelling mistake</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="1520">ortopèdia<nouns>
 			<translations>
@@ -2665,9 +2705,14 @@
 	</Entry>
          <Entry frequency="859">osmòtic<adjectives>
 			<translations><date>0707</date>
-				<translation catagory="biology">osmotic<catexamp>Pressió osmòtica</catexamp><engexamp>Osmotic pressure</engexamp><fems>osmòtica</fems><femplural>osmòtiques</femplural></translation>
+				<translation catagory="biology">osmotic<fems>osmòtica</fems><femplural>osmòtiques</femplural></translation>
 			</translations>
 		</adjectives>
+                <expressions>pressió osmòtica
+                    <translations>
+                        <translation gender="f">osmotic pressure</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="56500">óssa<nouns>
                 <translations><date>0709</date>
@@ -2799,19 +2844,39 @@
 <Entry frequency="0">otosí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Otos</translation></translations></nouns><adjectives><translations><translation>relating to Oto or its people<plural>otosins</plural><fems>otosina</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="20600">ou<nouns>
 			<translations>
-				<translation catagory="food-dairy" gender="m">egg<catexamp>Ous remenats</catexamp>
-					<engexamp>Scrambled eggs</engexamp>
-					<catexamp>Ou ferrat</catexamp>
-					<engexamp>Fried egg</engexamp>
-					<catexamp>Ou dur</catexamp>
-					<engexamp>Hard-boiled egg</engexamp>
-					<catexamp>Ous escumats</catexamp>
-					<engexamp>Poached eggs</engexamp>
-					<catexamp>Ou passa per aigua / ou blanc</catexamp>
-					<engexamp>Soft-boiled egg</engexamp>
-				</translation>
+				<translation catagory="food" gender="m">egg</translation>
 			</translations>
 		</nouns>
+                <expressions>ou blanc
+                    <translations>
+                        <translation catagory="food" gender="m">soft-boiled egg</translation>
+                    </translations>
+                </expressions>
+                <expressions>ou dur
+                    <translations>
+                        <translation catagory="food" gender="m">hard-boiled egg</translation>
+                    </translations>
+                </expressions>
+                <expressions>ou escumat
+                    <translations>
+                        <translation catagory="food" gender="m">poached egg</translation>
+                    </translations>
+                </expressions>
+                <expressions>ou ferrat
+                    <translations>
+                        <translation catagory="food" gender="m">fried egg</translation>
+                    </translations>
+                </expressions>
+                <expressions>ou passa per aigua
+                    <translations>
+                        <translation catagory="food" gender="m">soft-boiled egg</translation>
+                    </translations>
+                </expressions>
+                <expressions>ous remenats
+                    <translations>
+                        <translation catagory="food" gender="mpl">scrambled eggs</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="104">ouera<nouns>
 			<translations><date>0405</date>
@@ -2853,9 +2918,7 @@
 	<Entry frequency="812">ovari<nouns>
 			<translations>
 				<date>0205</date>
-				<translation catagory="body-internal" gender="m">ovary<catexamp>Càncer d'ovari</catexamp>
-					<engexamp>Ovarian cancer</engexamp>
-				</translation>
+				<translation catagory="body-internal" gender="m">ovary</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2934,10 +2997,13 @@
 	<Entry frequency="13900">ozó<nouns>
 			<translations>
 				<date>0205</date>
-				<translation catagory="chemistry" gender="m">ozone<catexamp>Capa d'ozó</catexamp>
-					<engexamp>Ozone layer</engexamp>
-				</translation>
+				<translation catagory="chemistry" gender="m">ozone</translation>
 			</translations>
 		</nouns>
+                <expressions>capa d'ozó
+                    <translations>
+                        <translation gender="f">ozone layer</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 </dictionary>

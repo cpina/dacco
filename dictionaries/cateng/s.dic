@@ -644,12 +644,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="91200">salvatge<adjectives>
-			<translations><date>0106</date>
-				<translation>wild</translation>
-			</translations>
-		</adjectives>
-	</Entry>
+        <Entry frequency="526000">salvatge<adjectives>
+                <translations><date>0510</date>
+                    <translation>wild / savage</translation>
+                </translations>
+            </adjectives>
+            <nouns>
+                <translations>
+                    <translation gender="m / f">savage</translation>
+                </translations>
+            </nouns>                    
+        </Entry>
         <Entry frequency="137">salvatgia<nouns>
 			<translations><date>0106</date>
 				<translation gender="f">wildness<synonyms>feresa</synonyms></translation>
@@ -1505,8 +1510,9 @@
 		</nouns>
 	</Entry>
 	<Entry frequency="145000">seguir<verbs conj="inceptive">
-			<translations>
-				<translation>to follow</translation>
+                            <translations><date>0510</date>
+				<translation transitive="true">to follow</translation>
+                                <translation intransitive="true">to continue</translation>
 			</translations>
 		</verbs>
 	</Entry>
