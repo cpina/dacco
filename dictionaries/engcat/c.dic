@@ -7940,6 +7940,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="35700000">colt<nouns>
+                <translations><date>0710</date>
+                    <translation catagory="animal-animal" gender="m">poltre</translation>
+                </translations>
+            </nouns>
+        </Entry>
 <Entry frequency="13200000">column<nouns>
         <translations>
             <translation gender="f">columna</translation>
@@ -10747,9 +10753,12 @@
         </translations>
     </adjectives>
     </Entry>
-<Entry frequency="8160000">contemplate<verbs>
-        <translations>
-            <translation>contemplar</translation>
+<Entry frequency="40600000">contemplate<verbs>
+        <translations><date>0710</date>
+            <translation transitive="true">considerar / pensar en</translation>
+            <translation transitive="true">imaginar(-se) / pensar</translation>
+            <translation transitive="true">meditar</translation>
+            <translation transitive="true">contemplar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -13304,6 +13313,12 @@
             </translations>
         </expressions>
     </Entry>
+    <Entry frequency="18600000">crate<nouns>
+                            <translations><date>0910</date>
+				<translation gender="f">caixa (d'embalatge)</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="2030000">crater<nouns>
         <translations>
             <translation gender="m">cràter</translation>
@@ -14520,12 +14535,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="13000000">cult<nouns>
-        <translations>
-            <translation catagory="religious" gender="m">culte</translation>
-        </translations>
-    </nouns>
-    </Entry>
+        <Entry frequency="61400000">cult<nouns>
+                <translations><date>0710</date>
+                    <translation disambiguate="religious" gender="f">secta</translation>
+                    <translation gender="m">culte</translation>
+                </translations>
+            </nouns>
+        </Entry>
 <Entry frequency="9750000">cultivate<verbs>
         <translations>
             <translation>cultivar / conrear</translation>

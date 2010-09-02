@@ -1075,6 +1075,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="20200000">manger<nouns>
+                            <translations><date>0710</date>
+				<translation catagory="animal" gender="f">menjadora per a bestiar</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="1100000">mango<nouns>
 			<translations>
 				<translation catagory="food-fruit" gender="m">mango<plural>mangoes / mangos</plural></translation>
@@ -1857,6 +1863,12 @@
 <Entry frequency="733000">mashed potatoes<nouns>
 			<translations>
 				<translation gender="m">puré de patates</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1420000">masher<nouns>
+                            <translations><date>0710</date>
+				<translation catagory="household-room-kitchen">estri per a aixafar patates o verdures</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5545,9 +5557,13 @@
 		</nouns>
 	</Entry>
 <Entry frequency="6400000">mole<nouns>
-			<translations>
+                            <translations><date>0710</date>
 				<translation disambiguate="animal" gender="m">talp</translation>
-				<translation disambiguate="body" gender="f">piga</translation>
+                                <translation gender="m">[espionatge] talp</translation>
+                                <grouptranslation disambiguate="body">
+				<translation gender="f">piga</translation>
+                                <translation gender="m">lentigen</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7240,14 +7256,14 @@
                     </translations>
                 </expressions>
 	</Entry>
-        <Entry frequency="9460000">mull<verbs>
-                            <translations><date>0409</date>
-				<translation>considerar</translation>
+        <Entry frequency="10200000">mull<verbs>
+                            <translations><date>0710</date>
+                            <translation>-</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>mull over
                     <translations>
-                        <translation>considerar</translation>
+                        <translation>considerar / reflexionar</translation>
                     </translations>
                 </phrasalverbs>
 	</Entry>
