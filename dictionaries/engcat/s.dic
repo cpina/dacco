@@ -1123,7 +1123,20 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="487000">Sanskrit<nouns>
+	</Entry>
+        <Entry frequency="2900000">sanitise<verbs>
+			<translations><date>0112</date>
+				<translation local="gb">higienitzar<otherlocal>sanitize</otherlocal></translation>             
+			</translations>
+		</verbs>
+	</Entry> 
+         <Entry frequency="23800000">sanitize<verbs>
+			<translations><date>0112</date>
+				<translation>higienitzar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="487000">Sanskrit<nouns>
 
 			<translations>
 
@@ -12508,27 +12521,51 @@
                         <translation local="us" register="slang" gender="mf">espavilat</translation>
                     </translations>
                 </expressions>
-	</Entry><Entry frequency="5630000">smash<verbs>
-
-			<translations><date>0308</date>
-
-				<translation>trencar</translation>
-
+	</Entry><Entry frequency="1100000000">smash<verbs>
+			<translations><date>0112</date>
+				<translation transitive="true">trencar</translation>
+                                <translation disambiguate="sports" transitive="true">esmaixar</translation>
+                                <translation intransitive="true">trencar-se</translation>
 			</translations>
-
 		</verbs>
-
-                <expressions>smash (someone's) face in
-
+                <nouns>
                     <translations>
-
-                        <translation register="slang">trencar-li la cara a (algú)</translation>
-
+                        <translation gender="m">estrèpit</translation>
+                        <grouptranslation>
+                            <translation gender="m">[between two vehicles] xoc</translation>
+                            <translation gender="f">topada</translation>
+                        </grouptranslation>
+                        <translation disambiguate="sports" gender="f">esmaixada</translation>
                     </translations>
-
+                </nouns>
+                <phrasalverbs>smash down
+                    <translations>
+                        <translation transitive="true">tirar a terra</translation>
+                     </translations>
+                </phrasalverbs>
+                <phrasalverbs>smash in
+                    <translations>
+                        <translation transitive="true">esbotzar</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>smash up
+                    <translations>
+                        <translation transitive="true">destruir</translation>
+                        </translations>
+                </phrasalverbs>
+                <expressions>smash (someone's) face in
+                    <translations>
+                        <translation register="slang">trencar-li la cara a (algú)</translation>
+                    </translations>
                 </expressions>
-
-	<phrasalverbs>smash up<translations><translation transitive="true">destruir</translation></translations></phrasalverbs></Entry><Entry frequency="3250000">smear<nouns>
+	</Entry>
+        <Entry frequency="1000000">smashing<adjectives>
+			<translations><date>0112</date>
+				<translation local="gb" register="colloquial">magnífic<example>We had a &lt;b&gt;smashing&lt;/b&gt; time at the zoo yesterday.</example><example>Julia's daughter is a &lt;b&gt;smashing&lt;/b&gt; little girl.</example></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="3250000">smear<nouns>
 
 			<translations>
 
