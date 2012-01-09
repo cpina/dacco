@@ -2,7 +2,7 @@
 <dictionary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\Documents and Settings\James\My Documents\dacco projects\dacco\dictionary\dic.xsd">
 	<Entry frequency="200000">ta<exclamations>
 			<translations>
-				<translation register="slang">gràcies<engexamp>Ta very much!</engexamp>
+				<translation register="slang" local="gb">gràcies<engexamp>Ta very much! / Ta muchly!</engexamp>
 					<catexamp>Moltes gràcies!</catexamp>
 					<synonyms>thanks!, thank you!</synonyms>
 				</translation>
@@ -6746,7 +6746,20 @@
 				<translation catagory="weather" gender="f">depressió</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="155000">trouser leg<nouns>
+	</Entry>
+        <Entry frequency="2000">trouser<verbs>
+			<translations><date>0112</date>
+				<translation local="gb" register="slang">guanyar / cobrar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="2000">trousered<adjectives>
+			<translations><date>1008</date>
+				<translation local="gb" register="slang">borratxíssim<example>I went out to a party last night and got completely &lt;b&gt;trousered&lt;/b&gt;.</example><synonyms>wasted, pissed</synonyms></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="155000">trouser leg<nouns>
 			<translations>
 				<translation catagory="clothes" local="gb" gender="m">camal<otherlocal>pant leg</otherlocal></translation>
 			</translations>
@@ -7553,15 +7566,29 @@
 				<translation gender="mf">preadolescent<catnote>També es diu 'tween'.</catnote></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="3780000">tweet<verbs>
-			<translations><date>0408</date>
+	</Entry><Entry frequency="8550000">tweet<verbs>
+			<translations><date>0112</date>
 				<translation catagory="animal">piular<synonyms>cheep, chirp</synonyms></translation>
+                                <translation disambiguate="computers">piular</translation>
                             </translations>
 		</verbs>
-	</Entry><Entry frequency="705000">tweeter<nouns>
-			<translations><date>0408</date>
+                <nouns>
+                    <translations>
+                        <grouptranslation>
+                            <translation gender="m">piulet</translation>
+                            <translation gender="f">piulada</</translation>
+                        </grouptranslation>
+                        <grouptranslation disambiguate="computers">
+                            <translation gender="m">piulet</translation>
+                            <translation gender="f">piulada</</translation>
+                        </grouptranslation>
+                    </translations>
+                </nouns>                        
+	</Entry><Entry frequency="25270000">tweeter<nouns>
+			<translations><date>0112</date>
 				<translation termcat="true" gender="m">altaveu d'aguts</translation>
-                            </translations>
+                                <translation disambiguate="computers" gender="mf">piulador</translation>
+                        </translations>
 		</nouns>
 	</Entry><Entry frequency="597000">tweezer<nouns>
 			<translations>

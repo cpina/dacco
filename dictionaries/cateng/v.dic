@@ -841,6 +841,17 @@
                 </translations>
                 </expressions>
 	</Entry>
+         <Entry frequency="492000">veneçolà<nouns>
+			<translations><date>0112</date>
+				<translation catagory="nationality-southamerica" gender="mf">Venezuelan</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>Venezuelan<fems>veneçolana</fems><plural>veneçolans</plural></translation>
+                        </translations>
+                        </adjectives>
+	</Entry>
 	<Entry frequency="3880">Veneçuela<nouns>
 			<translations>
 				<translation catagory="country-southamerica" gender="f">Venezuela</translation>
@@ -1866,6 +1877,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="8310">vicunya<nouns>
+			<translations><date>0112</date>
+				<translation catagory="animal-animal" gender="f">vicuña</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="12400000">vida<nouns>
 			<translations><date>1208</date>
 				<translation gender="f">life</translation>
@@ -2392,17 +2409,17 @@
 			</translations>
 		</adjectives>
 	</Entry>	
-	<Entry frequency="1070">viratge<nouns>
-			<translations><date>0705</date>
-				<translation gender="m">toning<catnote>Procediment químic mitjançant el qual es canvia el color de la imatge d'un positiu</catnote></translation>
-				<translation gender="m">turn<catnote>gir</catnote></translation>
+	<Entry frequency="65700">viratge<nouns>
+			<translations><date>0112</date>
+				<translation gender="m">turn</translation>
+                                <translation disambiguate="chemistry" gender="m">toning</translation>
 			</translations>
 		</nouns>
 	</Entry>	
 	<Entry frequency="698">virar<verbs conj="regular">
 			<translations><date>0705</date>
 				<translation>to turn / to veer</translation>
-				<translation>to tone</translation>
+				<translation disambiguate="chemistry">to tone</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2724,11 +2741,11 @@
 			</translations>
 		</nouns>
 	</Entry>	
-	<Entry frequency="28900">viver<nouns>
-			<translations><date>0605</date>
+	<Entry frequency="8020000">viver<nouns>
+			<translations><date>0112</date>
 				<translation gender="m">breeding ground</translation>
-				<translation gender="m">hatchery / fish farm</translation>
-				<translation gender="m">nursery (plant)</translation>
+				<translation gender="m">[de peixos] hatchery / fish farm</translation>
+				<translation gender="m">[de plantes] nursery</translation>
 			</translations>
 		</nouns>
 	</Entry>	

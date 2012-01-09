@@ -416,13 +416,13 @@
 	</Entry>
 <Entry frequency="529000000">call<verbs>
         <translations>
-            <translation catagory="telephone">trucar / telefonar<example>His mother reminded him, for the umpteenth time, to &lt;b&gt;call&lt;/b&gt; her as soon as he got there</example>
+            <translation catagory="telephone">trucar / telefonar<example>His mother reminded him, for the umpteenth time, to &lt;b&gt;call&lt;/b&gt; her as soon as he got there.</example>
                 <example>&lt;b&gt;Call&lt;/b&gt; me any time tomorrow after 1 o'clock</example><synonyms>phone, ring</synonyms>
             </translation>
-            <translation>anomenar<example>The couple &lt;b&gt;called&lt;/b&gt; the baby 'Helen' after her grandmother</example>
-                <example>Our dog is &lt;b&gt;called&lt;/b&gt; Bess</example>
+            <translation>anomenar<example>The couple &lt;b&gt;called&lt;/b&gt; the baby 'Helen' after her grandmother.</example>
+                <example>Our dog is &lt;b&gt;called&lt;/b&gt; Bess.</example>
             </translation>
-            <translation>cridar<example>He began to get worried because his dog didn't respond when he &lt;b&gt;called&lt;/b&gt;</example>
+            <translation>cridar<example>He began to get worried because his dog didn't respond when he &lt;b&gt;called&lt;/b&gt;.</example>
                 <example>The cashier &lt;b&gt;called&lt;/b&gt; the next customer forward by shouting 'Next please!'</example>
             </translation>
         </translations>
@@ -708,6 +708,18 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="1190000">camelid<nouns>
+			<translations><date>0112</date>
+				<translation catagory="animal" gender="m">camèlid</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="221000">camelidae<nouns>
+			<translations><date>0112</date>
+				<translation catagory="animal" gender="mpl">camèlids</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="212000">camembert<nouns>
         <translations>
             <translation catagory="food-dairy" gender="m">camembert</translation>
@@ -2944,8 +2956,8 @@
         </translations>
     </adjectives>
     </Entry>
-     <Entry frequency="3280000">celiac<adjectives>
-                <translations><date>0709</date>
+     <Entry frequency="36500000">celiac<adjectives>
+                <translations><date>0112</date>
                     <translation local="us" catagory="medical">celíac<otherlocal>coeliac</otherlocal></translation>
             </translations>
             </adjectives>
@@ -2954,6 +2966,11 @@
                     <translation catagory="medical-illness" gender="f">malaltia celíaca</translation>
                 </translations>
             </expressions>
+            <expressions>celiac sufferer
+            <translations>
+                <translation gender="mf">celíac</translation>
+                </translations>
+                </expressions>
         </Entry>
 <Entry frequency="149000">celibacy<nouns>
         <translations>
@@ -4306,12 +4323,10 @@
         </translations>
     </adverbs>
     </Entry>
-<Entry frequency="2850000">chemist<nouns>
-        <translations>
-            <translation gender="mf">farmacèutic<engnote>'Farmacèutic' means 'chemist' as in the person who dispenses medicine in a chemists' shop / pharmacy.</engnote>
-            </translation>
-            <translation disambiguate="chemistry" gender="mf">químic<engnote>'Químic' means 'chemist' as in a person who works in the field of chemistry.</engnote>
-            </translation>
+<Entry frequency="184000000">chemist<nouns>
+        <translations><date>0112</date>
+            <translation local="gb" gender="mf">farmacèutic<otherlocal>druggist</</otherlocal></translation>
+            <translation disambiguate="chemistry" gender="mf">químic</translation>
         </translations>
     </nouns>
     </Entry>
@@ -7223,8 +7238,8 @@
         </translations>
     </nouns>
     </Entry>
-      <Entry frequency="637000">coeliac<adjectives>
-                <translations><date>0709</date>
+      <Entry frequency="7740000">coeliac<adjectives>
+                <translations><date>0112</date>
                     <translation local="gb" catagory="medical">celíac<otherlocal>celiac</otherlocal></translation>
             </translations>
             </adjectives>
@@ -7233,6 +7248,11 @@
                     <translation catagory="medical-illness" gender="f">malaltia celíaca</translation>
                 </translations>
             </expressions>
+            <expressions>coeliac sufferer
+            <translations>
+                <translation gender="mf">coelíac</translation>
+                </translations>
+            </expressions>            
         </Entry>
         <Entry frequency="2330000">coerce<verbs>
 
