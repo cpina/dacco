@@ -212,22 +212,12 @@
 
 		</verbs>
 
-	</Entry><Entry frequency="2020000">saddle<nouns>
-
-			<translations>
-
-				<translation disambiguate="animal" gender="f">sella<engnote>'Sella' is the 'saddle' on a horse.</engnote>
-
-				</translation>
-
-				<translation disambiguate="transport" gender="m">seient<engnote>'Seient' is the 'saddle' on a bicycle.</engnote>
-
-				</translation>
-
+	</Entry><Entry frequency="485000000">saddle<nouns>
+		<translations><date>0112</date>
+				<translation catagory="animal" gender="f">[on a horse] sella</translation>
+				<translation catagory="transport" gender="m">[on a bike] seient</translation>
 			</translations>
-
 		</nouns>
-
 	</Entry><Entry frequency="443000">sadism<nouns>
 
 			<translations>
@@ -12054,20 +12044,41 @@
 
 		</verbs>
 
-	</Entry><Entry frequency="8840000">slot<nouns>
-
-			<translations>
-
-				<translation gender="f">ranura</translation>
+	</Entry><Entry frequency="1360000000">slot<nouns>
+			<translations><date>0112</date>
+				<translation gender="f">[opening] ranura</translation>
+                                <translation gender="m">[in a schedule] espai</translation>
                                 <translation sourceplural="slots" gender="fpl">màquines escura-butxaques</translation>
 			</translations>
-
 		</nouns>
+                <verbs double="true">
+                    <translations>
+                        <translation transitive="true">[~ into] encaixar (una cosa) en (una cosa)</translation>
+                        <translation intransitive="true">[~ into] encaixar en (una cosa)</translation>
+                        </translations>
+                        </verbs>
+                        <phrasalverbs>slot in
+                        <translations>
+                            <translation transitive="true">fer encaixar</translation>
+                            <translation intransitive="true">encaixar</translation>
+                            </translations>
+                        </phrasalverbs>
+                        <phrasalverbs>slot together
+                        <translations>
+                            <translation intransitive="true">encaixar</translation>
+                            <translation transitive="true">fer encaixar</translation>
+                            </translations>
+                            </phrasalverbs>
                 <expressions>slot machine
                     <translations>
                         <translation gender="f">màquina escura-butxaques</translation>
                     </translations>
                 </expressions>
+                <expressions>time slot
+                <translations>
+                    <translation gender="f">franja horària</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
           <Entry frequency="3780000">sloth<nouns>
                                     <translations><date>0908</date>
