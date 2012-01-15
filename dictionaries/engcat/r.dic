@@ -667,19 +667,17 @@
 		</nouns>
 
 	</Entry>
-<Entry frequency="67900000">railroad<nouns>
-
-                            <translations><date>0709</date>
-
-				<translation catagory="transport-mode" local="us" gender="m">ferrocarril<otherlocal>railway</otherlocal>
-
-				</translation>
-
-                                <translation catagory="transport" local="us">ferroviari</translation>
-
+<Entry frequency="19200000">railroad<nouns>
+                            <translations><date>0112</date>
+				<translation catagory="transport-mode" local="us" gender="m">ferrocarril<otherlocal>railway</otherlocal></translation>
+                                <translation catagory="transport" beforenoun="true" local="us">ferroviari</translation>
 			</translations>
-
 		</nouns>
+                <expressions>railroad line
+                    <translations>
+                        <translation catagory="transport" local="us" gender="f">línia ferroviària</translation>
+                    </translations>
+                </expressions>
                 <expressions>railroad station
                     <translations>
                         <translation catagory="transport" local="us" gender="f">estació de tren<otherlocal>railway station</otherlocal><synonyms>train station</synonyms></translation>
@@ -696,12 +694,17 @@
                     </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="76800000">railway<nouns>
-                            <translations><date>0709</date>
+<Entry frequency="760000000">railway<nouns>
+                            <translations><date>0112</date>
 				<translation catagory="transport-mode" local="gb" gender="m">ferrocarril<otherlocal>railroad</otherlocal></translation>
-                                <translation catagory="transport" local="gb">ferroviari</translation>
+                                <translation catagory="transport" beforenoun="true" local="gb">ferroviari</translation>
 			</translations>
 		</nouns>
+                <expressions>railway line
+                    <translations>
+                        <translation catagory="transport" local="gb" gender="f">línia ferroviària</translation>
+                    </translations>
+                </expressions>
                 <expressions>railway station
                     <translations>
                         <translation catagory="transport" local="gb" gender="f">estació de tren<otherlocal>railroad station</otherlocal><synonyms>train station</synonyms></translation>
