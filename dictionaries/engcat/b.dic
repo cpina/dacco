@@ -59,6 +59,12 @@
                     </translations>
                </expressions>
 	</Entry>
+          <Entry frequency="86600000">baby blue<adjectives>
+                            <translations><date>0112</date>
+				<translation gender="m">blau cel</translation>
+			</translations>
+		</adjectives>
+	</Entry>
         <Entry frequency="36400000">Babylon<nouns>
                             <translations><date>1008</date>
 				<translation gender="f">Babilònia</translation>
@@ -79,7 +85,7 @@
 	</Entry>
 <Entry frequency="1180000">babysitter<nouns>
 			<translations>
-				<translation gender="m">cangur</translation>
+				<translation gender="mf">cangur</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -165,6 +171,11 @@
                         <translation disambiguate="transport" gender="m">seient del darrere</translation>
                     </translations>
                 </expressions>
+                <expressions>right back at you!
+                    <translations>
+                        <translation>igualment!</translation>
+                    </translations>
+                </expressions>
                 <expressions>turn your back on (somebody / something)
                 <translations>
                 <translation>girar l'esquena a (algú / alguna cosa)</translation>
@@ -212,11 +223,30 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="292000000">background<nouns>
-                            <translations><date>1208</date>
+        <Entry frequency="889000">back foot<nouns>
+			<translations>
+				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">peu de darrere<synonyms>rear foot</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="43600000">backgammon<nouns>
+			<translations><date>0112</date>
+				<translation catagory="entertainment" gender="m">jaquet</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="151000000">background<nouns>
+                            <translations><date>0112</date>
                             	<translation gender="m">fons</translation>
 				<translation gender="m">rerefons</translation>
-                                <translation gender="mpl">antecedents</translation>
+                                <grouptranslation>
+                                <translation gender="mpl">antecedents / orígens</translation>
+                                <translation gender="ffullform">història personal</translation>
+                                <translation gender="m">passat</translation>
+                                <translation gender="fpl">arrels / circumstàncies<engexamp>His is a humble background</engexamp><catexamp>És d'extracció humil</catexamp></translation>
+                                </grouptranslation>
+                                <translation gender="m">context<engexamp>The historical background</engexamp><catexamp>El context històric</catexamp></translation>
+                                <translation gender="f">formació<engexamp>My background in psychology</engexamp><catexamp>La meva formació en psicologia</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -247,11 +277,17 @@
 			</translations>
 		</nouns>
 	</Entry>
-        	<Entry frequency="197000">backpedal<verbs>
+         <Entry frequency="129000000">backpacker<nouns>
+			<translations><date>0112</date>
+				<translation gender="mf">excursionista / motxiller / turista de motxilla / viatger de motxilla</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        	<Entry frequency="2800000">backpedal<verbs>
                     <past>backpedalled, backpedaled</past>
                     <participle>backpedalled, backpedaled</participle>
-                            <translations><date>0708</date>
-				<translation>retractar(-se)<example>Public officials have &lt;b&gt;backpedalled&lt;/b&gt; on their 'lone suspect' theory and have now issued a statement saying there MAY have been more than one person involved.</example></translation>
+                            <translations><date>0112</date>
+				<translation>retractar(-se) / rectificar<example>Public officials have &lt;b&gt;backpedalled&lt;/b&gt; on their 'lone suspect' theory and have now issued a statement saying there MAY have been more than one person involved.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -263,6 +299,18 @@
                     </grouptranslation>
                 </translations>
             </nouns>
+	</Entry>
+         <Entry frequency="94300000">backroom<nouns>
+			<translations><date>0112</date>
+				<translation gender="f">rebotiga</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="889000">backscatter<nouns>
+			<translations><date>0112</date>
+				<translation gender="f">retrodifusió</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="100000">backside<nouns>
 			<translations>
@@ -310,6 +358,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+         <Entry frequency="42500000">backstory<nouns>
+			<translations><date>0112</date>
+				<translation gender="ffullform">història de fons</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="306000">backstroke<nouns>
 			<translations>
 				<translation catagory="sports-event-swimming" gender="f">esquena</translation>
@@ -325,11 +379,29 @@
             </translations>            
         </nouns>        
     </Entry>
-<Entry frequency="5000000">back up<nouns>
-			<translations>
-				<translation disambiguate="computers" termcat="true" gender="f">còpia de seguretat</translation>
+     <Entry frequency="69000000">backtrack<verbs>
+			<translations><date>0112</date>
+				<translation>rectificar / retractar-se</translation>
+                                <translation>fer-se enrere</translation>
+			</translations>
+		</verbs>
+	</Entry>
+<Entry frequency="1340000000">backup<nouns>
+			<translations><date>0112</date>
+				<translation disambiguate="computers" termcat="true" gender="f">còpia (de seguretat)</translation>
+                                <grouptranslation>
+                                <translation gender="m">suport</translation>
+                                <translation gender="f">reserva</translation>
+                                </grouptranslation>
+                                <translation beforenoun="true">de reforç / de segona fila</translation>
+                                <translation beforenoun="true">de seguretat<engexamp>Backup copy</engexamp><catexamp>Còpia de seguretat</catexamp></translation>
 			</translations>
 		</nouns>
+               <expressions>backup plan
+                <translations>
+                    <translation gender="m">plan B</translation>
+                </translations>
+               </expressions>
 	</Entry>
 <Entry frequency="10800000">backward<adjectives>
 			<translations>
@@ -349,12 +421,29 @@
 			</translations>
 		</adverbs>
 	</Entry>
-        <Entry frequency="2380000">backwoods<nouns>
-			<translations><date>1008</date>
+        <Entry frequency="30500000">backwater<nouns>
+			<translations><date>0112</date>
+                            <grouptranslation>
+                                <translation gender="m">cul de món</translation>
+                                <translation gender="f">quinta forca</translation>
+                            </grouptranslation>
+                        </translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="14900000">backwoods<nouns>
+			<translations><date>0112</date>
                         <grouptranslation>
                                 <translation gender="m">cul de món</translation>
                                 <translation gender="f">quinta forca</translation>
                                 </grouptranslation>
+                                <translation beforenoun="true">reaccionari / carca<engexamp>Backwoods town</engexamp><catexamp>Lloc retirat</catexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="886000000">backyard<nouns>
+			<translations><date>0112</date>
+				<translation local="us" gender="m">jardi de darrere<otherlocal>back garden</otherlocal></translation>
+                                <translation local="gb" gender="m">pati de darrere</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -397,6 +486,11 @@
                         <translation gender="f">halitosi</translation>
                     </translations>
                 </expressions>
+                <expressions>bad check / (Br.) cheque
+                    <translations>
+                        <translation gender="m">taló sense fons</translation>
+                        </translations>
+                </expressions>
                 <expressions>bad guy
                     <translations>
                         <translation gender="mf">dolent / roí (Val.)<example>In most Hollywood films the &lt;b&gt;bad guy&lt;/b&gt; always loses and the good guy always wins.</example></translation>
@@ -407,11 +501,22 @@
                         <translation register="colloquial">un d'aquells dies en què sembla com si vagis despentinat encara que és ben possible que hagis passat una bona hora i mitja pentinant-se els cabells aquell matí ;-)</translation>
                     </translations>
                 </expressions>
+                <expressions>bad news
+                    <translations>
+                        <translation gender="f">mala notícia</translation>
+                        </translations>
+                        </expressions>
                 <expressions>that's too bad
                 <translations>
-                    <translation local="us">és una llàstima<otherlocal>that's a pity</otherlocal></translation>
+                    <translation local="us">(és una) llàstima / és una pena / sap greu<otherlocal>that's a pity</otherlocal></translation>
                 </translations>
                 </expressions>
+	</Entry>
+        <Entry frequency="7450000">badass<adjectives>
+			<translations><date>0112</date>
+				<translation local="us" register="slang">collonut / excepcional / fora de sèrie</translation>
+			</translations>
+		</adjectives>
 	</Entry>
         <Entry frequency="1180000">baddy<nouns>
                     <translations><date>1008</date>
@@ -420,25 +525,38 @@
                 </nouns>
 	</Entry>
 <Entry frequency="4350000">badge<nouns>
-			<translations>
+			<translations><date>0112</date>
+                            <translation gender="f">xapa</translation>
+                            <translation gender="f">placa<engexamp>Police badge</engexamp><catexamp>Placa de policia</catexamp></translation>
 				<translation gender="f">insígnia</translation>
 			</translations>
 		</nouns>
+                <expressions>badge of approval
+                    <translations>
+                        <translation gender="f">credencial</translation>
+                        </translations>
+                        </expressions>
+                        <expressions>ID badge
+                        <translations>
+                            <translation gender="f">targeta d'identificació</translation>
+                            </translations>
+                            </expressions>
 	</Entry>
-        <Entry frequency="4350000">badger<nouns>
-			<translations><date>0809</date>
+        <Entry frequency="285000000">badger<nouns>
+			<translations><date>0112</date>
 				<translation catagory="animal-animal" gender="m">teixó / toixó</translation>
 			</translations>
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>molestar / pressionar (algú perquè faci alguna cosa)<example>His mother is always &lt;b&gt;badgering&lt;/b&gt; him to do his homework as soon as he gets home.</example><example>Will you stop &lt;b&gt;badgering&lt;/b&gt; me? I'll do it as soon as I can!</example></translation>
+                        <translation>molestar / pressionar / atabalar (algú perquè faci alguna cosa o per aconseguir d'ell alguna cosa)<example>His mother is always &lt;b&gt;badgering&lt;/b&gt; him to do his homework as soon as he gets home.</example><example>Will you stop &lt;b&gt;badgering&lt;/b&gt; me? I'll do it as soon as I can!</example></translation>
                         </translations>
                         </verbs>
 	</Entry>
 <Entry frequency="3100000">badly<adverbs>
-			<translations>
-				<translation>malament</translation>
+			<translations><date>0112</date>
+				<translation>malament / de mala manera</translation>
+                                <translation>desesperadament</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -539,6 +657,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="9370000">bag lady<nouns>
+			<translations><date>0112</date>
+				<translation gender="f">dona indigent (esp. si va carregada de bosses)</translation>
+			</translations>
+		</nouns>
+	</Entry>
          <Entry frequency="2340000">bagpipe<nouns>
                 <translations><date>0708</date>
                     <translation catagory="entertainment-music-instrument" local="us" gender="f">gaita</translation>
@@ -572,25 +696,26 @@
 		</nouns>
 	</Entry>
 <Entry frequency="6800000">bail<nouns>
-			<translations>
+			<translations><date>0112</date>
 				<translation gender="f">fiança</translation>
 			</translations>
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>posar algú en llibertat sota fiança<example>Police have &lt;b&gt;bailed&lt;/b&gt; a man arrested last week in connection with the disappearance of a 3 year old girl</example>
-				</translation>
+				<translation transitive="true">[release on bail] posar algú en llibertat sota fiança<example>Police have &lt;b&gt;bailed&lt;/b&gt; a man arrested last week in connection with the disappearance of a 3 year old girl.</example></translation>
+                                <translation intransitive="true">[leave quickly] tocar el dos / anar-se'n (ràpidament)</translation>
 			</translations>
 		</verbs>
 		<phrasalverbs>bail (someone) out
 			<translations>
 				<translation>obtenir la llibertat d'algú sota fiança<example>Steven was thrown in jail for being drunk and disorderly and his grandmother had to pay £20,000 to &lt;b&gt;bail&lt;/b&gt; him &lt;b&gt;out&lt;/b&gt;</example></translation>
-                                <translation>rescatar<example>Paula's parents helped her to pay off her credit card debts but warned her that she needed to start spending responsibly because they wouldn't &lt;b&gt;bail&lt;/b&gt; her &lt;b&gt;out&lt;/b&gt; again</example></translation>
+                                <translation>rescatar / treure les castanyes del foc (a algú)<example>Paula's parents helped her to pay off her credit card debts but warned her that she needed to start spending responsibly because they wouldn't &lt;b&gt;bail&lt;/b&gt; her &lt;b&gt;out&lt;/b&gt; again</example></translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>bail out
 			<translations>
 				<translation intransitive="true" disambiguate="transport">abandonar un vehicle en cas d'emergència / (avió) saltar d'un avió amb paracaigudes<example>The plane started to dive so the pilot grabbed a parachute and &lt;b&gt;bailed out&lt;/b&gt;.</example><example>The cargo ship sank off the coast of New Zealand but, luckily, the entire crew managed to &lt;b&gt;bail out&lt;/b&gt; safely.</example><example>Two suspects in a traffic stop &lt;b&gt;bailed out&lt;/b&gt; of a moving car, leaving the car to roll into a house.</example></translation>
+                                <translation intransitive="true">retirar-se / tirar la tovallola</translation>
 			</translations>
 		</phrasalverbs>
                 <phrasalverbs>bail out (a ship or boat)
@@ -648,7 +773,7 @@
 	</Entry>
 <Entry frequency="31400000">bake<verbs>
                             <translations><date>0109</date>
-				<translation>coure al forn / fornejar<catnote>El verb 'to bake' vol dir 'coure alguna cosa al forn sense líquid ni greix addicional' (per exemple: 'to bake potatoes', 'to bake a cake', 'to bake bread', 'to bake some biscuits').</catnote>
+				<translation>coure al forn / fer al forn / fornejar<catnote>El verb 'to bake' vol dir 'coure alguna cosa al forn sense líquid ni greix addicional' (per exemple: 'to bake potatoes', 'to bake a cake', 'to bake bread', 'to bake some biscuits').</catnote>
 				</translation>
 			</translations>
 		</verbs>
@@ -691,7 +816,7 @@
 		</nouns>
 	</Entry>
 <Entry frequency="34800000">balance<nouns>
-                            <translations><date>1108</date>
+                            <translations><date>0112</date>
                                 <grouptranslation><translation gender="m">equilibri</translation>
                                     <translation gender="f">ponderació</translation></grouptranslation>
                                 <translation disambiguate="financial" gender="m">saldo</translation>
@@ -699,7 +824,8 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>equilibrar</translation>
+				<translation>equilibrar / posar en equilibri</translation>
+                                <translation>jugar (amb) / manejar</translation>
 			</translations>
 		</verbs>
                 <expressions>balance beam
@@ -717,6 +843,11 @@
                         <translation gender="m">balanç de situació</translation>
                     </translations>
                 </expressions>
+                <expressions>hang in the balance
+                <translations>
+                    <translation>(life) aguantar-se per un fil</translation>                    
+                </translations>
+                </expressions>
                 <expressions>tip (o swing) the balance
                     <translations>
                         <translation>fer caure / inclinar / decantar la balança</translation>
@@ -732,6 +863,12 @@
 <Entry frequency="4300000">bald<adjectives>
 			<translations>
 				<translation>calb</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="14500000">balding<adjectives>
+			<translations><date>0112</date>
+				<translation>de calvície incipient</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -797,6 +934,11 @@
                         <translation local="us" transitive="true">potinejar</translation>
                     </translations>
                 </phrasalverbs>
+                <expressions>ball of the foot
+                    <translations>
+                        <translation catagory="body">part anterior de la planta (del peu)</translation>
+                        </translations>
+                </expressions>
             </Entry>
 <Entry frequency="4180000">ballad<nouns>
 			<translations>
@@ -901,12 +1043,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="1130000">baloney<nouns>
-                            <translations><date>1009</date>
+        <Entry frequency="9640000">baloney<nouns>
+                            <translations><date>0112</date>
                                 <grouptranslation register="colloquial" local="us">
                                     <translation gender="mpl">romanços</translation>
                                     <translation gender="fpl">bajanades<engexamp>This is baloney</engexamp><catexamp>Això són romanços</catexamp></translation>
                                 </grouptranslation>
+                                <translation disambiguate="food" gender="f">mortadel·la</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -945,12 +1088,22 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="8660000">banana<nouns>
-			<translations>
+<Entry frequency="711000000">banana<nouns>
+			<translations><date>0112</date>
 				<translation gender="m">plàtan</translation>
                                 <translation capitalized="BANANA">(no construeixi absolutament res enlloc) - extensió de la filosofia NIMBY (Not In My Back Yard)<catnote>(Build Absolutely Nothing Anywhere Near Anyone.</catnote></translation>
 			</translations>
 		</nouns>
+                <expressions>banana republic
+                    <translations>
+                        <translation gender="f">república bananera</translation>
+                    </translations>
+                </expressions>
+                <expressions>drive (somebody) bananas
+                    <translations>
+                        <translation>fer pujar la mosca al nas / fer perdre la paciència / fer tornar boig</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="14900">banana republic<nouns>
 			<translations>
@@ -1009,6 +1162,28 @@
 <Entry frequency="51000">bandurria<nouns>
 			<translations><date>0708</date>
 				<translation termcat="entertainment-music" gender="f">bandúrria<engnote>A 'bandurria' is a Spanish stringed instrument similar to a mandolin.</engnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="80500000">bane<nouns>
+			<translations><date>0112</date>
+				<translation gender="f">creu<engexamp>It's the bane of my life</engexamp><catexamp>És la meva creu / M'amarga la vida</catexamp></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="82500000">banish<verbs>
+			<translations><date>0112</date>
+				<translation transitive="true">[exile] desterrar</translation>
+                                <translation transitive="true">[get rid of] allunyar</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="5810000">banishment<nouns>
+			<translations><date>0112</date>
+                            <grouptranslation>
+				<translation gender="m">desterrament / bandejament</translation>
+                                <translation gender="f">proscripció</translation>
+                            </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1090,14 +1265,50 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="425000000">bank<nouns>
-                            <translations><date>1208</date>
+<Entry frequency="6850000000">bank<nouns>
+                            <translations><date>0112</date>
 				<translation disambiguate="financial" gender="m">banc</translation>
+                                <translation gender="m">banc<engexamp>Blood bank</engexamp><catexamp>Banc de sang</catexamp><engexamp>Sperm bank</engexamp><catexamp>Banc d'esperma</catexamp><engexamp>Bank of knowledge</engexamp><catexamp>Banc de coneixements</catexamp></translation>
                                 <grouptranslation><translation gender="f">riba / ribera / vora</translation>
                                 <translation gender="m">voral</translation></grouptranslation>
 			</translations>
 		</nouns>
-	<phrasalverbs>bank upon<translations><translation intransitive="true">refiar-se de</translation></translations></phrasalverbs>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">ingressar / dipositar</translation>
+                        <translation intransitive="true">[~ with, ~ at] tenir (un) compte a ...<engexamp>I bank with Barclays</engexamp><catexamp>Tinc (un) compte a Barclays</catexamp></translation>
+                        </translations>
+                </verbs>
+                <phrasalverbs>bank on
+                    <translations>
+                        <translation intransitive="true">refiar-se de</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>bank account
+                <translations>
+                    <translation catagory="financial" gender="m">compte bancari</translation>
+                    </translations>
+                    </expressions>
+                <expressions>bank card
+                    <translations>
+                        <translation catagory="financial" gender="f">targeta bancària</translation>
+                    </translations>
+                </expressions>
+                <expressions>bank manager
+                    <translations>
+                        <translation catagory="financial" gender="mf">director del banc</translation>
+                    </translations>
+                </expressions>
+        <expressions>bank of clouds
+            <translations>
+                <translation gender="f">nuvolada</translation>
+            </translations>
+        </expressions>
+        <expressions>bank of snow
+            <translations>
+                <translation gender="m">nevàs</translation>
+            </translations>
+        </expressions>
         <expressions>break the bank
             <translations>
                 <translation>fer saltar la banca</translation>
@@ -1122,10 +1333,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="6420000">bankroll<nouns>
-			<translations>
-				<translation disambiguate="financial" local="us" gender="m">feix de bitllets<otherlocal>wad (of cash or notes)</otherlocal></translation>
-                                <translation disambiguate="financial" local="us">els diners que una persona té disponible<catnote>No han de ser diners en efectiu.</catnote></translation>
+<Entry frequency="33500000">bankroll<nouns>
+			<translations><date>0112</date>
+				<translation catagory="financial" local="us" gender="m">feix de bitllets<otherlocal>wad (of cash or notes)</otherlocal></translation>
+                                <grouptranslation catagory="financial" local="us">
+                                    <translation gender="f">fortuna personal</translation>
+                                    <translation gender="mpl">recursos econòmics</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -1134,17 +1348,32 @@
                 </translations>
                 </verbs>
 	</Entry>
-<Entry frequency="2440000">bankrupt<adjectives>
-			<translations>
+<Entry frequency="695000000">bankrupt<adjectives>
+			<translations><date>0112</date>
 				<translation>insolvent</translation>
 			</translations>
 		</adjectives>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">portar a la bancarrota / arruïnar</translation>
+                    </translations>
+                </verbs>
+                <expressions>go bankrupt
+                    <translations>
+                        <translation>anar a la bancarrota / arruïnar-se</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-<Entry frequency="4480000">bankruptcy<nouns>
-			<translations>
+<Entry frequency="513000000">bankruptcy<nouns>
+			<translations><date>0112</date>
                             <translation catagory="financial" gender="f">bancarrota / fallida</translation>
 			</translations>
 		</nouns>
+                <expressions>moral (or political) bankruptcy
+                    <translations>
+                        <translation gender="f">ruïna moral (o política) / decadència moral (o política)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="9960000">banned<adjectives>
 			<translations>
@@ -1172,6 +1401,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="166000000">banter<nouns>
+			<translations><date>0112</date>
+				<translation gender="f">burla / broma / conya / conyeta</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>fer broma / bromejar</translation>
+                    </translations>
+                </verbs>
+	</Entry>        
 <Entry frequency="2600000">banyan<nouns>
 			<translations><date>0609</date>
 				<translation catagory="plants" termcat="true" gender="f">figuera de Bengala<catnote>(Ficus bengalensis).</catnote></translation>
@@ -1267,6 +1507,12 @@
                     </translations>
                 </expressions>
 	</Entry>
+        <Entry frequency="38300000">barbed<adjectives>
+			<translations><date>0112</date>
+				<translation>mordaç / enverinat</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="5390000">barbed wire<nouns>
 			<translations>
 				<translation gender="m">filferro espinós</translation>
@@ -1305,6 +1551,25 @@
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>bare bones
+                    <translations>
+                        <grouptranslation>
+                            <translation gender="m">esquelet</translation>
+                            <translation gender="f">essència</translation>
+                        </grouptranslation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="101000000">bareback<adjectives>
+			<translations><date>0112</date>
+				<translation>sense sella</translation>
+			</translations>
+		</adjectives>
+                <adverbs>
+                    <translations>
+                        <translation>sense sella</translation>
+                    </translations>
+                </adverbs>
 	</Entry>
 <Entry frequency="225000">bare-faced<adjectives>
 			<translations><date>0408</date>
