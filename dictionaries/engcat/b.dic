@@ -1589,9 +1589,9 @@
                 </translations>
             </adjectives>
         </Entry>
-<Entry frequency="4800000">barely<adverbs>
-			<translations>
-				<translation>a penes</translation>
+<Entry frequency="616000000">barely<adverbs>
+			<translations><date>0112</date>
+				<translation>a penes<engexamp>Barely able (to...)</engexamp><catexamp>Pràcticament incapaç (de...)</catexamp></translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -1650,18 +1650,24 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="1570000">bark<verbs>
-			<translations><date>0808</date>
-				<translation>lladrar / bordar<engnote>'Bordar' is specifically 'to bark in a threatening manner'.</engnote></translation>
+<Entry frequency="380000000">bark<verbs>
+			<translations><date>0112</date>
+				<translation>[dog] lladrar / bordar<engnote>'Bordar' is specifically 'to bark in a threatening manner'.</engnote></translation>
+                                <translation>dir (una cosa) en to autoritari / ordenar en to autoritari</translation>
 			</translations>
 		</verbs>
 		<nouns>
 			<translations>
-				<translation disambiguate="plants" gender="f">escorça</translation>
-				<translation gender="m">lladruc<synonyms>woof</synonyms></translation>
+				<translation catagory="plants" gender="f">[tree] escorça</translation>
+				<translation gender="m">[dog] lladruc<synonyms>woof</synonyms></translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>bark at<translations><translation intransitive="true">lladrar a</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>bark at
+                    <translations>
+                        <translation intransitive="true">lladrar a</translation>
+                    </translations>
+                </phrasalverbs>
+</Entry>
 <Entry frequency="75000">barking<adjectives>
 			<translations>
 				<translation register="colloquial" local="gb">boig<synonyms>mad, crazy</synonyms>
@@ -1788,29 +1794,62 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="40400000">barrack<verbs>
+			<translations><date>0112</date>
+				<translation local="gb">escridassar</translation>
+			</translations>
+		</verbs>
+	</Entry>
 <Entry frequency="1390000">barracks<nouns>
 			<translations>
 				<translation gender="f">caserna</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="371000">barrage<nouns>
-			<translations>
+<Entry frequency="90200000">barrage<nouns>
+			<translations><date>0112</date>
                         <translation>gran nombre de / molt(s/a/es)<example>Eriksson have unveiled a &lt;b&gt;barrage&lt;/b&gt; of new mobile phones and other wireless products.</example><example>Users had a &lt;b&gt;barrage&lt;/b&gt; of questions for Alex Ferguson during the recent web chat.</example><example>The government faced a &lt;b&gt;barrage&lt;/b&gt; of criticism recently when they raised interest rates for the third time in as many months.</example><catnote>Molt sovint, aquesta paraula té connotacions de rapidesa i/o aggressivitat.</catnote></translation>
 				<translation gender="f">presa (artificial)</translation>
 			</translations>
 		</nouns>
+                <expressions>barrage balloon
+                    <translations>
+                        <translation gender="m">globus de barrera / globus de defensa</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-<Entry frequency="11000000">barrel<nouns>
-			<translations>
+<Entry frequency="869000000">barrel<nouns>
+			<translations><date>0112</date>
 				<translation gender="m">barril</translation>
-                                <translation gender="m">(of a gun) canó</translation>                                
+                                <translation gender="m">[of a gun] canó</translation>                                
 			</translations>
-		</nouns>            
+		</nouns>   
+                <verbs>
+                    <translations>
+                        <translation intransitive="true">[through, down, along..] circular / transitar molt de pressa (esp. sense control)</translation>
+                    </translations>
+                </verbs>
+                <expressions>have (someone) over a barrel
+                    <translations>
+                        <translation>tenir (algú) a les (teves) mans</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="102000">barrel organ<nouns>
                 <translations><date>0708</date>
                     <translation termcat="entertainment-music" gender="m">piano de maneta / orgue de maneta / orguenet / piano de manubri</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="44400000">barren<adjectives>
+			<translations><date>0112</date>
+				<translation>estèril</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="1510000">barrenness<nouns>
+			<translations><date>0112</date>
+				<translation gender="f">escassedat / penúria</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1820,11 +1859,16 @@
 			</translations>
 		</nouns>            
 	</Entry>
-<Entry frequency="1290000">barricade<nouns>
-			<translations>
+<Entry frequency="52700000">barricade<nouns>
+			<translations><date>0112</date>
 				<translation gender="f">barricada</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">tancar (amb una barricada o per algun altre mitjà) / acordonar</translation>
+                    </translations>
+                </verbs>
 	</Entry>
 <Entry frequency="4650000">barrier<nouns>
 			<translations>
@@ -1864,21 +1908,33 @@
                     </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="64500000">base<nouns>
-			<translations>
+<Entry frequency="10480000000">base<nouns>
+			<translations><date>0112</date>
 				<translation gender="f">base</translation>
                                 <translation disambiguate="sports-event-baseball" termcat="true" gender="f">base</translation>
 			</translations>
 		</nouns>
                 <verbs>
-                <translations>
-                <translation>basar</translation></translations></verbs>
-                <expressions>off base
-                <translations>
-                <translation>fora de lloc</translation>
-                </translations>
+                    <translations>
+                        <translation>basar</translation>
+                    </translations>
+                </verbs>
+                <expressions>all bases covered
+                    <translations>
+                        <translation>tot controlat</translation>
+                    </translations>
                 </expressions>
-	<phrasalverbs>base upon<translations><translation intransitive="true">basar-se en</translation></translations></phrasalverbs></Entry>
+                <expressions>off base
+                    <translations>
+                        <translation>fora de lloc</translation>
+                    </translations>
+                </expressions>
+                <phrasalverbs>base upon
+                    <translations>
+                        <translation intransitive="true">basar-se en</translation>
+                    </translations>
+                </phrasalverbs>
+</Entry>
 <Entry frequency="38700000">baseball<nouns>
 			<translations>
 				<translation gender="m">beisbol</translation>
@@ -1888,6 +1944,12 @@
 <Entry frequency="2530000">baseband<nouns>
 			<translations>
 				<translation catagory="telephone" termcat="true" gender="f">banda de base</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="43200000">baseboard<nouns>
+			<translations><date>0112</date>
+				<translation local="us" gender="m">entornpeu / sòcol<otherlocal>skirting board</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1911,7 +1973,7 @@
 	</Entry>
 <Entry frequency="40900000">basically<adverbs>
 			<translations>
-				<translation>bàsicament</translation>
+				<translation>bàsicament / en essència</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -1935,9 +1997,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="163000000">basis<nouns>
-			<translations>
+<Entry frequency="1230000000">basis<nouns>
+			<translations><date>0112</date>
+                             <grouptranslation>
 				<translation gender="f">base</translation>
+                                <translation gender="m">fonament<engexamp>On the basis of ...</engexamp><catexamp>A base de ... / Conforme a ... / de conformitat amb ...</catexamp><engexamp>On the basis that ...</engexamp><catexamp>Partint de la base (o el fet) que ...</catexamp></translation>
+                             </grouptranslation>
+                             <translation><engexamp>On a regular basis</engexamp><catexamp>De forma (o manera) regular</catexamp><engexamp>On a permanent basis</engexamp><catexamp>De forma (o manera) permanent</catexamp><engexamp>On a weekly basis</engexamp><catexamp>De forma setmanal / setmanalment / cada setmana</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1948,15 +2014,24 @@
 		</verbs>
                 <phrasalverbs>bask in
                     <translations>
-                        <translation>gaudir de / fruir de (l'adulació, l'atenció pública)</translation>
+                        <translation>gaudir de / disfrutar de / fruir de (l'adulació, l'atenció pública)</translation>
                     </translations>
                 </phrasalverbs>
 	</Entry>
-<Entry frequency="14200000">basket<nouns>
-			<translations>
+<Entry frequency="2520000000">basket<nouns>
+			<translations><date>0112</date>
 				<translation gender="m">cistell<engexamp>Cistell (de la compra)</engexamp>
 					<catexamp>(Shopping) basket</catexamp>
 				</translation>
+                                <translation gender="m">cove</translation>
+                                <grouptranslation disambiguate="sports-event-basketball">
+                                <translation gender="f">[ring and net] cistella</translation>
+                                <translation gender="m">bàsquet</translation>
+                                </grouptranslation>
+                                <grouptranslation disambiguate="sports">
+                                    <translation gender="f">[score] cistella / encistellada</translation>
+                                    <translation gender="m">bàsquet<engexamp>To score a basket</engexamp><catexamp>Encistellar</catexamp></translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2009,6 +2084,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+          <Entry frequency="34600000">bassinet<nouns>
+                            <translations><date>0112</date>
+				<translation local="us" gender="m">moisès (mena de bressol)<otherlocal>Moses basket</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="3350000">bassoon<nouns>
                 <translations><date>0708</date>
                     <translation termcat="entertainment-music-instrument" gender="m">fagot / baixó</translation>
@@ -2027,18 +2108,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="6790000">bastard<nouns>
-			<translations>
-				<translation register="offensive" gender="m">fill de puta / cabró<catnote>A més d'utilitzar-se com a insult (ex: 'I'll get you for that, you bastard!'), aquesta paraula també es pot utilitzar sense ofendre (per exemple: 'You lucky bastard!', 'You poor bastard!')</catnote>
-				</translation>
+<Entry frequency="346000000">bastard<nouns>
+			<translations><date>0112</date>
+				<translation register="offensive" gender="m">malparit / fill de puta / cabró / desgraciat<engexamp>(Superior, selfish ...) bastard</engexamp><catexamp>(Cregut, egoista ...) de merda</catexamp><catnote>A més d'utilitzar-se com a insult (ex: 'I'll get you for that, you bastard!'), aquesta paraula també es pot utilitzar entre amics sense ofendre (per exemple: 'You lucky bastard!', 'You poor bastard!')</catnote></translation>
 				<translation register="dated" gender="mf">fill bastard / filla bastarda<engnote>'Fill bastard' means 'bastard' in the old-fashioned sense 'child of unmarried parents'.</engnote>
 				</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="635000">baste<verbs>
-                            <translations><date>0908</date>
-				<translation>embastar<synonyms>tack</synonyms><engnote>'Embastar' means 'to baste' in the sense 'to sew something temporarily with long stitches'.</engnote></translation>
+<Entry frequency="22300000">baste<verbs>
+                            <translations><date>0112</date>
+                            <translation>[cooking] rostir (coure carn untada o mullant-la de greix)</translation>
+				<translation>[sewing] embastar<synonyms>tack</synonyms><engnote>'Embastar' means 'to baste' in the sense 'to sew something temporarily with long stitches'.</engnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2075,34 +2156,21 @@
                   </translations>
               </expressions>
           </Entry>
-<Entry frequency="26100000">baton<nouns>
-			<translations><date>0609</date>
-				<translation disambiguate="entertainment-music" gender="f">batuta</translation>
-                                <translation disambiguate="sports-event-athletics" gender="m">testimoni</translation>
-                                <translation local="gb" gender="f">porra (de policia)<otherlocal>nightstick</otherlocal><synonyms>truncheon</synonyms></translation>
+            <Entry frequency="875000000">batch<nouns>
+                            <translations><date>0112</date>
+				<translation gender="f">fornada</translation>
+                                <translation gender="f">tongada / sèrie</translation>
+                                <translation disambiguate="computers" gender="m">lot<engexamp>Batch file</engexamp><catexamp>Fitxer de lot</catexamp><engexamp>Batch processing</engexamp><catexamp>Processament per lots / processament en temps diferit</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="3520000">battalion<nouns>
-			<translations>
-				<translation gender="m">batalló</translation>
+          <Entry frequency="6580000">bated<adjectives>
+                            <translations><date>0112</date>
+				<translation><engexamp>With bated breath</engexamp><catexamp>Sense respirar / amb l'alè contingut</catexamp></translation>
 			</translations>
-		</nouns>
+		</adjectives>
 	</Entry>
-<Entry frequency="44800000">batch<nouns>
-                        <translations><date>1008</date>
-                            <grouptranslation>
-				<translation gender="m">grup</translation>
-				<translation gender="f">sèrie / tongada</translation>
-                                </grouptranslation>
-			</translations>
-		</nouns>
-                <expressions>in batches
-                    <translations>
-                        <translation>a tongades</translation>
-                    </translations>
-                </expressions>
-	</Entry>
+
 <Entry frequency="9380000">bath<nouns>
 			<translations>
 				<translation gender="m">bany</translation>
@@ -2175,6 +2243,39 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="26100000">baton<nouns>
+			<translations><date>0609</date>
+				<translation disambiguate="entertainment-music" gender="f">batuta</translation>
+                                <translation disambiguate="sports-event-athletics" gender="m">testimoni</translation>
+                                <translation local="gb" gender="f">porra (de policia)<otherlocal>nightstick</otherlocal><synonyms>truncheon</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="3520000">battalion<nouns>
+			<translations>
+				<translation gender="m">batalló</translation>
+			</translations>
+		</nouns>
+	</Entry>
+             <Entry frequency="225000000">batter<nouns>
+			<translations><date>0112</date>
+                        <translation gender="f">pasta (per arrebossar)</translation>
+                        <translation disambiguate="sports-event-baseball" gender="mf">batedor</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>[~ somebody] pegar / maltractar (a cops) / agredir</translation>
+                        <translation>[~ something] colpejar</translation>
+                        <translation>[food] arrebossar</translation>
+                    </translations>
+                </verbs>
+                <phrasalverbs>batter down
+                    <translations>
+                        <translation>abatre a cops</translation>
+                        </translations>
+                </phrasalverbs>
+	</Entry>
 <Entry frequency="19700000">battery<nouns>
 			<translations>
 				<translation gender="f">pila</translation>
@@ -2199,7 +2300,7 @@
 				<translation gender="m">camp de batalla</translation>
 			</translations>
 		</nouns>
-	</Entry>
+	</Entry>       
 <Entry frequency="2270000">bauble<nouns>
 			<translations>
 				<translation gender="f">bola (amb què s'adornen els arbres de Nadal)</translation>
