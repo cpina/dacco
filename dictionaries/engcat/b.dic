@@ -2170,7 +2170,6 @@
 			</translations>
 		</adjectives>
 	</Entry>
-
 <Entry frequency="9380000">bath<nouns>
 			<translations>
 				<translation gender="m">bany</translation>
@@ -2276,18 +2275,88 @@
                         </translations>
                 </phrasalverbs>
 	</Entry>
-<Entry frequency="19700000">battery<nouns>
-			<translations>
+<Entry frequency="1650000000">battery<nouns>
+			<translations><date>0112</date>
 				<translation gender="f">pila</translation>
-                                <translation termcat="true" gender="f">bateria</translation>
+                                <translation gender="f">[car / motorbike] bateria</translation>
+                                <grouptranslation>
+                                    <translation gender="f">sèrie</translation>
+                                    <translation gender="m">enfilall</translation>
+                                    </grouptranslation>
+                                <translation disambiguate="legal" gender="f">lesió</translation>
 			</translations>
 		</nouns>
+                <expressions>battery farm
+                <translations>
+                    <translation gender="f">explotació de cria intensiva</translation>
+                    </translations>
+                    </expressions>
+                <expressions>battery farming
+                    <translations>
+                        <translation gender="f">cria intensiva</translation>
+                        </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="48800000">battle<nouns>
-			<translations>
-				<translation gender="f">batalla</translation>
+			<translations><date>0112</date>
+				<translation gender="f">[opposing armies] batalla</translation>
+                                <translation gender="f">batalla / lluita</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>lluitar / combatre</translation>
+                        </translations>
+                        </verbs>
+                        <phrasalverbs>battle on
+                        <translations>
+                            <translation>seguir lluitant</translation>
+                            </translations>
+                            </phrasalverbs>
+                        <expressions>battle cry
+                            <translations>
+                                <translation gender="m">crit de batalla (o guerra)</translation>
+                                </translations>
+                        </expressions>
+                        <expressions>battle front
+                        <translations>
+                            <translation gender="m">front de batalla</translation>
+                            </translations>
+                            </expressions>
+                            <expressions>battle gear
+                                <translations>
+                                    <grouptranslation>
+                                    <translation gender="m">arnès</translation>
+                                    <translation gender="f">armadura</translation>
+                                    </grouptranslation>
+                                    </translations>
+                            </expressions>                            
+                        <expressions>battle of wits
+                        <translations>
+                            <translation gender="f">batalla dialèctica</translation>
+                            </translations>
+                            </expressions>
+                        <expressions>fight a losing battle
+                            <translations>
+                                <translation>lluitar per una causa perduda</translation>
+                                </translations>
+                        </expressions>
+                <expressions>fight someone else's battle
+                    <translations>
+                        <translation>lluitar (o combatre) per una causa que no és teva</translation>
+                    </translations>
+                </expressions>
+                <expressions>pitched battle
+                    <translations>
+                        <translation gender="f">batalla campal</translation>
+                        </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="132000">battle axe<nouns>
+                            <translations><date>0112</date>
+				<translation gender="f">atxa d’armes</translation>
+			</translations>
+		</nouns>            
 	</Entry>
          <Entry frequency="132000">battledore<nouns>
                             <translations><date>0609</date>
