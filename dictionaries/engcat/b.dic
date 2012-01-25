@@ -2372,7 +2372,7 @@
 	</Entry>       
 <Entry frequency="2270000">bauble<nouns>
 			<translations>
-				<translation gender="f">bola (amb què s'adornen els arbres de Nadal)</translation>
+				<translation gender="f">bola (de Nadal)</translation>
                                 <translation gender="f">quincalla<synonyms>trinket</synonyms></translation>
 			</translations>
 		</nouns>
@@ -2406,10 +2406,27 @@
 				<translation gender="f">badia</translation>
 			</translations>
 		</nouns>
+                <expressions>storage bay
+                    <translations>
+                        <grouptranslation>
+                        <translation gender="f">nau d'emmagatzematge</translation>
+                        <translation gender="m">magatzem</translation>
+                        </grouptranslation>
+                        </translations>
+                </expressions>                
 	</Entry>
 <Entry frequency="243000">bay leaf<nouns>
 			<translations>
 				<translation gender="f">fulla de llorer</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="27900000">bay window<nouns>
+			<translations><date>0112</date>
+                        <grouptranslation>
+				<translation gender="f">tribuna</translation>
+                                <translation gender="m">mirador</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2550,14 +2567,16 @@
 	</Entry>
 <Entry frequency="7170000">bead<nouns>
 			<translations>
-				<translation gender="f">anella / peça<engnote>'Anella' and 'peça' mean 'bead' as in 'the bead on a necklace'.</engnote></translation>
-                                <translation gender="f">dena<engnote>A 'dena' is a 'rosary bead'.</engnote></translation>
-                                <translation gender="f">goteta<engnote>'Goteta' means 'bead' as in 'bead of water / sweat'.</engnote></translation>
+                            <grouptranslation>
+                            <translation gender="m">[necklace] vidret / gra</translation>    
+				<translation gender="f">granadura</translation>
+                                </grouptranslation>
+                                <translation gender="f">[sweat, water] goteta</translation>
 			</translations>
 		</nouns>
                 <phrasalverbs>bead up
                 <translations>
-                <translation>formar(-se) gotes<example>With the stain-resistant shirts, testers found that the coffee &lt;b&gt;beaded up&lt;/b&gt; and did not soak in at all.</example></translation>
+                <translation>formar(-se) gotes / perlejar<example>With the stain-resistant shirts, testers found that the coffee &lt;b&gt;beaded up&lt;/b&gt; and did not soak in at all.</example></translation>
                 </translations>
                 </phrasalverbs>
 	</Entry>
@@ -2573,8 +2592,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="5340000">beam<nouns>
-			<translations>
+<Entry frequency="862000000">beam<nouns>
+			<translations><date>0112</date>
 				<translation gender="m">gran somriure</translation>
                                 <translation gender="f">biga<engnote>'Biga' means 'beam' in the sense 'the old house had lots of exposed beams'.</engnote></translation>
                                 <translation gender="m">feix / raig<engnote>'Feix' and 'raig' mean 'beam' in the sense 'beam (ray) of light'.</engnote></translation>
@@ -2582,7 +2601,9 @@
 		</nouns>
                 <verbs>
                 <translations>
-                <translation>somriure</translation></translations></verbs>
+                <translation>il·luminar-se la cara (a algú) / somriure</translation>
+                </translations>
+                </verbs>
 	</Entry>
 <Entry frequency="64000000">bean<nouns>
                         <translations><date>0409</date>
@@ -2593,22 +2614,39 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="190000000">bear<nouns>
-			<translations><date>0707</date>
-				<translation catagory="animal-animal" gender="m">ós</translation>
+<Entry frequency="3090000000">bear<nouns>
+			<translations><date>0112</date>
+				<translation catagory="animal-animal" gender="m">ós<engexamp>Teddy (or stuffed) bear</engexamp><catexamp>Ós de peluix</catexamp><engexamp>(American) black bear</engexamp><catexamp>Ós negre (americà)</catexamp><engexamp>(Asiatic) black bear</engexamp><catexamp>Ós del Tibet</catexamp><engexamp>Grizzly bear</engexamp><catexamp>Ós bru (o gris)</catexamp><engexamp>Polar bear</engexamp><catexamp>Ós polar (o blanc)</catexamp></translation>
 			</translations>
 		</nouns>
 		<verbs>
 			<past>bore</past>
 			<participle>borne</participle>
 			<translations>
-				<translation>aguantar / sofrir<synonyms>put up with</synonyms>
-				</translation>
+				<translation>[stand, put up with] aguantar / sofrir / suportar / tolerar<engexamp>Hard to bear</engexamp><catexamp>Difícil de suportar / suportar amb prou feines</catexamp><engexamp>He couldn't bear to ...</engexamp><catexamp>No es va veure amb cor de ...</catexamp><engexamp>I can't bear it</engexamp><catexamp>Això és superior a mi</catexamp></translation>
+                                <translation register="formal" transitive="true">[responsibility] assumir<example>They must &lt;b&gt;bear&lt;/b&gt; full responsibility for their actions.</example></translation>
+                                <translation>[weight] suportar<example>Don't sit on that desk.  It won't &lt;b&gt;bear&lt;/b&gt; your weight!</example></translation>
+                                <translation register="formal" transitive="true">[carry] portar<example>Never fear! We have come &lt;b&gt;bearing&lt;/b&gt; large quantities of alcohol!</example><example>The right to &lt;b&gt;bear&lt;/b&gt; arms is a tradition with deep roots in American society.</example></translation>
+                                <translation register="formal" transitive="true">[show] portar<example>The attack &lt;b&gt;bears&lt;/b&gt; all the signs of a terrorist action.</example></translation>
+                                <translation register="formal" transitive="true">[name] portar</translation>
+                                <translation register="formal" transitive="true">[fruit] donar</translation>
+                                <translation intransitive="true">[direction] tòrcer / girar</translation>
+                                <translation register="formal" transitive="true">[~ a child] donar a llum<example>She &lt;b&gt;bore&lt;/b&gt; him three children.</example></translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>bear down on
+                    <translations>
+                        <translation transitive="true">dirigir-se cap a</translation>
+                        </translations>
+                </phrasalverbs>
+                <phrasalverbs>bear out
+                <translations>
+                    <translation transitive="true">confirmar</translation>
+                </translations>
+                </phrasalverbs>
                                 <phrasalverbs>bear with
                     <translations>
-                        <translation intransitive="true">tenir paciència amb</translation>
+                        <translation intransitive="true">tenir paciència amb<engexamp>Bear with me</engexamp><catexamp>Permeteu-me un moment</catexamp></translation>
                     </translations>
                 </phrasalverbs>
 		<expressions>bear in mind
@@ -2621,6 +2659,11 @@
                         <translation disambiguate="financial" gender="m">mercat baixista / mercat a la baixa<synonyms>bearish market</synonyms></translation>
                     </translations>
                 </expressions>
+                <expressions>bear a ressemblance to
+                <translations>
+                    <translation>assemblar-se a</translation>
+                    </translations>
+                    </expressions>
         </Entry>
 <Entry frequency="4090000">beard<nouns>
 			<translations>
