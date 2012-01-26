@@ -2354,7 +2354,8 @@
 	</Entry>
         <Entry frequency="132000">battle axe<nouns>
                             <translations><date>0112</date>
-				<translation gender="f">atxa d’armes</translation>
+				<translation gender="f">[weapon] atxa d’armes</translation>
+                                <translation gender="f">[old woman] harpia</translation>
 			</translations>
 		</nouns>            
 	</Entry>
@@ -3364,6 +3365,11 @@
 				</grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>be on your best behavior
+                    <translations>
+                        <translation>comportar-se / portar-se amb formalitat</translation>
+                        </translations>
+                </expressions>
 	</Entry>
             <Entry frequency="2340000">behaviorism<nouns>
 			<translations><date>0709</date>
@@ -3386,6 +3392,11 @@
 				</grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>be on your best behaviour
+                    <translations>
+                        <translation>comportar-se / portar-se amb formalitat</translation>
+                        </translations>
+                </expressions>
 	</Entry>
             <Entry frequency="275000">behaviourism<nouns>
 			<translations><date>0709</date>
@@ -3429,7 +3440,20 @@
 		</prepositions>
                 <nouns>
                 <translations>
-                <translation register="slang" gender="m">cul<example>Every day Peter's wife cooks, cleans and looks after the children while he just sits on his fat &lt;b&gt;behind&lt;/b&gt; and watches television.</example></translation></translations></nouns>
+                <translation register="slang" gender="m">cul<example>Every day Peter's wife cooks, cleans and looks after the children while he just sits on his fat &lt;b&gt;behind&lt;/b&gt; and watches television.</example></translation>
+                </translations>
+                </nouns>
+	</Entry>
+        <Entry frequency="4800000">beholden<adjectives>
+			<translations><date>0112</date>
+				<translation></translation>
+			</translations>
+		</adjectives>
+                <expressions>be beholden to (somebody)
+                    <translations>
+                        <translation>tenir compromisos amb (algú) / estar obligat a (algú)</translation>
+                        </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3620000">beige<adjectives>
 			<translations><date>0407</date>
@@ -3448,11 +3472,31 @@
                                 <translation gender="f">existència</translation>
 			</translations>
 		</nouns>
+                <expressions>bring into being
+                <translations>
+                    <translation>donar vida a</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>come into being
+                    <translations>
+                        <translation>néixer / crear-se</translation>
+                        </translations>
+                        </expressions>
+                        <expressions>for the time being
+                            <translations>
+                                <translation>per el moment / per ara</translation>
+                                </translations>
+                        </expressions>
                 <expressions>human being
                     <translations>
                         <translation gender="m">ésser humà</translation>
                     </translations>
                 </expressions>
+                <expressions>innermost being
+                <translations>
+                    <translation gender="m">ésser interior</translation>
+                    </translations>
+                    </expressions>
                 <expressions>Supreme Being
                     <translations>
                         <translation catagory="religious" gender="m">ésser suprem</translation>
@@ -3472,6 +3516,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="41800000">belated<adjectives>
+			<translations><date>0112</date>
+				<translation>tardà / tardaner</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="4610000">belatedly<adverbs>
+			<translations><date>0112</date>
+				<translation>tard / amb retard</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 <Entry frequency="1240000">belch<verbs>
 
 			<translations><date>0708</date>
@@ -3486,6 +3542,12 @@
                         <translation gender="m">eructe / rot<synonyms>burp</synonyms></translation>
                     </translations>
                 </nouns>
+	</Entry>
+        <Entry frequency="289000">beldam<nouns>
+			<translations><date>0112</date>
+				<translation register="dated" gender="f">donota</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="2180000">beleaguered<adjectives>
 			<translations>
@@ -3517,9 +3579,15 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="6640000">belief<nouns>
-                            <translations><date>0908</date>
-				<translation gender="f">creença</translation>
+        <Entry frequency="4610000">belie<verbs>
+			<translations><date>0112</date>
+				<translation>desmentir / contradir</translation>
+			</translations>
+		</verbs>
+	</Entry>
+<Entry frequency="667000000">belief<nouns>
+                            <translations><date>0112</date>
+				<translation gender="f">creença<plural>beliefs</plural></translation>
 			</translations>
 		</nouns>
                 <expressions>belief system
@@ -3527,6 +3595,21 @@
                         <translation gender="m">sistema de creences</translation>
                     </translations>
                 </expressions>
+                <expressions>beyond belief
+                    <translations>
+                        <translation>(cosa) de no dir / sobre manera / d'allò més / fora mida</translation>
+                        </translations>
+                        </expressions>
+                        <expressions>contrary to popular belief
+                        <translations>
+                            <translation>contràriament al que se sol creure</translation>
+                            </translations>
+                </expressions>             
+                 <expressions>to hold the belief (that)
+                    <translations>
+                        <translation>sostenir la creença (que)</translation>
+                        </translations>
+                        </expressions>
 	</Entry>
 <Entry frequency="63000000">believe<verbs>
 			<translations>
@@ -3535,24 +3618,16 @@
 		</verbs>
             <phrasalverbs>believe in
             <translations>
-                <translation intransitive="true">creure en</translation>
+                <translation intransitive="true">creure en<engexamp>To believe in God</engexamp><catexamp>Creure en Déu</catexamp></translation>
+                <translation intransitive="true">[~ somebody] confiar en (algú) / tenir-hi confiança</translation>
+                <translation intransitive="true">[~ something] ser partidari d'(alguna cosa)</translation>
             </translations>
         </phrasalverbs>
     <expressions>believe it or not
     <translations>
-        <translation>per molt difícil de creure que sigui</translation>
+        <translation>ho creguis o no</translation>
     </translations>
-    </expressions>
-        <expressions>if you believe that, you'll believe anything
-            <translations>
-                <translation register="colloquial">si creus que això és veritat, és que ets massa crèdul</translation>
-            </translations>
-        </expressions>
-        <expressions>I believe you, thousands wouldn't
-            <translations>
-                <translation>et crec, encara que el que dius em sembli poc probable / creïble</translation>
-            </translations>
-        </expressions>
+    </expressions>      
         <expressions>believe me
             <translations>
                 <translation register="colloquial">t'ho juro<catnote>També es diu 'believe you me'</catnote></translation>
@@ -3562,13 +3637,53 @@
             <translations>
                 <translation register="colloquial">no t'ho creguis pas!</translation>
             </translations>
+        </expressions>       
+        <expressions>if you believe that, you'll believe anything
+            <translations>
+                <translation register="colloquial">si creus que això és veritat, és que ets massa crèdul</translation>
+            </translations>
         </expressions>
+        <expressions>I believe you, thousands wouldn't
+            <translations>
+                <translation>et crec, (encara que el que dius em sembli poc probable / creïble)</translation>
+            </translations>
+        </expressions>
+         <expressions>I don't (or can't) believe it!
+                    <translations>
+                        <translation>no me'n sé avenir! / sembla mentida! / sembla que no pugui ser! / qui ho havia de dir!</translation>
+                        </translations>
+                </expressions>
+                <expressions>I can't believe that ...
+                    <translations>
+                        <translation>no m'entra al cap que ...</translation>
+                        </translations>
+                        </expressions>
+                        <expressions>I would never have believed that ...
+                        <translations>
+                            <translation>no hauria dit mai que ...</translation>
+                            </translations>
+                </expressions>
+                <expressions>if (xy) is to be believed
+                    <translations>
+                        <translation>si s'ha de donar crèdit a (xy) / si s'ha de fer cas de (xy)</translation>
+                        </translations>
+                </expressions>                
+                        <expressions>you wouldn't believe it
+                            <translations>
+                                <translation>no ho diries mai / no t'ho pots imaginar</translation>
+                                </translations>
+                        </expressions>
     </Entry>
-<Entry frequency="7330000">believer<nouns>
-			<translations>
+<Entry frequency="185000000">believer<nouns>
+			<translations><date>0112</date>
 				<translation gender="mf">creient</translation>
 			</translations>
 		</nouns>
+                <expressions>true believer
+                    <translations>
+                        <translation>incondicional / partidari fidel</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="522000">belike<adverbs>
 			<translations><date>0609</date>
@@ -3612,6 +3727,31 @@
 				<translation local="us" catagory="work-job" gender="m">grum<synonyms>bellboy</synonyms></translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="4420000">belligerence<nouns>
+			<translations><date>0112</date>
+				<translation gender="f">bel·licositat</translation>
+                                <translation gender="f">agressivitat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="11800000">belligerent<adjectives>
+			<translations><date>0112</date>
+				<translation beforenoun="true" register="formal">[fighting a war] bel·licós</translation>
+                                <translation>agressiu / hostil / virulent</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation register="formal" gender="m">bel·ligerant</translation>
+                        </translations>
+                        </nouns>
+	</Entry>
+        <Entry frequency="463000">belligerently<adverbs>
+			<translations><date>0112</date>
+				<translation>bel·licosament / agressivament</translation>
+			</translations>
+		</adverbs>
 	</Entry>
 <Entry frequency="8260000">bellow<verbs>
                             <translations><date>0209</date>
@@ -3666,6 +3806,17 @@
                     </translations>
                 </expressions>
 	</Entry>
+        <Entry frequency="1460000">bellyflop<nouns>
+			<translations><date>0112</date>
+				<translation register="colloquial" gender="f">panxada (tirant-se a l'aigua)</translation>
+			</translations>
+		</nouns>
+                <verbs double="true">
+                    <translations>
+                        <translation>fer una panxada (tirant-se a l'aigua)</translation>
+                        </translations>
+                </verbs>
+	</Entry>
 <Entry frequency="16700000">belong<verbs>
 			<translations>
 				<translation>pertànyer<example>If you can't put my things back where they &lt;b&gt;belong&lt;/b&gt; when you've finished with them I'm going to stop lending them to you</example>
@@ -3676,21 +3827,22 @@
 		</verbs>
                 <phrasalverbs>belong to
                     <translations>
-                        <translation intransitive="true">pertànyer a</translation>
+                        <translation intransitive="true">[~ somebody] pertànyer a</translation>
+                        <translation intransitive="true">[~ something] formar part de / ser soci de</translation>
                     </translations>
                 </phrasalverbs>
             </Entry>
 <Entry frequency="887000">belongings<nouns>
 			<translations>
-				<grouptranslation><translation gender="fpl">pertinences / coses</translation>
-                                <translation gender="mpl">efectes</translation>
+				<grouptranslation><translation gender="fpl">pertinences / coses </translation>
+                                <translation gender="mpl">efectes personals / objectes personals</translation>
                                         <translation gender="m">cabal</translation><synonyms>possessions, property</synonyms></grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="49000000">beloved<adjectives>
-			<translations><date>1008</date>
-				<translation>estimat</translation>
+        <Entry frequency="595000000">beloved<adjectives>
+			<translations><date>0112</date>
+				<translation>estimat / entranyable</translation>
 			</translations>
 		</adjectives>
                 <nouns>
@@ -3718,15 +3870,15 @@
 		</nouns>
                 <phrasalverbs>belt out
                 <translations>
-                <translation>cantar fort<example>Dude, I'm sure he can still go on stage and &lt;b&gt;belt out&lt;/b&gt; his old hits but this new album sucks.</example></translation>
+                <translation>cantar a plens pulmons<example>Dude, I'm sure he can still go on stage and &lt;b&gt;belt out&lt;/b&gt; his old hits but this new album sucks.</example></translation>
                 </translations>
                 </phrasalverbs>
 	</Entry>
-<Entry frequency="10000">belter<adjectives>
+<Entry frequency="10000">belter<nouns>
 			<translations><date>0308</date>
-				<translation register="dialectal">excel·lent / genial</translation>
+				<translation register="dialectal">cosa excel·lent / genial</translation>
 			</translations>
-		</adjectives>
+		</nouns>
 	</Entry>
         <Entry frequency="2290000">beltway<nouns>
 			<translations><date>1108</date>
@@ -3802,8 +3954,14 @@
 <Entry frequency="5160000">beneath<prepositions>
 			<translations>
 				<translation register="formal">sota</translation>
+                                <translation>indigne<engexamp>She married beneath herself</engexamp><catexamp>Ha fet un mal casament</catexamp></translation>
 			</translations>
 		</prepositions>
+                <adverbs>
+                    <translations>
+                        <translation>sota</translation>
+                        </translations>
+                </adverbs>
 	</Entry>
 <Entry frequency="9410000">beneficial<adjectives>
 			<translations>
@@ -3818,26 +3976,41 @@
 		</nouns>
 	</Entry>
 <Entry frequency="31000000">benefit<nouns>
-			<translations>
+			<translations><date>0112</date>
 				<translation gender="m">benefici / avantatge</translation>
-                                <translation local="gb" gender="m">subsidi</translation>
+                                <translation gender="m">honor</translation>
+                                <grouptranslation local="gb">
+                                <translation gender="m">subsidi</translation>
+                                <translation gender="f">prestació<engexamp>Unemployment benefit</engexamp><catexamp>Subsidi (o prestació) d'atur</catexamp></translation>
+                                </grouptranslation>
+                                <translation beforenoun="true">benèfic</translation>
 			</translations>
 		</nouns>
                 <verbs>
                 <translations>
                 <translation transitive="true">beneficiar</translation>
                 </translations>
-                </verbs>
+                </verbs>                
                 <phrasalverbs>benefit from
                 <translations>
                 <translation intransitive="true">beneficiar-se de</translation>
                 </translations>
             </phrasalverbs>
-            <expressions>unemployment benefit
-                <translations>
-                    <translation gender="m">subsidi d'atur (o de desocupació)</translation>
+            <expressions>for (somebody's) benefit
+            <translations>
+                <translation>per consideració cap a (algú)</translation>
                 </translations>
-            </expressions>
+                </expressions>
+            <expressions>for the benefit of
+                <translations>
+                    <translation>per a ús de</translation>
+                    </translations>
+                    </expressions>
+            <expressions>to have the benefit of
+            <translations>
+                <translation>beneficiar-se de / fer servei</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2300000">benevolence<nouns>
                             <translations><date>0508</date>
@@ -3863,9 +4036,10 @@
                 <translations>
                 <translation>bengalí<fems>bengalí</fems></translation></translations></adjectives>
 	</Entry>
-<Entry frequency="1130000">benign<adjectives>
-			<translations>
-				<translation>benigne</translation>
+<Entry frequency="63600000">benign<adjectives>
+			<translations><date>0112</date>
+				<translation disambiguate="medical">benigne</translation>
+                                <translation register="formal">inofensiu</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -3895,12 +4069,26 @@
 			</translations>
 		</verbs>
 	</Entry>
+        <Entry frequency="11900000">bequest<nouns>
+                            <translations><date>0112</date>
+				<translation register="formal" gender="f">deixa / donació</translation>
+			</translations>
+		</nouns>
+	</Entry>
             <Entry frequency="4690000">bereavement<nouns>
-                            <translations><date>0708</date>
-				<translation gender="m">dol<catnote>Aflicció causada per la mort d'una persona significativa.</catnote></translation>
+                            <translations><date>0112</date>
+				<translation>(sentiment de) pèrdua o aflicció (per la mort d'algú)</translation>
                                 <translation gender="f">mort (d'una persona significativa)</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="8200000">bereft<adjectives>
+                            <translations><date>0112</date>
+				<translation register="formal">desconsolat / destituït</translation>
+                                <translation register="formal">[~ of] privat de</translation>
+			</translations>
+		</adjectives>
+                
 	</Entry>
         <Entry frequency="11100">beringed<adjectives>
                 <translations><date>0609</date>
@@ -3950,10 +4138,11 @@
 		</nouns>
 	</Entry>
 <Entry frequency="4320000">berry<nouns>
-			<translations>
+			<translations><date>0112</date>
 				<translation gender="f">baia</translation>
+                                <translation sourceplural="berries" gender="fpl">fruites del bosc (inclou les maduixes, els gerds, els nabius, etc.)</translation>
 			</translations>
-		</nouns>
+		</nouns>                
 	</Entry>
 <Entry frequency="5010000">berserk<adjectives>
                             <translations><date>0808</date>
@@ -3998,6 +4187,16 @@
 				</translation>
 			</translations>
 		</prepositions>
+                <expressions>to be beside oneself (with joy, excitement...)
+                    <translations>
+                        <translation>estar desbordant (de joia, emoció)</translation>
+                        </translations>
+                </expressions>
+                <expressions>to be beside oneself (with worry, etc.)
+                    <translations>
+                        <translation>estar mort (de preocupació, etc.)</translation>
+                        </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="5360000">besides<adverbs>
 			<translations>
@@ -4028,6 +4227,27 @@
 			</translations>
 		</verbs>
 	</Entry>
+          <Entry frequency="3000000">bespeak<verbs>
+              <past>bespoke</past>
+              <participle>bespoken</participle>
+                            <translations><date>0112</date>
+				<translation intransitive="true" register="literary">posar de manifest / suggerir / reflectir</translation>
+			</translations>
+		</verbs>
+	</Entry>
+          <Entry frequency="95300000">bespoke<adjectives>
+                            <translations><date>0410</date>
+				<translation register="formal">(fet) a mida / fet expressament (per a una persona)</translation>
+                                <translation beforenoun="true">que fa (sabates, roba, etc.) a mida<engexamp>A bespoke tailor</engexamp><catexamp>Un sastre que fa vestits a mida</catexamp></translation> 
+			</translations>
+		</adjectives>
+	</Entry>
+          <Entry frequency="3570000">bespectacled<adjectives>
+                            <translations><date>0112</date>
+				<translation register="formal">ullerut</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="249000000">best<adjectives>
 			<translations>
 				<translation>millor<catnote>'Best' és el superlatiu de l'adjectiu 'good' i l'adverbi 'well'.</catnote>
@@ -4039,6 +4259,21 @@
                         <translation local="gb">molta sort!<synonyms>good luck</synonyms>
                         </translation>
                     </translations>
+                </expressions>
+                <expressions>to do your best
+                <translations>
+                    <translation>fer tot el que està a les (teves) mans / fer el millor possible</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>only the best will do (for somebody)
+                    <translations>
+                        <translation>(per a algú) tot és poc</translation>
+                        </translations>
+                        </expressions>
+                <expressions>you know best
+                    <translations>
+                        <translation>si tu ho dius</translation>
+                        </translations>
                 </expressions>
 	</Entry>
 <Entry frequency="136000">best before date<nouns>
@@ -4059,11 +4294,17 @@
                 </translations>
             </nouns>
         </Entry>
-       <Entry frequency="7250000">bet<verbs>
+         <Entry frequency="152000000">bestow<verbs>
+                <translations><date>0112</date>
+                    <translation register="formal">concedir</translation>
+                </translations>
+            </verbs>
+        </Entry>
+       <Entry frequency="3150000000">bet<verbs>
 			<past>bet</past>
 			<participle>bet</participle>
 			<gerund>betting</gerund>
-			<translations>
+			<translations><date>0112</date>
 				<translation>apostar
 					<example>Simon &lt;b&gt;bet&lt;/b&gt; his friend £20 that he couldn't fit a whole Big Mac in his mouth in one go.</example>
 					<example>If you &lt;b&gt;bet&lt;/b&gt; £10 on a horse at 5-1 then you stand to win £50</example></translation>
@@ -4075,6 +4316,37 @@
                         <translation intransitive="true">apostar sobre</translation>
                     </translations>
                 </phrasalverbs>
+                <nouns>
+                    <translations>
+                        <translation gender="f">aposta</translation>
+                        <translation gender="f">opció<engexamp>It's the best bet</engexamp><catexamp>És la millor alternativa</catexamp></translation>
+                        </translations>
+                        </nouns>
+                        <expressions>to bet on the (right / wrong) horse
+                        <translations>
+                            <translation>prendre la decisió (encertada / equivodada)</translation>
+                            </translations>
+                            </expressions>
+                        <expressions>all bets are off
+                        <translations>
+                            <translation>pot passar qualsevol cosa</translation>
+                            </translations>
+                            </expressions>
+                        <expressions>good (or safe or sure) bet
+                        <translations>
+                            <translation>aposta segura / cosa segura</translation>
+                            </translations>
+                            </expressions>
+                           <expressions>you bet (your life)
+                           <translations>
+                               <translation>pots comptar</translation>
+                               </translations>
+                               </expressions>
+                               <expressions>you can bet on it
+                                <translations>
+                                    <translation>d'això en pots estar segur</translation>
+                                    </translations>
+                               </expressions>
             </Entry>
 <Entry frequency="1770000">betray<verbs>
 			<translations>
@@ -4089,6 +4361,16 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="3120000">betrothal<nouns>
+			<translations><date>0112</date>
+                        <grouptranslation register="formal">
+				<translation gender="fpl">esposalles</translation>
+                                <translation gender="m">compromís matrimonial</translation>
+                                <translation gender="f">petició de mà</translation>
+                                </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>
                <Entry frequency="1120000">betrothed<adjectives>
 			<translations><date>0511</date>
 				<translation register="dated, formal">promès (en matrimoni)</translation>
@@ -4096,7 +4378,7 @@
 		</adjectives>
                 <nouns>
                     <translations>
-                        <translation register="dated, formal" gender="mf">promès (en matrimoni)</translation>
+                        <translation register="dated, formal" gender="mf">nuvi (o promès) / núvia (o promesa)</translation>
                         </translations>
                 </nouns>
 	</Entry>
@@ -4111,6 +4393,21 @@
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>a change for the better
+                <translations>
+                    <translation>una millora</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>to change for the better
+                    <translations>
+                        <translation>tombar per bé / millorar</translation>
+                        </translations>
+                        </expressions>
+                <expressions>to get the better of (somebody)
+                    <translations>
+                        <translation>sortir ben parat / sortir victoriós / vèncer<engexamp>She was allowing her imagination to get the better of her</engexamp><catexamp>S'estava deixant portar massa per la imaginació</catexamp></translation>
+                        </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1180000000">between<prepositions>
                             <translations><date>0209</date>
@@ -4149,9 +4446,9 @@
                 </translations>
             </nouns>
         </Entry>
-        <Entry frequency="505000">bewail<verbs>
-                <translations><date>0609</date>
-                    <translation register="formal">lamentar / deplorar / sentir</translation>
+        <Entry frequency="1650000">bewail<verbs>
+                <translations><date>0112</date>
+                    <translation register="formal">lamentar-se / doldre's (d'algun fet)</translation>
                 </translations>
             </verbs>
         </Entry>
@@ -4161,9 +4458,21 @@
                 </translations>
             </verbs>
         </Entry>
-         <Entry frequency="4720000">bewildered<adjectives>
+         <Entry frequency="3500000">bewilder<verbs>
 			<translations><date>0709</date>
-				<translation>confós / perplex</translation>
+				<translation>desconcertar / confondre / deixar perplex</translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="18100000">bewildered<adjectives>
+			<translations><date>0112</date>
+				<translation>desconcertat / confós / perplex</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="9530000">bewildering<adjectives>
+			<translations><date>0112</date>
+				<translation>desconcertant</translation>
 			</translations>
 		</adjectives>
 	</Entry>
