@@ -993,6 +993,11 @@
 				<translation gender="m">globus</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>inflar-se</translation>
+                        </translations>
+                </verbs>
 	</Entry>
 <Entry frequency="10900000">ballot<nouns>
 			<translations>
@@ -4856,6 +4861,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1930000">bilious<adjectives>
+			<translations><date>0112</date>
+                        <translation>[unpleasant] nauseabund / repugnant</translation>
+				<translation register="formal">[angry] colèric / irat</translation>
+			</translations>
+		</adjectives>
+	</Entry>
         <Entry frequency="777000">bilk<verbs>
                             <translations><date>0808</date>
 				<translation register="colloquial">ensarronar / enganyar / estafar<catnote>(Sobretot amb perjudici econòmic).</catnote><example>Scotch Plains man pleads guilty to &lt;b&gt;bilking&lt;/b&gt; restaurant owner.</example></translation>
@@ -4863,26 +4875,33 @@
 		</verbs>
 	</Entry>
 <Entry frequency="10900000">bill<nouns>
-			<translations>
-				<translation catagory="financial" gender="f">factura</translation>
-				<translation local="gb" gender="m">compte<otherlocal>check</otherlocal>
-				</translation>
-				<translation gender="m">projecte de llei</translation>
+			<translations><date>0112</date>
+				<translation catagory="financial" gender="f">factura<engexamp>Phone bill</engexamp><catexamp>Factura de telèfon</catexamp><engexamp>Electricity bill</engexamp><catexamp>Factura d'electricitat (o de llum)</catexamp></translation>
+				<translation local="gb" gender="m">compte<engexamp>Could (or can or may) I have the bill please?</engexamp><catexamp>El compte, si us plau</catexamp><otherlocal>check</otherlocal></translation>
+				<translation disambiguate="politics" gender="m">projecte de llei</translation>
 				<translation disambiguate="animal" gender="m">bec</translation>
-				<translation local="us" disambiguate="financial" gender="m">bitllet<otherlocal>note</otherlocal>
+                                <translation gender="m">programa<engexamp>Double bill</engexamp><catexamp>Programa doble</catexamp></translation>
+                                <translation gender="m">cartell<engexamp>Post no bills</engexamp><catexamp>Prohibit enganxar (o fixar) cartells</catexamp></translation>
+				<translation local="us" catagory="financial" gender="m">bitllet<engexamp>(Five / ten) dollar bill</engexamp><catexamp>Bitllet de (cinc / deu) dòlars</catexamp><otherlocal>note</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>[~ somebody] passar la factura a (algú)</translation>
+                        <translation>anunciar<engexamp>Billed as ...</engexamp><catexamp>Anunciat com ...</catexamp></translation>
+                        </translations>
+                </verbs>
                 <expressions>Bill of Rights
                     <translations>
                         <translation gender="f">Declaració de Drets</translation>
                     </translations>
                 </expressions>
-                <expressions>(five / ten...) dollar bill
-                    <translations>
-                        <translation gender="m">bitllet de (cinc / deu...) dòlars</translation>
+                <expressions>to foot the bill
+                <translations>
+                    <translation>pagar la factura</translation>
                     </translations>
-                </expressions>
+                    </expressions>
 	</Entry>
 <Entry frequency="2890000">billable<adjectives>
 			<translations>
@@ -4912,6 +4931,17 @@
 				<translation catagory="number-cardinal">mil milions<plural>billion</plural></translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="2450000">billow<verbs>
+			<translations><date>0112</date>
+				<translation>inflar-se / ondular / ondejar</translation>
+			</translations>
+		</verbs>
+                <nouns>
+                    <translations>
+                        <translation gender="f">onada</translation>
+                        </translations>
+                        </nouns>                        
 	</Entry>
          <Entry frequency="167000">billy club<nouns>
                 <translations><date>0609</date>
@@ -5232,6 +5262,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="188000000">biopic<nouns>
+			<translations><date>0112</date>
+				<translation gender="f">pel·lícula biogràfica</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="84500000">bios<engacro>Basic Input Output System</engacro><nouns>
 			<translations>
 				<translation catagory="computers" gender="m">bios</translation>
@@ -5344,21 +5380,21 @@
                     </translations>
                 </expressions>
 	</Entry>
-        <Entry frequency="2520000">birdbath<nouns>
-			<translations><date>0609</date>
-				<translation gender="f">pica per a ocells</translation>
+        <Entry frequency="11000000">birdbath<nouns>
+			<translations><date>0112</date>
+				<translation gender="m">abeurador per a ocells</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="159000">birdbrain<nouns>
-			<translations>
-				<translation register="colloquial" gender="mf">cap buit</translation>
+<Entry frequency="4040000">birdbrain<nouns>
+			<translations><date>0112</date>
+				<translation register="colloquial" gender="mf">cap buit / cap de pardals / cap boig</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="44100">bird-brained<adjectives>
-			<translations>
-				<translation>estúpid</translation>
+<Entry frequency="633000">bird-brained<adjectives>
+			<translations><date>0112</date>
+				<translation>(ser un) cap boig / cap buit / cap de pardals</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -5367,6 +5403,18 @@
                             <translation catagory="medical-illness" gender="f">grip del pollastre / grip aviària<synonyms>avian flu</synonyms></translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="38800000">birding<nouns>
+			<translations><date>0112</date>
+				<translation gender="f">observació ornitològica</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1230000">birdlike<adjectives>
+			<translations><date>0112</date>
+				<translation>d'ocell / propi d'un ocell</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="422000">birdseed<nouns>
 			<translations>
@@ -5423,6 +5471,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="24300000">birth defect<nouns>
+			<translations><date>0112</date>
+				<translation gender="m">defecte congènit</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="4600000000">birthday<nouns>
 			<translations><date>0112</date>
 				<translation gender="m">aniversari / natalici</translation>
@@ -5475,9 +5529,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="765000">birth rate<nouns>
-			<translations>
+<Entry frequency="7230000">birth rate<nouns>
+			<translations><date>0112</date>
+                            <grouptranslation>
 				<translation gender="f">taxa de natalitat</translation>
+                                <translation gender="m">índex de natalitat</translation>
+                                </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="22300000">birthright<nouns>
+			<translations><date>0112</date>
+				<translation gender="m">dret de naixement / dret innat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5551,6 +5614,14 @@
 					<translation gender="f">mica</translation></grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>bits and bobs
+                <translations>
+                    <grouptranslation>
+                    <translation gender="fpl">andròmines</translation>
+                    <translation gender="mpl">trastos</translation>
+                    </grouptranslation>
+                    </translations>
+                    </expressions>
                 <expressions>bit by bit
                     <translations>
                         <translation>poc a poc / de mica en mica</translation>
@@ -5564,7 +5635,7 @@
 	</Entry>
 <Entry frequency="21500000">bitch<nouns>
 			<translations>
-				<translation register="offensive" gender="f">puta<synonyms>cow</synonyms>
+				<translation register="offensive" gender="f">malparida<synonyms>cow</synonyms>
 				</translation>
 				<translation disambiguate="animal" gender="f">gossa</translation>
 			</translations>
@@ -5590,6 +5661,11 @@
 				<translation gender="f">mossegada</translation>
 			</translations>
 		</nouns>
+                <expressions>to bite off more than you can chew
+                <translations>
+                    <translation>topar amb un os / ser (una cosa) un os dur de rosegar</translation>
+                    </translations>
+                    </expressions>
                 <expressions>bite the bullet
                 <translations>
                 <translation>agafar el bou per les banyes / fer el cor fort / plantar cara (a alguna cosa)</translation>
@@ -5603,10 +5679,14 @@
 		</nouns>
 	</Entry>
 <Entry frequency="11600000">bitter<adjectives>
-			<translations>
-				<translation>amarg</translation>
-				<translation>molt fred<engnote>'Molt fred' means 'bitter' in the sense 'very cold'.</engnote>
-				</translation>
+			<translations><date>0112</date>
+				<translation>[unpleasant taste] amarg</translation>                                
+                                <translation>[angry and unhappy] ressentit</translation>
+                                <translation>[criticism] mordaç</translation> 
+                                <translation>[struggle] aferrissat</translation>
+				<translation>[very cold] glacial</translation>
+                                <translation>[wind] tallant</translation>
+                                <translation>[enemy] acèrrim</translation>
 			</translations>
 		</adjectives>
 		<nouns>
@@ -5614,6 +5694,11 @@
 				<translation gender="f">cervesa</translation>
 			</translations>
 		</nouns>
+                <expressions>to the bitter end
+                <translations>
+                    <translation>fins al final</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="14300000">bitterly<adverbs>
 			<translations>
