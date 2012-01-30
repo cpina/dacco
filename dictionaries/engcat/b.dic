@@ -5702,7 +5702,7 @@
 	</Entry>
 <Entry frequency="14300000">bitterly<adverbs>
 			<translations>
-				<translation>amb ràbia</translation>
+				<translation>amb amargura / amb acritud</translation>
 				<translation>amb tristesa</translation>
 				<translation>realment / profundament<engexamp>Bitterly disappointed</engexamp><catexamp>Profundament / realment decebut</catexamp></translation>
 			</translations>
@@ -5869,10 +5869,12 @@
 <Entry frequency="3070000">blackout<nouns>
 			<translations>
 				<grouptranslation>
-					<translation gender="f">apagada</translation>
+					<translation gender="f">[power cut] apagada (de llums)</translation>
 					<translation gender="m">tall (de subministrament) elèctric</translation>
 					<synonyms>power cut</synonyms>
 				</grouptranslation>
+                                <translation gender="f">[as sign of protest or during war] apagada de llums<catnote>Deliberada, per fer una protesta o per protegir-se d’un atac aeri.</catnote></translation>
+                                <translation gender="f">censura (total)</translation>
                                 <translation disambiguate="medical" gender="f">síncope</translation>
 			</translations>
 		</nouns>
@@ -5887,6 +5889,12 @@
 <Entry frequency="252000">blackthorn<nouns>
 			<translations>
 				<translation gender="m">aranyó<synonyms>sloe</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="22900000">black tie<nouns>
+			<translations><date>0112</date>
+				<translation beforenoun="true">d'etiqueta</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5934,8 +5942,14 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="28500000">blame<verbs>
-			<translations>
+        <Entry frequency="134000000">blah<adjectives>
+			<translations><date>0112</date>
+				<translation local="us" register="colloquial">avorrit</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+<Entry frequency="1160000000">blame<verbs>
+			<translations><date>0112</date>
 				<translation>culpar / donar la culpa a<example>Don't &lt;b&gt;blame&lt;/b&gt; me if it doesn't work!</example>
 					<example>Who's to &lt;b&gt;blame&lt;/b&gt; for the panic about SARS?</example>
 					<example>Immigrants are often &lt;b&gt;blamed&lt;/b&gt; for everything from rising crime rates to unemployment levels</example>
@@ -5947,6 +5961,16 @@
 				<translation gender="f">culpa</translation>
 			</translations>
 		</nouns>
+                <expressions>to blame yourself
+                <translations>
+                    <translation>sentir-se culpable / retreure's</translation>
+                    </translations>
+                    </expressions>
+                <expressions>to take the blame
+                <translations>
+                    <translation>assumir la culpa</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="2220000">blameless<adjectives>
 			<translations>
@@ -5969,36 +5993,50 @@
 	</Entry>
 <Entry frequency="35500000">blank<adjectives>
         <translations>
-        <translation>en blanc</translation></translations></adjectives><verbs>
-			<translations>
-				<translation register="colloquial" local="gb">no fer cas a algú<example>I saw Lucy at the bus stop this morning and she completely &lt;b&gt;blanked&lt;/b&gt; me. I guess she still hasn't forgiven me for stealing her boyfriend!</example>
-					<example>I tried to make it up with him, but every time I tried to apologise he just &lt;b&gt;blanked&lt;/b&gt; me.</example>
-				</translation>
-			</translations>
-		</verbs>
-                <phrasalverbs>blank out
-                <translations>
-                <translation intransitive="true">sofrir una fallada temporal de memòria<example>The man accused of killing his wife and children said he &lt;b&gt;blanked out&lt;/b&gt; and could not recall anything.</example></translation>
-                <translation>reprimir un pensament / una memòria traumàtica<example>No matter how much she tried to &lt;b&gt;blank out&lt;/b&gt; memories of the accident, she couldn't do it.</example></translation>
-                <translation>tapar o esborrar seccions d'un text</translation>
-            </translations>
-                </phrasalverbs>
-                    <expressions>blank check
-                        <translations>
-                            <translation catagory="financial" local="us" gender="m">xec en blanc<otherlocal>blank cheque</otherlocal></translation>
-                        </translations>
-                    </expressions>
-                    <expressions>blank cheque
-                        <translations>
-                            <translation catagory="financial" local="gb" gender="m">xec en blanc<otherlocal>blank check</otherlocal></translation>
-                        </translations>
-                    </expressions>
-              	</Entry>
+            <translation>en blanc</translation>
+            <translation>[look] inexpressiu</translation>
+        </translations>
+    </adjectives>
+    <verbs>
+        <translations>
+            <translation register="colloquial" local="gb">no fer cas a algú<example>I saw Lucy at the bus stop this morning and she completely &lt;b&gt;blanked&lt;/b&gt; me. I guess she still hasn't forgiven me for stealing her boyfriend!</example><example>I tried to make it up with him, but every time I tried to apologise he just &lt;b&gt;blanked&lt;/b&gt; me.</example></translation>
+	</translations>
+    </verbs>
+    <phrasalverbs>blank out
+        <translations>
+            <translation intransitive="true">sofrir una fallada temporal de memòria<example>The man accused of killing his wife and children said he &lt;b&gt;blanked out&lt;/b&gt; and could not recall anything.</example></translation>
+            <translation>reprimir un pensament / una memòria traumàtica<example>No matter how much she tried to &lt;b&gt;blank out&lt;/b&gt; memories of the accident, she couldn't do it.</example></translation>
+            <translation>tapar o esborrar seccions d'un text</translation>
+        </translations>
+    </phrasalverbs>
+    <expressions>blank check
+        <translations>
+            <translation catagory="financial" local="us" gender="m">xec en blanc<otherlocal>blank cheque</otherlocal></translation>
+        </translations>
+    </expressions>
+    <expressions>blank cheque
+        <translations>
+            <translation catagory="financial" local="gb" gender="m">xec en blanc<otherlocal>blank check</otherlocal></translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="7710000">blanket<nouns>
-			<translations>
-				<translation catagory="household-room-bedroom" gender="f">manta</translation>
+        <translations>
+            <translation catagory="household-room-bedroom" gender="f">manta</translation>
+	</translations>
+    </nouns>
+</Entry>
+<Entry frequency="6090000">blankly<adverbs>
+        <translations><date>0112</date>
+            <translation>amb la mirada perduda</translation>
+	</translations>
+    </adverbs>
+</Entry>
+<Entry frequency="8480000">blasé<adjectives>
+			<translations><date>0112</date>
+				<translation>indiferent / displicent</translation>
 			</translations>
-		</nouns>
+		</adjectives>
 	</Entry>
 <Entry frequency="61100">blaspheme<verbs>
 			<translations>
@@ -6033,7 +6071,7 @@
                 <verbs>
                 <translations>
                 <translation>fer explotar</translation>
-                <translation register="colloquial">criticar durament</translation>
+                <translation register="colloquial">arremetre contra</translation>
                 </translations>
                 </verbs>
                 <phrasalverbs>blast off
@@ -6064,9 +6102,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="13300000">blatant<adjectives>
-			<translations><date>1007</date>
-				<translation>flagrant / descarat<synonyms>flagrant</synonyms></translation>
+<Entry frequency="58700000">blatant<adjectives>
+			<translations><date>0112</date>
+				<translation>palmari / flagrant / descarat<engexamp>A blatant lie</engexamp><catexamp>Una mentida com una casa</catexamp><synonyms>flagrant</synonyms></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -6076,12 +6114,57 @@
 			</translations>
 		</adverbs>
 	</Entry>
+        <Entry frequency="252000">blaze<nouns>
+			<translations><date>0112</date>
+				<translation gender="m">incendi</translation>
+                                <translation gender="f">resplendor / lluïssor</translation>
+                                <translation gender="f">flamarada</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>cremar</translation>
+                        <translation>brillar / resplendir</translation>
+                        </translations>
+                        </verbs>
+                        <expressions>blaze of glory
+                            <translations>
+                                <translation gender="f">aurèola</translation>
+                                </translations>
+                        </expressions>
+                            <expressions>go to blazes!
+                                <translations>
+                                    <translation>vés-te'n al diable!</translation>
+                                </translations>
+                            </expressions>
+                            <expressions>guns blazing
+                            <translations>
+                                <translation>disparant a discreció / disparant a tort i a dret</translation>
+                                </translations>
+                                </expressions>
+                                <expressions>with all guns blazing
+                                <translations>
+                                    <translation>amb tota l'artilleria</translation>
+                                    </translations>
+                                    </expressions>
+                            <expressions>(who, what, why, how, etc.) the blazes ...
+                                <translations>
+                                    <translation>(qui, què, per què, com, etc.) diables ...</translation>
+                                    </translations>
+                            </expressions>                            
+	</Entry>
 <Entry frequency="15700000">blazer<nouns>
                             <translations><date>1208</date>
 				<translation catagory="clothes" gender="f">americana</translation>
 			</translations>
 		</nouns>
 	</Entry>
+     <Entry frequency="87300000">blazing<adjectives>
+                            <translations><date>0112</date>
+				<translation>abrandat / viu</translation>
+			</translations>
+		</adjectives>
+	</Entry>   
 <Entry frequency="500000">bleach<nouns>
 			<translations>
 				<translation gender="m">lleixiu</translation>
@@ -6159,21 +6242,59 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="3210000">bless<verbs>
-			<translations>
-				<translation>beneir</translation>
+<Entry frequency="510000000">bless<verbs>
+			<translations><date>0112</date>
+				<translation transitive="true">beneir</translation>
 			</translations>
 		</verbs>
+                <expressions>to be blessed
+                    <translations>
+                        <translation>somriure-li a algú la vida</translation>                        
+                    </translations>
+                </expressions>
+                <expressions>to be blessed with
+                    <translations>
+                        <translation>estar dotat de / estar adornat de / tenir la sort de posseir</translation>
+                    </translations>
+                </expressions>
+                <expressions>bless me!
+                    <translations>
+                        <translation>i ara!</translation>
+                    </translations>
+                </expressions>
+                <expressions>bless you!
+                    <translations>
+                        <translation>Jesús!</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-<Entry frequency="2530000">blessing<nouns>
-			<translations>
+<Entry frequency="207000000">blessed<adjectives>
+			<translations><date>0112</date>
+                        <translation>beneït / sant / benaurat</translation>
+                        <translation>feliç / benaurat<engexamp>The blessed rain</engexamp><catexamp>La benedicció de la pluja</catexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>        
+<Entry frequency="248000000">blessing<nouns>
+			<translations><date>0112</date>
 				<translation gender="f">benedicció</translation>
 			</translations>
 		</nouns>
+                <expressions>a blessing in disguise
+                    <translations>
+                        <translation>un mal menor</translation>
+                    </translations>
+                </expressions>
+                <expressions>to be a mixed blessing
+                    <translations>
+                        <translation>tenir els seus pros i els seus contres</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="5650000">blight<nouns>
 			<translations><date>1008</date>
-				<translation gender="f">plaga</translation>
+				<translation gender="f">plaga<engexamp>Potato blight</engexamp><catexamp>Míldiu de la patata</catexamp></translation>
+                                <translation gender="f">calamitat</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -6194,31 +6315,47 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="14800000">blind<adjectives>
-                            <translations><date>0408</date>
+<Entry frequency="964000000">blind<adjectives>
+                            <translations><date>0112</date>
 				<translation>cec</translation>
 			</translations>
 		</adjectives>
 		<nouns>
 			<translations>
                                 <translation catagory="household" gender="f">persiana</translation>
-                                <translation catagory="household" gender="m">estor</translation>
+                                <translation sourceplural="the blind" gender="mpl">cecs</translation>
 			</translations>
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>encegar / deixar cec</translation>
-				<translation>enlluernar</translation>
+				<translation>[permanently destroy vision] encegar / deixar cec</translation>
+				<translation>[dazzle] enlluernar</translation>                                
+                                <translation>[fig.] impedir veure (a algú, una cosa)</translation>
 			</translations>
 		</verbs>
                 <expressions>blind date
                     <translations>
-                        <translation>cita a cegues</translation>
+                        <translation gender="f">cita a cegues</translation>
+                    </translations>
+                </expressions>
+                <expressions>blind spot
+                    <translations>
+                        <translation gender="m">[driving] angle mort</translation>
+                        <translation gender="f">[eye] taca cega</translation>
+                        <grouptranslation>
+                        <translation gender="m">punt feble</translation>
+                        <translation gender="f">mancança</translation>
+                        </grouptranslation>
                     </translations>
                 </expressions>
                 <expressions>double-blind
                     <translations>
                         <translation>doble cec<engexamp>Double-blind clinical trial</engexamp><catexamp>Assaig clínic doble cec</catexamp></translation>
+                    </translations>
+                </expressions>
+                <expressions>to turn a blind eye (to something)
+                    <translations>
+                        <translation>fer els ulls grossos (a / amb alguna cosa)</translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -6232,6 +6369,23 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="101000000">blindfold<nouns>
+                <translations><date>0112</date>
+                    <translation gender="m">aclucalls</translation>
+                </translations>
+            </nouns>                 
+            <verbs>
+                <translations>
+                    <translation>posar una bena als ulls (d'algú)</translation>
+		</translations>
+            </verbs>
+	</Entry>
+        <Entry frequency="27700000">blindfolded<adverbs>
+			<translations><date>0112</date>
+				<translation>amb els ulls tapats (o embenats)</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 <Entry frequency="210000">blindly<adverbs>
 			<translations>
 				<translation>cegament / a cegues</translation>
@@ -6241,8 +6395,15 @@
 <Entry frequency="2130000">blindness<nouns>
 			<translations>
 				<translation gender="f">ceguesa</translation>
+                                <translation gender="m">[fig.] encegament</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="19400000">blindside<verbs>
+			<translations><date>0112</date>
+				<translation transitive="true">agafar desprevingut (o per sorpresa)</translation>
+			</translations>
+		</verbs>
 	</Entry>
 <Entry frequency="151000">bling<nouns>
 			<translations>
@@ -6257,13 +6418,15 @@
 		</adjectives>
 	</Entry>
 <Entry frequency="4910000">blink<nouns>
-			<translations>
+			<translations><date>0112</date>
 				<translation gender="m">parpelleig</translation>
 			</translations>
 		</nouns>
                 <verbs>
                 <translations>
-                <translation>parpellejar</translation></translations></verbs>
+                <translation>parpellejar<engexamp>Before you can blink</engexamp><catexamp>En un obrir i tancar d'ulls</catexamp><engexamp>To not even blink</engexamp><catexamp>No immutar-se</catexamp></translation>
+                </translations>
+                </verbs>
 	</Entry>
 <Entry frequency="3020000">blinker<nouns>
                                 <translations><date>0510</date>
@@ -6277,28 +6440,49 @@
 	</Entry>
 <Entry frequency="7390000">bliss<nouns>
 			<translations>
-				<translation gender="f">benaurança / felicitat</translation>
-                                <translation gender="f">joia</translation>
+                            <grouptranslation>
+                                <translation gender="f">benaurança / joia inefable</translation>
+                                <translation gender="m">goig</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="819000">blissful<adjectives>
-			<translations>
-				<translation>benaurat / feliç</translation>
+<Entry frequency="21000000">blissful<adjectives>
+			<translations><date>0112</date>
+				<translation>benaurat / feliç / joiós</translation>
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="1570000">blister<nouns>
-			<translations>
+        <Entry frequency="13500000">blissfully<adverbs>
+			<translations><date>0112</date>
+				<translation>amb joia<engexamp>Blissfully happy</engexamp><catexamp>Molt feliç / felicíssim / d'allò més feliç</catexamp></translation>
+			</translations>
+		</adverbs>
+	</Entry>
+<Entry frequency="159000000">blister<nouns>
+			<translations><date>0112</date>
 				<translation disambiguate="medical" gender="f">butllofa</translation>
                                 <translation gender="f">bombolla</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">embutllofar<engexamp>The sun had blistered the paintwork.</engexamp><catexamp>El sol havia embutllofat la pintura.</catexamp></translation>
+                        <translation intransitive="true">embutllofar-se<engexamp>The skin started to blister.</engexamp><catexamp>La pell començava a embutllofar-se.</catexamp></translation>
+                        <translation local="us" transitive="true">criticar fortament</translation>
+                        </translations>
+                        </verbs>
                 <expressions>blister pack
                     <translations>
                         <translation gender="m">blister / envoltori</translation>
                     </translations>
                 </expressions>
+	</Entry>
+        <Entry frequency="3430000">blistered<adjectives>
+                            <translations><date>0112</date>
+				<translation>embutllofat</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="468000">blistering<adjectives>
 			<translations>
@@ -6322,9 +6506,25 @@
 			</translations>
 		</adverbs>
 	</Entry>
-<Entry frequency="3240000">blizzard<nouns>
-			<translations>
-				<translation catagory="weather" gender="f">tempesta de neu</translation>
+        <Entry frequency="600000000">blitz<nouns>
+                            <translations><date>0112</date>
+				<translation gender="f">ofensiva</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="17000000">blitzkrieg<nouns>
+                            <translations><date>1108</date>
+				<translation gender="f">guerra llampec</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="454000000">blizzard<nouns>
+			<translations><date>0112</date>
+                            <grouptranslation catagory="weather">
+                            <translation gender="f">tempesta de neu i vent</translation>
+                            <translation gender="m">torb</translation>
+                            </grouptranslation>
+                            <translation gender="f">[fig.] miríada</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6339,6 +6539,15 @@
 				<translation>inflat</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="138000000">blob<nouns>
+                            <translations><date>0112</date>
+                            <grouptranslation>
+				<translation gender="f">gota</translation>
+                                <translation gender="m">grumoll</translation>
+                                </grouptranslation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="445000000">block<verbs>
                             <translations><date>0410</date>
@@ -6359,8 +6568,8 @@
                             <translation gender="m">bloc (de cases)</translation>
                             <translation gender="f">illa</translation>
                         </grouptranslation>
-                        <translation gender="m">obstacle</translation>
-                        <translation gender="m">blocatge / bloqueig</translation>
+                        <translation gender="m">obstacle / blocatge / bloqueig</translation>
+                        <translation sourceplural="the block" gender="m">piló<engexamp>The condemned man already had his head on the block.</engexamp><catexamp>El condemnat ja tenia el cap sobre el piló.</catexamp></translation>
                         <translation sourceplural="the blocks" catagory="sports-event-athletics" gender="mpl">blocs de sortida</translation>
                     </translations>
                 </nouns>
@@ -6369,6 +6578,11 @@
                         <translation gender="mf">estampador</translation>
                     </translations>
                 </expressions>
+                <expressions>butcher's block
+                <translations>
+                    <translation gender="m">piló / capolador</translation>
+                    </translations>
+                    </expressions>
                 <expressions>have been round the block (a few times)
                     <translations>
                         <translation>tenir molta experiència</translation>
@@ -6403,9 +6617,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="2500000">blockbuster<nouns>
-                            <translations><date>1108</date>
-				<translation gender="m">gran èxit (de taquilla, de vendes)</translation>
+        <Entry frequency="203000000">blockbuster<nouns>
+                            <translations><date>0112</date>
+				<translation register="colloquial" gender="m">[book, movie, program..] gran èxit (de taquilla, de vendes)</translation>
+                                <translation register="colloquial" gender="f">[movie] pel·lícula taquillera / superproducció</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6414,6 +6629,13 @@
 				<translation register="dated" gender="mf">enze / idiota</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="20400000">blocky<adjectives>
+			<translations><date>0112</date>
+				<translation>[chunky] voluminós</translation>
+                                <translation>[image] pixelat</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="4130000000">blog<nouns>
 			<translations><date>1107</date>
@@ -6509,6 +6731,11 @@
                         </translation>
                     </translations>
                 </expressions>
+                <expressions>blood group (or type)
+                    <translations>
+                        <translation catagory="medical" gender="m">grup sanguini</translation>
+                        </translations>
+                </expressions>
                 <expressions>blood transfusion
                     <translations>
                         <translation gender="f">transfusió de sang</translation>
@@ -6527,23 +6754,42 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="58800000">bloodline<nouns>
+			<translations><date>0112</date>
+				<translation gender="m">llinatge</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="23000000">bloodshed<nouns>
+			<translations><date>0112</date>
+				<translation gender="m">vessament de sang</translation>
+			</translations>
+		</nouns>
+	</Entry>
          <Entry frequency="1790000">bloodstained<adjectives>
 			<translations><date>1208</date>
 				<translation>tacat de sang / ensagnat / ensangonat</translation>
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="728000">bloodsucker<nouns>
-			<translations>
-				<translation gender="f">sangonera</translation>
+        <Entry frequency="6260000">bloodstone<nouns>
+			<translations><date>0112</date>
+				<translation gender="m">heliotropi<synonyms>heliotrope</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="3550000">bloody<adjectives>
-                <translations><date>1208</date>
-                    <translation>ensagnat / ensangonat<engnote>'Ensagnat' and 'ensangonat' mean 'bloody' in the sense 'covered in blood'.</engnote></translation>
-                    <translation register="slang">maleït</translation>
-                    <translation>cruent<engnote>'Cruent' means 'bloody' in the sense 'involving the spilling of blood' (a bloody battle, a bloody sacrifice).</engnote></translation>
+<Entry frequency="8360000">bloodsucker<nouns>
+			<translations><date>0112</date>
+                            <translation catagory="animal">animal (o insecte) hematòfag<catnote>Animal (o insecte) que xucla sang.</catnote></translation>
+                                <translation gender="mf">sangonera / escanyapobres</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="323000000">bloody<adjectives>
+                <translations><date>0112</date>
+                    <translation>[covered in blood] ensagnat / ensangonat</translation>
+                    <translation>[involving bloodshed] cruent<engexamp>A bloody battle</engexamp><catexamp>Una batalla cruenta</catexamp></translation>
+                    <translation local="gb" register="slang">maleït</translation>
                 </translations>
             </adjectives>
             <verbs ie="true">
@@ -6561,6 +6807,12 @@
                 <translations>
                 <translation>florir</translation></translations></verbs>
 	</Entry>
+        <Entry frequency="14300000">bloomers<nouns>
+			<translations><date>0112</date>
+				<translation gender="mpl">bombatxos</translation>
+			</translations>
+		</nouns>
+                </Entry>
 <Entry frequency="3520000">blossom<nouns>
 			<translations>
 				<translation gender="f">flor</translation>
@@ -6575,9 +6827,31 @@
                     </translations>
                 </phrasalverbs>
             </Entry>
+            <Entry frequency="97100000">blot<nouns>
+			<translations><date>0112</date>
+                        <grouptranslation>
+				<translation gender="f">taca (esp. de tinta)</translation>
+                                <translation gender="m">esborrall</translation>
+                                </grouptranslation>
+                                <translation gender="f">[~ on something] taca</translation>
+			</translations>
+		</nouns>
+                <verbs double="true">
+                    <translations>
+                        <translation>[~ something] esborrallar</translation>
+                        <translation>[~ something (up)] assecar</translation>
+                        </translations>
+                        </verbs>
+                        <phrasalverbs>blot out
+                            <translations>
+                                <translation transitive="true">tapar / ocultar</translation>
+                                <translation transitive="true">esborrar</translation>
+                                </translations>
+                        </phrasalverbs>
+                </Entry>
 <Entry frequency="1100000">blouse<nouns>
 			<translations>
-				<translation gender="f">brusa</translation>
+				<translation catagory="clothes" gender="f">brusa</translation>
 			</translations>
 		</nouns>
                 </Entry>
