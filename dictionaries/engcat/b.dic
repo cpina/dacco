@@ -6785,6 +6785,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="9250000">bloodthirsty<adjectives>
+			<translations><date>0112</date>
+				<translation>sanguinari</translation>
+			</translations>
+		</adjectives>
+                </Entry>
         <Entry frequency="323000000">bloody<adjectives>
                 <translations><date>0112</date>
                     <translation>[covered in blood] ensagnat / ensangonat</translation>
@@ -6848,27 +6854,50 @@
                                 <translation transitive="true">esborrar</translation>
                                 </translations>
                         </phrasalverbs>
+                        <expressions>to be a blot on the landscape
+                        <translations>
+                            <translation>enlletgir el paisatge / fer (tornar) lleig el paisatge</translation>
+                            </translations>
+                            </expressions>
+                            <expressions>to blot your copybook
+                            <translations>
+                                <translation register="dated">tacar la seva reputació</translation>
+                                </translations>
+                                </expressions>
                 </Entry>
 <Entry frequency="1100000">blouse<nouns>
-			<translations>
+			<translations><date>0112</date>
 				<translation catagory="clothes" gender="f">brusa</translation>
 			</translations>
 		</nouns>
+                <expressions>big girl's blouse
+                <translations>
+                    <translation local="gb" register="colloquial" gender="m">covard</translation>
+                    </translations>
+                    </expressions>
                 </Entry>
 <Entry frequency="48600000">blow<nouns>
-                        <translations>
+                        <translations><date>0112</date>
                             <translation gender="m">cop</translation>
+                            <translation gender="f">patacada</translation>
                         </translations>
                     </nouns>
                     <verbs>
                         <past>blew</past>
                         <participle>blown</participle>
                         <translations>
-                            <translation disambiguate="weather">bufar<engnote>'Bufar' means 'to blow' as in 'the wind blows'.</engnote>
-                            </translation>
-                            <translation>esclatar<engnote>'Esclatar' means 'to blow' as in 'explode' ('Watch out, she's going to blow!').</engnote>
-                                <synonyms>explode</synonyms>
-                            </translation>
+                            <translation catagory="weather" intransitive="true">[wind] bufar</translation>
+                            <translation transitive="true">[wind] fer volar</translation>
+                            <translation transitive="true">[instrument] tocar</translation>
+                            <translation transitive="true">[whistle] fer sonar</translation>
+                            <translation transitive="true">[somebody's nose] mocar</translation>
+                            <translation transitive="true">[your own nose] mocar-se</translation>
+                            <translation transitive="true">[kiss] enviar</translation>
+                            <translation transitive="true">[fuse, bulb] fondre</translation>
+                            <translation intransitive="true">[fuse, bulb] fondre's</translation>
+                            <translation transitive="true">[tyre] rebentar</translation>
+                            <translation intransitive="true">[tyre] rebentar-se</translation>
+                            <translation register="colloquial" transitive="true">[an opportunity] malgastar</translation>
                         </translations>
                     </verbs>
                     <phrasalverbs>blow away
@@ -6916,16 +6945,26 @@
                         <translations>
                             <translation transitive="true">inflar / omplir d'aire<synonyms>inflate</synonyms></translation>
                             <translation transitive="true">exagerar l'importància de</translation>
-                            <translation intransitive="true">fer esclatar</translation>
+                            <translation transitive="true">fer esclatar</translation>
                             <translation transitive="true">ampliar (una foto, un cartell...)</translation>
-                            <translation transitive="true">esclatar / fer explosió</translation>
+                            <translation intransitive="true">esclatar / fer explosió</translation>
                             <translation intransitive="true">enfuriasmar-se (perdre els estreps)</translation>
                         </translations>
                     </phrasalverbs>
+                    <expressions>to blow your top (or a gasket)
+                    <translations>
+                        <translation>perdre's els estreps</translation>
+                        </translations>
+                        </expressions>
+                    <expressions>to strike a blow for (someone or something)
+                        <translations>
+                            <translation>defensar (algú o alguna cosa) / donar la cara per (algú)</translation>
+                            </translations>
+                    </expressions>
                 </Entry>
                     <Entry frequency="14100000">blower<nouns>
 			<translations><date>0709</date>
-                        <translation gender="m">bufador</translation>
+                        <translation gender="m">bufador<engexamp>Leaf blower</engexamp><catexamp>Bufador de fulles</catexamp></translation>
 				<translation catagory="telephone" local="gb" sourceplural="the blower" register="dated, colloquial" gender="m">telèfon</translation>
 			</translations>
 		</nouns>
@@ -6952,6 +6991,12 @@
 		</nouns>
 
 	</Entry>
+         <Entry frequency="590000">blowlamp<nouns>
+                            <translations><date>0112</date>
+				<translation local="gb" gender="m">bufador<otherlocal>blowtorch</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
          <Entry frequency="1290000">blowpipe<nouns>
 
                             <translations><date>0410</date>
@@ -6962,6 +7007,12 @@
 
 		</nouns>
 
+	</Entry>
+         <Entry frequency="7410000">blowtorch<nouns>
+                            <translations><date>0112</date>
+				<translation local="us" gender="m">bufador<otherlocal>blowlamp</otherlocal></translation>
+			</translations>
+		</nouns>
 	</Entry>
                 <Entry frequency="1330000">blubber<nouns>
 			<translations><date>0908</date>
@@ -6977,6 +7028,7 @@
             <Entry frequency="846000">bludgeon<verbs>
                             <translations><date>0609</date>
 				<translation transitive="true">colpejar amb una porra / bastonejar / garrotejar</translation>
+                                <translation transitive="true">[~ somebody into] forçar (algú) a</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -7012,7 +7064,7 @@
             </expressions>
             <expressions>out of the blue
                 <translations>
-                    <translation>inesperadament</translation>
+                    <translation>inesperadament / d'improvís / sense més ni més</translation>
                 </translations>
             </expressions>
         </Entry>
@@ -7053,13 +7105,31 @@
                 </expressions>
                 <expressions>blue-collar worker
                     <translations>
-                        <translation catagory="work" gender="mf">treballador de fàbrica</translation>
+                        <translation catagory="work" gender="mf">obrer</translation>
                     </translations>
                 </expressions>
 	</Entry>
+        <Entry frequency="1340000">blue-eyed<adjectives>
+			<translations><date>0112</date>
+				<translation>d'ulls blaus</translation>
+			</translations>
+		</adjectives>
+                <expressions>blue-eyed boy
+                <translations>
+                    <grouptranslation register="colloquial" local="gb">
+                    <translation gender="f">nina dels ulls</translation>
+                    <translation gender="m">predilecte</translation>
+                    </grouptranslation>
+                    </translations>
+                    </expressions>
+	</Entry>
 <Entry frequency="1340000">blueprint<nouns>
-			<translations>
+			<translations><date>0112</date>
 				<translation gender="m">avantprojecte</translation>
+                                <grouptranslation>
+                                <translation gender="f">matriu / plantilla</translation>
+                                <translation gender="m">patró</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7076,11 +7146,37 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="285000000">bluff<nouns>
+			<translations><date>0112</date>
+				<translation gender="m">cingle / ribàs</translation>
+                                <grouptranslation>
+                                <translation gender="m">bluf / envit en fals</translation>
+                                <translation gender="f">catxa</translation>
+                                </grouptranslation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">enganyar</translation>
+                        </translations>
+                        </verbs>
+	</Entry>
 <Entry frequency="4070000">bluish<adjectives>
 			<translations>
 				<translation catagory="colour">blavós / blavenc</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="172000000">blunder<nouns>
+			<translations><date>0112</date>
+				<translation gender="f">pífia / espifiada</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation intransitive="true">espifiar-la / ficar la pota</translation>
+                        </translations>
+                        </verbs>
 	</Entry>
           <Entry frequency="251000">blunderbuss<nouns>
                   <translations><date>0908</date>
@@ -7089,10 +7185,22 @@
     </nouns>
   </Entry>
 <Entry frequency="17500000">blunt<adjectives>
-			<translations>
-				<translation>brusc / directe</translation>
+			<translations><date>0112</date>
+				<translation>[very direct] brusc / directe</translation>
+                                <translation>esmussat / despuntat<engexamp>A blunt instrument</engexamp><catexamp>Un instrument contundent</catexamp></translation>
 			</translations>
 		</adjectives>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">esmussar / despuntar</translation>
+                        <translation transitive="true">[weaken] afeblir / debilitar</translation>
+                    </translations>
+                </verbs>
+                <expressions>to be blunt
+                <translations>
+                    <translation>no tenir pèls a la llengua / dir les coses clares</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="17000000">blur<nouns>
 			<translations>
@@ -7101,17 +7209,23 @@
 		</nouns>
                 <verbs double="true">
                 <translations>
-                <translation>desdibuixar / difuminar</translation></translations></verbs>
+                <translation>desdibuixar / difuminar / enterbolir</translation></translations></verbs>
 	</Entry>
-<Entry frequency="13600000">blurred<adjectives>
-                            <translations><date>1208</date>
-				<translation>borrós / difuminat / desdibuixat<synonyms>blurry</synonyms></translation>
+        <Entry frequency="72000000">blurb<nouns>
+                            <translations><date>0112</date>
+				<translation gender="f">propaganda / nota publicitària</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="67100000">blurred<adjectives>
+                            <translations><date>0112</date>
+				<translation>borrós / difuminat / desdibuixat / imprecís<synonyms>blurry</synonyms></translation>
 			</translations>
 		</adjectives>
 	</Entry>
-        <Entry frequency="5990000">blurry<adjectives>
-                            <translations><date>1208</date>
-				<translation>borrós / difuminat / desdibuixat<synonyms>blurred</synonyms></translation>
+        <Entry frequency="46200000">blurry<adjectives>
+                            <translations><date>0112</date>
+				<translation>borrós / difuminat / desdibuixat / imprecís<synonyms>blurred</synonyms></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -7149,10 +7263,20 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="10000">BO<engacro>Body Odor (Am.), Body Odour (Br.)</engacro>
+<Entry frequency="6800000">BO<engacro>Body Odor (Am.), Body Odour (Br.)</engacro>
 		<nouns>
-			<translations>
+			<translations><date>0112</date>
+                            <grouptranslation>
 				<translation gender="f">(mala) olor corporal</translation>
+                                <translation gender="m">pudor de suat</translation>
+                                </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="558000000">boa<nouns>
+                            <translations><date>0112</date>
+				<translation catagory="animal-animal" gender="f">[snake] boa</translation>
+                                <translation gender="m">[feather boa] boà</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7224,15 +7348,28 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="2460000">boarding house<nouns>
-			<translations>
-				<translation gender="f">pensió</translation>
+<Entry frequency="11500000">boarding house<nouns>
+			<translations><date>0112</date>
+				<translation gender="f">pensió / dispesa</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="872000">boarding school<nouns>
 			<translations>
 				<translation gender="m">internat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+            <Entry frequency="40400000">boardroom<nouns>
+			<translations><date>0112</date>
+                            <translation gender="f">sala de juntes / sala de reunions</translation>
+			</translations>
+		</nouns>
+	</Entry>
+            <Entry frequency="266000000">boardwalk<nouns>
+			<translations><date>0112</date>
+                            <translation gender="f">passarel·la (de fusta)</translation>
+                            <translation gender="m">[at the beach] passeig marítim</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7253,14 +7390,33 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="28000000">boat<nouns>
-			<translations>
+<Entry frequency="2010000000">boat<nouns>
+			<translations><date>0112</date>
 				<grouptranslation><translation gender="m">vaixell / bot</translation>
 					<translation gender="f">barca</translation></grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>to be in the same boat
+                    <translations>
+                        <translation>estar en la mateixa situació</translation>
+                        </translations>
+                        </expressions>
 	</Entry>
-                       <Entry frequency="762000">boatswain<nouns>
+        
+<Entry frequency="27300000">boater<nouns>
+			<translations><date>0112</date>
+				<translation gender="m">canotier</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        
+<Entry frequency="299000">boathouse<nouns>
+			<translations><date>0112</date>
+				<translation gender="m">cobert per a barques</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="762000">boatswain<nouns>
                             <translations><date>1208</date>
 				<translation catagory="work-job, transport" gender="mf">contramestre<catnote>També s'escriu 'bosun'.</catnote></translation>
 			</translations>
@@ -7281,6 +7437,12 @@
         <Entry frequency="191000">bobby<nouns>
                             <translations><date>1208</date>
 				<translation local="gb" register="dated" gender="mf">policia<example>Jack Straw has vowed to put more &lt;b&gt;bobbies&lt;/b&gt; on the beat to fight rising crime levels.</example></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="9180000">bobby pin<nouns>
+                            <translations><date>0112</date>
+				<translation local="us" gender="f">agulla de ganxo / agulla de monyo</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7305,12 +7467,13 @@
 	</Entry>
 <Entry frequency="135000000">body<nouns>
 			<translations>
-				<translation gender="m">cos<engnote>'Cos' means 'body' in the general sense ('He's got a great body').</engnote>
-				</translation>
-				<translation gender="m">cadàver<engnote>'Cadàver' means 'body' as in 'dead body' / 'corpse'.</engnote>
-				</translation>
+				<translation gender="m">cos<engexamp>Upper body</engexamp><catexamp>Tors</catexamp></translation>
+				<translation gender="m">[corpse] cadàver</translation>
                                 <translation beforenoun="true">corporal</translation>
-                                <translation gender="f">entitat<engnote>'Entitat' means 'body' in the sense 'entity' / 'institution' (e.g. 'funding body').</engnote></translation>
+                                <grouptranslation>
+                                    <translation gender="m">col·lectiu</translation>
+                                <translation gender="f">entitat / comunitat</translation>
+                                </grouptranslation>
                                 <translation disambiguate="clothes" local="gb" gender="m">bodi<otherlocal>bodysuit</otherlocal></translation>
 			</translations>
 		</nouns>
@@ -7342,6 +7505,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+            <Entry frequency="61800000">bodybuilder<nouns>
+			<translations><date>0112</date>
+                            <translation catagory="sports" gender="mf">culturista</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="123000000">bodybuilding<nouns>
+			<translations><date>0112</date>
+                            <translation catagory="sports" gender="m">culturisme</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="856000">bodyguard<nouns>
 			<translations>
 				<translation gender="mf">guardaespatlles</translation>
@@ -7351,6 +7526,12 @@
 <Entry frequency="1250000">body mass index<nouns>
 			<translations>
 				<translation catagory="medical" gender="m">índex de massa corporal</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="120000000">body shop<nouns>
+			<translations><date>0112</date>
+                            <translation gender="m">planxista</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7381,16 +7562,14 @@
 	</Entry>
         <Entry frequency="155000">boffo<adjectives>
                             <translations><date>1108</date>
-				<translation local="us">exitós / d'èxit / (film, show) taquiller</translation>
+				<translation local="us">exitós / d'èxit / (movie, show) taquiller</translation>
 			</translations>
 		</adjectives>
 	</Entry>
 <Entry frequency="19100000">bog<nouns>
                             <translations><date>0809</date>
 				<translation gender="f">torbera</translation>
-				<translation register="slang" local="gb" gender="m">vàter<synonyms>loo (Br.) (colloq.), toilet, john (Am.) (colloq.)</synonyms>
-					<engnote>'Vàter' means 'bog' in the colloquial sense (i.e. toilet).</engnote>
-				</translation>
+				<translation register="slang" local="gb" gender="m">lavabo<synonyms>loo (Br.) (colloq.), toilet, john (Am.) (colloq.)</synonyms></translation>
 			</translations>
 		</nouns>
                 <phrasalverbs>bog down
@@ -7407,6 +7586,14 @@
                 <exclamations>bog off
                 <translations>
                 <translation register="vulgar">fot el camp!<synonyms>sod off, bugger off</synonyms></translation></translations></exclamations>
+	</Entry>
+        <Entry frequency="25100000">bogey<nouns>
+			<translations><date>0112</date>
+                            <translation local="gb" gender="m">[snot] moc (sec)<otherlocal>booger</otherlocal></translation>
+                            <translation gender="m">[bogeyman] papu</translation>
+                            <translation disambiguate="sports-event-golf" gender="m">bogey / un sobre par</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="755000">bogeyman<nouns>
 			<translations>
@@ -7462,8 +7649,9 @@
 		</nouns>
 	</Entry>
         <Entry frequency="1640000">boil<verbs>
-                <translations>
-                    <translation>bullir</translation>
+                <translations><date>0112</date>
+                    <translation transitive="true">bullir</translation>
+                    <translation intransitive="true">bullir</translation>
                 </translations>
             </verbs>
             <phrasalverbs>boil off
@@ -7476,6 +7664,21 @@
                     <translation intransitive="true">vessar-se per ebullició</translation>
                 </translations>
             </phrasalverbs>
+            <expressions>to bring to the boil
+            <translations>
+                <translation>portar a ebullició</translation>
+                </translations>
+                </expressions>
+                <expressions>to come to the boil
+                <translations>
+                    <translation>arrencar el bull</translation>
+                    </translations>
+                    </expressions>
+            <nouns>
+                <translations>
+                    <translation catagory="medical" gender="m">furóncol / floronco</translation>
+                    </translations>
+                    </nouns>
         </Entry>
 <Entry frequency="1570000">boiler<nouns>
 			<translations>
@@ -7495,19 +7698,47 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="138000000">bold<nouns>
-                            <translations><date>0709</date>
-				<translation termcat="true" gender="f">negreta<engnote>Negreta means bold as in 'this text must be in bold and italics'.</engnote>
-				</translation>
+        <Entry frequency="11300000">boisterous<adjectives>
+			<translations><date>0112</date>
+				<translation>baladrer / esbojarrat / animat / mogut</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+<Entry frequency="835000000">bold<nouns>
+                            <translations><date>0112</date>
+				<translation termcat="true" gender="f">negreta</translation>
 			</translations>
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>valent / agosarat / atrevit<synonyms>courageous, daring</synonyms>
-				</translation>
-                                <translation>audaç</translation>
+				<translation>audaç / atrevit / agosarat / valent<synonyms>courageous, daring</synonyms></translation>
+                                <translation>descarat</translation>
+                                <translation>viu / clar</translation>
 			</translations>
 		</adjectives>
+                <expressions>as bold as brass
+                <translations>
+                    <translation>desvergonyit / no tenir por de res</translation>
+                    </translations>
+                    </expressions>
+                <expressions>if I may be so bold
+                <translations>
+                    <translation>perdó per l'atreviment<catnote>Fórmula de cortesia.</catnote></translation>
+                    </translations>
+                    </expressions>
+	</Entry>
+         <Entry frequency="5410000">boldface<nouns>
+			<translations><date>0112</date>
+				<translation gender="f">negreta</translation>                               
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="148000">boldly<adverbs>
+			<translations><date>0112</date>
+				<translation>amb audàcia / audaçment</translation> 
+                                <translation>descaradament</translation>
+			</translations>
+		</adverbs>
 	</Entry>
 <Entry frequency="2070000">boldness<nouns>
 			<translations>
@@ -7586,37 +7817,100 @@
                 </translations>
                 </nouns>
 	</Entry>
-<Entry frequency="38400000">bolt<nouns>
-                            <translations><date>0808</date>
+<Entry frequency="1270000000">bolt<nouns>
+                            <translations><date>0112</date>
                                 <translation gender="m">cargol / vis / pern (tech.)</translation>
 				<translation gender="m">[door / gate] forrellat</translation>
                                 <translation gender="m">[of lightning] llampec</translation>
+                                <translation gender="m">[of fabric] rotlle</translation>
 			</translations>
 		</nouns>
-                <expressions>bolt from the blue / bolt out of the blue
+                <verbs>
                     <translations>
-                        <translation>no esperat<example>The news that my uncle had cancer came like &lt;b&gt;a bolt from the blue&lt;/b&gt; and was a tremendous shock for the family.</example></translation>
+                        <translation transitive="true">[close with a bolt] tancar amb forrellat</translation>
+                        <translation transitive="true">[fasten with a bolt] empernar</translation>
+                        <translation intransitive="true">[horse] desbocar-se</translation>
+                        <translation intransitive="true">[run away] sortir disparat / fugir</translation>
+                        <translation transitive="true">[~ (down) food] empassar-se / engolir / tragar</translation>
+                        <translation local="us" disambiguate="politics" transitive="true">abandonar (un partit polític)</translation>
+                    </translations>
+                </verbs>
+                <expressions>like a bolt from the blue (or bolt out of the blue)
+                    <translations>
+                        <translation>(caure) com una bomba<example>The news that my uncle had cancer came like &lt;b&gt;a bolt from the blue&lt;/b&gt; and was a tremendous shock for the family.</example></translation>
                     </translations>
                 </expressions>
+                <expressions>to make a bolt for it
+                <translations>
+                    <translation>sortir disparat / fugir</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="36800000">bomb<nouns>
-			<translations>
+			<translations><date>0112</date>
 				<translation gender="f">bomba</translation>
+                                <translation sourceplural="the bomb">armes nuclears</translation>
+                                <translation sourceplural="a bomb" local="gb" register="colloquial">un munt de diners</translation>
+                                <translation sourceplural="a bomb" local="us" register="colloquial">un fracàs total</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">[drop bombs on] bombardejar</translation>
+                        <translation transitive="true">[plant a bomb] posar una bomba</translation>
+                        <translation register="colloquial" intransitive="true">[movie, play..] ser un fracàs</translation>
+                        </translations>
+                        </verbs>
                 <expressions>bomb disposal expert (o officer)
                     <translations>
                         <translation catagory="work-job" gender="mf">artificier</translation>
                     </translations>
                 </expressions>
+                <expressions>bomb scare (o threat)
+                <translations>
+                    <translation gender="f">amenaça de bomba</translation>
+                    </translations>
+                    </expressions>
                 <expressions>bomb warning
                     <translations>
                         <translation gender="m">avís de bomba</translation>
                     </translations>
                 </expressions>
-                <expressions>cost a bomb
+                <expressions>atom bomb
                 <translations>
-                <translation>costar un ull de la cara / costar un ronyó<synonyms>cost an arm and a leg, cost a fortune</synonyms></translation></translations></expressions>
+                    <translation gender="f">bomba atòmica</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>car bomb
+                        <translations>
+                            <translation gender="m">cotxe bomba</translation>
+                            </translations>
+                    </expressions>
+                <expressions>to cost a bomb
+                <translations>
+                <translation>costar un ull de la cara / costar un ronyó<synonyms>cost an arm and a leg, cost a fortune</synonyms></translation>
+                </translations>
+                </expressions>
+                <expressions>hydrogen bomb
+                <translations>
+                    <translation gender="f">bomba d'hidrogen</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>letter bomb
+                        <translations>
+                            <translation gender="f">carta bomba</translation>
+                            </translations>
+                    </expressions>
+                <expressions>parcel bomb
+                <translations>
+                    <translation gender="m">paquet bomba</translation>
+                    </translations>
+                    </expressions>
+                <expressions>stink bomb
+                    <translations>
+                        <translation gender="f">bomba fètida</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="985000">bombard<verbs>
 			<translations>
@@ -7649,6 +7943,17 @@
                             <translations><date>0110</date>
 				<translation gender="m">[avió] bombarder</translation>
                                 <translation gender="mf">terrorista (que posa bombes)</translation>
+			</translations>
+		</nouns>
+                <expressions>suicide bomber
+                <translations>
+                    <translation gender="mf">terrorista suïcida</translation>
+                    </translations>
+                    </expressions>
+	</Entry>
+        <Entry frequency="16500000">bomber jacket<nouns>
+			<translations><date>0112</date>
+				<translation catagory="clothes" gender="f">caçadora (d'aviador) / jaqueta d'aviador</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7760,6 +8065,12 @@
 				<translation register="dated" gender="mf">idiota / baliga-balaga</translation>
                                 <translation disambiguate="body" register="slang" gender="f">teta<catnote>Paraula infantil.</catnote></translation>
                                 <translation disambiguate="animal-bird" gender="m">mascarell</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="16800000">booger<nouns>
+			<translations><date>0112</date>
+                            <translation local="us" register="colloquial" gender="m">moc (sec)<otherlocal>bogey</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
