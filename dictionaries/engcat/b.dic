@@ -7957,10 +7957,52 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="9">bombing<nouns>
+			<translations><date>0112</date>
+				<translation gender="m">atemptat (amb bomba)</translation>
+			</translations>
+		</nouns>
+                <expressions>bombing campaign
+                <translations>
+                    <translation gender="f">campanya d'atemptats</translation>
+                </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="23500000">bona fide<adjectives>
+			<translations><date>0112</date>
+				<translation>autèntic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="10900000">bond<nouns>
-			<translations>
-				<translation gender="m">vincle afectiu</translation>
-				<translation disambiguate="financial" gender="f">obligació</translation>
+			<translations><date>0112</date>
+                                    <translation gender="m">vincle / lligam</translation>
+                                <grouptranslation disambiguate="financial">
+                                    <translation gender="f">obligació</translation>
+                                    <translation gender="m">bo</translation>
+                                </grouptranslation>
+                                <translation local="us" gender="f">[bail] fiança</translation>
+                                    <translation sourceplural="bonds" gender="fpl">cadenes</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">enganxar</translation>
+                        <translation intransitive="true">enganxar-se</translation>
+                        <translation transitive="true">[~ with] crear (o establir) vincles (o lligams) afectius amb</translation>
+                        <translation intransitive="true">crear (o establir) vincles (o lligams) afectius</translation>
+                    </translations>
+               </verbs>               
+	</Entry>
+        <Entry frequency="1500000000">bondage<nouns>
+			<translations><date>0112</date>
+				<translation gender="f">esclavitud</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="11400000">bondholder<nouns>
+			<translations><date>0112</date>
+				<translation gender="mf">bonista / obligacionista</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7974,6 +8016,11 @@
                 <translation register="colloquial">repassar temporal i intensament un tema<example>Lawyers &lt;b&gt;bone up on&lt;/b&gt; Vioxx liability.</example><example>This book helps you to quickly identify which topics you should &lt;b&gt;bone up on&lt;/b&gt;.</example></translation>
                 </translations>
                 </phrasalverbs>
+                <expressions>to feel (something) in your bones
+                <translations>
+                    <tranaslation>tenir el pressentiment d'(una cosa)</tranaslation>
+                    </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="35000">boned<adjectives>
 			<translations>
@@ -8023,8 +8070,11 @@
 	</Entry>
 <Entry frequency="814000">bonnet<nouns>
 			<translations>
-				<translation disambiguate="transport" local="gb" gender="m">capot<otherlocal>hood</otherlocal>
-				</translation>
+				<translation disambiguate="transport" local="gb" gender="m">capó<otherlocal>hood</otherlocal></translation>
+                                <grouptranslation catagory="clothes">
+                                <translation gender="f">capota</translation>
+                                <translation gender="m">capell</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
