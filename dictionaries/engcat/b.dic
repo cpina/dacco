@@ -8097,11 +8097,23 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="30700000">bony<adjectives>
+			<translations><date>0212</date>
+				<translation>molt magre / esquelètic</translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 <Entry frequency="11500">bonzer<adjectives>
 			<translations>
 				<translation local="au">molt bo / excel·lent</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="456000000">boo<verbs>
+			<translations><date>0212</date>
+				<translation>esbroncar / escridassar</translation>
+			</translations>
+		</verbs>
 	</Entry>
 <Entry frequency="5070000">boob<nouns>
 			<translations>
@@ -8131,8 +8143,8 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>reservar<synonyms>reserve</synonyms>
-				</translation>
+				<translation>reservar / encomanar<synonyms>reserve</synonyms></translation>
+                                <translation>[police] fitxar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>book into
@@ -8140,11 +8152,21 @@
                         <translation intransitive="true">registrar en (un hotel)</translation>
                     </translations>
                 </phrasalverbs>
-                 <expressions>be booked up
+                 <expressions>to be booked up
                 <translations>
                     <translation>(hostaleria) estar ple / tenir totes les habitacons ocupades</translation>
                     <translation>estar compromès (sense cap hora o dia lliure)</translation>
             </translations>
+            </expressions>
+            <expressions>to be in (somebody's) bad books
+                <translations>
+                    <translation>ser a la llista negra d'(algú)</translation>
+                </translations>
+            </expressions>
+            <expressions>in my book
+                <translations>
+                    <translation>al meu entendre / jo trobo..., jo opino...</translation>
+                </translations>
             </expressions>
               <expressions>to throw the book at someone
 			<translations>
@@ -8220,6 +8242,19 @@
 			</translations>
 		</adjectives>
 	</Entry>
+        <Entry frequency="1870000">boom<verbs>
+			<translations><date>0212</date>
+				<translation>bramar / vociferar / parlar amb veu forta / parlar amb veu de tro</translation>
+                                <translation>expandir-se / estar en auge</translation>
+			</translations>
+		</verbs>
+                <nouns>
+                    <translations>
+                        <translation gender="m">boom</translation>
+                        <translation gender="f">expansió</translation>
+                    </translations>
+                </nouns>
+	</Entry>
 <Entry frequency="650000">boomerang<nouns>
 			<translations>
 				<translation gender="m">bumerang</translation>
@@ -8246,23 +8281,25 @@
 
 	</Entry>
          <Entry frequency="714000">boonies<nouns>
-
 			<translations><date>1008</date>
                         <grouptranslation local="us" register="slang">
                                 <translation gender="m">cul de món</translation>
                                 <translation gender="f">quinta forca</translation>
                                 </grouptranslation>
-
 			</translations>
-
 		</nouns>
-
+	</Entry>
+        <Entry frequency="31900000">boor<nouns>
+			<translations><date>0212</date>
+				<translation register="dated" gender="mf">ignorant / mal educat</translation>
+			</translations>
+		</nouns>
 	</Entry>
            <Entry frequency="100000000">boost<nouns>
-			<translations><date>0209</date>
+			<translations><date>0212</date>
                             <grouptranslation>
                                 <translation gender="f">empenta</translation>
-                                <translation gender="m">augment</translation>
+                                <translation gender="m">augment / impuls</translation>
                             </grouptranslation>
 			</translations>
 		</nouns>
@@ -8280,24 +8317,32 @@
 		</nouns>
 	</Entry>
 <Entry frequency="14100000">boot<nouns>
-			<translations>
-				<translation disambiguate="clothes" gender="f">bota<engnote>'Bota' is the kind of boot you wear on your foot.</engnote>
-				</translation>
-				<translation disambiguate="transport" local="gb" gender="m">maleter<otherlocal>trunk</otherlocal>
-					<engnote>'Maleter' is the boot of a car (Am. trunk).</engnote>
-				</translation>
-			</translations>
+                    <translations>
+                        <translation disambiguate="clothes" gender="f">bota<engnote>'Bota' is the kind of boot you wear on your foot.</engnote></translation>
+			<translation disambiguate="transport" local="gb" gender="m">maleter<otherlocal>trunk</otherlocal><engnote>'Maleter' is the boot of a car (Am. trunk).</engnote></translation>
+                    </translations>
 		</nouns>
 		<verbs>
-			<translations>
-				<translation disambiguate="computers">arrencar</translation>
-			</translations>
+                    <translations>
+                        <translation disambiguate="computers">arrencar</translation>
+                    </translations>
 		</verbs>
+                <expressions>cowboy boot
+                    <translations>
+                        <translation catagory="clothes" gender="f">bota de cowboy / bota campera</translation>
+                    </translations>
+                </expressions>                                       
                 <expressions>lick somebody's boots
-                <translations>
-                <translation>llepar el cul (a algú)</translation>
-                </translations>
+                    <translations>
+                        <translation>llepar el cul (a algú)</translation>
+                    </translations>
                 </expressions>
+	</Entry>
+        <Entry frequency="103000000">boot camp<nouns>
+			<translations><date>0212</date>
+				<translation gender="m">campament (militar) / centre d'instrucció de reclutes</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="258000">boot disk<nouns>
 			<translations>
@@ -8305,12 +8350,20 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="152000000">booth<nouns>
-			<translations>
-				<translation gender="f">cabina</translation>
-                                <translation gender="m">estand<engnote>'Estand' means a 'booth' (stand) at, for example, an exhibition.</engnote></translation>
+<Entry frequency="603000000">booth<nouns>
+			<translations><date>0212</date>
+				<translation gender="f">[telephone] cabina</translation>
+                                <translation gender="m">[radio] locutori</translation>
+                                <translation gender="m">[exhibition, fair..] estand</translation>
+                                <translation gender="m">[sales, information..] quiosc</translation>
+                                <translation gender="m">[bar, restaurant] reservat / compartiment</translation>
 			</translations>
 		</nouns>
+                <expressions>information booth
+                <translations>
+                    <translation gender="m">quiosc informatiu</translation>
+                    </translations>
+                    </expressions>
                 <expressions>phone booth
                 <translations>
                     <translation gender="f">cabina telefònica</translation>
@@ -8367,6 +8420,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="7050000">borax<nouns>
+			<translations><date>0212</date>
+				<translation gender="m">bòrax</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="428000">bordello<nouns>
 			<translations>
 				<translation gender="m">prostíbul<synonyms>brothel</synonyms></translation>
@@ -8374,18 +8433,29 @@
 		</nouns>
 	</Entry>
 <Entry frequency="34700000">border<nouns>
-			<translations>
-                            <translation gender="f">vora<engexamp>Her paintings all have black borders</engexamp><catexamp>Tots els seus quadres tenen vores negres</catexamp></translation>
-				<translation gender="f">frontera</translation>
-                                <translation beforenoun="true">fronterer<engexamp>Border controls</engexamp><catexamp>Controls fronterers</catexamp></translation>
+			<translations><date>0212</date>
+                            <translation gender="f">vora<engexamp>Her paintings all have black borders</engexamp><catexamp>Tots els seus quadres tenen vores negres</catexamp></translation>                                                           
+                            <translation gender="f">[edging strip] franja</translation>                            
+                            <translation gender="f">[esp. national] frontera</translation>
+                            <translation beforenoun="true">fronterer<engexamp>Border controls</engexamp><catexamp>Controls fronterers</catexamp><engexamp>Border dispute</engexamp><catexamp>Disputa fronterera</catexamp></translation>
+                            <translation gender="f">[between counties, towns..] partió / línia divisòria</translation>
+                            <translation gender="m">[garden] parterre</translation>
 			</translations>
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>limitar amb</translation>
+				<translation>[country, area..] fronterejar / confinar</translation>
+                                <translation>limitar / vorejar</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>border on<translations><translation intransitive="true">acostar-se a (pel que fa a una quantitat)</translation></translations></phrasalverbs></Entry>
+	<phrasalverbs>border on
+            <translations>
+                <translation intransitive="true">[come close to] acostar-se a</translation>
+                <translation intransitive="true">[country, area..] limitar amb / fronterejar amb</translation>
+                <translation intransitive="true">vorejar amb</translation>
+                </translations>
+                </phrasalverbs>
+                </Entry>
 <Entry frequency="612000">borderline<adjectives>
 			<translations>
 				<translation>just / pelat / límit / dubtós<engexamp>A borderline pass</engexamp>
@@ -8407,18 +8477,23 @@
                                 <translation>foradar / perforar</translation>
 			</translations>
 		</verbs>
-                <verbTense>
+                <nouns>
                     <translations>
-                        <translation>passat del verb 'to bear'</translation>
+                        <translation>[person] plom / pesat</translation>
+                        <translation>[thing] lata</translation>
                         </translations>
-                </verbTense>
+                        </nouns>
 	</Entry>
 <Entry frequency="5800000">bored<adjectives>
 			<translations>
-				<translation>avorrit<catnote>En anglès col·loquial es pot posar més èmfasi dient 'bored witless' (per ex: 'He thought I was interested, but in fact I was bored witless').</catnote>
-				</translation>
-			</translations>
-		</adjectives>
+				<translation>avorrit</translation>
+				</translations>
+			</adjectives>
+                <expressions>to be bored stiff (or witless or to death or to tears)
+                    <translations>
+                        <translation>morir-se d'avorriment</translation>
+                        </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2570000">boredom<nouns>
 			<translations>
@@ -8433,17 +8508,57 @@
 		</adjectives>
 	</Entry>
 <Entry frequency="34800000">born<verbs>
-			<translations>
-				<translation>néixer<engexamp>You don't know you're born!</engexamp><catexamp>No saps la sort que tens!</catexamp></translation>
+			<translations><date>0212</date>
+				<translation></translation>
 			</translations>
 		</verbs>
-	</Entry>
-<Entry frequency="93900">born-again Christian<nouns>
-			<translations>
-				<translation gender="mf">cristià 'renascut'<catnote>Un 'born-again Christian' és un cristià que, per una o altra raó, ha reafirmat el seu compromís a la seva religió després d'haver 'redescobert' la seva fe en la cristianisme.</catnote>
-				</translation>
-			</translations>
-		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>nascut<engexamp>Brazilian born</engexamp><catexamp>Brasiler de naixement / brasiler de naixença</catexamp></translation>
+                        <translation beforenoun="true">nat / natural / de mena</translation>
+                        </translations>
+                        </adjectives>
+                        <expressions>born-again ..
+                        <translations>
+                            <translation>renascut / nascut de nou</translation>
+                            <translation>convertit</translation>
+                            </translations>
+                            </expressions>
+                        <expressions>in all my born days
+                        <translations>
+                            <translation register="dated">en tota la meva vida / en ma vida</translation>
+                            </translations>
+                            </expressions>
+                        <expressions>to be born
+                        <translations>
+                            <translation>néixer</translation>
+                            </translations>
+                            </expressions>
+                            <expressions>to be born lucky
+                            <translations>
+                                <translation>néixer amb la flor al cul</translation>
+                                </translations>
+                                </expressions>
+                                <expressions>to be born of (something)
+                                <translations>
+                                    <translation>ser el fruit d'(alguna cosa)</translation>
+                                    </translations>
+                                    </expressions>
+                            <expressions>to be born to (something)
+                            <translations>
+                                <translation>estar cridat a / estar destinat a / [inheritance] tenir dret a<engexamp>Born to wealth and privilege</engexamp><catexamp>Fill(a) d'una família rica</catexamp></translation>
+                                </translations>
+                                </expressions>
+                        <expressions>to not be born yesterday
+                        <translations>
+                            <translation register="colloquial">no mamar-se el dit<engexamp>I wasn't born yesterday</engexamp><catexamp>No em mamo el dit</catexamp></translation>
+                            </translations>
+                            </expressions>
+                            <expressions>to not know you're born
+                            <translations>
+                                <translation register="colloquial">no saber la sort que tens</translation>
+                                </translations>
+                                </expressions>
 	</Entry>
 <Entry frequency="8960000">boron<nouns>
                             <translations><date>0508</date>
