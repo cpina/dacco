@@ -9307,6 +9307,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="2110000">boyf<nouns>
+			<translations><date>0212</date>
+				<translation local="gb" register="colloquial" gender="m">xicot</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="2430000">boyfriend<nouns>
 			<translations>
 				<translation gender="m">xicot</translation>
@@ -9315,16 +9321,32 @@
 	</Entry>
         <Entry frequency="3860000">boyhood<nouns>
                             <translations><date>0708</date>
-				<translation register="dated" gender="ffullform">infantesa<catnote>(d'un noi i no pas una noia).</catnote></translation>
+                            <grouptranslation register="dated">
+				<translation gender="ffullform">infantesa</translation>
+                                <translation gender="f">joventut</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="7660000">boyish<adjectives>
+			<translations><date>0212</date>
+				<translation>[of a male] juvenil / de nen / de noi</translation>
+                                <translation>[of a female] masculí / de noi</translation>
+			</translations>
+		</adjectives>
+	</Entry> 
 <Entry frequency="32600">boy racer<nouns>
 			<translations>
 				<translation register="slang">un d'aquells joves a qui els agrada conduir molt ràpid (i que generalment tenen un equip de música molt poderós instal·lat al cotxe...)</translation>
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="30800000">Boy Scout<nouns>
+			<translations><date>0212</date>
+				<translation gender="m">escolta</translation>
+			</translations>
+		</nouns>
+	</Entry> 
 <Entry frequency="4790000">bra<nouns>
 			<translations>
 				<translation catagory="clothes" gender="mpl">sostenidors</translation>
@@ -9355,14 +9377,24 @@
 		</nouns>
 	</Entry>
 <Entry frequency="9010000">bracket<nouns>
-			<translations>
-				<translation gender="m">parèntesi<synonyms>parenthesis</synonyms>
-				</translation>
+			<translations><date>0212</date>
+                        <translation gender="m">[shelf support] escaire</translation>
+                            <translation gender="f">[architectural support] cartel·la</translation>
+				<translation gender="m">parèntesi<engexamp>In brackets</engexamp><catexamp>Entre parèntesis</catexamp><synonyms>parenthesis</synonyms></translation>
+                                <translation gender="f">[range] franja</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">posar entre parèntesis</translation>
+                        <translation transitive="true">[~ (together)] equiparar</translation>
+                        </translations>
+                        </verbs>
                 <expressions>square bracket
                 <translations>
-                <translation gender="m">claudàtor</translation></translations></expressions>
+                <translation gender="m">claudàtor</translation>
+                </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1210000">brackish<adjectives>
 			<translations>
@@ -9370,12 +9402,72 @@
                             </translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="1180000">bradycardia<nouns>
-			<translations><date>0407</date>
-				<translation termcat="medical" gender="f">bradicàrdia</translation>
+<Entry frequency="2010000">bract<nouns>
+			<translations><date>0212</date>
+				<translation disambiguate="plants" gender="f">bràctea</translation>
+                            </translations>
+		</nouns>
+	</Entry>      
+        <Entry frequency="133000">bracteal<adjectives>
+			<translations><date>0212</date>
+				<translation disambiguate="plants">bracteal</translation>
+                            </translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="208000">bracted<adjectives>
+			<translations><date>0212</date>
+				<translation disambiguate="plants">bracteat</translation>
+                            </translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="26900">bracteolate<adjectives>
+			<translations><date>0212</date>
+				<translation disambiguate="plants">bracteolat</translation>
+                            </translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="296000">bracteole<nouns>
+			<translations><date>0212</date>
+				<translation disambiguate="plants" gender="f">bractèola</translation>
+                            </translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="82300">bradyarrhythmia<nouns>
+			<translations><date>0212</date>
+				<translation catagory="medical" gender="f">bradiarítmia</translation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="1180000">bradycardia<nouns>
+			<translations><date>0407</date>
+				<translation catagory="medical" gender="f">bradicàrdia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="21800">bradyesthesia<nouns>
+			<translations><date>0212</date>
+				<translation catagory="medical" gender="f">bradiestèsia</translation>
+			</translations>
+		</nouns>
+	</Entry> 
+        <Entry frequency="583000">bradykinesia<nouns>
+			<translations><date>0212</date>
+				<translation catagory="medical" gender="f">bradicinèsia</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="4310000">bradykinin<nouns>
+			<translations><date>0212</date>
+				<translation catagory="biology" gender="f">bradicinina</translation>
+			</translations>
+		</nouns>
+	</Entry> 
+         <Entry frequency="118000">bradyphrenia<nouns>
+			<translations><date>0212</date>
+				<translation catagory="medical" gender="f">bradifrènia</translation>
+			</translations>
+		</nouns>
+	</Entry> 
 <Entry frequency="708000">brag<verbs double="true">
 			<translations>
 				<translation>jactar-se / fanfarronejar</translation>
