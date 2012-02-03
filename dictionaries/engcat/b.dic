@@ -9485,15 +9485,22 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="1280000">braid<verbs><translations><translation>trenar</translation></translations></verbs><nouns>
-			<translations>
-				<translation gender="f">trena</translation>
-			</translations>
-		</nouns>
-	</Entry>
+<Entry frequency="211000000">braid<verbs>
+        <translations><date>0212</date>
+            <translation>trenar</translation>
+        </translations>
+    </verbs>
+    <nouns>
+        <translations>
+            <translation gender="f">trena</translation>
+            <translation gender="m">rivet</translation>
+	</translations>
+    </nouns>
+</Entry>
 <Entry frequency="47200000">brain<nouns>
-			<translations>
+			<translations><date>0212</date>
 				<translation catagory="body" gender="m">cervell</translation>
+                                <translation disambiguate="food" sourceplural="brains" gender="mpl">cervells</translation>
 			</translations>
 		</nouns>
                 <expressions>brain damage
@@ -9501,7 +9508,43 @@
                         <translation catagory="medical" gender="m">dany cerebral</translation>
                     </translations>
                 </expressions>
+                <expressions>brain drain
+                <translations>
+                    <translation gender="f">fugida de cervells</translation>
+                    </translations>
+                    </expressions>
+                <expressions>brain surgeon
+                <translations>
+                    <translation catagory="medical, work-job" gender="mf">neurocirurgià</translation>
+                    </translations>
+                    </expressions>
+                <expressions>brain surgery
+                <translations>
+                    <translation catagory="medical" gender="f">neurocirurgia</translation>
+                    </translations>
+                    </expressions>
+                <expressions>half a brain
+                <translations>
+                    <translation>dos dits de seny / dos dits de front<example>Anybody with &lt;b&gt;half a brain&lt;/b&gt; knows that's not true!</example></translation>
+                    </translations>
+                    </expressions>
 	</Entry>
+<Entry frequency="98900000">brainstorm<nouns>
+			<translations><date>0212</date>
+				<translation local="us" gender="ffullform">il·luminació / inspiració<otherlocal>brainwave</otherlocal></translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation intransitive="true">intercanviar idees</translation>
+                        </translations>
+                        </verbs>
+                <expressions>to have a brainstorm
+                <translations>
+                    <translation local="gb">despistar-se / quedar en blanc</translation>
+                    </translations>
+                    </expressions>
+	</Entry>        
 <Entry frequency="443000">brainstorming<nouns>
 			<translations>
 				<grouptranslation><translation gender="m">intercanvi d'idees</translation>
@@ -9515,6 +9558,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="30300000">brainwave<nouns>
+			<translations><date>0212</date>
+				<translation gender="ffullform">il·luminació / inspiració</translation>
+			</translations>
+		</nouns>
+                </Entry>
 <Entry frequency="186000">brainy<adjectives>
 			<translations>
 				<translation register="colloquial">intel·ligent<synonyms>clever, smart, intelligent</synonyms>
