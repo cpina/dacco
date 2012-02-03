@@ -8926,12 +8926,48 @@
                 </translations>
                 </expressions>
         </Entry>
-<Entry frequency="5860000">boundary<nouns>
-			<translations>
+<Entry frequency="412000000">boundary<nouns>
+			<translations><date>0212</date>
 				<translation gender="m">límit</translation>
 				<translation gender="f">frontera</translation>
 			</translations>
 		</nouns>
+                <expressions>boundary line
+                <translations>
+                    <translation gender="f">línia divisòria</translation>
+                    </translations>
+                    </expressions>
+	</Entry>
+        <Entry frequency="20500000">boundless<adjectives>
+			<translations><date>0212</date>
+				<translation>il·limitat / sense límits / infinit</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="2750000">bounteous<adjectives>
+			<translations><date>0212</date>
+				<translation register="literary">abundant / generós</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="300000000">bounty<nouns>
+			<translations><date>0212</date>
+                        <grouptranslation>
+				<translation gender="f">abundància / profusió</translation>
+                                <translation gender="m">abundor</translation>
+                                </grouptranslation>
+                                <grouptranslation>
+                                    <translation gender="f">generositat</translation>
+                                    <translation gender="m">do<engnote>(Of nature)</engnote><catnote>(De la natura)</catnote></translation>
+                                    </grouptranslation>
+                                <translation gender="f">recompensa</translation>
+			</translations>
+		</nouns>
+                <expressions>bounty hunter
+                <translations>
+                    <translation gender="mf">caça-recompenses</translation>
+                    </translations>
+                    </expressions>
 	</Entry>
 <Entry frequency="825000">bourgeois<adjectives>
 			<translations>
@@ -9024,6 +9060,7 @@
 <Entry frequency="8830000">bowl<nouns>
 			<translations>
 				<translation gender="m">bol</translation>
+                                <translation gender="f">[toilet] tassa (del vàter)</translation>
                                 <translation sourceplural="bowls" catagory="sports-event" gender="fpl">botxes</translation>
 			</translations>
 		</nouns>
@@ -9036,7 +9073,34 @@
                     <translation transitive="true">deixar parat</translation>
                     </translations>
                 </phrasalverbs>
+                <expressions>fruit bowl
+                    <translations>
+                        <translation gender="f">fruitera</translation>
+                    </translations>
+                </expressions>
+                <expressions>soup bowl
+                <translations>
+                    <translation gender="f">sopera</translation>
+                    </translations>
+                    </expressions>
+                <expressions>sugar bowl
+                    <translations>
+                        <translation gender="m">sucrer</translation>
+                    </translations>
+                </expressions>
             </Entry>
+<Entry frequency="80200000">bowler<nouns>
+        <translations><date>0212</date>
+            <translation disambiguate="sports" gender="mf">llançador</translation>
+            <translation disambiguate="clothes" gender="m">barret fort / bolet</translation>
+	</translations>
+    </nouns>
+    <expressions>bowler hat
+        <translations>
+            <translation catagory="clothes" gender="m">barret fort / bolet</translation>
+        </translations>
+    </expressions>
+</Entry>            
 <Entry frequency="461000">bow tie<nouns>
 			<translations>
                         <grouptranslation catagory="clothes"><translation gender="f">corbata de llacet</translation>
@@ -9046,25 +9110,153 @@
 	</Entry>
 <Entry frequency="163000000">box<nouns>
 			<translations>
-				<translation gender="f">caixa</translation>
+				<translation gender="f">caixa<engexamp>Cardboard box</engexamp><catexamp>Caixa de cartró</catexamp></translation>
 				<translation gender="f">casella<engnote>'Casella' means 'box' in the sense 'gap in a form which you have to fill in'.</engnote></translation>
 				<translation gender="f">llotja<engnote>'Llotja' means 'box' in the sense 'separated seating area' (e.g. 'a box in the theatre' / 'a box at a football match').</engnote></translation>
-                                <translation gender="f">capsa<engnote>A 'capsa' tends to be a relatively small box (e.g. pill box, box of matches).</engnote><engexamp>Box of matches</engexamp><catexamp>Capsa de llumins</catexamp></translation>
-				<translation register="slang" gender="f">televisor</translation>
+                                <translation gender="f">capsa<engnote>A 'capsa' tends to be a relatively small box (e.g. pill box, jewelry box).</engnote><engexamp>Box of matches</engexamp><catexamp>Capsa de llumins</catexamp></translation>
+                                <translation gender="m">estoig</translation>
+                                <translation gender="f">cabina<engexamp>Phone box</engexamp><catexamp>Cabina de telèfon</catexamp></translation>
+                                <translation disambiguate="sports" local="gb" gender="f">conquilla</translation>
+				<translation local="gb" register="slang" sourceplural="the box" gender="f">tele<example>Is there anything worth watching on &lt;b&gt;the box&lt;/b&gt; tonight?</example></translation>
+                                <translation sourceplural="the box" catagory="sports-event-icehockey" gender="f">[ice hockey] banqueta d'expulsats</translation>
 			</translations>
 		</nouns>
 		<verbs>
 			<translations>
-				<translation catagory="sports-event-boxing">boxejar</translation>
-				<translation>embalar</translation>
+				<translation catagory="sports-event-boxing" intransitive="true">boxejar</translation>
+				<translation transitive="true">encaixar</translation>
 			</translations>
 		</verbs>
+                <phrasalverbs>box in
+                <translations>
+                    <translation disambiguate="sports" transitive="true">tancar</translation>
+                    </translations>
+                    </phrasalverbs>
                 <phrasalverbs>box up
                     <translations>
-                            <translation transitive="true">posar en caixes</translation>
+                            <translation transitive="true">posar en caixes / encaixar</translation>
                         </translations>
                     </phrasalverbs>
+                    <expressions>to box (somebody's) ears / to give (somebody) a box on the ears
+                        <translations>
+                            <translation register="dated">donar una bufetada (a algú)</translation>
+                            </translations>
+                    </expressions>
+                    <expressions>box cutter
+                    <translations>
+                        <translation gender="m">cúter</translation>
+                        </translations>
+                        </expressions>
+                        <expressions>box office
+                        <translations>
+                            <translation gender="f">taquilla</translation>
+                            </translations>
+                            </expressions>
+                            <expressions>box spring
+                            <translations>
+                                <translation gender="m">somier</translation>
+                                </translations>
+                                </expressions>
+                                <expressions>box turtle
+                                <translations>
+                                    <translation catagory="animal-animal" gender="f">tortuga de caixa</translation>
+                                    </translations>
+                                    </expressions>
+                    <expressions>ballot box
+                    <translations>
+                        <translation catagory="politics" gender="f">urna</translation>
+                        <translation catagory="politics" sourceplural="the ballot box">les urnes</translation>
+                        </translations>
+                        </expressions>
+                    <expressions>black box
+                    <translations>
+                        <translation gender="f">caixa negra</translation>
+                        </translations>
+                        </expressions>
+                        <expressions>Christmas box
+                        <translations>
+                            <translation gender="fpl">estrenes</translation>
+                            </translations>
+                            </expressions>
+                        <expressions>collection box
+                        <translations>
+                            <translation gender="f">guardiola</translation>
+                            </translations>
+                            </expressions>
+                            <expressions>fuse box
+                            <translations>
+                                <translation gender="f">caixa de fusibles</translation>
+                                </translations>
+                                </expressions>
+                                <expressions>gear box
+                                <translations>
+                                    <translation catagory="transport" gender="f">caixa de canvis</translation>
+                                    </translations>
+                                    </expressions>
+                                    <expressions>gift box
+                                    <translations>
+                                        <translation gender="f">caixa (o capsa) de regal</translation>
+                                    </translations>
+                                    </expressions>
+                                    <expressions>glove box
+                                    <translations>
+                                        <translation catagory="transport" gender="f">guantera</translation>
+                                        </translations>
+                                        </expressions>
+                            <expressions>jewellery box
+                            <translations>
+                                <translation local="gb" gender="m">guardajoies</translation>
+                                </translations>
+                                </expressions>
+                            <expressions>jewelry box
+                                <translations>
+                                    <translation local="us" gender="m">guardajoies</translation>
+                                    </translations>
+                            </expressions>  
+                            <expressions>junction box
+                            <translations>
+                                <translation gender="f">caixa de connexió</translation>
+                                </translations>
+                                </expressions>
+                                <expressions>mail box
+                                <translations>
+                                    <translation gender="f">bústia</translation>
+                                    </translations>
+                                    </expressions>
+                            <expressions>planting box
+                            <translations>
+                                <translation catagory="sports-event-athletics" gender="m">[pole vault] caixetí</translation>
+                                </translations>
+                                </expressions>
+                                <expressions>PO box
+                                <translations>
+                                    <translation gender="m">apartat de correus</translation>
+                                    </translations>
+                                    </expressions>
+                                <expressions>press box
+                                <translations>
+                                    <translation gender="f">tribuna de premsa</translation>
+                                    </translations>
+                                    </expressions>
+                            <expressions>service box
+                            <translations>
+                                <translation catagory="sports-event-tennis" gender="m">[tennis] quadre de servei</translation>
+                                </translations>
+                                </expressions>
                 </Entry>
+                <Entry frequency="577000000">boxer<nouns>
+			<translations><date>0212</date>
+                            <translation disambigutate="sports-event-boxing" gender="mf">boxejador / boxador</translation>
+                            <translation disambiguate="animal-animal" gender="m">bòxer</translation>
+                            <translation disambiguate="clothes" sourceplural="boxers">calçotets de camal curt / calçotets curts amb camals</translation>
+			</translations>
+		</nouns>
+                <expressions>boxer shorts
+                    <translations>
+                        <translation catagory="clothes" gender="mpl">calçotets de camal curt / calçotets curts amb camals</translation>
+                        </translations>
+                        </expressions>
+	</Entry>
 <Entry frequency="9430000">boxing<nouns>
 			<translations>
 				<translation catagory="sports-event" gender="f">boxa</translation>
@@ -9088,11 +9280,21 @@
                 </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="49900000">boy<nouns>
-			<translations>
+<Entry frequency="4400000000">boy<nouns>
+			<translations><date>0212</date>
 				<translation gender="m">noi / xaval (dial.) / xiquet (dial.)</translation>
 			</translations>
 		</nouns>
+                <expressions>oh boy!
+                <translations>
+                    <translation>mare meva! / vaja! / què et sembla!</translation>
+                    </translations>
+                    </expressions>
+                    <expressions>that's the boy!
+                    <translations>
+                        <translation>sí senyor! / així m'agrada!</translation>
+                        </translations>
+                        </expressions>
 	</Entry>
 <Entry frequency="5740000">boycott<verbs>
 			<translations>
@@ -9129,17 +9331,26 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="4790000">brace<nouns>
+			<translations><date>0212</date>
+                            <translation gender="m">[medical support] aparell d'ortopèdia</translation>
+                            <translation sourceplural="braces" catagory="medical" gender="m">aparell d'ortodòncia</translation>
+                            <translation sourceplural="braces" catagory="clothes" local="gb" gender="mpl">tirants / elàstics</translation>
+                            <translation gender="m">[pair] par<catnote>Forma plural = 'brace' (1 brace, 2 brace..)</catnote></translation>
+                            <translation gender="m">[tool] filaberquí</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">apuntalar / estalonar / reforçar</translation>
+                        <translation intransitive="true">[~ yourself (for)] fer el cor fort / preparar-se / enfrontar-se / mentalitzar-se</translation>
+                        </translations>
+                        </verbs>
+	</Entry>        
 <Entry frequency="2620000">bracelet<nouns>
 			<translations>
 				<translation gender="m">braçalet</translation>
                                 <translation gender="f">polsera</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="1060000">braces<nouns>
-			<translations>
-				<translation gender="mpl">ferros<engnote>'Ferros' means the 'braces' you wear on your teeth.</engnote></translation>
-                                <translation disambiguate="clothes" local="gb" gender="mpl">tirants<otherlocal>suspenders</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry>
