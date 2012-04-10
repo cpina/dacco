@@ -3573,7 +3573,20 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="155000">scruffy<adjectives>
+	</Entry>
+         <Entry frequency="221000000">scrub<verbs double="true">
+			<translations><date>0412</date>
+				<translation transitive="true">fregar</translation>
+			</translations>
+		</verbs>
+                <nouns>
+                    <translations>
+                        <translation gender="f">fregada</translation>
+                        <translation gender="m">matoll / matollar</translation>
+                    </translations>
+                </nouns>
+	</Entry>
+        <Entry frequency="155000">scruffy<adjectives>
 
 			<translations>
 
@@ -7387,46 +7400,27 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="16700000">shell<nouns>
-
-                            <translations><date>1007</date>
-
-				<translation gender="f">closca / conquilla<engnote>'Closca' and 'conquilla' mean 'shell' as in 'sea shell'.</engnote>
-
-				</translation>
-
-                                <translation gender="f">clofolla<engnote>'Clofolla' means 'shell' as in 'nut shell'.</engnote></translation>
-
-				<translation disambiguate="computers" termcat="true" gender="m">intèrpret d'ordres<engnote>'Intèrpret d'ordres' means 'shell' in the computer sense (i.e. command line).</engnote>
-
-				</translation>
-
+	</Entry><Entry frequency="1860000000">shell<nouns>
+                            <translations><date>0412</date>
+				<translation gender="f">[sea] closca / conquilla</translation>
+                                <translation gender="f">[nut] clofolla</translation>
+                                <translation gender="m">[explosives] cartutx</translation>
+				<translation disambiguate="computers" termcat="true" gender="m">intèrpret d'ordres<engnote>'Intèrpret d'ordres' means 'shell' in the computer sense (i.e. command line).</engnote></translation>
                                 <translation disambiguate="sports-event-snowboarding" termcat="true" gender="f">carcassa</translation>
-
 			</translations>
-
 		</nouns>
-
                 <verbs>
-
                 <translations>
-
-                <translation transitive="true" catagory="food">desgranar</translation></translations></verbs>
-
+                <translation transitive="true" catagory="food">[nut] esclofollar / esquitllar</translation>
+                <translation transitive="true" catagory="food">[peas] desgranar</translation>
+                <translation transitive="true">[fire shells] bombardejar</translation>
+                </translations>
+                </verbs>
 		<phrasalverbs>shell out
-
 			<translations>
-
-				<translation register="colloquial">gastar (diners), sobretot sense voler<example>The government has already &lt;b&gt;shelled out&lt;/b&gt; more than $250 million for environmental projects in Brazil.</example>
-
-					<example>Bill &lt;b&gt;shelled out&lt;/b&gt; over $800 for his daughter's prom dress.</example>
-
-				</translation>
-
+				<translation register="colloquial">gastar (diners), sobretot sense voler<example>The government has already &lt;b&gt;shelled out&lt;/b&gt; more than $250 million for environmental projects in Brazil.</example><example>Bill &lt;b&gt;shelled out&lt;/b&gt; over $800 for his daughter's prom dress.</example></translation>
 			</translations>
-
 		</phrasalverbs>
-
 	</Entry><Entry frequency="6610000">shellfish<nouns>
 
 			<translations>
@@ -10714,16 +10708,16 @@
 
 		</adjectives>
 
-	</Entry><Entry frequency="3050000">skeleton<nouns>
-
-			<translations>
-
-				<translation catagory="body" gender="m">esquelet</translation>
-
+	</Entry><Entry frequency="243000000">skeleton<nouns>
+			<translations><date>0312</date>
+				<translation disambiguate="body" gender="m">esquelet</translation>
 			</translations>
-
 		</nouns>
-
+                <expressions>skeleton sledding
+                <translations>
+                    <translation catagory="sports-event" gender="m">tobogan</translation>
+                    </translations>
+                    </expressions>
 	</Entry><Entry frequency="1340000">skeptic<nouns>
 
 			<translations>
@@ -11887,47 +11881,37 @@
                     </translations>
                 </phrasalverbs>
             </Entry>
-            <Entry frequency="21900000">slide<verbs>
-
+            <Entry frequency="1650000000">slide<verbs>
 			<past>slid</past>
-
 			<participle>slid</participle>
-
-			<translations><date>1007</date>
-
+			<translations><date>0312</date>
 				<translation>relliscar<engnote>'Relliscar' can mean unintentional sliding (e.g. he slid on the icy path).</engnote></translation>
-
                                 <translation>lliscar<engnote>'Lliscar' is deliberate sliding (e.g. skaters slide over the ice).</engnote></translation>
-
 			</translations>
-
 		</verbs>
-
 		<nouns>
-
 			<translations>
-
-				<translation gender="f">diapositiva<engnote>'Diapositiva' means 'slide' as in 'slides for an OHP'.</engnote>
-
-				</translation>
-
-				<translation gender="m">tobogan<engnote>'Tobogan' means 'slide' as in the thing you find in a childrens' playground.</engnote>
-
-				</translation>
-
+				<translation gender="f">[transparency] diapositiva</translation>
+				<translation gender="m">tobogan<engexamp>Spiral slide</engexamp><catexamp>Tobogan en espiral</catexamp><engexamp>Water slide</engexamp><catexamp>Tobogan aquàtic (o d'aigua)</catexamp></translation>
+                                <translation gender="m">[hair ~] passador</translation>
+                                <grouptranslation>
+                                <translation gender="f">relliscada</translation>
                                 <translation gender="m">lliscament</translation>
-
+                                </grouptranslation>
+                                <grouptranslation>
+                                <translation gender="m">empitjorament</translation>
+                                <translation gender="f">baixa</translation>                                    
+                                </grouptranslation>
 			</translations>
-
 		</nouns>
-
-	</Entry><Entry frequency="1360000">slider<nouns>
-			<translations><date>0508</date>
+	</Entry><Entry frequency="856000000">slider<nouns>
+			<translations><date>0312</date>
                         <grouptranslation>
 				<translation gender="m">colís</translation>
                                 <translation gender="f">colissa</translation><example>A la taula d'equalització, les &lt;b&gt;colisses&lt;/b&gt; permeten ajustar els greus, gammes mitjanes i aguts al gust personal.</example>
                                 </grouptranslation>
                                 <translation disambiguate="animal-animal" local="us" gender="f">tortuga (d'aigua dolça)<otherlocal>terrapin (or turtle)</otherlocal></translation>
+                                <translation disambiguate="food" local="us" gender="f">hamburguesa</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="4400000">slideshow<nouns>
@@ -11991,14 +11975,17 @@
 		</nouns>
 
             </Entry><Entry frequency="150000000">slip<verbs double="true">
-                    <translations><date>0710</date>
-                        <translation>relliscar</translation>
-                        <translation>escapar<engexamp>A victory which slipped through our fingers</engexamp><catexamp>Un triomf que se'ns va escapar dels dits</catexamp></translation>
+                    <translations><date>0312</date>
+                        <translation intransitive="true">relliscar / lliscar / patinar</translation>
+                        <translation intransitive="true">baixar / empitjorar</translation>
+                        <translation transitive="true">escapar / alliberar-se de</translation>
+                        <translation>[~ into / on] posar-se ràpidament (una peça de vestir o unes sabates)</translation>
+                        <translation>[~ out of / off] treure's ràpidament (una peça de vestir o unes sabates)</translation>
                     </translations>
-                </verbs>
-                <phrasalverbs>slip into
+                </verbs>     
+                <phrasalverbs>slip out
                     <translations>
-                        <translation>posar-se ràpidament (una peça de vestir)</translation>
+                        <translation intransitive="true">escapar-se</translation>
                     </translations>
                 </phrasalverbs>
                 <phrasalverbs>slip up
@@ -12008,15 +11995,24 @@
                 </phrasalverbs>
                 <nouns>
                 <translations>
-                <translation gender="f">relliscada</translation>
+                <translation gender="m">[~ up] lapsus</translation>  
+                <grouptranslation>
+                    <translation gender="f">relliscada</translation>
                 <translation gender="m">lliscament</translation>
-                <translation gender="m">error</translation>
-                <translation gender="m">tros<engexamp>A slip of paper</engexamp><catexamp>Un tros de paper</catexamp></translation></translations></nouns>
+                </grouptranslation>
+                <translation disambiguate="clothes" gender="f">combinació</translation>
+                </translations>
+                </nouns>
                 <expressions>slip cover
                     <translations>
                         <translation local="us" gender="f">funda<otherlocal>loose cover</otherlocal></translation>
                     </translations>
                 </expressions>
+                <expressions>to give (somebody) the slip
+                    <translations>
+                        <translation>escapolir-se d'(algú)</translation>
+                    </translations>
+                </expressions>               
 	</Entry><Entry frequency="19000000">slipper<nouns>
 
                             <translations><date>1208</date>
