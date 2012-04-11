@@ -2897,7 +2897,7 @@
 
 			<translations><date>0108</date>
 
-				<translation>socarrar</translation>
+				<translation transitive="true">socarrar / socarrimar</translation>
 
 			</translations>
 
@@ -10040,7 +10040,7 @@
 
 			<translations><date>0108</date>
 
-				<translation>socarrar</translation>
+				<translation transitive="true">socarrar / socarrimar</translation>
 
 			</translations>
 
@@ -13624,17 +13624,18 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="21200000">snowy<adjectives>
-
-			<translations>
-
+	</Entry><Entry frequency="103000000">snowy<adjectives>
+			<translations><date>0412</date>
 				<translation catagory="weather">nevós</translation>
-
 			</translations>
-
 		</adjectives>
-
-	</Entry><Entry frequency="42300">snub-nosed<adjectives>
+                <expressions>snowy owl
+                    <translations>
+                        <translation catagory="animal-animal" gender="m">mussol nival</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="42300">snub-nosed<adjectives>
 
 			<translations>
 
