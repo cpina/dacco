@@ -8531,6 +8531,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="6280000">boric<adjectives>               
+        <translations><date>0412</date>                 
+            <translation>bòric<engexamp>Boric acid</engexamp><catexamp>Àcid bòric</catexamp></translation>                    
+        </translations>                
+    </adjectives>
+</Entry>
 <Entry frequency="14800000">boring<adjectives>
 			<translations>
 				<translation>avorrit</translation>
@@ -11993,9 +11999,9 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>sobresortir</translation>
-				<translation>estar ple de / estar farcit de</translation>
-				<translation>abultar / fer bony</translation>
+				<translation>[~ with] estar ple de / estar farcit de</translation>
+				<translation intransitive="true">abultar / fer bony</translation>
+                                <translation intransitive="true">sobresortir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -12167,24 +12173,23 @@
                 <translations>
                 <translation register="vulgar">mentir<example>How do I know you're not &lt;b&gt;bullshitting&lt;/b&gt; me?</example></translation></translations></verbs>
 	</Entry>
-<Entry frequency="3140000">bully<verbs ie="true">
-			<translations>
-				<translation>intimidar<example>Life can be really unpleasant for children who are being &lt;b&gt;bullied&lt;/b&gt; at school</example>
-					<example>The defendant claims the police &lt;b&gt;bullied&lt;/b&gt; him into signing a false confession</example>
-				</translation>
-			</translations>
+<Entry frequency="315000000">bully<verbs ie="true">
+			<translations><date>0412</date>
+				<translation>fer la vida impossible / intimidar<example>Life can be a living Hell for children who are being &lt;b&gt;bullied&lt;/b&gt; at school.</example></translation>
+                                <translation>[~ somebody into something] obligar (algú a fer alguna cosa)<example>The defendant claims the police &lt;b&gt;bullied&lt;/b&gt; him into signing a false confession.</example></translation>
+				</translations>
 		</verbs>
 		<nouns>
 			<translations>
-				<translation>una persona que intimida als altres<catnote>Aquesta paraula s'utilitza sobretot per a referir-se als nens que intimiden als companys de classe a l'escola, però també s'utilitza en un sentit més general.</catnote>
-				</translation>
+				<translation gender="mf">assetjador / maltractador (un estudiant sobre companys seus) / (col·loq.) abusananos</translation>
+                                <translation gender="mf">(fig.) tirà / dèspota</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="2330000">bullying<nouns>
                             <translations><date>0708</date>
 				<grouptranslation><translation gender="ffullform">intimidació</translation>
-					<translation gender="m">assetjament (escolar)</translation></grouptranslation>
+					<translation gender="m">assetjament</translation></grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -12194,11 +12199,11 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="4620000">bum<nouns>
-			<translations>
+<Entry frequency="250000000">bum<nouns>
+			<translations><date>0412</date>
 				<translation disambiguate="body" register="colloquial" local="gb" gender="m">cul<otherlocal>ass</otherlocal>
 				</translation>
-                                <translation register="colloquial" gender="mf">vagabund</translation>
+                                <translation register="colloquial" gender="mf">vagabund / indigent</translation>
 			</translations>
 		</nouns>
                 <verbs double="true">
@@ -12218,6 +12223,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="7420000">bumbling<adjectives>
+			<translations><date>0412</date>
+				<translation>inhàbil / maldestre / pocatraça / desmanyotat</translation>
+                                <translation>inepte / incompetent / negat</translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 <Entry frequency="11200000">bump<nouns>
 			<translations>
 				<translation gender="m">cop</translation>
@@ -12233,11 +12245,22 @@
 			</translations>
 		</verbs>
 	<phrasalverbs>bump up<translations><translation transitive="true">augmentar una mica (sobretot preus)</translation></translations></phrasalverbs></Entry>
-<Entry frequency="3720000">bumper<nouns>
-			<translations>
+<Entry frequency="1980000">bump-and-grind<nouns>
+			<translations><date>0412</date>
+				<translation>contorsions de maluc (ballant)</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="509000000">bumper<nouns>
+			<translations><date>0412</date>
 				<translation gender="m">para-xocs</translation>
 			</translations>
 		</nouns>
+                <expressions>bumper sticker
+                    <translations>
+                        <translation gender="m">adhesiu (del para-xocs)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2420000">bun<nouns>
 			<translations>
@@ -12274,22 +12297,35 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="46000000">bundle<nouns>
-                            <translations><date>1208</date>
-				<translation gender="m">feix / manat</translation>
+<Entry frequency="542000000">bundle<nouns>
+                            <translations><date>0412</date>
+				<translation gender="m">feix / manat / braçat</translation>
 			</translations>
 		</nouns>
                 <phrasalverbs>bundle up
                 <translations>
-                <translation>lligar</translation>
-                <translation>abrigar-se bé</translation>
+                <translation transitive="true">[tie up] lligar</translation>
+                <translation transitive="true">[against the cold] abrigar</translation>
+                <translation intransitive="true">abrigar-se</translation>
                 </translations>
                 </phrasalverbs>
-                <expressions>be a bundle of nerves
+                <expressions>to be a bundle of nerves
                     <translations>
-                        <translation>ésser un manat de nervis<synonyms>be a bag of nerves</synonyms></translation>
+                        <translation>ésser un manat de nervis<synonyms>to be a bag of nerves</synonyms></translation>
                     </translations>
                 </expressions>
+                <expressions>to cost a bundle
+                    <translations>
+                        <translation>costar un ronyó (o un ull de la cara)</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="184000000">bungalow<nouns>
+			<translations><date>0412</date>
+                        <translation local="gb" gender="f">casa d'un sol pis</translation>
+				<translation gender="m">bungalou / torre / xalet</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="163000">bungee jump<nouns>
 			<translations>
@@ -12297,6 +12333,23 @@
                             <translation gender="m">pònting</translation><engnote>Warning: although 'pònting' is widely used, 'salt de pont' and 'salt elàstic' are the terms recommended for use by Termcat. 'Pònting' is therefore included here for information purposes only.</engnote></grouptranslation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="20000000">bungle<verbs>
+			<translations><date>0412</date>
+				<translation>sortir-se'n malament (d'una cosa)</translation>
+			</translations>
+		</verbs>
+                <nouns>
+                    <translations>
+                        <translation>cosa mal feta</translation>
+                    </translations>
+                </nouns>
+	</Entry>
+        <Entry frequency="2940000">bungled<adjectives>
+			<translations><date>0412</date>
+				<translation>malreeixit<engexamp>A bungled job</engexamp><catexamp>Un nyap</catexamp></translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="324000">bungling<adjectives>
 			<translations>
@@ -12336,22 +12389,37 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="1190000">buoy<nouns>
-			<translations><date>0207</date>
-				<translation gender="f">boia</translation>
-			</translations>
-		</nouns>
-	<phrasalverbs>buoy up<translations><translation transitive="true">animar (algú), encoratjar-lo</translation></translations></phrasalverbs></Entry>
-        <Entry frequency="4410000">buoyancy<nouns>
-                            <translations><date>0410</date>
-				<translation>flotabilitat</translation>
+        <Entry frequency="1390000">Bunsen burner<nouns>
+			<translations><date>0412</date>
+				<translation catagory="chemistry" gender="m">cremador Bunsen / bec de Bunsen</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="210000">buoyant<adjectives>
-			<translations>
+<Entry frequency="54100000">buoy<nouns>
+			<translations><date>0412</date>
+				<translation gender="f">boia</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">[~ (up)] animar / encoratjar / reconfortar</translation>
+                        <translation transitive="true">[~ (up)] mantenir surant (o flotant)</translation>
+                    </translations>
+                </verbs>
+	</Entry>
+        <Entry frequency="13800000">buoyancy<nouns>
+                            <translations><date>0412</date>
+				<translation gender="f">flotabilitat</translation>
+                                <translation gender="m">optimisme</translation>
+                                <translation disambiguate="financial" gender="f">tendència alcista</translation>
+			</translations>
+		</nouns>               
+	</Entry>
+<Entry frequency="13800000">buoyant<adjectives>
+			<translations><date>0412</date>
 				<translation>optimista</translation>
 				<translation>flotant</translation>
+                                <translation disambiguate="financial">alcista</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -12363,16 +12431,25 @@
 		</nouns>
 	</Entry>
 <Entry frequency="96500000">burden<nouns>
-			<translations>
+			<translations><date>0412</date>
+                            <grouptranslation>
 				<translation gender="f">càrrega</translation>
+                                <translation gender="m">pes</translation></grouptranslation>
+                                <translation gender="f">càrrega / responsabilitat</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">carregar</translation>
+                    </translations>
+                </verbs>
 	</Entry>
-<Entry frequency="17900000">bureau<nouns>
-			<translations>
+<Entry frequency="933000000">bureau<nouns>
+			<translations><date>0412</date>
 				<translation gender="f">oficina</translation>
-                                <translation gender="m">escriptori</translation>
-                                <translation local="us" gender="m">bufet<otherlocal>sideboard</otherlocal></translation>
+                                <translation local="gb" gender="m">escriptori</translation>
+                                <translation local="us" gender="f">calaixera</translation>
+                                <translation local="us" gender="m">departament (governamental)</translation>                               
 			</translations>
 		</nouns>
 	</Entry>
@@ -12394,9 +12471,9 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="1660000">burgeoning<adjectives>
-			<translations><date>0707</date>
-				<translation>que creix desorbitadament<example>China's &lt;b&gt;burgeoning&lt;/b&gt; tourism industry needs more investment and know-how.</example><example>In the late 80s he had to choose between a prestigious education and his &lt;b&gt;burgeoning&lt;/b&gt; love of house music and club culture.</example><example>According to the UN, &lt;b&gt;burgeoning&lt;/b&gt; cities face catastrophe.</example></translation>
+<Entry frequency="21300000">burgeoning<adjectives>
+			<translations><date>0412</date>
+				<translation>ascendent / puixant / creixent / (population) en augment<example>China's &lt;b&gt;burgeoning&lt;/b&gt; tourism industry needs more investment and know-how.</example><example>In the late 80s he had to choose between a prestigious education and his &lt;b&gt;burgeoning&lt;/b&gt; love of house music and club culture.</example><example>According to the UN, &lt;b&gt;burgeoning&lt;/b&gt; cities face catastrophe.</example></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -12492,20 +12569,32 @@
                     <translation register="dialectal" gender="m">(Escòcia) rierol</translation>
                 </translations>
                 </nouns>
+                <expressions>to burn to the ground
+                    <translations>
+                        <translation intransitive="true">quedar devastat pel foc / ser pastura de les flames</translation>
+                        <translation transitive="true">cremar del tot / reduir a cendra</translation>
+                    </translations>
+                </expressions>
                         <expressions>third-degree burns
                             <translations>
                                 <translation gender="fpl">cremades de tercer grau</translation>
                             </translations>
                     </expressions>
                 </Entry>
-<Entry frequency="1800000">burning<adjectives>
-			<translations>
-				<translation>ardent</translation>
+<Entry frequency="654000000">burning<adjectives>
+			<translations><date>0412</date>
+                                <translation>encès / en flames</translation>
+                                <translation>ardent<engexamp>A burning desire</engexamp><catexamp>Un desig ardent</catexamp></translation>
+                                <translation>[sun] abrasador</translation>
+                                <translation>[question] candent</translation>
 			</translations>
 		</adjectives>
                 <nouns>
-                <translations>
-                <translation gender="m">cremor</translation></translations></nouns>
+                    <translations>
+                        <translation gender="f">crema</translation>
+                        <translation disambiguate="medical" gender="m">cremor</translation>
+                    </translations>
+                </nouns>
 	</Entry>
         <Entry frequency="4080000">burnish<verbs>
                 
@@ -12614,8 +12703,12 @@
                     </translations>
                 </phrasalverbs>
                 <nouns>
-                <translations>
-                <translation gender="f">ràfega</translation></translations></nouns>
+                    <translations>
+                        <translation gender="m">[of energy, activity, enthusiasm..] esclat</translation>
+                        <translation gender="f">[of gunfire] ràfega</translation>
+                        <translation gender="f">[of applause] salva</translation>
+                    </translations>
+                </nouns>
 </Entry>
 <Entry frequency="3510000">Burundi<nouns>
 			<translations>
@@ -12664,6 +12757,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1870000">bushbaby<nouns>
+			<translations><date>0412</date>
+				<translation disambiguate="animal-animal" gender="m">gàlag<plural>bushbabies</plural><synonyms>galago</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
      <Entry frequency="100000">bushed<adjectives>
                             <translations><date>0909</date>
 				<translation register="colloquial">esgotat<synonyms>exhausted, worn out, beat (col·loq.), knackered (col·loq.) (Br.), dog-tired (col·loq.)</synonyms></translation>
@@ -12678,49 +12777,72 @@
 	</Entry>
 <Entry frequency="281000000">business<nouns>
 			<translations>
-				<translation gender="m">negoci<engnote>Negoci means business in the general sense 'let's do business' / 'business is good'.</engnote>
+				<translation gender="m">negoci
 					<engexamp>The (building/hotel) business</engexamp>
 					<catexamp>El negoci (de la construcció / del sector hoteler)</catexamp>
 				</translation>
-				<grouptranslation><translation gender="m">negoci</translation>
+				<grouptranslation><translation gender="m">[company] negoci</translation>
 					<translation gender="f">empresa / companyia</translation>
-					<engnote>'Negoci', 'empresa' and 'companyia' all mean business as in a company ('he runs his own business').</engnote>
 					<synonyms>company, firm</synonyms>
 				</grouptranslation>
-				<translation register="colloquial" gender="m">assumpte<example>Why should I tell him? It's none of his &lt;b&gt;business&lt;/b&gt;!</example>
-					<example>Why can't she just keep her nose out of my &lt;b&gt;business&lt;/b&gt;?</example>
+				<translation register="colloquial" gender="m">[affair, concern] assumpte<example>Why should I tell him? It's none of his &lt;b&gt;business&lt;/b&gt;!</example>
+					<example>Why can't she just keep her nose out of my &lt;b&gt;business&lt;/b&gt;?</example><engexamp>It's none of my business</engexamp><catexamp>No n'haig de fer res / no és cosa meva / no és de la meva incumbència</catexamp><engexamp>Mind your own business!</engexamp><catexamp>Cuida't de tu 'no et fiquies on no et demanen'</catexamp>
 					<synonyms>affair</synonyms>
 				</translation>
+                                <translation beforenoun="true">empresarial</translation>
 			</translations>
 		</nouns>
-		<adjectives>
-			<translations>
-				<translation>empresarial</translation>
+                <expressions>business associate
+                    <translations>
+                        <translation gender="mf">soci comercial / company de feina</translation>
+                    </translations>
+                </expressions>
+                <expressions>business as usual
+                    <translations>
+                        <translation>no passa res<engexamp>And for him, it's business as usual</engexamp><catexamp>I ell com si res</catexamp></translation>
+                    </translations>
+                </expressions>
+		<expressions>business centre
+                    <translations>
+                        <translation gender="m">centre de negocis</translation>
+                    </translations>
+                </expressions>
+                <expressions>business hours
+                    <translations>
+                        <translation gender="m">horari laboral</translation>
+                    </translations>
+                </expressions>
+                <expressions>business model
+                    <translations>
+                        <translation gender="m">model empresarial / model econòmic</translation>
+                    </translations>
+                </expressions>
+                <expressions>business plan
+                    <translations>
+                        <translation gender="m">pla de negoci / pla d'empresa</translation>
+                    </translations>
+                </expressions>
+                <expressions>business studies
+                    <translations>
+                        <translation gender="mpl">(estudis) empresarials</translation>
+                    </translations>
+                </expressions>
+                <expressions>going out of business
+                    <translations>
+                        <translation>liquidació total / liquidació per tancament</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+<Entry frequency="19100000">businesslike<adjectives>
+			<translations><date>0412</date>
+				<translation>expeditiu</translation>
 			</translations>
 		</adjectives>
-	</Entry>
-<Entry frequency="782000">business centre<nouns>
-			<translations>
-				<translation gender="m">centre de negocis</translation>
-			</translations>
-		</nouns>
 	</Entry>
 <Entry frequency="4840000">businessman<nouns>
 			<translations>
 				<translation gender="m">empresari / home de negocis<plural>businessmen</plural>
 				</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="4800000">business plan<nouns>
-			<translations>
-				<translation gender="m">pla de negoci / pla d'empresa</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="434000">business studies<nouns>
-			<translations>
-				<translation gender="mpl">(estudis) empresarials</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -12745,20 +12867,35 @@
 	</Entry>
 <Entry frequency="4790000">bust<nouns>
 			<translations>
-				<translation gender="m">bust<engnote>'Bust' means 'bust' as in a head and shoulders sculpture.</engnote></translation>
-                                <translation disambiguate="body" gender="m">bust</translation></translations>
+                            <translation gender="m">[sculpture] bust</translation>
+                            <translation disambiguate="body" gender="m">pit</translation>
+                            <translation gender="m">desastre / fracàs</translation>
+                        </translations>
 		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation register="slang" local="gb">trencat</translation>
+                        <translation disambiguate="financial">en bancarrota</translation>
+                    </translations>
+                </adjectives>                        
                 <verbs>
-                <past>bust, busted</past>
-                <participle>bust, busted</participle>
-                <translations>
-                <translation register="slang">espatllar</translation>
-                <translation register="slang">detenir</translation>
-                </translations></verbs>
-                <expressions>to bust a gut<translations>
-                <translation register="slang">fer un esforç important</translation></translations></expressions>
-                <expressions>to go bust<translations>
-                <translation>fer bancarrota</translation></translations></expressions>
+                    <past>bust, busted</past>
+                    <participle>bust, busted</participle>
+                        <translations>
+                            <translation register="slang">espatllar</translation>
+                            <translation register="slang">detenir</translation>
+                        </translations>
+                </verbs>
+                <expressions>to bust a gut
+                    <translations>
+                        <translation register="slang">fer un esforç important</translation>
+                    </translations>
+                </expressions>
+                <expressions>to go bust
+                    <translations>
+                        <translation>fer bancarrota</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="5770000">bustle<verbs>
                         <translations><date>1208</date>               
@@ -12782,20 +12919,27 @@
 		</adjectives>
 	</Entry>
 <Entry frequency="10200000">busy<adjectives>
-			<translations>
-				<translation>ocupat<engnote>'Ocupat' means 'busy' in the sense 'I am very busy right now'.</engnote>
-				</translation>
-				<translation>animat<engnote>'Animat' means 'busy' in the sense 'The pub was very busy today'.</engnote>
-				</translation>
-			</translations>
+			<translations><date>0512</date>
+                                <translation>ocupat</translation>
+                                <translation>entretingut / distret</translation>
+				<translation>(workday) atapeït / ple</translation>
+                                <translation>[place] concorregut</translation>
+                                <translation>[route] ple d'activitat / transitat</translation>
+                        </translations>
 		</adjectives>
 	</Entry>
 <Entry frequency="278000000">but<conjunctions>
-			<translations>
+			<translations><date>0512</date>
 				<translation>però</translation>
                                 <translation>sinó<engnote>'Sinó' is only used after a negative i.e. 'not x but y', 'we didn't go to Manchester but went to Birmingham instead'.</engnote></translation>
+                                <translation>[but ...] en canvi, ...</translation>
 			</translations>
 		</conjunctions>
+                <prepositions>
+                    <translations>
+                        <translation>excepte</translation>
+                    </translations>
+                </prepositions>
                 <expressions>all but
                 <translations>
                 <translation>pràcticament<example>He's &lt;b&gt;all but&lt;/b&gt; told me that I've got the job.</example></translation>
@@ -12845,7 +12989,7 @@
 		</nouns>
 		<phrasalverbs>butt in
 		<translations>
-				<translation>interrompre (maleducadament)<synonyms>interrupt</synonyms>
+				<translation>intervenir / ficar cullerada<synonyms>interrupt</synonyms>
 				</translation>
 			</translations>
 		</phrasalverbs>
@@ -12860,12 +13004,17 @@
                     </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="3870000">butter<nouns>
-			<translations>
+<Entry frequency="982000000">butter<nouns>
+			<translations><date>0512</date>
 				<translation gender="f">mantega<catnote>L'expressió 'Butter wouldn't melt in his / her mouth' vol dir  que una persona sembla molt simpàtica i innocent però que en realitat no ho és (per ex: 'Just looking at the child lying there sleeping, you would think that butter wouldn't melt in his mouth, but when he's awake he's a real monster!!').</catnote>
 				</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>passar per mantega</translation>
+                    </translations>
+                </verbs>
                 <phrasalverbs>butter up
                     <translations>
                         <translation register="colloquial" transitive="true">afalagar / fer la pilota a</translation>
@@ -12897,17 +13046,33 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="85500000">button<nouns>
-			<translations>
+<Entry frequency="4650000">button<nouns>
+			<translations><date>0512</date>
 				<translation gender="m">botó</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>button up<translations><translation transitive="true">cordar (del tot) els botons</translation></translations></phrasalverbs></Entry>
+                <verbs>
+                    <translations>
+                        <translation>cordar (els botons)</translation>
+                    </translations>
+                </verbs>
+                <phrasalverbs>button up
+                    <translations>
+                        <translation transitive="true">cordar (del tot) els botons</translation>
+                    </translations>
+                </phrasalverbs>
+</Entry>
 <Entry frequency="254000">buttonhole<nouns>
 			<translations>
 				<translation gender="m">trau</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="14800000">buxom<adjectives>
+			<translations><date>0512</date>
+				<translation>[dit d'una dona] revinguda / ufanosa</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="136000000">buy<verbs>
 			<past>bought</past>
@@ -12954,16 +13119,18 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="21700000">buzz<verbs>
-			<translations>
-				<translation>brunzir</translation>
+<Entry frequency="1420000000">buzz<verbs>
+			<translations><date>0512</date>
+				<translation intransitive="true">brunzir</translation>
 			</translations>
 		</verbs>
                 <nouns>
                 <translations>
                 <translation gender="m">brunzit</translation>
                 <translation register="colloquial" gender="m">sentiment de satisfacció / èxit / plaer</translation>
-                <translation register="slang" gender="m">rumor</translation></translations></nouns>
+                <translation gender="m">[fig.] rebombori / enrenou</translation>
+                <translation sourceplural="the buzz" register="colloquial" gender="m">rumor</translation>                
+                </translations></nouns>
 	<phrasalverbs>buzz off<translations><translation intransitive="true">(col·loq., imperatiu) Vés a pastar fang!</translation></translations></phrasalverbs></Entry>
 <Entry frequency="1280000">buzzard<nouns>
 			<translations>
@@ -13011,6 +13178,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="24200000">bygone<adjectives>
+                            <translations><date>0512</date>
+				<translation>passat</translation>
+			</translations>
+		</adjectives>
+                <expressions>let bygones be bygones
+                    <translations>
+                        <translation>passem full</translation>
+                    </translations>
+                </expressions>
+	</Entry>
          <Entry frequency="7930000">byline<nouns>
                             <translations><date>0510</date>
 				<translation gender="f">firma / signatura</translation>
@@ -13029,10 +13207,13 @@
 </translations>
 </verbs>
 	</Entry>
-<Entry frequency="37500000">by-product<nouns>
-			<translations>
+<Entry frequency="125000000">by-product<nouns>
+			<translations><date>0512</date>
 				<translation gender="m">rebuig<example>Paraffin is a &lt;b&gt;by-product&lt;/b&gt; of the gasoline industry.</example><engnote>'Rebuig' means 'by-product' in the sense 'paraffin is a by-product of the gasoline industry'.</engnote></translation>
+                                <grouptranslation>
                                 <translation gender="m">resultat secundari / efecte col·lateral<example>The coming diabetes explosion: a &lt;b&gt;by-product&lt;/b&gt; of America's obesity epidemic.</example></translation>
+                                <translation gender="f">seqüela / conseqüència</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -13042,9 +13223,9 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="1960000">bystander<nouns>
-			<translations><date>0408</date>
-				<translation gender="mf">espectador<example>High-speed chases are dangerous not only for police and suspects, but also for innocent &lt;b&gt;bystanders&lt;/b&gt;.</example><example>In a bullying situation, there are usually &lt;b&gt;bystanders&lt;/b&gt;, but they aren't exactly "innocent".</example></translation>
+<Entry frequency="20800000">bystander<nouns>
+			<translations><date>0512</date>
+				<translation gender="mf">espectador / testimoni<example>High-speed chases are dangerous not only for police and suspects, but also for innocent &lt;b&gt;bystanders&lt;/b&gt;.</example><example>In a bullying situation, there are usually &lt;b&gt;bystanders&lt;/b&gt;, but they aren't exactly "innocent".</example></translation>
 			</translations>
 		</nouns>
 	</Entry>
