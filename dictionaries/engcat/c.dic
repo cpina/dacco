@@ -3034,10 +3034,11 @@
             <translation>atendre / ocupar-se de / estar per / estar al servei de</translation>
         </translations>
     </phrasalverbs>
-    </Entry>    
+    </Entry>        
 <Entry frequency="5670000">catering<nouns>
         <translations>
-            <translation gender="m">servei d'àpats</translation>
+            <translation gender="m">servei d'hostaleria / servei de menjars preparats / (servei de) càtering
+            </translation>
         </translations>
     </nouns>
     </Entry>
@@ -3085,7 +3086,7 @@
 	</Entry>
 <Entry frequency="40400000">catholic<nouns>
         <translations>
-            <translation gender="mf">catòlic</translation>
+            <translation catagory="religious" gender="mf">catòlic</translation>
         </translations>
     </nouns>
         <adjectives>
@@ -3096,15 +3097,39 @@
     </Entry>
 <Entry frequency="794000">catholicism<nouns>
         <translations>
-            <translation gender="m">catolicisme</translation>
+            <translation catagory="religious" gender="m">catolicisme</translation>
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="10800000">cattle<nouns>
-        <translations>
-            <translation gender="m">bestiar (boví)</translation>
+<Entry frequency="596000">cat-o'-nine-tails<nouns>
+        <translations><date>0512</date>
+            <grouptranslation catagory="religious">
+            <translation gender="m">assot</translation>
+            <translation gender="f">deixuplina (amb corretges trenades)</translation>
+            </grouptranslation>
         </translations>
     </nouns>
+    </Entry>    
+    <Entry frequency="7860000">cattery<nouns>
+        <translations><date>0512</date>
+            <translation catagory="animal" gender="f">residència felina / residència per a gats</translation>
+        </translations>
+    </nouns>
+    </Entry>
+<Entry frequency="134000000">cattle<nouns>
+        <translations><date>0512</date>
+            <grouptranslation>
+            <translation gender="m">bestiar (boví) / vacum</translation>
+            <translation gender="fpl">vaques</translation>
+            </grouptranslation>
+            <translation beforenoun="true">ramader</translation>
+        </translations>
+    </nouns>
+    <expressions>(one, two...) head of cattle
+        <translations>
+            <translation>cap(s) de bestiar (o vacum)</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="200000">cattle egret<nouns>
         <translations>
@@ -3149,6 +3174,11 @@
                 <translation gender="f">causa</translation>
             </translations>
         </nouns>
+        <expressions>to advance your cause
+            <translations>
+                <translation>sortir-se amb la seva</translation>
+            </translations>
+        </expressions>
     </Entry>
       <Entry frequency="5550000">caustic<adjectives>
                             <translations><date>0809</date>
@@ -3158,7 +3188,7 @@
 	</Entry>
         <Entry frequency="47800000">caution<nouns>
                 <translations><date>0110</date>
-                    <translation gender="f">cautela</translation>
+                    <translation gender="f">cautela / precaució</translation>
                     <translation disambiguate="sports" gender="f">amonestació<synonyms>warning</synonyms></translation>
                 </translations>
             </nouns>
@@ -3185,7 +3215,7 @@
     </Entry>
 <Entry frequency="269000">cautiously<adverbs>
         <translations>
-            <translation>amb cautela</translation>
+            <translation>amb cautela / amb precaució</translation>
         </translations>
     </adverbs>
     </Entry>
@@ -3225,6 +3255,12 @@
                 </grouptranslation>
             </translations>
         </expressions>
+    </Entry>
+    <Entry frequency="29300000">caveat<nouns>
+        <translations><date>0512</date>
+            <translation register="formal" gender="f">reserva</translation>
+        </translations>
+    </nouns>
     </Entry>
     <Entry frequency="68400000">caveman<nouns>
 			<translations><date>0112</date>
@@ -3272,6 +3308,12 @@
         </translations>
     </nouns>
     </Entry>
+<Entry frequency="365000000">CCTV<acronyms><engacro>Closed Circuit TeleVision</engacro>
+        <translations><date>0512</date>
+            <translation gender="f">videovigilància</translation>
+        </translations>
+    </acronyms>
+    </Entry>    
 <Entry frequency="1680000">CD burner<nouns>
         <translations>
             <translation termcat="true" gender="f">gravadora de CD</translation>
@@ -3335,17 +3377,33 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="37200000">celebrate<verbs>
-        <translations>
-            <translation>celebrar<example>Sunderland &lt;b&gt;celebrated&lt;/b&gt; a 4-0 win over Newcastle last night</example>
+    <Entry frequency="7520000">celebrant<nouns>
+        <translations><date>0512</date>
+            <translation catagory="religious" gender="m">celebrant / oficiant</translation>
+        </translations>
+    </nouns>
+    </Entry>
+<Entry frequency="685000000">celebrate<verbs>
+        <translations><date>0512</date>
+            <translation transitive="true">celebrar<engexamp>(funeral) To celebrate a life</engexamp><catexamp>Honrar el record (d'algun difunt)</catexamp><engexamp>There is much to celebrate</engexamp><catexamp>Hi ha motius per alegrar-se('n) / hi ha motius per estar contents</catexamp><example>Sunderland &lt;b&gt;celebrated&lt;/b&gt; a 4-0 win over Newcastle last night</example>
                 <example>Trevor &lt;b&gt;celebrated&lt;/b&gt; his birthday at home with his family</example>
             </translation>
+            <translation intransitive="true">fer xerinola</translation>
+            <translation register="formal" transitive="true">[praise] exaltar / exalçar / enaltir</translation>
+            <translation disambiguate="religious" transitive="true">celebrar</translation>
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="6000000">celebration<nouns>
-        <translations>
-            <translation gender="f">celebració</translation>
+<Entry frequency="155000000">celebrated<adjectives>
+        <translations><date>0512</date>
+            <translation>il·lustre / insigne</translation>
+        </translations>
+    </adjectives>
+    </Entry>    
+<Entry frequency="31600000">celebration<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">celebració<engexamp>In celebration</engexamp><catexamp>Per fer gatzara / per divertir-se</catexamp></translation>
+            <translation gender="f">exaltació / lloa</translation>
         </translations>
     </nouns>
     </Entry>
@@ -3384,9 +3442,12 @@
                 </translations>
                 </expressions>
         </Entry>
-<Entry frequency="149000">celibacy<nouns>
-        <translations>
+<Entry frequency="4650000">celibacy<nouns>
+        <translations><date>0512</date>
+            <grouptranslation>
             <translation gender="m">celibat</translation>
+            <translation gender="f">solteria</translation>
+            </grouptranslation>
         </translations>
     </nouns>
     </Entry>
@@ -3402,7 +3463,7 @@
     </nouns>
         <expressions>cell phone
             <translations>
-                <translation local="us" gender="m">telèfon mòbil<otherlocal>mobile phone</otherlocal></translation>
+                <translation local="us" gender="m">telèfon mòbil<otherlocal>mobile phone</otherlocal><engexamp>Cell-phone mast (or tower)</engexamp><catexamp>Antena de telefonia mòbil</catexamp></translation>
             </translations>
         </expressions>
     </Entry>
@@ -3492,9 +3553,9 @@
         </translations>
     </nouns>
     </Entry>
-    <Entry frequency="5730000">censure<verbs>
-                            <translations><date>1108</date>
-				<translation register="formal">censurar / blasmar<synonyms>rebuke, reprove</synonyms></translation>
+    <Entry frequency="23100000">censure<verbs>
+                            <translations><date>0512</date>
+				<translation register="formal">censurar / blasmar / reprendre / amonestar<synonyms>rebuke, reprove</synonyms></translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -3540,6 +3601,13 @@
         </translations>
     </nouns>
     </Entry>
+     <Entry frequency="50600000">centerpiece<nouns>
+			<translations><date>0512</date>
+                        <translation gender="m">eix</translation>
+				<translation gender="m">centre de taula</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="404000">centigrade<adjectives>
         <translations>
             <translation gender="m">centígrad<engexamp>25 degrees centigrade</engexamp><catexamp>25 graus centígrads</catexamp></translation>
@@ -3566,12 +3634,11 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="176000000">central<adjectives>
-        <translations>
-            <translation>cèntric<engnote>Cèntric means central in the location sense (i.e. The hotel is very central – i.e. Near the centre).</engnote>
-            </translation>
-            <translation>central<engnote>Central' is the general word for 'central' in a non physical location sense (e.g. Central government, central spending).</engnote>
-            </translation>
+<Entry frequency="4720000000">central<adjectives>
+        <translations><date>0512</date>
+            <translation>[most important] fonamental / cardinal / essencial</translation>
+            <translation>[location] cèntric<engexamp>The apartment is very central.</engexamp><catexamp>El pis és molt cèntric.</catexamp></translation>
+            <translation>central<engexamp>Central government</engexamp><catexamp>Govern central</catexamp></translation>
         </translations>
     </adjectives>
     </Entry>
@@ -3621,6 +3688,13 @@
             </translations>
         </expressions>
     </Entry>
+     <Entry frequency="10200000">centrepiece<nouns>
+			<translations><date>0512</date>
+                        <translation local="gb" gender="m">eix</translation>
+				<translation gender="m">centre de taula</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="732000">centripetal<adjectives>
         <translations><date>1008</date>
             <translation>centrípet</translation>
@@ -3712,15 +3786,20 @@
     </adjectives>
     </Entry>
 <Entry frequency="175000000">certainly<adverbs>
-        <translations><date>0908</date>
+        <translations><date>0512</date>
             <translation>certament / sens dubte</translation>
         </translations>
     </adverbs>
         <exclamations>
             <translations>
-                <translation>és clar (que sí)!<engexamp>Certainly not!</engexamp><catexamp>És clar que no!</catexamp></translation>
+                <translation>és clar (que sí)!</translation>
             </translations>
         </exclamations>
+        <expressions>certainly not
+            <translations>
+                <translation>no pas<engexamp>Did you quarrel? No. Certainly not.</engexamp><catexamp>Us vau barallar? No, no ens vam barallar pas.</catexamp></translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="4730000">certainty<nouns>
         <translations>
@@ -3728,11 +3807,11 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="93300">certifiable<adjectives>
-        <translations>
-            <translation register="slang">boig<synonyms>crazy, mad</synonyms>
+<Entry frequency="2410000">certifiable<adjectives>
+        <translations><date>0512</date>
+            <translation register="colloquial">boig<synonyms>crazy, mad</synonyms>
             </translation>
-            <translation>certificable</translation>
+            <translation local="us">certificable</translation>
         </translations>
     </adjectives>
     </Entry>
@@ -3742,19 +3821,36 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="62700000">certified<adjectives>
-        <translations>
-            <translation>certificat</translation>
+<Entry frequency="1630000">certified<adjectives>
+        <translations><date>0512</date>
+            <translation>certificat / acreditat</translation>
         </translations>
     </adjectives>
-    </Entry>
-<Entry frequency="453000">certified mail<nouns>
+    <expressions>certified check
+        <translations>
+            <translation catagory="financial" local="us" gender="m">taló confirmat</translation>
+        </translations>
+    </expressions>
+    <expressions>certified cheque
+    <translations>
+            <translation catagory="financial" local="gb" gender="m">taló confirmat</translation>
+        </translations>
+    </expressions>
+    <expressions>certified mail
         <translations>
             <translation local="us" gender="m">correu certificat<otherlocal>recorded delivery</otherlocal>
             </translation>
         </translations>
-    </nouns>
+    </expressions>
     </Entry>
+    <Entry frequency="60000000">certify<verbs ie="true">
+			<translations><date>0512</date>
+				<translation transitive="true">certificar</translation>
+                                <translation transitive="true">acreditar</translation>
+                                <translation local="gb" catagory="legal" transitive="true">declarar oficialment que una persona està afectat d'una malaltia mental (perquè pugui rebre tractament)</translation> 
+			</translations>
+		</verbs>
+	</Entry>   
     <Entry frequency="12900000">cerulean<adjectives>
 			<translations><date>0412</date>
 				<translation register="literary">ceruli</translation>
@@ -3784,6 +3880,20 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="1060000">cesspit<nouns>
+        <translations><date>0512</date>
+        <translation gender="m">pou negre / pou sec</translation>
+            <translation gender="m">[fig.] cau de brutícia<synonyms>cesspool</synonyms></translation>
+        </translations>
+    </nouns>
+    </Entry> 
+<Entry frequency="7320000">cesspool<nouns>
+        <translations><date>0512</date>
+        <translation gender="m">pou negre / pou sec</translation>
+            <translation gender="m">[fig.] cau de brutícia<synonyms>cesspit</synonyms></translation>
+        </translations>
+    </nouns>
+    </Entry>    
 <Entry frequency="1090000">cetacean<nouns>
         <translations>
             <translation catagory="animal" gender="m">cetaci</translation>
@@ -3796,6 +3906,16 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="10300000">chaff<nouns>
+        <translations><date>0512</date>
+        <translation gender="fpl">garbelladures / porgadures</translation>
+        <grouptranslation>
+        <translation gender="f">palla</translation>
+        <translation gender="m">pinso</translation>
+        </grouptranslation>        
+        </translations>
+    </nouns>
+    </Entry> 
     <Entry frequency="476000">chaffinch<nouns>
 			<translations><date>0909</date>
 				<translation catagory="animal-bird" gender="m">pinsà</translation>
@@ -3829,6 +3949,12 @@
             </translations>
         </phrasalverbs>
     </Entry>
+    <Entry frequency="7940000">chain-link fence<nouns>
+        <translations><date>0512</date>
+        <translation gender="f">tanca de tela metàl·lica</translation>
+        </translations>
+    </nouns>
+    </Entry> 
 <Entry frequency="53500000">chair<nouns>
         <translations>
             <translation gender="f">cadira</translation>
