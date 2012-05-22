@@ -1891,22 +1891,32 @@
         </translations>
     </adjectives>
     </Entry>
-<Entry frequency="10600000">cargo<nouns>
-        <translations>
+    <Entry frequency="460000">careworn<adjectives>
+        <translations><date>0512</date>
+            <translation>ple d'ànsia / llangorós / migrat / corsecat</translation>
+        </translations>
+    </adjectives>
+    </Entry>
+<Entry frequency="703000000">cargo<nouns>
+        <translations><date>0512</date>
             <translation gender="f">càrrega</translation>
         </translations>
     </nouns>
+    <expressions>cargo hold
+        <translations>
+            <translation catagory="transport" gender="f">bodega</translation>
+        </translations>
+    </expressions>
+    <expressions>cargo plane
+        <translations>
+            <translation catagory="transport" gender="m">avió de càrrega / avió de transport</translation>
+        </translations>
+    </expressions>
     </Entry>
-<Entry frequency="4710000">car hire<nouns>
+    <Entry frequency="4710000">car hire<nouns>
         <translations>
             <translation local="gb" gender="m">lloguer de vehicles<otherlocal>car rental</otherlocal>
             </translation>
-        </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="155000">cargo hold<nouns>
-        <translations>
-            <translation catagory="transport" gender="f">bodega</translation>
         </translations>
     </nouns>
     </Entry>
@@ -1939,6 +1949,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="305000000">caring<adjectives>
+        <translations><date>0512</date>
+            <translation>tendre / bondadós / afectuós / sol·lícit</translation>
+        </translations>
+    </adjectives>
+</Entry>
           <Entry frequency="124000">cariogenic<adjectives>
                                     <translations><date>0109</date>
                                         <translation>cariogen</translation>
@@ -2010,6 +2026,12 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="1200000">carouse<verbs>
+        <translations><date>0512</date>
+            <translation register="literary" intransitive="true">anar de gresca / anar de parranda</translation>
+        </translations>
+    </verbs>
+    </Entry>
      <Entry frequency="115000000">carousel<nouns>
 			<translations><date>0412</date>
 				<translation gender="mpl">cavallets<synonyms>merry-go-round (Br.)</synonyms></translation>
@@ -2068,6 +2090,12 @@
         </translations>
     </verbs>
     </Entry>
+    <Entry frequency="1040000">carpet bag<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">[en el passat] maleta (esp. la feta de tapisseria)</translation>
+        </translations>
+    </nouns>
+    </Entry>
 <Entry frequency="27500000">carriage<nouns>
         <translations><date>0109</date>
             <translation catagory="transport" gender="m">(train) vagó</translation>
@@ -2089,7 +2117,7 @@
             <translation disambiguate="medical" gender="m">portador</translation>
             <translation gender="m">transportador</translation>
             <translation gender="f">empresa de transport</translation>
-            <translation local="gb" register="colloquial" gender="f">bossa de plàstic<catnote>'Carrier (bag)' no es diu en anglès americà ni en anglès australià.</catnote><otherlocal>plastic bag</otherlocal>
+            <translation local="gb" register="colloquial" gender="f">bossa de plàstic<otherlocal>plastic bag</otherlocal>
             </translation>
         </translations>
     </nouns>
@@ -2318,21 +2346,32 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="44000000">cartoon<nouns>
-        <translations>
+<Entry frequency="818000000">cartoon<nouns>
+        <translations><date>0512</date>
+            <grouptranslation>
+            <translation gender="f">vinyeta / tira còmica</translation>
+            <translation gender="m">acudit gràfic / còmic</translation>
+            </grouptranslation>
             <translation gender="mpl">dibuixos animats</translation>
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="2610000">cartoonist<nouns>
-        <translations>
-            <translation termcat="true" gender="mf">humorista gràfic</translation>
+    <Entry frequency="3220000">cartoonish<adjectives>
+        <translations><date>0512</date>
+            <translation>caricaturesc</translation>
+        </translations>
+    </adjectives>
+    </Entry>
+<Entry frequency="27500000">cartoonist<nouns>
+        <translations><date>0512</date>
+            <translation gender="mf">humorista gràfic / caricaturista</translation>
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="11000000">cartridge<nouns>
-			<translations><date>0807</date>
+<Entry frequency="352000000">cartridge<nouns>
+			<translations><date>0512</date>
 				<translation gender="m">cartutx</translation>
+                                <translation gender="m">[fountain pen] dipòsit de tinta</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2350,6 +2389,17 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="19700000">cascade<nouns>
+			<translations><date>0512</date>
+				<translation gender="f">cascada</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation intransitive="true">caure en cascada</translation>
+                    </translations>
+                </verbs>
+	</Entry>
 <Entry frequency="616000">cascading style sheet<nouns>
         <translations>
             <translation termcat="true" gender="mpl">fulls d'estil en cascada (CSS)</translation>
@@ -2363,16 +2413,37 @@
                 <translation gender="m">estoig<engnote>'Estoig' means a small 'case' such as a pencil case or a jewellery case.</engnote></translation>
             </translations>
         </nouns>
+        <expressions>case in point
+            <translations>
+                <translation gender="m">exemple<engexamp>X is a case in point</engexamp><catexamp>X n'és un exemple (clar)</catexamp></translation>
+            </translations>
+        </expressions>
+        <expressions>case note
+            <translations>
+                <translation gender="m">informe / [medical] informe clínic</translation>
+            </translations>
+        </expressions>
         <expressions>in any case
             <translations>
-                <translation>en tot cas</translation>
+                <translation>en tot cas... / anant bé... / com a molt... / el cas és...</translation>
             </translations>
         </expressions>
         <expressions>just in case
             <translations>
-                <translation>per si de cas</translation>
+                <translation>per si de cas / no se sap mai</translation>
             </translations>
         </expressions>
+    </Entry>
+    <Entry frequency="17500000">casement<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">finestra abatible</translation>
+        </translations>
+    </nouns>
+    <expressions>casement window
+        <translations>
+            <translation gender="f">finestra abatible</translation>
+        </translations>
+    </expressions>
     </Entry>
     <Entry frequency="12500000">cash<nouns>
             <translations>
@@ -2411,12 +2482,18 @@
             </translations>
         </phrasalverbs>
     </Entry>
-<Entry frequency="22000000">cash flow<nouns>
+    <Entry frequency="7440000">cash cow<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">vaca lletrera / mina d'or</translation>
+        </translations>
+    </nouns>
+    </Entry> 
+<Entry frequency="22000000">cash flow<nouns><mistakes>cashflow</mistakes>
         <translations>
             <translation catagory="financial" gender="m">flux de caixa</translation>
         </translations>
     </nouns>
-    </Entry>
+    </Entry> 
 <Entry frequency="114000">cash machine<nouns>
         <translations>
             <translation gender="m">caixer automàtic<synonyms>ATM machine, hole-in-the-wall, cashpoint (Br.)</synonyms>
@@ -2455,6 +2532,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="32000000">casket<nouns>
+			<translations><date>0512</date>
+				<translation gender="m">joier<catnote>Estoig per a joies.</catnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="2050000">Caspian Sea<nouns>
         <translations>
             <grouptranslation catagory="geography"><translation gender="m">Mar Caspi</translation>
@@ -2474,18 +2557,22 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="16000000">cast<nouns>
-        <translations>
-            <translation gender="m">repartiment<engnote>'Repartiment' means 'cast' as in 'set of actors performing in a play / film'.</engnote>
-            </translation>
-            <translation gender="m">motlle<engnote>'Motlle' means 'cast' as in 'plaster cast'.</engnote>
-            </translation>
+<Entry frequency="1390000000">cast<nouns>
+        <translations><date>0512</date>
+            <translation gender="m">[of actors] repartiment</translation>
+            <translation gender="m">[mould] motlle</translation>
+            <translation gender="m">[plaster ~] guix / embenat de guix<engexamp>Body cast</engexamp><catexamp>Cotilla ortopèdica</catexamp></translation>
+            <translation local="gb" register="formal" gender="m">aspecte / aire / tirat</translation>
         </translations>
     </nouns>
     <verbs>
         <translations>
-            <translation>donar un paper a algú<engnote>'Donar un paper a algú' means 'to cast' as in 'Wallis decided to cast Bogart in the role of Rick' > 'Wallis va decidir donar el paper de Rick a Bogart'.</engnote>
-            </translation>
+            <translation transitive="true">[throw] llançar / tirar</translation>
+            <translation transitive="true">[~ light or shadow] projectar</translation>
+            <translation transitive="true">[give a role to] donar un paper (a algú)</translation>
+            <translation transitive="true">[shed skin] mudar</translation>
+            <translation transitive="true">[shape metal] fondre</translation>
+            <translation transitive="true">[vote, ballot] emetre</translation>
         </translations>
     </verbs>
     <phrasalverbs>cast about
@@ -2517,7 +2604,7 @@
         <translations>
             <translation intransitive="true">tirar la corda que lliga una embarcació a terra</translation>
             <translation intransitive="true">fent mitja, treure els punts de l'agulla i crear una vora que no es pugui desfilar fàcilment</translation>
-            <translation intransitive="true">desfer-se de</translation>
+            <translation intransitive="true">desfer-se de / arraconar / posar de banda</translation>
         </translations>
     </phrasalverbs>
     <phrasalverbs>cast on
@@ -2538,6 +2625,11 @@
     <expressions>be cast down
         <translations>
             <translation register="literary">estar deprimit</translation>
+        </translations>
+    </expressions>
+    <expressions>to cast aspersions (or doubt) on (something)
+        <translations>
+            <translation>posar en dubte</translation>
         </translations>
     </expressions>
 </Entry>
@@ -9126,7 +9218,7 @@
         </translations>
     </adjectives>
     </Entry>
-<Entry frequency="15600000">compatible<adjectives>
+<Entry frequency="15600000">compatible<adjectives><mistakes>compatable</mistakes>
         <translations>
             <translation>compatible</translation>
         </translations>
