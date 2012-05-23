@@ -4640,12 +4640,17 @@
         </expressions>
     </Entry>
     <Entry frequency="89500000">charter<nouns>
-            <translations><date>0209</date>
+            <translations><date>0512</date>                
+                <grouptranslation>
+                <translation gender="f">carta</translation>
+                <translation gender="m">privilegi<engexamp>UN Charter</engexamp><catexamp>Carta de les Nacions Unides</catexamp></translation>
+                </grouptranslation>
                 <translation catagory="transport" gender="m">xàrter</translation>
             </translations>
         </nouns>
         <verbs>
             <translations>
+                <translation transitive="true">concedir una carta (o un privilegi) / fundar</translation>                
                 <translation transitive="true">noliejar / llogar</translation>
             </translations>
         </verbs>
@@ -4674,11 +4679,20 @@
         <nouns>
         <translations>
         <translation gender="f">persecució</translation></translations></nouns>
-        <expressions>cut to the chase
+        <expressions>to cut to the chase
             <translations>
                 <translation>anar al gra</translation>
             </translations>
         </expressions>
+    </Entry>
+    <Entry frequency="18900000">chasm<nouns>
+        <translations><date>0512</date>
+        <grouptranslation>
+            <translation gender="m">avenc / abisme</translation>
+            <translation gender="f">escletxa</translation>
+        </grouptranslation>
+        </translations>
+    </nouns>
     </Entry>
 <Entry frequency="56200000">chat<verbs double="true">
         <translations>
@@ -4688,7 +4702,7 @@
     </verbs>
     <phrasalverbs>chat (someone) up
             <translations>
-                <translation local="gb" register="colloquial">parlar amb algú que hom troba sexualment atractiu / flirtejar<example>The last I saw of Keith he was &lt;b&gt;chatting up&lt;/b&gt; some blonde woman over by the jukebox</example>
+                <translation local="gb" register="colloquial">voler-se lligar / flirtejar<example>The last I saw of Keith he was &lt;b&gt;chatting up&lt;/b&gt; some blonde woman over by the jukebox</example>
                 </translation>
             </translations>
         </phrasalverbs>
@@ -4706,6 +4720,18 @@
             </translations>
         </expressions>
     </Entry>
+    <Entry frequency="5920000">chatelaine<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">mestressa de casa</translation>
+        </translations>
+    </nouns>
+    </Entry>
+    <Entry frequency="2560000">chattels<nouns>
+        <translations><date>0512</date>
+            <translation register="legal" gender="mpl">béns mobles</translation>
+        </translations>
+    </nouns>
+    </Entry>    
 <Entry frequency="3030000">chatter<nouns>
         <translations>
             <translation gender="f">xerradissa</translation>
@@ -4723,6 +4749,19 @@
             </translations>            
         </nouns>        
     </Entry>
+      <Entry frequency="107000">chattiness<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">loquacitat</translation>
+        </translations>
+    </nouns>
+    </Entry>   
+      <Entry frequency="13700000">chatty<adjectives>
+        <translations><date>0512</date>
+            <translation>parlador / loquaç / xerraire</translation>
+            <translation>informal</translation>
+        </translations>
+    </adjectives>
+    </Entry>   
 <Entry frequency="434000">chauffeur<nouns>
         <translations>
             <translation gender="mf">xofer</translation>
@@ -4765,21 +4804,76 @@
     </adjectives>
     </Entry>
 <Entry fcrequency="36700000">cheap<adjectives>
-        <translations><date>0407</date>
-            <translation>barat / de baix cost</translation>
-            <translation local="us">garrepa / avar<otherlocal>mean</otherlocal></translation>
+        <translations><date>0512</date>
+            <translation>barat / de baix cost / econòmic</translation>
+            <translation>mòdic</translation>
+            <translation>de poca qualitat</translation>
+            <translation>[joke, comment..] de mal gust / dolent / ordinari</translation>
+            <translation local="us">garrepa / avar</translation>
         </translations>
     </adjectives>
-    <expressions>cheap as chips
-        <translations><translation register="colloquial" local="gb">molt barat<catnote>(Literalment - 'tan barat com les patates fregides').</catnote></translation></translations>
-        </expressions>
-        
-    </Entry>
-<Entry frequency="1750000">cheapen<verbs>
+    <adverbs>
         <translations>
-            <translation>abaratir</translation>
+            <translation>barat</translation>
+        </translations>
+    </adverbs>
+    <expressions>cheap and nasty
+        <translations>
+            <translation local="gb">de poca qualitat</translation>
+        </translations>
+    </expressions>
+    <expressions>(as) cheap as chips
+        <translations>
+            <translation register="colloquial" local="gb">baratíssim</translation>
+        </translations>
+    </expressions>
+    <expressions>cheap at the price / cheap at twice the price / cheap at half the price
+           <translations>
+                <translation>un bon preu / una bona oferta</translation>
+            </translations>
+        </expressions>        
+        <expressions>dirt cheap
+            <translations>
+                <translation>baratíssim</translation>
+            </translations>
+        </expressions>
+        <expressions>(something) doesn't come cheap
+            <translations>
+                <translation>(alguna cosa) resulta car / no es regala<engexamp>Nothing comes cheap</engexamp><catexamp>No es regala res</catexamp></translation>
+            </translations>
+        </expressions>
+        <expressions>on the cheap
+            <translations>
+                <translation>barat</translation>
+            </translations>
+        </expressions>
+        <expressions>talk is cheap
+            <translations>
+                <translation>del dit al fet hi ha un gran tret</translation>
+            </translations>
+        </expressions>
+    </Entry>
+<Entry frequency="3320000">cheapen<verbs>
+        <translations><date>0512</date>
+            <translation transitive="true">[lower price] abaratir</translation>
+            <translation transitive="true">[~ somebody] humiliar / abaixar</translation>
+            <translation>[~ yourself] humiliar-se / abaixar-se</translation>            
+            <translation transitive="true">desacreditar</translation> 
         </translations>
     </verbs>
+    </Entry>
+    <Entry frequency="27500000">cheaply<adverbs>
+        <translations><date>0512</date>
+            <translation>barat</translation>
+        </translations>
+    </adverbs>
+    </Entry>
+       <Entry frequency="2970000">cheapness<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">barator</translation>
+            <translation gender="f">[meanness] garreperia</translation>
+        </translations>
+    </nouns>
     </Entry>
 <Entry frequency="452000">cheapskate<nouns>
         <translations>
@@ -4837,7 +4931,7 @@
         <phrasalverbs>check in
             <translations>
                 <translation>facturar (l'equipatge / les maletes)</translation>
-                <translation>(hotel) fer l'entrada</translation>
+                <translation>agafar habitació (en un hotel) / registrar-se / inscriure's</translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>check on
@@ -4974,19 +5068,15 @@
                             </translations>
 		</verbs>
 	</Entry>
-<Entry frequency="1330000">cheer<verbs>
-        <translations>
-            <translation>aplaudir</translation>
+<Entry frequency="596000000">cheer<verbs>
+        <translations><date>0512</date>
+            <translation>aclamar / fer (o deixar anar) un crit d'alegria (o una exclamació d'alegria)</translation>
+            <translation>[~ somebody] aixecar els esperits / alegrar l'esperit / animar</translation>
         </translations>
-    </verbs>
-        <phrasalverbs>cheer for
-            <translations>
-                <translation intransitive="true">animar (amb aplaudiments)</translation>
-            </translations>
-        </phrasalverbs>
+    </verbs>      
         <phrasalverbs>cheer on
             <translations>
-                <translation transitive="true">animar (encoratjar amb crits)</translation>
+                <translation transitive="true">aclamar / animar (encoratjar amb crits)</translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>cheer up
@@ -5001,7 +5091,10 @@
         </phrasalverbs>
         <nouns>
             <translations>
-                <translation gender="m">aplaudiment</translation>
+                <grouptranslation>
+                <translation gender="f">aclamació / exclamació d'alegria</translation>
+                <translation gender="m">crit d'alegria</translation>
+                </grouptranslation>
                 <translation register="literary" gender="f">alegria</translation>
             </translations>
         </nouns>
@@ -5012,22 +5105,27 @@
             </translations>
         </exclamations>
     </Entry>
-<Entry frequency="486000">cheerful<adjectives>
-        <translations>
-            <translation>festiu</translation>
-            <translation>alegre</translation>
+<Entry frequency="78400000">cheerful<adjectives>
+        <translations><date>0512</date>
+            <translation>festiu / alegre / jovial</translation>
         </translations>
     </adjectives>
     </Entry>
-<Entry frequency="169000">cheerfully<adverbs>
-        <translations>
-            <translation>alegrement</translation>
+<Entry frequency="25500000">cheerfully<adverbs>
+        <translations><date>0512</date>
+            <translation>alegrement / de bon humor / en to animat / de bon grat</translation>
         </translations>
     </adverbs>
     </Entry>
-<Entry frequency="337000">cheerily<adverbs>
-            <translations><date>0508</date>
-            <translation>alegrement</translation>
+    <Entry frequency="3400000">cheerfulness<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">jovialitat / cordialitat / bonhomia / alegria</translation>
+        </translations>
+    </nouns>
+    </Entry>
+<Entry frequency="1260000">cheerily<adverbs>
+            <translations><date>0512</date>
+            <translation>alegrement / de bon humor / en to animat / de bon grat</translation>
         </translations>
     </adverbs>
     </Entry>
@@ -5061,15 +5159,22 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="247000">cheese plant<nouns>
+        <translations><date>0512</date>
+            <translation catagory="plants" gender="f">costella d'Adam</translation>
+        </translations>
+    </nouns>
+    </Entry>
 <Entry frequency="1450000">cheetah<nouns>
         <translations>
             <translation gender="m">guepard</translation>
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="6510000">chef<nouns>
-        <translations>
-            <translation gender="mf">cuiner (en cap) / xef</translation>
+<Entry frequency="631000000">chef<nouns>
+        <translations><date>0512</date>
+            <translation gender="mf">cuiner</translation>            
+            <translation gender="mf">xef / cap de cuina / cuiner (en cap)</translation>
         </translations>
     </nouns>
     </Entry>
@@ -5132,22 +5237,53 @@
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="16800000">cherry<nouns>
-        <translations>
+    <Entry frequency="40000000">cherished<adjectives>
+        <translations><date>0512</date>
+            <translation>apreciat / preuat / valuós</translation>
+        </translations>
+    </adjectives>
+    </Entry>
+<Entry frequency="810000000">cherry<nouns>
+        <translations><date>0512</date>
             <translation gender="f">cirera</translation>
         </translations>
     </nouns>
+    <expressions>to be a bowl of cherries
+        <translations>
+            <translation>ser flors i violes / ser un camí de roses</translation>
+        </translations>
+    </expressions>
         <expressions>lose your cherry
             <translations>
                 <translation register="slang">perdre la virginitat</translation>
             </translations>
         </expressions>
     </Entry>
-    <Entry frequency="2670000">cherub<nouns>
+    <Entry frequency="6000000">cherrypick<verbs>
+        <translations><date>0512</date>
+            <translation>espigolar (fig.)</translation>
+        </translations>
+    </verbs>
+    </Entry>
+    <Entry frequency="3770000">cherrypicker<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">grua-cistella (per reparar l'enllumenat, podar arbres, etc.)</translation>
+        </translations>
+    </nouns>
+    </Entry>
+    <Entry frequency="34400000">cherub<nouns>
             <translations><date>0709</date>
-                <translation gender="m">querubí</translation>
+                <translation disambiguate="religious" gender="m">querubí</translation>
+                <translation gender="m">[child] àngel</translation>
             </translations>
         </nouns>
+    </Entry>
+    <Entry frequency="912000">cherubic<adjectives>
+        <translations><date>0512</date>
+            <translation disambiguate="religious">querúbic</translation>
+            <translation>[child] angelical</translation>
+        </translations>
+    </adjectives>
     </Entry>
 <Entry frequency="5980000">chess<nouns>
         <translations>
@@ -5155,12 +5291,32 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="15200000">chest<nouns>
-        <translations>
+<Entry frequency="618000000">chest<nouns>
+        <translations><date>0512</date>
             <translation disambiguate="body" gender="m">pit</translation>
             <translation gender="f">arca</translation>
         </translations>
     </nouns>
+    <expressions>chest cold
+        <translations>
+            <translation catagory="medical" gender="f">congestió pulmonar<engexamp>To have a chest cold</engexamp><catexamp>Tenir el pit carregat</catexamp></translation>
+        </translations>
+    </expressions>
+    <expressions>chest pain
+        <translations>
+            <translation catagory="medical" gender="m">dolor toràcic</translation>
+        </translations>
+    </expressions>
+    <expressions>chest pass
+        <translations>
+            <translation catagory="sports" gender="f">passada de pit</translation>
+        </translations>
+    </expressions>
+    <expressions>chest wall
+        <translations>
+            <translation catagory="medical" gender="m">estèrnum / post del pit</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="2070000">chestnut<nouns>
         <translations>
@@ -5256,7 +5412,7 @@
     </nouns>
         <phrasalverbs>chicken out
             <translations>
-                <translation register="colloquial">acollonir-se<engnote>Warning: 'acollonir-se' is vulgar.</engnote></translation>
+                <translation register="colloquial">acollonir-se / arronsar-se / fer-se enrere<engnote>Warning: 'acollonir-se' is vulgar.</engnote></translation>
             </translations>
         </phrasalverbs>
     </Entry>
@@ -5266,6 +5422,17 @@
         </translations>
     </nouns>
     </Entry>
+<Entry frequency="711000">chickenshit<nouns>
+        <translations><date>0512</date>
+            <translation local="us" register="slang" gender="fpl">bestieses</translation>
+        </translations>
+    </nouns>
+    <adjectives>
+        <translations>
+            <translation local="us" register="slang">covard</translation>
+        </translations>
+    </adjectives>
+    </Entry>     
 <Entry frequency="32300">chick lit<nouns>
         <translations>
             <translation register="derogatory" gender="f">literatura sentimental<catnote>'Chick lit.' és una expressió que refereix a la nova onada de novel·les sentimentals que s'han escrit en els últims 2-4 anys per les dones i que van destinades específicament a les joves de 18 a 29 anys ('El Diari de Bridget Jones', per exemple).  Moltes persones consideren que aquestes novel·les són 'de poc valor literari' i, per aquesta raó, les anomenen 'chick lit.' ('chick' és una paraula molt sexista utilitzada pels homes per referir a les dones).</catnote>
@@ -5285,9 +5452,9 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="1220000">chide<verbs>
-        <translations>
-            <translation register="formal">reprendre<example>Ecuador's leftist candidate &lt;b&gt;chides&lt;/b&gt; Bush.</example></translation>
+<Entry frequency="6330000">chide<verbs>
+        <translations><date>0512</date>
+            <translation register="formal">reprendre / renyar<example>Ecuador's leftist candidate &lt;b&gt;chides&lt;/b&gt; Bush.</example></translation>
         </translations>
     </verbs>
     </Entry>
