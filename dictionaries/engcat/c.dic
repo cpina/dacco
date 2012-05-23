@@ -2713,7 +2713,7 @@
             <translation>[not formal] informal</translation>
             <translation>[without care] lleuger / frívol</translation>
             <translation>despreocupat / relaxat</translation>
-            <translation>[by chance] casual<engexamp>A casual encounter</engexamp><catexamp>Un encontre casual</catexamp></translation>
+            <translation>[by chance] casual / fortuït<engexamp>A casual encounter</engexamp><catexamp>Un encontre casual (o fortuït)</catexamp></translation>
             <translation>[relationship] de circumstàncies<engexamp>A casual friendship</engexamp><catexamp>Un amistat de circumstàncies</catexamp></translation>
             <translation local="gb" beforenoun="true">temporal</translation>
         </translations>
@@ -3955,6 +3955,12 @@
         </translations>
     </nouns>
     </Entry> 
+    <Entry frequency="73800000">chainsaw<nouns>
+        <translations><date>0512</date>
+        <translation gender="f">serra de cadena / moto-serra / serra mecànica</translation>
+        </translations>
+    </nouns>
+    </Entry> 
 <Entry frequency="53500000">chair<nouns>
         <translations>
             <translation gender="f">cadira</translation>
@@ -3986,6 +3992,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="1150000">chaise<nouns>
+        <translations><date>0512</date>
+        <translation gender="m">cabriolé</translation>
+        </translations>
+    </nouns>
+    </Entry>
+<Entry frequency="2790000">chaise longue<nouns>
+                            <translations><date>0512</date>
+				<translation catagory="household-room-livingroom" gender="m">sofà amb respatller en un sol costat<plural>chaises longues</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>     
 <Entry frequency="816000">chalcedony<nouns>
                             <translations><date>1107</date>
 				<translation catagory="geography" gender="f">calcedònia</translation>
@@ -4022,25 +4040,33 @@
     </nouns>
     </Entry>
 <Entry frequency="151000000">challenge<verbs>
-        <translations><date>0109</date>
-            <translation>desafiar / reptar</translation>
+        <translations><date>0512</date>
+            <translation transitive="true">desafiar / reptar / plantar cara a<engexamp>To challenge yourself (to do something).</engexamp><catexamp>Obligar-se (a si mateix) (a fer una cosa).</catexamp><engexamp>To challenge each other (to do something).</engexamp><catexamp>Rivalitzar (per veure qui sap fer una cosa).</catexamp></translation>
+            <translation transitive="true">posar en dubte / posar en qüestió</translation>
         </translations>
     </verbs>
         <nouns>
             <translations>
-                <translation gender="m">desafiament / repte</translation>
+                <translation gender="m">desafiament / repte / objectiu ambiciós</translation>
+                <translation gender="m">compromís<engexamp>To flee a challenge</engexamp><catexamp>Defugir un compromís</catexamp></translation>
             </translations>
         </nouns>
     </Entry>
 <Entry frequency="16900000">challenging<adjectives>
         <translations>
-            <translation>difícil</translation>
+            <translation>difícil / ambiciós</translation>
         </translations>
     </adjectives>
     </Entry>
 <Entry frequency="116000000">chamber<nouns>
         <translations>
             <translation gender="f">cambra</translation>
+        </translations>
+    </nouns>
+    </Entry>
+<Entry frequency="82800000">chamberlain<nouns>
+        <translations><date>0512</date>
+            <translation gender="m">majordom</translation>
         </translations>
     </nouns>
     </Entry>
@@ -4084,12 +4110,17 @@
     </Entry>
 <Entry frequency="5040000">champagne<nouns>
         <translations>
-            <translation gender="f">cava<engnote>'Cava' is a special kind of champagne made in Catalonia.</engnote>
+            <translation gender="f">[Catalan] cava<engnote>'Cava' is a special kind of champagne made in Catalonia.</engnote>
             </translation>
-            <translation gender="m">xampany<engnote>'Xampany' refers to French champagne.</engnote>
+            <translation gender="m">[French] xampany<engnote>'Xampany' refers to French champagne.</engnote>
             </translation>
         </translations>
     </nouns>
+    <expressions>champagne socialist
+        <translations>
+            <translation local="gb" gender="mf">socialista burgès / socialista de saló</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="9940000">champion<nouns>
         <translations>
@@ -4105,43 +4136,61 @@
     </Entry>
 <Entry frequency="692000000">chance<nouns>
                 <translations><date>0909</date>
-                <translation gender="f">probabilitat / possibilitat
-                <engnote>'Probabilitat' and 'possibilitat' equate to 'chance' in the sense 'there's not much chance of that happening'.</engnote>
-                <example>If you ask me, there's as much &lt;b&gt;chance&lt;/b&gt; of England winning the next World Cup as there is of me winning the lottery!</example>
-                <synonyms>probability, possibility</synonyms>
-              </translation>
-            <translation gender="f">oportunitat<engnote>'Oportunitat' means 'chance' in the sense 'I didn't get the chance to tell him'.</engnote>
-                <example>My father died suddenly which meant I never got the &lt;b&gt;chance&lt;/b&gt; to say goodbye properly</example>
-                <synonyms>opportunity</synonyms>
-            </translation>
+                <translation gender="f">probabilitat / possibilitat<example>If you ask me, there's as much &lt;b&gt;chance&lt;/b&gt; of England winning the next World Cup as there is of me winning the lottery!</example></translation>
+                <grouptranslation>
+            <translation gender="f">oportunitat / ocasió<example>My father died suddenly which meant I never got the &lt;b&gt;chance&lt;/b&gt; to say goodbye properly</example></translation>
+            <translation gender="m">moment oportú</translation>
+            </grouptranslation>
             <grouptranslation>
                 <translation gender="f">casualitat</translation>
                 <translation gender="m">atzar</translation>
-                <engnote>'Casualitat' and 'atzar' mean 'chance' in the sense 'coincidence'.</engnote>
-                <synonyms>coincidence</synonyms>
             </grouptranslation>
-            <translation beforenoun="true">fortuït / casual</translation>
+            <translation beforenoun="true">fortuït / casual<engexamp>A chance encounter</engexamp><catexamp>Un encontre casual (o fortuït)</catexamp></translation>
         </translations>
     </nouns>
-        <phrasalverbs>chance upon
+    <verbs>
+        <translations>
+            <translation register="colloquial" transitive="true">[~ something] arriscar [alguna cosa]</translation>
+            <translation register="colloquial" transitive="true">[~ doing something] arriscar (a fer alguna cosa)<engexamp>I'll chance it!</engexamp><catexamp>M'hi arriscaré!</catexamp></translation>
+            <translation register="literary">[~ to do something] fer (alguna cosa) per casualitat</translation>
+        </translations>
+    </verbs>
+    <phrasalverbs>chance upon
             <translations>
                 <translation intransitive="true">trobar (per casualitat)</translation>
             </translations>
         </phrasalverbs>
-        <exclamations>no chance
-            <translations>
-                <translation>ni pensar-hi!</translation>
-            </translations>
-        </exclamations>
         <expressions>by chance
             <translations>
                 <translation>per casualitat / casualment</translation>
             </translations>
         </expressions>
+        <expressions>to give (something) a chance
+            <translations>
+                <translation>provar sort amb (alguna cosa)</translation>
+            </translations>
+        </expressions>
+        <expressions>not a cat in hell's chance! / no chance in hell! / not a snowball's chance in hell!
+            <translations>
+                <translation>ni de conya!</translation>
+            </translations>
+        </expressions>
+        <expressions>on the off chance that...
+            <translations>
+                <translation>amb l'esperança de / davant l’esperança de / per si de cas...</translation>
+            </translations>
+        </expressions>
+        <expressions>to take no chances
+            <translations>
+                <translation>no voler-se-la jugar</translation>
+            </translations>
+        </expressions>
     </Entry>
         <Entry frequency="3020000">chancellor<nouns>
                 <translations><date>0909</date>
-                    <translation gender="m">canceller</translation>
+                    <translation gender="m">[German or Austrian head of government] canceller</translation>
+                    <translation disambiguate="education" gender="mf">rector / canceller</translation>
+                    <translation disambiguate="politics" local="gb" gender="mf">ministre d(e l'Economia i) Hisenda</translation>
                 </translations>
             </nouns>
             <expressions>Chancellor of the Exchequer
@@ -4159,6 +4208,7 @@
         <Entry frequency="247000000">change<verbs>
                 <translations>
                     <translation>canviar</translation>
+                    <translation>[put on new clothes] canviar-se de roba<synonyms>get changed</synonyms></translation>
                 </translations>
             </verbs>
             <phrasalverbs>change into
@@ -4168,14 +4218,29 @@
             </phrasalverbs>
             <nouns>
                 <translations>
-                    <translation gender="m">canvi<catnote>L'expressió 'to have a change of heart' vol dir 'canviar d'actitud' (Per exemple: 'Fortunately for Diane, although her father said she couldn't go out to the disco that night he had a change of heart at the last minute and said she could go after all').</catnote>
-                    </translation>
+                    <translation gender="m">canvi</translation>
+                    <translation gender="m">[money returned] canvi</translation>
+                    <grouptranslation>
+                    <translation gender="m">[coins] canvi</translation>
+                    <translation gender="f">moneda</translation>
+                    </grouptranslation>
+                    <translation disambiguate="transport" gender="m">transbord</translation>
                     <translation capitalized="the change (of life)" gender="f">menopausa<example>The book 'Menopause for Dummies' is designed for women currently going through &lt;b&gt;the change&lt;/b&gt;.</example></translation>
                 </translations>
             </nouns>
+            <expressions>to change your mind
+                <translations>
+                    <translation>repensar-s'hi</translation>
+                </translations>
+            </expressions>                
             <expressions>change purse
                 <translations>
                     <translation local="us" gender="m">moneder / portamonedes<otherlocal>purse</otherlocal></translation>
+                </translations>
+            </expressions>
+            <expressions>to have a change of heart
+                <translations>
+                    <translation>repensar-s'hi</translation>
                 </translations>
             </expressions>
         </Entry>
@@ -4219,17 +4284,18 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="2500000">chant<verbs>
-        <translations>
-            <translation>cantar / salmodiar / entonar</translation>
+<Entry frequency="123000000">chant<verbs>
+        <translations><date>0512</date>
+            <translation>corejar / cridar (consignes)</translation>
+            <translation disambiguate="religious">cantar / salmodiar / entonar</translation>
         </translations>
     </verbs>
-        <nouns>
+    <nouns>
         <translations>
-        <grouptranslation><translation gender="m">càntic</translation>
-        <translation gender="f">cançó / consigna</translation></grouptranslation>
-</translations>
-</nouns>
+            <translation gender="f">cançó / cantarella / consigna</translation>
+            <translation disambiguate="religious" gender="m">càntic / cant<engexamp>Gregorian chant</engexamp><catexamp>Cant gregorià</catexamp></translation>
+        </translations>
+    </nouns>
     </Entry>
      <Entry frequency="1990000">chanter<nouns>
                 <translations><date>0708</date>
@@ -4246,11 +4312,19 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="8520000">chaos<nouns>
-        <translations>
-            <translation gender="m">caos</translation>
+<Entry frequency="319000000">chaos<nouns>
+        <translations><date>0512</date>
+            <grouptranslation>
+            <translation gender="m">caos / enrenou / desgovern / desordre social</translation>
+            <translation gender="f">anarquia</translation>
+            </grouptranslation>
         </translations>
     </nouns>
+    <expressions>chaos theory
+        <translations>
+            <translation gender="f">teoria del caos</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="973000">chaotic<adjectives>
         <translations>
@@ -4310,18 +4384,60 @@
                     </translations>
                 </abbreviations>
 	</Entry>
-<Entry frequency="106000000">character<nouns>
-        <translations>
-            <translation gender="m">personatge</translation>
-            <translation disambiguate="computers" termcat="true" gender="m">caràcter</translation>
+<Entry frequency="3350000000">character<nouns>
+        <translations><date>0512</date>
+            <grouptranslation>
+            <translation gender="m">[nature] caràcter</translation>
+            <translation gender="f">personalitat</translation>
+            </grouptranslation>
+            <translation gender="ffullform">identitat / idiosincràsia</translation>
+            <translation gender="m">tipus / individu</translation>
+            <translation sourceplural="a (real) character">tot un personatge</translation>
+            <translation gender="m">[in a book, movie..] personatge<engexamp>To get in character.</engexamp><catexamp>Ficar-se a la pell del personatge.</catexamp></translation>            
+            <translation gender="m">[symbol, letter..] caràcter (tipogràfica) / tipus</translation>
         </translations>
     </nouns>
+    <expressions>character actor
+        <translations>
+            <translation gender="mf">actor(a) de caràcter</translation>
+        </translations>
+    </expressions>
+    <expressions>character assassination
+        <translations>
+            <translation gender="f">difamació</translation>
+        </translations>
+    </expressions>        
         <expressions>character set
             <translations>
                 <translation termcat="true" gender="m">joc de caràcters</translation>
             </translations>
         </expressions>
+        <expressions>character witness
+            <translations>
+                <translation gender="mf">testimoni de moralitat</translation>
+            </translations>
+        </expressions>
+        <expressions>to be out of character
+            <translations>
+                <translation>ser insòlit / inhabitual / desdir / ser impropi (d'algú)</translation>
+            </translations>
+        </expressions>
     </Entry>
+    <Entry frequency="53200000">characterisation<nouns>
+        <translations><date>0512</date>
+            <grouptranslation local="gb">
+                <translation gender="f">descripció</translation>
+                <translation gender="m">retrat<otherlocal>characterization</otherlocal></translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+</Entry> 
+<Entry frequency="39700000">characterise<verbs>
+        <translations><date>0512</date>
+            <translation local="gb" transitive="true">qualificar / descriure<otherlocal>characterize</otherlocal></translation>
+        </translations>
+    </verbs>
+</Entry> 
 <Entry frequency="23500000">characteristic<nouns>
         <translations>
             <grouptranslation><translation gender="f">característica</translation>
@@ -4334,28 +4450,54 @@
             </translations>
         </adjectives>
     </Entry>
-<Entry frequency="749000">charade<nouns>
-        <translations>
+<Entry frequency="105000000">characterization<nouns>
+        <translations><date>0512</date>
+            <grouptranslation>
+                <translation gender="f">descripció</translation>
+                <translation gender="m">retrat</translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+</Entry>    
+<Entry frequency="168000000">characterize<verbs>
+        <translations><date>0512</date>
+            <translation transitive="true">qualificar / descriure</translation>
+        </translations>
+    </verbs>
+</Entry> 
+<Entry frequency="694000">characterless<adjectives>
+        <translations><date>0512</date>
+            <translation>impersonal</translation>
+        </translations>
+    </adjectives>
+</Entry> 
+<Entry frequency="23600000">charade<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">farsa</translation>
+            <grouptranslation sourceplural="charades">
             <translation gender="f">xarada</translation>
+            <translation gender="m">joc d'endevinalles</translation>
+            </grouptranslation>
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="1720000">charcoal<nouns>
-			<translations><date>0307</date>
-				<translation gender="m">carbó (vegetal)</translation>
-                                <translation gender="m">carbonet</translation>
+<Entry frequency="158000000">charcoal<nouns>
+			<translations><date>0512</date>
+				<translation gender="m">carbó (vegetal) / carbonet</translation>
+                                <translation gender="m">(gris) morengo</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="70900000">charge<verbs>
-        <translations>
-            <translation>acusar<example>The police &lt;b&gt;charged&lt;/b&gt; him with disturbing the peace</example>
-                <engnote>Al·legar means to charge as in to allege.</engnote>
-            </translation>
-            <translation>cobrar<example>Can you believe some shops are &lt;b&gt;charging&lt;/b&gt; $20 for the new Chicago DVD? I only paid $15 on Amazon</example>
-                <example>Durham was one of the first cities in Britian to &lt;b&gt;charge&lt;/b&gt; motorists to enter the city</example>
-                <engnote>Cobrar means to charge as in to charge a fee.</engnote>
-            </translation>
+        <translations><date>0512</date>
+            <translation>[accuse] acusar / incriminar<example>The police &lt;b&gt;charged&lt;/b&gt; him with disturbing the peace</example></translation>
+            <translation>[a fee, sum of money..] cobrar<example>Can you believe some shops are &lt;b&gt;charging&lt;/b&gt; $20 for the new Chicago DVD? I only paid $15 on Amazon.</example><example>Durham was one of the first cities in Britian to &lt;b&gt;charge&lt;/b&gt; motorists to enter the city.</example></translation>
+            <translation>[~ somebody with something] encarregar de / responsabilitzar de</translation>
+            <translation>[make note of cost] carregar en compte</translation>
+            <translation local="us">pagar amb targeta de crèdit</translation>
+            <translation>[to rush] abalançar-se / marxar (o sortir o entrar) corrent</translation>
+            <translation>[military or police] carregar contra / envestir</translation>
+            <translation>[a battery] carregar</translation>
         </translations>
     </verbs>
         <phrasalverbs>charge off
@@ -4365,19 +4507,31 @@
         </phrasalverbs>
         <nouns>
             <translations>
-                <translation gender="m">cost<engnote>Cost means charge as in a price for something.</engnote>
-                    <synonyms>cost</synonyms>
-                </translation>
-                <translation gender="f">al·legació<engnote>Al·legació means charge as in an allegation.</engnote>
-                    <synonyms>allegation</synonyms>
-                </translation>
+                <translation gender="m">cost / preu</translation>
+                <translation gender="f">[accusation] acusació</translation>
+                <translation gender="f">[allegation] al·legació</translation>
+                <translation gender="f">[electricity] càrrega</translation>
+                <translation gender="f">[military or police] càrrega</translation>
+                <grouptranslation register="formal">
+                <translation gender="m">càrrec</translation>
+                <translation gender="f">responsabilitat</translation>
+                </grouptranslation>
             </translations>
         </nouns>
-        <expressions>be in charge<translations><translation>manar</translation></translations></expressions>
+        <expressions>to be in charge
+            <translations>
+                <translation>manar / governar la situació / tenir dominada la situació</translation>
+            </translations>
+        </expressions>
     <expressions>(person) in charge
     <translations>
         <translation>responsable</translation>
         </translations>
+        </expressions>
+        <expressions>to take charge
+            <translations>
+                <translation>fer-se càrrec / agafar la iniciativa</translation>
+            </translations>
         </expressions>
     </Entry>
 <Entry frequency="1010000">chariot<nouns>
@@ -4398,10 +4552,14 @@
         </translations>
     </adjectives>
     </Entry>
-<Entry frequency="73100000">charity<nouns>
-        <translations><date>1008</date>
+<Entry frequency="496000000">charity<nouns>
+        <translations><date>0512</date>
             <translation gender="f">caritat</translation>
-            <translation gender="f">entitat benèfica</translation>
+            <grouptranslation>
+            <translation gender="ffullform">institució benèfica</translation>
+            <translation gender="f">fundació benèfica (o sense ànim de lucre)</translation>
+            </grouptranslation>
+            <translation beforenoun="true">benèfic</translation>
         </translations>
     </nouns>
         <expressions>charity shop
@@ -4418,26 +4576,68 @@
     </Entry>
 <Entry frequency="10800000">charm<nouns>
         <translations>
+            <translation gender="f">capacitat de seducció</translation>
             <grouptranslation><translation gender="m">encant / encís</translation>
-                <translation gender="f">gràcia</translation></grouptranslation>
+                <translation gender="f">gràcia / grapa</translation></grouptranslation>
+                <grouptranslation>
+                    <translation gender="m">conjur</translation>
+                    <translation gender="f">fórmula màgica</translation>
+                </grouptranslation>                
         </translations>
     </nouns>
         <verbs>
         <translations>
         <translation>encantar / captivar</translation></translations></verbs>
+        <expressions>like a charm
+            <translations>
+                <translation>de meravella / com una seda<engexamp>The engine works like a charm.</engexamp><catexamp>El motor funciona com una seda.</catexamp></translation>
+            </translations>
+        </expressions>
     </Entry>
-<Entry frequency="29300000">chart<nouns>
-        <translations>
+    <Entry frequency="264000000">charming<adjectives>
+        <translations><date>0512</date>
+            <translation>[person] captivador / [thing] deliciós<engexamp>[person] To be charming</engexamp><catexamp>Tenir miraments / ser atent (amb algú)</catexamp><engexamp>[thing] To be charming</engexamp><catexamp>Ser una delícia</catexamp></translation>
+        </translations>
+    </adjectives>
+    </Entry>
+<Entry frequency="2480000">chart<nouns>
+        <translations><date>0512</date>
+            <grouptranslation>
             <translation gender="f">gràfica</translation>
-            <translation gender="m">diagrama</translation>
-            <translation gender="m">quadre</translation>
+            <translation gender="m">diagrama / quadre</translation>
+            </grouptranslation>
+            <translation gender="f">carta (de navegació)</translation>
+            <translation sourceplural="the charts" gender="f">llista d'èxits</translation>
         </translations>
     </nouns>
+    <verbs>
+        <translations>
+            <translation>[follow] seguir / rastrejar</translation>
+            <translation>[map] dibuixar un mapa</translation>
+            <translation>[plan] traçar / planificar</translation>
+            <translation catagory="entertainment-music" register="colloquial">arribar a la posició x a la llista d'àlbums (o senzills)<example>The album &lt;b&gt;charted&lt;/b&gt; at number one in ten countries.</example></translation>
+        </translations>
+    </verbs>
         <phrasalverbs>chart out
             <translations>
                 <translation>dibuixar un diagrama o ruta / planificar</translation>
             </translations>
-        </phrasalverbs>
+        </phrasalverbs>  
+        <expressions>eye chart
+            <translations>
+                <translation gender="f">taula optomètrica / taula ocular</translation>
+            </translations>
+        </expressions>
+        <expressions>medical chart
+            <translations>
+                <translation catagory="medicine" gender="f">història clínica (d'un pacient)</translation>                
+            </translations>
+        </expressions>
+        <expressions>weather chart
+            <translations>
+                <translation gender="m">mapa del temps</translation>
+            </translations>
+        </expressions>
     </Entry>
     <Entry frequency="89500000">charter<nouns>
             <translations><date>0209</date>
