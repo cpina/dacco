@@ -5572,7 +5572,7 @@
 	</Entry>
 <Entry frequency="756000">molar<nouns>
 			<translations>
-				<translation gender="m">queixal</translation>
+				<translation catagory="body" gender="m">queixal</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6599,12 +6599,23 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="341000000">motor<nouns>
-                            <translations><date>0510</date>
+<Entry frequency="778000">motoneuron<nouns>
+			<translations><date>0512</date>
+				<translation catagory="biology" gender="f">motoneurona / neurona motriu</translation>
+			</translations>
+		</nouns>
+	</Entry>        
+<Entry frequency="5100000000">motor<nouns>
+                            <translations><date>0512</date>
 				<translation gender="m">motor</translation>
                                 <translation local="gb" register="dated" disambiguate="transport" gender="m">cotxe</translation>
 			</translations>
 		</nouns>
+                <expressions>motor neuron
+                    <translations>
+                        <translation gender="f">motoneurona / neurona motora / neurona motriu</translation>
+                    </translations>
+                </expressions>
                 <expressions>motor neuron disease
                     <translations>
                         <translation catagory="medical-illness" gender="f">malaltia de la neurona motora</translation>

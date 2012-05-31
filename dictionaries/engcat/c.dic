@@ -1281,6 +1281,16 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="12300000">canvass<verbs>
+        <translations><date>0512</date>
+            <translation transitive="true">demanar el vot</translation>
+            <translation intransitive="true">buscar vots / fer campanya</translation>
+            <translation transitive="true">sondejar</translation>
+            <translation transitive="true">discutir</translation>
+            <translation>[~ support] demanar ajut</translation>
+        </translations>
+    </verbs>
+    </Entry>
 <Entry frequency="448000000">canyon<nouns>
         <translations><date>0512</date>
             <translation catagory="geography" gender="m">congost / engorjat</translation>
@@ -7588,6 +7598,13 @@
         </translations>
     </nouns>
     </Entry>
+<Entry frequency="68100000">clerical<adjectives>
+        <translations><date>0512</date>
+            <translation>administratiu / burocràtic / d'oficina</translation>
+            <translation disambiguate="religious">clerical</translation>
+        </translations>
+    </adjectives>
+    </Entry>     
 <Entry frequency="4850000">clerk<nouns>
         <translations>
             <translation gender="mf">comptable</translation>
@@ -7596,12 +7613,18 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="3720000">clever<adjectives>
-        <translations>
-            <translation>llest / intel·ligent / espavilat<synonyms>smart, intelligent</synonyms>
-            </translation>
+<Entry frequency="19000000">clever<adjectives>
+        <translations><date>0512</date>
+            <translation>llest / intel·ligent / espavilat<synonyms>smart, intelligent</synonyms></translation>
+            <translation>enginyós</translation>
+            <translation local="gb">[~ at something] competent / capaç</translation>
         </translations>
     </adjectives>
+    <expressions>to be too clever for your own good
+        <translations>
+            <translation>fer el viu / voler ser més espavilat del compte</translation>
+        </translations>
+    </expressions>
     </Entry>
     <Entry frequency="237000">clever clogs<nouns>
         <translations><date>0512</date>
@@ -7713,6 +7736,12 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="195000000">climax<nouns>
+        <translations><date>0512</date>
+            <translation gender="m">moment culminant / clímax</translation>
+        </translations>
+    </nouns>
+    </Entry>
 <Entry frequency="2330000">climb<verbs>
         <translations>
             <translation>pujar / ascendir</translation>
@@ -7765,6 +7794,18 @@
                 <translation gender="m">argument que rebla el clau</translation>
             </translations>
         </expressions>
+        <expressions>to clinch matters...
+            <translations>
+                <translation>per acabar-ho d'adobar...</translation>
+            </translations>
+        </expressions>
+    </Entry>
+    <Entry frequency="10100000">clincher<nouns>
+        <translations><date>0512</date>
+            <translation gender="m">(argument, fet, comentari..) irrebatible</translation>
+            <translation gender="m">(gol, punt..) de la victòria</translation>
+        </translations>
+    </nouns>
     </Entry>
 <Entry frequency="842000">cling<verbs>
         <past>clung</past>
@@ -7776,9 +7817,16 @@
     <phrasalverbs>cling to
         <translations>
             <translation intransitive="true">agafar-se a</translation>
+            <translation intransitive="true">mantenir-se fidel (a)</translation>
         </translations>
     </phrasalverbs>
 </Entry>
+<Entry frequency="2180000">cling film<nouns>
+        <translations><date>0512</date>
+            <translation local="gb" gender="m">film transparent autoadherent / paper transparent (de cuina)<otherlocal>plastic wrap</otherlocal></translation>
+        </translations>
+    </nouns>
+    </Entry>
 <Entry frequency="1070000">clingy<adjectives>
 			<translations><date>1108</date>
 				<translation register="colloquial">(person) apegalós / enganxós</translation>
@@ -7814,9 +7862,10 @@
                     </translations>
                 </nouns>
 	</Entry>
-<Entry frequency="28600000">clip<nouns>
-        <translations>
+<Entry frequency="4600000000">clip<nouns>
+        <translations><date>0512</date>
             <translation gender="m">clip</translation>
+            <translation gender="m">tall / fragment</translation>
         </translations>
     </nouns>
         <verbs double="true">
@@ -7830,12 +7879,27 @@
             </translations>
         </expressions>
     </Entry>
-<Entry frequency="1990000">clipboard<nouns>
-        <translations>
-            <translation catagory="computers" termcat="true" gender="m">porta-retalls</translation>
+<Entry frequency="194000000">clipboard<nouns>
+        <translations><date>0512</date>
+            <grouptranslation>
+            <translation gender="f">carpeta amb pinça</translation>
+            <translation gender="m">portanotes</translation>
+            </grouptranslation>
+            <translation disambiguate="computers" termcat="true" gender="m">porta-retalls</translation>
         </translations>
     </nouns>
     </Entry>
+<Entry frequency="66800000">clipping<nouns>
+        <translations><date>0512</date>
+                <translation gender="m">retall</translation>
+        </translations>
+    </nouns>
+    <expressions>press clipping
+        <translations>
+            <translation gender="m">retall de premsa</translation>
+        </translations>
+    </expressions>        
+    </Entry>    
 <Entry frequency="3300000">clique<nouns>
         <translations>
             <grouptranslation><translation gender="f">camarilla / colla</translation>
@@ -7879,9 +7943,10 @@
                     </translations>
                 </nouns>
 	</Entry>
-<Entry frequency="31000000">clock<nouns>
-        <translations>
+<Entry frequency="2010000000">clock<nouns>
+        <translations><date>0512</date>
             <translation gender="m">rellotge</translation>
+            <translation disambiguate="transport" gender="m">comptaquilòmetres</translation>
         </translations>
     </nouns>
     <phrasalverbs>clock out
@@ -7889,6 +7954,11 @@
             <translation intransitive="true">fitxar-se (quan se surt de treballar)</translation>
         </translations>
     </phrasalverbs>
+    <expressions>round the clock
+        <translations>
+            <translation>les vint-i-quatre hores del dia</translation>
+        </translations>
+    </expressions>
 </Entry>
 <Entry frequency="909000">clockwise<adjectives>
         <translations>
@@ -7901,16 +7971,23 @@
             </translations>
         </adverbs>
     </Entry>
-<Entry frequency="2770000">clog<verbs double="true">
-        <translations>
-            <translation transitive="true">embussar</translation>
-            <translation intransitive="true">embussar-se</translation>
+    <Entry frequency="25900000">clockwork<nouns>
+        <translations><date>0512</date>
+                <translation gender="m">mecanisme de rellotgeria</translation>
+                <translation beforenoun="true">de corda</translation>
+        </translations>
+    </nouns>
+    </Entry>
+<Entry frequency="87000000">clog<verbs double="true">
+        <translations><date>0512</date>
+            <translation transitive="true">embussar / obstruir</translation>
+            <translation intransitive="true">embussar-se / obstruir-se</translation>
         </translations>
     </verbs>
         <phrasalverbs>clog up
         <translations>
-        <translation transitive="true">embussar</translation>
-    <translation intransitive="true">embussar-se</translation>
+        <translation transitive="true">embussar / obstruir</translation>
+    <translation intransitive="true">embussar-se / obstruir-se</translation>
 </translations>
 </phrasalverbs>
         <nouns>
@@ -8126,6 +8203,12 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="1330000">clotted cream<nouns>
+        <translations><date>0512</date>
+                <translation catagory="food" gender="m">mató</translation>
+        </translations>
+    </nouns>
+    </Entry>
 <Entry frequency="18300000">cloud<nouns>
         <translations>
             <translation catagory="weather" gender="m">núvol</translation>
@@ -8133,7 +8216,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>enterbolir</translation>
+                <translation>enterbolir / ofuscar</translation>
             </translations>
         </verbs>
         <phrasalverbs>cloud over
@@ -8151,6 +8234,17 @@
                 <translation catagory="weather" gender="f">nuvolositat</translation>
             </translations>
         </expressions>
+    </Entry>
+    <Entry frequency="896000">cloud cuckoo land<nouns>
+        <translations><date>0512</date>
+                <translation gender="f">quimera</translation>                
+        </translations>
+    </nouns>
+    <expressions>to live in cloud cuckoo land
+        <translations>
+            <translation>viure a la lluna</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="1570000">cloudiness<nouns>
         <translations>
@@ -8214,18 +8308,59 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="168000000">club<nouns>
-        <translations>
+<Entry frequency="16370000000">club<nouns>
+        <translations><date>0512</date>
             <translation gender="m">club<engexamp>Football club</engexamp><catexamp>Club de futbol</catexamp></translation>
-            <translation gender="f">sala de festes<synonyms>nightclub</synonyms></translation>
-            <grouptranslation><translation gender="m">bastó / basto / garrot<engnote>'Bastó', 'basto' and 'garrot' mean 'club' in the sense 'one of the four suits in a Spanish deck of cards.</engnote><catnote>Carta del coll 'bastos' d'una baralla espanyola.</catnote></translation>
+            <grouptranslation>
+            <translation gender="f">sala de festes</translation>
+            <translation gender="m">local nocturn</translation>
+            </grouptranslation>
+            <translation gender="m">bastó / basto / garrot<engnote>'Bastó', 'basto' and 'garrot' mean 'club' in the sense 'one of the four suits in a Spanish deck of cards.</engnote><catnote>Carta del coll 'bastos' d'una baralla espanyola.</catnote></translation>
                 <translation gender="m">trèbol<engnote>'Trèbol' means 'club' in the sense 'one of the four suits in an English / American deck of cards.</engnote><catnote>Carta del coll 'trèbols' d'una baralla francesa.</catnote></translation>
-                <translation gender="m">pal<engnote>'Bastó' and 'pal' mean 'club' in the sense 'golf club'.</engnote></translation></grouptranslation>
+                <translation catagory="sports-event-golf" gender="m">pal (de golf)</translation>
             <translation sourceplural="clubs" gender="mpl">trèbols<engnote>'Trèbols' means the suit 'clubs' in an English / American deck of cards.</engnote><catnote>Coll 'trèbols' d'una baralla francesa.</catnote></translation>
             <translation sourceplural="clubs" gender="mpl">bastons / bastos / garrots<engnote>'Bastons', 'bastos' and 'garrots' mean the suit 'clubs' in a Spanish deck of cards.</engnote><catnote>Coll 'bastos / bastons / garrots' d'una baralla espanyola.</catnote></translation>
         </translations>
     </nouns>
+    <verbs double="true">
+        <translations>
+            <translation>bastonejar / garrotejar</translation>
+        </translations>
+    </verbs>
+    <phrasalverbs>club together
+        <translations>
+            <translation local="gb">comprar (una cosa) entre tots</translation>
+        </translations>
+    </phrasalverbs>
+    <expressions>club chair
+        <translations>
+            <translation gender="f">butaca</translation>
+        </translations>
+    </expressions>
+    <expressions>to be in the club
+        <translations>
+            <translation local="gb" register="colloquial">estar embarassada</translation>
+        </translations>
+    </expressions>
+    <expressions>neighborhood club
+        <translations>
+            <translation gender="f">associació (o entitat) veïnal</translation>
+        </translations>
+    </expressions>
     </Entry>
+    <Entry frequency="683000">cluck<verbs>
+                            <translations><date>0512</date>
+                                <translation catagory="animal" intransitive="true">cloquejar / escatainar</translation>
+                                <translation intransitive="true">espetegar la llengua</translation>
+			</translations>
+		</verbs>
+                <nouns>
+                    <translations>
+                        <translation catagory="animal" gender="m">cloc-cloc</translation>
+                        <translation gender="m">espetec de la llengua</translation>
+                    </translations>
+                </nouns>
+	</Entry>
 <Entry frequency="9270000">clue<nouns>
         <translations>
             <translation gender="f">pista</translation>
@@ -8233,15 +8368,20 @@
     </nouns>
     <phrasalverbs>clue in
     <translations>
-        <translation register="colloquial">informar<example>The cheeky smile &lt;b&gt;clued him in&lt;/b&gt; to the fact that she was up to no good.</example></translation>
+        <translation register="colloquial">informar / assabentar<example>The cheeky smile &lt;b&gt;clued him in&lt;/b&gt; to the fact that she was up to no good.</example></translation>
     </translations>
     </phrasalverbs>
     </Entry>
-<Entry frequency="683000">clueless<adjectives>
-                            <translations><date>0508</date>
-                                <translation>negat<engnote>Feminine = negada.</engnote></translation>
+<Entry frequency="40900000">clueless<adjectives>
+                            <translations><date>0512</date>
+                                <translation>negat</translation>
 			</translations>
 		</adjectives>
+                <expressions>to be clueless (about something)
+                    <translations>
+                        <translation>no tener ni idea (d'alguna cosa) / estar en blanc</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="765000">clumsiness<nouns>
                             <translations><date>1108</date>
@@ -8249,12 +8389,23 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="823000">clumsy<adjectives>
-        <translations><date>1008</date>
-            <translation>maldestre / barroer / matusser / graponer</translation>
+<Entry frequency="26400000">clumsy<adjectives>
+        <translations><date>0512</date>
+            <translation>maldestre / barroer / matusser / graponer /  pocatraça</translation>
         </translations>
     </adjectives>
     </Entry>
+      <Entry frequency="6130000">clunk<nouns>
+                            <translations><date>0512</date>
+				<translation gender="m">so metàl·lic sord</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation>fer un so metàl·lic sord</translation>
+                    </translations>
+                </verbs>
+	</Entry>
     <Entry frequency="5560000">clunker<nouns>
                                     <translations><date>0809</date>
                                         <grouptranslation local="us" register="colloquial">
@@ -8265,18 +8416,24 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="72300000">cluster<nouns>
-        <translations><date>0708</date>
-            <translation gender="m">clúster</translation>
+<Entry frequency="221000000">cluster<nouns>
+        <translations><date>0512</date>
+            <translation disambiguate="computers" gender="m">clúster</translation>
             <translation gender="m">grup</translation>
             <translation gender="f">aglomeració</translation>
+            <translation gender="m">[of stars, galaxies..] cúmul / amàs</translation>
         </translations>
     </nouns>
 <verbs>
 <translations>
-<translation>agrupar-se / aglomerar-se</translation>
+<translation intransitive="true">agrupar-se / aglomerar-se</translation>
 </translations>
 </verbs>
+<expressions>cluster bomb
+    <translations>
+        <translation gender="f">bomba de dispersió</translation>
+    </translations>
+</expressions>
     </Entry>
 <Entry frequency="2490000">clutch<nouns>
         <translations>
@@ -8293,6 +8450,16 @@
             <translation intransitive="true">agafar-se a</translation>
         </translations>
     </phrasalverbs>
+    <expressions>clutch bag
+        <translations>
+            <translation gender="f">bossa de nit (rectangular, de mà, especialment per a dona, per posar-hi el pintallavis, el mirallet, etc.)</translation>
+        </translations>
+    </expressions>
+    <expressions>to escape from someone's clutches
+        <translations>
+            <translation>escapar de les urpes d'algú</translation>
+        </translations>
+    </expressions>
 </Entry>
 <Entry frequency="70700000">clutter<nouns>
         <translations>
@@ -8301,12 +8468,12 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>emplenar desordenadament / desendreçar</translation>
+                <translation>enfarfegar / emplenar desordenadament / desendreçar</translation>
             </translations>
         </verbs>
         <phrasalverbs>clutter up
             <translations>
-                <translation>emplenar desordenadament / desendreçar<example>Temp files &lt;b&gt;clutter up&lt;/b&gt; your hard drive</example><example>I wish you wouldn't &lt;b&gt;clutter up&lt;/b&gt; the garage with your rubbish. I want to park the car.</example></translation>
+                <translation>enfarfegar / emplenar desordenadament / desendreçar<example>Temp files &lt;b&gt;clutter up&lt;/b&gt; your hard drive</example><example>I wish you wouldn't &lt;b&gt;clutter up&lt;/b&gt; the garage with your rubbish. I want to park the car.</example></translation>
             </translations>
         </phrasalverbs>
     </Entry>
@@ -8322,12 +8489,21 @@
 			</translations>
 		</acronyms>
 	</Entry>
-<Entry frequency="40800000">coach<nouns>
-        <translations>
+<Entry frequency="1860000000">coach<nouns>
+        <translations><date>0512</date>
             <translation disambiguate="sports, work-job" gender="mf">entrenador / tècnic</translation>
             <translation disambiguate="transport" gender="m">autocar</translation>
+            <translation disambiguate="education" gender="mf">professor particular</translation>
+            <translation local="gb" gender="m">vagó<otherlocal>carriage</otherlocal></translation>
+            <translation gender="m">carruatge (cobert i de quatre rodes)</translation>
         </translations>
     </nouns>
+    <verbs>
+        <translations>
+            <translation transitive="true">entrenar</translation>
+            <translation transitive="true">fer classes particulars (a algú) / alliçonar</translation>
+        </translations>
+    </verbs>
     </Entry>
 <Entry frequency="611000">coagulate<verbs>
 			<translations><date>1007</date>
@@ -8479,7 +8655,7 @@
     </Entry>
 <Entry frequency="157000">cockatoo<nouns>
         <translations>
-            <translation gender="f">cacatua</translation>
+            <translation catagory="animal-bird" gender="f">cacatua</translation>
         </translations>
     </nouns>
     </Entry>

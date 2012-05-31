@@ -3445,7 +3445,7 @@
 		</prepositions>
                 <nouns>
                 <translations>
-                <translation register="slang" gender="m">cul<example>Every day Peter's wife cooks, cleans and looks after the children while he just sits on his fat &lt;b&gt;behind&lt;/b&gt; and watches television.</example></translation>
+                <translation catagory="body" register="slang" gender="m">cul<example>Every day Peter's wife cooks, cleans and looks after the children while he just sits on his fat &lt;b&gt;behind&lt;/b&gt; and watches television.</example></translation>
                 </translations>
                 </nouns>
 	</Entry>
@@ -6713,17 +6713,23 @@
                 </expressions>
                 <expressions>blood cell
                     <translations>
-                        <translation catagory="biology" gender="m">glòbul de la sang</translation>
+                        <translation catagory="biology" gender="f">cèl·lula sanguínia / cèl·lula de la sang</translation>
                     </translations>
                 </expressions>
                 <expressions>red blood cell
                     <translations>
-                        <translation catagory="biology" gender="m">glòbul vermell</translation>
+                        <grouptranslation catagory="biology">
+                            <translation gender="f">cèl·lula vermella</translation>
+                        <translation gender="m">glòbul vermell</translation>
+                        </grouptranslation>
                     </translations>
                 </expressions>
                 <expressions>white blood cell
                     <translations>
-                        <translation catagory="biology" gender="m">glòbul blanc</translation>
+                        <grouptranslation catagory="biology">
+                        <translation gender="m">glòbul blanc</translation>
+                        <translation gender="f">cèl·lula blanca</translation>
+                        </grouptranslation>
                     </translations>
                 </expressions>
                 <expressions>blood donor
@@ -6744,7 +6750,12 @@
                 </expressions>
                 <expressions>blood transfusion
                     <translations>
-                        <translation gender="f">transfusió de sang</translation>
+                        <translation catagory="medical" gender="f">transfusió de sang</translation>
+                    </translations>
+                </expressions>
+                <expressions>blood vessel
+                    <translations>
+                        <translation catagory="biology" gender="m">vas sanguini</translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -8147,7 +8158,7 @@
 	</Entry>
 <Entry frequency="5070000">boob<nouns>
 			<translations>
-				<translation catagory="body" register="slang" gender="m">pit<catnote>Generalment de dona però pot significar d'home també.</catnote></translation>
+				<translation catagory="body" register="slang" gender="f">teta</translation>
                                 <translation local="us" gender="mf">idiota / baliga-balaga</translation>
 			</translations>
 		</nouns>
@@ -12977,7 +12988,7 @@
 	</Entry>
 <Entry frequency="3440000">butt<nouns>
 			<translations>
-				<translation disambiguate="body" local="us" gender="m">cul<otherlocal>bottom, arse (vulg.), backside (colloq.)</otherlocal>
+				<translation disambiguate="body" register="colloquial" local="us" gender="m">cul<otherlocal>bottom, arse (vulg.), backside (colloq.)</otherlocal>
 				</translation>
 				<translation gender="m">objectiu<example>I'm sick of always being the &lt;b&gt;butt&lt;/b&gt; of his jokes</example>
 					<example>George W. Bush's speeches are the &lt;b&gt;butt&lt;/b&gt; of jokes worldwide</example>
