@@ -8526,10 +8526,20 @@
         <translations>
             <translation>portar aigua al mar</translation>
         </translations>
-    </expressions>    
+    </expressions>
+    <expressions>coal merchant
+        <translations>
+            <translation gender="mf">comerciant en carbó / carboner</translation>
+        </translations>
+    </expressions>
     <expressions>coal mine
         <translations>
             <translation gender="f">mina de carbó</translation>
+        </translations>
+    </expressions>
+    <expressions>coal scuttle
+        <translations>
+            <translation gender="f">senalla del carbó</translation>
         </translations>
     </expressions>
     </Entry>
@@ -8551,26 +8561,51 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="1270000">coarse<nouns>
-        <translations>
-            <translation>aspre / bast / tosc<engnote>'Aspre', 'bast' and 'tosc' mean 'coarse' as in 'rough'.</engnote></translation>
-                <translation>groller<engnote>'Groller' means 'course' as in 'rude / vulgar'.</engnote></translation>
+<Entry frequency="1270000">coarse<adjectives>
+        <translations><date>0512</date>
+            <translation>[rough] aspre / bast / tosc</translation>
+            <translation>[not fine] gruixut</translation>
+                <translation>[rude] groller</translation>
         </translations>
-    </nouns>
+    </adjectives>
+    </Entry>
+    <Entry frequency="1270000">coarsely<adverbs>
+        <translations><date>0512</date>
+            <translation>[~ chopped, cut..] (tallat) en trossos gruixuts</translation>
+                <translation>de manera grollera / grollerament</translation>
+        </translations>
+    </adverbs>
     </Entry>
 <Entry frequency="257000">coarsen<verbs>
         <translations>
             <translation>fer més tosc / fer més groller / fer més bast</translation>
-            <translation>embrutir<engexamp>War hasn't coarsened him</engexamp><catexamp>La guerra no l'ha embrutit</catexamp></translation>
+            <translation>embrutir<engexamp>War hasn't coarsened him.</engexamp><catexamp>La guerra no l'ha embrutit.</catexamp></translation>
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="37000000">coast<nouns>
-        <translations>
+     <Entry frequency="1130000">coarseness<nouns>
+        <translations><date>0512</date>
+                <translation gender="f">asperitat / tosquedat</translation>
+                <translation gender="f">grolleria</translation>
+        </translations>
+    </nouns>
+    </Entry>
+<Entry frequency="2190000000">coast<nouns>
+        <translations><date>0512</date>
             <grouptranslation catagory="geography"><translation gender="m">litoral</translation>
                 <translation gender="f">costa</translation></grouptranslation>
         </translations>
     </nouns>
+    <verbs>
+        <translations>
+            <translation intransitive="true">rossolar</translation>
+        </translations>
+    </verbs>
+    <expressions>the coast is clear
+        <translations>
+            <translation>no hi ha perill / no hi ha moros a la costa</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="46800000">coastal<adjectives>
         <translations><date>1208</date>
