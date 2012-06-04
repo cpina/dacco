@@ -9867,14 +9867,15 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="1450000">comb<nouns>
-        <translations>
+<Entry frequency="13000000">comb<nouns>
+        <translations><date>0512</date>
             <translation gender="f">pinta</translation>
         </translations>
     </nouns>
         <verbs>
-            <translations>
-                <translation>pentinar(-se)</translation>
+            <translations>                
+                <translation transitive="true">pentinar</translation>
+                <translation transitive="true">rastrejar</translation>
             </translations>
         </verbs>
     </Entry>
@@ -9890,11 +9891,16 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="32400000">combination<nouns>
-        <translations><date>0108</date>
-            <translation gender="mf">combinació</translation>
+<Entry frequency="726000000">combination<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">combinació / conjunció</translation>
         </translations>
     </nouns>
+    <expressions>in combination with
+        <translations>
+            <translation>conjuntament amb</translation>
+        </translations>
+    </expressions>
     </Entry>
     <Entry frequency="2060000">combinatorics<nouns>
                             <translations><date>0109</date>
@@ -9908,21 +9914,22 @@
             <translation>compaginar</translation>
         </translations>
     </verbs>
-        <expressions>combined cycle power plant
-            <translations>
-                <translation termcat="energy" gender="f">central tèrmica de cicle combinat</translation>
-            </translations>
-        </expressions>
     </Entry>
+<Entry frequency="599000000">combined<adjectives>
+        <translations><date>0512</date>
+            <translation>conjunt</translation>
+        </translations>
+    </adjectives>
+    </Entry>    
 <Entry frequency="153000">combo box<nouns>
         <translations>
             <translation catagory="computers" gender="m">quadre combinat</translation>
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="1340000">combustible<adjectives>
-        <translations>
-            <translation>combustible</translation>
+<Entry frequency="103000000">combustible<adjectives>
+        <translations><date>0512</date>
+            <translation>combustible / inflamable</translation>
         </translations>
     </adjectives>
         <expressions>combustible gas
@@ -10107,6 +10114,11 @@
         <translation intransitive="true">començar a sortir</translation>
         </translations>
         </phrasalverbs>
+        <phrasalverbs>come on to (somebody)
+            <translations>
+                <translation>flirtejar amb (algú)</translation>
+            </translations>
+        </phrasalverbs>
         <phrasalverbs>come out
         <translations>
             <translation>sortir (cap aquí)<example>The dog wouldn't &lt;b&gt;come out&lt;/b&gt; from under the table.</example><example>I asked John if he wanted to &lt;b&gt;come out&lt;/b&gt; and play.</example></translation>
@@ -10148,8 +10160,8 @@
             <translations>
                 <translation>deixar-se convèncer<example>I expect he'll get really angry when you tell him what you're planning but don't worry, he'll &lt;b&gt;come round&lt;/b&gt; eventually</example>
                 </translation>
-                <translation>tornar en si / recuperar la consciència<example>The boxer was knocked out. When he &lt;b&gt;came round&lt;/b&gt; he felt very woozy.</example></translation>
-                <translation>passar, visitar informalment<example>Mum, is it OK if Jason &lt;b&gt;comes round&lt;/b&gt; after school?</example>
+                <translation>tornar en si / recuperar la consciència / revenir (d'un desmai)<example>The boxer was knocked out. When he &lt;b&gt;came round&lt;/b&gt; he felt very woozy.</example></translation>
+                <translation>passar / visitar informalment<example>Mum, is it OK if Jason &lt;b&gt;comes round&lt;/b&gt; after school?</example>
                     <example>I'll &lt;b&gt;come round&lt;/b&gt; this evening if you like and we can talk some more then.</example>
                 </translation>
             </translations>
@@ -10170,6 +10182,7 @@
         <phrasalverbs>come together
             <translations>
                 <translation intransitive="true">ajuntar-se / reunir-se</translation>
+                <translation intransitive="true">prendre forma / cohesionar-se</translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>come under
@@ -10203,7 +10216,7 @@
     </phrasalverbs>
     <phrasalverbs>come up with
         <translations>
-            <translation intransitive="true">trobar (una solució)</translation>
+            <translation intransitive="true">concebre / acudir-se / empescar-se (una solució)</translation>
         </translations>
     </phrasalverbs>
     <phrasalverbs>come upon
@@ -10215,22 +10228,23 @@
             <translations>
                 <translation register="slang" gender="m">semen</translation>
             </translations>
-        </nouns>
-        <expressions>come down
-            <translations>
-                <translation gender="f">pèrdua d'estatus social o prestigi</translation>
-            </translations>
-        </expressions>
-        <expressions>come down in the world
+        </nouns>       
+        <expressions>to come down in the world
             <translations>
                 <translation>sofrir un revés / perdre estatus social (o prestigi)</translation>
             </translations>
         </expressions>
-        <exclamations>come again<translations>
-        <translation register="colloquial">com (dius)?</translation>
-    </translations>
-</exclamations>
-       <exclamations>come on
+        <expressions>to come to nothing
+            <translations>
+                <translation>no cristal·litzar</translation>
+            </translations>
+        </expressions>
+        <exclamations>come again?
+            <translations>
+                <translation register="colloquial">com (dius)?</translation>
+            </translations>
+        </exclamations>
+       <exclamations>come on!
            <translations>
                <translation>au! / vinga!</translation>
            </translations>
@@ -10239,8 +10253,8 @@
       <Entry frequency="23800000">comeback<nouns>
 			<translations><date>0110</date>
 				<translation gender="m">retorn</translation>
-                                <translation gender="f">remuntada</translation>
-                                <translation gender="f">rèplica</translation>
+                                <translation disambiguate="sports" gender="f">remuntada</translation>
+                                <translation gender="f">[reply] rèplica</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -10256,9 +10270,36 @@
         </translations>
     </adjectives>
     </Entry>
+     <Entry frequency="264000000">comedown<nouns>
+            <translations><date>0512</date>
+                <translation gender="f">pèrdua d'estatus social o prestigi</translation>
+            </translations>
+        </nouns>
+    </Entry>
 <Entry frequency="16800000">comedy<nouns>
         <translations>
             <translation gender="f">comèdia</translation>
+        </translations>
+    </nouns>
+    </Entry>
+<Entry frequency="5620000">comely<adjectives>
+        <translations><date>0512</date>
+            <translation>[dit sobretot d'una dona] de bona planta / bonic / maco</translation>
+        </translations>
+    </adjectives>
+    </Entry>    
+    <Entry frequency="3090000">comestible<adjectives>
+        <translations><date>0512</date>
+            <translation register="formal">comestible</translation>
+        </translations>
+    </adjectives>
+    <nouns>
+        <translations>
+            <grouptranslation register="formal">
+            <translation gender="mpl">comestibles</translation>
+            <translation gender="m">menjar</translation>
+            <translation gender="f">vianda</translation>
+            </grouptranslation>
         </translations>
     </nouns>
     </Entry>
@@ -10274,24 +10315,45 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="182000000">comfort<nouns>
-        <translations><date>0509</date>
+<Entry frequency="3000000000">comfort<nouns>
+        <translations><date>0512</date>
             <translation gender="m">confort</translation>
             <translation gender="f">comoditat</translation>
+            <translation gender="m">consol</translation>
+            <translation gender="m">suport (moral)</translation>
         </translations>
     </nouns>
-    </Entry>
-<Entry frequency="20600000">comfortable<adjectives>
+    <verbs>
         <translations>
+            <translation transitive="true">reconfortar</translation>
+        </translations>
+    </verbs>
+    </Entry>
+<Entry frequency="1300000000">comfortable<adjectives>
+        <translations><date>0512</date>
             <translation>còmode / confortable</translation>
+            <translation>ampli<engexamp>A comfortable victory.</engexamp><catexamp>Una victòria àmplia.</catexamp></translation>
+            <translation disambiguate="medical">estable</translation>      
+            <translation>[financially] acomodat / benestant</translation>
         </translations>
     </adjectives>
+    <expressions>make yourself comfortable
+        <translations>
+            <translation>com si fossis a casa teva</translation>
+        </translations>
+    </expressions>
     </Entry>
-    <Entry frequency="722000">comfortably<adverbs>
-            <translations>
+    <Entry frequency="121000000">comfortably<adverbs>
+            <translations><date>0512</date>
                 <translation>còmodament</translation>
+                <translation>fàcilment</translation>
             </translations>
         </adverbs>
+        <expressions>comfortably off
+            <translations>
+                <translation>acomodat / benestant</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="946000">comforter<nouns>
         <translations>
@@ -10316,15 +10378,37 @@
         </translations>
     </nouns>
     </Entry>
-      <Entry frequency="5220000">comic strip<nouns>
-			<translations><date>0510</date>
+      <Entry frequency="34400000">comic strip<nouns>
+			<translations><date>0512</date>
                             <grouptranslation>
                                 <translation gender="m">còmic</translation>
+                                <translation gender="f">tira còmica</translation>
                                 <translation gender="ffullform">historieta</translation>
                             </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="5630000000">coming<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">arribada</translation>
+        </translations>
+    </nouns>
+    <adjectives>
+        <translations>
+            <translation>vinent</translation>
+        </translations>
+    </adjectives>
+    <expressions>comings and goings
+        <translations>
+            <translation register="formal">anades i vingudes / vida i miracles / aventures i desventures</translation>
+        </translations>
+    </expressions>
+    <expressions>the second coming
+        <translations>
+            <translation catagory="religious">la parusia / el sant adveniment / la segona vinguda</translation>
+        </translations>
+    </expressions>
+    </Entry>        
 <Entry frequency="924000">comity<nouns>
         <translations><date>0209</date>
             <translation register="formal" gender="f">civilitat / cortesia</translation>
@@ -10337,15 +10421,18 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="14400000">command<nouns>
-        <translations><date>0408</date>
+<Entry frequency="1150000000">command<nouns>
+        <translations><date>0512</date>
             <translation gender="m">ordre<synonyms>order</synonyms></translation>
             <translation gender="m">(milit.) comandament</translation>
+            <translation gender="f">[~ of something] facilitat</translation>
         </translations>
     </nouns>
     <verbs>
         <translations>
-            <translation>ordenar<synonyms>order</synonyms></translation>
+            <translation>ordenar</translation>
+            <translation>[milit.] comandar</translation>
+            <translation>merèixer</translation>
         </translations>
         </verbs>
     </Entry>
@@ -10354,6 +10441,14 @@
             <translation gender="m">comandant en cap</translation>
         </translations>
     </nouns>
+    </Entry>
+    <Entry frequency="56300000">commanding<adjectives>
+        <translations><date>0512</date>
+        <translation>dominant</translation>
+            <translation>imponent</translation>
+            <translation>imperiós</translation>
+        </translations>
+    </adjectives>
     </Entry>
 <Entry frequency="6700000">command line<nouns>
         <translations>
@@ -10368,15 +10463,18 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="6040000">commemorate<verbs>
-        <translations>
-            <translation>commemorar</translation>
+<Entry frequency="89200000">commemorate<verbs>
+        <translations><date>0512</date>
+            <translation transitive="true">commemorar / homenatjar / immortalitzar (esp. per mitjà d'un monument)</translation>
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="2560000">commemoration<nouns>
-        <translations>
+<Entry frequency="32400000">commemoration<nouns>
+        <translations><date>0512</date>
+            <grouptranslation>
             <translation gender="f">commemoració</translation>
+            <translation gender="m">acte commemoratiu</translation>
+            </grouptranslation>
         </translations>
     </nouns>
     </Entry>
@@ -10393,9 +10491,15 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="3220000">commendable<adjectives>
-        <translations>
-            <translation register="formal">encomiable / lloable / laudable<synonyms>praiseworthy, laudable</synonyms></translation>
+<Entry frequency="12400000">commendable<adjectives>
+        <translations><date>0512</date>
+            <translation register="formal">encomiable / lloable / laudable / digne d'elogi<synonyms>praiseworthy, laudable</synonyms></translation>
+        </translations>
+    </adjectives>
+    </Entry>
+    <Entry frequency="19200000">commensurate<adjectives>
+        <translations><date>0512</date>
+            <translation register="formal">[~ with] proporcional a</translation>
         </translations>
     </adjectives>
     </Entry>
@@ -10415,9 +10519,10 @@
             </translations>
         </phrasalverbs>
     </Entry>
-<Entry frequency="59800000">commentary<nouns>
-        <translations>
+<Entry frequency="1130000000">commentary<nouns>
+        <translations><date>0512</date>
             <translation gender="m">comentari</translation>
+            <translation gender="f">reflexió / anàlisi</translation>
         </translations>
     </nouns>
     </Entry>
@@ -10467,15 +10572,42 @@
         </translations>
     </adverbs>
     </Entry>
-<Entry frequency="75500000">commission<nouns>
-        <translations>
-            <translation gender="f">comissió</translation>
+<Entry frequency="5710000">commissariat<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">intendència</translation>
         </translations>
     </nouns>
+    </Entry>    
+<Entry frequency="2290000000">commission<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">[official group] comissió</translation>
+            <translation gender="f">[financial] comissió</translation>
+            <grouptranslation>
+                <translation gender="f">[request to make or design something] comissió</translation>
+                <translation gender="m">encàrrec</translation>
+            </grouptranslation>
+            <translation register="formal" gender="f">[of a crime] perpetració</translation>
+        </translations>
+    </nouns>
+    <verbs>
+        <translations>
+            <translation>comissionar / encarregar / fer un encàrrec / demanar per encàrrec<engexamp>To be commissioned (to do something).</engexamp><catexamp>Rebre l'encàrrec (de fer una cosa).</catexamp></translation>
+        </translations>
+    </verbs>
+    <expressions>to be in commission
+        <translations>
+            <translation>estar en servei</translation>
+        </translations>
+    </expressions>
+    <expressions>to be out of commission
+        <translations>
+            <translation>estar fora de servei</translation>
+        </translations>
+    </expressions>  
     </Entry>
 <Entry frequency="4000000">commissioner<nouns>
         <translations><date>0408</date>
-            <translation gender="mf">comissionat</translation>
+            <translation gender="m">membre d'una comissió</translation>
         </translations>
     </nouns>
     </Entry>
@@ -10485,19 +10617,44 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="128000000">commit<verbs double="true">
-        <translations><date>0809</date>
-            <translation>cometre</translation>
+<Entry frequency="524000000">commit<verbs double="true">
+        <translations><date>0512</date>
+            <translation>cometre / incórrer en</translation>
             <translation>assignar (temps, diners...)</translation>
+            <translation>[mental hospital] ingressar</translation>
+            <translation>[~ yourself] comprometre's</translation>
         </translations>
     </verbs>
+    <expressions>to commit suicide
+        <translations>
+            <translation>suicidar-se</translation>
+        </translations>
+    </expressions>
+    <expressions>to commit (something) to memory
+        <translations>
+            <translation>aprendre de memoria / retenir a la memoria / memoritzar</translation>
+        </translations>
+    </expressions>
+    <expressions>to commit (something) to paper (or writing)
+        <translations>
+            <translation>posar per escrit</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="8010000">commitment<nouns>
         <translations>
             <translation gender="m">compromís<engexamp>Our commitment to sustainable agriculture is well known.</engexamp><catexamp>El nostre compromís amb l'agricultura sostenible és ben conegut.</catexamp></translation>
+            <translation gender="f">dedicació / consagració</translation>
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="15200000">committed<adjectives>
+        <translations><date>0512</date>
+            <translation>compromès</translation>
+            <translation>voluntariós</translation>
+        </translations>
+    </adjectives>
+    </Entry>    
 <Entry frequency="75600000">committee<nouns>
         <translations>
             <translation gender="m">comitè</translation>
@@ -10511,21 +10668,56 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="161000000">common<adjectives>
-        <translations>
-            <translation>comú</translation>
-            <translation>ordinari</translation>
-            <translation>usual</translation>
+<Entry frequency="4300000000">common<adjectives>
+        <translations><date>0512</date>
+            <translation>comú / corrent / freqüent / habitual / usual</translation>
+            <translation>compartit<engexamp>Common experience</engexamp><catexamp>Experiència compartida</catexamp></translation>
+            <translation local="gb">[low class] ordinari</translation>
         </translations>
     </adjectives>
+    <nouns>
+        <translations>
+            <translation gender="f">terra comunal</translation>
+        </translations>
+    </nouns>
         <expressions>common denominator
             <translations>
                 <translation catagory="maths" gender="m">denominador comú</translation>
             </translations>
         </expressions>
+        <expressions>the common good
+            <translations>
+                <translation>el bé comú</translation>
+            </translations>
+        </expressions>
+        <expressions>common ground
+            <translations>
+                <translation>punts en comú</translation>
+            </translations>
+        </expressions>
+        <expressions>common knowledge
+            <translations>
+                <translation><engexamp>It's common knowledge.</engexamp><catexamp>Tot el món ho sap.</catexamp></translation>
+            </translations>
+        </expressions>
         <expressions>common sense
             <translations>
                 <translation gender="m">sentit comú</translation>
+            </translations>
+        </expressions>
+        <expressions>in common with
+            <translations>
+                <translation>a l'igual de</translation>
+            </translations>
+        </expressions>
+        <expressions>to have nothing in common
+            <translations>
+                <translation>no tenir res a veure</translation>
+            </translations>
+        </expressions>
+        <expressions>to have things in common
+            <translations>
+                <translation>compartir afinitats</translation>
             </translations>
         </expressions>
     </Entry>
@@ -10534,6 +10726,17 @@
             <translation>generalment / usualment / popularment</translation>
         </translations>
     </adverbs>
+    </Entry>
+    <Entry frequency="22000000">commonplace<adjectives>
+        <translations><date>0512</date>
+            <translation>corrent / normal / establert</translation>
+        </translations>
+    </adjectives>
+    <nouns>
+        <translations>
+            <translation gender="f">cosa normal</translation>
+        </translations>      
+    </nouns>
     </Entry>
 <Entry frequency="40800000">Commons<nouns>
         <translations><date>0112</date>
