@@ -10734,7 +10734,7 @@
     </adjectives>
     <nouns>
         <translations>
-            <translation gender="f">cosa normal</translation>
+            <translation gender="f">cosa normal / moneda corrent</translation>
         </translations>      
     </nouns>
     </Entry>
@@ -10755,15 +10755,33 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="70200000">communal<adjectives>
+        <translations><date>0512</date>
+            <translation>col·lectiu / general</translation>
+        </translations>
+    </adjectives>
+    </Entry>
+     <Entry frequency="67400000">commune<nouns>
+        <translations><date>0512</date>
+            <translation general="f">comuna</translation>
+        </translations>
+    </nouns>
+    <verbs>
+        <translations>
+            <translation register="formal">[~ with] comunicar-se / intimar amb</translation>
+        </translations>
+    </verbs>
+    </Entry>
 <Entry frequency="29300000">communicate<verbs>
         <translations>
             <translation>comunicar</translation>
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="148000000">communication<nouns>
-        <translations>
+<Entry frequency="463000000">communication<nouns>
+        <translations><date>0512</date>
             <translation gender="f">comunicació</translation>
+            <translation register="formal" gender="m">comunicat</translation>
         </translations>
     </nouns>
         <expressions>communication tool
@@ -10793,7 +10811,8 @@
 <Entry frequency="1440000000">community<nouns>
         <translations><date>0809</date>
             <translation gender="f">comunitat</translation>
-            <translation beforenoun="true">comunitari</translation>
+            <translation beforenoun="true">comunitari / veïnal<engexamp>Community project</engexamp><catexamp>Projecte veïnal</catexamp></translation>
+            <translation gender="m">grup (humà)<engexamp>The black community</engexamp><catexamp>La població negra</catexamp><engexamp>The artistic community</engexamp><catexamp>El món artístic (o dels artistes)</catexamp></translation>
         </translations>
     </nouns>
         <expressions>community center
@@ -10828,11 +10847,10 @@
             </translations>
         </nouns>
     </Entry>
-    <Entry frequency="470000">commuter<nouns>
-                            <translations><date>1008</date>
+    <Entry frequency="126000000">commuter<nouns>
+                            <translations><date>0512</date>
                             <grouptranslation>
-				<translation termcat="true" gender="mf">treballador pendular<engnote>Although Termcat give 'treballador pendular' as the official equivalent of 'commuter' it does not appear to be widely used in Catalan.</engnote></translation>
-                                <translation gender="mf">persona que viatja diàriament entre el lloc de treball i casa seva</translation>
+                                <translation>gent que va i ve cada dia (de casa a la feina i de la feina a casa) / gent que es mou cada dia entre casa i la feina</translation>
                                 </grouptranslation>
 			</translations>
 		</nouns>
@@ -10866,11 +10884,49 @@
             </translations>
         </expressions>
     </Entry>
-<Entry frequency="220000000">company<nouns>
-        <translations>
-            <translation gender="f">companyia<synonyms>firm</synonyms></translation>
+<Entry frequency="461000000">companion<nouns>
+        <translations><date>0512</date>
+        <translation gender="mf">company</translation>
+            <translation gender="mf">acompanyant</translation>
         </translations>
     </nouns>
+    </Entry>    
+    <Entry frequency="27500000">companionship<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">companyonia</translation>
+        </translations>
+    </nouns>
+    </Entry>
+<Entry frequency="220000000">company<nouns>
+        <translations><date>0512</date>
+                <translation gender="f">companyia</translation>
+                <translation gender="f">companyia / empresa</translation>
+            <grouptranslation>
+                <translation gender="m">grup</translation>
+                <translation gender="f">colla</translation>            
+            </grouptranslation>
+            <grouptranslation>
+                <translation gender="mpl">convidats</translation>
+                <translation gender="fpl">visites<engexamp>We've got company.</engexamp><catexamp>Tenim visites (o convidats)</catexamp></translation>
+            </grouptranslation>
+            <translation gender="f">companyia (militar)</translation>            
+        </translations>
+    </nouns>
+    <expressions>to keep (somebody) company
+        <translations>
+            <translation>fer companyia</translation>
+        </translations>
+    </expressions>
+    <expressions>to part company
+        <translations>
+            <translation>separar-se</translation>
+        </translations>
+    </expressions>
+    <expressions>ship's company
+        <translations>
+            <translation gender="f">tripulació</translation>
+        </translations>
+    </expressions>
     </Entry>
       <Entry frequency="66900000">comparable<adjectives>
                             <translations><date>0110</date>
@@ -10902,13 +10958,21 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="33600000">compass<nouns>
-        <translations><date>0709</date>
+<Entry frequency="2470000">compass<nouns>
+        <translations><date>0512</date>
             <translation gender="f">brúixola<engnote>'Brúixola' is the instrument which helps you find your direction.</engnote></translation>
             <translation gender="m">compàs<engnote>'Compàs' is the instrument for drawing circles.</engnote></translation>
             <translation disambiguate="entertainment-music" gender="f">tessitura</translation>
         </translations>
     </nouns>
+    <expressions>moral compass
+        <translations>
+            <grouptranslation>
+                <translation gender="m">model de conducta / referent moral</translation>
+                <translation gender="mpl">principis morals</translation>
+            </grouptranslation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="4820000">compassion<nouns>
         <translations>
@@ -10916,9 +10980,9 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="1710000">compassionate<adjectives>
-        <translations>
-            <translation>compassiu</translation>
+<Entry frequency="74200000">compassionate<adjectives>
+        <translations><date>0512</date>
+            <translation>compassiu / solidari / humanitari</translation>
         </translations>
     </adjectives>
     </Entry>
@@ -10940,10 +11004,10 @@
       </translations>
     </verbs>
   </Entry>
-<Entry frequency="27800000">compelling<adjectives>
-        <translations>
-            <translation>fascinant<engexamp>A compelling book</engexamp><catexamp>Un llibre fascinant</catexamp></translation>
-            <translation>convincent<engexamp>A compelling argument</engexamp><catexamp>Un argument convincent</catexamp></translation>
+<Entry frequency="189000000">compelling<adjectives>
+        <translations><date>0512</date>
+            <translation>fascinant / apassionant<engexamp>A compelling book</engexamp><catexamp>Un llibre fascinant</catexamp></translation>
+            <translation>convincent / colpidor / seductor<engexamp>A compelling argument</engexamp><catexamp>Un argument convincent</catexamp></translation>
         </translations>
     </adjectives>
     </Entry>
@@ -10988,6 +11052,12 @@
         </translations>
     </phrasalverbs>
 </Entry>
+<Entry frequency="225000000">competing<adjectives>
+        <translations><date>0512</date>
+            <translation>antagònic / rival<engexamp>Competing interests</engexamp><catexamp>Conflicte d'interessos</catexamp></translation>
+        </translations>
+    </adjectives>
+    </Entry>
 <Entry frequency="48000000">competition<nouns>
         <translations>
             <grouptranslation>
@@ -11039,12 +11109,27 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="16000000">complain<verbs>
-        <translations>
-            <translation>queixar-se</translation>
+    <Entry frequency="11700000">complacency<nouns>
+        <translations><date>0512</date>
+        <grouptranslation>
+            <translation gender="f">suficiència</translation>
+            <translation gender="m">cofoisme</translation>
+        </grouptranslation>
+        </translations>
+    </nouns>
+    </Entry>
+    <Entry frequency="12400000">complacent<adjectives>
+        <translations><date>0512</date>
+            <translation>cofoi</translation>
+        </translations>
+    </adjectives>
+    </Entry>
+<Entry frequency="487000000">complain<verbs>
+        <translations><date>0512</date>
+            <translation>queixar-se / lamentar(-se)</translation>
         </translations>
     </verbs>
-    <phrasalverbs>complain of
+    <phrasalverbs>complain about (or of)
         <translations>
             <translation intransitive="true">queixar-se de</translation>
         </translations>
@@ -11056,14 +11141,26 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="415000">complaisance<nouns>
+        <translations><date>0512</date>
+            <translation register="dated" gender="f">complaença / submisió / docilitat / deferència / gentilesa / voluntat d'agradar</translation>
+        </translations>
+    </nouns>
+    </Entry>
+    <Entry frequency="439000">complaisant<adjectives>
+        <translations><date>0512</date>
+            <translation register="dated">complaent</translation>
+        </translations>
+    </adjectives>
+    </Entry>
 <Entry frequency="6210000">complementary<adjectives>
         <translations>
             <translation>complementari</translation>
         </translations>
     </adjectives>
     </Entry>
-<Entry frequency="201000000">complete<adjectives>
-        <translations>
+<Entry frequency="13720000000">complete<adjectives>
+        <translations><date>0512</date>
             <translation>complet</translation>
             <translation>enter</translation>
         </translations>
@@ -11074,11 +11171,15 @@
                 </translation>
             </translations>
         </verbs>
+        <expressions>complete with ..
+            <translations>
+                <translation>amb .. inclòs</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="44800000">completely<adverbs><mistakes>completly</mistakes>
         <translations>
-            <translation>completament / totalment<synonyms>totally</synonyms>
-            </translation>
+            <translation>completament / totalment<synonyms>totally, entirely</synonyms></translation>
         </translations>
     </adverbs>
     </Entry>
@@ -11122,6 +11223,12 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="675000000">compliance<nouns>
+        <translations><date>0512</date>
+            <translation gender="m">acatament / consentiment</translation>
+        </translations>
+    </nouns>
+    </Entry>
 <Entry frequency="85500000">compliant<adjectives>
         <translations>
             <translation>complaent / obedient / submís</translation>
@@ -11129,15 +11236,16 @@
         </translations>
     </adjectives>
     </Entry>
-<Entry frequency="18300000">complicated<adjectives>
-        <translations>
-            <translation>complicat</translation>
+<Entry frequency="366000000">complicated<adjectives>
+        <translations><date>0512</date>
+            <translation>complicat / confús / intricat / enrevessat</translation>
         </translations>
     </adjectives>
     </Entry>
-<Entry frequency="4460000">complication<nouns>
-        <translations>
+<Entry frequency="150000000">complication<nouns>
+        <translations><date>0512</date>
             <translation gender="f">complicació</translation>
+            <translation disambiguate="medical" gender="f">seqüela</translation>
         </translations>
     </nouns>
     </Entry>
@@ -11153,6 +11261,24 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="1370000">compliment<nouns>
+			<translations><date>0512</date>
+				<translation gender="m">compliment</translation>
+                                <translation gender="f">atenció</translation>
+                                <translation sourceplural="compliments" gender="fpl">salutacions</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">felicitar</translation>
+                    </translations>
+                </verbs>
+                <expressions>with my (or our) compliments
+                    <translations>
+                        <translation>amb els meus (o nostres) respectes</translation>
+                    </translations>
+                </expressions>
+	</Entry>         
 <Entry frequency="12900000">complimentary<adjectives>
         <translations>
             <translation>gratis</translation>
@@ -11176,32 +11302,54 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="38900000">compose<verbs>
-        <translations>
-            <translation>redactar</translation>
+<Entry frequency="672000000">compose<verbs>
+        <translations><date>0512</date>
+            <translation>redactar / constituir</translation>
+            <translation>[~ oneself] calmar-se / asserenar-se / tranquil·litzar-se</translation>
         </translations>
     </verbs>
     </Entry>
+<Entry frequency="46600000">composed<adjectives>
+        <translations><date>0512</date>
+            <translation>serè / assossegat / calmat</translation>
+        </translations>
+    </adjectives>
+    </Entry>    
 <Entry frequency="18500000">composer<nouns>
         <translations>
             <translation gender="mf">compositor</translation>
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="121000">composite sketch<nouns>
-        <translations>
-            <translation local="us" gender="m">retrat robot<otherlocal>photofit, identikit, e-fit</otherlocal>
-            </translation>
+    <Entry frequency="478000000">composite<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">combinació / barreja / amalgama</translation>
+            <translation local="us" gender="m">retrat robot<otherlocal>photofit, identikit, e-fit</otherlocal></translation>
+            <translation beforenoun="true">compost / mixt</translation>            
         </translations>
     </nouns>
+    <expressions>composite sketch
+        <translations>
+            <translation local="us" gender="m">retrat robot</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="9100000">composition<nouns>
-        <translations>
-            <translation gender="f">composició<engnote>'Composició' means 'composition' in the sense 'make-up' (i.e. 'composition of the earth / atmosphere').</engnote></translation>
-            <translation gender="f">redacció<engnote>'Redacció' means 'composition' in the sense 'piece of writing'.</engnote></translation>
+        <translations><date>0512</date>
+            <translation gender="f">[the make-up of something] composició</translation>
+            <translation gender="f">[essay] redacció</translation>
+            <translation gender="f">[piece of music, art..] composició</translation>
+            <translation gender="f">[art of writing music] composició</translation>
+            <translation gender="f">[arrangement of objects in a painting or photo] composició</translation>
         </translations>
     </nouns>
     </Entry>
+<Entry frequency="12000000">compositional<adjectives>
+        <translations><date>0512</date>
+            <translation>compositiu</translation>
+        </translations>
+    </adjectives>
+    </Entry>    
 <Entry frequency="786000">compost<nouns>
         <translations>
             <translation gender="m">compost</translation>
@@ -11216,8 +11364,9 @@
     </Entry>
 <Entry frequency="72700000">compound<nouns>
         <translations><date>0709</date>
-        <translation gender="m">recinte</translation>
-            <translation gender="m">compost</translation>
+        <translation gender="m">recinte / solar</translation>
+            <translation disambiguate="chemistry" gender="m">(cos) compost</translation>
+            <translation disambiguate="linguistics" gender="m">mot compost</translation>
         </translations>
     </nouns>
     <adjectives>
@@ -11230,13 +11379,24 @@
 <translation>agreujar / empitjorar<example>The traffic on Route 17 is already horrendous. More stores and condos are just going to &lt;b&gt;compound&lt;/b&gt; the problem.</example></translation>
 </translations>
 </verbs>
-    </Entry>
+<expressions>compound fracture
+    <translations>
+        <translation catagory="medical" gender="f">fractura oberta</translation>
+    </translations>
+</expressions>
+</Entry>
 <Entry frequency="502000">comprehend<verbs>
         <translations>
             <translation register="formal">entendre<synonyms>understand</synonyms>
             </translation>
         </translations>
     </verbs>
+    </Entry>
+    <Entry frequency="9030000">comprehensible<adjectives>
+        <translations><date>0512</date>
+            <translation>intel·ligible</translation>
+        </translations>
+    </adjectives>
     </Entry>
 <Entry frequency="18600000">comprehension<nouns>
         <translations>
@@ -11245,9 +11405,10 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="194000000">comprehensive<adjectives>
-        <translations>
-            <translation>exhaustiu / complet<engexamp>Comprehensive insurance</engexamp><catexamp>Assegurança multiriscs</catexamp></translation>
+<Entry frequency="1120000000">comprehensive<adjectives>
+        <translations><date>0512</date>
+            <translation>exhaustiu / complet</translation>
+            <translation>ampli / contundent</translation>
         </translations>
     </adjectives>
     <nouns>
@@ -11255,12 +11416,30 @@
             <translation local="gb" catagory="education" gender="m">institut d'educació secundària (on els estudiants no han estat seleccionats segons el seu nivell intel·lectual o socioeconòmic)<synonyms>comprehensive school, comp (argot)</synonyms><example>Parents all over the country are abandoning neighbourhood &lt;b&gt;comprehensives&lt;/b&gt; in favour of grammar schools.</example></translation>
         </translations>
     </nouns>
-     </Entry>
-<Entry frequency="7000000">compress<verbs>
+    <expressions>comprehensive insurance
         <translations>
+            <translation gender="f">assegurança multiriscs</translation>
+        </translations>
+    </expressions>
+     </Entry>
+     <Entry frequency="15500000">comprehensively<adverbs>
+			<translations><date>0512</date>
+				<translation>totalment / completament</translation>
+                                <translation>contundentment</translation>
+			</translations>
+		</adverbs>
+	</Entry>
+<Entry frequency="238000000">compress<verbs>
+        <translations><date>0512</date>
             <translation catagory="computers">comprimir</translation>
+            <translation>restringir / limitar</translation>
         </translations>
     </verbs>
+    <nouns>
+        <translations>
+            <translation catagory="medical" gender="f">compresa</translation>
+        </translations>
+    </nouns>
         <expressions>compressed natural gas
             <translations>
                 <translation termcat="energy" gender="m">gas natural comprimit (GNC)</translation>
@@ -11295,10 +11474,11 @@
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="160000000">compromise<verbs>
-        <translations><date>1108</date>
+<Entry frequency="244000000">compromise<verbs>
+        <translations><date>0512</date>
             <translation>transigir<engexamp>The unions and the company refuse to compromise</engexamp><catexamp>Els sindicats i l'empresa es neguen a transigir (arribar a un acord basat en concessions mútues)</catexamp><engexamp>You want 40 euros and I want to pay 30, so let's compromise at/on 35</engexamp><catexamp>Tu vols 40 euros i jo en vull pagar 30, doncs dividim la diferència i diem 35</catexamp><engexamp>The government says it won't compromise with terrorists</engexamp><catexamp>El govern diu que no transigirà amb els terroristes</catexamp></translation>
-            <translation>comprometre / posar en perill<example>Carod's opposition to the Statute has &lt;b&gt;compromised&lt;/b&gt; his position in the 'tripartit'.</example></translation>
+            <translation>abdicar (de les pròpies conviccions, p. ex.)</translation>
+            <translation>comprometre / posar en perill / (fer) quedar malament / desprestigiar / perjudicar la reputació<example>Carod's opposition to the Statute has &lt;b&gt;compromised&lt;/b&gt; his position in the 'tripartit'.</example></translation>
         </translations>
     </verbs>
         <nouns>
@@ -11317,7 +11497,7 @@
     </Entry>
 <Entry frequency="1520000">compulsion<nouns>
         <translations>
-            <translation gender="f">compulsió / dèria</translation>
+            <translation gender="f">compulsió / dèria / ànsia</translation>
         </translations>
     </nouns>
     </Entry>
@@ -11327,6 +11507,12 @@
             </translation>
         </translations>
     </adjectives>
+    </Entry>
+    <Entry frequency="1330000">compunction<nouns>
+        <translations><date>0512</date>
+            <translation register="formal" gender="f">compunció</translation>
+        </translations>
+    </nouns>
     </Entry>
 <Entry frequency="10300000">computational<adjectives>
         <translations>
@@ -11372,17 +11558,37 @@
             </translations>
         </expressions>
     </Entry>
-<Entry frequency="356000">computer-aided learning<nouns>
-        <translations>
-            <translation catagory="computers, education" termcat="true" gender="m">aprenentatge assistit per ordinador<synonyms>computer-assisted learning</synonyms></translation>
+<Entry frequency="25300000">computer-aided<adjectives>
+        <translations><date>0512</date>
+            <translation catagory="computers">assistit per ordinador<synonyms>computer-assisted</synonyms></translation>
         </translations>
-    </nouns>
-    </Entry>
-<Entry frequency="483000">computer-assisted learning<nouns>
+    </adjectives>
+    <expressions>computer-aided design
         <translations>
-            <translation catagory="computers, education" termcat="true" gender="m">aprenentatge assistit per ordinador<synonyms>computer-aided learning</synonyms></translation>
+            <translation catagory="computers" gender="m">disseny assistit per ordinador</translation>
         </translations>
-    </nouns>
+    </expressions>
+    <expressions>computer-aided learning
+        <translations>
+            <translation catagory="computers, education" termcat="true" gender="m">aprenentatge assistit per ordinador</translation>
+        </translations>
+    </expressions>
+    </Entry>    
+<Entry frequency="11500000">computer-assisted<adjectives>
+        <translations><date>0512</date>
+            <translation catagory="computers">assistit per ordinador</translation>
+        </translations>
+    </adjectives>
+    <expressions>computer-assisted design
+        <translations>
+            <translation catagory="computers" gender="m">disseny assistit per ordinador</translation>
+        </translations>
+    </expressions>
+    <expressions>computer-assisted learning
+        <translations>
+            <translation catagory="computers, education" termcat="true" gender="m">aprenentatge assistit per ordinador</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="121000000">computing<nouns>
         <translations><date>0708</date>
@@ -11464,14 +11670,23 @@
         </translations>
     </adjectives>
     </Entry>
+<Entry frequency="153000000">conceive<verbs>
+            <translations><date>0512</date>
+            <translation>[form a plan or idea] concebre</translation>
+            <translation>[become pregnant] concebre</translation>
+            <translation>[imagine] fer-se càrrec / imaginar</translation>
+        </translations>
+    </verbs>   
+    </Entry>    
 <Entry frequency="10600000">concentrate<verbs>
             <translations><date>0408</date>
             <translation>concentrar</translation>
+            <translation>[~ on] [pay complete attention to] concentrar-se en</translation>
         </translations>
     </verbs>
     <phrasalverbs>concentrate on
         <translations>
-            <translation intransitive="true">concentrar-se en</translation>
+            <translation intransitive="true">[devote most of your time to] consagrar-se a</translation>
         </translations>
     </phrasalverbs>
     <nouns>
@@ -11506,7 +11721,7 @@
 	</Entry>
 <Entry frequency="11900000">concept<nouns>
         <translations>
-            <translation gender="f">concepte</translation>
+            <translation gender="m">concepte</translation>
         </translations>
     </nouns>
     </Entry>
@@ -11516,6 +11731,12 @@
         </translations>
     </nouns>
     </Entry>
+<Entry frequency="132000000">conceptual<adjectives>
+        <translations><date>0512</date>
+            <translation>conceptual</translation>
+        </translations>
+    </adjectives>
+    </Entry>    
 <Entry frequency="29700000">concern<nouns>
         <translations><date>0408</date>
             <translation gender="f">preocupació<example>The judge has today expressed &lt;b&gt;concern&lt;/b&gt; about the proposal</example>
@@ -11523,7 +11744,7 @@
                 <engexamp>Concern about</engexamp>
                 <catexamp>Preocupació per</catexamp>
             </translation>
-            <translation gender="f">empresa / firma<example>Iberia is a going &lt;b&gt;concern&lt;/b&gt; whereas Alitalia is bust.</example></translation>
+            <translation gender="f">empresa solvent<example>Iberia is a going &lt;b&gt;concern&lt;/b&gt; whereas Alitalia is bust.</example></translation>
         </translations>
     </nouns>
     </Entry>
