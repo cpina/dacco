@@ -12057,6 +12057,16 @@
         </translations>
     </expressions>
     </Entry>
+     <Entry frequency="870000000">condo<nouns>
+            <translations><date>0512</date>
+            <translation register="colloquial" gender="m">pis</translation>
+            <grouptranslation register="colloquial">
+            <translation gender="m">condomini</translation>
+            <translation gender="f">propietat compartida</translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+    </Entry>
 <Entry frequency="16900000">condolence<nouns>
         <translations><date>0512</date>
             <translation gender="m">condol<engexamp>A letter of condolence</engexamp><catexamp>Una carta de condol</catexamp></translation>
@@ -12070,9 +12080,9 @@
         </translations>
     </nouns>
     </Entry>
-    <Entry frequency="1460000">condominium<nouns>
-            <translations><date>1008</date>
-                <translation gender="m">pis</translation>
+    <Entry frequency="267000000">condominium<nouns>
+            <translations><date>0512</date>
+            <translation gender="m">pis</translation>
             <grouptranslation>
             <translation gender="m">condomini</translation>
             <translation gender="f">propietat compartida</translation>
@@ -12086,25 +12096,28 @@
             </translations>
         </verbs>
     </Entry>
-<Entry frequency="13400000">conducive<adjectives>
-        <translations>
-            <translation>favorable / conduent<example>These elements created a sterile environment which was not exactly &lt;b&gt;conducive&lt;/b&gt; to building customer relations.</example><example>The circumstances weren't &lt;b&gt;conducive&lt;/b&gt; to creating the 20 million new jobs promised by EU leaders.</example></translation>
+<Entry frequency="31800000">conducive<adjectives>
+        <translations><date>0512</date>
+            <translation>propici / favorable / conduent<example>These elements created a sterile environment which was not exactly &lt;b&gt;conducive&lt;/b&gt; to building customer relations.</example><example>The circumstances weren't &lt;b&gt;conducive&lt;/b&gt; to creating the 20 million new jobs promised by EU leaders.</example></translation>
         </translations>
     </adjectives>
     </Entry>
-<Entry frequency="64200000">conduct<nouns>
-        <translations>
-            <grouptranslation><translation gender="f">conducta</translation>
+<Entry frequency="1720000000">conduct<nouns>
+        <translations><date>0512</date>
+            <grouptranslation register="formal"><translation gender="f">conducta</translation>
                 <translation gender="m">comportament</translation></grouptranslation>
+                <translation register="formal" gender="f">direcció</translation>
         </translations>
     </nouns>
         <verbs>
         <translations>
-            <translation>dirigir<engnote>'Dirigir' means 'to conduct' as in an orchestra or a piece of music.</engnote></translation>
-            <translation>conduir<engnote>'Conduir' means 'to conduct' in the sense 'metal conducts heat'.</engnote></translation>
-            <translation>realitzar / dur a terme<engnote>'Realitzar' and 'dur a terme' mean 'to conduct' in the sense 'to carry out' (e.g. 'to conduct a survey' or 'to conduct an experiment').</engnote></translation>
-            <translation>(yourself) comportar-se / actuar<engnote>'Comportar-se' and 'actuar' mean 'to conduct yourself' in the sense 'to behave' (e.g. 'How to conduct yourself at office parties'.)</engnote></translation>
-        </translations></verbs>
+            <translation transitive="true">[carry out] dirigir / realitzar / dur a terme</translation>
+            <translation transitive="true">[tech.] conduir</translation>
+            <translation disambiguate="entertainment-music" transitive="true">dirigir</translation>
+            <translation transitive="true">[~ yourself] comportar-se / actuar<engnote>'Comportar-se' and 'actuar' mean 'to conduct yourself' in the sense 'to behave' (e.g. 'How to conduct yourself at office parties'.)</engnote></translation>
+            <translation register="formal" transitive="true">guiar<engexamp>Conducted tour</engexamp><catexamp>Visita guiada</catexamp></translation>
+        </translations>
+        </verbs>
     </Entry>
 <Entry frequency="1340000">conduction<nouns>
 			<translations><date>0307</date>
@@ -12112,14 +12125,22 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="8230000">conductor<nouns>
-        <translations>
-            <translation disambiguate="transport, work-job" gender="mf">cobrador / revisor</translation>
-            <translation disambiguate="work-job, entertainment-music" gender="mf">director d'orquestra</translation>
+<Entry frequency="250000000">conductor<nouns>
+        <translations><date>0512</date>
+            <translation disambiguate="transport, work-job" gender="mf">cobrador</translation>
+            <translation disambiguate="transport, work-job" gender="mf">revisor</translation>
+            <translation disambiguate="work-job, entertainment-music" gender="mf">director (d'orquestra)</translation>
             <translation gender="m">conductor</translation>
         </translations>
     </nouns>
     </Entry>
+<Entry frequency="126000000">conduit<nouns>
+        <translations><date>0512</date>
+            <translation gender="m">[pipe, tube..] conducte</translation>
+            <translation register="formal" gender="m">vehicle</translation>
+        </translations>
+    </nouns>
+    </Entry>    
 <Entry frequency="22200000">cone<nouns>
         <translations>
             <translation catagory="maths" gender="m">con</translation>
@@ -12132,16 +12153,12 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="2500000">confer<verbs>
-        <translations><date>0508</date>
-            <translation transitive="true" register="formal">atorgar / conferir / concedir</translation>
+<Entry frequency="94300000">confer<verbs>
+        <translations><date>0512</date>
+            <translation intransitive="true" register="formal">[~ with] canviar impressions / deliberar / consultar / confabular / secretejar</translation>
+            <translation transitive="true" register="formal">atorgar / conferir / concedir</translation>            
         </translations>
     </verbs>
-        <phrasalverbs>confer with
-            <translations>
-                <translation register="formal">consultar amb</translation>
-            </translations>
-        </phrasalverbs>
     </Entry>
 <Entry frequency="107000000">conference<nouns>
         <translations>
@@ -12154,26 +12171,41 @@
             </translations>
         </expressions>
     </Entry>
+<Entry frequency="185000000">confess<verbs>
+        <translations><date>0512</date>
+            <translation>confessar</translation>
+            <translation>admetre / reconèixer<engexamp>I confess that...</engexamp><catexamp>Admeto que... / reconec que...</catexamp></translation>
+        </translations>
+    </verbs>
+    </Entry>    
 <Entry frequency="825000">confetti<nouns>
         <translations>
             <translation gender="m">confeti</translation>
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="1010000">confide<verbs>
-        <translations>
+<Entry frequency="23400000">confide<verbs>
+        <translations><date>0512</date>
             <translation>confiar / contar confidencialment</translation>
         </translations>
     </verbs>
     <phrasalverbs>confide in
         <translations>
-            <translation intransitive="true">fiar-se d'(algú) [revelar a algú assumptes íntimes tot confiant-hi]</translation>
+            <translation intransitive="true">fiar-se d'(algú) [revelar a algú assumptes íntimes tot confiant-hi]<engexamp>To confide in a friend</engexamp><catexamp>Obrir el cor a un amic</catexamp></translation>
         </translations>
     </phrasalverbs>
     </Entry>
 <Entry frequency="193000000">confidence<nouns>
-        <translations><date>0410</date>
+        <translations><date>0512</date>
             <translation gender="f">confiança</translation>
+            <grouptranslation>
+            <translation gender="f">confiança (en si mateix)</translation>
+            <translation gender="m">aplom</translation>
+            </grouptranslation>
+            <grouptranslation>
+                <translation gender="m">secret</translation>
+                <translation gender="f">confidència<engexamp>To exchange confidences</engexamp><catexamp>Compartir intimitats</catexamp></translation>
+            </grouptranslation>
         </translations>
     </nouns>
         <expressions>confidence game
@@ -12202,24 +12234,13 @@
             </translations>
         </expressions>
     </Entry>
-<Entry frequency="63000000">confident<adjectives>
-        <translations><date>0410</date>
-            <translation>segur<engexamp>Self confident</engexamp><catexamp>Segur d'un mateix</catexamp></translation>
-            <translation>confiat</translation>
+<Entry frequency="526000000">confident<adjectives>
+        <translations><date>0512</date>
+            <translation>segur (d'un mateix) / confiat<engexamp>Self confident</engexamp><catexamp>Segur d'un mateix</catexamp><engexamp>A confident smile</engexamp><catexamp>Un somriure ple de confiança / un somriure franc</catexamp></translation>
+            <translation>[~ of..] segur de..</translation>
+            <translation>[~ that..] segur que..</translation>
         </translations>
     </adjectives>
-        <expressions>be confident of
-            <translations>
-                <translation>confiar en / tenir confiança en</translation>
-                <translation>estar segur de</translation>
-            </translations>
-        </expressions>
-        <expressions>be confident that
-            <translations>
-                <translation>confiar que / tenir confiança que</translation>
-                <translation>estar segur que</translation>
-            </translations>
-        </expressions>
     </Entry>
 <Entry frequency="107000000">confidential<adjectives>
         <translations>
@@ -12233,9 +12254,9 @@
         </translations>
     </adverbs>
     </Entry>
-<Entry frequency="443000000">configuration<nouns>
-        <translations>
-            <translation gender="f">configuració</translation>
+<Entry frequency="757000000">configuration<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">configuració / conformació</translation>
         </translations>
     </nouns>
     </Entry>
@@ -12245,16 +12266,25 @@
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="70700000">confine<verbs>
-        <translations>
-            <translation>confinar</translation>
+<Entry frequency="209000000">confine<verbs>
+        <translations><date>0512</date>
+            <translation>confinar / recloure</translation>
+            <translation>[restrict / limit] restringir<engexamp>To be confined to (doing something)</engexamp><catexamp>Poder només (fer una cosa)</catexamp></translation>
         </translations>
     </verbs>
         <nouns>
             <translations>
-                <translation sourceplural="confines" gender="mpl">confins / límits</translation>
+                <grouptranslation sourceplural="confines">
+                <translation gender="mpl">confins / límits</translation>
+                <translation gender="m">àmbit</translation>
+                </grouptranslation>
             </translations>
         </nouns>
+        <expressions>to be confined to bed
+            <translations>
+                <translation>guardar llit / estar allitat / jeure / estar confinat al llit</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="16700000">confinement<nouns>
         <translations>
@@ -12280,11 +12310,42 @@
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="25400000">conflict<nouns>
-        <translations>
-            <translation gender="m">conflicte</translation>
+    <Entry frequency="5500000">conflate<verbs>
+        <translations><date>0512</date>
+            <translation register="formal">combinar</translation>
+        </translations>
+    </verbs>
+    </Entry>
+<Entry frequency="3520000">conflation<nouns>
+        <translations><date>0512</date>
+            <translation register="formal" gender="f">combinació</translation>
         </translations>
     </nouns>
+    </Entry>    
+<Entry frequency="25400000">conflict<nouns>
+        <translations><date>0512</date>
+            <translation gender="m">conflicte</translation>
+            <grouptranslation>              
+            <translation gender="f">pugna</translation>
+            <translation gender="m">combat</translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+    <verbs>
+        <translations>
+            <translation>estar en pugna / discrepar-se / contradir-se</translation>
+        </translations>
+    </verbs>
+    <expressions>to be in conflict
+        <translations>
+            <translation>estar en pugna / discrepar</translation>
+        </translations>
+    </expressions>
+    <expressions>conflict of interests
+        <translations>
+            <translation gender="m">conflicte d'interessos</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="23900000">confluence<nouns>
         <translations>
@@ -12293,16 +12354,12 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="2110000">conform<verbs>
-        <translations>
-            <translation>conformar-se / acomodar-se / emmotllar-se</translation>
+<Entry frequency="256000000">conform<verbs>
+        <translations><date>0512</date>
+            <translation>conformar-se / acomodar-se / emmotllar-se / seguir un patró</translation>
+            <translation>[~ to, with] ajustar-se a / sotmetre's a</translation>
         </translations>
-    </verbs>
-    <phrasalverbs>conform to
-        <translations>
-            <translation intransitive="true">conformar-se a</translation>
-        </translations>
-    </phrasalverbs>
+    </verbs>    
 </Entry>
     <Entry frequency="12900000">conformance<nouns>
                             <translations><date>0708</date>
@@ -12310,9 +12367,12 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="3270000">conformist<nouns>
-        <translations>
+<Entry frequency="8400000">conformist<nouns>
+        <translations><date>0512</date>
+            <grouptranslation>
             <translation gender="mf">conformista</translation>
+            <translation>(persona, individu) convencional</translation>
+            </grouptranslation>
         </translations>
     </nouns>
         <adjectives>
@@ -12332,34 +12392,74 @@
             </translations>
         </expressions>
     </Entry>
-<Entry frequency="15500000">confront<verbs>
-        <translations>
-            <translation>acarar / confrontar</translation>
+<Entry frequency="23600000">confound<verbs>
+        <translations><date>0512</date>
+            <translation register="formal" transitive="true">confondre / desconcertar / deixar perplex</translation>
+            <translation register="formal" transitive="true">demostrar a (algú) que s'equivoca</translation>
+        </translations>
+    </verbs>
+    </Entry>    
+    <Entry frequency="833000">confrere<nouns>
+        <translations><date>0512</date>
+            <translation gender="mf">col·lega</translation>
+        </translations>
+    </nouns>
+    </Entry>
+<Entry frequency="234000000">confront<verbs>
+        <translations><date>0512</date>
+            <translation>[problem] afrontar</translation>
+            <translation>[enemy] enfrontar-se amb</translation>
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="5700000">confrontation<nouns>
-        <translations>
-            <grouptranslation><translation gender="m">acarament</translation>
+<Entry frequency="146000000">confrontation<nouns>
+        <translations><date>0512</date>
+            <grouptranslation><translation gender="m">acarament / enfrontament</translation>
                 <translation gender="f">confrontació</translation></grouptranslation>
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="692000">confuse<verbs>
-        <translations>
-            <translation>confondre</translation>
+   <Entry frequency="9430000">confrontational<adjectives>
+        <translations><date>0512</date>
+            <translation>bel·ligerant / agresiu</translation>
+        </translations>
+    </adjectives>
+    </Entry> 
+<Entry frequency="1250000000">confuse<verbs>
+        <translations><date>0512</date>
+        <translation>[mix up] confondre</translation>
+            <translation>confondre / desconcertar / destarotar / atabalar</translation>
+            <translation>complicar</translation>
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="5030000">confused<adjectives>
-        <translations>
-            <translation>confós</translation>
+<Entry frequency="637000000">confused<adjectives>
+        <translations><date>0512</date>
+            <translation>confós / despistat / atabalat</translation>
+            <translation>confós / complicat</translation>
         </translations>
     </adjectives>
     </Entry>
+<Entry frequency="56400000">confusing<adjectives>
+        <translations><date>0512</date>
+            <translation>atabalador</translation>
+        </translations>
+    </adjectives>
+    </Entry>    
 <Entry frequency="56400000">confusion<nouns>
         <translations><date>1008</date>
+        <grouptranslation>
             <translation gender="f">confusió</translation>
+            <translation gender="m">desconcert</translation>
+            </grouptranslation>
+            <grouptranslation>
+            <translation gender="m">enrenou</translation>
+            <translation gender="f">agitacio</translation>
+            </grouptranslation>
+            <grouptranslation>
+                <translation gender="f">torbació</translation>
+                <translation gender="m">torbament</translation>
+            </grouptranslation>
         </translations>
     </nouns>
     </Entry>
@@ -12499,6 +12599,11 @@
             <translation catagory="linguistics" gender="f">conjunció</translation>
         </translations>
     </nouns>
+    <expressions>in conjunction with
+        <translations>
+            <translation>juntament amb</translation>
+         </translations>
+     </expressions>
     </Entry>
 <Entry frequency="170000">conjunctivitis<nouns>
         <translations>
@@ -12554,18 +12659,34 @@
     </nouns>
     </Entry>
 <Entry frequency="10300000">connect<verbs>
-        <translations>
-            <translation>connectar / unir / enllaçar</translation>
+        <translations><date>0512</date>
+            <translation>connectar / unir / enllaçar / comunicar</translation>
             <translation>relacionar</translation>
             <translation>acoblar</translation>
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="141000000">connection<nouns>
-        <translations>
+<Entry frequency="3830000000">connection<nouns>
+        <translations><date>0512</date>
             <translation gender="f">connexió</translation>
+            <translation gender="f">relació</translation>
+            <translation disambiguate="transport" gender="m">enllaç</translation>
+            <grouptranslation sourceplural="connections">
+            <translation gender="f">coneixença</translation>
+            <translation gender="fpl">coneixences</translation>
+            </grouptranslation>
         </translations>
     </nouns>
+    <expressions>in connection with
+        <translations>
+            <translation>en relació amb</translation>
+        </translations>
+    </expressions>
+    <expressions>in this connection
+        <translations>
+            <translation register="formal">en aquest context</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="4090000">connectivity<nouns>
 			<translations><date>0408</date>
@@ -12596,15 +12717,18 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="5560000">connotation<nouns>
-        <translations>
-            <translation catagory="linguistics" gender="f">connotació</translation>
+<Entry frequency="19800000">connotation<nouns>
+        <translations><date>0512</date>
+        <grouptranslation>
+            <translation gender="f">connotació</translation>
+            <translation gender="m">matís / aspecte</translation>
+        </grouptranslation>
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="4940000">conquer<verbs>
-        <translations>
-            <translation>conquerir / conquistar</translation>
+<Entry frequency="321000000">conquer<verbs>
+        <translations><date>0512</date>
+            <translation>conquerir / conquistar / subjugar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -12626,15 +12750,20 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="3680000">conscience<nouns>
-        <translations>
+<Entry frequency="140000000">conscience<nouns>
+        <translations><date>0512</date>
             <translation gender="f">consciència</translation>
         </translations>
     </nouns>
+    <expressions>in good conscience
+        <translations>
+            <translation>sincerament / honradament</translation>
+        </translations>
+    </expressions>
     </Entry>
-    <Entry frequency="24800000">conscientious<adjectives>
-		<translations><date>0112</date>
-			<translation>conscienciós</translation>
+    <Entry frequency="20700000">conscientious<adjectives>
+		<translations><date>0512</date>
+			<translation>conscienciós / zelós / responsable / meticulós</translation>
 		</translations>
             </adjectives>
             <expressions>conscientious objector
@@ -12643,15 +12772,25 @@
                 </translations>
             </expressions>
 	</Entry>
-        <Entry frequency="4750000">conscientiously<adverbs>
-			<translations><date>0112</date>
-				<translation>conscienciosament</translation>
+        <Entry frequency="3750000">conscientiously<adverbs>
+			<translations><date>0512</date>
+				<translation>conscienciosament / responsablement / assíduament</translation>
 			</translations>
 		</adverbs>
 	</Entry>
-<Entry frequency="6310000">conscious<adjectives>
-			<translations><date>0307</date>
+        <Entry frequency="2280000">conscientiousness<nouns>
+			<translations><date>0512</date>
+                        <grouptranslation>
+				<translation gender="f">diligència</translation>
+                                <translation gender="m">zel</translation>
+                        </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="190000000">conscious<adjectives>
+			<translations><date>0512</date>
 				<translation>conscient</translation>
+                                <translation>deliberat / estudiat</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -12661,9 +12800,10 @@
         </translations>
     </adverbs>
     </Entry>
-<Entry frequency="31400000">consciousness<nouns>
-        <translations><date>1108</date>
+<Entry frequency="180000000">consciousness<nouns>
+        <translations><date>0512</date>
             <translation gender="f">consciència</translation>
+            <translation gender="m">coneixement</translation>
         </translations>
     </nouns>
         <expressions>lose consciousness
@@ -12677,6 +12817,12 @@
             </translations>
         </expressions>
     </Entry>
+    <Entry frequency="8840000">conscription<nouns>
+			<translations><date>0512</date>
+				<translation gender="f">mobilització</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="2700000">consecrate<verbs>
         <translations>
             <translation catagory="religious">consagrar</translation>
@@ -12689,9 +12835,9 @@
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="3510000">consecutive<adjectives>
-        <translations>
-            <translation>consecutiu</translation>
+<Entry frequency="200000000">consecutive<adjectives>
+        <translations><date>0512</date>
+            <translation>consecutiu / ininterromput</translation>
         </translations>
     </adjectives>
     </Entry>
@@ -12701,21 +12847,23 @@
         </translations>
     </adverbs>
     </Entry>
-<Entry frequency="17700000">consensus<nouns>
-        <translations>
-            <translation gender="m">consens<synonyms>agreement</synonyms>
-            </translation>
+<Entry frequency="151000000">consensus<nouns>
+        <translations><date>0512</date>
+            <grouptranslation>
+            <translation gender="m">consens</translation>
+            <translation gender="f">opinió generalitzada</translation>
+            </grouptranslation>
         </translations>
     </nouns>
     </Entry>
-<Entry frequency="10600000">consent<nouns>
-            <translations>
+<Entry frequency="665000000">consent<nouns>
+            <translations><date>0512</date>
                 <translation gender="m">consentiment</translation>
             </translations>
         </nouns>
         <verbs>
         <translations>
-            <translation>consentir</translation>
+            <translation>consentir / transigir</translation>
         </translations>
     </verbs>
        <phrasalverbs>consent to
@@ -12723,12 +12871,29 @@
             <translation intransitive="true">consentir en</translation>
         </translations>
     </phrasalverbs>
-    </Entry>
-<Entry frequency="23700000">consequence<nouns>
+    <expressions>by common consent
         <translations>
-            <translation gender="f">conseqüència</translation>
+            <translation>a l'uníson</translation>
+        </translations>
+    </expressions>
+    </Entry>
+<Entry frequency="691000000">consequence<nouns>
+        <translations><date>0512</date>
+            <translation gender="f">conseqüència<engexamp>There will be consequences.</engexamp><catexamp>La cosa no quedarà així.</catexamp></translation>
+            <translation gender="f">importància / rellevància / transcendència</translation>
         </translations>
     </nouns>
+    <expressions>in consequence (of)
+        <translations>
+            <translation register="formal">a conseqüència (de) / com a resultat (de)</translation>
+        </translations>
+    </expressions>
+    <expressions>of consequence
+        <translations>
+            <translation>[thing] important</translation>
+            <translation>[person] distingit / de renom</translation>
+        </translations>
+    </expressions>
     </Entry>
     <Entry frequency="9140000">consequential<adjectives>
             <translations><date>1108</date>
@@ -12743,9 +12908,10 @@
         </translations>
     </adverbs>
     </Entry>
-<Entry frequency="18200000">conservation<nouns>
-        <translations>
+<Entry frequency="419000000">conservation<nouns>
+        <translations><date>0512</date>
             <translation gender="f">conservació</translation>
+            <translation gender="f">protecció (del medi ambient, etc.)<engexamp>Conservation organization</engexamp><catexamp>Organització ecologista (o conservacionista)</catexamp></translation>
         </translations>
     </nouns>
     </Entry>
@@ -12760,9 +12926,10 @@
             </translations>
         </adjectives>
     </Entry>
-<Entry frequency="18400000">conservative<adjectives>
-        <translations>
+<Entry frequency="845000000">conservative<adjectives>
+        <translations><date>0512</date>
             <translation>conservador</translation>
+            <translation>[estimate] pel cap baix</translation>
         </translations>
     </adjectives>
     </Entry>
@@ -12800,9 +12967,11 @@
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="19100000">consider<verbs>
-        <translations>
-            <translation>considerar / pensar<engexamp>No punishment would be adequate considering what he did</engexamp><catexamp>Cap càstig no seria adequat considerant el que va fer</catexamp></translation>
+<Entry frequency="4670000000">consider<verbs>
+        <translations><date>0512</date>
+            <translation>considerar / examinar / estudiar / pensar / sospesar<engexamp>No punishment would be adequate considering what he did.</engexamp><catexamp>Cap càstig no seria adequat considerant el que va fer.</catexamp></translation>
+            <translation>tenir en compte</translation>
+            <translation>contemplar</translation>            
         </translations>
     </verbs>
     </Entry>
