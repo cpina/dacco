@@ -140,14 +140,24 @@
     </adverbs>
     <adjectives>
         <translations>
-            <translation>d'hora<example>As John came through the door, Ian looked at his watch.  "You're &lt;b&gt;early&lt;/b&gt; this morning!", he said.</example><example>Emma wanted to arrive at the station with plenty of time to spare, just in case her train was &lt;b&gt;early&lt;/b&gt;</example></translation>
+            <translation>d'hora<engexamp>To have an early dinner.</engexamp><catexamp>Sopar d'hora.</catexamp><example>As John came through the door, Ian looked at his watch.  "You're &lt;b&gt;early&lt;/b&gt; this morning!", he said.</example><example>Emma wanted to arrive at the station with plenty of time to spare, just in case her train was &lt;b&gt;early&lt;/b&gt;</example></translation>
            <translation>primerenc<example>Notre Dame Cathedral in Paris is an outstanding example of &lt;b&gt;early&lt;/b&gt; Gothic architecture.</example><example>'Romeo and Juliet' was one of Shakespeare's &lt;b&gt;early&lt;/b&gt; works.</example></translation>
-           <translation>primer<engexamp>In the early 1970s.</engexamp><catexamp>A principis dels anys 70.</catexamp></translation>
+           <translation>primer<engexamp>He was an early supporter of Barack Obama.</engexamp><catexamp>Va ser un dels primers valedors de Barack Obama.</catexamp><engexamp>In the early 1970s.</engexamp><catexamp>A principis dels anys 70.</catexamp></translation>
         </translations>
     </adjectives>
     <expressions>early hours (of the morning ...)
         <translations>
             <translation gender="f">primeres hores (del matí ...)</translation>
+        </translations>
+    </expressions>
+    <expressions>early on
+        <translations>
+            <translation>al començament (de tot)</translation>
+        </translations>
+    </expressions>
+    <expressions>early years
+        <translations>
+            <translation>primers anys / infància / anys de joventut</translation>
         </translations>
     </expressions>
     <expressions>to get up early
@@ -156,54 +166,77 @@
         </translations>
     </expressions>
 </Entry>
+<Entry frequency="1200000">early warning<nouns>
+        <translations><date>0912</date>
+            <translation beforenoun="true">preventiu</translation>
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="4850000">earmark<verbs>
-                            <translations><date>1007</date>
-				<translation register="colloquial">assignar / destinar / reservar<example>The Government has &lt;b&gt;earmarked&lt;/b&gt; £15 million for humanitarian aid to Iraq.</example>
-					<example>Kevin Keegan has &lt;b&gt;earmarked&lt;/b&gt; David Seaman as a potential candidate to replace Peter Schmeichel in goal.</example>
-				</translation>
-			</translations>
-		</verbs>
-	</Entry>
-        <Entry frequency="686000">earmuff<nouns>
-                            <translations><date>0510</date>
-				<translation gender="f">orellera</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations><date>1007</date>
+            <translation register="colloquial">assignar / destinar / reservar<example>The Government has &lt;b&gt;earmarked&lt;/b&gt; £15 million for humanitarian aid to Iraq.</example><example>Kevin Keegan has &lt;b&gt;earmarked&lt;/b&gt; David Seaman as a potential candidate to replace Peter Schmeichel in goal.</example></translation>
+        </translations>
+    </verbs>
+    <nouns>
+        <translations>
+            <grouptranslation local="us">
+            <translation gender="m">tret distintiu / element distintiu</translation>
+            <translation gender="f">marca distintiva</translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+</Entry>
+<Entry frequency="686000">earmuff<nouns>
+        <translations><date>0510</date>
+            <translation gender="f">orellera</translation>
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="136000000">earn<verbs>
-			<past>earnt, earned</past>
-			<participle>earnt, earned</participle>
-                            <translations><date>1008</date>
-				<translation>guanyar / cobrar<example>Figures due out next week are expected to show that academics in the UK &lt;b&gt;earn&lt;/b&gt; on average £30,000 a year less than their counterparts in the US.</example>
-				</translation>
-			</translations>
-		</verbs>
-                <expressions>earn a living
-                    <translations>
-                        <translation>guanyar-se la vida</translation>
-                    </translations>
-                </expressions>
-                <expressions>earn money
-                    <translations>
-                        <translation>guanyar diners</translation>
-                    </translations>
-                </expressions>
-	</Entry>
+    <past>earnt, earned</past>
+    <participle>earnt, earned</participle>
+        <translations><date>1008</date>
+            <translation>guanyar / cobrar<example>Figures due out next week are expected to show that academics in the UK &lt;b&gt;earn&lt;/b&gt; on average £30,000 a year less than their counterparts in the US.</example></translation>
+        </translations>
+    </verbs>
+    <expressions>earn a living
+        <translations>
+            <translation>guanyar-se la vida</translation>
+        </translations>
+    </expressions>
+    <expressions>earn money
+        <translations>
+            <translation>guanyar diners</translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="1710000">earnest<adjectives>
-                            <translations><date>1008</date>
-				<translation>seriós<example>Zac is an &lt;b&gt;earnest&lt;/b&gt; young man who believes that in order to succeed you must work hard.</example>
-				</translation>
-				<translation>fervent / sincer<example>It is our &lt;b&gt;earnest&lt;/b&gt; hope that the international community will find a satisfactory solution to this problem before it gets out of hand</example>
-				</translation>
-			</translations>
-		</adjectives>
-	</Entry>
+        <translations><date>1008</date>
+            <translation>seriós<example>Zac is an &lt;b&gt;earnest&lt;/b&gt; young man who believes that in order to succeed you must work hard.</example></translation>
+            <translation>fervent / sincer / perseverant / vehement / conscienciós<example>It is our &lt;b&gt;earnest&lt;/b&gt; hope that the international community will find a satisfactory solution to this problem before it gets out of hand</example></translation>
+        </translations>
+    </adjectives>
+    <expressions>in earnest
+        <translations>
+            <translation>de debò / a consciència / amb totes les ganes</translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="201000">earnestly<adverbs>
-			<translations>
-				<translation>sincerament</translation>
-			</translations>
-		</adverbs>
-	</Entry>
+        <translations>
+            <translation>sincerament / a consciència / vivament</translation>
+        </translations>
+    </adverbs>
+</Entry>
+<Entry frequency="6840000">earnestness<nouns>
+        <translations><date>0912</date>
+            <grouptranslation>
+            <translation gender="f">serietat / sinceritat</translation>
+            <translation gender="m">tremp</translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="10800000">earnings<nouns>
 			<translations>
 				<translation catagory="financial" gender="mpl">beneficis</translation>
@@ -245,39 +278,64 @@
                 </expressions>
 	</Entry>
 <Entry frequency="85200000">earth<nouns>
-			<translations>
-				<translation gender="f">terra</translation>
-                                <translation beforenoun="true">terrestre</translation>
-			</translations>
-		</nouns>
-                <phrasalverbs>earth up
-                <translations>
-                <translation catagory="agriculture">calçar<example>&lt;b&gt;Earth up&lt;/b&gt; celery to blanch the stems and make them more tender.</example><synonyms>hill up</synonyms></translation>
-                </translations>
-                </phrasalverbs>
-                <expressions>Earth Summit
-                    <translations>
-                        <translation gender="f">Cimera de la Terra</translation>
-                    </translations>
-                </expressions>
-                <expressions>what on earth (is an x)?
-                <translations>
-                    <translation>què dimonis (és un x)?</translation>
-                    </translations>
-                    </expressions>
-	</Entry>
+        <translations>
+            <translation gender="f">terra</translation>
+            <translation beforenoun="true">terrestre</translation>
+	</translations>
+    </nouns>
+    <phrasalverbs>earth up
+        <translations>
+            <translation catagory="agriculture">calçar<example>&lt;b&gt;Earth up&lt;/b&gt; celery to blanch the stems and make them more tender.</example><synonyms>hill up</synonyms></translation>
+        </translations>
+    </phrasalverbs>
+    <expressions>Earth Summit
+        <translations>
+            <translation gender="f">Cimera de la Terra</translation>
+        </translations>
+    </expressions>
+    <expressions>what on earth?
+        <translations>
+            <translation>què dimonis?</translation>
+        </translations>
+    </expressions>
+    <expressions>why on earth...?
+        <translations>
+            <translation>és pot saber (per què?)</translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="1350000">earthenware<nouns>
 			<translations><date>0407</date>
 				<translation gender="f">terrissa</translation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="12600000">earthling<nouns>
+        <translations><date>0912</date>
+            <translation gender="mf">habitant de la Terra / terrícola</translation>
+        </translations>
+    </nouns>
+</Entry>
+<Entry frequency="24900000">earthly<adjectives>
+        <translations><date>0912</date>
+            <translation>terrestre</translation>
+            <translation>possible<engexamp>There's no earthly reason...</engexamp><catexamp>No hi ha cap raó en absolut...</catexamp><engexamp>He had no earthly chance of winning.</engexamp><catexamp>No tenia cap possibilitat (en absolut) de guanyar.</catexamp></translation>            
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="51500000">earthquake<nouns>
                             <translations><date>0110</date>
 				<translation catagory="geography" gender="m">terratrèmol / sisme</translation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="23000000">earthy<adjectives>
+        <translations><date>0912</date>
+            <translation>en brut / tosc / rústic / poc sofisticat / desinhibit</translation>
+            <translation>terrós</translation>
+        </translations>
+    </adjectives>
+</Entry>       
 <Entry frequency="2260000">earwax<nouns>
 			<translations>
                         <grouptranslation><translation gender="f">cera de les orelles</translation>
@@ -295,63 +353,75 @@
 		</nouns>
 	</Entry>
 <Entry frequency="6340000">ease<nouns>
-			<translations>
-				<translation gender="f">facilitat<example>Venus served seven aces, broke her opponent's serve with relative &lt;b&gt;ease&lt;/b&gt; and won the match 6-2, 6-0.</example>
-				</translation>
-			</translations>
-		</nouns>
-                <verbs>
-                <translations>
-                <translation>alleujar / pal·liar</translation></translations></verbs>
-                <phrasalverbs>ease into
-                    <translations>
-                        <translation intransitive="true">fer entrar suaument a</translation>
-                    </translations>
-                </phrasalverbs>
-                <phrasalverbs>ease off
-                    <translations>
-                        <translation intransitive="true">alleujar-se (p.e., el dolor, la pluja, la velocitat, etc.)</translation>
-                        <translation register="colloquial" intransitive="true">no fer servir tant</translation>
-                    <translation intransitive="true">reduir pressió sobre (l'accelerador, el fre, etc.)</translation>
-                    <translation intransitive="true">reduir el consum de</translation>
-                    <translation transitive="true">treure (lentament, amb molta cura)</translation>
-                </translations>
-            </phrasalverbs>
-                <phrasalverbs>ease out
-                    <translations>
-                        <translation transitive="true">apartar (gradualment)</translation>
-                    </translations>
-                </phrasalverbs>
-                <phrasalverbs>ease out of
-                    <translations>
-                        <translation intransitive="true">fer sortir suaument de</translation>
-                    </translations>
-                </phrasalverbs>
-                <phrasalverbs>ease up
-                <translations>
-                    <translation intransitive="true">alentir-se<example>The runner &lt;b&gt;eased up&lt;/b&gt; just before the finish line as no-one could catch him.</example></translation>
-                    <translation intransitive="true">(dolor) alleujar-se</translation>
-                    <translation intransitive="true">(vent / tempesta) afluixar<example>The wind seems to have &lt;b&gt;eased up&lt;/b&gt; now.</example></translation>
-                    </translations>
-                    </phrasalverbs>
-                    <expressions>put (somebody) at ease
-                        <translations>
-                            <translation>fer sentir a gust (algú)</translation>
-                        </translations>
-                    </expressions>
+        <translations>
+            <translation gender="f">facilitat<engexamp>With practiced ease.</engexamp><catexamp>Amb habilitat (o traça).</catexamp><engexamp>A life of ease (and plenty).</engexamp><catexamp>Una vida plàcida (i folgada).</catexamp><engexamp>(Stand) at ease!</engexamp><catexamp>Descansin! (vocabulari militar)</catexamp><example>Venus served seven aces, broke her opponent's serve with relative &lt;b&gt;ease&lt;/b&gt; and won the match 6-2, 6-0.</example></translation>
+        </translations>
+    </nouns>
+    <verbs>
+        <translations>
+            <translation>alleujar / pal·liar</translation></translations></verbs>
+    <phrasalverbs>ease into
+        <translations>
+            <translation intransitive="true">fer entrar suaument a</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>ease off
+        <translations>
+            <translation intransitive="true">alleujar-se (p.e., el dolor, la pluja, la velocitat, etc.)</translation>
+            <translation register="colloquial" intransitive="true">no fer servir tant</translation>
+            <translation intransitive="true">reduir pressió sobre (l'accelerador, el fre, etc.)</translation>
+            <translation intransitive="true">reduir el consum de</translation>
+            <translation transitive="true">treure (lentament, amb molta cura)</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>ease out
+        <translations>
+            <translation transitive="true">apartar (gradualment)</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>ease out of
+        <translations>
+            <translation intransitive="true">fer sortir suaument de</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>ease up
+        <translations>
+            <translation intransitive="true">alentir-se<example>The runner &lt;b&gt;eased up&lt;/b&gt; just before the finish line as no-one could catch him.</example></translation>
+            <translation intransitive="true">(dolor) alleujar-se</translation>
+            <translation intransitive="true">(vent / tempesta) afluixar<example>The wind seems to have &lt;b&gt;eased up&lt;/b&gt; now.</example></translation>
+        </translations>
+    </phrasalverbs>
+    <expressions>to ease your mind
+        <translations>
+            <translation>descarregar la consciència</translation>
+        </translations>        
+    </expressions>
+    <expressions>to put (somebody) at (their) ease
+        <translations>
+            <translation>fer sentir a gust (algú)</translation>
+        </translations>
+    </expressions>
 </Entry>
 <Entry frequency="9390000">easel<nouns>
-			<translations>
-                            <translation gender="m">cavallet</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations>
+            <translation gender="m">cavallet</translation>
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="43000000">easily<adverbs>
 			<translations>
 				<translation>fàcilment / amb facilitat</translation>
+                                <translation>sens dubte / decididament</translation>
 			</translations>
 		</adverbs>
 	</Entry>
+<Entry frequency="9390000">easiness<nouns>
+        <translations><date>0912</date>
+            <translation gender="f">facilitat</translation>
+            <translation gender="f">lleugeresa / frivolitat</translation>
+        </translations>
+    </nouns>
+</Entry>        
 <Entry frequency="71300000">east<nouns>
 			<translations>
 				<translation gender="m">est</translation>
@@ -421,14 +491,23 @@
 		</adverbs>
 	</Entry>
 <Entry frequency="153000000">easy<adjectives>
-			<translations>
-				<translation>fàcil</translation>
-			</translations>
-		</adjectives>
-	</Entry>
+        <translations>
+            <translation>fàcil<engexamp>It would be too easy...</engexamp><catexamp>Seria una simplificació...</catexamp><engexamp>It's not easy.</engexamp><catexamp>Costa.</catexamp><engexamp>It's easy to see...</engexamp><catexamp>Salta a la vista...</catexamp></translation>
+            <translation>descansat / regalat</translation>
+            <translation>airós / desimbolt / natural<engexamp>Easy manner.</engexamp><catexamp>Espontaneïtat / naturalitat / desimboltura.</catexamp></translation>
+            <translation>indulgent</translation>
+            <translation>passador</translation>
+        </translations>
+    </adjectives>
+    <expressions>to make things easier
+        <translations>
+            <translation>facilitar les coses</translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="133000">easygoing<adjectives>
 			<translations>
-				<translation>pacient / tolerant</translation>
+				<translation>pacient / tolerant / condescendent / espontani / distès</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -441,7 +520,7 @@
 		</verbs>
                 <phrasalverbs>eat away
                     <translations>
-                        <translation transitive="true">destrossar gradualment</translation>
+                        <translation transitive="true">destrossar gradualment / minar</translation>
                     </translations>
                 </phrasalverbs>
                 <phrasalverbs>eat in
@@ -451,7 +530,7 @@
                 </phrasalverbs>
                 <phrasalverbs>eat into
                     <translations>
-                        <translation intransitive="true">rovellar / desgastar</translation>
+                        <translation intransitive="true">rovellar / desgastar / corroir / rosegar</translation>
                     </translations>
                 </phrasalverbs>
 		<phrasalverbs>eat out
@@ -461,11 +540,26 @@
 		</phrasalverbs>
                 <phrasalverbs>eat up
                     <translations>
-                        <translation transitive="true">menjar-se</translation>
+                        <translation transitive="true">menjar-se / consumir<engexamp>To be eaten up with...</engexamp><catexamp>Deixar-se consumir per...</catexamp></translation>
                         <translation transitive="true">acceptar / rebre ardosament</translation>
                     </translations>
                 </phrasalverbs>
             </Entry>
+<Entry frequency="4100000">eatable<adjectives>
+        <translations><date>0912</date>
+            <translation>consumible</translation>
+        </translations>
+    </adjectives>
+    <nouns>
+        <translations>
+            <grouptranslation sourceplural="eatables">
+            <translation gender="mpl">comestibles</translation>
+            <translation gender="f">vianda</translation>
+            <translation gender="fpl">coses de menjar</translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+</Entry>            
 <Entry frequency="24000000">eating disorder<nouns>
 			<translations>
 				<translation>trastorn alimentari</translation>
@@ -480,12 +574,30 @@
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="112000000">ebb<nouns>
+        <translations><date>0912</date>
+            <translation gender="m">reflux</translation>
+        </translations>
+    </nouns>
+    <verbs>
+        <translations>
+            <translation register="formal">baixar</translation>
+            <translation>[~ away] minvar</translation>
+        </translations>     
+    </verbs>
+    <expressions>the ebb and flow
+        <translations>
+            <translation>[of life] els alts i baixos</translation>
+            <translation>[of a battle] l'evolució</translation>
+        </translations>
+    </expressions>
+</Entry>        
 <Entry frequency="73300000">ebony<nouns>
-			<translations><date>1007</date>
-				<translation catagory="material" gender="m">eben</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations><date>1007</date>
+            <translation catagory="material" gender="m">eben</translation>
+        </translations>
+    </nouns>
+</Entry>
         <Entry frequency="962000000">e-book<nouns>
                             <translations><date>0112</date>
 				<translation gender="m">llibre electrònic (o digital)</translation>
@@ -500,6 +612,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="500000">ebullience<nouns>
+        <translations><date>0912</date>
+            <translation register="formal" gender="m">esclat / entusiasme</translation>
+        </translations>
+    </nouns>
+</Entry>
+<Entry frequency="1810000">ebullient<adjectives>
+        <translations><date>0912</date>
+            <translation register="formal">entusiasta / vivaç / ple de vida / ple d'energia</translation>
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="10500000">e-business<nouns>
                             <translations><date>0508</date>
 				<translation gender="m">comerç (o negoci) electrònic</translation>
