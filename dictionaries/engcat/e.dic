@@ -637,14 +637,12 @@
 		</nouns>
 	</Entry>
 <Entry frequency="3240000">eccentric<adjectives>
-			<translations>
-				<translation>estrafolari / extravagant<example>Old Nancy was believed by many to be somewhat &lt;b&gt;eccentric&lt;/b&gt;. She appeared to prove them all right when she left $3,000,000 in her will to her cat Lord Pumplechook Chipwoddy the Third.</example>
-					<example>Theresa has a rather &lt;b&gt;eccentric&lt;/b&gt; taste in clothes.  Who else would think that wearing a leopard-skin t-shirt with shocking pink leather trousers and purple stilettos was a good idea??</example>
-				</translation>
-                                <translation>excèntric<engnote>'Excèntric' means 'eccentric' in the sense 'not located at the geometric centre'.</engnote></translation>
-			</translations>
-		</adjectives>
-	</Entry>
+        <translations>
+            <translation>estrafolari / extravagant<example>Old Nancy was believed by many to be somewhat &lt;b&gt;eccentric&lt;/b&gt;. She appeared to prove them all right when she left $3,000,000 in her will to her cat Lord Pumplechook Chipwoddy the Third.</example><example>Theresa has a rather &lt;b&gt;eccentric&lt;/b&gt; taste in clothes.  Who else would think that wearing a leopard-skin t-shirt with shocking pink leather trousers and purple stilettos was a good idea??</example></translation>
+            <translation>[geometry] excèntric</translation>
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="2740000">eccentricity<nouns>
 			<translations>
 				<translation gender="f">extravagància<plural>eccentricities</plural></translation>
@@ -682,21 +680,29 @@
 		</nouns>
 	</Entry>
 <Entry frequency="11900000">echo<nouns>
-			<translations>
-				<grouptranslation><translation gender="m">eco</translation>
-					<translation gender="f">reverberació</translation></grouptranslation>
-			</translations>
-		</nouns>
-		<verbs>
-			<thirdPresent>echoes</thirdPresent>
-			<past>echoed</past>
-			<participle>echoed</participle>
-			<gerund>echoing</gerund>
-			<translations>
-				<translation>ressonar</translation>
-			</translations>
-		</verbs>
-	</Entry>
+        <translations>
+            <grouptranslation>
+            <translation gender="m">eco</translation>
+            <translation gender="f">reverberació / ressonància</translation></grouptranslation>
+	</translations>
+    </nouns>
+    <verbs>
+    <thirdPresent>echoes</thirdPresent>
+    <past>echoed</past>
+    <participle>echoed</participle>
+    <gerund>echoing</gerund>
+        <translations>
+            <translation>ressonar</translation>
+            <translation>repetir</translation>
+            <translation>evocar / estar inspirat (en)</translation>
+        </translations>
+    </verbs> 
+    <expressions>echo chamber
+        <translations>
+            <translation gender="f">cambra de ressonància</translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="671000">echocardiography<nouns>
 			<translations>
 				<translation catagory="medical-field" gender="f">ecocardiografia</translation>
@@ -730,17 +736,11 @@
                 </expressions>
 	</Entry>
 <Entry frequency="6480000">ecological<adjectives>
-			<translations>
-				<translation>ecològic</translation>
-			</translations>
-		</adjectives>
-	</Entry>
-<Entry frequency="54600">ecological disaster<nouns>
-			<translations>
-				<translation gender="m">desastre ecològic</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations>
+            <translation>ecològic</translation>
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="259000">ecologically<adverbs>
 			<translations>
 				<translation>ecològicament</translation>
@@ -767,13 +767,17 @@
 		</adjectives>
 	</Entry>
 <Entry frequency="3270000">economical<adjectives>
-			<translations>
-				<translation disambiguate="financial">barat</translation>
-				<translation>frugal<catnote>L'expressió 'to be economical with the truth' és un eufemisme que vol dir 'mentir'.</catnote>
-				</translation>
-			</translations>
-		</adjectives>
-	</Entry>
+        <translations>
+            <translation disambiguate="financial">barat</translation>
+            <translation>frugal</translation>
+        </translations>
+    </adjectives>
+    <expressions>to be economical with the truth
+        <translations>
+            <translation>no dir tota la veritat / dir la veritat a mitges</translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="1270000">economically<adverbs>
 			<translations>
 				<translation>econòmicament</translation>
@@ -841,17 +845,26 @@
 	</Entry>
 <Entry frequency="1990000">ecstasy<nouns>
 			<translations>
+                                <grouptranslation>
 				<translation gender="m">èxtasi</translation>
+                                <translation gender="f">joia</translation>
+                                </grouptranslation>
                                 <translation gender="m">[drug] èxtasi</translation> 
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="1990000">ecstatic<nouns>
-                            <translations><date>1008</date>
-				<translation>extàtic (formal) / encantat / entusiasmat<synonyms>delighted, over the moon (col·loq)</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations><date>1008</date>
+            <translation>extàtic (formal) / encantat / entusiasmat / exultant<synonyms>delighted, over the moon (col·loq)</synonyms></translation>
+        </translations>
+    </nouns>
+</Entry>
+ <Entry frequency="833000">ecstatically<adverbs>
+        <translations><date>0912</date>
+            <translation>exultant / entusiasmat / amb entusiasme</translation>
+        </translations>
+    </adverbs>
+</Entry>
 <Entry frequency="7070000">Ecuador<nouns>
 			<translations>
 				<translation catagory="country-southamerica" gender="m">Equador</translation>
@@ -907,14 +920,35 @@
 		</nouns>
 	</Entry>
 <Entry frequency="83400000">edge<nouns>
-			<translations>
-				<translation gender="f">vora</translation>
-			</translations>
-		</nouns>
-                <expressions>to be on edge
-                <translations>
-                <translation>tenir / estar amb els nervis a flor de pell</translation></translations></expressions>
-	<phrasalverbs>edge up<translations><translation intransitive="true">1 augmentar-se gradualment 2 acostar-se gradualment</translation></translations></phrasalverbs></Entry>
+        <translations>
+            <grouptranslation>
+            <translation gender="f">vora</translation>
+            <translation gender="m">llindar / contorn / vessant</translation>
+            </grouptranslation>
+            <grouptranslation>
+            <translation gender="m">to vehement / to aspre / to eixut</translation>
+            <translation gender="f">vehemència<engexamp>There was an edge to his voice.</engexamp><catexamp>Ho va dir en to aspre / en to eixut.</catexamp></translation>
+            </grouptranslation>
+            <translation gender="f">superioritat<engexamp>To have an edge on...</engexamp><catexamp>Ser superior a...</catexamp></translation>                
+        </translations>
+    </nouns>
+    <expressions>to be on edge
+        <translations>
+            <translation>tenir / estar amb els nervis a flor de pell</translation>
+        </translations>
+    </expressions>
+    <expressions>to set (somebody's) teeth on edge
+        <translations>
+            <translation>fer crispar els nervis / fer sortir de polleguera</translation>
+        </translations>
+    </expressions>
+    <phrasalverbs>edge up
+        <translations>
+            <translation intransitive="true">augmentar-se gradualment</translation>
+            <translation intransitive="true">acostar-se gradualment</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
 <Entry frequency="638000">edgy<adjectives>
 			<translations>
 				<translation>nerviós</translation>
@@ -952,16 +986,21 @@
 		</nouns>
 	</Entry>
 <Entry frequency="585000000">edit<verbs>
-			<translations><date>0807</date>
-                            <translation>editar</translation>
-			</translations>
-		</verbs>
-                <phrasalverbs>edit out
-                <translations>
-                    <translation>suprimir (durant la preparació d'un text)</translation>
-                    </translations>
-                    </phrasalverbs>
-	<phrasalverbs>edit in<translations><translation transitive="true">afegir (durant la preparació d'un text)</translation></translations></phrasalverbs></Entry>
+        <translations><date>0807</date>
+            <translation>editar</translation>
+        </translations>
+    </verbs>
+    <phrasalverbs>edit in
+        <translations>
+            <translation transitive="true">afegir (durant la preparació d'un text)</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>edit out
+        <translations>
+            <translation transitive="true">suprimir (durant la preparació d'un text)</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
 <Entry frequency="87100000">edition<nouns>
 			<translations>
 				<translation gender="f">edició</translation>
@@ -970,7 +1009,7 @@
 	</Entry>
 <Entry frequency="72800000">editor<nouns>
 			<translations>
-				<translation gender="mf">redactor</translation>
+				<translation gender="mf">redactor<engexamp>Assistant editor</engexamp><catexamp>Cap de redaccio adjunt</catexamp><engexamp>Literary editor</engexamp><catexamp>Director literari (d'una revista)</catexamp></translation>
                                 <translation disambiguate="computers-software" gender="m">editor</translation>
 			</translations>
 		</nouns>
@@ -981,11 +1020,17 @@
                 </expressions>
 	</Entry>
 <Entry frequency="148000000">editorial<nouns>
-			<translations>
-				<translation gender="m">editorial</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations>
+            <translation gender="m">editorial</translation>
+        </translations>
+    </nouns>
+    <adjectives>
+        <translations>
+            <translation>de redacció<engexamp>Editorial assistant</engexamp><catexamp>Ajudant de redacció</catexamp><engexamp>Editorial office</engexamp><catexamp>Redacció</catexamp><engexamp>Editorial secretary</engexamp><catexamp>Secretari d'edició</catexamp></translation>
+            <translation>editorial / periodístic<engexamp>Editorial rhetoric</engexamp><catexamp>Retòrica periodística</catexamp></translation>
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="8500000">educate<verbs>
 			<translations>
 				<translation>educar</translation>
@@ -999,33 +1044,29 @@
 		</adjectives>
 	</Entry>
 <Entry frequency="253000000">education<nouns>
-			<translations>
-				<grouptranslation>
-					<translation gender="f">educació</translation>
-					<translation gender="m">ensenyament</translation>
-					<engexamp>Access to education</engexamp>
-					<catexamp>Accés a l'educació</catexamp>
-				</grouptranslation>
-          <translation gender="ffullform">instrucció</translation>
-          <translation gender="f">pedagogia
-          <engexamp>Department of Education (university department)</engexamp>
-          <catexamp>Departament de Pedagogia (d'una universitat)</catexamp></translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations>
+            <grouptranslation>
+            <translation gender="f">educació</translation>
+            <translation gender="m">ensenyament</translation><engexamp>Access to education</engexamp><catexamp>Accés a l'educació</catexamp>
+            </grouptranslation>
+            <translation gender="ffullform">instrucció</translation>
+            <translation gender="mpl">estudis</translation>
+            <translation gender="f">pedagogia<engexamp>Department of Education (university department)</engexamp><catexamp>Departament de Pedagogia (d'una universitat)</catexamp></translation>			
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="69400000">educational<adjectives>
-			<translations>
-				<translation>educacional / educatiu</translation>
-				<translation>didàctic<example>His presentation was very &lt;b&gt;educational&lt;/b&gt; but, at the same time, very funny</example>
-				</translation>
-			</translations>
-		</adjectives>
-                <expressions>educational software
-                    <translations>
-                        <translation termcat="true" gender="m">programari educatiu</translation>
-                        </translations>
-                        </expressions>
-	</Entry>
+        <translations>
+            <translation>educacional / educatiu</translation>
+            <translation>pedagògic / instructiu / didàctic<example>His presentation was very &lt;b&gt;educational&lt;/b&gt; but, at the same time, very funny.</example></translation>
+        </translations>
+    </adjectives>
+    <expressions>educational software
+        <translations>
+            <translation termcat="true" gender="m">programari educatiu</translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="146000">educationally<adverbs>
 			<translations>
 				<translation>educativament</translation>
@@ -1070,13 +1111,11 @@
 		</acronyms>
 	</Entry>
 <Entry frequency="1090000">eerie<adjectives>
-			<translations>
-				<translation>misteriós / espantós / inquietant<example>The streets were deserted and there was an &lt;b&gt;eerie&lt;/b&gt; calm in the city</example>
-					<example>An &lt;b&gt;eerie&lt;/b&gt; silence hung over the capital which had been plunged into darkness by a power cut</example>
-				</translation>
-			</translations>
-		</adjectives>
-	</Entry>
+        <translations>
+            <translation>misteriós / espantós / inquietant / irreal / estrany / fantàstic / fantasmagòric<engexamp>To be eerie.</engexamp><catexamp>Fer angúnia.</catexamp><example>The streets were deserted and there was an &lt;b&gt;eerie&lt;/b&gt; calm in the city.</example><example>An &lt;b&gt;eerie&lt;/b&gt; silence hung over the capital which had been plunged into darkness by a power cut.</example></translation>
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="750000">eff<verbs>
 			<translations>
 				<translation>paraula utilitzada en el phrasal verb 'to eff off' i en l'expressió 'to eff and blind'</translation>
@@ -1103,11 +1142,31 @@
                 <translation>entrar en vigor / ser efectiu</translation>
                 </translations>
                 </expressions>
+                <expressions>for effect
+                    <translations>
+                        <translation>de cara a la galeria / per impresionar</translation>
+                    </translations>
+                </expressions>
+                <expressions>or words to that effect
+                    <translations>
+                        <translation>o alguna cosa per l'estil</translation>
+                    </translations>
+                </expressions>
                 <expressions>take effect
                 <translations>
                 <translation>fer effecte<engexamp>The aspirins soon take effect</engexamp><catexamp>Les aspirines fan efecte aviat</catexamp></translation>
                 <translation>entrar en vigor / ser efectiu<engexamp>The new law takes effect from tomorrow</engexamp><catexamp>La nova llei esdevindrà efectiva a partir de demà</catexamp></translation>
                 </translations>
+                </expressions>
+                <expressions>to (magnificent, superb, excellent..) effect
+                    <translations>
+                        <translation>amb uns resultats (magnífics..)</translation>
+                    </translations>
+                </expressions>
+                <expressions>to the effect (that) ...
+                    <translations>
+                        <translation>en el sentit (que) ...</translation>
+                    </translations>
                 </expressions>
 	</Entry>
 <Entry frequency="60700000">effective<adjectives>
@@ -1204,22 +1263,21 @@
 	</Entry>
 <Entry frequency="81100000">effort<nouns>
 			<translations>
-				<translation gender="m">esforç<engexamp>To make an effort (to)</engexamp>
-					<catexamp>Fer un esforç (per) / esforçar-se (a)</catexamp><engexamp>To make more of an effort</engexamp><catexamp>Esforçar-se més</catexamp>
-				</translation>
+				<translation gender="m">esforç<engexamp>To make an effort (to)</engexamp><catexamp>Fer un esforç (per) / esforçar-se (a)</catexamp><engexamp>To make more of an effort</engexamp><catexamp>Esforçar-se més</catexamp><engexamp>In (my, your, his, etc.) effort to...</engexamp><catexamp>Amb la intenció de...</catexamp></translation>
+                                <translation gender="f">provatura</translation>
                                 <translation gender="m">afany</translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="671000">effortless<adjectives>
 			<translations>
-				<translation>fàcil</translation>
+				<translation>desimbolt / fàcil</translation>
 			</translations>
 		</adjectives>
 	</Entry>
 <Entry frequency="274000">effortlessly<adverbs>
 			<translations>
-				<translation>fàcilment / sense esforç</translation>
+				<translation>amb desimboltura / fàcilment / sense esforç</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -1250,9 +1308,19 @@
 				<translation register="colloquial">animar a algú</translation>
 			</translations>
 		</phrasalverbs>
+                <expressions>egg cell
+                    <translations>
+                        <translation catagory="biology" gender="m">òvul</translation>
+                    </translations>
+                </expressions>
                 <expressions>egg cup
                     <translations>
                         <translation catagory="household-room-kitchen" gender="f">ouera</translation>
+                    </translations>
+                </expressions>
+                <expressions>egg timer
+                    <translations>
+                        <translation catagory="household-room-kitchen" gender="m">temporitzador de cuina</translation>                        
                     </translations>
                 </expressions>
                 <expressions>egg white
@@ -1281,7 +1349,8 @@
 	</Entry>
 <Entry frequency="5130000">ego<nouns>
 			<translations>
-				<translation gender="m">ego</translation>
+				<translation gender="m">ego / jo</translation>
+                                <translation gender="m">amor propi</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1327,12 +1396,18 @@
 			</translations>
 		</adverbs>
 	</Entry>
+<Entry frequency="13800000">egregious<adjectives>
+        <translations><date>0912</date>
+            <translation register="formal">escandalós / descarat</translation>
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="13800000">Egypt<nouns>
-			<translations>
-				<translation catagory="country-africa" gender="m">Egipte</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations>
+            <translation catagory="country-africa" gender="m">Egipte</translation>
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="6630000">Egyptian<nouns>
 			<translations>
 				<translation catagory="nationality-africa" gender="mf">Egipci</translation>
@@ -1474,7 +1549,8 @@
 	</Entry>
 <Entry frequency="6800000">elaborate<verbs>
 			<translations>
-				<translation>aprofundir</translation>
+				<translation>aprofundir / desenvolupar</translation>
+                                <translation>estendre's / parlar extensament sobre</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>elaborate on
@@ -1488,6 +1564,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="27200000">elaboration<nouns>
+        <translations><date>0912</date>
+            <translation gender="f">elaboració</translation>
+        </translations>
+    </nouns>
+</Entry>        
 <Entry frequency="1770000">elapse<verbs>
 			<translations>
 				<translation>passar / acabar<example>No student will be allowed to leave the exam room until the full 3 hours have &lt;b&gt;elapsed&lt;/b&gt;</example>
@@ -1506,6 +1588,7 @@
 <Entry frequency="2130000">elasticity<nouns>
 			<translations>
 				<translation gender="f">elasticitat</translation>
+                                <translation gender="f">agilitat</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1517,10 +1600,16 @@
 	</Entry>
 <Entry frequency="6600000">elated<adjectives>
 			<translations>
-				<translation>exultant</translation>
+				<translation>exultant<engexamp>To be elated.</engexamp><catexamp>Tenir una alegria.</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="12500000">elation<nouns>
+        <translations><date>0912</date>
+            <translation gender="f">exultació / eufòria</translation>
+        </translations>
+    </nouns>
+</Entry>        
 <Entry frequency="3400000">elbow<nouns>
 			<translations>
 				<translation catagory="body" gender="m">colze</translation>
@@ -1534,6 +1623,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="400000000">elder<adjectives>
+        <translations><date>0912</date>
+            <translation>major</translation>
+        </translations>
+    </adjectives>
+    <nouns>
+        <translations>
+            <translation sourceplural="the elder">el (o la) major</translation>
+            <translation sourceplural="the elders">els ancians / els pròcers / els prohoms / els notables</translation>
+        </translations>            
+    </nouns>
+</Entry>        
 <Entry frequency="37500000">elderly<adjectives>
                             <translations><date>1208</date>
 				<translation>d'edat avançada<synonyms>old</synonyms>
@@ -1596,6 +1697,7 @@
 <Entry frequency="28300000">electric<adjectives>
 			<translations>
 				<translation>elèctric</translation>
+                                <translation>vibrant</translation>
 			</translations>
 		</adjectives>
                 <expressions>electric charge
@@ -1639,6 +1741,7 @@
 <Entry frequency="10900000">electricity<nouns>
 			<translations>
 				<translation gender="f">electricitat / energia elèctrica</translation>
+                                <translation gender="f">[fig.] energia</translation>
 			</translations>
 		</nouns>
                 <expressions>electricity sector
@@ -1806,12 +1909,14 @@
 		</nouns>
                 </Entry>
 <Entry frequency="158000000">element<nouns>
-			<translations>
-				<translation gender="m">element</translation>
-                                <translation sourceplural="the elements" gender="ffullform">intempèrie</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations>            
+            <grouptranslation>
+            <translation gender="m">element / aspecte</translation>
+            <translation sourceplural="the elements" gender="ffullform">intempèrie</translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="1270000">elemental<adjectives>
 			<translations>
 				<translation>bàsic / fonamental</translation>
@@ -1865,21 +1970,40 @@
 			</translations>
 		</adjectives>
 	</Entry>
-        <Entry frequency="34200000">elf<nouns>
-                            <translations><date>1208</date>
-				<translation gender="m">elf<plural>elves</plural></translation>
-			</translations>
-		</nouns>
-	</Entry>
+<Entry frequency="34200000">elf<nouns>
+        <translations><date>1208</date>
+            <translation gender="m">elf<plural>elves</plural></translation>
+        </translations>
+    </nouns>
+</Entry>
+<Entry frequency="9850000">elfin<adjectives>
+        <translations><date>0912</date>
+            <translation>petit i delicat / fràgil i menut</translation>
+        </translations>
+    </adjectives>
+</Entry>        
+<Entry frequency="28400000">elicit<verbs>
+        <translations><date>0912</date>
+            <translation register="formal" transitive="true">suscitar</translation>
+        </translations>
+    </verbs>
+</Entry>
+<Entry frequency="1640000">elide<verbs>
+        <translations><date>0912</date>
+            <translation catagory="linguistics" transitive="true">elidir</translation>
+            <translation catagory="linguistics" transitive="true">elidir-se</translation>
+        </translations>
+    </verbs>
+</Entry>     
 <Entry frequency="17900000">eligible<adjectives>
 			<translations>
-				<translation>elegible</translation>
+				<translation>elegible<engexamp>To be eligible for...</engexamp><catexamp>Complir els requisits (per)... / tenir dret (a)...</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
 <Entry frequency="68800000">eliminate<verbs>
         <translations><date>0708</date>
-            <translation>eliminar</translation>
+            <translation>eliminar / abolir</translation>
         </translations>
     </verbs>
     </Entry>
@@ -1889,12 +2013,22 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="7380000">elite<nouns>
-			<translations>
-				<translation gender="m">elit</translation>
-			</translations>
-		</nouns>
-	</Entry>
+<Entry frequency="689000">elision<nouns>
+        <translations><date>0912</date>
+            <translation catagory="linguistics" gender="f">exclusió</translation>
+        </translations>
+    </nouns>
+</Entry>        
+<Entry frequency="1650000000">elite<nouns>
+        <translations><date>0912</date>
+            <grouptranslation>
+            <translation gender="m">elit</translation>
+            <translation gender="f">alta societat</translation>
+            </grouptranslation>
+            <translation beforenoun="true">selecte</translation>
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="539000">elitism<nouns>
 			<translations>
 				<translation gender="m">elitisme</translation>
@@ -2054,6 +2188,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="88800000">elusive<adjectives>
+        <translations><date>0912</date>
+            <translation>poc visible / esmunyedís / esquiu</translation>
+        </translations>
+    </adjectives>
+</Entry>             
 <Entry frequency="196000">Élysée Palace<nouns>
 			<translations>
 				<translation gender="m">Palau de l'Elisi</translation>
@@ -2108,6 +2248,29 @@
                     </translations>
                 </expressions>
 	</Entry>
+<Entry frequency="14600000">emanate<verbs>
+        <translations><date>0912</date>
+            <translation>emetre</translation>
+        </translations>
+    </verbs>
+    <phrasalverbs>emanate from
+        <translations>
+            <translation>néixer de / ser fruit de / tenir el seu origen en</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>       
+<Entry frequency="7650000">emancipate<verbs>
+        <translations><date>0912</date>
+            <translation transitive="true">alliberar</translation>
+        </translations>
+    </verbs>
+</Entry>     
+<Entry frequency="19700000">emancipation<nouns>
+        <translations><date>0912</date>
+            <translation gender="f">abolició de l'esclavitud</translation>
+        </translations>
+    </nouns>
+</Entry>     
 <Entry frequency="2030000">embargo<nouns>
 			<translations>
 				<translation gender="m">embargament<plural>embargoes</plural>
@@ -2134,7 +2297,7 @@
 	</Entry>
 <Entry frequency="1500000">embarrass<verbs><mistakes>embarass</mistakes>
 			<translations>
-				<translation>avergonyir / fer vergonya a algú</translation>
+				<translation>fer passar vergonya / incomodar / posar en un compromís<engexamp>To embarrass oneself.</engexamp><catexamp>Posar-se en evidència.</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2147,10 +2310,16 @@
 	</Entry>
 <Entry frequency="4500000">embarrassing<adjectives><mistakes>embarassing</mistakes>
 			<translations>
-				<translation>vergonyós</translation>
+				<translation>que fa passar vergonya / incòmode / comprometedor</translation>
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="73200000">embarrassment<nouns>
+        <translations><date>0912</date>
+            <translation gender="f">vergonya / pena</translation>
+        </translations>
+    </nouns>
+</Entry>             
 <Entry frequency="95200000">embassy<nouns>
 			<translations>
 				<translation catagory="politics" gender="f">ambaixada<plural>embassies</plural>
@@ -2160,7 +2329,7 @@
 	</Entry>
 <Entry frequency="4800000">embattled<adjectives>
 			<translations>
-                                <translation>assetjat<example>Harvard's &lt;b&gt;embattled&lt;/b&gt; president is due to step down at the end of this semester.</example></translation>
+                                <translation>assetjat / amenaçat / acorralat<example>Harvard's &lt;b&gt;embattled&lt;/b&gt; president is due to step down at the end of this semester.</example></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2202,14 +2371,17 @@
 		</nouns>
 	</Entry>
 <Entry frequency="1050000">emblem<nouns>
-			<translations>
-				<translation gender="m">emblema</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations>                          
+            <grouptranslation>
+            <translation gender="m">emblema / símbol</translation>
+            <translation gender="ffullform">insígnia</translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="182000">emblematic<adjectives>
 			<translations>
-				<translation>emblemàtic</translation>
+				<translation>emblemàtic / representatiu / propi</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2221,10 +2393,17 @@
 	</Entry>
 <Entry frequency="34900000">embody<verbs ie="true">
 			<translations>
-				<translation>encarnar</translation>
+				<translation>encarnar / plasmar / simbolitzar</translation>
+                                <translation register="formar">amalgamar</translation>                                
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="8050000">embolden<verbs>
+        <translations><date>0912</date>
+            <translation transitive="true">envalentonar<engexamp>To feel emboldened to...</engexamp><catexamp>Veure's amb cor de...</catexamp></translation>
+	</translations>
+    </verbs>    
+</Entry>        
 <Entry frequency="1500000">emboss<verbs>
 			<translations><date>0507</date>
 				<translation>marcar (o estampar o gravar) en relleu</translation>
@@ -2243,8 +2422,9 @@
 	</Entry>
 <Entry frequency="7170000">embrace<verbs>
 			<translations>
-				<translation>abraçar</translation>
-				<translation>rebre / acceptar amb entusiasme</translation>
+				<translation transitive="true">abraçar</translation>
+                                <translation intransitive="true">abraçar-se</translation>
+				<translation transitive="true">rebre / acceptar amb entusiasme / adoptar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -2269,11 +2449,11 @@
 		</nouns>
 	</Entry>
 <Entry frequency="211000">embroil<verbs>
-			<translations>
-				<translation register="formal">embolicar / implicar</translation>
-			</translations>
-		</verbs>
-	</Entry>
+        <translations>
+            <translation register="formal">embolicar / implicar</translation>
+	</translations>
+    </verbs>
+</Entry>
 <Entry frequency="1150000">embryo<nouns>
 			<translations>
 				<translation gender="m">embrió<plural>embryos</plural>
@@ -2293,11 +2473,17 @@
 			</translations>
 		</adjectives>
 	</Entry> 
-         <Entry frequency="32100000">emerald<nouns>
-			<translations><date>0510</date>
+         <Entry frequency="484000000">emerald<nouns>
+			<translations><date>0912</date>
 				<translation gender="f">maragda</translation>
+                                <translation catagory="color" gender="m">verd viu (o brillant)</translation>
 			</translations>
 		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation>verd viu (o brillant)</translation>
+                    </translations>
+                </adjectives>
 	</Entry>    
 <Entry frequency="6120000">emerge<verbs>
 			<translations>
@@ -2309,7 +2495,7 @@
 			<translations>
 				<translation gender="f">emergència<plural>emergencies</plural>
 				</translation>
-                                <translation>d'urgència</translation>
+                                <translation>d'urgència<engexamp>Emergency services</engexamp><catexamp>Serveis d'urgència</catexamp></translation>
 			</translations>
 		</nouns>
                 <expressions>emergency brake
@@ -2319,26 +2505,35 @@
                         </translation>
                     </translations>
                 </expressions>
-                <expressions>emergency services
-                    <translations>
-                        <translation gender="mpl">serveis d'emergència</translation>
-                    </translations>
-                </expressions>
 	</Entry>
+<Entry frequency="21000000">emergent<adjectives>
+        <translations><date>0912</date>
+            <translation>incipient / jove</translation>
+	</translations>
+    </adjectives>
+</Entry>
+<Entry frequency="1310000">emerging<adjectives>
+        <translations><date>0912</date>
+            <translation>nou / incipient / jove</translation>
+            <translation>emergent</translation>
+	</translations>
+    </adjectives>
+</Entry>
 <Entry frequency="1310000">emigrant<nouns>
-			<translations>
-				<translation gender="mf">emigrant</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations>
+            <translation gender="mf">emigrant</translation>
+	</translations>
+    </nouns>
+</Entry>
 <Entry frequency="1600000">emigrate<verbs>
 			<translations>
 				<translation>emigrar</translation>
 			</translations>
 		</verbs>
 	</Entry>
-        <Entry frequency="6530000">eminence<nouns>
-                <translations><date>1108</date>
+        <Entry frequency="26400000">eminence<nouns>
+                <translations><date>0912</date>
+                    <translation register="formal" gender="m">prestigi / renom</translation>
                     <translation register="formal" gender="f">eminència<engexamp>His / Your Eminence</engexamp><catexamp>Sa Eminència</catexamp></translation>
                     <translation register="dated" gender="m">promontori</translation>
                 </translations>
@@ -2349,6 +2544,18 @@
                 </translations>
             </expressions>
         </Entry>
+<Entry frequency="72600000">eminent<adjectives>
+        <translations><date>0912</date>
+            <translation>de renom / eminent / il·lustre</translation>
+	</translations>
+    </adjectives>
+</Entry>        
+<Entry frequency="9830000">eminently<adverbs>
+        <translations><date>0912</date>
+            <translation>fortament / intensament</translation>
+	</translations>
+    </adverbs>
+</Entry>        
 <Entry frequency="311000">emir<nouns>
 			<translations>
 				<translation gender="m">emir</translation>
@@ -2397,13 +2604,14 @@
 	</Entry>
 <Entry frequency="8200000">emotional<adjectives>
 			<translations>
-				<translation>emocional</translation>
+				<translation>emocional / afectiu<engexamp>Emotional problems.</engexamp><catexamp>Problemes afectius.</catexamp></translation>
+                                <translation>emotiu</translation>
 			</translations>
 		</adjectives>
 	</Entry>
 <Entry frequency="813000">emotionally<adverbs>
 			<translations>
-				<translation>emocionalment</translation>
+				<translation>emocionalment / anímicament</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -2439,37 +2647,35 @@
 	</Entry>
 <Entry frequency="20200000">emphasis<nouns>
 			<translations>
-				<translation gender="m">èmfasi<engexamp>(With) special emphasis (on)</engexamp>
-					<catexamp>(Amb) especial èmfasi (en)</catexamp>
-				</translation>
+				<translation gender="m">èmfasi<engexamp>(With) special emphasis (on)</engexamp><catexamp>(Amb) especial èmfasi (en)</catexamp><engexamp>Difference of emphasis.</engexamp><catexamp>Diferència de matís / manera diferent de veure les coses / diversitat de parers.</catexamp><engexamp>Emphasis in the original.</engexamp><catexamp>La cursiva és de l'original.</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="12400000">emphasise<verbs>
 			<translations>
 				<translation local="gb">posar èmfasi (en) / fer èmfasi (en)<otherlocal>emphasize</otherlocal></translation>
-                                <translation>emfatitzar / emfasitzar</translation>
                                 <translation>recalcar</translation>
+                                <translation>posar de relleu / posar de manifest</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="12400000">emphasize<verbs>
 			<translations>
 				<translation>posar èmfasi (en) / fer èmfasi (en)</translation>
-                                <translation>emfatitzar / emfasitzar</translation>
                                 <translation>recalcar</translation>
+                                <translation>posar de relleu / posar de manifest</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="824000">emphatic<adjectives>
 			<translations>
-				<translation>emfàtic</translation>
+				<translation>emfàtic / vehement</translation>
 			</translations>
 		</adjectives>
 	</Entry>
 <Entry frequency="1260000">emphatically<adverbs>
 			<translations>
-				<translation>emfàticament</translation>
+				<translation>emfàticament / amb vehemència</translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -2488,7 +2694,7 @@
 <Entry frequency="20900000">employ<verbs>
 			<translations>
 				<translation>donar feina a</translation>
-                                <translation>fer servir</translation>
+                                <translation>servir-se de / recórrer a</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2518,14 +2724,16 @@
                 </expressions>
 	</Entry>
 <Entry frequency="45000000">empower<verbs>
-			<translations>
-				<translation>apoderar</translation>
-			</translations>
-		</verbs>
-	</Entry>
-<Entry frequency="26500000">empowerment<nouns>
-			<translations>
-				<translation gender="m">apoderament</translation>
+        <translations><date>0912</date>
+            <translation>donar permís / permetre</translation>
+            <translation>capacitar / facultar</translation>
+	</translations>
+    </verbs>
+</Entry>
+<Entry frequency="125000000">empowerment<nouns>
+			<translations><date>0912</date>
+				<translation gender="f">potenciació / capacitació</translation>
+                                <translation gender="m">accés al poder</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2570,12 +2778,13 @@
 			</translations>
 		</verbs>
 	</Entry>
-        <Entry frequency="21900000">enact<verbs>
-			<translations><date>1108</date>
-				<translation disambiguate="legal" transitive="true">promulgar</translation>
-			</translations>
-		</verbs>
-	</Entry>
+<Entry frequency="149000000">enact<verbs>
+        <translations><date>0912</date>
+            <translation transitive="true">escenificar</translation>
+            <translation disambiguate="legal" transitive="true">promulgar</translation>
+	</translations>
+    </verbs>
+</Entry>
         <Entry frequency="8460000">enactment<nouns>
                             <translations><date>0908</date>
 				<translation disambiguate="legal" gender="f">promulgació</translation>
