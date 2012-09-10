@@ -4721,6 +4721,12 @@
                     </translations>
                 </nouns>
          </Entry>
+<Entry frequency="3020000000">era<nouns>
+        <translations><date>0109</date>
+            <translation gender="f">era / època</translation>
+        </translations>
+    </nouns>
+</Entry>         
 <Entry frequency="29200000">eradicate<verbs>
 			<translations>
 				<translation>eradicar</translation>
@@ -4741,7 +4747,7 @@
 	</Entry>
 <Entry frequency="725000">eraser<nouns>
 			<translations>
-				<translation gender="f">goma</translation>
+				<translation gender="f">goma (d'esborrar)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -4758,14 +4764,18 @@
 		</nouns>
 	</Entry>
 <Entry frequency="6580000">erect<verbs>
-			<translations>
-				<translation>erigir</translation>
-			</translations>
-		</verbs>
-                <adjectives>
-                <translations>
-                <translation>erecte</translation></translations></adjectives>
-	</Entry>
+        <translations>
+            <translation>erigir / aixecar</translation>
+            <translation>[tent] muntar</translation>
+        </translations>
+    </verbs>
+    <adjectives>
+        <translations>
+            <translation>erecte</translation>
+            <translation>dret</translation>
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="3290000">erectile<adjectives>
 			<translations>
 				<translation>erèctil<engexamp>Erectile dysfunction</engexamp><catexamp>Disfunció erèctil</catexamp></translation>
@@ -4775,9 +4785,16 @@
 <Entry frequency="2660000">erection<nouns>
 			<translations>
 				<translation gender="f">erecció</translation>
+                                <translation gender="f">construcció</translation>                                
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="46500000">erg<nouns>
+        <translations><date>0912</date>
+            <translation catagory="physics" gender="m">erg</translation>
+        </translations>
+    </nouns>
+</Entry>        
 <Entry frequency="8980000">ergonomic<adjectives>
 			<translations>
 				<translation>ergonòmic</translation>
@@ -4802,6 +4819,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="99100">ergosphere<nouns>
+        <translations><date>0109</date>
+            <translation catagory="astronomy" gender="f">ergosfera</translation>
+        </translations>
+    </nouns>
+</Entry>        
 <Entry frequency="2910000">Eritrea<nouns>
 			<translations>
 				<translation catagory="country-africa" gender="f">Eritrea</translation>
@@ -4814,12 +4837,33 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="56500000">erode<verbs>
+        <translations><date>0109</date>
+            <translation disambiguate="geography" transitive="true">erosionar</translation>
+            <translation transitive="true">corroir / desgastar</translation>
+            <translation transitive="true">minvar / minar / gastar</translation>
+            <translation disambiguate="geography" intransitive="true">erosionar-se</translation>
+            <translation intransitive="true">minvar / gastar-se</translation>
+        </translations>
+    </verbs>
+</Entry>        
 <Entry frequency="371000">erogenous<adjectives>
-			<translations><date>1007</date>
-				<translation>erogen</translation>
-			</translations>
-		</adjectives>
-	</Entry>
+        <translations><date>1007</date>
+            <translation>erogen</translation>
+        </translations>
+    </adjectives>
+    <expressions>erogeneous zone
+        <translations>
+            <translation ge3nder="f">zona erògena</translation>
+        </translations>
+    </expressions>            
+</Entry>
+<Entry frequency="3640000">erosive<adjectives>
+        <translations><date>0109</date>
+            <translation>erosiu</translation>
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="4860000">erotic<adjectives>
 			<translations>
 				<translation>eròtic</translation>
@@ -4827,32 +4871,48 @@
 		</adjectives>
 	</Entry>
 <Entry frequency="916000">err<verbs>
-			<translations><date>0106</date>
-				<translation register="dated">cometre un error / errar<engexamp>To err is human</engexamp><catexamp>Errar és humà</catexamp><synonyms>make a mistake</synonyms></translation>
-			</translations>
-		</verbs>
-                <expressions>err on the side of caution
-                <translations>
-                    <translation>pecar de prudent<example>When they saw the little girl had been bitten and weren't sure what by, her parents &lt;b&gt;erred on the side of caution&lt;/b&gt; and took her to hospital.</example></translation>
-                    </translations>
-                    </expressions>
-                    <expressions>to err is human
-                    <translations>
-                        <translation>errar és humà</translation>
-                        </translations>
-                        </expressions>
-	</Entry>
-<Entry frequency="5630000">errand<nouns>
-			<translations>
-				<translation gender="m">encàrrec</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations><date>0106</date>
+            <translation register="dated">cometre un error / errar<synonyms>make a mistake</synonyms></translation>
+        </translations>
+    </verbs>
+    <expressions>to err on the side of caution
+        <translations>
+            <translation>pecar de prudent<example>When they saw the little girl had been bitten and weren't sure what by, her parents &lt;b&gt;erred on the side of caution&lt;/b&gt; and took her to hospital.</example></translation>
+        </translations>
+    </expressions>
+    <expressions>to err is human
+        <translations>
+            <translation>errar és humà</translation>
+        </translations>
+    </expressions>
+</Entry>
+<Entry frequency="62600000">errand<nouns>
+        <translations><date>0912</date>
+            <translation gender="m">encàrrec</translation>
+        </translations>
+    </nouns>
+    <expressions>a fool's errand
+        <translations>
+            <translation>una empressa irrealitzable / una pèrdua de temps</translation>
+        </translations>
+    </expressions>
+    <expressions>to run an errand
+        <translations>
+            <translation>fer un encàrrec</translation>
+        </translations>
+    </expressions>
+</Entry>
          <Entry frequency="3690000">errant<adjectives>
                             <translations><date>1008</date>
-				<translation>errant</translation>
+				<translation>esgarriat</translation>
+                                <translation>infidel</translation>
 			</translations>
 		</adjectives>
+                <expressions>knight errant
+                    <translations>
+                        <translation gender="m">cavaller errant</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="858000">errata<nouns>
 			<translations>
@@ -4864,17 +4924,17 @@
 		</nouns>
 	</Entry>
 <Entry frequency="3010000">erratic<adjectives>
-			<translations><date>0907</date>
-				<translation>erràtic</translation>
-			</translations>
-		</adjectives>
-                </Entry>
-                  <Entry frequency="50400000">erratum<nouns>
-			<translations><date>0112</date>
-				<translation gender="f">errata<plural>errata</plural></translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations><date>0907</date>
+            <translation>irregular / imprevisible</translation>
+        </translations>
+    </adjectives>
+</Entry>
+<Entry frequency="50400000">erratum<nouns>
+        <translations><date>0112</date>
+            <translation gender="f">errata<plural>errata</plural></translation>
+        </translations>
+    </nouns>
+</Entry>
           <Entry frequency="4370000000">error<nouns>
 			<translations><date>0112</date>
 				<translation gender="m">error</translation>
@@ -4887,6 +4947,14 @@
 			</translations>
 		</adjectives>
                 </Entry>
+<Entry frequency="121000000">erupt<verbs>
+        <translations><date>0912</date>
+            <translation>erupcionar / entrar en erupció</translation>
+            <translation>[violence] esclatar</translation>
+            <translation>emergir / aflorar</translation>
+        </translations>
+    </verbs>
+</Entry>                
 <Entry frequency="1270000">eruption<nouns>
 			<translations><date>0407</date>
                         <translation disambiguate="geography" gender="f">erupció<engexamp>Volcanic eruption</engexamp><catexamp>Erupció volcànica</catexamp></translation>
@@ -4900,17 +4968,42 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="47600000">escalation<nouns>
+			<translations><date>0912</date>
+                            <grouptranslation>
+                            <translation gender="m">augment</translation>
+                            <translation gender="f">intensificació<engexamp>The escalation of a row.</engexamp><catexamp>Una discussió que va anar pujant de to.</catexamp></translation>
+                            </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>        
         <Entry frequency="3080000">escalator<nouns>
                             <translations><date>1208</date>
 				<translation gender="fpl">escales mecàniques</translation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="30500000">escapade<nouns>
+			<translations><date>0912</date>
+				<translation gender="f">frivolitat / acció frívola</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="23900000">escape<verbs>
 			<translations>
 				<translation>fugir</translation>
 			</translations>
 		</verbs>
+                <expressions>escape route
+                    <translations>
+                        <translation gender="f">via d'evacuació / escapatòria</translation>
+                    </translations>
+                </expressions>
+                <expressions>there's no escaping the fact (that...)
+                    <translations>
+                        <translation>és un fet innegable (que...) / no és pot oblidar (que...)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2340000">eschew<verbs>
 			<translations>
@@ -4932,7 +5025,18 @@
                                 <translation>acomboiar</translation>
 			</translations>
 		</verbs>
+                <expressions>escort agency
+                    <translations>
+                        <translation gender="f">agència d'hostesses</translation>
+                    </translations>
+                </expressions>
 	</Entry>
+<Entry frequency="8660000">escutcheon<nouns>
+			<translations><date>0912</date>
+				<translation gender="m">escudet (escut petit inclòs en l'escut d'armes o blasó)</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="501000">eskimo<nouns>
 			<translations>
 				<translation gender="mf">esquimal</translation>
@@ -4971,7 +5075,7 @@
 	</Entry>
         <Entry frequency="2410000">espouse<verbs>
                             <translations><date>1108</date>
-				<translation register="formal">adherir-se a (una causa, una idea)</translation>
+				<translation register="formal">adherir-se a / abraçar / subscriure (una causa, una idea, etc...)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4989,9 +5093,14 @@
 	</Entry>
 <Entry frequency="8610000">essence<nouns>
 			<translations>
-				<translation gender="f">essència<engexamp>Vanilla essence</engexamp><catexamp>Essència de vainilla</catexamp></translation>
+				<translation gender="f">essència<engexamp>Vanilla essence.</engexamp><catexamp>Essència de vainilla.</catexamp></translation>
 			</translations>
 		</nouns>
+                <expressions>time is of the essence
+                    <translations>
+                        <translation>el temps és vital / el temps és essencial</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="240000000">essential<adjectives>
                             <translations><date>1009</date>
@@ -5001,8 +5110,8 @@
 		</adjectives>
                 <nouns>
                     <translations>
-                    <translation sourceplural="essentials" gender="fpl">coses més necessàries</translation>
-                    <translation sourceplural="essentials" gender="mpl">punts fonamentals</translation>
+                    <translation sourceplural="essentials" gender="fpl">coses més necessàries / coses (més) imprescindibles</translation>
+                    <translation sourceplural="essentials" gender="mpl">punts fonamentals<engexamp>To cut to the essentials.</engexamp><catexamp>Anar al gra.</catexamp></translation>
                     </translations>
                 </nouns>
 	</Entry>
@@ -5012,17 +5121,27 @@
 			</translations>
 		</adverbs>
 	</Entry>
-<Entry frequency="64100000">establish<verbs>
-			<translations>
-				<translation>establir</translation>
-                                <translation>instaurar</translation>
-			</translations>
-		</verbs>
-	</Entry>
+<Entry frequency="2610000000">establish<verbs>
+        <translations><date>0912</date>
+            <translation>establir / implantar / instaurar / fundar</translation>
+            <translation>determinar / verificar / demostrar</translation>
+            <translation>afirmar</translation>
+        </translations>
+    </verbs>
+</Entry>
+<Entry frequency="2610000000">established<adjectives>
+        <translations><date>0912</date>
+            <translation>[company] establert / consolidat</translation>
+            <translation>[author, actor...] reconegut</translation>
+            <translation>[custom] arrelat</translation>
+            <translation>[religion] establert / oficial</translation>
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="18100000">establishment<nouns>
 			<translations>
 				<translation gender="m">establiment</translation>
-                                <grouptranslation sourceplural="the establishment"><translation gender="m">ordre establert / poder establert / sistema</translation>
+                                <grouptranslation sourceplural="the establishment"><translation gender="m">ordre establert / poder establert / sistema / estament</translation>
                                 <translation gender="f">classe social dominant</translation></grouptranslation>
 			</translations>
 		</nouns>
@@ -5056,14 +5175,20 @@
 	</Entry>
 <Entry frequency="8250000">esteem<nouns>
 			<translations>
-				<translation gender="f">estima<engexamp>Self-esteem</engexamp><catexamp>Autoestima</catexamp></translation>
+				<translation gender="f">estima<engexamp>Self-esteem.</engexamp><catexamp>Autoestima.</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="27500000">esteemed<adjectives>
+        <translations><date>0912</date>   
+            <translation>estimat / reconegut</translation>
+        </translations>
+    </adjectives>
+</Entry>        
 <Entry frequency="177000000">estimate<nouns>
                             <translations><date>1108</date>
                             <translation gender="f">estimació</translation>
-				<translation gender="m">pressupost<engnote>'Pressupost' means 'estimate' in the sense 'how much a piece of work is likely to cost' (i.e. I'd like an estimate on replacing my water heater).</engnote><example>Could someone give me an &lt;b&gt;estimate&lt;/b&gt; on replacing my water heater?</example></translation>
+				<translation gender="m">[written quote] pressupost<example>Could someone give me an &lt;b&gt;estimate&lt;/b&gt; on replacing my water heater?</example></translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -5090,6 +5215,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="47500000">estranged<adjectives>
+        <translations><date>0912</date>
+            <translation>separat<engexamp>To become estranged.</engexamp><catexamp>Distanciar-se.</catexamp></translation>
+        </translations>
+    </adjectives>
+</Entry>        
 <Entry frequency="1230000">estuary<nouns>
 			<translations><date>0307</date>
 				<translation catagory="geography" gender="m">estuari<plural>estuaries</plural></translation>
@@ -5108,6 +5239,17 @@
 			</translations>
 		</abbreviations>
 	</Entry>
+<Entry frequency="94600000">etch<verbs>
+        <translations><date>0912</date>
+            <translation catagory="chemistry">gravar a l'aiguafort</translation>
+        </translations>
+    </verbs>
+    <expressions>etched on your memory (or mind)
+        <translations>
+            <translation>gravat a la memòria (o ment)</translation>
+        </translations>
+    </expressions>
+</Entry>        
         <Entry frequency="8100000">etching<nouns>
                 <translations><date>1208</date>
                     <translation gender="m">aiguafort</translation>
@@ -5170,6 +5312,19 @@
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="98700">Ethernet<nouns>
+        <translations><date>0912</date>
+            <translation catagory="computing" gender="m">Ethernet<engexamp>Ethernet cable.</engexamp><catexamp>Cable d'Ethernet.</catexamp></translation>
+        </translations>
+    </nouns>
+</Entry>        
+<Entry frequency="9050000">ethic<nouns>
+        <translations><date>0912</date>
+            <translation gender="f">ètica</translation>
+            <translation sourceplural="ethics" gender="f">ètica</translation>
+        </translations>
+    </nouns>
+</Entry>        
 <Entry frequency="8940000">ethical<adjectives>
 			<translations>
 				<translation>ètic</translation>
@@ -5200,6 +5355,7 @@
 <Entry frequency="22400000">ethnic<adjectives>
 			<translations>
 				<translation>ètnic</translation>
+                                <translation>exòtic</translation>
 			</translations>
 		</adjectives>
                 <expressions>ethnic cleansing
@@ -5234,22 +5390,47 @@
 	</Entry>
         <Entry frequency="7220000">ethos<nouns>
                 <translations><date>1009</date>
-                    <translation gender="m">caràcter moral</translation>
+                    <translation gender="m">caràcter moral / esperit / tarannà</translation>
                 </translations>
             </nouns>
         </Entry>
-        <Entry frequency="98700">ethylic<adjectives>
-                            <translations><date>0109</date>
-				<translation catagory="chemistry">etílic</translation>
-			</translations>
-		</adjectives>
-	</Entry>
+<Entry frequency="98700">ethyl<nouns>
+        <translations><date>0109</date>
+            <translation catagory="chemistry" beforenoun="true">etílic / d'etil</translation>
+        </translations>
+    </nouns>
+    <expressions>ethyl alcohol
+        <translations>
+            <translation catagory="chemistry" gender="m">alcohol etílic</translation>
+        </translations>
+    </expressions>
+    <expressions>ethyl chloride
+        <translations>
+            <translation catagory="chemistry" gender="m">clorur d'etil</translation>
+        </translations>
+    </expressions>
+</Entry>        
+<Entry frequency="98700">ethylic<adjectives>
+        <translations><date>0109</date>
+            <translation catagory="chemistry">etílic</translation>
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="1030000">e-ticket<nouns>
 			<translations>
 				<translation catagory="transport" gender="m">bitllet electrònic</translation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="605000000">etiquette<nouns>
+        <translations><date>0912</date>
+            <grouptranslation>
+            <translation gender="f">etiqueta</translation>
+            <translation gender="m">protocol</translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+</Entry>        
 <Entry frequency="3230000">Etruscan<adjectives>
 			<translations><date>1007</date>
 				<translation>etrusc</translation>
@@ -5287,12 +5468,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="7390000">eulogy<nouns>
-			<translations>
-				<translation gender="m">encomi<plural>eulogies</plural></translation>
-			</translations>
-		</nouns>
-	</Entry>
+<Entry frequency="16700000">eulogy<nouns>
+        <translations><date>0912</date>
+            <translation gender="m">encomi / elogi</translation>
+            <translation gender="m">elogi fúnebre<plural>eulogies</plural></translation>
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="560000">euphemism<nouns>
 			<translations>
 				<translation catagory="linguistics" gender="m">eufemisme</translation>
@@ -5437,11 +5619,12 @@
 		</verbs>
 	</Entry>
 <Entry frequency="40900000">evaluation<nouns>
-			<translations>
-				<translation gender="f">avaluació</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations>
+            <translation gender="f">avaluació</translation>
+            <translation local="us" gender="f">taxació / valoració</translation>            
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="2530000">evanescence<nouns>
 			<translations>
 				<translation gender="f">evanescència</translation>
