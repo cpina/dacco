@@ -5968,6 +5968,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="9120000">evocation<nouns>
+			<translations><date>0912</date>
+				<translation gender="f">evocació</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="5450000">evocative<adjectives>
 			<translations>
 				<translation>evocatiu</translation>
@@ -5976,7 +5982,8 @@
 	</Entry>
 <Entry frequency="19200000">evoke<verbs>
 			<translations>
-				<translation>evocar</translation>
+				<translation register="formal">evocar / suggerir</translation>
+                                <translation>suscitar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5995,6 +6002,7 @@
 <Entry frequency="14400000">evolve<verbs>
 			<translations>
 				<translation>evolucionar</translation>
+                                <translation>[~ into] convertir-se en</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6018,7 +6026,7 @@
 	</Entry>
 <Entry frequency="25500000">exacerbate<verbs>
 			<translations>
-				<translation register="formal">exacerbar<synonyms>aggravate, make worse</synonyms></translation>
+				<translation register="formal">exacerbar / agreujar / empitjorar<synonyms>aggravate, make worse</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6040,9 +6048,16 @@
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="1840000">exaction<nouns>
+			<translations><date>0912</date>
+				<translation gender="f">exacció / extorsió</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="19000000">exactly<adverbs>
 			<translations>
-				<translation>precisament</translation>
+				<translation>precisament / ben bé<engexamp>The principle is exactly the same.</engexamp><catexamp>El principi és ben bé el mateix.</catexamp></translation>
+                                <translation>perfectament<engexamp>He knew exactly what he was doing.</engexamp><catexamp>Sabia perfectament el que feia.</catexamp></translation>
 			</translations>
 		</adverbs>
 		<exclamations>
@@ -6064,11 +6079,17 @@
 		</nouns>
 	</Entry>
 <Entry frequency="11000000">exalt<verbs>
-			<translations>
-				<translation register="formal">exaltar</translation>
-			</translations>
-		</verbs>
-	</Entry>
+        <translations>
+            <translation register="formal">exaltar</translation>
+        </translations>
+    </verbs>
+</Entry>
+<Entry frequency="23400000">exalted<adjectives>
+        <translations><date>0912</date>
+            <translation register="formal">preeminent / excels</translation>
+        </translations>
+    </adjectives>
+</Entry>        
 <Entry frequency="19600000">exam<nouns>
 			<translations>
 				<translation register="colloquial" gender="m">examen<engnote>The plural of 'examen' is 'exàmens'.</engnote></translation>
@@ -6078,6 +6099,7 @@
 <Entry frequency="17000000">examination<nouns>
 			<translations>
 				<translation gender="m">examen<engnote>The plural of 'examen' is 'exàmens'.</engnote></translation>
+                                <translation disambiguate="medical" gender="m">reconeixement (mèdic)<engexamp>Examination table.</engexamp><catexamp>Taula d'exploració.</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6087,11 +6109,32 @@
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="179000000">examiner<nouns>
+        <translations><date>0912</date>
+            <translation catagory="education" gender="mf">examinador</translation>
+        </translations>
+    </nouns>
+    <expressions>medical examiner
+        <translations>
+            <translation local="us" catagory="work-job" gender="mf">forense</translation>
+        </translations>
+    </expressions>
+</Entry>        
 <Entry frequency="178000000">example<nouns>
 			<translations>
 				<translation gender="m">exemple</translation>
 			</translations>
 		</nouns>
+                <expressions>for example
+                    <translations>
+                        <translation>per exemple</translation>
+                    </translations>
+                </expressions>
+                <expressions>to follow (someone's) example
+                    <translations>
+                        <translation>seguir l'exemple / imitar els actes (d'algú)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="191000">exanthema<nouns>
 			<translations><date>0407</date>
@@ -6125,9 +6168,16 @@
 <Entry frequency="1950000">excavate<verbs>
 			<translations>
 				<translation transitive="true">excavar</translation>
+                                <translation transitive="true">exhumar / desenterrar</translation>
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="52700000">excavation<nouns>
+        <translations><date>0912</date>
+            <translation gender="f">excavació</translation>
+        </translations>
+    </nouns>
+</Entry>        
 <Entry frequency="730000">excavator<nouns>
 			<translations>
 				<translation gender="f">excavadora<synonyms>bulldozer / digger</synonyms></translation>
@@ -6142,6 +6192,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="856000000">excel<verbs double="true">
+        <translations><date>0912</date>
+            <translation>sobresortir / excel·lir / despuntar</translation>
+        </translations>
+    </verbs>
+</Entry>        
 <Entry frequency="502000000">excellence<nouns>
 			<translations>
 				<translation gender="f">excel·lència</translation>
@@ -6173,11 +6229,17 @@
 		</nouns>
 	</Entry>
 <Entry frequency="14600000">exceptional<adjectives>
-			<translations>
-				<translation>excepcional / fora de sèrie</translation>
-			</translations>
-		</adjectives>
-	</Entry>
+        <translations>
+            <translation>excepcional / fora de sèrie</translation>
+        </translations>
+    </adjectives>
+</Entry>
+<Entry frequency="124000000">exceptionally<adverbs>
+        <translations><date>0912</date>
+            <translation>excepcionalment / extremament</translation>
+        </translations>
+    </adverbs>
+</Entry>        
          <Entry frequency="25400000">excerpt<nouns>
                             <translations><date>0709</date>
 				<translation gender="m">fragment / extracte</translation>
@@ -6185,20 +6247,33 @@
 		</nouns>
 	</Entry>
 <Entry frequency="684000000">excess<nouns>
-                            <translations><date>0112</date>
-				<translation gender="f">excés</translation>
-                                <translation gender="f">[insurance] franquícia<plural>excesses</plural></translation>
-			</translations>
-		</nouns>
-                <adjectives>
-                    <translations>
-                        <translation>sobrer</translation>
-                    </translations>
-                </adjectives>
-	</Entry>
+        <translations><date>0912</date>
+            <grouptranslation>
+            <translation gender="m">excés</translation>
+            <translation gender="f">desmesura</translation>
+            </grouptranslation>
+            <translation gender="f">[insurance] franquícia<plural>excesses</plural></translation>
+        </translations>
+    </nouns>
+    <adjectives>
+        <translations>
+            <translation beforenoun="true">sobrer / excedent<engexamp>Excess baggage.</engexamp><catexamp>Excés d'equipatge.</catexamp></translation>
+        </translations>
+    </adjectives>
+    <expressions>in (or to) excess
+        <translations>
+            <translation>en (o amb, o a l')excés</translation>
+        </translations>
+    </expressions>
+    <expressions>in excess of
+        <translations>
+            <translation>superior a</translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="109000000">excessive<adjectives>
 			<translations>
-				<translation>excessiu</translation>
+				<translation>excessiu / desmesurat / immoderat</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -6209,25 +6284,44 @@
 		</adverbs>
 	</Entry>
 <Entry frequency="76400000">exchange<verbs>
-			<translations>
-				<translation>bescanviar / intercanviar</translation>
-			</translations>
-		</verbs>
-		<nouns>
-			<translations>
-				<translation gender="m">bescanvi / intercanvi</translation>
-			</translations>
-		</nouns>
-                <expressions>in exchange for
-                <translations>
-                <translation>a canvi de</translation></translations></expressions>
-	</Entry>
+        <translations>
+            <translation>bescanviar / intercanviar</translation>
+        </translations>
+    </verbs>
+    <nouns>
+        <translations>
+            <translation gender="m">bescanvi / intercanvi</translation>
+        </translations>
+    </nouns>
+    <expressions>to exchange words
+        <translations>
+            <translation>adreçar-se la paraula (dues persones)</translation>
+        </translations>
+    </expressions>
+    <expressions>in exchange for
+        <translations>
+            <translation>a canvi de</translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="4960000">exchange rate<nouns>
-			<translations>
-				<translation gender="m">tipus de canvi</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations>
+            <translation gender="m">tipus de canvi</translation>
+        </translations>
+    </nouns>
+</Entry>
+<Entry frequency="31400000">excise<verbs>
+        <translations><date>0912</date>
+            <translation register="formal">suprimir / eliminar</translation>
+            <translation disambiguate="medical">extirpar</translation>
+        </translations>
+    </verbs>
+    <nouns>
+        <translations>
+            <translation>impostos especials (sobre l'alcohol / el tabac / la gasolina, etc.)</translation>
+        </translations>
+    </nouns>
+</Entry>        
 <Entry frequency="1020000">excitation energy<nouns>
 			<translations><date>0307</date>
 				<translation termcat="energy" gender="f">energia d'excitació</translation>
@@ -6241,10 +6335,15 @@
 		</verbs>
 	</Entry>
 <Entry frequency="1040000000">excited<adjectives>
-			<translations><date>0112</date>
-				<translation>emocionat / entusiasmat</translation>
-			</translations>
-		</adjectives>
+        <translations><date>0112</date>
+            <translation>emocionat / entusiasmat / engrescat</translation>
+        </translations>
+    </adjectives>
+    <expressions>to get excited
+        <translations>
+            <translation>lliurar-se a l'entusiasme<engexamp>Don't get too excited.</engexamp><catexamp>No cantis victòria abans d'hora.</catexamp></translation>
+        </translations>
+    </expressions>
 	</Entry>
 <Entry frequency="184000">excitedly<adverbs>
 			<translations>
@@ -6252,15 +6351,18 @@
 			</translations>
 		</adverbs>
 	</Entry>
-                  <Entry frequency="49700000">excitement<nouns>
-			<translations><date>0510</date>
-				<translation gender="f">emoció</translation>
-			</translations>
-		</nouns>
-	</Entry>
+<Entry frequency="526000000">excitement<nouns>
+        <translations><date>0912</date>
+            <grouptranslation>
+            <translation gender="f">emoció / exaltació</translation>
+            <translation gender="m">engrescament</translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="68800000">exciting<adjectives>
 			<translations>
-				<translation>excitant / emocionant / apassionant</translation>
+				<translation>excitant / emocionant / apassionant / engrescador / que desperta l'entusiasme</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -6301,6 +6403,7 @@
 <Entry frequency="25800000">exclusive<adjectives>
 			<translations>
 				<translation>exclusiu</translation>
+                                <translation>excloent</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -6310,6 +6413,13 @@
 			</translations>
 		</adverbs>
 	</Entry>
+<Entry frequency="1520000">excoriate<verbs>
+        <translations><date>0912</date>
+            <translation register="formal">vilipendiar / insultar / atacar verbalment / injuriar / deixar com un drap brut</translation>
+            <translation disambiguate="medical">excoriar</translation>
+        </translations>
+    </verbs>
+</Entry>        
 <Entry frequency="120000">excrement<nouns>
 			<translations>
 				<translation gender="m">excrement</translation>
@@ -6328,19 +6438,66 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="10800000">excrutiating<adjectives>
+        <translations><date>0912</date>
+            <translation>atroç / insuportable<engexamp>It was excruciating beyond belief.</engexamp><catexamp>Va ser un suplici.</catexamp></translation>
+        </translations>
+    </adjectives>
+</Entry>
+<Entry frequency="3180000">excrutiatingly<adverbs>
+        <translations><date>0912</date>
+            <translation>terriblement / tremendament / molt</translation>
+        </translations>
+    </adverbs>
+</Entry>
 <Entry frequency="1310000">excursion<nouns>
 			<translations>
 				<translation gender="f">excursió</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="9250000">excuse<nouns>
-			<translations>
-                        <grouptranslation><translation gender="f">excusa</translation>
-                                <translation gender="m">pretext</translation></grouptranslation>
-			</translations>
-		</nouns>
-	</Entry>
+<Entry frequency="521000000">excuse<nouns>
+        <translations><date>0912</date>
+            <grouptranslation>
+            <translation gender="f">excusa</translation>
+            <translation gender="m">pretext</translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+    <verbs>
+        <translations>
+            <translation>[forgive] disculpar / perdonar</translation>
+            <translation>[justify] justificar</translation>
+            <translation>[give permission not to do sth.] eximir / dispensar</translation>
+        </translations>
+    </verbs>
+    <expressions>if you will excuse the expression
+        <translations>
+            <translation>si se'm permet utilitzar l'expressió</translation>
+        </translations>
+    </expressions>
+    <expressions>to make excuses
+        <translations>
+            <translation>posar (o donar) excuses</translation>
+        </translations>
+    </expressions>
+    <expressions>to make excuses for (someone)
+        <translations>
+            <translation>excusar-lo / defensar-lo (davant d'altres)</translation>
+        </translations>
+    </expressions>
+    <exclamations>excuse me
+        <translations>
+            <translation>com diu?</translation>
+        </translations>
+    </exclamations>
+</Entry>
+<Entry frequency="955000">execrable<adjectives>
+        <translations><date>0912</date>
+            <translation register="formal">execrable / deplorable / vil / baix</translation>
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="43500000">execute<verbs>
 			<translations>
 				<translation>executar</translation>
@@ -6360,14 +6517,22 @@
 		</nouns>
 	</Entry>
 <Entry frequency="264000">executive<nouns>
-			<translations>
-				<translation gender="mf">executiu</translation>
-			</translations>
-		</nouns>
-                <adjectives>
-                <translations>
-                <translation>executiu</translation></translations></adjectives>
-	</Entry>
+        <translations><date>0912</date>
+            <translation gender="mf">executiu / directiu</translation>
+            <translation disambiguate="politics" sourceplural="the executive" gender="m">(poder) executiu</translation>
+        </translations>
+    </nouns>
+    <adjectives>
+        <translations>
+            <translation>executiu / directiu</translation>
+        </translations>
+    </adjectives>
+    <expressions>chief executive officer
+        <translations>
+            <translation gender="mf">director general / director executiu / director d'empresa</translation>
+        </translations>
+    </expressions>
+</Entry>
           <Entry frequency="2670000">exegesis<nouns>
                             <translations><date>1009</date>
 				<translation register="formal" gender="f">exegesi<plural>exegeses</plural></translation>
@@ -6400,11 +6565,29 @@
 		</nouns>
                 <verbs>
                 <translations>
+                <translation>[keep fit] fer exercici</translation>
                 <translation>exercir<engexamp>Does everyone who is able to vote exercise the right?</engexamp><catexamp>Exerceix el dret a vot tothom que pot votar?</catexamp></translation>
+                <translation>fer ús / fer servir</translation>
+                <translation>[brain] fer treballar<engexamp>To exercise one's mind.</engexamp><catexamp>Exercir la facultat de pensar.</catexamp></translation>
+                <translation>[dog] sortir a passejar</translation>
                 </translations>
                 </verbs>
+                <expressions>exercise bike
+                    <translations>
+                        <translation catagory="sports" gender="f">bicicleta estàtica (or estacionària)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
-                <Entry frequency="2980000">exhale<verbs>
+<Entry frequency="3610000">exhalation<nouns>
+        <translations><date>0912</date>
+            <grouptranslation>
+            <translation gender="f">exhalació</translation>
+            <translation gender="m">esbufec</translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+</Entry>
+<Entry frequency="2980000">exhale<verbs>
                             <translations><date>0209</date>
 				<translation intransitive="true">expirar</translation>
 			</translations>
