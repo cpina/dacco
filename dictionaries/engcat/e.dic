@@ -5716,8 +5716,14 @@
 <Entry frequency="5570000">evasion<nouns>
 			<translations>
 				<translation gender="f">evasió</translation>
+                                <translation gender="f">prevaricació<engexamp>You can hear the evasion in her voice.</engexamp><catexamp>Es nota la veu falsa.</catexamp></translation>
 			</translations>
 		</nouns>
+                <expressions>tax evasion
+                    <translations>
+                        <translation gender="f">evasió d'impostos</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1860000">evasive<adjectives>
 			<translations>
@@ -5738,53 +5744,73 @@
 		</nouns>
 	</Entry>
 <Entry frequency="136000000">even<adverbs>
-			<translations>
-				<translation>fins i tot / àdhuc / inclús</translation>
-			</translations>
-		</adverbs>
-		<adjectives>
-			<translations>
-				<translation>pla<engnote>'Pla' means 'even' in the sense 'level'.</engnote>
-				</translation>
-				<translation>igual<engnote>'Igual' means 'even' in the sense 'equal'.</engnote>
-				</translation>
-				<translation disambiguate="maths">parell<engnote>'Parell' means 'even' in the mathematical sense 'divisible by 2'.</engnote>
-				</translation>
-			</translations>
-		</adjectives>
-                <expressions>even so
-                <translations>
-                <translation>tot i així</translation></translations></expressions>
-                <expressions>even though
-                <translations>
-                <translation>tot i que</translation></translations></expressions>
-                <phrasalverbs>even up
-                    <translations>
-                        <translation transitive="true">igualar</translation>
-                    </translations>
-                </phrasalverbs>
-                </Entry>
+        <translations>
+            <translation>fins i tot / àdhuc / inclús</translation>
+        </translations>
+    </adverbs>
+    <adjectives>
+        <translations>
+            <translation>[level] pla</translation>
+            <translation>[equal] igual</translation>
+            <translation>[tone of voice] neutre</translation>
+            <translation>[teeth] igualat</translation>
+            <translation disambiguate="maths">parell</translation>
+        </translations>
+    </adjectives>
+    <expressions>even so
+        <translations>
+            <translation>tot i així</translation>
+        </translations>
+    </expressions>
+    <expressions>even though
+        <translations>
+            <translation>tot i que</translation>
+        </translations>
+    </expressions>
+    <phrasalverbs>even out
+        <translations>
+            <translation intransitive="true">igualar-se</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>even up
+        <translations>
+            <translation transitive="true">igualar</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
 <Entry frequency="21100000">evening<nouns>
 			<translations>
 				<translation gender="m">vespre</translation>
                                 <translation beforenoun="true">vespertí</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="228000000">event<nouns>
-                        <translations><date>0508</date>
-                            <translation gender="m">esdeveniment / succés</translation>
-			</translations>
-		</nouns>
-                <expressions>in the event of
+                <expressions>good evening
                     <translations>
-                        <translation>en cas de<engexamp>In the event of an accident</engexamp><catexamp>En cas d'accident</catexamp></translation>
+                        <translation>bon vespre!</translation>
                     </translations>
                 </expressions>
 	</Entry>
+<Entry frequency="228000000">event<nouns>
+        <translations><date>0508</date>
+            <translation gender="m">esdeveniment / succés<engexamp>Through a series of events.</engexamp><catexamp>Per una sèrie de circumstàncies.</catexamp></translation>
+            <translation gender="f">ocasió<engexamp>For special events.</engexamp><catexamp>Per a ocasions especials.</catexamp></translation>
+            <grouptranslation>
+            <translation gender="m">acte (públic)</translation>
+            <translation gender="f">activitat</translation>
+            </grouptranslation>
+            <translation disambiguate="sports" gender="f">prova</translation>
+            <translation sourceplural="events" gender="fpl">vicissituds</translation>
+        </translations>
+    </nouns>
+    <expressions>in the event of
+        <translations>
+            <translation>en cas de<engexamp>In the event of an accident...</engexamp><catexamp>En cas d'accident...</catexamp></translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="4960000">eventful<adjectives>
 			<translations>
-				<translation>ple de vivències (o experiències)<example>After a very &lt;b&gt;eventful&lt;/b&gt; journey, Maggie arrived at her hotel tired but happy.</example><example>It's been a very &lt;b&gt;eventful&lt;/b&gt; week. A lot has been happening.</example></translation>
+				<translation>ple de vivències (o experiències) / memorable (~)<example>After a very &lt;b&gt;eventful&lt;/b&gt; journey, Maggie arrived at her hotel tired but happy.</example><example>It's been a very &lt;b&gt;eventful&lt;/b&gt; week. A lot has been happening.</example></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -5801,11 +5827,30 @@
 		</nouns>
 	</Entry>
 <Entry frequency="17600000">eventually<adverbs>
-			<translations>
-				<translation>finalment</translation>
-			</translations>
-		</adverbs>
-	</Entry>
+        <translations>
+            <translation>finalment / al final</translation>
+            <translation>amb el temps</translation>
+        </translations>
+    </adverbs>
+</Entry>
+<Entry frequency="17600000">ever<adverbs>
+        <translations>
+            <translation>alguna vegada / algun cop / mai<engexamp>Have you ever visited the Eiffel Tower?</engexamp><catexamp>Has visitat mai la Torre Eiffel?</catexamp><engexamp>Have you ever visited this museum?</engexamp><catexamp>Has visitat aquest museu algun cop?</catexamp></translation>
+            <translation>sempre<engexamp>Ever the optimist.</engexamp><catexamp>Sempre optimista.</catexamp><engexamp>The ever-growing public response.</engexamp><catexamp>La sempre creixent resposta del públic.</catexamp></translation>
+            <translation>[negative] mai<engexamp>It seems easy but [it] hardly ever turns out right first time.</engexamp><catexamp>Sembla fàcil, però gairebé mai no surt bé a la primera.</catexamp></translation>            
+        </translations>
+    </adverbs>
+    <expressions>as ever
+        <translations>
+            <translation>com sempre</translation>
+        </translations>
+    </expressions>        
+    <expressions>for ever
+        <translations>
+            <translation>per sempre</translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="22800000">evergreen<nouns>
                             <translations><date>0109</date>
 				<translation catagory="plants" gender="m">arbre (o arbust) de fulla perenne</translation>
@@ -5817,6 +5862,12 @@
                 </translations>
                 </adjectives>
 	</Entry>
+<Entry frequency="60200000">everlasting<adjectives>
+			<translations><date>0912</date>
+				<translation>etern</translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 <Entry frequency="1240000">ever-present<adjectives>
 			<translations>
 				<translation>omnipresent</translation>
@@ -5876,7 +5927,7 @@
 <Entry frequency="95300000">evidence<nouns>
 			<translations>
 				<translation gender="f">evidència</translation>
-                                <translation gender="f">prova</translation>
+                                <translation gender="f">prova<engexamp>Lack of evidence.</engexamp><catexamp>Falta de proves.</catexamp><engexamp>Total lack of evidence.</engexamp><catexamp>Absència de proves.</catexamp></translation>
                                 <translation disambiguate="legal" gender="m">testimoniatge</translation>
 			</translations>
 		</nouns>
@@ -5889,19 +5940,24 @@
 	</Entry>
           <Entry frequency="19700000">evidently<adverbs>
 			<translations><date>0708</date>
-                            <translation>evidentment</translation>
-                            <translation>aparentment</translation>
+                            <translation>[obviously] evidentment / visiblement</translation>
+                            <translation>[apparently] aparentment / pel que sembla(va)</translation>
 			</translations>
 		</adverbs>
 	</Entry>
 <Entry frequency="15700000">evil<adjectives>
 			<translations>
-				<translation>malvat</translation>
+				<translation>malvat / malèvol</translation>
 			</translations>
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation gender="m">mal<engexamp>Beyond good and evil</engexamp><catexamp>Més enllà del bé i del mal</catexamp></translation>
+                <translation gender="m">mal<engexamp>Beyond good and evil.</engexamp><catexamp>Més enllà del bé i del mal.</catexamp></translation>
+                <grouptranslation sourceplural="evils">
+                <translation gender="mpl">vicis</translation>
+                <translation gender="fpl">plagues</translation>
+                <translation gender="f">perversitat</translation>
+                </grouptranslation>
                 </translations>
                 </nouns>
 	</Entry>
