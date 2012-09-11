@@ -6901,6 +6901,11 @@
             <translation>estar embarassada</translation>
         </translations>
     </expressions>
+    <expressions>expected value
+        <translations>
+            <translation disambiguate="maths" gender="f">esperança matemàtica</translation>
+        </translations>
+    </expressions>
 </Entry>
         <Entry frequency="9470000">expectancy<nouns>
                             <translations><date>0109</date>
@@ -6925,18 +6930,22 @@
                 </expressions>
 	</Entry>
 <Entry frequency="50700000">expectation<nouns>
-			<translations>
-				<translation gender="f">expectació</translation>
-                                <translation gender="f">expectativa</translation>
-			</translations>
-		</nouns>
-	</Entry>
-<Entry frequency="1190000">expected value<nouns>
-			<translations>
-				<translation disambiguate="maths" gender="f">esperança matemàtica</translation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations>
+            <translation gender="f">expectació</translation>
+        <translation gender="f">expectativa</translation>
+        </translations>
+    </nouns>           
+    <expressions>to exceed one's expectations
+        <translations>
+            <translation>excedir les previsions</translation>
+        </translations>
+    </expressions>
+    <expressions>to meet expectations
+        <translations>
+            <translation>estar a l'altura (del que s'espera de tu) / no defraudar les esperances / respondre a les expectatives</translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="593000">expedite<verbs>
 			<translations>
 				<translation>accelerar</translation>
@@ -6962,23 +6971,27 @@
 		</nouns>
 	</Entry>
 <Entry frequency="69200000">expense<nouns>
-			<translations>
-				<translation gender="f">despesa</translation>
-                                <translation sourceplural="expenses" disambiguate="work" gender="f">dieta<example>Can you claim this meal on &lt;b&gt;expenses&lt;/b&gt;?</example></translation>
-			</translations>
-		</nouns>
-                <expressions>all expenses paid
-                <translations>
-                <translation>amb totes les despeses pagades / tot inclòs</translation></translations></expressions>
-                <expressions>at the expense of somebody / something
-                <translations>
-                <translation>a costa de / a expenses de<engexamp>For 60 years the US pursued stability at the expense of democracy in the Middle East</engexamp><catexamp>Durant seixanta anys els Estats Units ha perseguit l'estabilitat a l'Orient Mitjà a costa de la democràcia</catexamp></translation>
-                </translations>
-                </expressions>
-                <expressions>at somebody's expense
-                <translations>
-                <translation>a compte de / a (l')esquena de / a costa de<example>Her mansion was refurnished at taxpayers' expense.</example><example>Louis kept making jokes at his wife's expense.</example></translation></translations></expressions>
-	</Entry>
+        <translations>
+            <translation gender="f">despesa</translation>
+            <translation sourceplural="expenses" disambiguate="work" gender="f">dieta<example>Can you claim this meal on &lt;b&gt;expenses&lt;/b&gt;?</example></translation>
+        </translations>
+    </nouns>
+    <expressions>all expenses paid
+        <translations>
+            <translation>amb totes les despeses pagades / tot inclòs</translation>
+        </translations>
+    </expressions>
+    <expressions>at the expense of (somebody or something)
+        <translations>
+            <translation>a costa de / a expenses de<engexamp>For 60 years the US pursued stability at the expense of democracy in the Middle East.</engexamp><catexamp>Durant seixanta anys els Estats Units ha perseguit l'estabilitat a l'Orient Mitjà a costa de la democràcia.</catexamp></translation>
+        </translations>
+    </expressions>
+    <expressions>at somebody's expense
+        <translations>
+            <translation>a compte de / a (l')esquena de / a costa de<example>Her mansion was refurnished at taxpayers' expense.</example><example>Louis kept making jokes at his wife's expense.</example></translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="18200000">expensive<adjectives>
 			<translations>
 				<translation>car</translation>
@@ -6986,25 +6999,43 @@
 		</adjectives>
 	</Entry>
 <Entry frequency="119000000">experience<nouns>
-			<translations><date>0707</date>
-				<translation gender="f">experiència</translation>
-			</translations>
-		</nouns>
-                <verbs>
-                    <translations>
-                        <translation>experimentar / sofrir</translation>
-                        </translations>
-                        </verbs>
-	</Entry>
+        <translations><date>0707</date>
+            <translation gender="f">experiència</translation>
+        </translations>
+    </nouns>
+    <verbs>
+        <translations>
+            <translation>experimentar / presentar / percebre<engexamp>The victims are experiencing symptoms.</engexamp><catexamp>Les víctimes presenten símptomes.</catexamp></translation>
+        </translations>
+    </verbs>
+    <expressions>life experience
+        <translations>
+            <translation gender="f">vivència / experiència viscuda / experiència vital / experiència personal / experiència de la vida</translation>
+        </translations>
+    </expressions>
+    <expressions>practical experience
+        <translations>
+            <translation gender="f">pràctica / experiència</translation>
+        </translations>
+    </expressions>
+</Entry>
+<Entry frequency="19800000">experiential<adjectives>
+        <translations><date>0912</date>
+            <translation register="formal">vivencial</translation>
+        </translations>
+    </adjectives>
+</Entry>
 <Entry frequency="30600000">experiment<verbs>
-			<translations>
-				<translation>experimentar</translation>
-			</translations>
-		</verbs>
-                <nouns>
-                <translations>
-                <translation gender="m">experiment</translation></translations></nouns>
-	</Entry>
+        <translations>
+            <translation>experimentar</translation>
+        </translations>
+    </verbs>
+    <nouns>
+        <translations>
+            <translation gender="m">experiment</translation>
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="17700000">experimental<adjectives>
                             <translations><date>0408</date>
 				<translation>experimental</translation>
@@ -7017,6 +7048,12 @@
 			</translations>
 		</adverbs>
 	</Entry>
+<Entry frequency="59300000">experimentation<nouns>
+        <translations><date>0912</date>
+            <translation gender="f">experimentació</translation>
+        </translations>
+    </nouns>
+</Entry>        
 <Entry frequency="127000000">expert<nouns>
 			<translations>
 				<translation gender="mf">expert / pèrit / crac</translation>
@@ -7030,7 +7067,10 @@
 	</Entry>
 <Entry frequency="15500000">expertise<nouns>
                             <translations><date>0508</date>
-				<translation gender="f">mestria / perícia</translation>
+                                <grouptranslation>
+				<translation gender="f">mestria / perícia / professionalitat / competència / experiència</translation>
+                                <translation gender="mpl">coneixements tècnics / coneixements pràctics</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7071,11 +7111,17 @@
                 </expressions>
 	</Entry>
 <Entry frequency="55900000">explain<verbs>
-			<translations>
-				<translation>explicar</translation>
-			</translations>
-		</verbs>
-	<phrasalverbs>explain away<translations><translation transitive="true">explicar (satisfactòriament una falta o error)</translation></translations></phrasalverbs></Entry>
+        <translations><date>0912</date>
+            <translation>explicar / aclarir</translation>
+            <translation>explicar / donar una explicació<engexamp>To explain oneself.</engexamp><catexamp>Explicar-se.</catexamp></translation>
+        </translations>
+    </verbs>
+    <phrasalverbs>explain away
+        <translations>
+            <translation transitive="true">explicar (satisfactòriament una falta o error)</translation>
+        </translations>
+    </phrasalverbs>   
+</Entry>
 <Entry frequency="64900000">explanation<nouns>
 			<translations>
 				<translation gender="f">explicació</translation>
@@ -7090,7 +7136,8 @@
 	</Entry>
 <Entry frequency="11700000">explicit<adjectives>
 			<translations>
-				<translation>explícit</translation>
+				<translation>[clear] explícit / clar</translation>
+                                <translation>[frank] categòric</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -7102,15 +7149,23 @@
 	</Entry>
 <Entry frequency="5920000">explode<verbs>
 			<translations>
-				<translation intransitive="true">esclatar / explotar</translation>
+				<translation intransitive="true">esclatar / explotar / fer explosió</translation>
+                                <translation intransitive="true">[~ (with or into something)] esclatar (de)<engexamp>To explode with joy.</engexamp><catexamp>Esclatar de joia.</catexamp><engexamp>To explode into laughter.</engexamp><catexamp>Esclatar de riure.</catexamp><engexamp>To explode into life.</engexamp><catexamp>Cobrar vida (de cop).</catexamp></translation>
+                                <translation transitive="true">[a theory or argument] refutar</translation>
 			</translations>
 		</verbs>
 	</Entry>
-<Entry frequency="3990000">exploit<verbs>
-			<translations>
-				<translation>explotar</translation>
+<Entry frequency="302000000">exploit<verbs>
+			<translations><date>0912</date>
+				<translation transitive="true">explotar / aprofitar</translation>
+                                <translation transitive="true">[negative] abusar / aprofitar-se</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                    <translations>
+                        <translation gender="f">proesa / gesta</translation>
+                    </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="6040000">exploitation<nouns>
 			<translations>
@@ -7121,15 +7176,26 @@
 <Entry frequency="64200000">exploration<nouns>
         <translations><date>0708</date>
             <translation gender="f">exploració</translation>
+            <grouptranslation>
+            <translation gender="f">anàlisi</translation>
+            <translation gender="m">estudi</translation>
+            </grouptranslation>
         </translations>
     </nouns>
     </Entry>
+<Entry frequency="22200000">exploratory<adjectives>
+        <translations><date>0912</date>
+            <translation>preparatori / preliminar</translation>
+            <translation>[surgery] exploratori</translation>            
+        </translations>
+    </adjectives>
+</Entry>    
 <Entry frequency="70000000">explore<verbs>
-			<translations>
-				<translation>explorar</translation>
-			</translations>
-		</verbs>
-	</Entry>
+        <translations>
+            <translation>explorar</translation>
+        </translations>
+    </verbs>
+</Entry>
 <Entry frequency="2870000">explosion<nouns>
 			<translations>
 				<translation gender="f">explosió</translation>
