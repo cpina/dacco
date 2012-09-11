@@ -6578,6 +6578,13 @@
                     </translations>
                 </expressions>
 	</Entry>
+<Entry frequency="20600000">exert<verbs>
+			<translations>
+                        <translation>exercir<engexamp>The Sun exerts a strong gravitational pull on the planets</engexamp><catexamp>El Sol exerceix una forta atracció gravitatòria sobre els planetes</catexamp></translation>
+                        <translation>fer un gran esforç (físic o mental)<catnote>(To exert yourself - he exerted himself / they exerted themselves...)</catnote></translation>
+			</translations>
+		</verbs>
+	</Entry>        
 <Entry frequency="3610000">exhalation<nouns>
         <translations><date>0912</date>
             <grouptranslation>
@@ -6590,13 +6597,6 @@
 <Entry frequency="2980000">exhale<verbs>
                             <translations><date>0209</date>
 				<translation intransitive="true">expirar</translation>
-			</translations>
-		</verbs>
-	</Entry>
-<Entry frequency="20600000">exert<verbs>
-			<translations>
-                        <translation>exercir<engexamp>The Sun exerts a strong gravitational pull on the planets</engexamp><catexamp>El Sol exerceix una forta atracció gravitatòria sobre els planetes</catexamp></translation>
-                        <translation>fer un gran esforç (físic o mental)<catnote>(To exert yourself - he exerted himself / they exerted themselves...)</catnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6626,13 +6626,14 @@
 		</adjectives>
 	</Entry>
 <Entry frequency="1300000">exhaustion<nouns>
-			<translations>
-                            <grouptranslation><translation gender="m">esgotament</translation>
-                                <translation gender="f">extenuació</translation></grouptranslation>
-                                <translation register="formal" gender="m">exhauriment</translation>
-                            </translations>
-		</nouns>
-	</Entry>
+        <translations>
+            <grouptranslation>
+            <translation gender="m">esgotament / cansament</translation>
+            <translation gender="f">extenuació / fatiga</translation></grouptranslation>
+            <translation register="formal" gender="m">exhauriment</translation>
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="22200000">exhaustive<adjectives>
 			<translations>
 				<translation>exhaustiu</translation>
@@ -6649,14 +6650,36 @@
 			<translations>
 				<translation transitive="true">exposar</translation>
                                 <translation transitive="true">exhibir</translation>
+                                <translation register="formal" transitive="true">[feelings, ability..] demostrar</translation>
+                                <translation intransitive="true">exposar</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                    <translations>
+                        <grouptranslation>
+                        <translation gender="f">obra exposada</translation>
+                        <translation gender="m">objecte exposat</translation>
+                        </grouptranslation>
+                        <translation gender="f">exposició</translation>
+                        <translation disambiguate="legal" gender="f">prova</translation>                        
+                    </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="22600000">exhibition<nouns>
 			<translations>
 				<translation gender="f">exposició / exhibició</translation>
 			</translations>
 		</nouns>
+                <expressions>exhibition game (or match)
+                    <translations>
+                        <translation catagory="sports" gender="m">partit amistós</translation>
+                    </translations>
+                </expressions>
+                <expressions>to make an exhibition of yourself
+                    <translations>
+                        <translation>fer el ridícul / posar-se en evidència</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="8720000">exhibitor<nouns>
                             <translations><date>1109</date>
@@ -6664,6 +6687,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="29100000">exhilarating<adjectives>
+        <translations><date>0912</date>
+            <translation>excitant / estimulant</translation>
+        </translations>
+    </adjectives>
+</Entry>        
+<Entry frequency="6330000">exhilaration<nouns>
+        <translations><date>0912</date>
+            <translation gender="f">excitació / exultació / eufòria</translation>
+        </translations>
+    </nouns>
+</Entry>  
         <Entry frequency="2200000">exhort<verbs>
                 <translations><date>0110</date>
                     <translation register="formal">exhortar</translation>
@@ -6701,7 +6736,8 @@
 	</Entry>
 <Entry frequency="38900000">exist<verbs>
 			<translations>
-				<translation>existir</translation>
+				<translation intransitive="true">existir</translation>
+                                <translation intransitive="true">[~ on] subsistir / viure<engexamp>He survived on a diet of noodles and rice.</engexamp><catexamp>Subsistia amb una dieta a base de fideus i arròs.</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6711,6 +6747,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="17300000">existential<adjectives>
+        <translations><date>0912</date>
+            <translation>existencial</translation>
+        </translations>
+    </adjectives>
+</Entry>          
+<Entry frequency="5450000">existentialism<nouns>
+        <translations><date>0912</date>
+            <translation gender="m">existencialisme</translation>
+        </translations>
+    </nouns>
+</Entry>  
 <Entry frequency="51700000">existing<adjectives>
 			<translations>
 				<translation>existent</translation>
@@ -6718,12 +6766,31 @@
 		</adjectives>
 	</Entry>
 <Entry frequency="14500000">exit<nouns>
-			<translations>
-				<grouptranslation><translation gender="f">sortida</translation>
-					<translation gender="f">eixida (Val.)</translation></grouptranslation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations>
+            <grouptranslation>
+            <translation gender="f">sortida</translation>
+            <translation gender="f">eixida (Val.)</translation>
+            </grouptranslation>
+            <translation gender="m">[theatre] mutis</translation>
+        </translations>
+    </nouns>
+    <verbs>
+        <translations>
+            <translation intransitive="true">sortir</translation>
+            <translation intransitive="true">[theatre] fer mutis</translation>
+        </translations>
+    </verbs>
+    <expressions>exit polls
+        <translations>
+            <translation catagory="politics" gender="mpl">sondejos a peu d'urna</translation>
+        </translations>
+    </expressions>
+    <expressions>to make a quick exit
+        <translations>
+            <translation>anar-se'n a corre-cuita / sortir corrents / tocar el dos</translation>
+        </translations>
+    </expressions>
+</Entry>
 <Entry frequency="1430000">exodus<nouns>
 			<translations>
 				<translation gender="m">èxode</translation>
@@ -6773,13 +6840,20 @@
 		</adjectives>
 	</Entry>
 <Entry frequency="59900000">expand<verbs>
-                            <translations><date>0708</date>
-				<translation disambiguate="computers">descomprir<engnote>Descomprimir means to expand in the sense of to uncompress (zip files etc.)</engnote>
-				</translation>
-				<translation>ampliar / expandir / engrossir</translation>
-			</translations>
-		</verbs>
-	</Entry>
+        <translations><date>0708</date>
+            <translation transitive="true">ampliar / expandir / engrossir</translation>
+            <translation transitive="true">dilatar<engexamp>Heat expands metals.</engexamp><catexamp>La calor dilata els metalls.</catexamp></translation>
+            <translation disambiguate="computers" transitive="true">descomprir</translation>
+            <translation intransitive="true">ampliar-se / expandir-se / engrossir-se</translation>
+            <translation intransitive="true">expandir-se / dilatar-se<engexamp>El formigó es dilata i es contreu a la mateixa velocitat que l'acer.</engexamp><catexamp>Concrete expands and contracts at the same rate as steel.</catexamp></translation>
+        </translations>
+    </verbs>            
+    <phrasalverbs>expand on (or upon)
+        <translations>
+            <translation>estendre's sobre</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
 <Entry frequency="11900000">expansion<nouns>
 			<translations>
 				<translation gender="f">ampliació</translation>
@@ -6788,16 +6862,46 @@
 	</Entry>
         <Entry frequency="9300000">expansive<adjectives>
             <translations><date>0708</date>
-            <translation>expansiu</translation>
+            <translation>ampli / extens</translation>                
+            <translation>expansiu / extrovertit / comunicatiu</translation>
         </translations>
     </adjectives>
     </Entry>
+<Entry frequency="545000">expatiate<verbs>
+        <translations><date>0912</date>
+            <translation>-</translation>
+        </translations>
+    </verbs>
+    <phrasalverbs>expatiate on (or upon)
+        <translations>
+            <translation register="formal">dissertar (o parlar) extensament sobre</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>    
+<Entry frequency="149000000">expat<nouns>
+        <translations><date>0912</date>
+            <translation register="colloquial" gender="mf">expatriat</translation>
+        </translations>
+    </nouns>
+</Entry>
+<Entry frequency="38500000">expatriate<nouns>
+        <translations><date>0912</date>
+            <translation gender="mf">expatriat</translation>
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="16100000">expect<verbs>
-			<translations>
-				<translation>esperar</translation>
-			</translations>
-		</verbs>
-	</Entry>
+        <translations>
+            <translation>esperar<engexamp>He can't be expected to ...</engexamp><catexamp>No se li pot demanar ... / no se li pot exigir ...</catexamp><engexamp>As was to be expected ...</engexamp><catexamp>Com era previsible ...</catexamp></translation>
+            <translation>imaginar-se / suposar<engexamp>I expect so.</engexamp><catexamp>Suposo que sí.</catexamp></translation>
+        </translations>
+    </verbs>
+    <expressions>to be expecting
+        <translations>
+            <translation>estar embarassada</translation>
+        </translations>
+    </expressions>
+</Entry>
         <Entry frequency="9470000">expectancy<nouns>
                             <translations><date>0109</date>
 				<translation gender="f">esperança (el que s'anticipa)</translation>
@@ -6809,11 +6913,16 @@
                     </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="118000">expectant mother<nouns>
-			<translations>
-				<translation gender="f">dona embarassada</translation>
+<Entry frequency="14700000">expectant<adjectives>
+			<translations><date>0912</date>
+				<translation>esperant</translation>
 			</translations>
-		</nouns>
+		</adjectives>
+                <expressions>expectant mother
+                    <translations>
+                        <translation gender="f">futura mamà</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="50700000">expectation<nouns>
 			<translations>
