@@ -5185,6 +5185,12 @@
         </translations>
     </adjectives>
 </Entry>        
+<Entry frequency="1170000">esterification<nouns>
+			<translations><date>0307</date>
+				<translation termcat="energy" gender="f">esterificació</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="177000000">estimate<nouns>
                             <translations><date>1108</date>
                             <translation gender="f">estimació</translation>
@@ -7192,7 +7198,9 @@
 </Entry>    
 <Entry frequency="70000000">explore<verbs>
         <translations>
-            <translation>explorar</translation>
+            <translation transitive="true">explorar</translation>
+            <translation transitive="true">indagar / estudiar / aprofundir en</translation>
+            <translation intransitive="true">explorar</translation>
         </translations>
     </verbs>
 </Entry>
@@ -7209,54 +7217,139 @@
 		</nouns>
                 <adjectives>
                 <translations>
-                <translation>explosiu</translation></translations></adjectives>
+                <translation>explosiu</translation>
+                </translations>
+                </adjectives>
+                <expressions>improvised explosive device (IED)
+                    <translations>
+                        <translation gender="m">artefacte explosiu improvisat</translation>
+                    </translations>
+                </expressions>                                                             
 	</Entry>
+<Entry frequency="20800000">exponent<nouns>
+        <translations><date>0912</date>
+            <translation gender="mf">partidari / defensor</translation>
+            <translation gender="m">exponent</translation>
+            <translation disambiguate="maths" gender="m">exponent</translation>
+        </translations>
+    </nouns>
+</Entry>        
 <Entry frequency="14100000">exponential<adjectives>
 			<translations>
-				<translation>exponencial</translation>
+				<translation catagory="maths">exponencial<engexamp>Exponential growth.</engexamp><catexamp>Creixement exponencial.</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="20400000">exponentially<adverbs>
+        <translations><date>0912</date>
+            <translation>exponencialment / de manera exponencial</translation>
+        </translations>
+    </adverbs>
+</Entry>         
 <Entry frequency="23800000">export<verbs>
-			<translations>
-				<translation>exportar</translation>
-			</translations>
-		</verbs>
-                <nouns>
-                <translations>
-                <translation gender="f">exportació</translation></translations></nouns>
-	</Entry>
+        <translations>
+            <translation>exportar</translation>
+        </translations>
+    </verbs>
+    <nouns>
+        <translations>
+            <translation gender="f">exportació</translation>
+        </translations>
+    </nouns>
+</Entry>
+<Entry frequency="17800000">exportation<nouns>
+        <translations><date>0912</date>
+            <translation gender="f">exportació</translation>
+        </translations>
+    </nouns>
+</Entry> 
+<Entry frequency="850000000">expose<verbs>
+        <translations><date>0912</date>
+            <translation>exposar</translation>
+            <translation>posar al descobert / revelar / desvelar / descobrir</translation>
+            <translation>desemmascarar</translation>
+        </translations>
+    </verbs>
+</Entry>        
 <Entry frequency="573000">exposé<nouns>
 			<translations>
-				<translation gender="m">reportatge (que revela una situació escandalosa)</translation>
+                            <grouptranslation>
+				<translation gender="m">desemmascarament</translation>
+                                <translation gender="f">exposició / revelació</translation>
+                            </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="508000000">exposed<adjectives>
+        <translations><date>0912</date>
+            <translation>vulnerable / desprotegit / a la mercè de</translation>
+        </translations>
+    </adjectives>
+</Entry>         
 <Entry frequency="2360000">exposition<nouns>
 			<translations>
 				<translation gender="f">exposició</translation>
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="131000000">exposure<nouns>
-        <translations><date>0708</date>
+<Entry frequency="934000000">exposure<nouns>
+        <translations><date>0912</date>
             <translation gender="f">exposició</translation>
+            <translation gender="f">publicitat</translation>
+            <translation gender="m">desemmascarament</translation>
+            <translation gender="f">[photography] exposició</translation>
+            <translation disambiguate="medical" gender="f">exposició a la intempèrie</translation>
         </translations>
     </nouns>
-    </Entry>
-<Entry frequency="80800000">express<verbs>
-			<translations>
-				<translation>expressar</translation>
+    <expressions>indecent exposure
+        <translations>
+            <translation gender="m">exhibicionisme</translation>
+        </translations>
+    </expressions>
+</Entry>
+<Entry frequency="2360000">expound<verbs>
+        <translations><date>0912</date>
+            <translation register="formal">exposar / formular / desenvolupar</translation>
+        </translations>
+    </verbs>
+</Entry> 
+<Entry frequency="5980000000">express<verbs>
+			<translations><date>0912</date>
+				<translation>expressar<engexamp>To express yourself.</engexamp><catexamp>Expressar-se.</catexamp></translation>
+                                <translation local="us">[~ something to somebody] enviar (alguna cosa) per correu exprés</translation>
 			</translations>
 		</verbs>
+                <adjectives>
+                    <translations>
+                        <translation>[bus, train..] ràpid / exprés</translation>
+                        <translation>[mail] exprés / urgent</translation>
+                        <translation>[wish, purpose..] exprés / explícit / manifest</translation>
+                    </translations>
+                </adjectives>
+                <adverbs>
+                    <translations>
+                        <translation>per correu exprés</translation>
+                    </translations>
+                </adverbs>
+                <nouns>
+                    <translations>
+                        <translation gender="m">tren directe</translation>
+                    </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="23200000">expression<nouns>
-			<translations>
-				<grouptranslation><translation gender="f">expressió</translation>
-					<translation gender="m">refrany</translation></grouptranslation>
-			</translations>
-		</nouns>
-	</Entry>
+        <translations>
+            <translation gender="f">expressió</translation>	
+            <translation gender="f">expressió / manifestació</translation>  
+            <translation gender="f">[music, acting...] expressivitat</translation>
+        </translations>
+    </nouns>
+    <expressions>to find expression (in)
+        <translations>
+            <translation>expresar-se (en) / traduir-se (en) / plasmar-se (en) / cristal·litzar (en)</translation>
+        </translations>
+    </expressions>
+</Entry>
         <Entry frequency="733000">expressionless<adjectives>
                 <translations><date>0909</date>
                     <translation>impassible / impàvid<synonyms>impassive</synonyms></translation>
@@ -7297,16 +7390,30 @@
 	</Entry>
         <Entry frequency="10400000">expunge<verbs>
 			<translations><date>0112</date>
-				<translation register="formal">expurgar / suprimir</translation>
+				<translation register="formal">expurgar / suprimir / espolsar-se / treure's del damunt</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="6110000">exquisite<adjectives>
 			<translations>
 				<translation>exquisit</translation>
+                                <translation register="formal">profund / agut / intens</translation>
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="16600000">exquisitely<adverbs>
+			<translations><date>0912</date>
+				<translation>exquisidament / amb delicadesa</translation>
+                                <translation register="formal">profundament / intensament</translation>
+			</translations>
+		</adverbs>
+	</Entry>        
+<Entry frequency="14800000">extant<adjectives>
+			<translations><date>0912</date>
+				<translation register="formal">existent<engexamp>Many of the photographs are still extant.</engexamp><catexamp>Moltes de les fotografies encara es conserven.</catexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 <Entry frequency="14900000">extend<verbs>
 			<translations>
 				<translation>estendre</translation>
@@ -7321,23 +7428,26 @@
 	</Entry>
 <Entry frequency="45300000">extension<nouns>
 			<translations>
-				<translation gender="f">pròrroga</translation>
+                                <translation gender="f">extensió / ampliació</translation>
+				<translation gender="f">[extra time] pròrroga</translation>
+                                <translation gender="m">[house] annex</translation>
+                                <translation gender="m">[telephone] supletori</translation>
+                                <translation disambiguate="education" beforenoun="true">d'extensió universitària<engexamp>Extension courses.</engexamp><catexamp>Cursos d'extensió universitària.</catexamp></translation>
+                                <translation disambiguate="computing" gender="f">extensió</translation>
+                                <translation local="gb" gender="m">allargador</translation>                                
 			</translations>
 		</nouns>
-                <expressions>extension cord
+                <expressions>extension cord (or lead)
                     <translations>
-                        <translation gender="m">allargador</translation>
-                    </translations>
-                </expressions>
-                <expressions>extension lead
-                    <translations>
-                        <translation gender="m">allargador<synonyms>extension cord</synonyms></translation>
+                        <translation local="gb" gender="m">allargador</translation>
                     </translations>
                 </expressions>
 	</Entry>
 <Entry frequency="39400000">extensive<adjectives>
 			<translations>
-				<translation>extens</translation>
+				<translation>extens / ampli</translation>
+                                <translation>exhaustiu</translation>
+                                <translation>important</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -7350,7 +7460,7 @@
 <Entry frequency="25600000">extent<nouns>
 			<translations>
                         <grouptranslation><translation gender="m">grau / abast / punt</translation>
-                                <translation gender="f">extensió</translation></grouptranslation>
+                                <translation gender="f">extensió / magnitud</translation></grouptranslation>
 			</translations>
 		</nouns>
                 <expressions>to a large extent
@@ -7369,18 +7479,24 @@
                     </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="1170000">esterification<nouns>
-			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">esterificació</translation>
+<Entry frequency="16000000">exterminate<verbs>
+			<translations><date>0912</date>
+				<translation>exterminar</translation>
 			</translations>
-		</nouns>
-	</Entry>
+		</verbs>
+	</Entry>        
 <Entry frequency="810000">extermination<nouns>
 			<translations>
 				<translation gender="m">extermini</translation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="16200000">exterminator<nouns>
+			<translations><date>0912</date>
+				<translation gender="mf">exterminador / [insects] fumigador / [rats] desratitzador</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="1920000000">external<adjectives>
 			<translations>
 				<translation>extern</translation>
@@ -7418,6 +7534,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="8450000">extol<verbs double="true">
+			<translations><date>0912</date>
+				<translation register="formal">enaltir / exalçar</translation>
+			</translations>
+		</verbs>
+	</Entry>        
 <Entry frequency="4050000">extort<verbs>
 			<translations>
 				<translation>extorquir</translation>
@@ -7432,7 +7554,7 @@
 	</Entry>
 <Entry frequency="511000000">extra<adjectives>
                             <translations><date>0908</date>
-				<translation>extra / addicional</translation>
+				<translation>extra / addicional / suplementari</translation>
 			</translations>
 		</adjectives>
                 <expressions>extra time
@@ -7444,8 +7566,19 @@
 <Entry frequency="5290000">extract<verbs>
 			<translations>
 				<translation>extreure<synonyms>pull out, remove</synonyms></translation>
+                                <translation>[money, a confession...] arrencar</translation>
+                                <translation>obtenir / treure</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                    <translations>
+                        <grouptranslation>
+                        <translation gender="m">extracte / fragment</translation>
+                        <translation gender="f">selecció</translation>
+                        </grouptranslation>                        
+                        <translation gender="m">extracte<engexamp>Vanilla extract.</engexamp><catexamp>Extracte de vainilla.</catexamp></translation>
+                    </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="89400000">extraction<nouns>
 			<translations>
@@ -7458,11 +7591,16 @@
                 </translations>
                 </expressions>
                 </Entry>
-<Entry frequency="193000">extractor hood<nouns>
-                            <translations><date>1007</date>
-				<translation catagory="household-room-kitchen" gender="f">campana</translation>
+<Entry frequency="124000000">extractor<nouns>
+                            <translations><date>0912</date>
+				<translation gender="m">extractor</translation>
 			</translations>
 		</nouns>
+                <expressions>extractor hood
+                    <translations>
+                        <translation catagory="household-room-kitchen" gender="f">campana</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="6350000">extra-curricular<adjectives>
 			<translations>
@@ -7482,6 +7620,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="9100000">extraneous<adjectives>
+        <translations><date>0912</date>
+            <translation register="formal">irrellevant / superflu<engexamp>That's extraneous.</engexamp><catexamp>Això no fa al cas.</catexamp></translation>
+        </translations>
+    </adjectives>   
+</Entry>         
 <Entry frequency="331000">extraordinarily<adverbs>
 			<translations>
 				<translation>extraordinàriament</translation>
@@ -7515,22 +7659,50 @@
                 <translations>
                 <translation>extraterrestrial</translation></translations></adjectives>
 	</Entry>
-<Entry frequency="1480000">extravagant<adjectives>
-			<translations><date>0407</date>
-				<translation>luxós i malgastat<engnote>False friend alert! The adjective 'extravagant' does exist in Catalan but it means 'odd' or 'outlandish'.</engnote><example>They have a very &lt;b&gt;extravagant&lt;/b&gt; lifestyle.</example></translation>
-                                <translation>excessiu / imprudent / inacceptable<example>The actress has a reputation as a bit of a diva as she makes a lot of &lt;b&gt;extravagant&lt;/b&gt; demands.</example></translation>
+<Entry frequency="9930000">extravagance<nouns>
+        <translations><date>0912</date>
+            <grouptranslation>
+            <translation gender="f">extravagància</translation>
+            <translation gender="m">luxe</translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+</Entry>        
+<Entry frequency="29000000">extravagant<adjectives>
+			<translations><date>0912</date>
+                            <translation>malgastador</translation>
+				<translation>de luxe<example>They have a very &lt;b&gt;extravagant&lt;/b&gt; lifestyle.</example></translation>
+                                <translation>excessiu / desmesurat<example>The actress has a reputation as a bit of a diva as she makes a lot of &lt;b&gt;extravagant&lt;/b&gt; demands.</example></translation>
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="51900000">extreme<adjectives>
-        <translations>
-        <translation>extrem</translation></translations></adjectives>
-        <nouns>
-			<translations>
-				<translation gender="m">extrem</translation>
+        <Entry frequency="2250000">extravagantly<adverbs>
+                            <translations><date>0908</date>
+				<translation>ostensiblement / esplèndidament</translation>
 			</translations>
-		</nouns>
-	</Entry>
+		</adverbs>
+	</Entry>        
+<Entry frequency="3560000000">extreme<adjectives>
+        <translations><date>0912</date>
+            <translation>extrem / brusc / radical</translation>
+        </translations>
+    </adjectives>
+    <nouns>
+        <translations>
+            <translation gender="m">extrem</translation>
+        </translations>
+    </nouns>    
+    <expressions>in the extreme
+        <translations>
+            <translation>d'allò més / a més no poder</translation>
+        </translations>
+    </expressions>
+    <expressions>to go to extremes
+        <translations>
+            <translation>portar les coses a l'extrem</translation>
+        </translations>
+    </expressions>
+</Entry>
         <Entry frequency="172000000">extremely<adverbs>
                             <translations><date>0908</date>
 				<translation>extremadament</translation>
@@ -7548,9 +7720,11 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="2900000">extremity<nouns>
-			<translations>
-				<translation gender="m">extrem<plural>extremities</plural></translation>
+<Entry frequency="30200000">extremity<nouns>
+			<translations><date>0912</date>
+				<translation gender="m">extrem</translation>
+                                <translation gender="f">radicalitat / severitat</translation>
+                                <translation sourceplural="extremities" gender="fpl">extremitats</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7566,31 +7740,75 @@
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="272000">exult<verbs>
-			<translations>
-				<translation>alegrar-se molt</translation>
+        <Entry frequency="9120000">exuberance<nouns>
+                            <translations><date>0912</date>
+				<translation gender="f">exuberància / vitalitat</translation>
 			</translations>
-		</verbs>
-	</Entry>
+		</nouns>
+	</Entry>        
+<Entry frequency="12800000">exuberant<adjectives>
+                            <translations><date>0912</date>
+				<translation>ple de vitalitat / efusiu</translation>
+			</translations>
+		</adjectives>
+	</Entry>            
+<Entry frequency="19900000">exude<verbs>
+        <translations><date>0912</date>
+            <translation>[fig.] irradiar / desbordar de (energia, entusiasme, etc.)</translation>
+            <translation>exsudar / desprendre / traspuar</translation>
+        </translations>
+    </verbs>
+</Entry>            
+<Entry frequency="2500000">exult<verbs>
+        <translations><date>0912</date>
+            <translation>recrear-se / complaure's / delectar-se (en)</translation>
+        </translations>
+    </verbs>
+</Entry>
 <Entry frequency="109000000">eye<nouns>
 			<translations>
 				<translation catagory="body" gender="m">ull</translation>
 			</translations>
 		</nouns>
-                <expressions>keep an eye on (someone / something)
-                <translations>
-                <translation>vigilar (algú / alguna cosa)</translation>
-                </translations>
+                <expressions>as far as the eye can see
+                    <translations>
+                        <translation>fins on arriba la vista</translation>
+                    </translations>
                 </expressions>
-                <expressions>look (someone) straight in the eye
-                <translations>
-                <translation>mirar (algú) de fit a fit</translation>
-                </translations>
+                <expressions>to give (somebody) the eye
+                    <translations>
+                        <translation>llançar una mirada (amb intenció)</translation>
+                    </translations>
                 </expressions>
                 <expressions>in the wink of an eye
                 <translations>
                 <translation>en un tancar i obrir d'ulls<synonyms>in a flash</synonyms></translation>
                 </translations>
+                </expressions>
+                <expressions>to keep an eye on (someone / something)
+                <translations>
+                <translation>vigilar (algú / alguna cosa)</translation>
+                </translations>
+                </expressions>
+                <expressions>to look (someone) straight in the eye
+                <translations>
+                <translation>mirar (algú) de fit a fit</translation>
+                </translations>
+                </expressions> 
+                <expressions>to not see eye to eye with (someone)
+                    <translations>
+                        <translation>discrepar d'(algú)</translation>
+                    </translations>
+                </expressions>
+                <expressions>to roll your eyes
+                    <translations>
+                        <translation>aixecar els ulls al cel</translation>
+                    </translations>
+                </expressions>
+                <expressions>with an eye to
+                    <translations>
+                        <translation>amb una voluntat de</translation>
+                    </translations>
                 </expressions>
 	</Entry>
 <Entry frequency="554000">eyeball<nouns>
@@ -7601,7 +7819,7 @@
                 <expressions>be up to your eyeballs
                     <translations>
                         <translation>estar (o anar) atrafegat<example>I'm sorry I can't do it right now. &lt;b&gt;I'm up to my eyeballs&lt;/b&gt; in work.</example><example>The wedding is only a week away so, as you can probably imagine, &lt;b&gt;we're up to our eyeballs&lt;/b&gt; at the moment.</example></translation>
-                        <translation>tenir una gran quantitat d'alguna cosa<example>The poor man &lt;b&gt;is up to his eyeballs&lt;/b&gt; in debt.</example><example>In the age of the Internet we all find ourselves &lt;b&gt;up to our eyeballs&lt;/b&gt; in information and choices.</example></translation>
+                        <translation>tenir una gran quantitat (d'alguna cosa)<example>The poor man &lt;b&gt;is up to his eyeballs&lt;/b&gt; in debt.</example><example>In the age of the Internet we all find ourselves &lt;b&gt;up to our eyeballs&lt;/b&gt; in information and choices.</example></translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -7610,12 +7828,23 @@
 				<translation catagory="body" gender="f">cella</translation>
 			</translations>
 		</nouns>
+                <expressions>to raise your eyebrows
+                    <translations>
+                        <translation>arrufar les celles</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1350000">eye-catching<adjectives>
 			<translations>
 				<translation>cridaner / vistós</translation>
 			</translations>
 		</adjectives>
+	</Entry>
+        <Entry frequency="819000">eye dropper<nouns>
+			<translations><date>0912</date>
+				<translation catagory="medical" gender="m">comptagotes</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="153000">eye drops<nouns>
 			<translations>
@@ -7643,6 +7872,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="68000000">eyeliner<nouns>
+			<translations><date>0912</date>
+				<translation gender="m">llapis d'ulls</translation>
+			</translations>
+		</nouns>
+	</Entry>        
         <Entry frequency="2260000">eyesight<nouns>
 			<translations><date>0808</date>
 				<translation catagory="medical" gender="f">vista<example>Can eating carrots really improve your &lt;b&gt;eyesight&lt;/b&gt;?</example></translation>
@@ -7656,12 +7891,23 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="367000">eyewitness<nouns>
-			<translations><date>0408</date>
+<Entry frequency="4280000">eye strain<nouns>
+			<translations><date>0912</date>
+				<translation catagory="medical-illness" gender="f">fatiga visual / fatiga ocular</translation>
+			</translations>
+		</nouns>
+	</Entry>        
+<Entry frequency="88200000">eyewitness<nouns>
+			<translations><date>0912</date>
 				<translation gender="mf">testimoni presencial / testimoni ocular / testimoni de vista<plural>eye witnesses</plural>
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>eyewitness account
+                    <translations>
+                        <translation gender="m">relat de primera mà</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="208000">eyrie<nouns>
 			<translations>
