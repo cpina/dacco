@@ -223,12 +223,6 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="889000">back foot<nouns>
-			<translations>
-				<translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">peu de darrere<synonyms>rear foot</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry>
         <Entry frequency="43600000">backgammon<nouns>
 			<translations><date>0112</date>
 				<translation catagory="entertainment" gender="m">jaquet</translation>
@@ -923,7 +917,10 @@
 	</Entry>
 <Entry frequency="28900000">ball<nouns>
 			<translations>
-				<translation disambiguate="sports" gender="f">pilota</translation>
+                            <grouptranslation disambiguate="sports">
+				<translation gender="f">pilota</translation>
+                                <translation gender="m">baló</translation>
+                                </grouptranslation>
 				<translation gender="m">ball<engnote>'Ball' means 'ball' in the sense 'formal dance'.</engnote>
 				</translation>
                                 <translation gender="m">cabdell<engnote>'Cabdell' means 'ball' in the sense 'ball of wool / string'.</engnote></translation>
@@ -1406,6 +1403,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="8050000">bantamweight<nouns>
+        <translations><date>0912</date>
+            <translation catagory="sports-event-boxing" gender="m">pes gall</translation>
+        </translations>
+    </nouns>
+</Entry>        
 <Entry frequency="166000000">banter<nouns>
 			<translations><date>0112</date>
 				<translation gender="f">burla / broma / conya / conyeta</translation>
@@ -1452,7 +1455,7 @@
 				<translation gender="f">barra</translation>
 				<translation gender="m">bar<engnote>'Bar' means 'bar' in the sense 'drinking establishment'.</engnote>
 				</translation>
-                                <translation disambiguate="sports" gender="m">travesser<synonyms>crossbar</synonyms></translation>
+                                <translation disambiguate="sports-event-football" gender="m">travesser<synonyms>crossbar</synonyms></translation>
                                 <translation disambiguate="sports-event-athletics" gender="m">llistó<synonyms>crossbar</synonyms></translation>
 			</translations>
 		</nouns>
@@ -1526,7 +1529,7 @@
 	</Entry>
         	<Entry frequency="2150000">barbell<nouns>
 			<translations><date>1108</date>
-                            <grouptranslation catagory="sports">
+                            <grouptranslation catagory="sports-event-weightlifting">
                                 <translation gender="mpl">halters</translation>
                                 <translation gender="f">barra</translation>
                             </grouptranslation>
@@ -2030,12 +2033,12 @@
 				</translation>
                                 <translation gender="m">cove</translation>
                                 <grouptranslation disambiguate="sports-event-basketball">
-                                <translation gender="f">[ring and net] cistella</translation>
+                                <translation gender="f">[hoop and net] cistella</translation>
                                 <translation gender="m">bàsquet</translation>
                                 </grouptranslation>
                                 <grouptranslation disambiguate="sports">
                                     <translation gender="f">[score] cistella / encistellada</translation>
-                                    <translation gender="m">bàsquet<engexamp>To score a basket</engexamp><catexamp>Encistellar</catexamp></translation>
+                                    <translation gender="m">bàsquet<engexamp>To score a basket.</engexamp><catexamp>Encistellar.</catexamp></translation>
                                 </grouptranslation>
 			</translations>
 		</nouns>
@@ -5022,7 +5025,7 @@
 <Entry frequency="60700000">binding<nouns>
 			<translations><date>1007</date>
 				<translation gender="f">enquadernació</translation>
-                                <translation disambiguate="sports" gender="f">fixació</translation>
+                                <translation disambiguate="sports-event-snowboarding, sports-event-skiing" gender="f">fixació</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -6576,7 +6579,7 @@
                         </grouptranslation>
                         <translation gender="m">obstacle / blocatge / bloqueig</translation>
                         <translation sourceplural="the block" gender="m">piló<engexamp>The condemned man already had his head on the block.</engexamp><catexamp>El condemnat ja tenia el cap sobre el piló.</catexamp></translation>
-                        <translation sourceplural="the blocks" catagory="sports-event-athletics" gender="mpl">blocs de sortida</translation>
+                        <translation sourceplural="blocks" catagory="sports-event-athletics" gender="mpl">blocs de sortida</translation>
                     </translations>
                 </nouns>
                 <expressions>block printer
@@ -7306,7 +7309,7 @@
 <Entry frequency="990000">board<nouns>
                             <translations><date>1108</date>
 				<translation gender="m">post</translation>
-				<translation disambiguate="sports" gender="f">planxa</translation>
+				<translation disambiguate="sports-event-snowboarding" gender="f">planxa</translation>
 				<grouptranslation catagory="work"><translation gender="f">junta directiva</translation>
 					<translation gender="m">consell de direcció / patronat</translation></grouptranslation>
 				<translation disambiguate="education" gender="f">pissarra<synonyms>blackboard (Br.), chalkboard (Am.)</synonyms>
@@ -9169,7 +9172,11 @@
                                 <translation gender="f">capsa<engnote>A 'capsa' tends to be a relatively small box (e.g. pill box, jewelry box).</engnote><engexamp>Box of matches</engexamp><catexamp>Capsa de llumins</catexamp></translation>
                                 <translation gender="m">estoig</translation>
                                 <translation gender="f">cabina<engexamp>Phone box</engexamp><catexamp>Cabina de telèfon</catexamp></translation>
-                                <translation disambiguate="sports" local="gb" gender="f">conquilla</translation>
+                                <translation disambiguate="sports, clothes" local="gb" gender="f">conquilla</translation>
+                                <grouptranslation catagory="sports-event-gymnastics">
+                                <translation gender="m">[gymnastics] plint</translation>
+                                <translation gender="mpl">calaixos</translation>
+                                </grouptranslation>
 				<translation local="gb" register="slang" sourceplural="the box" gender="f">tele<example>Is there anything worth watching on &lt;b&gt;the box&lt;/b&gt; tonight?</example></translation>
                                 <translation sourceplural="the box" catagory="sports-event-icehockey" gender="f">[ice hockey] banqueta d'expulsats</translation>
 			</translations>
@@ -12070,13 +12077,14 @@
                             <translations><date>1208</date>
 				<translation disambiguate="animal-animal" gender="m">toro / brau</translation>
                                 <translation register="slang" gender="fpl">bestieses<catnote>Abreviatura de 'bullshit'.</catnote></translation>
+                                <translation catagory="sports-event-darts" gender="m">[darts] centre de la diana<engexamp>Outer bull.</engexamp><catexamp>Cercle de 25 punts.</catexamp><engexamp>Double bull.</engexamp><catexamp>Centre de la diana.</catexamp></translation>
 			</translations>
 		</nouns>
                 <expressions>bull market
                     <translations>
                         <translation disambiguate="financial" gender="m">mercat alcista / mercat a l'alça<synonyms>bullish market</synonyms></translation>
                     </translations>
-                </expressions>
+                </expressions>                
                 <expressions>like a bull in a china shop
                 <translations>
                 <translation>com un elefant en una terrisseria / com un elefant en una cristalleria</translation>
@@ -12172,7 +12180,8 @@
 	</Entry>
 <Entry frequency="3010000">bullseye<nouns>
 			<translations><date>1205</date>
-				<translation gender="f">diana</translation>
+                            <translation catagory="sports-event-darts" gender="m">[darts] centre de la diana</translation>
+				<translation catagory="sports-event-archery" gender="f">[archery] diana</translation>
 			</translations>
 		</nouns>
                 <expressions>to hit the bullseye

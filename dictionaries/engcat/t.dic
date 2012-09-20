@@ -3780,6 +3780,11 @@
 				<translation>fort / fortament</translation>
 			</translations>
 		</adverbs>
+                <expressions>tight end
+                    <translations>
+                        <translation catagory="sports-event-americanfootball" gender="mf">[American football] ala tancat / tight-end</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="9250000">tighten<verbs>
                             <translations><date>1008</date>
 				<translation>estrènyer / serrar</translation>
@@ -5123,7 +5128,14 @@
                         <translation>posar-se en contacte</translation>
                     </translations>
                 </expressions>
-</Entry><Entry frequency="879000">touchdown<nouns>
+</Entry>
+<Entry frequency="4870000">touchback<nouns>
+			<translations><date>0912</date>
+				<translation catagory="sports-event-americanfootball" termcat="true" gender="m">touchback</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="879000">touchdown<nouns>
 			<translations>
 				<translation catagory="sports-event-americanfootball" termcat="true" gender="m">touchdown</translation>
 			</translations>
@@ -6878,7 +6890,15 @@
 				<translation gender="f">localització i resolució de problemes</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="461000">trough<nouns>
+	</Entry>
+        <Entry frequency="30600000">troublesome<adjectives>
+			<translations><date>0912</date>
+                            <translation>problemàtic</translation>
+				<translation>enutjós</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="461000">trough<nouns>
 			<translations>
 					<translation catagory="animal" gender="f">menjadora</translation>
 					<translation gender="m">abeurador</translation>
@@ -7561,8 +7581,8 @@
                                 <translation gender="f">facturació / xifra de vendes</translation>
                                 </grouptranslation>
                                 <translation gender="f">rotació de personal<engnote>(turnover of staff)</engnote></translation>
-                                <translation disambiguate="sports-event-americanfootball" termcat="true" gender="f">(futbol americà) pèrdua de possessió</translation>
-                                <translation disambiguate="sports-event-basketball" termcat="true" gender="f">(basquetbol) pèrdua de la pilota</translation>
+                                <translation disambiguate="sports-event-americanfootball" termcat="true" gender="f">[American football] pèrdua de possessió</translation>
+                                <translation disambiguate="sports-event-basketball" termcat="true" gender="f">[basketball] pèrdua de la pilota</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1010000">turnpike<nouns>
