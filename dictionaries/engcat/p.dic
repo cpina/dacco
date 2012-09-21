@@ -90,7 +90,7 @@
                                 <translation local="gb" gender="f">baralla<engnote>'Baralla' means 'pack' in the sense 'pack of cards'.</engnote><otherlocal>deck</otherlocal></translation>
 				<translation catagory="animal" gender="m">ramat<engnote>'Ramat' means 'pack' in the sense 'a pack of wolves'.</engnote></translation>
 				<translation gender="m">grup</translation>
-                                <translation disambiguate="sports" gender="m">pilot</translation>
+                                <translation disambiguate="sports" gender="m">grup principal / pilot</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -4963,7 +4963,7 @@
   </Entry>
  <Entry frequency="291000">peloton<nouns>
           <translations><date>1208</date>   
-              <translation catagory="sports-event-cycling" gender="m">(ciclisme) pilot<synonyms>pack</synonyms></translation>
+              <translation catagory="sports-event-cycling" gender="m">[cycling] pilot<synonyms>pack</synonyms></translation>
           </translations>            
       </nouns>        
   </Entry>
@@ -6289,7 +6289,6 @@
                 <expressions>personal foul
                     <translations>                        
                         <translation catagory="sports" termcat="true" gender="f">falta personal</translation>                        
-                        <translation catagory="sports-event-basketball" termcat="true" gender="f">[basquetbol / waterpolo] personal / falta personal</translation>                       
                     </translations>
                 </expressions>
 	</Entry>
@@ -9240,7 +9239,11 @@
 			</translations>
 
 		</nouns>
-
+                <expressions>pit lane
+                    <translations>
+                        <translation catagory="sports-event-formulaone" gender="f">línia de boxs</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="10900000">pitch<nouns>
 
@@ -17663,7 +17666,7 @@
                                     <translation gender="mpl">accessoris</translation>
                                     <translation gender="m">attrezzo</translation>
                                 </grouptranslation>
-                                <translation catagory="sports-event-rugby" gender="m">(rugbi) pilar</translation>
+                                <translation catagory="sports-event-rugby" gender="m">[rugby] pilar</translation>
 			</translations>
 
 		</nouns>
