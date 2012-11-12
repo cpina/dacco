@@ -25,6 +25,16 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="32200000">kaleidoscope<nouns>
+			<translations><date>1112</date>
+				<translation gender="m">calidoscopi</translation>
+                                <grouptranslation>
+                                    <translation gender="m">repertori / ventall</translation>
+                                    <translation gender="f">varietat</translation>
+                                </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="1110000">kamikaze<adjectives>
 			<translations>
 				<translation>kamikaze</translation>
@@ -48,6 +58,12 @@
                 </translations>
             </adjectives>            
         </Entry>
+<Entry frequency="5300000">karabiner<nouns>
+			<translations><date>1112</date>
+				<translation gender="m">mosquetó</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="4280000">karaoke<nouns>
 			<translations>
 				<translation gender="m">karaoke</translation>
@@ -133,6 +149,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="6400000">kazoo<nouns>
+        <translations><date>1112</date>
+            <translation catagory="entertainment-music" gender="m">mirlitó</translation>
+        </translations>
+    </nouns>
+</Entry>        
 <Entry frequency="32200000">keel<nouns>
                             <translations><date>1007</date>
 				<translation catagory="transport" gender="f">quilla</translation>
@@ -144,14 +166,29 @@
                 <translation>caure desmaiat o d'esglai / desplomar-se<example>Claire had been sat at the bar drinking all afternoon. When she stood up to go to the toilet she promptly &lt;b&gt;keeled over&lt;/b&gt;.</example></translation>
                 </translations>
                 </phrasalverbs>
+                <expressions>on an even keel
+                    <translations>
+                        <translation>en un estat d'equilibri</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2600000">keen<adjectives>
                         <translations><date>0508</date>
-                            <translation>agut<example>Joe has a &lt;b&gt;keen&lt;/b&gt; mind, level head and great sense of humour.</example></translation>
+                            <translation>agut / viu<example>Joe has a &lt;b&gt;keen&lt;/b&gt; mind, level head and great sense of humour.</example></translation>
 				<translation>entusiasta / voluntariós<synonyms>enthusiastic, eager</synonyms></translation>
                                 <translation local="gb">competitiu</translation>
 			</translations>
 		</adjectives>
+                <verbs>
+                    <translations>
+                        <translation intransitive="true">somicar</translation>
+                    </translations>
+                </verbs>
+                <expressions>to be keen (on an idea)
+                    <translations>
+                        <translation>seduir / convèncer (una idea)<engexamp>To not be keen.</engexamp><catexamp>No convèncer.</catexamp></translation>
+                    </translations>
+                </expressions>                
 	</Entry>
 <Entry frequency="183000">keenly<adverbs>
 			<translations>
@@ -165,6 +202,7 @@
 			<participle>kept</participle>
 			<translations>
 				<translation>guardar</translation>
+                                <translation>menar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>keep at
@@ -243,7 +281,7 @@
                 </phrasalverbs>
                 <phrasalverbs>keep up
                     <translations>
-                        <translation intransitive="true">aguantar el pas, no endarrerir-se</translation>
+                        <translation intransitive="true">aguantar el pas / no endarrerir-se / no quedar enrere / seguir el pas</translation>
                         <translation transitive="true">no deixar dormir</translation>
                         <translation transitive="true">mantenir (l'ànim)</translation>
                     </translations>
@@ -253,12 +291,36 @@
                         <translation intransitive="true">estar al dia de</translation>
                     </translations>
                 </phrasalverbs>
-                <expressions>keep (yourself o somebody) abreast (of something)
+                <expressions>to keep (somebody) abreast (of something)
                     <translations>
-                        <translation>mantenir algú al dia</translation>
+                        <translation>mantenir (algú) al dia</translation>
+                    </translations>
+                </expressions>    
+                <expressions>to keep (yourself) abreast (of something)
+                    <translations>
                         <translation>mantenir-se al dia</translation>
                     </translations>
-                </expressions>                
+                </expressions>  
+                <expressions>to keep an eye on (somebody)
+                    <translations>
+                        <translation>estar pendent (tota l'estona) d'(algú) / vetllar per (algú) / no perdre'l de vista / no treure-li els ulls de sobre / no perdre'l d'ull</translation>
+                    </translations>
+                </expressions>
+                <expressions>to keep an eye on things
+                    <translations>
+                        <translation>vetllar perquè tot rutlli</translation>
+                    </translations>
+                </expressions>
+                <expressions>to keep yourself to yourself
+                    <translations>
+                        <translation>guardar les distàncies</translation>
+                    </translations>
+                </expressions>
+                <exclamations>keep together
+                    <translations>
+                        <translation>no us separeu!</translation>
+                    </translations>
+                </exclamations>
                 <exclamations>keep your hair on
                     <translations>
                         <translation register="slang">calma't!</translation>
@@ -268,10 +330,26 @@
 <Entry frequency="29700000">keeper<nouns>
                             <translations><date>1208</date>
 				<translation disambiguate="sports" register="colloquial" gender="mf">porter</translation>
-                                <translation catagory="animal" gender="mf">(zoo) cuidador</translation>
+                                <translation catagory="animal" gender="mf">[in a zoo] cuidador</translation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="46800000">keeping<nouns>
+			<translations><date>1112</date>
+				<translation>-</translation>
+			</translations>
+		</nouns>                
+                <expressions>in keeping with
+                    <translations>
+                        <translation>a to amb / en consonància amb / d'acord amb</translation>
+                    </translations>
+                </expressions>
+                <expressions>in (somebody's) keeping
+                    <translations>
+                        <translation>a càrrec d'(algú)</translation>
+                    </translations>
+                </expressions>
+	</Entry>        
 <Entry frequency="749000">keepsake<nouns>
 			<translations><date>0508</date>
                             <translation gender="m">record<catnote>Cosa que recorda algú o alguna cosa.</catnote><synonyms>souvenir</synonyms></translation>
