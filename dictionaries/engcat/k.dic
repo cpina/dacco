@@ -460,13 +460,16 @@
 	</Entry>
 <Entry frequency="2290000">kettle<nouns>
 			<translations>
+                                <grouptranslation>
 				<translation gender="m">bullidor</translation>
+                                <translation gender="f">bullidora</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
-          <Entry frequency="150000">kettledrum<nouns>
-                    <translations><date>0708</date>
-			<translation termcat="entertainment-music-instrument" gender="m">timbal / tabal</translation>
+          <Entry frequency="656000">kettledrum<nouns>
+                    <translations><date>1112</date>
+			<translation termcat="entertainment-music-instrument" gender="f">timbala</translation>
                     </translations>
 		</nouns>
 	</Entry>
@@ -476,11 +479,12 @@
 				</translation>
 				<translation disambiguate="computers" termcat="true" gender="f">tecla<engnote>'Tecla' means the key on a keyboard.</engnote>
 				</translation>
+                                <translation gender="m">secret<engexamp>The key to success.</engexamp><catexamp>El secret de l'èxit.</catexamp></translation>
 			</translations>
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>clau<synonyms>principal / main</synonyms>
+				<translation>clau / cabdal<engexamp>Key figure.</engexamp><catexamp>Figura cabdal.</catexamp><synonyms>principal / main</synonyms>
 				</translation>
 			</translations>
 		</adjectives>
@@ -489,9 +493,14 @@
                         <translation transitive="true">provocar entusiasme (a algú)</translation>
                     </translations>
                 </phrasalverbs>
-                 <expressions>be keyed up
+                 <expressions>to be keyed up
                     <translations>
                         <translation>tenir els nervis a flor de pell</translation>
+                    </translations>
+                </expressions>
+                <expressions>to hold the key to...
+                    <translations>
+                        <translation>ser la clau (per)...</translation>
                     </translations>
                 </expressions>
             </Entry>
@@ -524,6 +533,12 @@
                     </translations>
                 </expressions>
 	</Entry>
+        <Entry frequency="645000">key money<nouns>
+			<translations><date>0807</date>
+				<translation gender="f">paga i senyal</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="248000000">keynote<nouns>
         <translations><date>1012</date>
             <translation gender="ffullform">idea principal</translation>
@@ -543,6 +558,12 @@
         <Entry frequency="3190000">key ring<nouns>
                             <translations><date>1208</date>
 				<translation gender="m">clauer</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="73600000">keystone<nouns>
+			<translations><date>0807</date>
+				<translation gender="f">clau de volta</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -667,10 +688,23 @@
 				<translation gender="m">cop de peu</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>kick around<translations><translation transitive="true">1 abusar 2 considerar (una proposta, una idea, etc.)</translation><translation intransitive="true">(col·loq.) anar d'un lloc a l'altre, vagabundejar</translation></translations></phrasalverbs></Entry>
+	<phrasalverbs>kick around
+            <translations>
+                <translation transitive="true">abusar</translation>
+                <translation transitive="true">considerar (una proposta, una idea, etc.)</translation>
+                <translation register="colloquial" intransitive="true">anar d'un lloc a l'altre / vagabundejar</translation>
+            </translations>
+        </phrasalverbs>
+</Entry>
+<Entry frequency="22100000">kickback<nouns>
+			<translations><date>1112</date>
+				<translation gender="f">comisió il·legal</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="1010">kickboxing<nouns>
 			<translations>
-				<translation gender="m">kickboxing</translation>
+				<translation catagory="sports-event" gender="m">kick-boxing</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -682,6 +716,15 @@
                             </translations>
 		</nouns>
 	</Entry>
+<Entry frequency="76600">kick wheel<nouns>
+			<translations><date>1112</date>
+                        <grouptranslation>
+				<translation gender="m">torn de terrissaire (or terrisser)</translation>
+                                <translation gender="f">roda de terrissaire (or terrisser)</translation>
+                        </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="58600000">kid<nouns>
 			<translations>
 				<grouptranslation><translation register="colloquial" gender="mf">xaval / xicot / xic / marrec / minyó</translation>
@@ -691,7 +734,7 @@
 		</nouns>
                 <verbs double="true">
                     <translations>
-                        <translation>fer broma</translation>
+                        <translation>fer broma<engexamp>You're kidding!</engexamp><catexamp>Em prens el pèl! / apa!</catexamp><engexamp>Just kidding!</engexamp><catexamp>És broma!</catexamp></translation>
                     </translations>
                 </verbs>
                 <phrasalverbs>kid around
@@ -723,11 +766,29 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="4300000">kidney<nouns>
-			<translations>
+<Entry frequency="143000000">kidney<nouns>
+			<translations><date>1112</date>
 				<translation catagory="body" gender="m">ronyó</translation>
 			</translations>
 		</nouns>
+                <expressions>kidney failure
+                    <translations>
+                        <translation catagory="medical" gender="ffullform">insuficiència renal</translation>
+                    </translations>
+                </expressions>
+                <expressions>kidney stones
+                    <translations>
+                        <grouptranslation catagory="medical">
+                        <translation gender="fpl">pedres al ronyó</translation>
+                        <translation gender="mpl">càlculs renals</translation>
+                        </grouptranslation>
+                    </translations>
+                </expressions>
+                <expressions>kidney transplant
+                    <translations>
+                        <translation catagory="medical" gender="m">trasplantament de ronyó</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="8940">kidult<nouns>
 			<translations>
