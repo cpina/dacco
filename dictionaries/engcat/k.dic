@@ -796,44 +796,56 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="29000000">kill<verbs>
-			<translations>
-				<translation>matar / assassinar<synonyms>murder</synonyms>
-				</translation>
+<Entry frequency="1620000000">kill<verbs>
+			<translations><date>1112</date>
+				<translation>matar / assassinar<synonyms>murder</synonyms></translation>
+                                <translation>destruir / arruïnar / truncar<example>He was a very promising player but an injury he sustained in college &lt;b&gt;killed&lt;/b&gt; his chances of turning pro.</example></translation>
+                                <translation local="us">[make laugh] fer partir de riure<example>Stop it! You're &lt;b&gt;killing&lt;/b&gt; me!</example></translation>
+                                <translation>[cause a lot of pain] trencar el cor / partir el cor (a algú)<example>It &lt;b&gt;kills&lt;/b&gt; me to see her in so much pain.</example></translation>
+                                <translation>[make unhappy, uncomfortable] venir a repèl / fer (a algú) una muntanya<example>It &lt;b&gt;killed&lt;/b&gt; him to say it but he really liked Justin Bieber's latest song.</example></translation>
+
 			</translations>
-		</verbs>
-                <expressions>kill two birds with one stone
+		</verbs>               
+                    <phrasalverbs>kill off
+                        <translations>
+                            <translation transitive="true">rematar / donar el cop de gràcia</translation>
+                            <translation transitive="true">matar tots els exemplars d'una espècie o d'un grup</translation>
+                        </translations>
+                    </phrasalverbs>
+                    <expressions>to kill time
+                        <translations>
+                            <translation>matar el temps</translation>
+                        </translations>
+                    </expressions>
+                     <expressions>to kill two birds with one stone
                 <translations>
                     <translation>matar dos pardals d'un tret</translation>
                     </translations>
                     </expressions>
-                    <phrasalverbs>kill off
+                    <expressions>to kill yourself laughing
                         <translations>
-                            <translation transitive="true">fer matança / matar tots els exemplars d'una espècie o d'un grup</translation>
+                            <translation>partir-se de riure</translation>
                         </translations>
-                    </phrasalverbs>
+                    </expressions>
                 </Entry>
 <Entry frequency="8010000">killer<nouns>
 			<translations>
-				<translation gender="mf">assassí<catnote>La paraula 'killer' vol dir una persona, un animal o una cosa que causa la mort. També s'utilitza molt al camp informàtic junt amb un sustantiu que representa una cosa generalment no desitjada per referir a un programa o una aplicació que 'mata' o elimina aquesta cosa (per exemple: 'pop-up killer', 'spam killer', 'spyware killer').</catnote>
-					<example>The police are still searching for the young man's &lt;b&gt;killers&lt;/b&gt;</example>
-					<example>Some people believe that not all pit bull terriers are necessarily &lt;b&gt;killers&lt;/b&gt;. I, on the other hand, would rather not put it to the test!</example>
-					<example>HIV is one of the biggest &lt;b&gt;killers&lt;/b&gt; of pregnant women in Africa.</example>
-					<example>I was really proud of myself for finishing the London Marathon last year, but I have to say that the last 3K was a &lt;b&gt;killer&lt;/b&gt;</example>
-				</translation>
+				<translation gender="mf">assassí<catnote>La paraula 'killer' vol dir una persona, un animal o una cosa que causa la mort. També s'utilitza molt al camp informàtic junt amb un sustantiu que representa una cosa generalment no desitjada per referir a un programa o una aplicació que 'mata' o elimina aquesta cosa (per exemple: 'pop-up killer', 'spam killer', 'spyware killer').</catnote><example>The police are still searching for the young man's &lt;b&gt;killers&lt;/b&gt;</example><example>Some people believe that not all pit bull terriers are necessarily &lt;b&gt;killers&lt;/b&gt;. I, on the other hand, would rather not put it to the test!</example></translation>
+                                <translation gender="f">malaltia mortal<example>HIV is one of the biggest &lt;b&gt;killers&lt;/b&gt; of pregnant women in Africa.</example></translation>
+			<translation gender="m">cop de gràcia<example>I was really proud of myself for finishing the London Marathon last year, but I have to say that the last 3K was a &lt;b&gt;killer&lt;/b&gt;</example></translation>
 			</translations>
 		</nouns>
 		<adjectives>
 			<translations>
 				<translation register="slang">molt bo / excel·lent / impressionant<example>If you follow this simple guide you should soon be able to create &lt;b&gt;killer&lt;/b&gt; websites of your own</example>
 				</translation>
-				<translation>que mata / maten (per exemple: 'killer bees', 'killer whale')</translation>
+				<translation>assassí<engexamp>Killer bees.</engexamp><catexamp>Abelles assassines.</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
 <Entry frequency="197000">killer whale<nouns>
 			<translations>
-				<translation gender="f">orca</translation>
+				<translation catagory="animal-sea" gender="f">orca</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -842,12 +854,23 @@
 				<translation gender="m">assassinat</translation>
 			</translations>
 		</nouns>
-                <expressions>make a killing
+                <adjectives>
                     <translations>
-                        <translation register="colloquial">fer-se d'or / fer l'agost</translation>
+                        <translation>torturador / que tortura</translation>
+                    </translations>
+                </adjectives>
+                <expressions>to make a killing
+                    <translations>
+                        <translation register="colloquial">fer-se d'or / fer l'agost / fer una fortuna</translation>
                     </translations>
                 </expressions>
 	</Entry>
+<Entry frequency="27700000">kiln<nouns>
+			<translations><date>1112</date>
+				<translation gender="m">forn (de terrissa)</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="1440000">kilo<nouns>
 			<translations>
 				<translation register="colloquial" gender="m">quilo</translation>
@@ -894,6 +917,11 @@
 					<translation gender="mpl">parents</translation></grouptranslation>
 			</translations>
 		</nouns>
+                <expressions>next of kin
+                    <translations>
+                        <translation gender="mpl">parents més acostats / familiars directes</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="636000000">kind<nouns>
                             <translations><date>0809</date>
@@ -906,12 +934,18 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>simpàtic / amable / bondadós</translation>
+                                <translation>atent / considerat / simpàtic / amable / bondadós / afectuós / indulgent<engexamp>Life had been kind to him.</engexamp><catexamp>La vida l'havia tractat bé.</catexamp></translation>
+                                <translation>benèvol</translation>
 			</translations>
 		</adjectives>
                 <expressions>in kind
                     <translations>
                         <translation>en espècie</translation>
+                    </translations>
+                </expressions>
+                <expressions>one of a kind
+                    <translations>
+                        <translation>únic / sol en el seu gènere / únic en el seu gènere / un cas únic</translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -923,7 +957,7 @@
         </Entry>
 <Entry frequency="32600000">kindergarten<nouns>
                         <translations><date>0909</date>
-                            <translation local="us" gender="m">parvulari<otherlocal>nursery (school)</otherlocal></translation>
+                            <translation local="us" catagory="education" gender="m">parvulari</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -935,7 +969,10 @@
         </Entry>
 <Entry frequency="3020000">kindling<nouns>
 			<translations>
+                                <grouptranslation>
 				<translation gender="mpl">encenalls</translation>
+                                <translation gender="f">llenya menuda</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
                 <expressions>piece of kindling
@@ -946,7 +983,7 @@
 	</Entry>
 <Entry frequency="56100000">kindly<adverbs>
                             <translations><date>1007</date>
-				<translation>amablement / afablement / amb simpatia</translation>
+				<translation>amablement / afablement / amb simpatia<engexamp>Information kindly supplied by...</engexamp><catexamp>Informació per cortesia de...</catexamp></translation>
 				<translation register="formal">si us plau<example>&lt;b&gt;Kindly&lt;/b&gt; leave that alone!</example>
 				</translation>
 			</translations>
@@ -956,18 +993,51 @@
 				<translation register="formal">simpàtic</translation>
 			</translations>
 		</adjectives>
+                <expressions>to thank (somebody) kindly
+                    <translations>
+                        <translation>agrair (algú) de tot cor</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1340000">kindness<nouns>
 			<translations>
-				<translation gender="f">bondat / amabilitat</translation>
+				<translation gender="f">bondat / amabilitat / consideració / finesa</translation>
+                                <translation gender="f">bona acció / bona obra</translation>
 			</translations>
 		</nouns>
+                <expressions>out of kindness
+                    <translations>
+                        <translation>per cortesia / per quedar bé</translation>
+                    </translations>
+                </expressions>
 	</Entry>
+ <Entry frequency="26300000">kindred<adjectives>
+                            <translations><date>1112</date>
+				<translation beforenoun="true" register="formal">similar / semblant / afí</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <grouptranslation register="formal">
+                            <translation gender="f">família</translation>
+                            <translation gender="mpl">parents</translation>
+                            </grouptranslation>
+                            <translation gender="m">parentiu</translation>
+                        </translations>
+                    </nouns>
+                <expressions>kindred spirit
+                    <translations>
+                        <grouptranslation>
+                        <translation gender="f">ànima bessona / ànima germana</translation>
+                        <translation gender="m">esperit afí</translation>
+                        </grouptranslation>
+                    </translations>
+                </expressions>
+	</Entry>        
 <Entry frequency="432000">kindy<nouns>
 			<translations><date>0906</date>
-                        <grouptranslation register="colloquial" catagory="education" local="au"><translation gender="f">escola bressol / llar d'infants</translation>
-<translation gender="m">jardí d'infants / parvulari</translation><synonyms>kindergarten</synonyms></grouptranslation>
-			</translations>
+                        <translation register="colloquial" catagory="education" local="au" gender="m">parvulari<synonyms>kindergarten</synonyms></translation>
+                        </translations>
 		</nouns>
 	</Entry>
 <Entry frequency="2770000">kinetic<adjectives>
@@ -992,9 +1062,14 @@
 				<translation gender="m">rei</translation>
 			</translations>
 		</nouns>
+                <expressions>a king's ransom
+                    <translations>
+                        <translation>un dineral / un ull de la cara / un ronyó</translation>
+                    </translations>
+                </expressions>
                 <expressions>king prawn
                     <translations>
-                        <translation gender="m">llagostí</translation>
+                        <translation catagory="food-seafood" gender="m">llagostí</translation>
                     </translations>
                 </expressions>
                 <expressions>the three kings
@@ -1006,6 +1081,18 @@
 <Entry frequency="69700000">kingdom<nouns>
 			<translations>
 				<translation gender="m">regne</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="5790000">kingmaker<nouns>
+			<translations><date>1112</date>
+				<translation>persona molt influent</translation>
+			</translations>
+		</nouns>
+	</Entry>        
+         <Entry frequency="13300000">kinship<nouns>
+			<translations><date>1112</date>
+                        <translation register="formal" gender="m">parentiu</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1027,18 +1114,42 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="6420000">kiss<verbs>
-			<translations>
-				<translation>besar</translation>
-                                <translation>petonejar</translation>
+<Entry frequency="14200000">kismet<nouns>
+			<translations><date>1112</date>
+				<translation gender="m">destí / atzar</translation>
 			</translations>
-		</verbs>
-		<nouns>
+		</nouns>
+	</Entry>        
+<Entry frequency="6420000">kiss<nouns>
 			<translations>
 				<translation gender="m">petó</translation>
 			</translations>
 		</nouns>
-	<phrasalverbs>kiss up to<translations><translation intransitive="true">(col·loq.) afalagar servilment</translation></translations></phrasalverbs></Entry>
+                <verbs>
+			<translations>
+				<translation transitive="true">fer un petó / besar</translation>
+                                <translation intransitive="true">fer-se petons / besar-se</translation>
+			</translations>
+		</verbs>		
+                <phrasalverbs>kiss up to<translations><translation register="colloquial" intransitive="true">afalagar servilment</translation>
+        </translations>
+        </phrasalverbs>
+        <expressions>to kiss and make up
+            <translations>
+                <translation>fer les paus</translation>
+            </translations>
+        </expressions>
+        <expressions>to kiss (somebody) goodbye
+            <translations>
+                <translation>fer un petó de comiat (a algú)</translation>
+            </translations>
+        </expressions>
+        <expressions>to kiss (somebody) good night
+            <translations>
+                <translation>fer un petó de bona nit (a algú)</translation>
+            </translations>
+        </expressions>
+        </Entry>
 <Entry frequency="20700000">kitchen<nouns>
 			<translations>
 				<translation gender="f">cuina</translation>
@@ -1057,6 +1168,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="4260000">kith<nouns>
+			<translations><date>1112</date>
+				<translation>-</translation>
+			</translations>
+		</nouns>
+                <expressions>kith and kin
+                    <translations>
+                        <translation register="formal">familiars i amics</translation>
+                    </translations>
+                </expressions>
+	</Entry>        
 <Entry frequency="759000">kitsch<adjectives>
 			<translations>
 				<translation>kitsch</translation>
