@@ -1557,16 +1557,70 @@
         </adjectives>
     </Entry>
 <Entry frequency="240000000">know<verbs>
-			<past>knew</past>
-			<participle>known</participle>
-			<translations>
-				<translation>saber<engnote>'Saber' means 'to know' as in 'to know a fact or how to do something'.</engnote>
-				</translation>
-				<translation>conèixer<engexamp>He didn't know about...</engexamp><catexamp>Desconeixia...</catexamp><engnote>'Conèixer' means 'to know' as in 'to be acquainted with somebody or something'.</engnote>
-				</translation>
-			</translations>
-		</verbs>
-	<phrasalverbs>know of<translations><translation intransitive="true">saber de, tenir coneixement de</translation></translations></phrasalverbs></Entry>
+    <past>knew</past>
+    <participle>known</participle>
+        <translations>
+            <translation>saber<engexamp>He doesn't know what to do.</engexamp><catexamp>No sap què fer.</catexamp><engexamp>Does anybody know how long he's lived in Barcelona?</engexamp><catexamp>Algú sap quants anys fa que viu a Barcelona?</catexamp></translation>
+            <translation>conèixer<engexamp>Do you know Anna?</engexamp><catexamp>Coneixes l'Anna?</catexamp><engexamp>He didn't know about...</engexamp><catexamp>Desconeixia...</catexamp></translation>
+            <translation>reconèixer / admetre<engexamp>He knows no fear.</engexamp><catexamp>No té por de res.</catexamp></translation>
+        </translations>
+    </verbs>
+    <phrasalverbs>know of
+        <translations>
+            <translation intransitive="true">saber de / tenir coneixement de</translation>
+        </translations>
+    </phrasalverbs>
+    <expressions>as far as I know...
+        <translations>
+            <translation>pel que em sembla / pel que tinc entès</translation>
+        </translations>        
+    </expressions>
+    <expressions>for all I know...
+        <translations>
+            <translation>jo diria... / segurament</translation>
+        </translations>
+    </expressions>    
+    <expressions>to get to know (somebody)
+        <translations>
+            <translation>arribar a tenir amistat (amb algú)</translation>
+        </translations>
+    </expressions>
+    <expressions>if you must know...
+        <translations>
+            <translation>per si ho vols saber / per si t'interessa / perquè ho sàpigues</translation>
+        </translations>
+    </expressions>
+    <expressions>to know better than to...
+        <translations>
+            <translation>tenir massa seny per (fer alguna cosa equivocada)<engexamp>I should have known better than to ask you a serious question!</engexamp><catexamp>Ho hauria hagut de saber, que no se't poden fer preguntes serioses.</catexamp></translation>
+        </translations>
+    </expressions>
+    <expressions>who knew!
+        <translations>
+            <translation>qui ho havia de dir!</translation>
+        </translations>
+    </expressions>
+    <expressions>who knows?
+        <translations>
+            <translation>vés a saber / no se sap mai / no es pot dir mai</translation>
+        </translations>
+    </expressions>
+    <expressions>you never know
+        <translations>
+            <translation>ja ho veus</translation>
+        </translations>
+    </expressions>
+    <exclamations>I knew it!
+        <translations>
+            <translation>ja m'ho pensava! / (ja) ho veia a venir! / ja m'ho esperava!</translation>
+        </translations>
+    </exclamations>
+    <exclamations>you know what?
+        <translations>
+            <translation>vols que et digui una cosa?</translation>
+        </translations>
+    </exclamations>
+</Entry>
 <Entry frequency="29800000">know-all<nouns>
 			<translations>
 				<translation gender="mf">setciències<synonyms>know-it-all</synonyms></translation>
@@ -1581,11 +1635,18 @@
 	</Entry>
 <Entry frequency="9870000">know-how<nouns>
 			<translations>
-                            <grouptranslation><translation register="colloquial" gender="mpl">coneixements</translation>
-                                <translation gender="m">saber</translation><synonyms>knowledge</synonyms></grouptranslation>
+                            <grouptranslation><translation register="colloquial" gender="mpl">coneixements pràctics</translation>
+                                <translation gender="m">saber</translation>
+                                <translation gender="f">experiència / pràctica<synonyms>knowledge</synonyms></translation></grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="380000000">knowing<adjectives>
+			<translations><date>1112</date>
+				<translation>de complicitat<engexamp>He gave me a knowing smile.</engexamp><catexamp>Em va fer un somriure de complicitat.</catexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 <Entry frequency="8230000">know-it-all<nouns>
 			<translations>
 				<translation gender="mf">setciències<synonyms>know-all</synonyms>
@@ -1595,7 +1656,10 @@
 	</Entry>
 <Entry frequency="82700000">knowledge<nouns>
 			<translations>
+                                <grouptranslation>
 				<translation gender="m">coneixement</translation>
+                                <translation gender="ffullform">informació</translation>
+                                </grouptranslation>
                                 <translation sourceplural="The Knowledge" local="gb">-<catnote>Per ser taxista oficial a Londres has de tenir 'The Knowledge'.  Això vol dir que has seguit un curs d'estudis oficial i aprovat un exàmen que demostra que coneixes molt bé la topografia de Londres i que saps trobar qualsevol carrer de la ciutat sense haver de consultar un plànol d'aquesta.</catnote>
 				</translation>
 			</translations>
@@ -1610,6 +1674,21 @@
                         <translation gender="f">gestió del coneixement</translation>
                     </translations>
                 </expressions>
+                <expressions>it's common knowledge
+                    <translations>
+                        <translation>tot el món ho sap</translation>
+                    </translations>
+                </expressions>
+                <expressions>general knowledge
+                    <translations>
+                        <translation gender="f">cultura general</translation>
+                    </translations>
+                </expressions>
+                <expressions>to the best of my knowledge
+                    <translations>
+                        <translation>(almenys) que jo sàpiga</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="4530000">knowledgeable<adjectives>
 			<translations>
@@ -1617,9 +1696,31 @@
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="4530000">knowledgeably<adverbs>
+			<translations><date>1112</date>
+				<translation>amb coneixement (de causa)</translation>
+			</translations>
+		</adverbs>
+	</Entry>        
+<Entry frequency="4530000">known<adjectives>
+			<translations><date>1112</date>
+				<translation>conegut</translation>
+			</translations>
+		</adjectives>
+                <expressions>to make (something) known
+                    <translations>
+                        <translation>donar a conèixer (alguna cosa)</translation>
+                    </translations>                  
+                </expressions>
+                <expressions>[a thing] to make itself known
+                    <translations>
+                        <translation>manifestar-se / esdevenir manifest / fer-se aparent (una cosa)</translation>
+                    </translations>
+                </expressions>
+	</Entry>        
 <Entry frequency="271000">knuckle<nouns>
 			<translations>
-				<translation catagory="body" gender="m">artell</translation>
+				<translation catagory="body" gender="m">artell / nus (dels dits)</translation>
 			</translations>
 		</nouns>
                 <phrasalverbs>knuckle down (to something)
@@ -1634,7 +1735,7 @@
                 </phrasalverbs>
                 <expressions>knuckle sandwich
                 <translations>
-                    <translation register="colloquial" gender="m">cop de puny</translation>
+                    <translation register="humor" gender="m">cop de puny</translation>
                 </translations>
                 </expressions>
             </Entry>
@@ -1656,12 +1757,24 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="31800000">kook<nouns>
+			<translations><date>1112</date>
+				<translation gender="mf">extravagant</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="1520000">kookaburra<nouns>
 			<translations>
 				<translation disambiguate="animal-bird" picture="http://static.flickr.com/51/106017060_be8419f046.jpg" flickr="http://www.flickr.com/photos/joelbramley/106017060/" gender="f">cucaburra</translation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="6140000">kooky<adjectives>
+			<translations><date>1112</date>
+				<translation>extravagant</translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 <Entry frequency="378000">Koran<nouns>
 			<translations>
 				<translation catagory="religious" gender="m">Alcorà</translation>
