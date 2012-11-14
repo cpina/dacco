@@ -1150,11 +1150,22 @@
             </translations>
         </expressions>
         </Entry>
+<Entry frequency="11500000">kisser<nouns>
+			<translations><date>1112</date>
+				<translation register="colloquial" gender="mpl">morros<example>That must have really hurt!  He just got a punch right in the &lt;b&gt;kisser&lt;/b&gt;.</example></translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="20700000">kitchen<nouns>
 			<translations>
 				<translation gender="f">cuina</translation>
 			</translations>
 		</nouns>
+                <expressions>everything but the kitchen sink
+                    <translations>
+                        <translation>fins els claus de la paret</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="61">kitchen towelling<nouns>
 			<translations>
@@ -1162,9 +1173,10 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="1150000">kite<nouns>
-			<translations>
+<Entry frequency="134000000">kite<nouns>
+			<translations><date>1112</date>
 				<translation gender="m">estel / catxerulo (Val.)</translation>
+                                <translation catagory="animal-bird" gender="m">milà</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1282,7 +1294,7 @@
 	</Entry>
         <Entry frequency="1960000">knee-jerk<adjectives>
                             <translations><date>1108</date>
-				<translation register="disapproving" beforenoun="true">reflex<engexamp>A knee-jerk reaction</engexamp><catexamp>Una reacció reflexa</catexamp></translation>
+				<translation register="disapproving" beforenoun="true">reflex / instintiu / automàtic</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1307,8 +1319,9 @@
 	</Entry>
 <Entry frequency="56100000">knife<nouns>
                             <translations><date>1208</date>
-				<translation gender="m">ganivet<plural>knives</plural>
-				</translation>
+				<translation gender="m">ganivet</translation>
+                                <translation gender="f">navalla</translation>
+                                <translation gender="m">punyal<plural>knives</plural></translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -1358,10 +1371,24 @@
                             </translations>
 		</nouns>
 	</Entry>
+<Entry frequency="673000">knobbly<adjectives>
+			<translations><date>1112</date>
+				<translation>[joints] ossut / prominent</translation>
+                                <translation>[trees] nuós</translation>
+			</translations>
+		</adjectives>
+	</Entry>          
+<Entry frequency="2940000">knobby<adjectives>
+			<translations><date>1112</date>
+				<translation local="us">[joints] ossut / prominent</translation>
+                                <translation local="us">[trees] nuós<otherlocal>knobbly</otherlocal></translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 <Entry frequency="2690000">knock<verbs>
 			<translations>
-				<translation>picar / trucar<engnote>'Picar' and 'trucar' mean 'to knock' in the sense 'to knock on a door'.</engnote>
-				</translation>
+				<translation>picar / trucar<engnote>'Picar' and 'trucar' mean 'to knock' in the sense 'to knock on a door'.</engnote></translation>
+                                <translation>criticar</translation>
 			</translations>
 		</verbs>
                                 <phrasalverbs>knock about
@@ -1433,21 +1460,22 @@
 		</phrasalverbs>
 		<phrasalverbs>knock out
 			<translations>
-				<translation>fer perdre el coneixement a algú<example>Those sleeping pills should &lt;b&gt;knock him out&lt;/b&gt; for a few hours at least.</example>
-				</translation>
-				<translation>deixar k.o.<example>We had a massive thunderstorm here last night which &lt;b&gt;knocked out&lt;/b&gt; our cable TV.</example>
-					<example>The young Mexican boxer was &lt;b&gt;knocked out&lt;/b&gt; in just two rounds by Mike Tyson.</example>
-				</translation>
+				<translation>fer perdre el coneixement a algú<example>Those sleeping pills should &lt;b&gt;knock him out&lt;/b&gt; for a few hours at least.</example></translation>
+				<translation>deixar k.o.<example>The young Mexican boxer was &lt;b&gt;knocked out&lt;/b&gt; in just two rounds by Mike Tyson.</example></translation>
+                                <translation>eliminar<example>Scunthorpe United were &lt;b&gt;knocked out&lt;/b&gt; in the first round of the FA Cup.</example></translation>
+                                <translation><example>We had a massive thunderstorm here last night which &lt;b&gt;knocked out&lt;/b&gt; our cable TV.</example></translation>
+                                <translation>[tooth] fer saltar</translation>
 			</translations>
 		</phrasalverbs>
 		<phrasalverbs>knock (somebody) over
 			<translations>
 				<translation>atropellar</translation>
+                                <translation>fer caure rodó</translation>
 			</translations>
 		</phrasalverbs>
                 <phrasalverbs>knock together
                 <translations>
-                    <translation transitive="true">construir a corre-cuita</translation>
+                    <translation transitive="true">engiponar / construir a corre-cuita</translation>
             </translations>
         </phrasalverbs>
 		<phrasalverbs>knock (someone) up
@@ -1461,11 +1489,23 @@
                         <translation register="colloquial" local="us" intransitive="true">estar esgotat</translation>
                     </translations>
                 </phrasalverbs>
+                <nouns>
+                    <translations>
+                        <translation gender="m">cop<engexamp>She got a knock on the head.</engexamp><catexamp>Va rebre un cop al cap.</catexamp></translation>
+                        <translation gender="m">truc<engexamp>I heard a knock at the door.</engexamp><catexamp>Vaig sentir un truc a la porta.</catexamp></translation>
+                        <translation gender="m">revés / contratemps</translation>
+                    </translations>
+                </nouns>
                 <expressions>knock (somebody) dead
                     <translations>
                         <translation register="colloquial">impressionar molt (algú)<example>He &lt;b&gt;knocked them dead&lt;/b&gt; with his rendition of 'Georgia On My Mind'.</example><example>"&lt;b&gt;Knock 'em dead&lt;/b&gt; kid!"</example></translation>
                     </translations>
                 </expressions>
+                <exclamations>don't knock it (till you've tried it)
+                    <translations>
+                        <translation>no ho menyspreïs (fins a haver-ho provat)</translation>
+                    </translations>
+                </exclamations>
 	</Entry>
           <Entry frequency="2460000">knockoff<nouns>
 
@@ -1478,15 +1518,36 @@
 		</nouns>
 
 	</Entry>
+          <Entry frequency="2460000">knockout<adjectives>
+			<translations><date>1112</date>
+				<translation>contundent / demolidor</translation>
+                                <translation>eliminatori<engexamp>Knockout competition.</engexamp><catexamp>Eliminatòria.</catexamp></translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="f">revelació<engexamp>To be a knockout.</engexamp><catexamp>Causar sensació.</catexamp></translation>
+                        <translation catagory="sports-event-boxing" gender="m">fora de combat / KO</translation>
+                    </translations>
+                </nouns>
+	</Entry>
 <Entry frequency="2880000">knot<nouns>
 			<translations>
-				<translation gender="m">nus<catnote>L'expressió 'to tie the knot' significa 'casar-se'.</catnote>
-				</translation>
+				<translation gender="m">nus</translation>
+                                <translation gender="m">[hair] monyo</translation>
+                                <translation gender="m">[group of people] grapat</translation>
 			</translations>
 		</nouns>
                 <verbs double="true">
                 <translations>
-                <translation>nuar</translation></translations></verbs>
+                <translation>nuar</translation>
+                </translations>
+                </verbs>
+                <expressions>to tie the knot
+                    <translations>
+                        <translation>casar-se</translation>
+                    </translations>
+                </expressions>
 	</Entry>
     <Entry frequency="9690000">knotty<adjectives>
             <translations><date>0712</date>
