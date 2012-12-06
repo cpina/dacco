@@ -20,6 +20,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="11400000">macaw<nouns>
+			<translations><date>1212</date>
+				<translation catagory="animal-bird" gender="m">guacamai</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="12200000">mace<nouns>
 			<translations>
 				<translation gender="f">maça<engnote>'Maça' means 'mace' in the sense 'medieval weapon' and also 'decorative stick carried as a symbol of authority'.</engnote></translation>
@@ -50,6 +56,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="170000">machinate<verbs>
+			<translations><date>1212</date>
+				<translation intransitive="true">intrigar</translation>
+			</translations>
+		</verbs>
+	</Entry>
         <Entry frequency="2560000">machination<nouns>
                             <translations><date>0908</date>
                             <grouptranslation>
@@ -62,6 +74,7 @@
 <Entry frequency="69600000">machine<nouns>
 			<translations>
 				<translation gender="f">màquina</translation>
+                                <translation disambiguate="politics" gender="m">aparell (d'un partit)</translation>
 			</translations>
 		</nouns>
                 <expressions>machine code
@@ -86,6 +99,18 @@
                 </translations>
                 </verbs>
 	</Entry>
+<Entry frequency="1200000">machine gunner<nouns>
+			<translations><date>1212</date>
+				<translation gender="mf">metraller</translation>
+			</translations>
+		</nouns>
+	</Entry>        
+<Entry frequency="9310000">machine-made<adjectives>
+			<translations><date>1212</date>
+				<translation>fet a màquina</translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 <Entry frequency="6830000">machinery<nouns>
 			<translations>
 				<translation gender="f">maquinària</translation>
@@ -104,6 +129,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="250000">mackinaw<nouns>
+			<translations><date>1212</date>
+				<translation catagory="clothes" gender="f">trenca (de llana gruixuda i atapeïda)</translation>
+			</translations>
+		</nouns>
+	</Entry>        
         	<Entry frequency="2080000">mackintosh<nouns>
                         <translations><date>0608</date>
                         <grouptranslation disambiguate="clothes" local="gb" register="dated"><translation gender="m">impermeable</translation>
@@ -131,7 +162,7 @@
 	</Entry>
 <Entry frequency="63700000">mad<adjectives>
 			<translations>
-				<translation>boig<engnote>'Boig' means 'mad' as in 'crazy'.</engnote>
+				<translation>boig<engnote>'Boig' means 'mad' as in 'crazy'.</engnote><engexamp>For one mad moment he thought...</engexamp><catexamp>Per un instant, va pensar absurdament (que...)</catexamp>
 					<synonyms>crazy</synonyms>
 				</translation>
 				<translation>enfadat<engnote>'Enfadat' means 'mad' as in 'angry'.</engnote>
@@ -139,6 +170,11 @@
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>to go mad
+                    <translations>
+                        <translation>desvariejar / embogir</translation>
+                    </translations>
+                </expressions>
                 <expressions>mad cow disease
 			<translations>
 				<translation catagory="medical-illness" register="colloquial" gender="f">malaltia de les vaques boges</translation>
@@ -213,12 +249,14 @@
 <Entry frequency="9830000">madness<nouns>
 			<translations>
 				<translation gender="f">bogeria<synonyms>craziness</synonyms></translation>
+                                <translation gender="m">èxtasi</translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="2840000">maelstrom<nouns>
                             <translations><date>1208</date>
 				<translation gender="m">remolí / vòrtex</translation>
+                                <translation gender="m">enrenou / maremàgnum</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -259,6 +297,11 @@
 				<translation>màgic</translation>
 			</translations>
 		</adjectives>
+                <expressions>as if by magic
+                    <translations>
+                        <translation>com per art d'encantament</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3660000">magical<adjectives>
 			<translations>
@@ -284,6 +327,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="368000">magisterial<adjectives>
+			<translations><date>1212</date>
+				<translation>magistral</translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 <Entry frequency="479000">magistrate<nouns>
 			<translations>
 				<translation gender="mf">magistrat</translation>
@@ -405,7 +454,7 @@
 	</Entry>
 <Entry frequency="3140000">magnificent<adjectives>
 			<translations>
-				<translation>magnífic</translation>
+				<translation>magnífic / majestuós</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -428,6 +477,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="1210000">magnifying mirror<nouns>
+			<translations><date>1212</date>
+				<translation catagory="household-room-bathroom" gender="m">mirall d'augment</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="8140000">magnitude<nouns>
 			<translations>
 				<translation gender="f">magnitud</translation>
@@ -458,8 +513,8 @@
 	</Entry>
 <Entry frequency="2240000">maiden<adjectives>
 			<translations>
-				<translation>inaugural<engexamp>Maiden voyage</engexamp>
-					<catexamp>Viatge inaugural</catexamp>
+				<translation>inaugural<engexamp>Maiden voyage.</engexamp>
+					<catexamp>Viatge inaugural.</catexamp>
 				</translation>
 			</translations>
 		</adjectives>
@@ -475,6 +530,19 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="981000">maidenhead<nouns>
+			<translations><date>1212</date>
+				<translation register="dated" gender="f">virginitat</translation>
+                                <translation catagory="body" gender="m">himen</translation>
+			</translations>
+		</nouns>
+	</Entry>        
+<Entry frequency="208000">maidenly<adjectives>
+			<translations><date>1212</date>
+				<translation>cast / pudibund</translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 <Entry frequency="281000000">mail<nouns>
 			<translations>
 				<translation local="us" gender="m">correu<otherlocal>post</otherlocal>
@@ -505,6 +573,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="72800000">mail-order<nouns>
+			<translations><date>1212</date>
+				<translation gender="f">venda per correspondència</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="218000">maim<verbs>
 			<translations>
 				<translation>mutilar / esguerrar</translation>
@@ -517,6 +591,16 @@
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>main man
+                    <translations>
+                        <translation gender="m">heroi (als ulls d'algú altre)</translation>
+                    </translations>
+                </expressions>
+                <expressions>Old Main
+                    <translations>
+                        <translation catagory="education" local="us">l'edifici vell (de la universitat, als EUA)</translation>
+                    </translations>
+                </expressions> 
 	</Entry>
 <Entry frequency="20000">Maine Road<nouns>
 			<translations>
@@ -531,9 +615,16 @@
 			</translations>
 		</adverbs>
 	</Entry>
+<Entry frequency="38400000">mainstay<nouns>
+			<translations><date>1212</date>
+				<translation gender="m">puntal / pilar</translation>
+                                <translation gender="f">cosa (o part o persona) més important</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="14100000">mainstream<nouns>
 			<translations>
-				<translation gender="m">corrent dominant</translation>
+				<translation gender="m">corrent (o pensament) dominant</translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -542,11 +633,16 @@
                 <translation>dominant / predominant</translation>
                 </translations>
                 </adjectives>
+                <expressions>mainstream education
+                    <translations>
+                        <translation catagory="education" gender="m">ensenyament reglat</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="102000000">maintain<verbs>
 			<translations>
-				<translation>mantenir</translation>
-                                <translation>sostenir</translation>
+				<translation>mantenir / preservar</translation>
+                                <translation>sostenir / afirmar / assegurar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -569,7 +665,7 @@
 	</Entry>
 	<Entry frequency="2560000">majestic<adjectives>
 			<translations>
-				<translation>majestuós</translation>
+				<translation>majestuós / grandiós</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -677,7 +773,7 @@
                 <phrasalverbs>make up<translations>
                 <translation>constituir / formar part (de)</translation>
                 <translation>inventar</translation>
-                <translation>fer les paus</translation></translations></phrasalverbs>
+                <translation>fer les paus / reconciliar-se</translation></translations></phrasalverbs>
                 <phrasalverbs>make up for
                     <translations>
                         <translation intransitive="true">compensar per</translation>
@@ -693,46 +789,63 @@
 				<translation gender="f">marca</translation>
 			</translations>
 		</nouns>
-		<expressions>make (something) clear
+		<expressions>to make (something) clear
 			<translations>
 				<translation>deixar clar</translation>
 				<translation>evidenciar</translation>
 			</translations>
 		</expressions>
-                <expressions>make do with (something)
+                <expressions>to make do with (something)
                 <translations>
                 <translation>passar amb (alguna cosa) / conformar-se amb (alguna cosa)</translation>
                 </translations>
                 </expressions>
-		<expressions>make fun of
+		<expressions>to make fun of
 			<translations>
 				<translation>burlar-se de</translation>
 			</translations>
 		</expressions>
-		<expressions>make love
+		<expressions>to make love
 			<translations>
 				<translation>fer l'amor</translation>
 			</translations>
 		</expressions>
+                <expressions>to make something of yourself
+                    <translations>
+                        <translation>intentar ser algú</translation>
+                    </translations>
+                </expressions>
             </Entry>
+<Entry frequency="13600000">make-or-break<adjectives>
+			<translations><date>1212</date>
+				<translation beforenoun="true">decisiu / crucial</translation>
+			</translations>
+		</adjectives>
+	</Entry>            
+<Entry frequency="1050000000">maker<nouns>
+			<translations><date>1212</date>
+				<translation gender="mf">fabricant / productor</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="1290000">makeshift<adjectives>
 			<translations>
 				<translation>improvisat / no permanent</translation>
 			</translations>
 		</adjectives>
 	</Entry>
-<Entry frequency="4420000">makeup<nouns>
+<Entry frequency="4420000">make-up<nouns><mistakes>makeup</mistakes>
 			<translations>
 				<translation gender="m">maquillatge</translation>
 			</translations>
 		</nouns>
-                <expressions>put your makeup on / do your makeup
+                <expressions>to put on your make-up / to do your make-up
                     <translations>
                         <translation>maquillar-se</translation>
                     </translations>
                 </expressions>
 	</Entry>
-<Entry frequency="271000">makeup artist<nouns>
+<Entry frequency="271000">make-up artist<nouns><mistakes>makeup artist</mistakes>
 			<translations>
 				<translation gender="mf">maquillador</translation>
 			</translations>
@@ -750,12 +863,32 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="1250000">making<nouns>
+			<translations><date>1212</date>
+				<translation gender="f">fabricació / producció</translation>
+			</translations>
+		</nouns>
+                <expressions>(all) the makings of...
+                    <translations>
+                        <translation>(tots) els trets característics (o ingredients) de...</translation>
+                    </translations>
+                </expressions>
+	</Entry>        
 <Entry frequency="1250000">malabsorption<nouns>
 			<translations><date>0607</date>
 				<translation termcat="medical" gender="f">malabsorció</translation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="1580000">malacca walking stick<nouns>
+			<translations><date>1212</date>
+                            <grouptranslation>
+				<translation gender="f">bengala / mangala</translation>
+                                <translation gender="m">bastó de bengala (fet de la canya asiàtica Calamus rotang)</translation>
+                            </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="318000">maladroit<adjectives>
 			<translations><date>0907</date>
 				<translation register="formal">maldestre</translation>
@@ -820,7 +953,7 @@
 		</adjectives>
 		<nouns>
 			<translations>
-				<translation gender="m">mascle</translation>
+				<translation gender="m">mascle<engexamp>Adult male.</engexamp><catexamp>Adult de sexe masculí / persona adulta de sexe masculí.</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -851,11 +984,28 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="74100000">malicious<adjectives>
+			<translations><date>1212</date>
+				<translation>maliciós / malintencionat / malevolent / pèrfid<engexamp>Cunning and malicious.</engexamp><catexamp>Pèrfid i astut.</catexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>     
+<Entry frequency="5380000">maliciously<adverbs>
+			<translations><date>1212</date>
+				<translation>amb malícia</translation>
+			</translations>
+		</adverbs>
+	</Entry>        
 <Entry frequency="1960000">malign<verbs>
                             <translations><date>1108</date>
 				<translation register="formal">vilipendiar<synonyms>to revile (formal), to vilify (formal)</synonyms></translation>
 			</translations>
 		</verbs>
+                <adjectives>
+                    <translations>
+                        <translation register="formal">vil / infame</translation>
+                    </translations>
+                </adjectives>
 	</Entry>
 <Entry frequency="1140000">malignant<adjectives>
 			<translations>
@@ -868,6 +1018,19 @@
 				<translation gender="m">centre comercial</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="2060000">malleability<nouns>
+			<translations><date>1212</date>
+				<translation gender="f">mal·leabilitat</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="9790000">malleable<adjectives>
+			<translations><date>1212</date>
+				<translation>[metal] mal·leable</translation>
+                                <translation>mal·leable / flexible / influenciable</translation>
+			</translations>
+		</adjectives>
 	</Entry>
 <Entry frequency="382000">malnutrition<nouns>
 			<translations>
@@ -944,7 +1107,7 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>enorme<example>Scotland face a &lt;b&gt;mammoth&lt;/b&gt; task if they are to get through to the World Cup finals</example>
+				<translation>enorme / monumental<example>Scotland face a &lt;b&gt;mammoth&lt;/b&gt; task if they are to get through to the World Cup finals</example>
 					<synonyms>enormous, huge</synonyms>
 				</translation>
 			</translations>
@@ -952,10 +1115,24 @@
 	</Entry>
 <Entry frequency="102000000">man<nouns>
 			<translations>
-				<translation gender="m">home<plural>men</plural>
-				</translation>
+				<translation gender="m">home<plural>men</plural></translation>
 			</translations>
 		</nouns>
+                <expressions>I'm your man
+                    <translations>
+                        <translation>ja ho saps (que em tens a la teva disposició)</translation>
+                    </translations>
+                </expressions>
+                <expressions>man-about-town
+                    <translations>
+                        <translation gender="m">milhomes</translation>
+                    </translations>
+                </expressions>
+                <expressions>my good man
+                    <translations>
+                        <translation>amic meu / noi (vocatiu afectuós)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="506000000">manage<verbs>
 			<translations><date>1007</date>
