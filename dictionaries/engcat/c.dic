@@ -165,7 +165,7 @@
     </Entry>
 <Entry frequency="222000">cadge<verbs>
         <translations>
-            <translation register="colloquial">gorrejar<example>Can I &lt;b&gt;cadge&lt;/b&gt; a cigarette?</example><synonyms>bum</synonyms></translation>
+            <translation register="colloquial" transitive="true">gorrejar<example>Can I &lt;b&gt;cadge&lt;/b&gt; a cigarette?</example><synonyms>bum</synonyms></translation>
         </translations>
     </verbs>
     </Entry>
@@ -263,7 +263,7 @@
     </Entry>
 <Entry frequency="1600000">cajole<verbs>
         <translations>
-            <translation>persuadir / convèncer (a través de l'afalac)<synonyms>coax</synonyms></translation>
+            <translation transitive="true">persuadir / convèncer (a través de l'afalac)<synonyms>coax</synonyms></translation>
         </translations>
     </verbs>
     </Entry>
@@ -335,7 +335,9 @@
     </Entry>
 <Entry frequency="31000000">calculate<verbs>
         <translations>
-            <translation catagory="maths">calcular / fer càlculs</translation>
+            <translation disambiguate="maths" transitive="true">calcular</translation>
+            <translation disambiguate="maths" intransitive="true">fer càlculs</translation>
+            <translation transitive="true">[estimate] calcular</translation>
         </translations>
     </verbs>
     </Entry>
@@ -394,7 +396,7 @@
     </Entry>
     <Entry frequency="11300000">calibrate<verbs>
                             <translations><date>1009</date>
-				<translation>calibrar</translation>
+				<translation transitive="true">calibrar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -466,15 +468,11 @@
 	</Entry>	 
 <Entry frequency="529000000">call<verbs>
         <translations>
-            <translation catagory="telephone">trucar / telefonar<example>His mother reminded him, for the umpteenth time, to &lt;b&gt;call&lt;/b&gt; her as soon as he got there.</example>
-                <example>&lt;b&gt;Call&lt;/b&gt; me any time tomorrow after 1 o'clock</example><synonyms>phone, ring</synonyms>
-            </translation>
-            <translation>anomenar<example>The couple &lt;b&gt;called&lt;/b&gt; the baby 'Helen' after her grandmother.</example>
-                <example>Our dog is &lt;b&gt;called&lt;/b&gt; Bess.</example>
-            </translation>
-            <translation>cridar<example>He began to get worried because his dog didn't respond when he &lt;b&gt;called&lt;/b&gt;.</example>
-                <example>The cashier &lt;b&gt;called&lt;/b&gt; the next customer forward by shouting 'Next please!'</example>
-            </translation>
+            <translation catagory="telephone" transitive="true">[telephone] trucar / telefonar<example>His mother reminded him, for the umpteenth time, to &lt;b&gt;call&lt;/b&gt; her as soon as he got there.</example></translation>
+                <translation catagory="telephone" intransitive="true">[telephone] trucar / telefonar<example>Has he &lt;b&gt;called&lt;/b&gt; yet?</example><example>Who's &lt;b&gt;calling&lt;/b&gt; please?</example><synonyms>call, ring</synonyms></translation>
+            <translation transitive="true">anomenar<example>The couple &lt;b&gt;called&lt;/b&gt; the baby 'Helen' after her grandmother.</example><example>Our dog is &lt;b&gt;called&lt;/b&gt; Bess.</example></translation>
+            <translation transitive="true">cridar<example>The cashier &lt;b&gt;called&lt;/b&gt; the next customer forward by shouting 'Next please!'</example></translation>
+            <translation intransitive="true">cridar<example>He began to get worried because his dog didn't respond when he &lt;b&gt;called&lt;/b&gt;.</example></translation>
         </translations>
     </verbs>
         <phrasalverbs>call at
@@ -494,6 +492,11 @@
                 <translation transitive="true">tornar a trucar (a algú), tornar-li la trucada</translation>
                 <translation transitive="true">demanar que torni (algú) on era</translation>
             </translations>
+        </phrasalverbs>
+        <phrasalverbs>call by
+            <translations>
+                <translation local="gb" intransitive="true">passar / visitar</translation>
+            </translations>           
         </phrasalverbs>
         <phrasalverbs>call down
             <translations>
@@ -518,9 +521,10 @@
         <phrasalverbs>call in
             <translations>
                 <translation intransitive="true">comunicar (amb telèfon)</translation>
+                <translation intransitive="true" local="gb">passar / visitar</translation>
                 <translation transitive="true">fer venir</translation>
                 <translation transitive="true">retirar de la circulació</translation>
-                <translation transitive="true"> ~ un préstec = demanar el pagament total i immediat</translation>
+                <translation transitive="true">[a loan] demanar el pagament total i immediat</translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>call in at
@@ -557,10 +561,15 @@
         </phrasalverbs>
         <phrasalverbs>call out
             <translations>
-                <translation>cridar<example>He &lt;b&gt;called out&lt;/b&gt; but nobody heard him.</example></translation>
+                <translation>cridar<example>He &lt;b&gt;called out&lt;/b&gt; but nobody heard him.</example><example>The next student who &lt;b&gt;calls out&lt;/b&gt; without raising their hand first will be sent to the principal's office.</example></translation>
                 <translation>fer venir / fer anar un professional (sobretot en una emergència)<example>Helen's dad, who works for Yorkshire Electric, was &lt;b&gt;called out&lt;/b&gt; in the middle of the night when the power went off in Leeds city centre</example>
                     <example>Robert was &lt;b&gt;called out&lt;/b&gt; last night to deal with a woman who had gone into premature labour</example>
                     <example>When the police got to the house they realised it was on fire and &lt;b&gt;called&lt;/b&gt; the fire brigade &lt;b&gt;out&lt;/b&gt;</example></translation>
+            </translations>
+        </phrasalverbs>
+        <phrasalverbs>call round
+            <translations>
+                <translation local="gb" intransitive="true">passar / visitar</translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>call together
@@ -702,15 +711,15 @@
         </nouns>
         <verbs>
             <translations>
-                <translation>calmar / tranquilitzar</translation>
+                <translation transitive="true">calmar / tranquilitzar</translation>
             </translations>
         </verbs>
         <phrasalverbs>calm (someone) down
         <translations>
-        <translation>tranquil·litzar / calmar / assossegar (algú)</translation></translations></phrasalverbs>
+        <translation transitive="true">tranquil·litzar / calmar / assossegar (algú)</translation></translations></phrasalverbs>
         <phrasalverbs>calm down
         <translations>
-        <translation>calmar-se / tranquil·litzar-se / assossegar-se</translation></translations></phrasalverbs>
+        <translation intransitive="true">calmar-se / tranquil·litzar-se / assossegar-se</translation></translations></phrasalverbs>
         <expressions>to calm your nerves
             <translations>
                 <translation>fer-se passar els nervis / tranquil·litzar-se (esp. voluntàriament)</translation>
@@ -745,12 +754,12 @@
     </Entry>
 <Entry frequency="119000">calque<nouns>
         <translations>
-            <translation catagory="linguistics" gender="m">calc</translation>
+            <translation catagory="linguistics" gender="m">calc / manlleu</translation>
         </translations>
     </nouns>
         <verbs>
             <translations>
-                <translation>calcar</translation>
+                <translation catagory="linguistics" transitive="true">manllevar</translation>
             </translations>
         </verbs>
     </Entry>
@@ -861,7 +870,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>acampar</translation>
+                <translation intransitive="true">acampar</translation>
             </translations>
         </verbs>
         <adjectives>
@@ -877,7 +886,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>fer campanya</translation>
+                <translation intransitive="true">fer campanya</translation>
             </translations>
         </verbs>
     </Entry>
@@ -1004,9 +1013,9 @@
         <participle>canceled, cancelled</participle>
         <gerund>canceling, cancelling</gerund>
         <translations>
-            <translation>anul·lar / cancel·lar</translation>
-            <translation>[an order] suprimir / desencarregar</translation>
-            <translation>condonar<engexamp>To cancel foreign debt</engexamp><catexamp>Condonar el deute extern</catexamp></translation>
+            <translation transitive="true">anul·lar / cancel·lar</translation>
+            <translation transitive="true">[an order] suprimir / desencarregar</translation>
+            <translation transitive="true">condonar<engexamp>To cancel foreign debt.</engexamp><catexamp>Condonar el deute extern.</catexamp></translation>
         </translations>
     </verbs>
     <phrasalverbs>cancel out<translations><translation transitive="true">anul·lar</translation></translations></phrasalverbs></Entry>
@@ -1230,7 +1239,7 @@
     </nouns>
         <verbs>
         <translations>
-        <translation catagory="sports">practicar el piragüisme</translation></translations></verbs>
+        <translation catagory="sports" intransitive="true">practicar el piragüisme</translation></translations></verbs>
     </Entry>
 <Entry frequency="2930000">canoeing<nouns>
         <translations>
@@ -1406,9 +1415,9 @@
     </Entry>
     <Entry frequency="12100000">capitalise<verbs>
         <translations><date>0512</date>
-            <translation local="gb">posar en majúscules</translation>
-            <translation local="gb" disambiguate="financial">capitalitzar</translation>
-            <translation local="gb">[~ on] capitalitzar / explotar / aprofitar<otherlocal>capitalize</otherlocal></translation>
+            <translation local="gb" transitive="true">posar en majúscules</translation>
+            <translation local="gb" disambiguate="financial" transitive="true">capitalitzar</translation>
+            <translation local="gb" transitive="true">[~ on] capitalitzar / explotar / aprofitar<otherlocal>capitalize</otherlocal></translation>
         </translations>
     </verbs>
 </Entry>    
@@ -1431,9 +1440,9 @@
     </Entry>
     <Entry frequency="55200000">capitalize<verbs>
         <translations><date>0512</date>
-            <translation>posar en majúscules</translation>
-            <translation disambiguate="financial">capitalitzar</translation>
-            <translation>[~ on something] capitalitzar / explotar / aprofitar (alguna cosa)</translation>
+            <translation transitive="true">posar en majúscules</translation>
+            <translation disambiguate="financial" transitive="true">capitalitzar</translation>
+            <translation transitive="true">[~ on something] capitalitzar / explotar / aprofitar (alguna cosa)</translation>
         </translations>
     </verbs>
 </Entry>   
@@ -1445,7 +1454,7 @@
     </Entry> 
 <Entry frequency="138000">capitulate<verbs>
         <translations>
-            <translation>rendir-se<synonyms>surrender, give in, give up</synonyms>
+            <translation intransitive="true">rendir-se<synonyms>surrender, give in, give up</synonyms>
             </translation>
         </translations>
     </verbs>
@@ -1524,7 +1533,7 @@
     </Entry>
 <Entry frequency="7880000">captivate<verbs>
         <translations>
-            <translation>fascinar / captivar</translation>
+            <translation transitive="true">fascinar / captivar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -1542,8 +1551,8 @@
     </Entry>
 <Entry frequency="882000000">capture<verbs>
         <translations><date>0512</date>
-            <translation>capturar</translation>
-            <translation>retratar</translation>
+            <translation transitive="true">capturar</translation>
+            <translation transitive="true">retratar</translation>
         </translations>
     </verbs>
         <nouns>
@@ -1752,7 +1761,7 @@
 	</Entry>
 <Entry frequency="179000000">care<verbs>
             <translations>
-                <translation>importar-se<engexamp>What do you care?</engexamp><catexamp>A tu què t’importa?</catexamp><engexamp>I don't care</engexamp><catexamp>Tant me fa / tant se me'n dóna</catexamp></translation>
+                <translation intransitive="true">importar-se<engexamp>What do you care?</engexamp><catexamp>A tu què t’importa?</catexamp><engexamp>I don't care</engexamp><catexamp>Tant me fa / tant se me'n dóna</catexamp></translation>
             </translations>
         </verbs>
         <phrasalverbs>care about
@@ -1803,7 +1812,7 @@
     </Entry>
     <Entry frequency="301000000">careen<verbs>
         <translations><date>0512</date>
-            <translation>carrera</translation>
+            <translation intransitive="true">anar a tota velocitat</translation>
         </translations>
     </verbs>
     </Entry>
@@ -1890,7 +1899,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>acariciar</translation>
+                <translation transitive="true">acariciar</translation>
             </translations>
         </verbs>
     </Entry>
@@ -2061,10 +2070,10 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>buscar raons<synonyms>cavil (formal)</synonyms></translation>
+                        <translation intransitive="true">buscar raons<synonyms>cavil (formal)</synonyms></translation>
                     </translations>
                 </verbs>
-	<phrasalverbs>carp at<translations><translation intransitive="true">(col·loq.) renyar fent nyic-nyic a</translation></translations></phrasalverbs></Entry>
+	<phrasalverbs>carp at<translations><translation register="colloquial" intransitive="true">renyar fent nyic-nyic a</translation></translations></phrasalverbs></Entry>
 <Entry frequency="1350000">carpaccio<nouns>
         <translations><date>0408</date>
             <translation catagory="food" gender="m">carpaccio</translation>
@@ -2101,7 +2110,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>encatifar</translation>
+            <translation transitive="true">encatifar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -2392,9 +2401,9 @@
 	</Entry>
 <Entry frequency="286000">carve<verbs>
         <translations>
-            <translation>tallar</translation>
-            <translation>esculpir / cisellar</translation>
-            <translation disambiguate="sports-event-snowboarding" termcat="true">fer càrving</translation>
+            <translation transitive="true">tallar</translation>
+            <translation transitive="true">esculpir / cisellar</translation>
+            <translation disambiguate="sports-event-snowboarding" termcat="true" intransitive="true">fer càrving</translation>
         </translations>
     </verbs>
     <phrasalverbs>carve up<translations><translation transitive="true">dividir (sobretot amb ganivet)</translation></translations></phrasalverbs></Entry>
@@ -2713,7 +2722,7 @@
     </Entry>
 <Entry frequency="566000">castrate<verbs>
         <translations>
-            <translation>castrar</translation>
+            <translation transitive="true">castrar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -2816,7 +2825,7 @@
     </nouns>
         <verbs>
         <translations>
-        <translation>catalogar</translation></translations></verbs>
+        <translation transitive="true">catalogar</translation></translations></verbs>
     </Entry>
 <Entry frequency="27200000">catalogue<nouns>
         <translations>
@@ -2826,7 +2835,7 @@
     </nouns>
         <verbs>
         <translations>
-        <translation>catalogar</translation></translations></verbs>
+        <translation transitive="true">catalogar</translation></translations></verbs>
     </Entry>
 <Entry frequency="375000">Catalonia<nouns>
         <translations>
@@ -2845,7 +2854,7 @@
 	</Entry>
         <Entry frequency="1080000">catalyse<verbs>
                 <translations><date>1208</date>
-                    <translation catagory="biology" local="gb">catalitzar<otherlocal>catalyze</otherlocal></translation>
+                    <translation catagory="biology" local="gb" transitive="true">catalitzar<otherlocal>catalyze</otherlocal></translation>
                 </translations>
             </verbs>
         </Entry>
@@ -2874,7 +2883,7 @@
         </Entry>
         <Entry frequency="3550000">catalyze<verbs>
                 <translations><date>1208</date>
-                    <translation catagory="biology">catalitzar</translation>
+                    <translation catagory="biology" transitive="true">catalitzar</translation>
                 </translations>
             </verbs>
         </Entry>
@@ -2929,14 +2938,16 @@
         <past>caught</past>
         <participle>caught</participle>
         <translations>
-            <translation>atrapar / enxampar</translation>
-            <translation>agafar / prendre<example>The fielder jumped up in the air and &lt;b&gt;caught&lt;/b&gt; the ball in his right hand</example>
-                <example>Wayne and Owen went fishing but the only thing they managed to &lt;b&gt;catch&lt;/b&gt; was an old tin can!</example>
-                <engnote>'Agafar' and 'prendre' mean 'to catch' in the sense 'to catch a bus/train etc'.</engnote>
-            </translation>
+            <translation transitive="true">atrapar / agafar<example>The fielder jumped up in the air and &lt;b&gt;caught&lt;/b&gt; the ball in his right hand.</example></translation>
+            <translation transitive="true">atrapar / enxampar</translation>
+            <translation transitive="true">[transport] agafar / prendre</translation>
+            <translation transitive="true">[criminal] detenir / atrapar</translation> 
+            <translation transitive="true">[imagination] captar</translation>
+            <translation transitive="true">[fish] pescar<example>Wayne and Owen went fishing but the only thing they managed to &lt;b&gt;catch&lt;/b&gt; was an old tin can!</example></translation>
+            <translation transitive="true">[an animal] caçar<example>He &lt;b&gt;caught&lt;/b&gt; an eight-point buck that weighed 165 pounds.</example></translation>
         </translations>
     </verbs>
-        <expressions>catch cold
+        <expressions>to catch cold
             <translations>
                 <translation>refredar-se<example>I warned you that you'd &lt;b&gt;catch cold&lt;/b&gt; if you kept going out without a coat on, didn't I?</example>
                     <example>When America sneezes, the whole world &lt;b&gt;catches cold&lt;/b&gt;!</example>
@@ -2989,8 +3000,9 @@
                     </grouptranslation>
                     <translation disambiguate="sports" gender="f">agafada</translation>
                     <translation gender="f">[on a bracelet or necklace] tanca</translation>
-                    <translation gender="f">[of fish] pesca / xarxada / [of animals] caça</translation> 
-                    <translation gender="m">bon partit<engexamp>He's a good catch</engexamp><catexamp>És un bon partit</catexamp></translation>
+                    <translation gender="f">[of fish] pesca / xarxada</translation>
+                    <translation gender="f">[of animals] caça</translation> 
+                    <translation gender="m">bon partit<engexamp>He's a good catch.</engexamp><catexamp>És un bon partit.</catexamp></translation>
                 </translations>
             </nouns>
         </Entry>
@@ -3041,7 +3053,7 @@
     </Entry>
 <Entry frequency="150000000">cater<verbs>
         <translations><date>0512</date>
-            <translation>proveir de menjar i begudes</translation>
+            <translation intransitive="true">proveir de menjar i begudes</translation>
         </translations>
     </verbs>
     <phrasalverbs>cater for
@@ -3180,7 +3192,7 @@
     </Entry>
 <Entry frequency="260000000">cause<verbs>
         <translations>
-            <translation>causar / provocar / ocasionar<example>Experts are trying to discover what &lt;b&gt;caused&lt;/b&gt; the blackout in New York last month</example>
+            <translation transitive="true">causar / provocar / ocasionar<example>Experts are trying to discover what &lt;b&gt;caused&lt;/b&gt; the blackout in New York last month.</example>
             </translation>
         </translations>
     </verbs>
@@ -3209,8 +3221,8 @@
             </nouns>
             <verbs>
                 <translations>
-                    <translation>advertir</translation>
-                    <translation>amonestar</translation>
+                    <translation transitive="true">advertir</translation>
+                    <translation transitive="true">amonestar</translation>
                 </translations>
             </verbs>
         </Entry>
@@ -3300,7 +3312,7 @@
              <participle>cavilled, caviled</participle>
              <gerund>cavilling, caviling</gerund>
              <translations><date>0508</date>
-                 <translation register="formal">buscar raons<synonyms>carp</synonyms></translation>
+                 <translation register="formal" intransitive="true">buscar raons<synonyms>carp</synonyms></translation>
         </translations>
     </verbs>
     </Entry>
@@ -3356,9 +3368,8 @@
     </Entry>
 <Entry frequency="7150000">cease<verbs>
         <translations>
-            <translation>cessar<catnote>El verb 'to cease' és formal.  És més habitual dir 'to stop'.</catnote>
-                <synonyms>stop</synonyms>
-            </translation>
+            <translation register="formal" intransitive="true">cessar<synonyms>stop, desist (formal)</synonyms></translation>
+            <translation register="formal" transitive="true">cessar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -3376,7 +3387,7 @@
     </Entry>
 <Entry frequency="2120000">cede<verbs>
 			<translations><date>0408</date>
-				<translation register="formal">cedir<example>Fiji was &lt;b&gt;ceded&lt;/b&gt; to Great Britain in 1874.</example></translation>
+				<translation register="formal" transitive="true">[~ something to somebody] cedir<example>Fiji was &lt;b&gt;ceded&lt;/b&gt; to Great Britain in 1874.</example></translation>
 			</translations>
 		</verbs>
             </Entry>
@@ -3555,7 +3566,7 @@
     </Entry>
 <Entry frequency="3330000">censor<verbs>
         <translations>
-        <translation>censurar</translation></translations></verbs>
+        <translation transitive="true">censurar</translation></translations></verbs>
         <nouns>
             <translations>
                 <translation gender="mf">censurador</translation>
@@ -3570,7 +3581,7 @@
     </Entry>
     <Entry frequency="23100000">censure<verbs>
                             <translations><date>0512</date>
-				<translation register="formal">censurar / blasmar / reprendre / amonestar<synonyms>rebuke, reprove</synonyms></translation>
+				<translation register="formal" transitive="true">censurar / blasmar / reprendre / amonestar<synonyms>rebuke, reprove</synonyms></translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -3950,7 +3961,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>encadenar<engexamp>To chain (x) to (y)</engexamp><catexamp>Encadenar (x) a (y)</catexamp><engexamp>To chain yourself to something</engexamp><catexamp>Encadenar-se a alguna cosa</catexamp></translation>
+                <translation transitive="true">encadenar<engexamp>To chain (x) to (y).</engexamp><catexamp>Encadenar (x) a (y).</catexamp><engexamp>To chain yourself to something.</engexamp><catexamp>Encadenar-se a alguna cosa.</catexamp></translation>
             </translations>
         </verbs>
         <phrasalverbs>chain together
@@ -3985,7 +3996,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>presidir</translation>
+                <translation transitive="true">presidir</translation>
             </translations>
         </verbs>
     </Entry>
@@ -4167,7 +4178,7 @@
         <translations>
             <translation register="colloquial" transitive="true">[~ something] arriscar [alguna cosa]</translation>
             <translation register="colloquial" transitive="true">[~ doing something] arriscar (a fer alguna cosa)<engexamp>I'll chance it!</engexamp><catexamp>M'hi arriscaré!</catexamp></translation>
-            <translation register="literary">[~ to do something] fer (alguna cosa) per casualitat</translation>
+            <translation register="literary" intransitive="true">[~ to do something] fer (alguna cosa) per casualitat</translation>
         </translations>
     </verbs>
     <phrasalverbs>chance upon
@@ -4222,8 +4233,8 @@
         </Entry>
         <Entry frequency="247000000">change<verbs>
                 <translations>
-                    <translation>canviar</translation>
-                    <translation>[put on new clothes] canviar-se de roba<synonyms>get changed</synonyms></translation>
+                    <translation transitive="true">canviar</translation>
+                    <translation intransitive="true">[put on new clothes] canviar-se de roba<synonyms>get changed</synonyms></translation>
                 </translations>
             </verbs>
             <phrasalverbs>change into
@@ -4301,8 +4312,11 @@
     </Entry>
 <Entry frequency="123000000">chant<verbs>
         <translations><date>0512</date>
-            <translation>corejar / cridar (consignes)</translation>
-            <translation disambiguate="religious">cantar / salmodiar / entonar</translation>
+            <translation transitive="true">corejar / cridar (consignes)</translation>
+            <translation intransitive="true">corejar / cridar</translation>
+            <translation disambiguate="religious" transitive="true">cantar / salmodiar / entonar</translation>
+            <translation disambiguate="religious" intransitive="true">cantar / salmodiar / entonar</translation>
+
         </translations>
     </verbs>
     <nouns>
@@ -4505,14 +4519,14 @@
 	</Entry>
 <Entry frequency="70900000">charge<verbs>
         <translations><date>0512</date>
-            <translation>[accuse] acusar / incriminar<example>The police &lt;b&gt;charged&lt;/b&gt; him with disturbing the peace</example></translation>
-            <translation>[a fee, sum of money..] cobrar<example>Can you believe some shops are &lt;b&gt;charging&lt;/b&gt; $20 for the new Chicago DVD? I only paid $15 on Amazon.</example><example>Durham was one of the first cities in Britian to &lt;b&gt;charge&lt;/b&gt; motorists to enter the city.</example></translation>
-            <translation>[~ somebody with something] encarregar de / responsabilitzar de</translation>
-            <translation>[make note of cost] carregar en compte</translation>
-            <translation local="us">pagar amb targeta de crèdit</translation>
-            <translation>[to rush] abalançar-se / marxar (o sortir o entrar) corrent</translation>
-            <translation>[military or police] carregar contra / envestir</translation>
-            <translation>[a battery] carregar</translation>
+            <translation transitive="true">[accuse] acusar / incriminar<example>The police &lt;b&gt;charged&lt;/b&gt; him with disturbing the peace.</example></translation>
+            <translation transitive="true">[a fee, sum of money..] cobrar<example>Can you believe some shops are &lt;b&gt;charging&lt;/b&gt; $20 for the new Chicago DVD? I only paid $15 on Amazon.</example><example>Durham was one of the first cities in Britian to &lt;b&gt;charge&lt;/b&gt; motorists to enter the city.</example></translation>
+            <translation transitive="true">[~ somebody with something] encarregar de / responsabilitzar de</translation>
+            <translation intransitive="true">[make note of cost] carregar en compte</translation>
+            <translation local="us" intransitive="true">pagar amb targeta de crèdit</translation>
+            <translation intransitive="true">[to rush] abalançar-se / marxar (o sortir o entrar) corrent</translation>
+            <translation transitive="true">[military or police] carregar contra / envestir</translation>
+            <translation transitive="true">[a battery] carregar</translation>
         </translations>
     </verbs>
         <phrasalverbs>charge off
@@ -4602,7 +4616,7 @@
     </nouns>
         <verbs>
         <translations>
-        <translation>encantar / captivar</translation></translations></verbs>
+        <translation transitive="true">encantar / captivar</translation></translations></verbs>
         <expressions>like a charm
             <translations>
                 <translation>de meravella / com una seda<engexamp>The engine works like a charm.</engexamp><catexamp>El motor funciona com una seda.</catexamp></translation>
@@ -4627,10 +4641,10 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>[follow] seguir / rastrejar</translation>
-            <translation>[map] dibuixar un mapa</translation>
-            <translation>[plan] traçar / planificar</translation>
-            <translation catagory="entertainment-music" register="colloquial">arribar a la posició x a la llista d'àlbums (o senzills)<example>The album &lt;b&gt;charted&lt;/b&gt; at number one in ten countries.</example></translation>
+            <translation transitive="true">[follow] seguir / rastrejar</translation>
+            <translation transitive="true">[map] dibuixar un mapa de</translation>
+            <translation transitive="true">[plan] traçar / planificar</translation>
+            <translation catagory="entertainment-music" register="colloquial" intransitive="true">arribar a la posició x a la llista d'àlbums (o senzills)<example>The album &lt;b&gt;charted&lt;/b&gt; at number one in ten countries.</example></translation>
         </translations>
     </verbs>
         <phrasalverbs>chart out
@@ -4684,9 +4698,9 @@
     </Entry>
 <Entry frequency="11800000">chase<verbs>
         <translations>
-            <translation transitive="true">perseguir<example>The dog &lt;b&gt;chased&lt;/b&gt; the cat up the tree</example>
-                <example>The police &lt;b&gt;chased&lt;/b&gt; after the car because they believed it was stolen</example>
-                <example>Man United have revealed that David Beckham is currently being &lt;b&gt;chased&lt;/b&gt; by a number of European clubs</example>
+            <translation transitive="true">perseguir<example>The dog &lt;b&gt;chased&lt;/b&gt; the cat up the tree.</example>
+                <example>The police &lt;b&gt;chased&lt;/b&gt; after the car because they believed it was stolen.</example>
+                <example>Man United have revealed that David Beckham is currently being &lt;b&gt;chased&lt;/b&gt; by a number of European clubs.</example>
                 <synonyms>pursue</synonyms>
             </translation>
         </translations>
@@ -4756,7 +4770,7 @@
         <verbs>
         <translations>
         <translation intransitive="true">xerrar</translation>
-        <translation intransitive="true">petar<engnote>'Petar' means 'to chatter' as in 'his teeth were chattering'.</engnote></translation></translations></verbs>
+        <translation intransitive="true">[teeth] petar</translation></translations></verbs>
     </Entry>
     <Entry frequency="5740000">chatterbox<nouns>
             <translations><date>0610</date>               
@@ -4898,7 +4912,7 @@
     </Entry>
 <Entry frequency="4190000">cheat<verbs>
             <translations><date>0807</date>
-            <translation>fer trampes</translation>
+            <translation intransitive="true">fer trampes</translation>
         </translations>
     </verbs>
         <phrasalverbs>cheat at
@@ -5085,14 +5099,15 @@
     </Entry>
 <Entry frequency="5830000">cheep<verbs>
 			<translations><date>0408</date>
-				<translation catagory="animal">piular<synonyms>chirp, tweet</synonyms></translation>
+				<translation catagory="animal" intransitive="true">piular<synonyms>chirp, tweet</synonyms></translation>
                             </translations>
 		</verbs>
 	</Entry>
 <Entry frequency="596000000">cheer<verbs>
         <translations><date>0512</date>
-            <translation>aclamar / fer (o deixar anar) un crit d'alegria (o una exclamació d'alegria)</translation>
-            <translation>[~ somebody] aixecar els esperits / alegrar l'esperit / animar</translation>
+            <translation transitive="true">aclamar</translation>
+            <translation intransitive="true">fer (o deixar anar) un crit d'alegria (o una exclamació d'alegria)</translation>
+            <translation transitive="true">[~ somebody] aixecar els esperits / alegrar l'esperit / animar</translation>
         </translations>
     </verbs>      
         <phrasalverbs>cheer on
@@ -5253,8 +5268,8 @@
     </Entry>
 <Entry frequency="43900000">cherish<verbs>
         <translations>
-            <translation>estimar i protegir una persona i tenir-ne cura</translation>
-            <translation>valorar esperances, idees, sentiments etc. / aferrar-s'hi / acariciar</translation>
+            <translation transitive="true">estimar i protegir (una persona) i tenir-ne cura</translation>
+            <translation transitive="true">valorar (esperances, idees, sentiments etc.) / aferrar-s'hi / acariciar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -5280,9 +5295,9 @@
             </translations>
         </expressions>
     </Entry>
-    <Entry frequency="6000000">cherrypick<verbs>
+    <Entry frequency="6000000">cherry-pick<verbs><mistakes>cherrypick</mistakes>
         <translations><date>0512</date>
-            <translation>espigolar (fig.)</translation>
+            <translation transitive="true">[fig.] espigolar / escollir els millors (d'un grup de persones o coses)</translation>
         </translations>
     </verbs>
     </Entry>
@@ -5367,7 +5382,7 @@
 	</Entry>
 <Entry frequency="4670000">chew<verbs>
             <translations><date>0807</date>
-            <translation>mastegar</translation>
+            <translation transitive="true">mastegar</translation>
         </translations>
     </verbs>
      <phrasalverbs>chew on
@@ -5470,7 +5485,7 @@
     </Entry>
 <Entry frequency="6330000">chide<verbs>
         <translations><date>0512</date>
-            <translation register="formal">reprendre / renyar<example>Ecuador's leftist candidate &lt;b&gt;chides&lt;/b&gt; Bush.</example></translation>
+            <translation register="formal" transitive="true">reprendre / renyar<example>Ecuador's leftist candidate &lt;b&gt;chides&lt;/b&gt; Bush.</example></translation>
         </translations>
     </verbs>
     </Entry>
@@ -5617,8 +5632,8 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>refredar / enfredorir</translation>
-                <translation register="slang">calmar-se<example>Hey! Just &lt;b&gt;chill&lt;/b&gt;!</example></translation>
+                <translation transitive="true">refredar / enfredorir</translation>
+                <translation register="slang" intransitive="true">calmar-se<example>Hey! Just &lt;b&gt;chill&lt;/b&gt;!</example></translation>
             </translations>
         </verbs>
         <phrasalverbs>chill out
@@ -5665,8 +5680,8 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>repicar</translation>
-                <translation>tocar</translation>
+                <translation intransitive="true">repicar</translation>
+                <translation intransitive="true">tocar</translation>
             </translations>
         </verbs>
         <phrasalverbs>chime in
@@ -5774,7 +5789,7 @@
     </Entry>
      <Entry frequency="2270000">chink<verbs>
 			<translations><date>0608</date>
-				<translation>dringar</translation>
+				<translation intransitive="true">dringar</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -5841,7 +5856,7 @@
     </Entry>
 <Entry frequency="2770000">chirp<verbs>
 			<translations><date>0408</date>
-				<translation catagory="animal">piular<synonyms>cheep, tweet</synonyms></translation>
+				<translation catagory="animal" intransitive="true">piular<synonyms>cheep, tweet</synonyms></translation>
                             </translations>
 		</verbs>
 	</Entry>
@@ -6012,7 +6027,7 @@
     </Entry>
     <Entry frequency="1640000">chomp<verbs>
 			<translations><date>0309</date>
-				<translation register="colloquial">mastegar<synonyms>munch</synonyms></translation>
+				<translation register="colloquial" transitive="true">mastegar<synonyms>munch</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6026,7 +6041,7 @@
         <past>chose</past>
         <participle>chosen</participle>
         <translations>
-            <translation>elegir / escollir / triar / optar a<synonyms>select, pick</synonyms>
+            <translation transitive="true">elegir / escollir / triar / optar a<synonyms>select, pick</synonyms>
             </translation>
         </translations>
     </verbs>
@@ -6113,9 +6128,15 @@
     </Entry>
     <Entry frequency="38500000">choreograph<verbs>
         <translations><date>0512</date>
-            <translation>orquestrar</translation>
+            <translation transitive="true">coreografiar / orquestrar</translation>
         </translations>
     </verbs>
+    </Entry>
+    <Entry frequency="34100000">choreographer<nouns>
+        <translations><date>1212</date>
+            <translation catagory="work-job" gender="mf">coreògraf</translation>
+        </translations>
+    </nouns>
     </Entry>
 <Entry frequency="693000">choreography<nouns>
         <translations>
@@ -6145,7 +6166,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>corejar</translation>
+            <translation transitive="true">corejar</translation>
         </translations>
     </verbs>
         <expressions>chorus girl
@@ -6294,7 +6315,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>fer la crònica (de) / consignar / registrar / descriure</translation>
+            <translation transitive="true">fer la crònica (de) / consignar / registrar / descriure</translation>
         </translations>
     </verbs>
     </Entry>
@@ -6363,11 +6384,11 @@
     </nouns>
         <verbs>
             <translations>
-                <translation register="colloquial">[~ something] llençar<example>He &lt;b&gt;chucked&lt;/b&gt; the ball back over the fence.</example></translation>
-                <translation>[~ somebody something] passar<example>Hey, &lt;b&gt;chuck&lt;/b&gt; me that magazine will you? I want to read it.</example></translation>
-                <translation register="colloquial">[job] abandonar / deixar</translation>
-                <translation register="colloquial">[throw away] llençar / desfer-se de<example>Don't &lt;b&gt;chuck&lt;/b&gt; that! It might come in handy.</example></translation>
-                <translation register="colloquial" local="gb">[break up with] deixar<example>She &lt;chucked&lt;/b&gt; her boyfriend after she found out he'd been seeing another girl.</example></translation>
+                <translation register="colloquial" transitive="true">[~ something] llençar<example>He &lt;b&gt;chucked&lt;/b&gt; the ball back over the fence.</example></translation>
+                <translation transitive="true">[~ somebody something] passar<example>Hey, &lt;b&gt;chuck&lt;/b&gt; me that magazine will you? I want to read it.</example></translation>
+                <translation register="colloquial" transitive="true">[job] abandonar / deixar</translation>
+                <translation register="colloquial" transitive="true">[throw away] llençar / desfer-se de<example>Don't &lt;b&gt;chuck&lt;/b&gt; that! It might come in handy.</example></translation>
+                <translation register="colloquial" local="gb" transitive="true">[break up with] deixar<example>She &lt;chucked&lt;/b&gt; her boyfriend after she found out he'd been seeing another girl.</example></translation>
             </translations>
         </verbs>
          <phrasalverbs>chuck away
@@ -6423,7 +6444,7 @@
     </Entry>
 <Entry frequency="14000000">chuckle<verbs>
         <translations>
-            <translation>riure per sota el nas / riure entre dents</translation>
+            <translation intransitive="true">riure per sota el nas / riure entre dents</translation>
         </translations>
     </verbs>
         <nouns>
@@ -6439,10 +6460,15 @@
             </translation>
         </translations>
     </adjectives>
+    <expressions>chuffed to bits
+        <translations>
+            <translation>molt content</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="24700">chunder<verbs>
         <translations>
-            <translation register="colloquial" local="au">vomitar<synonyms>puke (argot), throw up (colloq.), vomit</synonyms>
+            <translation register="colloquial" local="au" intransitive="true">vomitar<synonyms>puke (argot), throw up (colloq.), vomit</synonyms>
             </translation>
         </translations>
     </verbs>
@@ -6490,9 +6516,9 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>agitar</translation>
-            <translation>[stomach] remoure<engexamp>My stomach's churning.</engexamp><catexamp>Tinc l'estómac remogut.</catexamp></translation>
-            <translation>[butter] batre (llet o nata per fer mantega)</translation>
+            <translation transitive="true">agitar</translation>
+            <translation intransitive="true">[stomach] remoure<engexamp>My stomach's churning.</engexamp><catexamp>Tinc l'estómac remogut.</catexamp></translation>
+            <translation transitive="true">[butter] batre (llet o nata per fer mantega)</translation>
         </translations>
     </verbs>
     <phrasalverbs>churn out
@@ -6646,10 +6672,10 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>encerclar<engexamp>Circle the correct answer.</engexamp><catexamp>Encercla la resposta correcta.</catexamp></translation>
-            <translation>donar voltes a / girar al voltant de / giravoltar<engexamp>The Earth circles the Sun.</engexamp><catexamp>La terra dóna voltes al sol / la terra gira al voltant del sol.</catexamp></translation>
-            <translation>circular<engexamp>Rumors are circulating that...</engexamp><catexamp>Els rumors circulen que...</catexamp></translation>
-            <translation>envoltar<engexamp>The walls that circle the city.</engexamp><catexamp>Les muralles que envolten la ciutat.</catexamp></translation>
+            <translation transitive="true">encerclar<engexamp>Circle the correct answer.</engexamp><catexamp>Encercla la resposta correcta.</catexamp></translation>
+            <translation transitive="true">donar voltes a / girar al voltant de / giravoltar<engexamp>The Earth circles the Sun.</engexamp><catexamp>La terra dóna voltes al sol / la terra gira al voltant del sol.</catexamp></translation>
+            <translation intransitive="true">circular<engexamp>Rumors are circling that...</engexamp><catexamp>Els rumors circulen que...</catexamp></translation>
+            <translation transitive="true">envoltar<engexamp>The walls that circle the city.</engexamp><catexamp>Les muralles que envolten la ciutat.</catexamp></translation>
         </translations>
     </verbs>
             <expressions>circle of fifths
@@ -6697,9 +6723,9 @@
     </Entry>
 <Entry frequency="67500000">circulate<verbs>
         <translations><date>0512</date>
-            <translation>[move around] circular</translation>
-            <translation>[spread] difondre</translation>
-            <translation>[mingle] alternar (amb tothom)</translation>
+            <translation intransitive="true">[move around] circular</translation>
+            <translation intransitive="true">[spread] difondre</translation>
+            <translation intransitive="true">[mingle] alternar (amb tothom)</translation>
         </translations>
     </verbs>
     </Entry>
@@ -6748,7 +6774,7 @@
 	</Entry>    
         <Entry frequency="6130000">circumscribe<verbs>
                             <translations><date>0510</date>
-				<translation register="formal">circumscriure</translation>
+				<translation register="formal" transitive="true">circumscriure</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6839,8 +6865,8 @@
     </Entry>
 <Entry frequency="561000000">cite<verbs>
         <translations><date>0512</date>
-            <translation register="formal">citar / adduir / invocar</translation>
-            <translation register="formal">esmentar / mencionar</translation>
+            <translation register="formal" transitive="true">citar / adduir / invocar</translation>
+            <translation register="formal" transitive="true">esmentar / mencionar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -6950,7 +6976,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>repicar<engexamp>Her heels clack on the sidewalk.</engexamp><catexamp>Els seus tacons repiquen sobre l'acera.</catexamp></translation>
+            <translation intransitive="true">repicar<engexamp>Her heels clack on the sidewalk.</engexamp><catexamp>Els seus tacons repiquen sobre l'acera.</catexamp></translation>
         </translations>
     </verbs>
     </Entry>
@@ -6973,8 +6999,8 @@
     </nouns>
         <verbs>
         <translations>
-        <translation>pretendre / sostenir / asseverar</translation>
-        <translation>reclamar / reivindicar</translation>
+        <translation transitive="true">pretendre / sostenir / asseverar</translation>
+        <translation transitive="true">reclamar / reivindicar</translation>
     </translations></verbs>
     </Entry>
     <Entry frequency="33200000">claimant<nouns>
@@ -7020,7 +7046,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>clamar</translation>
+                        <translation intransitive="true">clamar / demanar a crits</translation>
                         </translations>
                 </verbs>
 	</Entry>
@@ -7031,7 +7057,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>clamar</translation>
+                        <translation intransitive="true">clamar / demanar a crits</translation>
                     </translations>
                 </verbs>
 	</Entry>
@@ -7043,7 +7069,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation catagory="transport">posar un cep a un cotxe<example>She had parked on the double yellow lines for less than two minutes but when she came back she found that she'd been &lt;b&gt;clamped&lt;/b&gt;.</example></translation>
+            <translation catagory="transport" transitive="true">posar un cep a (un cotxe)<example>She had parked on the double yellow lines for less than two minutes but when she came back she found that she'd been &lt;b&gt;clamped&lt;/b&gt;.</example></translation>
         </translations>
     </verbs>
     <phrasalverbs>clamp down (on)
@@ -7130,8 +7156,8 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>xocar</translation>
-                <tranlsation>topar</tranlsation>
+                <translation intransitive="true">xocar</translation>
+                <tranlsation intransitive="true">topar</tranlsation>
             </translations>
         </verbs>
         <phrasalverbs>clash with
@@ -7275,7 +7301,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>esgarrapar</translation>
+            <translation transitive="true">esgarrapar</translation>
         </translations>
     </verbs>
     <expressions>claw-foot (bathtub)
@@ -7429,12 +7455,12 @@
     </adjectives>
     <verbs>
         <translations>
-            <translation>treure (coses) per deixar un espai net, endreçat<example>I had half an hour free this morning so I decided to &lt;b&gt;clear&lt;/b&gt; the kitchen table.</example></translation>
-            <translation>[sky] aclarir-se<example>After an hour of heavy rain, the sky began to &lt;b&gt;clear&lt;/b&gt; and the sun came out.</example></translation>
-            <translation>[a suspect] exculpar</translation>
-            <translation>[face, expression] il·luminar</translation>
-            <translation>[move people out of somewhere] desocupar / desallotjar</translation>
-            <translation disambiguate="sports">rebutjar<example>Brown tipped the ball over the crossbar and Nosworthy &lt;b&gt;cleared&lt;/b&gt; the resulting corner.</example></translation>
+            <translation transitive="true">treure (coses) per deixar un espai net, endreçat<example>I had half an hour free this morning so I decided to &lt;b&gt;clear&lt;/b&gt; the kitchen table.</example></translation>
+            <translation intransitive="true">[sky] aclarir-se<example>After an hour of heavy rain, the sky began to &lt;b&gt;clear&lt;/b&gt; and the sun came out.</example></translation>
+            <translation transitive="true">[a suspect] exculpar</translation>
+            <translation intransitive="true">[face, expression] il·luminar</translation>
+            <translation transitive="true">[move people out of somewhere] desocupar / desallotjar</translation>
+            <translation disambiguate="sports" transitive="true">rebutjar<example>Brown tipped the ball over the crossbar and Nosworthy &lt;b&gt;cleared&lt;/b&gt; the resulting corner.</example></translation>
         </translations>
     </verbs>
     <phrasalverbs>clear away
@@ -7528,7 +7554,7 @@
     </Entry>
 <Entry frequency="5570000">cleave<verbs>
         <translations>
-            <translation>partir</translation>
+            <translation transitive="true">partir</translation>
         </translations>
     </verbs>
         <phrasalverbs>cleave to (something)
@@ -7587,8 +7613,8 @@
     </Entry>
      <Entry frequency="17900000">clench<verbs>
         <translations><date>0512</date>
-            <translation>serrar / cloure<engexamp>He clenched his teeth.</engexamp><catexamp>Va serrar les dents.</catexamp><engexamp>His heart clenched.</engexamp><catexamp>Se li va encongir el cor.</catexamp></translation>
-            <translation>agafar / agarrar</translation>
+            <translation transitive="true">serrar / cloure<engexamp>He clenched his teeth.</engexamp><catexamp>Va serrar les dents.</catexamp><engexamp>His heart clenched.</engexamp><catexamp>Se li va encongir el cor.</catexamp></translation>
+            <translation transitive="true">agafar / agarrar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -7658,7 +7684,8 @@
 	</Entry>
 <Entry frequency="362000000">click<verbs>
             <translations><date>0508</date>
-            <translation disambiguate="computers" termcat="true">fer (un) clic / clicar</translation>
+            <translation disambiguate="computers" termcat="true" transitive="true">fer (un) clic a / clicar</translation>
+            <translation disambiguate="computers" intransitive="true">fer (un) clic / clicar</translation>
         </translations>
     </verbs>
         <nouns>
@@ -7678,7 +7705,7 @@
         </expressions>
         <expressions>double click (on)
             <translations>
-                <translation catagory="computers">fer doble clic (sobre / a / en)</translation>
+                <translation catagory="computers">fer (un) doble clic (a)</translation>
             </translations>
         </expressions>
         <expressions>pay-per-click
@@ -7750,8 +7777,8 @@
     </Entry>
 <Entry frequency="2330000">climb<verbs>
         <translations>
-            <translation>pujar / ascendir</translation>
-            <translation>escalar</translation>
+            <translation transitive="true">pujar / ascendir</translation>
+            <translation transitive="true">escalar</translation>
         </translations>
     </verbs>
         <nouns>
@@ -7779,7 +7806,7 @@
 	</Entry>
 <Entry frequency="4000000">clinch<verbs>
         <translations>
-            <translation>tancar / cloure / aconseguir</translation>
+            <translation transitive="true">tancar / cloure / aconseguir</translation>
         </translations>
     </verbs>
         <nouns>
@@ -7817,7 +7844,7 @@
         <past>clung</past>
         <participle>clung</participle>
         <translations>
-            <translation>adherir-se / aferrar-se / agafar-se</translation>
+            <translation intransitive="true">adherir-se / aferrar-se / agafar-se</translation>
         </translations>
     </verbs>
     <phrasalverbs>cling to
@@ -7859,7 +7886,8 @@
 	</Entry>
  <Entry frequency="4430000">clink<verbs>
 			<translations><date>0608</date>
-				<translation>dringar (vidre)</translation>
+				<translation intransitive="true">dringar (vidre)</translation>
+                                <translation transitive="true">fer dringar (unes copes)</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -7876,8 +7904,8 @@
     </nouns>
         <verbs double="true">
         <translations>
-            <translation>retallar / tallar</translation>
-            <translation>subjectar</translation>
+            <translation transitive="true">retallar / tallar</translation>
+            <translation transitive="true">subjectar</translation>
         </translations></verbs>
         <expressions>clip round the ear
             <translations>
@@ -7939,8 +7967,8 @@
     </Entry>
     <Entry frequency="855000">clobber<verbs>
                             <translations><date>1009</date>
-				<translation register="colloquial">pegar fort<synonyms>wallop, whack</synonyms></translation>
-                                <translation register="colloquial">donar una pallissa / derrotar contundentment</translation>
+				<translation register="colloquial" transitive="true">pegar fort<synonyms>wallop, whack</synonyms></translation>
+                                <translation register="colloquial" transitive="true">donar una pallissa / derrotar contundentment</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -8010,7 +8038,7 @@
     </Entry>
 <Entry frequency="9570000">clone<verbs>
         <translations>
-        <translation>clonar</translation></translations></verbs>
+        <translation transitive="true">clonar</translation></translations></verbs>
         <nouns>
             <translations>
                 <translation gender="m">clon</translation>
@@ -8030,7 +8058,8 @@
     </Entry>
 <Entry frequency="173000000">close<verbs>
         <translations>
-            <translation>tancar</translation>
+            <translation transitive="true">tancar</translation>
+            <translation intransitive="true">tancar-se</translation>
         </translations>
     </verbs>
     <phrasalverbs>close down
@@ -8153,7 +8182,7 @@
 		</nouns>
                 <verbs double="true">
                     <translations>
-                        <translation>coagular-se / quallar-se</translation>
+                        <translation intransitive="true">coagular-se / quallar-se</translation>
                         </translations>
                         </verbs>
                         <expressions>blood clot
@@ -8222,7 +8251,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>enterbolir / ofuscar</translation>
+                <translation transitive="true">enterbolir / ofuscar</translation>
             </translations>
         </verbs>
         <phrasalverbs>cloud over
@@ -8275,7 +8304,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>pegar / colpejar</translation>
+            <translation transitive="true">pegar / colpejar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -8304,7 +8333,7 @@
     </Entry>
     <Entry frequency="255000">cloy<verbs>
 			<translations><date>0908</date>
-                                <translation register="formal">embafar</translation>
+                                <translation register="formal" intransitive="true">embafar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -8330,7 +8359,7 @@
     </nouns>
     <verbs double="true">
         <translations>
-            <translation>bastonejar / garrotejar</translation>
+            <translation transitive="true">bastonejar / garrotejar</translation>
         </translations>
     </verbs>
     <phrasalverbs>club together
@@ -8408,7 +8437,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>fer un so metàl·lic sord</translation>
+                        <translation intransitive="true">fer un so metàl·lic sord</translation>
                     </translations>
                 </verbs>
 	</Entry>
@@ -8448,7 +8477,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>agafar</translation>
+                <translation transitive="true">agafar</translation>
             </translations>
         </verbs>
     <phrasalverbs>clutch at
@@ -8474,7 +8503,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>enfarfegar / emplenar desordenadament / desendreçar</translation>
+                <translation transitive="true">enfarfegar / emplenar desordenadament / desendreçar</translation>
             </translations>
         </verbs>
         <phrasalverbs>clutter up
@@ -8513,7 +8542,7 @@
     </Entry>
 <Entry frequency="611000">coagulate<verbs>
 			<translations><date>1007</date>
-				<translation catagory="medical">coagular-se</translation>
+				<translation catagory="medical" intransitive="true">coagular-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -8551,7 +8580,7 @@
     </Entry>
     <Entry frequency="2520000">coalesce<verbs>
                             <translations><date>1009</date>
-				<translation register="formal">unir-se</translation>
+				<translation register="formal" intransitive="true">unir-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -8584,8 +8613,8 @@
     </Entry>
 <Entry frequency="257000">coarsen<verbs>
         <translations>
-            <translation>fer més tosc / fer més groller / fer més bast</translation>
-            <translation>embrutir<engexamp>War hasn't coarsened him.</engexamp><catexamp>La guerra no l'ha embrutit.</catexamp></translation>
+            <translation transitive="true">fer més tosc / fer més groller / fer més bast</translation>
+            <translation transitive="true">embrutir<engexamp>War hasn't coarsened him.</engexamp><catexamp>La guerra no l'ha embrutit.</catexamp></translation>
         </translations>
     </verbs>
     </Entry>
@@ -8656,7 +8685,7 @@
     </Entry>
 <Entry frequency="5550000">coax<verbs>
         <translations>
-            <translation>persuadir / convèncer (a través de l'afalac)<synonyms>cajole</synonyms></translation>
+            <translation transitive="true">persuadir / convèncer (a través de l'afalac)<synonyms>cajole</synonyms></translation>
         </translations>
     </verbs>
         <nouns>
@@ -8889,7 +8918,7 @@
     </Entry>
 <Entry frequency="1240000">codify<verbs ie="true">
         <translations>
-            <translation>codificar</translation>
+            <translation transitive="true">codificar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -8942,7 +8971,7 @@
 
 			<translations><date>1208</date>
 
-				<translation>constrènyer / coercir</translation>
+				<translation transitive="true">constrènyer / coercir</translation>
 
 			</translations>
 
@@ -8957,7 +8986,7 @@
 	</Entry>
 <Entry frequency="12400000">coexist<verbs>
         <translations>
-            <translation>coexistir</translation>
+            <translation intransitive="true">coexistir</translation>
         </translations>
     </verbs>
     </Entry>
@@ -9048,7 +9077,7 @@
     </Entry>
 <Entry frequency="223000">cohabit<verbs>
         <translations>
-            <translation>cohabitar<synonyms>to live together</synonyms></translation>
+            <translation intransitive="true">cohabitar<synonyms>live together</synonyms></translation>
         </translations>
     </verbs>
     </Entry>
@@ -9093,7 +9122,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>entortolligar</translation>
+            <translation transitive="true">entortolligar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -9104,8 +9133,8 @@
     </nouns>
         <verbs>
         <translations>
-        <translation>crear / encunyar</translation>
-        <translation>encunyar</translation>
+        <translation transitive="true">crear / encunyar</translation>
+        <translation transitive="true">encunyar</translation>
     </translations>
 </verbs>
         <expressions>coin collecting
@@ -9126,7 +9155,7 @@
     </Entry>
 <Entry frequency="10200000">coincide<verbs>
         <translations>
-            <translation>coincidir</translation>
+            <translation intransitive="true">coincidir</translation>
         </translations>
     </verbs>
     <phrasalverbs>coincide with
@@ -9246,7 +9275,7 @@
 	</Entry>
 <Entry frequency="8450000">collaborate<verbs>
         <translations>
-            <translation>col·laborar<catnote>El verb 'to collaborate' pot tenir connotacions negatives ja que a més de significar 'treballar junts' pot significar 'ser col·laboracionista' (per ex: 'They are collaborating on a new book / During World War II, Vichy France collaborated with the Nazis).</catnote></translation>
+            <translation intransitive="true">col·laborar<catnote>El verb 'to collaborate' pot tenir connotacions negatives ja que a més de significar 'treballar junts' pot significar 'ser col·laboracionista' (per ex: 'They are collaborating on a new book / During World War II, Vichy France collaborated with the Nazis).</catnote></translation>
         </translations>
     </verbs>
     <phrasalverbs>collaborate with
@@ -9457,7 +9486,7 @@
 	</Entry>
 <Entry frequency="4010000">collide<verbs>
         <translations>
-            <translation>col·lidir / xocar / topar</translation>
+            <translation intransitive="true">col·lidir / xocar / topar</translation>
         </translations>
     </verbs>
     <phrasalverbs>collide with
@@ -9589,7 +9618,7 @@
 	</Entry>
 <Entry frequency="1150000">colonise<verbs>
 			<translations><date>0307</date>
-				<translation local="gb">colonitzar<otherlocal>colonize</otherlocal></translation>
+				<translation local="gb" transitive="true">colonitzar<otherlocal>colonize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -9607,7 +9636,7 @@
 	</Entry>
 <Entry frequency="516000">colonize<verbs>
         <translations>
-            <translation>colonitzar</translation>
+            <translation transitive="true">colonitzar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -9640,7 +9669,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation local="us">acolorir<otherlocal>colour</otherlocal>
+                <translation local="us" transitive="true">acolorir<otherlocal>colour</otherlocal>
                 </translation>
             </translations>
         </verbs>
@@ -9772,7 +9801,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation local="gb">acolorir<otherlocal>color</otherlocal>
+                <translation local="gb" transitive="true">acolorir<otherlocal>color</otherlocal>
                 </translation>
             </translations>
         </verbs>
@@ -9911,8 +9940,8 @@
 	</Entry>
 <Entry frequency="141000000">combine<verbs>
         <translations>
-            <translation>combinar</translation>
-            <translation>compaginar</translation>
+            <translation transitive="true">combinar</translation>
+            <translation transitive="true">compaginar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -9954,8 +9983,8 @@
         <past>came</past>
         <participle>come</participle>
         <translations>
-            <translation>venir</translation>
-            <translation register="slang">escórrer-se / ejacular / arribar</translation>
+            <translation intransitive="true">venir</translation>
+            <translation register="slang" intransitive="true">escórrer-se / ejacular / arribar</translation>
         </translations>
     </verbs>
     <phrasalverbs>come about
@@ -10431,9 +10460,9 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>ordenar</translation>
-            <translation>[milit.] comandar</translation>
-            <translation>merèixer</translation>
+            <translation transitive="true">ordenar</translation>
+            <translation transitive="true">[milit.] comandar</translation>
+            <translation transitive="true">merèixer</translation>
         </translations>
         </verbs>
     </Entry>
@@ -10481,7 +10510,7 @@
     </Entry>
 <Entry frequency="79500000">commence<verbs>
         <translations>
-            <translation register="formal">començar<synonyms>begin, start</synonyms></translation>
+            <translation register="formal" intransitive="true">començar<synonyms>begin, start</synonyms></translation>
         </translations>
     </verbs>
     </Entry>
@@ -10511,7 +10540,7 @@
         </nouns>
         <verbs>
         <translations>
-            <translation>comentar</translation>
+            <translation intransitive="true">comentar</translation>
         </translations>
     </verbs>
        <phrasalverbs>comment on
@@ -10557,13 +10586,13 @@
     </Entry>
 <Entry frequency="569000">commercialise<verbs>
         <translations>
-            <translation local="gb">comercialitzar<otherlocal>commercialize</otherlocal></translation>
+            <translation local="gb" transitive="true">comercialitzar<otherlocal>commercialize</otherlocal></translation>
         </translations>
     </verbs>
     </Entry>
 <Entry frequency="2140000">commercialize<verbs>
         <translations>
-            <translation local="us">comercialitzar<otherlocal>commercialise</otherlocal></translation>
+            <translation local="us" transitive="true">comercialitzar<otherlocal>commercialise</otherlocal></translation>
         </translations>
     </verbs>
     </Entry>
@@ -10592,7 +10621,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>comissionar / encarregar / fer un encàrrec / demanar per encàrrec<engexamp>To be commissioned (to do something).</engexamp><catexamp>Rebre l'encàrrec (de fer una cosa).</catexamp></translation>
+            <translation transitive="true">comissionar / encarregar / fer un encàrrec / demanar per encàrrec<engexamp>To be commissioned (to do something).</engexamp><catexamp>Rebre l'encàrrec (de fer una cosa).</catexamp></translation>
         </translations>
     </verbs>
     <expressions>to be in commission
@@ -10620,10 +10649,10 @@
 	</Entry>
 <Entry frequency="524000000">commit<verbs double="true">
         <translations><date>0512</date>
-            <translation>cometre / incórrer en</translation>
-            <translation>assignar (temps, diners...)</translation>
-            <translation>[mental hospital] ingressar</translation>
-            <translation>[~ yourself] comprometre's</translation>
+            <translation transitive="true">cometre / incórrer en</translation>
+            <translation transitive="true">assignar (temps, diners...)</translation>
+            <translation transitive="true">[mental hospital] ingressar</translation>
+            <translation intransitive="true">[~ yourself] comprometre's</translation>
         </translations>
     </verbs>
     <expressions>to commit suicide
@@ -10769,13 +10798,13 @@
     </nouns>
     <verbs>
         <translations>
-            <translation register="formal">[~ with] comunicar-se / intimar amb</translation>
+            <translation register="formal" intransitive="true">[~ with] comunicar-se / intimar amb</translation>
         </translations>
     </verbs>
     </Entry>
 <Entry frequency="29300000">communicate<verbs>
         <translations>
-            <translation>comunicar</translation>
+            <translation intransitive="true">comunicar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -10835,10 +10864,10 @@
 	</Entry>
 <Entry frequency="543000">commute<verbs>
         <translations>
-            <translation disambiguate="transport">anar al lloc de treball (i tornar a casa)<example>2% of New York City residents &lt;b&gt;commute&lt;/b&gt; by car every day across the East River bridges.</example>
+            <translation disambiguate="transport" intransitive="true">anar al lloc de treball (i tornar a casa)<example>2% of New York City residents &lt;b&gt;commute&lt;/b&gt; by car every day across the East River bridges.</example>
                 <example>John &lt;b&gt;commutes&lt;/b&gt; to work by bike every day, except when it's snowing.</example>
             </translation>
-            <translation disambiguate="legal">commutar<engnote>'Commutar' means 'to commute' in the sense 'to commute a death sentence to life in prison.</engnote>
+            <translation disambiguate="legal" transitive="true">commutar<engnote>'Commutar' means 'to commute' in the sense 'to commute a death sentence to life in prison.</engnote>
             </translation>
         </translations>
     </verbs>
@@ -10949,7 +10978,7 @@
 	</Entry>
 <Entry frequency="68800000">compare<verbs>
         <translations>
-            <translation>comparar</translation>
+            <translation transitive="true">comparar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -11001,7 +11030,7 @@
     </Entry>
      <Entry frequency="19200000">compel<verbs double="true">
          <translations><date>1008</date>
-        <translation register="formal">compel·lir</translation>
+        <translation register="formal" transitive="true">compel·lir</translation>
       </translations>
     </verbs>
   </Entry>
@@ -11020,8 +11049,8 @@
     </Entry>
 <Entry frequency="14000000">compensate<verbs>
         <translations>
-            <translation>indemnitzar</translation>
-            <translation>compensar</translation>
+            <translation transitive="true">indemnitzar</translation>
+            <translation transitive="true">compensar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -11034,7 +11063,7 @@
     </Entry>
 <Entry frequency="11600000">compete<verbs>
         <translations>
-            <translation>competir</translation>
+            <translation intransitive="true">competir</translation>
         </translations>
     </verbs>
     <phrasalverbs>compete against
@@ -11044,7 +11073,7 @@
     </phrasalverbs>
     <phrasalverbs>compete for
         <translations>
-            <translation>competir per</translation>
+            <translation intransitive="true">competir per</translation>
         </translations>
     </phrasalverbs>
     <phrasalverbs>compete with
@@ -11100,7 +11129,7 @@
     </Entry>
 <Entry frequency="6020000">compile<verbs>
         <translations>
-            <translation disambiguate="computers">compilar / recopilar</translation>
+            <translation catagory="computers" transitive="true">compilar / recopilar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -11127,10 +11156,15 @@
     </Entry>
 <Entry frequency="487000000">complain<verbs>
         <translations><date>0512</date>
-            <translation>queixar-se / lamentar(-se)</translation>
+            <translation intransitive="true">queixar-se / lamentar(-se)</translation>
         </translations>
     </verbs>
-    <phrasalverbs>complain about (or of)
+    <phrasalverbs>complain about
+        <translations>
+            <translation intransitive="true">queixar-se de</translation>
+        </translations>
+    </phrasalverbs>
+    <phrasalverbs>complain of
         <translations>
             <translation intransitive="true">queixar-se de</translation>
         </translations>
@@ -11168,7 +11202,7 @@
     </adjectives>
         <verbs>
             <translations>
-                <translation>acabar<synonyms>finish</synonyms>
+                <translation transitive="true">acabar<synonyms>finish</synonyms>
                 </translation>
             </translations>
         </verbs>
@@ -11288,7 +11322,7 @@
     </Entry>
 <Entry frequency="26600000">comply<verbs ie="true">
         <translations>
-            <translation>complir</translation>
+            <translation intransitive="true">complir</translation>
         </translations>
     </verbs>
     <phrasalverbs>comply with
@@ -11305,7 +11339,7 @@
     </Entry>
 <Entry frequency="672000000">compose<verbs>
         <translations><date>0512</date>
-            <translation>redactar / constituir</translation>
+            <translation transitive="true">redactar / constituir</translation>
             <translation>[~ oneself] calmar-se / asserenar-se / tranquil·litzar-se</translation>
         </translations>
     </verbs>
@@ -11377,7 +11411,7 @@
     </adjectives>
 <verbs>
 <translations>
-<translation>agreujar / empitjorar<example>The traffic on Route 17 is already horrendous. More stores and condos are just going to &lt;b&gt;compound&lt;/b&gt; the problem.</example></translation>
+<translation transitive="true">agreujar / empitjorar<example>The traffic on Route 17 is already horrendous. More stores and condos are just going to &lt;b&gt;compound&lt;/b&gt; the problem.</example></translation>
 </translations>
 </verbs>
 <expressions>compound fracture
@@ -11388,7 +11422,7 @@
 </Entry>
 <Entry frequency="502000">comprehend<verbs>
         <translations>
-            <translation register="formal">entendre<synonyms>understand</synonyms>
+            <translation register="formal" transitive="true">entendre<synonyms>understand</synonyms>
             </translation>
         </translations>
     </verbs>
@@ -11432,8 +11466,8 @@
 	</Entry>
 <Entry frequency="238000000">compress<verbs>
         <translations><date>0512</date>
-            <translation catagory="computers">comprimir</translation>
-            <translation>restringir / limitar</translation>
+            <translation catagory="computers" transitive="true">comprimir</translation>
+            <translation transitive="true">restringir / limitar</translation>
         </translations>
     </verbs>
     <nouns>
@@ -11471,15 +11505,15 @@
 	</Entry>
 <Entry frequency="59100000">comprise<verbs>
 			<translations><date>0708</date>
-				<translation>comprendre</translation>
+				<translation transitive="true">comprendre</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="244000000">compromise<verbs>
         <translations><date>0512</date>
-            <translation>transigir<engexamp>The unions and the company refuse to compromise</engexamp><catexamp>Els sindicats i l'empresa es neguen a transigir (arribar a un acord basat en concessions mútues)</catexamp><engexamp>You want 40 euros and I want to pay 30, so let's compromise at/on 35</engexamp><catexamp>Tu vols 40 euros i jo en vull pagar 30, doncs dividim la diferència i diem 35</catexamp><engexamp>The government says it won't compromise with terrorists</engexamp><catexamp>El govern diu que no transigirà amb els terroristes</catexamp></translation>
-            <translation>abdicar (de les pròpies conviccions, p. ex.)</translation>
-            <translation>comprometre / posar en perill / (fer) quedar malament / desprestigiar / perjudicar la reputació<example>Carod's opposition to the Statute has &lt;b&gt;compromised&lt;/b&gt; his position in the 'tripartit'.</example></translation>
+            <translation transitive="true">transigir<engexamp>The unions and the company refuse to compromise.</engexamp><catexamp>Els sindicats i l'empresa es neguen a transigir (arribar a un acord basat en concessions mútues).</catexamp><engexamp>You want 40 euros and I want to pay 30, so let's compromise at (or on) 35.</engexamp><catexamp>Tu vols 40 euros i jo en vull pagar 30, doncs dividim la diferència i diem 35.</catexamp><engexamp>The government says it won't compromise with terrorists.</engexamp><catexamp>El govern diu que no transigirà amb els terroristes.</catexamp></translation>
+            <translation intransitive="true">abdicar (de les pròpies conviccions, p. ex.)</translation>
+            <translation transitive="true">comprometre / posar en perill / (fer) quedar malament / desprestigiar / perjudicar la reputació<example>Carod's opposition to the Statute has &lt;b&gt;compromised&lt;/b&gt; his position in the 'tripartit'.</example></translation>
         </translations>
     </verbs>
         <nouns>
@@ -11529,7 +11563,7 @@
     </Entry>
 <Entry frequency="25900000">compute<verbs>
         <translations><date>0708</date>
-            <translation>calcular</translation>
+            <translation transitive="true">calcular</translation>
         </translations>
     </verbs>
     </Entry>
@@ -11605,7 +11639,7 @@
     </Entry>
 <Entry frequency="33200000">con<verbs double="true">
         <translations>
-            <translation>estafar / entabanar</translation>
+            <translation transitive="true">estafar / entabanar</translation>
         </translations>
     </verbs>
         <nouns>
@@ -11629,9 +11663,15 @@
     </Entry>
 <Entry frequency="378000">concatenate<verbs>
         <translations>
-            <translation>concatenar</translation>
+            <translation transitive="true">concatenar</translation>
         </translations>
     </verbs>
+    </Entry>
+    <Entry frequency="6210000">concatenation<nouns>
+        <translations><date>1212</date>
+            <translation gender="f">concatenació</translation>
+        </translations>
+    </nouns>
     </Entry>
 <Entry frequency="664">concave<adjectives>
         <translations>
@@ -11641,15 +11681,16 @@
     </Entry>
 <Entry frequency="6950000">conceal<verbs>
         <translations>
-            <translation>ocultar / encobrir</translation>
-            <translation>dissimular<synonyms>hide</synonyms></translation>
+            <translation transitive="true">ocultar / encobrir</translation>
+            <translation transitive="true">dissimular<synonyms>hide</synonyms></translation>
         </translations>
     </verbs>
     </Entry>
 <Entry frequency="1270000">concede<verbs>
         <translations>
-            <translation>admetre<example>Kerry finally &lt;b&gt;conceded&lt;/b&gt; defeat in the presidential race.</example></translation>
-            <translation>concedir</translation>
+            <translation transitive="true">admetre<example>Kerry finally &lt;b&gt;conceded&lt;/b&gt; defeat in the presidential race.</example></translation>
+            <translation transitive="true">concedir</translation>
+            <translation intransitive="true">cedir</translation>
         </translations>
     </verbs>
     </Entry>
@@ -11673,16 +11714,16 @@
     </Entry>
 <Entry frequency="153000000">conceive<verbs>
             <translations><date>0512</date>
-            <translation>[form a plan or idea] concebre</translation>
-            <translation>[become pregnant] concebre</translation>
-            <translation>[imagine] fer-se càrrec / imaginar</translation>
+            <translation transitive="true">[form a plan or idea] concebre</translation>
+            <translation transitive="true">[imagine] fer-se càrrec / imaginar</translation>
+            <translation intransitive="true">[become pregnant] concebre</translation>
         </translations>
     </verbs>   
     </Entry>    
 <Entry frequency="10600000">concentrate<verbs>
             <translations><date>0408</date>
-            <translation>concentrar</translation>
-            <translation>[~ on] [pay complete attention to] concentrar-se en</translation>
+            <translation intranstive="true">concentrar</translation>
+            <translation intransitive="true">[~ on] [pay complete attention to] concentrar-se en</translation>
         </translations>
     </verbs>
     <phrasalverbs>concentrate on
@@ -11754,10 +11795,10 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>concernir / incumbir / afectar<engexamp>Where men are concerned...</engexamp><catexamp>En qüestió d'homes...</catexamp></translation>
-            <translation>preocupar</translation>
-            <translation>tractar de / tenir a veure amb</translation>
-            <translation>[~ yourself with..] interessar-se per (o en)</translation>
+            <translation transitive="true">concernir / incumbir / afectar<engexamp>Where men are concerned...</engexamp><catexamp>En qüestió d'homes...</catexamp></translation>
+            <translation transitive="true">preocupar</translation>
+            <translation transitive="true">tractar de / tenir a veure amb</translation>
+            <translation transitive="true">[~ yourself with..] interessar-se per (o en)</translation>
         </translations>
     </verbs>
     <expressions>going concern
@@ -11850,10 +11891,11 @@
     </Entry>
 <Entry frequency="522000000">conclude<verbs>
         <translations><date>0512</date>
-            <translation>concloure / deduir / inferir</translation>
-            <translation register="formal">concloure / finalitzar / acabar / completar</translation>
-            <translation register="formal">concertar / pactar / acordar</translation>
-            <translation disambiguate="legal" register="formal">dictaminar</translation>
+            <translation transitive="true">[infer] concloure / deduir / inferir</translation>
+            <translation register="formal" transitive="true">[finish] concloure / finalitzar / acabar / completar</translation>
+            <translation register="formal" intransitive="true">[finish] concloure / finalitzar / acabar / completar</translation>
+            <translation register="formal" transitive="true">[reach agreement] concertar / pactar / acordar</translation>
+            <translation disambiguate="legal" register="formal" transitive="true">dictaminar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -11919,7 +11961,7 @@
         </adjectives>
         <verbs>
             <translations>
-                <translation>cobrir amb formigó</translation>
+                <translation transitive="true">cobrir amb formigó</translation>
             </translations>
         </verbs>
         <expressions>concrete jungle
@@ -11942,7 +11984,7 @@
 	</Entry>
 <Entry frequency="75800000">concur<verbs double="true">
         <translations><date>0512</date>
-            <translation register="formal">consentir / estar d'acord</translation>
+            <translation register="formal" intransitive="true">consentir / estar d'acord</translation>
         </translations>
     </verbs>
         <phrasalverbs>concur with
@@ -11972,7 +12014,7 @@
 	</Entry>
 <Entry frequency="8970000">condemn<verbs>
         <translations>
-            <translation>condemnar</translation>
+            <translation transitive="true">condemnar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -11998,8 +12040,8 @@
 	</Entry>
 <Entry frequency="898000">condescend<verbs>
         <translations>
-            <translation>dignar-se</translation>
-            <translation>tractar amb condescendència</translation>
+            <translation intransitive="true">dignar-se</translation>
+            <translation intransitive="true">tractar amb condescendència</translation>
         </translations>
     </verbs>
     <phrasalverbs>condescend to
@@ -12034,7 +12076,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>condicionar</translation>
+            <translation transitive="true">condicionar</translation>
         </translations>
     </verbs>
     <expressions>on condition that...
@@ -12093,7 +12135,7 @@
     </Entry>
     <Entry frequency="3580000">condone<verbs>
             <translations><date>0109</date>
-                <translation>aprovar / consentir<example>Whilst I can't &lt;b&gt;condone&lt;/b&gt; his behaviour, I do understand why he did what he did.</example></translation>
+                <translation transitive="true">aprovar / consentir<example>Whilst I can't &lt;b&gt;condone&lt;/b&gt; his behaviour, I do understand why he did what he did.</example></translation>
             </translations>
         </verbs>
     </Entry>
@@ -12156,8 +12198,8 @@
     </Entry>
 <Entry frequency="94300000">confer<verbs>
         <translations><date>0512</date>
-            <translation intransitive="true" register="formal">[~ with] canviar impressions / deliberar / consultar / confabular / secretejar</translation>
-            <translation transitive="true" register="formal">atorgar / conferir / concedir</translation>            
+            <translation intransitive="true" register="formal">[exchange views] canviar impressions / deliberar / consultar / confabular / secretejar</translation>
+            <translation transitive="true" register="formal">[give] atorgar / conferir / concedir</translation>            
         </translations>
     </verbs>
     </Entry>
@@ -12174,8 +12216,10 @@
     </Entry>
 <Entry frequency="185000000">confess<verbs>
         <translations><date>0512</date>
-            <translation>confessar</translation>
-            <translation>admetre / reconèixer<engexamp>I confess that...</engexamp><catexamp>Admeto que... / reconec que...</catexamp></translation>
+            <translation transitive="true">confessar / admetre / reconèixer<engexamp>I confess that...</engexamp><catexamp>Admeto que... / reconec que...</catexamp></translation>                       
+            <translation disambiguate="religious" transitive="true">confessar</translation>
+            <translation disambiguate="religious" intransitive="true">confessar-se</translation>
+            <translation intransitive="true">[a crime] confessar-se (culpable)</translation>
         </translations>
     </verbs>
     </Entry>    
@@ -12187,12 +12231,12 @@
     </Entry>
 <Entry frequency="23400000">confide<verbs>
         <translations><date>0512</date>
-            <translation>confiar / contar confidencialment</translation>
+            <translation transitive="true">confiar / contar confidencialment</translation>
         </translations>
     </verbs>
     <phrasalverbs>confide in
         <translations>
-            <translation intransitive="true">fiar-se d'(algú) [revelar a algú assumptes íntimes tot confiant-hi]<engexamp>To confide in a friend</engexamp><catexamp>Obrir el cor a un amic</catexamp></translation>
+            <translation intransitive="true">confiar en (algú) / fiar-se d'(algú) [revelar a algú assumptes íntimes tot confiant-hi]<engexamp>To confide in a friend.</engexamp><catexamp>Confiar en un amic / obrir el cor a un amic.</catexamp></translation>
         </translations>
     </phrasalverbs>
     </Entry>
@@ -12263,14 +12307,14 @@
     </Entry>
 <Entry frequency="17700000">configure<verbs>
         <translations>
-            <translation termcat="true">configurar</translation>
+            <translation termcat="true" transitive="true">configurar</translation>
         </translations>
     </verbs>
     </Entry>
 <Entry frequency="209000000">confine<verbs>
         <translations><date>0512</date>
-            <translation>confinar / recloure</translation>
-            <translation>[restrict / limit] restringir<engexamp>To be confined to (doing something)</engexamp><catexamp>Poder només (fer una cosa)</catexamp></translation>
+            <translation transitive="true">confinar / recloure</translation>
+            <translation transitive="true">[restrict / limit] restringir<engexamp>To be confined to (doing something).</engexamp><catexamp>Poder només (fer una cosa).</catexamp></translation>
         </translations>
     </verbs>
         <nouns>
@@ -12295,7 +12339,7 @@
     </Entry>
 <Entry frequency="34700000">confirm<verbs>
         <translations>
-            <translation>confirmar / afirmar / constatar</translation>
+            <translation transitive="true">confirmar / afirmar / constatar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -12313,7 +12357,7 @@
     </Entry>
     <Entry frequency="5500000">conflate<verbs>
         <translations><date>0512</date>
-            <translation register="formal">combinar</translation>
+            <translation register="formal" transitive="true">combinar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -12334,7 +12378,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>estar en pugna / discrepar-se / contradir-se</translation>
+            <translation intransitive="true">estar en pugna / discrepar-se / contradir-se</translation>
         </translations>
     </verbs>
     <expressions>to be in conflict
@@ -12357,8 +12401,8 @@
     </Entry>
 <Entry frequency="256000000">conform<verbs>
         <translations><date>0512</date>
-            <translation>conformar-se / acomodar-se / emmotllar-se / seguir un patró</translation>
-            <translation>[~ to, with] ajustar-se a / sotmetre's a</translation>
+            <translation intransitive="true">conformar-se / acomodar-se / emmotllar-se / seguir un patró</translation>
+            <translation intransitive="true">[~ to, with] ajustar-se a / sotmetre's a</translation>
         </translations>
     </verbs>    
 </Entry>
@@ -12408,8 +12452,8 @@
     </Entry>
 <Entry frequency="234000000">confront<verbs>
         <translations><date>0512</date>
-            <translation>[problem] afrontar</translation>
-            <translation>[enemy] enfrontar-se amb</translation>
+            <translation transitive="true">[problem] afrontar</translation>
+            <translation transitive="true">[enemy] enfrontar-se amb</translation>
         </translations>
     </verbs>
     </Entry>
@@ -12428,9 +12472,9 @@
     </Entry> 
 <Entry frequency="1250000000">confuse<verbs>
         <translations><date>0512</date>
-        <translation>[mix up] confondre</translation>
-            <translation>confondre / desconcertar / destarotar / atabalar</translation>
-            <translation>complicar</translation>
+        <translation transitive="true">[mix up] confondre</translation>
+            <translation transitive="true">confondre / desconcertar / destarotar / atabalar</translation>
+            <translation transitive="true">complicar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -12529,7 +12573,7 @@
     </Entry>
 <Entry frequency="1390000">congregate<verbs>
         <translations>
-            <translation intransitive="true">aplegar / congregar</translation>
+            <translation intransitive="true">aplegar-se / congregar-se</translation>
         </translations>
     </verbs>
     </Entry>
@@ -12575,7 +12619,7 @@
     </nouns>
         <verbs>
         <translations>
-        <translation>conjecturar</translation></translations></verbs>
+        <translation transitive="true">conjecturar</translation></translations></verbs>
     </Entry>
 <Entry frequency="1230000">conjugal<adjectives>
         <translations>
@@ -12585,7 +12629,7 @@
     </Entry>
 <Entry frequency="1460000">conjugate<verbs>
         <translations>
-            <translation catagory="linguistics">conjugar</translation>
+            <translation catagory="linguistics" transitive="true">conjugar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -12621,8 +12665,8 @@
     </Entry>
 <Entry frequency="7190000">conjure<verbs>
         <translations><date>0508</date>
-            <translation>fer jocs de mans<engnote>'Fer jocs de mans' means 'to conjure' in the sense 'to do magic tricks'.</engnote></translation>
-            <translation>conjurar<engnote>'Conjurar' means 'to conjure' in the sense 'to summon up evil spirits'.</engnote></translation>
+            <translation intransitive="true">[do magic tricks] fer jocs de mans</translation>
+            <translation transitive="true">[make sth appear] fer aparèixer</translation>
         </translations>
     </verbs>
     <phrasalverbs>conjure up
@@ -12661,9 +12705,9 @@
     </Entry>
 <Entry frequency="10300000">connect<verbs>
         <translations><date>0512</date>
-            <translation>connectar / unir / enllaçar / comunicar</translation>
-            <translation>relacionar</translation>
-            <translation>acoblar</translation>
+            <translation transitive="true">connectar / unir / enllaçar / comunicar</translation>
+            <translation transitive="true">relacionar</translation>
+            <translation transitive="true">acoblar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -12703,7 +12747,7 @@
 	</Entry>
 <Entry frequency="420000">connive<verbs>
            <translations><date>0508</date>
-            <translation register="disapproving">conspirar</translation>
+            <translation register="disapproving" intransitive="true">conspirar</translation>
         </translations>
     </verbs>
         <phrasalverbs>connive at
@@ -12729,7 +12773,7 @@
     </Entry>
 <Entry frequency="321000000">conquer<verbs>
         <translations><date>0512</date>
-            <translation>conquerir / conquistar / subjugar</translation>
+            <translation transitive="true">conquerir / conquistar / subjugar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -12826,7 +12870,7 @@
 	</Entry>
 <Entry frequency="2700000">consecrate<verbs>
         <translations>
-            <translation catagory="religious">consagrar</translation>
+            <translation catagory="religious" transitive="true">consagrar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -12864,7 +12908,7 @@
         </nouns>
         <verbs>
         <translations>
-            <translation>consentir / transigir</translation>
+            <translation intransitive="true">consentir / transigir</translation>
         </translations>
     </verbs>
        <phrasalverbs>consent to
@@ -12954,25 +12998,16 @@
     </Entry>
 <Entry frequency="4120000">conserve<verbs>
         <translations>
-            <translation>protegir<example>Our organization is working in over 50 countries to &lt;b&gt;conserve&lt;/b&gt; birds and their habitats</example>
-                <example>Sting is well known for his public efforts to &lt;b&gt;conserve&lt;/b&gt; Brazil's tropical rainforests</example>
-                <engnote>'Protegir' means 'conserve' in the sense 'protect' (endangered species etc.)</engnote>
-                <synonyms>protect</synonyms>
-            </translation>
-            <translation>estalviar<example>During the recent hot spell, local councils have been calling on residents to do their best to &lt;b&gt;conserve&lt;/b&gt; water</example>
-                <example>An easy way to &lt;b&gt;conserve&lt;/b&gt; energy is to switch off lights whenever you leave a room</example>
-                <example>The castaways huddled together to &lt;b&gt;conserve&lt;/b&gt; body heat</example>
-                <engnote>'Estalviar' means 'conserve' in the sense 'saving water or energy'.</engnote>
-                <synonyms>save</synonyms>
-            </translation>
+            <translation transitive="true">conservar / protegir / preservar<example>Our organization is working in over 50 countries to &lt;b&gt;conserve&lt;/b&gt; birds and their habitats.</example><example>Sting is well known for his public efforts to &lt;b&gt;conserve&lt;/b&gt; Brazil's tropical rainforests.</example><synonyms>protect</synonyms></translation>
+            <translation transitive="true">estalviar<example>During the recent hot spell, local councils have been calling on residents to do their best to &lt;b&gt;conserve&lt;/b&gt; water.</example><example>An easy way to &lt;b&gt;conserve&lt;/b&gt; energy is to switch off lights whenever you leave a room.</example><example>The castaways huddled together to &lt;b&gt;conserve&lt;/b&gt; body heat.</example><synonyms>save</synonyms></translation>
         </translations>
     </verbs>
     </Entry>
 <Entry frequency="4670000000">consider<verbs>
         <translations><date>0512</date>
-            <translation>considerar / examinar / estudiar / pensar / sospesar<engexamp>No punishment would be adequate considering what he did.</engexamp><catexamp>Cap càstig no seria adequat considerant el que va fer.</catexamp></translation>
-            <translation>tenir en compte</translation>
-            <translation>contemplar</translation>            
+            <translation transitive="true">considerar / examinar / estudiar / pensar / sospesar</translation>
+            <translation transitive="true">tenir en compte<example>No punishment would be adequate &lt;b&gt;considering&lt;/b&gt; what he did.</example></translation>
+            <translation transitive="true">contemplar</translation>            
         </translations>
     </verbs>
     <expressions>all things considered
@@ -13021,7 +13056,7 @@
     </Entry>
 <Entry frequency="8270000">consist<verbs>
         <translations>
-            <translation>(vegeu 'consist of')</translation>
+            <translation>-</translation>
         </translations>
     </verbs>
     <phrasalverbs>consist in
@@ -13068,13 +13103,13 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>consolar</translation>
+                <translation transitive="true">consolar</translation>
             </translations>
         </verbs>
     </Entry>
 <Entry frequency="2210000">consolidate<verbs>
         <translations>
-            <translation>consolidar</translation>
+            <translation transitive="true">consolidar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -13101,7 +13136,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>[~ with] tenir tractes amb</translation>
+            <translation intransitive="true">[~ with] tenir tractes amb</translation>
         </translations>
     </verbs>
     </Entry>
@@ -13153,7 +13188,7 @@
     </Entry>
 <Entry frequency="18700000">conspire<verbs>
         <translations><date>0612</date>
-            <translation>conspirar / intrigar / confabular-se<synonyms>plot</synonyms></translation>
+            <translation intransitive="true">conspirar / intrigar / confabular-se<synonyms>plot</synonyms></translation>
         </translations>
     </verbs>
     </Entry>
@@ -13219,7 +13254,7 @@
     </Entry>
     <Entry frequency="129000000">constitute<verbs>
 			<translations><date>0909</date>
-				<translation register="formal">constituir</translation>
+				<translation register="formal" transitive="true">constituir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -13250,7 +13285,7 @@
     </Entry>
 <Entry frequency="67500000">constrain<verbs>
         <translations><date>0612</date>
-            <translation>restringir<engexamp>Constrained by circumstances.</engexamp><catexamp>Obligat per les circumstàncies / esclau de les circumstàncies</catexamp></translation>
+            <translation transitive="true">restringir<engexamp>Constrained by circumstances.</engexamp><catexamp>Obligat per les circumstàncies / esclau de les circumstàncies.</catexamp></translation>
         </translations>
     </verbs>
     </Entry>
@@ -13266,11 +13301,11 @@
     </Entry>
 <Entry frequency="399000000">construct<verbs>
         <translations><date>0612</date>
-            <translation>construir<example>Bob's neighbours weren't happy when he &lt;b&gt;constructed&lt;/b&gt; a 20ft statue of Elvis Presley in his back garden.</example>
+            <translation transitive="true">[build] construir<example>Bob's neighbours weren't happy when he &lt;b&gt;constructed&lt;/b&gt; a 20ft statue of Elvis Presley in his back garden.</example>
                 <example>The Indians in Sioux Falls, Nevada are planning to &lt;b&gt;construct&lt;/b&gt; a 50ft bridge across the Colorado River.</example>
                 <synonyms>build</synonyms>
             </translation>
-            <translation>compondre / elaborar / conformar / estructurar</translation>
+            <translation transitive="true">[put together] compondre / elaborar / conformar / estructurar</translation>
         </translations>
     </verbs>
     <nouns>
@@ -13327,8 +13362,8 @@
     </Entry>
 <Entry frequency="28800000">consult<verbs>
         <translations>
-            <translation>consultar<example>When doing a piece of research, you should always try to keep a record of the sources you've &lt;b&gt;consulted&lt;/b&gt;.</example></translation>
-            <translation>consultar / demanar el parer / demanar l'opinió / assessorar-se<example>Before I can give you a final decision I'll have to &lt;b&gt;consult&lt;/b&gt; my wife.</example></translation>
+            <translation transitive="true">consultar<example>When doing a piece of research, you should always try to keep a record of the sources you've &lt;b&gt;consulted&lt;/b&gt;.</example></translation>
+            <translation transitive="true">consultar / demanar el parer / demanar l'opinió / assessorar-se<example>Before I can give you a final decision I'll have to &lt;b&gt;consult&lt;/b&gt; my wife.</example></translation>
         </translations>
     </verbs>
     </Entry>
@@ -13360,8 +13395,8 @@
 	</Entry>
 <Entry frequency="2240000">consume<verbs>
         <translations>
-            <translation>consumir</translation>
-            <translation>ingerir</translation>
+            <translation transitive="true">consumir</translation>
+            <translation transitive="true">[eat, drink] ingerir</translation>
         </translations>
     </verbs>
     </Entry>
@@ -13384,11 +13419,7 @@
     </Entry>
 <Entry frequency="629000000">contact<verbs>
         <translations>
-            <translation>contactar / posar-se en contacte amb<example>Ian &lt;b&gt;contacted&lt;/b&gt; a number of publishers to see if they were interested in his book, but none of them were</example>
-                <example>Dr Smith can be &lt;b&gt;contacted&lt;/b&gt; on 511 232 4333</example>
-                <engexamp>To contact someone</engexamp>
-                <catexamp>Contactar amb algú / posar-se en contacte amb algú</catexamp>
-            </translation>
+            <translation transitive="true">contactar / posar-se en contacte amb<example>Ian &lt;b&gt;contacted&lt;/b&gt; a number of publishers to see if they were interested in his book, but none of them were.</example><example>Dr Smith can be &lt;b&gt;contacted&lt;/b&gt; on 511 232 4333.</example></translation>
         </translations>
     </verbs>
         <nouns>
@@ -13424,11 +13455,9 @@
 	</Entry>
 <Entry frequency="97000000">contain<verbs>
         <translations>
-            <translation>contenir<example>Household paint bought before the 1970s is potentially dangerous as it could &lt;b&gt;contain&lt;/b&gt; lead</example>
-                <example>Coca Cola &lt;b&gt;contains&lt;/b&gt; lots of caffeine</example>
-                <example>Firefighters struggled to &lt;b&gt;contain&lt;/b&gt; the fire</example>
-                <example>When Andy found out that his wife was pregnant he was so happy he could barely &lt;b&gt;contain&lt;/b&gt; himself</example>
-            </translation>
+            <translation transitive="true">[have inside] contenir<example>Household paint bought before the 1970s is potentially dangerous as it could &lt;b&gt;contain&lt;/b&gt; lead.</example><example>Coca Cola &lt;b&gt;contains&lt;/b&gt; lots of caffeine.</example></translation>
+            <translation transitive="true">[fire, crowd] contenir<example>Firefighters struggled to &lt;b&gt;contain&lt;/b&gt; the fire</example></translation>
+            <translation intransitive="true">[~ yourself] contenir-se<example>When Andy found out that his wife was pregnant he was so happy he could barely &lt;b&gt;contain&lt;/b&gt; himself.</example></translation>
         </translations>
     </verbs>
     </Entry>
@@ -13503,8 +13532,8 @@
     </Entry>
 <Entry frequency="26700000">contend<verbs>
         <translations>
-            <translation register="formal">afirmar / asseverar / mantenir</translation>
-            <translation>competir (per) / disputar-se<engexamp>To contend for something</engexamp><catexamp>Competir per alguna cosa</catexamp></translation>
+            <translation register="formal" transitive="true">afirmar / asseverar / mantenir</translation>
+            <translation transitive="true">[~ for] competir (per) / disputar</translation>
         </translations>
     </verbs>
         <phrasalverbs>contend with (something)
@@ -13563,8 +13592,8 @@
     </nouns>
         <verbs>
         <translations>
-        <translation>disputar</translation>
-        <translation>impugnar</translation></translations></verbs>
+        <translation transitive="true">disputar</translation>
+        <translation transitive="true">impugnar</translation></translations></verbs>
     </Entry>
 <Entry frequency="623000">contestant<nouns>
         <translations>
@@ -13586,7 +13615,7 @@
 	</Entry>
 <Entry frequency="329000">contextualise<verbs>
 			<translations><date>0408</date>
-				<translation local="gb" gender="f">contextualitzar<otherlocal>contextualize</otherlocal></translation>
+				<translation local="gb" transitive="true">contextualitzar<otherlocal>contextualize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -13598,7 +13627,7 @@
 	</Entry>
 <Entry frequency="1810000">contextualize<verbs>
 			<translations><date>0408</date>
-				<translation>contextualitzar</translation>
+				<translation transitive="true">contextualitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -13649,7 +13678,8 @@
     </Entry>
 <Entry frequency="172000000">continue<verbs>
         <translations>
-            <translation>continuar</translation>
+            <translation transitive="true">continuar (amb) / seguir (amb)</translation>
+            <translation intransitive="true">continuar / seguir</translation>
         </translations>
     </verbs>
     </Entry>
@@ -13702,7 +13732,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation disambiguate="medical">contreure<synonyms>catch</synonyms>
+                <translation disambiguate="medical" transitive="true">contreure<synonyms>catch</synonyms>
                 </translation>
             </translations>
         </verbs>
@@ -13732,7 +13762,7 @@
 	</Entry>
 <Entry frequency="2630000">contradict<verbs>
         <translations>
-            <translation>contradir</translation>
+            <translation transitive="true">contradir</translation>
         </translations>
     </verbs>
     </Entry>
@@ -13750,7 +13780,7 @@
     </Entry>
      <Entry frequency="2090000">contraindicate<verbs>
             <translations><date>0110</date>
-                <translation>contraindicar</translation>
+                <translation transitive="true">contraindicar</translation>
             </translations>
         </verbs>
     </Entry>
@@ -13783,15 +13813,13 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>contrastar<engexamp>Contrast A and B</engexamp>
-                    <catexamp>Contrastar A amb B</catexamp>
-                </translation>
+                <translation transitive="true">contrastar<engexamp>Contrast A and B.</engexamp><catexamp>Contrastar A amb B.</catexamp></translation>
             </translations>
         </verbs>
     </Entry>
       <Entry frequency="304000">contravene<verbs>
                             <translations><date>0808</date>
-				<translation register="formal">contravenir</translation>
+				<translation register="formal" transitive="true">contravenir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -13803,7 +13831,7 @@
 	</Entry>
 <Entry frequency="44800000">contribute<verbs>
         <translations>
-            <translation>aportar / contribuir</translation>
+            <translation transitive="true">aportar / contribuir</translation>
         </translations>
     </verbs>
     </Entry>
@@ -13834,7 +13862,7 @@
     </Entry>
 <Entry frequency="236000000">control<verbs double="true">
         <translations><date>0109</date>
-            <translation>controlar</translation>
+            <translation transitive="true">controlar</translation>
         </translations>
     </verbs>
         <nouns>
@@ -13921,7 +13949,7 @@
     </Entry>
 <Entry frequency="4350000">convene<verbs>
         <translations>
-            <translation>convocar</translation>
+            <translation transitive="true">convocar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -13968,8 +13996,8 @@
     </Entry>
 <Entry frequency="26000000">converge<verbs>
         <translations><date>0610</date>
-            <translation>convergir</translation>
-            <translation>(~ on) confluir (a)</translation>
+            <translation intransitive="true">convergir</translation>
+            <translation intransitive="true">[~ on] confluir (a)</translation>
         </translations>
     </verbs>
     </Entry>
@@ -14005,7 +14033,7 @@
     </Entry>
 <Entry frequency="750000">converse<verbs>
             <translations><date>0508</date>
-            <translation register="formal">conversar</translation>
+            <translation register="formal" intransitive="true">conversar</translation>
         </translations>
     </verbs>
     <adjectives>
@@ -14033,7 +14061,7 @@
     </Entry>
 <Entry frequency="30800000">convert<verbs>
         <translations>
-            <translation>convertir</translation>
+            <translation transitive="true">convertir</translation>
         </translations>
     </verbs>
     </Entry>
@@ -14066,8 +14094,8 @@
     </Entry>
 <Entry frequency="33300000">convey<verbs>
 			<translations><date>1007</date>
-				<translation>transportar</translation>
-                                <translation>comunicar</translation>
+				<translation transitive="true">transportar</translation>
+                                <translation transitive="true">comunicar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -14084,12 +14112,12 @@
     </Entry>
 <Entry frequency="2170000">convict<nouns>
         <translations><date>0508</date>
-            <translation gender="m / f">presidiari</translation>
+            <translation gender="mf">presidiari</translation>
         </translations>
     </nouns>
         <verbs>
             <translations>
-                <translation>condemnar</translation>
+                <translation transitive="true">condemnar</translation>
             </translations>
         </verbs>
     </Entry>
@@ -14105,8 +14133,7 @@
     </Entry>
 <Entry frequency="29300000">convince<verbs>
         <translations>
-            <translation>convèncer<synonyms>persuade</synonyms>
-            </translation>
+            <translation transitive="true">convèncer<synonyms>persuade</synonyms></translation>
         </translations>
     </verbs>
     </Entry>
@@ -14126,7 +14153,7 @@
     </Entry>
         <Entry frequency="402000">convoke<verbs>
 			<translations><date>0808</date>
-				<translation register="formal">convocar<synonyms>convene</synonyms></translation>
+				<translation register="formal" transitive="true">convocar<synonyms>convene</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -14137,10 +14164,17 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>acomboiar<synonyms>escort</synonyms></translation>
+                <translation transitive="true">acomboiar<synonyms>escort</synonyms></translation>
             </translations>
         </verbs>
     </Entry>
+    <Entry frequency="3290000">convulse<verbs>
+			<translations><date>1212</date>
+				<translation transitive="true">convulsar / sacsejar</translation>
+                                <translation disambiguate="medical" intransitive="true">sofrir (o tenir) convulsions)</translation>
+			</translations>
+		</verbs>
+	</Entry>
 <Entry frequency="1330000">convulsion<nouns>
 			<translations><date>0407</date>
 				<translation termcat="medical" gender="f">convulsió</translation>
@@ -14149,8 +14183,8 @@
 	</Entry>
         <Entry frequency="1330000">coo<verbs>
 			<translations><date>0808</date>
-				<translation catagory="animal">parrupar / parrupejar / marrucar / marruquejar</translation>
-                                <translation>xiuxiuejar (alguna cosa) a cau d'orella</translation>
+				<translation catagory="animal" intransitive="true">parrupar / parrupejar / marrucar / marruquejar</translation>
+                                <translation intransitive="true">xiuxiuejar (alguna cosa) a cau d'orella</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>coo over
@@ -14182,7 +14216,8 @@
     </Entry>
 <Entry frequency="38700000">cook<verbs>
         <translations>
-            <translation>coure</translation>
+            <translation transitive="true">cuinar</translation>
+            <translation intransitive="true">cuinar</translation>
         </translations>
     </verbs>
     <phrasalverbs>cook up
@@ -14246,7 +14281,7 @@
     </adjectives>
     <verbs>
         <translations>
-            <translation>refredar / enfredorir</translation>
+            <translation transitive="true">refredar / enfredorir</translation>
         </translations>
     </verbs>
     <phrasalverbs>cool off
@@ -14308,7 +14343,7 @@
     </Entry>
 <Entry frequency="4830000">cooperate<verbs>
         <translations>
-            <translation>cooperar / col·laborar</translation>
+            <translation intransitive="true">cooperar / col·laborar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -14337,15 +14372,15 @@
     </Entry>
 <Entry frequency="1350000">co-opt<verbs><mistakes>coopt</mistakes>
 			<translations><date>1107</date>
-                        <translation>cooptar<example>At the last meeting, the following members were &lt;b&gt;co-opted&lt;/b&gt; to Council for the year...</example></translation>
-                        <translation>apropiar-se (indegudament) (d'un títol, d'un premi..)<example>Big business is trying to &lt;b&gt;co-opt&lt;/b&gt; the environmental message</example><example>Right-to-die groups &lt;b&gt;co-opted&lt;/b&gt; the Terri Schiavo case.</example></translation>
-                        <translation>absorbir / guanyar<example>The fledgling Labour Party was &lt;b&gt;co-opted&lt;/b&gt; by the Socialist Party</example></translation>
+                        <translation transitive="true">cooptar<example>At the last meeting, the following members were &lt;b&gt;co-opted&lt;/b&gt; to Council for the year...</example></translation>
+                        <translation transitive="true">apropiar-se (indegudament) (d'un títol, d'un premi..)<example>Big business is trying to &lt;b&gt;co-opt&lt;/b&gt; the environmental message.</example><example>Right-to-die groups &lt;b&gt;co-opted&lt;/b&gt; the Terri Schiavo case.</example></translation>
+                        <translation transitive="true">absorbir / guanyar<example>The fledgling Labour Party was &lt;b&gt;co-opted&lt;/b&gt; by the Socialist Party.</example></translation>
                     </translations>
 		</verbs>
 	</Entry>
 <Entry frequency="63000000">coordinate<verbs>
         <translations>
-            <translation>coordinar<synonyms>arrange, organize</synonyms>
+            <translation transitive="true">coordinar<synonyms>arrange, organize</synonyms>
             </translation>
         </translations>
     </verbs>
@@ -14423,7 +14458,7 @@
     </Entry>
 <Entry frequency="4700000">cope<verbs>
             <translations><date>1007</date>
-            <translation>apanyar-se<synonyms>manage, get by</synonyms></translation>
+            <translation intransitive="true">apanyar-se<synonyms>manage, get by</synonyms></translation>
         </translations>
     </verbs>
     <phrasalverbs>cope with
@@ -14522,9 +14557,8 @@
     </nouns>
         <verbs ie="true">
             <translations>
-                <translation>copiar / fer una còpia</translation>
-                <translation>imitar<engnote>'Imitar' means 'to copy' in the sense 'to mimic / imitate'.</engnote>
-                </translation>
+                <translation transitive="true">copiar / fer una còpia</translation>
+                <translation transitive="true">[mimic] imitar</translation>
             </translations>
         </verbs>
     </Entry>
@@ -14608,7 +14642,7 @@
         </nouns>
         <verbs>
         <translations>
-        <translation>lligar amb corda</translation>
+        <translation transitive="true">lligar amb corda</translation>
         </translations>
         </verbs>
         <expressions>umbilical cord
@@ -14705,13 +14739,14 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>acaparar<engnote>'Acaparar' means 'to corner' in the sense 'to corner a market'.</engnote></translation>
+                <translation transitive="true">arraconar</translation>
+                <translation transitive="true">[a market] acaparar</translation>
             </translations>
         </verbs>
-        <expressions>back (someone) into a corner
+        <expressions>to back (someone) into a corner
 			<translations>
-				<translation>arraconar<example>The three security guards &lt;b&gt;backed&lt;/b&gt; Sean &lt;b&gt;into a corner&lt;/b&gt; and started to beat him up</example>
-					<example>Firefighters returned to work after their month-long strike because they said they had been &lt;b&gt;backed into a corner&lt;/b&gt; by the unions and had no other choice</example>
+				<translation>arraconar<example>The three security guards &lt;b&gt;backed&lt;/b&gt; Sean &lt;b&gt;into a corner&lt;/b&gt; and started to beat him up.</example>
+					<example>Firefighters returned to work after their month-long strike because they said they had been &lt;b&gt;backed into a corner&lt;/b&gt; by the unions and had no other choice.</example>
 				</translation>
 			</translations>
 		</expressions>
@@ -14799,7 +14834,7 @@
     </Entry>
 <Entry frequency="50900000">correct<verbs>
         <translations>
-            <translation>corregir</translation>
+            <translation transitive="true">corregir</translation>
         </translations>
     </verbs>
         <adjectives>
@@ -14840,7 +14875,7 @@
     </Entry>
 <Entry frequency="12000000">correspond<verbs>
         <translations>
-            <translation>correspondre</translation>
+            <translation intransitive="true">correspondre</translation>
         </translations>
     </verbs>
     <phrasalverbs>correspond with
@@ -14875,8 +14910,7 @@
     </Entry>
 <Entry frequency="694000">corroborate<verbs>
         <translations>
-            <translation>corrobar<synonyms>back up, support</synonyms>
-            </translation>
+            <translation transitive="true">corrobar<synonyms>back up, support</synonyms></translation>
         </translations>
     </verbs>
     </Entry>
@@ -14911,7 +14945,7 @@
     </adjectives>
         <verbs>
             <translations>
-                <translation>corrompre</translation>
+                <translation transitive="true">corrompre</translation>
             </translations>
         </verbs>
     </Entry>
@@ -15037,14 +15071,15 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>costar
-                </translation>
+                <translation transitive="true">costar</translation>
+                <translation transitive="true">[cause to lose] costar</translation>
+                <translation transitive="true">calcular el cost de</translation>
             </translations>
         </verbs>
-        <expressions>cost an arm and a leg
+        <expressions>to cost an arm and a leg
         <translations>
         <translation register="colloquial">costar un ull de la cara / costar un ronyó</translation></translations></expressions>
-        <expressions>cost a bomb
+        <expressions>to cost a bomb
         <translations>
         <translation register="colloquial">costar un ull de la cara / costar un ronyó</translation></translations></expressions>
         <expressions>cost a fortune
@@ -15172,7 +15207,7 @@
     </Entry>
 <Entry frequency="1780000">cough<verbs>
         <translations>
-            <translation>tossir</translation>
+            <translation intransitive="true">tossir</translation>
         </translations>
     </verbs>
         <phrasalverbs>cough up
@@ -15226,7 +15261,7 @@
             <participle>counseled, counselled</participle>
             <gerund>counseling, counselling</gerund>
             <translations>
-                <translation>aconsellar</translation>
+                <translation transitive="true">aconsellar</translation>
             </translations>
         </verbs>
     </Entry>
@@ -15256,8 +15291,8 @@
     </Entry>
 <Entry frequency="243000000">count<verbs>
         <translations><date>0807</date>
-            <translation>comptar / comptabilitzar</translation>
-            <translation disambiguate="politics">escrutar<engnote>'Escrutar' means 'to count votes'.</engnote></translation>
+            <translation transitive="true">comptar / comptabilitzar</translation>
+            <translation disambiguate="politics" transitive="true">[votes] escrutar</translation>
         </translations>
     </verbs>
         <nouns>
@@ -15301,7 +15336,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation register="formal">aprovar / consentir</translation>
+                        <translation register="formal" transitive="true">aprovar / consentir</translation>                        
                         </translations>
                 </verbs>
 	</Entry>
@@ -15313,14 +15348,14 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>rebatre / refutar</translation>
-                <translation>replicar</translation>
+                <translation transitive="true">rebatre / refutar</translation>
                 <translation transitive="true">contrarestar<synonyms>counteract</synonyms></translation>
+                <translation intransitive="true">replicar</translation>
             </translations>
         </verbs>
         <adverbs>
             <translations>
-                <translation>(~ to) en contra de / contra</translation>
+                <translation>[~ to] en contra de / contra</translation>
             </translations>
         </adverbs>
     </Entry>
@@ -15337,7 +15372,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>contraatacar</translation>
+                <translation intransitive="true">contraatacar</translation>
             </translations>
         </verbs>
     </Entry>
@@ -15372,7 +15407,7 @@
         </nouns>
         <verbs>
             <translations>
-                <translation>falsificar</translation>
+                <translation transitive="true">falsificar</translation>
             </translations>
         </verbs>
     </Entry>
@@ -15455,7 +15490,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation disambiguate="computers" termcat="true">acoblar</translation>
+                <translation disambiguate="computers" termcat="true" transitive="true">acoblar</translation>
             </translations>
         </verbs>
     </Entry>
@@ -15534,7 +15569,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation register="dated">festejar</translation>
+                <translation register="dated" transitive="true">festejar</translation>
             </translations>
         </verbs>
         <expressions>Court of Appeal
@@ -15631,13 +15666,13 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>cobrir</translation>
+                <translation transitive="true">cobrir</translation>
             </translations>
         </verbs>
         <phrasalverbs>cover up
             <translations>
-                <translation>tapar<engnote>'Tapar' means 'to cover up' in a literal sense.</engnote></translation>
-                <translation>encobrir<engnote>'Encobrir' means 'to cover up' in the sense 'to cover up a wrongdoing'.</engnote></translation>
+                <translation transitive="true">tapar</translation>
+                <translation transitive="true">[a wrongdoing] encobrir</translation>
             </translations>
         </phrasalverbs>
         <expressions>cover plate
@@ -15674,7 +15709,7 @@
 	</Entry>
 <Entry frequency="463000">covet<verbs>
         <translations>
-            <translation register="formal">cobejar</translation>
+            <translation register="formal" transitive="true">cobejar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -15685,7 +15720,7 @@
     </nouns>
         <verbs>
         <translations>
-            <translation>acovardir / intimidar<example>King Abdullah says Jordan will not be &lt;b&gt;cowed&lt;/b&gt; into changing its policies.</example><example>Democrats &lt;b&gt;cowed&lt;/b&gt; Bush into a weak court choice.</example><catnote>Aquest verb s'utilitza més sovint (però no exclusivament) en veu passiva.</catnote></translation>
+            <translation transitive="true">acovardir / intimidar<example>King Abdullah says Jordan will not be &lt;b&gt;cowed&lt;/b&gt; into changing its policies.</example><example>Democrats &lt;b&gt;cowed&lt;/b&gt; Bush into a weak court choice.</example><catnote>Aquest verb s'utilitza més sovint (però no exclusivament) en veu passiva.</catnote></translation>
         </translations></verbs>
     </Entry>
 <Entry frequency="1540000">coward<nouns>
@@ -15773,13 +15808,14 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>esquerdar / esberlar</translation>
+                <translation transitive="true">esquerdar / esberlar</translation>
+                <translation intransitive="true">esquerdar-se / esberlar-se</translation>
             </translations>
         </verbs>
         <phrasalverbs>crack down on
             <translations>
-                <translation>controlar rigorosament / castigar<example>The Colombian government has pleged to &lt;b&gt;crack down on&lt;/b&gt; drug traffickers in the country</example>
-                    <example>European governments have expressed their intentions to &lt;b&gt;crack down on&lt;/b&gt; illegal immigration</example>
+                <translation>controlar rigorosament / castigar<example>The Colombian government has pleged to &lt;b&gt;crack down on&lt;/b&gt; drug traffickers in the country.</example>
+                    <example>European governments have expressed their intentions to &lt;b&gt;crack down on&lt;/b&gt; illegal immigration.</example>
                 </translation>
             </translations>
         </phrasalverbs>
@@ -15824,7 +15860,7 @@
     </Entry>
 <Entry frequency="620000">crackle<verbs>
             <translations><date>0408</date>
-                <translation>crepitar</translation>
+                <translation intransitive="true">crepitar</translation>
             </translations>
         </verbs>
     </Entry>
@@ -15837,7 +15873,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>bressolar</translation>
+                <translation transitive="true">bressolar</translation>
             </translations>
         </verbs>
         <expressions>cradle snatcher
@@ -15887,8 +15923,8 @@
 	</Entry>
 <Entry frequency="1070000">cram<verbs double="true">
         <translations>
-            <translation>omplir fins a dalt / atapeir</translation>
-            <translation disambiguate="education">empollar / clavar colzes<synonyms>swot</synonyms></translation>
+            <translation transitive="true">omplir fins a dalt / atapeir</translation>
+            <translation disambiguate="education" intransitive="true">empollar / clavar colzes<synonyms>swot</synonyms></translation>
         </translations>
     </verbs>
     </Entry>
@@ -15964,28 +16000,28 @@
                     <synonyms>rubbish</synonyms>
                 </translation>
                 <translation register="vulgar" gender="fpl">bestieses<synonyms>rubbish, drivel</synonyms>
-                    <engexamp>To talk crap</engexamp>
-                    <catexamp>Dir bestieses</catexamp>
+                    <engexamp>To talk crap.</engexamp>
+                    <catexamp>Dir bestieses.</catexamp>
                 </translation>
             </translations>
         </nouns>
         <adjectives>
             <translations>
-                <translation register="slang">de poc valor / inútil<example>This pen's &lt;b&gt;crap&lt;/b&gt;, it doesn't even write properly</example>
-                    <example>He gave her a really &lt;b&gt;crap&lt;/b&gt; birthday present which was unfair because she gave him a really nice gold watch</example>
-                    <catnote>'Crap' és un adjectiu que s'utilitza per significar que una cosa és de poc valor / inútil, bàsicament que no t'agrada gens.</catnote>
+                <translation register="slang">de poc valor / inútil<example>This pen's &lt;b&gt;crap&lt;/b&gt;, it doesn't even write properly.</example>
+                    <example>He gave her a really &lt;b&gt;crap&lt;/b&gt; birthday present which was unfair because she gave him a really nice gold watch.</example>
+                    <catnote>'Crap' és un adjectiu que s'utilitza per significar que una cosa és de poc valor o inútil, bàsicament que no t'agrada gens.</catnote>
                     <synonyms>useless</synonyms>
                 </translation>
             </translations>
         </adjectives>
         <verbs double="true">
             <translations>
-                <translation register="vulgar">cagar<synonyms>shit</synonyms></translation>
+                <translation register="vulgar" intransitive="true">cagar<synonyms>shit</synonyms></translation>
             </translations>
         </verbs>
         <phrasalverbs>crap out
             <translations>
-                <translation register="vulgar" local="us">fallar / no complir un compromís / perdre el coratge</translation>
+                <translation register="vulgar" local="us" intransitive="true">fallar / no complir un compromís / perdre el coratge</translation>
             </translations>
         </phrasalverbs>
         <phrasalverbs>crap up
@@ -16009,8 +16045,9 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>estavellar-se</translation>
-                <translation>col·lapsar-se / esfondrar-se</translation>
+                <translation transitive="true">fer estavellar</translation>
+                <translation intransitive="true">estavellar-se</translation>
+                <translation intransitive="true">col·lapsar-se / esfondrar-se</translation>
             </translations>
         </verbs>
         <phrasalverbs>crash into
@@ -16048,7 +16085,7 @@
     </Entry>
 <Entry frequency="1180000">crave<verbs>
 			<translations><date>0408</date>
-				<translation>gruar / anhelar (o desitjar) amb ànsies</translation>
+				<translation transitive="true">gruar / anhelar (o desitjar) amb ànsies</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -16060,7 +16097,7 @@
     </Entry>
 <Entry frequency="4330000">crawl<verbs>
         <translations>
-            <translation>gatejar / caminar de quatre grapes</translation>
+            <translation intransitive="true">gatejar / caminar de quatre grapes</translation>
         </translations>
     </verbs>
         <nouns>
@@ -16094,7 +16131,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>pintar amb ceres / pintar amb llapis de cera</translation>
+                <translation intransitive="true">pintar amb ceres / pintar amb llapis de cera</translation>
             </translations>
         </verbs>
     </Entry>
@@ -16159,7 +16196,7 @@
     </Entry>
 <Entry frequency="340000000">create<verbs>
         <translations>
-            <translation>crear / elaborar</translation>
+            <translation transitive="true">crear / elaborar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -16263,12 +16300,18 @@
 		</verbs>
                 <phrasalverbs>creep in
                     <translations>
-                        <translation>entrar (clandestinament i silenciosa)</translation>
+                        <translation intransitive="true">entrar (clandestinament i silenciosa)</translation>
                 </translations>
             </phrasalverbs>
                 <phrasalverbs>creep out
                     <translations>
-                        <translation>sortir (clandestinament i silenciosa)</translation>
+                        <translation intransitive="true">sortir (clandestinament i silenciosa)</translation>
+                    </translations>
+                </phrasalverbs>
+                <phrasalverbs>creep (somebody) out
+                    <translations>
+                        <translation register="colloquial" intransitive="true">repugnar / repulsar</translation>
+                        <translation register="colloquial" intransitive="true">posar els pèls de punta</translation>
                     </translations>
                 </phrasalverbs>
                 <phrasalverbs>creep up on
@@ -16297,7 +16340,7 @@
     </Entry>
 <Entry frequency="173000">cremate<verbs>
         <translations>
-            <translation>incinerar</translation>
+            <translation transitive="true">incinerar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -16443,8 +16486,8 @@
     </Entry>
       <Entry frequency="210000">criminalise<verbs>
 			<translations><date>0808</date>
-				<translation catagory="legal" local="gb">penalitzar<engnote>'Penalitzar' means 'criminalise' in the sense 'to make something illegal'.</engnote></translation>
-                                <translation local="gb">criminalitzar<engnote>'Criminalitzar' means 'criminalise' in the sense 'to treat as a criminal'.</engnote><otherlocal>criminalize</otherlocal></translation>
+				<translation catagory="legal" local="gb" transitive="true">[make illegal] penalitzar</translation>
+                                <translation local="gb" transitive="true">[treat as a criminal] criminalitzar<otherlocal>criminalize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -16456,8 +16499,8 @@
     </Entry>
     <Entry frequency="1740000">criminalize<verbs>
 			<translations><date>0808</date>
-				<translation catagory="legal">penalitzar<engnote>'Penalitzar' means 'criminalize' in the sense 'to make something illegal'.</engnote></translation>
-                                <translation>criminalitzar<engnote>'Criminalitzar' means 'criminalize' in the sense 'to treat as a criminal'.</engnote></translation>
+				<translation catagory="legal" transitive="true">[make illegal] penalitzar</translation>
+                                <translation transitive="true">[treat as a criminal] criminalitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -16486,9 +16529,9 @@
     </Entry>
 <Entry frequency="1460000">cringe<verbs>
         <translations>
-            <translation>encongir-se / acovardir-se</translation>
-            <translation>avergonyir-se</translation>
-            <translation>arrossegar-se / humiliar-se</translation>
+            <translation intransitive="true">encongir-se / acovardir-se</translation>
+            <translation intransitive="true">avergonyir-se</translation>
+            <translation intransitive="true">arrossegar-se / humiliar-se</translation>
         </translations>
     </verbs>
     </Entry>
@@ -16499,8 +16542,8 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>paralitzar</translation>
-                <translation>esguerrar / mutilar</translation>
+                <translation transitive="true">[bring to a halt] paralitzar</translation>
+                <translation transitive="true">[disable somebody] esguerrar / mutilar</translation>
             </translations>
         </verbs>
     </Entry>
@@ -16557,7 +16600,7 @@
     </Entry>
 <Entry frequency="369000">criticise<verbs>
         <translations>
-            <translation local="gb">criticar<otherlocal>criticize</otherlocal>
+            <translation local="gb" transitive="true">criticar<otherlocal>criticize</otherlocal>
             </translation>
         </translations>
     </verbs>
@@ -16570,7 +16613,7 @@
     </Entry>
 <Entry frequency="908000">criticize<verbs>
         <translations>
-            <translation local="us">criticar<otherlocal>criticise</otherlocal>
+            <translation local="us" transitive="true">criticar<otherlocal>criticise</otherlocal>
             </translation>
         </translations>
     </verbs>
@@ -16606,7 +16649,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>fer ganxet</translation>
+            <translation intransitive="true">fer ganxet</translation>
             <translation transitive="true">fer (una cosa) de ganxet</translation>
         </translations>
     </verbs>
@@ -16681,27 +16724,32 @@
     </nouns>
     <verbs double="true">
         <translations>
-            <translation>editar una foto, retallant el que no es vol</translation>
-            <translation>rapar<engnote>'Rapar' means 'to crop' in the sense 'to cut hair really short'.</engnote></translation>
+            <translation transitive="true">[photo] editar (una foto), retallant el que no es vol</translation>
+            <translation transitive="true">[hair] rapar</translation>
         </translations>
     </verbs>
     <phrasalverbs>crop out
     <translations>
-        <translation>editar una foto, retallant el que no es vol</translation>
+        <translation transitive="true">editar (una foto), retallant el que no es vol</translation>
     </translations>
     </phrasalverbs>
-    <phrasalverbs>crop up<translations><translation intransitive="true">sortir un imprevist, sorgir (inesperadament)</translation></translations></phrasalverbs></Entry>
+    <phrasalverbs>crop up
+        <translations>
+            <translation intransitive="true">sortir un imprevist / sorgir (inesperadament)</translation>
+        </translations>
+    </phrasalverbs>
+</Entry>
 <Entry frequency="159000">croquette<nouns>
         <translations>
-            <translation gender="f">croqueta</translation>
+            <translation catagory="food" gender="f">croqueta</translation>
         </translations>
     </nouns>
     </Entry>
 <Entry frequency="67500000">cross<verbs>
         <translations>
-            <translation>travessar / creuar</translation>
-            <translation>traspassar</translation>
-            <translation local="gb">barrar (xec)</translation>
+            <translation transitive="true">travessar / creuar</translation>
+            <translation transitive="true">traspassar</translation>
+            <translation local="gb" transitive="true">[a cheque] barrar (un xec)</translation>
         </translations>
     </verbs>
         <phrasalverbs>cross out
@@ -16870,7 +16918,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>coronar</translation>
+                <translation transitive="true">coronar</translation>
             </translations>
         </verbs>
     </Entry>
@@ -16900,7 +16948,7 @@
     </Entry>
 <Entry frequency="1200000">crucify<verbs ie="true">
         <translations>
-            <translation>crucificar</translation>
+            <translation transitive="true">crucificar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -16972,14 +17020,14 @@
 	</Entry>
 <Entry frequency="1980000">crumple<verbs>
         <translations>
-            <translation>rebregar / arrugar</translation>
-            <translation>ensorrar-se / esfondrar-se</translation>
+            <translation transitive="true">rebregar / arrugar</translation>
+            <translation intransitive="true">ensorrar-se / esfondrar-se</translation>
         </translations>
     </verbs>
     </Entry>
 <Entry frequency="4300000">crunch<verbs>
         <translations>
-            <translation>cruixir</translation>
+            <translation transitive="true">cruixir</translation>
         </translations>
     </verbs>
     </Entry>
@@ -17005,8 +17053,8 @@
     </Entry>
 <Entry frequency="11900000">crush<verbs>
         <translations><date>0807</date>
-            <translation>aixafar / aclaparar</translation>
-            <translation>fer pols<engnote>'Fer pols' means 'to crush' in the figurative sense.</engnote></translation>
+            <translation transitive="true">aixafar / aclaparar</translation>
+            <translation transitive="true">[fig.] fer pols</translation>
         </translations>
     </verbs>
     </Entry>
@@ -17048,9 +17096,9 @@
 	</Entry>
 <Entry frequency="164000000">cry<verbs ie="true">
         <translations><date>0708</date>
-            <translation>plorar<synonyms>weep</synonyms>
+            <translation intransitive="true">plorar<synonyms>weep</synonyms>
             </translation>
-            <translation>cridar<synonyms>shout, yell</synonyms></translation>
+            <translation intransitive="true">cridar<synonyms>shout, yell</synonyms></translation>
         </translations>
     </verbs>
         <phrasalverbs>cry down
@@ -17131,9 +17179,17 @@
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="2500000">crystallise<verbs>
+        <translations><date>1212</date>
+            <translation local="gb" transitive="true">cristal·litzar</translation>
+            <translation local="gb" intransitive="true">cristal·litzar<otherlocal>crystallize</otherlocal></translation>
+        </translations>
+    </verbs>
+    </Entry>        
 <Entry frequency="487000">crystallize<verbs>
         <translations>
-            <translation>cristal·litzar</translation>
+            <translation transitive="true">cristal·litzar</translation>
+            <translation intransitive="true">cristal·litzar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -17265,7 +17321,7 @@
     </Entry>
 <Entry frequency="1910000">cull<verbs>
         <translations>
-            <translation>sacrificar<catnote>'To cull' vol dir 'sacrificar animals (sobretot els més febles d'un grup) per tal de limitar el seu número'.</catnote></translation>
+            <translation transitive="true">sacrificar<catnote>'To cull' vol dir 'sacrificar animals (sobretot els més febles d'un grup) per tal de limitar el seu número'.</catnote></translation>
         </translations>
     </verbs>
         <nouns>
@@ -17295,7 +17351,7 @@
         </Entry>
 <Entry frequency="9750000">cultivate<verbs>
         <translations>
-            <translation>cultivar / conrear</translation>
+            <translation transitive="true">cultivar / conrear</translation>
         </translations>
     </verbs>
     </Entry>
@@ -17411,8 +17467,8 @@
     </nouns>
         <verbs>
         <translations>
-        <translation>limitar<example>China has &lt;b&gt;curbed&lt;/b&gt; free speech among its citizens.</example></translation>
-        <translation>controlar / contenir<example>The UN has warned Sudan that it faces punishment if militia violence is not &lt;b&gt;curbed&lt;/b&gt;.</example></translation>
+        <translation transitive="true">limitar<example>China has &lt;b&gt;curbed&lt;/b&gt; free speech among its citizens.</example></translation>
+        <translation transitive="true">controlar / contenir<example>The UN has warned Sudan that it faces punishment if militia violence is not &lt;b&gt;curbed&lt;/b&gt;.</example></translation>
     </translations>
 </verbs>
         <expressions>curb appeal
@@ -17429,7 +17485,8 @@
 	</Entry>
          <Entry frequency="477000">curdle<verbs>
                             <translations><date>0109</date>
-				<translation>(llet) quallar</translation>
+				<translation intransitive="true">quallar-se</translation>
+                                <translation transitive="true">quallar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -17440,7 +17497,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>guarir / curar</translation>
+                <translation transitive="true">guarir / curar</translation>
             </translations>
         </verbs>
     </Entry>
@@ -17583,7 +17640,10 @@
     </nouns>
         <verbs>
         <translations>
-        <translation>maleir<synonyms>hex (Am.)</synonyms></translation></translations></verbs>
+        <translation transitive="true">maleir<synonyms>hex (Am.)</synonyms></translation>
+        <translation intransitive="true">dir paraulotes<synonyms>swear</synonyms></translation>
+        </translations>
+        </verbs>
     </Entry>
 <Entry frequency="16100000">cursor<nouns>
         <translations>
@@ -17642,7 +17702,7 @@
     </Entry>
 <Entry frequency="2440000">cuss<verbs>
           <translations><date>0807</date>
-            <translation register="dated">maleir</translation>
+            <translation register="dated" local="us" intransitive="true">dir paraulotes</translation>
         </translations>
     </verbs>
     <phrasalverbs>cuss out
@@ -17731,7 +17791,7 @@
     </Entry>
     <Entry frequency="6220000">customise<verbs>
             <translations><date>0908</date>
-            <translation local="gb" termcat="true">personalitzar<otherlocal>customize</otherlocal></translation>
+            <translation local="gb" termcat="true" transitive="true">personalitzar<otherlocal>customize</otherlocal></translation>
         </translations>
     </verbs>
     </Entry>
@@ -17743,7 +17803,7 @@
     </Entry>
 <Entry frequency="32100000">customize<verbs>
         <translations>
-            <translation termcat="true">personalitzar</translation>
+            <translation termcat="true" transitive="true">personalitzar</translation>
         </translations>
     </verbs>
     </Entry>
@@ -17765,12 +17825,13 @@
         <participle>cut</participle>
         <gerund>cutting</gerund>
         <translations><date>0807</date>
-            <translation>tallar</translation>
-            <translation>retallar</translation>
+            <translation transitive="true">tallar</translation>
+            <translation transitive="true">retallar</translation>
         </translations>
     </verbs>
     <phrasalverbs>cut across
     <translations>
+        <translation intransitive="true">transcendir</translation>
         <translation intransitive="true">fer drecera per</translation>
     </translations>
 </phrasalverbs>
@@ -17955,7 +18016,7 @@
     </nouns>
         <verbs>
             <translations>
-                <translation>anar amb bicicleta</translation>
+                <translation intransitive="true">anar amb bicicleta</translation>
             </translations>
         </verbs>
     </Entry>
