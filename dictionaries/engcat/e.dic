@@ -174,7 +174,7 @@
 </Entry>
 <Entry frequency="4850000">earmark<verbs>
         <translations><date>1007</date>
-            <translation register="colloquial">assignar / destinar / reservar<example>The Government has &lt;b&gt;earmarked&lt;/b&gt; £15 million for humanitarian aid to Iraq.</example><example>Kevin Keegan has &lt;b&gt;earmarked&lt;/b&gt; David Seaman as a potential candidate to replace Peter Schmeichel in goal.</example></translation>
+            <translation register="colloquial" transitive="true">assignar / destinar / reservar<example>The Government has &lt;b&gt;earmarked&lt;/b&gt; £15 million for humanitarian aid to Iraq.</example><example>Kevin Keegan has &lt;b&gt;earmarked&lt;/b&gt; David Seaman as a potential candidate to replace Peter Schmeichel in goal.</example></translation>
         </translations>
     </verbs>
     <nouns>
@@ -196,15 +196,15 @@
     <past>earnt, earned</past>
     <participle>earnt, earned</participle>
         <translations><date>1008</date>
-            <translation>guanyar / cobrar<example>Figures due out next week are expected to show that academics in the UK &lt;b&gt;earn&lt;/b&gt; on average £30,000 a year less than their counterparts in the US.</example></translation>
+            <translation transitive="true">guanyar / cobrar<example>Figures due out next week are expected to show that academics in the UK &lt;b&gt;earn&lt;/b&gt; on average £30,000 a year less than their counterparts in the US.</example></translation>
         </translations>
     </verbs>
-    <expressions>earn a living
+    <expressions>to earn a living
         <translations>
             <translation>guanyar-se la vida</translation>
         </translations>
     </expressions>
-    <expressions>earn money
+    <expressions>to earn money
         <translations>
             <translation>guanyar diners</translation>
         </translations>
@@ -359,7 +359,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>alleujar / pal·liar</translation></translations></verbs>
+            <translation transitive="true">alleujar / pal·liar</translation></translations></verbs>
     <phrasalverbs>ease into
         <translations>
             <translation intransitive="true">fer entrar suaument a</translation>
@@ -515,7 +515,7 @@
 			<past>ate</past>
 			<participle>eaten</participle>
 			<translations>
-				<translation>menjar / consumir</translation>
+				<translation transitive="true">menjar / consumir</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>eat away
@@ -568,7 +568,7 @@
 	</Entry>
 <Entry frequency="135000">eavesdrop<verbs double="true">
 			<translations>
-				<translation>escoltar una conversa privada sense que els participants ho sàpiguen<example>You'll never hear anything good about yourself by &lt;b&gt;eavesdropping&lt;/b&gt; on other peoples' conversations!</example>
+				<translation intransitive="true">escoltar una conversa privada sense que els participants ho sàpiguen<example>You'll never hear anything good about yourself by &lt;b&gt;eavesdropping&lt;/b&gt; on other peoples' conversations!</example>
 					<example>Some conspiracy theorists believe that the FBI regularly &lt;b&gt;eavesdrop&lt;/b&gt; on their private telephone conversations</example>
 				</translation>
 			</translations>
@@ -581,8 +581,8 @@
     </nouns>
     <verbs>
         <translations>
-            <translation register="formal">baixar</translation>
-            <translation>[~ away] minvar</translation>
+            <translation register="formal" intransitive="true">baixar</translation>
+            <translation intransitive="true">[~ away] minvar</translation>
         </translations>     
     </verbs>
     <expressions>the ebb and flow
@@ -692,9 +692,9 @@
     <participle>echoed</participle>
     <gerund>echoing</gerund>
         <translations>
-            <translation>ressonar</translation>
-            <translation>repetir</translation>
-            <translation>evocar / estar inspirat (en)</translation>
+            <translation intransitive="true">ressonar</translation>
+            <translation transitive="true">repetir</translation>
+            <translation transitive="true">evocar / estar inspirat (en)</translation>
         </translations>
     </verbs> 
     <expressions>echo chamber
@@ -726,7 +726,7 @@
          <translation catagory="astronomy" gender="m">eclipsi</translation></translations></nouns>
          <verbs>
 			<translations>
-				<translation catagory="astronomy">eclipsar</translation>
+				<translation catagory="astronomy" transitive="true">eclipsar</translation>
 			</translations>
 		</verbs>
                 <expressions>lunar eclipse
@@ -804,7 +804,7 @@
 	</Entry>
 <Entry frequency="59800">economise<verbs>
 			<translations>
-				<translation local="gb">economitzar / reduir les despeses<otherlocal>economize</otherlocal></translation>
+				<translation local="gb" intransitive="true">economitzar / reduir les despeses<otherlocal>economize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -816,7 +816,7 @@
 	</Entry>
 <Entry frequency="117000">economize<verbs>
 			<translations>
-				<translation>economitzar / reduir les despeses</translation>
+				<translation intransitive="true">economitzar / reduir les despeses</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -969,7 +969,7 @@
 	</Entry>
 <Entry frequency="973000">edify<verbs ie="true">
                             <translations><date>1007</date>
-				<translation>edificar</translation>
+				<translation transitive="true">edificar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -987,7 +987,7 @@
 	</Entry>
 <Entry frequency="585000000">edit<verbs>
         <translations><date>0807</date>
-            <translation>editar</translation>
+            <translation transitive="true">editar</translation>
         </translations>
     </verbs>
     <phrasalverbs>edit in
@@ -1033,7 +1033,7 @@
 </Entry>
 <Entry frequency="8500000">educate<verbs>
 			<translations>
-				<translation>educar</translation>
+				<translation transitive="true">educar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1118,19 +1118,19 @@
 </Entry>
 <Entry frequency="750000">eff<verbs>
 			<translations>
-				<translation>paraula utilitzada en el phrasal verb 'to eff off' i en l'expressió 'to eff and blind'</translation>
-			</translations>
+				<translation>-</translation>                                    
+                        </translations>
 		</verbs>
                 <expressions>eff and blind
                 <translations>
                 <translation register="colloquial" local="gb">dir paraulotes<example>There was a gang of about 10 children aged from 8 to 14 &lt;b&gt;effing and blinding&lt;/b&gt; at one of my neighbours.</example><example>My neighbour used to &lt;b&gt;eff and blind&lt;/b&gt; at his wife all the time. It drove me so mad I moved house.</example></translation>
                 </translations>
                 </expressions>
-                <expressions>eff off
+                <phrasalverbs>eff off
                 <translations>
                 <translation register="offensive">fotre el camp<catnote>'Eff off' és un eufemisme de 'fuck off'.</catnote></translation>
                 </translations>
-                </expressions>
+                </phrasalverbs>
 	</Entry>
 <Entry frequency="101000000">effect<nouns>
 			<translations>
@@ -1531,7 +1531,7 @@
 	</Entry>
 <Entry frequency="187000">ejaculate<verbs>
 			<translations>
-				<translation>ejacular</translation>
+				<translation intransitive="true">ejacular</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1543,14 +1543,15 @@
 	</Entry>
 <Entry frequency="1300000">eject<verbs>
 			<translations>
-				<translation>expulsar</translation>
+				<translation transitive="true">expulsar</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="6800000">elaborate<verbs>
 			<translations>
-				<translation>aprofundir / desenvolupar</translation>
-                                <translation>estendre's / parlar extensament sobre</translation>
+				<translation transitive="true">aprofundir / desenvolupar</translation>
+                                <translation transitive="true">estendre's / parlar extensament sobre</translation>
+                                <translation intransitive="true">donar més detalls</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>elaborate on
@@ -1572,10 +1573,10 @@
 </Entry>        
 <Entry frequency="1770000">elapse<verbs>
 			<translations>
-				<translation>passar / acabar<example>No student will be allowed to leave the exam room until the full 3 hours have &lt;b&gt;elapsed&lt;/b&gt;</example>
-					<example>Bids will continue to be accepted until the deadline &lt;b&gt;elapses&lt;/b&gt;</example>
+				<translation intransitive="true">passar / acabar<example>No student will be allowed to leave the exam room until the full 3 hours have &lt;b&gt;elapsed&lt;/b&gt;.</example>
+					<example>Bids will continue to be accepted until the deadline &lt;b&gt;elapses&lt;/b&gt;.</example>
 				</translation>
-                                <translation>transcórrer</translation>
+                                <translation intransitive="true">transcórrer</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1617,8 +1618,8 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>donar un cop de colze a algú<engexamp>I elbowed him</engexamp>
-					<catexamp>Li vaig donar un cop de colze</catexamp>
+				<translation transitive="true">donar un cop de colze a algú<engexamp>I elbowed him.</engexamp>
+					<catexamp>Li vaig donar un cop de colze.</catexamp>
 				</translation>
 			</translations>
 		</verbs>
@@ -1649,12 +1650,12 @@
 	</Entry>
 <Entry frequency="67800000">elect<verbs>
                             <translations><date>1108</date>
-				<translation>elegir</translation>
+				<translation transitive="true">elegir</translation>
 			</translations>
 		</verbs>
                 <adjectives>
                     <translations>
-                        <translation>electe<engexamp>The president elect</engexamp><catexamp>El president electe</catexamp></translation>
+                        <translation>electe<engexamp>The president elect.</engexamp><catexamp>El president electe.</catexamp></translation>
                     </translations>
                 </adjectives>
 	</Entry>
@@ -1775,7 +1776,7 @@
 	</Entry>
 <Entry frequency="480000">electrocute<verbs>
 			<translations>
-				<translation>electrocutar</translation>
+				<translation transitive="true">electrocutar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2003,7 +2004,7 @@
 	</Entry>
 <Entry frequency="68800000">eliminate<verbs>
         <translations><date>0708</date>
-            <translation>eliminar / abolir</translation>
+            <translation transitive="true">eliminar / abolir</translation>
         </translations>
     </verbs>
     </Entry>
@@ -2178,13 +2179,13 @@
     </Entry>
 <Entry frequency="19300000">elucidate<verbs>
 			<translations>
-				<translation>dilucidar / elucidar / escatir</translation>
+				<translation intransitive="true">dilucidar / elucidar / escatir</translation>
 			</translations>
 		</verbs>
                 </Entry>
 <Entry frequency="1950000">elude<verbs>
 			<translations>
-				<translation>eludir</translation>
+				<translation transitive="true">eludir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2208,7 +2209,7 @@
 	</Entry>
 <Entry frequency="60000">emaciate<verbs>
 			<translations>
-				<translation>demacrar-se</translation>
+				<translation transitive="true">demacrar<engexamp>To become emaciated.</engexamp><catexamp>Demacrar-se.</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2232,7 +2233,9 @@
 	</Entry>
 <Entry frequency="689000000">email<verbs>
 			<translations>
-				<translation catagory="computers-internet">enviar un correu (electrònic)</translation>
+                            <translation catagory="computers-internet" transitive="true">enviar per correu (electrònic)<example>I mustn't forget to &lt;b&gt;email&lt;/b&gt; her those documents.</example></translation>
+				<translation catagory="computers-internet" intransitive="true">enviar un correu (electrònic)<example>Is he going to &lt;b&gt;email&lt;/b&gt; her?</example></translation>
+                                <translation catagory="computers-internet" intransitive="true">intercanviar correus (electrònics)<example>The friends used to write each other letters but now they just &lt;b&gt;email&lt;/b&gt;.</example></translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -2250,7 +2253,7 @@
 	</Entry>
 <Entry frequency="14600000">emanate<verbs>
         <translations><date>0912</date>
-            <translation>emetre</translation>
+            <translation transitive="true">emetre</translation>
         </translations>
     </verbs>
     <phrasalverbs>emanate from
@@ -2297,7 +2300,7 @@
 	</Entry>
 <Entry frequency="1500000">embarrass<verbs><mistakes>embarass</mistakes>
 			<translations>
-				<translation>fer passar vergonya / incomodar / posar en un compromís<engexamp>To embarrass oneself.</engexamp><catexamp>Posar-se en evidència.</catexamp></translation>
+				<translation transitive="true">fer passar vergonya / incomodar / posar en un compromís<engexamp>To embarrass oneself.</engexamp><catexamp>Posar-se en evidència.</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2335,13 +2338,13 @@
 	</Entry>
 <Entry frequency="259">embed<verbs double="true">
 			<translations>
-				<translation>incrustar<engexamp>Michael Kelly, embedded with the Third Infantry Division,  wrote...</engexamp><catexamp>Michael Kelly, integrat en la Tercera Divisió d'Infanteria, va escriure...</catexamp></translation>
+				<translation transitive="true">incrustar<engexamp>Michael Kelly, embedded with the Third Infantry Division,  wrote...</engexamp><catexamp>Michael Kelly, integrat en la Tercera Divisió d'Infanteria, va escriure...</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="4290000">embellish<verbs>
 			<translations>
-				<translation>adornar</translation>
+				<translation transitive="true">adornar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2360,7 +2363,7 @@
 	</Entry>
 <Entry frequency="72100">embezzle<verbs>
 			<translations>
-				<translation>malversar</translation>
+				<translation transitive="true">malversar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2393,8 +2396,8 @@
 	</Entry>
 <Entry frequency="34900000">embody<verbs ie="true">
 			<translations>
-				<translation>encarnar / plasmar / simbolitzar</translation>
-                                <translation register="formar">amalgamar</translation>                                
+				<translation transitive="true">encarnar / plasmar / simbolitzar</translation>
+                                <translation register="formal" transitive="true">amalgamar</translation>                                
 			</translations>
 		</verbs>
 	</Entry>
@@ -2406,8 +2409,8 @@
 </Entry>        
 <Entry frequency="1500000">emboss<verbs>
 			<translations><date>0507</date>
-				<translation>marcar (o estampar o gravar) en relleu</translation>
-                                <translation>repujar / repussar<engnote>'Repujar' and 'repussar' mean to emboss metal or leather.</engnote></translation>
+				<translation transitive="true">marcar (o estampar o gravar) en relleu</translation>
+                                <translation transitive="true">[metal or leather] repujar / repussar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2435,8 +2438,8 @@
 	</Entry>
 <Entry frequency="9730000">embroider<verbs>
 			<translations>
-				<translation>brodar</translation>
-                                <translation>adornar / exagerar</translation>
+				<translation transitive="true">brodar</translation>
+                                <translation transitive="true">[a story] adornar / exagerar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2450,7 +2453,7 @@
 	</Entry>
 <Entry frequency="211000">embroil<verbs>
         <translations>
-            <translation register="formal">embolicar / implicar</translation>
+            <translation register="formal" transitive="true">embolicar / implicar</translation>
 	</translations>
     </verbs>
 </Entry>
@@ -2487,7 +2490,7 @@
 	</Entry>    
 <Entry frequency="6120000">emerge<verbs>
 			<translations>
-				<translation>sorgir / aparèixer / sortir / emergir</translation>
+				<translation intransitive="true">sorgir / aparèixer / sortir / emergir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2537,7 +2540,7 @@
 </Entry>
 <Entry frequency="1600000">emigrate<verbs>
 			<translations>
-				<translation>emigrar</translation>
+				<translation intransitive="true">emigrar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2596,7 +2599,7 @@
 	</Entry>
 <Entry frequency="10600000">emit<verbs double="true">
 			<translations>
-				<translation>emetre</translation>
+				<translation transitive="true">emetre</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2663,17 +2666,17 @@
 	</Entry>
 <Entry frequency="12400000">emphasise<verbs>
 			<translations>
-				<translation local="gb">posar èmfasi (en) / fer èmfasi (en)<otherlocal>emphasize</otherlocal></translation>
-                                <translation>recalcar</translation>
-                                <translation>posar de relleu / posar de manifest</translation>
+				<translation local="gb" transitive="true">posar èmfasi (en) / fer èmfasi (en)<otherlocal>emphasize</otherlocal></translation>
+                                <translation transitive="true">recalcar</translation>
+                                <translation transitive="true">posar de relleu / posar de manifest</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="12400000">emphasize<verbs>
 			<translations>
-				<translation>posar èmfasi (en) / fer èmfasi (en)</translation>
-                                <translation>recalcar</translation>
-                                <translation>posar de relleu / posar de manifest</translation>
+				<translation transitive="true">posar èmfasi (en) / fer èmfasi (en)</translation>
+                                <translation transitive="true">recalcar</translation>
+                                <translation transitive="true">posar de relleu / posar de manifest</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2703,8 +2706,8 @@
 	</Entry>
 <Entry frequency="20900000">employ<verbs>
 			<translations>
-				<translation>donar feina a</translation>
-                                <translation>servir-se de / recórrer a</translation>
+				<translation transitive="true">donar feina a</translation>
+                                <translation transitive="true">servir-se de / recórrer a</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2735,8 +2738,8 @@
 	</Entry>
 <Entry frequency="45000000">empower<verbs>
         <translations><date>0912</date>
-            <translation>donar permís / permetre</translation>
-            <translation>capacitar / facultar</translation>
+            <translation transitive="true">donar permís / permetre</translation>
+            <translation transitive="true">capacitar / facultar</translation>
 	</translations>
     </verbs>
 </Entry>
@@ -2755,7 +2758,7 @@
 	</Entry>
 <Entry frequency="14500000">empty<verbs ie="true">
 			<translations>
-				<translation>buidar</translation>
+				<translation transitive="true">buidar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>empty out
@@ -2812,7 +2815,7 @@
                 <participle>enameled, enamelled</participle>
                 <gerund>enameling, enamelling</gerund>
                 <translations>
-                <translation>esmaltar</translation></translations></verbs>
+                <translation transitive="true">esmaltar</translation></translations></verbs>
 	</Entry>
 <Entry frequency="573000">encapsulant<nouns>
 			<translations><date>0307</date>
@@ -2864,7 +2867,7 @@
 </Entry>  
 <Entry frequency="2870000">encircle<verbs>
                             <translations><date>0708</date>
-				<translation>cenyir / envoltar / encerclar</translation>
+				<translation transitive="true">cenyir / envoltar / encerclar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2876,8 +2879,8 @@
 </Entry>          
 <Entry frequency="18000000">enclose<verbs>
 			<translations>
-				<translation>adjuntar<engnote>'Adjuntar' means to 'enclose' in the sense 'He enclosed his CV (with his application)'.</engnote></translation>
-                                <translation>envoltar / cenyir<engnote>'Envoltar' and 'cenyir' mean 'to enclose' in the sense 'to surround something'.</engnote></translation>
+				<translation transitive="true">[place in same package] adjuntar<example>Gerard &lt;b&gt;enclosed&lt;/b&gt; his CV with the application form.</example></translation>
+                                <translation transitive="true">[surround] envoltar / cenyir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2890,19 +2893,19 @@
 	</Entry>
 <Entry frequency="8280000">encode<verbs>
 			<translations>
-				<translation>codificar</translation>
+				<translation transitive="true">codificar</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="21600000">encompass<verbs>
         <translations>
-            <translation>englobar / incloure / abraçar / contenir</translation>
+            <translation transitive="true">englobar / incloure / abraçar / contenir</translation>
         </translations>
     </verbs>
 </Entry>
 <Entry frequency="720000000">encounter<verbs>
         <translations><date>0912</date>
-            <translation>trobar(-se amb)</translation>            
+            <translation transitive="true">trobar(-se amb)</translation>            
         </translations>
     </verbs>
     <nouns>
@@ -2913,8 +2916,8 @@
 </Entry>        
 <Entry frequency="46100000">encourage<verbs>
 			<translations>
-				<translation>animar / encoratjar / engrescar</translation>
-                                <translation>incentivar / impulsar / incitar / esperonar</translation>
+				<translation transitive="true">animar / encoratjar / engrescar</translation>
+                                <translation transitive="true">incentivar / impulsar / incitar / esperonar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2926,7 +2929,7 @@
 	</Entry>    
         <Entry frequency="1480000">encroach<verbs>
                             <translations><date>1108</date>
-				<translation intransitive="true">(~ on / upon) envair</translation>
+				<translation intransitive="true">[~ on / ~ upon] envair</translation>
                                 <translation intransitive="true">extralimitar-se / ultrapassar(-se)</translation>
 			</translations>
 		</verbs>
@@ -2943,7 +2946,7 @@
 </Entry>        
 <Entry frequency="6970000">encrypt<verbs>
 			<translations><date>0507</date>
-				<translation>xifrar / encriptar<engnote>Until 2007 'encriptar' was considered an Anglicism and the only accepted translation of 'encrypt' was 'xifrar'.</engnote></translation>
+				<translation transitive="true">xifrar / encriptar<engnote>Until 2007 'encriptar' was considered an Anglicism and the only accepted translation of 'encrypt' was 'xifrar'.</engnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2960,8 +2963,8 @@
 	</Entry>
 <Entry frequency="8240000">encumber<verbs>
         <translations><date>0912</date>
-            <translation register="formal">fer nosa</translation>
-            <translation register="formal">carregar</translation>
+            <translation register="formal" transitive="true">fer nosa</translation>
+            <translation register="formal" transitive="true">carregar</translation>
         </translations>
     </verbs>
 </Entry>        
@@ -2996,7 +2999,8 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>terminar</translation>
+            <translation transitive="true">terminar / acabar / concloure</translation>
+            <translation intransitive="true">acabar / terminar</translation>
         </translations>
     </verbs>
     <phrasalverbs>end up
@@ -3097,7 +3101,7 @@
 </Entry>
 <Entry frequency="17500000">endanger<verbs>
         <translations>
-            <translation>fer perillar / posar en perill</translation>
+            <translation transitive="true">fer perillar / posar en perill</translation>
         </translations>
     </verbs>
 </Entry>
@@ -3115,7 +3119,7 @@
 </Entry>        
 <Entry frequency="6960000">endear<verbs>
         <translations><date>0912</date>
-            <translation>[~ yourself to somebody] guanyar-se (o conquistar) la benevolència (d'algú)</translation>
+            <translation transitive="true">[~ yourself to somebody] guanyar-se (o conquistar) la benevolència (d'algú)</translation>
         </translations>
     </verbs>
 </Entry>
@@ -3128,7 +3132,7 @@
 </Entry>
 <Entry frequency="57200000">endeavor<verbs>
         <translations>
-            <translation register="formal" local="us">esforçar-se / consagrar-se / aplicar-se (a conseguir una cosa)<otherlocal>endeavour</otherlocal><example>Although we &lt;b&gt;endeavor&lt;/b&gt; to provide accurate information, there can be no guarantee of the accuracy of any resources provided on this website.</example></translation>
+            <translation register="formal" local="us" transitive="true">esforçar-se / consagrar-se / aplicar-se (a conseguir una cosa)<otherlocal>endeavour</otherlocal><example>Although we &lt;b&gt;endeavor&lt;/b&gt; to provide accurate information, there can be no guarantee of the accuracy of any resources provided on this website.</example></translation>
         </translations>
     </verbs>
     <nouns>
@@ -3155,7 +3159,7 @@
 </Entry>
 <Entry frequency="1760000">endeavour<verbs>
         <translations>
-            <translation register="formal" local="gb">esforçar-se / consagrar-se / aplicar-se (a conseguir una cosa)<otherlocal>endeavor</otherlocal><example>Although we &lt;b&gt;endeavour&lt;/b&gt; to provide accurate information, there can be no guarantee of the accuracy of any resources provided on this website.</example></translation>
+            <translation register="formal" local="gb" transitive="true">esforçar-se / consagrar-se / aplicar-se (a conseguir una cosa)<otherlocal>endeavor</otherlocal><example>Although we &lt;b&gt;endeavour&lt;/b&gt; to provide accurate information, there can be no guarantee of the accuracy of any resources provided on this website.</example></translation>
         </translations>
     </verbs>
     <nouns>
@@ -3281,8 +3285,8 @@
 </Entry>        
 <Entry frequency="25000000">endure<verbs>
 			<translations>
-				<translation>aguantar / resistir / suportar</translation>
-                                <translation>perdurar</translation>
+				<translation transitive="true">aguantar / resistir / suportar</translation>
+                                <translation transitive="true">perdurar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3323,13 +3327,13 @@
 	</Entry>
 <Entry frequency="530000">energise<verbs>
 			<translations>
-				<translation local="gb">dinamitzar<otherlocal>energize</otherlocal></translation>
+				<translation local="gb" transitive="true">dinamitzar<otherlocal>energize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="4030000">energize<verbs>
 			<translations>
-				<translation local="us">dinamitzar<otherlocal>energise</otherlocal></translation>
+				<translation transitive="true">dinamitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3376,7 +3380,7 @@
 	</Entry>
 <Entry frequency="4640000">enforce<verbs>
 			<translations>
-				<translation>fer complir / imposar / obligar / forçar / ratificar / posar en vigor</translation>
+				<translation transitive="true">fer complir / imposar / obligar / forçar / ratificar / posar en vigor</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3391,8 +3395,8 @@
 	</Entry>
 <Entry frequency="29000">engage<verbs>
         <translations>
-            <translation register="formal">contractar</translation>
-            <translation register="formal">cridar / atreure (l'atenció)</translation>
+            <translation register="formal" transitive="true">contractar</translation>
+            <translation register="formal" transitive="true">cridar / atreure (l'atenció)</translation>
         </translations>
     </verbs>
     <expressions>to be engaged
@@ -3444,7 +3448,7 @@
 </Entry>    
 <Entry frequency="3150000">engender<verbs>
         <translations><date>0309</date>
-            <translation register="formal">engendrar</translation>
+            <translation register="formal" transitive="true">engendrar</translation>
         </translations>
     </verbs>
 </Entry>
@@ -3462,8 +3466,8 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>dissenyar / fabricar / manipular</translation>
-                        <translation>organitzar / preparar<engexamp>Meticulously engineered.</engexamp><catexamp>Preparat fins a l'últim detall.</catexamp></translation>
+                        <translation transitive="true">dissenyar / fabricar / manipular</translation>
+                        <translation transitive="true">organitzar / preparar<engexamp>Meticulously engineered.</engexamp><catexamp>Preparat fins a l'últim detall.</catexamp></translation>
                     </translations>
                 </verbs>
 	</Entry>
@@ -3512,7 +3516,7 @@
 	</Entry>
 <Entry frequency="1200000">engrave<verbs>
 			<translations>
-				<translation>gravar</translation>
+				<translation transitive="true">gravar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3543,15 +3547,15 @@
 </Entry>       
 <Entry frequency="35900000">engulf<verbs>
                             <translations><date>0912</date>
-				<translation>engolir / empassar-se / devorar / inundar / absorbir</translation>
+				<translation transitive="true">engolir / empassar-se / devorar / inundar / absorbir</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="345000000">enhance<verbs>
         <translations><date>0912</date>
-            <translation>realçar / ressaltar / accentuar / posar de relleu</translation>
-            <translation>magnificar</translation>
-            <translation>millorar / enriquir</translation>
+            <translation transitive="true">realçar / ressaltar / accentuar / posar de relleu</translation>
+            <translation transitive="true">magnificar</translation>
+            <translation transitive="true">millorar / enriquir</translation>
         </translations>
     </verbs>
 </Entry>        
@@ -3563,7 +3567,7 @@
 	</Entry>
 <Entry frequency="73900000">enjoy<verbs>
                             <translations><date>0508</date>
-				<translation>gaudir de... / complaure's (a)... / apreciar (la companyia d'una persona)<engnote>'Disfrutar' is also used widely in Catalan meaning 'to enjoy'. However, it is a castellanisme.</engnote></translation>
+				<translation transitive="true">gaudir de... / complaure's (a)... / apreciar (la companyia d'una persona)<engnote>'Disfrutar' is also used widely in Catalan meaning 'to enjoy'. However, it is a castellanisme.</engnote></translation>
 			</translations>
 		</verbs>
                 <expressions>enjoy yourself
@@ -3580,8 +3584,8 @@
 	</Entry>
 <Entry frequency="9720000">enlarge<verbs>
                             <translations><date>0708</date>
-				<translation>ampliar / eixamplar</translation>
-				<translation>engrandir / engrossir</translation>
+				<translation transitive="true">ampliar / eixamplar</translation>
+				<translation transitive="true">engrandir / engrossir</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>enlarge upon
@@ -3695,10 +3699,10 @@
 </Entry>
 <Entry frequency="704000">enquire<verbs>
 			<translations>
-				<translation local="gb" register="formal">demanar / sol·licitar informació (sobre)<example>Now hiring: &lt;b&gt;enquire&lt;/b&gt; within</example>
+				<translation local="gb" register="formal" intransitive="true">demanar / sol·licitar informació<example>Now hiring: &lt;b&gt;enquire&lt;/b&gt; within.</example>
 					<otherlocal>inquire</otherlocal>
 				</translation>
-				<translation local="gb" register="formal">preguntar<example>May I &lt;b&gt;enquire&lt;/b&gt; as to which journals you cited in your literature review?</example>
+				<translation local="gb" register="formal" transitive="true">preguntar<example>May I &lt;b&gt;enquire&lt;/b&gt; as to which journals you cited in your literature review?</example>
 					<otherlocal>inquire</otherlocal>
 				</translation>
 			</translations>
@@ -3722,13 +3726,13 @@
 	</Entry>
 <Entry frequency="374000">enrapture<verbs>
 			<translations>
-				<translation>embadalir / captivar</translation>
+				<translation transitive="true">embadalir / captivar</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="101000000">enrich<verbs>
 			<translations>
-				<translation>enriquir</translation>
+				<translation transitive="true">enriquir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3740,7 +3744,8 @@
 	</Entry>
 <Entry frequency="301000">enrol<verbs double="true">
         <translations>
-            <translation local="gb">matricular-se<otherlocal>enroll</otherlocal></translation>
+            <translation local="gb" intransitive="true">matricular-se</translation>
+            <translation local="gb" transitive="true">matricular<otherlocal>enroll</otherlocal></translation>
         </translations>
     </verbs>
     <phrasalverbs>enrol for
@@ -3751,7 +3756,8 @@
 </Entry>
 <Entry frequency="1960000">enroll<verbs>
         <translations>
-            <translation local="us">matricular-se<otherlocal>enrol</otherlocal></translation>
+            <translation local="us" intransitive="true">matricular-se</translation>
+            <translation local="us" transitive="true">matricular<otherlocal>enrol</otherlocal></translation>
         </translations>
     </verbs>
     <phrasalverbs>enroll for
@@ -3776,7 +3782,7 @@
 	</Entry>
 <Entry frequency="791000">ensconce<verbs>
         <translations><date>0912</date>
-            <translation>-<engexamp>To ensconce yourself.</engexamp><catexamp>Aposentar-se / arrepapar-se / apostar-se.</catexamp><engexamp>To be ensconced in...</engexamp><catexamp>Estar instal·lat (comòmodament) a...</catexamp></translation>
+            <translation>-<engexamp>To ensconce yourself.</engexamp><catexamp>Aposentar-se / arrepapar-se / apostar-se.</catexamp><engexamp>To be ensconced in...</engexamp><catexamp>Estar instal·lat (comòdament) a...</catexamp></translation>
         </translations>
     </verbs>
 </Entry>        
@@ -3788,7 +3794,7 @@
 </Entry>
 <Entry frequency="7520000">enshrine<verbs>
         <translations><date>0912</date>
-            <translation>consagrar<engexamp>The principles, values and fundamental rights enshrined in the Constitution.</engexamp><catexamp>Els principis, valors i drets fonamentals que la Constitució consagra.</catexamp></translation>
+            <translation transitive="true">consagrar<engexamp>The principles, values and fundamental rights enshrined in the Constitution.</engexamp><catexamp>Els principis, valors i drets fonamentals que la Constitució consagra.</catexamp></translation>
         </translations>
     </verbs>
 </Entry>
@@ -3806,7 +3812,7 @@
 	</Entry>
 <Entry frequency="33100000">ensure<verbs>
 			<translations>
-				<translation>assegurar / garantir</translation>
+				<translation transitive="true">assegurar / garantir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3818,7 +3824,8 @@
 	</Entry>
 <Entry frequency="25800000">entangle<verbs>
         <translations><date>0912</date>
-            <translation>enredar<engexamp>To become entangled in (a net, etc.)</engexamp><catexamp>Enredar-se en (una xarxa, etc.)</catexamp><engexamp>To become entangled in (a difficult situation).</engexamp><catexamp>Veure's involucrat en (una situació difícil).</catexamp></translation>
+            <translation transitive="true">enredar<engexamp>To become entangled in (a net, etc.)</engexamp><catexamp>Enredar-se en (una xarxa, etc.)</catexamp></translation>
+            <translation transitive="true">enredar / involucrar<engexamp>To become entangled in (a difficult situation).</engexamp><catexamp>Veure's involucrat en (una situació difícil).</catexamp></translation>
         </translations>
     </verbs>
 </Entry>        
@@ -3833,8 +3840,11 @@
 </Entry>
 <Entry frequency="343000000">enter<verbs>
         <translations>
-            <translation>entrar</translation>
-            <translation>accedir</translation>
+            <translation transitive="true">entrar a</translation>
+            <translation intransitive="true">entrar</translation>
+            <translation transitive="true">anotar / escriure</translation>
+            <translation transitive="true">[data in a system] introduir</translation>
+            <translation transitive="true">[competition] participar en</translation>
 	</translations>
     </verbs>
     <phrasalverbs>enter upon
@@ -3864,10 +3874,12 @@
 	</Entry>
 <Entry frequency="302000000">entertain<verbs>
 			<translations><date>0912</date>
-				<translation>entretenir</translation>
-                                <translation>[a hope, fantasy, etc.] alimentar</translation>
-                                <translation>[an idea] acariciar</translation>
-                                <translation>fer els honors (de la casa)</translation>
+				<translation transitive="true">entretenir</translation>
+                                <translation intransitive="true">entretenir</translation>
+                                <translation transitive="true">[a hope, fantasy, etc.] alimentar</translation>
+                                <translation transitive="true">[an idea] acariciar</translation>
+                                <translation transitive="true">rebre (convidats a casa)</translation>
+                                <translation intransitive="true">fer els honors (de la casa)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3950,7 +3962,7 @@
 	</Entry>
         <Entry frequency="3370000">entice<verbs>
                             <translations><date>1008</date>
-				<translation>atraure / seduir</translation>
+				<translation transitive="true">atraure / seduir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3980,7 +3992,7 @@
 </Entry>        
         <Entry frequency="105000000">entitle<verbs>
                             <translations><date>0309</date>
-				<translation transitive="true">(~ somebody to something) donar dret a (alguna cosa) (a algú)</translation>
+				<translation transitive="true">[~ somebody to something] donar dret a (alguna cosa) (a algú)</translation>
                                 <translation transitive="true">titular</translation>
 			</translations>
 		</verbs>
@@ -4001,7 +4013,7 @@
 	</Entry>
 <Entry frequency="391000">entomb<verbs>
 			<translations>
-				<translation>sepultar / enterrar / inhumar</translation>
+				<translation transitive="true">sepultar / enterrar / inhumar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4029,7 +4041,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>encisar / embadalir</translation>
+                        <translation transitive="true">encisar / embadalir</translation>
                     </translations>
                 </verbs>                    
 	</Entry>
@@ -4043,7 +4055,7 @@
 	</Entry>
 <Entry frequency="2050000">entreat<verbs>
                             <translations><date>0110</date>
-				<translation register="formal">instar / exhortar / convidar</translation>
+				<translation register="formal" transitive="true">instar / exhortar / convidar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4101,7 +4113,7 @@
 	</Entry>
 <Entry frequency="5050000">entrust<verbs>
 			<translations>
-				<translation>encarregar/ encomanar</translation>
+				<translation transitive="true">encarregar/ encomanar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4141,7 +4153,7 @@
                 </Entry>
 <Entry frequency="42600000">enumerate<verbs>
         <translations><date>0112</date>
-            <translation regsiter="formal">enumerar / esmentar / citar</translation>
+            <translation register="formal" transitive="true">enumerar / esmentar / citar</translation>
         </translations>
     </verbs>
 </Entry>
@@ -4167,7 +4179,7 @@
 </Entry>
 <Entry frequency="9400000">envelop<verbs>
 			<translations>
-				<translation>embolcallar / embolcar</translation>
+				<translation transitive="true">embolcallar / embolcar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4248,8 +4260,8 @@
 </Entry>        
 <Entry frequency="97100000">envision<verbs>
         <translations><date>0912</date>
-            <translation>preveure</translation>
-            <translation>imaginar-se / prefigurar-se / albirar</translation>
+            <translation transitive="true">preveure</translation>
+            <translation transitive="true">imaginar-se / prefigurar-se / albirar</translation>
         </translations>
     </verbs>
 </Entry>     
@@ -4516,13 +4528,13 @@
 </Entry>     
         <Entry frequency="407000">epitomise<verbs>
                             <translations><date>1208</date>
-				<translation local="gb">ser un clar exemple de / personificar / simbolitzar / encarnar<example>It has been said that Barack Obama &lt;b&gt;epitomizes&lt;/b&gt; the American dream.</example><otherlocal>epitomize</otherlocal></translation>
+				<translation local="gb" transitive="true">ser un clar exemple de / personificar / simbolitzar / encarnar<example>It has been said that Barack Obama &lt;b&gt;epitomizes&lt;/b&gt; the American dream.</example><otherlocal>epitomize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
         <Entry frequency="1230000">epitomize<verbs>
                             <translations><date>1208</date>
-				<translation>ser un clar exemple de / personificar / simbolitzar / encarnar<example>It has been said that Barack Obama &lt;b&gt;epitomizes&lt;/b&gt; the American dream.</example></translation>
+				<translation transitive="true">ser un clar exemple de / personificar / simbolitzar / encarnar<example>It has been said that Barack Obama &lt;b&gt;epitomizes&lt;/b&gt; the American dream.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4563,7 +4575,7 @@
 		</adjectives>
                 <verbs double="true">
                 <translations>
-                <translation>igualar / ser igual a</translation></translations></verbs>
+                <translation transitive="true">igualar / ser igual a</translation></translations></verbs>
                 <expressions>equal opportunities
                 <translations>
                 <translation>igualtat d'oportunitats</translation>
@@ -4744,7 +4756,7 @@
 </Entry>         
 <Entry frequency="29200000">eradicate<verbs>
 			<translations>
-				<translation>eradicar</translation>
+				<translation transitive="true">eradicar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4756,7 +4768,7 @@
 	</Entry>
 <Entry frequency="3500000">erase<verbs>
 			<translations>
-				<translation>esborrar</translation>
+				<translation transitive="true">esborrar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4780,8 +4792,8 @@
 	</Entry>
 <Entry frequency="6580000">erect<verbs>
         <translations>
-            <translation>erigir / aixecar</translation>
-            <translation>[tent] muntar</translation>
+            <translation transitive="true">erigir / aixecar</translation>
+            <translation transitive="true">[tent] muntar</translation>
         </translations>
     </verbs>
     <adjectives>
@@ -4887,7 +4899,7 @@
 	</Entry>
 <Entry frequency="916000">err<verbs>
         <translations><date>0106</date>
-            <translation register="dated">cometre un error / errar<synonyms>make a mistake</synonyms></translation>
+            <translation register="dated" intransitive="true">cometre un error / errar<synonyms>make a mistake</synonyms></translation>
         </translations>
     </verbs>
     <expressions>to err on the side of caution
@@ -4964,9 +4976,9 @@
                 </Entry>
 <Entry frequency="121000000">erupt<verbs>
         <translations><date>0912</date>
-            <translation>erupcionar / entrar en erupció</translation>
-            <translation>[violence] esclatar</translation>
-            <translation>emergir / aflorar</translation>
+            <translation intransitive="true">erupcionar / entrar en erupció</translation>
+            <translation intransitive="true">[violence] esclatar</translation>
+            <translation intransitive="true">emergir / aflorar</translation>
         </translations>
     </verbs>
 </Entry>                
@@ -5006,7 +5018,7 @@
 	</Entry>        
 <Entry frequency="23900000">escape<verbs>
 			<translations>
-				<translation>fugir</translation>
+				<translation intransitive="true">fugir</translation>
 			</translations>
 		</verbs>
                 <expressions>escape route
@@ -5022,7 +5034,7 @@
 	</Entry>
 <Entry frequency="2340000">eschew<verbs>
 			<translations>
-				<translation>evitar<catnote>'Eschew' és un verb purament literari. No s'usa en la conversa espontània.</catnote></translation>
+				<translation transitive="true">evitar<catnote>'Eschew' és un verb purament literari. No s'usa en la conversa espontània.</catnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5035,9 +5047,9 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>acompanyar</translation>
-				<translation>escortar</translation>
-                                <translation>acomboiar</translation>
+				<translation transitive="true">acompanyar</translation>
+				<translation transitive="true">escortar</translation>
+                                <translation transitive="true">acomboiar</translation>
 			</translations>
 		</verbs>
                 <expressions>escort agency
@@ -5090,7 +5102,7 @@
 	</Entry>
         <Entry frequency="2410000">espouse<verbs>
                             <translations><date>1108</date>
-				<translation register="formal">adherir-se a / abraçar / subscriure (una causa, una idea, etc...)</translation>
+				<translation register="formal" transitive="true">adherir-se a / abraçar / subscriure (una causa, una idea, etc...)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5138,9 +5150,9 @@
 	</Entry>
 <Entry frequency="2610000000">establish<verbs>
         <translations><date>0912</date>
-            <translation>establir / implantar / instaurar / fundar</translation>
-            <translation>determinar / verificar / demostrar</translation>
-            <translation>afirmar</translation>
+            <translation transitive="true">establir / implantar / instaurar / fundar</translation>
+            <translation transitive="true">determinar / verificar / demostrar</translation>
+            <translation transitive="true">afirmar</translation>
         </translations>
     </verbs>
 </Entry>
@@ -5214,7 +5226,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>estimar</translation>
+                        <translation transitive="true">estimar</translation>
                     </translations>
                 </verbs>
 	</Entry>
@@ -5262,7 +5274,7 @@
 	</Entry>
 <Entry frequency="94600000">etch<verbs>
         <translations><date>0912</date>
-            <translation catagory="chemistry">gravar a l'aiguafort</translation>
+            <translation catagory="chemistry" transitive="true">gravar a l'aiguafort</translation>
         </translations>
     </verbs>
     <expressions>etched on your memory (or mind)
@@ -5622,20 +5634,20 @@
 	</Entry>
 <Entry frequency="1640000">evacuate<verbs>
 			<translations>
-				<translation>evacuar / desallotjar<engnote>'Evacuar' is the more general word for 'evacuate'. 'Desallotjar' specifically means moving people from their homes.</engnote>
-				</translation>
+				<translation transitive="true">evacuar / desallotjar<engnote>'Evacuar' is the more general word for 'evacuate'. 'Desallotjar' specifically means moving people from their homes.</engnote></translation>
+                                <translation intransitive="true">evacuar</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="2610000">evade<verbs>
 			<translations>
-				<translation>evadir / eludir / defugir</translation>
+				<translation transitive="true">evadir / eludir / defugir</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="10900000">evaluate<verbs>
 			<translations>
-				<translation>avaluar / valorar</translation>
+				<translation transitive="true">avaluar / valorar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5681,7 +5693,7 @@
 	</Entry>
 <Entry frequency="207000">evangelise<verbs>
 			<translations>
-				<translation catagory="religious" local="gb">evangelitzar<otherlocal>evangelize</otherlocal></translation>
+				<translation catagory="religious" local="gb" intransitive="true">evangelitzar<otherlocal>evangelize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5706,13 +5718,13 @@
 	</Entry>
 <Entry frequency="2060000">evangelize<verbs>
 			<translations>
-				<translation catagory="religious">evangelitzar</translation>
+				<translation catagory="religious" intransitive="true">evangelitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="8150000">evaporate<verbs>
 			<translations>
-				<translation>evaporar</translation>
+				<translation intransitive="true">evaporar-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5935,7 +5947,7 @@
 	</Entry>
 <Entry frequency="3580000">evict<verbs>
 			<translations>
-				<translation>desnonar / fer fora<engexamp>She was evicted for not paying her rent</engexamp><catexamp>La van fer fora per no pagar el lloguer</catexamp></translation>
+				<translation transitive="true">desnonar / fer fora<engexamp>She was evicted for not paying her rent.</engexamp><catexamp>La van fer fora per no pagar el lloguer.</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5984,8 +5996,8 @@
 	</Entry>
 <Entry frequency="1030000">eviscerate<verbs>
 			<translations>
-				<translation register="formal">esbudellar / desbudellar / esventrar<example>Swimmer nearly &lt;b&gt;eviscerated&lt;/b&gt; by a crocodile needlefish in Hawaii.</example><synonyms>disembowel / gut</synonyms></translation>
-                                <translation>destrossar / rebentar / buidar de contingut<example>The Intelligent Design advocates lost their bid to have ID included in the school's curriculum - and by 'lost their bid', I mean to say they were utterly &lt;b&gt;eviscerated&lt;/b&gt;.</example><example>SCO case against DaimlerChrysler &lt;b&gt;eviscerated&lt;/b&gt;.</example></translation>
+				<translation register="formal" transitive="true">esbudellar / desbudellar / esventrar<example>Swimmer nearly &lt;b&gt;eviscerated&lt;/b&gt; by a crocodile needlefish in Hawaii.</example><synonyms>disembowel / gut</synonyms></translation>
+                                <translation transitive="true">destrossar / rebentar / buidar de contingut<example>The Intelligent Design advocates lost their bid to have ID included in the school's curriculum - and by 'lost their bid', I mean to say they were utterly &lt;b&gt;eviscerated&lt;/b&gt;.</example><example>SCO case against DaimlerChrysler &lt;b&gt;eviscerated&lt;/b&gt;.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6022,7 +6034,9 @@
 	</Entry>
 <Entry frequency="14400000">evolve<verbs>
 			<translations>
-				<translation>evolucionar</translation>
+				<translation transitive="true">[~ something] desenvolupar<example>Provincial governments must &lt;b&gt;evolve&lt;/b&gt; their own strategies.</example></translation>
+                                <translation intransitive="true">desenvolupar-se<example>The idea &lt;b&gt;evolved&lt;/b&gt; over time.</example></translation>
+                                <translation intransitive="true">evolucionar</translation>
                                 <translation>[~ into] convertir-se en</translation>
 			</translations>
 		</verbs>
@@ -6047,7 +6061,7 @@
 	</Entry>
 <Entry frequency="25500000">exacerbate<verbs>
 			<translations>
-				<translation register="formal">exacerbar / agreujar / empitjorar<synonyms>aggravate, make worse</synonyms></translation>
+				<translation register="formal" transitive="true">exacerbar / agreujar / empitjorar<synonyms>aggravate, make worse</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6089,7 +6103,8 @@
 	</Entry>
 <Entry frequency="1970000">exaggerate<verbs><mistakes>exagerate</mistakes>
 			<translations>
-				<translation>exagerar</translation>
+				<translation transitive="true">exagerar</translation>
+                                <translation intransitive="true">exagerar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6101,7 +6116,7 @@
 	</Entry>
 <Entry frequency="11000000">exalt<verbs>
         <translations>
-            <translation register="formal">exaltar</translation>
+            <translation register="formal" transitive="true">exaltar</translation>
         </translations>
     </verbs>
 </Entry>
@@ -6207,15 +6222,13 @@
 	</Entry>
 <Entry frequency="19400000">exceed<verbs>
 			<translations>
-				<translation>superar<engexamp>To exceed all expectations</engexamp>
-					<catexamp>Superar totes les expectatives</catexamp>
-				</translation>
+				<translation transitive="true">superar<engexamp>To exceed all expectations.</engexamp><catexamp>Superar totes les expectatives.</catexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="856000000">excel<verbs double="true">
         <translations><date>0912</date>
-            <translation>sobresortir / excel·lir / despuntar</translation>
+            <translation intransitive="true">sobresortir / excel·lir / despuntar</translation>
         </translations>
     </verbs>
 </Entry>        
@@ -6306,7 +6319,7 @@
 	</Entry>
 <Entry frequency="76400000">exchange<verbs>
         <translations>
-            <translation>bescanviar / intercanviar</translation>
+            <translation transitive="true">bescanviar / intercanviar</translation>
         </translations>
     </verbs>
     <nouns>
@@ -6333,8 +6346,8 @@
 </Entry>
 <Entry frequency="31400000">excise<verbs>
         <translations><date>0912</date>
-            <translation register="formal">suprimir / eliminar</translation>
-            <translation disambiguate="medical">extirpar</translation>
+            <translation register="formal" transitive="true">suprimir / eliminar</translation>
+            <translation disambiguate="medical" transitive="true">extirpar</translation>
         </translations>
     </verbs>
     <nouns>
@@ -6343,15 +6356,20 @@
         </translations>
     </nouns>
 </Entry>        
-<Entry frequency="1020000">excitation energy<nouns>
+<Entry frequency="1020000">excitation<nouns>
 			<translations><date>0307</date>
-				<translation termcat="energy" gender="f">energia d'excitació</translation>
+				<translation gender="f">excitació</translation>
 			</translations>
 		</nouns>
+                <expressions>excitation energy
+                    <translations>
+                        <translation termcat="energy" gender="f">energia d'excitació</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="8500000">excite<verbs>
 			<translations>
-				<translation>excitar / emocionar / apassionar</translation>
+				<translation transitive="true">excitar / emocionar / apassionar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6389,7 +6407,8 @@
 	</Entry>
 <Entry frequency="15200000">exclaim<verbs>
 			<translations>
-				<translation>exclamar</translation>
+				<translation transitive="true">exclamar</translation>
+                                <translation intransitive="true">exclamar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6411,7 +6430,7 @@
 	</Entry>
 <Entry frequency="12700000">exclude<verbs>
 			<translations>
-				<translation>excloure</translation>
+				<translation transitive="true">excloure</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6436,8 +6455,8 @@
 	</Entry>
 <Entry frequency="1520000">excoriate<verbs>
         <translations><date>0912</date>
-            <translation register="formal">vilipendiar / insultar / atacar verbalment / injuriar / deixar com un drap brut</translation>
-            <translation disambiguate="medical">excoriar</translation>
+            <translation register="formal" transitive="true">vilipendiar / insultar / atacar verbalment / injuriar / deixar com un drap brut</translation>
+            <translation disambiguate="medical" transitive="true">excoriar</translation>
         </translations>
     </verbs>
 </Entry>        
@@ -6449,7 +6468,7 @@
 	</Entry>
                   <Entry frequency="8500000">excrete<verbs>
 			<translations><date>0510</date>
-				<translation>excretar</translation>
+				<translation transitive="true">excretar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6487,9 +6506,9 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>[forgive] disculpar / perdonar</translation>
-            <translation>[justify] justificar</translation>
-            <translation>[give permission not to do sth.] eximir / dispensar</translation>
+            <translation transitive="true">[forgive] disculpar / perdonar</translation>
+            <translation transitive="true">[justify] justificar</translation>
+            <translation transitive="true">[give permission not to do sth.] eximir / dispensar</translation>
         </translations>
     </verbs>
     <expressions>if you will excuse the expression
@@ -6521,7 +6540,7 @@
 </Entry>
 <Entry frequency="43500000">execute<verbs>
 			<translations>
-				<translation>executar</translation>
+				<translation transitive="true">executar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6569,7 +6588,7 @@
 		</adjectives>
                 <verbs>
                 <translations>
-                <translation>eximir</translation>
+                <translation transitive="true">eximir</translation>
                 </translations>
                 </verbs>
 	</Entry>
@@ -6586,11 +6605,11 @@
 		</nouns>
                 <verbs>
                 <translations>
-                <translation>[keep fit] fer exercici</translation>
-                <translation>exercir<engexamp>Does everyone who is able to vote exercise the right?</engexamp><catexamp>Exerceix el dret a vot tothom que pot votar?</catexamp></translation>
-                <translation>fer ús / fer servir</translation>
-                <translation>[brain] fer treballar<engexamp>To exercise one's mind.</engexamp><catexamp>Exercir la facultat de pensar.</catexamp></translation>
-                <translation>[dog] sortir a passejar</translation>
+                <translation intransitive="true">[keep fit] fer exercici</translation>
+                <translation transitive="true">exercir<engexamp>Does everyone who is able to vote exercise the right?</engexamp><catexamp>Exerceix el dret a vot tothom que pot votar?</catexamp></translation>
+                <translation transitive="true">fer ús / fer servir</translation>
+                <translation transitive="true">[brain] fer treballar<engexamp>To exercise one's mind.</engexamp><catexamp>Exercir la facultat de pensar.</catexamp></translation>
+                <translation transitive="true">[dog] sortir a passejar</translation>
                 </translations>
                 </verbs>
                 <expressions>exercise bike
@@ -6601,8 +6620,8 @@
 	</Entry>
 <Entry frequency="20600000">exert<verbs>
 			<translations>
-                        <translation>exercir<engexamp>The Sun exerts a strong gravitational pull on the planets</engexamp><catexamp>El Sol exerceix una forta atracció gravitatòria sobre els planetes</catexamp></translation>
-                        <translation>fer un gran esforç (físic o mental)<catnote>(To exert yourself - he exerted himself / they exerted themselves...)</catnote></translation>
+                        <translation transitive="true">exercir<engexamp>The Sun exerts a strong gravitational pull on the planets.</engexamp><catexamp>El Sol exerceix una forta atracció gravitatòria sobre els planetes.</catexamp></translation>
+                        <translation transitive="true">fer un gran esforç (físic o mental)<catnote>(To exert yourself - he exerted himself / they exerted themselves...)</catnote></translation>
 			</translations>
 		</verbs>
 	</Entry>        
@@ -6623,8 +6642,8 @@
 	</Entry>
 <Entry frequency="37600000">exhaust<verbs>
 			<translations>
-				<translation>fatigar / cansar</translation>
-                                <translation>exhaurir / esgotar</translation>
+				<translation transitive="true">fatigar / cansar</translation>
+                                <translation transitive="true">exhaurir / esgotar</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -6722,7 +6741,7 @@
 </Entry>  
         <Entry frequency="2200000">exhort<verbs>
                 <translations><date>0110</date>
-                    <translation register="formal">exhortar</translation>
+                    <translation register="formal" transitive="true">exhortar</translation>
                 </translations>
             </verbs>
         </Entry>
@@ -6740,13 +6759,13 @@
 	</Entry>
 <Entry frequency="694000">exhume<verbs>
 			<translations>
-				<translation>exhumar<synonyms>dig up</synonyms></translation>
+				<translation transitive="true">exhumar<synonyms>dig up</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="4670000">exile<verbs>
 			<translations>
-				<translation>exiliar</translation>
+				<translation transitive="true">exiliar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -6826,7 +6845,7 @@
 	</Entry>
 <Entry frequency="1700000">exorcise<verbs>
 			<translations>
-				<translation>exorcitzar</translation>
+				<translation transitive="true">exorcitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6913,8 +6932,8 @@
 </Entry>
 <Entry frequency="16100000">expect<verbs>
         <translations>
-            <translation>esperar<engexamp>He can't be expected to ...</engexamp><catexamp>No se li pot demanar ... / no se li pot exigir ...</catexamp><engexamp>As was to be expected ...</engexamp><catexamp>Com era previsible ...</catexamp></translation>
-            <translation>imaginar-se / suposar<engexamp>I expect so.</engexamp><catexamp>Suposo que sí.</catexamp></translation>
+            <translation transitive="true">esperar<engexamp>He can't be expected to ...</engexamp><catexamp>No se li pot demanar ... / no se li pot exigir ...</catexamp><engexamp>As was to be expected ...</engexamp><catexamp>Com era previsible ...</catexamp></translation>
+            <translation transitive="true">imaginar-se / suposar<engexamp>I expect so.</engexamp><catexamp>Suposo que sí.</catexamp></translation>
         </translations>
     </verbs>
     <expressions>to be expecting
@@ -6969,7 +6988,7 @@
 </Entry>
 <Entry frequency="593000">expedite<verbs>
 			<translations>
-				<translation>accelerar</translation>
+				<translation transitive="true">accelerar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7026,7 +7045,7 @@
     </nouns>
     <verbs>
         <translations>
-            <translation>experimentar / presentar / percebre<engexamp>The victims are experiencing symptoms.</engexamp><catexamp>Les víctimes presenten símptomes.</catexamp></translation>
+            <translation transitive="true">experimentar / presentar / percebre<engexamp>The victims are experiencing symptoms.</engexamp><catexamp>Les víctimes presenten símptomes.</catexamp></translation>
         </translations>
     </verbs>
     <expressions>life experience
@@ -7048,7 +7067,7 @@
 </Entry>
 <Entry frequency="30600000">experiment<verbs>
         <translations>
-            <translation>experimentar</translation>
+            <translation transitive="true">experimentar</translation>
         </translations>
     </verbs>
     <nouns>
@@ -7097,7 +7116,7 @@
 	</Entry>
 <Entry frequency="547000">expiate<verbs>
 			<translations>
-				<translation register="formal">expiar<synonyms>atone for</synonyms></translation>
+				<translation register="formal" transitive="true">expiar<synonyms>atone for</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7114,9 +7133,9 @@
 	</Entry>
                 <Entry frequency="69100000">expire<verbs>
                             <translations><date>0209</date>
-				<translation>(a contract, an agreement..) caducar / vèncer / expirar</translation>
-                                <translation>(a mandate) expirar / acabar</translation>
-                                <translation register="literary">(a person) expirar / morir</translation>
+				<translation intransitive="true">[a contract, an agreement..] caducar / vèncer / expirar</translation>
+                                <translation intransitive="true">[a mandate] expirar / acabar</translation>
+                                <translation register="literary" intransitive="true">(a person] expirar / morir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7133,8 +7152,8 @@
 	</Entry>
 <Entry frequency="55900000">explain<verbs>
         <translations><date>0912</date>
-            <translation>explicar / aclarir</translation>
-            <translation>explicar / donar una explicació<engexamp>To explain oneself.</engexamp><catexamp>Explicar-se.</catexamp></translation>
+            <translation transitive="true">explicar / aclarir</translation>
+            <translation intransitive="true">explicar / donar una explicació<engexamp>To explain oneself.</engexamp><catexamp>Explicar-se.</catexamp></translation>
         </translations>
     </verbs>
     <phrasalverbs>explain away
@@ -7263,7 +7282,7 @@
 </Entry>         
 <Entry frequency="23800000">export<verbs>
         <translations>
-            <translation>exportar</translation>
+            <translation transitive="true">exportar</translation>
         </translations>
     </verbs>
     <nouns>
@@ -7280,9 +7299,9 @@
 </Entry> 
 <Entry frequency="850000000">expose<verbs>
         <translations><date>0912</date>
-            <translation>exposar</translation>
-            <translation>posar al descobert / revelar / desvelar / descobrir</translation>
-            <translation>desemmascarar</translation>
+            <translation transitive="true">exposar</translation>
+            <translation transitive="true">posar al descobert / revelar / desvelar / descobrir</translation>
+            <translation transitive="true">desemmascarar</translation>
         </translations>
     </verbs>
 </Entry>        
@@ -7324,14 +7343,14 @@
 </Entry>
 <Entry frequency="2360000">expound<verbs>
         <translations><date>0912</date>
-            <translation register="formal">exposar / formular / desenvolupar</translation>
+            <translation register="formal" transitive="true">exposar / formular / desenvolupar</translation>
         </translations>
     </verbs>
 </Entry> 
 <Entry frequency="5980000000">express<verbs>
 			<translations><date>0912</date>
-				<translation>expressar<engexamp>To express yourself.</engexamp><catexamp>Expressar-se.</catexamp></translation>
-                                <translation local="us">[~ something to somebody] enviar (alguna cosa) per correu exprés</translation>
+				<translation transitive="true">expressar<engexamp>To express yourself.</engexamp><catexamp>Expressar-se.</catexamp></translation>
+                                <translation local="us" transitive="true">[~ something to somebody] enviar (alguna cosa) per correu exprés</translation>
 			</translations>
 		</verbs>
                 <adjectives>
@@ -7387,7 +7406,7 @@
 	</Entry>
         <Entry frequency="14200000">expropriate<verbs>
 			<translations><date>0112</date>
-				<translation>expropiar</translation>
+				<translation register="formal" transitive="true">expropiar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7405,7 +7424,7 @@
 	</Entry>
         <Entry frequency="10400000">expunge<verbs>
 			<translations><date>0112</date>
-				<translation register="formal">expurgar / suprimir / espolsar-se / treure's del damunt</translation>
+				<translation register="formal" transitive="true">expurgar / suprimir / espolsar-se / treure's del damunt</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7431,7 +7450,7 @@
 	</Entry>        
 <Entry frequency="14900000">extend<verbs>
 			<translations>
-				<translation>estendre</translation>
+				<translation transitive="true">estendre</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7496,7 +7515,7 @@
 	</Entry>
 <Entry frequency="16000000">exterminate<verbs>
 			<translations><date>0912</date>
-				<translation>exterminar</translation>
+				<translation transitive="true">exterminar</translation>
 			</translations>
 		</verbs>
 	</Entry>        
@@ -7520,13 +7539,13 @@
 	</Entry>
 <Entry frequency="282000">externalise<verbs>
 			<translations>
-				<translation local="gb">exterioritzar<otherlocal>externalize</otherlocal></translation>
+				<translation local="gb" transitive="true">exterioritzar<otherlocal>externalize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="1360000">externalize<verbs>
 			<translations>
-				<translation>exterioritzar</translation>
+				<translation transitive="true">exterioritzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7538,8 +7557,7 @@
 	</Entry>
 <Entry frequency="197000">extinguish<verbs>
 			<translations>
-				<translation>extingir / apagar<synonyms>to put out</synonyms>
-				</translation>
+				<translation transitive="true">extingir / apagar<synonyms>to put out</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7551,13 +7569,13 @@
 	</Entry>
 <Entry frequency="8450000">extol<verbs double="true">
 			<translations><date>0912</date>
-				<translation register="formal">enaltir / exalçar</translation>
+				<translation register="formal" transitive="true">enaltir / exalçar</translation>
 			</translations>
 		</verbs>
 	</Entry>        
 <Entry frequency="4050000">extort<verbs>
 			<translations>
-				<translation>extorquir</translation>
+				<translation transitive="true">extorquir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7580,9 +7598,9 @@
 	</Entry>
 <Entry frequency="5290000">extract<verbs>
 			<translations>
-				<translation>extreure<synonyms>pull out, remove</synonyms></translation>
-                                <translation>[money, a confession...] arrencar</translation>
-                                <translation>obtenir / treure</translation>
+				<translation transitive="true">extreure<synonyms>pull out, remove</synonyms></translation>
+                                <translation transitive="true">[money, a confession...] arrencar</translation>
+                                <translation transitive="true">obtenir / treure</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -7625,7 +7643,7 @@
 	</Entry>
 <Entry frequency="143000">extradite<verbs>
 			<translations>
-				<translation>extradir</translation>
+				<translation transitive="true">extradir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7769,14 +7787,14 @@
 	</Entry>            
 <Entry frequency="19900000">exude<verbs>
         <translations><date>0912</date>
-            <translation>[fig.] irradiar / desbordar de (energia, entusiasme, etc.)</translation>
-            <translation>exsudar / desprendre / traspuar</translation>
+            <translation transitive="true">[fig.] irradiar / desbordar de (energia, entusiasme, etc.)</translation>
+            <translation transitive="true">exsudar / desprendre / traspuar</translation>
         </translations>
     </verbs>
 </Entry>            
 <Entry frequency="2500000">exult<verbs>
         <translations><date>0912</date>
-            <translation>recrear-se / complaure's / delectar-se (en)</translation>
+            <translation intransitive="true">recrear-se / complaure's / delectar-se (en)</translation>
         </translations>
     </verbs>
 </Entry>

@@ -201,8 +201,8 @@
 			<past>kept</past>
 			<participle>kept</participle>
 			<translations>
-				<translation>guardar</translation>
-                                <translation>menar</translation>
+				<translation transitive="true">guardar</translation>
+                                <translation transitive="true">menar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>keep at
@@ -611,7 +611,7 @@
 	</Entry>
 <Entry frequency="106000000">kick<verbs>
                             <translations><date>0408</date>
-				<translation>donar un cop de peu</translation>
+				<translation transitive="true">donar un cop de peu a</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>kick about (or around)
@@ -734,12 +734,12 @@
 		</nouns>
                 <verbs double="true">
                     <translations>
-                        <translation>fer broma<engexamp>You're kidding!</engexamp><catexamp>Em prens el pèl! / apa!</catexamp><engexamp>Just kidding!</engexamp><catexamp>És broma!</catexamp></translation>
+                        <translation intransitive="true">fer broma<engexamp>You're kidding!</engexamp><catexamp>Em prens el pèl! / apa!</catexamp><engexamp>Just kidding!</engexamp><catexamp>És broma!</catexamp></translation>
                     </translations>
                 </verbs>
                 <phrasalverbs>kid around
                 <translations>
-                    <translation>fer ximpleries / passar l'estona</translation>
+                    <translation intransitive="true">fer ximpleries / passar l'estona</translation>
                 </translations>
                 </phrasalverbs>
                 <expressions>kid yourself
@@ -750,7 +750,7 @@
 	</Entry>
 <Entry frequency="1700000">kidnap<verbs double="true">
 			<translations>
-				<translation>segrestar</translation>
+				<translation transitive="true">segrestar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -798,11 +798,11 @@
 	</Entry>
 <Entry frequency="1620000000">kill<verbs>
 			<translations><date>1112</date>
-				<translation>matar / assassinar<synonyms>murder</synonyms></translation>
-                                <translation>destruir / arruïnar / truncar<example>He was a very promising player but an injury he sustained in college &lt;b&gt;killed&lt;/b&gt; his chances of turning pro.</example></translation>
-                                <translation local="us">[make laugh] fer partir de riure<example>Stop it! You're &lt;b&gt;killing&lt;/b&gt; me!</example></translation>
-                                <translation>[cause a lot of pain] trencar el cor / partir el cor (a algú)<example>It &lt;b&gt;kills&lt;/b&gt; me to see her in so much pain.</example></translation>
-                                <translation>[make unhappy, uncomfortable] venir a repèl / fer (a algú) una muntanya<example>It &lt;b&gt;killed&lt;/b&gt; him to say it but he really liked Justin Bieber's latest song.</example></translation>
+				<translation transitive="true">matar / assassinar<synonyms>murder</synonyms></translation>
+                                <translation transitive="true">destruir / arruïnar / truncar<example>He was a very promising player but an injury he sustained in college &lt;b&gt;killed&lt;/b&gt; his chances of turning pro.</example></translation>
+                                <translation local="us" transitive="true">[make laugh] fer partir de riure<example>Stop it! You're &lt;b&gt;killing&lt;/b&gt; me!</example></translation>
+                                <translation transitive="true">[cause a lot of pain] trencar el cor / partir el cor (a algú)<example>It &lt;b&gt;kills&lt;/b&gt; me to see her in so much pain.</example></translation>
+                                <translation transitive="true">[make unhappy, uncomfortable] venir a repèl / fer (a algú) una muntanya<example>It &lt;b&gt;killed&lt;/b&gt; him to say it but he really liked Justin Bieber's latest song.</example></translation>
 
 			</translations>
 		</verbs>               
@@ -1266,7 +1266,7 @@
 	</Entry>
 <Entry frequency="2140000">knead<verbs>
 			<translations><date>1007</date>
-				<translation catagory="food">pastar</translation>
+				<translation catagory="food" transitive="true">pastar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1288,7 +1288,7 @@
 		</nouns>
 		<verbs double="true">
 			<translations>
-				<translation register="colloquial">Trencar-li les ròtules a algú (o bé disparant un tret, o bé amb un bat de beisbol o semblant)</translation>
+				<translation register="colloquial" transitive="true">trencar-li les ròtules a algú (o bé disparant un tret, o bé amb un bat de beisbol o semblant)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1302,12 +1302,12 @@
 			<past>knelt, kneeled</past>
 			<participle>knelt, kneeled</participle>
 			<translations>
-				<translation>agenollar-se / posar-se de genolls</translation>
+				<translation intransitive="true">agenollar-se / posar-se de genolls</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>kneel down
                 <translations>
-                    <translation>agenollar-se / posar-se de genolls</translation>
+                    <translation intransitive="true">agenollar-se / posar-se de genolls</translation>
                 </translations>
                 </phrasalverbs>
 	</Entry>
@@ -1326,7 +1326,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>atacar (o matar) amb un ganivet</translation>
+                        <translation transitive="true">atacar (o matar) amb un ganivet</translation>
                         </translations>
                 </verbs>
                 <expressions>to be (or go) under the knife
@@ -1356,7 +1356,7 @@
 	</Entry>
 <Entry frequency="3530000">knit<verbs double="true">
 			<translations>
-				<translation>fer mitja</translation>
+				<translation intransitive="true">fer mitja</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1387,8 +1387,8 @@
 	</Entry>        
 <Entry frequency="2690000">knock<verbs>
 			<translations>
-				<translation>picar / trucar<engnote>'Picar' and 'trucar' mean 'to knock' in the sense 'to knock on a door'.</engnote></translation>
-                                <translation>criticar</translation>
+				<translation transitive="true">picar / trucar<engnote>'Picar' and 'trucar' mean 'to knock' in the sense 'to knock on a door'.</engnote></translation>
+                                <translation transitive="true">criticar</translation>
 			</translations>
 		</verbs>
                                 <phrasalverbs>knock about
@@ -1540,7 +1540,7 @@
 		</nouns>
                 <verbs double="true">
                 <translations>
-                <translation>nuar</translation>
+                <translation transitive="true">nuar</translation>
                 </translations>
                 </verbs>
                 <expressions>to tie the knot
@@ -1560,9 +1560,9 @@
     <past>knew</past>
     <participle>known</participle>
         <translations>
-            <translation>saber<engexamp>He doesn't know what to do.</engexamp><catexamp>No sap què fer.</catexamp><engexamp>Does anybody know how long he's lived in Barcelona?</engexamp><catexamp>Algú sap quants anys fa que viu a Barcelona?</catexamp></translation>
-            <translation>conèixer<engexamp>Do you know Anna?</engexamp><catexamp>Coneixes l'Anna?</catexamp><engexamp>He didn't know about...</engexamp><catexamp>Desconeixia...</catexamp></translation>
-            <translation>reconèixer / admetre<engexamp>He knows no fear.</engexamp><catexamp>No té por de res.</catexamp></translation>
+            <translation transitive="true">saber<engexamp>He doesn't know what to do.</engexamp><catexamp>No sap què fer.</catexamp><engexamp>Does anybody know how long he's lived in Barcelona?</engexamp><catexamp>Algú sap quants anys fa que viu a Barcelona?</catexamp></translation>
+            <translation transitive="true">conèixer<engexamp>Do you know Anna?</engexamp><catexamp>Coneixes l'Anna?</catexamp><engexamp>He didn't know about...</engexamp><catexamp>Desconeixia...</catexamp></translation>
+            <translation transitive="true">reconèixer / admetre<engexamp>He knows no fear.</engexamp><catexamp>No té por de res.</catexamp></translation>
         </translations>
     </verbs>
     <phrasalverbs>know of
