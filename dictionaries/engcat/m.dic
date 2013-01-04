@@ -40,7 +40,7 @@
 	</Entry>
 <Entry frequency="648000">macerate<verbs>
 			<translations>
-				<translation>macerar</translation>
+				<translation transitive="true">macerar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -95,7 +95,7 @@
 		</nouns>
                 <verbs double="true">
                 <translations>
-                <translation>metrallar<example>Border Patrol agents were &lt;b&gt;machine-gunned&lt;/b&gt; by drug smugglers.</example></translation>
+                <translation transitive="true">metrallar<example>Border Patrol agents were &lt;b&gt;machine-gunned&lt;/b&gt; by drug smugglers.</example></translation>
                 </translations>
                 </verbs>
 	</Entry>
@@ -394,7 +394,7 @@
 	</Entry>
 <Entry frequency="140000">magnetise<verbs>
 			<translations><date>1007</date>
-				<translation local="gb">magnetitzar<otherlocal>magnetize</otherlocal></translation>
+				<translation local="gb" transitive="true">magnetitzar<otherlocal>magnetize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -412,7 +412,7 @@
 	</Entry>
 <Entry frequency="1360000">magnetize<verbs>
 			<translations><date>1007</date>
-				<translation>magnetitzar</translation>
+				<translation transitive="true">magnetitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -466,7 +466,7 @@
 	</Entry>
 <Entry frequency="1170000">magnify<verbs ie="true">
 			<translations>
-				<translation>augmentar</translation>
+				<translation transitive="true">augmentar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -581,7 +581,7 @@
 	</Entry>        
 <Entry frequency="218000">maim<verbs>
 			<translations>
-				<translation>mutilar / esguerrar</translation>
+				<translation transitive="true">mutilar / esguerrar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -641,8 +641,8 @@
 	</Entry>
 <Entry frequency="102000000">maintain<verbs>
 			<translations>
-				<translation>mantenir / preservar</translation>
-                                <translation>sostenir / afirmar / assegurar</translation>
+				<translation transitive="true">mantenir / preservar</translation>
+                                <translation transitive="true">sostenir / afirmar / assegurar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -717,10 +717,9 @@
 			<past>made</past>
 			<participle>made</participle>
                             <translations><date>0209</date>
-				<translation>fer<engnote>'Fer' means 'to make' in the general sense.</engnote>
+				<translation transitive="true">fer<engnote>'Fer' means 'to make' in the general sense.</engnote>
 				</translation>
-				<translation>fabricar / elaborar<engnote>'Fabricar' and 'elaborar' mean 'to make' as in 'to manufacture'.</engnote>
-				</translation>
+				<translation transitive="true">fabricar / elaborar<engnote>'Fabricar' and 'elaborar' mean 'to make' as in 'to manufacture'.</engnote></translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>make after
@@ -998,7 +997,7 @@
 	</Entry>        
 <Entry frequency="1960000">malign<verbs>
                             <translations><date>1108</date>
-				<translation register="formal">vilipendiar<synonyms>to revile (formal), to vilify (formal)</synonyms></translation>
+				<translation register="formal" transitive="true">vilipendiar<synonyms>revile (formal), vilify (formal)</synonyms></translation>
 			</translations>
 		</verbs>
                 <adjectives>
@@ -1136,12 +1135,12 @@
 	</Entry>
 <Entry frequency="506000000">manage<verbs>
 			<translations><date>1007</date>
-				<translation>dirigir / gestionar<synonyms>lead, direct</synonyms>
+				<translation transitive="true">dirigir / gestionar<synonyms>lead, direct</synonyms>
 					<engnote>'Dirigir' and 'gestionar' mean 'to manage' as in 'to direct / lead'.</engnote>
 				</translation>
-				<translation>aconseguir<engnote>'Aconseguir' means 'to manage' in the sense 'to succeed in doing something'.</engnote>
+				<translation transitive="true">aconseguir<engnote>'Aconseguir' means 'to manage' in the sense 'to succeed in doing something'.</engnote>
 				</translation>
-                                <translation>apanyar-se<engnote>'Apanyar-se' means 'to manage' in the sense 'to get by / to cope'.</engnote></translation>
+                                <translation intransitive="true">apanyar-se<engnote>'Apanyar-se' means 'to manage' in the sense 'to get by / to cope'.</engnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1330,7 +1329,7 @@
 	</Entry>
 <Entry frequency="8110000">manipulate<verbs>
 			<translations>
-				<translation>manipular</translation>
+				<translation transitive="true">manipular</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1463,7 +1462,7 @@
 	</Entry>
 <Entry frequency="4630000">manufacture<verbs>
 			<translations>
-				<translation>fabricar / elaborar</translation>
+				<translation transitive="true">fabricar / elaborar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1481,7 +1480,7 @@
 	</Entry>
          <Entry frequency="190000">manumit<verbs double="true">
                             <translations><date>0310</date>
-				<translation>manumetre</translation>
+				<translation transitive="true">manumetre</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1515,7 +1514,7 @@
 		</nouns>
                 <verbs double="true">
                 <translations>
-                <translation>mapar</translation>
+                <translation transitive="true">mapar</translation>
             </translations>
             </verbs>
                 <phrasalverbs>map out
@@ -1549,7 +1548,7 @@
 	</Entry>
 <Entry frequency="563000">mar<verbs double="true">
                             <translations><date>0109</date>
-				<translation register="formal">espatllar / fer malbé<catnote>Aquest verb s'usa sobretot en sentit figurat, quan es parla d'objectes abstractes.</catnote><example>Rude hotel employees &lt;b&gt;marred&lt;/b&gt; our visit to Barcelona.</example></translation>
+				<translation register="formal" transitive="true">espatllar / fer malbé<catnote>Aquest verb s'usa sobretot en sentit figurat, quan es parla d'objectes abstractes.</catnote><example>Rude hotel employees &lt;b&gt;marred&lt;/b&gt; our visit to Barcelona.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1598,12 +1597,12 @@
 	</Entry>
 <Entry frequency="45000000">march<verbs>
 			<translations><date>1007</date>
-				<translation>marxar</translation>
+				<translation intransitive="true">marxar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>march off
                 <translations>
-                    <translation>anar-se'n / marxar</translation>
+                    <translation intransitive="true">anar-se'n / marxar</translation>
                     </translations>
                     </phrasalverbs>
 		<nouns>
@@ -1659,7 +1658,7 @@
 	</Entry>
 <Entry frequency="31500">marginalise<verbs>
 			<translations>
-				<translation local="gb">marginar<otherlocal>marginalize</otherlocal>
+				<translation local="gb" transitive="true">marginar<otherlocal>marginalize</otherlocal>
 				</translation>
 			</translations>
 		</verbs>
@@ -1679,15 +1678,13 @@
 	</Entry>
 <Entry frequency="82300">marginalize<verbs>
 			<translations>
-				<translation local="us">marginar<otherlocal>marginalise</otherlocal>
-				</translation>
+				<translation transitive="true">marginar</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="201000">marginalized<adjectives>
 			<translations>
-				<translation local="us">marginat<otherlocal>marginalised</otherlocal>
-				</translation>
+				<translation>marginat</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1711,7 +1708,7 @@
 	</Entry>
 <Entry frequency="3500000">marinate<verbs>
 			<translations>
-				<translation catagory="food">marinar</translation>
+				<translation catagory="food" transitive="true">marinar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1752,8 +1749,8 @@
             </nouns>
             <verbs>
                 <translations>
-                    <translation disambiguate="sports-event-football">marcar</translation>
-                    <translation>tacar<synonyms>stain</synonyms></translation>
+                    <translation disambiguate="sports-event-football" transitive="true">marcar</translation>
+                    <translation transitive="true">tacar<synonyms>stain</synonyms></translation>
                 </translations>
             </verbs>
             <phrasalverbs>mark down
@@ -1826,7 +1823,7 @@
                 </adjectives>
                 <verbs>
                     <translations>
-                        <translation>abandonar<example>'Lord of the Flies' is a novel about a group of boys &lt;b&gt;marooned&lt;/b&gt; on a desert island.</example></translation>
+                        <translation transitive="true">abandonar<example>'Lord of the Flies' is a novel about a group of boys &lt;b&gt;marooned&lt;/b&gt; on a desert island.</example></translation>
                     </translations>
                 </verbs>
 	</Entry>
@@ -1887,8 +1884,7 @@
 	</Entry>
 <Entry frequency="22200000">marry<verbs ie="true">
 			<translations>
-				<translation>casar-se<catnote>Si la frase té complement (és a dir si parlem de les dues persones que es casen), utilitzem el verbi conjugat com cal: 'He is going to marry Jane', 'she married John', però si la frase no té complement (si el verbi només té un subjecte) es diu 'getting married': 'she's getting married in June', 'I got married last year', 'he got married in a hot air balloon') .</catnote>
-				</translation>
+				<translation intransitive="true">casar-se<catnote>Si la frase té complement (és a dir si parlem de les dues persones que es casen), utilitzem el verbi conjugat com cal: 'He is going to marry Jane', 'she married John', però si la frase no té complement (si el verbi només té un subjecte) es diu 'getting married': 'she's getting married in June', 'I got married last year', 'he got married in a hot air balloon') .</catnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2124,7 +2120,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>massacrar</translation>
+                        <translation transitive="true">massacrar</translation>
                         </translations>
                 </verbs>
 	</Entry>
@@ -2133,6 +2129,11 @@
 				<translation gender="m">massatge</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">donar un massatge a</translation>
+                    </translations>
+                </verbs>                    
 	</Entry>
 <Entry frequency="1500000">masseur<nouns>
 			<translations>
@@ -2195,7 +2196,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>dominar</translation>
+				<translation transitive="true">dominar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2231,7 +2232,7 @@
 	</Entry>
 <Entry frequency="907000">masturbate<verbs>
 			<translations>
-				<translation>masturbar-se</translation>
+				<translation intransitive="true">masturbar-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2249,8 +2250,8 @@
 	</Entry>
 <Entry frequency="109000000">match<verbs>
 			<translations>
-				<translation>coincidir / igualar</translation>
-                                <translation>aparellar</translation>
+				<translation transitive="true">coincidir / igualar</translation>
+                                <translation transitive="true">aparellar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -2402,7 +2403,7 @@
             </nouns>
             <verbs>
                 <translations>
-                    <translation>importar<engexamp>It doesn't matter</engexamp><catexamp>No importa</catexamp></translation>
+                    <translation intransitive="true">importar<engexamp>It doesn't matter.</engexamp><catexamp>No importa.</catexamp></translation>
                 </translations>
             </verbs>
             <expressions>as a matter of fact
@@ -2440,7 +2441,7 @@
 		</adjectives>
 		<verbs>
 			<translations>
-				<translation>madurar</translation>
+				<translation intransitive="true">madurar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2511,17 +2512,17 @@
 	</Entry>
          <Entry frequency="5690000">maximise<verbs>
                             <translations><date>0109</date>
-				<translation>(profits, efficiency..) augmentar al màxim</translation>
-                                <translation>(resources, opportunities..) aprofitar al màxim</translation>
-                                <translation local="gb" disambiguate="computers">maximitzar<otherlocal>maximize</otherlocal></translation>
+				<translation local="gb" transitive="true">[profits, efficiency..] augmentar al màxim</translation>
+                                <translation local="gb" transitive="true">[resources, opportunities..] aprofitar al màxim</translation>
+                                <translation local="gb" disambiguate="computers" transitive="true">maximitzar<otherlocal>maximize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
         <Entry frequency="37800000">maximize<verbs>
                             <translations><date>0109</date>
-				<translation>(profits, efficiency..) augmentar al màxim</translation>
-                                <translation>(resources, opportunities..) aprofitar al màxim</translation>
-                                <translation disambiguate="computers">maximitzar</translation>
+				<translation transitive="true">(profits, efficiency..) augmentar al màxim</translation>
+                                <translation transitive="true">(resources, opportunities..) aprofitar al màxim</translation>
+                                <translation disambiguate="computers" transitive="true">maximitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2626,17 +2627,17 @@
                 <past>meant</past>
                 <participle>meant</participle>
                 <translations><date>1208</date>
-                    <translation>significar / voler dir</translation>
-                    <translation>suposar</translation>
-                    <translation>pretendre<synonyms>intend</synonyms></translation>
+                    <translation transitive="true">significar / voler dir</translation>
+                    <translation transitive="true">suposar</translation>
+                    <translation transitive="true">pretendre<synonyms>intend</synonyms></translation>
                 </translations>
             </verbs>
             <adjectives>
                 <translations>
-                    <translation>(miserly) avar / mesquí / garrepa<synonyms>penny-pinching, miserly</synonyms>
+                    <translation>[miserly] avar / mesquí / garrepa<synonyms>penny-pinching, miserly</synonyms>
                     </translation>
-                    <translation>(unkind) antipàtic / cruel<synonyms>nasty</synonyms></translation>
-                    <translation>(good, talented) gran / bo / hàbil / talentós<example>Her grandmother makes a &lt;b&gt;mean&lt;/b&gt; pumpkin pie.</example><example>My brother doesn't just play drums, he's a &lt;b&gt;mean&lt;/b&gt; guitarist too.</example></translation>
+                    <translation>[unkind] antipàtic / cruel<synonyms>nasty</synonyms></translation>
+                    <translation>[good, talented] gran / bo / hàbil / talentós<example>Her grandmother makes a &lt;b&gt;mean&lt;/b&gt; pumpkin pie.</example><example>My brother doesn't just play drums, he's a &lt;b&gt;mean&lt;/b&gt; guitarist too.</example></translation>
                 </translations>
             </adjectives>
             <nouns>
@@ -2655,7 +2656,7 @@
             </nouns>
             <verbs>
                 <translations>
-                    <translation>divagar</translation>
+                    <translation intransitive="true">divagar</translation>
                 </translations>
             </verbs>
         </Entry>
@@ -2738,7 +2739,7 @@
             </nouns>
             <verbs>
                 <translations>
-                    <translation>mesurar</translation>
+                    <translation transitive="true">mesurar</translation>
                 </translations>
             </verbs>
             <phrasalverbs>measure out
@@ -2809,7 +2810,7 @@
 	</Entry>
 <Entry frequency="894000">mechanise<verbs>
 			<translations><date>0707</date>
-				<translation local="gb">mecanitzar<otherlocal>mechanize</otherlocal></translation>
+				<translation local="gb" transitive="true">mecanitzar<otherlocal>mechanize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2827,7 +2828,7 @@
 	</Entry>
 <Entry frequency="1650000">mechanize<verbs>
 			<translations><date>0707</date>
-				<translation>mecanitzar</translation>
+				<translation transitive="true">mecanitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2882,7 +2883,7 @@
 	</Entry>
 <Entry frequency="3840000">meddle<verbs>
 			<translations>
-				<translation>interferir / ficar-hi el nas</translation>
+				<translation intransitive="true">interferir / ficar-hi el nas</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>meddle with<translations><translation intransitive="true">remenar, grapejar</translation></translations></phrasalverbs></Entry>
@@ -2984,7 +2985,7 @@
 	</Entry>
 <Entry frequency="619000">meditate<verbs>
 			<translations>
-				<translation>meditar</translation>
+				<translation intransitive="true">meditar</translation>
 			</translations>
 		</verbs>
 	<phrasalverbs>meditate upon<translations><translation intransitive="true">meditar sobre</translation></translations></phrasalverbs></Entry>
@@ -3044,7 +3045,14 @@
 			<past>met</past>
 			<participle>met</participle>
                             <translations><date>1007</date>
-				<translation>reunir</translation>
+                                <translation transitive="true">[unplanned] trobar</translation>
+                                <translation transitive="true">[planned] reunir-se amb</translation>
+                                <translation transitive="true">[for first time] conèixer<engexamp>They met at work.</engexamp><catexamp>Es van conèixer a la feina.</catexamp></translation>
+                                <translation transitive="true">[needs] satisfer</translation>
+                                <translation transitive="true">[expectations] estar a l'altura de</translation>
+                                <translation transitive="true">[a goal or target] aconseguir</translation>
+                                <translation transitive="true">[difficulties, problems] topar amb</translation>
+				<translation intransitive="true">reunir-se</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>meet up
@@ -3299,7 +3307,7 @@
 	</Entry>
 <Entry frequency="100000">memorise<verbs>
 			<translations>
-				<translation transitive="true" local="gb">memoritzar<otherlocal>memorize</otherlocal>
+				<translation local="gb" transitive="true">memoritzar<otherlocal>memorize</otherlocal>
 				</translation>
 			</translations>
 		</verbs>
@@ -3623,7 +3631,7 @@
 	</Entry>
 <Entry frequency="591000">mesmerise<verbs>
 			<translations>
-				<translation transitive="true" local="gb">hipnotitzar<otherlocal>mesmerize</otherlocal></translation>
+				<translation local="gb" transitive="true">hipnotitzar<otherlocal>mesmerize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3760,7 +3768,7 @@
 	</Entry>
 <Entry frequency="379000">metabolise<verbs>
 			<translations>
-				<translation catagory="biology" local="gb">metabolitzar<otherlocal>metabolize</otherlocal></translation>
+				<translation catagory="biology" local="gb" transitive="true">metabolitzar<otherlocal>metabolize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3778,7 +3786,7 @@
 	</Entry>
 <Entry frequency="2090000">metabolize<verbs>
 			<translations>
-				<translation catagory="biology">metabolitzar</translation>
+				<translation catagory="biology" transitive="true">metabolitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4006,7 +4014,7 @@
 	</Entry>
 <Entry frequency="3400000">mew<verbs>
 			<translations>
-				<translation catagory="animal">miolar</translation>
+				<translation catagory="animal" intransitive="true">miolar</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -4043,7 +4051,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-                            <translation catagory="animal">miolar<synonyms>mew</synonyms></translation>
+                            <translation catagory="animal" intransitive="true">miolar<synonyms>mew</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4287,8 +4295,8 @@
     </Entry>
 <Entry frequency="1460000">migrate<verbs>
 			<translations>
-				<translation>migrar</translation>
-				<translation disambiguate="computers" termcat="true">migrar</translation>
+				<translation intransitive="true">migrar</translation>
+				<translation disambiguate="computers" termcat="true" transitive="true">migrar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4399,7 +4407,7 @@
 	</Entry>
 <Entry frequency="1700000">militate<verbs>
 			<translations>
-				<translation register="formal">[~ against] impedir / fer difícil</translation>
+				<translation register="formal" intransitive="true">[~ against] militar en contra de / impedir / fer difícil</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4440,7 +4448,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>moldre</translation>
+                        <translation transitive="true">moldre</translation>
                     </translations>
                 </verbs>
                 <expressions>cotton mill
@@ -4551,7 +4559,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>fer mim</translation>
+                        <translation intransitive="true">fer mim</translation>
                     </translations>
                 </verbs>
 	</Entry>
@@ -4566,7 +4574,7 @@
 			<participle>mimicked</participle>
 			<gerund>mimicking</gerund>
 			<translations>
-				<translation>mimar</translation>
+				<translation transitive="true">mimar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4583,7 +4591,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>picar</translation>
+				<translation transitive="true">picar</translation>
 			</translations>
 		</verbs>
                 <expressions>without mincing (your) words
@@ -4591,7 +4599,7 @@
                 <translation>sense embuts</translation>
                 </translations>
                 </expressions>
-                <expressions>not mince words
+                <expressions>to not mince words
                 <translations>
                     <translation>no tenir pèls a la llengua</translation>
                     </translations>
@@ -4706,13 +4714,13 @@
 	</Entry>
 <Entry frequency="4180000">minimise<verbs>
 			<translations>
-				<translation local="gb">minimitzar<otherlocal>minimize</otherlocal></translation>
+				<translation local="gb" transitive="true">minimitzar<otherlocal>minimize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="34700000">minimize<verbs>
 			<translations>
-				<translation>minimitzar</translation>
+				<translation transitive="true">minimitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4915,8 +4923,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>reflectir<synonyms>reflect</synonyms>
-				</translation>
+				<translation transitive="true">reflectir<synonyms>reflect</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4958,7 +4965,7 @@
 	</Entry>
 <Entry frequency="2050000">misbehave<verbs>
 			<translations><date>0508</date>
-				<translation>portar-se malament</translation>
+				<translation intransitive="true">portar-se malament</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5105,7 +5112,7 @@
 	</Entry> 
 <Entry frequency="2010000">misrepresent<verbs>
 			<translations><date>0408</date>
-				<translation>tergiversar</translation>
+				<translation transitive="true">tergiversar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5117,20 +5124,18 @@
 	</Entry>
 <Entry frequency="52000000">miss<verbs>
 			<translations><date>0308</date>
-				<translation>enyorar<engnote>'Enyorar' means 'to miss' in the sense ('I miss the good old days', 'We miss our old school').</engnote>
-				</translation>
-				<translation>perdre<engnote>'Perdre' means 'to miss' in the sense ('I missed the train').</engnote>
-				</translation>
+				<translation transitive="true">[long for] enyorar</translation>
+				<translation transitive="true">[be late for] perdre</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>miss out
                     <translations>
-                        <translation local="gb">no incloure algú o quelcom</translation>
+                        <translation local="gb" transitive="true">no incloure algú o quelcom</translation>
                     </translations>
                 </phrasalverbs>
                 <phrasalverbs>miss out on
                     <translations>
-                        <translation>perdre (una oportunitat, una experiència)</translation>
+                        <translation intransitive="true">perdre (una oportunitat, una experiència)</translation>
                     </translations>
                 </phrasalverbs>
 		<nouns>
@@ -5243,7 +5248,7 @@
 	</Entry>
 <Entry frequency="190000">mistreat<verbs>
 			<translations>
-				<translation>maltractar</translation>
+				<translation transitive="true">maltractar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5255,7 +5260,7 @@
 	</Entry>
 <Entry frequency="397000">mistrust<verbs>
 			<translations>
-				<translation>no fiar-se de</translation>
+				<translation transitive="true">no fiar-se de</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5263,7 +5268,7 @@
              <past>misunderstood</past>
              <participle>misunderstood</participle>
 			<translations><date>0808</date>
-				<translation>malentendre</translation>
+				<translation transitive="true">malentendre</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5287,7 +5292,7 @@
 	</Entry>
 <Entry frequency="4150000">mitigate<verbs>
 			<translations>
-				<translation>mitigar / atenuar / apaivagar / moderar / suavitzar</translation>
+				<translation transitive="true">mitigar / atenuar / apaivagar / moderar / suavitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5329,7 +5334,9 @@
 	</Entry>
 <Entry frequency="67200000">mix<verbs>
 			<translations>
-				<translation>barrejar / mesclar</translation>
+				<translation transitive="true">barrejar / mesclar</translation>
+                                <translation intransitive="true">barrejar-se</translation>
+                                <translation intransitive="true">[socialize] alternar / fer-se</translation> 
 			</translations>
 		</verbs>
 		<nouns>
@@ -5345,11 +5352,11 @@
                 <translation transitive="true">confondre</translation>
             </translations>
         </phrasalverbs>
-        <phrasalverbs>be mixed up with
+        <expressions>be mixed up with
             <translations>
                 <translation>estar embolicat amb</translation>
             </translations>
-        </phrasalverbs>
+        </expressions>
     </Entry>
 <Entry frequency="6330000">mixer<nouns>
 			<translations>
@@ -5386,10 +5393,10 @@
 	</Entry>
 <Entry frequency="1060000">moan<verbs>
 			<translations>
-				<translation>queixar-se<engnote>'Queixar-se' means 'to moan' as in 'to complain'.</engnote>
+				<translation intransitive="true">queixar-se<engnote>'Queixar-se' means 'to moan' as in 'to complain'.</engnote>
 					<synonyms>complain, whinge</synonyms>
 				</translation>
-				<translation>gemegar<engnote>'Gemegar' means 'to moan' as in 'to make a moaning sound'.</engnote>
+				<translation intransitive="true">gemegar<engnote>'Gemegar' means 'to moan' as in 'to make a moaning sound'.</engnote>
 				</translation>
 			</translations>
 		</verbs>
@@ -5448,7 +5455,7 @@
 	</Entry>
 <Entry frequency="166000">mobilise<verbs>
 			<translations>
-				<translation local="gb">mobilitzar<otherlocal>mobilize</otherlocal>
+				<translation local="gb" transitive="true">mobilitzar<otherlocal>mobilize</otherlocal>
 				</translation>
 			</translations>
 		</verbs>
@@ -5461,7 +5468,7 @@
 	</Entry>
 <Entry frequency="325000">mobilize<verbs>
 			<translations>
-				<translation local="us">mobilitzar<otherlocal>mobilise</otherlocal>
+				<translation local="us" transitive="true">mobilitzar<otherlocal>mobilise</otherlocal>
 				</translation>
 			</translations>
 		</verbs>
@@ -5474,7 +5481,7 @@
 	</Entry>
 <Entry frequency="1960000">mock<verbs>
 			<translations>
-				<translation>burlar-se de / riure's de</translation>
+				<translation transitive="true">burlar-se de / riure's de</translation>
 			</translations>
 		</verbs>
 		<adjectives>
@@ -5558,7 +5565,7 @@
 		</adjectives>
 		<verbs>
 			<translations>
-				<translation>moderar</translation>
+				<translation transitive="true">moderar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5595,7 +5602,7 @@
 	</Entry>
 <Entry frequency="186000">modernise<verbs>
 			<translations>
-				<translation local="gb">modernitzar<otherlocal>modernize</otherlocal>
+				<translation local="gb" transitive="true">modernitzar<otherlocal>modernize</otherlocal>
 				</translation>
 			</translations>
 		</verbs>
@@ -5632,7 +5639,7 @@
 	</Entry>
 <Entry frequency="204000">modernize<verbs>
 			<translations>
-				<translation local="us">modernitzar<otherlocal>modernise</otherlocal>
+				<translation local="us" transitive="true">modernitzar<otherlocal>modernise</otherlocal>
 				</translation>
 			</translations>
 		</verbs>
@@ -5670,7 +5677,7 @@
 	</Entry>
 <Entry frequency="156000000">modify<verbs ie="true">
 			<translations>
-				<translation>modificar</translation>
+				<translation transitive="true">modificar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5688,7 +5695,7 @@
 	</Entry>
 <Entry frequency="8480000">modulate<verbs>
 			<translations><date>1007</date>
-				<translation>modular</translation>
+				<translation transitive="true">modular</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5744,7 +5751,7 @@
 	</Entry>
 <Entry frequency="1840000">moisten<verbs>
 			<translations>
-				<translation>humitejar / humectar</translation>
+				<translation transitive="true">humitejar / humectar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5830,7 +5837,7 @@
 	</Entry>
 <Entry frequency="4710000">molest<verbs>
 			<translations>
-				<translation>assetjar (sexualment)</translation>
+				<translation transitive="true">assetjar (sexualment)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6014,7 +6021,7 @@
 		</nouns>
                 <verbs>
                 <translations>
-                <translation>vigilar / observar<example>If your child becomes sick you must &lt;b&gt;monitor&lt;/b&gt; his temperature very carefully.</example><example>More and more parents are &lt;b&gt;monitoring&lt;/b&gt; their children's online activities.</example></translation></translations></verbs>
+                <translation transitive="true">vigilar / observar<example>If your child becomes sick you must &lt;b&gt;monitor&lt;/b&gt; his temperature very carefully.</example><example>More and more parents are &lt;b&gt;monitoring&lt;/b&gt; their children's online activities.</example></translation></translations></verbs>
 	</Entry>
 <Entry frequency="1780000">monk<nouns>
 			<translations>
@@ -6125,15 +6132,15 @@
 	</Entry>
 <Entry frequency="186000">monopolise<verbs>
 			<translations>
-                        <translation local="gb">monopolitzar<otherlocal>monopolize</otherlocal></translation>
-				<translation>acaparar</translation>
+                        <translation local="gb" transitive="true">monopolitzar<otherlocal>monopolize</otherlocal></translation>
+				<translation transitive="true">acaparar</translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="662000">monopolize<verbs>
 			<translations>
-				<translation local="us">monopolitzar<otherlocal>monopolise</otherlocal></translation>
-                                <translation>acaparar</translation>
+				<translation local="us" transitive="true">monopolitzar<otherlocal>monopolise</otherlocal></translation>
+                                <translation transitive="true">acaparar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6358,8 +6365,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation register="slang">baixar els pantalons i mostrar el cul a algú<catnote>Normalment són els joves (i quasi sempre els homes) qui fan aquesta 'activitat' (generalment quan estan borratxos).  Ho fan per fer riure.</catnote>
-				</translation>
+				<translation register="slang" intransitive="true">baixar els pantalons i mostrar el cul a algú</translation>
 			</translations>
 		</verbs>
                 <expressions>over the moon
@@ -6376,7 +6382,7 @@
 	</Entry>
 <Entry frequency="1620000">moor<verbs>
 			<translations>
-				<translation>amarrar</translation>
+				<translation transitive="true">amarrar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6415,10 +6421,16 @@
 		</nouns>
 		<verbs double="true">
 			<translations>
-				<translation>fregar</translation>
+				<translation transitive="true">fregar</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>mop up<translations><translation transitive="true">fregar (del tot)</translation><translation transitive="true">(militar) eliminar resistència (sobretot a la conclusió d'una acció)</translation></translations></phrasalverbs></Entry>
+	<phrasalverbs>mop up
+            <translations>
+                <translation transitive="true">fregar (del tot)</translation>
+                <translation transitive="true">[mil.] eliminar resistència (sobretot a la conclusió d'una acció)</translation>
+            </translations>
+        </phrasalverbs>
+      </Entry>
 <Entry frequency="2830000">moped<nouns>
 			<translations>
 				<translation gender="m">ciclomotor</translation>
@@ -6436,12 +6448,33 @@
 			</translations>
 		</adjectives>
 	</Entry> 
+<Entry frequency="77600000">morale<nouns>
+        <translations><date>0113</date>
+            <grouptranslation>
+            <translation gender="f">moral</translation>
+            <translation gender="m">ànim</translation>
+            </grouptranslation>
+        </translations>
+    </nouns>
+</Entry>
+<Entry frequency="233000">moralise<verbs>
+        <translations><date>0113</date>
+            <translation local="gb" intransitive="true">moralitzar<otherlocal>moralize</otherlocal></translation>
+        </translations>
+    </verbs>
+</Entry>
 <Entry frequency="1580000">morality<nouns>
 			<translations>
 				<translation gender="f">moralitat</translation>
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="542000">moralize<verbs>
+        <translations><date>0113</date>
+            <translation intransitive="true">moralitzar</translation>        
+        </translations>
+    </verbs>
+</Entry>
 <Entry frequency="435000">morally<adverbs>
 			<translations>
 				<translation>moralment</translation>
@@ -6651,7 +6684,7 @@
 		</nouns>
                 <verbs>
                 <translations>
-                <translation catagory="financial">hipotecar</translation></translations></verbs>
+                <translation catagory="financial" transitive="true">hipotecar</translation></translations></verbs>
 	</Entry>
         <Entry frequency="2950000">mortuary<nouns>
 			<translations><date>1208</date>
@@ -6792,7 +6825,7 @@
 	</Entry>
 <Entry frequency="1800000">motivate<verbs>
 			<translations>
-				<translation>motivar / esperonar</translation>
+				<translation transitive="true">motivar / esperonar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6930,8 +6963,8 @@
 	</Entry>
 <Entry frequency="35300000">mount<verbs>
 			<translations>
-				<translation>augmentar / incrementar<example>Deaths &lt;b&gt;mount&lt;/b&gt; in Iraq</example><engnote>'Augmentar' and 'incrementar' mean 'to mount' as in 'to increase'.</engnote><synonyms>increase</synonyms></translation>
-				<translation>organitzar (una manifestació / una protesta / una campanya)<engnote>'Organitzar' means 'to mount' as in 'to mount a campaign / protest etc.'</engnote><synonyms>stage, organize</synonyms></translation>
+				<translation intransitive="true">augmentar / incrementar<example>Deaths &lt;b&gt;mount&lt;/b&gt; in Iraq</example><engnote>'Augmentar' and 'incrementar' mean 'to mount' as in 'to increase'.</engnote><synonyms>increase</synonyms></translation>
+				<translation transitive="true">organitzar (una manifestació / una protesta / una campanya)<engnote>'Organitzar' means 'to mount' as in 'to mount a campaign / protest etc.'</engnote><synonyms>stage, organize</synonyms></translation>
 			</translations>
 		</verbs>
                  <phrasalverbs>mount up
@@ -7113,11 +7146,13 @@
                 </nouns>
 <verbs>
 			<translations>
-				<translation>moure</translation>
-                                <translation>traslladar / mudar</translation>
-                                <translation>commoure / emocionar<synonyms>touch</synonyms></translation>
-                                <translation>actuar</translation>
-                                <translation register="formal">proposar</translation>
+				<translation transitive="true">moure</translation>
+                                <translation transitive="true">traslladar / mudar</translation>
+                                <translation transitive="true">[emotionally] commoure / emocionar<synonyms>touch</synonyms></translation>
+                                <translation transitive="true">[take action] actuar</translation>
+                                <translation transitive="true">[goods] vendre</translation>
+                                <translation register="formal" transitive="true">[suggest] proposar</translation> 
+                                <translation intransitive="true">[house] mudar-se</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>move about
@@ -7216,21 +7251,26 @@
                         <translation intransitive="true">(militar) avançar a l'àrea de combat</translation>
                     </translations>
                 </phrasalverbs>
-                <expressions>get a move on
+                <expressions>to get a move on
                     <translations>
                         <translation register="colloquial">apressar-se / afanyar-se</translation>
                     </translations>
                 </expressions>
-                <expressions>make a move
+                <expressions>to make a move
                     <translations>
                         <translation register="colloquial">anar-se'n / marxar<engexamp>Shall we make a move?</engexamp><catexamp>Anem?</catexamp><example>It's getting late. I'd better &lt;b&gt;make a move&lt;/b&gt; because my parents expect me home by 11.</example></translation>
                         <translation register="colloquial">fer un canvi</translation>
                         <translation register="colloquial">instigar una acció</translation>
                     </translations>
                 </expressions>
-                <expressions>make a move on
+                <expressions>to make a move on
                     <translations>
                         <translation register="colloquial">intentar a lligar amb (algú)</translation>
+                    </translations>
+                </expressions>
+                <expressions>to move heaven and earth
+                    <translations>
+                        <translation>remoure cel i terra</translation>
                     </translations>
                 </expressions>
   	</Entry>
@@ -7262,14 +7302,13 @@
 	</Entry>
 <Entry frequency="2900000">mow<verbs>
                             <translations><date>1007</date>
-				<translation>tallar la gespa (a màquina)<synonyms>cut</synonyms>
-				</translation>
+				<translation transitive="true">tallar (la gespa a màquina)<synonyms>cut</synonyms></translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>mow down
                     <translations>
-                        <translation>matar un grup o grups de persones amb armes de foc<example>On D-Day, allied soldiers coming ashore were &lt;b&gt;mowed down&lt;/b&gt; by German machine gun fire.</example></translation>
-                        <translation>atropellar (i matar) una persona o un grup de persones<example>An out-of-control car jumped a curb on Watchung Avenue and &lt;b&gt;mowed down&lt;/b&gt; four pedestrians.</example></translation>
+                        <translation transitive="true">matar un grup o grups de persones amb armes de foc<example>On D-Day, allied soldiers coming ashore were &lt;b&gt;mowed down&lt;/b&gt; by German machine gun fire.</example></translation>
+                        <translation transitive="true">atropellar (i matar) una persona o un grup de persones<example>An out-of-control car jumped a curb on Watchung Avenue and &lt;b&gt;mowed down&lt;/b&gt; four pedestrians.</example></translation>
                     </translations>
                 </phrasalverbs>
 	</Entry>
@@ -7410,7 +7449,8 @@
 	</Entry>
         <Entry frequency="12600000">muddle<verbs>
                             <translations><date>0909</date>
-				<translation>confondre</translation>
+                                <translation transitive="true">desordenar</translation>
+				<translation transitive="true">confondre</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -7471,7 +7511,7 @@
 	</Entry>
 <Entry frequency="4860000">muffle<verbs>
 			<translations>
-				<translation>esmorteir</translation>
+				<translation transitive="true">esmorteir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7484,8 +7524,8 @@
 	</Entry>
 <Entry frequency="5080000">mug<verbs double="true">
 			<translations>
-				<translation>robar (amb violència)<example>The old lady was &lt;b&gt;mugged&lt;/b&gt; in the middle of the high street</example>
-					<example>There are some simple steps the average tourist can take to avoid being &lt;b&gt;mugged&lt;/b&gt; in New York</example>
+				<translation transitive="true">robar (amb violència)<example>The old lady was &lt;b&gt;mugged&lt;/b&gt; in the middle of the high street.</example>
+					<example>There are some simple steps the average tourist can take to avoid being &lt;b&gt;mugged&lt;/b&gt; in New York.</example>
 				</translation>
 			</translations>
 		</verbs>
@@ -7518,7 +7558,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>cobrir el sòl del jardí amb escorça triturada per tal de controlar les males herbes i reduir els efectes de l'evaporació</translation>
+				<translation transitive="true">cobrir el sòl del jardí amb escorça triturada per tal de controlar les males herbes i reduir els efectes de l'evaporació</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7670,7 +7710,8 @@
 	</Entry>
 <Entry frequency="7870000">multiply<verbs ie="true">
 			<translations>
-				<translation>multiplicar</translation>
+				<translation transitive="true">multiplicar</translation>
+                                <translation intransitive="true">multiplicar-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7688,7 +7729,7 @@
 	</Entry>
 <Entry frequency="1150000">multitask<verbs>
                             <translations><date>0508</date>
-				<translation>dur a terme simultàniament diverses activitats</translation>
+				<translation intransitive="true">dur a terme simultàniament diverses activitats</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7730,7 +7771,7 @@
 	</Entry>
 <Entry frequency="2530000">mumble<verbs>
                             <translations><date>0909</date>
-				<translation>parlar entre dents / barbotejar / murmurar</translation>
+				<translation intransitive="true">parlar entre dents / barbotejar / murmurar</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -7747,7 +7788,7 @@
 	</Entry>
 <Entry frequency="1450000">mummify<verbs ie="true">
 			<translations><date>1007</date>
-				<translation>momificar</translation>
+				<translation transitive="true">momificar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7768,7 +7809,7 @@
 	</Entry>
         <Entry frequency="11700000">munch<verbs>
 			<translations><date>0309</date>
-				<translation register="colloquial">mastegar<synonyms>chomp</synonyms></translation>
+				<translation register="colloquial" transitive="true">mastegar<synonyms>chomp</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7846,7 +7887,7 @@
 	</Entry>
 <Entry frequency="11700000">murder<verbs>
 			<translations>
-				<translation>assassinar<catnote>Hi ha una expressió col·loquial 'I could murder a (drink / sandwich / ice cream etc.)' qui vol dir 'Tinc molta gana i el que m'agradaria fer ara mateix és menjar / beure (una cervesa / un gelat / un entrepà etc.)'.</catnote>
+				<translation transitive="true">assassinar<catnote>Hi ha una expressió col·loquial 'I could murder a (drink / sandwich / ice cream etc.)' qui vol dir 'Tinc molta gana i el que m'agradaria fer ara mateix és menjar / beure (una cervesa / un gelat / un entrepà etc.)'.</catnote>
 				</translation>
 			</translations>
 		</verbs>
@@ -7871,7 +7912,7 @@
 	</Entry>
 <Entry frequency="2440000">murmur<verbs>
 			<translations>
-				<translation>murmurar</translation>
+				<translation intransitive="true">murmurar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -7989,7 +8030,7 @@
 		</nouns>
                 <verbs>
                 <translations>
-                <translation>multiplicar / incrementar molt ràpidament</translation></translations></verbs>
+                <translation intransitive="true">multiplicar / incrementar molt ràpidament</translation></translations></verbs>
 	</Entry>
         <Entry frequency="2170000">mushy<adjectives>
                             <translations><date>0609</date>
@@ -8089,7 +8130,7 @@
 	</Entry>
 <Entry frequency="16900000">mutate<verbs>
 			<translations>
-				<translation catagory="biology">mutar</translation>
+				<translation catagory="biology" intransitive="true">mutar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -8123,7 +8164,7 @@
 	</Entry>
 <Entry frequency="250000">mutilate<verbs>
 			<translations>
-				<translation>mutilar</translation>
+				<translation transitive="true">mutilar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -8146,7 +8187,9 @@
 		</nouns>
                 <verbs ie="true">
                 <translations>
-                <translation>amotinar-se</translation></translations></verbs>
+                <translation intransitive="true">amotinar-se</translation>
+                </translations>
+                </verbs>
 	</Entry>
 <Entry frequency="409000">mutism<nouns>
 			<translations><date>0406</date>
@@ -8163,7 +8206,7 @@
 	</Entry>
 <Entry frequency="14200000">mutter<verbs>
                             <translations><date>0909</date>
-				<translation>parlar entre dents / barbotejar / murmurar<synonyms>murmur, mumble</synonyms>
+				<translation intransitive="true">parlar entre dents / barbotejar / murmurar<synonyms>murmur, mumble</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -8199,7 +8242,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>silenciar / posar-li una mordassa a algú</translation>
+                        <translation transitive="true">silenciar / posar-li una mordassa a algú</translation>
                     </translations>
                 </verbs>
 	</Entry>
@@ -8354,7 +8397,7 @@
 	</Entry>
 <Entry frequency="220000">mystify<verbs ie="true">
 			<translations>
-				<translation>desconcertar</translation>
+				<translation transitive="true">desconcertar</translation>
 			</translations>
 		</verbs>
 	</Entry>
