@@ -549,7 +549,7 @@
 
 			<translations>
 
-				<translation>rifar</translation>
+				<translation transitive="true">rifar</translation>
 
 			</translations>
 
@@ -726,7 +726,7 @@
 
 			<translations>
 
-				<translation catagory="weather">ploure</translation>
+				<translation catagory="weather" intransitive="true">ploure</translation>
 
 			</translations>
 
@@ -947,9 +947,9 @@
 
                 <translations>
 
-                <translation>reunir(-se) / aplegar(-se) / ajuntar(-se)<catnote>(en suport d'algú).</catnote></translation>
+                <translation intransitive="true">reunir(-se) / aplegar(-se) / ajuntar(-se)<catnote>(en suport d'algú).</catnote></translation>
 
-                <translation disambiguate="sports, financial">recuperar-se</translation>
+                <translation disambiguate="sports, financial" intransitive="true">recuperar-se</translation>
 
                 </translations>
 
@@ -974,16 +974,16 @@
 
                 <translations>
 
-                <translation>xocar / topar</translation></translations></verbs>
+                <translation transitive="true">xocar / topar</translation></translations></verbs>
 
 	</Entry>
 <Entry frequency="1080000">ramble<verbs>
 
 			<translations>
 
-				<translation>fer excursió / fer de rodamón</translation>
+				<translation intransitive="true">fer excursió / fer de rodamón</translation>
 
-                                <translation>ramblejar</translation>
+                                <translation intransitive="true">ramblejar</translation>
 
 			</translations>
 
@@ -1124,7 +1124,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>classificar</translation>
+				<translation transitive="true">classificar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>rank with
@@ -1158,7 +1158,7 @@
 
 			<translations>
 
-				<translation>saquejar</translation>
+				<translation transitive="true">saquejar</translation>
 
 			</translations>
 
@@ -1194,7 +1194,7 @@
 
 			<translations>
 
-				<translation>violar</translation>
+				<translation transitive="true">violar</translation>
 
 			</translations>
 
@@ -1261,7 +1261,7 @@
             
             <translations><date>1008</date>
                 
-                <translation catagory="sports" local="us" termcat="true">fer ràpel<synonyms>abseil</synonyms></translation>
+                <translation catagory="sports" local="us" termcat="true" intransitive="true">fer ràpel<synonyms>abseil</synonyms></translation>
                 
             </translations>
             
@@ -1339,7 +1339,7 @@
 
 			<translations>
 
-				<translation catagory="chemistry">enrarir</translation>
+				<translation catagory="chemistry" transitive="true">enrarir</translation>
 
 			</translations>
 
@@ -1532,7 +1532,7 @@
 
 			<translations>
 
-				<translation>valorar</translation>
+				<translation transitive="true">valorar</translation>
 
 			</translations>
 
@@ -1606,7 +1606,7 @@
 
 			<translations>
 
-				<translation>ratificar</translation>
+				<translation transitive="true">ratificar</translation>
 
 			</translations>
 
@@ -1639,7 +1639,7 @@
 
 			<translations>
 
-				<translation>racionar / posar a ració</translation>
+				<translation transitive="true">racionar / posar a ració</translation>
 
 			</translations>
 
@@ -1699,7 +1699,7 @@
 
                             <translations><date>0809</date>
 
-                                <translation local="gb">racionalitzar<otherlocal>rationalize</otherlocal></translation>
+                                <translation local="gb" transitive="true">racionalitzar<otherlocal>rationalize</otherlocal></translation>
 
 			</translations>
 
@@ -1754,7 +1754,7 @@
 
                             <translations><date>0809</date>
 
-                                <translation>racionalitzar</translation>
+                                <translation transitive="true">racionalitzar</translation>
 
 			</translations>
 
@@ -1844,9 +1844,9 @@
 
                 <translations>
 
-                <translation>delirar / entusiasmar-se</translation>
+                <translation intransitive="true">delirar / entusiasmar-se</translation>
 
-                <translation>desvariar / desvariejar</translation>
+                <translation intransitive="true">desvariar / desvariejar</translation>
 
                 </translations>
 
@@ -1898,9 +1898,9 @@
 
 			<translations>
 
-				<translation>embadalir / extasiar</translation>
+				<translation transitive="true">embadalir / extasiar</translation>
 
-				<translation>violar</translation>
+				<translation transitive="true">violar</translation>
 
 			</translations>
 
@@ -1960,35 +1960,22 @@
 			</translations>
 
 		</nouns>
-
-	</Entry>
-<Entry frequency="105000">ray of hope<nouns>
-
-			<translations>
-
-				<translation gender="m">raig d'esperança</translation>
-
-			</translations>
-
-		</nouns>
-
-	</Entry>
-<Entry frequency="57600">ray of sunshine<nouns>
-
-			<translations>
-
-				<translation catagory="weather" gender="m">raig de sol</translation>
-
-			</translations>
-
-		</nouns>
-
+                <expressions>ray of hope
+                    <translations>
+                        <translation gender="m">raig d'esperança</translation>
+                    </translations>
+                </expressions>
+                <expressions>ray of sunshine
+                    <translations>
+                        <translation catagory="weather" gender="m">raig de sol</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="756000">raze<verbs>
 
 			<translations>
 
-				<translation>talar</translation>
+				<translation transitive="true">talar</translation>
 
 			</translations>
 
@@ -2062,7 +2049,7 @@
 
 			<translations>
 
-				<translation>reaccionar</translation>
+				<translation intransitive="true">reaccionar</translation>
 
 			</translations>
 
@@ -2116,7 +2103,11 @@
 			<past>read</past>
 			<participle>read</participle>
 			<translations><date>1007</date>
-				<translation>llegir</translation>
+				<translation transitive="true">llegir<example>He enjoys &lt;b&gt;reading&lt;/b&gt; comic books.</example></translation>
+                                <translation intransitive="true">llegir<example>He is learning to &lt;b&gt;read&lt;/b&gt;.</example></translation>
+                                <translation transitive="true">dir<example>The sign &lt;b&gt;read&lt;/b&gt; "keep out".</example></translation>
+                                <translation transitive="true">interpretar<example>How do you &lt;b&gt;read&lt;/b&gt; their statements?</example></translation>
+                                <translation disambiguate="education" local="gb" transitive="true">estudiar<example>Farquar is &lt;b&gt;reading&lt;/b&gt; English at Oxford.</example></translation>                                
 			</translations>
 		</verbs>
                 <phrasalverbs>read about
@@ -2241,7 +2232,7 @@
 
 			<translations>
 
-				<translation register="formal">reafirmar</translation>
+				<translation register="formal" transitive="true">reafirmar</translation>
 
 			</translations>
 
@@ -2291,7 +2282,9 @@
 	</Entry>
 <Entry frequency="8770000">realise<verbs>
 			<translations><date>0408</date>
-				<translation local="gb">arribar a una conclusió<otherlocal>realize</otherlocal></translation>
+				<translation local="gb" transitive="true">adonar-se</translation>
+                                <translation local="gb" transitive="true">acomplir / executar / realitzar</translation>
+                                <translation local="gb" disambiguate="financial" transitive="true">realitzar<otherlocal>realize</otherlocal></translation>                                
 			</translations>
 
 		</verbs>
@@ -2365,7 +2358,9 @@
 	</Entry>
 <Entry frequency="23100000">realize<verbs>
 			<translations><date>0408</date>
-				<translation>arribar a una conclusió</translation>
+				<translation local="gb" transitive="true">adonar-se</translation>
+                                <translation local="gb" transitive="true">acomplir / executar / realitzar</translation>
+                                <translation local="gb" disambiguate="financial" transitive="true">realitzar<otherlocal>realize</otherlocal></translation>                                
 			</translations>
 
 		</verbs>
@@ -2450,13 +2445,9 @@
 
 			<translations>
 
-				<translation>recollir (els fruits del treball)<engnote>'Recollir' means 'reap' in the figurative sense 'to reap rewards'.</engnote>
+				<translation transitive="true">[rewards] recollir (els fruits del treball)</translation>
 
-				</translation>
-
-				<translation>segar<engnote>'Segar' means 'reap' in the literal sense of 'sowing and reaping crops'.</engnote>
-
-				</translation>
+				<translation transitive="true">[crops] segar</translation>
 
 			</translations>
 
