@@ -55,7 +55,10 @@
 		</adjectives>
                 <verbs>
                 <translations>
-                <translation>quadruplicar</translation></translations></verbs>
+                <translation transitive="true">quadruplicar</translation>
+                <translation intransitive="true">quadruplicar-se</translation>
+                </translations>
+                </verbs>
 	</Entry><Entry frequency="3310000">quagmire<nouns>
 			<translations>
 				<translation gender="m">fangar<synonyms>bog</synonyms></translation>
@@ -68,7 +71,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>acovardir-se</translation>
+				<translation intransitive="true">acovardir-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -99,7 +102,7 @@
 	</Entry>
         <Entry frequency="28700000">qualify<verbs ie="true">
 			<translations>
-				<translation>qualificar</translation>
+				<translation intransitive="true">qualificar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>qualify for
@@ -164,7 +167,7 @@
 	</Entry>
         <Entry frequency="8980000">quantify<verbs ie="true">
 			<translations><date>0808</date>
-                        <translation>quantificar</translation>
+                        <translation transitive="true">quantificar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -221,7 +224,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>barallar-se / discutir</translation>
+				<translation intransitive="true">barallar-se / discutir</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>quarrel with
@@ -338,8 +341,8 @@
 	</Entry>
         <Entry frequency="7970000">quell<verbs>
                     <translations><date>1008</date>
-                        <translation>[rebellion] sufocar</translation>
-                        <translation>[fears, nerves] calmar</translation>
+                        <translation transitive="true">[rebellion] sufocar</translation>
+                        <translation transitive="true">[fears, nerves] calmar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -363,8 +366,8 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>interrogar</translation>
-				<translation>posar en dubte</translation>
+				<translation transitive="true">interrogar</translation>
+				<translation transitive="true">posar en dubte</translation>
 			</translations>
 		</verbs>
                 <expressions>question mark
@@ -421,7 +424,7 @@
 	</Entry>
         <Entry frequency="6350000">quicken<verbs>
                             <translations><date>1008</date>
-				<translation>accelerar / apressar</translation>
+				<translation transitive="true">accelerar / apressar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -536,13 +539,12 @@
 			<participle>quit</participle>
 			<gerund>quitting</gerund>
 			<translations>
-				<translation>deixar de<synonyms>stop</synonyms>
-					<catnote>L'anglès americà utilitza el verbi 'quit' en forma imperatiu (per exemple: 'quit doing that' – 'no facis això'; 'quit bugging me' – 'no em molestis'). En l'anglès britànic és més habitual 'stop doing that', 'stop bothering me' etc..</catnote>
-					<engexamp>To quit your job</engexamp>
-					<catexamp>Dimitir</catexamp>
+				<translation transitive="true">deixar de<synonyms>stop</synonyms><catnote>L'anglès americà utilitza el verbi 'quit' en forma imperatiu (per exemple: 'quit doing that' – 'no facis això'; 'quit bugging me' – 'no em molestis'). En l'anglès britànic és més habitual 'stop doing that', 'stop bothering me' etc..</catnote>
+					<engexamp>To quit your job.</engexamp>
+					<catexamp>Dimitir.</catexamp>
 				</translation>
-                                <translation>deixar de / desenganxar-se<engexamp>To quit smoking</engexamp><catexamp>Deixar de fumar</catexamp><engexamp>To quit doing drugs</engexamp><catexamp>Desenganxar-se de la droga</catexamp></translation>
-				<translation catagory="computers">sortir<synonyms>exit</synonyms>
+                                <translation>[bad habit] deixar de / desenganxar-se<engexamp>To quit smoking.</engexamp><catexamp>Deixar de fumar.</catexamp><engexamp>To quit doing drugs.</engexamp><catexamp>Desenganxar-se de la droga.</catexamp></translation>
+				<translation catagory="computers" intransitive="true">sortir<synonyms>exit</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -559,7 +561,7 @@
 		</nouns>
                 <verbs double="true">
                 <translations>
-                <translation>interrogar</translation>
+                <translation transitive="true">interrogar</translation>
                 </translations>
                 </verbs>
 	</Entry>
@@ -582,9 +584,9 @@
 	</Entry>
         <Entry frequency="45000000">quote<verbs>
 			<translations>
-				<translation>citar</translation>
-                                <translation>posar entre cometes</translation>
-                                <translation catagory="financial">cotitzar</translation>
+				<translation transitive="true">citar</translation>
+                                <translation transitive="true">posar entre cometes</translation>
+                                <translation catagory="financial" transitive="true">cotitzar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>quote from
