@@ -2458,7 +2458,7 @@
 
 			<translations>
 
-				<translation>reaparèixer</translation>
+				<translation intransitive="true">reaparèixer</translation>
 
 			</translations>
 
@@ -2536,7 +2536,7 @@
 
 			<translations>
 
-				<translation>reorganitzar / reordenar</translation>
+				<translation transitive="true">reorganitzar / reordenar</translation>
 
 			</translations>
 
@@ -2561,7 +2561,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>raonar</translation>
+				<translation intransitive="true">raonar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>reason with
@@ -2607,9 +2607,7 @@
 
 			<translations>
 
-				<translation>reavaluar<synonyms>reevaluate</synonyms>
-
-				</translation>
+				<translation transitive="true">reavaluar<synonyms>reevaluate</synonyms></translation>
 
 			</translations>
 
@@ -2620,7 +2618,7 @@
 
 			<translations>
 
-				<translation>tranquil·litzar</translation>
+				<translation transitive="true">tranquil·litzar</translation>
 
 			</translations>
 
@@ -2657,7 +2655,7 @@
 
 			<translations>
 
-				<translation>rebel·lar</translation>
+				<translation intransitive="true">rebel·lar</translation>
 
 			</translations>
 
@@ -2688,7 +2686,7 @@
 	</Entry>
         <Entry frequency="14400000">reboot<verbs>
                             <translations><date>1008</date>
-				<translation disambiguate="computers" termcat="true">arrencar de nou</translation>
+				<translation disambiguate="computers" termcat="true" transitive="true">arrencar de nou / reiniciar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2696,7 +2694,7 @@
 
                             <translations><date>1107</date>
 
-				<translation>rebotar</translation>
+				<translation intransitive="true">rebotar</translation>
 
 			</translations>
 
@@ -2730,9 +2728,7 @@
 
 			<translations>
 
-				<translation>reconstruir<synonyms>reconstruct</synonyms>
-
-				</translation>
+				<translation transitive="true">reconstruir<synonyms>reconstruct</synonyms></translation>
 
 			</translations>
 
@@ -2753,7 +2749,7 @@
 
                 <translations>
 
-                <translation register="formal">reganyar / reprendre / blasmar<synonyms>reprove</synonyms></translation></translations></verbs>
+                <translation register="formal" transitive="true">reganyar / reprendre / blasmar<synonyms>reprove</synonyms></translation></translations></verbs>
 
 	</Entry>
          <Entry frequency="1640000">recalcitrant<adjectives>
@@ -2771,17 +2767,13 @@
 
                             <translations><date>0209</date>
 
-				<translation>recordar / rememorar<synonyms>remember</synonyms>
+				<translation transitive="true">recordar / rememorar<synonyms>remember</synonyms>
 
 				</translation>
 
-				<translation>retirar (del mercat)<catnote>(Demanar al públic que retorni un producte específic a la botiga en la què el va comprar o bé directament al fabricant, perquè s'ha descobert que té un defecte).</catnote><example>Sony &lt;b&gt;recalled&lt;/b&gt; all their 1992 model 32” widescreen televisions because they found they were likely to explode if left plugged in for more than 8 hours at a time</example>
+				<translation transitive="true">retirar (del mercat)<catnote>(Demanar al públic que retorni un producte específic a la botiga en la que el va comprar o bé directament al fabricant, perquè s'ha descobert que té un defecte).</catnote><example>Sony &lt;b&gt;recalled&lt;/b&gt; all their 1992 model 32” widescreen televisions because they found they were likely to explode if left plugged in for more than 8 hours at a time.</example></translation>
 
-				</translation>
-
-				<translation catagory="politics">retirar (un ambaixador)<example>India &lt;b&gt;recalled&lt;/b&gt; their ambassador from Pakistan after the Pakistan government test fired a nuclear missile over their territory</example>
-
-				</translation>
+				<translation catagory="politics" transitive="true">retirar (un ambaixador)<example>India &lt;b&gt;recalled&lt;/b&gt; their ambassador from Pakistan after the Pakistan military test fired a nuclear missile over their territory.</example></translation>
 
 			</translations>
 
@@ -2792,7 +2784,7 @@
 
                             <translations><date>1008</date>
 
-				<translation register="formal">retractar-se</translation>
+				<translation register="formal" intransitive="true">retractar-se</translation>
 
 			</translations>
 
@@ -2814,7 +2806,7 @@
 
             <translations><date>0907</date>
 
-                <translation>reprendre</translation>
+                <translation transitive="true">reprendre</translation>
 
             </translations>
 
@@ -2848,7 +2840,7 @@
 
 			<translations>
 
-				<translation>rebre</translation>
+				<translation transitive="true">rebre</translation>
 
 			</translations>
 
@@ -2973,7 +2965,7 @@
 
                             <translations><date>0809</date>
 
-				<translation>recarregar</translation>
+				<translation transitive="true">recarregar</translation>
 
 			</translations>
 
@@ -3021,7 +3013,7 @@
 
 			<translations><date>0307</date>
 
-				<translation>reciprocar</translation>
+				<translation intransitive="true">reciprocar</translation>
 
 			</translations>
 
@@ -3093,7 +3085,7 @@
 
 			<translations><date>1007</date>
 
-				<translation register="colloquial">creure<example>He said that he won £3 million on the lottery but I &lt;b&gt;reckon&lt;/b&gt; he's lying</example>
+				<translation register="colloquial" transitive="true">creure<example>He said that he won £3 million on the lottery but I &lt;b&gt;reckon&lt;/b&gt; he's lying</example>
 
 					<example>Do you &lt;b&gt;reckon&lt;/b&gt; he would lend me his car for the weekend if I asked him nicely?</example>
 
@@ -3168,9 +3160,7 @@
 
 			<translations>
 
-				<translation local="gb">reconèixer<otherlocal>recognize</otherlocal>
-
-				</translation>
+				<translation local="gb" transitive="true">reconèixer<otherlocal>recognize</otherlocal></translation>
 
 			</translations>
 
@@ -3192,7 +3182,7 @@
 
 			<translations>
 
-				<translation>reconèixer</translation>
+				<translation transitive="true">reconèixer</translation>
 
 			</translations>
 
@@ -3203,9 +3193,8 @@
 
                             <translations><date>0209</date>
 
-				<translation register="formal">recordar / rememorar<synonyms>remember</synonyms>
-
-				</translation>
+				<translation register="formal" transitive="true">recordar</translation>
+                                <translation register="formal" intransitive="true">recordar-se</translation>
 
 			</translations>
 
@@ -3233,7 +3222,7 @@
 
 			<translations>
 
-				<translation>recomanar</translation>
+				<translation transitive="true">recomanar</translation>
 
 			</translations>
 
@@ -3267,7 +3256,7 @@
 
 			<translations>
 
-				<translation register="formal">recompensar<synonyms>compensate</synonyms>
+				<translation register="formal" transitive="true">recompensar<synonyms>compensate</synonyms>
 
 				</translation>
 
@@ -3280,7 +3269,7 @@
 
 			<translations>
 
-				<translation catagory="computers">recompilar</translation>
+				<translation catagory="computers" transitive="true">recompilar</translation>
 
 			</translations>
 
@@ -3289,7 +3278,7 @@
 	</Entry>
          <Entry frequency="8770000">reconsider<verbs>
 			<translations><date>0908</date>
-				<translation>reconsiderar</translation>
+				<translation transitive="true">reconsiderar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3297,7 +3286,7 @@
 
 			<translations>
 
-				<translation>reconstruir</translation>
+				<translation transitive="true">reconstruir</translation>
 
 			</translations>
 
@@ -3330,7 +3319,7 @@
 
 			<translations>
 
-				<translation>gravar</translation>
+				<translation transitive="true">gravar</translation>
 
 			</translations>
 
@@ -3424,8 +3413,8 @@
 	</Entry>
         <Entry frequency="6530000">recount<verbs>
                             <translations><date>0110</date>
-				<translation register="formal">contar<engnote>'Contar' means 'recount' as in 'to tell'.</engnote></translation>
-                                <translation>recomptar<engnote>'Recomptar' means 'recount' as in 'to count again'.</engnote></translation>
+				<translation register="formal" transitive="true">[tell] contar</translation>
+                                <translation transitive="true">[count again] recomptar</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -3438,7 +3427,7 @@
                 
                 <translations><date>0109</date>
                     
-                    <translation>recuperar (diners, una inversió..)<example>Within two weeks of its release the movie &lt;b&gt;recouped&lt;/b&gt; its $10 million production costs.</example></translation>
+                    <translation transitive="true">recuperar (diners, una inversió..)<example>Within two weeks of its release the movie &lt;b&gt;recouped&lt;/b&gt; its $10 million production costs.</example></translation>
                     
                 </translations>
                 
@@ -3474,7 +3463,7 @@
 
 			<translations>
 
-				<translation>recrear</translation>
+				<translation transitive="true">recrear</translation>
 
 			</translations>
 
@@ -3485,7 +3474,7 @@
 
 			<translations>
 
-				<translation>reclutar</translation>
+				<translation transitive="true">reclutar</translation>
 
 			</translations>
 
@@ -3552,9 +3541,7 @@
 
 			<translations>
 
-				<translation>rectificar<synonyms>to put right</synonyms>
-
-				</translation>
+				<translation transitive="true">rectificar<synonyms>put right</synonyms></translation>
 
 			</translations>
 
@@ -3603,7 +3590,7 @@
 	</Entry>
         <Entry frequency="106000000">recuse<verbs>
 			<translations><date>0209</date>
-				<translation catagory="legal">recusar</translation>
+				<translation catagory="legal" transitive="true">recusar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3611,7 +3598,7 @@
 
 			<translations>
 
-				<translation>reciclar</translation>
+				<translation transitive="true">reciclar</translation>
 
 			</translations>
 
@@ -3716,7 +3703,7 @@
 
 			<translations>
 
-				<translation>enrogir-se / posar-se vermell</translation>
+				<translation intransitive="true">enrogir-se / posar-se vermell</translation>
 
 			</translations>
 
@@ -3749,9 +3736,9 @@
 
                             <translations><date>0310</date>
 
-				<translation>bescanviar</translation>
-                                <translation disambiguate="religious">redimir</translation>
-                                <translation>[deute] liquidar</translation>
+				<translation transitive="true">bescanviar</translation>
+                                <translation disambiguate="religious" transitive="true">redimir</translation>
+                                <translation transitive="true">[a debt] liquidar</translation>
 			</translations>
 
 		</verbs>
@@ -3795,7 +3782,7 @@
 
 			<translations>
 
-				<translation catagory="telephone">tornar a marcar</translation>
+				<translation catagory="telephone" transitive="true">tornar a marcar</translation>
 
 			</translations>
 
@@ -3816,7 +3803,7 @@
 
                             <translations><date>0508</date>
 
-				<translation catagory="computers">redirigir</translation>
+				<translation catagory="computers" transitive="true">redirigir</translation>
 
 			</translations>
 
@@ -3827,7 +3814,7 @@
 
 			<translations>
 
-				<translation>redescobrir</translation>
+				<translation transitive="true">redescobrir</translation>
 
 			</translations>
 
@@ -3896,13 +3883,9 @@
 
 			<translations>
 
-				<translation>reduir<engnote>'Reduir' means 'to reduce' in the sense 'to make something smaller'.</engnote>
+				<translation transitive="true">[make smaller] reduir</translation>
 
-				</translation>
-
-				<translation>reduir / rebaixar / abaixar / abaratir<engnote>'Reduir', 'rebaixar', 'abaixar' and 'abaratir' mean 'to reduce' as in 'to lower a price / costs etc.'.</engnote>
-
-				</translation>
+				<translation transitive="true">[lower] reduir / rebaixar / abaixar / abaratir</translation>
 
 			</translations>
 
@@ -3983,7 +3966,7 @@
 
 			<translations>
 
-				<translation>fer pudor<synonyms>stink</synonyms></translation>
+				<translation intransitive="true">fer pudor<synonyms>stink</synonyms></translation>
 
 			</translations>
 
@@ -4015,14 +3998,14 @@
 
                 <translations>
 
-                <translation>trontollar</translation></translations></verbs>
+                <translation intransitive="true">trontollar</translation></translations></verbs>
 
 	<phrasalverbs>reel out<translations><translation transitive="true">recitar ràpidament i sense esforç</translation></translations></phrasalverbs></Entry>
 <Entry frequency="202000">reemerge<verbs>
 
 			<translations>
 
-				<translation>ressorgir</translation>
+				<translation intransitive="true">ressorgir</translation>
 
 			</translations>
 
@@ -4033,7 +4016,7 @@
 
 			<translations><date>0408</date>
 
-				<translation>recrear</translation>
+				<translation transitive="true">recrear</translation>
 
 			</translations>
 
@@ -4100,22 +4083,11 @@
 <Entry frequency="14500000">refer<verbs double="true">
 
 			<translations>
-
-				<translation>referir</translation>
-
+				<translation intransitive="true">[~ to] fer referència a / referir-se a</translation>
+                                <translation intransitive="true">[~ to] mencionar / parlar de</translation>
+                                <translation transitive="true">remetre</translation>   
 			</translations>
-
 		</verbs>
-
-		<phrasalverbs>refer to
-
-			<translations>
-
-				<translation>fer referència a / referir-se a</translation>
-
-			</translations>
-
-		</phrasalverbs>
 
 	</Entry>
 <Entry frequency="51100000">referee<nouns>
@@ -4168,7 +4140,7 @@
 
 			<translations>
 
-				<translation>reomplir</translation>
+				<translation transitive="true">reomplir</translation>
 
 			</translations>
 
@@ -4179,7 +4151,7 @@
 
 			<translations>
 
-				<translation catagory="financial">refinançar</translation>
+				<translation catagory="financial" transitive="true">refinançar</translation>
 
 			</translations>
 
@@ -4190,7 +4162,7 @@
 
 			<translations>
 
-				<translation>refinar</translation>
+				<translation transitive="true">refinar</translation>
 
 			</translations>
 
@@ -4210,8 +4182,8 @@
 	</Entry>
 <Entry frequency="118000000">reflect<verbs>
                             <translations><date>0109</date>
-				<translation>reflectir</translation>
-                                <translation>(think) reflexionar</translation>
+				<translation transitive="true">reflectir</translation>
+                                <translation intransitive="true">[think] reflexionar</translation>
 		</translations>
 		</verbs>
                 <phrasalverbs>reflect on
@@ -4309,7 +4281,7 @@
 
                             <translations><date>0508</date>
 
-				<translation disambiguate="computers">reformatar</translation>
+				<translation disambiguate="computers" transitive="true">reformatar</translation>
 
 			</translations>
 
@@ -4331,7 +4303,7 @@
                 
                 <translations>
                     
-                    <translation disambiguate="computers" termcat="true">actualitzar</translation>
+                    <translation disambiguate="computers" termcat="true" transitive="true">actualitzar</translation>
                     
                 </translations>
                 
@@ -4421,9 +4393,7 @@
 
 			<translations>
 
-				<translation>reemborsar<synonyms>reimburse</synonyms>
-
-				</translation>
+				<translation transitive="true">reemborsar<synonyms>reimburse</synonyms></translation>
 
 			</translations>
 
@@ -4449,7 +4419,8 @@
 	</Entry>
 <Entry frequency="17800000">refuse<verbs>
 			<translations>
-				<translation>(~ to) negar a</translation>
+                                <translation transitive="true">negar / refusar</translation>
+				<translation intransitive="true">negar-se / refusar-se</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -4467,9 +4438,9 @@
 
 			<translations>
 
-				<translation register="formal">refutar</translation>
+				<translation register="formal" transitive="true">refutar</translation>
 
-                                <translation register="formal">negar<synonyms>to deny</synonyms>
+                                <translation register="formal" transitive="true">negar<synonyms>deny</synonyms>
 
 				</translation>
 
@@ -4507,7 +4478,7 @@
                 
                 <translations>
                     
-            <translation>considerar<example>I don't &lt;b&gt;regard&lt;/b&gt; that as being significant.</example></translation></translations></verbs>
+            <translation transitive="true">considerar<example>I don't &lt;b&gt;regard&lt;/b&gt; that as being significant.</example></translation></translations></verbs>
             
             <expressions>as regards
                 
@@ -4609,11 +4580,9 @@
 
                             <translations><date>0708</date>
 
-				<translation>(en)registrar</translation>
+				<translation transitive="true">(en)registrar</translation>
 
-				<translation>matricular-se<engnote>'Matricular-se' means 'to register' in the sense of 'to sign up for something'.</engnote>
-
-				</translation>
+				<translation transitive="true">[sign up] matricular-se</translation>
 
 			</translations>
 
@@ -4639,9 +4608,9 @@
 
                             <translations><date>0909</date>
 
-				<translation>lamentar / sentir-se</translation>
+				<translation transitive="true">lamentar / sentir-se</translation>
 
-                                <translation>penedir-se de</translation>
+                                <translation transitive="true">penedir-se de</translation>
 
 			</translations>
 
@@ -4758,7 +4727,7 @@
 
 			<translations>
 
-				<translation>rehabilitar</translation>
+				<translation transitive="true">rehabilitar</translation>
 
 			</translations>
 
@@ -4791,7 +4760,7 @@
 
 			<translations>
 
-				<translation>assajar</translation>
+				<translation transitive="true">assajar</translation>
 
 			</translations>
 
@@ -4836,7 +4805,7 @@
 
 			<translations>
 
-				<translation>regnar</translation>
+				<translation intransitive="true">regnar</translation>
 
 			</translations>
 
@@ -4858,7 +4827,7 @@
 
 			<translations>
 
-				<translation catagory="financial">reemborsar<synonyms>refund</synonyms></translation>
+				<translation catagory="financial" transitive="true">reemborsar<synonyms>refund</synonyms></translation>
 
 			</translations>
 
@@ -4907,7 +4876,7 @@
 
 			<translations>
 
-				<translation>reforçar</translation>
+				<translation transitive="true">reforçar</translation>
 
 			</translations>
 
@@ -4951,7 +4920,7 @@
 
 			<translations>
 
-				<translation>reiterar<synonyms>repeat</synonyms>
+				<translation transitive="true">reiterar<synonyms>repeat</synonyms>
 
 				</translation>
 
@@ -4964,7 +4933,7 @@
 
 			<translations>
 
-				<translation>rebutjar</translation>
+				<translation transitive="true">rebutjar</translation>
 
 			</translations>
 
@@ -4986,7 +4955,7 @@
 
 			<translations>
 
-				<translation>rejovenir</translation>
+				<translation transitive="true">rejovenir</translation>
 
 			</translations>
 
@@ -5021,7 +4990,7 @@
 	</Entry>
 <Entry frequency="18700000">relate<verbs>
                             <translations><date>0508</date>
-				<translation register="formal">contar / relatar<example>The childrens' grandfather loved to &lt;b&gt;relate&lt;/b&gt; his wartime experiences to them.</example>
+				<translation register="formal" transitive="true">contar / relatar<example>The childrens' grandfather loved to &lt;b&gt;relate&lt;/b&gt; his wartime experiences to them.</example>
 					<example>When he returned home, he &lt;b&gt;related&lt;/b&gt; his discovery to his wife.</example>
 				</translation>
                        </translations>
@@ -5118,9 +5087,9 @@
 
 			<translations>
 
-				<translation>relaxar</translation>
+				<translation transitive="true">relaxar</translation>
 
-                                <translation>relaxar-se / esbargir-se</translation>
+                                <translation intransitive="true">relaxar-se / esbargir-se</translation>
 
 			</translations>
 
@@ -5167,29 +5136,34 @@
 
 	</Entry>
 <Entry frequency="189000000">release<verbs>
-
 			<translations>
-
-				<translation>alliberar<engnote>'Alliberar' means 'release' as in 'to free'.</engnote>
-
-					<synonyms>free</synonyms>
-
-				</translation>
-
-				<translation>posar a la venda<engnote>'Posar a la venda' means 'release' as in 'to release a record'.</engnote>
-
-				</translation>
-
+				<translation transitive="true">alliberar</translation>
+                                <translation transitive="true">deixar anar</translation>
+                                <translation transitive="true">fer públic</translation>
+                                <translation transitive="true">emetre</translation>
+                                <translation transitive="true">estrenar</translation>
+				<translation transitive="true">llançar / posar a la venda</translation>
 			</translations>
-
 		</verbs>
-
+                <nouns>
+                    <translations>
+                        <translation gender="m">alliberament</translation>
+                        <translation gender="f">emissió</translation>
+                        <translation gender="f">estrena</translation>
+                        <translation gender="m">llançament</translation>
+                    </translations>
+                </nouns>
+                <expressions>press release
+                    <translations>
+                        <translation gender="m">comunicat de premsa</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="163000">relent<verbs>
 
 			<translations>
 
-				<translation>cedir</translation>
+				<translation intransitive="true">cedir</translation>
 
 			</translations>
 
@@ -5285,7 +5259,7 @@
 
 			<translations>
 
-				<translation>alleujar / alliberar / rellevar</translation>
+				<translation transitive="true">alleujar / alliberar / rellevar</translation>
 
 			</translations>
 
@@ -5347,7 +5321,7 @@
 
 			<translations>
 
-				<translation>cedir</translation>
+				<translation transitive="true">cedir</translation>
 
 			</translations>
 
@@ -5356,15 +5330,15 @@
 	</Entry>
 <Entry frequency="678000">relish<verbs>
                            <translations><date>0508</date>
-                               <translation>gaudir de / adelitar-se amb<engexamp>We relish news of our heroes</engexamp><catexamp>Gaudim de notícies sobre els nostres heroïs</catexamp><engexamp>He relishes thoughts of her</engexamp><catexamp>S'adelita amb pensaments d'ella</catexamp><synonyms>enjoy</synonyms></translation>
+                               <translation transitive="true">gaudir de / adelitar-se amb<engexamp>We relish news of our heroes.</engexamp><catexamp>Gaudim de notícies sobre els nostres heroïs.</catexamp><engexamp>He relishes thoughts of her.</engexamp><catexamp>S'adelita amb pensaments d'ella.</catexamp><synonyms>enjoy</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="102000000">reload<verbs>
 
     <translations><date>0809</date>
-        <translation>recarregar<engnote>(A weapon)</engnote><catnote>(Una arma)</catnote></translation>
-        <translation disambiguate="computers" termcat="true">actualitzar</translation>
+        <translation transitive="true">[a weapon] recarregar</translation>
+        <translation disambiguate="computers" termcat="true" transitive="true">actualitzar</translation>
 
         </translations>
 
@@ -5396,8 +5370,8 @@
 
 			<translations>
 
-				<translation catagory="work">deslocalitzar</translation>
-
+				<translation catagory="work" transitive="true">deslocalitzar</translation>
+                                <translation intransitive="true">mudar de casa</translation>
 			</translations>
 
 		</verbs>
@@ -5469,9 +5443,9 @@
 
 			<translations>
 
-				<translation>quedar</translation>
+				<translation intransitive="true">quedar</translation>
 
-                                <translation>restar / romandre</translation>
+                                <translation intransitive="true">restar / romandre</translation>
 
 			</translations>
 
@@ -5503,36 +5477,31 @@
 	</Entry>
         <Entry frequency="49700000">remand<verbs>
                             <translations><date>0112</date>
-                            <translation local="us">[una causa] remetre a un tribunal inferior</translation>
+                            <translation local="us" transitive="true">[una causa] remetre a un tribunal inferior</translation>
 			</translations>
 		</verbs>
-                <expressions>be remanded in custody
+                <expressions>to be remanded in custody
                 <translations>
                     <translation>ser posat en presó preventiva</translation>
                 </translations>
                 </expressions>
-                <expressions>be remanded on bail
+                <expressions>to be remanded on bail
                 <translations>
                     <translation>ser posat en llibertat sota finança</translation>
                     </translations>
                     </expressions>
 	</Entry>
 <Entry frequency="9570000">remark<nouns>
-
 			<translations>
-
 				<translation gender="m">comentari</translation>
-
 			</translations>
-
 		</nouns>
-
                 <verbs>
-
                 <translations>
-
-                <translation>comentar</translation></translations></verbs>
-
+                <translation transitive="true">comentar</translation>
+                <translation intransitive="true">fer una observació</translation>                
+                </translations>
+                </verbs>
 	</Entry>
 <Entry frequency="29400000">remarkable<adjectives>
 
@@ -5560,8 +5529,8 @@
 	</Entry>
 <Entry frequency="649000000">remember<verbs>
                             <translations><date>0209</date>
-                                <translation>recordar<example>Halfway to work she &lt;b&gt;remembered&lt;/b&gt; that she hadn't switched the oven off.</example></translation>
-				<translation>recordar / rememorar</translation>
+                                <translation transitive="true">recordar<example>Halfway to work she &lt;b&gt;remembered&lt;/b&gt; that she hadn't switched the oven off.</example></translation>
+				<translation transitive="true">recordar / rememorar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5569,7 +5538,7 @@
 
 			<translations>
 
-				<translation>recordar<engexamp>To remind someone that...</engexamp>
+				<translation transitive="true">recordar<engexamp>To remind someone that...</engexamp>
 
 					<catexamp>Recordar a algú que...</catexamp>
 
@@ -5649,7 +5618,7 @@
 
 			<translations>
 
-				<translation catagory="financial">refinançar</translation>
+				<translation catagory="financial" transitive="true">refinançar</translation>
 
 			</translations>
 
@@ -5767,17 +5736,17 @@
 
 			<translations>
 
-				<translation>treure / llevar</translation>
+				<translation transitive="true">treure / llevar</translation>
 
-                                <translation>extreure<synonyms>extract</synonyms></translation>
+                                <translation transitive="true">extreure<synonyms>extract</synonyms></translation>
 
-				<translation>suprimir / eliminar</translation>
+				<translation transitive="true">suprimir / eliminar</translation>
 
-                                <translation>apartar</translation>
+                                <translation transitive="true">apartar</translation>
 
-                                <translation>desenganxar</translation>
+                                <translation transitive="true">desenganxar</translation>
 
-                                <translation disambiguate="medical">extirpar</translation>
+                                <translation disambiguate="medical" transitive="true">extirpar</translation>
 
 			</translations>
 
@@ -5788,7 +5757,7 @@
 
 			<translations>
 
-				<translation>rebatejar</translation>
+				<translation transitive="true">rebatejar</translation>
 
 			</translations>
 
@@ -5797,11 +5766,11 @@
 	</Entry>
 <Entry frequency="8550000">render<verbs>
 			<translations><date>0408</date>
-                        <translation register="formal">donar / facilitar / prestar</translation>
+                        <translation register="formal" transitive="true">donar / facilitar / prestar</translation>
 
-                        <translation register="formal">fer</translation>
+                        <translation register="formal" transitive="true">fer</translation>
 
-				<translation disambiguate="computers">representar / renderitzar</translation>
+				<translation disambiguate="computers" transitive="true">representar / renderitzar</translation>
 
 			</translations>
 
@@ -5835,7 +5804,7 @@
 		</nouns>
     <verbs>
         <translations>
-        <translation>reunir-se</translation>
+        <translation intransitive="true">reunir-se</translation>
         </translations>
     </verbs>
 	</Entry>
@@ -5858,7 +5827,7 @@
 
 			<translations>
 
-				<translation register="formal">incomplir / denunciar<catnote>(un acord o un tractat).</catnote></translation>
+				<translation register="formal" intransitive="true">incomplir / denunciar<catnote>(un acord o un tractat).</catnote></translation>
 
 			</translations>
 
@@ -5869,7 +5838,7 @@
 
 			<translations>
 
-				<translation>renovar</translation>
+				<translation transitive="true">renovar</translation>
 
 			</translations>
 
@@ -5901,7 +5870,7 @@
 
 			<translations>
 
-				<translation register="formal">renunciar</translation>
+				<translation register="formal" transitive="true">renunciar</translation>
 
 			</translations>
 
@@ -5912,7 +5881,7 @@
 
 			<translations>
 
-				<translation>renovar / rehabilitar</translation>
+				<translation transitive="true">renovar / rehabilitar</translation>
 
 			</translations>
 
@@ -5945,13 +5914,13 @@
 
 			<translations>
 
-				<translation>llogar<engexamp>To rent a flat</engexamp>
+				<translation transitive="true">llogar<engexamp>To rent a flat.</engexamp>
 
-					<catexamp>Llogar un pis</catexamp>
+					<catexamp>Llogar un pis.</catexamp>
 
-					<engexamp>Flat for rent in Barcelona</engexamp>
+					<engexamp>Flat for rent in Barcelona.</engexamp>
 
-					<catexamp>Pis per llogar a Barcelona</catexamp>
+					<catexamp>Pis per llogar a Barcelona.</catexamp>
 
 				</translation>
 
@@ -5996,7 +5965,7 @@
 
 			<translations>
 
-				<translation>reincidir</translation>
+				<translation intransitive="true">reincidir</translation>
 
 			</translations>
 
@@ -6007,7 +5976,7 @@
 
 			<translations>
 
-				<translation>reobrir</translation>
+				<translation transitive="true">reobrir</translation>
 
 			</translations>
 
@@ -6029,7 +5998,7 @@
 
                             <translations><date>1007</date>
 
-				<translation>reparar / apanyar<synonyms>fix, mend</synonyms></translation>
+				<translation transitive="true">reparar / apanyar<synonyms>fix, mend</synonyms></translation>
 
 			</translations>
 
@@ -6076,7 +6045,7 @@
 
 			<translations>
 
-				<translation>repatriar</translation>
+				<translation transitive="true">repatriar</translation>
 
 			</translations>
 
@@ -6102,9 +6071,9 @@
 
 			<translations>
 
-				<translation>retornar / tornar</translation>
+				<translation transitive="true">retornar / tornar</translation>
 
-                                <translation>recompensar</translation>
+                                <translation transitive="true">recompensar</translation>
 
 			</translations>
 
@@ -6115,7 +6084,7 @@
 
                             <translations><date>0409</date>
 
-				<translation catagory="legal">derogar<synonyms>revoke</synonyms></translation>
+				<translation catagory="legal" transitive="true">derogar<synonyms>revoke</synonyms></translation>
 
 			</translations>
 
@@ -6124,7 +6093,7 @@
 	</Entry>
         <Entry frequency="19100000">repeat<verbs>                
                 <translations>                    
-                    <translation>repetir</translation>                    
+                    <translation transitive="true">repetir</translation>                    
                 </translations>                
             </verbs>            
             <nouns>               
@@ -6159,7 +6128,7 @@
 
 			<translations>
 
-				<translation>repel·lir</translation>
+				<translation transitive="true">repel·lir</translation>
 
 			</translations>
 
@@ -6206,7 +6175,7 @@
 
 			<translations>
 
-				<translation catagory="religious">penedir-se</translation>
+				<translation catagory="religious" intransitive="true">penedir-se</translation>
 
 			</translations>
 
@@ -6274,7 +6243,7 @@
 
 			<translations>
 
-				<translation>(~ X with Y) reemplaçar / substituir (X per Y)</translation>
+				<translation transitive="true">[~ X with Y] reemplaçar / substituir (X per Y)</translation>
 
 			</translations>
 
@@ -6307,7 +6276,7 @@
                 
                 <translations><date>0109</date>
                     
-                    <translation register="formal">(~ with) reomplir (de)</translation>
+                    <translation register="formal" transitive="true">[~ with] reomplir (de)</translation>
                     
                 </translations>
                 
@@ -6327,9 +6296,7 @@
 
 			<translations>
 
-				<translation>respondre / contestar / replicar<synonyms>answer</synonyms>
-
-				</translation>
+				<translation intransitive="true">respondre / contestar / replicar<synonyms>answer</synonyms></translation>
 
 			</translations>
 
@@ -6410,7 +6377,7 @@
 
 			<translations>
 
-				<translation>reprimir</translation>
+				<translation transitive="true">reprimir</translation>
 
 			</translations>
 
@@ -6453,7 +6420,7 @@
                 
                 <translations>
                     
-                    <translation>indultar</translation>
+                    <translation transitive="true">indultar</translation>
                 </translations>
             </verbs>
             
@@ -6472,7 +6439,7 @@
                 
                 <translations>
                     
-                    <translation>amonestar</translation>
+                    <translation transitive="true">amonestar</translation>
                 </translations>
             </verbs>
             
@@ -6492,7 +6459,7 @@
                 
                 <translations>
                     
-                    <translation register="formal">reprotxar / reganyar</translation>
+                    <translation register="formal" transitive="true">reprotxar / reganyar</translation>
                     
                 </translations>
                 
@@ -6522,8 +6489,8 @@
 
 			<translations>
 
-				<translation>reproduir</translation>
-
+				<translation transitive="true">reproduir</translation>
+                                <translation intransitive="true">reproduir-se</translation>
 			</translations>
 
 		</verbs>
@@ -6566,7 +6533,7 @@
 
 			<translations>
 
-				<translation register="formal">reprendre / blasmar<synonyms>rebuke</synonyms></translation>
+				<translation register="formal" transitive="true">reprendre / blasmar<synonyms>rebuke</synonyms></translation>
 
 			</translations>
 
@@ -6644,7 +6611,7 @@
 
 			<translations><date>0808</date>
 
-				<translation>repel·lir<synonyms>repel</synonyms></translation>
+				<translation transitive="true">repel·lir<synonyms>repel</synonyms></translation>
 
 			</translations>
 
@@ -6687,9 +6654,7 @@
 
 			<translations>
 
-				<translation>demanar / sol·licitar<synonyms>ask for</synonyms>
-
-				</translation>
+				<translation transitive="true">demanar / sol·licitar<synonyms>ask for</synonyms></translation>
 
 			</translations>
 
@@ -6714,9 +6679,7 @@
 
 			<translations>
 
-				<translation>requerir / necessitar<synonyms>need</synonyms>
-
-				</translation>
+				<translation transitive="true">requerir / necessitar<synonyms>need</synonyms></translation>
 
 			</translations>
 
@@ -6740,7 +6703,7 @@
 
 			<translations>
 
-				<translation>rescatar</translation>
+				<translation transitive="true">rescatar</translation>
 
 			</translations>
 
@@ -6772,9 +6735,7 @@
 
 			<translations>
 
-				<translation catagory="work">investigar<synonyms>investigate</synonyms>
-
-				</translation>
+				<translation catagory="work" transitive="true">investigar<synonyms>investigate</synonyms></translation>
 
 			</translations>
 
@@ -6810,7 +6771,7 @@
                 <past>resold</past>
                 <participle>resold</participle>
                 <translations><date>0709</date>                  
-                    <translation>revendre</translation>                    
+                    <translation transitive="true">revendre</translation>                    
                 </translations>                
             </verbs>            
         </Entry>
@@ -6829,7 +6790,7 @@
 
 			<translations>
 
-				<translation>assemblar-se a</translation>
+				<translation transitive="true">assemblar-se a</translation>
 
 			</translations>
 
@@ -6840,7 +6801,7 @@
 
                             <translations><date>1208</date>
 
-				<translation>ressentir-se de / sentir-se molest per / molestar-se per</translation>
+				<translation transitive="true">ressentir-se de / sentir-se molest per / molestar-se per</translation>
 
 			</translations>
 
@@ -6875,7 +6836,7 @@
 
 			<translations>
 
-				<translation>reservar</translation>
+				<translation transitive="true">reservar</translation>
 
 			</translations>
 
@@ -6903,7 +6864,7 @@
                 <past>reset</past>
                 <participle>reset</participle>
                 <translations><date>0409</date>                    
-                    <translation disambiguate="computers" termcat="true">reinicialitzar</translation>                    
+                    <translation disambiguate="computers" termcat="true" transitive="true">reinicialitzar</translation>                    
                 </translations>                
             </verbs>
             <nouns>
@@ -6936,7 +6897,7 @@
 
 			<translations>
 
-				<translation register="formal">residir<synonyms>live</synonyms></translation>
+				<translation register="formal" intransitive="true">residir<synonyms>live</synonyms></translation>
 
 			</translations>
 
@@ -6967,10 +6928,10 @@
 	</Entry>
 <Entry frequency="172000000">resign<verbs>
 			<translations><date>0412</date>
-				<translation catagory="work">dimitir<synonyms>to quit, to hand in your notice (col·loq.)</synonyms></translation>
+				<translation catagory="work" intransitive="true">dimitir<synonyms>quit, hand in your notice (col·loq.)</synonyms></translation>
 			</translations>
 		</verbs>
-                <expressions>resign yourself (to)
+                <expressions>to resign yourself (to)
                     <translations>
                         <translation>resignar-se (a)</translation>
                     </translations>
@@ -7025,7 +6986,7 @@
 
 			<translations>
 
-				<translation>resistir</translation>
+				<translation transitive="true">resistir</translation>
 
 			</translations>
 
@@ -7069,7 +7030,7 @@
 
 			<translations>
 
-				<translation>resoldre</translation>
+				<translation transitive="true">resoldre</translation>
 
 			</translations>
 
@@ -7103,7 +7064,7 @@
 
 			<translations><date>0807</date>
 
-				<translation>ressonar</translation>
+				<translation intransitive="true">ressonar</translation>
 
 			</translations>
 
@@ -7155,7 +7116,7 @@
 
 			<translations>
 
-				<translation>respectar</translation>
+				<translation transitive="true">respectar</translation>
 
 			</translations>
 
@@ -7268,9 +7229,7 @@
 
 			<translations>
 
-				<translation>respondre<synonyms>reply, answer</synonyms>
-
-				</translation>
+				<translation intransitive="true">respondre<synonyms>reply, answer</synonyms></translation>
 
 			</translations>
 
@@ -7342,7 +7301,7 @@
 
 			<translations>
 
-				<translation>descansar / reposar</translation>
+				<translation intransitive="true">descansar / reposar</translation>
 
 			</translations>
 
@@ -7377,7 +7336,7 @@
             </Entry>
         <Entry frequency="28900000">restart<verbs>
                             <translations><date>0409</date>
-				<translation catagory="computers" termcat="true">reiniciar</translation>
+				<translation catagory="computers" termcat="true" transitive="true">reiniciar</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -7454,7 +7413,7 @@
 	</Entry>
 <Entry frequency="1190000000">restore<verbs>
 			<translations><date>0112</date>
-				<translation>restablir / restaurar / restituir</translation>
+				<translation transitive="true">restablir / restaurar / restituir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7462,7 +7421,7 @@
 
 			<translations>
 
-				<translation>contenir</translation>
+				<translation transitive="true">contenir</translation>
 
 			</translations>
 
@@ -7505,7 +7464,7 @@
 
 			<translations>
 
-				<translation>restringir</translation>
+				<translation transitive="true">restringir</translation>
 
 			</translations>
 
@@ -7551,7 +7510,7 @@
 
 			<translations>
 
-				<translation>reestructurar</translation>
+				<translation transitive="true">reestructurar</translation>
 
 			</translations>
 
@@ -7586,7 +7545,7 @@
 
 			<translations>
 
-				<translation>reprendre / restablir</translation>
+				<translation transitive="true">reprendre / restablir</translation>
 
 			</translations>
 
@@ -7623,7 +7582,7 @@
 
 			<translations>
 
-				<translation>ressorgir</translation>
+				<translation transitive="true">ressorgir</translation>
 
 			</translations>
 
@@ -7634,7 +7593,7 @@
 
 			<translations>
 
-				<translation>ressuscitar</translation>
+				<translation transitive="true">ressuscitar</translation>
 
 			</translations>
 
@@ -7656,7 +7615,7 @@
 
 			<translations>
 
-				<translation catagory="medical">reanimar</translation>
+				<translation catagory="medical" transitive="true">reanimar</translation>
 
 			</translations>
 
@@ -7681,7 +7640,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>vendre al detall / vendre a la menuda</translation>
+                        <translation transitive="true">vendre al detall / vendre a la menuda</translation>
                     </translations>
                 </verbs>
                 <adverbs>
@@ -7705,7 +7664,7 @@
 
 			<translations>
 
-				<translation>retenir</translation>
+				<translation transitive="true">retenir</translation>
 
 			</translations>
 
@@ -7714,7 +7673,7 @@
 	</Entry>
           <Entry frequency="2820000">retaliate<verbs>
 			<translations><date>0808</date>
-				<translation>prendre represàlies (contra algú) / represaliar / revenjar-se / resquitar-se</translation>
+				<translation intransitive="true">prendre represàlies (contra algú) / represaliar / revenjar-se / resquitar-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7750,7 +7709,7 @@
              <past>rethought</past>
              <participle>rethought</participle>
 			<translations><date>0908</date>
-                            <translation>repensar</translation>
+                            <translation transitive="true">repensar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -7794,7 +7753,7 @@
 
 			<translations>
 
-				<translation>jubilar-se</translation>
+				<translation intransitive="true">jubilar-se</translation>
 
 			</translations>
 
@@ -7826,7 +7785,7 @@
 
 			<translations>
 
-				<translation>retractar</translation>
+				<translation transitive="true">retractar</translation>
 
 			</translations>
 
@@ -7863,7 +7822,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>retirar-se</translation>
+                        <translation intransitive="true">retirar-se</translation>
                         </translations>
                 </verbs>
 	</Entry>
@@ -7889,7 +7848,7 @@
 
 			<translations>
 
-				<translation>recuperar</translation>
+				<translation transitive="true">recuperar</translation>
 
 			</translations>
 
@@ -7929,13 +7888,11 @@
 
 	</Entry>
 <Entry frequency="18800000">return<verbs>
-
 			<translations>
-
-				<translation>tornar</translation>
-
-				<translation catagory="politics" local="gb">elegir</translation>
-
+				<translation transitive="true">tornar</translation>
+				<translation catagory="politics" local="gb" transitive="true">[a politician] elegir</translation>
+                                <translation catagory="legal" transitive="true">[a verdict] emetre</translation>
+                                <translation intransitive="true">tornar</translation>
 			</translations>
 
 		</verbs>
@@ -8006,7 +7963,7 @@
 	</Entry>
          <Entry frequency="374000">reunify<verbs ie="true">
                             <translations><date>0110</date>
-				<translation>reunificar</translation>
+				<translation transitive="true">reunificar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -8031,7 +7988,7 @@
 
 			<translations>
 
-				<translation>reutilitzar</translation>
+				<translation transitive="true">reutilitzar</translation>
 
 			</translations>
 
@@ -8047,14 +8004,14 @@
 	</Entry>
           <Entry frequency="590000">revalue<verbs>
 			<translations><date>0909</date>
-                        <translation>revaluar / revalorar<example>In the current economic climate, many people are having their houses &lt;b&gt;revalued&lt;/b&gt; to try and reduce their property tax bills.</example></translation>
-				<translation disambiguate="financial">revaluar<example>It is expected that the country will &lt;b&gt;revalue&lt;/b&gt; its currency against the flagging dollar in a bid to bring down inflation.</example></translation>
+                        <translation transitive="true">revaluar / revalorar<example>In the current economic climate, many people are having their houses &lt;b&gt;revalued&lt;/b&gt; to try and reduce their property tax bills.</example></translation>
+				<translation disambiguate="financial" transitive="true">revaluar<example>It is expected that the country will &lt;b&gt;revalue&lt;/b&gt; its currency against the flagging dollar in a bid to bring down inflation.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
          <Entry frequency="6720000">revamp<verbs>
 			<translations><date>1109</date>
-				<translation>renovar</translation>
+				<translation transitive="true">renovar</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -8139,7 +8096,7 @@
 
 			<translations>
 
-				<translation register="formal">venerar / reverir / acatar</translation>
+				<translation register="formal" transitive="true">venerar / reverir / acatar</translation>
 
 			</translations>
 
@@ -8190,8 +8147,8 @@
 
                             <translations><date>1108</date>
 
-				<translation>capgirar / invertir</translation>
-                                <translation>revocar (una decisió)</translation>
+				<translation transitive="true">capgirar / invertir</translation>
+                                <translation transitive="true">revocar (una decisió)</translation>
 			</translations>
 
 		</verbs>
@@ -8219,15 +8176,15 @@
 		</nouns>
 		<verbs>
 			<translations>
-                            <translation>revisar</translation>
-                            <translation>ressenyar</translation>
-				<translation>repassar</translation>
+                            <translation transitive="true">revisar</translation>
+                            <translation transitive="true">ressenyar</translation>
+                            <translation transitive="true">repassar</translation>
 			</translations>
 		</verbs>
 	</Entry>
         <Entry frequency="1460000">revile<verbs>
 			<translations><date>1108</date>
-				<translation register="formal">vilipendiar / injuriar<synonyms>to malign (formal), to vilify (formal)</synonyms></translation>
+				<translation register="formal" transitive="true">vilipendiar / injuriar<synonyms>to malign (formal), to vilify (formal)</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -8235,11 +8192,11 @@
 
 			<translations>
 
-				<translation>cambiar / modificar</translation>
+				<translation transitive="true">cambiar / modificar</translation>
 
-                                <translation>revisar</translation>
+                                <translation transitive="true">revisar</translation>
 
-                                <translation local="gb" disambiguate="education">repassar</translation>
+                                <translation local="gb" disambiguate="education" transitive="true">repassar</translation>
 
 			</translations>
 
@@ -8339,9 +8296,9 @@
 
 			<translations>
 
-				<translation>revocar</translation>
+				<translation transitive="true">revocar</translation>
 
-                                <translation catagory="legal">derogar</translation>
+                                <translation catagory="legal" transitive="true">derogar</translation>
 
 			</translations>
 
@@ -8352,7 +8309,7 @@
 
 			<translations>
 
-				<translation>sublevar-se</translation>
+				<translation intransitive="true">sublevar-se</translation>
 
 			</translations>
 
@@ -8416,13 +8373,13 @@
 	</Entry>
         <Entry frequency="900000">revolutionise<verbs>
                 <translations><date>1108</date>
-                    <translation local="gb">revolucionar<otherlocal>revolutionize</otherlocal></translation>
+                    <translation local="gb" transitive="true">revolucionar<otherlocal>revolutionize</otherlocal></translation>
                 </translations>
             </verbs>
     </Entry>
     <Entry frequency="3350000">revolutionize<verbs>
                 <translations><date>1108</date>
-                    <translation>revolucionar</translation>
+                    <translation transitive="true">revolucionar</translation>
                 </translations>
             </verbs>
     </Entry>
@@ -8457,7 +8414,7 @@
 
                 <translations>
 
-                <translation>recompensar / premiar</translation></translations></verbs>
+                <translation transitive="true">recompensar / premiar</translation></translations></verbs>
 
 	</Entry>
 <Entry frequency="3390000">rewarding<adjectives>
@@ -8479,7 +8436,7 @@
 
 			<translations>
 
-				<translation>rebobinar</translation>
+				<translation transitive="true">rebobinar</translation>
 
 			</translations>
 
@@ -8680,7 +8637,7 @@
 
 			<translations>
 
-				<translation>rimar</translation>
+				<translation intransitive="true">rimar</translation>
 
 			</translations>
 
@@ -8744,7 +8701,7 @@
 
 			<translations>
 
-				<translation register="colloquial">riure's d'algú</translation>
+				<translation register="colloquial" transitive="true">riure's d'algú</translation>
 
 			</translations>
 
@@ -8843,7 +8800,7 @@
 	</Entry>
         <Entry frequency="65400000">ricochet<verbs>
 			<translations><date>0112</date>
-				<translation>rebotar</translation>
+				<translation intransitive="true">rebotar</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -8868,12 +8825,12 @@
 
                             <translations><date>0510</date>
 
-				<translation>deslliurar / eliminar / alliberar / desfer-se (de)</translation>
+				<translation transitive="true">deslliurar / eliminar / alliberar / desfer-se (de)</translation>
 
 			</translations>
 
 		</verbs>
-                <expressions>get rid of
+                <expressions>to get rid of
                     <translations>
                         <translation>deslliurar-se / eliminar-se de / alliberar-se de / desfer-se de</translation>
                     </translations>
@@ -8898,13 +8855,10 @@
 
 			<translations>
 
-				<translation>anar amb bicicleta<engnote>'Anar amb bicicleta' means to ride a bike.</engnote>
-
-				</translation>
-
-				<translation>muntar (a cavall)<engnote>'Muntar a cavall' means to ride a horse.</engnote>
-
-				</translation>
+				<translation transitive="true">anar amb (bicicleta o moto)</translation>
+				<translation transitive="true">muntar a (cavall, egua, etc..)</translation>
+                                <translation intransitive="true">anar amb bicicleta / anar amb moto</translation>
+                                <translation intransitive="true">[animal] cavalcar</translation>
 
 			</translations>
 
@@ -8936,7 +8890,7 @@
 
                             <translations><date>1009</date>
 
-				<translation>ridiculitzar</translation>
+				<translation transitive="true">ridiculitzar</translation>
 
 			</translations>
 
@@ -9123,7 +9077,7 @@
 
 			<translations><date>1007</date>
 
-				<translation>fer enfadar</translation>
+				<translation transitive="true">fer enfadar</translation>
 
 			</translations>
 
@@ -9175,9 +9129,10 @@
 
 			<translations>
 
-				<translation catagory="telephone">trucar / telefonar<engnote>'Trucar' and 'telefonar' mean 'to ring' in the sense 'I rang him last night but he wasn't in'.</engnote><synonyms>call, phone</synonyms></translation>
-				<translation catagory="telephone">sonar<engnote>'Sonar' means 'to ring' in the sense 'the phone rang'.</engnote></translation>
-                                <translation>encerclar<engnote>'Encerclar' means 'to ring' in the senses 'to surround' and 'to draw a circle around'.</engnote></translation>
+				<translation catagory="telephone" transitive="true">trucar / telefonar<engexamp>Have you rung Patricia yet?</engexamp><catexamp>Ja has trucat la Patrícia?</catexamp><synonyms>call, phone</synonyms></translation>
+				<translation catagory="telephone" intransitive="true">sonar<engexamp>The phone's ringing.</engexamp><catexamp>Sona el telèfon.</catexamp></translation>
+                                <translation transitive="true">[to surround] encerclar</translation>
+                                <translation transitive="true">[to draw a circle round] encerclar</translation>
 			</translations>
 
 		</verbs>
@@ -9276,11 +9231,8 @@
 
 			<translations>
 
-				<translation>esbandir<engnote>'Esbandir' means 'to rinse' in the sense 'to wash the soap out of something' (e.g. to rinse your hair, to rinse your clothes.)</engnote>
-
-				</translation>
-
-				<translation>rentar</translation>
+				<translation transitive="true">esbandir<engnote>'Esbandir' means 'to rinse' in the sense 'to wash the soap out of something' (e.g. to rinse your hair, to rinse your clothes.)</engnote></translation>
+				<translation transitive="true">rentar</translation>
 
 			</translations>
 
@@ -9333,7 +9285,7 @@
 
 			<translations>
 
-				<translation>estripar / esquinçar</translation>
+				<translation transitive="true">estripar / esquinçar</translation>
 
 			</translations>
 
@@ -9398,7 +9350,7 @@
 
 			<translations>
 
-				<translation>madurar</translation>
+				<translation intransitive="true">madurar</translation>
 
 			</translations>
 
@@ -9409,7 +9361,7 @@
 
 			<translations><date>0507</date>
 
-				<translation>onejar</translation>
+				<translation intransitive="true">onejar</translation>
 
 			</translations>
 
@@ -9455,7 +9407,7 @@
 
 			<translations>
 
-				<translation>arriscar</translation>
+				<translation transitive="true">arriscar</translation>
 
 			</translations>
 
@@ -9604,8 +9556,8 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>[generalment en veu passiva] captivar<example>When we first heard him at Glastonbury we were &lt;b&gt;riveted&lt;/b&gt; by his voice, his words and his music.</example><example>From the very beginning, the novel had me &lt;b&gt;riveted&lt;/b&gt;.</example><example>Wells was a captivating broadcaster and his "Fireside Talks" kept the nation &lt;b&gt;riveted&lt;/b&gt; to their radios.</example><example>The Harry Potter series of books &lt;b&gt;riveted&lt;/b&gt; readers both young and old.</example></translation>
-                        <translation>reblar</translation>
+                        <translation transitive="true">[generalment en veu passiva] captivar<example>When we first heard him at Glastonbury we were &lt;b&gt;riveted&lt;/b&gt; by his voice, his words and his music.</example><example>From the very beginning, the novel had me &lt;b&gt;riveted&lt;/b&gt;.</example><example>Wells was a captivating broadcaster and his "Fireside Talks" kept the nation &lt;b&gt;riveted&lt;/b&gt; to their radios.</example><example>The Harry Potter series of books &lt;b&gt;riveted&lt;/b&gt; readers both young and old.</example></translation>
+                        <translation transitive="true">reblar</translation>
                     </translations>
                 </verbs>
 	</Entry>
@@ -9662,7 +9614,7 @@
 	</Entry>
           <Entry frequency="10200000">roam<verbs>
 			<translations><date>0908</date>
-				<translation>vagar<synonyms>wander</synonyms></translation>
+				<translation intransitive="true">vagar<synonyms>wander</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -9710,7 +9662,7 @@
 
 			<translations>
 
-				<translation>rostir / torrar</translation>
+				<translation transitive="true">rostir / torrar</translation>
 
 			</translations>
 
@@ -9752,7 +9704,7 @@
 
 			<translations>
 
-				<translation>robar</translation>
+				<translation transitive="true">robar</translation>
 
 			</translations>
 
@@ -9791,7 +9743,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation register="formal">vestir(-se)<example>Summer &lt;b&gt;robes&lt;/b&gt; the fields in green.</example><example>The fields were &lt;b&gt;robed&lt;/b&gt; in flowers.</example><example>Deacons and priests, &lt;b&gt;robed&lt;/b&gt; in white, swept out of the church.</example><catnote>(Normalment en veu passiva).</catnote></translation>
+                        <translation register="formal" transitive="true">vestir(-se)<example>Summer &lt;b&gt;robes&lt;/b&gt; the fields in green.</example><example>The fields were &lt;b&gt;robed&lt;/b&gt; in flowers.</example><example>Deacons and priests, &lt;b&gt;robed&lt;/b&gt; in white, swept out of the church.</example><catnote>(Normalment en veu passiva).</catnote></translation>
                         </translations>
                 </verbs>
 	</Entry>
@@ -9865,7 +9817,7 @@
 
                 <translations>
 
-                <translation>gronxar</translation>
+                <translation transitive="true">gronxar</translation>
 
                 </translations>
 
@@ -9953,10 +9905,10 @@
 
 			<translations>
 
-				<translation>augmentar molt ràpidament<example>There was a poor harvest and, as a result, the price of bread &lt;b&gt;rocketed&lt;/b&gt;</example>
+				<translation intransitive="true">augmentar molt ràpidament<example>There was a poor harvest and, as a result, the price of bread &lt;b&gt;rocketed&lt;/b&gt;</example>
 
 				</translation>
-                                <translation>moure molt ràpidament<example>The cyclist was &lt;b&gt;rocketing&lt;/b&gt; downhill at 45mph.</example></translation>
+                                <translation intransitive="true">moure molt ràpidament<example>The cyclist was &lt;b&gt;rocketing&lt;/b&gt; downhill at 45mph.</example></translation>
 
 			</translations>
 
@@ -10095,8 +10047,8 @@
 		<verbs>
 
 			<translations>
-
-				<translation>rodar / fer rodar</translation>
+                                <translation transitive="true">fer rodar</translation>
+				<translation intransitive="true">rodar</translation>
 
 			</translations>
 
@@ -10187,7 +10139,7 @@
 
 			<translations>
 
-				<translation catagory="sports-event-skating">patinar (amb patins en línia)</translation>
+				<translation catagory="sports-event-skating" intransitive="true">patinar (amb patins en línia)</translation>
 
 			</translations>
 
@@ -10437,8 +10389,8 @@
                 <verbs>
 
                     <translations>
-
-                        <translation>arrelar<synonyms>take root / put down roots</synonyms></translation>
+                        <translation transitive="true">fer arrelar</translation>
+                        <translation intransitive="true">arrelar<synonyms>take root, put down roots</synonyms></translation>
 
                     </translations>
 
@@ -10644,7 +10596,7 @@
 	</Entry>
 <Entry frequency="4710000">rot<verbs double="true">
                             <translations><date>0508</date>
-				<translation>podrir / descompondre's</translation>
+				<translation intransitive="true">podrir / descompondre's</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -10970,7 +10922,7 @@
 			<translations>
 
 				<translation intransitive="true" catagory="sports-event-rowing">remar</translation>
-
+                                <translation intransitive="true">barallar-se</translation>
 			</translations>
 
 		</verbs>
@@ -11064,7 +11016,7 @@
 
                             <translations><date>1208</date>
 
-				<translation>fregar</translation>
+				<translation transitive="true">fregar</translation>
 
 			</translations>
 
@@ -11152,7 +11104,7 @@
 
                 <translations>
 
-                <translation>criticar<example>Her book is very interesting but has been &lt;b&gt;rubbished&lt;/b&gt; in the press.</example><example>The media have &lt;b&gt;rubbished&lt;/b&gt; universities as 'degree factories'.</example></translation></translations></verbs>
+                <translation transitive="true">criticar<example>Her book is very interesting but has been &lt;b&gt;rubbished&lt;/b&gt; in the press.</example><example>The media have &lt;b&gt;rubbished&lt;/b&gt; universities as 'degree factories'.</example></translation></translations></verbs>
 
 	</Entry>
 <Entry frequency="1890000">rubble<nouns>
@@ -11354,7 +11306,7 @@
 
 			<translations>
 
-				<translation>espatllar</translation>
+				<translation transitive="true">espatllar</translation>
 
 			</translations>
 
@@ -11388,8 +11340,8 @@
 
 			<translations>
 
-				<translation>governar / manar</translation>
-                                <translation>(draw straight line) reglar</translation>
+				<translation transitive="true">governar / manar</translation>
+                                <translation transitive="true">[draw straight line] reglar</translation>
 			</translations>
 
 		</verbs>
@@ -11450,17 +11402,12 @@
 
 	</Entry>
 <Entry frequency="1770000">rumble<verbs>
-
 			<translations>
-
-				<translation>retrunyir / rugir / tronar</translation>
-
-                                <translation>roncar<engnote>'Roncar' means 'to rumble' in the sense 'my stomach rumbled'.</engnote></translation>
-
+				<translation intransitive="true">[thunder] retrunyir / rugir / tronar</translation>
+                                <translation intransitive="true">[stomach] roncar</translation>
+                                <translation local="gb" transitive="true">filar</translation>
 			</translations>
-
 		</verbs>
-
 	</Entry>
 <Entry frequency="72100">rumble strip<nouns>
 
@@ -11539,13 +11486,11 @@
                             <participle>run</participle>
 			<gerund>running</gerund>
 			<translations>
-				<translation>córrer<engnote>'Córrer' means 'to run' in the sense 'to move very quickly'.</engnote>
-				</translation>
-				<translation>funcionar<example>The Barcelona Metro &lt;b&gt;runs&lt;/b&gt; from 5 in the morning til 8 in the evening</example>
+				<translation intransitive="true">córrer<engnote>'Córrer' means 'to run' in the sense 'to move very quickly'.</engnote></translation>
+				<translation intransitive="true">funcionar<example>The Barcelona Metro &lt;b&gt;runs&lt;/b&gt; from 5 in the morning until 8 in the evening.</example>
 					<engnote>'Funcionar' means 'to run' as in transport (i.e. does the train run on a Sunday?).</engnote>
 				</translation>
-				<translation>portar / regentar<engnote>'Portar' and 'regentar' mean 'to run' in the sense 'to run a business' / 'to run a restaurant'.</engnote>
-				</translation>
+				<translation transitive="true">dirigir / portar / regentar<engnote>'Portar' and 'regentar' mean 'to run' in the sense 'to run a business' / 'to run a restaurant'.</engnote></translation>
 			</translations>
 		</verbs>
             <phrasalverbs>run about
@@ -11907,9 +11852,9 @@
 
 			<translations>
 
-				<translation>anar amb pressa</translation>
+				<translation intransitive="true">anar amb pressa</translation>
 
-				<translation>fer una cosa amb precipitació</translation>
+				<translation transitive="true">fer (una cosa) amb precipitació</translation>
 
 			</translations>
 
@@ -11997,7 +11942,7 @@
 
 			<translations><date>1007</date>
 
-				<translation>remorejar</translation>
+				<translation intransitive="true">remorejar</translation>
 
 			</translations>
 

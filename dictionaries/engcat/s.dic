@@ -66,7 +66,7 @@
 
                 <translations>
 
-                <translation>sabotejar</translation></translations></verbs>
+                <translation transitive="true">sabotejar</translation></translations></verbs>
 
 	</Entry><Entry frequency="7540000">sabre<nouns>
 
@@ -107,9 +107,9 @@
 
                 <translations>
 
-                <translation catagory="work">acomiadar<synonyms>to fire / to give someone their cards</synonyms></translation></translations></verbs>
+                <translation catagory="work" transitive="true">acomiadar<synonyms>fire</synonyms></translation></translations></verbs>
 
-	<phrasalverbs>sack out<translations><translation intransitive="true">(col·loq.) dormir</translation></translations></phrasalverbs></Entry>
+	<phrasalverbs>sack out<translations><translation register="colloquial" intransitive="true">dormir</translation></translations></phrasalverbs></Entry>
         <Entry frequency="111000">sackbut<nouns>
                             <translations><date>0708</date>
 				<translation termcat="entertainment-music-instrument" gender="m">sacabutx</translation>
@@ -140,7 +140,7 @@
 
 			<translations>
 
-				<translation catagory="religious">sacrificar</translation>
+				<translation catagory="religious" transitive="true">sacrificar</translation>
 
 			</translations>
 
@@ -206,18 +206,28 @@
 
 			<translations>
 
-				<translation>entristir</translation>
+				<translation transitive="true">entristir</translation>
 
 			</translations>
 
 		</verbs>
 
-	</Entry><Entry frequency="485000000">saddle<nouns>
-		<translations><date>0112</date>
+	</Entry><Entry frequency="194000000">saddle<nouns>
+		<translations><date>0113</date>
 				<translation catagory="animal" gender="f">[on a horse] sella</translation>
 				<translation catagory="transport" gender="m">[on a bike] seient</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">ensellar</translation>
+                    </translations>
+                </verbs>
+                <phrasalverbs>saddle (somebody) with (something)
+                    <translations>
+                        <translation>endossar<example>Why do I always get &lt;b&gt;saddled&lt;/b&gt; with the most unpleasant jobs?</example></translation>
+                    </translations>
+                </phrasalverbs>
 	</Entry><Entry frequency="443000">sadism<nouns>
 
 			<translations>
@@ -322,7 +332,7 @@
 
                 <translations>
 
-                <translation>salvaguardar</translation></translations></verbs>
+                <translation transitive="true">salvaguardar</translation></translations></verbs>
 
 	</Entry><Entry frequency="3150000">safely<adverbs>
 
@@ -401,15 +411,15 @@
 
 			<translations>
 
-                        <translation>flaquejar</translation>
+                        <translation intransitive="true">flaquejar</translation>
 
-				<translation>enfonsar-se</translation>
+				<translation intransitive="true">enfonsar-se</translation>
 
-                                <translation>caure</translation>
+                                <translation intransitive="true">caure</translation>
 
-                                <translation>decaure</translation>
+                                <translation intransitive="true">decaure</translation>
 
-                                <translation>encorbar-se / tornar-se flàccid</translation>
+                                <translation intransitive="true">encorbar-se / tornar-se flàccid</translation>
 
 			</translations>
 
@@ -483,10 +493,11 @@
 		</nouns>
 
                 <verbs>
-
-                <translations>
-
-                <translation catagory="sports-event-sailing">navegar</translation></translations></verbs>
+               <translations>
+                <translation catagory="sports-event-sailing" transitive="true">governar</translation>
+                <translation catagory="sports-event-sailing" intransitive="true">navegar</translation>
+                </translations>
+                </verbs>
 
 	</Entry><Entry frequency="4270000">sailing<nouns>
 
@@ -783,7 +794,7 @@
 
                 	<translations>
 
-                		<translation transitive="true">saludar (Mil.)</translation>
+                		<translation transitive="true">[mil.] saludar</translation>
 
 			</translations>
 
@@ -804,7 +815,7 @@
 
                             <translations><date>0507</date>
 
-				<translation>recuperar</translation>
+				<translation transitive="true">recuperar</translation>
 
 			</translations>
 
@@ -904,8 +915,8 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>provar</translation>
-                        <translation>tastar</translation>
+                        <translation transitive="true">provar</translation>
+                        <translation transitive="true">tastar</translation>
                     </translations>
                 </verbs>
 	</Entry>
@@ -985,7 +996,7 @@
             </nouns>
             <verbs>
                 <translations>
-                    <translation>polir (o fregar) amb paper de vidre</translation>
+                    <translation transitive="true">polir (o fregar) amb paper de vidre</translation>
                 </translations>
             </verbs>
         </Entry>
@@ -1120,13 +1131,13 @@
 	</Entry>
         <Entry frequency="2900000">sanitise<verbs>
 			<translations><date>0112</date>
-				<translation local="gb">higienitzar<otherlocal>sanitize</otherlocal></translation>             
+				<translation local="gb" transitive="true">higienitzar<otherlocal>sanitize</otherlocal></translation>             
 			</translations>
 		</verbs>
 	</Entry> 
          <Entry frequency="23800000">sanitize<verbs>
 			<translations><date>0112</date>
-				<translation>higienitzar</translation>
+				<translation transitive="true">higienitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1176,7 +1187,7 @@
 		</nouns>
                  </Entry><Entry frequency="376000">saponify<verbs ie="true">
                          <translations><date>0408</date>
-                             <translation catagory="chemistry">saponificar</translation>
+                             <translation catagory="chemistry" transitive="true">saponificar</translation>
                          </translations>
                      </verbs>
                  </Entry>
@@ -1355,7 +1366,7 @@
 
                             <translations><date>1009</date>
 
-				<translation register="formal">saciar / sadollar</translation>
+				<translation register="formal" transitive="true">saciar / sadollar</translation>
 
 			</translations>
 
@@ -1382,7 +1393,7 @@
 
 			<translations>
 
-				<translation register="formal">sadollar / saciar</translation>
+				<translation register="formal" transitive="true">sadollar / saciar</translation>
 
 			</translations>
 
@@ -1452,7 +1463,7 @@
 
 			<translations>
 
-				<translation>satisfer</translation>
+				<translation transitive="true">satisfer</translation>
 
 			</translations>
 
@@ -1462,7 +1473,7 @@
 
 			<translations>
 
-				<translation>saturar</translation>
+				<translation transitive="true">saturar</translation>
 
 			</translations>
 
@@ -1581,7 +1592,7 @@
 
 			<translations>
 
-				<translation>caminar (o passejar) sense pressa, sense destinació fixa</translation>
+				<translation intransitive="true">caminar (o passejar) sense pressa, sense destinació fixa</translation>
 
 			</translations>
 
@@ -1635,27 +1646,27 @@
 
 			<translations>
 
-				<translation catagory="computers" termcat="true">guardar / desar<engexamp>To save a file</engexamp>
+				<translation catagory="computers" termcat="true" transitive="true">guardar / desar<engexamp>To save a file.</engexamp>
 
-					<catexamp>Guardar un fitxer</catexamp></translation>
+					<catexamp>Guardar un fitxer.</catexamp></translation>
 
-				<translation>estalviar<engexamp>To save water</engexamp>
+				<translation transitive="true">estalviar<engexamp>To save water.</engexamp>
 
-					<catexamp>Estalviar aigua</catexamp>
+					<catexamp>Estalviar aigua.</catexamp>
 
-					<engexamp>To save energy</engexamp>
+					<engexamp>To save energy.</engexamp>
 
-					<catexamp>Estalviar energia</catexamp>
+					<catexamp>Estalviar energia.</catexamp>
 
-					<engexamp>To save money</engexamp>
+					<engexamp>To save money.</engexamp>
 
-					<catexamp>Estalviar diners</catexamp></translation>
+					<catexamp>Estalviar diners.</catexamp></translation>
 
-				<translation>salvar / rescatar<synonyms>rescue</synonyms>
+				<translation transitive="true">salvar / rescatar<synonyms>rescue</synonyms>
 
-					<engexamp>To save a life</engexamp>
+					<engexamp>To save a life.</engexamp>
 
-					<catexamp>Salvar una vida</catexamp>
+					<catexamp>Salvar una vida.</catexamp>
 
 				</translation>
 
@@ -1710,7 +1721,7 @@
 
 			<translations><date>0707</date>
 
-                                <translation local="us">assaborir<otherlocal>savour</otherlocal></translation>
+                                <translation local="us" transitive="true">assaborir<otherlocal>savour</otherlocal></translation>
 
 			</translations>
 
@@ -1720,7 +1731,7 @@
 
 			<translations><date>0707</date>
 
-                                <translation local="gb">assaborir<otherlocal>savor</otherlocal></translation>
+                                <translation local="gb" transitive="true">assaborir<otherlocal>savor</otherlocal></translation>
 
 			</translations>
 
@@ -1768,7 +1779,7 @@
 
                     <translations>
 
-                        <translation>serrar</translation>
+                        <translation transitive="true">serrar</translation>
 
                     </translations>
 
@@ -1843,7 +1854,7 @@
                 
                 <translations><date>0209</date>
                     
-                    <translation>dir</translation>
+                    <translation transitive="true">dir</translation>
                     
                 </translations>
                 
@@ -1952,11 +1963,11 @@
 
                     <translations>
 
-                        <translation>escalar<engnote>'Escalar' means 'to scale' in the sense 'to scale a wall'.</engnote></translation>
+                        <translation transitive="true">escalar<engnote>'Escalar' means 'to scale' in the sense 'to scale a wall'.</engnote></translation>
 
-                        <translation>escatar<engnote>'Escatar' means 'to scale' in the sense 'to remove the scales from a fish'.</engnote></translation>
+                        <translation transitive="true">escatar<engnote>'Escatar' means 'to scale' in the sense 'to remove the scales from a fish'.</engnote></translation>
 
-                        <translation>fer a escala<engnote>'Fer a escala' means 'to scale' in the sense 'He made a scaled plan of his house'.</engnote></translation>
+                        <translation transitive="true">fer a escala<engnote>'Fer a escala' means 'to scale' in the sense 'He made a scaled plan of his house'.</engnote></translation>
 
                         </translations>
 
@@ -2017,8 +2028,8 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>tallar la cabellera</translation>
-                        <translation local="us">revendre<otherlocal>tout</otherlocal></translation>
+                        <translation transitive="true">tallar la cabellera</translation>
+                        <translation local="us" transitive="true">revendre<otherlocal>tout</otherlocal></translation>
                     </translations>
                 </verbs>
 	</Entry>
@@ -2059,7 +2070,7 @@
 
 			<translations>
 
-				<translation catagory="computers" termcat="true">escanejar</translation>
+				<translation catagory="computers" termcat="true" transitive="true">escanejar</translation>
 
 			</translations>
 
@@ -2091,7 +2102,7 @@
 
 			<translations>
 
-				<translation local="gb">escandalitzar<otherlocal>scandalize</otherlocal></translation>
+				<translation local="gb" transitive="true">escandalitzar<otherlocal>scandalize</otherlocal></translation>
 
 			</translations>
 
@@ -2101,7 +2112,7 @@
 
 			<translations>
 
-				<translation>escandalitzar</translation>
+				<translation transitive="true">escandalitzar</translation>
 
 			</translations>
 
@@ -2278,7 +2289,7 @@
 
                 <translations>
 
-                <translation local="us" register="colloquial">engolir-se / menjar-se<otherlocal>scoff</otherlocal></translation>
+                <translation local="us" register="colloquial" transitive="true">engolir-se / menjar-se<otherlocal>scoff</otherlocal></translation>
 
                 </translations>
 
@@ -2319,7 +2330,7 @@
 		</nouns>
                 <verbs double="true">
                     <translations>
-                        <translation>anar-se'n a corre-cuita</translation>
+                        <translation intransitive="true">anar-se'n a corre-cuita</translation>
                     </translations>
                 </verbs>
 	</Entry>
@@ -2338,7 +2349,8 @@
 
 			<translations>
 
-				<translation>escampar / espargir</translation>
+				<translation transitive="true">escampar / espargir</translation>
+                                <translation intransitive="true">anar-se'n a corre-cuita</translation>
 
 			</translations>
 
@@ -2381,7 +2393,7 @@
 
                             <translations><date>0109</date>
 
-				<translation>furgar (entre les escombraries)</translation>
+				<translation intransitive="true">furgar (entre les escombraries)</translation>
 
 			</translations>
 
@@ -2431,13 +2443,13 @@
 
                 <translations>
 
-                <translation>flairar / olorar</translation>
+                <translation transitive="true">flairar / olorar</translation>
 
                 </translations>
 
                 </verbs>
 
-                <expressions>throw off the scent
+                <expressions>to throw (somebody) off the scent
 
                 <translations>
 
@@ -2525,7 +2537,7 @@
 
                 <translations>
 
-                <translation>programar / planificar</translation>
+                <translation transitive="true">programar / planificar</translation>
 
                 </translations>
 
@@ -2560,7 +2572,7 @@
 	</Entry>
            <Entry frequency="347000">schematize<verbs>
                             <translations><date>1208</date>
-				<translation>esquematitzar</translation>
+				<translation transitive="true">esquematitzar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2635,7 +2647,7 @@
 
                     <translations>
 
-                        <translation catagory="education" register="formal">escolaritzar</translation>
+                        <translation catagory="education" register="formal" transitive="true">escolaritzar</translation>
 
                     </translations>
 
@@ -2804,9 +2816,9 @@
 
 			<translations>
 
-				<translation>(~ at) burlar-se (de)</translation>
+				<translation intransitive="true">[~ at] burlar-se (de)</translation>
 
-                                <translation local="gb" register="colloquial">engolir-se / menjar-se<example>'Where's that big packet of chocolate biscuits I bought last night?  You haven't &lt;b&gt;scoffed&lt;/b&gt; the lot already have you?'</example><otherlocal>scarf</otherlocal></translation>
+                                <translation local="gb" register="colloquial" transitive="true">engolir-se / menjar-se<example>'Where's that big packet of chocolate biscuits I bought last night?  You haven't &lt;b&gt;scoffed&lt;/b&gt; the lot already have you?'</example><otherlocal>scarf</otherlocal></translation>
 
 			</translations>
 
@@ -2816,7 +2828,7 @@
 
                             <translations><date>0909</date>
 
-				<translation>renyar / esbroncar<synonyms>to tell (someone) off / to give (someone) a telling off / to give (someone) a ticking off</synonyms></translation>
+				<translation transitive="true">renyar / esbroncar<synonyms>tell (someone) off / give (someone) a telling off / give (someone) a ticking off</synonyms></translation>
 
 			</translations>
 
@@ -2915,13 +2927,11 @@
 
 			<translations>
 
-				<translation catagory="sports">marcar</translation>
-
-				<translation register="slang">reeixir a comprar droga</translation>
-
-				<translation register="slang">lligar (amb èxit)<example>Did Martin tell you about the girl he &lt;b&gt;scored&lt;/b&gt; with at the pub last night? She was really something!</example>
-
-				</translation>
+				<translation catagory="sports" transitive="true">marcar<example>Cardiff &lt;b&gt;scored&lt;/b&gt; two goals in their last match.</example></translation>
+                                <translation catagory="sports" intransitive="true">marcar (gol)<example>Sunderland &lt;b&gt;scored&lt;/b&gt; with only two minutes left on the clock.</example></translation>
+                                <translation register="slang" transitive="true">[drugs] aconseguir comprar<example>Do you know where I can &lt;b&gt;score&lt;/b&gt; some meth?</example></translation>
+				<translation register="slang" intransitive="true">aconseguir comprar drogues<example>He came home briefly then went straight back out to &lt;b&gt;score&lt;/b&gt;.</example></translation>
+				<translation register="slang" transitive="true">lligar (amb èxit)<example>Did Martin tell you he &lt;b&gt;scored&lt;/b&gt; last night?</example></translation>
 
 			</translations>
 
@@ -2965,7 +2975,7 @@
 
 			<translations>
 
-				<translation>menystenir / desdenyar<synonyms>disdain</synonyms></translation>
+				<translation transitive="true">menystenir / desdenyar<synonyms>disdain</synonyms></translation>
 
 			</translations>
 
@@ -3147,7 +3157,7 @@
 
                 <translations>
 
-                <translation register="colloquial">barallar-se</translation>
+                <translation register="colloquial" intransitive="true">barallar-se</translation>
             </translations>
         </verbs>
         <expressions>a scrap of ...
@@ -3174,7 +3184,7 @@
 
                         <translations><date>1007</date>
 
-                            <translation>raspar</translation>
+                            <translation transitive="true">raspar</translation>
 
 			</translations>
 
@@ -3236,8 +3246,8 @@
                 <verbs>
 
                 <translations>
-
-                <translation>fer gargots / gargotejar</translation>
+                <translation transitive="true">gargotejar</translation>
+                <translation intransitive="true">fer gargots / gargotejar</translation>
 
                 </translations>
 
@@ -3258,8 +3268,8 @@
         <Entry frequency="2060000">scream<verbs>
 
 			<translations>
-
-				<translation>cridar</translation>
+                                <translation transitive="true">cridar</translation>
+				<translation intransitive="true">cridar</translation>
 
 			</translations>
 
@@ -3276,8 +3286,21 @@
 			</translations>
 
 		</nouns>
-
-	<phrasalverbs>screen off<translations><translation transitive="true">separar (amb una mampara, un paravent, etc.)</translation></translations></phrasalverbs></Entry><Entry frequency="406000">screengrab<nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">ocultar</translation>
+                        <translation transitive="true">protegir</translation>
+                        <translation transitive="true">projectar</translation>
+                        <translation disambiguate="medical" transitive="true">cribrar</translation>
+                    </translations>
+                </verbs>
+                <phrasalverbs>screen off
+                    <translations>
+                        <translation transitive="true">separar (amb una mampara, un paravent, etc.)</translation>
+                    </translations>
+                </phrasalverbs>
+</Entry>
+<Entry frequency="406000">screengrab<nouns>
 
 			<translations><date>1007</date>
 
@@ -3346,45 +3369,28 @@
 		</nouns>
 
                 <verbs>
-
                 <translations>
-
-                    <translation>cargolar</translation>
-
+                    <translation transitive="true">cargolar</translation>
+                    <translation transitive="true">[~ (something) to (something)] fixar (alguna cosa) a (alguna cosa) amb cargols</translation>
+                    <translation register="vulgar" transitive="true">cardar / follar</translation>
+                    <translation register="vulgar" intransitive="true">cardar / follar</translation>
                 </translations>
-
                 </verbs>
-
                 <phrasalverbs>screw around
-
                     <translations>
-
                         <translation local="us" register="colloquial">gandulejar / perdre el temps</translation>
-
                     </translations>
-
                 </phrasalverbs>
-
                 <phrasalverbs>screw over
-
                     <translations>
-
                         <translation local="us" register="colloquial">fer mal enganyant</translation>
-
                     </translations>
-
                 </phrasalverbs>
-
                 <phrasalverbs>screw up
-
                     <translations>
-
                         <translation register="colloquial">espatllar</translation>
-
                     </translations>
-
                 </phrasalverbs>
-
 	</Entry><Entry frequency="1350000">screwball<nouns>
 
 			<translations><date>0407</date>
@@ -3420,8 +3426,8 @@
                 <verbs>
 
                 <translations>
-
-                <translation>fer gargots / gargotejar</translation>
+                <translation transitive="true">gargotejar</translation>
+                <translation intransitive="true">fer gargots / gargotejar</translation>
 
                 </translations>
 
@@ -3438,7 +3444,7 @@
 
 			<translations>
 
-				<translation>estrènyer-se el cinturó / estalviar<catnote>(To scrimp &lt;b&gt;on&lt;/b&gt; something).</catnote><example>Those forced to &lt;b&gt;scrimp&lt;/b&gt; on drugs pay with their health.</example><example>Residents &lt;b&gt;scrimp&lt;/b&gt; and save to pay housing costs.</example></translation>
+				<translation intransitive="true">estrènyer-se el cinturó / estalviar<example>Residents &lt;b&gt;scrimp&lt;/b&gt; and save to pay housing costs.</example></translation>
 
 			</translations>
 
