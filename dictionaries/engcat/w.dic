@@ -43,8 +43,10 @@
 		</nouns>
 	</Entry><Entry frequency="1800000">wag<verbs double="true">
 			<translations><date>0707</date>
-				<translation catagory="animal">cuejar</translation>
-                                <translation local="au" disambiguate="education">fer campana / fer fugina</translation>
+                        <translation transitive="true">remenar / moure / bellugar (el cap, el dit..) en senyal de desaprovació<example>Her father &lt;b&gt;wagged&lt;/b&gt; his finger at her and said "I thought we'd agreed that you're much too young to be wearing make-up!"</example></translation>
+                                <translation catagory="animal" transitive="true">remenar (la cua)</translation>
+				<translation catagory="animal" intransitive="true">cuejar</translation>
+                                <translation local="au" disambiguate="education" transitive="true">fer campana / fer fugina</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="54000000">wage<nouns>
@@ -52,6 +54,11 @@
 				<translation catagory="work" gender="m">sou / saldo / salari<catnote>També es diu 'wages' (en plural) p.e. "Have they paid your wages into the bank yet?".</catnote><synonyms>salary</synonyms></translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">[~ (war / a campaign) against] fer (la guerra, una campanya..) contra</translation>
+                    </translations>
+                </verbs>                
                 <expressions>wage freeze
                     <translations>
                         <translation catagory="work" gender="f">congelació salarial</translation>
@@ -80,7 +87,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation register="dated">apostar</translation>
+                        <translation register="dated" transitive="true">apostar</translation>
                         </translations>
                 </verbs>
 	</Entry><Entry frequency="309000">wagtail<nouns>
@@ -96,7 +103,7 @@
 	</Entry>
         <Entry frequency="6980000">wail<verbs>
                 <translations><date>0510</date>
-                    <translation>udolar</translation>
+                    <translation intransitive="true">udolar</translation>
                 </translations>
             </verbs>
             <nouns>
@@ -185,7 +192,7 @@
 	</Entry>
         <Entry frequency="8570000">waive<verbs>
                             <translations><date>1108</date>
-				<translation>renunciar a<example>The suspect &lt;b&gt;waived&lt;/b&gt; his rights to silence and an attorney.</example></translation>
+				<translation transitive="true">renunciar a<example>The suspect &lt;b&gt;waived&lt;/b&gt; his rights to silence and an attorney.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -198,8 +205,8 @@
 			<past>woke</past>
 			<participle>woken</participle>
 			<translations><date>0407</date>
-				<translation>despertar / deixondir</translation>
-                                <translation>despertar-se / deixondir-se</translation>
+				<translation transitive="true">despertar / deixondir</translation>
+                                <translation intransitive="true">despertar-se / deixondir-se</translation>
 			</translations>
 		</verbs>
 		<phrasalverbs>wake up
@@ -229,7 +236,15 @@
 				<translation gender="m">desvetllament</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="855000">wake-up call<nouns>
+	</Entry>
+        <Entry frequency="6020000">waken<verbs>
+			<translations><date>0113</date>
+				<translation transitive="true">despertar</translation>
+                                <translation intransitive="true">despertar-se</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="855000">wake-up call<nouns>
 			<translations>
 				<translation noteng="TRUE">-<catnote>Si un hotel ofereix un 'wake-up call' a un client, vol dir que el trucaran per telèfon a una hora predeterminada entre ells per tal de despertar-lo.</catnote>
 				</translation>
@@ -251,17 +266,12 @@
                                   <translation gender="m">passeig / tomb</translation>
                                   <translation disambiguate="athletics" gender="f">marxa<engexamp>10km walk</engexamp><catexamp>10km marxa</catexamp></translation>
             </translations>
-        </nouns>
-        <expressions>go for a walk
-        <translations>
-            <translation>passejar-se</translation>
-            </translations>
-            </expressions>
+        </nouns>        
         <verbs>
             <translations>
 				<translation intransitive="true">caminar / passejar</translation>
                                 <translation intransitive="true">fer senderisme<synonyms>to go walking</synonyms></translation>
-                                <translation transitive="true">passejar<engexamp>To walk the dog</engexamp><catexamp>Passejar el gos</catexamp></translation>
+                                <translation transitive="true">passejar<engexamp>To walk the dog.</engexamp><catexamp>Passejar el gos.</catexamp></translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>walk about
@@ -382,6 +392,11 @@
                         <translation intransitive="true">acostar-se a</translation>
                     </translations>
                 </phrasalverbs>
+                <expressions>to go for a walk
+        <translations>
+            <translation>passejar-se</translation>
+            </translations>
+            </expressions>
 	</Entry><Entry frequency="5000000">walker<nouns>
 			<translations>
 				<translation disambiguate="sports-event-hiking" gender="mf">senderista<engnote>'Senderista' means 'walker' in the sense of 'person who hikes'.</engnote>
@@ -453,8 +468,8 @@
 	</Entry>
         <Entry frequency="1290000">wallop<verbs>
                             <translations><date>1009</date>
-				<translation register="colloquial">pegar fort<synonyms>whack, thump</synonyms></translation>
-                                <translation register="colloquial">donar una pallissa / derrotar contundentment<synonyms>thrash</synonyms></translation>
+				<translation register="colloquial" transitive="true">pegar fort<synonyms>whack, thump</synonyms></translation>
+                                <translation register="colloquial" transitive="true">donar una pallissa / derrotar contundentment<synonyms>thrash</synonyms></translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -465,7 +480,7 @@
 	</Entry>
         <Entry frequency="416000">wallow<verbs>
 			<translations>
-				<translation>rebolcar-se</translation>
+				<translation intransitive="true">rebolcar-se</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="5320000">wallpaper<nouns>
@@ -517,14 +532,14 @@
 	</Entry>
         <Entry frequency="19000000">wander<verbs>
                 <translations><date>0909</date>
-                    <translation>vagar / divagar<synonyms>roam</synonyms></translation>
+                    <translation intransitive="true">vagar / divagar<synonyms>roam</synonyms></translation>
                 </translations>
             </verbs>
 	</Entry>
         <Entry frequency="1280000">wane<verbs>
 			<translations>
-				<translation>decaure / minvar</translation>
-                                <translation>minvar<engnote>(the moon)</engnote><catnote>(la lluna)</catnote></translation>
+				<translation intransitive="true">decaure / minvar</translation>
+                                <translation intransitive="true">[moon] minvar</translation>
 			</translations>
 		</verbs>
                 <expressions>on the wane
@@ -535,7 +550,7 @@
 	</Entry>
                <Entry frequency="99500">wank<verbs>
 			<translations>
-				<translation register="vulgar">pelar-se-la<synonyms>masturbate</synonyms>
+				<translation register="vulgar" intransitive="true">pelar-se-la<synonyms>masturbate</synonyms>
 				</translation>
 			</translations>
 		</verbs>
@@ -555,10 +570,10 @@
 		</verbs>
 	</Entry><Entry frequency="159000000">want<verbs>
 			<translations>
-				<translation>voler</translation>
+				<translation transitive="true">voler</translation>
 			</translations>
 		</verbs>
-                <phrasalverbs>want out
+                <phrasalverbs>want out (of)
                     <translations>
                         <translation intransitive="true">desitjar allunyar-se (d'una situació, d'un compromís, etc.)</translation>
                     </translations>
@@ -724,17 +739,17 @@
                 </verbs>
                 <phrasalverbs>warm up
                     <translations>
-                        <translation catagory="sports">escalfar-se<engnote>'Escalfar-se' can mean to warm up (by a fire) but also to warm up (before exercising).</engnote></translation>
+                        <translation catagory="sports" intransitive="true">escalfar-se<engnote>'Escalfar-se' can mean to warm up (by a fire) but also to warm up (before exercising).</engnote></translation>
                     </translations>
                </phrasalverbs>
                  <phrasalverbs>warm to
                     <translations>
-                        <translation>començar a tenir afecte per</translation>
+                        <translation intransitive="true">començar a tenir afecte per</translation>
                     </translations>
                 </phrasalverbs>
                  <phrasalverbs>warm up to
                     <translations>
-                        <translation>començar a tenir afecte per</translation>
+                        <translation intransitive="true">començar a tenir afecte per</translation>
                     </translations>
                 </phrasalverbs>
 	</Entry>
@@ -756,8 +771,8 @@
 		</nouns>
 	</Entry><Entry frequency="11500000">warn<verbs>
 			<translations>
-				<translation>advertir</translation>
-                                <translation>alertar</translation>
+				<translation transitive="true">advertir</translation>
+                                <translation transitive="true">alertar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>warn off
@@ -815,8 +830,8 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>balcar-se / blegar-se / guerxejar-se / deformar-se</translation>
-				<translation>distorsionar / tergiversar / pervertir</translation>
+				<translation intransitive="true">balcar-se / blegar-se / guerxejar-se / deformar-se</translation>
+				<translation transitive="true">distorsionar / tergiversar / pervertir</translation>
 			</translations>
 		</verbs>
 
@@ -847,9 +862,9 @@
 		</adjectives>
 	</Entry><Entry frequency="9610000">wash<verbs>
 			<translations>
-				<translation>rentar / llavar<catnote>Es pot traduir 'rentar-se' com 'to wash' però l'expressió 'to have a wash' és més freqüent.</catnote>
-					<engexamp>To wash your hands</engexamp>
-					<catexamp>Rentar-se les mans</catexamp>
+				<translation transitive="true">rentar / llavar<catnote>Es pot traduir 'rentar-se' com 'to wash' però l'expressió 'to have a wash' és més freqüent.</catnote>
+					<engexamp>To wash your hands.</engexamp>
+					<catexamp>Rentar-se les mans.</catexamp>
 				</translation>
 			</translations>
 		</verbs>
@@ -938,7 +953,7 @@
 	</Entry>
         <Entry frequency="20800000">waste<verbs>
 			<translations>
-				<translation>malgastar / malbaratar</translation>
+				<translation transitive="true">malgastar / malbaratar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -1006,8 +1021,8 @@
 		</nouns>
                 <verbs>
 			<translations>
-				<translation>mirar / veure</translation>
-                                <translation>vigilar</translation>
+				<translation transitive="true">mirar / veure</translation>
+                                <translation transitive="true">vigilar</translation>
 			</translations>
 		</verbs>
 		<phrasalverbs>watch over
@@ -1028,12 +1043,12 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>regar</translation>
+				<translation transitive="true">regar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>water down
                 <translations>
-                <translation>aigualir<synonyms>dilute</synonyms>
+                <translation transitive="true">aigualir<synonyms>dilute</synonyms>
                 </translation>
                 </translations>
                 </phrasalverbs>
@@ -1205,8 +1220,8 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>depilar-se (amb cera)</translation>
-				<translation>fregar els terres de fusta amb cera per tal de protegir-los</translation>
+				<translation transitive="true">depilar-se (amb cera)</translation>
+				<translation transitive="true">fregar (els terres de fusta) amb cera per tal de protegir-los</translation>
 			</translations>
 		</verbs>
                 <expressions>wax museum
@@ -1252,7 +1267,7 @@
 		</adjectives>
 	</Entry><Entry frequency="3520000">weaken<verbs>
 			<translations>
-				<translation>afeblir / debilitar<synonyms>debilitate</synonyms></translation>
+				<translation transitive="true">afeblir / debilitar<synonyms>debilitate</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="2840000">weakness<nouns>
@@ -1279,7 +1294,7 @@
 		</adjectives>
 	</Entry><Entry frequency="3050000">wean<verbs>
 			<translations>
-				<translation>deslletar</translation>
+				<translation transitive="true">deslletar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="229000">weaning<nouns>
@@ -1407,8 +1422,8 @@
             </Entry><Entry frequency="6490000">weave<verbs>
                     <participle>woven</participle>
                     <translations>
-                        <translation>teixir</translation>
-                <translation>entrellaçar</translation></translations></verbs><nouns>
+                        <translation transitive="true">teixir</translation>
+                <translation transitive="true">entrellaçar</translation></translations></verbs><nouns>
                     <translations>
                         <grouptranslation>
                             <translation gender="m">teixit</translation>
@@ -1485,7 +1500,7 @@
 	</Entry>
 <Entry frequency="7410000">wedlock<nouns>
         <translations><date>0912</date>
-            <translation register="dated">matrimoni</translation>
+            <translation register="dated" gender="m">matrimoni</translation>
         </translations>
     </nouns>
     <expressions>born out of wedlock
@@ -1501,7 +1516,7 @@
 		</nouns>
 	</Entry><Entry frequency="1900000">wee<verbs>
 			<translations>
-				<translation>fer pipí</translation>
+				<translation intransitive="true">fer pipí</translation>
 			</translations>
 		</verbs>
 		<adjectives>
@@ -1523,7 +1538,7 @@
                 </nouns>
                 <verbs>
                     <translations>
-                        <translation catagory="household-room-garden">treure les males herbes</translation>
+                        <translation catagory="household-room-garden" transitive="true">treure les males herbes de</translation>
                     </translations>
                 </verbs>
                 <phrasalverbs>weed out
@@ -1563,7 +1578,7 @@
 			<past>wept</past>
 			<participle>wept</participle>
 			<translations>
-				<translation>plorar</translation>
+				<translation intransitive="true">plorar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="52100">weeping willow<nouns>
@@ -1578,7 +1593,8 @@
 		</nouns>
 	</Entry><Entry frequency="50800000">weigh<verbs>
                             <translations><date>1007</date>
-				<translation>pesar</translation>
+				<translation transitive="true">pesar</translation>
+                                <translation intransitive="true">pesar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>weigh down
@@ -1611,15 +1627,15 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation disambiguate="maths">ponderar<engexamp>Weighted average</engexamp><catexamp>Mitjana ponderada</catexamp></translation>
+                        <translation disambiguate="maths" transitive="true">ponderar<engexamp>Weighted average.</engexamp><catexamp>Mitjana ponderada.</catexamp></translation>
                     </translations>
                 </verbs>
-                <expressions>lose weight
+                <expressions>to lose weight
                     <translations>
                         <translation>perdre pes / aprimar-se</translation>
                     </translations>
                 </expressions>
-                <expressions>put on weight
+                <expressions>to put on weight
                     <translations>
                         <translation>engreixar-se</translation>
                     </translations>
@@ -1655,7 +1671,7 @@
 	</Entry>
         <Entry frequency="131000000">welcome<verbs>
 			<translations>
-				<translation>acollir</translation>
+				<translation transitive="true">acollir</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -1679,7 +1695,7 @@
 	</Entry>
         <Entry frequency="11700000">weld<verbs>
                             <translations><date>0808</date>
-				<translation>soldar</translation>
+				<translation transitive="true">soldar</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -1831,7 +1847,7 @@
 		</nouns>
 	</Entry><Entry frequency="76900">westernise<verbs>
 			<translations>
-				<translation local="gb">occidentalitzar<otherlocal>westernize</otherlocal></translation>
+				<translation local="gb" transitive="true">occidentalitzar<otherlocal>westernize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="122000">westernization<nouns>
@@ -1841,7 +1857,7 @@
 		</nouns>
 	</Entry><Entry frequency="230000">westernize<verbs>
 			<translations>
-				<translation>occidentalitzar</translation>
+				<translation transitive="true">occidentalitzar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="26300000">Western Sahara<nouns>
@@ -1856,7 +1872,7 @@
 		</adjectives>
                 <verbs double="true">
                     <translations>
-                        <translation>mullar</translation>
+                        <translation transitive="true">mullar</translation>
                         </translations>
                 </verbs>
                 <nouns>
@@ -1900,8 +1916,8 @@
 	</Entry>
         <Entry frequency="6490000">whack<verbs>
                             <translations><date>1009</date>
-                                <translation>copejar</translation>
-                            <translation>pegar fort / donar una trompada<synonyms>thump, wallop</synonyms></translation>
+                                <translation transitive="true">copejar</translation>
+                            <translation transitive="true">pegar fort / donar una trompada<synonyms>thump, wallop</synonyms></translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -1958,8 +1974,8 @@
                 </Entry>
                 <Entry frequency="276000">wheedle<verbs>
                         <translations><date>0909</date>
-                            <translation>(somebody into doing something) persuadir / convèncer (a través de l'afalac)<example>She was forever &lt;b&gt;wheedling&lt;/b&gt; her father into buying her things.</example><example>He was happy with the job he already had but his wife &lt;b&gt;wheedled&lt;/b&gt; him into applying for another one.</example><synonyms>coax, cajole</synonyms></translation>
-                            <translation>(something out of somebody) obtenir (a través de l'afalac)<example>Parents are often very good at &lt;b&gt;wheedling&lt;/b&gt; information out of their children.</example><example>Children are often very good at &lt;b&gt;wheedling&lt;/b&gt; money out of their parents.</example></translation>
+                            <translation transitive="true">[somebody into doing something] persuadir / convèncer (a través de l'afalac)<example>She was forever &lt;b&gt;wheedling&lt;/b&gt; her father into buying her things.</example><example>He was happy with the job he already had but his wife &lt;b&gt;wheedled&lt;/b&gt; him into applying for another one.</example><synonyms>coax, cajole</synonyms></translation>
+                            <translation transitive="true">[something out of somebody] obtenir (a través de l'afalac)<example>Parents are often very good at &lt;b&gt;wheedling&lt;/b&gt; information out of their children.</example><example>Children are often very good at &lt;b&gt;wheedling&lt;/b&gt; money out of their parents.</example></translation>
                         </translations>
                     </verbs>
                 </Entry>
@@ -2020,7 +2036,7 @@
 	</Entry>
                         <Entry frequency="7170000">whet<verbs double="true">
 			<translations>
-                            <translation>esmolar</translation>
+                            <translation transitive="true">esmolar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="78800000">whether<conjunctions>
@@ -2067,13 +2083,13 @@
 	</Entry>
         <Entry frequency="9830000001">whine<verbs>
                             <translations><date>0309</date>
-				<translation>queixar-se (sense motiu)<synonyms>whinge (Br.)</synonyms></translation>
+				<translation intransitive="true">queixar-se (sense motiu)<synonyms>whinge (Br.)</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
         <Entry frequency="11200000">whinge<verbs>
                             <translations><date>0309</date>
-				<translation local="gb">queixar-se (sense motiu)<synonyms>whine</synonyms></translation>
+				<translation local="gb" intransitive="true">queixar-se (sense motiu)<synonyms>whine</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="49400000">whip<nouns>
@@ -2083,9 +2099,9 @@
 		</nouns>
                 <verbs double="true">
                     <translations>
-                        <translation>fuetejar</translation>
-                        <translation catagory="food">batre</translation>
-                        <translation register="colloquial">derrotar</translation>
+                        <translation transitive="true">fuetejar</translation>
+                        <translation catagory="food" transitive="true">batre</translation>
+                        <translation register="colloquial" transitive="true">derrotar</translation>
                     </translations>
                 </verbs>
                 <phrasalverbs>whip off
@@ -2107,7 +2123,8 @@
             </Entry>
             <Entry frequency="1540000">whirl<verbs>
                <translations><date>0507</date>
-                   <translation>girar</translation>
+                   <translation transitive="true">fer girar</translation>
+                   <translation intransitive="true">girar</translation>
                    </translations>
                </verbs><nouns>
 			<translations>
@@ -2141,12 +2158,12 @@
 		</nouns>
 	</Entry><Entry frequency="4370000">whisper<verbs>
 			<translations>
-				<translation>xiuxiuejar / mussitar</translation>
+				<translation intransitive="true">xiuxiuejar / mussitar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="2640000">whistle<verbs>
 			<translations>
-				<translation>xiular</translation>
+				<translation intransitive="true">xiular</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -2222,8 +2239,8 @@
 		</nouns>
 	</Entry><Entry frequency="820000">whitewash<verbs>
 			<translations>
-				<translation>emblanquinar / lluir</translation>
-                                <translation disambiguate="sports">derrotar contundentment</translation>
+				<translation transitive="true">emblanquinar / lluir</translation>
+                                <translation disambiguate="sports" transitive="true">derrotar contundentment</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -2246,7 +2263,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>anar molt ràpid</translation>
+                        <translation intransitive="true">anar molt ràpid</translation>
                         </translations>
                 </verbs>
                 <phrasalverbs>whizz past
@@ -2254,7 +2271,7 @@
                         <translation>passar molt ràpid<example>I was driving along when a sports car &lt;b&gt;whizzed past&lt;/b&gt; me.</example></translation>
                     </translations>
                 </phrasalverbs>
-                <expressions>take a whizz
+                <expressions>to take a whizz
                     <translations>
                         <translation register="slang">fer pipí / pixar (vulg.)</translation>
                     </translations>
@@ -2371,7 +2388,7 @@
 	</Entry>
         <Entry frequency="4620000">whoop<verbs>
                             <translations><date>0808</date>
-				<translation>cridar (d'alegria)</translation>
+				<translation intransitive="true">cridar (d'alegria)</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -2460,7 +2477,7 @@
 	</Entry>
         <Entry frequency="2230000">widen<verbs>
 			<translations>
-				<translation>ampliar / eixamplar</translation>
+				<translation transitive="true">ampliar / eixamplar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="5170000">widening<nouns>
@@ -2515,7 +2532,7 @@
 	</Entry>
          <Entry frequency="51400000">wield<verbs>
 			<translations><date>0112</date>
-                            <translation>esgrimir<synonyms>brandish</synonyms></translation>
+                            <translation transitive="true">esgrimir / brandir / brandar<synonyms>brandish</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2698,7 +2715,8 @@
                     <participle>won</participle>
                     <gerund>winning</gerund>
                     <translations><date>1007</date>
-                        <translation>guanyar / vèncer</translation>
+                        <translation transitive="true">guanyar</translation>
+                        <translation intransitive="true">guanyar</translation>
                     </translations>
                 </verbs>
                 <phrasalverbs>win out
@@ -2735,7 +2753,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation>fer una ganyota de dolor</translation>
+                        <translation intransitive="true">fer una ganyota de dolor</translation>
                         </translations>
                 </verbs>
 	</Entry>
@@ -2749,20 +2767,20 @@
                     <past>wound</past>
                     <partiple>wound</partiple>
                     <translations>
-                        <translation>entortolligar</translation>
+                        <translation transitive="true">entortolligar</translation>
                     </translations>
                 </verbs>
                   <phrasalverbs>wind down
                     <translations>
-                        <translation>terminar (una activitat) per etapes</translation>
-                        <translation>descansar</translation>
+                        <translation intransitive="true">terminar (una activitat) per etapes</translation>
+                        <translation intransitive="true">descansar</translation>
                     </translations>
                 </phrasalverbs>
                                         <phrasalverbs>wind up
                                             <translations>
-                                                <translation>donar corda a<engnote>'Donar corda a' means 'to wind up' a watch or clock.</engnote></translation>
-                                                <translation>concloure<example>We're running short on time. Could you start to &lt;b&gt;wind up&lt;/b&gt; your speech please?</example><engnote>'Concloure' means 'to wind up' in the sense 'to finish / come to an end'.</engnote></translation>
-                                                <translation register="colloquial">acabar / anar a parar<example>I always said he would &lt;b&gt;wind up&lt;/b&gt; in prison.</example></translation>
+                                                <translation transitive="true">donar corda a<engnote>'Donar corda a' means 'to wind up' a watch or clock.</engnote></translation>
+                                                <translation intransitive="true">concloure<example>We're running short on time. Could you start to &lt;b&gt;wind up&lt;/b&gt; your speech please?</example><engnote>'Concloure' means 'to wind up' in the sense 'to finish / come to an end'.</engnote></translation>
+                                                <translation register="colloquial" intransitive="true">acabar / anar a parar<example>I always said he would &lt;b&gt;wind up&lt;/b&gt; in prison.</example></translation>
                                             </translations>
                                         </phrasalverbs>
                                         <phrasalverbs>wind (somebody) up
@@ -2958,7 +2976,7 @@
 		</nouns>
 	</Entry><Entry frequency="4320000">wink<verbs>
 			<translations>
-				<translation>fer l'ullet</translation>
+				<translation intransitive="true">fer l'ullet</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -3003,12 +3021,12 @@
                 </expressions>
 	</Entry><Entry frequency="3410000">wipe<verbs>
                     <translations>
-                        <translation>eixugar</translation>
+                        <translation transitive="true">eixugar</translation>
                     </translations>
                 </verbs>
-                <expressions>wipe the floor with someone
+                <expressions>to wipe the floor with (somebody)
                     <translations>
-                        <translation register="colloquial" noteng="TRUE">derrotar fàcilment a algú<example>He challenged the bully to a boxing match and &lt;b&gt;wiped the floor with him&lt;/b&gt;</example>
+                        <translation register="colloquial">derrotar fàcilment a<example>He challenged the bully to a boxing match and &lt;b&gt;wiped the floor with him&lt;/b&gt;</example>
                             <example>Dave Grohl is a good drummer but Phil Collins could &lt;b&gt;wipe the floor with him&lt;/b&gt; any day!</example>
                         </translation>
                     </translations>
@@ -3029,7 +3047,7 @@
                 </nouns>
                 <verbs>
                     <translations>
-                        <translation>cablejar / cablar</translation>
+                        <translation transitive="true">cablejar / cablar</translation>
                     </translations>
                 </verbs>
                 <expressions>bank wire
@@ -3105,10 +3123,15 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>desitjar</translation>
+				<translation transitive="true">desitjar</translation>
 			</translations>
 		</verbs>
-	<phrasalverbs>wish for<translations><translation intransitive="true">desitjar</translation></translations></phrasalverbs></Entry>
+                <phrasalverbs>wish for
+                    <translations>
+                        <translation intransitive="true">desitjar</translation>
+                    </translations>
+                </phrasalverbs>
+            </Entry>
         <Entry frequency="12700000">wit<nouns>
 			<translations>
 				<translation gender="m">enginy</translation>
@@ -3189,7 +3212,7 @@
         <past>withstood</past>
         <participle>withstood</participle>
 			<translations>
-				<translation>resistir / aguantar</translation>
+				<translation transitive="true">resistir / aguantar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="13700000">witness<nouns>
@@ -3200,7 +3223,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>presenciar</translation>
+				<translation transitive="true">presenciar</translation>
 			</translations>
 		</verbs>
                 <expressions>witness box
@@ -3222,7 +3245,7 @@
 		</nouns>
 	</Entry><Entry frequency="547000">wobble<verbs>
 			<translations>
-				<translation>fer tentines</translation>
+				<translation intransitive="true">fer tentines</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="422000">wobbly<adjectives>
@@ -3301,7 +3324,7 @@
 		</nouns>
 	</Entry><Entry frequency="18400000">wonder<verbs>
 			<translations>
-				<translation>preguntar-se / demanar-se</translation>
+				<translation intransitive="true">preguntar-se / demanar-se</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>wonder about
@@ -3327,7 +3350,7 @@
 	</Entry>
 <Entry frequency="2000000">woo<verbs>
                             <translations><date>0508</date>
-				<translation>fer l'aleta</translation>
+				<translation transitive="true">fer l'aleta</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3393,7 +3416,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation catagory="animal">lladrar<synonyms>bark</synonyms></translation>
+                        <translation catagory="animal" intransitive="true">lladrar<synonyms>bark</synonyms></translation>
                     </translations>
                 </verbs>
 	</Entry><Entry frequency="769000">woofer<nouns>
@@ -3709,7 +3732,8 @@
                 </expressions>
 	</Entry><Entry frequency="1610000">worsen<verbs>
 			<translations>
-				<translation>agreujar<example>Red Cross responds as flooding &lt;b&gt;worsens&lt;/b&gt; in Africa.</example><example>A study has found that global warming could &lt;b&gt;worsen&lt;/b&gt; allergies.</example></translation>
+				<translation transitive="true">agreujar</translation>
+                                <translation intransitive="true">agreujar-se<example>Red Cross responds as flooding &lt;b&gt;worsens&lt;/b&gt; in Africa.</example><example>A study has found that global warming could &lt;b&gt;worsen&lt;/b&gt; allergies.</example></translation>                               
 			</translations>
 		</verbs>
                 </Entry>
@@ -3724,7 +3748,7 @@
 			<participle>worshipped, worshiped</participle>
 			<gerund>worshipping, worshiping</gerund>
 			<translations>
-				<translation catagory="religious">adorar</translation>
+				<translation catagory="religious" transitive="true">adorar</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -3793,7 +3817,7 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>ferir</translation>
+				<translation transitive="true">ferir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3821,7 +3845,7 @@
 	</Entry> 
         <Entry frequency="5540000">wrap<verbs double="true">
 			<translations>
-				<translation>embolicar</translation>
+				<translation transitive="true">embolicar</translation>
 			</translations>
 		</verbs>
 		<phrasalverbs>wrap up
@@ -3870,7 +3894,7 @@
 	</Entry>
           <Entry frequency="6750000">wrestle<verbs>
                             <translations><date>0808</date>
-				<translation>lluitar</translation>
+				<translation transitive="true">lluitar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3901,8 +3925,9 @@
 		</nouns>
 		<verbs>
 			<translations>
-				<translation>arrugar</translation>
-                                <translation>arrufar<engexamp>To wrinkle your nose</engexamp><catexamp>Arrufar el nas</catexamp></translation>
+				<translation transitive="true">arrugar</translation>
+                                <translation intransitive="true">arrugar-se</translation>
+                                <translation transitive="true">arrufar<engexamp>To wrinkle your nose.</engexamp><catexamp>Arrufar el nas.</catexamp></translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>wrinkle up
@@ -3943,13 +3968,13 @@
 			<past>wrote</past>
 			<participle>written</participle>
 			<translations>
-				<translation>escriure</translation>
-                                <translation>redactar</translation>
+				<translation transitive="true">escriure</translation>
+                                <translation transitive="true">redactar</translation>
 			</translations>
 		</verbs>
                 <phrasalverbs>write down
                 <translations>
-                <translation>anotar / apuntar<example>It's not a good idea to &lt;b&gt;write down&lt;/b&gt; your PIN number on the back of your cash card.</example><example>I'd like to &lt;b&gt;write&lt;/b&gt; that &lt;b&gt;down&lt;/b&gt;. Hsave you got a pen and paper?</example><example>If you have any questions, &lt;b&gt;write&lt;/b&gt; them &lt;b&gt;down&lt;/b&gt; and I will answer them after the lecture.</example><synonyms>jot down</synonyms></translation>
+                <translation transitive="true">anotar / apuntar<example>It's not a good idea to &lt;b&gt;write down&lt;/b&gt; your PIN number on the back of your cash card.</example><example>I'd like to &lt;b&gt;write&lt;/b&gt; that &lt;b&gt;down&lt;/b&gt;. Hsave you got a pen and paper?</example><example>If you have any questions, &lt;b&gt;write&lt;/b&gt; them &lt;b&gt;down&lt;/b&gt; and I will answer them after the lecture.</example><synonyms>jot down</synonyms></translation>
                 </translations>
                 </phrasalverbs>
                 <phrasalverbs>write in
@@ -3959,7 +3984,7 @@
                 </phrasalverbs>
                 <phrasalverbs>write off
                 <translations>
-                <translation>condonar<example>Britain urges G8 to &lt;b&gt;write off&lt;/b&gt; developing world debt.</example></translation>
+                <translation transitive="true">condonar<example>Britain urges G8 to &lt;b&gt;write off&lt;/b&gt; developing world debt.</example></translation>
                 </translations>
                 </phrasalverbs>
                 <phrasalverbs>write out

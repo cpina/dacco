@@ -164,7 +164,7 @@
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation catagory="sports-event-cricket, sports-event-baseball, sports-event-tennis">arbitrar</translation>
+                        <translation catagory="sports-event-cricket, sports-event-baseball, sports-event-tennis" transitive="true">arbitrar</translation>
                     </translations>
                 </verbs>
 	</Entry><Entry frequency="587000">umpteen<determiners>
@@ -345,7 +345,7 @@
 	</Entry>
         	<Entry frequency="2510000">unchain<verbs>
                             <translations><date>1108</date>
-				<translation>desencadenar</translation>
+				<translation transitive="true">desencadenar</translation>
                             </translations>
 		</verbs>
 	</Entry>
@@ -397,7 +397,7 @@
 	</Entry>
         <Entry frequency="606000">unclog<verbs double="true">
                         <translations><date>0109</date>
-                            <translation>desembossar / desembussar</translation>
+                            <translation transitive="true">desembossar / desembussar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -438,7 +438,7 @@
 		</adjectives>
 	</Entry><Entry frequency="1360000">uncouple<verbs>
 			<translations>
-				<translation>desenganxar</translation>
+				<translation transitive="true">desenganxar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="91500">uncouth<adjectives>
@@ -448,8 +448,8 @@
 		</adjectives>
 	</Entry><Entry frequency="14900000">uncover<verbs>
 			<translations>
-                            <translation>destapar<engnote>'Destapar' means 'to uncover' in the literal sense (remove a cover).</engnote></translation>
-                            <translation>descobrir / revelar</translation>
+                            <translation transitive="true">[remove a cover] destapar</translation>
+                            <translation transitive="true">descobrir / revelar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="249000">unction<nouns>
@@ -496,7 +496,7 @@
 	</Entry>
         <Entry frequency="338000">underestimate<verbs>
 			<translations>
-				<translation>infravalorar</translation>
+				<translation transitive="true">infravalorar</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -507,7 +507,7 @@
         <past>underwent</past>
         <participle>undergone</participle>
 			<translations>
-				<translation>experimentar / sofrir</translation>
+				<translation transitive="true">experimentar / sofrir</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="8620000">underground<nouns>
@@ -549,8 +549,8 @@
 	</Entry>
         <Entry frequency="3270000">underline<verbs>
 			<translations>
-				<translation>subratllar</translation>
-                                <translation>recalcar</translation>
+				<translation transitive="true">subratllar</translation>
+                                <translation transitive="true">recalcar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="40600000">underlying<adjectives>
@@ -561,7 +561,7 @@
 	</Entry>
         	<Entry frequency="13800000">undermine<verbs>
                             <translations><date>0109</date>
-				<translation>soscavar / minar</translation>
+				<translation transitive="true">soscavar / minar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -587,13 +587,13 @@
 		</nouns>
 	</Entry><Entry frequency="22000000">underpin<verbs double="true">
 			<translations>
-                            <translation>apuntalar</translation>
-                            <translation>sostenir</translation>
+                            <translation transitive="true">apuntalar</translation>
+                            <translation transitive="true">sostenir</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="9390000">underscore<verbs>
 			<translations>
-				<translation>subratllar<example>My participation on this committee really &lt;b&gt;underscores&lt;/b&gt; my commitment to the community.</example></translation>
+				<translation transitive="true">subratllar<example>My participation on this committee really &lt;b&gt;underscores&lt;/b&gt; my commitment to the community.</example></translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="7720000">undersigned<nouns>
@@ -610,7 +610,7 @@
 			<past>understood</past>
 			<participle>understood</participle>
 			<translations>
-				<translation>entendre</translation>
+				<translation intransitive="true">entendre</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="2840000">understandable<adjectives>
@@ -639,8 +639,8 @@
 	</Entry>
           <Entry frequency="30400000">undertake<verbs>
                             <translations><date>0808</date>
-				<translation>emprendre<example>He &lt;b&gt;undertook&lt;/b&gt; a career as a writer at a time when there were very few who were able to make a living that way.</example></translation>
-                                <translation>comprometre's<example>The government has &lt;b&gt;undertaken&lt;/b&gt; to tackle the problem of health inequality.</example></translation>
+				<translation transitive="true">emprendre<example>He &lt;b&gt;undertook&lt;/b&gt; a career as a writer at a time when there were very few who were able to make a living that way.</example></translation>
+                                <translation transitive="true">[~ to] comprometre's a<example>The government has &lt;b&gt;undertaken&lt;/b&gt; to tackle the problem of health inequality.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -730,8 +730,7 @@
 		</adjectives>
 	</Entry><Entry frequency="731000">unearth<verbs>
 			<translations>
-				<translation>desenterrar<synonyms>dig up</synonyms>
-				</translation>
+				<translation transitive="true">desenterrar<synonyms>dig up</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="1810000">unease<nouns>
@@ -846,7 +845,7 @@
 		</adjectives>
 	</Entry><Entry frequency="232000">unfasten<verbs>
 			<translations>
-				<translation>descordar</translation>
+				<translation transitive="true">descordar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -875,11 +874,11 @@
 	</Entry>
         <Entry frequency="4050000">unfold<verbs>
 			<translations>
-				<translation>desplegar<engnote>'Desplegar' means 'to unfold' a map / newspaper / wings.</engnote></translation>
-                                <translation>desdoblar / estendre<engnote>'Desdoblar' and 'estendre' mean 'to unfold' a sheet.</engnote></translation>
-                                <translation>revelar<engnote>'Revelar' means 'to unfold' in the sense of a plan.</engnote></translation>
-                                <translation>obrir-se<engnote>'Obrir-se' means 'to unfold' in the sense of a flower.</engnote></translation>
-                                <translation>desenvolupar-se<engnote>'Desenvolupar-se' means 'to unfold' in the sense of events or a story.</engnote></translation>
+				<translation transitive="true">desplegar<engnote>'Desplegar' means 'to unfold' a map / newspaper / wings.</engnote></translation>
+                                <translation transitive="true">desdoblar / estendre<engnote>'Desdoblar' and 'estendre' mean 'to unfold' a sheet.</engnote></translation>
+                                <translation transitive="true">revelar<engnote>'Revelar' means 'to unfold' in the sense of a plan.</engnote></translation>
+                                <translation intransitive="true">obrir-se<engnote>'Obrir-se' means 'to unfold' in the sense of a flower.</engnote></translation>
+                                <translation intransitive="true">desenvolupar-se<engnote>'Desenvolupar-se' means 'to unfold' in the sense of events or a story.</engnote></translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="1160000">unforeseeable<adjectives>
@@ -930,7 +929,8 @@
 	</Entry>
         <Entry frequency="1170000">unfurl<verbs>
                             <translations><date>0808</date>
-				<translation>desenrotllar / desplegar</translation>
+				<translation transitive="true">desenrotllar / desplegar</translation>
+                                <translation intransitive="true">desenrotllar-se / desplegar-se</translation>                                
 			</translations>
 		</verbs>
 	</Entry>
@@ -1032,7 +1032,7 @@
 		</adverbs>
 	</Entry><Entry frequency="1770000">unify<verbs ie="true">
 			<translations>
-				<translation>unificar</translation>
+				<translation transitive="true">unificar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="661000">unilateral<adjectives>
@@ -1062,7 +1062,7 @@
 		</adjectives>
 	</Entry><Entry frequency="972000">uninstall<verbs>
 			<translations>
-				<translation catagory="computers" termcat="true">desinstal·lar</translation>
+				<translation catagory="computers" termcat="true" transitive="true">desinstal·lar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1132,7 +1132,8 @@
 		</nouns>
 	</Entry><Entry frequency="5500000">unite<verbs>
 			<translations>
-				<translation>unir</translation>
+				<translation transitive="true">unir</translation>
+                                <translation intransitive="true">unir-se</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="3410000">United Arab Emirates<nouns>
@@ -1222,7 +1223,7 @@
 		</adjectives>
 	</Entry><Entry frequency="240000">unlace<verbs>
 			<translations>
-				<translation>descordar</translation>
+				<translation transitive="true">descordar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1240,7 +1241,7 @@
 	</Entry>
         <Entry frequency="7050000">unleash<verbs>
 			<translations>
-				<translation>deslligar / desencadenar / donar regna solta</translation>
+				<translation transitive="true">deslligar / desencadenar / donar regna solta</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="27500000">unless<conjunctions>
@@ -1266,7 +1267,7 @@
 	</Entry>
          <Entry frequency="43900000">unlock<verbs>
                             <translations><date>0109</date>
-				<translation>obrir (un pany)</translation>
+				<translation transitive="true">obrir (un pany)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1290,7 +1291,7 @@
 	</Entry>
         <Entry frequency="17100000">unmask<verbs>
                             <translations><date>1008</date>
-				<translation>desemmascarar</translation>
+				<translation transitive="true">desemmascarar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1315,7 +1316,7 @@
 
                             <translations><date>0809</date>
 
-                                <translation>trasbalsar<synonyms>unsettle</synonyms></translation>
+                                <translation transitive="true">trasbalsar<synonyms>unsettle</synonyms></translation>
 
 			</translations>
 
@@ -1334,8 +1335,9 @@
 		</adjectives>
 	</Entry><Entry frequency="218000">unpack<verbs>
 			<translations>
-				<translation>desfer (la maleta)</translation>
-				<translation>desempaquetar</translation>
+				<translation transitive="true">desfer (la maleta)</translation>
+                                <translation intransitive="true">desfer les maletes</translation>
+				<translation transitive="true">desempaquetar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="5140">unpaid<adjectives>
@@ -1355,7 +1357,7 @@
 		</adjectives>
 	</Entry><Entry frequency="804000">unplug<verbs double="true">
 			<translations>
-				<translation>desconnectar</translation>
+				<translation transitive="true">desconnectar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1448,9 +1450,9 @@
 	</Entry>
         <Entry frequency="3900000">unravel<verbs double="true">
                             <translations><date>1008</date>
-				<translation>desenredar / desembullar</translation>
-                                <translation>[a mystery] desentranyar</translation>
-                                <translation>(començar a) desmuntar / desballestar</translation>
+				<translation transitive="true">desenredar / desembullar</translation>
+                                <translation transitive="true">[a mystery] desentranyar</translation>
+                                <translation intransitive="true">(començar a) desmuntar / desballestar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1512,7 +1514,8 @@
 	</Entry>
         <Entry frequency="879000">unroll<verbs>
                             <translations><date>0808</date>
-				<translation>desenrotllar</translation>
+				<translation transitive="true">desenrotllar</translation>
+                                <translation intransitive="true">desenrotllar-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1565,12 +1568,12 @@
 	</Entry>
         <Entry frequency="1370000">unsettle<verbs>
 			<translations>
-				<translation>trasbalsar<synonyms>unnerve</synonyms></translation>
+				<translation transitive="true">trasbalsar<synonyms>unnerve</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="663000">unsheathe<verbs>
 			<translations>
-<translation>desembeinar</translation>
+<translation transitive="true">desembeinar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="496000">unsociable<adjectives>
@@ -1608,7 +1611,8 @@
      <past>unstuck</past>
      <participle>unstuck</participle>
 			<translations>
-				<translation>desenganxar</translation>
+				<translation transitive="true">desenganxar</translation>
+                                <translation intransitive="true">desenganxar-se</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1670,7 +1674,7 @@
 		</adjectives>
 	</Entry><Entry frequency="802000">untie<verbs>
 			<translations>
-				<translation>descordar<synonyms>to unfasten, to undo</synonyms></translation>
+				<translation transitive="true">descordar<synonyms>unfasten, undo</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="75400000">until<prepositions>
@@ -1799,7 +1803,7 @@
 	</Entry>
          <Entry frequency="19900000">unveil<verbs>
                             <translations><date>0708</date>
-				<translation>desvelar</translation>
+				<translation transitive="true">desvelar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1842,8 +1846,9 @@
 			<past>unwound</past>
 			<participle>unwound</participle>
 			<translations>
-				<translation>relaxar-se / esbargir-se<synonyms>relax</synonyms>
-				</translation>
+                                <translation transitive="true">desenrotllar</translation>
+                                <translation intransitive="true">desenrotllar-se</translation>
+				<translation intransitive="true">relaxar-se / esbargir-se<synonyms>relax</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="419000">unwise<adjectives>
@@ -1871,8 +1876,8 @@
 	</Entry>
          <Entry frequency="5410000">unzip<verbs double="true">
 			<translations><date>0808</date>
-                            <translation>obrir (or baixar) la cremallera de</translation>
-                            <translation disambiguate="computers">descomprimir</translation>
+                            <translation transitive="true">obrir (or baixar) la cremallera de</translation>
+                            <translation disambiguate="computers" transitive="true">descomprimir</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1925,7 +1930,7 @@
 	</Entry>
         <Entry frequency="246000000">update<verbs>
 			<translations>
-				<translation>actualitzar</translation>
+				<translation transitive="true">actualitzar</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -1936,13 +1941,13 @@
 	</Entry>
          <Entry frequency="57700000">upend<verbs>
                             <translations><date>0109</date>
-				<translation>posar cap per avall / capgirar</translation>
+				<translation transitive="true">posar cap per avall / capgirar</translation>
 			</translations>
 		</verbs>
 	</Entry>
         <Entry frequency="37300000">upgrade<verbs>
 			<translations>
-				<translation catagory="computers" termcat="true">actualitzar</translation>
+				<translation catagory="computers" termcat="true" transitive="true">actualitzar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -1981,7 +1986,7 @@
 		</nouns>
 	</Entry><Entry frequency="471000000">upload<verbs>
                             <translations><date>0709</date>
-				<translation catagory="computers-internet" termcat="true">penjar / pujar</translation>
+				<translation catagory="computers-internet" termcat="true" transitive="true">penjar / pujar</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -2022,7 +2027,7 @@
 	</Entry>
         <Entry frequency="1980000">uproot<verbs>
 			<translations><date>0109</date>
-				<translation>desarrelar</translation>
+				<translation transitive="true">desarrelar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2038,17 +2043,13 @@
             </nouns>
             <verbs>
                 <translations>
-                    <translation>trasbalsar / contrariar</translation>
+                    <translation transitive="true">trasbalsar / contrariar</translation>
+                    <translation intransitive="true">[~ yourself] atabalar-se<example>Don't think about it, you'll only &lt;b&gt;upset yourself&lt;/b&gt;.</example></translation>
                 </translations>
             </verbs>
-            <expressions>become (or get) upset
+            <expressions>to become (or get) upset
                 <translations>
                     <translation>atabalar-se</translation>
-                </translations>
-            </expressions>
-            <expressions>upset yourself
-                <translations>
-                    <translation>atabalar-se<example>Don't think about it, you'll only &lt;b&gt;upset yourself&lt;/b&gt;.</example></translation>
                 </translations>
             </expressions>
         </Entry>
@@ -2153,7 +2154,7 @@
 		</nouns>
 	</Entry><Entry frequency="46200000">urge<verbs>
 			<translations>
-				<translation>instar</translation>
+				<translation transitive="true">instar</translation>
 			</translations>
 		</verbs>
                 <nouns>
@@ -2191,7 +2192,7 @@
 		</adjectives>
 	</Entry><Entry frequency="685000">urinate<verbs>
 			<translations>
-				<translation register="formal">orinar</translation>
+				<translation register="formal" intransitive="true">orinar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="2680000">urine<nouns>
@@ -2279,7 +2280,7 @@
 		</nouns>
 	</Entry><Entry frequency="11780000000">use<verbs>
                             <translations><date>1108</date>
-				<translation>usar / utilitzar</translation>
+				<translation transitive="true">usar / utilitzar</translation>
 			</translations>
 		</verbs>
 		<nouns>
@@ -2371,7 +2372,7 @@
 		</adjectives>
 	</Entry><Entry frequency="899000">usurp<verbs>
 			<translations>
-				<translation>usurpar</translation>
+				<translation transitive="true">usurpar</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="314000">usurper<nouns>
@@ -2466,7 +2467,9 @@
 			</translations>
 		</adjectives>
                 <verbs><translations>
-                <translation>dir</translation></translations></verbs>
+                <translation transitive="true">dir</translation>
+                </translations>
+                </verbs>
 	</Entry><Entry frequency="1640000">utterly<adverbs>
 			<translations>
 				<translation>totalment / completament / absolutament<synonyms>totally, completely, absolutely</synonyms></translation>
