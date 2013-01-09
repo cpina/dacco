@@ -178,20 +178,31 @@
 		</xsl:if>
 	</xsl:template>
 	<xsl:template match="nouns">
-		<xsl:if test="count(translations/translation)>0 or count(translations/grouptranslation)>0">
-			<br/>
-			<span class="pos"> nom </span>
-			<xsl:apply-templates/>
-                        <xsl:if test="count(translations/grouptranslation)>0">
-                          <span class="grouptranslation">
-                          <xsl:for-each select="translations/grouptranslation/translation">
-			  <xsl:call-template name="translation">
-				<xsl:with-param name="hideCount" select="'true'"/>
-			  </xsl:call-template>
-		          </xsl:for-each>
-                          </span>
-                        </xsl:if>
-		</xsl:if>
+            <xsl:if test="count(translations/translation)>0 or count(translations/grouptranslation)>0">
+            <br/>
+            <span class="pos"> nom </span>
+            <xsl:if test="count(translations/grouptranslation) = 0">
+                <xsl:apply-templates/>
+            </xsl:if> 
+            <xsl:if test="count(translations/grouptranslation)>0">
+                <xsl:for-each select="translations/grouptranslation|translations/translation">
+                    <xsl:if test="name() = 'grouptranslation'">
+                        <xsl:for-each select="translation">
+                            <xsl:call-template name="translation">
+                                <xsl:with-param name="hideCount" select="'true'"/>
+                            </xsl:call-template>
+                        </xsl:for-each>
+                    </xsl:if>
+                    <xsl:if test="name() != 'grouptranslation'">
+                        <div>
+                            <xsl:call-template name="translation">
+                                <xsl:with-param name="hideCount" select="'false'"/>
+                            </xsl:call-template>
+                        </div>
+                    </xsl:if>
+                </xsl:for-each>
+            </xsl:if>
+        </xsl:if>
 	</xsl:template>
 	<xsl:template match="adjectives">
 		<xsl:if test="count(translations/translation)>0">
@@ -288,7 +299,7 @@
         <xsl:template match="translation" name="translation">
 		<xsl:param name="hideCount"/>
 		<xsl:text>    </xsl:text>
-		<xsl:if test="last()>1 and $hideCount!='true'">
+                <xsl:if test="last()>1 and ($hideCount!='true' or position()=1)">
 			<xsl:if test="position()=1">
                             <br/>
                         </xsl:if>
@@ -419,6 +430,18 @@
                 <xsl:if test="contains(@disambiguate,'Plant') or contains(@disambiguate,'plant') ">
 				<span class="category">[BOT] </span>
 			</xsl:if>
+                        <xsl:if test="contains(@disambiguate,'Physics') or contains(@disambiguate,'physics') ">
+			<span class="category">[FÍSICA] </span>
+		</xsl:if>
+                <xsl:if test="contains(@disambiguate,'Biology') or contains(@disambiguate,'biology') ">
+			<span class="category">[BIOL] </span>
+		</xsl:if>
+                <xsl:if test="contains(@disambiguate,'Chemistry') or contains(@disambiguate,'chemistry') ">
+			<span class="category">[QUÍMICA] </span>
+		</xsl:if>
+                <xsl:if test="contains(@disambiguate,'Astronomy') or contains(@disambiguate,'astronomy') ">
+			<span class="category">[ASTRON] </span>
+		</xsl:if>
                            <xsl:if test="contains(@disambiguate,'Linguistics') or contains(@disambiguate,'linguistics') ">
 			<span class="category">[LING] </span>
 		</xsl:if>
