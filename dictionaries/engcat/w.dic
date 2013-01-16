@@ -917,8 +917,8 @@
 		</nouns>
 	</Entry><Entry frequency="150000">washing<nouns>
 			<translations>
-                            <translation catagory="clothes" gender="f">roba bruta<example>I'm just about to put the &lt;b&gt;washing&lt;/b&gt; on, have you got anything there that needs to go in?</example></translation>
-                            <translation catagory="clothes" gender="f">roba neta<example>The sky turned black and it started to spot with rain so Linda ran outside to bring the &lt;b&gt;washing&lt;/b&gt; in off the line</example><catnote>La paraula 'washing' pot significar o bé la roba bruta (abans de rentar-la) o bé la roba neta (després de rentar-la), però si es vol distinguir entre les dues es pot dir 'dirty washing' o 'clean washing'.</catnote></translation>	
+                            <translation catagory="clothes" local="gb" gender="f">roba bruta<example>I'm just about to put the &lt;b&gt;washing&lt;/b&gt; on, have you got anything there that needs to go in?</example><otherlocal>dirty laundry</otherlocal></translation>
+                            <translation catagory="clothes" local="gb" gender="f">roba neta<example>The sky turned black and it started to spot with rain so Linda ran outside to bring the &lt;b&gt;washing&lt;/b&gt; in off the line.</example><catnote>La paraula 'washing' pot significar o bé la roba bruta (abans de rentar-la) o bé la roba neta (després de rentar-la), però si es vol distinguir entre les dues es pot dir 'dirty washing' o 'clean washing'.</catnote><otherlocal>clean laundry</otherlocal></translation>	
 			</translations>
 		</nouns>
                 <expressions>washing line
@@ -944,7 +944,19 @@
                         <translation>de Washington D.C</translation>
                     </translations>
                 </adjectives>
-	</Entry><Entry frequency="789000">wasp<nouns>
+	</Entry>
+<Entry frequency="5160000">washing-up<nouns>
+        <translations><date>0113</date>
+            <translation local="gb" gender="f">vaixella bruta<otherlocal>dirty dishes</otherlocal><example>Why is last night's &lt;b&gt;washing-up&lt;/b&gt; still in the sink? I thought you said you'd do it!</example></translation>
+        </translations>
+    </nouns>
+    <expressions>washing-up liquid
+        <translations>
+            <translation local="gb" gender="m">sabó de rentar plats<otherlocal>dishwashing liquid, dish soap</otherlocal></translation>
+        </translations>
+    </expressions>
+</Entry>
+        <Entry frequency="789000">wasp<nouns>
 			<translations>
 				<translation catagory="animal-insect" gender="f">vespa<engexamp>Wasps' nest</engexamp><catexamp>Vesper</catexamp></translation>
                                 <translation register="slang" capitalized="WASP" local="us" noteng="TRUE">-<catnote>L'acrònim WASP (White, Anglo-Saxon, Protestant) refereix al grup que tradicionalment ha estat el més poderós i influent de la societat nord-americana. L'acrònim s'utilitza sobretot en sentit despectiu.</catnote></translation>
