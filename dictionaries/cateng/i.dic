@@ -186,7 +186,7 @@
 	</Entry>
 	<Entry frequency="52600">identificar<verbs conj="CtoQU">
 			<translations>
-				<translation>to identify</translation>
+				<translation transitive="true">to identify</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -302,7 +302,7 @@
 	</Entry>
         <Entry frequency="2710">idolatrar<verbs conj="regular">
 			<translations><date>1108</date>
-                        <translation transitive="true">to idolize / to idolise (Br.) / to worship</translation>
+                        <translation transitive="true">to idolize / to worship</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -371,8 +371,8 @@
 	</Entry>
          <Entry frequency="137000">ignorar<verbs conj="regular">
 			<translations><date>01208506</date>
-				<translation>to not know / to not be aware (of) / to not be aware (that)</translation>
-                                <translation>to ignore</translation>
+				<translation transitive="true">to not know / to not be aware (of) / to not be aware (that)</translation>
+                                <translation transitive="true">to ignore</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -401,7 +401,7 @@
 	</Entry>
 	<Entry frequency="5000">igualar<verbs conj="regular">
 			<translations>
-				<translation>to equal</translation>
+				<translation transitive="true">to equal</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -615,8 +615,8 @@
 	</Entry>
         <Entry frequency="922">il·luminar<verbs conj="regular">
 			<translations><date>0106</date>
-				<translation>to light</translation>
-                                <translation>to illuminate</translation>
+				<translation transitive="true">to light</translation>
+                                <translation transitive="true">to illuminate</translation>
                                 <translation reflexive="il·luminar-se">to light up</translation>
 			</translations>
 		</verbs>
@@ -635,8 +635,8 @@
 	</Entry>
         <Entry frequency="7590">il·lusionar<verbs conj="regular">
 			<translations><date>0905</date>
-				<translation>to build up someone's hopes</translation>
-                                <translation>to excite</translation>
+				<translation transitive="true">to build up someone's hopes</translation>
+                                <translation transitive="true">to excite</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -680,7 +680,7 @@
 	</Entry>
 	<Entry frequency="9940">il·lustrar<verbs conj="regular">
 			<translations>
-				<translation>to illustrate</translation>
+				<translation transitive="true">to illustrate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -706,7 +706,7 @@
 	</Entry>
 	<Entry frequency="18900">imaginar<verbs conj="regular">
 			<translations>
-				<translation>to imagine</translation>
+				<translation transitive="true">to imagine</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -772,7 +772,7 @@
 	</Entry>
 	<Entry frequency="4920">imitar<verbs conj="regular">
 			<translations>
-				<translation>to imitate / to ape</translation>
+				<translation transitive="true">to imitate / to ape</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -847,7 +847,7 @@
 	</Entry>
         <Entry frequency="1040">immigrar<verbs conj="regular">
 			<translations>
-				<translation>to immigrate</translation>
+				<translation intransitive="true">to immigrate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -877,7 +877,7 @@
 	</Entry>
         <Entry frequency="396">immiscir-se<verbs conj="inceptive">
 			<translations><date>1006</date>
-				<translation register="formal">to interfere</translation>
+				<translation register="formal" pronominal="true">to interfere</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -936,10 +936,16 @@
 	</Entry>
              <Entry frequency="11700">immortalitzar<verbs conj="regular">
                             <translations><date>0808</date>
-				<translation>to immortalize / to immortalise (Br.)</translation>
+				<translation transitive="true">to immortalize</translation>
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="1640">immotivat<adjectives>
+        <translations><date>0113</date>
+            <translation>unmotivated<fems>immotivada</fems></translation>
+        </translations>
+    </adjectives>
+</Entry>
         <Entry frequency="880">immund<adjectives>
 			<translations><date>1007</date>
 				<translation>filthy<fems>immunda</fems></translation>
@@ -982,13 +988,13 @@
 	</Entry>
          <Entry frequency="447">immunització<nouns>
 			<translations>
-				<translation catagory="medical" gender="ffullform">immunisation (Br.) / immunization (Am.)<plural>immunitzacions</plural></translation>
+				<translation catagory="medical" gender="ffullform">immunization<plural>immunitzacions</plural></translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="698">immunitzar<verbs conj="regular">
 			<translations><date>1007</date>
-				<translation>to immunize / to immunise (Br.)</translation>
+				<translation catagory="medical" transitive="true">to immunize</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1073,7 +1079,8 @@
 	</Entry>
 	<Entry frequency="42300">impartir<verbs conj="inceptive">
 			<translations>
-				<translation>to give / to offer<engnote>'Impartir' translates roughly as 'to give' or 'to offer'. It is used in the field of education together with 'cursos' (courses), 'assignatures' (subjects), 'lliçons' (lessons), 'classes' (classes) etc. meaning 'to give' or 'offer' classes/lessons etc.</engnote>
+                                <translation transitive="true">to provide / to impart</translation>
+				<translation transitive="true">to give / to offer<engnote>'Impartir' translates roughly as 'to give' or 'to offer'. It is used in the field of education together with 'cursos' (courses), 'assignatures' (subjects), 'lliçons' (lessons), 'classes' (classes) etc. meaning 'to give' or 'offer' classes/lessons etc.</engnote>
 					<catexamp>Cursos que s'imparteixen a la Universitat de Barcelona</catexamp>
 					<engexamp>Courses on offer at the University of Barcelona</engexamp>
 					<catexamp>L'any que ve la Universitat de València impartirà quatre noves titulacions</catexamp>
@@ -1116,8 +1123,8 @@
 	</Entry>
 	<Entry frequency="32600">impedir<verbs conj="inceptive">
 			<translations>
-				<translation>to prevent</translation>
-                                <translation>to impede</translation>
+				<translation transitive="true">to prevent</translation>
+                                <translation transitive="true">to impede</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1152,8 +1159,7 @@
 	</Entry>
         <Entry frequency="8420">imperar<verbs conj="regular">
 			<translations><date>1007</date>
-				<translation>to rule</translation>
-                                <translation>to reign supreme</translation>
+                                <translation intransitive="true">to reign (supreme)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1273,8 +1279,8 @@
                             </Entry>
                               <Entry frequency="405000">implantar<verbs conj="regular">
                                     <translations><date>0410</date>
-                                        <translation>to introduce</translation>
-                                        <translation>to implant</translation>
+                                        <translation transitive="true">to introduce</translation>
+                                        <translation transitive="true">to implant</translation>
                                     </translations>
                                 </verbs>
                             </Entry>
@@ -1339,7 +1345,7 @@
 	</Entry>
 	<Entry frequency="16700">importar<verbs conj="regular">
 			<translations>
-				<translation>import</translation>
+				<translation transitive="true">to import</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1351,7 +1357,7 @@
 	</Entry>
         <Entry frequency="4860">impossibilitar<verbs conj="regular">
 			<translations>
-				<translation>to make something impossible</translation>
+				<translation transitive="true">to make something impossible</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1413,7 +1419,7 @@
 	</Entry>
         <Entry frequency="24000">impregnar<verbs conj="regular">
                             <translations><date>1008</date>
-				<translation>to impregnate</translation>
+				<translation transitive="true">to impregnate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1464,7 +1470,7 @@
 	</Entry>
         	<Entry frequency="10200">impressionar<verbs conj="regular">
 			<translations><date>0907</date>
-				<translation>to impress</translation>
+				<translation transitive="true">to impress</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1514,7 +1520,7 @@
 	</Entry>	
 	<Entry frequency="62700">imprimir<verbs conj="irregular47">
 			<translations>
-				<translation>to print</translation>
+				<translation transitive="true">to print</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1562,7 +1568,7 @@
 	</Entry>
          <Entry frequency="22500">improvisar<verbs conj="regular">
 			<translations><date>0506</date>
-				<translation>to improvise</translation>
+				<translation transitive="true">to improvise</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1604,7 +1610,7 @@
 	</Entry>
 <Entry frequency="1400">impugnar<verbs>
 			<translations><date>0406</date>
-				<translation>to contest</translation>
+				<translation transitive="true">to contest</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1617,8 +1623,8 @@
 	</Entry>
          <Entry frequency="218000">impulsar<verbs>
 			<translations><date>0907</date>
-				<translation>to push / to promote</translation>
-                                <translation>to propel</translation>
+				<translation transitive="true">to push / to promote</translation>
+                                <translation transitive="true">to propel</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1783,8 +1789,8 @@
 	</Entry>
         	<Entry frequency="294000">inaugurar<verbs conj="regular">
 			<translations><date>0906</date>
-				<translation>to (officially) open / to inaugurate</translation>
-                                <translation>to unveil</translation>
+				<translation transitive="true">to (officially) open / to inaugurate</translation>
+                                <translation transitive="true">to unveil</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1838,7 +1844,7 @@
 	</Entry>
                <Entry frequency="1690">incapacitar<verbs conj="regular">
 			<translations><date>0907</date>
-				<translation>to incapacitate</translation>
+				<translation transitive="true">to incapacitate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1872,7 +1878,7 @@
 	</Entry>
         <Entry frequency="29900">incendiar<verbs conj="irregular1">
 			<translations><date>0907</date>
-				<translation>to set fire to</translation>
+				<translation transitive="true">to set fire to</translation>
                                 <translation reflexive="incendiar-se">to catch fire</translation>
 			</translations>
 		</verbs>
@@ -1902,7 +1908,7 @@
 	</Entry>
         <Entry frequency="113000">incentivar<verbs conj="regular">
 			<translations><date>0506</date>
-				<translation>to encourage</translation>
+				<translation transitive="true">to encourage</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1953,8 +1959,8 @@
 	</Entry>
             <Entry frequency="64300">incidir<verbs conj="inceptive">
 			<translations><date>0907</date>
-				<translation>to impact (up)on / to have an impact on</translation>
-                                <translation>to impact with</translation>
+				<translation intransitive="true">to impact (up)on / to have an impact on</translation>
+                                <translation intransitive="true">to impact with</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1973,7 +1979,7 @@
 	</Entry>
             <Entry frequency="2040">incinerar<verbs conj="regular">
 			<translations><date>0907</date>
-				<translation>to incinerate / to burn</translation>
+				<translation transitive="true">to incinerate / to burn</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2003,7 +2009,7 @@
 	</Entry>
            <Entry frequency="46100">incitar<verbs conj="regular">
 			<translations><date>0407</date>
-				<translation>to spur on / to motivate / to encourage<synonyms>esperonar</synonyms></translation>
+				<translation transitive="true">to spur on / to motivate / to encourage<synonyms>esperonar</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2060,10 +2066,12 @@
 	</Entry>
         <Entry frequency="38000">inclinar<verbs conj="regular">
 			<translations><date>0306</date>
-                        <translation>to tip / to tilt</translation>
-				<translation>to slant / to slope</translation>
-                                <translation>to bend</translation>
-                                <translation>to bow</translation>
+                        <translation transitive="true">to tip / to tilt</translation>
+                        <translation transitive="true">[cap] to bow</translation>
+                        <translation transitive="true">to bend</translation>
+			<translation reflexive="inclinar-se">to slant / to slope</translation>
+                        <translation transitive="true">[fer tendir] [~ algú a] to lead (somebody) to / to sway (somebody) to</translation>
+                        <translation reflexive="inclinar-se">[~ a] to be inclined to / to tend to</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2075,13 +2083,13 @@
 	</Entry>
 	<Entry frequency="121000">incloure<verbs conj="irregular25">
 			<translations>
-				<translation>to include</translation>
+				<translation transitive="true">to include</translation>
 			</translations>
 		</verbs>
 	</Entry>
             <Entry frequency="6330">inclusivament<adverbs>
 			<translations><date>0907</date>
-				<translation>inclusive<catexamp>Del 24 al 30 de desembre, inclusivament</catexamp><engexamp>From the 24th to the 30th of December, inclusive</engexamp></translation>
+				<translation>inclusive<catexamp>Del 24 al 30 de desembre, inclusivament.</catexamp><engexamp>From the 24th to the 30th of December, inclusive.</engexamp></translation>
 			</translations>
 		</adverbs>
 	</Entry>
@@ -2149,7 +2157,7 @@
 	</Entry>
            <Entry frequency="73000">incomplir<verbs conj="irregular7">
 			<translations><date>0908</date>
-				<translation>to fail to comply (with)</translation>
+				<translation transitive="true">to fail to comply (with)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2270,7 +2278,7 @@
 	</Entry>
         <Entry frequency="409000">incorporar<verbs conj="regular">
 			<translations><date>0106</date>
-				<translation>to incorporate / to include</translation>
+				<translation transitive="true">to incorporate / to include</translation>
                                 <translation reflexive="incorporar-se">to sit up</translation>
 			</translations>
 		</verbs>
@@ -2301,7 +2309,8 @@
 	</Entry>
 	<Entry frequency="41200">incrementar<verbs conj="regular">
 			<translations>
-				<translation>to increase</translation>
+				<translation transitive="true">to increase</translation>
+                                <translation reflexive="incrementar-se">to increase</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2325,7 +2334,7 @@
 	</Entry>
         <Entry frequency="9880">incumbir<verbs conj="inceptive">
 			<translations><date>1106</date>
-				<translation>to concern<catexamp>T'ho comento encara que entenc que a tu això no t'incumbeixi</catexamp><engexamp>I mention this to you even though I understand it's not your problem</engexamp></translation>
+				<translation intransitive="true">to concern<catexamp>T'ho comento encara que entenc que a tu això no t'incumbeix.</catexamp><engexamp>I mention this to you even though I understand it's not your problem.</engexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
