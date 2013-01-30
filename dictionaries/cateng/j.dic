@@ -15,7 +15,7 @@
                	</Entry>	
 	<Entry frequency="231">jactar-se<verbs conj="regular">
 			<translations><date>0505</date>
-				<translation>to boast / to brag</translation>
+				<translation pronominal="true">to boast / to brag</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -96,11 +96,11 @@
 	</Entry>
 	<Entry frequency="515">jaure<verbs conj="irregular53">
 			<translations><date>0505</date>
-				<translation>to be lying
+				<translation intransitive="true">to be lying
 					<catexamp>Ella jeia damunt l'herba</catexamp><engexamp>She was lying on the grass</engexamp>
 				</translation>
-				<translation>to lie
-					<catexamp>(una fossa) aquí jeu Lisa</catexamp><engexamp>(a grave) here lies Lisa</engexamp>
+				<translation intransitive="true">to lie
+					<catexamp>[una fossa] aquí jeu Lisa</catexamp><engexamp>[a grave] here lies Lisa</engexamp>
 					<catnote>És el verb irregular (lie, lay, lain), no s'ha de confondre amb el verb regular (lie, lied, lied) que vol dir mentir.</catnote><engnote>'Jaure' means 'to lie' in the sense 'to lie down' not to tell fibs (which is 'mentir').</engnote>
 				</translation>
 			</translations>
@@ -167,9 +167,7 @@
 	</Entry>
 	<Entry frequency="653">jeure<verbs conj="irregular52">
 			<translations><date>0505</date>
-				<translation>to be lying
-					<catexamp>Ella jeia damunt l'herba</catexamp><engexamp>She was lying on the grass</engexamp>
-				</translation>
+				<translation transitive="true">to be lying<catexamp>Ella jeia damunt l'herba.</catexamp><engexamp>She was lying on the grass.</engexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -330,7 +328,9 @@
 	</Entry>
 	<Entry frequency="2100">jubilar<verbs conj="regular">
 			<translations>
-				<translation>to retire</translation>
+				<translation transitive="true">to pension off</translation>
+                                <translation reflexive="jubilar-se">to retire</translation>
+                                <translation intransitive="true">to be jubilant</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -409,10 +409,18 @@
 	</Entry>
 	<Entry frequency="52600">jugar<verbs conj="GtoGU">
 			<translations>
-				<translation catagory="sports">to play</translation>
-                                <translation reflexive="jugar-se">to bet<example>&lt;b&gt;Em jugo&lt;/b&gt; un euro que, al final, els culpables seran els viatgers que volien marxar de vacances.</example></translation>
+				<translation intransitive="true">to play</translation>
+                                <translation intransitive="true">to entertain yourself / to pass the time</translation>
+                                <translation intransitive="true">to gamble</translation>
+                                <translation transitive="true">to bet</translation>
+                                <translation reflexive="jugar-se">to risk losing</translation>
 			</translations>
 	</verbs>
+        <expressions>jugar amb (algú)
+            <translations>
+                <translation>to mess with (somebody)</translation>
+            </translations>
+        </expressions>
 	</Entry>
         <Entry frequency="731">juguesca<nouns>
 			<translations><date>1105</date>
@@ -554,7 +562,7 @@
 	</Entry>
 	<Entry frequency="94200">justificar<verbs conj="CtoQU">
 			<translations><date>0505</date>
-				<translation>to justify</translation>
+				<translation transitive="true">to justify</translation>
 			</translations>
 		</verbs>
 	</Entry>

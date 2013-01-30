@@ -2365,8 +2365,7 @@
 	</Entry>
 	<Entry frequency="3220">indagar<verbs conj="GtoGU">
 			<translations>
-				<translation>to investigate<engnote>This verb is followed by the preposition 'en'.</engnote>
-				</translation>
+				<translation transitive="true">to investigate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2443,7 +2442,7 @@
 	</Entry>
 	<Entry frequency="8430">indemnitzar<verbs conj="regular">
 			<translations>
-				<translation>to pay compensation (to someone) / to compensate (someone)</translation>
+				<translation transitive="true">to pay compensation (to someone) / to compensate (someone)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2556,7 +2555,7 @@
     </Entry>
 	<Entry frequency="223000">indicar<verbs conj="CtoQU">
 			<translations>
-				<translation>to indicate / to show / to display / to state</translation>
+				<translation transitive="true">to indicate / to show / to display / to state</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2819,7 +2818,7 @@
 	</Entry>
 <Entry frequency="29900">induir<verbs conj="irregular2">
 			<translations><date>0708</date>
-				<translation>to induce</translation>
+				<translation transitive="true">to induce</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3139,7 +3138,7 @@
 	</Entry>
 	<Entry frequency="2120">infectar<verbs conj="regular">
 			<translations>
-				<translation>to infect</translation>
+				<translation transitive="true">to infect</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3219,7 +3218,7 @@
 	</Entry>
 	<Entry frequency="955">infiltrar<verbs conj="regular">
 			<translations>
-				<translation>to infiltrate</translation>
+				<translation transitive="true">to infiltrate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3273,11 +3272,11 @@
 	</Entry>
 	<Entry frequency="112000">inflar<verbs conj="regular">
                             <translations><date>0712</date>
-				<translation>[omplir amb aire o gas] to inflate</translation>
-                                <translation>[preus] to inflate</translation>
-                                <translation>[riu, vela..] to swell</translation>
-                                <translation>[notícia] to exaggerate</translation>
-                                <translation>[panxa] to distend</translation>
+				<translation transitive="true">[omplir amb aire o gas] to inflate</translation>
+                                <translation transitive="true">[preus] to inflate</translation>
+                                <translation transitive="true">[riu, vela..] to swell</translation>
+                                <translation transitive="true">[notícia] to exaggerate</translation>
+                                <translation transitive="true">[panxa] to distend</translation>
                                 <translation reflexive="inflar-se">[engreixar-se] to balloon</translation>
                                 <translation reflexive="inflar-se">to swell up</translation>
 			</translations>
@@ -3297,7 +3296,7 @@
 	</Entry>
 	<Entry frequency="514">infligir<verbs conj="inceptive">
 			<translations>
-				<translation>to inflict</translation>
+				<translation transitive="true">to inflict</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3327,7 +3326,7 @@
 	</Entry>
         <Entry frequency="169000">influir<verbs conj="inceptive">
                             <translations><date>1009</date>
-				<translation>to influence</translation>
+				<translation transitive="true">to influence</translation>
 			</translations>
 		</verbs>
                 <expressions>deixar-se influir (per)
@@ -3355,8 +3354,8 @@
 	</Entry>
         <Entry frequency="242000">informar<verbs conj="regular">
 			<translations><date>0605</date>
-				<translation>to tell / to inform</translation>
-                                <translation reflexive="informar-se">(~ de) to find out about</translation>
+				<translation transitive="true">to tell / to inform</translation>
+                                <translation reflexive="informar-se">[~ de] to find out about</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3423,13 +3422,13 @@
 	</Entry>
         <Entry frequency="2200">infravalorar<verbs conj="regular">
 			<translations><date>0408</date>
-				<translation>to underestimate / to underrate / to undervalue</translation>
+				<translation transitive="true">to underestimate / to underrate / to undervalue</translation>
 			</translations>
 		</verbs>
 	</Entry>
 	<Entry frequency="12500">infringir<verbs conj="inceptive">
                             <translations><date>0808</date>
-				<translation>to break / to infringe</translation>
+				<translation transitive="true">to break / to infringe</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3480,7 +3479,7 @@
 	</Entry>  
         <Entry frequency="18400">ingerir<verbs conj="inceptive">
 			<translations><date>0606</date>
-                        <translation>to consume / to take / to ingest (tèc.)</translation>
+                        <translation transitive="true">to consume / to take / to ingest (tèc.)</translation>
                         <translation reflexive="ingerir-se">to butt in / to interfere</translation>
 			</translations>
 		</verbs>
@@ -3507,16 +3506,18 @@
 	</Entry>	
 	<Entry frequency="12900">ingressar<verbs conj="regular">
 			<translations>
-				<translation>to join</translation>
-				<translation>to be admitted<example>Turquia és un membre candidat per a &lt;b&gt;ingressar&lt;/b&gt; a la Unió Europea.</example><example>Per &lt;b&gt;ingressar&lt;/b&gt; a l'hospital cal que us adreceu a la Unitat d'Admissions.</example></translation>
-				<translation catagory="financial">to pay in (Br.) / to deposit (Am.)</translation>
+				<translation intransitive="true">[~ a] to join</translation>
+				<translation intransitive="true">[~ a] to be admitted to<example>Turquia és un membre candidat per a &lt;b&gt;ingressar&lt;/b&gt; a la Unió Europea.</example><example>Per &lt;b&gt;ingressar&lt;/b&gt; a l'hospital cal que us adreceu a la Unitat d'Admissions.</example></translation>
+                                <translation transitive="true">[~ algú a] to admit (somebody) to<catexamp>L'han ingressat a l'hospital.</catexamp><engexamp>They've admitted her to hospital.</engexamp></translation>
+				<translation catagory="financial" transitive="true">to pay in (Br.) / to deposit (Am.)</translation>
+                                <translation catagory="financial" transitive="true">to make (income)</translation>
 			</translations>
 		</verbs>
 	</Entry>
                     <Entry frequency="22800">inhabilitar<verbs conj="regular">
 			<translations><date>1007</date>
-				<translation>to disable</translation>
-                                <translation>to legally prevent a person from performing their public duties and restrict their civil or political rights<example>El Congrés rebutja &lt;b&gt;inhabilitar&lt;/b&gt; els alcaldes que no hissin la bandera espanyola.</example><example>El Suprem &lt;b&gt;inhabilita&lt;/b&gt; l'alcalde de Gurb per un delicte de prevaricació mediambiental.</example></translation>
+				<translation transitive="true">to disable</translation>
+                                <translation transitive="true">to legally prevent a person from performing their public duties and restrict their civil or political rights<example>El Congrés rebutja &lt;b&gt;inhabilitar&lt;/b&gt; els alcaldes que no hissin la bandera espanyola.</example><example>El Suprem &lt;b&gt;inhabilita&lt;/b&gt; l'alcalde de Gurb per un delicte de prevaricació mediambiental.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3546,7 +3547,7 @@
 	</Entry>
           <Entry frequency="698">inhalar<verbs conj="regular">
 			<translations><date>0206</date>
-				<translation>to inhale / to breathe in</translation>
+				<translation intransitive="true">to inhale / to breathe in</translation>
                                 </translations>
 		</verbs>
 	</Entry>
@@ -3581,7 +3582,8 @@
 	</Entry>
 	<Entry frequency="22500">inhibir<verbs conj="inceptive">
 			<translations><date>0206</date>
-				<translation>to inhibit</translation>
+                            <translation transitive="true">to bar / to ban / to prevent</translation>
+				<translation transitive="true">to inhibit</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3624,7 +3626,7 @@
 	</Entry>
 	<Entry frequency="128">inhumar<verbs conj="regular">
 			<translations>
-				<translation>to inter / to entomb / to bury</translation>
+				<translation transitive="true">to inter / to entomb / to bury</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3665,7 +3667,7 @@
 	</Entry>
 	<Entry frequency="95200">iniciar<verbs conj="irregular1">
 			<translations>
-				<translation>to begin / to start</translation>
+				<translation transitive="true">to begin / to start</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3708,7 +3710,7 @@
 	</Entry>
         <Entry frequency="8910">injuriar<verbs conj="irregular1">
                             <translations><date>1108</date>
-				<translation>to revile (formal) / to malign (formal) / to vilify (formal)</translation>
+				<translation transitive="true">to revile (formal) / to malign (formal) / to vilify (formal)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3819,7 +3821,7 @@
 	</Entry>
 	<Entry frequency="23100">innovar<verbs conj="regular">
 			<translations>
-				<translation>to innovate</translation>
+				<translation transitive="true">to innovate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3838,7 +3840,7 @@
 	</Entry>
 	<Entry frequency="280">inocular<verbs conj="regular">
 			<translations>
-				<translation catagory="medical">to inoculate</translation>
+				<translation catagory="medical" transitive="true">to inoculate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3879,7 +3881,9 @@
 	</Entry>
 	<Entry frequency="2080">inquietar<verbs conj="regular">
 			<translations>
-				<translation>to worry</translation>
+				<translation transitive="true">to worry</translation>
+                                <translation reflexive="inquietar-se">to worry</translation>
+                                <translation transitive="true">to bother</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3943,8 +3947,10 @@
 	</Entry>
 	<Entry frequency="63000">inscriure<verbs conj="irregular20">
 			<translations>
-				<translation>to register / to join / to enrol</translation>
-				<translation>to inscribe</translation>
+				<translation transitive="true">to register / to enrol</translation>
+                                <translation reflexive="inscriure's">to register / to enrol</translation>
+                                <translation transitive="true">to include</translation>
+				<translation transitive="true">to inscribe</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4004,7 +4010,7 @@
 	</Entry>
          <Entry frequency="5400">insensibilitzar<verbs conj="regular">
 			<translations><date>0612</date>
-				<translation>desensitize</translation>
+				<translation transitive="true">to desensitize</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4032,10 +4038,8 @@
 	</Entry>
 	<Entry frequency="23600">inserir<verbs conj="inceptive">
 			<translations>
-				<translation>to place<catexamp>Inserir un anunci (en un diari)</catexamp>
-					<engexamp>To place an ad (in a paper)</engexamp>
-				</translation>
-				<translation>to insert</translation>
+				<translation transitive="true">to place<catexamp>Inserir un anunci (en un diari).</catexamp><engexamp>To place an ad (in a paper)</engexamp></translation>
+				<translation transitive="true">to insert</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4072,7 +4076,8 @@
 	</Entry>
 	<Entry frequency="6390">insinuar<verbs conj="irregular1">
 			<translations>
-				<translation>to insinuate / to hint</translation>
+				<translation transitive="true">to insinuate / to hint</translation>
+                                <translation reflexive="insinuar-se">to come on to (somebody) / to hit on (somebody)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4096,7 +4101,7 @@
 	</Entry>
 	<Entry frequency="42800">insistir<verbs conj="inceptive">
 			<translations>
-				<translation>to insist / to persist</translation>
+				<translation intransitive="true">to insist / to persist</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4168,7 +4173,7 @@
 	</Entry>
 	<Entry frequency="242">insonoritzar<verbs conj="regular">
 			<translations>
-				<translation>to soundproof</translation>
+				<translation transitive="true">to soundproof</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4187,7 +4192,7 @@
 	</Entry>
 	<Entry frequency="6500">inspeccionar<verbs conj="regular">
 			<translations>
-				<translation>to inspect</translation>
+				<translation transitive="true">to inspect</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4216,8 +4221,8 @@
 	</Entry>
 	<Entry frequency="34900">inspirar<verbs conj="regular">
 			<translations><date>0505</date>
-				<translation>to inspire</translation>
-				<translation>to breathe in / to inhale</translation>
+				<translation transitive="true">to inspire</translation>
+				<translation transitive="true">to breathe in / to inhale</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4234,7 +4239,7 @@
 	</Entry>
 	<Entry frequency="55000">instal·lar<verbs conj="regular">
 			<translations>
-				<translation>to install</translation>
+				<translation transitive="true">to install</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4282,13 +4287,13 @@
 	</Entry>
 	<Entry frequency="29300">instar<verbs conj="regular">
 			<translations>
-				<translation>to urge / to beg</translation>
+				<translation transitive="true">to urge / to beg</translation>
 			</translations>
 		</verbs>
 	</Entry>
 	<Entry frequency="3620">instaurar<verbs conj="regular">
 			<translations>
-				<translation>to establish / to set up</translation>
+				<translation transitive="true">to establish / to set up</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4444,7 +4449,7 @@
 	</Entry>
 	<Entry frequency="8750">insultar<verbs conj="regular">
 			<translations>
-				<translation>to insult</translation>
+				<translation transitive="true">to insult</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4468,7 +4473,7 @@
 	</Entry>
         <Entry frequency="550">insurgir-se<verbs conj="inceptive">
                             <translations><date>0509</date>
-				<translation>to rise up<synonyms>insurreccionar-se</synonyms></translation>
+				<translation pronominal="true">to rise up<synonyms>insurreccionar-se</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4486,7 +4491,7 @@
 	</Entry>
         <Entry frequency="236">insurreccionar-se<verbs conj="regular">
                             <translations><date>0509</date>
-				<translation>to rise up<synonyms>insurgir-se</synonyms></translation>
+				<translation pronominal="true">to rise up<synonyms>insurgir-se</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4545,7 +4550,7 @@
 	</Entry>
 	<Entry frequency="73500">integrar<verbs conj="regular">
 			<translations>
-				<translation>to integrate</translation>
+				<translation transitive="true">to integrate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4685,7 +4690,8 @@
 	</Entry>	
 	<Entry frequency="6550">intensificar<verbs conj="CtoQU">
 			<translations>
-				<translation>to intensify</translation>
+				<translation transitive="true">to intensify</translation>
+                                <translation reflexive="intensificar-se">to intensify</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4720,7 +4726,7 @@
 	</Entry>
       	<Entry frequency="178000">intentar<verbs conj="regular">
 			<translations><date>0605</date>
-				<translation>to try</translation>
+				<translation transitive="true">to try</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4733,7 +4739,7 @@
 	</Entry>
 	<Entry frequency="4570">interaccionar<verbs conj="regular">
 			<translations>
-				<translation>to interact</translation>
+				<translation intransitive="true">to interact</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4756,13 +4762,13 @@
 	</Entry>
 	<Entry frequency="125000">intercanviar<verbs conj="irregular1">
 			<translations>
-				<translation>to exchange</translation>
+				<translation transitive="true">to exchange</translation>
 			</translations>
 		</verbs>
 	</Entry>
 	<Entry frequency="576">intercedir<verbs conj="inceptive">
 			<translations>
-				<translation>to intervene</translation>
+				<translation intransitive="true">to intervene</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4774,7 +4780,7 @@
 	</Entry>
 	<Entry frequency="951">interceptar<verbs conj="regular">
 			<translations>
-				<translation>to intercept</translation>
+				<translation transitive="true">to intercept</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4819,7 +4825,8 @@
 	</Entry>
 	<Entry frequency="117000">interessar<verbs conj="regular">
 			<translations>
-				<translation>to interest</translation>
+				<translation intransitive="true">to interest</translation>
+                                <translation reflexive="interessar-se">[~ en] to take an interest in</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -4838,7 +4845,7 @@
 	</Entry>
 	<Entry frequency="8220">interferir<verbs conj="inceptive">
 			<translations>
-				<translation>to interfere</translation>
+				<translation intransitive="true">to interfere</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5009,7 +5016,7 @@
 	</Entry>
 	<Entry frequency="439">interpolar<verbs conj="regular">
 			<translations>
-				<translation>to interpolate</translation>
+				<translation transitive="true">to interpolate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5034,8 +5041,9 @@
 	</Entry>
 	<Entry frequency="38200">interpretar<verbs conj="regular">
 			<translations>
-				<translation catagory="work">to interpret</translation>
-				<translation>to perform / to play (a role)</translation>
+				<translation catagory="work" transitive="true">to interpret</translation>
+				<translation transitive="true">to perform / to play (a role)</translation>
+                                <translation transitive="true">to play (a piece of music)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5072,7 +5080,7 @@
 	</Entry>
 	<Entry frequency="4030">interrogar<verbs conj="GtoGU">
 			<translations><date>0305</date>
-				<translation>to question / to interrogate</translation>
+				<translation transitive="true">to question / to interrogate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5084,7 +5092,7 @@
 	</Entry>
 	<Entry frequency="14800">interrompre<verbs conj="regular">
 			<translations><date>0305</date>
-				<translation>to interrupt</translation>
+				<translation transitive="true">to interrupt</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5144,7 +5152,8 @@
 	</Entry>
 		<Entry frequency="33400">intervenir<verbs conj="irregular26">
 			<translations>
-				<translation>to intervene</translation>
+				<translation intransitive="true">to intervene</translation>
+                                <translation disambiguate="medical" transitive="true">to operate on</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5210,7 +5219,10 @@
 	</Entry>
         <Entry frequency="750">intimar<verbs>
 			<translations><date>0606</date>
-				<translation>to become friendly (or intimate)</translation>
+                            <translation transitive="true">to let (somebody) know (something)</translation>
+                            <tranlation transitive="true">to declare</tranlation>
+                            <translation transitive="true">to order</translation>
+				<translation intransitive="true">to become friendly (or close)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5229,7 +5241,7 @@
 	</Entry>
 	<Entry frequency="807">intimidar<verbs conj="regular">
 			<translations>
-				<translation>to intimidate / to bully</translation>
+				<translation transitive="true">to intimidate / to bully</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5287,7 +5299,7 @@
 	</Entry>
 	<Entry frequency="778">intoxicar<verbs conj="CtoQU">
 			<translations>
-				<translation>to poison</translation>
+				<translation transitive="true">to poison</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5366,8 +5378,8 @@
 	</Entry>
 	<Entry frequency="2690">intrigar<verbs conj="GtoGU">
 			<translations>
-				<translation>to intrigue</translation>
-                                <translation>to plot / to conspire<synonyms>conspirar</synonyms></translation>
+				<translation transitive="true">to intrigue</translation>
+                                <translation intransitive="true">to plot / to conspire<synonyms>conspirar</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5401,7 +5413,7 @@
 	</Entry>
 	<Entry frequency="60500">introduir<verbs conj="irregular2">
 			<translations>
-				<translation>to introduce</translation>
+				<translation transitive="true">to introduce</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5451,8 +5463,11 @@
 	</Entry>
 	<Entry frequency="6440">inundar<verbs conj="regular">
                             <translations><date>1108</date>
-				<translation>to flood</translation>
-                                <translation>(fig.) to deluge / to inundate</translation>
+				<translation transitive="true">to flood</translation>
+                                <translation reflexive="inundar-se">to flood</translation>
+                                <translation transitive="true">[fig.] to inundate / to deluge</translation>
+                                <translation reflexive="inundar-se">[~ de] to become inundated with / to become swamped with</translation>
+                                <translation disambiguate="computers-internet" transitive="true">to spam</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5583,7 +5598,7 @@
 	</Entry>
 	<Entry frequency="11700">inventar<verbs conj="regular">
 			<translations>
-				<translation>to invent</translation>
+				<translation transitive="true">to invent</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5636,9 +5651,9 @@
 	</Entry>
 	<Entry frequency="41500">invertir<verbs conj="inceptive">
 			<translations>
-				<translation disambiguate="financial">to invest</translation>
-				<translation>to invert</translation>
-                                <translation>to reverse</translation>
+				<translation disambiguate="financial" transitive="true">to invest</translation>
+				<translation transitive="true">to invert</translation>
+                                <translation transitive="true">to reverse</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5665,8 +5680,8 @@
 	</Entry>
 	<Entry frequency="45800">investigar<verbs conj="GtoGU">
 			<translations>
-				<translation>to investigate</translation>
-				<translation>to research</translation>
+				<translation transitive="true">to investigate</translation>
+				<translation transitive="true">to research</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5710,7 +5725,7 @@
 	</Entry>
 	<Entry frequency="13200">invitar<verbs conj="regular">
 			<translations>
-				<translation>to invite</translation>
+				<translation transitive="true">to invite</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5728,7 +5743,7 @@
 	</Entry>
 	<Entry frequency="12800">involucrar<verbs conj="regular">
 			<translations>
-				<translation>to involve</translation>
+				<translation transitive="true">to involve</translation>
                                 <translation reflexive="involucrar-se">to get involved<catexamp>Involucra't!</catexamp><engexamp>Get involved!</engexamp></translation>
 			</translations>
 		</verbs>
@@ -6214,7 +6229,7 @@
 	</Entry>
 	<Entry frequency="308">irrigar<verbs conj="GtoGU">
 			<translations>
-				<translation>to irrigate</translation>
+				<translation transitive="true">to irrigate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6256,7 +6271,9 @@
 	</Entry>
 	<Entry frequency="974">irritar<verbs conj="regular">
 			<translations><date>0106</date>
-				<translation>to infuriate / to enrage</translation>
+				<translation transitive="true">to infuriate / to enrage</translation>
+                                <translation reflexive="irritar-se">to become (or get) annoyed</translation>
+                                <translation transitive="true">to irritate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6268,7 +6285,7 @@
 	</Entry>
 	<Entry frequency="11300">irrompre<verbs conj="regular">
 			<translations><date>0106</date>
-				<translation>to interrupt / to barge in (on) / to intrude (on)</translation>
+				<translation intransitive="true">to barge in (on) / to intrude (on)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6356,7 +6373,7 @@
 	</Entry>
         <Entry frequency="177">islamitzar<verbs conj="regular">
 			<translations><date>1205</date>
-				<translation catagory="religious">Islamicize</translation>
+				<translation catagory="religious" transitive="true">to Islamicize</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6481,7 +6498,7 @@
 	</Entry>
          <Entry frequency="300">isolar<verbs conj="regular">
 			<translations><date>1205</date>
-				<translation>to isolate<synonyms>aïllar</synonyms></translation>
+				<translation transitive="true">to isolate<synonyms>aïllar</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6520,7 +6537,7 @@
 	</Entry>
          <Entry frequency="54">isomeritzar<verbs conj="regular">
 			<translations><date>1205</date>
-				<translation catagory="chemistry">to isomerize</translation>
+				<translation catagory="chemistry" transitive="true">to isomerize</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6707,7 +6724,7 @@
 	</Entry>
 	<Entry frequency="215">iterar<verbs conj="regular">
 			<translations>
-				<translation>to iterate</translation>
+				<translation transitive="true">to iterate</translation>
 			</translations>
 		</verbs>
 	</Entry>
