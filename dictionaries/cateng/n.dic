@@ -54,7 +54,7 @@
 	</Entry>
 	<Entry frequency="922">nacionalitzar<verbs conj="regular">
 			<translations>
-				<translation catagory="financial">to nationalise (Br.) / to nationalize (Am.)</translation>
+				<translation catagory="financial" transitive="true">to nationalise (Br.) / to nationalize (Am.)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -139,7 +139,7 @@
 	</Entry>
 	<Entry frequency="1500">nadar<verbs conj="regular">
 			<translations><date>0206</date>
-				<translation catagory="sports-event-swimming">to swim<engnote>This verb is also (more frequently) written 'nedar'</engnote></translation>
+				<translation catagory="sports-event-swimming" intransitive="true">to swim<engnote>This verb is also (more frequently) written 'nedar'</engnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -171,7 +171,7 @@
 	</Entry>
 	<Entry frequency="816">nafrar<verbs conj="regular">
 			<translations><date>0705</date>
-				<translation>to wound / to injure</translation>
+				<translation transitive="true">to wound / to injure</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -377,7 +377,7 @@
 	</Entry>
 	<Entry frequency="17500">narrar<verbs conj="regular">
 			<translations>
-				<translation>to narrate / to tell (a story)</translation>
+				<translation transitive="true">to narrate / to tell (a story)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -544,7 +544,7 @@
 	</Entry>
 	<Entry frequency="56600">naturalitzar<verbs conj="regular">
 			<translations>
-				<translation>to naturalise (Br.) / to naturalize (Am.)</translation>
+				<translation transitive="true">to naturalise (Br.) / to naturalize (Am.)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -594,9 +594,9 @@
 	</Entry>
         <Entry frequency="9350">naufragar<verbs conj="GtoGU">
 			<translations><date>0606</date>
-				<translation>to sink / to be wrecked</translation>
-                                <translation>to be shipwrecked</translation>
-                                <translation>to founder / to fail</translation>
+				<translation intransitive="true">to sink / to be wrecked</translation>
+                                <translation intransitive="true">to be shipwrecked</translation>
+                                <translation intransitive="true">to founder / to fail</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -704,8 +704,8 @@
 	</Entry>
 	<Entry frequency="308000">navegar<verbs conj="GtoGU">
 			<translations><date>0408</date>
-				<translation disambiguate="computers-internet">to browse</translation>
-				<translation disambiguate="transport">to sail / to navigate</translation>
+				<translation disambiguate="computers-internet" transitive="true">to browse</translation>
+				<translation disambiguate="transport" transitive="true">to sail / to navigate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -773,7 +773,7 @@
 	</Entry>	
 	<Entry frequency="70000">necessitar<verbs conj="regular">
 			<translations>
-				<translation>to need</translation>
+				<translation transitive="true">to need</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -852,7 +852,7 @@
 	</Entry>
 	<Entry frequency="46800">nedar<verbs conj="regular">
 			<translations><date>0206</date>
-				<translation catagory="sports-event-swimming">to swim<engnote>This verb is also (less frequently) written 'nadar'</engnote></translation>                               		</translations>
+				<translation catagory="sports-event-swimming" intransitive="true">to swim<engnote>This verb is also (less frequently) written 'nadar'</engnote></translation>                               		</translations>
 		</verbs>
 	</Entry>
 	<Entry frequency="5890">neerlandès<adjectives>
@@ -889,7 +889,7 @@
 	</Entry>
 	<Entry frequency="26300">negar<verbs conj="GtoGU">
 			<translations>
-				<translation>to deny</translation>
+				<translation transitive="true">to deny</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -932,8 +932,8 @@
 	</Entry>
 	<Entry frequency="568">negligir<verbs conj="inceptive">
 			<translations>
-				<translation>to neglect</translation>
-				<translation>to leave out / to omit</translation>
+				<translation transitive="true">to neglect</translation>
+				<translation transitive="true">to leave out / to omit</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -969,7 +969,8 @@
 	</Entry>
 	<Entry frequency="21700">negociar<verbs conj="irregular1">
 			<translations>
-				<translation>to negotiate / to deal</translation>
+				<translation transitive="true">to negotiate</translation>
+                                <translation intransitive="true">to do business</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1017,7 +1018,9 @@
 	</Entry>
 	<Entry frequency="531">neguitejar<verbs conj="JtoG">
 			<translations>
-				<translation>to worry / to make someone anxious</translation>
+				<translation transitive="true">[~ algú] to worry (somebody) / to make (somebody) anxious</translation>
+                                <translation intransitive="true">to worry / to fret</translation>
+                                <translation reflexive="neguitejar-se">to worry / to fret</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1031,7 +1034,7 @@
 	</Entry>
 	<Entry frequency="63600">néixer<verbs conj="irregular10">
 			<translations>
-				<translation>to be born</translation>
+				<translation intransitive="true">to be born</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1301,7 +1304,7 @@
 	</Entry>
 	<Entry frequency="12000">netejar<verbs conj="JtoG">
 			<translations>
-				<translation>to clean</translation>
+				<translation transitive="true">to clean</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1334,7 +1337,7 @@
 	</Entry>
         <Entry frequency="505">neulir-se<verbs conj="inceptive">
                 <translations><date>0709</date>
-                    <translation>to become (or grow) weak / to weaken / to become (or grow) frail</translation>
+                    <translation pronominal="true">to become (or grow) weak / to weaken / to become (or grow) frail</translation>
                 </translations>
             </verbs>
 	</Entry>
@@ -1501,7 +1504,7 @@
 	</Entry>
 	<Entry frequency="5040">neutralitzar<verbs conj="regular">
 			<translations>
-				<translation>to neutralise (Br.) / to neutralize (Am.)</translation>
+				<translation transitive="true">to neutralise (Br.) / to neutralize (Am.)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1538,7 +1541,7 @@
 	</Entry>
 	<Entry frequency="2110">nevar<verbs conj="irregular63">
 			<translations>
-				<translation catagory="weather">to snow</translation>
+				<translation catagory="weather" intransitive="true">to snow</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2028,8 +2031,8 @@
 	</Entry>
 	<Entry frequency="12700">nodrir<verbs conj="inceptive">
 			<translations>
-				<translation>to feed / to nourish<engnote>'Nodrir' can mean 'to feed / to nourish' in a literal sense but also in a figurative sense (i.e. 'Nodreix la creativitat dels col·laboradors', 'Cadenes de televisió que es nodreixen de sèries i films d'animació', 'Nodrir la intel·ligència emocional'..)</engnote>
-				</translation>
+				<translation transitive="true">to feed / to nourish</translation>
+                                <translation transitive="true">[fig.] to feed / to nourish</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2090,7 +2093,7 @@
 	</Entry>
         <Entry frequency="2950" >noliejar<verbs conj="JtoG">
                 <translations><date>0209</date>
-                    <translation>to charter</translation>
+                    <translation transitive="true">to charter</translation>
                 </translations>
             </verbs>
         </Entry>
@@ -2155,7 +2158,7 @@
 	</Entry>
 	<Entry frequency="39400">nomenar<verbs conj="regular">
 			<translations>
-				<translation>to appoint</translation>
+				<translation transitive="true">to appoint</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2211,7 +2214,7 @@
 	</Entry>
 	<Entry frequency="1180">nominar<verbs conj="regular">
 			<translations>
-				<translation>to nominate</translation>
+				<translation transitive="true">to nominate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2352,8 +2355,8 @@
 	</Entry>
 	<Entry frequency="55100">normalitzar<verbs conj="regular">
                             <translations><date>0110</date>
-				<translation>to standardize / to standardise (Br.)</translation>
-                                <translation>to return to normal</translation>
+				<translation transitive="true">to standardize / to standardise (Br.)</translation>
+                                <translation transitive="true">to normalize / to return (something) to normal</translation>
                                 <translation reflexive="normalitzar-se">to return to normal</translation>
 			</translations>
 		</verbs>
@@ -2490,7 +2493,7 @@
 	</Entry>
 	<Entry frequency="25000">notar<verbs conj="regular">
 			<translations>
-				<translation>to note / to realise (Br.) / to realize (Am.)</translation>
+				<translation transitive="true">to note / to realise (Br.) / to realize (Am.)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2547,7 +2550,7 @@
 	</Entry>
 	<Entry frequency="72000">notificar<verbs conj="CtoQU">
 			<translations><date>0805</date>
-				<translation>to notify</translation>
+				<translation transitive="true">to notify</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2828,7 +2831,7 @@
 	</Entry>
 	<Entry frequency="63600">nuar<verbs conj="irregular1">
 			<translations>
-				<translation>to tie a knot (in something) / to knot (something)</translation>
+				<translation transitive="true">to tie a knot (in something) / to knot (something)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2921,7 +2924,7 @@
 	</Entry>	
 	<Entry frequency="2080">numerar<verbs conj="regular">
 			<translations>
-				<translation>to number</translation>
+				<translation transitive="true">to number</translation>
 			</translations>
 		</verbs>
 	</Entry>
