@@ -122,7 +122,7 @@
 	</Entry>
         <Entry frequency="718">quadruplicar<verbs conj="CtoQU">
 			<translations><date>0205</date>
-				<translation catagory="maths">to quadruple</translation>
+				<translation catagory="maths" transitive="true">to quadruple</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -141,7 +141,10 @@
 	</Entry>	
 	<Entry frequency="37700">qualificar<verbs conj="CtoQU">
 			<translations><date>0505</date>
-				<translation>to qualify</translation>
+				<translation transitive="true">to describe (something) as / to call (something)</translation>
+                                <translation transitive="true">to qualify</translation>
+                                <translation disambiguate="sports" reflexive="qualificar-se">to qualify</translation>
+                                <translation disambiguate="education" transitive="true">to mark / to grade (Am.)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -177,8 +180,8 @@
 	</Entry>
          <Entry frequency="5720">quallar<verbs conj="regular">
                             <translations><date>0109</date>
-				<translation>(llet) to curdle</translation>
-                                <translation>(sang) to clot / to coagulate</translation>
+				<translation reflexive="quallar-se">[llet] to curdle</translation>
+                                <translation reflexive="quallar-se">[sang] to clot / to coagulate<synonyms>coagular</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -242,7 +245,7 @@
 	</Entry>
         <Entry frequency="30400">quantificar<verbs conj="CtoQU">
 			<translations><date>0808</date>
-                        <translation>to quantify</translation>
+                        <translation transitive="true">to quantify</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -416,8 +419,8 @@
 	</Entry>
 	<Entry frequency="18500">queixar-se<verbs conj="regular">
 			<translations><date>0205</date>
-				<translation>to complain / to gripe (col·loq.)</translation>
-                                <translation>to bemoan</translation>
+				<translation pronominal="true">[~ de] to complain about / to bemoan</translation>
+                                <translation pronominal="true">to complain / to gripe (col·loq.) / to grumble / to bellyache (col·loq.)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -442,7 +445,7 @@
     </Entry>
         <Entry frequency="25500">quequejar<verbs conj="JtoG">
 			<translations><date>0109</date>
-				<translation>to stutter / to stammer<synonyms>tartamudejar</synonyms></translation>
+				<translation intransitive="true">to stutter / to stammer<synonyms>tartamudejar</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
