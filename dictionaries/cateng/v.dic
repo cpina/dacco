@@ -53,9 +53,9 @@
 	</Entry>
 	<Entry frequency="8530">vacil·lar<verbs conj="regular">
 			<translations><date>0408</date>
-				<translation>to waver / to hesitate / to vacillate / to falter</translation>
-                                <translation>to flicker</translation>
-                                <translation>to wobble</translation>
+				<translation intransitive="true">to waver / to hesitate / to vacillate / to falter</translation>
+                                <translation intransitive="true">to flicker</translation>
+                                <translation intransitive="true">to wobble</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -119,8 +119,8 @@
 	</Entry>
        	<Entry frequency="800">vagar<verbs conj="GtoGU">
 			<translations><date>0705</date>
-				<translation>to wander / to roam</translation>
-				<translation>to suit<example>A veure quan us &lt;b&gt;vagarà&lt;/b&gt; d'endreçar la habitació.</example></translation>
+				<translation intransitive="true">to wander / to roam</translation>
+				<translation intransitive="true">to suit<example>A veure quan us &lt;b&gt;vagarà&lt;/b&gt; d'endreçar la habitació.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -242,18 +242,17 @@
 	</Entry>
 	<Entry frequency="2920000">valer<verbs conj="">
 			<translations><date>0709</date>
-				<translation>to cost</translation>
-				<translation>to be worth</translation>
-                                <translation>to count</translation>
-				<translation>to be useful / to be suitable<engnote>This verb is also spelled 'valdre'</engnote>
-				</translation>
+				<translation transitive="true">to cost</translation>
+				<translation intransitive="true">to be worth</translation>
+                                <translation intransitive="true">to count</translation>
+				<translation intransitive="true">to be useful / to be suitable<engnote>This verb is also spelled 'valdre'</engnote></translation>
                                 <translation reflexive="valer-se">to be able to take care of yourself / to be able to manage by yourself<catexamp>L'avi ja no pot valer-se</catexamp><engexamp>Grandfather can no longer take care of (or manage by) himself</engexamp></translation>
                                 <translation reflexive="valer-se">to make use of<catexamp>S'ha valgut d'influències</catexamp><engexamp>He made use of his connections</engexamp></translation>
 			</translations>
 		</verbs>
                 <expressions>valer més
                     <translations>
-                        <translation>to be preferable<catexamp>Val més que ho facis tu</catexamp><engexamp>You'd better do it</engexamp></translation>
+                        <translation>to be preferable<catexamp>Val més que ho facis tu.</catexamp><engexamp>You'd better do it.</engexamp></translation>
                     </translations>
                 </expressions>
                 <expressions>fer valer
@@ -385,7 +384,7 @@
 	</Entry>
         	<Entry frequency="371">vanagloriar-se<verbs>
 			<translations><date>0805</date>
-				<translation>to boast / to brag</translation>
+				<translation pronominal="true">to boast / to brag</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -397,7 +396,7 @@
 	</Entry>
         	<Entry frequency="110">vanar-se<verbs>
 			<translations><date>0805</date>
-				<translation>to boast / to brag</translation>
+				<translation pronominal="true">to boast / to brag</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -433,7 +432,7 @@
 	</Entry>	
           <Entry frequency="3000">varar<verbs conj="regular">
                             <translations><date>0109</date>
-				<translation>to launch<synonyms>avarar</synonyms></translation>
+				<translation transitive="true">to launch<synonyms>avarar</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -480,7 +479,9 @@
 	</Entry>
 	<Entry frequency="66000">variar<verbs conj="irregular1">
 			<translations><date>0605</date>
-				<translation>to vary</translation>
+                            <translation transitive="true">to change</translation>
+				<translation intransitive="true">to vary</translation>
+                                <translation transitive="true">to vary</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -725,8 +726,8 @@
 	</Entry>
 	<Entry frequency="600">velar<verbs conj="regular">
 			<translations><date>0705</date>
-				<translation>to blur</translation>
-				<translation>to veil</translation>
+				<translation transitive="true">to blur</translation>
+				<translation transitive="true">to veil</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -810,7 +811,9 @@
 	</Entry>
 	<Entry frequency="10800">vèncer<verbs conj="irregular41">
 			<translations>
-				<translation catagory="sports">to beat / to win</translation>
+				<translation catagory="sports" transitive="true">to beat</translation>
+                                <translation transitive="true">to win</translation>
+                                <translation transitive="true">[obstacles, dificultats..] to overcome</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -832,7 +835,7 @@
 	</Entry>
 	<Entry frequency="49000">vendre<verbs conj="irregular42">
 			<translations>
-				<translation>to sell</translation>
+				<translation transitive="true">to sell</translation>
 			</translations>
 		</verbs>
                 <expressions>no hi ha més peix per vendre
@@ -884,13 +887,14 @@
 	</Entry>
 	<Entry frequency="122000">venir<verbs conj="irregular43">
 			<translations>
-				<translation>to come
-					<catexamp>Venir bé</catexamp><engexamp>To suit</engexamp>
-					<catexamp>La setmana que ve</catexamp><engexamp>Next week</engexamp>
-					<catexamp>Les sabates em venen petites</catexamp><engexamp>The shoes are too small for me</engexamp>
-				</translation>
+				<translation intransitive="true">to come<catexamp>La setmana que ve.</catexamp><engexamp>Next week.</engexamp><catexamp>Les sabates em venen petites.</catexamp><engexamp>The shoes are too small for me.</engexamp></translation>
 			</translations>
 		</verbs>
+                <expressions>venir bé
+                    <translations>
+                        <translation>to suit</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="28300">venjador<adjectives>
                             <translations><date>0910</date>
@@ -911,9 +915,11 @@
 	</Entry>
 	<Entry frequency="870">venjar<verbs conj="JtoG">
 			<translations><date>0605</date>
-				<translation>to take revenge / to avenge</translation>
-			</translations>
-		</verbs>
+				<translation transitive="true">[una ofensa, un dany..] to take revenge for / to avenge</translation>
+                                <translation transitive="true">[castigar algú] to take revenge on</translation>
+                                <translation reflexive="venjar-se">to take revenge on (somebody) / to get your own back on (somebody)</translation>
+                                </translations>
+                               </verbs>
 	</Entry>
          <Entry frequency="6900">venjatiu<adjectives>
 			<translations><date>0808</date>
@@ -959,9 +965,9 @@
         </Entry>
 	<Entry frequency="27600">ventar<verbs conj="regular">
 			<translations><date>0605</date>
-				<translation>to fan</translation>
-				<translation>to be windy</translation>
-				<translation>to strike / to deal<example>Li van &lt;b&gt;ventar&lt;/b&gt; una bufetada.</example></translation>
+				<translation transitive="true">to fan</translation>
+				<translation intransitive="true">to be windy</translation>
+				<translation transitive="true">to strike / to deal somebody a (blow, kick..)<example>Li van &lt;b&gt;ventar&lt;/b&gt; una bufetada.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -984,8 +990,8 @@
 	</Entry>	
 	<Entry frequency="793">ventilar<verbs conj="regular">
 			<translations><date>0705</date>
-				<translation>to ventilate</translation>
-				<translation>to air</translation>
+				<translation transitive="true">to ventilate</translation>
+				<translation transitive="true">to air</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1152,7 +1158,7 @@
 	</Entry>
 	<Entry frequency="4420">veremar<verbs conj="regular">
 			<translations><date>0705</date>
-				<translation>to pick / to harvest (grapes)</translation>
+				<translation transitive="true">to pick / to harvest (grapes)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1209,7 +1215,7 @@
 	</Entry>
 	<Entry frequency="13600">verificar<verbs conj="CtoQU">
 			<translations>
-				<translation>to check / to verify</translation>
+				<translation transitive="true">to check / to verify</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1556,7 +1562,10 @@
 	</Entry>
 	<Entry frequency="2200">vestir<verbs conj="inceptive">
 			<translations>
-				<translation catagory="clothes">to get dressed / to dress</translation>
+				<translation catagory="clothes" transitive="true">to dress (somebody) / to get (somebody) dressed</translation>
+                                <translation catagory="clothes" reflexive="true">to get dressed</translation>
+                                <translation catagory="clothes" transitive="true">to wear</translation>
+                                <translation catagory="clothes" intransitive="true">to dress</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1595,8 +1604,8 @@
 	</Entry>
         <Entry frequency="12600">vetar<verbs conj="regular">
 			<translations><date>1205</date>
-				<translation catagory="politics">to veto / to reject<example>Com que França va &lt;b&gt;vetar&lt;/b&gt; el dictamen, no es va aprovar.</example></translation>
-                                <translation>to ban<example>Lluís de Val, propietari de Manga Films, empresa col·laboradora del Barça, va ser &lt;b&gt;vetat&lt;/b&gt; a la llotja sense cap motiu.</example></translation>
+				<translation catagory="politics" transitive="true">to veto / to reject<example>Com que França va &lt;b&gt;vetar&lt;/b&gt; el dictamen, no es va aprovar.</example></translation>
+                                <translation transitive="true">to ban<example>Lluís de Val, propietari de Manga Films, empresa col·laboradora del Barça, va ser &lt;b&gt;vetat&lt;/b&gt; a la llotja sense cap motiu.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1635,10 +1644,9 @@
 	</Entry>	
 	<Entry frequency="50000">vetllar<verbs conj="regular">
 			<translations>
-				<translation>to watch (over)</translation>
-				<translation>to stay awake</translation>
-				<translation>to keep watch</translation>
-				<translation>to hold a wake for</translation>
+                            <translation intransitive="true">to stay awake</translation>
+				<translation transitive="true">to watch (over) / to provide for</translation>
+				<translation transitive="true">to hold a wake for</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1666,12 +1674,70 @@
 	</Entry>
 	<Entry frequency="1500000">veure<verbs conj="irregular29">
                             <translations><date>0608</date>
-				<translation>to see</translation>
+				<translation transitive="true">to see</translation>
+                                <translation reflexive="veure's">to look at yourself</translation>
+                                <translation transitive="true">to see / to visit</translation>
 			</translations>
 		</verbs>
+                <exclamations>com si ho veiés
+                    <translations>
+                        <translation>that's for sure!</translation>
+                    </translations>
+                </exclamations>
+                <expressions>a veure
+                    <translations>
+                        <translation>let's see</translation>
+                    </translations>
+                </expressions>
+                <expressions>fer com qui no ho veu
+                    <translations>
+                        <translation>to turn a blind eye to (something)</translation>
+                    </translations>
+                </expressions>
+                <expressions>fer-se veure
+                    <translations>
+                        <translation>to get yourself noticed / to attract attention to yourself</translation>
+                    </translations>
+                </expressions>
+                <expressions>fer-s'hi veure
+                    <translations>
+                        <translation>to show off</translation>
+                    </translations>
+                </expressions>
+                <expressions>fer veure
+                    <translations>
+                        <translation>to show</translation>
+                        <translation>to pretend</translation>
+                    </translations>
+                </expressions>
+                <expressions>ja ho veurem
+                    <translations>
+                        <translation>we'll see</translation>
+                    </translations>
+                </expressions>     
+                <expressions>no poder veure (algú)
+                    <translations>
+                        <translation>to not be able to stand (somebody)</translation>
+                    </translations>
+                </expressions>
                 <expressions>no tenir res a veure amb
                     <translations>
                         <translation>to have nothing to do with</translation>
+                    </translations>
+                </expressions>
+                <expressions>segons (que) es veu
+                    <translations>
+                        <translation>it seems that</translation>
+                    </translations>
+                </expressions>
+                <expressions>veure-hi
+                    <translations>
+                        <translation>to be able to see<engnote>In the sense 'to have the gift of sight'.</engnote></translation>
+                    </translations>
+                </expressions>
+                <expressions>veure-s'hi
+                    <translations>
+                        <translation>to be able to see<engnote>In the sense 'to have enough light to see by'.</engnote></translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -1775,7 +1841,8 @@
 	</Entry>
 	<Entry frequency="947000">viatjar<verbs conj="JtoG">
 			<translations><date>0109</date>
-				<translation>(~ en / amb) to travel (by)</translation>
+				<translation intransitive="true">to travel</translation>
+                                <translation intransitive="true">[mercaderia] to be transported</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -1817,7 +1884,7 @@
 	</Entry>
 	<Entry frequency="4590">vibrar<verbs conj="regular">
 			<translations><date>0705</date>
-				<translation>to vibrate</translation>
+				<translation intransitive="true">to vibrate</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2030,7 +2097,7 @@
 	</Entry>	
 	<Entry frequency="9690">vigilar<verbs conj="regular">
 			<translations>
-				<translation>to keep an eye on / to watch / to look after</translation>
+				<translation transitive="true">to keep an eye on / to watch / to look after</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2151,7 +2218,7 @@
 <Entry frequency="0">viler<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from la Vila Joiosa</translation></translations></nouns><adjectives><translations><translation>relating to la Vila Joiosa or its people<fems>vilera</fems></translation></translations></adjectives></Entry>
 <Entry frequency="895">vilipendiar<verbs conj="irregular1">
 			<translations><date>1108</date>
-				<translation>to revile (formal) / to vilify (formal) / to malign (formal) / to affront (formal) / to insult</translation>
+				<translation transitive="true">to revile (formal) / to vilify (formal) / to malign (formal) / to affront (formal) / to insult</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2215,7 +2282,7 @@
 	</Entry>
 	<Entry frequency="20200">vincular<verbs conj="regular">
 			<translations>
-				<translation>to link / to bind</translation>
+				<translation transitive="true">to link / to bind</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2227,13 +2294,13 @@
 	</Entry>
         <Entry frequency="1390">vindicar<verbs conj="CtoQU">
 			<translations><date>0108</date>
-				<translation>to vindicate</translation>
+				<translation transitive="true">to vindicate</translation>
 			</translations>
 		</verbs>
 	</Entry>
 	<Entry frequency="120000">vindre<verbs>
 			<translations>
-				<translation local="valencian">to come</translation>
+				<translation local="valencian" intransitive="true">to come</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2435,7 +2502,9 @@
 	</Entry>
 	<Entry frequency="6550">violar<verbs conj="regular">
 			<translations>
-				<translation>to rape</translation>
+                                <translation transitive="true">to violate / to break</translation>
+                                <translation transitive="true">to break into</translation>
+				<translation transitive="true">to rape</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2533,8 +2602,8 @@
 	</Entry>	
 	<Entry frequency="698">virar<verbs conj="regular">
 			<translations><date>0705</date>
-				<translation>to turn / to veer</translation>
-				<translation disambiguate="chemistry">to tone</translation>
+				<translation transitive="true">to turn / to veer</translation>
+				<translation disambiguate="chemistry" transitive="true">to tone</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2660,7 +2729,7 @@
 	</Entry>
         <Entry frequency="15200">visionar<verbs conj="regular">
 			<translations><date>0806</date>
-				<translation>to view</translation>
+				<translation transitive="true">to view</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2689,7 +2758,7 @@
 	</Entry>
 	<Entry frequency="95000">visitar<verbs conj="regular">
 			<translations>
-				<translation>to visit</translation>
+				<translation transitive="true">to visit</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2746,7 +2815,7 @@
 	</Entry>
 	<Entry frequency="18400">visualitzar<verbs conj="regular">
 			<translations>
-				<translation catagory="computers">to visualize</translation>
+				<translation catagory="computers" transitive="true">to visualize</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2839,8 +2908,8 @@
 	<Entry frequency="3190000">viure<verbs conj="irregular44">
                             <translations><date>0109</date>
 				<translation intransitive="true">to live</translation>
-                                <translation intransitive="true">(~ de) to live on</translation>
-                                <translation intransitive="true">(~ amb algú) to live with (someone)</translation>
+                                <translation intransitive="true">[~ de] to live on</translation>
+                                <translation intransitive="true">[~ amb algú] to live with (someone)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2926,7 +2995,7 @@
 	</Entry>
         <Entry frequency="224">vociferar<verbs conj="regular">
 			<translations><date>0406</date>
-				<translation>to shout / to yell</translation>
+				<translation intransitive="true">to shout / to yell</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -2972,7 +3041,7 @@
 	</Entry>
         <Entry frequency="185">vogar<verbs conj="GtoGU">
 			<translations><date>0406</date>
-				<translation catagory="transport">to row<synonyms>remar</synonyms></translation>
+				<translation catagory="transport" intransitive="true">to row<synonyms>remar</synonyms></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3034,7 +3103,8 @@
 	</Entry>
 	<Entry frequency="59000">volar<verbs conj="regular">
 			<translations>
-				<translation catagory="transport">to fly</translation>
+				<translation catagory="transport" intransitive="true">to fly<catexamp>Fer volar un estel.</catexamp><engexamp>To fly a kite.</engexamp></translation>
+                                <translation intransitive="true">to fly<catexamp>El temps vola.</catexamp><engexamp>Time flies.</engexamp></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3086,9 +3156,14 @@
 	</Entry>
 	<Entry frequency="500000">voler<verbs conj="irregular45">
 			<translations><date>0805</date>
-				<translation>to want (to)<catexamp>Voler dir</catexamp><engexamp>To mean</engexamp></translation>
+				<translation transitive="true">to want (to)</translation>
 			</translations>
 		</verbs>
+                <expressions>voler dir
+                    <translations>
+                        <translation>to mean</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="11100">volt<nouns>
 			<translations><date>0605</date>
@@ -3121,9 +3196,9 @@
 	</Entry>
 	<Entry frequency="8000">voltar<verbs conj="regular">
 			<translations><date>0605</date>
-				<translation>to turn (over) / to go around</translation>
-				<translation>to surround</translation>
-				<translation>to spin</translation>
+                                <translation intransitive="true">to turn / to go round / to spin</translation>
+				<translation intransitive="true">to go round / to travel round / to walk round</translation>
+                                <translation transitive="true">[~ de] to surround (with)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3228,7 +3303,7 @@
 	</Entry>
 <Entry frequency="826">vomitar<verbs conj="regular">
 			<translations><date>1205</date>
-				<translation>to vomit / to throw up (colloq.) / to be sick (Br.)</translation>
+				<translation intransitive="true">to vomit / to throw up (col·loq.) / to be sick (Br.)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3279,7 +3354,9 @@
 	</Entry>	
 	<Entry frequency="5090">vorejar<verbs conj="JtoG">
 			<translations><date>0705</date>
-				<translation>to go round / to skirt / to border<example>La dona &lt;b&gt;vorejava&lt;/b&gt; els vuitanta anys</example></translation>
+				<translation transitive="true">to go round / to skirt</translation>
+                                <translation transitive="true">to border</translation>
+                                <translation transitive="true">[fig.] to be approaching<example>La dona &lt;b&gt;vorejava&lt;/b&gt; els vuitanta anys.</example></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3343,7 +3420,7 @@
 	</Entry>	
 	<Entry frequency="30200">votar<verbs conj="regular">
 			<translations>
-				<translation catagory="politics">to vote / to ballot</translation>
+				<translation catagory="politics" intransitive="true">to vote</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -3392,8 +3469,8 @@
 	</Entry>
 	<Entry frequency="11200">vulnerar<verbs conj="regular">
 			<translations><date>0605</date>
-				<translation>to infringe / to violate</translation>
-				<translation>to hurt / to damage</translation>
+				<translation transitive="true">to infringe / to violate</translation>
+				<translation transitive="true">to hurt / to damage</translation>
 			</translations>
 		</verbs>
 	</Entry>

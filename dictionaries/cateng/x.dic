@@ -16,7 +16,7 @@
 	</Entry>
 	<Entry frequency="320">xafardejar<verbs conj="JtoG">
 			<translations><date>0505</date>
-				<translation>to gossip</translation>
+				<translation intransitive="true">to gossip</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -226,7 +226,7 @@
 	</Entry>
         <Entry frequency="189">xarrupar<verbs conj="regular">
 			<translations><date>0905</date>
-				<translation>to sip</translation>
+				<translation transitive="true">to sip</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -256,7 +256,7 @@
 	</Entry>	
 	<Entry frequency="1450">xatejar<verbs conj="JtoG">
 			<translations><date>0505</date>
-				<translation catagory="computers">to chat</translation>
+				<translation catagory="computers" intransitive="true">to chat</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -430,13 +430,13 @@
 	</Entry>
         <Entry frequency="10100">xerrar<verbs conj="regular">
 			<translations><date>0805</date>
-				<translation>to chat / to chatter</translation>
+				<translation intransitive="true">to chat / to chatter</translation>
 			</translations>
 		</verbs>
 	</Entry>
          <Entry frequency="418">xerricar<verbs conj="CtoQU">
 			<translations><date>0606</date>
-				<translation>to screech / to squeal / to squeak</translation>
+				<translation intransitive="true">to screech / to squeal / to squeak</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -664,7 +664,7 @@
 	</Entry>
 	<Entry frequency="52">xipollejar<verbs conj="JtoG">
 			<translations><date>0605</date>
-				<translation>to splash (about)</translation>
+				<translation intransitive="true">to splash (about)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -712,13 +712,13 @@
 	</Entry>
 	<Entry frequency="486">xisclar<verbs conj="regular">
 			<translations><date>0505</date>
-				<translation>to scream / to shriek</translation>
+				<translation intransitive="true">to scream / to shriek</translation>
 			</translations>
 		</verbs>
 	</Entry>
 	<Entry frequency="3330">xiular<verbs conj="regular">
 			<translations><date>0205</date>
-				<translation>to whistle</translation>
+				<translation intransitive="true">to whistle</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -730,7 +730,7 @@
 	</Entry>
         <Entry frequency="591">xiuxiuejar<verbs conj="JtoG">
 			<translations><date>0205</date>
-				<translation>to whisper</translation>
+				<translation intransitive="true">to whisper</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -765,7 +765,8 @@
 	<Entry frequency="120000">xocar<verbs conj="CtoQU">
 			<translations><date>0109</date>
 				<translation intransitive="true">to collide</translation>
-                                <translation>(~ contra) to run into</translation>
+                                <translation intransitive="true">[~ contra] to run into / to crash into / to collide with</translation>                                
+                                <translation intransitive="true">[fig.] to shock / to surprise</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -835,8 +836,8 @@
 	</Entry>
 	<Entry frequency="3790">xuclar<verbs conj="regular">
 			<translations><date>0205</date>
-				<translation>to suck</translation>
-                                <translation register="colloquial" disambiguate="computers-internet">to download</translation>
+				<translation transitive="true">to suck</translation>
+                                <translation register="colloquial" disambiguate="computers-internet" transitive="true">to download</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -891,8 +892,9 @@
 	</Entry>
  	<Entry frequency="1800">xutar<verbs conj="regular">
 			<translations><date>0505</date>
-				<translation>to shoot</translation>
-				<translation register="slang">to shoot up</translation>
+				<translation disambiguate="sports" intransitive="true">to shoot</translation>
+                                <translation disambiguate="sports" transitive="true">to shoot</translation>
+				<translation register="slang" reflexive="xutar-se">to shoot up</translation>
 			</translations>
 		</verbs>
 	</Entry>
