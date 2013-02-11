@@ -78,7 +78,7 @@
 	</Entry>
         <Entry frequency="525">nadador<nouns>
 			<translations><date>0206</date>
-				<translation catagory="sports-event-swimming" gender="m / f">swimmer<fems>nadadora</fems><engnote>This word is also (more frequently) written 'nedador'</engnote></translation>
+				<translation catagory="sports-event-swimming" gender="m / f">swimmer<fems>nadadora</fems><engnote>This word is also (more frequently) written 'nedador'.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -139,7 +139,7 @@
 	</Entry>
 	<Entry frequency="1500">nadar<verbs conj="regular">
 			<translations><date>0206</date>
-				<translation catagory="sports-event-swimming" intransitive="true">to swim<engnote>This verb is also (more frequently) written 'nedar'</engnote></translation>
+				<translation catagory="sports-event-swimming" intransitive="true">to swim<engnote>This verb is also (more frequently) written 'nedar'.</engnote></translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -197,7 +197,9 @@
 	<Entry frequency="273000">naixement<nouns>
 			<translations><date>0905</date>
 				<translation gender="m">birth</translation>
-                                <translation gender="m">source<engnote>'Naixement' means the 'source' of a river.</engnote></translation>
+                                <translation gender="m">birth / origin</translation>
+                                <translation gender="m">[d'un riu] source</translation>
+                                <translation disambiguate="religious" gender="m">nativity (scene)</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -620,10 +622,15 @@
 	</Entry>
 	<Entry frequency="32600">nàutic<adjectives>
 			<translations><date>0605</date>
-				<translation>nautical / sailing<catexamp>Club naùtic</catexamp><engexamp>Sailing club</engexamp><catexamp>Esquí nàutic</catexamp><engexamp>Water skiing</engexamp><fems>nàutica</fems><femplural>nàutiques</femplural>
+				<translation>nautical / sailing<catexamp>Club naùtic.</catexamp><engexamp>Sailing club.</engexamp><fems>nàutica</fems><femplural>nàutiques</femplural>
 				</translation>
 			</translations>
 		</adjectives>
+                <expressions>esquí nàutic
+                    <translations>
+                        <translation catagory="sports-event" gender="m">water skiing</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="68">navaixer<nouns>
                 <translations><date>0109</date>
@@ -780,7 +787,7 @@
 	<Entry frequency="3700000">necessitat<nouns>
 			<translations><date>0408</date>
 				<translation gender="f">need / necessity</translation>
-                                <translation gender="m / f">needy person<catexamp>Els necessitats</catexamp><engexamp>The needy</engexamp></translation>
+                                <translation gender="m / f">needy person<catexamp>Els necessitats.</catexamp><engexamp>The needy.</engexamp></translation>
 			</translations>
 		</nouns>
                 <adjectives>
@@ -846,13 +853,13 @@
 	</Entry>
 	<Entry frequency="20200">nedador<nouns>
 			<translations><date>0206</date>
-				<translation catagory="sports-event-swimming" gender="m / f">swimmer<fems>nedadora</fems><engnote>This word is also (less frequently) written 'nadador'</engnote></translation>
+				<translation catagory="sports-event-swimming" gender="m / f">swimmer<fems>nedadora</fems><engnote>This word is also (less frequently) written 'nadador'.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
 	<Entry frequency="46800">nedar<verbs conj="regular">
 			<translations><date>0206</date>
-				<translation catagory="sports-event-swimming" intransitive="true">to swim<engnote>This verb is also (less frequently) written 'nadar'</engnote></translation>                               		</translations>
+				<translation catagory="sports-event-swimming" intransitive="true">to swim<engnote>This verb is also (less frequently) written 'nadar'.</engnote></translation>                               		</translations>
 		</verbs>
 	</Entry>
 	<Entry frequency="5890">neerlandès<adjectives>
@@ -1165,13 +1172,13 @@
 	</Entry>
 	<Entry frequency="404">neozelandès<nouns>
 			<translations>
-				<translation catagory="nationality-australasia" gender="m / f">New Zealander / Kiwi (col·loq)</translation>
+				<translation catagory="nationality-australasia" gender="m / f">New Zealander / Kiwi (col·loq.)</translation>
 			</translations>
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>New Zealand<catexamp>El dòlar neozelandès</catexamp>
-					<engexamp>New Zealand dollar</engexamp>
+				<translation>New Zealand<catexamp>El dòlar neozelandès.</catexamp>
+					<engexamp>New Zealand dollar.</engexamp>
 					<fems>neozelandesa</fems>
 					<plural>neozelandesos</plural>
 				</translation>
@@ -1241,20 +1248,20 @@
 	</Entry>
          <Entry frequency="153">nespler<nouns>
 			<translations><date>0707</date>
-                            <translation catagory="plants-tree" gender="m">medlar<catnote>Mespilus germanica</catnote><engnote>Mespilus germanica</engnote><synonyms>nesprer</synonyms></translation>
+                            <translation catagory="plants-tree" gender="m">[mespilus germanica] medlar<synonyms>nesprer</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>
          <Entry frequency="652">nespra<nouns>
 			<translations><date>0707</date>
-                            <translation catagory="food-fruit" gender="f">loquat<engnote>Fruit of the loquat tree</engnote></translation>
+                            <translation catagory="food-fruit" gender="f">loquat<engnote>Fruit of the loquat tree.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
          <Entry frequency="848">nesprer<nouns>
 			<translations><date>0707</date>
-                            <translation catagory="plants-tree" gender="m">medlar<catnote>Mespilus germanica</catnote><engnote>Mespilus germanica</engnote><synonyms>nespler</synonyms></translation>
-                            <translation catagory="plants-tree" gender="m">loquat / Japanese plum<catnote>Eriobotrya japonica</catnote><engnote>Eriobotrya japonica</engnote><synonyms>nesprer del Japó</synonyms></translation>
+                            <translation catagory="plants-tree" gender="m">[mespilus germanica] medlar<synonyms>nespler</synonyms></translation>
+                            <translation catagory="plants-tree" gender="m">[eriobotrya japonica] loquat / Japanese plum<synonyms>nesprer del Japó</synonyms></translation>
                         </translations>
 		</nouns>
 	</Entry>
@@ -1613,14 +1620,14 @@
 		</nouns>
 		<adjectives>
 			<translations>
-				<translation>stupid / silly<engnote>'Nici' is a variant of 'neci' used mainly in the Balearics</engnote><fems>nícia</fems></translation>
+				<translation>stupid / silly<engnote>'Nici' is a variant of 'neci' used mainly in the Balearics.</engnote><fems>nícia</fems></translation>
 			</translations>
 		</adjectives>
 	</Entry>	
         <Entry frequency="1520">niciesa<nouns>
 			<translations><date>0408</date>
 				<translation gender="f">stupidity / idiocy / foolishness</translation>
-                                <translation gender="f">(act or piece) of stupidity (or idiocy or foolishness) / idiotic (or foolish or stupid) act<engnote>'Niciesa' is a variant of 'neciesa' used mainly in the Balearics</engnote></translation>
+                                <translation gender="f">(act or piece) of stupidity (or idiocy or foolishness) / idiotic (or foolish or stupid) act<engnote>'Niciesa' is a variant of 'neciesa' used mainly in the Balearics.</engnote></translation>
                             </translations>
 		</nouns>
 	</Entry>
@@ -1727,8 +1734,8 @@
 			<translations><date>0508</date>
 				<translation register="dialectal" gender="m">little boy</translation>
                                 <translation feminine="nina" register="dialectal" gender="f">little girl</translation>
-                                <translation feminine="nina" gender="f">doll / dolly<synonyms>nineta</synonyms><catnote>'Doll(y) vol dir 'nina' amb el significat 'joguina'.</catnote></translation>
-                                <translation feminine="nina" disambiguate="body" gender="f">pupil<synonyms>nineta</synonyms></translation>
+                                <translation feminine="nina" gender="f">[joguina] doll / dolly<synonyms>nineta</synonyms></translation>
+                                <translation feminine="nina" catagory="body" gender="f">{de l'ull] pupil<synonyms>nineta</synonyms></translation>
 			</translations>
 		</nouns>
 	</Entry>	
@@ -1934,10 +1941,10 @@
 	</Entry>
 	<Entry frequency="8410">noces<nouns>
 			<translations>
-				<translation gender="fpl">wedding<catexamp>Noces d'argent</catexamp>
-					<engexamp>25th wedding anniversary</engexamp>
-					<catexamp>Noces d'or</catexamp>
-					<engexamp>50th wedding anniversary</engexamp>
+				<translation gender="fpl">wedding<catexamp>Noces d'argent.</catexamp>
+					<engexamp>25th wedding anniversary.</engexamp>
+					<catexamp>Noces d'or.</catexamp>
+					<engexamp>50th wedding anniversary.</engexamp>
 					<engnote>'Noces d'argent', 'Noces d'or' (and also, 'noces de diamant' - '60th' and 'noces de platí' - '75th') can be used to refer to events other than a wedding anniversary (for example, the founding of a club, the number of years you've been working in a particular job etc.. so, for example, 'les noces d'argent del FC. Barcelona' would be 'the twenty-fifth anniversary of the founding of Barcelona Football Club.)</engnote>
 				</translation>
 			</translations>
@@ -2183,7 +2190,7 @@
 	</Entry>
         <Entry frequency="137000">nòmina<nouns>
 			<translations><date>0809</date>
-				<translation catagory="work" gender="f">payroll<catexamp>Tenim 30 persones en nòmina</catexamp><engexamp>We have 30 people on the payroll</engexamp></translation>
+				<translation catagory="work" gender="f">payroll<catexamp>Tenim 30 persones en nòmina.</catexamp><engexamp>We have 30 people on the payroll.</engexamp></translation>
 			</translations>
 		</nouns>
                 <expressions>full de nòmina
@@ -2201,8 +2208,8 @@
 	</Entry>
         <Entry frequency="53400">nominal<adjectives>
 			<translations><date>1205</date>
-				<translation disambiguate="linguistics">noun<catexamp>Morfologia nominal</catexamp><engexamp>Noun morphology</engexamp></translation>
-                                <translation>nominal<engnote>'Nominal' means 'nominal' in the sense 'in name only, not in reality'</engnote></translation>
+				<translation disambiguate="linguistics">noun<catexamp>Morfologia nominal.</catexamp><engexamp>Noun morphology.</engexamp></translation>
+                                <translation>nominal<engnote>'Nominal' means 'nominal' in the sense 'in name only, not in reality'.</engnote></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -2238,7 +2245,7 @@
 	</Entry>
         <Entry frequency="288">nonet<nouns>
 			<translations><date>1205</date>
-				<translation catagory="entertainment-music" gender="m">nonet<engnote>A 'nonet' is a composition written for nine instruments or voices</engnote></translation>
+				<translation catagory="entertainment-music" gender="m">nonet<engnote>A 'nonet' is a composition written for nine instruments or voices.</engnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2267,7 +2274,7 @@
 		</adjectives>
                 <nouns>
                 <translations>
-                <translation sourceplural="norantena" gender="f">about ninety / ninety-odd<catexamp>Una norantena de parelles participen en el projecte</catexamp><engexamp>About ninety / ninety-odd couples are taking part in the project</engexamp></translation></translations></nouns>
+                <translation sourceplural="norantena" gender="f">about ninety / ninety-odd<catexamp>Una norantena de parelles participen en el projecte.</catexamp><engexamp>About ninety / ninety-odd couples are taking part in the project.</engexamp></translation></translations></nouns>
 	</Entry>
 	<Entry frequency="95800">nord<nouns>
 			<translations>
@@ -2526,9 +2533,14 @@
 	<Entry frequency="555000">notícia<nouns>
 			<translations><date>0805</date>
 				<translation gender="f">(piece of) news</translation>
-                                <translation sourceplural="notícies" gender="fpl">news<catexamp>Agència de notícies</catexamp><engexamp>News agency</engexamp></translation>
+                                <translation sourceplural="notícies" gender="fpl">news</translation>
 			</translations>
 		</nouns>
+                <expressions>agència de notícies
+                    <translations>
+                        <translation gender="f">news agency</translation>
+                    </translations>
+                </expressions>
                 <expressions>notícia d'última hora
                     <translations>
                         <translation gender="f">breaking news</translation>
@@ -2577,8 +2589,8 @@
 		<nouns>
 			<translations>
 				<translation catagory="food-nut" gender="f">walnut</translation>
-				<translation gender="m">ninth<catexamp>El (dia) nou de maig</catexamp>
-					<engexamp>The ninth of May</engexamp>
+				<translation gender="m">ninth<catexamp>El (dia) nou de maig.</catexamp>
+					<engexamp>The ninth of May.</engexamp>
 				</translation>
 				<translation gender="m">nine</translation>
 				<translation catagory="time" gender="fpl">nine o'clock</translation>
@@ -2812,7 +2824,7 @@
 	</Entry>
         <Entry frequency="28300">nre<abbreviations>
 			<translations><date>0307</date>
-				<translation gender="m">number<engnote>Short for 'nombre'</engnote></translation>
+				<translation gender="m">number<engnote>Short for 'nombre'.</engnote></translation>
 			</translations>
 		</abbreviations>
 	</Entry>
@@ -2850,13 +2862,19 @@
 <Entry frequency="0">nucier<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from la Nucia</translation></translations></nouns><adjectives><translations><translation>relating to la Nucia or its people<fems>nuciera</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="17400">nuclear<adjectives>
 			<translations>
-				<translation>nuclear<catexamp>Energia nuclear</catexamp>
-					<engexamp>Nuclear power / energy</engexamp>
-					<catexamp>Armes nuclears</catexamp>
-					<engexamp>Nuclear weapons</engexamp>
-				</translation>
+				<translation>nuclear</translation>
 			</translations>
 		</adjectives>
+                <expressions>armes nuclears
+                    <translations>
+                        <translation gender="fpl">nuclear weapons</translation>
+                    </translations>
+                </expressions>
+                <expressions>energia nuclear
+                    <translations>
+                        <translation gender="f">nuclear power / nuclear energy</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="706">nucleòtid<nouns>
 			<translations><date>1205</date>
@@ -2907,13 +2925,16 @@
 	</Entry>
 	<Entry frequency="42100">nul<adjectives>
 			<translations>
-				<translation>null / void / null and void<catexamp>Vot nul</catexamp>
-					<engexamp>Spoiled ballot</engexamp>
-				</translation>
+				<translation>null / void / null and void</translation>
 				<translation>useless</translation>
 				<translation>non-existent<fems>nul·la</fems></translation>
 			</translations>
 		</adjectives>
+                <expressions>vot nul
+                    <translations>
+                        <translation catagory="politics" gender="m">spoiled ballot</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="0">nuler<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Nules</translation></translations></nouns><adjectives><translations><translation>relating to Nules or its people<fems>nulera</fems></translation></translations></adjectives></Entry>
 	<Entry frequency="11200">numeració<nouns>
