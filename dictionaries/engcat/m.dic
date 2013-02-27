@@ -5967,7 +5967,7 @@
 	</Entry>
 <Entry frequency="6440000">mobility<nouns>
 			<translations>
-				<translation gender="f">mobilitat</translation>
+				<translation gender="f">mobilitat / llibertat de moviments</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5978,6 +5978,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="22100000">mobster<nouns>
+        <translations><date>0213</date>
+            <translation gender="m">gàngster / mafiós</translation>
+        </translations>
+    </nouns>
+</Entry>        
 <Entry frequency="797000">moccasin<nouns><mistakes>mocassin</mistakes>
 			<translations>
 				<translation catagory="clothes" gender="m">mocassí</translation>
@@ -5991,7 +5997,7 @@
 		</verbs>
 		<adjectives>
 			<translations>
-				<translation>artificial / simulacre / fingit<example>Lesley and Graham live in a &lt;b&gt;mock&lt;/b&gt; Tudor house. It looks just like the real thing except that it was built in the 1930s as opposed to in the 1400s.</example>
+				<translation>artificial / simulacre / fingit / de mentida<example>Lesley and Graham live in a &lt;b&gt;mock&lt;/b&gt; Tudor house. It looks just like the real thing except that it was built in the 1930s as opposed to in the 1400s.</example>
 				</translation>
 				<translation>de prova<catnote>Per exemple: 'mock exam' / 'mock job interview'.</catnote>
 				</translation>
@@ -6010,12 +6016,12 @@
 			</translations>
 		</nouns>
 	</Entry>
-        <Entry frequency="358000">mocktail<nouns>
-                <translations><date>0110</date>
-                    <translation catagory="food-drink" gender="m">còctel sense alcohol</translation>
-                </translations>
-            </nouns>
-        </Entry>
+<Entry frequency="358000">mocktail<nouns>
+        <translations><date>0110</date>
+            <translation catagory="food-drink" gender="m">còctel sense alcohol</translation>
+        </translations>
+    </nouns>
+</Entry>
 <Entry frequency="256000">mock-up<nouns>
 			<translations>
 				<grouptranslation><translation gender="m">prototipus</translation>
@@ -6027,6 +6033,7 @@
 			<translations><date>0809</date>
                         <translation disambiguate="maths" gender="f">moda</translation>
 				<translation termcat="telecom" gender="m">mode</translation>
+                                <translation gender="f">funció<engexamp>Night-time mode.</engexamp><catexamp>Funció nocturna.</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6036,6 +6043,25 @@
                                 <translation disambiguate="work" gender="mf">model</translation>
 			</translations>
 		</nouns>
+                <verbs double="true">
+                    <translations>
+                        <translation transitive="true">modelar</translation>
+                        <translation transitive="true">plasmar</translation>
+                        <translation transitive="true">lluir (peces d'indumentària que els modistes volen donar a conèixer)</translation>
+                        <translation intransitive="true">treballar com a model</translation>
+                    </translations>
+                </verbs>
+                <adjectives>
+                    <translations>
+                        <translation>[miniature] en miniatura</translation>
+                        <translation>[exemplary] model</translation>
+                    </translations>
+                </adjectives>
+                <expressions>to model yourself on
+                    <translations>
+                        <translation>prendre com a model / imitar</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="35900000">modem<nouns>
                         <translations><date>0508</date>
@@ -6071,6 +6097,7 @@
 		<verbs>
 			<translations>
 				<translation transitive="true">moderar</translation>
+                                <translation transitive="true">temperar</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -6097,7 +6124,13 @@
 				<translation>modern</translation>
 			</translations>
 		</adjectives>
-	</Entry>
+	</Entry>    
+<Entry frequency="97600000">modern-day<adjectives>
+			<translations><date>0213</date>
+				<translation>contemporani / d'avui dia</translation>
+			</translations>
+		</adjectives>
+	</Entry>          
 <Entry frequency="988000">modernisation<nouns>
 			<translations>
 				<translation local="gb" gender="f">modernització<otherlocal>modernization</otherlocal>
@@ -6152,7 +6185,8 @@
 <Entry frequency="34400000">modest<adjectives>
                             <translations><date>0209</date>
 				<translation>modest</translation>
-                                <translation>(not large) mòdic</translation>
+                                <translation>discret</translation>
+                                <translation>[not large] mòdic</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -6165,12 +6199,16 @@
 <Entry frequency="255000">modesty<nouns>
 			<translations>
 				<translation gender="f">modèstia</translation>
+                                <grouptranslation>
+                                <translation gender="f">discreció</translation>
+                                <translation gender="m">decòrum / pudor</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
 <Entry frequency="3490000">modicum<nouns>
 			<translations>
-				<translation register="formal">mica / petita quantitat<engexamp>A modicum of common sense</engexamp><catexamp>Una mica (o miqueta) de sentit comú</catexamp></translation>
+				<translation register="formal" gender="m">punt<engexamp>A modicum of common sense.</engexamp><catexamp>Un punt (o una miqueta) de sentit comú.</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6250,7 +6288,9 @@
 	</Entry>
 <Entry frequency="1090000">moist<adjectives>
 			<translations>
-				<translation>humit</translation>
+                            <translation>[cake] flonjo</translation>
+                            <translation>[meat] melós / tendre</translation>
+				<translation>humit / plujós</translation>                               
 			</translations>
 		</adjectives>
 	</Entry>
@@ -6413,6 +6453,22 @@
                 </translations>
             </expressions>
         </Entry>
+<Entry frequency="30900000">momentarily<adverbs>
+			<translations><date>0213</date>
+				<translation>transitòriament</translation>
+                                <translation>de seguida</translation>
+			</translations>
+		</adverbs>
+	</Entry>     
+<Entry frequency="230000000">momentum<nouns>
+			<translations><date>0213</date>
+                            <grouptranslation>
+				<translation gender="m">ímpetu / impuls</translation>
+                                <translation gender="f">embranzida</translation>
+                            </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>          
         <Entry frequency="31100000">mommy<nouns>
                             <translations><date>0708</date>
 				<translation register="colloquial" local="us" gender="f">mamà<otherlocal>mummy</otherlocal><plural>mommies</plural></translation>
@@ -6452,7 +6508,7 @@
 	</Entry>
 <Entry frequency="3510000">monastic<adjectives>
               <translations><date>1107</date>
-            <translation catagory="religious">monàstic</translation>
+            <translation catagory="religious">monàstic<engexamp>Monastic life.</engexamp><catexamp>Vida monàstica(o monacal).</catexamp></translation>
         </translations>
     </adjectives>
     </Entry>
@@ -6483,6 +6539,16 @@
 				<translation catagory="financial" gender="mpl">diners</translation>
 			</translations>
 		</nouns>
+                <expressions>for my money
+                    <translations>
+                        <translation>a parer meu / trobo jo</translation>
+                    </translations>
+                </expressions>
+                <expressions>I (or he, she, we, etc.) got my (or his, her, our, etc.) money's worth
+                    <translations>
+                        <translation>han sigut diners ben gastats</translation>
+                    </translations>
+                </expressions>
                 <expressions>money laundering
                     <translations>
                         <translation catagory="financial" gender="m">blanqueig de diners / blanqueig de capitals</translation>
@@ -6494,6 +6560,37 @@
                     </translations>
                 </expressions>
 	</Entry>
+<Entry frequency="169000">money-grubber<nouns>
+			<translations><date>0213</date>
+				<translation gender="mf">avariciós / (home, dona, persona..) que (només) mira pels diners</translation>
+			</translations>
+		</nouns>
+	</Entry>        
+<Entry frequency="846000">money-grubbing<adjectives>
+			<translations><date>0213</date>
+				<translation>avariciós / que (només) mira pels diners</translation>
+			</translations>
+		</adjectives>
+	</Entry>        
+<Entry frequency="40600000">moneymaker<nouns>
+			<translations><date>0213</date>
+				<translation gender="f">font de beneficis</translation>
+                                <translation gender="m">negoci lucratiu</translation>
+			</translations>
+		</nouns>
+	</Entry>        
+<Entry frequency="2680000">moneymaking<adjectives>
+			<translations><date>0213</date>
+				<translation>lucratiu</translation>
+			</translations>
+		</adjectives>
+	</Entry>        
+<Entry frequency="691000">money-spinner<nouns>
+			<translations><date>0213</date>
+				<translation local="gb" register="colloquial" gender="f">font de beneficis</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="3320000">Mongolia<nouns>
 			<translations>
 				<translation catagory="country-asia">Mongòlia</translation>
@@ -6526,8 +6623,22 @@
 		</nouns>
                 <verbs>
                 <translations>
-                <translation transitive="true">vigilar / observar<example>If your child becomes sick you must &lt;b&gt;monitor&lt;/b&gt; his temperature very carefully.</example><example>More and more parents are &lt;b&gt;monitoring&lt;/b&gt; their children's online activities.</example></translation></translations></verbs>
+                <translation transitive="true">vigilar / observar<example>If your child becomes sick you must &lt;b&gt;monitor&lt;/b&gt; his temperature very carefully.</example><example>More and more parents are &lt;b&gt;monitoring&lt;/b&gt; their children's online activities.</example></translation>
+                <translation transitive="true">espiar</translation>
+                </translations>
+                </verbs>
 	</Entry>
+<Entry frequency="30900000">monitoring<nouns>
+			<translations><date>0213</date>
+                            <grouptranslation>
+				<translation gender="f">vigilància</translation> 
+                                <translation gender="m">sistema de vigilància</translation>
+                            </grouptranslation>
+                            <translation gender="m">seguiment</translation>
+                            <translation gender="f">supervisió</translation>
+			</translations>
+		</nouns>
+	</Entry>          
 <Entry frequency="1780000">monk<nouns>
 			<translations>
 				<translation catagory="religious" gender="m">monjo</translation>
@@ -6538,6 +6649,7 @@
 			<translations>
                             <grouptranslation catagory="animal-animal"><translation gender="f">mona</translation>
                                 <translation gender="m">mico</translation></grouptranslation>
+                                <translation gender="mf">dimoni / trapella / pillet / bandarra<example>Come here you little &lt;b&gt;monkey&lt;/b&gt;!</example></translation>
 			</translations>
 		</nouns>
                 <expressions>couldn't (o don't) give a monkey's
@@ -6599,6 +6711,18 @@
                     </translations>
                 </expressions>
 	</Entry>
+<Entry frequency="20900000">monolith<nouns>
+        <translations><date>0213</date>
+            <translation gender="m">monòlit</translation>
+        </translations>
+    </nouns>
+</Entry>        
+<Entry frequency="18200000">monolithic<adjectives>
+        <translations><date>0213</date>
+            <translation>monolític</translation>
+        </translations>
+    </adjectives>
+</Entry> 
         <Entry frequency="83900">monologist<nouns>
 			<translations><date>0709</date>
 				<translation gender="mf">monologuista<catnote>També s'escriu 'monologuist'.</catnote></translation>
@@ -6743,7 +6867,7 @@
 	</Entry>
 <Entry frequency="466000">monstrous<adjectives>
 			<translations>
-				<translation>monstruós</translation>
+				<translation>monstruós<engexamp>A monstrous headache.</engexamp><catexamp>Un mal de cap atroç.</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -6806,7 +6930,7 @@
 	</Entry>
 <Entry frequency="1030000">monumental<adjectives>
 			<translations>
-				<translation>monumental</translation>
+				<translation>monumental / formidable / fenomenal</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -6825,7 +6949,14 @@
 	</Entry>
 <Entry frequency="8380000">mood<nouns>
 			<translations>
-				<translation gender="m">humor</translation>
+                            <grouptranslation>
+				<translation gender="m">humor / estat d'ànim</translation>
+                                <translation gender="f">disposició d'ànim</translation>
+                                </grouptranslation>
+                                <grouptranslation>
+                                <translation gender="m">clima / ambient</translation>
+                                <translation gender="f">atmòsfera</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
                 <expressions>mood swings
@@ -6873,9 +7004,9 @@
 				<translation register="slang" intransitive="true">baixar els pantalons i mostrar el cul a algú</translation>
 			</translations>
 		</verbs>
-                <expressions>over the moon
+                <expressions>to be over the moon
                     <translations>
-                        <translation register="colloquial">encantat / entusiasmat / extàtic (formal)</translation>
+                        <translation register="colloquial">ser al setè cel / estar boig d'alegria</translation>
                     </translations>
                 </expressions>
 	</Entry>
@@ -6890,6 +7021,15 @@
 				<translation transitive="true">amarrar</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                    <translations>
+                        <grouptranslation>
+                        <translation gender="f">bruguera</translation>
+                        <translation gender="m">bruguerar</translation>
+                        </grouptranslation>
+                        <translation capitalized="Moor" gender="mf">moro</translation>
+                    </translations>
+                </nouns>
 	</Entry>
 <Entry frequency="168000">moorhen<nouns>
 			<translations>
@@ -6897,6 +7037,19 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="3320000">mooring<nouns>
+        <translations><date>0213</date>
+            <translation gender="m">amarrador</translation>
+            <translation sourceplural="moorings" gender="fpl">amarres</translation>
+        </translations>
+    </nouns>
+</Entry>         
+<Entry frequency="7810000">Moorish<adjectives>
+        <translations><date>0213</date>
+            <translation>andalusí</translation>
+        </translations>
+    </adjectives>
+</Entry> 
 <Entry frequency="32200000">moose<nouns>
 			<translations>
 				<translation catagory="animal-animal" gender="m">ant<plural>moose</plural><catnote>Al Canadà i als Estats Units: 'ant' = 'moose'. En Europa: 'ant' = 'elk'.</catnote></translation>
@@ -6944,7 +7097,8 @@
 	</Entry>
 <Entry frequency="7780000">moral<nouns>
 			<translations>
-				<translation gender="m">moral</translation>
+                                <translation gender="f">lliçó moral</translation>
+                                <translation sourceplural="morals" gender="mpl">principis</translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -6952,6 +7106,11 @@
 				<translation>moral</translation>
 			</translations>
 		</adjectives>
+                <expressions>moral boundaries
+                    <translations>
+                        <translation gender="mpl">escrúpols de consciència</translation>
+                    </translations>
+                </expressions>
 	</Entry> 
 <Entry frequency="77600000">morale<nouns>
         <translations><date>0113</date>
