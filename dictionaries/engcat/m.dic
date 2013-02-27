@@ -4231,6 +4231,7 @@
 			<translations>
 				<translation>brut<example>The child's face is &lt;b&gt;messy&lt;/b&gt; because she had ice cream after her lunch.</example></translation>
                                 <translation>desordenat<example>My house is so &lt;b&gt;messy&lt;/b&gt; it's a wonder I can ever find anything.</example></translation>
+                                <translation>enrevessat</translation>
                                 <translation>potiner</translation>
 			</translations>
 		</adjectives>
@@ -4384,8 +4385,8 @@
 	</Entry>
 <Entry frequency="17700000">meter<nouns>
 			<translations>
-				<translation local="us" gender="m">metre<otherlocal>metre</otherlocal><catnote>Els americans no utilitzen el sistema mètric decimal.</catnote>
-				</translation>
+				<translation local="us" gender="m">metre<otherlocal>metre</otherlocal><catnote>Els americans no utilitzen el sistema mètric decimal.</catnote></translation>
+                                <translation gender="m">comptador / indicador</translation>
 			</translations>
 		</nouns>
                 <expressions>meter squared
@@ -4487,6 +4488,15 @@
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="8690000">mettle<nouns>
+        <translations><date>0213</date>
+        <grouptranslation>
+            <translation gender="m">tremp</translation>
+            <translation gender="f">fortalesa</translation>
+        </grouptranslation>
+        </translations>
+    </nouns>
+</Entry>         
 <Entry frequency="3400000">mew<verbs>
 			<translations>
 				<translation catagory="animal" intransitive="true">miolar</translation>
@@ -4682,7 +4692,7 @@
 		</adjectives>
                 <expressions>middle name
                     <translations>
-                        <translation gender="m">segon nom</translation>
+                        <translation gender="m">segon nom de pila<engexamp>Discretion is my middle name.</engexamp><catexamp>Sóc la discreció personificada.</catexamp></translation>
                     </translations>
                 </expressions>
                 <expressions>in the middle of
@@ -4759,6 +4769,25 @@
 			</translations>
 		</nouns>
 	</Entry> 
+<Entry frequency="9980000">midriff<nouns>
+        <translations><date>0213</date>
+                       <translation catagory="body" gender="f">panxa</translation>
+        </translations>
+    </nouns>
+</Entry>         
+<Entry frequency="13400000">midsection<nouns>
+        <translations><date>0213</date>
+            <translation catagory="body" gender="f">panxa</translation>
+            <translation gender="f">secció central</translation>
+        </translations>
+    </nouns>
+</Entry> 
+        <Entry frequency="122000000">midst<nouns>
+        <translations><date>0213</date>
+            <translation gender="m">-<engexamp>In the midst of...</engexamp><catexamp>En ple, en plena (activitat, etc.)...</catexamp><engexamp>In our midst.</engexamp><catexamp>Entre nosaltrees.</catexamp></translation>
+        </translations>
+    </nouns>
+</Entry> 
 <Entry frequency="905000">midwife<nouns>
 			<translations>
                                 <translation catagory="work-job, medical" gender="f">llevadora<plural>midwives</plural>
@@ -4773,6 +4802,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="981000">mightiness<nouns>
+        <translations><date>0213</date>
+            <translation gender="f">magnitud</translation>
+        </translations>
+    </nouns>
+</Entry> 
 <Entry frequency="3580000">mighty<adjectives>
 			<translations>
 				<translation>poderós</translation>
@@ -4869,6 +4904,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="33300000">milieu<nouns>
+        <translations><date>0213</date>
+            <translation register="formal" gender="m">medi / ambient / entorn<plural>milieux, milieus</plural></translation>
+        </translations>
+    </nouns>
+</Entry>         
 <Entry frequency="154000">militancy<nouns>
 			<translations>
 				<translation gender="f">militància</translation>
@@ -4927,6 +4968,18 @@
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="4460000">milkmaid<nouns>
+        <translations><date>0213</date>
+            <translation gender="f">munyidora<catnote>Dona que muny.</catnote></translation>
+        </translations>
+    </nouns>
+</Entry>         
+<Entry frequency="13100000">milkman<nouns>
+        <translations><date>0213</date>
+            <translation gender="m">repartidor de la llet<plural>milkmen</plural></translation>
+        </translations>
+    </nouns>
+</Entry> 
 <Entry frequency="5170000">milkshake<nouns>
 			<translations>
 				<translation catagory="food-drink" termcat="true" gender="m">batut</translation>
@@ -5021,6 +5074,16 @@
 				<translation catagory="number-cardinal" gender="m">milió</translation>
 			</translations>
 		</nouns>
+                <expressions>to feel like a million dollars (or bucks)
+                    <translations>
+                        <translation local="us">sentir-se la mar de bé / sentir-se estupendament</translation>
+                    </translations>
+                </expressions>
+                <expressions>to look like a million dollars (or bucks)
+                    <translations>
+                        <translation local="us">fer un bon goig (una persona)</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2050000">millionaire<nouns>
 			<translations>
@@ -5045,18 +5108,33 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="3320000">millpond<nouns>
+        <translations><date>0213</date>
+            <translation gender="f">bassa de molí</translation>
+        </translations>
+    </nouns>
+</Entry>         
          <Entry frequency="2100000">millstone<nouns>
                             <translations><date>0309</date>
 				<translation gender="f">roda de molí / mola</translation>
-                                <translation gender="f">creu</translation>
+                                <grouptranslation>
+                                <translation gender="f">[fig.] creu</translation>
+                                <translation gender="m">pes a la consciència</translation>
+                                </grouptranslation>
 			</translations>
 		</nouns>
-                <expressions>be a millstone around (your) neck
+                <expressions>to be a millstone around (your) neck
                     <translations>
-                        <translation>ser la (seva) creu<example>Retired teacher, Justin Case, said "my name has been a &lt;b&gt;millstone&lt;/b&gt; around my neck my entire life".</example></translation>
+                        <translation>ser la (seva) creu / pesar com una llosa<example>Retired teacher, Justin Case, said "my name has been a &lt;b&gt;millstone&lt;/b&gt; around my neck my entire life".</example></translation>
                     </translations>
                 </expressions>
 	</Entry>
+<Entry frequency="3030000">millstream<nouns>
+        <translations><date>0213</date>
+            <translation gender="f">sèquia (de molí)</translation>
+        </translations>
+    </nouns>
+</Entry>         
 <Entry frequency="5630000">mime<nouns>
                             <translations><date>0508</date>
 				<translation gender="m">mim</translation>
@@ -5074,6 +5152,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="3320000">mimeograph<nouns>
+        <translations><date>0213</date>
+            <translation gender="m">ciclostil</translation>
+        </translations>
+    </nouns>
+    <verbs>
+        <translations>
+            <translation transitive="true">ciclostilar</translation>
+        </translations>
+    </verbs>
+</Entry>         
 <Entry frequency="509000">mimic<verbs>
 			<past>mimicked</past>
 			<participle>mimicked</participle>
@@ -5083,6 +5172,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="7310000">mimicry<nouns>
+        <translations><date>0213</date>
+            <translation gender="f">mimesi</translation>
+        </translations>
+    </nouns>
+</Entry>         
 <Entry frequency="269000">minaret<nouns>
 			<translations>
 				<translation catagory="religious" gender="m">minaret</translation>
@@ -5113,18 +5208,90 @@
 <Entry frequency="73100000">mind<nouns>
 			<translations>
 				<translation gender="f">ment</translation>
+                                <translation gender="m">cap / intel·lecte</translation>
 			</translations>
 		</nouns>
+                <expressions>to bear in mind
+                    <translations>
+                        <translation>no perdre de vista / tenir en compte</translation>
+                    </translations>
+                </expressions>
+                <expressions>to be in two minds about
+                    <translations>
+                        <translation>estar indecís (respecte a una cosa) / tenir-hi un sentiment ambigu</translation>
+                    </translations>
+                </expressions>
+                <expressions>to change your mind
+                    <translations>
+                        <translation>repensar-se una cosa / repensar-s'hi</translation>
+                    </translations>
+                </expressions>
+                <expressions>I don't mind...
+                    <translations>
+                        <translation>no tinc (cap) inconvenient (a...)</translation>
+                    </translations>
+                </expressions>
+                <expressions>in your mind's eye
+                    <translations>
+                        <translation>amb els ulls del pensament / mentalment / amb la imaginació</translation>
+                    </translations>
+                </expressions>
+                <expressions>mind game
+                    <translations>
+                        <grouptranslation>
+                        <translation gender="f">estratègia psicològica / maniobra psicològica</translation>
+                        <translation gender="m">joc psicològic</translation>
+                        </grouptranslation>
+                    </translations>
+                </expressions>
+                <expressions>who in their right mind...?
+                    <translations>
+                        <translation>a qui se li acut...?</translation>
+                    </translations>
+                </expressions>
+                <expressions>mind you...
+                    <translations>
+                        <translation>ep / que consti / tot sigui dit<catnote>Aquesta expressió funciona com una falca per cridar l'atenció de l'interlocutor.</catnote></translation>
+                    </translations>
+                </expressions>
 	</Entry>
+<Entry frequency="10800000">mind-boggling<adjectives>
+        <translations><date>0213</date>
+            <translation>prodigiós / formidable / al·lucinant</translation>
+        </translations>
+    </adjectives>
+</Entry>         
+<Entry frequency="3320000">minded<adjectives>
+        <translations><date>0213</date>
+            <translation>d'esperit (obert, pràctic, científic, etc.)</translation>
+        </translations>
+    </adjectives>
+</Entry> 
         <Entry frequency="7630000">mindful<adjectives>
                             <translations><date>0109</date>
-				<translation register="formal">(~ of / that) conscient (de / que)</translation>
+				<translation register="formal">[~ of / that] conscient (de / que)<engexamp>To be mindful of.</engexamp><catexamp>Atenir-se a / tenir present / tenir en compte.</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="57400000">mindless<adjectives>
+        <translations><date>0213</date>
+        <translation>sense sentit</translation>
+        <translation>estúpid</translation>
+            <translation>[task] maquinal</translation>
+        </translations>
+    </adjectives>
+</Entry>         
+<Entry frequency="355000">mindlessness<nouns>
+        <translations><date>0213</date>
+            <translation gender="f">estupidesa</translation>
+        </translations>
+    </nouns>
+</Entry> 
 <Entry frequency="8930000">mindset<nouns>
                             <translations><date>0110</date>
-				<translation gender="f">mentalitat<synonyms>mentality</synonyms></translation>
+				<translation gender="f">mentalitat</translation>
+                                <translation gender="f">disposició mental</translation>
+                                <translation gender="m">tarannà</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5190,6 +5357,27 @@
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="332000000">miniature<adjectives>
+        <translations><date>0213</date>
+            <translation>en miniatura</translation>
+        </translations>
+    </adjectives>
+    <nouns>
+        <translations>
+            <translation gender="f">miniatura</translation>
+        </translations>
+    </nouns>
+    <expressions>miniature golf
+        <translations>
+            <translation gender="m">minigolf</translation>
+        </translations>
+    </expressions>
+    <expressions>miniature railway
+        <translations>
+            <translation gender="m">ferrocarril en miniatura</translation>
+        </translations>
+    </expressions>
+</Entry>         
 <Entry frequency="2450000">minibar<nouns>
 			<translations>
 				<translation termcat="true" gender="m">minibar</translation>
@@ -5208,9 +5396,16 @@
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="14400000">minimalism<nouns>
+        <translations><date>0213</date>
+            <translation gender="m">minimalisme</translation>
+        </translations>
+    </nouns>
+</Entry>         
 <Entry frequency="1950000">minimalist<adjectives>
 			<translations>
 				<translation>minimalista</translation>
+                                <translation>reduït a l'essencial</translation>
 			</translations>
 		</adjectives>
                 <nouns>
@@ -5219,13 +5414,15 @@
 	</Entry>
 <Entry frequency="4180000">minimise<verbs>
 			<translations>
-				<translation local="gb" transitive="true">minimitzar<otherlocal>minimize</otherlocal></translation>
+				<translation local="gb" transitive="true">minimitzar</translation>
+                                <translation local="gb" transitive="true">subestimar / menystenir / treure importància (a)<otherlocal>minimize</otherlocal></translation>
 			</translations>
 		</verbs>
 	</Entry>
 <Entry frequency="34700000">minimize<verbs>
 			<translations>
 				<translation transitive="true">minimitzar</translation>
+                                <translation transitive="true">subestimar / menystenir / treure importància (a)</translation>
 			</translations>
 		</verbs>
 	</Entry>
@@ -5280,6 +5477,15 @@
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="1560000">ministrations<nouns>
+        <translations><date>0213</date>
+        <grouptranslation>
+            <translation gender="fpl">atencions</translation>
+            <translation gender="f">cura</translation>
+        </grouptranslation>
+        </translations>
+    </nouns>
+</Entry>         
 <Entry frequency="41000000">ministry<nouns>
 			<translations>
 				<translation catagory="politics, religious" gender="m">ministeri<plural>ministeries</plural></translation>
@@ -5321,8 +5527,8 @@
 	</Entry>
 <Entry frequency="7680000">minority<nouns>
 			<translations>
-				<translation gender="f">minoria<plural>minorities</plural>
-				</translation>
+				<translation gender="f">minoria</translation>
+                                <translation gender="f">minoria ètnica<plural>minorities</plural></translation>
 			</translations>
 		</nouns>
 		<adjectives>
@@ -5387,8 +5593,14 @@
 <Entry frequency="8800000">miracle<nouns>
 			<translations>
 				<translation gender="m">miracle</translation>
+                                <translation gender="m">prodigi</translation>
 			</translations>
 		</nouns>
+                <expressions>miracles do happen
+                    <translations>
+                        <translation>els miracles existeixen</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="1610000">miraculous<adjectives>
 			<translations>
@@ -5431,7 +5643,21 @@
 				<translation transitive="true">reflectir<synonyms>reflect</synonyms></translation>
 			</translations>
 		</verbs>
+                <expressions>mirror image
+                    <translations>
+                        <grouptranslation>
+                        <translation gender="f">imatge especular</translation>
+                        <translation gender="m">reflex invertit / reflex exacte</translation>
+                        </grouptranslation>
+                    </translations>
+                </expressions>
 	</Entry>
+<Entry frequency="14200000">mirth<nouns>
+        <translations><date>0213</date>
+            <translation gender="ffullform">hilaritat</translation>
+        </translations>
+    </nouns>
+</Entry>         
 <Entry frequency="1400000">misadventure<nouns>
 			<translations><date>0507</date>
 				<translation gender="f">desventura</translation>
@@ -5462,6 +5688,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="330000">misapprehend<verbs>
+        <translations><date>0213</date>
+            <translation transitive="true">interpretar malament</translation>
+        </translations>
+    </verbs>
+</Entry>       
+<Entry frequency="1510000">misapprehension<nouns>
+        <translations><date>0213</date>
+            <translation gender="m">malentès</translation>
+        </translations>
+    </nouns>
+</Entry> 
 <Entry frequency="712000">misappropriation<nouns>
 			<translations>
 				<translation catagory="financial" gender="f">malversació</translation>
@@ -5504,6 +5742,18 @@
 			</translations>
 		</adjectives>
 	</Entry>
+<Entry frequency="53600000">mischief<nouns>
+        <translations><date>0213</date>
+            <translation gender="f">entremaliadura / trapelleria</translation>
+        </translations>
+    </nouns>
+</Entry>         
+<Entry frequency="1230000">mischief-maker<nouns>
+        <translations><date>0213</date>
+            <translation gender="mf">agitador</translation>
+        </translations>
+    </nouns>
+</Entry> 
 <Entry frequency="434000">mischievous<adjectives>
 			<translations>
 				<translation>entremaliat / trapella / revoltós</translation>
@@ -5512,7 +5762,7 @@
 	</Entry>
 <Entry frequency="453000">misconception<nouns>
 			<translations>
-				<translation gender="f">equivocació</translation>
+				<translation gender="f">equivocació / falsa creença</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5528,6 +5778,19 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="7860000">misdirect<verbs>
+        <translations><date>0213</date>
+            <translation transitive="true">descaminar / malencaminar</translation>
+            <translation transitive="true">orientar malament</translation>
+        </translations>
+    </verbs>
+</Entry>         
+<Entry frequency="6690000">misdirection<nouns>
+        <translations><date>0213</date>
+            <translation gender="f">mala administració (o direcció)</translation>
+        </translations>
+    </nouns>
+</Entry> 
 <Entry frequency="597000">miser<nouns>
 			<translations>
 				<translation gender="mf">garrepa</translation>
@@ -5536,13 +5799,21 @@
 	</Entry>
         <Entry frequency="31600000">miserable<adjectives>
                 <translations><date>1109</date>
-                    <translation>trist</translation>
+                    <translation>trist / moix</translation>
                     <translation>miserable</translation>
+                    <translation>desolat</translation>
                     <translation>malhumorat / rondinaire</translation>
                     <translation>insignificant / irrisori</translation>
                 </translations>
             </adjectives>
 	</Entry>
+<Entry frequency="14900000">miserably<adverbs>
+        <translations><date>0213</date>
+            <translation>tristament / amb tristesa</translation>
+            <translation>rotundament<engexamp>It failed miserably.</engexamp><catexamp>Va fracassar estrepitosament.</catexamp></translation>
+        </translations>
+    </adverbs>
+</Entry>         
 <Entry frequency="282000">miserly<adjectives>
 			<translations>
 				<translation>garrepa / mesquí</translation>
@@ -7109,6 +7380,19 @@
                 <expressions>moral boundaries
                     <translations>
                         <translation gender="mpl">escrúpols de consciència</translation>
+                    </translations>
+                </expressions>
+                <expressions>moral compass
+                    <translations>
+                        <grouptranslation>
+                        <translation gender="m">model de conducta / referent moral</translation>
+                        <translation gender="mpl">principis morals</translation>
+                        </grouptranslation>
+                    </translations>
+                </expressions>
+                <expressions>to take the moral high ground
+                    <translations>
+                        <translation>donar lliçons de moral</translation>
                     </translations>
                 </expressions>
 	</Entry> 
