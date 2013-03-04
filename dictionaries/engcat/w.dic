@@ -814,6 +814,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="17200000">warring<adjectives>
+			<translations><date>0313</date>
+				<translation>en guerra / enemistat</translation>
+			</translations>
+		</adjectives>
+	</Entry>
         <Entry frequency="5790000">warrior<nouns>
 			<translations>
 				<translation gender="m">guerrer</translation>
@@ -2069,7 +2075,14 @@
 				<translation>si</translation>
 			</translations>
 		</conjunctions>
-	</Entry><Entry frequency="26800000">which<adjectives>
+	</Entry>
+        <Entry frequency="34100000">whey<nouns>
+			<translations><date>0313</date>
+				<translation catagory="food" gender="m">xerigot / sèrum</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="26800000">which<adjectives>
 			<translations>
 				<translation>quin</translation>
 			</translations>
@@ -2105,6 +2118,18 @@
 				<translation gender="m">capritx</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="61100000">whimsical<adjectives>
+			<translations><date>0313</date>
+				<translation>capritxós</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="1080000">whimsically<adverbs>
+			<translations><date>0313</date>
+				<translation>capritxosament</translation>
+			</translations>
+		</adverbs>
 	</Entry>
         <Entry frequency="9830000001">whine<verbs>
                             <translations><date>0309</date>
@@ -2146,6 +2171,12 @@
                     </translations>
                 </phrasalverbs>
             </Entry>
+            <Entry frequency="22800">whipped cream<nouns>
+			<translations><date>0313</date>
+				<translation catagory="food" gender="f">nata muntada</translation>
+			</translations>
+		</nouns>
+	</Entry>
             <Entry frequency="1540000">whirl<verbs>
                <translations><date>0507</date>
                    <translation transitive="true">fer girar</translation>
@@ -2410,6 +2441,12 @@
                         </translations>
                     </expressions>
                 </Entry>
+<Entry frequency="102000000">wholly<adverbs>
+			<translations><date>0313</date>
+				<translation>completament / totalment</translation>
+			</translations>
+		</adverbs>
+	</Entry>                
         <Entry frequency="184000000">whom<pronouns>
                             <translations><date>0908</date>
                                 <translation register="formal">qui</translation>
@@ -2617,6 +2654,12 @@
                     </translations>
                 </expressions>
             </Entry>
+            <Entry frequency="40700000">wildcard<nouns>
+			<translations><date>0313</date>
+				<translation gender="m">(caràcter) comodí</translation>
+			</translations>
+		</nouns>
+	</Entry>
             <Entry frequency="7820000">wildcat<nouns>
                 <translations>
                     <translation catagory="animal" gender="m">gat salvatge</translation>
@@ -2640,6 +2683,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="71900000">wildly<adverbs>
+			<translations><date>0313</date>
+				<translation>descontroladament</translation>
+                                <translation>molt / extremadament</translation>
+			</translations>
+		</adverbs>
+	</Entry>        
 <Entry frequency="1300000">wildness<nouns>
 			<translations>
                         <grouptranslation>
@@ -2718,6 +2768,11 @@
 				<translation local="gb" register="slang" gender="f">titola<plural>willies</plural><catnote>'Willy' és una paraula infantívola.</catnote><otherlocal>wiener</otherlocal></translation>
 			</translations>
 		</nouns>
+                <expressions>[something] to give (somebody) the willies
+                    <translations>
+                        <translation register="colloquial">donar esgarrifances<engexamp>That picture gives me the willies.</engexamp><catexamp>Aquest quadre em dóna esgarrifances.</catexamp></translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="396000">willy-nilly<adverbs>
 			<translations>
 				<translation>a tort i a dret</translation>
@@ -2788,6 +2843,17 @@
                         </translations>
                 </verbs>
 	</Entry>
+        <Entry frequency="83500000">winch<nouns>
+			<translations><date>0313</date>
+				<translation gender="m">argue / cabrestant<plural>winches</plural></translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation transitive="true">desplaçar amb un cabrestant</translation>
+                    </translations>
+                </verbs>
+	</Entry>
         <Entry frequency="251000000">wind<nouns>
                             <translations><date>0709</date>
 				<translation catagory="weather" gender="m">vent</translation>
@@ -2855,6 +2921,24 @@
                     </translations>
                 </expressions>
 	</Entry>
+        <Entry frequency="3800000">windbreak<nouns>
+			<translations><date>0313</date>
+				<translation gender="m">paravent / tallavent</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="14000000">windbreaker<nouns>
+			<translations><date>0313</date>
+				<translation catagory="clothes" gender="f">jaqueta paravent</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1260000">windcheater<nouns>
+			<translations><date>0313</date>
+				<translation catagory="clothes" register="dated" local="gb" gender="f">jaqueta paravent</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="2000000">winding<adjectives>
                 <translations><date>1008</date>
                     <translation>tortuós</translation>
@@ -2868,7 +2952,14 @@
 		</nouns>
 	</Entry><Entry frequency="58200000">window<nouns>
 			<translations>
-				<translation catagory="computers" termcat="true" gender="f">finestra</translation>
+                                <translation catagory="household" gender="f">finestra</translation>
+				<translation disambiguate="computers" termcat="true" gender="f">finestra</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="10700000">window frame<nouns>
+			<translations><date>0313</date>
+				<translation catagory="household" gender="m">marc de finestra</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -3180,7 +3271,14 @@
 				<translation gender="f">bruixeria</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="675000000">with<prepositions>
+	</Entry>
+        <Entry frequency="10500000">witch doctor<mistakes>witchdoctor</mistakes><nouns>
+			<translations><date>0313</date>
+				<translation gender="m">fetiller / curandero</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="675000000">with<prepositions>
 			<translations>
 				<translation>amb</translation>
 			</translations>
@@ -3337,6 +3435,14 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="11300000">womanhood<nouns>
+			<translations><date>0313</date>
+                            <translation gender="f">edat adulta (femenina)<engexamp>To reach womanhood.</engexamp><catexamp>[una dona] Arribar a l'edat adulta.</catexamp></translation>
+                            <translation gender="f">feminitat</translation>
+				<translation gender="fpl">dones</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="1870000">womanizer<nouns>
                             <translations><date>1008</date>
 				<translation gender="m">seductor de dones / Don Joan / Casanova</translation>
@@ -3379,6 +3485,18 @@
 			</translations>
 		</adverbs>
 	</Entry>
+        <Entry frequency="21800000">wondrous<adjectives>
+			<translations><date>0313</date>
+				<translation>meravellós</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="824000">wondrously<adverbs>
+			<translations><date>0313</date>
+				<translation>meravellosament</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 <Entry frequency="2000000">woo<verbs>
                             <translations><date>0508</date>
 				<translation transitive="true">fer l'aleta</translation>
@@ -3395,6 +3513,11 @@
                                 <translation beforenoun="true">de fusta</translation>
 			</translations>
 		</nouns>
+                <expressions>wood screw
+                    <translations>
+                        <translation gender="m">cargol per a fusta</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="392000">woodcutter<nouns>
                             <translations><date>1108</date>
 				<translation catagory="work-job" gender="mf">llenyataire / abatedor / picador / tallador<synonyms>lumberjack, wood(s)man, logger</synonyms></translation>
@@ -3560,6 +3683,12 @@
                         <translation>intentar persuadir (algú)<example>He hasn't agreed yet but I'm still &lt;b&gt;working on&lt;/b&gt; him.</example></translation>
                     </translations>
                 </phrasalverbs>
+                <phrasalverbs>work out
+                    <translations>
+                        <translation>fer exercici</translation>
+                        <translation>sortir bé</translation>
+                    </translations>
+                </phrasalverbs>
                   <phrasalverbs>work (something) out
                     <translations>
                         <translation>arribar a entendre / resoldre</translation>
@@ -3625,7 +3754,14 @@
 				<translation catagory="work" gender="f">jornada laboral</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="731000">workload<nouns>
+	</Entry>
+        <Entry frequency="4830000">working week<nouns>
+			<translations><date>0313</date>
+				<translation local="gb" gender="f">setmana laboral<otherlocal>workweek</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="731000">workload<nouns>
 			<translations><date>0408</date>
 				<translation gender="f">càrrega de feina</translation>
 			</translations>
@@ -3635,7 +3771,15 @@
 				<translation local="gb" gender="mf">company de feina</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="42600000">workshop<nouns>
+	</Entry>
+        <Entry frequency="122000000">worksheet<nouns>
+			<translations><date>0313</date>
+				<translation disambiguate="education" gender="m">full d'exercicis</translation>
+                                <translation gender="m">full de treball</translation>                                
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="42600000">workshop<nouns>
 			<translations>
 				<translation catagory="work" gender="m">taller<engnote>'Taller' means 'workshop' both in the sense 'a room where a mechanic / carpenter etc. works'  and also in the sense 'a meeting where people discuss their knowledge and experience on a particular topic' (e.g. 'writers' workshop' / 'quantum physics workshop').</engnote>
 				</translation>
@@ -3646,7 +3790,14 @@
 				<translation gender="f">vaga de zel</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="262000000">world<nouns>
+	</Entry>
+        <Entry frequency="7220000">workweek<nouns>
+			<translations><date>0313</date>
+				<translation gender="f">setmana laboral</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="262000000">world<nouns>
 			<translations>
 				<translation gender="m">món</translation>
 			</translations>
@@ -3659,6 +3810,11 @@
                 <expressions>World Economic Forum
                     <translations>
                         <translation gender="m">Fòrum Econòmic Mundial</translation>
+                    </translations>
+                </expressions>
+                <expressions>World Heritage
+                    <translations>
+                        <translation gender="m">Patrimoni de la Humanitat / Patrimoni Mundial</translation>
                     </translations>
                 </expressions>
                 <expressions>World War I
@@ -3802,7 +3958,25 @@
 				<translation catagory="religious" local="gb" gender="mf">creient / devot<otherlocal>worshiper</otherlocal></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="283000000">worth<nouns>
+	</Entry>
+        <Entry frequency="1500000000">worst<adjectives>
+			<translations><date>0313</date>
+				<translation>pitjor</translation>
+			</translations>
+		</adjectives>
+                <adverbs>
+                    <translations>
+                        <translation>pitjor<engexamp>The worst hit areas.</engexamp><catexamp>Les zones més afectades.</catexamp></translation>
+                    </translations>
+                </adverbs>
+                <nouns>
+                    <translations>
+                        <translation sourceplural="the worst">el pitjor</translation>
+                    </translations>
+                </nouns>
+                        
+	</Entry>
+        <Entry frequency="283000000">worth<nouns>
 			<translations>
 				<translation gender="m">valor</translation>
 			</translations>
@@ -3830,10 +4004,10 @@
 				<translation>digne</translation>
 			</translations>
 		</adjectives>
-	</Entry>
+	</Entry>       
         <Entry frequency="35000000">would-be<adjectives>
                 <translations><date>1009</date>
-                    <translation beforenoun="true">aspirant / en potència / potencial<engexamp>A would-be poet</engexamp><catexamp>Un aspirant a poeta</catexamp><engexamp>The would-be parents</engexamp><catexamp>Els aspirants a pares</catexamp></translation>
+                    <translation beforenoun="true">aspirant / en potència / potencial<engexamp>A would-be poet.</engexamp><catexamp>Un aspirant a poeta.</catexamp><engexamp>The would-be parents.</engexamp><catexamp>Els aspirants a pares.</catexamp></translation>
                 </translations>
             </adjectives>
         </Entry>
@@ -3899,6 +4073,11 @@
 				<translation gender="m">embolcall</translation>
 			</translations>
 		</nouns>
+                <expressions>wrapping paper
+                    <translations>
+                        <translation gender="m">paper de regal</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="1360000">wrath<nouns>
 			<translations>
 				<translation gender="ffullform">ira<catnote>El sustantiu 'wrath' és una paraula culte que significa 'ira'.  Una paraula més usual seria 'anger'.  'To incur somebody's wrath' significa 'fer enfadar algú'.  No és una paraula molt usual i s'utilitza sobretot en l'expressió 'the wrath of God' (l'ira de Déu).</catnote>
@@ -3946,7 +4125,14 @@
                         <translation catagory="sports-event" gender="f">lluita grecoromana</translation>
                     </translations>
                 </expressions>
-	</Entry><Entry frequency="2030000">wrinkle<nouns>
+	</Entry>
+        <Entry frequency="21600000">wretched<adjectives>
+			<translations><date>0313</date>
+                            <translation>miserable / desgraciat</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="2030000">wrinkle<nouns>
 			<translations>
 				<translation catagory="body" gender="f">arruga</translation>
 			</translations>
@@ -3974,6 +4160,13 @@
                         <translation catagory="computers" termcat="internet" gender="m">reposacanells</translation>
                     </translations>
                 </expressions>
+	</Entry>
+           <Entry frequency="44300000">wristband<nouns>
+			<translations><date>0313</date>
+                            <translation disambiguate="sports" gender="f">canellera</translation>
+                            <translation gender="f">polsera (de silicona, goma, etc.) / polsera solidària</translation>
+			</translations>
+		</nouns>
 	</Entry>
          <Entry frequency="16400000">writ<nouns>
                             <translations><date>0609</date>
