@@ -87,9 +87,14 @@
 		</nouns>
 	</Entry><Entry frequency="4090000">vain<adjectives>
 			<translations>
-				<translation>vanitós<engexamp>In vain</engexamp><catexamp>En va</catexamp></translation>
+				<translation>vanitós</translation>
 			</translations>
 		</adjectives>
+                <expressions>in vain
+                    <translations>
+                        <translation>en va</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="218000">vainglorious<adjectives>
 			<translations>
 				<translation register="literary">vanagloriós</translation>
@@ -103,7 +108,7 @@
 	</Entry>
         <Entry frequency="884000">valedictory<adjectives>
 			<translations><date>0209</date>
-				<translation register="formal">de comiat<engexamp>Valedictory speech</engexamp><catexamp>Discurs de comiat</catexamp></translation>
+				<translation register="formal">de comiat<engexamp>Valedictory speech.</engexamp><catexamp>Discurs de comiat.</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -128,6 +133,23 @@
 				<translation catagory="chemistry" gender="f">valència<plural>valencies</plural></translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="1390000000">valentine<nouns>
+			<translations><date>0313</date>
+				<translation gender="f">targeta de Sant Valentí</translation>
+                                <translation gender="mf">enamorat / recipient d'una targeta de Sant Valentí</translation>
+			</translations>
+		</nouns>
+                <expressions>Valentine's Day
+                    <translations>
+                        <translation gender="m">dia de Sant Valentí</translation>
+                    </translations>
+                </expressions>
+                <expressions>Valentine's Day card
+                    <translations>
+                        <translation gender="f">targeta de Sant Valentí</translation>
+                    </translations>
+                </expressions>
 	</Entry>
          <Entry frequency="20400000">valet<nouns>
                             <translations><date>1108</date>
@@ -214,6 +236,19 @@
         <Entry frequency="2280000">vanadium<nouns>
                             <translations><date>0508</date>
 				<translation catagory="chemistry" gender="m">vanadi</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="44900000">vandal<nouns>
+			<translations><date>0313</date>
+				<translation gender="mf">vàndal</translation>
+                                <translation gender="mf">vàndal</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="42900000">vandalism<nouns>
+			<translations><date>0106</date>
+				<translation gender="m">vandalisme</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -330,7 +365,14 @@
 				<translation intransitive="true">variar<example>The latest presidential polls &lt;b&gt;vary&lt;/b&gt; widely.</example><example>The museum's opening hours &lt;b&gt;vary&lt;/b&gt; according to the season.</example></translation>
 			</translations>
 		</verbs>
-	</Entry><Entry frequency="108000">vascularisation<nouns>
+	</Entry>
+         <Entry frequency="6310000">vascular<adjectives>
+			<translations>
+				<translation catagory="medical">vascular<engexamp>Vascular surgery.</engexamp><catexamp>Cirurgia vascular.</catexamp><engexamp>Vascular disease</engexamp><catexamp>Malaltia vascular</catexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="108000">vascularisation<nouns>
 			<translations>
 				<translation catagory="medical" local="gb" gender="f">vascularització<otherlocal>vascularization</otherlocal></translation>
 			</translations>
@@ -375,12 +417,14 @@
 				<translation>gran / extens / vast</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="6310000">vascular<adjectives>
-			<translations>
-				<translation catagory="medical">vascular<engexamp>Vascular surgery</engexamp><catexamp>Cirurgia vascular</catexamp><engexamp>Vascular disease</engexamp><catexamp>Malaltia vascular</catexamp></translation>
+	</Entry>
+         <Entry frequency="33300000">vastly<adverbs>
+			<translations><date>0313</date>
+				<translation>enormement</translation>
 			</translations>
-		</adjectives>
-	</Entry><Entry frequency="74400000">vat<nouns>
+		</adverbs>
+	</Entry>
+       <Entry frequency="74400000">vat<nouns>
                         <translations><date>1108</date>
                             <translation gender="m">cup<catnote>Gran recipient en el qual s'elabora i/o es guarda beguda alcohòlica, com ara el vi o la cervesa.</catnote></translation>
                                 <translation local="gb" disambiguate="financial" capitalized="VAT" gender="m">IVA<catnote>'Value Added Tax'.</catnote><engnote>'Impost sobre el Valor Afegit'.</engnote></translation>
@@ -473,7 +517,20 @@
                         <translation catagory="medical" gender="m">estat vegetatiu<engexamp>Persistent vegetative state</engexamp><catexamp>Estat vegetatiu persistent</catexamp></translation>
                     </translations>
                 </expressions>
-	</Entry><Entry frequency="5420000">veil<nouns>
+	</Entry>
+        <Entry frequency="3140000000">vehicle<nouns>
+			<translations><date>0313</date>
+				<translation catagory="transport" gender="m">vehicle</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="36000000">vehicular<adjectives>
+			<translations><date>0313</date>
+				<translation catagory="transport">vehicular</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="5420000">veil<nouns>
 			<translations>
 				<translation catagory="clothes" gender="m">vel</translation>
 			</translations>
