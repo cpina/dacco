@@ -14958,7 +14958,7 @@
 
 			<translations>
 
-				<translation catagory="language" gender="m">somali</translation>
+				<translation disambiguate="linguistics" gender="m">somali</translation>
 
                                 <translation catagory="nationality-africa" gender="mf">somali</translation>
 
@@ -23957,7 +23957,7 @@ s
 
 			<translations>
 
-				<translation catagory="financial" local="gb" transitive="true">subvencionar<otherlocal>subsidize</otherlocal>
+				<translation catagory="financial" local="gb" transitive="true">subvencionar / donari subsidi<otherlocal>subsidize</otherlocal>
 
 				</translation>
 
@@ -23969,7 +23969,7 @@ s
 
 			<translations>
 
-				<translation catagory="financial" local="us" transitive="true">subvencionar<otherlocal>subsidise</otherlocal>
+				<translation catagory="financial" local="us" transitive="true">subvencionar / donar subsidi<otherlocal>subsidise</otherlocal>
 
 				</translation>
 
@@ -24416,16 +24416,28 @@ s
 		</nouns>
 
 	</Entry><Entry frequency="5090000">Sudan<nouns>
-
 			<translations>
-
 				<translation catagory="country-africa" gender="m">Sudan</translation>
-
 			</translations>
-
 		</nouns>
-
-	</Entry><Entry frequency="4770000">sudden<adjectives>
+                <expressions>South Sudan
+                    <translations>
+                        <translation catagory="country-africa" gender="m">Sudan del Sud</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+<Entry frequency="34000000">Sudanese<adjectives>
+        <translations><date>0313</date>
+            <translation>sudanès</translation>
+        </translations>
+    </adjectives>
+    <expressions>South Sudanese
+        <translations>
+            <translation>sud-sudanès</translation>
+        </translations>
+    </expressions>    
+</Entry>
+        <Entry frequency="4770000">sudden<adjectives>
 
 			<translations>
 
