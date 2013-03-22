@@ -627,7 +627,7 @@
 
 			<translations><date>0113</date>
 
-				<translation catagory="food" gender="m">salami</translation>
+				<translation catagory="food-meat" gender="m">salami</translation>
 
 			</translations>
 
@@ -1531,7 +1531,11 @@
 			</translations>
 
 		</nouns>
-
+                <expressions>saturn peach
+                    <translations>
+                        <translation catagory="food-fruit" gender="m">préssec pla / préssec paraguaià</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="3450000">sauce<nouns>
 
 			<translations>
@@ -1597,7 +1601,14 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="11500000">sauna<nouns>
+	</Entry>
+        <Entry frequency="7320000">sauerkraut<nouns>
+			<translations><date>0313</date>
+				<translation catagory="food" gender="m">xucrut</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="11500000">sauna<nouns>
 
 			<translations>
 
@@ -1634,6 +1645,15 @@
 		</nouns>
 
 	</Entry>
+        <Entry frequency="31400000">sauté<verbs>
+            <past>sautéed</past>
+            <participle>sautéed</participle>
+            <gerund>sautéing</gerund>
+        <translations><date>0313</date>
+            <translation catagory="food" transitive="true">saltar</translation>
+        </translations>
+    </verbs>
+</Entry> 
         <Entry frequency="90200000">savage<adjectives>
                 <translations><date>0510</date>
                     <translation>salvatge / brutal / cru</translation>
@@ -6939,7 +6959,14 @@
 
 		</nouns>
 
-	</Entry><Entry frequency="2350000">shallow<adjectives>
+	</Entry>
+        <Entry frequency="8240000">shallot<nouns>
+			<translations><date>0313</date>
+				<translation catagory="food-vegetable" gender="f">escalunya</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2350000">shallow<adjectives>
 
 			<translations>
 
@@ -7365,6 +7392,12 @@
                         <translation catagory="household-room-bathroom" gender="f">escuma d'afaitar</translation>
                     </translations>
                 </expressions>
+	</Entry>
+        <Entry frequency="5100000">shawarma<nouns>
+			<translations><date>0505</date>
+				<translation catagory="food-meat" gender="m">xauarma</translation>
+			</translations>
+		</nouns>
 	</Entry>
         <Entry frequency="1090000">shawl<nouns>
 
@@ -11081,7 +11114,11 @@
 			</translations>
 
 		</nouns>
-
+                <expressions>freestyle skiing
+                    <translations>
+                        <translation catagory="sports-event" gender="m">acroesquí</translation>
+                    </translations>
+                </expressions>
 	</Entry>
         <Entry frequency="669000">skilful<adjectives>
 
@@ -16073,7 +16110,14 @@
 
 		</verbs>
 
-	</Entry><Entry frequency="31000000">Spanish<nouns>
+	</Entry>
+        <Entry frequency="74700000">spandex<nouns>
+        <translations><date>0313</date>
+            <translation catagory="material" gender="m">elastà</translation>
+        </translations>
+    </nouns>
+</Entry>
+        <Entry frequency="31000000">Spanish<nouns>
 
 			<translations>
 
@@ -20298,7 +20342,7 @@ s
 
 			<translations>
 
-				<translation gender="m">statu quo<engnote>The article 'el' contracts before this noun (i.e. l'statu quo).</engnote></translation>
+				<translation gender="m">statu quo</translation>
 
 			</translations>
 
@@ -21753,7 +21797,14 @@ s
 
 		</nouns>
 
-	</Entry><Entry frequency="117000">stoning<nouns>
+	</Entry>
+        <Entry frequency="3130000">stonewashed<adjectives>
+        <translations><date>0313</date>
+            <translation>rentat a la pedra</translation>
+        </translations>
+    </adjectives>
+</Entry>
+        <Entry frequency="117000">stoning<nouns>
 
 			<translations>
 
@@ -27914,7 +27965,14 @@ s
 
 		</verbs>
 
-	</Entry><Entry frequency="2330000">systolic<adjectives>
+	</Entry>
+<Entry frequency="1730000">systole<nouns>
+        <translations><date>0313</date>
+            <translation catagory="biology" gender="f">sístole</translation>
+        </translations>
+    </nouns>
+</Entry>
+        <Entry frequency="2330000">systolic<adjectives>
 
 			<translations>
 

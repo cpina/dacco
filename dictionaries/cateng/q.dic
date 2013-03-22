@@ -403,6 +403,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="16000">queimada<nouns>
+			<translations><date>0313</date>
+				<translation catagory="food-drink" gender="f">queimada<engnote>An alcoholic, Galician drink made from orujo, sugar, lemon peel and coffee beans which is traditionally prepared in an earthenware pot and set alight whilst the preparer recites a special incantation.</engnote></translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="51800">queixa<nouns>
 			<translations><date>0205</date>
 				<translation gender="f">complaint</translation>
@@ -411,11 +417,14 @@
 	</Entry>
 	<Entry frequency="693">queixal<nouns>
 			<translations><date>0205</date>
-				<translation catagory="body" gender="m">molar<catexamp>Queixal del seny</catexamp>
-					<engexamp>Wisdom tooth</engexamp>
-				</translation>
+				<translation catagory="body" gender="m">molar</translation>
 			</translations>
 		</nouns>
+                <expressions>queixal del seny
+                    <translations>
+                        <translation catagory="body" gender="m">wisdom tooth</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 	<Entry frequency="18500">queixar-se<verbs conj="regular">
 			<translations><date>0205</date>
@@ -483,7 +492,7 @@
 			</translations>
 		</nouns>
 	</Entry>	
-        <Entry frequency="222">quetxup<nouns>
+        <Entry frequency="222">quètxup<nouns>
 			<translations><date>0205</date>
 				<translation catagory="food" gender="m">(tomato) ketchup / tomato sauce (Br.)</translation>
 			</translations>
@@ -503,7 +512,18 @@
 	</Entry>
             <Entry frequency="1730">quiche<nouns>
 			<translations><date>0106</date>
-				<translation catagory="food" gender="f">quiche<catexamp>Quiche lorraine</catexamp><engexamp>Quiche lorraine</engexamp></translation>
+				<translation catagory="food" gender="f">quiche</translation>
+			</translations>
+		</nouns>
+                <expressions>quiche lorraine
+                    <translations>
+                        <translation catagory="food" gender="f">quiche lorraine</translation>
+                    </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="20300">quico<nouns>
+			<translations><date>0313</date>
+				<translation catagory="food" sourceplural="quicos" gender="mpl">corn nuts / toasted corn</translation>
 			</translations>
 		</nouns>
 	</Entry>
