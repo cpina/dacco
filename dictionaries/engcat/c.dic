@@ -1148,10 +1148,15 @@
                 <translation gender="fpl">llaminadures</translation><otherlocal>sweets</otherlocal></grouptranslation>
             <translation catagory="food" local="us" gender="f">xocolata<otherlocal>chocolate</otherlocal></translation>               
         </translations>
-    </nouns>
+    </nouns>  
     <expressions>candy store
         <translations>
             <translation local="us" gender="f">botiga de llaminadures<otherlocal>sweet shop</otherlocal></translation>
+        </translations>
+    </expressions>
+    <expressions>cotton candy
+        <translations>
+            <translation catagory="food" local="us" gender="m">cotó de sucre<otherlocal>candyfloss</otherlocal></translation>
         </translations>
     </expressions>
         <expressions>like taking candy from a baby
@@ -1160,6 +1165,12 @@
             </translations>
         </expressions>
     </Entry>
+    <Entry frequency="4920000">candyfloss<nouns>
+			<translations><date>0413</date>
+				<translation catagory="food" local="gb" gender="m">cotó de sucre<otherlocal>cotton candy</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>   
     <Entry frequency="253000000">cane<nouns>
             <translations><date>0512</date>
                 <grouptranslation>
@@ -1294,6 +1305,17 @@
         </translations>
     </adjectives>
 </Entry>        
+<Entry frequency="33700000">canter<nouns>
+			<translations><date>0413</date>
+				<translation gender="m">mig galop</translation>
+			</translations>
+		</nouns>
+                <verbs>
+                    <translations>
+                        <translation intransitive="true">anar a mig galop</translation>
+                    </translations>
+                </verbs>
+	</Entry>   
 <Entry frequency="573000">canting<nouns>
         <translations>
             <translation disambiguate="sports-event-snowboarding" termcat="true" gender="m">decantador</translation>
@@ -1623,6 +1645,12 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="9070000">caraway<nouns>
+			<translations><date>0105</date>
+				<translation catagory="food-spice" gender="m">comí de prat</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="1110000">carbohydrate<nouns>
                             <translations><date>0408</date>
 				<translation catagory="biology" gender="m">glúcid / hidrat de carboni / carbohidrat</translation>
@@ -1634,6 +1662,11 @@
             <translation catagory="chemistry" gender="m">carboni</translation>
         </translations>
     </nouns>
+    <expressions>carbon sequestration
+        <translations>
+            <translation gender="m">emmagatzematge de diòxid de carboni</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="3530000">carbonated<adjectives>
         <translations>
@@ -1734,6 +1767,12 @@
             </translations>
         </expressions>
     </Entry>
+    <Entry frequency="17200000">cardamom<nouns>
+			<translations><date>0313</date>
+				<translation catagory="food-spice" gender="m">cardamom</translation>
+                                </translations>
+		</nouns>
+	</Entry>
 <Entry frequency="4450000">cardboard<nouns>
         <translations>
             <translation gender="m">cartó / cartró</translation>
@@ -2529,6 +2568,22 @@
         </translations>
     </nouns>
     </Entry> 
+    <Entry frequency="19100000">cashew<nouns>
+			<translations><date>0413</date>
+				<translation catagory="food" gender="m">anacard</translation>
+			</translations>
+		</nouns>
+                <expressions>cashew nut
+                    <translations>
+                        <translation catagory="food" gender="m">anacard</translation>
+                    </translations>
+                </expressions>
+                <expressions>cashew tree
+                    <translations>
+                        <translation catagory="plants-tree" gender="m">anacard</translation>
+                    </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="22000000">cash flow<nouns><mistakes>cashflow</mistakes>
         <translations>
             <translation catagory="financial" gender="m">flux de caixa</translation>
@@ -3052,7 +3107,7 @@
         </Entry>
 <Entry frequency="145000">categorically<adverbs>
         <translations>
-            <translation>rotundament</translation>
+            <translation>categòricament / rotundament</translation>
         </translations>
     </adverbs>
     </Entry>
@@ -3339,6 +3394,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+ <Entry frequency="60800000">cayenne<nouns>
+			<translations><date>0313</date>
+				<translation catagory="food-spice" gender="f">caiena</translation>
+			</translations>
+		</nouns>
+                <expressions>cayenne pepper
+                    <translations>
+                        <translation catagory="food-spice" gender="m">pebre de caiena</translation>
+                    </translations>
+                </expressions>
+	</Entry>        
 <Entry frequency="50300000">cayman<nouns>
         <translations>
             <translation disambiguate="animal-animal" gender="m">caiman<catnote>També s'escriu 'caiman'.</catnote></translation>
@@ -3476,7 +3542,7 @@
             </adjectives>
             <expressions>celiac disease
                 <translations>
-                    <translation catagory="medical-illness" gender="f">malaltia celíaca</translation>
+                    <translation catagory="medical-illness" gender="f">malaltia celíaca / celiaquia</translation>
                 </translations>
             </expressions>
             <expressions>celiac sufferer
@@ -5263,6 +5329,12 @@
         </translations>
     </nouns>
     </Entry>
+      <Entry frequency="45800000">cheeseburger<nouns>
+            <translations><date>0413</date>
+                <translation catagory="food" gender="f">hamburguesa amb formatge</translation>
+            </translations>
+        </nouns>
+    </Entry>
 <Entry frequency="1450000">cheetah<nouns>
         <translations>
             <translation gender="m">guepard</translation>
@@ -5875,8 +5947,8 @@
 <Entry frequency="20400000">chip<nouns>
         <translations>
             <translation disambiguate="computers" termcat="true" gender="m">xip</translation>
-            <translation disambiguate="food" local="gb" picture="http://photos17.flickr.com/19770290_4c04bd9f9f.jpg" flickr="http://www.flickr.com/photos/iwouldstay/19770290/" gender="f">patata fregida<otherlocal>(French) fry</otherlocal></translation>
-            <translation disambiguate="food" local="us" picture="http://photos16.flickr.com/22620207_95c91845ae.jpg" flickr="http://www.flickr.com/photos/tienmao/22620207/" gender="f">patata fregida<otherlocal>crisp</otherlocal></translation>
+            <translation disambiguate="food" local="gb" gender="f">patata fregida<otherlocal>(French) fry</otherlocal></translation>
+            <translation disambiguate="food" local="us" gender="f">patata xip<otherlocal>crisp</otherlocal></translation>
         </translations>
     </nouns>
     <phrasalverbs>chip away
@@ -6000,6 +6072,12 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="15300000">chloroform<nouns>
+			<translations><date>0413</date>
+				<translation catagory="chemistry" gender="m">cloroform</translation>
+			</translations>
+		</nouns>
+	</Entry>c
 <Entry frequency="2360000">chlorophyll<nouns>
         <translations>
             <translation catagory="biology" gender="f">clorofil·la </translation>
@@ -7419,7 +7497,7 @@
             <translations><date>0512</date>
                 <translation>net</translation>
                 <translation>[air] pur</translation>
-                <translation>[not polluting] net / ecològic<engexamp>Clean cars</engexamp><catexamp>Cotxes ecològics</catexamp><engexamp>Clean industry</engexamp><catexamp>Indústria neta</catexamp></translation>
+                <translation>[not polluting] net / ecològic<engexamp>Clean cars.</engexamp><catexamp>Cotxes ecològics.</catexamp><engexamp>Clean industry.</engexamp><catexamp>Indústria neta.</catexamp></translation>
                 <translation>[sheet, page..] en blanc</translation>
                 <translation>[reputation] impecable</translation>
                 <translation>[not having broken the law] sense antecedents / sense infraccions</translation>
@@ -7512,6 +7590,13 @@
         </translations>
     </nouns>
     </Entry>
+ <Entry frequency="104000000">cleanse<verbs>
+			<translations><date>0413</date>
+				<translation transitive="true">netejar</translation>
+                                <translation transitive="true">purificar</translation>
+			</translations>
+		</verbs>
+	</Entry>    
 <Entry frequency="120000000">clear<adjectives>
         <translations><date>0512</date>
             <translation>clar</translation>
@@ -8284,6 +8369,11 @@
             <translation catagory="household-room-kitchen" gender="f">assecadora (de roba)<catnote>Molt sovint es diu senzillament 'dryer'.</catnote><synonyms>tumble dryer</synonyms></translation>
         </translations>
     </expressions>
+    <expressions>clothes horse
+        <translations>
+            <translation local="gb" gender="m">estenedor</translation>
+        </translations>
+    </expressions>
     <expressions>clothes line
         <translations>
             <translation local="gb" gender="m">estenedor<synonyms>washing line (Br.), line</synonyms></translation>
@@ -8384,7 +8474,7 @@
     </Entry>
 <Entry frequency="579000">clove<nouns>
         <translations>
-            <translation gender="m">gra / clavell (d'espècia)</translation>
+            <translation gender="m">clau d'espècia / clavell (d'espècia)</translation>
         </translations>
     </nouns>
     </Entry>
@@ -8845,6 +8935,12 @@
         </translations>
     </phrasalverbs>
     </Entry>
+     <Entry frequency="8280000">cockatiel<nouns>
+			<translations><date>0413</date>
+				<translation catagory="animal-bird" gender="f">cacatua de les nimfes</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="157000">cockatoo<nouns>
         <translations>
             <translation catagory="animal-bird" gender="f">cacatua</translation>
@@ -8931,6 +9027,11 @@
                 <expressions>coconut milk
                     <translations>
                         <translation catagory="food" gender="f">llet de coco (a partir de la polpa ratllada)</translation>
+                    </translations>
+                </expressions>
+                <expressions>coconut oil
+                    <translations>
+                        <translation catagory="food" gender="m">oli de coco</translation>
                     </translations>
                 </expressions>
                 <expressions>coconut tree
@@ -9038,7 +9139,7 @@
             </adjectives>
             <expressions>coeliac disease
                 <translations>
-                    <translation catagory="medical-illness" gender="f">malaltia celíaca</translation>
+                    <translation catagory="medical-illness" gender="f">malaltia celíaca / celiaquia</translation>
                 </translations>
             </expressions>
             <expressions>coeliac sufferer
@@ -13633,6 +13734,18 @@
             </translations>
         </adjectives>
     </Entry>
+     <Entry frequency="3530000">contemptuous<adjectives>
+			<translations><date>0413</date>
+				<translation>despectiu</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="1170000">contemptuously<adverbs>
+			<translations><date>0413</date>
+				<translation>despectivament</translation>
+			</translations>
+		</adverbs>
+	</Entry>
 <Entry frequency="26700000">contend<verbs>
         <translations>
             <translation register="formal" transitive="true">afirmar / asseverar / mantenir</translation>
@@ -14366,6 +14479,11 @@
             <translation gender="f">cocció<engnote>'Cocció' refers to the actual cooking process itself (i.e. 'Espereu que arrenqui a bullir i manteniu la cocció a foc lent', 'Bona part de l'aigua inicial s'ha perdut com a vapor d'aigua durant la cocció').</engnote></translation>
         </translations>
     </nouns>
+    <expressions>cooking oil
+        <translations>
+            <translation catagory="food" gender="m">oli de cuina</translation>
+        </translations>
+    </expressions>
     </Entry>
     <Entry frequency="2780000">cookout<nouns>
                             <translations><date>0808</date>
@@ -16373,7 +16491,7 @@
     </Entry>
 <Entry frequency="6080000">credible<adjectives>
         <translations>
-            <translation>creïble</translation>
+            <translation>creïble<engexamp>A credible witness.</engexamp><catexamp>Un testimoni creïble.</catexamp></translation>
         </translations>
     </adjectives>
     </Entry>
@@ -16691,7 +16809,7 @@
     </adjectives>
         <nouns>
             <translations>
-                <translation local="gb" picture="http://photos8.flickr.com/7940704_3117cb6ffb.jpg" flickr="http://www.flickr.com/photos/gspm/7940704/" gender="f">patata fregida (Doritos / Pringles etc.)<otherlocal>chip</otherlocal>
+                <translation local="gb" gender="f">patata xip<otherlocal>chip</otherlocal>
                 </translation>
             </translations>
         </nouns>
@@ -17033,6 +17151,12 @@
         </translations>
     </adjectives>
     </Entry>
+<Entry frequency="23200000">crowdsourcing<nouns>
+        <translations><date>0313</date>
+            <translation termcat="true" gender="m">proveïment participatiu<engnote>'Proveïment participatiu' was approved by Termcat as the official Catalan term for 'crowdsourcing' in February 2012.</engnote></translation>
+        </translations>
+    </nouns>    
+</Entry>
 <Entry frequency="9280000">crown<nouns>
         <translations>
             <translation gender="f">corona</translation>
@@ -17399,6 +17523,11 @@
             <translation gender="m">cogombre</translation>
         </translations>
     </nouns>
+    <expressions>sea cucumber
+        <translations>
+            <translation catagory="animal-sea" gender="m">cogombre de mar</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="27700000">cue<nouns>
         <translations>
@@ -17511,7 +17640,7 @@
     </Entry>
 <Entry frequency="297000">cumin<nouns>
         <translations>
-            <translation gender="m">comí</translation>
+            <translation catagory="food-spice" gender="m">comí</translation>
         </translations>
     </nouns>
     </Entry>
@@ -17852,7 +17981,7 @@
     </nouns>
         <expressions>in custody
             <translations>
-                <translation>sota custòdia</translation>
+                <translation>sota custòdia<engexamp>In police custody.</engexamp><catexamp>Sota custòdia policial.</catexamp></translation>
             </translations>
         </expressions>
     </Entry>

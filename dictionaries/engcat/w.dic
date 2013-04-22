@@ -3149,6 +3149,11 @@
                         <translation gender="mf">tastavins</translation>
                     </translations>
                 </expressions>
+                <expressions>dry wine
+                    <translations>
+                        <translation catagory="food-drink" gender="m">vi sec</translation>
+                    </translations>
+                </expressions>
                 <expressions>red wine
                     <translations>
                         <translation catagory="food-drink" gender="m">vi negre</translation>
@@ -3159,12 +3164,24 @@
                         <translation catagory="food-drink" gender="m">vi rosat</translation>
                     </translations>
                 </expressions>
+                <expressions>sparkling wine
+                    <translations>
+                        <translation catagory="food-drink" gender="m">vi escumós</translation>
+                    </translations>
+                </expressions>
                 <expressions>white wine
                     <translations>
                         <translation catagory="food-drink" gender="m">vi blanc</translation>
                     </translations>
                 </expressions>
-	</Entry><Entry frequency="78000">wineskin<nouns>
+	</Entry>
+        <Entry frequency="32500000">winery<nouns>
+			<translations><date>0413</date>
+				<translation gender="m">celler<plural>wineries</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="78000">wineskin<nouns>
 			<translations>
 				<translation gender="m">bot</translation>
 			</translations>

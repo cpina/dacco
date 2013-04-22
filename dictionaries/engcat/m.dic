@@ -28,7 +28,9 @@
 	</Entry>        
 <Entry frequency="12200000">mace<nouns>
 			<translations>
-				<translation gender="f">maça<engnote>'Maça' means 'mace' in the sense 'medieval weapon' and also 'decorative stick carried as a symbol of authority'.</engnote></translation>
+				<translation gender="f">[medieval weapon]  maça</translation>
+                                <translation gender="f">[decorative stick] maça</translation>
+                                <translation catagory="food-spice" gender="m">[spice] macís</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1443,6 +1445,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="80000000">manifold<adjectives>
+			<translations><date>0413</date>
+				<translation register="formal">múltiple / divers</translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 <Entry frequency="33000000">Manila<nouns>
 			<translations><date>0113</date>
 				<translation gender="m">[~ (paper)] paper d'embalar / paper kraft (paper marró fort utilitzat per fer sobres)</translation>
@@ -1659,6 +1667,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="179000000">manuscript<nouns>
+			<translations><date>0413</date>
+				<translation gender="m">manuscrit</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="23800000">many<adjectives>
 			<translations>
 				<translation>molts<synonyms>lots</synonyms>
@@ -1746,9 +1760,14 @@
 	</Entry>
 <Entry frequency="2930000">marathon<nouns>
 			<translations>
-				<translation gender="m">marató</translation>
+				<translation catagory="sports-event-athletics" gender="m">marató</translation>
 			</translations>
 		</nouns>
+                <expressions>marathon runner
+                    <translations>
+                        <translation catagory="sports-event-athletics" gender="mf">maratonià</translation>                    
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="3850000">marble<nouns>
 			<translations>
@@ -1833,6 +1852,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="1000000">marge<nouns>
+			<translations><date>0313</date>
+				<translation catagory="food" local="gb" register="colloquial" gender="f">margarina</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="11500000">margin<nouns>
 			<translations>
 				<translation termcat="true" gender="m">marge</translation>
@@ -5986,6 +6011,11 @@
 				</translation>
 			</translations>
 		</nouns>
+                <expressions>missionary position
+                    <translations>
+                        <translation gender="f">posició del missioner</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="56500000">Mississippi<nouns>
 			<translations>
@@ -6011,6 +6041,20 @@
                 </translations>
             </adjectives>            
         </Entry>
+        <Entry frequency="50500000">misspell<verbs>
+                    <past>misspelled, misspelt</past>
+                    <participle>misspelled, misspelt</participle>
+			<translations>
+				<translation transitive="true">escriure malament</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="17600000">misspelling<nouns>
+			<translations><date>0413</date>
+				<translation gender="f">falta ortogràfica</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="4370000">misstep<nouns>
                 <translations><date>0110</date>
                     <grouptranslation>
@@ -6038,6 +6082,11 @@
 				<translation catagory="weather" gender="f">boirina</translation>
 			</translations>
 		</nouns>
+                <expressions>lost in the mists of time
+                    <translations>
+                        <translation>perdut en la nit del temps</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="14500000">mistake<nouns>
 			<translations>
@@ -6045,6 +6094,14 @@
 				</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <past>mistook</past>
+                    <participle>mistaken</participle>
+                    <translations>
+                        <translation transitive="true">malinterpretar</translation>
+                        <translation transitive="true">equivocar / confondre</translation>
+                    </translations>
+                </verbs>
 	</Entry>
 <Entry frequency="1530000">mister<nouns>
                             <translations><date>0508</date>
@@ -6662,8 +6719,8 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="523000">molasses<nouns>
-			<translations>
+<Entry frequency="21800000">molasses<nouns>
+			<translations><date>0313</date>
 				<translation catagory="food" local="us" gender="f">melassa<otherlocal>treacle</otherlocal></translation>
 			</translations>
 		</nouns>
@@ -7721,6 +7778,28 @@
                 <translations>
                 <translation catagory="financial" transitive="true">hipotecar</translation></translations></verbs>
 	</Entry>
+         <Entry frequency="2550000">mortification<nouns>
+                            <translations><date>0413</date>
+                                <grouptranslation>
+				<translation gender="f">vergonya</translation>
+                                <translation gender="ffullform">humiliació</translation>
+                                </grouptranslation>
+                                <translation disambiguate="religious" gender="f">mortificació</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="11400000">mortify<verbs ie="true">
+                            <translations><date>0413</date>
+				<translation transitive="true">humiliar / fer passar vergonya</translation>
+			</translations>
+		</verbs>
+	</Entry>
+         <Entry frequency="37300000">mortifying<adjectives>
+                            <translations><date>0413</date>
+				<translation>humiliant</translation>
+			</translations>
+		</adjectives>
+	</Entry>
         <Entry frequency="2950000">mortuary<nouns>
 			<translations><date>1208</date>
 				<translation gender="m">dipòsit de cadàvers</translation>
@@ -8107,12 +8186,16 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry>
-<Entry frequency="729000">mouse pad<nouns>
-                            <translations><date>0408</date>
+                <expressions>mouse mat
+                    <translations>
+                        <translation catagory="computers" gender="f">estoreta del ratolí</translation>
+                    </translations>
+                </expressions>
+                <expressions>mouse pad
+                            <translations>
 				<translation catagory="computers" gender="f">estoreta del ratolí</translation>
 			</translations>
-		</nouns>
+		</expressions>
             </Entry>
  <Entry frequency="12400000">mousetrap<nouns>
         <translations><date>0213</date>
@@ -8596,7 +8679,12 @@
                                 <translation catagory="food-fruit" gender="f">móra<catnote>(Morus sp).</catnote><plural>mulberries</plural></translation>
 			</translations>
 		</nouns>
-	</Entry>
+                <expressions>mulberry tree
+                    <translations>
+                        <translation catagory="plants-tree" gender="f">morera</translation>
+                    </translations>
+                </expressions>
+	</Entry>        
 <Entry frequency="706000">mulch<nouns>
 			<translations>
 				<translation picture="http://photos23.flickr.com/24784529_12970cef99.jpg" flickr="http://www.flickr.com/photos/34872784@N00/24784529/">escorça triturada<catnote>'Mulch' vol dir escorça triturada amb la qual es cobreix el sòl del jardí per controlar les males herbes i reduir els efectes de l'evaporació.</catnote>
@@ -9173,11 +9261,25 @@
 		</nouns>
 	</Entry>
 <Entry frequency="1950000">mustard<nouns>
-			<translations>
-				<translation gender="f">mostassa</translation>
+			<translations><date>0313</date>
+				<translation catagory="food-condiment" gender="f">mostassa</translation>
 			</translations>
 		</nouns>
-                <expressions>as keen as mustard<translations><translation>molt entusiasta</translation></translations></expressions>
+                <expressions>as keen as mustard
+                    <translations>
+                        <translation>molt entusiasta</translation>
+                    </translations>
+                </expressions>
+                <expressions>mustard powder
+                    <translations>
+                        <translation catagory="food-spice" gender="f">mostassa en pols</translation>
+                    </translations>
+                </expressions>
+                <expressions>mustard seeds
+                    <translations>
+                        <translation catagory="food-spice" gender="mpl">grans de mostassa</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="22700000">mutant<adjectives>
 			<translations><date>0708</date>

@@ -1094,6 +1094,17 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="23000000">balsa<nouns>
+        <translations><date>0413</date> 
+            <translation gender="f">[~ wood] balsa</translation>
+        </translations>   
+    </nouns>        
+    <expressions>balsa tree
+        <translations>
+            <translation catagory="plants-tree" gender="f">balsa</translation>
+        </translations>
+    </expressions>
+</Entry> 
         <Entry frequency="29600000">balsamic<adjectives>
 			<translations><date>0112</date>
 				<translation>balsàmic</translation>
@@ -1915,7 +1926,12 @@
                         <translation intransitive="true">[through, down, along..] circular / transitar molt de pressa (esp. sense control)</translation>
                     </translations>
                 </verbs>
-                <expressions>have (someone) over a barrel
+                <expressions>to be like shooting fish in a barrel
+                    <translations>
+                        <translation>ser bufar i fer ampolles</translation>                     
+                    </translations>
+                </expressions>
+                <expressions>to have (someone) over a barrel
                     <translations>
                         <translation>tenir (algú) a les (teves) mans</translation>
                     </translations>
@@ -2516,7 +2532,7 @@
 	</Entry>
 <Entry frequency="243000">bay leaf<nouns>
 			<translations>
-				<translation gender="f">fulla de llorer</translation>
+				<translation catagory="food-herb" gender="f">fulla de llorer</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -2748,7 +2764,7 @@
                         <translation intransitive="true">tenir paciència amb<engexamp>Bear with me</engexamp><catexamp>Permeteu-me un moment</catexamp></translation>
                     </translations>
                 </phrasalverbs>
-		<expressions>bear in mind
+		<expressions>to bear in mind
 			<translations>
 				<translation>tenir present / tenir en compte</translation>
 			</translations>
@@ -2758,12 +2774,18 @@
                         <translation disambiguate="financial" gender="m">mercat baixista / mercat a la baixa<synonyms>bearish market</synonyms></translation>
                     </translations>
                 </expressions>
-                <expressions>bear a ressemblance to
+                <expressions>to bear a ressemblance to
                 <translations>
                     <translation>assemblar-se a</translation>
                     </translations>
                     </expressions>
         </Entry>
+          <Entry frequency="16500000">bearable<adjectives>
+            <translations><date>0413</date>
+                <translation>suportable</translation>
+            </translations>
+        </adjectives>
+    </Entry>
 <Entry frequency="4090000">beard<nouns>
 			<translations>
 				<translation catagory="body" gender="f">barba</translation>
@@ -2772,7 +2794,7 @@
 	</Entry>
          <Entry frequency="192000000">bearing<nouns>
             <translations><date>0112</date>
-            <translation gender="m">coixinet<engexamp>Ball bearing</engexamp><catexamp>Coixinet de boles</catexamp></translation>
+            <translation gender="m">coixinet</translation>
             <grouptranslation>
                 <translation gender="f">relació</translation>
                 <translation gender="ffullform">influència</translation>
@@ -2787,6 +2809,11 @@
                 </grouptranslation>
             </translations>
         </nouns>
+        <expressions>ball bearing
+            <translations>
+                <translation gender="m">coixinet</translation>
+            </translations>
+       </expressions>
         <expressions>get (or find or take) your bearings
             <translations>
                 <translation>orientar-se</translation>
@@ -2910,7 +2937,7 @@
 			<translations>
 				<translation>bonic / bell / maco<synonyms>good-looking, attractive, pretty, handsome</synonyms>
 				</translation>
-		b	</translations>
+			</translations>
 		</adjectives>
 	</Entry>
         <Entry frequency="8760000">beautify<verbs ie="true">
@@ -3085,14 +3112,24 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="17200000">bedside<nouns>
-                <translations><date>0508</date>
+<Entry frequency="124000000">bedside<nouns>
+                <translations><date>0413</date>
                     <translation gender="f">capçalera</translation>
                 </translations>
             </nouns>
             <expressions>bedside clock
                 <translations>
                     <translation catagory="household-room-bedroom" gender="m">despertador</translation>
+                </translations>
+            </expressions>
+            <expressions>bedside lamp
+                <translations>
+                    <translation catagory="household-room-bedroom" gender="f">làmpada (de tauleta de nit)</translation>
+                </translations>
+            </expressions>
+            <expressions>bedside manner
+                <translations>
+                    <translation gender="m">tracte amb els malalts</translation>
                 </translations>
             </expressions>
             <expressions>bedside table
@@ -3831,6 +3868,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+         <Entry frequency="29000000">bellicose<adjectives>
+			<translations><date>0413</date>
+				<translation register="formal">bel·licós</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+         <Entry frequency="180000">bellicosity<nouns>
+			<translations><date>0413</date>
+				<translation register="formal" gender="f">bel·licositat</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="4420000">belligerence<nouns>
 			<translations><date>0112</date>
 				<translation gender="f">bel·licositat</translation>
@@ -4048,12 +4097,28 @@
                         <translation gender="f">giragonsa</translation></grouptranslation>
                 <translation gender="f">corba</translation>
           </translations></nouns>
-                <expressions>bend over backwards
+                <expressions>to bend over backwards
                 <translations>
                     <translation>fer un gran esforç<example>He &lt;b&gt;bent over backwards&lt;/b&gt; to help her.</example></translation>
             </translations>
             </expressions>
 	</Entry>
+<Entry frequency="8850000">bendy<adjectives>
+			<translations><date>0413</date>
+				<translation>flexible</translation>
+			</translations>
+		</adjectives>
+                <expressions>bendy bus
+                    <translations>
+                        <translation catagory="transport" gender="m">bus articulat</translation>                       
+                    </translations>
+                </expressions>
+                <expressions>bendy straw
+                    <translations>
+                        <translation gender="f">canya flexible</translation>
+                    </translations>
+                </expressions>
+	</Entry>        
 <Entry frequency="5160000">beneath<prepositions>
 			<translations>
 				<translation register="formal">sota</translation>
@@ -4193,6 +4258,12 @@
 		</adjectives>
                 
 	</Entry>
+<Entry frequency="1170000">beriberi<nouns>
+			<translations><date>0413</date>
+				<translation catagory="medical-illness" gender="m">beri-beri</translation>
+			</translations>
+		</nouns>
+	</Entry>        
         <Entry frequency="11100">beringed<adjectives>
                 <translations><date>0609</date>
                     <translation>ple d'anells<example>The Sultan raised a &lt;b&gt;beringed&lt;/b&gt; finger and scratched his chin thoughtfully.</example></translation>
@@ -6824,23 +6895,20 @@
 	</Entry>
 <Entry frequency="4130000000">blog<nouns>
 			<translations><date>1107</date>
-                        <translation termcat="true" catagory="computers-internet" gender="m">bloc</translation>
-                        <translation catagory="computers-internet" gender="m">blog<engnote>The official TermCat word for 'blog' is 'bloc' (it used to be 'diari interactiu personal'). The term is widely used but a number of Catalan Internet users do not agree with this term and continue to use 'blog'.</engnote></translation>
+                        <translation termcat="true" catagory="computers-internet" gender="m">blog<engnote>The official, Termcat-approved term for 'blog' is 'blog' (as at March 28th, 2013).  The previously recommended term was 'bloc' and, before that, 'diari interactiu personal'.</engnote></translation>
                     </translations>
 		</nouns>
 	</Entry>
-<Entry frequency="156000000">blogger<nouns>
-			<translations><date>1107</date>
-                        <translation termcat="true" catagory="computers-internet" gender="mf">blocaire</translation>
-                        <translation catagory="computers-internet" gender="mf">bloguista<engnote>The official TermCat word for 'blogger' is 'blocaire'. The term is widely used but a small number of Catalan Internet users do not agree with this term and use 'bloguista' instead.</engnote></translation>
+<Entry frequency="2720000000">blogger<nouns>
+			<translations><date>0313</date>
+                        <translation termcat="true" catagory="computers-internet" gender="mf">bloguer<engnote>The official, Termcat-approved term for 'blogger' is 'bloguer(a)' (as at March 28th, 2013).  The previously recommended term was 'blocaire'.</engnote></translation>
                     </translations>
 		</nouns>
 	</Entry>
-<Entry frequency="18800000">blogosphere<nouns>
-                            <translations><date>1107</date>
-                            <grouptranslation catagory="computers-internet" termcat="true"><translation gender="f">blocosfera</translation>
-                                <translation gender="m">món de blocs / univers de blocs</translation></grouptranslation>
-                                <translation catagory="computers-internet" gender="f">blogosfera<engnote>'Blogosfera' is not a Termcat-sanctioned term but is widely used by Catalan Internet users, especially those who actively disagree with Termcat's choice of 'bloc' for 'blog', 'blocaire' for 'blogger' and 'blocosfera' for 'blogosphere'.</engnote></translation>
+<Entry frequency="39600000">blogosphere<nouns>
+                            <translations><date>0313</date>
+                            <grouptranslation catagory="computers-internet" termcat="true"><translation gender="f">blogosfera</translation>
+                                <translation gender="m">món de blocs / univers de blocs</translation><engnote>The current Termcat-approved term for 'blogosphere' is 'blogosfera' (as at March 28th, 2013). The previously recommended term was 'blocosfera'.</engnote></grouptranslation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -6922,10 +6990,20 @@
                         </translation>
                     </translations>
                 </expressions>
+                <expressions>blood flow
+                    <translations>
+                        <translation catagory="medical" gender="m">flux sanguini</translation>
+                    </translations>
+                </expressions>
                 <expressions>blood group (or type)
                     <translations>
                         <translation catagory="medical" gender="m">grup sanguini</translation>
                         </translations>
+                </expressions>
+                <expressions>blood test
+                    <translations>
+                        <translation catagory="medical" gender="f">anàlisi de sang</translation>
+                    </translations>
                 </expressions>
                 <expressions>blood transfusion
                     <translations>
@@ -6971,6 +7049,12 @@
         <Entry frequency="6260000">bloodstone<nouns>
 			<translations><date>0112</date>
 				<translation gender="m">heliotropi<synonyms>heliotrope</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="25900000">bloodstream<nouns>
+			<translations><date>0413</date>
+				<translation catagory="medical" gender="m">torrent sanguini</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7274,11 +7358,27 @@
 			</translations>
 		</nouns>
 	</Entry>
-<Entry frequency="7280">Bluebirds<nouns>
-			<translations>
-				<translation catagory="sports, encyclopaedic" register="colloquial" local="gb">sobrenom de l'equip de futbol gal·lès Cardiff City FC</translation>
+<Entry frequency="107000000">bluebird<nouns>
+			<translations><date>0413</date>
+                            <translation disambiguate="animal-bird" gender="m">siàlid</translation>
+				<translation catagory="sports, encyclopaedic" sourceplural="Bluebirds" register="colloquial" local="gb">sobrenom de l'equip de futbol gal·lès Cardiff City FC</translation>
 			</translations>
 		</nouns>
+                <expressions>eastern bluebird
+                    <translations>
+                        <translation catagory="animal-bird" gender="m">siàlid de l'est</translation>
+                    </translations>
+                </expressions>
+                <expressions>mountain bluebird
+                    <translations>
+                        <translation catagory="animal-bird" gender="m">siàlid muntanyenc</translation>
+                    </translations>
+                </expressions>
+                <expressions>western bluebird
+                    <translations>
+                        <translation catagory="animal-bird" gender="m">siàlid de l'oest</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="150000">bluebottle<nouns>
                             <translations><date>1108</date>
@@ -8409,6 +8509,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="25700000">bookie<nouns>
+			<translations><date>0413</date>
+				<translation register="colloquial" gender="mf">corredor d'apostes<synonyms>bookmaker</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="12200000">booking<nouns>
 			<translations>
 				<translation gender="f">reserva</translation>
@@ -8421,6 +8527,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="38300000">bookmaker<nouns>
+			<translations><date>0413</date>
+				<translation catagory="work-job" gender="mf">corredor d'apostes<synonyms>bookie (col·loq.)</synonyms></translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="886000000">bookmark<nouns>
                             <translations><date>0609</date>
 				<translation gender="m">punt (de lectura o de llibre)</translation>
@@ -9045,6 +9157,12 @@
             </translations>
                 </phrasalverbs>
 	</Entry>
+<Entry frequency="23800000">bottomless<adjectives>
+			<translations><date>0413</date>
+				<translation>sense fons</translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 <Entry frequency="5400000">boudoir<nouns>
 			<translations>
 				<translation register="dated" gender="m">lligador</translation>
@@ -10068,6 +10186,13 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="21700000">breadcrumbs<nouns>           
+            <translations><date>0313</date>
+                <translation gender="fpl">engrunes de pa</translation>
+                <translation catagory="food" gender="f">[used in cooking] farina de galeta</translation>               
+            </translations>            
+        </nouns>        
+    </Entry>
 <Entry frequency="542000">breadwinner<nouns>
 			<translations>
 				<translation>el / la que es guanya les garrofes / el pa</translation>
@@ -10220,6 +10345,12 @@
                     <translation>fer acció d'escapar-se</translation>
                     </translations>
                     </expressions>
+	</Entry>
+        <Entry frequency="16300000">breakwater<nouns>
+			<translations><date>0413</date>
+				<translation gender="f">escullera</translation>
+			</translations>
+		</nouns>
 	</Entry>
 <Entry frequency="11200000">breakdown<nouns>
 			<translations>
@@ -10491,6 +10622,13 @@
                 </translations>
         </adverbs>        
     </Entry> 
+    <Entry frequency="144000000">breathtaking<adjectives>
+			<translations><date>0413</date>
+				<translation>imponent / impressionant</translation>
+                                <translation>esbalaïdor</translation>
+			</translations>
+		</adjectives>
+	</Entry>   
          <Entry frequency="21100000">bred<verbTense>
                 <translations><date>1109</date>
                 <translation>passat i participi passat del verb 'to breed'</translation>
@@ -11353,6 +11491,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+ <Entry frequency="23300">broil<verbs conj="regular">
+			<translations><date>0413</date>
+				<translation catagory="food" local="us" transitive="true">coure a la graella<otherlocal>grill</otherlocal></translation>
+			</translations>
+		</verbs>
+	</Entry>        
 <Entry frequency="219000">broiled<adjectives>
 			<translations>
 				<translation local="us">a la brasa<otherlocal>grilled</otherlocal>
@@ -11362,7 +11506,7 @@
 	</Entry>
 <Entry frequency="358000">broiler<nouns>
 			<translations>
-				<translation local="us" gender="f">graella<otherlocal>grill</otherlocal>
+				<translation catagory="household-room-kitchen" local="us" gender="f">graella<otherlocal>grill</otherlocal>
 				</translation>
 			</translations>
 		</nouns>
@@ -11907,6 +12051,12 @@
 				<translation gender="f">pell girada</translation>
                                 <translation gender="m">antilop</translation>
                             </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="13200000">buckwheat<nouns>
+			<translations><date>0413</date>
+				<translation catagory="food" gender="m">fajol</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -12511,6 +12661,14 @@
                     </translations>
                 </expressions>
 	</Entry>
+ <Entry frequency="36800000">bumpy<adjectives>
+			<translations><date>0413</date>
+				<translation>[flight] ple de turbulències</translation>
+                                <translation>[ride] ple de sotracs</translation>
+                                <translation>[ground] desnivellat</translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 <Entry frequency="2420000">bun<nouns>
 			<translations>
 				<translation disambiguate="food" gender="m">panet</translation>
@@ -13129,6 +13287,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="38300000">bus station<nouns>
+			<translations><date>0413</date>
+				<translation catagory="transport" gender="f">estació d'autobusos</translation>
+			</translations>
+		</nouns>
+	</Entry>           
 <Entry frequency="852000">bus stop<nouns>
 			<translations>
 				<translation catagory="transport" gender="f">parada d'autobús</translation>
@@ -13225,10 +13389,8 @@
 <Entry frequency="18200000">butcher<nouns>
                             <translations><date>1009</date>
 				<translation gender="mf">carnisser</translation>
-                                <translation sourceplural="butchers" register="dialectal-cockney" local="gb" gender="f">mirada<example>Give me a &lt;b&gt;butchers&lt;/b&gt;!</example>
-					<catnote>Look &gt; butcher's hook &gt; butchers.</catnote>
-				</translation>
-				<translation sourceplural="butcher's" gender="f">carnisseria</translation>
+                                <translation sourceplural="butchers" gender="f">carnisseria</translation>
+                                <translation sourceplural="butchers" register="dialectal-cockney" local="gb" gender="f">mirada<example>Give me a &lt;b&gt;butchers&lt;/b&gt;!</example><catnote>Look &gt; butcher's hook &gt; butchers.</catnote></translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -13249,11 +13411,12 @@
 			<translations>
 				<translation disambiguate="body" register="colloquial" local="us" gender="m">cul<otherlocal>bottom, arse (vulg.), backside (colloq.)</otherlocal>
 				</translation>
-				<translation gender="m">objectiu<example>I'm sick of always being the &lt;b&gt;butt&lt;/b&gt; of his jokes</example>
-					<example>George W. Bush's speeches are the &lt;b&gt;butt&lt;/b&gt; of jokes worldwide</example>
+				<translation gender="m">objectiu<example>I'm sick of always being the &lt;b&gt;butt&lt;/b&gt; of his jokes.</example>
+					<example>George W. Bush's speeches are the &lt;b&gt;butt&lt;/b&gt; of jokes worldwide.</example>
 					<catnote>Aquest sustantiu s'utilitza sobretot en l'expressió 'to be the butt of a joke' .</catnote>
 					<synonyms>focus</synonyms>
 				</translation>
+                                <translation gender="f">[of a gun] culata</translation>
                                 <translation gender="f">punta (de cigarret)</translation>
 			</translations>
 		</nouns>
@@ -13456,6 +13619,11 @@
 				</translation>
 			</translations>
 		</exclamations>
+                <expressions>bye bye
+                    <translations>
+                        <translation register="colloquial">adéu</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="363000">by-election<nouns>
 			<translations>

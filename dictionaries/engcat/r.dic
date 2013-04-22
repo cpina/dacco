@@ -106,6 +106,12 @@
 		</nouns>
 
 	</Entry>
+        <Entry frequency="13400000">racehorse<nouns>
+                            <translations><date>0413</date>
+				<translation catagory="animal-animal" gender="m">cavall de curses</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="1190000">racetrack<nouns>
 
 			<translations>
@@ -355,11 +361,15 @@
 			<translations>
 
 				<translation gender="mf">radical</translation>
-
+                                <translation disambiguate="chemistry" gender="m">radical</translation>
 			</translations>
 
 		</nouns>
-
+                <expressions>free radical
+                    <translations>
+                        <translation catagory="chemistry" gender="m">radical lliure</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="213000">radicalism<nouns>
 
@@ -1228,6 +1238,17 @@
 		</nouns>
 
 	</Entry>
+ <Entry frequency="8330000">rapeseed<nouns>
+			<translations><date>0313</date>
+				<translation catagory="plants" gender="f">colza</translation>
+			</translations>
+		</nouns>
+                <expressions>rapeseed oil
+                    <translations>
+                        <translation catagory="food" gender="m">oli de colza</translation>
+                    </translations>
+                </expressions>
+	</Entry>        
 <Entry frequency="13400000">rapid<adjectives>
 
 			<translations>
@@ -1931,7 +1952,11 @@
 			</translations>
 
 		</adjectives>
-
+                <expressions>raw foodism
+                    <translations>
+                        <translation catagory="food" gender="m">crudivorisme</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="192000">rawlplug<nouns>
 
@@ -2699,6 +2724,17 @@
 		</adjectives>
 
 	</Entry>
+         <Entry frequency="164000000">rebirth<nouns>
+
+            <translations><date>0413</date>
+
+                <translation gender="m">renaixement</translation>
+
+            </translations>
+
+        </nouns>
+
+    </Entry>
         <Entry frequency="14400000">reboot<verbs>
                             <translations><date>1008</date>
 				<translation disambiguate="computers" termcat="true" transitive="true">arrencar de nou / reiniciar</translation>
@@ -5533,13 +5569,19 @@
 
 			<translations>
 
-				<translation>remarcable / notable / destacable</translation>
+				<translation>remarcable / notable / destacable / excepcional</translation>
 
 			</translations>
 
 		</adjectives>
 
 	</Entry>
+<Entry frequency="83700000">remarkably<adverbs>
+			<translations><date>0413</date>
+				<translation>excepcionalment</translation>
+			</translations>
+		</adverbs>
+	</Entry>        
 <Entry frequency="3190000">remedy<nouns>
 
 			<translations>
@@ -6972,17 +7014,11 @@
 		</nouns>
 	</Entry>
 <Entry frequency="588000">resilience<nouns>
-
 			<translations>
-
-				<translation gender="f">capacitat de recuperar-se fàcilment d'una situació desagradable o perjudicial</translation>
-
-				<translation gender="f">robustesa</translation>
-
+				<translation gender="f">resiliència / resistència</translation>
+                                <translation gender="f">resiliència / elasticitat</translation>
 			</translations>
-
 		</nouns>
-
 	</Entry>
 <Entry frequency="630000">resilient<adjectives>
 
@@ -7386,6 +7422,17 @@
                     </translations>
                     </expressions>
 	</Entry>
+        	<Entry frequency="21500000">restaurateur<nouns>
+
+			<translations><date>0413</date>
+
+				<translation catagory="food" register="formal" gender="mf">restaurador</translation>
+
+			</translations>
+
+		</nouns>
+
+	</Entry>
         <Entry frequency="47800000">restitution<nouns>
 			<translations><date>0112</date>
 				<translation catagory="legal" gender="f">restitució</translation>
@@ -7442,6 +7489,17 @@
 				<translation transitive="true">restablir / restaurar / restituir</translation>
 			</translations>
 		</verbs>
+	</Entry>
+        	<Entry frequency="13900000">restorer<nouns>
+
+			<translations><date>0413</date>
+
+				<translation catagory="work-job" gender="mf">restaurador</translation>
+
+			</translations>
+
+		</nouns>
+
 	</Entry>
 <Entry frequency="812000">restrain<verbs>
 
@@ -8833,6 +8891,12 @@
 		</nouns>
 
 	</Entry>
+          <Entry frequency="135000000">ricin<nouns>
+			<translations><date>0413</date>
+				<translation catagory="chemistry" gender="m">ricí</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="383000">rickshaw<nouns>
 
 			<translations>
@@ -9099,6 +9163,12 @@
                     </translations>
                 </expressions>               
 	</Entry>
+<Entry frequency="107000000">right-wing<adjectives><mistakes>rightwing</mistakes>
+                            <translations><date>0413</date>
+				<translation>dretà</translation>
+			</translations>
+		</adjectives>
+	</Entry>        
 <Entry frequency="10300000">rigid<adjectives>
 
 			<translations>
@@ -10298,6 +10368,42 @@
 		</nouns>
 
 	</Entry>
+        <Entry frequency="8670000">rolling pin<nouns>
+			<translations><date>0413</date>
+				<translation catagory="household-room-kitchen" gender="m">corró</translation>
+			</translations>
+		</nouns>
+	</Entry>
+         <Entry frequency="1480000">Roma<nouns>
+			<translations><date>0413</date>
+				<grouptranslation sourceplural="the Roma">
+                                    <translation gender="mpl">romanís</translation>
+                                    <translation gender="m">poble rom</translation>
+                                </grouptranslation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="8310000">Roman<adjectives>
+			<translations><date>0413</date>
+				<translation>romà</translation>
+			</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="mf">romà</translation>
+                    </translations>
+                </nouns>
+                <expressions>Roman Catholic
+                    <translations>
+                        <translation gender="mf">catòlic</translation>
+                    </translations>
+                </expressions>
+                <expressions>Roman Empire
+                    <translations>
+                        <translation gender="m">Imperi Romà</translation>
+                    </translations>
+                </expressions>
+	</Entry>        
 <Entry frequency="13100000">romance<nouns>
 
 			<translations>
@@ -10381,6 +10487,32 @@
 		</adjectives>
 
 	</Entry>
+        
+<Entry frequency="1060000000">Rome<nouns>
+
+                            <translations><date>0413</date>
+
+				<translation catagory="geography-city-europe">Roma</translation>
+
+			</translations>
+
+		</nouns>
+                <expressions>all roads lead to Rome
+                    <translations>
+                        <translation>tots els camins duen (o porten) a Roma</translation>
+                    </translations>
+                </expressions>
+                <expressions>ancient Rome
+                    <translations>
+                        <translation gender="f">antiga Roma</translation>
+                    </translations>
+                </expressions>
+                <expressions>Rome wasn't built in a day
+                    <translations>
+                        <translation>el món no es va fer en un dia</translation>
+                    </translations>
+                </expressions>
+	</Entry>        
 <Entry frequency="10300000">roof<nouns>
 
 			<translations>
@@ -10763,6 +10895,12 @@
         <Entry frequency="2130000">rouble<nouns>
                             <translations><date>0709</date>
 				<translation local="gb" catagory="financial" gender="m">ruble<otherlocal>ruble</otherlocal></translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="1070000">rouge<nouns>
+                            <translations><date>0508</date>
+				<translation register="dated" gender="m">coloret<synonyms>blusher</synonyms><catnote>(color vermell emprat com a cosmètic).</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -11368,6 +11506,12 @@
 		</nouns>
 
 	</Entry>
+         <Entry frequency="10500000">rudimentary<adjectives>
+			<translations><date>0413</date>
+				<translation>rudimentari</translation>
+			</translations>
+		</adjectives>
+	</Entry>
 <Entry frequency="707000">rueful<adjectives>
 
 			<translations>
@@ -11464,7 +11608,7 @@
 
 				<translation gender="f">regla</translation>
                                 <translation sourceplural="rules" gender="m">reglament</translation>
-                                <translation gender="m">(measuring instrument) regle<synonyms>ruler</synonyms></translation>
+                                <translation gender="m">[measuring instrument] regle<synonyms>ruler</synonyms></translation>
                                 
 			</translations>
 
@@ -11489,16 +11633,21 @@
 			</translations>
 
 		</phrasalverbs>
-                <expressions>rule of thumb
-                    <translations>
-                        <translation gender="f">regla pràctica</translation>
-                    </translations>
-                </expressions>
-                <expressions>as a rule
+                 <expressions>as a rule
                     <translations>
                         <translation>per regla general</translation>
                     </translations>
                 </expressions>
+                <expressions>rule of thumb
+                    <translations>
+                        <translation gender="f">regla pràctica</translation>
+                    </translations>
+                </expressions>   
+                <expressions>slide rule
+                    <translations>
+                        <translation gender="m">regle de càlcul</translation>
+                    </translations>
+                </expressions>                        
 	</Entry>
          <Entry frequency="46400000">ruled<adjectives>
 			<translations><date>0709</date>

@@ -632,12 +632,12 @@
 	</Entry>
         <Entry frequency="41500">vegà<adjectives>
 			<translations><date>0313</date>
-				<translation>vegan</translation>
+				<translation catagory="food">vegan</translation>
 			</translations>
 		</adjectives>
                 <nouns>
                     <translations>
-                        <translation gender="m / f">vegan<fems>vegana</fems><plural>vegans</plural></translation>
+                        <translation catagory="food" gender="m / f">vegan<fems>vegana</fems><plural>vegans</plural></translation>
                     </translations>
                 </nouns>
 	</Entry>
@@ -1361,7 +1361,7 @@
 	</Entry>
 	<Entry frequency="712">verídic<adjectives>
 			<translations><date>0705</date>
-				<translation>true</translation>
+				<translation>true<fems>verídica</fems><femplural>verídiques</femplural></translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -1723,6 +1723,12 @@
 			</translations>
 		</adjectives>
 	</Entry>
+          <Entry frequency="102000">vestimenta<nouns>
+			<translations><date>0413</date>
+				<translation catagory="clothes" gender="f">clothing / dress</translation>
+			</translations>
+		</nouns>
+	</Entry>
 	<Entry frequency="2200">vestir<verbs conj="inceptive">
 			<translations>
 				<translation catagory="clothes" transitive="true">to dress (somebody) / to get (somebody) dressed</translation>
@@ -1906,17 +1912,38 @@
 	</Entry>
 	<Entry frequency="69100">vi<nouns>
 			<translations>
-				<translation catagory="food-drink" gender="m">wine<catexamp>Vi negre</catexamp>
-					<engexamp>Red wine</engexamp>
-					<catexamp>Vi blanc</catexamp>
-					<engexamp>White wine</engexamp>
-				</translation>
+				<translation catagory="food-drink" gender="m">wine<plural>vins</plural></translation>
 			</translations>
 		</nouns>
                 <expressions>dir al pa pa i al vi vi
                 <translations>
                 <translation>to call a spade a spade<synonyms>dir les coses pel seu nom</synonyms></translation>
                 </translations>
+                </expressions>
+                <expressions>vi blanc
+                    <translations>
+                        <translation catagory="food-drink" gender="m">white wine</translation>
+                    </translations>
+                </expressions>
+                <expressions>vi escumós
+                    <translations>
+                        <translation catagory="food-drink" gender="m">sparkling wine</translation>
+                    </translations>
+                </expressions>
+                <expressions>vi negre
+                    <translations>
+                        <translation catagory="food-drink" gender="m">red wine</translation>
+                    </translations>
+                </expressions>
+                <expressions>vi rosat
+                    <translations>
+                        <translation catagory="food-drink" gender="m">rosé wine</translation>
+                    </translations>
+                </expressions>
+                <expressions>vi sec
+                    <translations>
+                        <translation catagory="food-drink" gender="m">dry wine</translation>
+                    </translations>
                 </expressions>
 	</Entry>
         <Entry frequency="1640000">via<nouns>
@@ -2411,6 +2438,11 @@
 				<translation catagory="food" gender="m">vinegar</translation>
 			</translations>
 		</nouns>
+                <expressions>vinagre balsàmic
+                    <translations>
+                        <translation catagory="food" gender="m">balsamic vinegar</translation>
+                    </translations>
+                </expressions>
                 <expressions>vinagre de xerès
                     <translations>
                         <translation catagory="food" gender="m">sherry vinegar</translation>
@@ -2431,6 +2463,12 @@
 	</Entry>
 <Entry frequency="0">vinalesí<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vinalesa</translation></translations></nouns><adjectives><translations><translation>relating to Vinalesa or its people<plural>vinalesins</plural><fems>vinalesina</fems></translation></translations></adjectives></Entry>
 <Entry frequency="0">vinarossenc<nouns><translations><translation catagory="geography" gender="m / f">(person / people) from Vinaròs</translation></translations></nouns><adjectives><translations><translation>relating to Vinaròs or its people<fems>vinarossenca</fems><femplural>vinarossenques</femplural></translation></translations></adjectives></Entry>
+  <Entry frequency="3830">vinassa<nouns>
+                            <translations><date>0413</date>
+				<translation gender="f">(wine) dregs</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="1840">vinater<nouns>
 			<translations><date>0408</date>
 				<translation gender="m / f">wine grower / wine merchant / vintner (formal)</translation>
@@ -3031,6 +3069,12 @@
 				<translation>for life / lifetime / permanent<fems>vitalícia</fems><example>El club blaugrana no té un contracte &lt;b&gt;vitalici&lt;/b&gt; amb Ronaldinho.</example></translation>
 			</translations>
 		</adjectives>
+	</Entry>
+           <Entry frequency="819">vitalíciament<adverbs>
+			<translations><date>0313</date>
+				<translation>permanently / for life</translation>
+			</translations>
+		</adverbs>
 	</Entry>
         <Entry frequency="17200">vitalisme<nouns>
 			<translations><date>0313</date>

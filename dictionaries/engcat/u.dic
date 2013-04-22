@@ -118,7 +118,21 @@
 				<translation catagory="body" gender="f">cúbit<plural>ulnae</plural></translation>
                                 </translations>
 		</nouns>
-	</Entry><Entry frequency="4740000">ultimately<adverbs>
+	</Entry>
+        <Entry frequency="2410000000">ultimate<adjectives>
+        <translations><date>0313</date>
+            <translation>final</translation>
+            <translation>màxim</translation>
+            <translation>fonamental</translation>
+        </translations>
+    </adjectives>
+    <nouns>
+        <translations>
+            <translation disambiguate="sports-event" gender="m">[~ frisbee] ultimate</translation>
+        </translations>
+    </nouns>
+    </Entry>    
+        <Entry frequency="4740000">ultimately<adverbs>
 			<translations>
 				<translation>al cap i a la fi</translation>
 				<translation>finalment</translation>
@@ -1861,6 +1875,12 @@
                     </translations>
                 </expressions>
 	</Entry>
+        <Entry frequency="51800000">unwilling<adjectives>
+			<translations><date>0413</date>
+				<translation>[~ to] poc disposat (a)</translation>
+			</translations>
+		</adjectives>
+	</Entry>
         <Entry frequency="116000">unwillingly<adverbs>
 			<translations>
 				<translation>a contracor<synonyms>reluctantly</synonyms>
@@ -2222,12 +2242,17 @@
 		</verbs>
 	</Entry><Entry frequency="2680000">urine<nouns>
 			<translations>
-				<translation gender="f">orinav</translation>
+				<translation gender="f">orina</translation>
 			</translations>
 		</nouns>
                 <expressions>urine sample
                     <translations>
                         <translation catagory="medical" gender="f">mostra d'orina</translation>
+                    </translations>
+                </expressions>
+                <expressions>urine test
+                    <translations>
+                        <translation catagory="medical" gender="f">anàlisi d'orina</translation>
                     </translations>
                 </expressions>
 	</Entry><Entry frequency="2020000">urologist<nouns>
@@ -2296,27 +2321,24 @@
 			</translations>
 		</adjectives>
 	</Entry>
+         <Entry frequency="980000000">usage<nouns>
+			<translations><date>0413</date>
+				<translation gender="m">ús</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="244000000">USB<nouns>
 			<translations><date>1007</date>
 				<translation catagory="computers" termcat="true" gender="m">USB</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="13900000">USB flash drive<nouns>
-			<translations><date>1007</date>
-				<translation catagory="computers" termcat="true" gender="f">memòria USB<synonyms>USB stick, USB pen drive</synonyms></translation>
+                <expressions>USB stick (or flash drive or pen drive)
+			<translations>
+				<translation catagory="computers" termcat="true" gender="f">memòria USB</translation>
 			</translations>
-		</nouns>
-	</Entry><Entry frequency="729000">USB pen drive<nouns>
-			<translations><date>1007</date>
-				<translation catagory="computers" termcat="true" gender="f">memòria USB<synonyms>USB flash drive, USB stick</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="7590000">USB stick<nouns>
-			<translations><date>1007</date>
-                        <translation catagory="computers" termcat="true" gender="m">memòria USB<synonyms>USB flash drive, USB pen drive</synonyms></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="11780000000">use<verbs>
+		</expressions>
+                </Entry>
+               <Entry frequency="11780000000">use<verbs>
                             <translations><date>1108</date>
 				<translation transitive="true">usar / utilitzar</translation>
 			</translations>
