@@ -6276,7 +6276,14 @@
         </expressions>
 
     </Entry>
-
+<Entry frequency="159000">tirador<nouns>
+			<translations><date>0413</date>
+                        <translation gender="m / f">shooter</translation>
+                        <translation gender="m / f">archer<fems>tiradora</fems></translation>
+				<translation gender="m">(door) handle</translation>
+			</translations>
+		</nouns>
+	</Entry>
     <Entry frequency="57">tirallet<nouns>
 
             <translations><date>0806</date>
@@ -11223,24 +11230,12 @@
             </translations>
 
         </adjectives>
-
-    </Entry>
-
-    <Entry frequency="5230" >trentena<nouns>
-
+        <expressions>una trentena de ...
             <translations>
-
-                <translation>(some) thirty<catexamp>Una trentena de persones</catexamp>
-
-                    <engexamp>Some thirty people</engexamp>
-
-                </translation>
-
+                <translation>around (or about) thirty ... / thirty-odd ...</translation>
             </translations>
-
-        </nouns>
-
-    </Entry>
+        </expressions>
+    </Entry>    
 
     <Entry frequency="279">trepadora<nouns>
 
@@ -11333,98 +11328,69 @@
         </expressions>
     </Entry>
 
-    <Entry frequency="351000" >tres<nouns>
-
+    <Entry frequency="351000">tres<nouns>
             <translations>
-
                 <translation catagory="number" gender="m" >three</translation>
-
+                <translation sourceplural="les tres">three (o'clock)</translation>
             </translations>
-
         </nouns>
-
-        <expressions>en un tres i no  res
-
+        <adjectives>
             <translations>
-
-        <translation>in a flash</translation></translations></expressions>
-
+                <translation>three</translation>
+            </translations>
+        </adjectives>   
         <expressions>cada dos per tres
-
             <translations>
-
-                <translation>always / every other minute<catexamp>Cada dos per tres em pregunten quan em casaré</catexamp><engexamp>They're always asking me when I'm going to get married</engexamp><catexamp>S'equivoquen cada dos per tres amb els noms dels equips i dels jugadors</catexamp><engexamp>They keep getting the names of the teams and the players wrong</engexamp></translation>
-
-        </translations></expressions>
-
+                <translation>always / every other minute<catexamp>Cada dos per tres em pregunten quan em casaré.</catexamp><engexamp>They're always asking me when I'm going to get married.</engexamp><catexamp>S'equivoquen cada dos per tres amb els noms dels equips i dels jugadors.</catexamp><engexamp>They keep getting the names of the teams and the players wrong.</engexamp></translation>
+            </translations>
+        </expressions>
+        <expressions>en un tres i no  res
+            <translations>
+                <translation>in a flash</translation>
+            </translations>
+        </expressions>       
     </Entry>
-
     <Entry frequency="12600" >tresor<nouns>
-
             <translations>
-
                 <translation gender="m" >treasure</translation>
-
             </translations>
-
         </nouns>
-
     </Entry>
-
     <Entry frequency="1930">trespeus<nouns>
-
             <translations><date>1208</date>
-
                 <translation gender="m">trivet</translation>
-
                 <translation gender="m">tripod</translation>
-
             </translations>
-
         </nouns>
-
     </Entry>
-
     <Entry frequency="53400" >tret<nouns>
-
             <translations>
-
-                <translation gender="m" >shot<engnote>'Tret' means 'shot' as in 'shot from a gun'</engnote>
-
-                </translation>
-
+                <translation gender="m" >shot<engnote>'Tret' means 'shot' as in 'shot from a gun'.</engnote></translation>
                 <translation catagory="body" gender="m" >trait / feature</translation>
-
             </translations>
-
         </nouns>
-
     </Entry>
-
-    <Entry frequency="10300" >tretze<nouns>
-
+    <Entry frequency="10300">tretze<nouns>
             <translations>
-
                 <translation catagory="number-cardinal" >thirteen</translation>
-
             </translations>
-
         </nouns>
-
-    </Entry>
-
-    <Entry frequency="2100" >tretzè<adjectives>
-
+        <adjectives>
             <translations>
-
-                <translation catagory="number-ordinal" >thirteenth<fems>tretzena</fems>
-
-                </translation>
-
+                <translation>thirteen</translation>
             </translations>
-
         </adjectives>
-
+    </Entry>
+    <Entry frequency="2100">tretzè<adjectives>
+            <translations>
+                <translation catagory="number-ordinal">thirteenth<fems>tretzena</fems></translation>
+            </translations>
+        </adjectives>
+        <nouns>
+            <translations>
+                <translation gender="m">thirteenth</translation>
+            </translations>
+        </nouns>
     </Entry>
 
     <Entry frequency="55000" >treure<verbs conj="irregular12" >
@@ -12888,7 +12854,29 @@
         </nouns>
 
     </Entry>
-
+<Entry frequency="4300000">tuit<nouns>
+			<translations><date>0413</date>
+				<translation disambiguate="computers" gender="m">tweet</translation>
+			</translations>
+		</nouns>
+	</Entry>
+<Entry frequency="119000">tuitejar<verbs conj="JtoG">
+			<translations><date>0413</date>
+				<translation disambiguate="computers" transitive="true">to tweet<synonyms>piular</synonyms></translation>
+			</translations>
+		</verbs>
+	</Entry>  
+<Entry frequency="17800">tuiter<nouns>
+			<translations><date>0413</date>
+				<translation catagory="computers" gender="m / f">Twitter user</translation>
+			</translations>
+		</nouns>
+                <adjectives>
+                    <translations>
+                        <translation catagory="computers">Twitter<fems>tuitera</fems></translation>
+                    </translations>
+                </adjectives>
+	</Entry>        
     <Entry frequency="2490">tuli<nouns>
 
             <translations><date>0508</date>
