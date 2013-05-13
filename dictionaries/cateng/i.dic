@@ -477,23 +477,27 @@
                                 <translation gender="f">[d'edificis] block</translation>
 			</translations>
 		</nouns>
+                 <expressions>Illa de Pasqua
+                    <translations>
+                        <translation catagory="country-oceania" gender="f">Easter Island</translation>
+                    </translations>
+                </expressions>
                 <expressions>Illes Balears
                     <translations>
                         <translation catagory="geography" gender="fpl">Balearic Islands<engnote>Also just 'les Balears' (e.g. 'Va passar les seves vacances a les Balears').</engnote></translation>
                     </translations>
                 </expressions>
-                <expressions>Illa de Pasqua
+                <expressions>Illes Turks i Caicos
                     <translations>
-                        <translation catagory="geography-country-oceania" gender="f">Easter Island</translation>
+                        <translation catagory="country-northamerica" gender="fpl">Turks and Caicos Islands</translation>
                     </translations>
                 </expressions>
-	</Entry>
-	<Entry frequency="355">illa de Pasqua<nouns>
-			<translations><date>0606</date>
-				<translation catagory="geography-country-oceania" gender="f">Easter Island</translation>
-			</translations>
-		</nouns>
-	</Entry>
+                <expressions>Illes Verges Britàniques
+                    <translations>
+                        <translation catagory="country-northamerica" gender="fpl">British Virgin Islands</translation>
+                    </translations>
+                </expressions>
+                </Entry>	
         <Entry frequency="361000">il·legal<adjectives>
                             <translations><date>0709</date>
 				<translation>illegal / unlawful</translation>
@@ -555,7 +559,7 @@
 	</Entry>
                 <Entry frequency="9830">Illes Canàries<nouns>
 			<translations><date>0805</date>
-				<translation catagory="geography" gender="fpl">Canary Islands</translation>
+				<translation catagory="geography-region-europe" gender="fpl">Canary Islands</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -579,13 +583,13 @@
 	</Entry>
                 <Entry frequency="139">Illes Galápagos<nouns>
 			<translations><date>0805</date>
-				<translation catagory="geography" gender="fpl">Galapagos Islands</translation>
+				<translation catagory="geography-region" gender="fpl">Galapagos Islands</translation>
 			</translations>
 		</nouns>
 	</Entry>
         <Entry frequency="636">Illes Malvines<nouns>
 			<translations><date>0805</date>
-				<translation catagory="country-southamerica" gender="fpl">Falkland Islands</translation>
+				<translation catagory="geography-region-southamerica" gender="fpl">Falkland Islands</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -1706,6 +1710,18 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="273000">imputació<nouns>
+			<translations><date>0513</date>
+				<translation gender="ffullform">accusation<plural>imputacions</plural></translation>
+			</translations>
+		</nouns>
+	</Entry>        
+<Entry frequency="235000">imputar<verbs conj="regular">
+			<translations><date>0513</date>
+				<translation transitive="true">to charge / to blame</translation>
+			</translations>
+		</verbs>
+	</Entry>        
            <Entry frequency="17400">inabastable<adjectives>
 			<translations><date>0508</date>
 				<translation>unreachable / out of reach / unattainable</translation>
