@@ -1808,6 +1808,13 @@
                 </translations>
                 </expressions>
 	</Entry>
+  <Entry frequency="336000000">barn<nouns>
+                            <translations><date>0513</date>
+				<translation gender="m">[for grain] graner</translation>
+                                <translation gender="m">[for animals] estable / cobert</translation>
+			</translations>
+		</nouns>
+	</Entry>                
 <Entry frequency="30000">barnet<nouns>
 			<translations>
 				<translation register="dialectal-cockney" local="gb" gender="mpl">cabells<catnote>hair &gt; Barnet Fair &gt; Barnet.</catnote>
@@ -2051,9 +2058,14 @@
 </Entry>
 <Entry frequency="38700000">baseball<nouns>
 			<translations>
-				<translation gender="m">beisbol</translation>
+				<translation catagory="sports-event" gender="m">beisbol</translation>
 			</translations>
 		</nouns>
+                <expressions>baseball player
+                    <translations>
+                        <translation catagory="sports-event-baseball" gender="mf">jugador de beisbol / beisbolista</translation>
+                    </translations>
+                </expressions>
 	</Entry>
 <Entry frequency="2530000">baseband<nouns>
 			<translations>
