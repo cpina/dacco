@@ -434,8 +434,8 @@
 				<grouptranslation>
 					<translation gender="m">mur</translation>
 					<translation gender="f">muralla</translation>
-					<engexamp>The city walls</engexamp>
-					<catexamp>Els murs de la ciutat / la muralla de la ciutat</catexamp>
+					<engexamp>The city walls.</engexamp>
+					<catexamp>Els murs de la ciutat / la muralla de la ciutat.</catexamp>
 				</grouptranslation>
 			</translations>
 		</nouns>
@@ -1364,6 +1364,11 @@
 				<translation gender="f">arma</translation>
 			</translations>
 		</nouns>
+                <expressions>chemical weapons
+                    <translations>
+                        <translation gender="fpl">armes químiques</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="247000000">wear<verbs>
 			<past>wore</past>
 			<participle>worn</participle>
@@ -1723,7 +1728,10 @@
 	</Entry>
         <Entry frequency="364000">weightlifting<nouns>
 			<translations>
-				<translation catagory="sports-event" gender="f">halterofília</translation>
+                            <grouptranslation catagory="sports-event">                           
+				<translation gender="f">halterofília</translation>
+                                <translation gender="m">aixecament de pesos</translation>
+                            </grouptranslation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1320000">weir<nouns>
@@ -3125,6 +3133,12 @@
                     </translations>
                 </expressions>
 	</Entry>
+        <Entry frequency="1860000">windsock<nouns>
+        <translations><date>0513</date>
+            <translation catagory="sports" gender="f">mànega de vent</translation>
+        </translations>
+    </nouns>
+   </Entry>
         <Entry frequency="358000">windsurfer<nouns>
 			<translations>
                         <translation catagory="sports-event" termcat="true" gender="mf">surfista</translation>
@@ -3616,7 +3630,7 @@
 		</nouns>
 	</Entry><Entry frequency="1670000">wombat<nouns>
 			<translations>
-				<translation catagory="animal" picture="http://static.flickr.com/16/104292618_1a29b54944.jpg" flickr="http://www.flickr.com/photos/rabinal/104292618/" gender="m">uombat<catnote>(Marsupial australià).</catnote></translation>
+				<translation catagory="animal-animal" picture="http://static.flickr.com/16/104292618_1a29b54944.jpg" flickr="http://www.flickr.com/photos/rabinal/104292618/" gender="m">uombat<catnote>(Marsupial australià).</catnote></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="18400000">wonder<verbs>
@@ -4447,4 +4461,5 @@
 				<translation gender="f">wurtzita</translation>
 			</translations>
 		</nouns>
-	</Entry></dictionary>
+	</Entry>
+        </dictionary>

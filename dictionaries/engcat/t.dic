@@ -288,9 +288,9 @@
 				<translation gender="f">aigua avall</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="19400">tail wind<nouns>
-			<translations>
-				<translation catagory="sports-event-athletics" gender="m">vent en favor</translation>
+	</Entry><Entry frequency="7320000">tailwind<nouns>
+			<translations><date>0114</date>
+                            <translation catagory="sports-event-athletics" gender="m">vent a favor</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -716,6 +716,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+         <Entry frequency="1780000">tamarin<nouns>
+            <translations><date>0114</date>
+                <translation catagory="animal-animal" gender="m">tití</translation>
+            </translations>
+        </nouns>
+    </Entry>
         <Entry frequency="16100000">tamarind<nouns>
 
 			<translations><date>0313</date>
@@ -957,7 +963,14 @@
 				<translation gender="f">tafonomia</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="10800000">tar<nouns>
+	</Entry>
+        <Entry frequency="6330000">tapir<nouns>
+        <translations><date>0114</date>
+            <translation catagory="animal-animal" gender="m">tapir</translation>
+        </translations>
+    </nouns>
+    </Entry>     
+        <Entry frequency="10800000">tar<nouns>
 			<translations>
 				<translation gender="m">quitrà</translation>
 			</translations>
@@ -1011,6 +1024,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+<Entry frequency="1510000">tarsier<nouns>            
+        <translations><date>1113</date>
+            <translation catagory="animal-animal" gender="m">tarser</translation>               
+        </translations>
+    </nouns>
+</Entry>             
           <Entry frequency="5090000">tartan<nouns>
                             <translations><date>1008</date>
 				<translation gender="m">tartà</translation>
@@ -2241,6 +2260,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="30200000">termite<nouns>
+        <translations><date>0114</date>
+            <translation catagory="animal-insect" gender="m">tèrmit</translation>
+        </translations>
+    </nouns>
+    </Entry>     
 <Entry frequency="7810000">terrace<nouns>
 			<translations>
 				<translation gender="f">terrassa</translation>
@@ -4678,6 +4703,16 @@
 				<translation catagory="food" gender="m">tofu</translation>
 			</translations>
 		</nouns>
+                <expressions>firm tofu
+                    <translations>
+                        <translation catagory="food" gender="m">tofu ferm</translation>
+                    </translations>
+                </expressions>
+                <expressions>silken (or soft) tofu
+                    <translations>
+                        <translation catagory="food" gender="m">tofu suau (o tou)</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="830000">toga<nouns>
 			<translations>
 				<translation catagory="clothes" gender="f">toga</translation>
@@ -5227,6 +5262,7 @@
                                      <translation gender="f">llanterna</translation>
                                  <translation gender="m">lot</translation><otherlocal>flashlight</otherlocal><engnote>'Llanterna' and 'lot' mean the battery-operated type of torch. 'Lot' is a registered trademark but is widely used.</engnote></grouptranslation>
                                  <translation gender="f">torxa<engnote>'Torxa' means the 'set end on fire' type of torch (i.e. like the Olympic torch).</engnote></translation>
+                                 <translation local="us" gender="m">bufador<otherlocal>blowlamp</otherlocal><synonyms>blowtorch</synonyms></translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -5236,9 +5272,17 @@
                 </verbs>
 	</Entry><Entry frequency="806000">torment<verbs>
 			<translations>
-				<translation transitive="true">atormentar</translation>
+				<translation transitive="true">fer la vida impossible (a algú)</translation>
 			</translations>
 		</verbs>
+                <nouns>
+                    <translations>
+                        <grouptranslation>
+                        <translation gender="m">turment / patiment</translation>
+                        <translation gender="f">tortura</translation>
+                        </grouptranslation>
+                        </translations>
+                    </nouns>    
 	</Entry><Entry frequency="6010000">tornado<nouns>
 			<translations>
 				<translation catagory="weather" gender="m">tornado</translation>
@@ -5259,7 +5303,24 @@
                 <translation transitive="true">[fig.] torpedinar<example>The government tried to &lt;b&gt;torpedo&lt;/b&gt; the process.</example></translation>
                 </translations>
                 </verbs>
-	</Entry><Entry frequency="664000">torrential<adjectives>
+	</Entry>
+        <Entry frequency="1390000">torpid<adjectives>
+			<translations><date>1113</date>
+				<translation register="formal">apàtic</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="1350000000">torrent<nouns>
+			<translations><date>1113</date>
+                                <grouptranslation>
+				<translation gender="m">[of water] doll / devessall / xàfec</translation>
+                                <translation gender="f">riuada</translation>
+                                </grouptranslation>
+                                <translation gender="m">encadenament / enfilall</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="664000">torrential<adjectives>
 			<translations>
 				<translation>torrencial</translation>
 			</translations>
@@ -5336,14 +5397,20 @@
                 <nouns>
                 <translations>
                 <translation gender="m">llançament</translation></translations></nouns>
-                <expressions>couldn't (o don't) give a toss
+                <expressions>I couldn't (o don't) give a toss
                 <translations>
-                <translation register="slang" local="gb">importar un rave / no interessar (a algú)<synonyms>couldn't (o don't) give a monkey's (Br.) / couldn't (o don't) give a XXXX / couldn't (o don't) give a fuck (o damn o shit o crap) (vulg.)</synonyms></translation>
+                <translation register="slang" local="gb">se me'n fot<synonyms>couldn't (o don't) give a monkey's (Br.) / couldn't (o don't) give a XXXX / couldn't (o don't) give a fuck (o damn o shit o crap) (vulg.)</synonyms></translation>
                 </translations>
                 </expressions>
 	</Entry><Entry frequency="175000">tosser<nouns>
 			<translations>
 				<translation register="slang" local="gb" gender="mf">idiota</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="3620000">toss-up<nouns>
+			<translations><date>1113</date>
+				<translation gender="m">dilema<engexamp>It's a toss-up.</engexamp><catexamp>Tinc un dilema / no em decideixo.</catexamp></translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -5397,7 +5464,14 @@
 				<translation>totalment / completament</translation>
 			</translations>
 		</adverbs>
-	</Entry><Entry frequency="404000000">touch<verbs>
+	</Entry>
+        <Entry frequency="3830000">totter<verbs>
+			<translations><date>1113</date>
+				<translation intransitive="true">caminar amb pas insegur</translation>
+			</translations>
+		</verbs>
+	</Entry>
+        <Entry frequency="404000000">touch<verbs>
                             <translations><date>1007</date>
 				<translation transitive="true">tocar</translation>
                                 <translation intransitive="true">tocar-se</translation>
@@ -5432,16 +5506,27 @@
                     <translations>
                         <translation gender="m">tacte</translation>
                         <translation gender="m">toc</translation>
+                        <translation gender="f">caricia</translation>
                     </translations>
-                </nouns>
-                <expressions>touch screen
+                </nouns>  
+                <expressions>nobody can touch him
                     <translations>
-                        <translation catagory="computers-hardware" gender="f">pantalla tàctil</translation>
+                        <translation>no té igual / no té parió</translation>
                     </translations>
                 </expressions>
-                <expressions>get in touch
+                <expressions>to be out of touch
+                    <translations>
+                        <translation>estar desfasat / estar desconnectat de la realitat / no estar al dia / no estar al corrent</translation>
+                    </translations>
+                </expressions>                    
+                <expressions>to get in touch
                     <translations>
                         <translation>posar-se en contacte</translation>
+                    </translations>
+                </expressions>
+                 <expressions>touch screen
+                    <translations>
+                        <translation catagory="computers-hardware" gender="f">pantalla tàctil</translation>
                     </translations>
                 </expressions>
 </Entry>
@@ -5478,8 +5563,24 @@
 				<translation>fort</translation>
 				<translation>difícil</translation>
                                 <translation>sever / estricte / dur</translation>
+                                <translation>perillós / conflictiu</translation>
 			</translations>
 		</adjectives>
+                <expressions>tough times
+                    <translations>
+                        <translation gender="f">mala època</translation>
+                    </translations>
+                </expressions>
+                <expressions>to tough (something) out
+                    <translations>
+                        <translation>aguantar (alguna cosa)</translation>
+                    </translations>
+                </expressions>
+                <exclamations>
+                    <translations>
+                        <translation>mala sort!</translation>
+                    </translations>
+                </exclamations>
 	</Entry><Entry frequency="2820000">toughness<nouns>
 			<translations>
 				<translation gender="f">duresa</translation>
@@ -5492,7 +5593,7 @@
 		</nouns>
 	</Entry><Entry frequency="183000">toupee<nouns>
 			<translations>
-				<translation gender="f">perruca<synonyms>wig</synonyms></translation>
+				<translation gender="m">postís</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="504000000">tour<nouns>
@@ -5502,6 +5603,11 @@
                                 <translation gender="f">visita<engnote>'Visita' means 'tour' in the sense 'being shown around a place' (He took me on a tour of the museum).</engnote></translation>
 			</translations>
 		</nouns>
+                <expressions>tour de force
+                    <translations>
+                        <translation gender="m">cop d'efecte</translation>
+                    </translations>
+                </expressions>
                 <expressions>tour guide
                     <translations>
                         <translation catagory="work-job" gender="mf">guia acompanyant</translation>
@@ -5576,10 +5682,20 @@
 				<translation transitive="true">remolcar</translation>
 			</translations>
 		</verbs>
+                <expressions>tow hitch (or hook)
+                    <translations>
+                        <translation gender="m">ganxo (de remolc)</translation>
+                    </translations>
+                </expressions>
                 <expressions>tow rope
                     <translations>
                         <translation gender="f">sirga</translation>
                         </translations>
+                </expressions>
+                <expressions>tow truck
+                    <translations>
+                        <translation catagory="transport-mode" gender="f">(camió) grua</translation>
+                    </translations>
                 </expressions>
 	</Entry><Entry frequency="14200000">toward<prepositions>
 			<translations>
@@ -5622,7 +5738,19 @@
 				<translation gender="f">torre</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="809000">Tower of London<nouns>
+                <phrasalverbs>tower over (or above)
+                    <translations>
+                        <translation transitive="true">sobrepassar / sobrepujar</translation>
+                    </translations>
+                </phrasalverbs>
+	</Entry>
+        <Entry frequency="23000000">towering<adjectives>
+			<translations><date>1113</date>
+				<translation>imponent / elevat</translation>
+			</translations>
+		</adjectives>
+	</Entry>
+        <Entry frequency="809000">Tower of London<nouns>
 			<translations>
 				<translation picture="http://photos15.flickr.com/20995389_d1f57a8d52.jpg" flickr="http://www.flickr.com/photos/my_gallery/20995389/" catagory="encyclopaedic" gender="f">Torre de Londres<catnote>També és conegut senzillament com 'The Tower'.</catnote></translation>
 			</translations>
@@ -5640,7 +5768,10 @@
                 </expressions>
                 <expressions>town hall
                     <translations>
-                        <translation catagory="politics" gender="m">ajuntament</translation>
+                        <grouptranslation catagory="politics">
+                        <translation gender="m">ajuntament</translation>
+                        <translation gender="f">casa de la vila</translation>
+                        </grouptranslation>
                     </translations>
                 </expressions>
                 <expressions>town planner
@@ -5654,6 +5785,12 @@
                     </translations>
                 </expressions>
 	</Entry>
+        <Entry frequency="2380000">townscape<nouns>
+			<translations><date>1113</date>
+				<translation gender="m">paisatge urbà</translation>
+			</translations>
+		</nouns>
+	</Entry>
         <Entry frequency="27700">townsfolk<nouns>
                             <translations><date>0808</date>
                                 <grouptranslation>
@@ -5663,7 +5800,13 @@
 			</translations>
 		</nouns>
 	</Entry>
-
+<Entry frequency="256000000">township<nouns>
+			<translations><date>1113</date>
+				<translation local="us" gender="m">municipi</translation>
+                                <translation>barri negre (a Sud-Àfrica, esp. durant l'apartheid)</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="521000">towpath<nouns>
 			<translations><date>0708</date>
 				<translation gender="m">camí de sirga</translation>
@@ -5707,8 +5850,7 @@
                 </phrasalverbs>
 	</Entry><Entry frequency="22100">toy boy<nouns>
 			<translations>
-				<translation register="slang" noteng="TRUE">-<catnote>Un 'toy boy' és un home que té relacions sexuals amb una dona més vella.</catnote>
-				</translation>
+				<translation gender="m">gigoló</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="6400000">trace<nouns>
@@ -5722,7 +5864,14 @@
                 </translations>
                 
                 </verbs>
-	</Entry><Entry frequency="559000">trachea<nouns>
+	</Entry>
+       <Entry frequency="23100000">traceable<adjectives>
+			<translations><date>1113</date>
+				<translation>localitzable</translation>
+			</translations>
+		</adjectives>
+	</Entry> 
+        <Entry frequency="559000">trachea<nouns>
 			<translations>
 				<translation catagory="body" gender="f">tràquea<plural>tracheas / tracheae</plural></translation>
 			</translations>
@@ -5736,6 +5885,7 @@
                                 <translation gender="f">pista</translation>
                                 </grouptranslation>
                                 <translation disambiguate="sports-event-athletics" gender="f">pista</translation> 
+                                <translation plural="tracks" gender="f">línia fèrria</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -5754,10 +5904,35 @@
                         <translation>ser un calent mental</translation>
                     </translations>
                 </expressions>
+                <expressions>to keep track of
+                    <translations>
+                        <translation>seguir / fer el seguiment (de) / prendre nota de</translation>
+                    </translations>
+                </expressions>
+                <expressions>to lose track of time
+                    <translations>
+                        <translation>perdre la noció del temps</translation>
+                    </translations>
+                </expressions>
+                <expressions>on track
+                    <translations>
+                        <translation>encarrilat / per bon camí</translation>
+                    </translations>
+                </expressions>
+                <expressions>to stop in your tracks
+                    <translations>
+                        <translation>parar-se en sec</translation>
+                    </translations>
+                </expressions>
                 <expressions>to stop someone in their tracks
                 <translations>
-                <translation>parar els peus a algú<example>How to &lt;b&gt;stop&lt;/b&gt; would-be Notebook thieves &lt;b&gt;in their tracks&lt;/b&gt;.</example></translation>
+                <translation>parar-li els peus (a algú) / tallar-li les ales (a algú)<example>How to &lt;b&gt;stop&lt;/b&gt; would-be Notebook thieves &lt;b&gt;in their tracks&lt;/b&gt;.</example></translation>
                 </translations>
+                </expressions>
+                <expressions>to track down
+                    <translations>
+                        <translation>localitzar</translation>
+                    </translations>
                 </expressions>
 	</Entry><Entry frequency="861000">track and field<nouns>
 			<translations>
@@ -5775,6 +5950,11 @@
 				<translation gender="f">tracció</translation>
 			</translations>
 		</nouns>
+                <expressions>to gain traction
+                    <translations>
+                        <translation>prendre força (una iniciativa, etc.) / obtenir suport (una proposta, etc.)</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="1800000">tractor<nouns>
 			<translations>
 				<translation catagory="transport" gender="m">tractor</translation>
@@ -5833,7 +6013,7 @@
 		</nouns>
 	</Entry><Entry frequency="8840000">trade-off<nouns>
 			<translations><date>0408</date>
-				<translation gender="m">compromís<example>Choosing a new home always involves a &lt;b&gt;trade-off&lt;/b&gt; between commute time and space requirements.</example></translation>
+				<translation gender="f">compensació / solució de compromís / solució compensatòria<example>Choosing a new home always involves a &lt;b&gt;trade-off&lt;/b&gt; between commute time and space requirements.</example></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1810000">trade union<nouns>
@@ -5873,7 +6053,7 @@
 		</nouns>
 	</Entry><Entry frequency="35800000">traditional<adjectives>
 			<translations>
-				<translation>tradicional</translation>
+				<translation>tradicional / convencional</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="1730000">traditionally<adverbs>
@@ -5887,32 +6067,39 @@
                                 <translation gender="m">tràfic</translation>
 			</translations>
 		</nouns>
-        </Entry><Entry frequency="164000">traffic circle<nouns>
-			<translations>
-				<translation catagory="transport" local="us" gender="f">rotonda<otherlocal>roundabout</otherlocal></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="478000">traffic jam<nouns>
-			<translations>
-				<translation catagory="transport" gender="m">embús</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="7740000">trafficking<nouns>
+                <expressions>traffic calming
+                    <translations>
+                        <translation catagory="transport" gender="f">moderació de la circulació / pacificació del trànsit</translation>
+                    </translations>
+                </expressions>
+                <expressions>traffic circle
+                    <translations>
+                        <translation catagory="transport" local="us" gender="f">rotonda<otherlocal>roundabout</otherlocal></translation>
+                    </translations>
+                </expressions>
+                <expressions>traffic jam
+                    <translations>
+                        <translation catagory="transport" gender="m">embús</translation>
+                    </translations>
+                </expressions>
+                <expressions>traffic light
+                    <translations>
+                        <translation catagory="transport" gender="m">semàfor</translation>
+                    </translations>
+                </expressions>
+                <expressions>traffic ticket
+                    <translations>
+                        <translation catagory="transport" local="us" gender="f">multa de trànsit<otherlocal>(parking) ticket / (speeding) ticket</otherlocal></translation>
+                    </translations>
+                </expressions>
+        </Entry>
+               <Entry frequency="7740000">trafficking<nouns>
 			<translations>
 				<translation gender="m">tràfic</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="1010000">traffic light<nouns>
-			<translations>
-				<translation catagory="transport" gender="m">semàfor</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="1610000">traffic ticket<nouns>
-			<translations><date>0408</date>
-				<translation catagory="transport" local="us" gender="f">multa de trànsit<otherlocal>(parking) ticket / (speeding) ticket</otherlocal></translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="5700000">tragedy<nouns>
+	</Entry>
+<Entry frequency="5700000">tragedy<nouns>
 			<translations>
 				<translation gender="f">tragèdia</translation>
 			</translations>
@@ -5957,12 +6144,28 @@
                 <tranlation intransitive="true">anar a la saga</tranlation>
                 </translations>
                 </verbs>
+                <phrasalverbs>trail off
+                    <translations>
+                        <translation>apagar-se (la veu)</translation>
+                    </translations>
+                </phrasalverbs>
+                <expressions>on the trail (of)
+                    <translations>
+                        <translation>a la recerca (de)</translation>
+                    </translations>
+                </expressions>                
 	            </Entry>
                     <Entry frequency="3070000">trailblazer<nouns>
                             <translations><date>1008</date>
 				<translation gender="mf">pioner</translation>
 			</translations>
 		</nouns>
+	</Entry>
+        <Entry frequency="1780000">trailblazing<adjectives>
+			<translations><date>1113</date>
+				<translation>pioner / avantguardista</translation>
+			</translations>
+		</adjectives>
 	</Entry>
                     <Entry frequency="11300000">trailer<nouns>
 			<translations>
@@ -6025,10 +6228,10 @@
                         <translation gender="f">formació a l'empresa</translation>
                     </translations>
                 </expressions>
-	</Entry><Entry frequency="1670000">trait<nouns>
-            
-			<translations>
-				<translation gender="m">tret</translation>
+	</Entry><Entry frequency="1670000">trait<nouns>            
+			<translations>                                
+                                <translation gender="f">qualitat (bona o dolenta) / característica</translation>
+                                <translation gender="m">tret / atribut</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2380000">traitor<nouns>
@@ -6041,23 +6244,49 @@
 				<translation>traïdor</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="704000">trajectory<nouns>
+	</Entry>
+        <Entry frequency="704000">trajectory<nouns>
 			<translations>
 				<translation gender="f">trajectòria<synonyms>path, course</synonyms></translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="865000">tram<nouns>
+	</Entry>
+        <Entry frequency="865000">tram<nouns>
 			<translations>
 				<translation catagory="transport-mode" local="gb" gender="m">tramvia / tram<otherlocal>streetcar</otherlocal></translation>
                                 <translation catagory="transport" local="gb" beforenoun="true">tramviari</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="10700000">tramp<nouns>
+	</Entry>
+         <Entry frequency="3090000">trammel<verbs>
+             <past>trammeled, trammelled</past>
+        <participle>trameled, trammelled</participle>
+        <gerund>trameling, trammelling</gerund>
+			<translations><date>1113</date>
+				<translation transitive="true">restringir / limitar</translation>
+			</translations>
+		</verbs>
+                <nouns>
+                    <translations>     
+                        <grouptranslation>
+                            <translation gender="m">obstacle</translation>
+                        <translation gender="f">barrera<engexamp>The trammels of convention.</engexamp><catexamp>La barrera de les convencions.</catexamp></translation>
+                        </grouptranslation>
+                    </translations>
+                </nouns>
+	</Entry>
+        <Entry frequency="10700000">tramp<nouns>
 			<translations>
 				<translation gender="mf">vagabund<synonyms>hobo (Am.)</synonyms></translation>
-                                <translation local="us" register="dated" gender="f">puta</translation>
+                                <translation local="us" register="dated" gender="f">puteta / dona fàcil</translation>
 			</translations>
 		</nouns>
+                <verbs>
+                    <translations>
+                        <translation intransitive="true">trepitjar fort</translation>
+                        <translation transitive="true">vagar / vagarejar (per)</translation>
+                    </translations>
+                </verbs>
 	</Entry><Entry frequency="5340000">trample<verbs>
                             <translations><date>1007</date>
 				<translation transitive="true">trepitjar</translation>
@@ -6068,6 +6297,12 @@
         <Entry frequency="5400000">trampoline<nouns>
                 <translations><date>0409</date>
                     <translation catagory="sports" gender="m">trampolí</translation>
+                </translations>
+            </nouns>
+        </Entry>
+         <Entry frequency="159000000">trance<nouns>
+                <translations><date>1113</date>
+                    <translation gender="m">trànsit<engexamp>It's as if she were in a trance.</engexamp><catexamp>Sembla com si estigués hipnotitzat.</catexamp></translation>
                 </translations>
             </nouns>
         </Entry>
@@ -6084,7 +6319,8 @@
 		</nouns>
 	</Entry><Entry frequency="13000000">tranquil<adjectives>
 			<translations><date>0406</date>
-				<translation>plàcid / tranquil<synonyms>calm, peaceful</synonyms></translation>
+				<translation>plàcid</translation>
+                                <translation>serè<synonyms>calm, peaceful</synonyms></translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="25900">tranquiliser<nouns>
@@ -6097,9 +6333,18 @@
 				<translation catagory="medical" gender="m">tranquil·litzant</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="12500000">transaction<nouns>
+	</Entry>
+         <Entry frequency="23700000">transact<verbs>
+                <translations><date>1113</date>
+                    <translation transitive="true" register="formal">negociar / tramitar</translation>
+                    <translation intransitive="true" register="formal">negociar</translation>
+                </translations>
+            </verbs>
+        </Entry>
+        <Entry frequency="12500000">transaction<nouns>
 			<translations>
-				<translation gender="f">transacció</translation>
+				<translation gender="f">transacció / operació</translation>
+                                <translation gender="f">tramitació</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="69700">transalpine<adjectives>
@@ -6114,17 +6359,18 @@
 		</adjectives>
 	</Entry><Entry frequency="5990000">transcend<verbs>
 			<translations>
-				<translation transitive="true">transcendir</translation>
+				<translation transitive="true">transcendir / ultrapassar / anar més enllà (de)</translation>
 			</translations>
 		</verbs>
 	</Entry><Entry frequency="659000">transcendence<nouns>
 			<translations>
 				<translation gender="f">transcendència</translation>
+                                <translation gender="f">superació</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="1050000">transcendent<adjectives>
 			<translations>
-				<translation>transcendent</translation>
+				<translation>transcendent / suprem</translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="1080000">transcendental<adjectives>
@@ -6140,6 +6386,7 @@
 	</Entry><Entry frequency="3080000">transcript<nouns>
 			<translations>
 				<translation gender="f">transcripció</translation>
+                                <translation gender="m">expedient acadèmic</translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="2670000">transcription<nouns>
@@ -6173,17 +6420,24 @@
                                 <translation disambiguate="transport" intransitive="true">transbordar</translation>
 			</translations>
 		</verbs>
+                <expressions>transfer window
+                    <translations>
+                        <translation catagory="sports-event-football" gender="m">termini de fitxatges</translation>
+                    </translations>
+                </expressions>
 	</Entry><Entry frequency="5600000">transferable<adjectives>
 			<translations>
 				<translation>transferible</translation>
 			</translations>
 		</adjectives>
-	</Entry><Entry frequency="36400">transfer window<nouns>
-			<translations>
-				<translation catagory="sports-event-football" gender="m">termini de fitxatges</translation>
-			</translations>
-		</nouns>
-	</Entry><Entry frequency="4100000">transform<verbs>
+	</Entry>
+         <Entry frequency="4950000">transfixed<adjectives>
+                <translations><date>1113</date>
+                    <translation>expectant / amb l'ànim en suspens</translation>
+                </translations>
+            </adjectives>
+        </Entry>
+        <Entry frequency="4100000">transform<verbs>
 			<translations>
 				<translation transitive="true">transformar / transmutar</translation>
 			</translations>
@@ -6221,7 +6475,14 @@
 				<translation gender="f">transgressió</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="4030000">transistor<nouns>
+	</Entry>
+         <Entry frequency="1260000">transience<nouns>
+                <translations><date>1113</date>
+                    <translation gender="f">fugacitat</translation>
+                </translations>
+            </nouns>
+        </Entry>
+        <Entry frequency="4030000">transistor<nouns>
 			<translations>
 				<translation gender="m">transistor</translation>
 			</translations>
@@ -6241,7 +6502,7 @@
 		</nouns>
 	</Entry><Entry frequency="3900000">transitional<adjectives>
 			<translations>
-				<translation>transitori</translation>
+				<translation>transitori / de transició<engexamp>Transitional state.</engexamp><catexamp>Estat de transició / estat de trànsit.</catexamp></translation>
 			</translations>
 		</adjectives>
 	</Entry><Entry frequency="399000">transitive<adjectives>
@@ -6299,8 +6560,15 @@
 			<translations>
 				<translation>transnacional</translation>
 			</translations>
-		</adjectives>
-	</Entry><Entry frequency="3740000">transparency<nouns>
+		</adjectives>               
+	</Entry>
+         <Entry frequency="11000000">transom<nouns>
+                <translations><date>1113</date>
+                    <translation gender="f">tarja</translation>
+                </translations>
+            </nouns>
+        </Entry>
+        <Entry frequency="3740000">transparency<nouns>
 			<translations>
 				<translation gender="f">transparència</translation>
 			</translations>
@@ -6327,7 +6595,9 @@
 	</Entry>
         <Entry frequency="3150000">transplant<nouns>
 			<translations>
-				<translation catagory="medical-treatment" gender="m">trasplantament</translation>
+				<translation disambiguate="medical-treatment" gender="m">trasplantament</translation>
+                                <translation disambiguate="medical" gender="m">òrgan trasplantat</translation>
+                                <translation gender="mf">nouvingut</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -6448,6 +6718,7 @@
 				<translation local="us" gender="fpl">deixalles<otherlocal>rubbish</otherlocal>
 					<synonyms>garbage</synonyms>
 				</translation>
+                                <translation gender="f">[people] púrria</translation>
 			</translations>
 		</nouns>
                 <verbs>
@@ -6504,8 +6775,7 @@
 	</Entry>
         <Entry frequency="15600000">traveler<nouns>
 			<translations>
-				<translation local="us" gender="mf">viatger<otherlocal>traveller</otherlocal>
-				</translation>
+				<translation local="us" gender="mf">viatger<otherlocal>traveller</otherlocal></translation>
 			</translations>
 		</nouns>
 	</Entry><Entry frequency="828000">travel expenses<nouns>
@@ -6519,7 +6789,14 @@
 				</translation>
 			</translations>
 		</nouns>
-	</Entry><Entry frequency="2420000">travesty<nouns>
+	</Entry>
+         <Entry frequency="15600000">travelogue<nouns>
+                            <translations><date>1208</date>
+				<translation gender="f">crònica de viatge</translation>
+			</translations>
+		</nouns>
+	</Entry>
+        <Entry frequency="2420000">travesty<nouns>
 			<translations>
                         <grouptranslation>
 				<translation gender="f">caricatura / paròdia / aparença</translation>
@@ -6550,7 +6827,8 @@
 	</Entry>
   <Entry frequency="8680000">treacherous<adjectives>
                             <translations><date>1208</date>
-				<translation>traïdorenc / traïdor</translation>
+				<translation>traïdorenc / traïdor / maliciós</translation>
+                                <translation>perillós</translation>
 			</translations>
 		</adjectives>
 	</Entry>
@@ -6573,6 +6851,12 @@
 			</translations>
 		</verbs>
 	</Entry>
+         <Entry frequency="61000000">treadmill<nouns>
+                            <translations><date>1113</date>
+				<translation catagory="sports" gender="f">cinta de córrer</translation>
+			</translations>
+		</nouns>
+	</Entry>
                 <Entry frequency="8410000">treason<nouns>
                             <translations><date>1208</date>
 				<translation gender="f">alta traïció</translation>
@@ -6582,14 +6866,22 @@
         <Entry frequency="3160000">treasure<nouns>
 			<translations>
 				<translation gender="m">tresor</translation>
+                                <translation gender="m">objecte preciós</translation>                                
+                                <translation plural="treasures" gender="fpl">riqueses</translation>                                
 			</translations>
 		</nouns>
                 <verbs>
                     <translations>
-                        <translation transitive="true">valorar</translation>
+                        <translation transitive="true">valorar / venerar</translation>
                     </translations>
                 </verbs>
-	</Entry><Entry frequency="21200000">Treasury<nouns>
+                <expressions>national treasure
+                    <translations>
+                        <translation gender="f">figura nacional (dit d'una persona)</translation>
+                        </translations>
+                </expressions>
+	</Entry>
+        <Entry frequency="21200000">Treasury<nouns>
 			<translations>
 				<translation catagory="financial, politics" gender="f">hisenda</translation>
 			</translations>

@@ -1618,6 +1618,12 @@
             </translations>
         </nouns>
     </Entry>
+        <Entry frequency="1020000">capybara<nouns>
+			<translations><date>0114</date>
+				<translation catagory="animal-animal" gender="m">capibara</translation>
+			</translations>
+		</nouns>
+	</Entry>    
 <Entry frequency="143000000">car<nouns>
         <translations>
             <translation catagory="transport-mode" gender="m">cotxe / automòbil</translation>
@@ -2124,6 +2130,12 @@
         </translations>
     </nouns>
     </Entry>
+        <Entry frequency="6090000">carotenoid<nouns>
+			<translations><date>0114</date>
+				<translation catagory="biology" gender="m">carotenoide</translation>
+			</translations>
+		</nouns>
+	</Entry>    
     <Entry frequency="1200000">carouse<verbs>
         <translations><date>0512</date>
             <translation register="literary" intransitive="true">anar de gresca / anar de parranda</translation>
@@ -2799,7 +2811,7 @@
 <Entry frequency="30400000">castle<nouns>
         <translations>
             <translation gender="m">castell</translation>
-            <translation gender="f">torre<synonyms>rook</synonyms><engnote>'Torre' means the chess piece 'castle' (aka 'rook').</engnote><catnote>(Escacs)</catnote></translation>
+            <translation gender="f">torre<synonyms>rook</synonyms><engnote>(Chess piece).</engnote><catnote>(Peça d'escacs).</catnote></translation>
         </translations>
     </nouns>
     </Entry>
@@ -3546,6 +3558,12 @@
         </translations>
     </nouns>
     </Entry>
+<Entry frequency="2330000">celeriac<nouns>
+			<translations><date>0114</date>
+				<translation catagory="food-vegetable" gender="m">api-rave</translation>
+			</translations>
+		</nouns>
+	</Entry>    
 <Entry frequency="978000">celery<nouns>
         <translations>
             <translation gender="m">api</translation>
@@ -5357,6 +5375,11 @@
             <translation gender="m">formatge</translation>
         </translations>
     </nouns>
+    <expressions>blue cheese
+        <translations>
+            <translation catagory="food-dairy" gender="m">formatge blau</translation>
+        </translations>
+    </expressions>
     </Entry>
     <Entry frequency="247000">cheese plant<nouns>
         <translations><date>0512</date>
@@ -5450,15 +5473,25 @@
     </Entry>
 <Entry frequency="810000000">cherry<nouns>
         <translations><date>0512</date>
-            <translation gender="f">cirera</translation>
+            <translation catagory="food-fruit" gender="f">cirera</translation>
         </translations>
     </nouns>
+    <expressions>cherry tomato  
+        <translations>
+            <translation catagory="food-fruit, food-vegetable" gender="m">tomàquet cirera</translation>
+        </translations>
+    </expressions>
+    <expressions>ground cherry
+        <translations>
+            <translation local="us" catagory="food-fruit" gender="m">physalis<otherlocal>physalis</otherlocal></translation>
+        </translations>
+    </expressions>
     <expressions>to be a bowl of cherries
         <translations>
             <translation>ser flors i violes / ser un camí de roses</translation>
         </translations>
     </expressions>
-        <expressions>lose your cherry
+        <expressions>to lose your cherry
             <translations>
                 <translation register="slang">perdre la virginitat</translation>
             </translations>
@@ -5495,7 +5528,18 @@
             <translation gender="mpl">escacs</translation>
         </translations>
     </nouns>
+    <expressions>chess piece
+        <translations>
+            <translation gender="f">peça d'escacs</translation>
+        </translations>
+    </expressions>
     </Entry>
+        <Entry frequency="10700000">chessboard<nouns>
+			<translations><date>0114</date>
+				<translation gender="m">escaquer</translation>
+			</translations>
+		</nouns>
+	</Entry>    
 <Entry frequency="618000000">chest<nouns>
         <translations><date>0512</date>
             <translation disambiguate="body" gender="m">pit</translation>
@@ -5660,7 +5704,7 @@
     </Entry>
 <Entry frequency="1620000">chicory<nouns>
         <translations>
-            <translation catagory="food" local="gb" gender="f">endívia<otherlocal>endive</otherlocal></translation>
+            <translation catagory="food" local="gb" gender="f">xicoira / endívia<otherlocal>endive</otherlocal></translation>
         </translations>
     </nouns>
     </Entry>
@@ -6864,6 +6908,11 @@
                 <translation catagory="food-spice" gender="f">canyella en pols</translation>
             </translations>
         </expressions>
+        <expressions>cinnamon stick
+            <translations>
+                <translation catagory="food-spice" gender="f">canyella en branca</translation>
+            </translations>
+        </expressions>
     </Entry>
     <Entry frequency="934000">circadian<adjectives>
         <translations><date>0512</date>
@@ -7195,9 +7244,22 @@
         </translations>
     </verbs>
     </Entry>
+<Entry frequency="69500000">clad<adjectives>
+			<translations><date>1113</date>
+				<translation register="formal">vestit</translation>
+                                <translation register="formal">cobert<engexamp>Snow-clad mountains.</engexamp><catexamp>Muntanyes cobertes de neu.</catexamp></translation>
+			</translations>
+		</adjectives>
+	</Entry> 
+        <Entry frequency="4240000">clade<nouns>
+			<translations><date>1113</date>
+				<translation disambiguate="biology" gender="m">clade</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="245000">cladistics<nouns>
 			<translations><date>1007</date>
-				<translation catagory="biology" gender="f">cladística</translation>
+				<translation disambiguate="biology" gender="f">cladística</translation>
 			</translations>
 		</nouns>
 	</Entry>
@@ -7207,6 +7269,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+        <Entry frequency="84000">cladogenesis<nouns>
+			<translations><date>1113</date>
+				<translation disambiguate="biology" gender="f">cladogènesi</translation>
+			</translations>
+		</nouns>
+	</Entry>        
 <Entry frequency="32800000">claim<nouns>
                 <translations><date>1108</date>
             <translation gender="f">reclamació / reivindicació</translation>
@@ -8497,22 +8565,21 @@
             <translation>ennuvolar-se</translation>
         </translations>
         </phrasalverbs>
+        <expressions>cloud cuckoo land
+            <translations>
+                <translation gender="f">quimera<engexamp>To live in cloud cuckoo land.</engexamp><catexamp>Viure a la lluna.</catexamp></translation>
+            </translations>
+        </expressions>
         <expressions>cloud cover
             <translations>
                 <translation catagory="weather" gender="f">nuvolositat</translation>
             </translations>
         </expressions>
-    </Entry>
-    <Entry frequency="896000">cloud cuckoo land<nouns>
-        <translations><date>0512</date>
-                <translation gender="f">quimera</translation>                
-        </translations>
-    </nouns>
-    <expressions>to live in cloud cuckoo land
-        <translations>
-            <translation>viure a la lluna</translation>
-        </translations>
-    </expressions>
+        <expressions>Oort cloud
+            <translations>
+                <translation disambiguate="astronomy" gender="m">núvol d'Oort</translation>
+            </translations>
+        </expressions>
     </Entry>
 <Entry frequency="1570000">cloudiness<nouns>
         <translations>
@@ -8927,6 +8994,17 @@
             </translations>
         </nouns>
     </Entry>
+    <Entry frequency="102000000">cob<nouns>
+			<translations><date>0114</date>
+				<translation gender="f">panotxa<synonyms>corncob</synonyms></translation>
+			</translations>
+		</nouns>
+                <expressions>corn on the cob
+                    <translations>
+                        <translation catagory="food" gender="f">panotxa (sencera, cuita)<example>Do you fancy something simple like &lt;b&gt;corn on the cob&lt;/b&gt; for lunch?</example></translation>
+                    </translations>
+                </expressions>
+	</Entry>
 <Entry frequency="36500000">cobalt<nouns>
 			<translations><date>1007</date>
 				<translation catagory="chemistry" gender="m">cobalt</translation>
@@ -9047,6 +9125,12 @@
         </translations>
     </nouns>
     </Entry>
+<Entry frequency="619000">cockscomb<nouns>
+        <translations><date>0114</date>
+            <translation catagory="plants-flower" gender="f">cresta de gall</translation>
+        </translations>
+    </nouns>
+    </Entry>    
 <Entry frequency="1180000">cocksucker<nouns>
         <translations>
             <translation register="vulgar" gender="m">fill de puta</translation>
@@ -15090,6 +15174,12 @@
         </translations>
     </nouns>
     </Entry>
+    <Entry frequency="6990000">corncob<nouns>
+			<translations><date>0114</date>
+				<translation gender="f">panotxa</translation>
+			</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="263000000">corner<nouns>
         <translations><date>0409</date>
             <translation gender="m">racó</translation>
