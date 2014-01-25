@@ -568,7 +568,7 @@
         <phrasalverbs>call out
             <translations>
                 <translation>cridar<example>He &lt;b&gt;called out&lt;/b&gt; but nobody heard him.</example><example>The next student who &lt;b&gt;calls out&lt;/b&gt; without raising their hand first will be sent to the principal's office.</example></translation>
-                <translation>fer venir / fer anar un professional (sobretot en una emergència)<example>Helen's dad, who works for Yorkshire Electric, was &lt;b&gt;called out&lt;/b&gt; in the middle of the night when the power went off in Leeds city centre</example>
+                <translation>fer venir / fer anar un professional (sobretot en una emergència)<example>Helen's dad, who works for Yorkshire Electric, was &lt;b&gt;called out&lt;/b&gt; in the middle of the night when the power went off in Leeds city centre.</example>
                     <example>Robert was &lt;b&gt;called out&lt;/b&gt; last night to deal with a woman who had gone into premature labour</example>
                     <example>When the police got to the house they realised it was on fire and &lt;b&gt;called&lt;/b&gt; the fire brigade &lt;b&gt;out&lt;/b&gt;</example></translation>
             </translations>
@@ -2250,9 +2250,14 @@
     </Entry>
 <Entry frequency="4950000">carrot<nouns>
         <translations>
-            <translation gender="f">pastanaga</translation>
+            <translation catagory="food-vegetable" gender="f">pastanaga</translation>
         </translations>
     </nouns>
+    <expressions>carrot and stick (approach)
+        <translations>
+            <translation>estratègia (o política) de pal i pastanaga</translation>
+        </translations>
+    </expressions>
     </Entry>
 <Entry frequency="250000000">carry<verbs ie="true">
         <translations><date>0908</date>
@@ -3856,6 +3861,12 @@
             </translations>
         </expressions>
     </Entry>
+      <Entry frequency="991000">centrosome<nouns>
+			<translations><date>0114</date>
+				<translation catagory="biology" gender="m">centrosoma</translation>
+			</translations>
+		</nouns>
+	</Entry>
     <Entry frequency="7360000">centurion<nouns>
 			<translations><date>0708</date>
 				<translation gender="m">centurió</translation>
@@ -6985,6 +6996,17 @@
         </translations>
     </adjectives>
     </Entry>
+      <Entry frequency="58200000">circular<adjectives>
+			<translations><date>0114</date>
+				<translation>circular</translation>
+		</translations>
+		</adjectives>
+                <nouns>
+                    <translations>
+                        <translation gender="f">circular</translation>
+                    </translations>
+                </nouns>                    
+	</Entry>
 <Entry frequency="67500000">circulate<verbs>
         <translations><date>0512</date>
             <translation intransitive="true">[move around] circular</translation>
@@ -7496,6 +7518,12 @@
             </translations>
         </expressions>
     </Entry>
+<Entry frequency="3260000">classicism<nouns>
+			<translations><date>0114</date>
+				<translation gender="m">classicisme</translation>
+			</translations>
+		</nouns>
+	</Entry>      
 <Entry frequency="102000000">classification<nouns>
         <translations><date>0708</date>
             <translation gender="f">classificació</translation>
@@ -9991,12 +10019,9 @@
         </translations>
     </verbs>
     </Entry>
-<Entry frequency="8660000">colonnade<nouns>
-			<translations><date>0512</date>
-                            <grouptranslation>
-				<translation gender="m">pòrtic</translation>
-                                <translation gender="f">porxada / columnata</translation>
-                            </grouptranslation>
+<Entry frequency="10200000">colonnade<nouns>
+			<translations><date>0114</date>
+                                <translation catagory="architecture" gender="f">columnata</translation>
 			</translations>
 		</nouns>
 	</Entry>    
@@ -12673,6 +12698,12 @@
         </translations>
     </adjectives>
     </Entry>
+      <Entry frequency="12900000">confidentiality<nouns>
+			<translations><date>0114</date>
+				<translation gender="f">confidencialitat</translation>
+		</translations>
+		</nouns>
+	</Entry>
 <Entry frequency="2180000">confidentially<adverbs>
         <translations>
             <translation>confidencialment<synonyms>in confidence</synonyms></translation>
@@ -14685,6 +14716,12 @@
 			</translations>
 		</nouns>
 	</Entry>
+<Entry frequency="18700000">cookware<nouns>
+        <translations><date>0114</date>
+            <translation catagory="household-kitchen" gender="f">bateria de cuina</translation>
+        </translations>
+    </nouns>
+    </Entry>         
 <Entry frequency="487000000">cool<adjectives>
         <translations><date>0909</date>
             <translation>fresc</translation>
@@ -18650,6 +18687,12 @@
     <Entry frequency="4610000">cytokine<nouns>
                             <translations><date>0409</date>
                                     <translation catagory="biology" gender="m">citocina</translation>
+			</translations>
+		</nouns>
+	</Entry>
+          <Entry frequency="1280000">cytokinesis<nouns>
+			<translations><date>0114</date>
+				<translation catagory="biology" gender="f">citoquinesi</translation>
 			</translations>
 		</nouns>
 	</Entry>
