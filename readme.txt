@@ -1,1 +1,0 @@
-The dictinoary files (.dic) can be turned into html files using XSLT.  The easiest way to do this is to use ANT and the targets in the build.xml file.
