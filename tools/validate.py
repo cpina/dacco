@@ -37,7 +37,10 @@ def validate_directory(dtd_path, directory_path):
     total_files = 0
     invalid_files = 0
 
-    for file_path in glob.glob(os.path.join(directory_path, '*')):
+    files = glob.glob(os.path.join(directory_path, '*'))
+    files.sort()
+
+    for file_path in files:
         valid = validate_file(dtd_path, file_path, verbose=False)
 
         print(f'{file_path} valid {valid}')
