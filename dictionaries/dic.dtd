@@ -137,7 +137,7 @@
 <!ELEMENT prepositions (translations)*>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT acronyms (translations)*>
+<!ELEMENT acronyms (translations|catacro|engacro)*>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT mistakes (#PCDATA)>
