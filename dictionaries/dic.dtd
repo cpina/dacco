@@ -25,7 +25,7 @@
   >
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT Entry (#PCDATA|determiners|acronyms|prepositions|conjunctions|pronouns|catacro|exclamations|expressions|adverbs|adjectives|verbs|nouns)*>
+<!ELEMENT Entry (#PCDATA|determiners|acronyms|prepositions|conjunctions|pronouns|catacro|exclamations|expressions|adverbs|adjectives|verbs|nouns|abbreviations)*>
 <!ATTLIST Entry
     hasSound CDATA #IMPLIED
     frequency CDATA #IMPLIED
@@ -34,8 +34,10 @@
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT nouns (mistakes|translations)*>
 
+<!ELEMENT abbreviations (translations)*>
+
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT translations (translation|date)*>
+<!ELEMENT translations (#PCDATA|translation|date)*>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT date (#PCDATA)>
@@ -105,7 +107,7 @@
 <!ELEMENT catnote (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT exclamations (translations)*>
+<!ELEMENT exclamations (#PCDATA|translations)*>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT catacro (#PCDATA)>
