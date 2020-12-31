@@ -18,20 +18,36 @@ def print_buffered_reader(buffered_reader):
     return number_of_lines
 
 
-def validate_file(dtd_path, file_path):
+def validate_file(dtd_path, file_path, *, verbose):
     with subprocess.Popen(['xmllint', '--noout', '--dtdvalid', dtd_path, file_path],
                           stdout=subprocess.PIPE, stderr=subprocess.PIPE) as proc:
-        print_buffered_reader(proc.stdout)
-        print_buffered_reader(proc.stderr)
+        if verbose:
+            print_buffered_reader(proc.stdout)
+            print_buffered_reader(proc.stderr)
+
         proc.communicate()
-        print('Return Code:', proc.returncode)
+
+        if verbose:
+            print('Return Code:', proc.returncode)
 
         return proc.returncode == 0
 
-def validate_directory(dtd_path, directory_path):
-    for file_path in glob.glob(os.path.join(directory_path, '*')):
-        validate_file(dtd_path, file_path)
 
+def validate_directory(dtd_path, directory_path):
+    total_files = 0
+    invalid_files = 0
+
+    for file_path in glob.glob(os.path.join(directory_path, '*')):
+        valid = validate_file(dtd_path, file_path, verbose=False)
+
+        print(f'{file_path} valid {valid}')
+
+        total_files += 1
+
+        invalid_files += 1 if not valid else 0
+
+    print('Total files:', total_files)
+    print('Invalid files:', invalid_files)
 
 def validate(dtd_path, path):
     if not os.path.isfile(dtd_path):
@@ -39,8 +55,8 @@ def validate(dtd_path, path):
         sys.exit(1)
 
     if os.path.isfile(path):
-        validate_file(dtd_path, path)
-    elif os.path.isdir(dtd_path, path):
+        validate_file(dtd_path, path, verbose=True)
+    elif os.path.isdir(path):
         validate_directory(dtd_path, path)
     else:
         print(f'Make sure that {path} is a file or directory')
