@@ -43,7 +43,7 @@
 <!ELEMENT date (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT translation (#PCDATA|engacro|catnote|femplural|plural|fems|example|engexamp|catexamp|engnote|synonyms)*>
+<!ELEMENT translation (#PCDATA|engacro|catnote|femplural|plural|fems|example|engexamp|catexamp|engnote|synonyms|examples)*>
 <!ATTLIST translation
     catagory CDATA #IMPLIED
     gender CDATA #IMPLIED
@@ -81,6 +81,8 @@
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT engexamp (#PCDATA)>
+
+<!ELEMENT examples (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT example (#PCDATA)>
