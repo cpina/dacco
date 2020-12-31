@@ -76,7 +76,7 @@
 <!ELEMENT engnote (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT verbs (translations)*>
+<!ELEMENT verbs (translations|mistakes)*>
 <!ATTLIST verbs
     conj CDATA #IMPLIED
     inceptive CDATA #IMPLIED
