@@ -25,7 +25,7 @@
   >
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT Entry (#PCDATA|determiners|acronyms|prepositions|conjunctions|pronouns|catacro|exclamations|expressions|adverbs|adjectives|verbs|nouns|abbreviations)*>
+<!ELEMENT Entry (#PCDATA|determiners|acronyms|prepositions|conjunctions|pronouns|catacro|exclamations|expressions|adverbs|adjectives|verbs|nouns|abbreviations|engacro)*>
 <!ATTLIST Entry
     hasSound CDATA #IMPLIED
     frequency CDATA #IMPLIED
@@ -43,7 +43,7 @@
 <!ELEMENT date (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT translation (#PCDATA|engacro|catnote|femplural|plural|fems|example|engexamp|catexamp|engnote|synonyms|examples|beforenoun)*>
+<!ELEMENT translation (#PCDATA|engacro|catnote|femplural|plural|fems|example|engexamp|catexamp|engnote|synonyms|examples|beforenoun|otherlocal|catacro)*>
 <!ATTLIST translation
     catagory CDATA #IMPLIED
     gender CDATA #IMPLIED
@@ -64,6 +64,9 @@
     local CDATA #IMPLIED
     beforenoun CDATA #IMPLIED
     plural CDATA #IMPLIED
+    otherlocal CDATA #IMPLIED
+    engacro CDATA #IMPLIED
+    catacro CDATA #IMPLIED
   >
 
 <!--- Put your DTDDoc comment here. -->
@@ -76,6 +79,7 @@
 <!ELEMENT verbs (translations)*>
 <!ATTLIST verbs
     conj CDATA #IMPLIED
+    inceptive CDATA #IMPLIED
   >
 
 <!--- Put your DTDDoc comment here. -->
@@ -87,6 +91,8 @@
 <!ELEMENT examples (#PCDATA)>
 
 <!ELEMENT beforenoun (#PCDATA)>
+
+<!ELEMENT otherlocal (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT example (#PCDATA)>
