@@ -24,8 +24,10 @@
     xsi:noNamespaceSchemaLocation CDATA #IMPLIED
   >
 
+<!ELEMENT phrasalverbs (#PCDATA|translations)*>
+
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT Entry (#PCDATA|determiners|acronyms|prepositions|conjunctions|pronouns|catacro|exclamations|expressions|adverbs|adjectives|verbs|nouns|abbreviations|engacro|mistakes)*>
+<!ELEMENT Entry (#PCDATA|determiners|acronyms|prepositions|conjunctions|pronouns|catacro|exclamations|expressions|adverbs|adjectives|verbs|nouns|abbreviations|engacro|mistakes|phrasalverbs)*>
 <!ATTLIST Entry
     hasSound CDATA #IMPLIED
     frequency CDATA #IMPLIED
