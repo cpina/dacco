@@ -14,7 +14,6 @@ def print_buffered_reader(buffered_reader):
         print(line)
         number_of_lines += 1
 
-    print('Number of lines:', number_of_lines)
     return number_of_lines
 
 
@@ -26,9 +25,6 @@ def validate_file(dtd_path, file_path, *, verbose):
             print_buffered_reader(proc.stderr)
 
         proc.communicate()
-
-        if verbose:
-            print('Return Code:', proc.returncode)
 
         return proc.returncode == 0
 
@@ -58,7 +54,8 @@ def validate(dtd_path, path):
         sys.exit(1)
 
     if os.path.isfile(path):
-        validate_file(dtd_path, path, verbose=True)
+        valid = validate_file(dtd_path, path, verbose=True)
+        print('File is valid:', valid)
     elif os.path.isdir(path):
         validate_directory(dtd_path, path)
     else:
