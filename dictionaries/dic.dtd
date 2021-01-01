@@ -42,9 +42,13 @@
     ipa CDATA #IMPLIED
   >
 
+<!ELEMENT grouptranslation (translation)*>
+<!ATTLIST grouptranslation
+    register CDATA #IMPLIED
+  >
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT translations (#PCDATA|translation|date)*>
+<!ELEMENT translations (#PCDATA|translation|date|grouptranslation)*>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT date (#PCDATA)>
