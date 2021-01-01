@@ -33,8 +33,15 @@
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT nouns (mistakes|translations)*>
+<!ATTLIST nouns
+    ipa CDATA #IMPLIED
+  >
 
 <!ELEMENT abbreviations (translations)*>
+<!ATTLIST abbreviations
+    ipa CDATA #IMPLIED
+  >
+
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT translations (#PCDATA|translation|date)*>
@@ -80,6 +87,7 @@
 <!ATTLIST verbs
     conj CDATA #IMPLIED
     inceptive CDATA #IMPLIED
+    ipa CDATA #IMPLIED
   >
 
 <!--- Put your DTDDoc comment here. -->
@@ -99,15 +107,24 @@
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT adjectives (mistakes|translations)*>
+<!ATTLIST adjectives
+    ipa CDATA #IMPLIED
+  >
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT fems (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT adverbs (translations)*>
+<!ATTLIST adverbs
+    ipa CDATA #IMPLIED
+  >
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT expressions (#PCDATA|translations)*>
+<!ATTLIST expressions
+    ipa CDATA #IMPLIED
+  >
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT plural (#PCDATA)>
@@ -135,6 +152,9 @@
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT prepositions (translations)*>
+<!ATTLIST prepositions
+    ipa CDATA #IMPLIED
+  >
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT acronyms (translations|catacro|engacro)*>
