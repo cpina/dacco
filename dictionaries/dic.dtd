@@ -51,7 +51,7 @@
 
 <!ELEMENT verbTense (translations)*>
 
-<!ELEMENT grouptranslation (translation|synonyms|engexamp|catexamp|example|synonyms|otherlocal|engnote|disambiguate|termcat|plural)*>
+<!ELEMENT grouptranslation (translation|synonyms|engexamp|catexamp|example|synonyms|otherlocal|engnote|disambiguate|termcat|plural|catnote)*>
 <!ATTLIST grouptranslation
     register CDATA #IMPLIED
     catagory CDATA #IMPLIED
