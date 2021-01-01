@@ -24,24 +24,55 @@
     xsi:noNamespaceSchemaLocation CDATA #IMPLIED
   >
 
+<!ELEMENT phrasalverbs (#PCDATA|translations)*>
+<!ATTLIST phrasalverbs
+    intransitive CDATA #IMPLIED
+    local CDATA #IMPLIED
+    register CDATA #IMPLIED
+  >
+
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT Entry (#PCDATA|determiners|acronyms|prepositions|conjunctions|pronouns|catacro|exclamations|expressions|adverbs|adjectives|verbs|nouns)*>
+<!ELEMENT Entry (#PCDATA|determiners|acronyms|prepositions|conjunctions|pronouns|catacro|exclamations|expressions|adverbs|adjectives|verbs|nouns|abbreviations|engacro|mistakes|phrasalverbs|verbTense)*>
 <!ATTLIST Entry
     hasSound CDATA #IMPLIED
     frequency CDATA #IMPLIED
   >
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT nouns (mistakes|translations)*>
+<!ELEMENT nouns (mistakes|translations|expressions)*>
+<!ATTLIST nouns
+    ipa CDATA #IMPLIED
+  >
+
+<!ELEMENT abbreviations (translations)*>
+<!ATTLIST abbreviations
+    ipa CDATA #IMPLIED
+  >
+
+<!ELEMENT verbTense (translations)*>
+
+<!ELEMENT grouptranslation (translation|synonyms|engexamp|catexamp|example|synonyms|otherlocal|engnote|disambiguate|termcat|plural|catnote)*>
+<!ATTLIST grouptranslation
+    register CDATA #IMPLIED
+    catagory CDATA #IMPLIED
+    sourceplural CDATA #IMPLIED
+    local CDATA #IMPLIED
+    disambiguate CDATA #IMPLIED
+    termcat CDATA #IMPLIED
+  >
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT translations (translation|date)*>
+<!ELEMENT translations (#PCDATA|translation|date|grouptranslation)*>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT date (#PCDATA)>
 
+<!ELEMENT comparative (#PCDATA)>
+
+<!ELEMENT superlative (#PCDATA)>
+
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT translation (#PCDATA|engacro|catnote|femplural|plural|fems|example|engexamp|catexamp|engnote|synonyms)*>
+<!ELEMENT translation (#PCDATA|engacro|catnote|femplural|plural|fems|example|engexamp|catexamp|engnote|synonyms|examples|beforenoun|otherlocal|catacro|comparative|superlative)*>
 <!ATTLIST translation
     catagory CDATA #IMPLIED
     gender CDATA #IMPLIED
@@ -56,6 +87,17 @@
     intransitive CDATA #IMPLIED
     feminine CDATA #IMPLIED
     capitalized CDATA #IMPLIED
+    pronominal CDATA #IMPLIED
+    flickr CDATA #IMPLIED
+    picture CDATA #IMPLIED
+    local CDATA #IMPLIED
+    beforenoun CDATA #IMPLIED
+    plural CDATA #IMPLIED
+    otherlocal CDATA #IMPLIED
+    engacro CDATA #IMPLIED
+    catacro CDATA #IMPLIED
+    noteng CDATA #IMPLIED
+    general CDATA #IMPLIED
   >
 
 <!--- Put your DTDDoc comment here. -->
@@ -64,10 +106,26 @@
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT engnote (#PCDATA)>
 
+<!ELEMENT past (#PCDATA)>
+
+<!ELEMENT participle (#PCDATA)>
+
+<!ELEMENT firstPresent (#PCDATA)>
+
+<!ELEMENT secondPresent (#PCDATA)>
+
+<!ELEMENT thirdPresent (#PCDATA)>
+
+<!ELEMENT gerund (#PCDATA)>
+
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT verbs (translations)*>
+<!ELEMENT verbs (translations|mistakes|past|participle|firstPresent|secondPresent|thirdPresent|gerund)*>
 <!ATTLIST verbs
     conj CDATA #IMPLIED
+    inceptive CDATA #IMPLIED
+    ipa CDATA #IMPLIED
+    double CDATA #IMPLIED
+    ie CDATA #IMPLIED
   >
 
 <!--- Put your DTDDoc comment here. -->
@@ -76,20 +134,35 @@
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT engexamp (#PCDATA)>
 
+<!ELEMENT examples (#PCDATA)>
+
+<!ELEMENT beforenoun (#PCDATA)>
+
+<!ELEMENT otherlocal (#PCDATA)>
+
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT example (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT adjectives (translations)*>
+<!ELEMENT adjectives (mistakes|translations)*>
+<!ATTLIST adjectives
+    ipa CDATA #IMPLIED
+  >
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT fems (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT adverbs (translations)*>
+<!ELEMENT adverbs (mistakes|translations)*>
+<!ATTLIST adverbs
+    ipa CDATA #IMPLIED
+  >
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT expressions (#PCDATA|translations)*>
+<!ATTLIST expressions
+    ipa CDATA #IMPLIED
+  >
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT plural (#PCDATA)>
@@ -101,7 +174,7 @@
 <!ELEMENT catnote (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT exclamations (translations)*>
+<!ELEMENT exclamations (#PCDATA|translations)*>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT catacro (#PCDATA)>
@@ -117,9 +190,12 @@
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT prepositions (translations)*>
+<!ATTLIST prepositions
+    ipa CDATA #IMPLIED
+  >
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT acronyms (translations)*>
+<!ELEMENT acronyms (translations|catacro|engacro)*>
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT mistakes (#PCDATA)>

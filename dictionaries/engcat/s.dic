@@ -95,7 +95,7 @@
 
 	</Entry><Entry frequency="10500000">safflower<nouns><translations><date>0313</date><translation catagory="plants-flower" gender="m">càrtam</translation></translations></nouns>
                 <expressions>safflower oil
-                    <translations><translation catagor="food" gender="m">oli de càrtam</translation></translations>
+                    <translations><translation catagory="food" gender="m">oli de càrtam</translation></translations>
                 </expressions>
 	</Entry><Entry frequency="462000">saffron<nouns><translations><translation catagory="food-spice" gender="m">safrà</translation></translations></nouns>
 
@@ -1857,7 +1857,7 @@
 	</Entry><Entry frequency="3540000">Shinto<nouns><translations><date>1008</date><translation catagory="religious" gender="m">xintoisme<synonyms>Shintoism</synonyms></translation></translations></nouns>
 	</Entry><Entry frequency="219000">Shintoism<nouns><translations><date>1008</date><translation catagory="religious" gender="m">xintoisme<synonyms>Shinto</synonyms></translation></translations></nouns>
 	</Entry><Entry frequency="269000000">shiny<adjectives><translations><date>0213</date><translation>brillant</translation></translations></adjectives>
-	</Entry><Entry frequency="545000000">ship<nouns><translations><date>1007</date><translation catagory="transport-mode"><translation gender="m">vaixell</translation><translation gender="f">nau</translation></translation></translations></nouns>
+	</Entry><Entry frequency="545000000">ship<nouns><translations><date>1007</date><translation catagory="transport-mode" gender="m">vaixell</translation><translation gender="f">nau</translation></translations></nouns>
 
                 <verbs double="true"><translations><translation transitive="true">enviar / trametre</translation></translations></verbs>
 
@@ -2186,7 +2186,7 @@
 
                     </phrasalverbs>
 
-	</Entry><Entry frequency="2240000">shroud<nouns><translations><translation><translation gender="f">mortalla</translation><translation gender="m">sudari</translation></translation></translations></nouns>
+	</Entry><Entry frequency="2240000">shroud<nouns><translations><translation gender="f">mortalla</translation><translation gender="m">sudari</translation></translations></nouns>
 
                 <verbs><translations><translation transitive="true">tapar / embolicar / envoltar<engexamp>Shrouded in mystery.</engexamp><catexamp>Envoltat de misteri.</catexamp></translation></translations></verbs>
 
@@ -2505,7 +2505,7 @@
 
 	</Entry><Entry frequency="7950000">singe<verbs><translations><date>0108</date><translation transitive="true">socarrar / socarrimar</translation></translations></verbs>
 
-	</Entry><Entry frequency="9300000">singer<nouns><translations><translation catagory="work-job, entertainment-music"><translation gender="mf">cantautor</translation><translation gender="mf">cantant</translation></translation></translations></nouns>
+	</Entry><Entry frequency="9300000">singer<nouns><translations><translation catagory="work-job, entertainment-music" gender="mf">cantautor</translation><translation gender="mf">cantant</translation></translations></nouns>
 
 	</Entry><Entry frequency="122000000">singer-songwriter<nouns><translations><date>0213</date><translation catagory="entertainment-music" gender="mf">cantautor</translation></translations></nouns>
 	</Entry><Entry frequency="10500">singing<nouns><translations><translation catagory="entertainment-music" gender="m">cant</translation></translations></nouns>
@@ -3394,7 +3394,7 @@
                 <expressions>snowboard park
                     <translations><translation catagory="sports-event-snowboarding" gender="m" termcat="true">parc de surf<synonyms>snow park</synonyms></translation></translations>
                 </expressions>
-	</Entry><Entry frequency="1490000">snowboarding<nouns><translations><translation catagory="sports-event"><translation gender="m">snowboard</translation><translation gender="m">surf de neu</translation></translation></translations></nouns>
+	</Entry><Entry frequency="1490000">snowboarding<nouns><translations><translation catagory="sports-event" gender="m">snowboard</translation><translation gender="m">surf de neu</translation></translations></nouns>
 
             </Entry><Entry frequency="727000">snowfall<nouns><translations><translation catagory="weather" gender="f">nevada</translation></translations></nouns>
 
@@ -3452,7 +3452,7 @@
 
 	</Entry><Entry frequency="792000">soap opera<nouns><translations><date>0208</date><grouptranslation><translation gender="m" termcat="true">fulletó</translation><translation gender="f">telenovel·la</translation><catnote>Hi ha dues telenovel·les principals a l'Anglaterra: Eastenders (Gent del Barri), ambientada en un barri de classe obrera de Londres i Coronation Street, ambientada en un barri de classe obrera de Manchester.  Totes dues són molt populars i atrauen gairebé 18 milions de telespectadors cadascuna.  Un sondeig recent publicat per Gallup va revelar que un de cada deu britànics no sabia el nom de ningun president ni primer ministre internacional però que un de cada dos sabia el nom d'almenys un personatge d'Eastenders..</catnote></grouptranslation></translations></nouns>
 
-	</Entry><Entry frequency="2520000">soar<verbs><translations><translation intransitive="true">[prices] posar-se pels núvols / pujar ràpidament</translation><tranlation intransitive="true">[building] elevar-se</tranlation><translation intransitive="true">[bird, plane..] planar</translation></translations></verbs>
+	</Entry><Entry frequency="2520000">soar<verbs><translations><translation intransitive="true">[prices] posar-se pels núvols / pujar ràpidament</translation><translation intransitive="true">[building] elevar-se</translation><translation intransitive="true">[bird, plane..] planar</translation></translations></verbs>
 
 	</Entry><Entry frequency="7460000">sob<verbs double="true"><translations><translation intransitive="true">sanglotar</translation></translations></verbs>
 
@@ -3658,7 +3658,7 @@
 
 	</Entry><Entry frequency="1910000">soldering iron<nouns><translations><date>1007</date><translation gender="m">soldador</translation></translations></nouns>
 
-	</Entry><Entry frequency="11700000">soldier<nouns><translations><translation catagory="work-job"><translation gender="mf">soldat</translation><translation gender="mf">militar</translation></translation></translations></nouns>
+	</Entry><Entry frequency="11700000">soldier<nouns><translations><translation catagory="work-job" gender="mf">soldat</translation><translation gender="mf">militar</translation></translations></nouns>
 
 		<phrasalverbs>soldier on
 
@@ -4334,7 +4334,6 @@
 	</Entry><Entry frequency="343000">spinster<nouns><translations><translation gender="f">soltera vella</translation><translation gender="f">persona que fa madeixes</translation></translations></nouns>
 
 	</Entry><Entry frequency="22200000">spirit<nouns>
-s
                             <translations><date>0908</date><translation gender="m">esperit</translation><translation catagory="food-drink" gender="f">beguda espirituosa</translation></translations>
 
 		</nouns>
@@ -4650,7 +4649,7 @@ s
 
                 <nouns><translations><translation gender="f">discussió (trivial)</translation></translations></nouns>
 
-	</Entry><Entry frequency="12400000">squad<nouns><translations><translation catagory="sports-event-football"><translation gender="m">equip</translation><translation gender="f">selecció</translation></translation></translations></nouns>
+	</Entry><Entry frequency="12400000">squad<nouns><translations><translation catagory="sports-event-football" gender="m">equip</translation><translation gender="f">selecció</translation></translations></nouns>
 
 	</Entry><Entry frequency="13300">squaddie<nouns><translations><translation catagory="work-job" gender="mf" register="slang">soldat (de baix rang)</translation></translations></nouns>
 
@@ -4823,7 +4822,7 @@ s
 
 				</translation></translations></nouns>
 
-	</Entry><Entry frequency="138000000">staff<nouns><translations><translation disambiguate="work"><translation gender="f">plantilla</translation><translation gender="m">personal</translation></translation><translation disambiguate="entertainment-music" gender="m" local="us">pentagrama<otherlocal>stave</otherlocal></translation></translations></nouns>
+	</Entry><Entry frequency="138000000">staff<nouns><translations><translation disambiguate="work" gender="f">plantilla</translation><translation gender="m">personal</translation><translation disambiguate="entertainment-music" gender="m" local="us">pentagrama<otherlocal>stave</otherlocal></translation></translations></nouns>
 
 	</Entry><Entry frequency="790000">stag<nouns><translations><translation catagory="animal-animal" gender="m">cérvol</translation></translations></nouns>
 
@@ -6752,8 +6751,10 @@ s
 	</Entry><Entry frequency="2170000">sweet pea<nouns><translations><date>0809</date><translation disambiguate="plants-flower" gender="m">pèsol d'olor</translation><translation gender="mf">tresor<catnote>Mot usat principalment en parlar als nens (o en parlar dels nens).</catnote><example>Are you OK &lt;b&gt;sweet pea&lt;/b&gt;?</example></translation></translations></nouns>
 	</Entry><Entry frequency="16900">sweet potato<nouns><translations><translation catagory="food-vegetable" gender="m">moniato<plural>sweet potatoes</plural><synonyms>yam</synonyms></translation></translations></nouns>
 
-	</Entry><Entry frequency="846000">swell<verbs><participle>swollen</participle><translations><translation intransitive="true">inflar</translation></translations></verbs>
+	</Entry><Entry frequency="846000">swell<verbs><participle>swollen</participle><translations><translation intransitive="true">inflar</translation>
           <translation intransitive="true">augmentar</translation>
+		</translations>
+	</verbs>
           <nouns><translations><translation gender="m">onatge</translation></translations></nouns>
 
                 <adjectives><translations><translation>fantàstic</translation></translations></adjectives>
@@ -6780,7 +6781,7 @@ s
 
 	</Entry><Entry frequency="25500000">swimming<nouns><translations><translation catagory="sports-event" gender="f">natació</translation></translations></nouns>
 
-	</Entry><Entry frequency="8820">swimming cap<nouns><translations><translation catagory="sports-event-swimming"><translation gender="m">casquet de bany</translation><translation gender="f">gorra de bany</translation></translation></translations></nouns>
+	</Entry><Entry frequency="8820">swimming cap<nouns><translations><translation catagory="sports-event-swimming" gender="m">casquet de bany</translation><translation gender="f">gorra de bany</translation></translations></nouns>
 
 	</Entry><Entry frequency="20800">swimming costume<nouns><translations><translation catagory="clothes, sports-event-swimming" gender="m">banyador</translation></translations></nouns>
 
@@ -6811,7 +6812,7 @@ s
                 <expressions>to swing the balance
                     <translations><translation>fer caure / inclinar / decantar la balança<synonyms>tip the balance, tip the scales</synonyms></translation></translations>
                 </expressions>
-	</Entry><Entry frequency="500000">swinger<nouns><translations><translation notforeng="TRUE" register="slang">-<catnote>Swingers són matrimonis que, amb el consentiment dels dos cònjuges, mantenen relacions sexuals amb altres persones (molt sovint amb altres matrimonis).</catnote>
+	</Entry><Entry frequency="500000">swinger<nouns><translations><translation register="slang">-<catnote>Swingers són matrimonis que, amb el consentiment dels dos cònjuges, mantenen relacions sexuals amb altres persones (molt sovint amb altres matrimonis).</catnote>
 
 				</translation></translations></nouns>
 
