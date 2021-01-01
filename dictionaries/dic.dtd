@@ -44,9 +44,11 @@
     ipa CDATA #IMPLIED
   >
 
-<!ELEMENT grouptranslation (translation)*>
+<!ELEMENT grouptranslation (translation|synonyms)*>
 <!ATTLIST grouptranslation
     register CDATA #IMPLIED
+    catagory CDATA #IMPLIED
+    sourceplural CDATA #IMPLIED
   >
 
 <!--- Put your DTDDoc comment here. -->
@@ -95,6 +97,7 @@
     inceptive CDATA #IMPLIED
     ipa CDATA #IMPLIED
     double CDATA #IMPLIED
+    ie CDATA #IMPLIED
   >
 
 <!--- Put your DTDDoc comment here. -->
@@ -122,7 +125,7 @@
 <!ELEMENT fems (#PCDATA)>
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT adverbs (translations)*>
+<!ELEMENT adverbs (mistakes|translations)*>
 <!ATTLIST adverbs
     ipa CDATA #IMPLIED
   >
