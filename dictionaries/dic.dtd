@@ -60,8 +60,12 @@
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT date (#PCDATA)>
 
+<!ELEMENT comparative (#PCDATA)>
+
+<!ELEMENT superlative (#PCDATA)>
+
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT translation (#PCDATA|engacro|catnote|femplural|plural|fems|example|engexamp|catexamp|engnote|synonyms|examples|beforenoun|otherlocal|catacro)*>
+<!ELEMENT translation (#PCDATA|engacro|catnote|femplural|plural|fems|example|engexamp|catexamp|engnote|synonyms|examples|beforenoun|otherlocal|catacro|comparative|superlative)*>
 <!ATTLIST translation
     catagory CDATA #IMPLIED
     gender CDATA #IMPLIED
