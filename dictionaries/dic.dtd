@@ -39,7 +39,7 @@
   >
 
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT nouns (mistakes|translations)*>
+<!ELEMENT nouns (mistakes|translations|expressions)*>
 <!ATTLIST nouns
     ipa CDATA #IMPLIED
   >
