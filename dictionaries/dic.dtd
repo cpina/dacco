@@ -46,12 +46,14 @@
 
 <!ELEMENT verbTense (translations)*>
 
-<!ELEMENT grouptranslation (translation|synonyms|engexamp|catexamp|example|synonyms|otherlocal|engnote)*>
+<!ELEMENT grouptranslation (translation|synonyms|engexamp|catexamp|example|synonyms|otherlocal|engnote|disambiguate|termcat)*>
 <!ATTLIST grouptranslation
     register CDATA #IMPLIED
     catagory CDATA #IMPLIED
     sourceplural CDATA #IMPLIED
     local CDATA #IMPLIED
+    disambiguate CDATA #IMPLIED
+    termcat CDATA #IMPLIED
   >
 
 <!--- Put your DTDDoc comment here. -->
@@ -89,6 +91,7 @@
     otherlocal CDATA #IMPLIED
     engacro CDATA #IMPLIED
     catacro CDATA #IMPLIED
+    noteng CDATA #IMPLIED
   >
 
 <!--- Put your DTDDoc comment here. -->
@@ -101,8 +104,16 @@
 
 <!ELEMENT participle (#PCDATA)>
 
+<!ELEMENT firstPresent (#PCDATA)>
+
+<!ELEMENT secondPresent (#PCDATA)>
+
+<!ELEMENT thirdPresent (#PCDATA)>
+
+<!ELEMENT gerund (#PCDATA)>
+
 <!--- Put your DTDDoc comment here. -->
-<!ELEMENT verbs (translations|mistakes|past|participle)*>
+<!ELEMENT verbs (translations|mistakes|past|participle|firstPresent|secondPresent|thirdPresent|gerund)*>
 <!ATTLIST verbs
     conj CDATA #IMPLIED
     inceptive CDATA #IMPLIED
