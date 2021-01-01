@@ -18,15 +18,21 @@ def print_buffered_reader(buffered_reader):
 
 
 def validate_file(dtd_path, file_path, *, verbose):
-    with subprocess.Popen(['xmllint', '--noout', '--dtdvalid', dtd_path, file_path],
-                          stdout=subprocess.PIPE, stderr=subprocess.PIPE) as proc:
-        if verbose:
-            print_buffered_reader(proc.stdout)
-            print_buffered_reader(proc.stderr)
+    xmllint_bin = 'xmllint'
+    try:
+        proc = subprocess.Popen([xmllint_bin, '--noout', '--dtdvalid', dtd_path, file_path],
+                                stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    except FileNotFoundError:
+        print(
+            f'{xmllint_bin} needs to be available in the path. In Debian based systems is available in the package "libxml2-utils"', sys.stderr)
+        sys.exit(2)
+    if verbose:
+        print_buffered_reader(proc.stdout)
+        print_buffered_reader(proc.stderr)
 
-        proc.communicate()
+    proc.communicate()
 
-        return proc.returncode == 0
+    return proc.returncode == 0
 
 
 def validate_directory(dtd_path, directory_path):
@@ -47,6 +53,7 @@ def validate_directory(dtd_path, directory_path):
 
     print('Total files:', total_files)
     print('Invalid files:', invalid_files)
+
 
 def validate(dtd_path, path):
     if not os.path.isfile(dtd_path):
