@@ -25,6 +25,11 @@
   >
 
 <!ELEMENT phrasalverbs (#PCDATA|translations)*>
+<!ATTLIST phrasalverbs
+    intransitive CDATA #IMPLIED
+    local CDATA #IMPLIED
+    register CDATA #IMPLIED
+  >
 
 <!--- Put your DTDDoc comment here. -->
 <!ELEMENT Entry (#PCDATA|determiners|acronyms|prepositions|conjunctions|pronouns|catacro|exclamations|expressions|adverbs|adjectives|verbs|nouns|abbreviations|engacro|mistakes|phrasalverbs|verbTense)*>
