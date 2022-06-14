@@ -18,7 +18,7 @@ git cvsimport -v Publisher
 
 The branch `dacco-imported-from-sourceforge-cvs` has no changes in the files that were imported (only this README.md file)
 
-The branch `main` has further changes.
+The branch `main` has further changes: this README, fixes in XML (typos, fix sorting, fix invalid attributes, etc.).
 
 ## Credits
 Copy paste from [https://www.catalandictionary.org/en/credits/](http://www.catalandictionary.org/en/credits/): authors or contributors of the XML files found here:
@@ -37,4 +37,4 @@ Copy paste from [https://www.catalandictionary.org/en/credits/](http://www.catal
 
 ---
 
-Carles Pina i Estany (carles@pina.cat), 2020
+Carles Pina i Estany (carles@pina.cat), 2020, 2022
