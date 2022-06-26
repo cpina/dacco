@@ -3,11 +3,15 @@ DACCO stands for "Diccionari Obert Català de Codi Obert". It started around the
 
 Currently the DACCO project (that generated the files in this Github repository) seems to be unmaintained. There is [https://www.catalandictionary.org/](http://www.catalandictionary.org/) website as a Web frontend.
 
-[qdacco](https://github.com/cpina/qdacco), a maintained application, provides an interface to the dictionary (on GNU/Linux).
+DACCO provides XML files with the translations, examples, notes of usage, links, etc. and used to also provide a PDF version.
 
-DACCO provides XML files with the translations, examples, links, etc. and used to also provide a PDF version.
+## Where is DACCO used?
 
-qdacco provides a small frontend for the XML dictionaries.
+* [qdacco](https://github.com/cpina/qdacco): a maintained application, provides an interface to the dictionary (on GNU/Linux). Available on Debian, Ubuntu and other derivatives and easy to compile on GNU/Linux.
+
+* [https://www.catalandictionary.org/](http://www.catalandictionary.org/): Web frontend for online DACCO queries and downloadable PDFs.
+
+Please contact me (carles@pina.cat), create a PR or an issue, or open a dicussion if you know of any other project using DACCO data.
 
 ## Source of this repository
 This repository has been generated from the [dacco-cvs](https://github.com/cpina/dacco-cvs) repository.
