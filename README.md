@@ -7,9 +7,11 @@ DACCO provides XML files with the translations, examples, notes of usage, links,
 
 ## Where is DACCO used?
 
-* [qdacco](https://github.com/cpina/qdacco): a maintained application, provides an interface to the dictionary (on GNU/Linux). Available on Debian, Ubuntu and other derivatives and easy to compile on GNU/Linux.
+* [qdacco](https://github.com/cpina/qdacco): desktop application packaged for Debian and Ubuntu and easy to compile on other GNU/Linux distributions (and probably FreeBSD, etc.). Provides a a graphical interface to the dictionary (on GNU/Linux).
 
 * [https://www.catalandictionary.org/](http://www.catalandictionary.org/): Web frontend for online DACCO queries and downloadable PDFs.
+
+* [English-Catalan Dictionary iOS app](https://apps.apple.com/us/app/english-catalan-dictionary/id1660927078): for iPhone and iPad. Search thousands of English or Catalan words and phrases, see examples and hear pronuncation from native speakers.
 
 Please contact me (carles@pina.cat), create a PR or an issue, or open a dicussion if you know of any other project using DACCO data.
 
