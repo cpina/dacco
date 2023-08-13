@@ -5,6 +5,12 @@ Currently the DACCO project (that generated the files in this Github repository)
 
 DACCO provides XML files with the translations, examples, notes of usage, links, etc. and used to also provide a PDF version.
 
+Number of entries in DACCO files:
+ * Catalan -> English: 18,161
+ * English -> Catalan: 21,443
+
+Each entry consist at least of one translation. Often it also has examples, multiple meanings with multiple translations and other related information.
+
 ## Where is DACCO used?
 
 * [qdacco](https://github.com/cpina/qdacco): desktop application packaged for Debian and Ubuntu and easy to compile on other GNU/Linux distributions (and probably FreeBSD, etc.). Provides a a graphical interface to the dictionary (on GNU/Linux).
