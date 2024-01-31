@@ -19,6 +19,8 @@ Each entry consist at least of one translation. Often it also has examples, mult
 
 * [English-Catalan Dictionary iOS app](https://apps.apple.com/us/app/english-catalan-dictionary/id1660927078): for iPhone and iPad. Search thousands of English or Catalan words and phrases, see examples and hear pronuncation from native speakers.
 
+* [Learn Cat](https://learn.cat): app for learning Catalan that uses cutting-edge technology to provide a fun and engaging learning experience.
+
 Please contact me (carles@pina.cat), create a PR or an issue, or open a dicussion if you know of any other project using DACCO data.
 
 ## Source of this repository
