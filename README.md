@@ -19,6 +19,8 @@ Each entry consist at least of one translation. Often it also has examples, mult
 
 * [English-Catalan Dictionary iOS app](https://apps.apple.com/us/app/english-catalan-dictionary/id1660927078): for iPhone and iPad. Search thousands of English or Catalan words and phrases, see examples and hear pronuncation from native speakers.
 
+* [Softcatala: Diccionari anglès-català](https://www.softcatala.org/diccionari-angles-catala/): used as one of [their sources](https://github.com/Softcatala/diccionari-angles-catala).
+
 Please contact me (carles@pina.cat), create a PR or an issue, or open a dicussion if you know of any other project using DACCO data.
 
 ## Source of this repository
