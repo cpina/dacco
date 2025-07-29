@@ -49,6 +49,10 @@ Copy paste from [https://www.catalandictionary.org/en/credits/](http://www.catal
  * Josep M. Lopez Besora
  * Margarita Castañón
 
+### Additional sources (by kind permission)
+ * Xavier Pàmies: 'Glossari complementari del diccionari anglès-català' (Llista complementària del diccionari anglès-català de l'Enciclopèdia)'.
+ * Lou Hevly: [http://visca.com/apac/pv/phrasal-verbs.html](El diccionari de phrasal verbs traduïts al català).
+
 ---
 
 Carles Pina i Estany (carles@pina.cat), 2020, 2022
